@@ -95,7 +95,10 @@ body {
 .nav-add {
   background: var(--amber); color: #3D2A00;
   border: 1px solid var(--amber); border-radius: 5px;
-  padding: 5px 10px; font-size: 0.72rem; font-weight: 700;
+  /* Overrides .btn's 8px/16px padding and 40px min-height, which would
+     otherwise make this navbar button the same size as a page button. */
+  padding: 4px 9px; min-height: 0;
+  font-size: 0.7rem; font-weight: 700; letter-spacing: .01em;
   box-shadow: 0 1px 3px rgba(1,45,44,.30);
 }
 .nav-add:hover { background: #EFB33A; border-color: #EFB33A; }
