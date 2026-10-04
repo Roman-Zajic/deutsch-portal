@@ -92,8 +92,9 @@ body {
 /* ── WRAPPER / CARD ─────────────────────────────────── */
 .wrap {
   width: 100%; max-width: var(--wrap); margin-inline: auto;
-  padding: 14px 16px 40px; display: flex; flex-direction: column;
-  flex: 1; min-height: 0; gap: 12px;
+  /* Extra bottom room so the floating Ä button never covers a card's action icons. */
+  padding: 14px 16px calc(76px + env(safe-area-inset-bottom));
+  display: flex; flex-direction: column; flex: 1; min-height: 0; gap: 12px;
 }
 .card {
   background: var(--card); border: 1px solid var(--border);
@@ -333,7 +334,9 @@ select.input { cursor: pointer; }
 @keyframes toast-shrink { from { width: 100%; } to { width: 0%; } }
 
 /* ── GERMAN KEYBOARD ────────────────────────────────── */
-.de-kbd-widget { position: fixed; right: 16px; bottom: calc(72px + env(safe-area-inset-bottom)); z-index: 2000; }
+/* Bottom-right, but clear of card action icons which sit at the
+   card's top-right. The low offset keeps it below them. */
+.de-kbd-widget { position: fixed; right: 16px; bottom: calc(16px + env(safe-area-inset-bottom)); z-index: 2000; }
 .de-kbd-panel {
   display: none; background: var(--card); border: 1px solid var(--border);
   border-radius: var(--r); padding: 6px; box-shadow: var(--shadow-md);
