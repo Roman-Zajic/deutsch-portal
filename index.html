@@ -98,26 +98,8 @@ body {
 .btn-danger { background: transparent; color: #C41E3A; }
 .btn-danger:hover { background: rgba(196,30,58,.08); }
 
-/* ── HERO ───────────────────────────────────────────── */
-.hero { max-width: var(--wrap); margin: 0 auto; padding: 40px 16px 4px; width: 100%; }
-.hero-eyebrow {
-  font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: .1em;
-  color: var(--teal-700); margin-bottom: 8px;
-}
-.hero h1 {
-  font-size: 1.9rem; font-weight: 700; color: var(--teal-900);
-  line-height: 1.15; margin-bottom: 10px; letter-spacing: -.02em;
-}
-.hero p { font-size: 0.95rem; color: var(--muted); max-width: 56ch; line-height: 1.6; }
-@media (max-width: 480px) { .hero { padding-top: 28px; } .hero h1 { font-size: 1.6rem; } }
-
 /* ── MODULE GRID ────────────────────────────────────── */
 .wrap { max-width: var(--wrap); margin: 0 auto; padding: 24px 16px 40px; width: 100%; flex: 1; }
-.section-header {
-  font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em;
-  color: var(--teal-700); border-bottom: 1px dashed var(--border);
-  padding-bottom: 6px; margin-bottom: 14px;
-}
 .module-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; }
 @media (max-width: 560px) { .module-grid { grid-template-columns: 1fr; } }
 
@@ -190,14 +172,7 @@ body {
   </div>
 </nav>
 
-<section class="hero">
-  <div class="hero-eyebrow">Learning Portal</div>
-  <h1>Deutsch lernen</h1>
-  <p>Pick a module below. Your progress is stored as JSON in the project's GitHub repository, so it travels with you.</p>
-</section>
-
 <div class="wrap">
-  <div class="section-header">Modules</div>
   <div class="module-grid" id="moduleGrid"></div>
 </div>
 
@@ -206,7 +181,6 @@ body {
     <label for="ghToken">GitHub token</label>
     <input type="password" id="ghToken" autocomplete="off" placeholder="github_pat_…">
     <div class="modal-actions">
-      <button class="btn btn-danger" onclick="window.forgetToken()">Forget</button>
       <button class="btn btn-ghost" onclick="window.closeToken()">Cancel</button>
       <button class="btn btn-primary" onclick="window.saveToken()">Save</button>
     </div>
@@ -310,12 +284,6 @@ window.closeToken = function() { document.getElementById('tokenModal').classList
 
 window.saveToken = function() {
   setToken(document.getElementById('ghToken').value.trim());
-  window.closeToken();
-};
-
-window.forgetToken = function() {
-  setToken('');
-  document.getElementById('ghToken').value = '';
   window.closeToken();
 };
 

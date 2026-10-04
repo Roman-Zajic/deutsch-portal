@@ -89,19 +89,30 @@ body {
 .btn-danger:hover { background: #A01830; }
 .btn-sm { padding: 6px 12px; font-size: 0.78rem; min-height: 34px; }
 
-/* The Add button sits on the dark teal navbar, where the normal
-   teal-900 primary fill would be invisible against the background.
-   Give it a light solid fill with a shadow so it reads as a button. */
+/* The Add button sits on the dark teal navbar. Amber matches the
+   accent already used elsewhere in the design and, unlike the
+   teal-900 primary fill, is clearly visible against that bar. */
 .nav-add {
-  background: var(--teal-100); color: var(--teal-900);
-  border: 1px solid var(--teal-100); border-radius: 6px;
-  padding: 7px 14px; font-size: 0.8rem; font-weight: 700;
+  background: var(--amber); color: #3D2A00;
+  border: 1px solid var(--amber); border-radius: 5px;
+  padding: 5px 10px; font-size: 0.72rem; font-weight: 700;
   box-shadow: 0 1px 3px rgba(1,45,44,.30);
 }
-.nav-add:hover { background: #fff; border-color: #fff; }
+.nav-add:hover { background: #EFB33A; border-color: #EFB33A; }
 .nav-add:active { transform: translateY(1px); }
 
 /* ── WRAPPER / CARD ─────────────────────────────────── */
+/* ── Z-INDEX SCALE ─────────────────────────────────────
+   One ladder, so overlays can never fight each other:
+     10   dropdown menus, inside page content
+     20   German keyboard panel
+     50   sticky footer
+     100  sticky navbar
+     1000 modal overlay
+     1100 toasts
+   Anything that opens above page content must be inside .wrap and
+   must not sit under an ancestor with overflow:hidden.
+──────────────────────────────────────────────────────── */
 .wrap {
   width: 100%; max-width: var(--wrap); margin-inline: auto;
   padding: 14px 16px 40px; display: flex; flex-direction: column;
@@ -128,11 +139,16 @@ body {
 /* ── ACCORDION ──────────────────────────────────────── */
 .accordion {
   border: 1px solid var(--border); border-radius: var(--r);
-  overflow: hidden; background: var(--card); box-shadow: var(--shadow); flex-shrink: 0;
+  /* No overflow:hidden here — it would clip the open dropdown menus and
+     the German keyboard panel, which are absolutely positioned inside.
+     The rounded corners are kept on the trigger and body instead. */
+  background: var(--card); box-shadow: var(--shadow); flex-shrink: 0;
+  position: relative; z-index: 1;
 }
 .accordion-trigger {
   display: flex; align-items: center; justify-content: space-between; width: 100%;
   padding: 12px 16px; background: var(--card); border: none; cursor: pointer;
+  border-radius: var(--r) var(--r) 0 0;
   text-align: left; font-family: var(--font); font-size: 0.85rem; font-weight: 600;
   color: var(--muted); transition: background 130ms; min-height: 44px;
 }
@@ -140,7 +156,7 @@ body {
 .accordion-trigger[aria-expanded="true"] { background: var(--in); color: var(--text); }
 .accordion-chevron { width: 16px; height: 16px; color: var(--muted); flex-shrink: 0; transition: transform 200ms ease; }
 .accordion-trigger[aria-expanded="true"] .accordion-chevron { transform: rotate(180deg); }
-.accordion-body { display: none; padding: 0 16px 16px; background: var(--card); border-top: 1px solid var(--border); }
+.accordion-body { display: none; padding: 0 16px 16px; background: var(--card); border-top: 1px solid var(--border); border-radius: 0 0 var(--r) var(--r); }
 .accordion-body.open { display: block; }
 .accordion-inner { padding-top: 14px; display: flex; flex-direction: column; gap: 16px; }
 
@@ -180,7 +196,9 @@ select.input { cursor: pointer; }
 .multi-select-options {
   position: absolute; top: 100%; left: 0; right: 0; margin-top: 4px;
   background: var(--card); border: 1px solid var(--border); border-radius: 6px;
-  box-shadow: var(--shadow-md); z-index: 10; display: none; flex-direction: column;
+  box-shadow: var(--shadow-md); z-index: 200; display: none; flex-direction: column;
+  /* Same level as the German keyboard panel: both open over page content
+     and must clear the sticky navbar (100) and footer (50). */
   max-height: 240px; overflow-y: auto;
 }
 .multi-select.open .multi-select-options { display: flex; }
@@ -354,7 +372,9 @@ select.input { cursor: pointer; }
   background: var(--card); border: 1px solid var(--border);
   border-radius: var(--r); padding: 6px; box-shadow: var(--shadow-md);
   gap: 4px; width: 152px; flex-wrap: wrap; justify-content: center;
-  z-index: 30; animation: fadeIn 200ms ease;
+  /* Above the sticky footer (50) and navbar (100): the panel can open
+     anywhere on a long scrolling page and must never hide behind them. */
+  z-index: 200; animation: fadeIn 200ms ease;
 }
 .de-kbd-panel.active { display: flex; }
 .de-char-btn {
@@ -369,17 +389,6 @@ select.input { cursor: pointer; }
   font-size: 1rem; font-weight: 700; transition: 130ms; flex-shrink: 0;
 }
 .de-kbd-toggle:hover { background: var(--teal-700); }
-
-/* ── STATUS BAR ──────────────────────────────────────── */
-/* Sits just above the footer and carries the word count plus the
-   sync state ("saved", "unsaved", "offline"). */
-.status-bar {
-  width: 100%; max-width: var(--wrap); margin-inline: auto;
-  padding: 7px 16px; text-align: center;
-  font-size: 0.75rem; font-weight: 600; color: var(--muted);
-  background: var(--page); border-top: 1px solid var(--border);
-}
-.status-bar.error { color: #C41E3A; }
 
 /* ── FOOTER ─────────────────────────────────────────── */
 /* Sticky to the bottom of the viewport, so it stays visible while
@@ -505,8 +514,6 @@ select.input { cursor: pointer; }
 
   <div class="vocab-grid" id="vocab-grid"></div>
 </div>
-
-<div class="status-bar" id="syncStatus">Loading…</div>
 
 <footer class="footer">
   <span><strong>Vocabulary</strong></span>
