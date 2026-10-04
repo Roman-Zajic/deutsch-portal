@@ -655,8 +655,8 @@ function renderPrompt() {
       `<p>${escapeHtml(t.situation)}</p>` +
       `<p><strong>${escapeHtml(t.instruction)}</strong></p>` +
       '<div class="prompt-meta">' +
-        `<span class="chip">${escapeHtml(t.level)}</span>` +
-        `<span class="chip">${escapeHtml(t.words)} words</span>` +
+        `<span class="chip">${escapeHtml(lvl)}</span>` +
+        `<span class="chip">${escapeHtml(t.words)}</span>` +
         (t.format ? `<span class="chip amber">${escapeHtml(t.format)}</span>` : '') +
       '</div>' +
     '</div>';
