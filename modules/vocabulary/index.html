@@ -202,6 +202,10 @@ select.input { cursor: pointer; }
   max-height: 240px; overflow-y: auto;
 }
 .multi-select.open .multi-select-options { display: flex; }
+/* Flipped above the header when the menu would not fit below. */
+.multi-select.up .multi-select-options {
+  top: auto; bottom: calc(100% + 4px); margin-top: 0; margin-bottom: 4px;
+}
 .multi-select-options label {
   padding: 10px 12px; display: flex; align-items: center; gap: 8px; cursor: pointer; color: var(--text);
 }
@@ -377,6 +381,10 @@ select.input { cursor: pointer; }
   z-index: 200; animation: fadeIn 200ms ease;
 }
 .de-kbd-panel.active { display: flex; }
+/* Flipped below the button when there is not enough room above. */
+.de-kbd-panel.below {
+  bottom: auto; top: calc(100% + 8px);
+}
 .de-char-btn {
   background: var(--in); border: 1px solid var(--border); color: var(--teal-900);
   font-size: 0.95rem; font-weight: 600; border-radius: 4px;
@@ -683,11 +691,18 @@ window.toggleAccordion = function(btnId, bodyId) {
 window.toggleMultiSelect = function(id) {
   const el = document.getElementById(id);
   const wasOpen = el.classList.contains('open');
-  document.querySelectorAll('.multi-select').forEach(m => m.classList.remove('open'));
-  if (!wasOpen) el.classList.add('open');
+  document.querySelectorAll('.multi-select').forEach(m => m.classList.remove('open', 'up'));
+  el.classList.toggle('open', !wasOpen);
+  if (!wasOpen) {
+    // Flip upward if the menu would run past the bottom of the viewport,
+    // so it can never be cut off by the window edge.
+    const h = el.querySelector('.multi-select-options').offsetHeight || 200;
+    const spaceBelow = innerHeight - el.getBoundingClientRect().bottom;
+    if (spaceBelow < h + 16) el.classList.add('up');
+  }
 };
 document.addEventListener('click', e => {
-  if (!e.target.closest('.multi-select')) document.querySelectorAll('.multi-select').forEach(m => m.classList.remove('open'));
+  if (!e.target.closest('.multi-select')) document.querySelectorAll('.multi-select').forEach(m => m.classList.remove('open', 'up'));
 });
 
 window.setMode = function(mode) {
@@ -1028,10 +1043,24 @@ document.addEventListener('focusin', e => {
 });
 window.toggleDeKbd = function(e, panelId) {
   if (e) e.stopPropagation();
-  document.getElementById(panelId).classList.toggle('active');
+  const p = document.getElementById(panelId);
+  const opening = !p.classList.contains('active');
+  p.classList.toggle('active', opening);
+  if (opening) {
+    // The panel normally opens upward so it never covers the form. If the
+    // button is too close to the top of the viewport, flip it downward
+    // instead of letting it render off-screen.
+    p.classList.remove('below');
+    const btn = p.parentElement.querySelector('.de-kbd-toggle') || p.parentElement;
+    const room = btn.getBoundingClientRect().top - p.offsetHeight - 20;
+    if (room < 0) p.classList.add('below');
+  }
 };
 function closeAllKbd() {
-  document.querySelectorAll('.de-kbd-panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.de-kbd-panel').forEach(p => {
+    p.classList.remove('active');
+    p.classList.remove('below');
+  });
 }
 // Clicking anywhere outside a panel closes it.
 document.addEventListener('click', e => {
