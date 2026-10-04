@@ -1,5 +1,16 @@
 [
   {
+    "id": "1791134438044",
+    "word": "cat",
+    "translation": "cat",
+    "partOfSpeech": "Noun",
+    "article": "",
+    "level": "C2",
+    "plural": "",
+    "notes": "",
+    "examples": []
+  },
+  {
     "id": "1790777184462",
     "word": "narbe",
     "translation": "scar",
@@ -7,6 +18,7 @@
     "article": "die",
     "level": "C2",
     "plural": "",
+    "notes": "",
     "examples": []
   },
   {
@@ -17,6 +29,7 @@
     "article": "",
     "level": "B1",
     "plural": "",
+    "notes": "",
     "examples": [
       "Der Schiedsrichter musste das Spiel abpfeifen. — The referee had to whistle the end of the game.",
       "Ich kann ein Lied pfeifen. — I can whistle a song."
@@ -30,6 +43,7 @@
     "article": "",
     "level": "B2",
     "plural": "",
+    "notes": "",
     "examples": [
       "Sie flüsterten, um das Baby nicht aufzuwecken. — They whispered so as not to wake up the baby.",
       "Kannst du mir das Geheimnis flüstern? — Can you whisper the secret to me?"
@@ -43,6 +57,7 @@
     "article": "der",
     "level": "A1",
     "plural": "Schnupfen",
+    "notes": "",
     "examples": [
       "Ich habe einen starken Schnupfen. — I have a bad cold.",
       "Gegen Schnupfen hilft heißer Tee. — Hot tea helps against a runny nose."
@@ -56,6 +71,7 @@
     "article": "",
     "level": "B2",
     "plural": "",
+    "notes": "",
     "examples": [
       "Sie hat die schwierige Prüfung lässig bestanden. — She passed the difficult exam effortlessly.",
       "Der Stürmer schoss den Ball lässig ins Tor. — The striker kicked the ball easily into the goal."
@@ -69,6 +85,7 @@
     "article": "der",
     "level": "A1",
     "plural": "Köpfe",
+    "notes": "",
     "examples": [
       "Mein Kopf tut weh. — My head hurts. (I have a headache.)"
     ]
@@ -81,6 +98,7 @@
     "article": "das",
     "level": "A1",
     "plural": "Haare",
+    "notes": "",
     "examples": []
   },
   {
@@ -91,6 +109,7 @@
     "article": "das",
     "level": "A1",
     "plural": "Augen",
+    "notes": "",
     "examples": [
       "Er hat blaue Augen. — He has blue eyes."
     ]
@@ -103,6 +122,7 @@
     "article": "das",
     "level": "A1",
     "plural": "Ohren",
+    "notes": "",
     "examples": []
   },
   {
@@ -113,6 +133,7 @@
     "article": "die",
     "level": "A1",
     "plural": "Nasen",
+    "notes": "",
     "examples": []
   },
   {
@@ -123,6 +144,7 @@
     "article": "der",
     "level": "A1",
     "plural": "Münder",
+    "notes": "",
     "examples": []
   },
   {
@@ -133,6 +155,7 @@
     "article": "der",
     "level": "A1",
     "plural": "Zähne",
+    "notes": "",
     "examples": []
   },
   {
@@ -143,6 +166,7 @@
     "article": "die",
     "level": "A1",
     "plural": "Lippen",
+    "notes": "",
     "examples": []
   },
   {
@@ -153,6 +177,7 @@
     "article": "der",
     "level": "A1",
     "plural": "Hälse",
+    "notes": "",
     "examples": []
   },
   {
@@ -163,6 +188,7 @@
     "article": "die",
     "level": "A1",
     "plural": "Schultern",
+    "notes": "",
     "examples": []
   },
   {
@@ -173,6 +199,7 @@
     "article": "der",
     "level": "A1",
     "plural": "Arme",
+    "notes": "",
     "examples": []
   },
   {
@@ -183,6 +210,7 @@
     "article": "die",
     "level": "A1",
     "plural": "Hände",
+    "notes": "",
     "examples": [
       "Wasch dir die Hände! — Wash your hands!"
     ]
@@ -195,6 +223,7 @@
     "article": "der",
     "level": "A1",
     "plural": "Finger",
+    "notes": "",
     "examples": []
   },
   {
@@ -205,6 +234,7 @@
     "article": "die",
     "level": "A1",
     "plural": "Brüste",
+    "notes": "",
     "examples": []
   },
   {
@@ -215,6 +245,7 @@
     "article": "der",
     "level": "A1",
     "plural": "Bäuche",
+    "notes": "",
     "examples": [
       "Ich habe Bauchschmerzen. — I have a stomach ache."
     ]
@@ -227,6 +258,7 @@
     "article": "der",
     "level": "A1",
     "plural": "Rücken",
+    "notes": "",
     "examples": []
   },
   {
@@ -237,6 +269,7 @@
     "article": "das",
     "level": "A1",
     "plural": "Beine",
+    "notes": "",
     "examples": []
   },
   {
@@ -247,6 +280,7 @@
     "article": "das",
     "level": "A1",
     "plural": "Knie",
+    "notes": "",
     "examples": []
   },
   {
@@ -257,6 +291,7 @@
     "article": "der",
     "level": "A1",
     "plural": "Füße",
+    "notes": "",
     "examples": []
   },
   {
@@ -267,6 +302,7 @@
     "article": "der",
     "level": "A1",
     "plural": "Zehen",
+    "notes": "",
     "examples": []
   },
   {
@@ -277,6 +313,7 @@
     "article": "das",
     "level": "A1",
     "plural": "Fenster",
+    "notes": "",
     "examples": [
       "Das Fenster ist offen. — The window is open.",
       "Ich schaue aus dem Fenster. — I look out of the window."
@@ -290,6 +327,7 @@
     "article": "der",
     "level": "A1",
     "plural": "Ellbogen",
+    "notes": "",
     "examples": [
       "Ich habe den Ellbogen verletzt. — I injured my elbow.",
       "Er stützte sich auf die Ellbogen. — He leaned on his elbows."
