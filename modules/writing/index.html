@@ -102,6 +102,11 @@ body {
 .prompt-box p { font-size: 0.88rem; color: var(--muted); line-height: 1.65; margin-bottom: 8px; }
 .prompt-box p:last-child { margin-bottom: 0; }
 .prompt-meta { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; }
+.bullet-block {
+  margin-top: 10px; padding-top: 10px; border-top: 1px dashed var(--border);
+}
+.bullet-block ul { margin: 0; padding-left: 18px; }
+.bullet-block li { font-size: 0.88rem; color: var(--ink); line-height: 1.7; }
 .chip {
   font-size: 0.68rem; font-weight: 700; text-transform: uppercase; letter-spacing: .04em;
   padding: 3px 9px; border-radius: 11px;
@@ -313,299 +318,439 @@ const API_ROOT = "https://generativelanguage.googleapis.com/v1beta/models";
 const TASKS = {
   "A1": [
     {
-      id: "a1-formular",
-      label: "Formular ausfüllen — registration form",
-      title: "Anmeldung für einen Sprachkurs",
-      situation: "You want to register for a German course at the Volkshochschule. The form in front of you has five fields left blank.",
-      instruction: "Write the missing details for the five fields as a short block of text.",
-      words: "25–35 words",
-      format: "Goethe / telc / ÖSD A1",
-      source: "goethe"
+      id: "a1-formular", label: "1 · Formular ausfüllen — Anmeldung", title: "Anmeldung für einen Sprachkurs",
+      situation: "Sie möchten einen Deutschkurs bei der Volkshochschule besuchen. Im Anmeldeformular fehlen fünf Angaben.",
+      instruction: "Schreiben Sie die fehlenden Angaben als kurzen Text.",
+      bullets: ["Name und Alter", "Wohnort", "Beruf", "Sprachkenntnisse (A1 / Anfänger)", "Wunschtermin"],
+      words: "25–35 words", format: "Goethe / telc / ÖSD A1", source: "goethe"
     },
     {
-      id: "a1-mitteilung",
-      label: "Kurze Mitteilung — short message",
-      title: "E-Mail an die Touristeninformation",
-      situation: "You are staying in Dresden and write to the tourist information office.",
-      instruction: "Say why you are writing, ask about a cultural programme, and ask for addresses of suitable hotels.",
-      words: "ca. 30 words",
-      format: "Goethe / telc A1",
-      source: "goethe"
+      id: "a1-mitteilung", label: "2 · Kurze Mitteilung — E-Mail an die Touristeninformation", title: "E-Mail an die Touristeninformation",
+      situation: "Sie sind in Dresden und schreiben an die Touristeninformation.",
+      instruction: "Schreiben Sie eine kurze E-Mail.",
+      bullets: ["Warum Sie schreiben", "Welche kulturellen Programme es gibt", "Adressen von Hotels"],
+      words: "ca. 30 words", format: "Goethe / telc A1", source: "goethe"
     },
     {
-      id: "a1-osd-antwort",
-      label: "Antwort-E-Mail an eine Freundin (ÖSD)",
-      title: "Antwort auf die E-Mail einer Freundin",
-      situation: "A friend has written to you about a visit and asked which day and time suit you, how long you can stay, and who you are bringing.",
-      instruction: "Reply to her e-mail and answer all her questions.",
-      words: "ca. 30 words",
-      format: "ÖSD ZA1",
-      source: "oesd"
+      id: "a1-osd-antwort", label: "3 · Antwort-E-Mail an eine Freundin (ÖSD)", title: "Antwort auf die E-Mail einer Freundin",
+      situation: "Eine Freundin hat Ihnen geschrieben. Sie fragt Sie etwas.",
+      instruction: "Antworten Sie auf ihre E-Mail.",
+      bullets: ["Welcher Tag und welche Uhrzeit", "Wie lange Sie bleiben", "Wer mitkommt"],
+      words: "ca. 30 words", format: "ÖSD ZA1", source: "oesd"
+    },
+    {
+      id: "a1-email-freund", label: "4 · E-Mail an einen Freund", title: "E-Mail an einen Freund",
+      situation: "Ein Freund aus Deutschland hat Ihnen geschrieben und sich vorgestellt.",
+      instruction: "Schreiben Sie eine Antwort.",
+      bullets: ["Bedanken Sie sich", "Sagen Sie, wo Sie wohnen", "Sagen Sie, was Sie machen", "Nennen Sie Ihre Telefonnummer"],
+      words: "30–40 words", format: "Goethe A1 Register", source: "goethe"
+    },
+    {
+      id: "a1-termin", label: "5 · Terminabsage per E-Mail", title: "E-Mail: Termin absagen",
+      situation: "Sie können einen Termin nicht wahrnehmen.",
+      instruction: "Schreiben Sie eine kurze E-Mail.",
+      bullets: ["Sagen Sie, welchen Termin Sie absagen", "Sagen Sie warum", "Machen Sie einen neuen Vorschlag"],
+      words: "25–35 words", format: "Goethe A1 Register", source: "goethe"
+    },
+    {
+      id: "a1-werkstatt", label: "6 · E-Mail: Termin in einer Werkstatt", title: "E-Mail an eine Werkstatt",
+      situation: "Sie wollen Ihr Fahrrad reparieren lassen und schreiben an eine Werkstatt.",
+      instruction: "Schreiben Sie eine kurze E-Mail.",
+      bullets: ["Was ist defekt", "Seit wann", "Wann können Sie es bringen", "Wie viel es ungefähr kostet"],
+      words: "30–40 words", format: "Goethe A1 Register", source: "goethe"
+    },
+    {
+      id: "a1-wg", label: "7 · Anfrage an eine Wohngenossenschaft", title: "E-Mail an eine Wohngenossenschaft",
+      situation: "Sie suchen eine Wohnung und schreiben an eine Wohngenossenschaft.",
+      instruction: "Schreiben Sie eine kurze E-Mail.",
+      bullets: ["Wie viele Personen", "Welche Größe", "Wie hoch das Budget ist", "Ab wann Sie einziehen wollen"],
+      words: "30–40 words", format: "Goethe A1 Register", source: "goethe"
+    },
+    {
+      id: "a1-kurs", label: "8 · E-Mail: Informationen zu einem Kurs", title: "E-Mail an eine Volkshochschule",
+      situation: "Sie interessieren sich für einen Deutschkurs bei der Volkshochschule.",
+      instruction: "Schreiben Sie eine kurze E-Mail.",
+      bullets: ["Welchen Kurs Sie wollen", "Wann der Kurs beginnt", "Wie viel der Kurs kostet", "Ob Sie ein Zertifikat bekommen"],
+      words: "30–40 words", format: "Goethe A1 Register", source: "goethe"
+    },
+    {
+      id: "a1-freundin", label: "9 · E-Mail: Geburtstag", title: "E-Mail: Einladung zum Geburtstag",
+      situation: "Eine Freundin hat Geburtstag. Sie schreiben ihr.",
+      instruction: "Schreiben Sie eine kurze E-Mail.",
+      bullets: ["Glückwunsch", "Ob Sie kommen", "Was Sie mitbringen", "Wann Sie kommen"],
+      words: "25–35 words", format: "Goethe A1 Register", source: "goethe"
+    },
+    {
+      id: "a1-problem", label: "10 · E-Mail: Ein Problem melden", title: "E-Mail: Ein Problem melden",
+      situation: "Bei Ihnen im Hotel funktioniert etwas nicht. Sie schreiben dem Hotel.",
+      instruction: "Schreiben Sie eine kurze E-Mail.",
+      bullets: ["Was nicht funktioniert", "In welchem Zimmer", "Seit wann", "Bitte um eine Lösung"],
+      words: "30–40 words", format: "Goethe A1 Register", source: "goethe"
     }
   ],
 
   "A2": [
     {
-      id: "a2-sms",
-      label: "SMS — apology for being late",
-      title: "SMS an eine Freundin",
-      situation: "You arranged to meet a friend but you are late.",
-      instruction: "Apologise for being late, give a reason, and suggest a new place and time.",
-      words: "20–30 words",
-      format: "Goethe A2",
-      source: "goethe"
+      id: "a2-sms", label: "1 · SMS — Verspätung", title: "SMS an eine Freundin",
+      situation: "Sie haben sich mit einer Freundin verabredet, aber Sie kommen zu spät.",
+      instruction: "Schreiben Sie eine SMS.",
+      bullets: ["Entschuldigen Sie sich für die Verspätung", "Sagen Sie warum", "Schlagen Sie einen neuen Ort vor", "Schlagen Sie eine neue Uhrzeit vor"],
+      words: "20–30 words", format: "Goethe A2", source: "goethe"
     },
     {
-      id: "a2-einladung",
-      label: "E-Mail — reply to a party invitation",
-      title: "Antwort auf eine Einladung",
-      situation: "Your boss has invited you to her birthday party.",
-      instruction: "Thank her, confirm that you will come, say you are bringing someone, and ask for directions.",
-      words: "30–40 words",
-      format: "Goethe A2",
-      source: "goethe"
+      id: "a2-einladung", label: "2 · E-Mail — Antwort auf eine Einladung", title: "Antwort auf eine Einladung",
+      situation: "Ihre Chefin lädt Sie zu ihrem Geburtstag ein.",
+      instruction: "Schreiben Sie eine E-Mail.",
+      bullets: ["Bedanken Sie sich", "Sagen Sie zu", "Sagen Sie, dass Sie jemanden mitbringen", "Fragen Sie nach der Adresse"],
+      words: "30–40 words", format: "Goethe A2", source: "goethe"
     },
     {
-      id: "a2-brief",
-      label: "Brief / halbformelle E-Mail (telc)",
-      title: "Antwort auf eine Einladung zur Hochzeit",
-      situation: "You have received an invitation to a wedding and must reply.",
-      instruction: "Reply in a semi-formal e-mail, covering at least three of the four points given in the invitation.",
-      words: "ca. 40 words",
-      format: "telc A2",
-      source: "telc"
+      id: "a2-brief", label: "3 · Brief / halbformelle E-Mail (telc)", title: "Antwort auf eine Einladung zur Hochzeit",
+      situation: "Sie haben eine Einladung zu einer Hochzeit bekommen.",
+      instruction: "Schreiben Sie eine halbformelle E-Mail. Beantworten Sie mindestens drei der vier Punkte aus der Einladung.",
+      bullets: ["Danken Sie für die Einladung", "Sagen Sie zu oder ab", "Fragen Sie nach dem Geschenk", "Fragen Sie nach der Kleidung"],
+      words: "ca. 40 words", format: "telc A2", source: "telc"
     },
     {
-      id: "a2-osd-informell",
-      label: "Informelle E-Mail an eine Freundin (ÖSD)",
-      title: "Antwort-E-Mail an eine Freundin",
-      situation: "A friend has written to you and asked several questions.",
-      instruction: "Reply informally, answering every question in her e-mail and closing with a greeting.",
-      words: "ca. 50 words",
-      format: "ÖSD ZA2",
-      source: "oesd"
+      id: "a2-osd-informell", label: "4 · Informelle E-Mail an eine Freundin (ÖSD)", title: "Antwort-E-Mail an eine Freundin",
+      situation: "Eine Freundin hat Ihnen geschrieben und mehrere Fragen gestellt.",
+      instruction: "Antworten Sie informell und beantworten Sie alle ihre Fragen.",
+      bullets: ["Beantworten Sie alle Fragen aus ihrer E-Mail", "Schreiben Sie etwas über sich", "Schließen Sie mit einer Grußformel"],
+      words: "ca. 50 words", format: "ÖSD ZA2", source: "oesd"
+    },
+    {
+      id: "a2-wochenende", label: "5 · E-Mail: Wochenendplan", title: "E-Mail: Vorschlag für das Wochenende",
+      situation: "Sie schreiben einem Freund und schlagen etwas für das Wochenende vor.",
+      instruction: "Schreiben Sie eine informelle E-Mail.",
+      bullets: ["Machen Sie einen Vorschlag", "Sagen Sie, warum", "Schlagen Sie zwei Zeiten vor", "Fragen Sie, ob es passt"],
+      words: "40–50 words", format: "Goethe A2 Register", source: "goethe"
+    },
+    {
+      id: "a2-arbeitgeber", label: "6 · E-Mail an den Arbeitgeber", title: "E-Mail an den Arbeitgeber",
+      situation: "Sie haben einen Arbeitstag krank und können nicht zur Arbeit kommen.",
+      instruction: "Schreiben Sie eine kurze formelle E-Mail.",
+      bullets: ["Sagen Sie, dass Sie krank sind", "Sagen Sie, seit wann", "Sagen Sie, wie lange es dauern wird", "Sagen Sie, was mit Ihrer Arbeit ist"],
+      words: "40–50 words", format: "Goethe A2 Register", source: "goethe"
+    },
+    {
+      id: "a2-umzug", label: "7 · E-Mail: Hilfe beim Umzug", title: "E-Mail: Hilfe beim Umzug",
+      situation: "Sie ziehen um und schreiben an einen Freund.",
+      instruction: "Schreiben Sie eine informelle E-Mail.",
+      bullets: ["Sagen Sie, wann Sie umziehen", "Fragen Sie, ob er hilft", "Sagen Sie, was Sie mitbringen müssen", "Danken Sie"],
+      words: "40–50 words", format: "Goethe A2 Register", source: "goethe"
+    },
+    {
+      id: "a2-kursabsage", label: "8 · E-Mail: Kurs absagen", title: "E-Mail: Einen Kurs absagen",
+      situation: "Sie können einen Deutschkurs nicht mehr besuchen.",
+      instruction: "Schreiben Sie eine formelle E-Mail.",
+      bullets: ["Sagen Sie, welchen Kurs Sie absagen", "Sagen Sie warum", "Fragen Sie nach dem bezahlten Geld", "Danken Sie"],
+      words: "40–50 words", format: "Goethe A2 Register", source: "goethe"
+    },
+    {
+      id: "a2-wegbeschreibung", label: "9 · E-Mail: Wegbeschreibung", title: "E-Mail: Wegbeschreibung",
+      situation: "Eine Person sucht den Weg zu einem Ort in Ihrer Stadt.",
+      instruction: "Schreiben Sie eine E-Mail.",
+      bullets: ["Beschreiben Sie den Weg", "Sagen Sie, wie lange es dauert", "Sagen Sie, mit welchem Verkehrsmittel", "Geben Sie einen Tipp"],
+      words: "40–50 words", format: "Goethe A2 Register", source: "goethe"
+    },
+    {
+      id: "a2-treffpunkt", label: "10 · E-Mail: Treffpunkt vorschlagen", title: "E-Mail: Einen Treffpunkt vorschlagen",
+      situation: "Sie treffen sich mit einer Arbeitskollegin.",
+      instruction: "Schreiben Sie eine informelle E-Mail.",
+      bullets: ["Schlagen Sie einen Ort vor", "Sagen Sie warum", "Nennen Sie den Termin", "Fragen Sie ob es passt"],
+      words: "40–50 words", format: "Goethe A2 Register", source: "goethe"
     }
   ],
 
   "B1": [
     {
-      id: "b1-informell",
-      label: "Informelle E-Mail — party and gift",
-      title: "E-Mail an eine Freundin",
-      situation: "A friend has written about a party she is giving.",
-      instruction: "Describe the party, say why you could not bring the gift she wanted, and suggest when to meet next.",
-      words: "ca. 80 words",
-      format: "Goethe / ÖSD B1, Aufgabe 1",
-      source: "goethe"
+      id: "b1-informell", label: "1 · Informelle E-Mail — Party und Geschenk", title: "E-Mail an eine Freundin",
+      situation: "Eine Freundin hat Ihnen von einer Party geschrieben.",
+      instruction: "Schreiben Sie eine informelle E-Mail.",
+      bullets: ["Beschreiben Sie die Party", "Sagen Sie, warum Sie das gewünschte Geschenk nicht bringen konnten", "Schlagen Sie vor, wann Sie sich das nächste Mal treffen"],
+      words: "ca. 80 words", format: "Goethe / ÖSD B1, Aufgabe 1", source: "goethe"
     },
     {
-      id: "b1-forum",
-      label: "Diskussionsbeitrag / Forumsbeitrag",
-      title: "Beitrag in ein Online-Gästebuch",
-      situation: "In an online guestbook someone has written: „Sollten Schulen Hausaufgaben geben?“",
-      instruction: "Give your opinion on the statement, justify it, and mention your own experience.",
-      words: "ca. 80 words",
-      format: "Goethe / ÖSD B1, Aufgabe 2",
-      source: "goethe"
+      id: "b1-forum", label: "2 · Diskussionsbeitrag / Forumsbeitrag", title: "Beitrag in ein Online-Gästebuch",
+      situation: "Im Online-Gästebuch schreibt jemand: „Sollten Schulen Hausaufgaben geben?“",
+      instruction: "Schreiben Sie Ihre Meinung zu dieser Aussage.",
+      bullets: ["Sagen Sie Ihre Meinung", "Begründen Sie Ihre Meinung", "Erzählen Sie von eigener Erfahrung", "Nennen Sie ein Beispiel"],
+      words: "ca. 80 words", format: "Goethe / ÖSD B1, Aufgabe 2", source: "goethe"
     },
     {
-      id: "b1-entschuldigung",
-      label: "Kurze formelle E-Mail — apology for a missed appointment",
-      title: "E-Mail an eine Praxis",
-      situation: "You missed a medical appointment and did not cancel it.",
-      instruction: "Apologise politely in a short, fairly formal e-mail and propose a new date.",
-      words: "ca. 40 words",
-      format: "Goethe / ÖSD B1, Aufgabe 3",
-      source: "goethe"
+      id: "b1-entschuldigung", label: "3 · Kurze formelle E-Mail — Entschuldigung", title: "E-Mail an eine Praxis",
+      situation: "Sie haben einen Arzttermin verpasst und nicht abgesagt.",
+      instruction: "Schreiben Sie eine kurze, ziemlich formelle E-Mail.",
+      bullets: ["Entschuldigen Sie sich höflich", "Erklären Sie warum", "Schlagen Sie einen neuen Termin vor", "Danken Sie für Ihr Verständnis"],
+      words: "ca. 40 words", format: "Goethe / ÖSD B1, Aufgabe 3", source: "goethe"
     },
     {
-      id: "b1-telc-leitpunkte",
-      label: "Halbformelle E-Mail, 4 Leitpunkte (telc)",
-      title: "Antwort auf ein Angebot oder eine Anzeige",
-      situation: "You have seen an advertisement or received an offer and now reply to it.",
-      instruction: "Write a semi-formal e-mail as a reply, addressing four given bullet points.",
-      words: "80–100 words",
-      format: "telc B1",
-      source: "telc"
+      id: "b1-telc-leitpunkte", label: "4 · Halbformelle E-Mail, 4 Leitpunkte (telc)", title: "Antwort auf ein Angebot oder eine Anzeige",
+      situation: "Sie haben eine Anzeige gelesen oder ein Angebot bekommen und antworten darauf.",
+      instruction: "Schreiben Sie eine halbformelle E-Mail als Antwort.",
+      bullets: ["Beziehen Sie sich auf die Anzeige", "Sagen Sie warum Sie interessiert sind", "Fragen Sie nach Details", "Schlagen Sie ein Treffen vor"],
+      words: "80–100 words", format: "telc B1", source: "telc"
+    },
+    {
+      id: "b1-bericht", label: "5 · Bericht — erzählen", title: "Informelle E-Mail: Bericht über ein Erlebnis",
+      situation: "Sie erzählen einem Freund von einem Erlebnis.",
+      instruction: "Schreiben Sie eine informelle E-Mail.",
+      bullets: ["Wann und wo es war", "Was passiert ist", "Wer dabei war", "Wie es sich angefühlt hat", "Was Sie daraus gelernt haben"],
+      words: "80–100 words", format: "Goethe B1 Register", source: "goethe"
+    },
+    {
+      id: "b1-meinungsartikel", label: "6 · Meinungsartikel", title: "Artikel für die Schultzeitung",
+      situation: "Ihre Schultzeitung möchte einen Artikel zum Thema Umweltschutz.",
+      instruction: "Schreiben Sie einen kurzen Artikel.",
+      bullets: ["Nennen Sie das Problem", "Sagen Sie Ihre Meinung", "Geben Sie Gründe", "Machen Sie einen Vorschlag", "Schreiben Sie einen Schluss"],
+      words: "80–100 words", format: "Goethe B1 Register", source: "goethe"
+    },
+    {
+      id: "b1-email-vorstellung", label: "7 · E-Mail: sich vorstellen", title: "E-Mail: Sich bei einer neuen Firma vorstellen",
+      situation: "Sie haben einen neuen Job angefangen und schreiben an Ihren Chef.",
+      instruction: "Schreiben Sie eine halbformelle E-Mail.",
+      bullets: ["Stellen Sie sich vor", "Erzählen Sie von Ihrem Beruf", "Sagen Sie, warum Sie die Stelle wollen", "Fragen Sie nach Ihren Aufgaben"],
+      words: "80–100 words", format: "Goethe B1 Register", source: "goethe"
+    },
+    {
+      id: "b1-forum-handy", label: "8 · Forumsbeitrag: Handyverbot", title: "Diskussionsbeitrag: Handyverbot an Schulen",
+      situation: "In einem Online-Forum wird diskutiert: „Sollten Handys an Schulen verboten werden?“",
+      instruction: "Schreiben Sie einen Beitrag.",
+      bullets: ["Nennen Sie Ihre Position", "Begründen Sie sie", "Erzählen Sie von eigener Erfahrung", "Nennen Sie ein Gegenargument"],
+      words: "ca. 80 words", format: "Goethe B1, Aufgabe 2 Format", source: "goethe"
+    },
+    {
+      id: "b1-email-problem", label: "9 · E-Mail: ein Problem mit einer Bestellung", title: "E-Mail an ein Unternehmen",
+      situation: "Sie haben online etwas bestellt, aber es ist nicht angekommen.",
+      instruction: "Schreiben Sie eine halbformelle E-Mail.",
+      bullets: ["Beschreiben Sie das Problem", "Nennen Sie die Bestellnummer", "Fragen Sie nach dem Stand", "Verlangen Sie eine Lösung"],
+      words: "80–100 words", format: "Goethe B1 Register", source: "goethe"
+    },
+    {
+      id: "b1-email-erfahrung", label: "10 · E-Mail: Erfahrung berichten", title: "E-Mail an eine Tauschpartnerin",
+      situation: "Sie haben mit einer deutschen Freundin einen Austausch gemacht. Sie schreiben ihr.",
+      instruction: "Schreiben Sie eine informelle E-Mail.",
+      bullets: ["Berichten Sie von Ihrem Aufenthalt", "Beschreiben Sie eine Person", "Beschreiben Sie etwas Ungewöhnliches", "Sagen Sie, was Ihnen gefallen hat"],
+      words: "80–100 words", format: "Goethe B1 Register", source: "goethe"
     }
   ],
 
   "B2": [
     {
-      id: "b2-forum",
-      label: "Forumsbeitrag — opinion piece",
-      title: "Forumsbeitrag zum Thema Verpackung",
-      situation: "An internet forum is discussing plastic packaging.",
-      instruction: "Give your opinion on the topic, argue your case, and give examples from your own experience.",
-      words: "min. 150 words",
-      format: "Goethe B2, Teil 1",
-      source: "goethe"
+      id: "b2-forum", label: "1 · Forumsbeitrag — Meinungsstück", title: "Forumsbeitrag zum Thema Verpackung",
+      situation: "In einem Internetforum wird über Plastikverpackungen diskutiert.",
+      instruction: "Schreiben Sie einen Forumsbeitrag.",
+      bullets: ["Beschreiben Sie die Situation", "Nennen Sie Ihre Meinung", "Begründen Sie mit Argumenten", "Geben Sie Beispiele aus eigener Erfahrung", "Machen Sie einen Vorschlag"],
+      words: "min. 150 words", format: "Goethe B2, Teil 1", source: "goethe"
     },
     {
-      id: "b2-nachricht-chef",
-      label: "Nachricht an den Chef — workload",
-      title: "Nachricht an die Chefin",
-      situation: "Your workload has become too heavy and you need to raise it with your boss.",
-      instruction: "Ask your boss for understanding about the situation and make a concrete proposal.",
-      words: "min. 100 words",
-      format: "Goethe B2, Teil 2",
-      source: "goethe"
+      id: "b2-nachricht-chef", label: "2 · Nachricht an den Chef — Arbeitsmenge", title: "Nachricht an die Chefin",
+      situation: "Ihre Arbeitsmenge ist zu groß geworden.",
+      instruction: "Schreiben Sie eine Nachricht an Ihre Chefin.",
+      bullets: ["Beschreiben Sie die Situation", "Nennen Sie die Gründe", "Beschreiben Sie die Folgen", "Machen Sie einen konkreten Vorschlag", "Bitten Sie um ein Gespräch"],
+      words: "min. 100 words", format: "Goethe B2, Teil 2", source: "goethe"
     },
     {
-      id: "b2-telc-halbformell",
-      label: "Halbformelle E-Mail, 3 von 4 Leitpunkten (telc)",
-      title: "Antwort auf eine Werbeanzeige",
-      situation: "You have seen an advertisement from a company or office and now reply to it.",
-      instruction: "Write a semi-formal e-mail as a reply. Answer at least three of the four given bullet points.",
-      words: "min. 150 words",
-      format: "telc B2",
-      source: "telc"
+      id: "b2-telc-halbformell", label: "3 · Halbformelle E-Mail, 3 von 4 Leitpunkten (telc)", title: "Antwort auf eine Werbeanzeige",
+      situation: "Sie haben eine Werbeanzeige einer Firma gelesen.",
+      instruction: "Schreiben Sie eine halbformelle E-Mail als Antwort. Beantworten Sie mindestens drei der vier Punkte.",
+      bullets: ["Beziehen Sie sich auf die Anzeige", "Beschreiben Sie Ihre Situation", "Nennen Sie Ihre Vorteile", "Schlagen Sie ein Gespräch vor"],
+      words: "min. 150 words", format: "telc B2", source: "telc"
     },
     {
-      id: "b2-beschwerde",
-      label: "Formelle Beschwerde-E-Mail",
-      title: "Beschwerde an eine Servicestelle",
-      situation: "You have notes about a problem with a service you used.",
-      instruction: "Write a formal complaint e-mail based on your notes, including a proper salutation and closing formula.",
-      words: "ca. 120 words",
-      format: "ÖSD ZB2, Aufgabe 1",
-      source: "oesd"
+      id: "b2-beschwerde", label: "4 · Formelle Beschwerde-E-Mail", title: "Beschwerde an eine Servicestelle",
+      situation: "Sie haben Notizen zu einem Problem mit einer Dienstleistung.",
+      instruction: "Schreiben Sie eine formelle Beschwerde-E-Mail mit Anrede und Grußformel.",
+      bullets: ["Beschreiben Sie das Problem", "Nennen Sie Datum und Vertrag", "Beschreiben Sie die Folgen", "Fordern Sie eine Lösung", "Schreiben Sie förmlich"],
+      words: "ca. 120 words", format: "ÖSD ZB2, Aufgabe 1", source: "oesd"
     },
     {
-      id: "b2-osd-diskussion",
-      label: "Diskussionsbeitrag, 4 Leitpunkte (ÖSD)",
-      title: "Diskussionsbeitrag — Variante A oder B",
-      situation: "You are asked to comment on one of two given variants.",
-      instruction: "Cover the four bullet points: your opinion, your justification, your own experiences, and the situation in your country.",
-      words: "ca. 120 words",
-      format: "ÖSD ZB2, Aufgabe 2",
-      source: "oesd"
+      id: "b2-osd-diskussion", label: "5 · Diskussionsbeitrag, 4 Leitpunkte (ÖSD)", title: "Diskussionsbeitrag — Variante A oder B",
+      situation: "Ihnen stehen zwei Varianten zur Verfügung.",
+      instruction: "Bearbeiten Sie die vier Leitpunkte.",
+      bullets: ["Nennen Sie Ihre Meinung", "Begründen Sie sie", "Erzählen Sie von eigener Erfahrung", "Beschreiben Sie die Situation in Ihrem Land"],
+      words: "ca. 120 words", format: "ÖSD ZB2, Aufgabe 2", source: "oesd"
+    },
+    {
+      id: "b2-zeitung", label: "6 · Leserbrief", title: "Leserbrief an eine Zeitung",
+      situation: "Sie haben einen Artikel in der Zeitung gelesen und sind nicht einverstanden.",
+      instruction: "Schreiben Sie einen Leserbrief.",
+      bullets: ["Beziehen Sie sich auf den Artikel", "Nennen Sie Ihre Meinung", "Begründen Sie sie", "Nennen Sie ein Gegenargument", "Machen Sie einen Vorschlag"],
+      words: "min. 150 words", format: "Goethe B2 Register", source: "goethe"
+    },
+    {
+      id: "b2-bericht", label: "7 · Bericht", title: "Bericht über ein Projekt",
+      situation: "Sie haben an einem Projekt teilgenommen und schreiben einen Bericht für Ihre Firma.",
+      instruction: "Schreiben Sie einen Bericht.",
+      bullets: ["Beschreiben Sie das Projekt", "Nennen Sie den Zeitraum", "Beschreiben Sie Ihre Aufgabe", "Nennen Sie das Ergebnis", "Bewerten Sie das Ergebnis"],
+      words: "min. 150 words", format: "Goethe B2 Register", source: "goethe"
+    },
+    {
+      id: "b2-email-argument", label: "8 · E-Mail: überzeugen", title: "E-Mail: Überzeugen Sie Ihren Chef",
+      situation: "Sie möchten eine neue Software im Team einführen.",
+      instruction: "Schreiben Sie eine formelle E-Mail, die überzeugt.",
+      bullets: ["Beschreiben Sie das Problem", "Stellen Sie die Software vor", "Nennen Sie drei Vorteile", "Nennen Sie mögliche Risiken", "Bitten Sie um eine Entscheidung"],
+      words: "min. 150 words", format: "Goethe B2 Register", source: "goethe"
+    },
+    {
+      id: "b2-forum-argumentation", label: "9 · Forumsbeitrag mit Argumentation", title: "Forumsbeitrag: Arbeit und Leben",
+      situation: "In einem Forum wird diskutiert: „Sollten Unternehmen mehr Homeoffice anbieten?“",
+      instruction: "Schreiben Sie einen ausführlichen Forumsbeitrag.",
+      bullets: ["Beziehen Sie sich auf den Beitrag", "Nennen Sie Pro und Contra", "Begründen Sie Ihre Position", "Geben Sie Beispiele", "Formulieren Sie eine Schlussfolgerung"],
+      words: "min. 150 words", format: "Goethe B2, Teil 1", source: "goethe"
+    },
+    {
+      id: "b2-konzept", label: "10 · Konzeptvorschlag", title: "Konzept für eine Veranstaltung",
+      situation: "Ihre Firma möchte eine Veranstaltung organisieren.",
+      instruction: "Schreiben Sie ein Konzept.",
+      bullets: ["Nennen Sie das Ziel", "Beschreiben Sie die Zielgruppe", "Nennen Sie Ort und Termin", "Beschreiben Sie den Ablauf", "Nennen Sie das Budget"],
+      words: "min. 150 words", format: "Goethe B2 Register", source: "goethe"
     }
   ],
 
   "C1": [
     {
-      id: "c1-forum",
-      label: "Diskussionsbeitrag — Karriere & Beruf",
-      title: "Forumsbeitrag „Studieren — aber was?“",
-      situation: "In the internet forum „Karriere & Beruf“ someone has opened the discussion topic „Studieren — aber was?“",
-      instruction: "Take a clear position, argue it convincingly, and connect it to your own experience.",
-      words: "ca. 230 words",
-      format: "Goethe C1, Teil 1",
-      source: "goethe"
+      id: "c1-forum", label: "1 · Diskussionsbeitrag — Karriere & Beruf", title: "Forumsbeitrag „Studieren — aber was?“",
+      situation: "Im Internetforum „Karriere & Beruf“ wurde die Frage „Studieren — aber was?“ aufgemacht.",
+      instruction: "Nehmen Sie deutlich Stellung.",
+      bullets: ["Beziehen Sie sich auf die Ausgangsfrage", "Beziehen Sie eine klare Position", "Entwickeln Sie Argumente", "Beziehen Sie theoretische Begriffe ein", "Verknüpfen Sie mit eigener Erfahrung", "Formulieren Sie ein klares Fazit"],
+      words: "ca. 230 words", format: "Goethe C1, Teil 1", source: "goethe"
     },
     {
-      id: "c1-beschwerde",
-      label: "Nachricht / Beschwerde an die Vorgesetzte",
-      title: "Beschwerde über ein Großraumbüro",
-      situation: "Your company has moved into an open-plan office and you want to object.",
-      instruction: "Write a message of complaint to your supervisor, making your case clearly and politely.",
-      words: "ca. 120 words",
-      format: "Goethe C1, Teil 2",
-      source: "goethe"
+      id: "c1-beschwerde", label: "2 · Nachricht / Beschwerde an die Vorgesetzte", title: "Beschwerde über ein Großraumbüro",
+      situation: "Ihre Firma ist in ein Großraumbüro umgezogen.",
+      instruction: "Schreiben Sie eine Nachricht an Ihre Vorgesetzte.",
+      bullets: ["Beschreiben Sie die neue Situation konkret", "Schildern Sie die Folgen für die Arbeit", "Beziehen Sie sich auf Ihre Vorschläge", "Formulieren Sie Ihre Erwartung", "Bleiben Sie sachlich, aber bestimmt"],
+      words: "ca. 120 words", format: "Goethe C1, Teil 2", source: "goethe"
     },
     {
-      id: "c1-erörterung",
-      label: "Erörterung / Stellungnahme (telc)",
-      title: "Erörterung zu einem Thema",
-      situation: "You are given an input text containing two contradictory statements.",
-      instruction: "Take a position on the topic and argue it. Aim for a factual, well-structured text.",
-      words: "etwa 350 words",
-      format: "telc C1",
-      source: "telc"
+      id: "c1-erörterung", label: "3 · Erörterung / Stellungnahme (telc)", title: "Erörterung zu einem Thema",
+      situation: "Sie bekommen einen Inputtext mit zwei widersprüchlichen Aussagen.",
+      instruction: "Nehmen Sie Stellung und argumentieren Sie. Schreiben Sie einen Sachtext.",
+      bullets: ["Geben Sie Ihre Position klar an", "Entwickeln Sie Argumente", "Widerlegen Sie Gegenargumente", "Nutzen Sie Fachbegriffe", "Schließen Sie ab"],
+      words: "etwa 350 words", format: "telc C1", source: "telc"
     },
     {
-      id: "c1-telc-beruf",
-      label: "Erörterung zu einem Berufsthema (telc C1 Beruf)",
-      title: "Sachtext zu einem Thema aus der Arbeitswelt",
-      situation: "An input text from your professional field contains two contradictory statements.",
-      instruction: "Write a factual text (Sachtext) in which you set out your position on the contradiction.",
-      words: "etwa 350 words",
-      format: "telc C1 Beruf",
-      source: "telc"
+      id: "c1-telc-beruf", label: "4 · Erörterung zu einem Berufsthema (telc C1 Beruf)", title: "Sachtext zu einem Thema aus der Arbeitswelt",
+      situation: "Ein Inputtext aus Ihrem Berufsfeld enthält zwei widersprüchliche Aussagen.",
+      instruction: "Schreiben Sie einen Sachtext, in dem Sie zu dem Widerspruch Stellung nehmen.",
+      bullets: ["Fassen Sie den Widerspruch zusammen", "Nehmen Sie Stellung", "Begründen Sie fachlich", "Gehen Sie auf Gegenargumente ein", "Formulieren Sie eine Empfehlung"],
+      words: "etwa 350 words", format: "telc C1 Beruf", source: "telc"
     },
     {
-      id: "c1-formelles-antwortschreiben",
-      label: "Formelles Antwortschreiben (ÖSD)",
-      title: "Formelles Antwortschreiben nach Notizen",
-      situation: "You are given notes from a telephone call that you must turn into a letter.",
-      instruction: "Write a formal reply using the notes, with a salutation, closing formulas and appropriate polite forms.",
-      words: "250 words",
-      format: "ÖSD ZC1, Aufgabe 1",
-      source: "oesd"
+      id: "c1-formelles-antwortschreiben", label: "5 · Formelles Antwortschreiben (ÖSD)", title: "Formelles Antwortschreiben nach Notizen",
+      situation: "Sie haben Notizen von einem Telefonat.",
+      instruction: "Schreiben Sie einen formellen Brief nach den Notizen, mit Anrede, Schlussformeln und Höflichkeitsformen.",
+      bullets: ["Beziehen Sie sich auf das Telefonat", "Bestätigen Sie die Punkte", "Formulieren Sie förmlich", "Verlängern Sie Fristen", "Schließen Sie formell"],
+      words: "250 words", format: "ÖSD ZC1, Aufgabe 1", source: "oesd"
     },
     {
-      id: "c1-ausarbeitung",
-      label: "Schriftliche Ausarbeitung eines Referats (ÖSD)",
-      title: "Ausarbeitung zu einem Referat",
-      situation: "You have to prepare a written version of a talk, and statistics are given.",
-      instruction: "Summarise the content and interpret the statistics given.",
-      words: "min. 250 words",
-      format: "ÖSD ZC1, Aufgabe 2",
-      source: "oesd"
+      id: "c1-ausarbeitung", label: "6 · Schriftliche Ausarbeitung eines Referats (ÖSD)", title: "Ausarbeitung zu einem Referat",
+      situation: "Sie bereiten eine schriftliche Fassung eines Referats vor. Statistiken sind gegeben.",
+      instruction: "Fassen Sie zusammen und interpretieren Sie die Statistiken.",
+      bullets: ["Strukturieren Sie den Text", "Fassen Sie die Inhalte zusammen", "Beschreiben Sie die Daten", "Interpretieren Sie die Statistiken", "Ziehen Sie Schlussfolgerungen"],
+      words: "min. 250 words", format: "ÖSD ZC1, Aufgabe 2", source: "oesd"
     },
     {
-      id: "c1-stellungnahme",
-      label: "Stellungnahme zu einem Zeitungsartikel (ÖSD)",
-      title: "Stellungnahme zu einem Presseartikel",
-      situation: "You have read an article in a newspaper.",
-      instruction: "Write your comment on the article, taking a clear position.",
-      words: "min. 250 words",
-      format: "ÖSD ZC1, Aufgabe 2",
-      source: "oesd"
+      id: "c1-stellungnahme", label: "7 · Stellungnahme zu einem Zeitungsartikel", title: "Stellungnahme zu einem Presseartikel",
+      situation: "Sie haben einen Artikel in einer Zeitung gelesen.",
+      instruction: "Schreiben Sie Ihre Stellungnahme.",
+      bullets: ["Fassen Sie die These zusammen", "Nehmen Sie Stellung", "Belegen Sie mit Beispielen", "Gehen Sie auf Gegenargumente ein", "Formulieren Sie ein Fazit"],
+      words: "min. 250 words", format: "ÖSD ZC1, Aufgabe 2", source: "oesd"
+    },
+    {
+      id: "c1-buchbesprechung", label: "8 · Buchbesprechung", title: "Buchbesprechung für einen Buchblog",
+      situation: "Ein Buchblog bittet Sie um eine Rezension.",
+      instruction: "Schreiben Sie die Rezension.",
+      bullets: ["Nennen Sie das Buch und den Autor", "Fassen Sie den Inhalt zusammen", "Bewerten Sie den Stil", "Nennen Sie Ihre kritischen Punkte", "Geben Sie eine Gesamtbewertung"],
+      words: "ca. 230 words", format: "Goethe C1 Register", source: "goethe"
+    },
+    {
+      id: "c1-email-analyse", label: "9 · Kommentar zu einem Text", title: "Schriftlicher Kommentar",
+      situation: "Sie haben einen Text gelesen, der auch im Leseteil vorkam.",
+      instruction: "Schreiben Sie einen Kommentar.",
+      bullets: ["Beziehen Sie sich auf den Text", "Analysieren Sie die Argumentation", "Bewerten Sie die Rhetorik", "Nehmen Sie Stellung", "Formulieren Sie ein Fazit"],
+      words: "min. 250 words", format: "ÖSD ZC1, Aufgabe 2", source: "oesd"
+    },
+    {
+      id: "c1-forum-kontrovers", label: "10 · Diskussionsbeitrag: kontroverses Thema", title: "Forumsbeitrag zu einem kontroversen Thema",
+      situation: "In einem Forum wird über künstliche Intelligenz diskutiert.",
+      instruction: "Schreiben Sie einen Diskussionsbeitrag.",
+      bullets: ["Beziehen Sie sich auf den Forumsbeitrag", "Nennen Sie Pro und Contra", "Entwickeln Sie eine klare These", "Nutzen Sie rhetorische Mittel", "Formulieren Sie ein überzeugendes Fazit"],
+      words: "ca. 230 words", format: "Goethe C1, Teil 1", source: "goethe"
     }
   ],
 
   "C2": [
     {
-      id: "c2-leserbrief",
-      label: "Ausführlicher Leserbrief",
-      title: "Leserbrief an eine Redaktion",
-      situation: "You have read an article in a serious newspaper and want to write to the editorial team.",
-      instruction: "Write a detailed reader's letter, referring to the article in detail.",
-      words: "ca. 350 words",
-      format: "Goethe C2, Aufgabe 2",
-      source: "goethe"
+      id: "c2-leserbrief", label: "1 · Ausführlicher Leserbrief", title: "Leserbrief an eine Redaktion",
+      situation: "Sie haben einen Artikel in einer seriösen Zeitung gelesen.",
+      instruction: "Schreiben Sie einen ausführlichen Leserbrief.",
+      bullets: ["Beziehen Sie sich detailliert auf den Artikel", "Entwickeln Sie eine differenzierte Position", "Nutzen Sie anspruchsvolle Argumentationsstrukturen", "Gehen Sie auf Gegenpositionen ein", "Registrieren Sie differenziert"],
+      words: "ca. 350 words", format: "Goethe C2, Aufgabe 2", source: "goethe"
     },
     {
-      id: "c2-email",
-      label: "Ausführliche E-Mail",
-      title: "Ausführliche E-Mail",
-      situation: "You need to write at length to a private or professional contact.",
-      instruction: "Write a detailed e-mail on the given topic.",
-      words: "ca. 350 words",
-      format: "Goethe C2, Aufgabe 2",
-      source: "goethe"
+      id: "c2-email", label: "2 · Ausführliche E-Mail", title: "Ausführliche E-Mail",
+      situation: "Sie müssen ausführlich an eine private oder berufliche Kontaktperson schreiben.",
+      instruction: "Schreiben Sie eine ausführliche E-Mail.",
+      bullets: ["Gliedern Sie die E-Mail", "Entwickeln Sie Ihre Argumente ausführlich", "Berücksichtigen Sie den Empfänger", "Formulieren Sie präzise"],
+      words: "ca. 350 words", format: "Goethe C2, Aufgabe 2", source: "goethe"
     },
     {
-      id: "c2-rezension-blog",
-      label: "Buchbesprechung für ein Buchblog",
-      title: "Rezension für ein Buchblog",
-      situation: "A book blog has asked you to review a book.",
-      instruction: "Write the review, presenting the book's content and giving a clear judgement.",
-      words: "ca. 350 words",
-      format: "Goethe C2, Aufgabe 2",
-      source: "goethe"
+      id: "c2-rezension-blog", label: "3 · Buchbesprechung für ein Buchblog", title: "Rezension für ein Buchblog",
+      situation: "Ein Buchblog hat Sie gebeten, ein Buch zu besprechen.",
+      instruction: "Schreiben Sie die Rezension.",
+      bullets: ["Stellen Sie Inhalt und Autor vor", "Analysieren Sie Aufbau und Stil", "Bewerten Sie differenziert", "Ordnen Sie das Buch ein", "Formulieren Sie ein klares Urteil"],
+      words: "ca. 350 words", format: "Goethe C2, Aufgabe 2", source: "goethe"
     },
     {
-      id: "c2-rezension-forum",
-      label: "Buchbesprechung für ein Literaturforum",
-      title: "Rezension für ein Literaturforum",
-      situation: "A literature forum has asked you to review a book for its readers.",
-      instruction: "Write the review for the forum audience.",
-      words: "ca. 350 words",
-      format: "Goethe C2, Aufgabe 2",
-      source: "goethe"
+      id: "c2-rezension-forum", label: "4 · Buchbesprechung für ein Literaturforum", title: "Rezension für ein Literaturforum",
+      situation: "Ein Literaturforum bittet Sie um eine Rezension.",
+      instruction: "Schreiben Sie die Rezension für das Forum.",
+      bullets: ["Passen Sie den Ton dem Forum an", "Analysieren Sie den Text wissenschaftlich", "Ordnen Sie das Buch literarisch ein", "Urteilen Sie pointiert"],
+      words: "ca. 350 words", format: "Goethe C2, Aufgabe 2", source: "goethe"
     },
     {
-      id: "c2-integrativ",
-      label: "Integrativer Essay mit Quellenbezug (telc)",
-      title: "Essay zum Oberthema des Prüfungstags",
-      situation: "You have read and heard several texts on one overarching topic during the exam.",
-      instruction: "Write an essay on that topic. Quote the sources: either literally in quotation marks with the source, or indirectly. Mark every citation.",
-      words: "no set limit",
-      format: "telc C2",
-      source: "telc"
+      id: "c2-integrativ", label: "5 · Integrativer Essay mit Quellenbezug (telc)", title: "Essay zum Oberthema des Prüfungstags",
+      situation: "Sie haben am Prüfungstag mehrere Texte zu einem Oberthema gelesen und gehört.",
+      instruction: "Schreiben Sie einen Essay. Markieren Sie alle Quellen: wörtlich in Anführungszeichen mit Quelle oder indirekt.",
+      bullets: ["Beziehen Sie sich auf mehrere Quellen", "Zitieren Sie korrekt", "Entwickeln Sie eine These", "Argumentieren Sie differenziert", "Schließen Sie mit einem Fazit"],
+      words: "no set limit", format: "telc C2", source: "telc"
+    },
+    {
+      id: "c2-formell-argumentativ", label: "6 · Formelles argumentatives Schreiben", title: "Formeller Kommentar für eine Fachzeitschrift",
+      situation: "Eine Fachzeitschrift bittet um einen Kommentar zu einem Fachartikel.",
+      instruction: "Schreiben Sie einen formellen Kommentar.",
+      bullets: ["Fassen Sie die Argumentation präzise zusammen", "Analysieren Sie die Methodik", "Formulieren Sie eine fundierte Kritik", "Schlagen Sie eine Alternative vor"],
+      words: "ca. 350 words", format: "Goethe C2 Register", source: "goethe"
+    },
+    {
+      id: "c2-analyse", label: "7 · Textanalyse", title: "Analyse eines Fachtextes",
+      situation: "Sie erhalten einen wissenschaftlichen Fachtext.",
+      instruction: "Schreiben Sie eine Analyse des Textes.",
+      bullets: ["Analysieren Sie Aufbau und Argumentationsstruktur", "Untersuchen Sie die Rhetorik", "Bewerten Sie die Quellen", "Ordnen Sie den Text ein"],
+      words: "ca. 350 words", format: "Goethe C2 Register", source: "goethe"
+    },
+    {
+      id: "c2-rede", label: "8 · Rede / Ansprache", title: "Ansprache bei einer Feier",
+      situation: "Sie halten eine Ansprache bei einer Feier.",
+      instruction: "Schreiben Sie die Ansprache.",
+      bullets: ["Eröffnen Sie mit einem passenden Bezug", "Entwickeln Sie einen roten Faden", "Arbeiten Sie mit rhetorischen Mitteln", "Schließen Sie wirkungsvoll"],
+      words: "ca. 350 words", format: "Goethe C2 Register", source: "goethe"
+    },
+    {
+      id: "c2-beschwerde-komplex", label: "9 · Beschwerde mit Argumentation", title: "Formelle Beschwerde einer Organisation",
+      situation: "Sie arbeiten in einer Organisation und müssen formell Beschwerde einlegen.",
+      instruction: "Schreiben Sie die formelle Beschwerde.",
+      bullets: ["Schildern Sie den Sachverhalt chronologisch", "Ordnen Sie Ihre Forderungen", "Berufen Sie sich auf Grundlagen", "Formulieren Sie förmlich und bestimmt"],
+      words: "ca. 350 words", format: "Goethe C2 Register", source: "goethe"
+    },
+    {
+      id: "c2-bericht-komplex", label: "10 · Sachbericht", title: "Sachbericht über ein Vorhaben",
+      situation: "Sie berichten über ein wissenschaftliches oder betriebliches Vorhaben.",
+      instruction: "Schreiben Sie einen Sachbericht.",
+      bullets: ["Beschreiben Sie den Gegenstand", "Erklären Sie die Methodik", "Präsentieren Sie Ergebnisse", "Diskutieren Sie die Ergebnisse", "Geben Sie einen Ausblick"],
+      words: "ca. 350 words", format: "Goethe C2 Register", source: "goethe"
     }
   ]
 };
@@ -649,11 +794,16 @@ function renderPrompt() {
   const box = document.getElementById('promptBox');
   if (!t) { box.innerHTML = ''; return; }
   current = { level: lvl, task: t };
+  const bulletHtml = (t.bullets && t.bullets.length)
+    ? '<div class="bullet-block"><span class="section-label" style="margin-bottom:6px;">Write about</span><ul>' +
+      t.bullets.map(b => '<li>' + escapeHtml(b) + '</li>').join('') + '</ul></div>'
+    : '';
   box.innerHTML =
     '<div class="prompt-box">' +
       `<h2>${escapeHtml(t.title)}</h2>` +
       `<p>${escapeHtml(t.situation)}</p>` +
       `<p><strong>${escapeHtml(t.instruction)}</strong></p>` +
+      bulletHtml +
       '<div class="prompt-meta">' +
         `<span class="chip">${escapeHtml(lvl)}</span>` +
         `<span class="chip">${escapeHtml(t.words)}</span>` +
@@ -812,6 +962,19 @@ const GRADE_SCHEMA = {
 };
 
 /* ── PROMPTS ───────────────────────────────────────── */
+/* The Leitpunkte are the actual exam scaffold, so they go into both
+   prompts: the corrector must leave them alone, and the grader must
+   check whether the learner actually covered them. */
+function taskBlock(task) {
+  const bullets = (task.bullets && task.bullets.length)
+    ? '\nThe points the text should cover (Leitpunkte):\n' +
+      task.bullets.map((b, i) => `  ${i + 1}. ${b}`).join('\n')
+    : '';
+  return `Task: ${task.title}
+Situation: ${task.situation}
+Instruction: ${task.instruction}${bullets}`;
+}
+
 function correctionPrompt(task, level, text) {
   return `You are a precise German corrector working with a ${level} learner.
 
@@ -825,7 +988,7 @@ form, a category, and a one-sentence explanation of the rule in English.
 
 Also return correctedText: the complete original text with all corrections applied.
 
-The learner was asked for: ${task.title} — ${task.situation} ${task.instruction}
+${taskBlock(task)}
 
 --- LEARNER TEXT ---
 ${text}
@@ -836,11 +999,11 @@ function gradingPrompt(task, level, text) {
   return `You are a German examiner grading a ${level} writing task.
 
 Grade the text against how well it does the task, not just its grammar.
+Check whether every Leitpunkt listed below is actually addressed, and say
+plainly which ones are missing or only weakly covered.
 
-The task was: ${task.title}
-Situation: ${task.situation}
-Instruction: ${task.instruction}
-Target length: ${task.words} words
+${taskBlock(task)}
+Target length: ${task.words}
 
 Use the Goethe grading scale: 90-100 sehr gut, 80-89 gut, 70-79 befriedigend,
 60-69 ausreichend, below 60 ungenügend. Be honest but fair — grade it as a
@@ -1025,8 +1188,12 @@ function renderResults(corr, grade, level, task) {
 
 /* ── BOOT ──────────────────────────────────────────── */
 const levelSelect = document.getElementById('levelSelect');
+const taskSelect = document.getElementById('taskSelect');
 Object.keys(TASKS).forEach(lvl => levelSelect.add(new Option(lvl, lvl)));
 levelSelect.addEventListener('change', window.renderTasks);
+/* The task dropdown must repaint the prompt on its own; changing level
+   alone does not cover picking a different task at the same level. */
+taskSelect.addEventListener('change', renderPrompt);
 window.renderTasks();
 </script>
 </body>

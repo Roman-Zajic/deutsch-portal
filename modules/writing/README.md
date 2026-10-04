@@ -1,8 +1,14 @@
 # Writing module — task data and sources
 
-The task list in `index.html` is built from the **writing sections of the real German
-proficiency exams**, not invented. Every entry traces to a provider's own exam
-documentation. Research done 2026-10; re-check before treating any of it as permanent.
+**60 tasks: 10 per CEFR level (A1–C2).** Every task carries **Leitpunkte** — the bullet
+points that guide the student — because that scaffold is how the real exams work:
+telc states its bullet points explicitly (4 Leitpunkte at B1), and Goethe's tasks
+are defined by what the text must cover.
+
+Each task shows: level · target length · which exam it comes from, plus the bullets.
+
+The task list is built from the **writing sections of the real German proficiency
+exams**, not invented. Research done 2026-10; re-check before treating any of it as permanent.
 
 Providers: **Goethe-Institut** (`Schreiben`), **telc** (`Schriftlicher Ausdruck`),
 **ÖSD** (`Schreiben`). telc and ÖSD are separate exams from Goethe, and their formats
@@ -45,8 +51,15 @@ https://www.osd.at/wp-content/uploads/2025/08/ZC1-PMB-AW_s_Ver.1.0_16_07_25_WEB.
   short block of text. Same content, different input control.
 - **C2 Goethe Aufgabe 1 (Überarbeitung eines Kurzreferats) is omitted.** It is a
   10-gap reformulation, not free composition, so it does not fit a "write a text" flow.
-- **Prompts are exam-shaped, not verbatim exam papers.** The situations mirror the
-  published task types; the specific wording is written fresh.
+- **Ten tasks per level exceeds what any single exam asks for.** Each level offers
+  one or two *documented* exam formats (marked with a provider label such as
+  `Goethe B2, Teil 1` or `telc B2`), then fills the rest with **the same text sorts in
+  new situations**, marked `Goethe A1 Register` / `Goethe B2 Register`. Those are
+  practice variations built on a real register, not exam papers.
+- **Situations and bullets are written fresh**, not lifted from Modellsatz PDFs.
+- **Leitpunkte for the documented formats follow the published task content**
+  (e.g. Goethe A1 Teil 2 genuinely asks for reason + cultural programme + hotel
+  addresses). Bullet *wording* is ours.
 
 ## Known gaps
 
