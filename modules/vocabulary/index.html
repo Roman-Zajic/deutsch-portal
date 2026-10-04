@@ -694,11 +694,14 @@ window.toggleMultiSelect = function(id) {
   document.querySelectorAll('.multi-select').forEach(m => m.classList.remove('open', 'up'));
   el.classList.toggle('open', !wasOpen);
   if (!wasOpen) {
-    // Flip upward if the menu would run past the bottom of the viewport,
-    // so it can never be cut off by the window edge.
+    // The menu normally opens downward. If it would run past the bottom of
+    // the viewport, flip it above instead so it is never cut off.
     const h = el.querySelector('.multi-select-options').offsetHeight || 200;
-    const spaceBelow = innerHeight - el.getBoundingClientRect().bottom;
-    if (spaceBelow < h + 16) el.classList.add('up');
+    const b = el.getBoundingClientRect().bottom;
+    const GAP = 12;
+    const roomBelow = innerHeight - b - GAP;
+    const roomAbove = el.getBoundingClientRect().top - GAP;
+    el.classList.toggle('up', roomBelow < h && roomAbove >= h);
   }
 };
 document.addEventListener('click', e => {
@@ -1046,15 +1049,19 @@ window.toggleDeKbd = function(e, panelId) {
   const p = document.getElementById(panelId);
   const opening = !p.classList.contains('active');
   p.classList.toggle('active', opening);
-  if (opening) {
-    // The panel normally opens upward so it never covers the form. If the
-    // button is too close to the top of the viewport, flip it downward
-    // instead of letting it render off-screen.
-    p.classList.remove('below');
-    const btn = p.parentElement.querySelector('.de-kbd-toggle') || p.parentElement;
-    const room = btn.getBoundingClientRect().top - p.offsetHeight - 20;
-    if (room < 0) p.classList.add('below');
-  }
+  if (!opening) return;
+
+  // Decide which side has room, measured on the toggle button (always
+  // laid out) rather than on the panel, whose size depends on the
+  // class we are still choosing.
+  const btn = p.parentElement.querySelector('.de-kbd-toggle');
+  const b = btn.getBoundingClientRect();
+  const GAP = 8;
+  const needed = p.offsetHeight + GAP + 12;   // panel + gap + breathing room
+  const roomAbove = b.top - GAP;
+  const roomBelow = innerHeight - b.bottom - GAP;
+
+  p.classList.toggle('below', roomBelow >= needed && roomAbove < needed);
 };
 function closeAllKbd() {
   document.querySelectorAll('.de-kbd-panel').forEach(p => {
