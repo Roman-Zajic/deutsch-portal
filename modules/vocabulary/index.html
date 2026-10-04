@@ -66,6 +66,11 @@ body {
 }
 .icon-btn:hover { background: rgba(149,223,219,.22); color: var(--teal-100); }
 .icon-btn svg { width: 13px; height: 13px; fill: currentColor; }
+/* Home/house glyphs are outlines, so they need strokes rather than fill. */
+.icon-btn svg.line {
+  fill: none; stroke: currentColor; stroke-width: 2;
+  stroke-linecap: round; stroke-linejoin: round;
+}
 
 @media (max-width: 560px) {
   .nav-brand-text { font-size: 0.85rem; }
@@ -441,6 +446,9 @@ select.input { cursor: pointer; }
   <div class="nav-pipe"></div>
   <a class="nav-brand-text" href="../../">Vocabulary</a>
   <div class="nav-actions">
+    <a class="icon-btn" href="../../" title="Back to all modules" aria-label="Back to all modules">
+      <svg class="line" viewBox="0 0 24 24"><path d="M3 12l9-9 9 9"></path><path d="M5 10v10h14V10"></path></svg>
+    </a>
     <button class="btn nav-add" onclick="window.openModal()" title="Add a word">+ Add word</button>
   </div>
 </nav>
