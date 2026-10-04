@@ -1,5 +1,16 @@
 [
   {
+    "id": "1791135658734",
+    "word": "Östereich",
+    "translation": "austria",
+    "partOfSpeech": "Other",
+    "article": "",
+    "level": "C2",
+    "plural": "",
+    "notes": "",
+    "examples": []
+  },
+  {
     "id": "1791134438044",
     "word": "cat",
     "translation": "cat",
@@ -31,13 +42,13 @@
     "plural": "",
     "notes": "",
     "examples": [
-      "Der Schiedsrichter musste das Spiel abpfeifen. \u2014 The referee had to whistle the end of the game.",
-      "Ich kann ein Lied pfeifen. \u2014 I can whistle a song."
+      "Der Schiedsrichter musste das Spiel abpfeifen. — The referee had to whistle the end of the game.",
+      "Ich kann ein Lied pfeifen. — I can whistle a song."
     ]
   },
   {
     "id": "1790762038423",
-    "word": "fl\u00fcstern",
+    "word": "flüstern",
     "translation": "whisper",
     "partOfSpeech": "Verb",
     "article": "",
@@ -45,8 +56,8 @@
     "plural": "",
     "notes": "",
     "examples": [
-      "Sie fl\u00fcsterten, um das Baby nicht aufzuwecken. \u2014 They whispered so as not to wake up the baby.",
-      "Kannst du mir das Geheimnis fl\u00fcstern? \u2014 Can you whisper the secret to me?"
+      "Sie flüsterten, um das Baby nicht aufzuwecken. — They whispered so as not to wake up the baby.",
+      "Kannst du mir das Geheimnis flüstern? — Can you whisper the secret to me?"
     ]
   },
   {
@@ -59,13 +70,13 @@
     "plural": "Schnupfen",
     "notes": "",
     "examples": [
-      "Ich habe einen starken Schnupfen. \u2014 I have a bad cold.",
-      "Gegen Schnupfen hilft hei\u00dfer Tee. \u2014 Hot tea helps against a runny nose."
+      "Ich habe einen starken Schnupfen. — I have a bad cold.",
+      "Gegen Schnupfen hilft heißer Tee. — Hot tea helps against a runny nose."
     ]
   },
   {
     "id": "1790783100008",
-    "word": "l\u00e4ssig",
+    "word": "lässig",
     "translation": "effortless / easily",
     "partOfSpeech": "Adverb",
     "article": "",
@@ -73,8 +84,8 @@
     "plural": "",
     "notes": "",
     "examples": [
-      "Sie hat die schwierige Pr\u00fcfung l\u00e4ssig bestanden. \u2014 She passed the difficult exam effortlessly.",
-      "Der St\u00fcrmer schoss den Ball l\u00e4ssig ins Tor. \u2014 The striker kicked the ball easily into the goal."
+      "Sie hat die schwierige Prüfung lässig bestanden. — She passed the difficult exam effortlessly.",
+      "Der Stürmer schoss den Ball lässig ins Tor. — The striker kicked the ball easily into the goal."
     ]
   },
   {
@@ -84,10 +95,10 @@
     "partOfSpeech": "Noun",
     "article": "der",
     "level": "A1",
-    "plural": "K\u00f6pfe",
+    "plural": "Köpfe",
     "notes": "",
     "examples": [
-      "Mein Kopf tut weh. \u2014 My head hurts. (I have a headache.)"
+      "Mein Kopf tut weh. — My head hurts. (I have a headache.)"
     ]
   },
   {
@@ -111,7 +122,7 @@
     "plural": "Augen",
     "notes": "",
     "examples": [
-      "Er hat blaue Augen. \u2014 He has blue eyes."
+      "Er hat blaue Augen. — He has blue eyes."
     ]
   },
   {
@@ -143,7 +154,7 @@
     "partOfSpeech": "Noun",
     "article": "der",
     "level": "A1",
-    "plural": "M\u00fcnder",
+    "plural": "Münder",
     "notes": "",
     "examples": []
   },
@@ -154,7 +165,7 @@
     "partOfSpeech": "Noun",
     "article": "der",
     "level": "A1",
-    "plural": "Z\u00e4hne",
+    "plural": "Zähne",
     "notes": "",
     "examples": []
   },
@@ -176,7 +187,7 @@
     "partOfSpeech": "Noun",
     "article": "der",
     "level": "A1",
-    "plural": "H\u00e4lse",
+    "plural": "Hälse",
     "notes": "",
     "examples": []
   },
@@ -209,10 +220,10 @@
     "partOfSpeech": "Noun",
     "article": "die",
     "level": "A1",
-    "plural": "H\u00e4nde",
+    "plural": "Hände",
     "notes": "",
     "examples": [
-      "Wasch dir die H\u00e4nde! \u2014 Wash your hands!"
+      "Wasch dir die Hände! — Wash your hands!"
     ]
   },
   {
@@ -233,7 +244,7 @@
     "partOfSpeech": "Noun",
     "article": "die",
     "level": "A1",
-    "plural": "Br\u00fcste",
+    "plural": "Brüste",
     "notes": "",
     "examples": []
   },
@@ -244,20 +255,20 @@
     "partOfSpeech": "Noun",
     "article": "der",
     "level": "A1",
-    "plural": "B\u00e4uche",
+    "plural": "Bäuche",
     "notes": "",
     "examples": [
-      "Ich habe Bauchschmerzen. \u2014 I have a stomach ache."
+      "Ich habe Bauchschmerzen. — I have a stomach ache."
     ]
   },
   {
     "id": "1790783100025",
-    "word": "R\u00fccken",
+    "word": "Rücken",
     "translation": "back",
     "partOfSpeech": "Noun",
     "article": "der",
     "level": "A1",
-    "plural": "R\u00fccken",
+    "plural": "Rücken",
     "notes": "",
     "examples": []
   },
@@ -285,12 +296,12 @@
   },
   {
     "id": "1790783100028",
-    "word": "Fu\u00df",
+    "word": "Fuß",
     "translation": "foot",
     "partOfSpeech": "Noun",
     "article": "der",
     "level": "A1",
-    "plural": "F\u00fc\u00dfe",
+    "plural": "Füße",
     "notes": "",
     "examples": []
   },
@@ -315,8 +326,8 @@
     "plural": "Fenster",
     "notes": "",
     "examples": [
-      "Das Fenster ist offen. \u2014 The window is open.",
-      "Ich schaue aus dem Fenster. \u2014 I look out of the window."
+      "Das Fenster ist offen. — The window is open.",
+      "Ich schaue aus dem Fenster. — I look out of the window."
     ]
   },
   {
@@ -329,8 +340,8 @@
     "plural": "Ellbogen",
     "notes": "",
     "examples": [
-      "Ich habe den Ellbogen verletzt. \u2014 I injured my elbow.",
-      "Er st\u00fctzte sich auf die Ellbogen. \u2014 He leaned on his elbows."
+      "Ich habe den Ellbogen verletzt. — I injured my elbow.",
+      "Er stützte sich auf die Ellbogen. — He leaned on his elbows."
     ]
   }
 ]

@@ -359,6 +359,17 @@ select.input { cursor: pointer; }
 }
 .de-kbd-toggle:hover { background: var(--teal-700); }
 
+/* ── STATUS BAR ──────────────────────────────────────── */
+/* Sits just above the footer and carries the word count plus the
+   sync state ("saved", "unsaved", "offline"). */
+.status-bar {
+  width: 100%; max-width: var(--wrap); margin-inline: auto;
+  padding: 7px 16px; text-align: center;
+  font-size: 0.75rem; font-weight: 600; color: var(--muted);
+  background: var(--page); border-top: 1px solid var(--border);
+}
+.status-bar.error { color: #C41E3A; }
+
 /* ── FOOTER ─────────────────────────────────────────── */
 /* Sticky to the bottom of the viewport, so it stays visible while
    the word list scrolls. */
@@ -395,13 +406,7 @@ select.input { cursor: pointer; }
   <div class="nav-pipe"></div>
   <a class="nav-brand-text" href="../../">Vocabulary</a>
   <div class="nav-actions">
-    <span class="nav-stat" id="wordCount">…</span>
-    <button class="icon-btn" onclick="window.openModal()" title="Add a word">
-      <svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
-    </button>
-    <button class="icon-btn" onclick="window.openSettings()" title="GitHub sync settings">
-      <svg viewBox="0 0 24 24"><path d="M12.65 10C11.83 7.67 9.61 6 7 6c-3.31 0-6 2.69-6 6s2.69 6 6 6c2.61 0 4.83-1.67 5.65-4H17v4h4v-4h2v-4H12.65zM7 14c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"/></svg>
-    </button>
+    <button class="btn btn-primary btn-sm" onclick="window.openModal()" title="Add a word">+ Add word</button>
   </div>
 </nav>
 
@@ -492,6 +497,8 @@ select.input { cursor: pointer; }
   <div class="vocab-grid" id="vocab-grid"></div>
 </div>
 
+<div class="status-bar" id="syncStatus">Loading…</div>
+
 <footer class="footer">
   <span><strong>Vocabulary</strong></span>
   <span class="footer-dot">·</span>
@@ -570,46 +577,6 @@ select.input { cursor: pointer; }
     <div class="modal-footer">
       <button class="btn btn-secondary" onclick="window.closeModal()">Cancel</button>
       <button class="btn btn-primary" onclick="window.saveWord()">Save Word</button>
-    </div>
-  </div>
-</div>
-
-<div class="modal-overlay" id="settingsModal" onclick="if(event.target === this) window.closeSettings()">
-  <div class="modal-card">
-    <div class="modal-header">
-      <span>Save to GitHub</span>
-      <button class="modal-close" onclick="window.closeSettings()">&times;</button>
-    </div>
-    <div class="modal-body">
-      <div class="notice">
-        Words load from <strong>data/vocabulary.json</strong> in this repository — no token needed to read.
-        To save your changes back you need a token with <strong>Contents: read &amp; write</strong> on this repo.
-        It is kept in this browser's memory only, and never written into the page.
-      </div>
-      <div class="form-group">
-        <label class="field-label">Personal Access Token</label>
-        <input type="password" id="setToken" class="input" placeholder="Paste your token…" autocomplete="off">
-      </div>
-      <div class="grid-2">
-        <div class="form-group">
-          <label class="field-label">Repository</label>
-          <input type="text" id="setRepo" class="input">
-        </div>
-        <div class="form-group">
-          <label class="field-label">Branch</label>
-          <input type="text" id="setBranch" class="input">
-        </div>
-      </div>
-      <div class="form-group">
-        <label class="field-label">File path</label>
-        <input type="text" id="setPath" class="input">
-      </div>
-    </div>
-    <div class="modal-footer">
-      <button class="btn btn-danger btn-sm" onclick="window.clearSettings()" style="margin-right:auto;">Forget token</button>
-      <button class="btn btn-secondary btn-sm" onclick="window.discardDraft()" style="margin-right:auto;">Discard unsaved</button>
-      <button class="btn btn-secondary" onclick="window.closeSettings()">Cancel</button>
-      <button class="btn btn-primary" onclick="window.saveSettings()">Save &amp; Reload</button>
     </div>
   </div>
 </div>
@@ -723,18 +690,42 @@ window.updateFilters = function() {
 };
 
 function setStatus(msg, isError) {
-  const el = document.getElementById('wordCount');
+  const el = document.getElementById('syncStatus');
+  if (!el) return;
   el.textContent = msg;
-  el.style.color = isError ? '#ff9a9a' : 'var(--teal-100)';
+  el.classList.toggle('error', !!isError);
 }
 
 /* ── LOAD (anonymous — no token required) ────────────── */
+/* Read the word list.
+
+   IMPORTANT: raw.githubusercontent.com caches for up to 5 minutes, so a
+   delete or edit can look like it bounced back for several minutes even
+   though the write to GitHub succeeded. When a token is available we read
+   through the Contents API instead, which is never stale; the raw CDN is
+   only used for the anonymous, token-less case.
+───────────────────────────────────────────────────────── */
+async function fetchWords() {
+  if (hasToken()) {
+    const r = await fetch(`https://api.github.com/repos/${GH_REPO}/contents/${GH_PATH}?ref=${GH_BRANCH}&t=${Date.now()}`, {
+      headers: { 'Authorization': `Bearer ${GH_TOKEN}`, 'Accept': 'application/vnd.github+json', 'Cache-Control': 'no-cache' }
+    });
+    if (r.ok) {
+      const d = await r.json();
+      const bytes = Uint8Array.from(atob(d.content.replace(/\n/g, '')), c => c.charCodeAt(0));
+      return JSON.parse(new TextDecoder().decode(bytes));
+    }
+    throw new Error('API ' + r.status);
+  }
+  const res = await fetch(rawUrl() + '?t=' + Date.now());
+  if (!res.ok) throw new Error('HTTP ' + res.status);
+  return JSON.parse(await res.text());
+}
+
 async function loadData() {
   setStatus("Loading…");
   try {
-    const res = await fetch(rawUrl() + '?t=' + Date.now());
-    if (!res.ok) throw new Error('HTTP ' + res.status);
-    const remote = JSON.parse(await res.text());
+    const remote = await fetchWords();
     if (!Array.isArray(remote)) throw new Error('not an array');
 
     // Unsaved local edits win over the repo copy, so nothing is lost.
@@ -757,7 +748,8 @@ async function loadData() {
     window.renderGrid();
     const n = window.vocabList.length;
     if (draft) setStatus(n + ' words · unsaved');
-    else setStatus(n + (n === 1 ? ' word' : ' words'));
+    else if (!hasToken()) setStatus(n + ' words · read-only (no token)');
+    else setStatus(n + ' words · synced');
   } catch (e) {
     const draft = readDraft();
     if (draft) {
@@ -779,8 +771,7 @@ async function saveToGitHub(silent) {
   if (!hasToken()) {
     // No token: the edits are already safe in localStorage. Just say so.
     if (!silent) {
-      window.openSettings();
-      window.toast('info', 'Saved on this device', 'Add a token to also save to GitHub.');
+      window.toast('info', 'Saved on this device', 'Set a token on the home page to also save to GitHub.');
     }
     return false;
   }
@@ -826,30 +817,10 @@ async function saveToGitHub(silent) {
   return false;
 }
 
-/* ── SAVE MODAL ──────────────────────────────────────── */
-window.openSettings = function() {
-  document.getElementById('setToken').value  = GH_TOKEN;
-  document.getElementById('setRepo').value   = GH_REPO;
-  document.getElementById('setBranch').value = GH_BRANCH;
-  document.getElementById('setPath').value   = GH_PATH;
-  document.getElementById('settingsModal').classList.add('open');
-};
-window.closeSettings = function() { document.getElementById('settingsModal').classList.remove('open'); };
-window.saveSettings = function() {
-  const c = {
-    token:  document.getElementById('setToken').value.trim(),
-    repo:   document.getElementById('setRepo').value.trim() || REPO,
-    branch: document.getElementById('setBranch').value.trim() || BRANCH,
-    path:   document.getElementById('setPath').value.trim() || DATA_PATH
-  };
-  saveCfg(c); closeSettings();
-  loadData();
-  window.toast('success', 'Saved', 'Reading from ' + c.repo + '/' + c.path);
-};
-window.clearSettings = function() {
-  if (!confirm("Forget the stored token on this device?")) return;
-  localStorage.removeItem(CFG_KEY); GH_TOKEN = ""; closeSettings();
-  window.toast('info', 'Token forgotten', 'You can still read and edit; saving needs a token again.');
+/* Settings live on the portal home page, so one token serves every
+   module. This module only reads what that page stored. */
+window.gotoSettings = function() {
+  window.location.href = '../../#settings';
 };
 
 /* ── CARD ACTIONS ────────────────────────────────────── */
@@ -1019,7 +990,6 @@ window.discardDraft = function() {
   if (!confirm('Discard unsaved changes on this device and reload the saved list?')) return;
   clearDraft();
   dirty = false;
-  window.closeSettings();
   loadData();
 };
 
