@@ -141,9 +141,13 @@ body {
   border: 1px solid var(--border); border-radius: var(--r);
   /* No overflow:hidden here — it would clip the open dropdown menus and
      the German keyboard panel, which are absolutely positioned inside.
-     The rounded corners are kept on the trigger and body instead. */
+     The rounded corners are kept on the trigger and body instead.
+     Deliberately NO z-index: any value here would create a stacking
+     context and trap the dropdowns (z:200) inside it, where they could
+     never rise above the sticky navbar (z:100). The accordion sits above
+     the cards in layout order, so it needs none. */
   background: var(--card); box-shadow: var(--shadow); flex-shrink: 0;
-  position: relative; z-index: 1;
+  position: relative;
 }
 .accordion-trigger {
   display: flex; align-items: center; justify-content: space-between; width: 100%;
@@ -196,9 +200,9 @@ select.input { cursor: pointer; }
 .multi-select-options {
   position: absolute; top: 100%; left: 0; right: 0; margin-top: 4px;
   background: var(--card); border: 1px solid var(--border); border-radius: 6px;
-  box-shadow: var(--shadow-md); z-index: 200; display: none; flex-direction: column;
-  /* Same level as the German keyboard panel: both open over page content
-     and must clear the sticky navbar (100) and footer (50). */
+  box-shadow: var(--shadow-md); z-index: 300; display: none; flex-direction: column;
+  /* Above the sticky navbar (100), footer (50) and umlaut panel (200).
+     Nothing on this page may cover an open menu. */
   max-height: 240px; overflow-y: auto;
 }
 .multi-select.open .multi-select-options { display: flex; }
