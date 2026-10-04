@@ -1,0 +1,1136 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vocabulary Studio</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --font:         "Segoe UI", system-ui, -apple-system, sans-serif;
+  --teal-900:     #005A5A;
+  --teal-700:     #008282;
+  --teal-400:     #50C1C1;
+  --teal-100:     #95DFDB;
+  --amber:        #E1A01E;
+  --red:          #C41E3A;
+  --ink:          #012D2C;
+  --text:         #005A5A;
+  --text-muted:   #008282;
+  --surface-page: #F0FAFA;
+  --surface-card: #FFFFFF;
+  --surface-in:   #F0FAFA;
+  --border:       #D0ECEB;
+  --shadow:       0 1px 4px rgba(1,45,44,.10);
+  --shadow-md:    0 4px 14px rgba(1,45,44,.12);
+  --r:            8px;
+  --nav-h:        48px;
+  --wrap:         1040px;
+}
+[data-theme="dark"] {
+  --text:         #95DFDB;
+  --text-muted:   #50C1C1;
+  --surface-page: #012D2C;
+  --surface-card: #032F2E;
+  --surface-in:   #021E1E;
+  --border:       #0A5050;
+  --shadow:       0 4px 14px rgba(0,0,0,.40);
+  --shadow-md:    0 6px 20px rgba(0,0,0,.50);
+  --amber-wash:   rgba(225,160,30,.14);
+}
+
+html { font-size: 16px; scroll-behavior: smooth; }
+body {
+  font-family: var(--font);
+  font-size: 0.9375rem;
+  color: var(--text);
+  background: var(--surface-page);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  transition: background 200ms, color 200ms;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+/* ── NAVBAR ─────────────────────────────────────────── */
+.navbar {
+  display: flex; align-items: center; height: var(--nav-h); padding: 0 28px;
+  background: var(--teal-900);
+  border-bottom: 1px solid rgba(149,223,219,.15);
+  position: sticky; top: 0; z-index: 100; flex-shrink: 0;
+}
+.brand-icon { display: flex; align-items: center; text-decoration: none; }
+.nav-pipe { width: 1px; height: 16px; background: rgba(149,223,219,.30); margin: 0 12px; }
+.nav-brand-text { font-size: 1rem; font-weight: 600; color: var(--teal-100); text-decoration: none; }
+.nav-links-right { margin-left: auto; display: flex; align-items: center; gap: 10px; }
+
+.nav-stat {
+  font-size: 0.75rem; font-weight: 600; color: var(--teal-100);
+  padding: 5px 10px; border-radius: 12px;
+  background: rgba(149,223,219,.12); border: 1px solid rgba(149,223,219,.22);
+  white-space: nowrap;
+}
+
+.icon-btn {
+  font-family: var(--font); font-size: 0.8125rem; font-weight: 500;
+  color: rgba(149,223,219,.85);
+  background: rgba(149,223,219,.12);
+  border: 1px solid rgba(149,223,219,.22);
+  border-radius: 4px; padding: 5px 8px; cursor: pointer;
+  display: inline-flex; align-items: center; justify-content: center; gap: 5px;
+  transition: 130ms; white-space: nowrap;
+}
+.icon-btn:hover { background: rgba(149,223,219,.22); border-color: rgba(149,223,219,.40); color: var(--teal-100); }
+.icon-btn svg { width: 14px; height: 14px; fill: currentColor; }
+
+/* ── BUTTONS (shared with Assistant) ────────────────── */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+  font-family: var(--font); font-size: 0.875rem; font-weight: 600;
+  padding: 8px 18px; border-radius: 6px; border: 1px solid transparent;
+  cursor: pointer; white-space: nowrap; flex-shrink: 0;
+  transition: background 130ms, border-color 130ms, opacity 130ms;
+}
+.btn:active { opacity: .88; }
+.btn-primary { background: var(--teal-900); color: #fff; border-color: var(--teal-900); }
+.btn-primary:hover { background: var(--teal-700); border-color: var(--teal-700); }
+.btn-secondary { background: transparent; color: var(--teal-900); border-color: var(--teal-900); }
+.btn-secondary:hover { background: rgba(0,90,90,.05); }
+.btn-danger { background: var(--red); color: #fff; border-color: var(--red); }
+.btn-danger:hover { background: #A01830; }
+.btn-sm { padding: 5px 12px; font-size: 0.75rem; }
+[data-theme="dark"] .btn-secondary { color: var(--teal-100); }
+[data-theme="dark"] .btn-primary { background: var(--teal-400); color: var(--ink); border-color: var(--teal-400); }
+[data-theme="dark"] .btn-primary:hover { background: var(--teal-100); border-color: var(--teal-100); }
+
+/* ── WRAPPER / CARD ─────────────────────────────────── */
+.wrap {
+  width: 100%; max-width: var(--wrap); margin-inline: auto;
+  padding: 16px 20px; display: flex; flex-direction: column;
+  flex: 1; min-height: 0; gap: 12px;
+}
+.card {
+  background: var(--surface-card); border: 1px solid var(--border);
+  border-radius: var(--r); padding: 14px 20px;
+  box-shadow: var(--shadow); flex-shrink: 0;
+}
+.card-header-row { display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; }
+.card-header-row::-webkit-scrollbar { display: none; }
+.header-left  { display: flex; align-items: center; gap: 12px; white-space: nowrap; flex-shrink: 0; }
+.header-right { display: flex; align-items: center; gap: 12px; white-space: nowrap; flex-shrink: 0; margin-left: auto; }
+
+.card-title { font-size: 1rem; font-weight: 700; color: var(--teal-900); }
+[data-theme="dark"] .card-title { color: var(--teal-100); }
+
+/* ── SEGMENTED MODE SWITCH ──────────────────────────── */
+.segmented {
+  display: inline-flex; padding: 3px; gap: 3px;
+  background: var(--surface-in); border: 1px solid var(--border); border-radius: 6px;
+}
+.segmented button {
+  font-family: var(--font); font-size: 0.75rem; font-weight: 600;
+  color: var(--text-muted); background: transparent; border: none;
+  padding: 5px 12px; border-radius: 4px; cursor: pointer; white-space: nowrap;
+  transition: 130ms;
+}
+.segmented button:hover { color: var(--text); }
+.segmented button.active { background: var(--teal-900); color: #fff; }
+[data-theme="dark"] .segmented button.active { background: var(--teal-400); color: var(--ink); }
+
+/* ── ACCORDION (shared with Assistant) ──────────────── */
+.accordion {
+  border: 1px solid var(--border); border-radius: var(--r);
+  overflow: hidden; background: var(--surface-card);
+  box-shadow: var(--shadow); flex-shrink: 0;
+}
+.accordion-trigger {
+  display: flex; align-items: center; justify-content: space-between; width: 100%;
+  padding: 10px 16px; background: var(--surface-card); border: none; cursor: pointer;
+  text-align: left; font-family: var(--font); font-size: 0.85rem; font-weight: 600;
+  color: var(--text-muted); transition: background 130ms, color 130ms;
+}
+.accordion-trigger:hover { background: var(--surface-in); color: var(--text); }
+.accordion-trigger[aria-expanded="true"] { background: var(--surface-in); color: var(--text); }
+.accordion-chevron { flex-shrink: 0; width: 16px; height: 16px; color: var(--text-muted); transition: transform 200ms ease; }
+.accordion-trigger[aria-expanded="true"] .accordion-chevron { transform: rotate(180deg); }
+.accordion-body { display: none; padding: 0 16px 16px; background: var(--surface-card); border-top: 1px solid var(--border); }
+.accordion-body.open { display: block; }
+.accordion-body-inner { padding-top: 14px; display: flex; flex-direction: column; gap: 18px; }
+
+.settings-section { display: flex; flex-direction: column; gap: 12px; }
+.settings-section-header {
+  display: flex; align-items: center; justify-content: space-between; gap: 8px;
+  font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em;
+  color: var(--teal-700); border-bottom: 1px dashed var(--border); padding-bottom: 6px;
+}
+.settings-grid-2col { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.settings-grid-3col { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+@media (max-width: 720px) { .settings-grid-2col, .settings-grid-3col { grid-template-columns: 1fr; } }
+
+.field-label {
+  font-size: 0.75rem; font-weight: 600; color: var(--text-muted);
+  text-transform: uppercase; letter-spacing: .05em; margin-bottom: 4px; display: block;
+}
+.input {
+  font-family: var(--font); font-size: 0.875rem; color: var(--text);
+  background: var(--surface-card); border: 1px solid var(--border); border-radius: 6px;
+  padding: 8px 12px; outline: none; width: 100%; height: 38px;
+  transition: border-color 130ms, box-shadow 130ms;
+}
+select.input { cursor: pointer; }
+.input::placeholder { color: #7A9E9E; }
+.input:hover { border-color: var(--teal-700); }
+.input:focus { border-color: var(--teal-700); box-shadow: 0 0 0 3px rgba(0,130,130,.15); }
+[data-theme="dark"] .input { background: var(--surface-in); }
+[data-theme="dark"] .input:focus { border-color: var(--teal-400); box-shadow: 0 0 0 3px rgba(80,193,193,.20); }
+
+/* ── MULTI-SELECT ───────────────────────────────────── */
+.multi-select { position: relative; font-family: var(--font); font-size: 0.875rem; }
+.multi-select-header {
+  background: var(--surface-card); border: 1px solid var(--border); border-radius: 6px;
+  padding: 8px 12px; cursor: pointer; user-select: none; color: var(--text);
+  display: flex; align-items: center; justify-content: space-between; gap: 8px;
+  min-height: 38px; transition: border-color 130ms;
+}
+.multi-select-header:hover { border-color: var(--teal-700); }
+.multi-select-header::after { content: "▼"; font-size: 0.65rem; color: var(--text-muted); }
+[data-theme="dark"] .multi-select-header { background: var(--surface-in); }
+.multi-select-options {
+  position: absolute; top: 100%; left: 0; margin-top: 4px; background: var(--surface-card);
+  border: 1px solid var(--border); border-radius: 6px; box-shadow: var(--shadow-md);
+  z-index: 10; display: none; flex-direction: column; max-height: 250px; overflow-y: auto;
+  min-width: 100%; white-space: nowrap;
+}
+.multi-select.open .multi-select-options { display: flex; }
+.multi-select-options label {
+  padding: 6px 10px; display: flex; align-items: center; gap: 8px; cursor: pointer;
+  color: var(--text); transition: background 150ms; font-size: 0.875rem;
+}
+.multi-select-options label:hover { background: var(--surface-in); }
+.multi-select-options input { accent-color: var(--teal-700); cursor: pointer; margin: 0; }
+
+/* ── VOCAB GRID / CARDS ─────────────────────────────── */
+.vocab-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; align-items: start; }
+
+.vocab-card {
+  background: var(--surface-card); border: 1px solid var(--border);
+  border-radius: var(--r); padding: 14px 16px; box-shadow: var(--shadow);
+  display: flex; flex-direction: column; gap: 6px;
+  transition: border-color 130ms, box-shadow 130ms, transform 130ms;
+}
+.vocab-card:hover { border-color: var(--teal-400); box-shadow: var(--shadow-md); transform: translateY(-2px); }
+
+.card-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; }
+.card-word-wrap { display: flex; flex-direction: column; flex: 1; min-width: 0; }
+.primary-word {
+  font-size: 1.05rem; font-weight: 700; color: var(--teal-900);
+  line-height: 1.25; margin-bottom: 3px; word-break: break-word;
+}
+[data-theme="dark"] .primary-word { color: var(--teal-100); }
+.card-art { color: var(--amber); margin-right: 5px; font-weight: 700; }
+[data-theme="dark"] .card-art { color: var(--teal-400); }
+.secondary-word { font-size: 0.9rem; font-weight: 500; color: var(--text-muted); position: relative; line-height: 1.35; word-break: break-word; }
+
+/* Test mode conceal — echoes the Assistant's amber left rule */
+.covered {
+  color: transparent !important;
+  background: var(--surface-in); border: 1px dashed var(--border);
+  border-left: 4px solid var(--amber);
+  border-radius: 4px; cursor: pointer; user-select: none;
+  display: inline-block; padding: 2px 8px; min-width: 120px;
+  transition: border-color 130ms;
+}
+.covered:hover { border-color: var(--teal-400); }
+.covered .card-art { color: transparent !important; }
+.covered::after {
+  content: "Click to reveal"; color: var(--amber); font-size: 0.7rem; font-weight: 700;
+  text-transform: uppercase; letter-spacing: .05em;
+  position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: max-content;
+}
+[data-theme="dark"] .covered::after { color: var(--teal-400); }
+
+.badges { display: flex; gap: 4px; margin-top: 4px; flex-wrap: wrap; }
+.badge {
+  font-size: 0.6rem; font-weight: 700; text-transform: uppercase; letter-spacing: .5px;
+  padding: 2px 8px; border-radius: 12px;
+  background: rgba(0,130,130,.10); color: var(--teal-700);
+}
+.badge.level { background: var(--amber-wash, rgba(225,160,30,.15)); color: var(--amber); }
+[data-theme="dark"] .badge { background: rgba(80,193,193,.15); color: var(--teal-400); }
+[data-theme="dark"] .badge.level { color: var(--amber); }
+
+.card-details {
+  display: none; flex-direction: column; gap: 8px; margin-top: 8px;
+  border-top: 1px dashed var(--border); padding-top: 10px; animation: fadeIn 200ms ease;
+}
+@keyframes fadeIn { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: translateY(0); } }
+.card-meta {
+  font-size: 0.75rem; color: var(--text-muted);
+  background: var(--surface-in); padding: 5px 9px; border-radius: 4px; border: 1px solid var(--border);
+}
+.card-examples { font-size: 0.8rem; display: flex; flex-direction: column; gap: 3px; }
+.example-item { position: relative; padding-left: 12px; font-style: italic; color: var(--text); }
+.example-item::before { content: "•"; position: absolute; left: 0; color: var(--teal-400); }
+
+.card-actions { display: flex; gap: 2px; align-items: center; flex-shrink: 0; }
+.card-icon {
+  background: none; border: none; color: var(--teal-700); cursor: pointer;
+  padding: 4px; border-radius: 4px; display: flex; align-items: center; justify-content: center;
+  transition: background 150ms, transform 200ms;
+}
+.card-icon:hover { background: rgba(0,130,130,.10); }
+.card-icon svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.card-icon.danger { color: var(--red); }
+.card-icon.danger:hover { background: rgba(196,30,58,.10); }
+[data-theme="dark"] .card-icon { color: var(--teal-400); }
+[data-theme="dark"] .card-icon:hover { background: rgba(80,193,193,.15); }
+.expand-svg { transition: transform 200ms; }
+.expanded .expand-svg { transform: rotate(180deg); }
+
+.empty-state {
+  grid-column: 1/-1; text-align: center; color: var(--text-muted);
+  padding: 40px 20px; font-size: 0.9rem;
+}
+
+/* ── ADD BAR ────────────────────────────────────────── */
+.add-bar { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.add-bar .input { flex: 1; min-width: 180px; }
+
+/* ── MODAL (shared with Assistant) ──────────────────── */
+.modal-overlay {
+  position: fixed; inset: 0; background: rgba(1,45,44,0.6); backdrop-filter: blur(2px);
+  z-index: 1000; display: flex; align-items: center; justify-content: center;
+  opacity: 0; pointer-events: none; transition: opacity 200ms ease; padding: 16px;
+}
+.modal-overlay.open { opacity: 1; pointer-events: all; }
+.modal-card {
+  background: var(--surface-card); border: 1px solid var(--border); border-radius: var(--r);
+  padding: 24px; width: 100%; max-width: 460px; max-height: 90vh; overflow-y: auto;
+  box-shadow: var(--shadow-md); display: flex; flex-direction: column; gap: 16px;
+  transform: translateY(8px); transition: transform 200ms ease;
+}
+.modal-overlay.open .modal-card { transform: translateY(0); }
+.modal-header {
+  display: flex; align-items: center; justify-content: space-between;
+  font-size: 1rem; font-weight: 700; color: var(--teal-900);
+  border-bottom: 1px solid var(--border); padding-bottom: 10px;
+}
+[data-theme="dark"] .modal-header { color: var(--teal-100); }
+.modal-close { background: none; border: none; cursor: pointer; color: var(--text-muted); font-size: 1.25rem; line-height: 1; }
+.modal-close:hover { color: var(--text); }
+.modal-body { display: flex; flex-direction: column; gap: 14px; }
+.modal-footer { display: flex; justify-content: flex-end; gap: 10px; margin-top: 4px; border-top: 1px solid var(--border); padding-top: 14px; }
+.form-group { display: flex; flex-direction: column; gap: 4px; }
+.textarea {
+  font-family: var(--font); font-size: 0.85rem; color: var(--text);
+  background: var(--surface-card); border: 1px solid var(--border); border-radius: 6px;
+  padding: 10px 12px; outline: none; width: 100%; min-height: 90px; resize: vertical; line-height: 1.55;
+}
+.textarea:focus { border-color: var(--teal-700); box-shadow: 0 0 0 3px rgba(0,130,130,.15); }
+[data-theme="dark"] .textarea { background: var(--surface-in); }
+
+.notice {
+  font-size: .78rem; color: var(--text-muted); line-height: 1.55;
+  background: var(--surface-in); border: 1px solid var(--border);
+  border-left: 4px solid var(--teal-400); border-radius: 6px; padding: 10px 12px;
+}
+
+/* ── TOASTER (shared with Assistant) ────────────────── */
+#toast-container {
+  position: fixed; bottom: 24px; left: 24px; z-index: 9999;
+  display: flex; flex-direction: column; gap: 8px; pointer-events: none;
+}
+.toast {
+  display: flex; align-items: flex-start; gap: 10px; min-width: 260px; max-width: 360px;
+  padding: 11px 14px; border-radius: 6px; font-size: 0.8125rem; line-height: 1.45;
+  box-shadow: 0 4px 18px rgba(1,45,44,.18); pointer-events: all;
+  position: relative; overflow: hidden;
+  animation: toast-in 200ms cubic-bezier(.22,1,.36,1) forwards;
+}
+.toast.removing { animation: toast-out 180ms ease-in forwards; }
+@keyframes toast-in  { from { opacity: 0; transform: translateY(12px) scale(.96); } to { opacity: 1; transform: translateY(0) scale(1); } }
+@keyframes toast-out { from { opacity: 1; transform: translateY(0); max-height: 60px; } to { opacity: 0; transform: translateY(12px); max-height: 0; margin-bottom: -8px; } }
+.toast-success { background: #005A5A; color: #fff; }
+.toast-error   { background: #C41E3A; color: #fff; }
+.toast-warning { background: #7A5000; color: #fff; }
+.toast-info    { background: var(--surface-card); color: var(--text); border: 1px solid var(--border); }
+.toast-body { flex: 1; }
+.toast-title { font-weight: 600; font-size: 0.8125rem; }
+.toast-msg   { font-size: 0.75rem; opacity: .85; margin-top: 1px; }
+.toast-close { background: none; border: none; cursor: pointer; color: inherit; opacity: .6; font-size: 1rem; line-height: 1; padding: 0; }
+.toast-close:hover { opacity: 1; }
+.toast-progress { position: absolute; bottom: 0; left: 0; height: 2px; background: rgba(255,255,255,.35); animation: toast-shrink linear forwards; }
+.toast-info .toast-progress { background: var(--teal-400); }
+@keyframes toast-shrink { from { width: 100%; } to { width: 0%; } }
+
+/* ── GERMAN KEYBOARD WIDGET ─────────────────────────── */
+.de-kbd-widget { position: fixed; bottom: 24px; right: 24px; display: flex; flex-direction: column; align-items: flex-end; gap: 8px; z-index: 2000; }
+@media (max-width: 640px) { .de-kbd-widget { bottom: 16px; right: 16px; } }
+.de-kbd-panel {
+  display: none; background: var(--surface-card); border: 1px solid var(--border);
+  border-radius: var(--r); padding: 6px; box-shadow: var(--shadow-md);
+  gap: 4px; width: 150px; flex-wrap: wrap; justify-content: center; animation: fadeIn 200ms ease;
+}
+.de-kbd-panel.active { display: flex; }
+.de-char-btn {
+  background: var(--surface-in); border: 1px solid var(--border); color: var(--teal-900);
+  font-size: 0.95rem; font-weight: 600; border-radius: 4px; width: 30px; height: 30px;
+  cursor: pointer; display: flex; align-items: center; justify-content: center; transition: 150ms;
+}
+.de-char-btn:hover { background: rgba(0,130,130,.10); border-color: var(--teal-400); }
+[data-theme="dark"] .de-char-btn { color: var(--teal-100); }
+.de-kbd-toggle {
+  background: var(--teal-900); color: #fff; border: none; border-radius: 50%;
+  width: 44px; height: 44px; cursor: pointer; box-shadow: var(--shadow-md);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.1rem; font-weight: 700; transition: transform 150ms, background 150ms;
+}
+.de-kbd-toggle:hover { background: var(--teal-700); transform: scale(1.05); }
+[data-theme="dark"] .de-kbd-toggle { background: var(--teal-400); color: var(--ink); }
+
+/* ── FOOTER (shared with Assistant) ─────────────────── */
+.footer {
+  width: 100%; max-width: var(--wrap); margin-inline: auto;
+  border-top: 1px solid var(--border); padding: 12px 20px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 0.8125rem; color: var(--text-muted); flex-shrink: 0;
+}
+.footer strong { color: var(--text); font-weight: 600; }
+.footer-dot { margin: 0 10px; color: var(--border); }
+</style>
+</head>
+<body>
+
+<div id="toast-container"></div>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <a class="brand-icon" href="#" aria-label="Vocabulary Studio">
+    <svg width="24" height="17" viewBox="0 0 31 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0"  y="0"  width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="0"  width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="0"  width="9" height="6" rx="1.5" fill="#008282"/>
+      <rect x="0"  y="8"  width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="8"  width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="8"  width="9" height="6" rx="1.5" fill="#008282"/>
+      <rect x="0"  y="16" width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="16" width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="16" width="9" height="6" rx="1.5" fill="#E1A01E"/>
+    </svg>
+  </a>
+  <div class="nav-pipe"></div>
+  <a class="nav-brand-text" href="#">Vocabulary Studio</a>
+
+  <div class="nav-links-right">
+    <span class="nav-stat" id="wordCount">0 words</span>
+    <button class="icon-btn" onclick="window.openSettings()" title="GitHub sync settings">
+      <svg viewBox="0 0 24 24"><path d="M12.65 10C11.83 7.67 9.61 6 7 6c-3.31 0-6 2.69-6 6s2.69 6 6 6c2.61 0 4.83-1.67 5.65-4H17v4h4v-4h2v-4H12.65zM7 14c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"/></svg>
+      Sync
+    </button>
+    <button class="icon-btn" onclick="window.toggleTheme()" id="theme-btn">Dark</button>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <!-- TOP BAR -->
+  <div class="card">
+    <div class="card-header-row">
+      <div class="header-left">
+        <span class="card-title" id="mainTitle">My Vocabulary List</span>
+      </div>
+      <div class="header-right">
+        <div class="segmented" id="modeSwitch">
+          <button data-mode="review" class="active" onclick="window.setMode('review')">Review</button>
+          <button data-mode="de-en"  onclick="window.setMode('de-en')">DE → EN</button>
+          <button data-mode="en-de"  onclick="window.setMode('en-de')">EN → DE</button>
+        </div>
+        <button class="btn btn-secondary btn-sm" onclick="window.exportJSON()">Export</button>
+        <button class="btn btn-secondary btn-sm" onclick="document.getElementById('importFile').click()">Import</button>
+        <input type="file" id="importFile" accept=".json" style="display:none;" onchange="window.importJSON(event)">
+        <button class="btn btn-primary btn-sm" onclick="window.openModal()">+ Add Word</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- FILTERS & TOOLS ACCORDION -->
+  <div class="accordion">
+    <button class="accordion-trigger" id="filtersToggle" aria-expanded="true" onclick="window.toggleAccordion('filtersToggle','filtersBody')">
+      <span>Filters &amp; Tools</span>
+      <svg class="accordion-chevron" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="4 7 9 12 14 7"/></svg>
+    </button>
+    <div class="accordion-body open" id="filtersBody">
+      <div class="accordion-body-inner">
+
+        <div class="settings-section">
+          <div class="settings-section-header"><span>Filters</span></div>
+          <div class="settings-grid-3col">
+            <div>
+              <label class="field-label">Search</label>
+              <input type="text" id="searchInput" class="input" placeholder="Word or translation…" oninput="window.renderGrid()">
+            </div>
+            <div>
+              <label class="field-label">Part of Speech</label>
+              <div class="multi-select" id="posFilterWrap">
+                <div class="multi-select-header" onclick="window.toggleMultiSelect('posFilterWrap')">
+                  <span id="posFilterText">All</span>
+                </div>
+                <div class="multi-select-options">
+                  <label><input type="checkbox" value="Noun"        class="pos-cb" onchange="window.updateFilters()"> Noun</label>
+                  <label><input type="checkbox" value="Verb"        class="pos-cb" onchange="window.updateFilters()"> Verb</label>
+                  <label><input type="checkbox" value="Adjective"   class="pos-cb" onchange="window.updateFilters()"> Adjective</label>
+                  <label><input type="checkbox" value="Adverb"      class="pos-cb" onchange="window.updateFilters()"> Adverb</label>
+                  <label><input type="checkbox" value="Pronoun"     class="pos-cb" onchange="window.updateFilters()"> Pronoun</label>
+                  <label><input type="checkbox" value="Preposition" class="pos-cb" onchange="window.updateFilters()"> Preposition</label>
+                  <label><input type="checkbox" value="Conjunction" class="pos-cb" onchange="window.updateFilters()"> Conjunction</label>
+                  <label><input type="checkbox" value="Other"       class="pos-cb" onchange="window.updateFilters()"> Other</label>
+                </div>
+              </div>
+            </div>
+            <div>
+              <label class="field-label">Level</label>
+              <div class="multi-select" id="lvlFilterWrap">
+                <div class="multi-select-header" onclick="window.toggleMultiSelect('lvlFilterWrap')">
+                  <span id="lvlFilterText">All</span>
+                </div>
+                <div class="multi-select-options">
+                  <label><input type="checkbox" value="A1" class="lvl-cb" onchange="window.updateFilters()"> A1</label>
+                  <label><input type="checkbox" value="A2" class="lvl-cb" onchange="window.updateFilters()"> A2</label>
+                  <label><input type="checkbox" value="B1" class="lvl-cb" onchange="window.updateFilters()"> B1</label>
+                  <label><input type="checkbox" value="B2" class="lvl-cb" onchange="window.updateFilters()"> B2</label>
+                  <label><input type="checkbox" value="C1" class="lvl-cb" onchange="window.updateFilters()"> C1</label>
+                  <label><input type="checkbox" value="C2" class="lvl-cb" onchange="window.updateFilters()"> C2</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="settings-section">
+          <div class="settings-section-header"><span>Lookup &amp; Save</span></div>
+          <div class="add-bar">
+            <input type="text" id="newWordInput" class="input" placeholder="Type a German word to look up…" autocomplete="off">
+            <button class="btn btn-primary btn-sm" onclick="window.fetchAndAddWord()">Look Up</button>
+            <button class="btn btn-secondary btn-sm" onclick="window.openModal()">Add Manually</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- VOCAB GRID -->
+  <div class="vocab-grid" id="vocab-grid"></div>
+</div>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <span><strong>Vocabulary Studio</strong></span>
+  <span class="footer-dot">·</span>
+  <span>Roman Zajic</span>
+</footer>
+
+<!-- ADD / EDIT MODAL -->
+<div class="modal-overlay" id="wordModal" onclick="if(event.target === this) window.closeModal()">
+  <div class="modal-card">
+    <div class="modal-header">
+      <span id="modalTitle">Add Word</span>
+      <button class="modal-close" onclick="window.closeModal()">&times;</button>
+    </div>
+    <div class="modal-body">
+      <input type="hidden" id="editId">
+      <div class="settings-grid-2col">
+        <div class="form-group">
+          <label class="field-label">Word (German)</label>
+          <input type="text" id="editWord" class="input" required>
+        </div>
+        <div class="form-group">
+          <label class="field-label">Translation (English)</label>
+          <input type="text" id="editTranslation" class="input" required>
+        </div>
+      </div>
+      <div class="settings-grid-3col">
+        <div class="form-group">
+          <label class="field-label">Part of Speech</label>
+          <select id="editPoS" class="input">
+            <option>Noun</option><option>Verb</option><option>Adjective</option>
+            <option>Adverb</option><option>Pronoun</option><option>Preposition</option>
+            <option>Conjunction</option><option>Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="field-label">Article</label>
+          <select id="editArticle" class="input">
+            <option value="">None</option><option value="der">der</option>
+            <option value="die">die</option><option value="das">das</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="field-label">Level</label>
+          <select id="editLevel" class="input">
+            <option>A1</option><option>A2</option><option>B1</option>
+            <option>B2</option><option>C1</option><option>C2</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="field-label">Plural Form</label>
+        <input type="text" id="editPlural" class="input" placeholder="e.g. die Häuser">
+      </div>
+      <div class="form-group">
+        <label class="field-label">Examples — one per line</label>
+        <textarea id="editExamples" class="textarea" placeholder="Das ist ein schönes Haus.&#10;Wir gehen nach Hause."></textarea>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn btn-secondary" onclick="window.closeModal()">Cancel</button>
+      <button class="btn btn-primary" onclick="window.saveWord()">Save Word</button>
+    </div>
+  </div>
+</div>
+
+<!-- GITHUB SYNC SETTINGS MODAL -->
+<div class="modal-overlay" id="settingsModal" onclick="if(event.target === this) window.closeSettings()">
+  <div class="modal-card">
+    <div class="modal-header">
+      <span>GitHub Sync</span>
+      <button class="modal-close" onclick="window.closeSettings()">&times;</button>
+    </div>
+    <div class="modal-body">
+      <div class="notice">
+        <strong>Your token stays in this browser.</strong> It is kept in localStorage on this device and sent
+        straight to GitHub — it is never written into the page. Create one at
+        <strong>github.com/settings/tokens</strong> with <strong>repo</strong> scope.
+      </div>
+      <div class="form-group">
+        <label class="field-label">Personal Access Token</label>
+        <input type="password" id="setToken" class="input" placeholder="Paste your token…" autocomplete="off">
+      </div>
+      <div class="settings-grid-2col">
+        <div class="form-group">
+          <label class="field-label">Repository</label>
+          <input type="text" id="setRepo" class="input" placeholder="owner/name">
+        </div>
+        <div class="form-group">
+          <label class="field-label">Branch</label>
+          <input type="text" id="setBranch" class="input" placeholder="main">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="field-label">File Path</label>
+        <input type="text" id="setPath" class="input" placeholder="Deutsch Vokabeln.json">
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn btn-danger btn-sm" onclick="window.clearSettings()" style="margin-right:auto;">Disconnect</button>
+      <button class="btn btn-secondary" onclick="window.closeSettings()">Cancel</button>
+      <button class="btn btn-primary" onclick="window.saveSettings()">Save &amp; Sync</button>
+    </div>
+  </div>
+</div>
+
+<!-- Floating German Keyboard Widget -->
+<div class="de-kbd-widget">
+  <div class="de-kbd-panel" id="deKbdPanel">
+    <button class="de-char-btn" onmousedown="window.insertChar(event,'ä')">ä</button>
+    <button class="de-char-btn" onmousedown="window.insertChar(event,'ö')">ö</button>
+    <button class="de-char-btn" onmousedown="window.insertChar(event,'ü')">ü</button>
+    <button class="de-char-btn" onmousedown="window.insertChar(event,'ß')">ß</button>
+    <button class="de-char-btn" onmousedown="window.insertChar(event,'Ä')">Ä</button>
+    <button class="de-char-btn" onmousedown="window.insertChar(event,'Ö')">Ö</button>
+    <button class="de-char-btn" onmousedown="window.insertChar(event,'Ü')">Ü</button>
+  </div>
+  <button class="de-kbd-toggle" onmousedown="event.preventDefault()" onclick="window.toggleDeKbd()" title="German characters">Ä</button>
+</div>
+
+<script>
+/* ── CONFIG (no secrets in this file — user supplies their own token) ── */
+const GH_DEFAULTS = { repo: "Roman-Zajic/Notes", branch: "main", path: "Deutsch Vokabeln.json" };
+const GH_CFG_KEY  = "vs_gh_config";
+const THEME_KEY   = "vs_theme";
+const MODE_KEY    = "vs_mode";
+
+let GH_TOKEN = "", GH_REPO = GH_DEFAULTS.repo, GH_BRANCH = GH_DEFAULTS.branch, GH_PATH = GH_DEFAULTS.path;
+let ghFileSha = null;
+
+window.vocabList = [];
+window.currentListTitle = "My Vocabulary List";
+window.currentMode = "review";
+window.lastFocusedInput = null;
+
+function ghConfigured() { return !!(GH_TOKEN && GH_REPO && GH_BRANCH && GH_PATH); }
+
+function loadGhConfig() {
+  try {
+    const s = JSON.parse(localStorage.getItem(GH_CFG_KEY) || "{}");
+    GH_TOKEN = s.token || ""; GH_REPO = s.repo || GH_DEFAULTS.repo;
+    GH_BRANCH = s.branch || GH_DEFAULTS.branch; GH_PATH = s.path || GH_DEFAULTS.path;
+  } catch (e) {}
+}
+function saveGhConfig(c) {
+  GH_TOKEN = c.token; GH_REPO = c.repo; GH_BRANCH = c.branch; GH_PATH = c.path;
+  localStorage.setItem(GH_CFG_KEY, JSON.stringify({ token: c.token, repo: c.repo, branch: c.branch, path: c.path }));
+}
+
+/* ── TOASTER ────────────────────────────────────────── */
+const TOAST_ICONS = { success: '✓', error: '✕', warning: '⚠', info: 'ℹ' };
+window.toast = function(type, title, msg, duration) {
+  const dur = duration || 4000;
+  const el = document.createElement('div');
+  el.className = 'toast toast-' + (TOAST_ICONS[type] ? type : 'info');
+  el.innerHTML =
+    '<div class="toast-body"><div class="toast-title"></div><div class="toast-msg"></div></div>' +
+    '<button class="toast-close">×</button><div class="toast-progress"></div>';
+  el.querySelector('.toast-title').textContent = (TOAST_ICONS[type] ? TOAST_ICONS[type] + ' ' : '') + title;
+  const m = el.querySelector('.toast-msg');
+  if (msg) m.textContent = msg; else m.remove();
+  el.querySelector('.toast-close').addEventListener('click', () => dismissToast(el));
+  el.querySelector('.toast-progress').style.animationDuration = dur + 'ms';
+  document.getElementById('toast-container').appendChild(el);
+  el._timer = setTimeout(() => dismissToast(el), dur);
+};
+function dismissToast(el) {
+  if (!el || !el.parentElement) return;
+  clearTimeout(el._timer);
+  el.classList.add('removing');
+  el.addEventListener('animationend', () => el.remove(), { once: true });
+}
+
+/* ── BASE64 UTF-8 ───────────────────────────────────── */
+function encodeUTF8toBase64(str) {
+  const bytes = new TextEncoder().encode(str);
+  return btoa(Array.from(bytes, b => String.fromCodePoint(b)).join(""));
+}
+function decodeBase64toUTF8(b64) {
+  const bin = atob(b64);
+  return new TextDecoder().decode(Uint8Array.from(bin, m => m.codePointAt(0)));
+}
+
+/* ── THEME / UI ─────────────────────────────────────── */
+window.toggleTheme = function() {
+  const html = document.documentElement;
+  const isDark = html.getAttribute('data-theme') === 'dark';
+  html.setAttribute('data-theme', isDark ? 'light' : 'dark');
+  document.getElementById('theme-btn').textContent = isDark ? 'Dark' : 'Light';
+  localStorage.setItem(THEME_KEY, isDark ? 'light' : 'dark');
+};
+
+window.toggleAccordion = function(btnId, bodyId) {
+  const btn = document.getElementById(btnId);
+  const expanded = btn.getAttribute('aria-expanded') === 'true';
+  btn.setAttribute('aria-expanded', String(!expanded));
+  document.getElementById(bodyId).classList.toggle('open', !expanded);
+};
+
+window.toggleMultiSelect = function(id) {
+  const el = document.getElementById(id);
+  const wasOpen = el.classList.contains('open');
+  document.querySelectorAll('.multi-select').forEach(m => m.classList.remove('open'));
+  if (!wasOpen) el.classList.add('open');
+};
+document.addEventListener('click', e => {
+  if (!e.target.closest('.multi-select')) document.querySelectorAll('.multi-select').forEach(m => m.classList.remove('open'));
+});
+
+window.setMode = function(mode) {
+  window.currentMode = mode;
+  localStorage.setItem(MODE_KEY, mode);
+  document.querySelectorAll('#modeSwitch button').forEach(b => b.classList.toggle('active', b.dataset.mode === mode));
+  window.renderGrid();
+};
+
+window.updateFilters = function() {
+  const pos = [...document.querySelectorAll('.pos-cb:checked')].map(c => c.value);
+  const lvl = [...document.querySelectorAll('.lvl-cb:checked')].map(c => c.value);
+  document.getElementById('posFilterText').innerText = pos.length === 0 ? "All" : pos.length + " selected";
+  document.getElementById('lvlFilterText').innerText = lvl.length === 0 ? "All" : lvl.length + " selected";
+  window.renderGrid();
+};
+
+/* ── SYNC ───────────────────────────────────────────── */
+function setSyncStatus(msg, isError) {
+  const el = document.getElementById('wordCount');
+  el.textContent = msg;
+  el.style.color = isError ? 'var(--red)' : 'var(--teal-100)';
+}
+
+async function loadFromGitHub() {
+  if (!ghConfigured()) { window.renderGrid(); setSyncStatus(window.vocabList.length + " words"); return; }
+  setSyncStatus("Syncing…");
+  try {
+    const res = await fetch(`https://api.github.com/repos/${GH_REPO}/contents/${encodeURIComponent(GH_PATH)}?ref=${GH_BRANCH}`, {
+      headers: { 'Authorization': `Bearer ${GH_TOKEN}`, 'Accept': 'application/vnd.github.v3+json' }
+    });
+    if (res.ok) {
+      const data = await res.json();
+      ghFileSha = data.sha;
+      const parsed = JSON.parse(decodeBase64toUTF8(data.content));
+      if (Array.isArray(parsed)) window.vocabList = parsed;
+      window.renderGrid();
+      setSyncStatus(window.vocabList.length + " words · synced");
+      window.toast('success', 'Synced', 'Loaded from GitHub.');
+    } else if (res.status === 404) {
+      window.renderGrid();
+      setSyncStatus(window.vocabList.length + " words · local");
+      window.toast('info', 'No remote file', 'It will be created on your first save.');
+    } else {
+      setSyncStatus("Sync error", true);
+      window.toast('error', 'Sync Failed', `GitHub returned ${res.status}. Check the token in Sync settings.`);
+    }
+  } catch (e) {
+    setSyncStatus("Network error", true);
+    window.toast('error', 'Network Error', 'Could not reach GitHub.');
+  }
+}
+
+async function saveToGitHub() {
+  if (!ghConfigured()) {
+    window.toast('warning', 'Local mode', 'Connect GitHub in Sync settings to back up your words.');
+    return;
+  }
+  const payload = {
+    message: "Update vocabulary list via Vocabulary Studio",
+    content: encodeUTF8toBase64(JSON.stringify(window.vocabList, null, 2)),
+    branch: GH_BRANCH
+  };
+  if (ghFileSha) payload.sha = ghFileSha;
+  try {
+    const res = await fetch(`https://api.github.com/repos/${GH_REPO}/contents/${encodeURIComponent(GH_PATH)}`, {
+      method: 'PUT',
+      headers: { 'Authorization': `Bearer ${GH_TOKEN}`, 'Accept': 'application/vnd.github.v3+json', 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    });
+    if (res.ok) {
+      ghFileSha = (await res.json()).content.sha;
+      setSyncStatus(window.vocabList.length + " words · synced");
+      window.toast('success', 'Saved', 'Committed to GitHub.');
+    } else if (res.status === 409) {
+      window.toast('error', 'Conflict', 'The file changed elsewhere. Reload to pull the latest.');
+    } else if (res.status === 401) {
+      window.toast('error', 'Token rejected', 'That token is invalid or lacks repo scope.');
+    } else {
+      window.toast('error', 'Save Failed', `GitHub returned ${res.status}.`);
+    }
+  } catch (e) { window.toast('error', 'Network Error', 'Could not reach GitHub.'); }
+}
+
+/* ── SETTINGS MODAL ─────────────────────────────────── */
+window.openSettings = function() {
+  document.getElementById('setToken').value  = GH_TOKEN;
+  document.getElementById('setRepo').value   = GH_REPO;
+  document.getElementById('setBranch').value = GH_BRANCH;
+  document.getElementById('setPath').value   = GH_PATH;
+  document.getElementById('settingsModal').classList.add('open');
+};
+window.closeSettings = function() { document.getElementById('settingsModal').classList.remove('open'); };
+window.saveSettings = function() {
+  const c = {
+    token:  document.getElementById('setToken').value.trim(),
+    repo:   document.getElementById('setRepo').value.trim(),
+    branch: document.getElementById('setBranch').value.trim(),
+    path:   document.getElementById('setPath').value.trim()
+  };
+  if (!c.repo || !c.branch || !c.path) return window.toast('warning', 'Missing fields', 'Repository, branch and file path are required.');
+  saveGhConfig(c); closeSettings();
+  if (ghConfigured()) loadFromGitHub();
+  else { window.renderGrid(); setSyncStatus(window.vocabList.length + " words"); }
+};
+window.clearSettings = function() {
+  if (!confirm("Remove the stored token and disconnect GitHub sync?")) return;
+  localStorage.removeItem(GH_CFG_KEY); GH_TOKEN = ""; closeSettings();
+  window.renderGrid(); setSyncStatus(window.vocabList.length + " words");
+  window.toast('info', 'Disconnected', 'Working locally now.');
+};
+
+/* ── CARD INTERACTIONS ──────────────────────────────── */
+window.speakText = function(text, event) {
+  if (event) event.stopPropagation();
+  try {
+    if (!('speechSynthesis' in window)) return window.toast('warning', 'No TTS', 'Speech synthesis is unavailable here.');
+    window.speechSynthesis.cancel();
+    const u = new SpeechSynthesisUtterance(text);
+    u.lang = 'de-DE'; window.speechSynthesis.speak(u);
+  } catch (e) { window.toast('error', 'TTS Error', e.message); }
+};
+
+window.revealAnswer = function(el) { el.classList.remove('covered'); };
+
+window.toggleDetails = function(id) {
+  const d = document.getElementById(`details-${id}`);
+  const b = document.getElementById(`btn-${id}`);
+  const open = d.style.display === 'flex';
+  d.style.display = open ? 'none' : 'flex';
+  b.classList.toggle('expanded', !open);
+};
+
+/* ── RENDER ─────────────────────────────────────────── */
+const ICONS = {
+  speak:  `<svg viewBox="0 0 24 24"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>`,
+  edit:   `<svg viewBox="0 0 24 24"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg>`,
+  del:    `<svg viewBox="0 0 24 24"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>`,
+  expand: `<svg class="expand-svg" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"></polyline></svg>`
+};
+
+function esc(s) {
+  return String(s == null ? '' : s).replace(/[&<>"']/g, c =>
+    ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+}
+
+window.renderGrid = function() {
+  const grid = document.getElementById('vocab-grid');
+  grid.innerHTML = '';
+
+  const term = document.getElementById('searchInput').value.toLowerCase().trim();
+  const pos = [...document.querySelectorAll('.pos-cb:checked')].map(c => c.value);
+  const lvl = [...document.querySelectorAll('.lvl-cb:checked')].map(c => c.value);
+  const mode = window.currentMode;
+
+  const filtered = window.vocabList.filter(item => {
+    const w = (item.word || '').toLowerCase(), t = (item.translation || '').toLowerCase();
+    return (!term || w.includes(term) || t.includes(term))
+      && (pos.length === 0 || pos.includes(item.partOfSpeech))
+      && (lvl.length === 0 || lvl.includes(item.level));
+  });
+
+  filtered.forEach(item => {
+    const card = document.createElement('div');
+    card.className = 'vocab-card';
+
+    const german = (item.article ? `<span class="card-art">${esc(item.article)}</span>` : '') + esc(item.word || '');
+    const english = esc(item.translation || '');
+
+    let primary = german, secondary = english, secondaryClass = 'secondary-word';
+    if (mode === 'en-de') { primary = english; secondary = german; secondaryClass += ' covered'; }
+    else if (mode === 'de-en') { secondaryClass += ' covered'; }
+
+    let metaHtml = '';
+    if (item.plural) metaHtml = `<div class="card-meta"><strong>Plural:</strong> ${esc(item.plural)}</div>`;
+
+    let examplesHtml = '';
+    if (Array.isArray(item.examples) && item.examples.length) {
+      examplesHtml = '<div class="card-examples">' +
+        item.examples.filter(e => e && String(e).trim())
+          .map(e => `<div class="example-item">${esc(e)}</div>`).join('') + '</div>';
+    }
+
+    const spoken = ((item.article ? item.article + ' ' : '') + (item.word || '')).replace(/'/g, "\\'");
+
+    card.innerHTML = `
+      <div class="card-header">
+        <div class="card-word-wrap">
+          <div class="primary-word">${primary}</div>
+          <div class="${secondaryClass}" onclick="window.revealAnswer(this)">${secondary}</div>
+        </div>
+        <div class="card-actions">
+          <button class="card-icon" onclick="window.speakText('${spoken}', event)" title="Pronounce">${ICONS.speak}</button>
+          <button class="card-icon" onclick="window.openEditModal('${item.id}')" title="Edit">${ICONS.edit}</button>
+          <button class="card-icon danger" onclick="window.deleteWord('${item.id}')" title="Delete">${ICONS.del}</button>
+          <button class="card-icon" id="btn-${item.id}" onclick="window.toggleDetails('${item.id}')" title="Expand details">${ICONS.expand}</button>
+        </div>
+      </div>
+      <div class="card-details" id="details-${item.id}">
+        <div class="badges">
+          <span class="badge">${esc(item.partOfSpeech || 'Other')}</span>
+          ${item.level ? `<span class="badge level">${esc(item.level)}</span>` : ''}
+        </div>
+        ${metaHtml}${examplesHtml}
+      </div>`;
+    grid.appendChild(card);
+  });
+
+  if (filtered.length === 0) {
+    grid.innerHTML = '<div class="empty-state">' + (window.vocabList.length === 0
+      ? 'No words yet — use <strong>Look Up</strong> or <strong>+ Add Word</strong> to start your list.'
+      : 'No vocabulary matches your current filters.') + '</div>';
+  }
+};
+
+/* ── WORD CRUD ──────────────────────────────────────── */
+window.openModal = function(data) {
+  document.getElementById('modalTitle').innerText = data ? "Edit Word" : "Add Word";
+  document.getElementById('editId').value          = data ? data.id : "";
+  document.getElementById('editWord').value        = data ? (data.word || '') : "";
+  document.getElementById('editTranslation').value = data ? (data.translation || '') : "";
+  document.getElementById('editPoS').value          = data ? (data.partOfSpeech || 'Noun') : 'Noun';
+  document.getElementById('editArticle').value      = data ? (data.article || '') : '';
+  document.getElementById('editLevel').value        = data ? (data.level || 'C2') : 'C2';
+  document.getElementById('editPlural').value       = data ? (data.plural || '') : "";
+  document.getElementById('editExamples').value     = data && Array.isArray(data.examples) ? data.examples.join('\n') : "";
+  document.getElementById('wordModal').classList.add('open');
+  setTimeout(() => document.getElementById('editWord').focus(), 60);
+};
+window.closeModal = function() { document.getElementById('wordModal').classList.remove('open'); };
+window.openEditModal = function(id) {
+  const w = window.vocabList.find(x => x.id === id);
+  if (w) window.openModal(w);
+};
+window.deleteWord = function(id) {
+  const w = window.vocabList.find(x => x.id === id);
+  if (!confirm('Delete "' + (w ? w.word : 'this word') + '"?')) return;
+  window.vocabList = window.vocabList.filter(x => x.id !== id);
+  window.renderGrid();
+  setSyncStatus(window.vocabList.length + " words");
+  saveToGitHub();
+};
+window.saveWord = function() {
+  const id = document.getElementById('editId').value || Date.now().toString();
+  const wordData = {
+    id,
+    word: document.getElementById('editWord').value.trim(),
+    translation: document.getElementById('editTranslation').value.trim(),
+    partOfSpeech: document.getElementById('editPoS').value,
+    article: document.getElementById('editArticle').value,
+    level: document.getElementById('editLevel').value,
+    plural: document.getElementById('editPlural').value.trim(),
+    examples: document.getElementById('editExamples').value.split('\n').map(s => s.trim()).filter(Boolean)
+  };
+  if (!wordData.word) return window.toast('warning', 'Word required', 'Enter the German word.');
+  const i = window.vocabList.findIndex(x => x.id === id);
+  if (i >= 0) window.vocabList[i] = wordData; else window.vocabList.unshift(wordData);
+  window.closeModal();
+  window.renderGrid();
+  setSyncStatus(window.vocabList.length + " words");
+  window.toast('success', i >= 0 ? 'Updated' : 'Added', wordData.word);
+  saveToGitHub();
+};
+
+/* ── LOOKUP ─────────────────────────────────────────── */
+function guessLevel(word) {
+  const w = word.toLowerCase();
+  if (['ich','du','sein','haben','haus','machen','schnell','auto','hund'].includes(w)) return 'A1';
+  if (['ausbildung','beruf','glück','wichtig','teilnehmen'].includes(w)) return 'A2';
+  if (['voraussetzung','erfahrung','herausforderung','gesellschaft'].includes(w)) return 'B1';
+  return 'C2';
+}
+
+function decodeHTMLEntities(s) {
+  const el = document.createElement('textarea');
+  el.innerHTML = s;
+  return el.value;
+}
+
+window.fetchAndAddWord = async function() {
+  const input = document.getElementById('newWordInput');
+  const word = input.value.trim();
+  if (!word) return window.toast('warning', 'Nothing to look up', 'Type a German word first.');
+
+  window.toast('info', 'Looking up…', 'Fetching translation and examples.', 2500);
+
+  let translation = "", pos = "Noun";
+  const examples = [];
+  const level = guessLevel(word);
+
+  try {
+    const r = await fetch(`https://api.mymemory.translated.net/get?q=${encodeURIComponent(word)}&langpair=de|en`);
+    const d = await r.json();
+    if (d && d.responseData && d.responseData.translatedText) {
+      translation = decodeHTMLEntities(d.responseData.translatedText.toLowerCase());
+    }
+  } catch (e) {}
+
+  try {
+    const r = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/de/${encodeURIComponent(word)}`);
+    if (r.ok) {
+      const d = await r.json();
+      if (Array.isArray(d) && d.length && d[0].meanings) {
+        const apiPos = ((d[0].meanings[0] && d[0].meanings[0].partOfSpeech) || '').toLowerCase();
+        if (/substantiv|noun/.test(apiPos)) pos = "Noun";
+        else if (/verb/.test(apiPos)) pos = "Verb";
+        else if (/adjektiv|adjective/.test(apiPos)) pos = "Adjective";
+        else if (/adverb/.test(apiPos)) pos = "Adverb";
+        else if (/pronomen|pronoun/.test(apiPos)) pos = "Pronoun";
+        else if (/präposition|preposition/.test(apiPos)) pos = "Preposition";
+        d[0].meanings.forEach(m => (m.definitions || []).forEach(x => { if (x.example) examples.push(x.example); }));
+      }
+    }
+  } catch (e) {}
+
+  input.value = '';
+  window.openModal({ id: "", word, translation, partOfSpeech: pos, article: "", level, plural: "", examples: examples.slice(0, 3) });
+  window.toast('info', 'Lookup complete', 'Review the details, then save.');
+};
+
+/* ── IMPORT / EXPORT ────────────────────────────────── */
+window.exportJSON = function() {
+  if (!window.vocabList.length) return window.toast('warning', 'Nothing to export', 'Your list is empty.');
+  const blob = new Blob([JSON.stringify(window.vocabList, null, 2)], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url; a.download = window.currentListTitle + ".json";
+  document.body.appendChild(a); a.click(); document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+  window.toast('success', 'Exported', window.vocabList.length + " words downloaded.");
+};
+
+window.importJSON = function(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = e => {
+    try {
+      const data = JSON.parse(e.target.result);
+      if (!Array.isArray(data)) throw new Error("not an array");
+      const fixed = data.map(it => ({
+        ...it,
+        id: it.id || Date.now().toString() + Math.floor(Math.random() * 1000),
+        level: it.level || "C2",
+        examples: Array.isArray(it.examples) ? it.examples : []
+      }));
+      if (confirm("Replace the current list?\n\nOK = replace\nCancel = merge into current list")) {
+        window.vocabList = fixed;
+        const name = file.name.replace(/\.[^/.]+$/, "");
+        window.currentListTitle = name;
+        document.getElementById('mainTitle').innerText = name;
+      } else {
+        window.vocabList = [...fixed, ...window.vocabList];
+      }
+      window.renderGrid();
+      setSyncStatus(window.vocabList.length + " words");
+      window.toast('success', 'Imported', fixed.length + " words loaded.");
+      saveToGitHub();
+    } catch (err) {
+      window.toast('error', 'Import failed', 'That file is not a valid vocabulary JSON export.');
+    }
+    event.target.value = '';
+  };
+  reader.readAsText(file);
+};
+
+/* ── GERMAN KEYBOARD ────────────────────────────────── */
+document.addEventListener('focusin', e => {
+  if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') window.lastFocusedInput = e.target;
+});
+window.toggleDeKbd = function() { document.getElementById('deKbdPanel').classList.toggle('active'); };
+window.insertChar = function(e, char) {
+  e.preventDefault();
+  const input = window.lastFocusedInput;
+  if (!input) return;
+  const s = input.selectionStart, en = input.selectionEnd;
+  input.value = input.value.substring(0, s) + char + input.value.substring(en);
+  input.selectionStart = input.selectionEnd = s + char.length;
+  input.dispatchEvent(new Event('input', { bubbles: true }));
+};
+
+/* ── BOOT ───────────────────────────────────────────── */
+(function boot() {
+  if (localStorage.getItem(THEME_KEY) === 'dark') {
+    document.documentElement.setAttribute('data-theme', 'dark');
+    document.getElementById('theme-btn').textContent = 'Light';
+  }
+
+  const savedMode = localStorage.getItem(MODE_KEY);
+  window.setMode(['review', 'de-en', 'en-de'].includes(savedMode) ? savedMode : 'review');
+
+  loadGhConfig();
+  document.getElementById('newWordInput').addEventListener('keydown', e => {
+    if (e.key === 'Enter') window.fetchAndAddWord();
+  });
+
+  loadFromGitHub();
+})();
+</script>
+</body>
+</html>
