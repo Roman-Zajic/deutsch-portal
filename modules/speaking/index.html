@@ -65,7 +65,7 @@ body {
 }
 .brand-icon { display: flex; align-items: center; text-decoration: none; }
 .nav-pipe { width: 1px; height: 16px; background: rgba(149,223,219,.30); margin: 0 12px; }
-.nav-brand-text { font-size: 1rem; font-weight: 600; color: var(--teal-100); text-decoration: none; }
+.nav-brand-text { font-size: 1rem; font-weight: 600; color: var(--teal-100); text-decoration: none; white-space: nowrap; flex-shrink: 0; }
 
 .nav-links-right {
   margin-left: auto;
@@ -515,6 +515,20 @@ select.input { cursor: pointer; }
 .chat-input-row .btn {
   height: 42px;
   padding: 0 22px;
+}
+
+/* ── RESPONSIVE ──────────────────────────────────────── */
+/* On a phone the volume control is the first thing to drop: it is the
+   least important control here, and keeping it squeezes the brand text
+   and the keys button against each other. */
+@media (max-width: 620px) {
+  .nav-volume-wrapper { display: none; }
+  .navbar { padding: 0 14px; }
+  .nav-pipe { margin: 0 9px; }
+  .nav-brand-text { font-size: 0.95rem; }
+  .wrap { padding: 12px 12px 20px; }
+  .chat-window { padding: 12px 14px; }
+  .chat-input-row .btn { padding: 0 16px; }
 }
 
 /* ── TOASTER ─────────────────────────────────────────── */
