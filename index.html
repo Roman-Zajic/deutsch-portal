@@ -180,6 +180,8 @@ body {
   <div class="modal-card">
     <label for="ghToken">GitHub token</label>
     <input type="password" id="ghToken" autocomplete="off" placeholder="github_pat_…">
+    <label for="geminiKey" style="margin-top:14px;">Gemini API key</label>
+    <input type="password" id="geminiKey" autocomplete="off" placeholder="AIza…">
     <div class="modal-actions">
       <button class="btn btn-ghost" onclick="window.closeToken()">Cancel</button>
       <button class="btn btn-primary" onclick="window.saveToken()">Save</button>
@@ -207,6 +209,14 @@ const MODULES = [
     status: 'live',
     path: 'modules/vocabulary/',
     icon: `<svg viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>`
+  },
+  {
+    id: 'speaking',
+    title: 'Speaking',
+    blurb: 'Talk to a tutor in German, French, English, Spanish or Polish. Live voice conversation with gentle corrections.',
+    status: 'live',
+    path: 'modules/speaking/',
+    icon: `<svg viewBox="0 0 24 24"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path><path d="M19 10v2a7 7 0 0 1-14 0v-2"></path><path d="M12 19v4"></path></svg>`
   },
   {
     id: 'grammar',
@@ -257,33 +267,35 @@ function renderModules() {
 
 renderModules();
 
-/* ── GITHUB TOKEN ────────────────────────────────────────
-   One token for the whole portal, under the key every module
-   reads. Repository, branch and file path are fixed — the
-   modules read them from their own source.
+/* ── KEYS ─────────────────────────────────────────────────
+   One store for the whole portal. Every module reads it, so the
+   GitHub token and the Gemini key are each entered once here.
 ──────────────────────────────────────────────────────── */
 const CFG_KEY = 'vs_cfg';
 const REPO = 'Roman-Zajic/deutsch-portal';
 const BRANCH = 'main';
 const PATH = 'data/vocabulary.json';
 
-function getToken() {
-  try { return JSON.parse(localStorage.getItem(CFG_KEY) || '{}').token || ''; }
-  catch (e) { return ''; }
+function getCfg() {
+  try { return JSON.parse(localStorage.getItem(CFG_KEY) || '{}'); }
+  catch (e) { return {}; }
 }
-function setToken(t) {
-  localStorage.setItem(CFG_KEY, JSON.stringify({ token: t, repo: REPO, branch: BRANCH, path: PATH }));
-}
+function setCfg(c) { localStorage.setItem(CFG_KEY, JSON.stringify(c)); }
 
 window.openToken = function() {
-  document.getElementById('ghToken').value = getToken();
+  const c = getCfg();
+  document.getElementById('ghToken').value   = c.token || '';
+  document.getElementById('geminiKey').value = c.geminiKey || '';
   document.getElementById('tokenModal').classList.add('open');
   setTimeout(() => document.getElementById('ghToken').focus(), 60);
 };
 window.closeToken = function() { document.getElementById('tokenModal').classList.remove('open'); };
 
 window.saveToken = function() {
-  setToken(document.getElementById('ghToken').value.trim());
+  setCfg(Object.assign(getCfg(), {
+    token:     document.getElementById('ghToken').value.trim(),
+    geminiKey: document.getElementById('geminiKey').value.trim()
+  }));
   window.closeToken();
 };
 

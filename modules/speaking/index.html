@@ -1,0 +1,1450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Speaking — Deutsch Lernen</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --font:         "Segoe UI", system-ui, -apple-system, sans-serif;
+  --teal-900:     #005A5A;
+  --teal-700:     #008282;
+  --teal-400:     #50C1C1;
+  --teal-100:     #95DFDB;
+  --amber:        #E1A01E;
+  --red:          #C41E3A;
+  --ink:          #012D2C;
+  --text:         #005A5A;
+  --text-muted:   #008282;
+  --surface-page: #F0FAFA;
+  --surface-card: #FFFFFF;
+  --surface-in:   #F0FAFA;
+  --border:       #D0ECEB;
+  --shadow:       0 1px 4px rgba(1,45,44,.10);
+  --shadow-md:    0 4px 14px rgba(1,45,44,.12);
+  --r:            8px;
+  --nav-h:        48px;
+  --wrap:         1040px;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+body {
+  font-family: var(--font);
+  font-size: 0.9375rem;
+  color: var(--text);
+  background: var(--surface-page);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  transition: background 200ms, color 200ms;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  height: 100dvh;
+  overflow-y: auto;
+}
+
+/* ── NAVBAR ─────────────────────────────────────────── */
+.navbar {
+  display: flex;
+  align-items: center;
+  height: var(--nav-h);
+  padding: 0 28px;
+  background: var(--teal-900);
+  border-bottom: 1px solid rgba(149,223,219,.15);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  flex-shrink: 0;
+}
+.brand-icon { display: flex; align-items: center; text-decoration: none; }
+.nav-pipe { width: 1px; height: 16px; background: rgba(149,223,219,.30); margin: 0 12px; }
+.nav-brand-text { font-size: 1rem; font-weight: 600; color: var(--teal-100); text-decoration: none; }
+
+.nav-links-right {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Navbar Volume Control */
+.nav-volume-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-right: 16px;
+  padding-right: 16px;
+  border-right: 1px solid rgba(149,223,219,.30);
+}
+.nav-volume-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--teal-100);
+}
+.nav-volume-slider {
+  width: 80px;
+  accent-color: var(--teal-400);
+  cursor: pointer;
+}
+.nav-volume-val {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--teal-100);
+  min-width: 36px;
+  text-align: right;
+}
+
+.icon-btn {
+  font-family: var(--font);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: rgba(149,223,219,.85);
+  background: rgba(149,223,219,.12);
+  border: 1px solid rgba(149,223,219,.22);
+  border-radius: 4px;
+  padding: 5px 8px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  transition: 130ms;
+}
+.icon-btn:hover { background: rgba(149,223,219,.22); border-color: rgba(149,223,219,.40); color: var(--teal-100); }
+.icon-btn svg { width: 14px; height: 14px; fill: currentColor; }
+
+/* ── MODAL POPUP FOR KEYS ───────────────────────────── */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(1, 45, 44, 0.6);
+  backdrop-filter: blur(2px);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 200ms ease;
+}
+.modal-overlay.open {
+  opacity: 1;
+  pointer-events: all;
+}
+.modal-card {
+  background: var(--surface-card);
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  padding: 24px;
+  width: 100%;
+  max-width: 440px;
+  box-shadow: var(--shadow-md);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  transform: translateY(8px);
+  transition: transform 200ms ease;
+}
+.modal-overlay.open .modal-card {
+  transform: translateY(0);
+}
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--teal-900);
+}
+.modal-close {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-muted);
+  font-size: 1.25rem;
+  line-height: 1;
+}
+.modal-close:hover { color: var(--text); }
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 4px;
+}
+
+/* ── WRAPPER ────────────────────────────────────────── */
+.wrap {
+  width: 100%;
+  max-width: var(--wrap);
+  margin-inline: auto;
+  padding: 16px 20px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+  gap: 12px;
+}
+
+/* ── TOP CONTROL BAR ────────────────────────────────── */
+.card {
+  background: var(--surface-card);
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  padding: 14px 20px;
+  box-shadow: var(--shadow);
+  flex-shrink: 0;
+}
+.card-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 16px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.card-header-row::-webkit-scrollbar { display: none; }
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.persona-select {
+  height: 36px;
+  width: auto;
+  min-width: 130px;
+  font-weight: 600;
+  padding: 6px 10px;
+  flex-shrink: 0;
+}
+
+/* ── STATUS & AUDIO METER ───────────────────────────── */
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #94a3b8;
+  flex-shrink: 0;
+  margin: 0 4px;
+}
+.dot.connected { background: #1A7A4A; box-shadow: 0 0 0 2px rgba(26,122,74,.2); }
+.dot.speaking  { background: var(--amber); box-shadow: 0 0 0 2px rgba(225,160,30,.2); }
+
+.audio-meter {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  height: 14px;
+  flex-shrink: 0;
+}
+.audio-meter-bar {
+  width: 3px;
+  height: 4px;
+  background: var(--border);
+  border-radius: 1px;
+  transition: height 0.06s ease, background 0.1s ease;
+}
+.audio-meter.active .audio-meter-bar { background: var(--teal-400); }
+
+/* ── BUTTONS ─────────────────────────────────────────── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  font-family: var(--font);
+  font-size: 0.875rem;
+  font-weight: 600;
+  padding: 8px 18px;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: background 130ms, border-color 130ms, opacity 130ms;
+}
+.btn:active { opacity: .88; }
+.btn-primary { background: var(--teal-900); color: #fff; border-color: var(--teal-900); }
+.btn-primary:hover { background: var(--teal-700); border-color: var(--teal-700); }
+
+.btn-secondary { background: transparent; color: var(--teal-900); border-color: var(--teal-900); }
+.btn-secondary:hover { background: rgba(0,90,90,.05); }
+
+.btn-danger { background: var(--red); color: #fff; border-color: var(--red); }
+.btn-danger:hover { background: #A01830; }
+
+.btn-sm { padding: 5px 12px; font-size: 0.75rem; }
+
+/* ── COLLAPSIBLE SETTINGS ACCORDION ─────────────────── */
+.accordion {
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  overflow: hidden;
+  background: var(--surface-card);
+  box-shadow: var(--shadow);
+  flex-shrink: 0;
+}
+.accordion-trigger {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 16px;
+  background: var(--surface-card);
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  font-family: var(--font);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  transition: background 130ms, color 130ms;
+}
+.accordion-trigger:hover { background: var(--surface-in); color: var(--text); }
+.accordion-trigger[aria-expanded="true"] { background: var(--surface-in); color: var(--text); }
+.accordion-chevron {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  color: var(--text-muted);
+  transition: transform 200ms ease;
+}
+.accordion-trigger[aria-expanded="true"] .accordion-chevron { transform: rotate(180deg); }
+.accordion-body {
+  display: none;
+  padding: 0 16px 16px;
+  background: var(--surface-card);
+  border-top: 1px solid var(--border);
+}
+.accordion-body.open { display: block; }
+.accordion-body-inner {
+  padding-top: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.settings-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.settings-section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--teal-700);
+  border-bottom: 1px dashed var(--border);
+  padding-bottom: 6px;
+}
+
+.settings-grid-2col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+@media (max-width: 640px) { .settings-grid-2col { grid-template-columns: 1fr; } }
+
+.field-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 4px;
+  display: block;
+}
+
+.input {
+  font-family: var(--font);
+  font-size: 0.875rem;
+  color: var(--text);
+  background: var(--surface-card);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 8px 12px;
+  outline: none;
+  width: 100%;
+  height: 38px;
+  transition: border-color 130ms, box-shadow 130ms;
+}
+select.input { cursor: pointer; }
+.input::placeholder { color: #7A9E9E; }
+.input:hover { border-color: var(--teal-700); }
+.input:focus { border-color: var(--teal-700); box-shadow: 0 0 0 3px rgba(0,130,130,.15); }
+
+/* Tool Checkbox */
+.tool-toggle-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text);
+  cursor: pointer;
+  user-select: none;
+}
+.tool-toggle-label input[type="checkbox"] {
+  width: 17px;
+  height: 17px;
+  accent-color: var(--teal-700);
+  cursor: pointer;
+}
+
+.textarea {
+  font-family: var(--font);
+  font-size: 0.85rem;
+  color: var(--text);
+  background: var(--surface-card);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 10px 12px;
+  outline: none;
+  width: 100%;
+  min-height: 110px;
+  resize: vertical;
+  line-height: 1.55;
+}
+.textarea:focus { border-color: var(--teal-700); box-shadow: 0 0 0 3px rgba(0,130,130,.15); }
+
+.persona-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 6px;
+}
+
+/* ── CHAT LOG & INPUT BAR (STABLE FULL-HEIGHT FLEX) ─── */
+.chat-window {
+  flex: 1;
+  min-height: 220px;
+  overflow-y: auto;
+  scrollbar-gutter: stable;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px 20px;
+  background: var(--surface-card);
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  box-shadow: var(--shadow);
+}
+
+.msg {
+  max-width: 82%;
+  padding: 11px 16px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  word-break: break-word;
+  box-shadow: 0 1px 3px rgba(1,45,44,.06);
+}
+
+.msg-user {
+  align-self: flex-end;
+  background: var(--teal-900);
+  border: 1px solid var(--teal-700);
+  color: #FFFFFF;
+  border-bottom-right-radius: 2px;
+}
+.msg-user .msg-speaker { color: var(--teal-100); }
+
+.msg-assistant {
+  align-self: flex-start;
+  background: #FFFCF2;
+  border: 1px solid rgba(225, 160, 30, 0.4);
+  border-left: 4px solid var(--amber);
+  color: var(--ink);
+  border-bottom-left-radius: 2px;
+}
+.msg-assistant .msg-speaker { color: var(--amber); }
+
+.msg-speaker {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  margin-bottom: 4px;
+}
+
+/* Interactive Chat Input Bar */
+.chat-input-row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-shrink: 0;
+}
+.chat-input-row .input {
+  flex: 1;
+  height: 42px;
+  padding: 10px 14px;
+}
+.chat-input-row .btn {
+  height: 42px;
+  padding: 0 22px;
+}
+
+/* ── TOASTER ─────────────────────────────────────────── */
+#toast-container {
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  pointer-events: none;
+}
+.toast {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  min-width: 260px;
+  max-width: 360px;
+  padding: 11px 14px;
+  border-radius: 6px;
+  font-size: 0.8125rem;
+  line-height: 1.45;
+  box-shadow: 0 4px 18px rgba(1,45,44,.18);
+  pointer-events: all;
+  position: relative;
+  overflow: hidden;
+  animation: toast-in 200ms cubic-bezier(.22,1,.36,1) forwards;
+}
+.toast.removing { animation: toast-out 180ms ease-in forwards; }
+@keyframes toast-in {
+  from { opacity: 0; transform: translateY(12px) scale(.96); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+@keyframes toast-out {
+  from { opacity: 1; transform: translateY(0); max-height: 60px; }
+  to   { opacity: 0; transform: translateY(12px); max-height: 0; margin-bottom: -8px; }
+}
+.toast-success { background: #005A5A; color: #fff; }
+.toast-error   { background: #C41E3A; color: #fff; }
+.toast-warning { background: #7A5000; color: #fff; }
+.toast-info    { background: var(--surface-card); color: var(--text); border: 1px solid var(--border); }
+.toast-body { flex: 1; }
+.toast-title { font-weight: 600; font-size: 0.8125rem; }
+.toast-msg   { font-size: 0.75rem; opacity: .85; margin-top: 1px; }
+.toast-close {
+  background: none; border: none; cursor: pointer; color: inherit; opacity: .6;
+  font-size: 1rem; line-height: 1; padding: 0;
+}
+.toast-close:hover { opacity: 1; }
+.toast-progress {
+  position: absolute; bottom: 0; left: 0; height: 2px;
+  background: rgba(255,255,255,.35);
+  animation: toast-shrink linear forwards;
+}
+.toast-info .toast-progress { background: var(--teal-400); }
+@keyframes toast-shrink { from { width: 100%; } to { width: 0%; } }
+
+/* ── FOOTER ──────────────────────────────────────────── */
+.footer {
+  width: 100%;
+  max-width: var(--wrap);
+  margin-inline: auto;
+  border-top: 1px solid var(--border);
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+  flex-shrink: 0;
+}
+.footer strong { color: var(--text); font-weight: 600; }
+.footer-dot { margin: 0 10px; color: var(--border); }
+</style>
+</head>
+<body>
+
+<div id="toast-container"></div>
+
+<!-- KEYS ARE NOT ENTERED HERE.
+     The GitHub token and Gemini API key both live in the portal's
+     shared store and are set once from the home page, so this
+     module never asks for them again. -->
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <a class="brand-icon" href="../../" aria-label="Deutsch Lernen home">
+    <svg width="24" height="17" viewBox="0 0 31 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0"  y="0"  width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="0"  width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="0"  width="9" height="6" rx="1.5" fill="#008282"/>
+      <rect x="0"  y="8"  width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="8"  width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="8"  width="9" height="6" rx="1.5" fill="#008282"/>
+      <rect x="0"  y="16" width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="16" width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="16" width="9" height="6" rx="1.5" fill="#E1A01E"/>
+    </svg>
+  </a>
+  <div class="nav-pipe"></div>
+  <a class="nav-brand-text" href="../../">Speaking</a>
+  
+  <div class="nav-links-right">
+    <div class="nav-volume-wrapper">
+      <label for="volumeControl" class="nav-volume-label">VOL</label>
+      <input type="range" id="volumeControl" class="nav-volume-slider" min="0" max="100" value="100">
+      <span id="volumeVal" class="nav-volume-val">100%</span>
+    </div>
+    
+    <button class="icon-btn" onclick="window.location.href='../../'" title="Keys are set on the home page">
+      <svg viewBox="0 0 24 24"><path d="M12.65 10C11.83 7.67 9.61 6 7 6c-3.31 0-6 2.69-6 6s2.69 6 6 6c2.61 0 4.83-1.67 5.65-4H17v4h4v-4h2v-4H12.65zM7 14c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"/></svg>
+    </button>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <!-- TOP BAR: ALL CONTROLS LOCKED ONTO A SINGLE LINE -->
+  <div class="card">
+    <div class="card-header-row">
+      <div class="header-left">
+        <select id="personaSelect" class="input persona-select" aria-label="Select Persona">
+          <!-- Populated dynamically -->
+        </select>
+      </div>
+
+      <div class="header-right">
+        <div class="audio-meter" id="audioMeter" title="Microphone Activity">
+          <div class="audio-meter-bar"></div>
+          <div class="audio-meter-bar"></div>
+          <div class="audio-meter-bar"></div>
+          <div class="audio-meter-bar"></div>
+          <div class="audio-meter-bar"></div>
+        </div>
+
+        <span class="dot" id="statusDot" title="Disconnected"></span>
+
+        <button id="toggleBtn" class="btn btn-primary" onclick="toggleSession()">
+          Start
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- COLLAPSIBLE SETTINGS ACCORDION -->
+  <div class="accordion">
+    <button class="accordion-trigger" id="settingsToggle" aria-expanded="false" onclick="toggleAccordion(this)">
+      <span>Persona</span>
+      <svg class="accordion-chevron" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="4 7 9 12 14 7"/></svg>
+    </button>
+    <div class="accordion-body">
+      <div class="accordion-body-inner">
+
+        <!-- Persona Configuration Section -->
+        <div class="settings-section">
+          <div class="settings-grid-2col">
+            <div>
+              <label class="field-label">Model</label>
+              <select id="modelSelect" class="input"></select>
+            </div>
+            <div>
+              <label class="field-label">Language</label>
+              <select id="langSelect" class="input">
+                <option value="de-DE">German (de-DE)</option>
+                <option value="fr-FR">French (fr-FR)</option>
+                <option value="en-US">English (en-US)</option>
+                <option value="es-ES">Spanish (es-ES)</option>
+                <option value="pl-PL">Polish (pl-PL)</option>
+              </select>
+            </div>
+            <div>
+              <label class="field-label">Voice</label>
+              <select id="voiceSelect" class="input">
+                <option value="Aoede">Aoede (Female - Breezy)</option>
+                <option value="Kore">Kore (Female - Firm)</option>
+                <option value="Autonoe">Autonoe (Female - Bright)</option>
+                <option value="Achernar">Achernar (Female - Soft)</option>
+                <option value="Zephyr">Zephyr (Female - Bright)</option>
+                <option value="Charon">Charon (Male - Smooth)</option>
+                <option value="Puck">Puck (Male - Upbeat)</option>
+                <option value="Fenrir">Fenrir (Male - Excitable)</option>
+                <option value="Orus">Orus (Male - Firm)</option>
+                <option value="Algieba">Algieba (Male - Smooth)</option>
+              </select>
+            </div>
+            <div style="grid-column: 1 / -1;">
+              <label class="tool-toggle-label">
+                <input type="checkbox" id="googleSearchToggle" checked>
+                <span>Google Search</span>
+              </label>
+            </div>
+          </div>
+          <div>
+            <label class="field-label">Prompt</label>
+            <textarea id="systemPrompt" class="textarea"></textarea>
+          </div>
+          <div class="persona-actions">
+            <button class="btn btn-secondary btn-sm" onclick="saveCurrentPersona()">Save</button>
+            <button class="btn btn-primary btn-sm" onclick="saveAsNewPersona()">Save as New</button>
+            <button class="btn btn-danger btn-sm" onclick="deleteCurrentPersona()" style="margin-left: auto;">Delete</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- CHAT WINDOW (STABLE FULL-HEIGHT FLEX) -->
+  <div class="chat-window" id="chat"></div>
+
+  <!-- CHAT INPUT BAR -->
+  <div class="chat-input-row">
+    <input type="text" id="textInput" class="input" placeholder="Type a message or speak..." autocomplete="off">
+    <button id="sendBtn" class="btn btn-primary" onclick="handleSendText()">Send</button>
+  </div>
+
+</div>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <span><strong>Speaking</strong></span>
+  <span class="footer-dot">·</span>
+  <span>Roman Zajic</span>
+</footer>
+
+<script>
+/* ── CONSTANTS & DEFAULTS ────────────────────────────── */
+const DEFAULT_MODEL = "models/gemini-3.8-live";
+const FALLBACK_MODEL = "models/gemini-2.5-flash-native-audio-latest";
+const MODELS = [
+  { id: DEFAULT_MODEL, label: "Gemini 3.8 Live (Default)" },
+  { id: "models/gemini-3.1-flash-live-preview", label: "Gemini 3.1 Flash Live Preview" },
+  { id: FALLBACK_MODEL, label: "Gemini 2.5 Flash Native Audio (Fallback)" }
+];
+const DEFAULT_VOICE = "Aoede";
+/* ── SHARED KEYS ─────────────────────────────────────────
+   Both keys are entered once on the portal home page and stored
+   under vs_cfg, the same key every module reads. This module
+   keeps no key of its own.
+──────────────────────────────────────────────────────── */
+const CFG_KEY = "vs_cfg";
+function getCfg() {
+  try { return JSON.parse(localStorage.getItem(CFG_KEY) || "{}"); }
+  catch (e) { return {}; }
+}
+// Live values, so a key pasted on the home page applies without a reload.
+let apiKey = "";
+let ghToken = "";
+function syncKeys() {
+  const c = getCfg();
+  apiKey = c.geminiKey || "";
+  ghToken = c.token || "";
+}
+syncKeys();
+window.addEventListener("storage", syncKeys);
+document.addEventListener("visibilitychange", () => { if (!document.hidden) syncKeys(); });
+
+function keysMissingUrl() { return "../../"; }
+
+/* Personas live in this portal's repo, alongside vocabulary.json. */
+const GITHUB_REPO = "Roman-Zajic/deutsch-portal";
+const GITHUB_FILE_PATH = "data/personas.json";
+const READY_TEXT = "Ready! Speak or type";
+
+let PRESETS = {
+  helga: {
+    name: "Helga",
+    lang: "de-DE",
+    voice: "Aoede",
+    googleSearch: true,
+    instruction: `You are Helga, an encouraging, friendly, and structured German language teacher.\n\nThe user is practicing German at the intermediate (B1/B2) level.\n\nRules for your responses:\n- Speak exclusively in natural, conversational German suitable for B1/B2 learners.\n- Engage in an active, supportive conversation.\n- If the user makes a grammatical or vocabulary mistake, briefly and gently correct it, then immediately continue the conversation naturally.\n- Answer questions the user asks and propose relevant follow-up questions to keep the dialogue flowing.\n- Keep your turns reasonably concise so the learner has maximum speaking time.`
+  },
+  "jean-paul": {
+    name: "Jean-Paul",
+    lang: "fr-FR",
+    voice: "Charon",
+    googleSearch: true,
+    instruction: `You are Jean-Paul, a warm, patient, and articulate French language teacher.\n\nThe user is practicing French at the beginner/elementary (A1/A2) level.\n\nRules for your responses:\n- Speak exclusively in clear, simple French appropriate for A1/A2 level learners (common words, clear syntax, moderate pace).\n- Be very patient and encouraging.\n- If the user makes a mistake, provide a quick, gentle correction, and continue smoothly.\n- Ask simple, clear questions to prompt the learner to respond.\n- Keep responses short to give the learner the floor to practice speaking.`
+  }
+};
+
+/* ── DOM ELEMENTS ────────────────────────────────────── */
+const personaSelect = document.getElementById("personaSelect");
+const modelSelect = document.getElementById("modelSelect");
+const langSelect = document.getElementById("langSelect");
+const voiceSelect = document.getElementById("voiceSelect");
+const promptInput = document.getElementById("systemPrompt");
+const volumeControl = document.getElementById("volumeControl");
+const volumeVal = document.getElementById("volumeVal");
+const googleSearchToggle = document.getElementById("googleSearchToggle");
+const textInput = document.getElementById("textInput");
+const toggleBtn = document.getElementById("toggleBtn");
+const chat = document.getElementById("chat");
+const meter = document.getElementById("audioMeter");
+
+/* ── UI HELPERS ─────────────────────────────────────── */
+function toggleAccordion(btn) {
+  const expanded = btn.getAttribute('aria-expanded') === 'true';
+  btn.setAttribute('aria-expanded', String(!expanded));
+  btn.nextElementSibling.classList.toggle('open', !expanded);
+}
+
+/* ── BASE64 UTF-8 HELPERS ───────────────────────────── */
+function encodeUTF8toBase64(str) {
+  const bytes = new TextEncoder().encode(str);
+  const binString = Array.from(bytes, (byte) => String.fromCodePoint(byte)).join("");
+  return btoa(binString);
+}
+function decodeBase64toUTF8(b64) {
+  const binString = atob(b64);
+  const bytes = Uint8Array.from(binString, (m) => m.codePointAt(0));
+  return new TextDecoder().decode(bytes);
+}
+
+/* ── GITHUB API LOGIC ───────────────────────────────── */
+let githubFileSha = null;
+
+async function fetchPersonasFromGitHub() {
+  const url = `https://api.github.com/repos/${GITHUB_REPO}/contents/${GITHUB_FILE_PATH}?ref=main`;
+  const headers = { 'Accept': 'application/vnd.github.v3+json' };
+  if (ghToken) headers['Authorization'] = `Bearer ${ghToken}`;
+
+  try {
+    const res = await fetch(url, { headers });
+    if (res.status === 404) {
+      console.info('data/personas.json not found yet — using built-in personas.');
+      populatePersonaDropdown();
+      return;
+    }
+    if (!res.ok) throw new Error(`GitHub API Error: ${res.statusText}`);
+
+    const data = await res.json();
+    githubFileSha = data.sha;
+    const fetchedPersonas = JSON.parse(decodeBase64toUTF8(data.content));
+    if (Object.keys(fetchedPersonas).length > 0) {
+      PRESETS = fetchedPersonas;
+    }
+  } catch (err) {
+    console.error("GitHub Sync Failed:", err);
+  }
+  populatePersonaDropdown();
+}
+
+async function savePersonasToGitHub() {
+  if (!ghToken) {
+    toast('warning', 'GitHub Token Missing', 'Set it on the home page to save persona changes.');
+    return;
+  }
+
+  const url = `https://api.github.com/repos/${GITHUB_REPO}/contents/${GITHUB_FILE_PATH}`;
+  const payload = {
+    message: "Update personas via Speaking module",
+    content: encodeUTF8toBase64(JSON.stringify(PRESETS, null, 2)),
+    branch: "main"
+  };
+  // The Contents API is compare-and-swap: re-read the sha per attempt and
+  // retry on conflict, so back-to-back saves do not fail with 409.
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try {
+      const head = await fetch(`${url}?ref=main&t=${Date.now()}`, {
+        headers: { 'Accept': 'application/vnd.github.v3+json', 'Authorization': `Bearer ${ghToken}` }
+      });
+      if (head.ok) {
+        githubFileSha = (await head.json()).sha;
+        payload.sha = githubFileSha;
+      }
+
+      const res = await fetch(url, {
+        method: 'PUT',
+        headers: {
+          'Accept': 'application/vnd.github.v3+json',
+          'Authorization': `Bearer ${ghToken}`,
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(payload)
+      });
+
+      if (res.ok) {
+        githubFileSha = (await res.json()).content.sha;
+        toast('success', 'Saved', 'Persona configuration committed to GitHub.');
+        return;
+      }
+      if (res.status === 409) {
+        await new Promise(r => setTimeout(r, 400 * attempt));
+        continue;
+      }
+      if (res.status === 401 || res.status === 403) {
+        toast('error', 'Token Rejected', 'Check the GitHub token on the home page.');
+      } else {
+        toast('error', 'Save Failed', 'GitHub returned ' + res.status + '.');
+      }
+      return;
+    } catch (err) {
+      toast('error', 'Save Failed', err.message);
+      return;
+    }
+  }
+  toast('error', 'Save Failed', 'The file kept changing. Try again in a moment.');
+}
+
+/* ── PERSONA MANAGEMENT ─────────────────────────────── */
+function populatePersonaDropdown() {
+  const saved = localStorage.getItem("va_persona");
+  personaSelect.innerHTML = "";
+
+  for (const [key, preset] of Object.entries(PRESETS)) {
+    personaSelect.add(new Option(preset.name, key));
+  }
+
+  personaSelect.value = PRESETS[saved] ? saved : Object.keys(PRESETS)[0];
+  applyPersona(personaSelect.value);
+}
+
+function applyPersona(personaKey) {
+  const preset = PRESETS[personaKey];
+  if (!preset) return;
+
+  personaSelect.value = personaKey;
+  langSelect.value = preset.lang || "de-DE";
+  voiceSelect.value = preset.voice || DEFAULT_VOICE;
+  googleSearchToggle.checked = preset.googleSearch !== false;
+  promptInput.value = preset.instruction || "";
+  textInput.placeholder = `Type a message to ${preset.name} or speak...`;
+
+  localStorage.setItem("va_persona", personaKey);
+}
+
+function readPersonaFields() {
+  return {
+    lang: langSelect.value,
+    voice: voiceSelect.value,
+    googleSearch: googleSearchToggle.checked,
+    instruction: promptInput.value
+  };
+}
+
+function saveCurrentPersona() {
+  const key = personaSelect.value;
+  if (!PRESETS[key]) return;
+  Object.assign(PRESETS[key], readPersonaFields());
+  savePersonasToGitHub();
+}
+
+function saveAsNewPersona() {
+  const newName = prompt("Enter a name for the new persona (e.g., 'Spanish Tutor'):");
+  if (!newName) return;
+
+  const newKey = newName.toLowerCase().replace(/[^a-z0-9]/g, '-');
+  if (PRESETS[newKey]) {
+    toast('warning', 'Persona Exists', 'A persona with this name already exists.');
+    return;
+  }
+
+  PRESETS[newKey] = { name: newName, ...readPersonaFields() };
+  localStorage.setItem("va_persona", newKey);
+  populatePersonaDropdown();
+  savePersonasToGitHub();
+}
+
+function deleteCurrentPersona() {
+  if (Object.keys(PRESETS).length <= 1) {
+    toast('warning', 'Cannot Delete', 'You must keep at least one persona.');
+    return;
+  }
+  const currentKey = personaSelect.value;
+  const currentName = PRESETS[currentKey]?.name || currentKey;
+
+  if (!confirm(`Are you sure you want to delete persona "${currentName}"?`)) return;
+
+  delete PRESETS[currentKey];
+  populatePersonaDropdown();
+  savePersonasToGitHub();
+  toast('info', 'Deleted', `Persona "${currentName}" has been removed.`);
+}
+
+/* ── SETTINGS PERSISTENCE & INITIALIZATION ──────────── */
+MODELS.forEach(m => modelSelect.add(new Option(m.label, m.id)));
+const savedModel = localStorage.getItem("va_model");
+modelSelect.value = MODELS.some(m => m.id === savedModel) ? savedModel : DEFAULT_MODEL;
+modelSelect.addEventListener("change", () => localStorage.setItem("va_model", modelSelect.value));
+
+// Keys come from the shared store (see syncKeys above); nothing to restore here.
+personaSelect.addEventListener("change", (e) => applyPersona(e.target.value));
+
+volumeControl.addEventListener("input", (e) => {
+  const val = parseInt(e.target.value, 10);
+  volumeVal.textContent = `${val}%`;
+  currentVolume = val / 100;
+  if (playbackGainNode && playbackCtx) {
+    playbackGainNode.gain.setValueAtTime(currentVolume, playbackCtx.currentTime);
+  }
+});
+
+textInput.addEventListener("keydown", (e) => {
+  if (e.key === "Enter" && !e.shiftKey) {
+    e.preventDefault();
+    handleSendText();
+  }
+});
+
+/* ── TOASTER ────────────────────────────────────────── */
+const TOAST_ICONS = { success: '✓', error: '✕', warning: '⚠', info: 'ℹ' };
+function toast(type, title, msg, duration = 4000) {
+  const el = document.createElement('div');
+  el.className = 'toast toast-' + (TOAST_ICONS[type] ? type : 'info');
+  el.innerHTML =
+    '<div class="toast-body"><div class="toast-title"></div><div class="toast-msg"></div></div>' +
+    '<button class="toast-close">×</button>' +
+    '<div class="toast-progress"></div>';
+  el.querySelector('.toast-title').textContent = (TOAST_ICONS[type] ? TOAST_ICONS[type] + ' ' : '') + title;
+  const msgEl = el.querySelector('.toast-msg');
+  if (msg) msgEl.textContent = msg; else msgEl.remove();
+  el.querySelector('.toast-close').addEventListener('click', () => dismissToast(el));
+  el.querySelector('.toast-progress').style.animationDuration = duration + 'ms';
+  document.getElementById('toast-container').appendChild(el);
+  el._timer = setTimeout(() => dismissToast(el), duration);
+}
+function dismissToast(el) {
+  if (!el || !el.parentElement) return;
+  clearTimeout(el._timer);
+  el.classList.add('removing');
+  el.addEventListener('animationend', () => el.remove(), { once: true });
+}
+
+/* ── APPLICATION STATE ─────────────────────────────── */
+let ws = null;
+let currentModel = DEFAULT_MODEL;
+let micStream = null;
+let audioContext = null;
+let processor = null;
+let playbackCtx = null;
+let playbackGainNode = null;
+let currentVolume = 1;
+let nextPlayTime = 0;
+let activeSources = [];
+
+let isSetupComplete = false;
+let isAssistantSpeaking = false;
+let retriedAfter1007 = false;
+
+let currentUserMsgEl = null;
+let currentAssistantMsgEl = null;
+
+function setStatus(text, dotClass = "") {
+  const dot = document.getElementById("statusDot");
+  dot.className = "dot " + dotClass;
+  dot.title = text;
+}
+
+// state: "idle" | "connecting" | "live"
+function setUiState(state) {
+  toggleBtn.disabled = state === "connecting";
+  toggleBtn.innerText = { idle: "Start", connecting: "Connecting...", live: "Stop" }[state];
+  toggleBtn.className = "btn " + (state === "live" ? "btn-danger" : "btn-primary");
+  personaSelect.disabled = modelSelect.disabled = state !== "idle";
+}
+
+function getAssistantSpeakerLabel() {
+  return PRESETS[personaSelect.value]?.name || 'Assistant';
+}
+
+function languageName() {
+  // "German (de-DE)" -> "German"
+  return langSelect.selectedOptions[0].text.split(" (")[0];
+}
+
+function scrollChat() {
+  chat.scrollTop = chat.scrollHeight;
+}
+
+function appendMessage(sender, text = "") {
+  const msg = document.createElement("div");
+  msg.className = `msg msg-${sender}`;
+  const speaker = document.createElement("div");
+  speaker.className = "msg-speaker";
+  speaker.textContent = sender === 'user' ? 'You' : getAssistantSpeakerLabel();
+  const content = document.createElement("div");
+  content.className = "content";
+  content.textContent = text;
+  msg.append(speaker, content);
+  chat.appendChild(msg);
+  scrollChat();
+  return content;
+}
+
+/* ── SESSION CONTROL ────────────────────────────────── */
+async function toggleSession() {
+  if (ws) stopSession();
+  else await startSession();
+}
+
+async function startSession() {
+  syncKeys();
+  if (!apiKey) {
+    toast('warning', 'API Key Missing', 'Add your Gemini API key on the home page.');
+    return false;
+  }
+
+  retriedAfter1007 = false;
+  setStatus("Connecting...", "");
+  setUiState("connecting");
+
+  try {
+    await initMicrophone();
+  } catch (err) {
+    console.warn("Microphone not available, using text-only:", err);
+    toast('info', 'Text-only Mode', 'Microphone not accessible. You can chat by typing.');
+  }
+
+  connect(modelSelect.value);
+  return true;
+}
+
+function closeSocket() {
+  if (!ws) return;
+  ws.onopen = ws.onmessage = ws.onerror = ws.onclose = null;
+  ws.close();
+  ws = null;
+}
+
+function isQuotaError(text = "", code = 0) {
+  return code === 429 || /quota|resource_exhausted|rate.?limit/i.test(String(text));
+}
+
+// Returns true if the failure was handled by reconnecting.
+function recover(text, code) {
+  if (isQuotaError(text, code) && currentModel !== FALLBACK_MODEL) {
+    reconnect(FALLBACK_MODEL, 'Quota Reached', 'Switching to Gemini 2.5 Flash Native Audio (Google Search off)...');
+    return true;
+  }
+  // Google sometimes drops native-audio sessions mid-call with 1007. One automatic retry per session.
+  if (code === 1007 && !retriedAfter1007) {
+    retriedAfter1007 = true;
+    reconnect(currentModel, 'Connection dropped', 'Reconnecting (conversation context starts fresh)...');
+    return true;
+  }
+  return false;
+}
+
+function reconnect(model, title, msg) {
+  toast('warning', title, msg, 5000);
+  closeSocket();
+  stopAudioPlayback();
+  isSetupComplete = false;
+  currentUserMsgEl = currentAssistantMsgEl = null;
+  modelSelect.value = model;
+  setStatus("Reconnecting...", "");
+  connect(model);
+}
+
+function connect(model) {
+  currentModel = model;
+  const lang = langSelect.value;
+  const langName = languageName();
+  const instruction =
+    `${promptInput.value.trim()}\n\nThe user speaks ${langName} by default. ` +
+    `Always interpret their speech as ${langName}, even if their pronunciation is accented or imperfect.`;
+  // Google Search is off on the fallback model: 1007 drops were reported right when native-audio models make a tool call.
+  const useSearch = googleSearchToggle.checked && model !== FALLBACK_MODEL;
+
+  const endpoint = `wss://generativelanguage.googleapis.com/ws/google.ai.generativelanguage.v1beta.GenerativeService.BidiGenerateContent?key=${encodeURIComponent(apiKey)}`;
+  ws = new WebSocket(endpoint);
+
+  ws.onopen = () => {
+    ws.send(JSON.stringify({
+      setup: {
+        model,
+        generationConfig: {
+          responseModalities: ["AUDIO"],
+          speechConfig: {
+            voiceConfig: { prebuiltVoiceConfig: { voiceName: voiceSelect.value || DEFAULT_VOICE } }
+          }
+        },
+        ...(useSearch ? { tools: [{ googleSearch: {} }] } : {}),
+        inputAudioTranscription: { languageCodes: [lang, lang.split('-')[0]] },
+        outputAudioTranscription: {},
+        systemInstruction: { parts: [{ text: instruction }] }
+      }
+    }));
+    setUiState("live");
+  };
+
+  ws.onmessage = async (event) => {
+    let msg;
+    try {
+      msg = JSON.parse(event.data instanceof Blob ? await event.data.text() : event.data);
+    } catch (e) {
+      return;
+    }
+
+    if (msg.error) {
+      const errMsg = msg.error.message || JSON.stringify(msg.error);
+      if (recover(`${errMsg} ${msg.error.status || ""}`, msg.error.code)) return;
+      toast('error', 'API Error', errMsg);
+      stopSession();
+      return;
+    }
+
+    if (msg.setupComplete) {
+      isSetupComplete = true;
+      setStatus(READY_TEXT, "connected");
+      toast('success', 'Connected', MODELS.find(m => m.id === currentModel)?.label || currentModel);
+      return;
+    }
+
+    const serverContent = msg.serverContent;
+    if (!serverContent) return;
+
+    // Spoken microphone transcription (display only; the model hears the audio directly)
+    const userText = serverContent.inputTranscription?.text;
+    if (userText && userText.trim()) {
+      if (!currentUserMsgEl) currentUserMsgEl = appendMessage("user");
+      currentUserMsgEl.textContent += userText;
+      scrollChat();
+    }
+
+    // Audio stream from assistant
+    const audioParts = (serverContent.modelTurn?.parts || []).filter(p => p.inlineData?.data);
+    if (audioParts.length) {
+      isAssistantSpeaking = true;
+      currentUserMsgEl = null;
+      setStatus(`${getAssistantSpeakerLabel()} is speaking...`, "speaking");
+      audioParts.forEach(p => playAudioChunk(p.inlineData.data));
+    }
+
+    // Spoken response transcript
+    const assistantText = serverContent.outputTranscription?.text;
+    if (assistantText) {
+      currentUserMsgEl = null;
+      if (!currentAssistantMsgEl) currentAssistantMsgEl = appendMessage("assistant");
+      currentAssistantMsgEl.textContent += assistantText;
+      scrollChat();
+    }
+
+    if (serverContent.interrupted) {
+      stopAudioPlayback();
+      setStatus(READY_TEXT, "connected");
+      currentAssistantMsgEl = null;
+    }
+
+    if (serverContent.turnComplete) {
+      currentAssistantMsgEl = null;
+    }
+  };
+
+  ws.onerror = (e) => console.error("WebSocket Error:", e);
+
+  ws.onclose = (event) => {
+    if (event.code !== 1000) {
+      if (recover(event.reason, event.code)) return;
+      toast('error', `Disconnected (${event.code})`, event.reason || 'Check your API key and connection.', 6000);
+    }
+    stopSession();
+  };
+}
+
+function stopSession() {
+  isSetupComplete = false;
+  isAssistantSpeaking = false;
+  currentUserMsgEl = currentAssistantMsgEl = null;
+
+  stopAudioPlayback();
+
+  meter.classList.remove("active");
+  meter.querySelectorAll(".audio-meter-bar").forEach(b => b.style.height = "4px");
+
+  if (processor) {
+    processor.onaudioprocess = null;
+    processor.disconnect();
+    processor = null;
+  }
+  if (audioContext) {
+    audioContext.close();
+    audioContext = null;
+  }
+  if (micStream) {
+    micStream.getTracks().forEach(t => t.stop());
+    micStream = null;
+  }
+  closeSocket();
+
+  setUiState("idle");
+  setStatus("Disconnected", "");
+}
+
+/* ── SEND TYPED TEXT ─────────────────────────────────── */
+async function handleSendText() {
+  const text = textInput.value.trim();
+  if (!text) return;
+
+  if (!ws && !(await startSession())) return;
+
+  // Wait for the session to finish setup (up to 8s)
+  for (let waited = 0; !isSetupComplete && ws && waited < 8000; waited += 100) {
+    await new Promise(r => setTimeout(r, 100));
+  }
+  if (!isSetupComplete || !ws || ws.readyState !== WebSocket.OPEN) {
+    toast('error', 'Connection Error', 'Could not establish connection to send message.');
+    return;
+  }
+
+  stopAudioPlayback();
+  currentUserMsgEl = currentAssistantMsgEl = null;
+  appendMessage("user", text);
+
+  try {
+    // realtimeInput works on all Live models; clientContent is rejected after the first turn on newer ones.
+    ws.send(JSON.stringify({ realtimeInput: { text } }));
+  } catch (err) {
+    toast('error', 'Send Error', err.message);
+    return;
+  }
+
+  textInput.value = "";
+  textInput.focus();
+}
+
+/* ── AUDIO IN (MICROPHONE) ───────────────────────────── */
+async function initMicrophone() {
+  if (micStream && audioContext && processor) return;
+
+  micStream = await navigator.mediaDevices.getUserMedia({
+    audio: { channelCount: 1, echoCancellation: true, noiseSuppression: true, autoGainControl: true }
+  });
+
+  // Ask the browser for 16 kHz so it resamples with a proper filter (no manual downsampling).
+  audioContext = new (window.AudioContext || window.webkitAudioContext)({ sampleRate: 16000 });
+  if (audioContext.state === "suspended") await audioContext.resume();
+  const mimeType = `audio/pcm;rate=${audioContext.sampleRate}`; // the API resamples if the browser ignored 16 kHz
+
+  const source = audioContext.createMediaStreamSource(micStream);
+  processor = audioContext.createScriptProcessor(2048, 1, 1);
+  const meterBars = meter.querySelectorAll(".audio-meter-bar");
+
+  processor.onaudioprocess = (e) => {
+    const inputData = e.inputBuffer.getChannelData(0);
+
+    let sum = 0;
+    for (let i = 0; i < inputData.length; i++) sum += inputData[i] * inputData[i];
+    const level = Math.min(5, Math.ceil(Math.sqrt(sum / inputData.length) * 120));
+
+    meter.classList.toggle("active", level > 0);
+    meterBars.forEach((bar, idx) => {
+      bar.style.height = (idx < level) ? `${6 + idx * 2}px` : `4px`;
+    });
+
+    if (!isSetupComplete || isAssistantSpeaking || !ws || ws.readyState !== WebSocket.OPEN) return;
+
+    try {
+      ws.send(JSON.stringify({
+        realtimeInput: { audio: { mimeType, data: arrayBufferToBase64(floatTo16BitPCM(inputData)) } }
+      }));
+    } catch (err) {}
+  };
+
+  source.connect(processor);
+  const mute = audioContext.createGain();
+  mute.gain.value = 0;
+  processor.connect(mute);
+  mute.connect(audioContext.destination);
+}
+
+function floatTo16BitPCM(input) {
+  const buffer = new ArrayBuffer(input.length * 2);
+  const view = new DataView(buffer);
+  for (let i = 0; i < input.length; i++) {
+    const s = Math.max(-1, Math.min(1, input[i]));
+    view.setInt16(i * 2, s < 0 ? s * 0x8000 : s * 0x7FFF, true);
+  }
+  return buffer;
+}
+
+function arrayBufferToBase64(buffer) {
+  let binary = "";
+  const bytes = new Uint8Array(buffer);
+  for (let i = 0; i < bytes.byteLength; i++) binary += String.fromCharCode(bytes[i]);
+  return btoa(binary);
+}
+
+/* ── AUDIO OUT (PLAYBACK) ────────────────────────────── */
+function playAudioChunk(base64PCM) {
+  if (!playbackCtx) {
+    playbackCtx = new (window.AudioContext || window.webkitAudioContext)({ sampleRate: 24000 });
+    playbackGainNode = playbackCtx.createGain();
+    playbackGainNode.gain.setValueAtTime(currentVolume, playbackCtx.currentTime);
+    playbackGainNode.connect(playbackCtx.destination);
+  }
+  if (playbackCtx.state === "suspended") playbackCtx.resume();
+
+  const binary = atob(base64PCM);
+  const bytes = new Uint8Array(binary.length);
+  for (let i = 0; i < binary.length; i++) bytes[i] = binary.charCodeAt(i);
+
+  const int16 = new Int16Array(bytes.buffer);
+  const float32 = new Float32Array(int16.length);
+  for (let i = 0; i < int16.length; i++) float32[i] = int16[i] / 32768.0;
+
+  const audioBuffer = playbackCtx.createBuffer(1, float32.length, 24000);
+  audioBuffer.copyToChannel(float32, 0);
+
+  const source = playbackCtx.createBufferSource();
+  source.buffer = audioBuffer;
+  source.connect(playbackGainNode);
+
+  const now = playbackCtx.currentTime;
+  if (nextPlayTime < now) nextPlayTime = now;
+
+  source.start(nextPlayTime);
+  nextPlayTime += audioBuffer.duration;
+
+  activeSources.push(source);
+  source.onended = () => {
+    activeSources = activeSources.filter(s => s !== source);
+    if (activeSources.length === 0 && nextPlayTime <= playbackCtx.currentTime + 0.05) {
+      isAssistantSpeaking = false;
+      setStatus(READY_TEXT, "connected");
+    }
+  };
+}
+
+function stopAudioPlayback() {
+  activeSources.forEach(s => { s.onended = null; try { s.stop(); } catch(e){} });
+  activeSources = [];
+  if (playbackCtx) nextPlayTime = playbackCtx.currentTime;
+  isAssistantSpeaking = false;
+}
+
+/* ── BOOT ────────────────────────────────────────────── */
+fetchPersonasFromGitHub();
+</script>
+</body>
+</html>
