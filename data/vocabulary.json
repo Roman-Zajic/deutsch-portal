@@ -1,0 +1,104 @@
+[
+  {
+    "id": "1700000000001",
+    "word": "sich beschäftigen mit",
+    "translation": "to be occupied with / to deal with",
+    "partOfSpeech": "Verb",
+    "article": "",
+    "level": "B1",
+    "plural": "",
+    "notes": "Dative: mit + D",
+    "examples": [
+      "Ich beschäftige mich mit der Analyse.",
+      "Womit beschäftigt sich der Wetterdienst?",
+      "Der Wetterdienst beschäftigt sich mit dem Wetter und mit dem Klima.",
+      "Womit beschäftigen Sie sich in der Arbeit?",
+      "Wir müssen uns dringend mit diesem Problem beschäftigen."
+    ]
+  },
+  {
+    "id": "1700000000002",
+    "word": "der Bericht",
+    "translation": "report",
+    "partOfSpeech": "Noun",
+    "article": "der",
+    "level": "B1",
+    "plural": "die Berichte",
+    "notes": "",
+    "examples": [
+      "Ich habe den Bericht gestern fertiggestellt.",
+      "Der Bericht enthält alle wichtigen Finanzergebnisse.",
+      "Bitte lesen Sie diesen Bericht sorgfältig durch.",
+      "Wer hat diesen Bericht erstellt?",
+      "Dieser Bericht basiert auf aktuellen Daten."
+    ]
+  },
+  {
+    "id": "1700000000003",
+    "word": "liegen an",
+    "translation": "to depend on / to be caused by",
+    "partOfSpeech": "Verb",
+    "article": "",
+    "level": "B1",
+    "plural": "",
+    "notes": "Dative: an + D",
+    "examples": [
+      "Es liegt an der hohen Temperatur im Büro.",
+      "Liegt es an dir oder an mir?",
+      "Der schlechte Empfang liegt an den Bergen.",
+      "Es liegt oft an kleinen Details.",
+      "Wenn es nur an mir läge, würden wir sofort starten."
+    ]
+  },
+  {
+    "id": "1700000000004",
+    "word": "ankommen auf",
+    "translation": "to depend on / to matter",
+    "partOfSpeech": "Verb",
+    "article": "",
+    "level": "B1",
+    "plural": "",
+    "notes": "Dative: auf + D",
+    "examples": [
+      "Es kommt auf das neue System an.",
+      "Worauf kommt es dir im Leben an?",
+      "Bei dieser Arbeit kommt es auf Schnelligkeit an.",
+      "Es kommt alles auf die richtige Vorbereitung an.",
+      "Es kommt auf die Zusammenarbeit im Team an."
+    ]
+  },
+  {
+    "id": "1700000000005",
+    "word": "abhängen von",
+    "translation": "to depend on",
+    "partOfSpeech": "Verb",
+    "article": "",
+    "level": "B1",
+    "plural": "",
+    "notes": "Dative: von + D",
+    "examples": [
+      "Das hängt vom Einkommen der ganzen Firma ab.",
+      "Wovon hängt dein Erfolg ab?",
+      "Das hängt ganz von dir ab.",
+      "Ob wir fliegen, hängt vom Wetter ab.",
+      "Die Qualität hängt von den verwendeten Materialien ab."
+    ]
+  },
+  {
+    "id": "1700000000006",
+    "word": "abhängig sein von",
+    "translation": "to be dependent on",
+    "partOfSpeech": "Adjective",
+    "article": "",
+    "level": "B1",
+    "plural": "",
+    "notes": "Dative: von + D",
+    "examples": [
+      "Projekte sind von unserer Zusammenarbeit abhängig.",
+      "Wir sind von diesem System abhängig.",
+      "Sind wir von ausländischen Lieferanten abhängig?",
+      "Der Erfolg ist von vielen Faktoren abhängig.",
+      "Die Entscheidung ist von der Zustimmung des Chefs abhängig."
+    ]
+  }
+]

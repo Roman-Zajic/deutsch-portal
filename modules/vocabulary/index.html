@@ -1,97 +1,83 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Vocabulary Studio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Vocabulary — Deutsch Lernen</title>
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --font:         "Segoe UI", system-ui, -apple-system, sans-serif;
-  --teal-900:     #005A5A;
-  --teal-700:     #008282;
-  --teal-400:     #50C1C1;
-  --teal-100:     #95DFDB;
-  --amber:        #E1A01E;
-  --red:          #C41E3A;
-  --ink:          #012D2C;
-  --text:         #005A5A;
-  --text-muted:   #008282;
-  --surface-page: #F0FAFA;
-  --surface-card: #FFFFFF;
-  --surface-in:   #F0FAFA;
-  --border:       #D0ECEB;
-  --shadow:       0 1px 4px rgba(1,45,44,.10);
-  --shadow-md:    0 4px 14px rgba(1,45,44,.12);
-  --r:            8px;
-  --nav-h:        48px;
-  --wrap:         1040px;
-}
-[data-theme="dark"] {
-  --text:         #95DFDB;
-  --text-muted:   #50C1C1;
-  --surface-page: #012D2C;
-  --surface-card: #032F2E;
-  --surface-in:   #021E1E;
-  --border:       #0A5050;
-  --shadow:       0 4px 14px rgba(0,0,0,.40);
-  --shadow-md:    0 6px 20px rgba(0,0,0,.50);
-  --amber-wash:   rgba(225,160,30,.14);
+  --font:      "Segoe UI", system-ui, -apple-system, sans-serif;
+  --teal-900:  #005A5A;
+  --teal-700:  #008282;
+  --teal-400:  #50C1C1;
+  --teal-100:  #95DFDB;
+  --amber:     #E1A01E;
+  --red:       #C41E3A;
+  --ink:       #012D2C;
+  --text:      #005A5A;
+  --muted:     #008282;
+  --page:      #F0FAFA;
+  --card:      #FFFFFF;
+  --in:        #F0FAFA;
+  --border:    #D0ECEB;
+  --shadow:    0 1px 4px rgba(1,45,44,.10);
+  --shadow-md: 0 4px 14px rgba(1,45,44,.12);
+  --r:         8px;
+  --nav-h:     48px;
+  --wrap:      1040px;
 }
 
-html { font-size: 16px; scroll-behavior: smooth; }
+html { font-size: 16px; -webkit-text-size-adjust: 100%; }
 body {
-  font-family: var(--font);
-  font-size: 0.9375rem;
-  color: var(--text);
-  background: var(--surface-page);
-  line-height: 1.6;
-  -webkit-font-smoothing: antialiased;
-  transition: background 200ms, color 200ms;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  min-height: 100dvh;
+  font-family: var(--font); font-size: 0.9375rem; color: var(--text); background: var(--page);
+  line-height: 1.6; -webkit-font-smoothing: antialiased;
+  display: flex; flex-direction: column;
+  min-height: 100vh; min-height: 100dvh;
+  padding-bottom: env(safe-area-inset-bottom);
 }
 
 /* ── NAVBAR ─────────────────────────────────────────── */
 .navbar {
-  display: flex; align-items: center; height: var(--nav-h); padding: 0 28px;
-  background: var(--teal-900);
-  border-bottom: 1px solid rgba(149,223,219,.15);
+  display: flex; align-items: center; gap: 10px;
+  height: var(--nav-h); padding: 0 16px;
+  background: var(--teal-900); border-bottom: 1px solid rgba(149,223,219,.15);
   position: sticky; top: 0; z-index: 100; flex-shrink: 0;
 }
-.brand-icon { display: flex; align-items: center; text-decoration: none; }
-.nav-pipe { width: 1px; height: 16px; background: rgba(149,223,219,.30); margin: 0 12px; }
-.nav-brand-text { font-size: 1rem; font-weight: 600; color: var(--teal-100); text-decoration: none; }
-.nav-links-right { margin-left: auto; display: flex; align-items: center; gap: 10px; }
-
-.nav-stat {
-  font-size: 0.75rem; font-weight: 600; color: var(--teal-100);
-  padding: 5px 10px; border-radius: 12px;
-  background: rgba(149,223,219,.12); border: 1px solid rgba(149,223,219,.22);
-  white-space: nowrap;
+.brand-icon { display: flex; align-items: center; flex-shrink: 0; }
+.nav-pipe { width: 1px; height: 16px; background: rgba(149,223,219,.30); flex-shrink: 0; }
+.nav-brand-text {
+  font-size: 0.95rem; font-weight: 600; color: var(--teal-100);
+  text-decoration: none; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 }
-
+.nav-actions { margin-left: auto; display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
+.nav-stat {
+  font-size: 0.7rem; font-weight: 600; color: var(--teal-100);
+  padding: 4px 9px; border-radius: 12px; white-space: nowrap;
+  background: rgba(149,223,219,.12); border: 1px solid rgba(149,223,219,.22);
+}
 .icon-btn {
-  font-family: var(--font); font-size: 0.8125rem; font-weight: 500;
-  color: rgba(149,223,219,.85);
-  background: rgba(149,223,219,.12);
-  border: 1px solid rgba(149,223,219,.22);
-  border-radius: 4px; padding: 5px 8px; cursor: pointer;
-  display: inline-flex; align-items: center; justify-content: center; gap: 5px;
+  font-family: var(--font); font-size: 0.78rem; font-weight: 500;
+  color: rgba(149,223,219,.85); background: rgba(149,223,219,.12);
+  border: 1px solid rgba(149,223,219,.22); border-radius: 4px;
+  padding: 5px 9px; cursor: pointer; display: inline-flex; align-items: center; gap: 5px;
   transition: 130ms; white-space: nowrap;
 }
-.icon-btn:hover { background: rgba(149,223,219,.22); border-color: rgba(149,223,219,.40); color: var(--teal-100); }
-.icon-btn svg { width: 14px; height: 14px; fill: currentColor; }
+.icon-btn:hover { background: rgba(149,223,219,.22); color: var(--teal-100); }
+.icon-btn svg { width: 13px; height: 13px; fill: currentColor; }
 
-/* ── BUTTONS (shared with Assistant) ────────────────── */
+@media (max-width: 560px) {
+  .nav-brand-text { font-size: 0.85rem; }
+  .nav-stat { display: none; }
+}
+
+/* ── BUTTONS ────────────────────────────────────────── */
 .btn {
   display: inline-flex; align-items: center; justify-content: center; gap: 6px;
   font-family: var(--font); font-size: 0.875rem; font-weight: 600;
-  padding: 8px 18px; border-radius: 6px; border: 1px solid transparent;
-  cursor: pointer; white-space: nowrap; flex-shrink: 0;
+  padding: 8px 16px; border-radius: 6px; border: 1px solid transparent;
+  cursor: pointer; white-space: nowrap; flex-shrink: 0; min-height: 40px;
   transition: background 130ms, border-color 130ms, opacity 130ms;
 }
 .btn:active { opacity: .88; }
@@ -101,166 +87,144 @@ body {
 .btn-secondary:hover { background: rgba(0,90,90,.05); }
 .btn-danger { background: var(--red); color: #fff; border-color: var(--red); }
 .btn-danger:hover { background: #A01830; }
-.btn-sm { padding: 5px 12px; font-size: 0.75rem; }
-[data-theme="dark"] .btn-secondary { color: var(--teal-100); }
-[data-theme="dark"] .btn-primary { background: var(--teal-400); color: var(--ink); border-color: var(--teal-400); }
-[data-theme="dark"] .btn-primary:hover { background: var(--teal-100); border-color: var(--teal-100); }
+.btn-sm { padding: 6px 12px; font-size: 0.78rem; min-height: 34px; }
 
 /* ── WRAPPER / CARD ─────────────────────────────────── */
 .wrap {
   width: 100%; max-width: var(--wrap); margin-inline: auto;
-  padding: 16px 20px; display: flex; flex-direction: column;
+  padding: 14px 16px 40px; display: flex; flex-direction: column;
   flex: 1; min-height: 0; gap: 12px;
 }
 .card {
-  background: var(--surface-card); border: 1px solid var(--border);
-  border-radius: var(--r); padding: 14px 20px;
-  box-shadow: var(--shadow); flex-shrink: 0;
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--r); padding: 12px 16px; box-shadow: var(--shadow); flex-shrink: 0;
 }
-.card-header-row { display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; }
-.card-header-row::-webkit-scrollbar { display: none; }
-.header-left  { display: flex; align-items: center; gap: 12px; white-space: nowrap; flex-shrink: 0; }
-.header-right { display: flex; align-items: center; gap: 12px; white-space: nowrap; flex-shrink: 0; margin-left: auto; }
+.card-row { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.card-row .spacer { margin-left: auto; }
+.card-title { font-size: 0.98rem; font-weight: 700; color: var(--teal-900); }
 
-.card-title { font-size: 1rem; font-weight: 700; color: var(--teal-900); }
-[data-theme="dark"] .card-title { color: var(--teal-100); }
-
-/* ── SEGMENTED MODE SWITCH ──────────────────────────── */
+/* ── SEGMENTED SWITCH ───────────────────────────────── */
 .segmented {
-  display: inline-flex; padding: 3px; gap: 3px;
-  background: var(--surface-in); border: 1px solid var(--border); border-radius: 6px;
+  display: inline-flex; padding: 3px; gap: 3px; width: 100%;
+  background: var(--in); border: 1px solid var(--border); border-radius: 6px;
 }
 .segmented button {
-  font-family: var(--font); font-size: 0.75rem; font-weight: 600;
-  color: var(--text-muted); background: transparent; border: none;
-  padding: 5px 12px; border-radius: 4px; cursor: pointer; white-space: nowrap;
-  transition: 130ms;
+  flex: 1; font-family: var(--font); font-size: 0.75rem; font-weight: 600;
+  color: var(--muted); background: transparent; border: none;
+  padding: 7px 6px; border-radius: 4px; cursor: pointer; white-space: nowrap; transition: 130ms;
 }
-.segmented button:hover { color: var(--text); }
 .segmented button.active { background: var(--teal-900); color: #fff; }
-[data-theme="dark"] .segmented button.active { background: var(--teal-400); color: var(--ink); }
+@media (max-width: 560px) { .segmented button { font-size: 0.7rem; padding: 8px 4px; } }
 
-/* ── ACCORDION (shared with Assistant) ──────────────── */
+/* ── ACCORDION ──────────────────────────────────────── */
 .accordion {
   border: 1px solid var(--border); border-radius: var(--r);
-  overflow: hidden; background: var(--surface-card);
-  box-shadow: var(--shadow); flex-shrink: 0;
+  overflow: hidden; background: var(--card); box-shadow: var(--shadow); flex-shrink: 0;
 }
 .accordion-trigger {
   display: flex; align-items: center; justify-content: space-between; width: 100%;
-  padding: 10px 16px; background: var(--surface-card); border: none; cursor: pointer;
+  padding: 12px 16px; background: var(--card); border: none; cursor: pointer;
   text-align: left; font-family: var(--font); font-size: 0.85rem; font-weight: 600;
-  color: var(--text-muted); transition: background 130ms, color 130ms;
+  color: var(--muted); transition: background 130ms; min-height: 44px;
 }
-.accordion-trigger:hover { background: var(--surface-in); color: var(--text); }
-.accordion-trigger[aria-expanded="true"] { background: var(--surface-in); color: var(--text); }
-.accordion-chevron { flex-shrink: 0; width: 16px; height: 16px; color: var(--text-muted); transition: transform 200ms ease; }
+.accordion-trigger:hover { background: var(--in); }
+.accordion-trigger[aria-expanded="true"] { background: var(--in); color: var(--text); }
+.accordion-chevron { width: 16px; height: 16px; color: var(--muted); flex-shrink: 0; transition: transform 200ms ease; }
 .accordion-trigger[aria-expanded="true"] .accordion-chevron { transform: rotate(180deg); }
-.accordion-body { display: none; padding: 0 16px 16px; background: var(--surface-card); border-top: 1px solid var(--border); }
+.accordion-body { display: none; padding: 0 16px 16px; background: var(--card); border-top: 1px solid var(--border); }
 .accordion-body.open { display: block; }
-.accordion-body-inner { padding-top: 14px; display: flex; flex-direction: column; gap: 18px; }
+.accordion-inner { padding-top: 14px; display: flex; flex-direction: column; gap: 16px; }
 
-.settings-section { display: flex; flex-direction: column; gap: 12px; }
-.settings-section-header {
-  display: flex; align-items: center; justify-content: space-between; gap: 8px;
-  font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em;
-  color: var(--teal-700); border-bottom: 1px dashed var(--border); padding-bottom: 6px;
+.section-label {
+  font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em;
+  color: var(--teal-700); border-bottom: 1px dashed var(--border); padding-bottom: 5px; margin-bottom: 10px;
 }
-.settings-grid-2col { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-.settings-grid-3col { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
-@media (max-width: 720px) { .settings-grid-2col, .settings-grid-3col { grid-template-columns: 1fr; } }
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+@media (max-width: 720px) { .grid-3 { grid-template-columns: 1fr; } }
+@media (max-width: 560px) { .grid-2, .grid-3 { grid-template-columns: 1fr; } }
 
 .field-label {
-  font-size: 0.75rem; font-weight: 600; color: var(--text-muted);
+  font-size: 0.7rem; font-weight: 600; color: var(--muted);
   text-transform: uppercase; letter-spacing: .05em; margin-bottom: 4px; display: block;
 }
 .input {
-  font-family: var(--font); font-size: 0.875rem; color: var(--text);
-  background: var(--surface-card); border: 1px solid var(--border); border-radius: 6px;
-  padding: 8px 12px; outline: none; width: 100%; height: 38px;
+  font-family: var(--font); font-size: 0.9rem; color: var(--text);
+  background: var(--card); border: 1px solid var(--border); border-radius: 6px;
+  padding: 9px 12px; outline: none; width: 100%; min-height: 42px;
   transition: border-color 130ms, box-shadow 130ms;
 }
 select.input { cursor: pointer; }
 .input::placeholder { color: #7A9E9E; }
-.input:hover { border-color: var(--teal-700); }
-.input:focus { border-color: var(--teal-700); box-shadow: 0 0 0 3px rgba(0,130,130,.15); }
-[data-theme="dark"] .input { background: var(--surface-in); }
-[data-theme="dark"] .input:focus { border-color: var(--teal-400); box-shadow: 0 0 0 3px rgba(80,193,193,.20); }
+.input:hover, .input:focus { border-color: var(--teal-700); }
+.input:focus { box-shadow: 0 0 0 3px rgba(0,130,130,.15); }
 
 /* ── MULTI-SELECT ───────────────────────────────────── */
-.multi-select { position: relative; font-family: var(--font); font-size: 0.875rem; }
+.multi-select { position: relative; font-size: 0.9rem; }
 .multi-select-header {
-  background: var(--surface-card); border: 1px solid var(--border); border-radius: 6px;
-  padding: 8px 12px; cursor: pointer; user-select: none; color: var(--text);
+  background: var(--card); border: 1px solid var(--border); border-radius: 6px;
+  padding: 9px 12px; cursor: pointer; user-select: none; color: var(--text);
   display: flex; align-items: center; justify-content: space-between; gap: 8px;
-  min-height: 38px; transition: border-color 130ms;
+  min-height: 42px;
 }
-.multi-select-header:hover { border-color: var(--teal-700); }
-.multi-select-header::after { content: "▼"; font-size: 0.65rem; color: var(--text-muted); }
-[data-theme="dark"] .multi-select-header { background: var(--surface-in); }
+.multi-select-header::after { content: "▼"; font-size: 0.6rem; color: var(--muted); }
 .multi-select-options {
-  position: absolute; top: 100%; left: 0; margin-top: 4px; background: var(--surface-card);
-  border: 1px solid var(--border); border-radius: 6px; box-shadow: var(--shadow-md);
-  z-index: 10; display: none; flex-direction: column; max-height: 250px; overflow-y: auto;
-  min-width: 100%; white-space: nowrap;
+  position: absolute; top: 100%; left: 0; right: 0; margin-top: 4px;
+  background: var(--card); border: 1px solid var(--border); border-radius: 6px;
+  box-shadow: var(--shadow-md); z-index: 10; display: none; flex-direction: column;
+  max-height: 240px; overflow-y: auto;
 }
 .multi-select.open .multi-select-options { display: flex; }
 .multi-select-options label {
-  padding: 6px 10px; display: flex; align-items: center; gap: 8px; cursor: pointer;
-  color: var(--text); transition: background 150ms; font-size: 0.875rem;
+  padding: 10px 12px; display: flex; align-items: center; gap: 8px; cursor: pointer; color: var(--text);
 }
-.multi-select-options label:hover { background: var(--surface-in); }
-.multi-select-options input { accent-color: var(--teal-700); cursor: pointer; margin: 0; }
+.multi-select-options label:hover { background: var(--in); }
+.multi-select-options input { accent-color: var(--teal-700); width: 17px; height: 17px; margin: 0; }
 
-/* ── VOCAB GRID / CARDS ─────────────────────────────── */
+/* ── VOCAB GRID ─────────────────────────────────────── */
 .vocab-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; align-items: start; }
+@media (max-width: 560px) { .vocab-grid { grid-template-columns: 1fr; } }
 
 .vocab-card {
-  background: var(--surface-card); border: 1px solid var(--border);
-  border-radius: var(--r); padding: 14px 16px; box-shadow: var(--shadow);
+  background: var(--card); border: 1px solid var(--border); border-radius: var(--r);
+  padding: 14px 16px; box-shadow: var(--shadow);
   display: flex; flex-direction: column; gap: 6px;
-  transition: border-color 130ms, box-shadow 130ms, transform 130ms;
+  transition: border-color 130ms, box-shadow 130ms;
 }
-.vocab-card:hover { border-color: var(--teal-400); box-shadow: var(--shadow-md); transform: translateY(-2px); }
+.vocab-card:hover { border-color: var(--teal-400); box-shadow: var(--shadow-md); }
 
-.card-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; }
-.card-word-wrap { display: flex; flex-direction: column; flex: 1; min-width: 0; }
+.card-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; }
+.word-wrap { flex: 1; min-width: 0; }
 .primary-word {
   font-size: 1.05rem; font-weight: 700; color: var(--teal-900);
-  line-height: 1.25; margin-bottom: 3px; word-break: break-word;
+  line-height: 1.25; margin-bottom: 3px; word-break: break-word; overflow-wrap: anywhere;
 }
-[data-theme="dark"] .primary-word { color: var(--teal-100); }
 .card-art { color: var(--amber); margin-right: 5px; font-weight: 700; }
-[data-theme="dark"] .card-art { color: var(--teal-400); }
-.secondary-word { font-size: 0.9rem; font-weight: 500; color: var(--text-muted); position: relative; line-height: 1.35; word-break: break-word; }
-
-/* Test mode conceal — echoes the Assistant's amber left rule */
-.covered {
-  color: transparent !important;
-  background: var(--surface-in); border: 1px dashed var(--border);
-  border-left: 4px solid var(--amber);
-  border-radius: 4px; cursor: pointer; user-select: none;
-  display: inline-block; padding: 2px 8px; min-width: 120px;
-  transition: border-color 130ms;
+.secondary-word {
+  font-size: 0.9rem; font-weight: 500; color: var(--muted);
+  position: relative; line-height: 1.35; word-break: break-word; overflow-wrap: anywhere;
 }
-.covered:hover { border-color: var(--teal-400); }
+
+.covered {
+  color: transparent !important; background: var(--in);
+  border: 1px dashed var(--border); border-left: 4px solid var(--amber);
+  border-radius: 4px; cursor: pointer; user-select: none;
+  display: inline-block; padding: 3px 8px; min-width: 110px;
+}
 .covered .card-art { color: transparent !important; }
 .covered::after {
-  content: "Click to reveal"; color: var(--amber); font-size: 0.7rem; font-weight: 700;
-  text-transform: uppercase; letter-spacing: .05em;
+  content: "Reveal"; color: var(--amber); font-size: 0.68rem; font-weight: 700;
+  text-transform: uppercase; letter-spacing: .06em;
   position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: max-content;
 }
-[data-theme="dark"] .covered::after { color: var(--teal-400); }
 
-.badges { display: flex; gap: 4px; margin-top: 4px; flex-wrap: wrap; }
+.badges { display: flex; gap: 5px; flex-wrap: wrap; margin-top: 2px; }
 .badge {
   font-size: 0.6rem; font-weight: 700; text-transform: uppercase; letter-spacing: .5px;
-  padding: 2px 8px; border-radius: 12px;
-  background: rgba(0,130,130,.10); color: var(--teal-700);
+  padding: 2px 8px; border-radius: 12px; background: rgba(0,130,130,.10); color: var(--teal-700);
 }
-.badge.level { background: var(--amber-wash, rgba(225,160,30,.15)); color: var(--amber); }
-[data-theme="dark"] .badge { background: rgba(80,193,193,.15); color: var(--teal-400); }
-[data-theme="dark"] .badge.level { color: var(--amber); }
+.badge.level { background: rgba(225,160,30,.15); color: var(--amber); }
+.badge.notes { background: var(--in); color: var(--muted); text-transform: none; letter-spacing: 0; font-weight: 600; }
 
 .card-details {
   display: none; flex-direction: column; gap: 8px; margin-top: 8px;
@@ -268,49 +232,43 @@ select.input { cursor: pointer; }
 }
 @keyframes fadeIn { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: translateY(0); } }
 .card-meta {
-  font-size: 0.75rem; color: var(--text-muted);
-  background: var(--surface-in); padding: 5px 9px; border-radius: 4px; border: 1px solid var(--border);
+  font-size: 0.75rem; color: var(--muted); background: var(--in);
+  padding: 5px 9px; border-radius: 4px; border: 1px solid var(--border);
 }
-.card-examples { font-size: 0.8rem; display: flex; flex-direction: column; gap: 3px; }
+.card-examples { font-size: 0.8rem; display: flex; flex-direction: column; gap: 4px; }
 .example-item { position: relative; padding-left: 12px; font-style: italic; color: var(--text); }
 .example-item::before { content: "•"; position: absolute; left: 0; color: var(--teal-400); }
 
-.card-actions { display: flex; gap: 2px; align-items: center; flex-shrink: 0; }
+.card-actions { display: flex; gap: 2px; flex-shrink: 0; }
 .card-icon {
   background: none; border: none; color: var(--teal-700); cursor: pointer;
-  padding: 4px; border-radius: 4px; display: flex; align-items: center; justify-content: center;
-  transition: background 150ms, transform 200ms;
+  padding: 6px; border-radius: 4px; display: flex; align-items: center; justify-content: center;
+  transition: background 150ms; min-width: 34px; min-height: 34px;
 }
 .card-icon:hover { background: rgba(0,130,130,.10); }
 .card-icon svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
 .card-icon.danger { color: var(--red); }
-.card-icon.danger:hover { background: rgba(196,30,58,.10); }
-[data-theme="dark"] .card-icon { color: var(--teal-400); }
-[data-theme="dark"] .card-icon:hover { background: rgba(80,193,193,.15); }
 .expand-svg { transition: transform 200ms; }
 .expanded .expand-svg { transform: rotate(180deg); }
 
-.empty-state {
-  grid-column: 1/-1; text-align: center; color: var(--text-muted);
-  padding: 40px 20px; font-size: 0.9rem;
-}
+.empty-state { grid-column: 1/-1; text-align: center; color: var(--muted); padding: 36px 16px; }
 
 /* ── ADD BAR ────────────────────────────────────────── */
-.add-bar { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
-.add-bar .input { flex: 1; min-width: 180px; }
+.add-bar { display: flex; gap: 8px; flex-wrap: wrap; }
+.add-bar .input { flex: 1; min-width: 160px; }
 
-/* ── MODAL (shared with Assistant) ──────────────────── */
+/* ── MODAL ──────────────────────────────────────────── */
 .modal-overlay {
-  position: fixed; inset: 0; background: rgba(1,45,44,0.6); backdrop-filter: blur(2px);
+  position: fixed; inset: 0; background: rgba(1,45,44,.6);
   z-index: 1000; display: flex; align-items: center; justify-content: center;
-  opacity: 0; pointer-events: none; transition: opacity 200ms ease; padding: 16px;
+  opacity: 0; pointer-events: none; transition: opacity 200ms; padding: 16px;
 }
 .modal-overlay.open { opacity: 1; pointer-events: all; }
 .modal-card {
-  background: var(--surface-card); border: 1px solid var(--border); border-radius: var(--r);
-  padding: 24px; width: 100%; max-width: 460px; max-height: 90vh; overflow-y: auto;
-  box-shadow: var(--shadow-md); display: flex; flex-direction: column; gap: 16px;
-  transform: translateY(8px); transition: transform 200ms ease;
+  background: var(--card); border: 1px solid var(--border); border-radius: var(--r);
+  padding: 20px; width: 100%; max-width: 460px; max-height: 88dvh; overflow-y: auto;
+  box-shadow: var(--shadow-md); display: flex; flex-direction: column; gap: 14px;
+  transform: translateY(8px); transition: transform 200ms;
 }
 .modal-overlay.open .modal-card { transform: translateY(0); }
 .modal-header {
@@ -318,85 +276,89 @@ select.input { cursor: pointer; }
   font-size: 1rem; font-weight: 700; color: var(--teal-900);
   border-bottom: 1px solid var(--border); padding-bottom: 10px;
 }
-[data-theme="dark"] .modal-header { color: var(--teal-100); }
-.modal-close { background: none; border: none; cursor: pointer; color: var(--text-muted); font-size: 1.25rem; line-height: 1; }
+.modal-close {
+  background: none; border: none; cursor: pointer; color: var(--muted);
+  font-size: 1.4rem; line-height: 1; padding: 4px 8px;
+}
 .modal-close:hover { color: var(--text); }
-.modal-body { display: flex; flex-direction: column; gap: 14px; }
-.modal-footer { display: flex; justify-content: flex-end; gap: 10px; margin-top: 4px; border-top: 1px solid var(--border); padding-top: 14px; }
+.modal-body { display: flex; flex-direction: column; gap: 12px; }
+.modal-footer {
+  display: flex; justify-content: flex-end; gap: 8px; flex-wrap: wrap;
+  border-top: 1px solid var(--border); padding-top: 12px;
+}
 .form-group { display: flex; flex-direction: column; gap: 4px; }
 .textarea {
   font-family: var(--font); font-size: 0.85rem; color: var(--text);
-  background: var(--surface-card); border: 1px solid var(--border); border-radius: 6px;
-  padding: 10px 12px; outline: none; width: 100%; min-height: 90px; resize: vertical; line-height: 1.55;
+  background: var(--card); border: 1px solid var(--border); border-radius: 6px;
+  padding: 10px 12px; outline: none; width: 100%; min-height: 88px; resize: vertical; line-height: 1.55;
 }
 .textarea:focus { border-color: var(--teal-700); box-shadow: 0 0 0 3px rgba(0,130,130,.15); }
-[data-theme="dark"] .textarea { background: var(--surface-in); }
-
 .notice {
-  font-size: .78rem; color: var(--text-muted); line-height: 1.55;
-  background: var(--surface-in); border: 1px solid var(--border);
+  font-size: .78rem; color: var(--muted); line-height: 1.55;
+  background: var(--in); border: 1px solid var(--border);
   border-left: 4px solid var(--teal-400); border-radius: 6px; padding: 10px 12px;
 }
+@media (max-width: 560px) {
+  .modal-overlay { padding: 0; align-items: flex-end; }
+  .modal-card { max-width: none; border-radius: var(--r) var(--r) 0 0; max-height: 92dvh; padding-bottom: calc(20px + env(safe-area-inset-bottom)); }
+  .modal-footer .btn { flex: 1; }
+}
 
-/* ── TOASTER (shared with Assistant) ────────────────── */
+/* ── TOASTER ────────────────────────────────────────── */
 #toast-container {
-  position: fixed; bottom: 24px; left: 24px; z-index: 9999;
-  display: flex; flex-direction: column; gap: 8px; pointer-events: none;
+  position: fixed; left: 12px; right: 12px; bottom: calc(12px + env(safe-area-inset-bottom));
+  z-index: 9999; display: flex; flex-direction: column; gap: 8px;
+  pointer-events: none; align-items: center;
 }
 .toast {
-  display: flex; align-items: flex-start; gap: 10px; min-width: 260px; max-width: 360px;
+  display: flex; align-items: flex-start; gap: 10px; width: 100%; max-width: 360px;
   padding: 11px 14px; border-radius: 6px; font-size: 0.8125rem; line-height: 1.45;
   box-shadow: 0 4px 18px rgba(1,45,44,.18); pointer-events: all;
   position: relative; overflow: hidden;
   animation: toast-in 200ms cubic-bezier(.22,1,.36,1) forwards;
 }
 .toast.removing { animation: toast-out 180ms ease-in forwards; }
-@keyframes toast-in  { from { opacity: 0; transform: translateY(12px) scale(.96); } to { opacity: 1; transform: translateY(0) scale(1); } }
-@keyframes toast-out { from { opacity: 1; transform: translateY(0); max-height: 60px; } to { opacity: 0; transform: translateY(12px); max-height: 0; margin-bottom: -8px; } }
+@keyframes toast-in  { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes toast-out { from { opacity: 1; max-height: 70px; } to { opacity: 0; max-height: 0; margin-bottom: -8px; } }
 .toast-success { background: #005A5A; color: #fff; }
 .toast-error   { background: #C41E3A; color: #fff; }
 .toast-warning { background: #7A5000; color: #fff; }
-.toast-info    { background: var(--surface-card); color: var(--text); border: 1px solid var(--border); }
-.toast-body { flex: 1; }
+.toast-info    { background: var(--card); color: var(--text); border: 1px solid var(--border); }
+.toast-body { flex: 1; min-width: 0; }
 .toast-title { font-weight: 600; font-size: 0.8125rem; }
 .toast-msg   { font-size: 0.75rem; opacity: .85; margin-top: 1px; }
-.toast-close { background: none; border: none; cursor: pointer; color: inherit; opacity: .6; font-size: 1rem; line-height: 1; padding: 0; }
-.toast-close:hover { opacity: 1; }
+.toast-close { background: none; border: none; cursor: pointer; color: inherit; opacity: .6; font-size: 1rem; line-height: 1; padding: 2px 4px; }
 .toast-progress { position: absolute; bottom: 0; left: 0; height: 2px; background: rgba(255,255,255,.35); animation: toast-shrink linear forwards; }
 .toast-info .toast-progress { background: var(--teal-400); }
 @keyframes toast-shrink { from { width: 100%; } to { width: 0%; } }
 
-/* ── GERMAN KEYBOARD WIDGET ─────────────────────────── */
-.de-kbd-widget { position: fixed; bottom: 24px; right: 24px; display: flex; flex-direction: column; align-items: flex-end; gap: 8px; z-index: 2000; }
-@media (max-width: 640px) { .de-kbd-widget { bottom: 16px; right: 16px; } }
+/* ── GERMAN KEYBOARD ────────────────────────────────── */
+.de-kbd-widget { position: fixed; right: 16px; bottom: calc(72px + env(safe-area-inset-bottom)); z-index: 2000; }
 .de-kbd-panel {
-  display: none; background: var(--surface-card); border: 1px solid var(--border);
+  display: none; background: var(--card); border: 1px solid var(--border);
   border-radius: var(--r); padding: 6px; box-shadow: var(--shadow-md);
-  gap: 4px; width: 150px; flex-wrap: wrap; justify-content: center; animation: fadeIn 200ms ease;
+  gap: 4px; width: 152px; flex-wrap: wrap; justify-content: center;
+  margin-bottom: 8px; animation: fadeIn 200ms ease;
 }
 .de-kbd-panel.active { display: flex; }
 .de-char-btn {
-  background: var(--surface-in); border: 1px solid var(--border); color: var(--teal-900);
-  font-size: 0.95rem; font-weight: 600; border-radius: 4px; width: 30px; height: 30px;
-  cursor: pointer; display: flex; align-items: center; justify-content: center; transition: 150ms;
+  background: var(--in); border: 1px solid var(--border); color: var(--teal-900);
+  font-size: 0.95rem; font-weight: 600; border-radius: 4px;
+  width: 34px; height: 34px; cursor: pointer; transition: 150ms;
 }
 .de-char-btn:hover { background: rgba(0,130,130,.10); border-color: var(--teal-400); }
-[data-theme="dark"] .de-char-btn { color: var(--teal-100); }
 .de-kbd-toggle {
   background: var(--teal-900); color: #fff; border: none; border-radius: 50%;
-  width: 44px; height: 44px; cursor: pointer; box-shadow: var(--shadow-md);
-  display: flex; align-items: center; justify-content: center;
-  font-size: 1.1rem; font-weight: 700; transition: transform 150ms, background 150ms;
+  width: 46px; height: 46px; cursor: pointer; box-shadow: var(--shadow-md);
+  font-size: 1.1rem; font-weight: 700; margin-left: auto; display: block;
 }
-.de-kbd-toggle:hover { background: var(--teal-700); transform: scale(1.05); }
-[data-theme="dark"] .de-kbd-toggle { background: var(--teal-400); color: var(--ink); }
 
-/* ── FOOTER (shared with Assistant) ─────────────────── */
+/* ── FOOTER ─────────────────────────────────────────── */
 .footer {
   width: 100%; max-width: var(--wrap); margin-inline: auto;
-  border-top: 1px solid var(--border); padding: 12px 20px;
-  display: flex; align-items: center; justify-content: center;
-  font-size: 0.8125rem; color: var(--text-muted); flex-shrink: 0;
+  border-top: 1px solid var(--border); padding: 12px 16px;
+  display: flex; align-items: center; justify-content: center; flex-wrap: wrap;
+  font-size: 0.8rem; color: var(--muted); flex-shrink: 0;
 }
 .footer strong { color: var(--text); font-weight: 600; }
 .footer-dot { margin: 0 10px; color: var(--border); }
@@ -406,10 +368,9 @@ select.input { cursor: pointer; }
 
 <div id="toast-container"></div>
 
-<!-- NAVBAR -->
 <nav class="navbar">
-  <a class="brand-icon" href="#" aria-label="Vocabulary Studio">
-    <svg width="24" height="17" viewBox="0 0 31 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <a class="brand-icon" href="../../" aria-label="Back to portal">
+    <svg width="22" height="16" viewBox="0 0 31 22" fill="none" xmlns="http://www.w3.org/2000/svg">
       <rect x="0"  y="0"  width="9" height="6" rx="1.5" fill="#95DFDB"/>
       <rect x="11" y="0"  width="9" height="6" rx="1.5" fill="#50C1C1"/>
       <rect x="22" y="0"  width="9" height="6" rx="1.5" fill="#008282"/>
@@ -422,62 +383,53 @@ select.input { cursor: pointer; }
     </svg>
   </a>
   <div class="nav-pipe"></div>
-  <a class="nav-brand-text" href="#">Vocabulary Studio</a>
-
-  <div class="nav-links-right">
-    <span class="nav-stat" id="wordCount">0 words</span>
-    <button class="icon-btn" onclick="window.openSettings()" title="GitHub sync settings">
+  <a class="nav-brand-text" href="../../">Vocabulary</a>
+  <div class="nav-actions">
+    <span class="nav-stat" id="wordCount">…</span>
+    <button class="icon-btn" onclick="window.openSettings()" title="Save to GitHub">
       <svg viewBox="0 0 24 24"><path d="M12.65 10C11.83 7.67 9.61 6 7 6c-3.31 0-6 2.69-6 6s2.69 6 6 6c2.61 0 4.83-1.67 5.65-4H17v4h4v-4h2v-4H12.65zM7 14c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"/></svg>
-      Sync
+      Save
     </button>
-    <button class="icon-btn" onclick="window.toggleTheme()" id="theme-btn">Dark</button>
   </div>
 </nav>
 
 <div class="wrap">
 
-  <!-- TOP BAR -->
   <div class="card">
-    <div class="card-header-row">
-      <div class="header-left">
-        <span class="card-title" id="mainTitle">My Vocabulary List</span>
-      </div>
-      <div class="header-right">
-        <div class="segmented" id="modeSwitch">
-          <button data-mode="review" class="active" onclick="window.setMode('review')">Review</button>
-          <button data-mode="de-en"  onclick="window.setMode('de-en')">DE → EN</button>
-          <button data-mode="en-de"  onclick="window.setMode('en-de')">EN → DE</button>
-        </div>
-        <button class="btn btn-secondary btn-sm" onclick="window.exportJSON()">Export</button>
-        <button class="btn btn-secondary btn-sm" onclick="document.getElementById('importFile').click()">Import</button>
-        <input type="file" id="importFile" accept=".json" style="display:none;" onchange="window.importJSON(event)">
-        <button class="btn btn-primary btn-sm" onclick="window.openModal()">+ Add Word</button>
-      </div>
+    <div class="card-row" style="margin-bottom:10px;">
+      <span class="card-title" id="mainTitle">Vocabulary</span>
+      <span class="spacer"></span>
+      <button class="btn btn-secondary btn-sm" onclick="window.exportJSON()">Export</button>
+      <button class="btn btn-secondary btn-sm" onclick="document.getElementById('importFile').click()">Import</button>
+      <input type="file" id="importFile" accept=".json" style="display:none;" onchange="window.importJSON(event)">
+      <button class="btn btn-primary btn-sm" onclick="window.openModal()">+ Add</button>
+    </div>
+    <div class="segmented" id="modeSwitch">
+      <button data-mode="review" onclick="window.setMode('review')">Review</button>
+      <button data-mode="de-en"  onclick="window.setMode('de-en')">DE → EN</button>
+      <button data-mode="en-de"  onclick="window.setMode('en-de')">EN → DE</button>
     </div>
   </div>
 
-  <!-- FILTERS & TOOLS ACCORDION -->
   <div class="accordion">
-    <button class="accordion-trigger" id="filtersToggle" aria-expanded="true" onclick="window.toggleAccordion('filtersToggle','filtersBody')">
-      <span>Filters &amp; Tools</span>
+    <button class="accordion-trigger" id="filtersToggle" aria-expanded="false" onclick="window.toggleAccordion('filtersToggle','filtersBody')">
+      <span>Filters &amp; Lookup</span>
       <svg class="accordion-chevron" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="4 7 9 12 14 7"/></svg>
     </button>
-    <div class="accordion-body open" id="filtersBody">
-      <div class="accordion-body-inner">
+    <div class="accordion-body" id="filtersBody">
+      <div class="accordion-inner">
 
-        <div class="settings-section">
-          <div class="settings-section-header"><span>Filters</span></div>
-          <div class="settings-grid-3col">
+        <div>
+          <div class="section-label">Filters</div>
+          <div class="grid-3">
             <div>
               <label class="field-label">Search</label>
-              <input type="text" id="searchInput" class="input" placeholder="Word or translation…" oninput="window.renderGrid()">
+              <input type="text" id="searchInput" class="input" placeholder="Word or meaning…" oninput="window.renderGrid()">
             </div>
             <div>
               <label class="field-label">Part of Speech</label>
               <div class="multi-select" id="posFilterWrap">
-                <div class="multi-select-header" onclick="window.toggleMultiSelect('posFilterWrap')">
-                  <span id="posFilterText">All</span>
-                </div>
+                <div class="multi-select-header" onclick="window.toggleMultiSelect('posFilterWrap')"><span id="posFilterText">All</span></div>
                 <div class="multi-select-options">
                   <label><input type="checkbox" value="Noun"        class="pos-cb" onchange="window.updateFilters()"> Noun</label>
                   <label><input type="checkbox" value="Verb"        class="pos-cb" onchange="window.updateFilters()"> Verb</label>
@@ -493,9 +445,7 @@ select.input { cursor: pointer; }
             <div>
               <label class="field-label">Level</label>
               <div class="multi-select" id="lvlFilterWrap">
-                <div class="multi-select-header" onclick="window.toggleMultiSelect('lvlFilterWrap')">
-                  <span id="lvlFilterText">All</span>
-                </div>
+                <div class="multi-select-header" onclick="window.toggleMultiSelect('lvlFilterWrap')"><span id="lvlFilterText">All</span></div>
                 <div class="multi-select-options">
                   <label><input type="checkbox" value="A1" class="lvl-cb" onchange="window.updateFilters()"> A1</label>
                   <label><input type="checkbox" value="A2" class="lvl-cb" onchange="window.updateFilters()"> A2</label>
@@ -509,12 +459,11 @@ select.input { cursor: pointer; }
           </div>
         </div>
 
-        <div class="settings-section">
-          <div class="settings-section-header"><span>Lookup &amp; Save</span></div>
+        <div>
+          <div class="section-label">Add a word</div>
           <div class="add-bar">
-            <input type="text" id="newWordInput" class="input" placeholder="Type a German word to look up…" autocomplete="off">
+            <input type="text" id="newWordInput" class="input" placeholder="Look up a German word…" autocomplete="off">
             <button class="btn btn-primary btn-sm" onclick="window.fetchAndAddWord()">Look Up</button>
-            <button class="btn btn-secondary btn-sm" onclick="window.openModal()">Add Manually</button>
           </div>
         </div>
 
@@ -522,18 +471,15 @@ select.input { cursor: pointer; }
     </div>
   </div>
 
-  <!-- VOCAB GRID -->
   <div class="vocab-grid" id="vocab-grid"></div>
 </div>
 
-<!-- FOOTER -->
 <footer class="footer">
-  <span><strong>Vocabulary Studio</strong></span>
+  <span><strong>Vocabulary</strong></span>
   <span class="footer-dot">·</span>
   <span>Roman Zajic</span>
 </footer>
 
-<!-- ADD / EDIT MODAL -->
 <div class="modal-overlay" id="wordModal" onclick="if(event.target === this) window.closeModal()">
   <div class="modal-card">
     <div class="modal-header">
@@ -542,17 +488,17 @@ select.input { cursor: pointer; }
     </div>
     <div class="modal-body">
       <input type="hidden" id="editId">
-      <div class="settings-grid-2col">
+      <div class="grid-2">
         <div class="form-group">
           <label class="field-label">Word (German)</label>
-          <input type="text" id="editWord" class="input" required>
+          <input type="text" id="editWord" class="input">
         </div>
         <div class="form-group">
-          <label class="field-label">Translation (English)</label>
-          <input type="text" id="editTranslation" class="input" required>
+          <label class="field-label">Meaning (English)</label>
+          <input type="text" id="editTranslation" class="input">
         </div>
       </div>
-      <div class="settings-grid-3col">
+      <div class="grid-3">
         <div class="form-group">
           <label class="field-label">Part of Speech</label>
           <select id="editPoS" class="input">
@@ -577,12 +523,16 @@ select.input { cursor: pointer; }
         </div>
       </div>
       <div class="form-group">
-        <label class="field-label">Plural Form</label>
+        <label class="field-label">Plural</label>
         <input type="text" id="editPlural" class="input" placeholder="e.g. die Häuser">
       </div>
       <div class="form-group">
+        <label class="field-label">Grammar note</label>
+        <input type="text" id="editNotes" class="input" placeholder="e.g. Dative: mit + D">
+      </div>
+      <div class="form-group">
         <label class="field-label">Examples — one per line</label>
-        <textarea id="editExamples" class="textarea" placeholder="Das ist ein schönes Haus.&#10;Wir gehen nach Hause."></textarea>
+        <textarea id="editExamples" class="textarea"></textarea>
       </div>
     </div>
     <div class="modal-footer">
@@ -592,47 +542,45 @@ select.input { cursor: pointer; }
   </div>
 </div>
 
-<!-- GITHUB SYNC SETTINGS MODAL -->
 <div class="modal-overlay" id="settingsModal" onclick="if(event.target === this) window.closeSettings()">
   <div class="modal-card">
     <div class="modal-header">
-      <span>GitHub Sync</span>
+      <span>Save to GitHub</span>
       <button class="modal-close" onclick="window.closeSettings()">&times;</button>
     </div>
     <div class="modal-body">
       <div class="notice">
-        <strong>Your token stays in this browser.</strong> It is kept in localStorage on this device and sent
-        straight to GitHub — it is never written into the page. Create one at
-        <strong>github.com/settings/tokens</strong> with <strong>repo</strong> scope.
+        Words load from <strong>data/vocabulary.json</strong> in this repository — no token needed to read.
+        To save your changes back you need a token with <strong>Contents: read &amp; write</strong> on this repo.
+        It is kept in this browser's memory only, and never written into the page.
       </div>
       <div class="form-group">
         <label class="field-label">Personal Access Token</label>
         <input type="password" id="setToken" class="input" placeholder="Paste your token…" autocomplete="off">
       </div>
-      <div class="settings-grid-2col">
+      <div class="grid-2">
         <div class="form-group">
           <label class="field-label">Repository</label>
-          <input type="text" id="setRepo" class="input" placeholder="owner/name">
+          <input type="text" id="setRepo" class="input">
         </div>
         <div class="form-group">
           <label class="field-label">Branch</label>
-          <input type="text" id="setBranch" class="input" placeholder="main">
+          <input type="text" id="setBranch" class="input">
         </div>
       </div>
       <div class="form-group">
-        <label class="field-label">File Path</label>
-        <input type="text" id="setPath" class="input" placeholder="Deutsch Vokabeln.json">
+        <label class="field-label">File path</label>
+        <input type="text" id="setPath" class="input">
       </div>
     </div>
     <div class="modal-footer">
-      <button class="btn btn-danger btn-sm" onclick="window.clearSettings()" style="margin-right:auto;">Disconnect</button>
+      <button class="btn btn-danger btn-sm" onclick="window.clearSettings()" style="margin-right:auto;">Forget token</button>
       <button class="btn btn-secondary" onclick="window.closeSettings()">Cancel</button>
-      <button class="btn btn-primary" onclick="window.saveSettings()">Save &amp; Sync</button>
+      <button class="btn btn-primary" onclick="window.saveSettings()">Save &amp; Reload</button>
     </div>
   </div>
 </div>
 
-<!-- Floating German Keyboard Widget -->
 <div class="de-kbd-widget">
   <div class="de-kbd-panel" id="deKbdPanel">
     <button class="de-char-btn" onmousedown="window.insertChar(event,'ä')">ä</button>
@@ -647,32 +595,41 @@ select.input { cursor: pointer; }
 </div>
 
 <script>
-/* ── CONFIG (no secrets in this file — user supplies their own token) ── */
-const GH_DEFAULTS = { repo: "Roman-Zajic/Notes", branch: "main", path: "Deutsch Vokabeln.json" };
-const GH_CFG_KEY  = "vs_gh_config";
-const THEME_KEY   = "vs_theme";
-const MODE_KEY    = "vs_mode";
+/* ── DATA SOURCE ────────────────────────────────────────
+   Words live in this repository as JSON. Reads are anonymous
+   (the repo is public), so the app works with no token at
+   all; a token is only needed to write changes back.
 
-let GH_TOKEN = "", GH_REPO = GH_DEFAULTS.repo, GH_BRANCH = GH_DEFAULTS.branch, GH_PATH = GH_DEFAULTS.path;
-let ghFileSha = null;
+   A token is NEVER embedded in this file — this page is
+   public and anything hardcoded here is readable by anyone.
+───────────────────────────────────────────────────────── */
+const REPO      = "Roman-Zajic/deutsch-portal";
+const BRANCH    = "main";
+const DATA_PATH = "data/vocabulary.json";
+const CFG_KEY   = "vs_cfg";
+const MODE_KEY  = "vs_mode";
+
+let GH_TOKEN = "";
+let GH_REPO = REPO, GH_BRANCH = BRANCH, GH_PATH = DATA_PATH;
+let dirty = false;
 
 window.vocabList = [];
-window.currentListTitle = "My Vocabulary List";
 window.currentMode = "review";
 window.lastFocusedInput = null;
 
-function ghConfigured() { return !!(GH_TOKEN && GH_REPO && GH_BRANCH && GH_PATH); }
+function hasToken() { return !!(GH_TOKEN && GH_REPO && GH_BRANCH && GH_PATH); }
+function rawUrl() { return `https://raw.githubusercontent.com/${GH_REPO}/${GH_BRANCH}/${GH_PATH}`; }
 
-function loadGhConfig() {
+function loadCfg() {
   try {
-    const s = JSON.parse(localStorage.getItem(GH_CFG_KEY) || "{}");
-    GH_TOKEN = s.token || ""; GH_REPO = s.repo || GH_DEFAULTS.repo;
-    GH_BRANCH = s.branch || GH_DEFAULTS.branch; GH_PATH = s.path || GH_DEFAULTS.path;
+    const s = JSON.parse(localStorage.getItem(CFG_KEY) || "{}");
+    GH_TOKEN = s.token || ""; GH_REPO = s.repo || REPO;
+    GH_BRANCH = s.branch || BRANCH; GH_PATH = s.path || DATA_PATH;
   } catch (e) {}
 }
-function saveGhConfig(c) {
+function saveCfg(c) {
   GH_TOKEN = c.token; GH_REPO = c.repo; GH_BRANCH = c.branch; GH_PATH = c.path;
-  localStorage.setItem(GH_CFG_KEY, JSON.stringify({ token: c.token, repo: c.repo, branch: c.branch, path: c.path }));
+  localStorage.setItem(CFG_KEY, JSON.stringify({ token: c.token, repo: c.repo, branch: c.branch, path: c.path }));
 }
 
 /* ── TOASTER ────────────────────────────────────────── */
@@ -681,48 +638,24 @@ window.toast = function(type, title, msg, duration) {
   const dur = duration || 4000;
   const el = document.createElement('div');
   el.className = 'toast toast-' + (TOAST_ICONS[type] ? type : 'info');
-  el.innerHTML =
-    '<div class="toast-body"><div class="toast-title"></div><div class="toast-msg"></div></div>' +
-    '<button class="toast-close">×</button><div class="toast-progress"></div>';
+  el.innerHTML = '<div class="toast-body"><div class="toast-title"></div><div class="toast-msg"></div></div>' +
+                 '<button class="toast-close">×</button><div class="toast-progress"></div>';
   el.querySelector('.toast-title').textContent = (TOAST_ICONS[type] ? TOAST_ICONS[type] + ' ' : '') + title;
   const m = el.querySelector('.toast-msg');
   if (msg) m.textContent = msg; else m.remove();
-  el.querySelector('.toast-close').addEventListener('click', () => dismissToast(el));
+  const close = () => { el.classList.add('removing'); el.addEventListener('animationend', () => el.remove(), { once: true }); };
+  el.querySelector('.toast-close').addEventListener('click', close);
   el.querySelector('.toast-progress').style.animationDuration = dur + 'ms';
   document.getElementById('toast-container').appendChild(el);
-  el._timer = setTimeout(() => dismissToast(el), dur);
-};
-function dismissToast(el) {
-  if (!el || !el.parentElement) return;
-  clearTimeout(el._timer);
-  el.classList.add('removing');
-  el.addEventListener('animationend', () => el.remove(), { once: true });
-}
-
-/* ── BASE64 UTF-8 ───────────────────────────────────── */
-function encodeUTF8toBase64(str) {
-  const bytes = new TextEncoder().encode(str);
-  return btoa(Array.from(bytes, b => String.fromCodePoint(b)).join(""));
-}
-function decodeBase64toUTF8(b64) {
-  const bin = atob(b64);
-  return new TextDecoder().decode(Uint8Array.from(bin, m => m.codePointAt(0)));
-}
-
-/* ── THEME / UI ─────────────────────────────────────── */
-window.toggleTheme = function() {
-  const html = document.documentElement;
-  const isDark = html.getAttribute('data-theme') === 'dark';
-  html.setAttribute('data-theme', isDark ? 'light' : 'dark');
-  document.getElementById('theme-btn').textContent = isDark ? 'Dark' : 'Light';
-  localStorage.setItem(THEME_KEY, isDark ? 'light' : 'dark');
+  setTimeout(close, dur);
 };
 
+/* ── UI ──────────────────────────────────────────────── */
 window.toggleAccordion = function(btnId, bodyId) {
   const btn = document.getElementById(btnId);
-  const expanded = btn.getAttribute('aria-expanded') === 'true';
-  btn.setAttribute('aria-expanded', String(!expanded));
-  document.getElementById(bodyId).classList.toggle('open', !expanded);
+  const open = btn.getAttribute('aria-expanded') === 'true';
+  btn.setAttribute('aria-expanded', String(!open));
+  document.getElementById(bodyId).classList.toggle('open', !open);
 };
 
 window.toggleMultiSelect = function(id) {
@@ -750,74 +683,92 @@ window.updateFilters = function() {
   window.renderGrid();
 };
 
-/* ── SYNC ───────────────────────────────────────────── */
-function setSyncStatus(msg, isError) {
+function setStatus(msg, isError) {
   const el = document.getElementById('wordCount');
   el.textContent = msg;
-  el.style.color = isError ? 'var(--red)' : 'var(--teal-100)';
+  el.style.color = isError ? '#ff9a9a' : 'var(--teal-100)';
 }
 
-async function loadFromGitHub() {
-  if (!ghConfigured()) { window.renderGrid(); setSyncStatus(window.vocabList.length + " words"); return; }
-  setSyncStatus("Syncing…");
+/* ── LOAD (anonymous — no token required) ────────────── */
+async function loadData() {
+  setStatus("Loading…");
   try {
-    const res = await fetch(`https://api.github.com/repos/${GH_REPO}/contents/${encodeURIComponent(GH_PATH)}?ref=${GH_BRANCH}`, {
-      headers: { 'Authorization': `Bearer ${GH_TOKEN}`, 'Accept': 'application/vnd.github.v3+json' }
-    });
-    if (res.ok) {
-      const data = await res.json();
-      ghFileSha = data.sha;
-      const parsed = JSON.parse(decodeBase64toUTF8(data.content));
-      if (Array.isArray(parsed)) window.vocabList = parsed;
-      window.renderGrid();
-      setSyncStatus(window.vocabList.length + " words · synced");
-      window.toast('success', 'Synced', 'Loaded from GitHub.');
-    } else if (res.status === 404) {
-      window.renderGrid();
-      setSyncStatus(window.vocabList.length + " words · local");
-      window.toast('info', 'No remote file', 'It will be created on your first save.');
-    } else {
-      setSyncStatus("Sync error", true);
-      window.toast('error', 'Sync Failed', `GitHub returned ${res.status}. Check the token in Sync settings.`);
-    }
+    const res = await fetch(rawUrl() + '?t=' + Date.now());
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const parsed = JSON.parse(await res.text());
+    if (!Array.isArray(parsed)) throw new Error('not an array');
+
+    window.vocabList = parsed.map(it => ({
+      id: it.id || String(Date.now() + Math.floor(Math.random() * 1000)),
+      word: it.word || '',
+      translation: it.translation || '',
+      partOfSpeech: it.partOfSpeech || 'Other',
+      article: it.article || '',
+      level: it.level || 'C2',
+      plural: it.plural || '',
+      notes: it.notes || '',
+      examples: Array.isArray(it.examples) ? it.examples : []
+    }));
+
+    dirty = false;
+    window.renderGrid();
+    const n = window.vocabList.length;
+    setStatus(n + (n === 1 ? ' word' : ' words'));
   } catch (e) {
-    setSyncStatus("Network error", true);
-    window.toast('error', 'Network Error', 'Could not reach GitHub.');
+    window.renderGrid();
+    setStatus("Load failed", true);
+    window.toast('error', 'Could not load words', e.message);
   }
 }
 
+/* ── SAVE (needs token) ──────────────────────────────── */
 async function saveToGitHub() {
-  if (!ghConfigured()) {
-    window.toast('warning', 'Local mode', 'Connect GitHub in Sync settings to back up your words.');
+  if (!hasToken()) {
+    window.openSettings();
+    window.toast('warning', 'Token required', 'Paste a token to save your changes back to GitHub.');
     return;
   }
-  const payload = {
-    message: "Update vocabulary list via Vocabulary Studio",
-    content: encodeUTF8toBase64(JSON.stringify(window.vocabList, null, 2)),
-    branch: GH_BRANCH
-  };
-  if (ghFileSha) payload.sha = ghFileSha;
   try {
-    const res = await fetch(`https://api.github.com/repos/${GH_REPO}/contents/${encodeURIComponent(GH_PATH)}`, {
+    let sha = null;
+    const head = await fetch(`https://api.github.com/repos/${GH_REPO}/contents/${GH_PATH}?ref=${GH_BRANCH}`, {
+      headers: { 'Authorization': `Bearer ${GH_TOKEN}`, 'Accept': 'application/vnd.github+json' }
+    });
+    if (head.ok) sha = (await head.json()).sha;
+
+    const bytes = new TextEncoder().encode(JSON.stringify(window.vocabList, null, 2));
+    const b64 = btoa(Array.from(bytes, b => String.fromCodePoint(b)).join(''));
+
+    const payload = { message: "Update vocabulary via Vocabulary module", content: b64, branch: GH_BRANCH };
+    if (sha) payload.sha = sha;
+
+    const res = await fetch(`https://api.github.com/repos/${GH_REPO}/contents/${GH_PATH}`, {
       method: 'PUT',
-      headers: { 'Authorization': `Bearer ${GH_TOKEN}`, 'Accept': 'application/vnd.github.v3+json', 'Content-Type': 'application/json' },
+      headers: {
+        'Authorization': `Bearer ${GH_TOKEN}`,
+        'Accept': 'application/vnd.github+json',
+        'Content-Type': 'application/json'
+      },
       body: JSON.stringify(payload)
     });
+
     if (res.ok) {
-      ghFileSha = (await res.json()).content.sha;
-      setSyncStatus(window.vocabList.length + " words · synced");
+      dirty = false;
+      setStatus(window.vocabList.length + ' words · saved');
       window.toast('success', 'Saved', 'Committed to GitHub.');
+      setTimeout(loadData, 3000);
+    } else if (res.status === 401 || res.status === 403) {
+      window.toast('error', 'Token rejected', 'It is invalid or lacks Contents write access.');
     } else if (res.status === 409) {
-      window.toast('error', 'Conflict', 'The file changed elsewhere. Reload to pull the latest.');
-    } else if (res.status === 401) {
-      window.toast('error', 'Token rejected', 'That token is invalid or lacks repo scope.');
+      window.toast('error', 'Conflict', 'The file changed on GitHub. Reload before saving.');
     } else {
-      window.toast('error', 'Save Failed', `GitHub returned ${res.status}.`);
+      window.toast('error', 'Save failed', 'GitHub returned ' + res.status + '.');
     }
-  } catch (e) { window.toast('error', 'Network Error', 'Could not reach GitHub.'); }
+  } catch (e) {
+    window.toast('error', 'Network error', 'Could not reach GitHub.');
+  }
 }
 
-/* ── SETTINGS MODAL ─────────────────────────────────── */
+/* ── SAVE MODAL ──────────────────────────────────────── */
 window.openSettings = function() {
   document.getElementById('setToken').value  = GH_TOKEN;
   document.getElementById('setRepo').value   = GH_REPO;
@@ -829,44 +780,40 @@ window.closeSettings = function() { document.getElementById('settingsModal').cla
 window.saveSettings = function() {
   const c = {
     token:  document.getElementById('setToken').value.trim(),
-    repo:   document.getElementById('setRepo').value.trim(),
-    branch: document.getElementById('setBranch').value.trim(),
-    path:   document.getElementById('setPath').value.trim()
+    repo:   document.getElementById('setRepo').value.trim() || REPO,
+    branch: document.getElementById('setBranch').value.trim() || BRANCH,
+    path:   document.getElementById('setPath').value.trim() || DATA_PATH
   };
-  if (!c.repo || !c.branch || !c.path) return window.toast('warning', 'Missing fields', 'Repository, branch and file path are required.');
-  saveGhConfig(c); closeSettings();
-  if (ghConfigured()) loadFromGitHub();
-  else { window.renderGrid(); setSyncStatus(window.vocabList.length + " words"); }
+  saveCfg(c); closeSettings();
+  loadData();
+  window.toast('success', 'Saved', 'Reading from ' + c.repo + '/' + c.path);
 };
 window.clearSettings = function() {
-  if (!confirm("Remove the stored token and disconnect GitHub sync?")) return;
-  localStorage.removeItem(GH_CFG_KEY); GH_TOKEN = ""; closeSettings();
-  window.renderGrid(); setSyncStatus(window.vocabList.length + " words");
-  window.toast('info', 'Disconnected', 'Working locally now.');
+  if (!confirm("Forget the stored token on this device?")) return;
+  localStorage.removeItem(CFG_KEY); GH_TOKEN = ""; closeSettings();
+  window.toast('info', 'Token forgotten', 'You can still read and edit; saving needs a token again.');
 };
 
-/* ── CARD INTERACTIONS ──────────────────────────────── */
+/* ── CARD ACTIONS ────────────────────────────────────── */
 window.speakText = function(text, event) {
   if (event) event.stopPropagation();
   try {
-    if (!('speechSynthesis' in window)) return window.toast('warning', 'No TTS', 'Speech synthesis is unavailable here.');
+    if (!('speechSynthesis' in window)) return window.toast('warning', 'No TTS', 'Not available in this browser.');
     window.speechSynthesis.cancel();
     const u = new SpeechSynthesisUtterance(text);
     u.lang = 'de-DE'; window.speechSynthesis.speak(u);
-  } catch (e) { window.toast('error', 'TTS Error', e.message); }
+  } catch (e) { window.toast('error', 'TTS error', e.message); }
 };
-
 window.revealAnswer = function(el) { el.classList.remove('covered'); };
-
 window.toggleDetails = function(id) {
-  const d = document.getElementById(`details-${id}`);
-  const b = document.getElementById(`btn-${id}`);
+  const d = document.getElementById('details-' + id);
+  const b = document.getElementById('btn-' + id);
   const open = d.style.display === 'flex';
   d.style.display = open ? 'none' : 'flex';
   b.classList.toggle('expanded', !open);
 };
 
-/* ── RENDER ─────────────────────────────────────────── */
+/* ── RENDER ──────────────────────────────────────────── */
 const ICONS = {
   speak:  `<svg viewBox="0 0 24 24"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>`,
   edit:   `<svg viewBox="0 0 24 24"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg>`,
@@ -899,68 +846,68 @@ window.renderGrid = function() {
     const card = document.createElement('div');
     card.className = 'vocab-card';
 
-    const german = (item.article ? `<span class="card-art">${esc(item.article)}</span>` : '') + esc(item.word || '');
-    const english = esc(item.translation || '');
+    const german = (item.article ? `<span class="card-art">${esc(item.article)}</span>` : '') + esc(item.word);
+    const english = esc(item.translation);
 
-    let primary = german, secondary = english, secondaryClass = 'secondary-word';
-    if (mode === 'en-de') { primary = english; secondary = german; secondaryClass += ' covered'; }
-    else if (mode === 'de-en') { secondaryClass += ' covered'; }
+    let primary = german, secondary = english, cls = 'secondary-word';
+    if (mode === 'en-de') { primary = english; secondary = german; cls += ' covered'; }
+    else if (mode === 'de-en') { cls += ' covered'; }
 
-    let metaHtml = '';
-    if (item.plural) metaHtml = `<div class="card-meta"><strong>Plural:</strong> ${esc(item.plural)}</div>`;
+    let meta = '';
+    if (item.plural) meta += `<div class="card-meta"><strong>Plural:</strong> ${esc(item.plural)}</div>`;
 
-    let examplesHtml = '';
-    if (Array.isArray(item.examples) && item.examples.length) {
-      examplesHtml = '<div class="card-examples">' +
-        item.examples.filter(e => e && String(e).trim())
-          .map(e => `<div class="example-item">${esc(e)}</div>`).join('') + '</div>';
+    let ex = '';
+    if (item.examples.length) {
+      ex = '<div class="card-examples">' + item.examples
+        .filter(e => e && String(e).trim())
+        .map(e => `<div class="example-item">${esc(e)}</div>`).join('') + '</div>';
     }
 
-    const spoken = ((item.article ? item.article + ' ' : '') + (item.word || '')).replace(/'/g, "\\'");
+    const spoken = ((item.article ? item.article + ' ' : '') + item.word).replace(/'/g, "\\'");
 
-    card.innerHTML = `
-      <div class="card-header">
-        <div class="card-word-wrap">
-          <div class="primary-word">${primary}</div>
-          <div class="${secondaryClass}" onclick="window.revealAnswer(this)">${secondary}</div>
-        </div>
-        <div class="card-actions">
-          <button class="card-icon" onclick="window.speakText('${spoken}', event)" title="Pronounce">${ICONS.speak}</button>
-          <button class="card-icon" onclick="window.openEditModal('${item.id}')" title="Edit">${ICONS.edit}</button>
-          <button class="card-icon danger" onclick="window.deleteWord('${item.id}')" title="Delete">${ICONS.del}</button>
-          <button class="card-icon" id="btn-${item.id}" onclick="window.toggleDetails('${item.id}')" title="Expand details">${ICONS.expand}</button>
-        </div>
-      </div>
-      <div class="card-details" id="details-${item.id}">
-        <div class="badges">
-          <span class="badge">${esc(item.partOfSpeech || 'Other')}</span>
-          ${item.level ? `<span class="badge level">${esc(item.level)}</span>` : ''}
-        </div>
-        ${metaHtml}${examplesHtml}
-      </div>`;
+    card.innerHTML =
+      '<div class="card-head">' +
+        '<div class="word-wrap">' +
+          `<div class="primary-word">${primary}</div>` +
+          `<div class="${cls}" onclick="window.revealAnswer(this)">${secondary}</div>` +
+        '</div>' +
+        '<div class="card-actions">' +
+          `<button class="card-icon" onclick="window.speakText('${spoken}', event)" title="Pronounce">${ICONS.speak}</button>` +
+          `<button class="card-icon" onclick="window.openEditModal('${esc(item.id)}')" title="Edit">${ICONS.edit}</button>` +
+          `<button class="card-icon danger" onclick="window.deleteWord('${esc(item.id)}')" title="Delete">${ICONS.del}</button>` +
+          `<button class="card-icon" id="btn-${esc(item.id)}" onclick="window.toggleDetails('${esc(item.id)}')" title="Details">${ICONS.expand}</button>` +
+        '</div>' +
+      '</div>' +
+      `<div class="card-details" id="details-${esc(item.id)}">` +
+        '<div class="badges">' +
+          `<span class="badge">${esc(item.partOfSpeech)}</span>` +
+          (item.level ? `<span class="badge level">${esc(item.level)}</span>` : '') +
+          (item.notes ? `<span class="badge notes">${esc(item.notes)}</span>` : '') +
+        '</div>' + meta + ex +
+      '</div>';
     grid.appendChild(card);
   });
 
-  if (filtered.length === 0) {
-    grid.innerHTML = '<div class="empty-state">' + (window.vocabList.length === 0
-      ? 'No words yet — use <strong>Look Up</strong> or <strong>+ Add Word</strong> to start your list.'
-      : 'No vocabulary matches your current filters.') + '</div>';
+  if (!filtered.length) {
+    grid.innerHTML = '<div class="empty-state">' + (window.vocabList.length
+      ? 'No words match your filters.'
+      : 'No words yet — use <strong>Look Up</strong> or <strong>+ Add</strong>.') + '</div>';
   }
 };
 
-/* ── WORD CRUD ──────────────────────────────────────── */
+/* ── CRUD ────────────────────────────────────────────── */
 window.openModal = function(data) {
   document.getElementById('modalTitle').innerText = data ? "Edit Word" : "Add Word";
   document.getElementById('editId').value          = data ? data.id : "";
-  document.getElementById('editWord').value        = data ? (data.word || '') : "";
-  document.getElementById('editTranslation').value = data ? (data.translation || '') : "";
-  document.getElementById('editPoS').value          = data ? (data.partOfSpeech || 'Noun') : 'Noun';
-  document.getElementById('editArticle').value      = data ? (data.article || '') : '';
-  document.getElementById('editLevel').value        = data ? (data.level || 'C2') : 'C2';
-  document.getElementById('editPlural').value       = data ? (data.plural || '') : "";
-  document.getElementById('editExamples').value     = data && Array.isArray(data.examples) ? data.examples.join('\n') : "";
+  document.getElementById('editWord').value        = data ? data.word : "";
+  document.getElementById('editTranslation').value = data ? data.translation : "";
+  document.getElementById('editPoS').value          = data ? data.partOfSpeech : 'Noun';
+  document.getElementById('editArticle').value      = data ? data.article : '';
+  document.getElementById('editLevel').value        = data ? data.level : 'C2';
+  document.getElementById('editPlural').value       = data ? data.plural : '';
+  document.getElementById('editNotes').value        = data ? (data.notes || '') : '';
+  document.getElementById('editExamples').value     = data ? data.examples.join('\n') : '';
   document.getElementById('wordModal').classList.add('open');
-  setTimeout(() => document.getElementById('editWord').focus(), 60);
 };
 window.closeModal = function() { document.getElementById('wordModal').classList.remove('open'); };
 window.openEditModal = function(id) {
@@ -971,13 +918,14 @@ window.deleteWord = function(id) {
   const w = window.vocabList.find(x => x.id === id);
   if (!confirm('Delete "' + (w ? w.word : 'this word') + '"?')) return;
   window.vocabList = window.vocabList.filter(x => x.id !== id);
+  dirty = true;
   window.renderGrid();
-  setSyncStatus(window.vocabList.length + " words");
+  setStatus(window.vocabList.length + ' words · unsaved');
   saveToGitHub();
 };
 window.saveWord = function() {
-  const id = document.getElementById('editId').value || Date.now().toString();
-  const wordData = {
+  const id = document.getElementById('editId').value || String(Date.now());
+  const d = {
     id,
     word: document.getElementById('editWord').value.trim(),
     translation: document.getElementById('editTranslation').value.trim(),
@@ -985,19 +933,21 @@ window.saveWord = function() {
     article: document.getElementById('editArticle').value,
     level: document.getElementById('editLevel').value,
     plural: document.getElementById('editPlural').value.trim(),
+    notes: document.getElementById('editNotes').value.trim(),
     examples: document.getElementById('editExamples').value.split('\n').map(s => s.trim()).filter(Boolean)
   };
-  if (!wordData.word) return window.toast('warning', 'Word required', 'Enter the German word.');
+  if (!d.word) return window.toast('warning', 'Word required', 'Enter the German word.');
   const i = window.vocabList.findIndex(x => x.id === id);
-  if (i >= 0) window.vocabList[i] = wordData; else window.vocabList.unshift(wordData);
+  if (i >= 0) window.vocabList[i] = d; else window.vocabList.unshift(d);
+  dirty = true;
   window.closeModal();
   window.renderGrid();
-  setSyncStatus(window.vocabList.length + " words");
-  window.toast('success', i >= 0 ? 'Updated' : 'Added', wordData.word);
+  setStatus(window.vocabList.length + ' words · unsaved');
+  window.toast('success', i >= 0 ? 'Updated' : 'Added', d.word);
   saveToGitHub();
 };
 
-/* ── LOOKUP ─────────────────────────────────────────── */
+/* ── LOOKUP ──────────────────────────────────────────── */
 function guessLevel(word) {
   const w = word.toLowerCase();
   if (['ich','du','sein','haben','haus','machen','schnell','auto','hund'].includes(w)) return 'A1';
@@ -1005,8 +955,7 @@ function guessLevel(word) {
   if (['voraussetzung','erfahrung','herausforderung','gesellschaft'].includes(w)) return 'B1';
   return 'C2';
 }
-
-function decodeHTMLEntities(s) {
+function decodeEntities(s) {
   const el = document.createElement('textarea');
   el.innerHTML = s;
   return el.value;
@@ -1017,7 +966,7 @@ window.fetchAndAddWord = async function() {
   const word = input.value.trim();
   if (!word) return window.toast('warning', 'Nothing to look up', 'Type a German word first.');
 
-  window.toast('info', 'Looking up…', 'Fetching translation and examples.', 2500);
+  window.toast('info', 'Looking up…', word, 2500);
 
   let translation = "", pos = "Noun";
   const examples = [];
@@ -1027,7 +976,7 @@ window.fetchAndAddWord = async function() {
     const r = await fetch(`https://api.mymemory.translated.net/get?q=${encodeURIComponent(word)}&langpair=de|en`);
     const d = await r.json();
     if (d && d.responseData && d.responseData.translatedText) {
-      translation = decodeHTMLEntities(d.responseData.translatedText.toLowerCase());
+      translation = decodeEntities(d.responseData.translatedText.toLowerCase());
     }
   } catch (e) {}
 
@@ -1049,20 +998,21 @@ window.fetchAndAddWord = async function() {
   } catch (e) {}
 
   input.value = '';
-  window.openModal({ id: "", word, translation, partOfSpeech: pos, article: "", level, plural: "", examples: examples.slice(0, 3) });
-  window.toast('info', 'Lookup complete', 'Review the details, then save.');
+  window.openModal({
+    id: '', word, translation, partOfSpeech: pos, article: '',
+    level, plural: '', notes: '', examples: examples.slice(0, 3)
+  });
 };
 
-/* ── IMPORT / EXPORT ────────────────────────────────── */
+/* ── IMPORT / EXPORT ─────────────────────────────────── */
 window.exportJSON = function() {
-  if (!window.vocabList.length) return window.toast('warning', 'Nothing to export', 'Your list is empty.');
+  if (!window.vocabList.length) return window.toast('warning', 'Nothing to export', 'No words loaded.');
   const blob = new Blob([JSON.stringify(window.vocabList, null, 2)], { type: "application/json" });
   const url = URL.createObjectURL(blob);
   const a = document.createElement("a");
-  a.href = url; a.download = window.currentListTitle + ".json";
+  a.href = url; a.download = "vocabulary.json";
   document.body.appendChild(a); a.click(); document.body.removeChild(a);
   URL.revokeObjectURL(url);
-  window.toast('success', 'Exported', window.vocabList.length + " words downloaded.");
 };
 
 window.importJSON = function(event) {
@@ -1072,34 +1022,29 @@ window.importJSON = function(event) {
   reader.onload = e => {
     try {
       const data = JSON.parse(e.target.result);
-      if (!Array.isArray(data)) throw new Error("not an array");
+      if (!Array.isArray(data)) throw new Error('bad');
       const fixed = data.map(it => ({
-        ...it,
-        id: it.id || Date.now().toString() + Math.floor(Math.random() * 1000),
-        level: it.level || "C2",
+        id: it.id || String(Date.now() + Math.floor(Math.random() * 1000)),
+        word: it.word || '', translation: it.translation || '',
+        partOfSpeech: it.partOfSpeech || 'Other', article: it.article || '',
+        level: it.level || 'C2', plural: it.plural || '', notes: it.notes || '',
         examples: Array.isArray(it.examples) ? it.examples : []
       }));
-      if (confirm("Replace the current list?\n\nOK = replace\nCancel = merge into current list")) {
-        window.vocabList = fixed;
-        const name = file.name.replace(/\.[^/.]+$/, "");
-        window.currentListTitle = name;
-        document.getElementById('mainTitle').innerText = name;
-      } else {
-        window.vocabList = [...fixed, ...window.vocabList];
-      }
+      if (confirm("Replace the list?\n\nOK = replace\nCancel = merge")) window.vocabList = fixed;
+      else window.vocabList = [...fixed, ...window.vocabList];
+      dirty = true;
       window.renderGrid();
-      setSyncStatus(window.vocabList.length + " words");
-      window.toast('success', 'Imported', fixed.length + " words loaded.");
+      setStatus(window.vocabList.length + ' words · unsaved');
       saveToGitHub();
     } catch (err) {
-      window.toast('error', 'Import failed', 'That file is not a valid vocabulary JSON export.');
+      window.toast('error', 'Import failed', 'Not a valid vocabulary JSON file.');
     }
     event.target.value = '';
   };
   reader.readAsText(file);
 };
 
-/* ── GERMAN KEYBOARD ────────────────────────────────── */
+/* ── GERMAN KEYBOARD ─────────────────────────────────── */
 document.addEventListener('focusin', e => {
   if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') window.lastFocusedInput = e.target;
 });
@@ -1114,22 +1059,19 @@ window.insertChar = function(e, char) {
   input.dispatchEvent(new Event('input', { bubbles: true }));
 };
 
-/* ── BOOT ───────────────────────────────────────────── */
+window.addEventListener('beforeunload', e => {
+  if (dirty) { e.preventDefault(); e.returnValue = ''; }
+});
+
+/* ── BOOT ────────────────────────────────────────────── */
 (function boot() {
-  if (localStorage.getItem(THEME_KEY) === 'dark') {
-    document.documentElement.setAttribute('data-theme', 'dark');
-    document.getElementById('theme-btn').textContent = 'Light';
-  }
-
-  const savedMode = localStorage.getItem(MODE_KEY);
-  window.setMode(['review', 'de-en', 'en-de'].includes(savedMode) ? savedMode : 'review');
-
-  loadGhConfig();
+  loadCfg();
+  const m = localStorage.getItem(MODE_KEY);
+  window.setMode(['review', 'de-en', 'en-de'].includes(m) ? m : 'review');
   document.getElementById('newWordInput').addEventListener('keydown', e => {
     if (e.key === 'Enter') window.fetchAndAddWord();
   });
-
-  loadFromGitHub();
+  loadData();
 })();
 </script>
 </body>
