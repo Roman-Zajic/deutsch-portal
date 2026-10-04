@@ -669,6 +669,7 @@ function escapeHtml(s) {
 
 /* Word count + a nudge when the answer is far off the target. */
 document.getElementById('answerInput').addEventListener('input', e => {
+  lastAnswer = e.target.value;
   const words = e.target.value.trim() ? e.target.value.trim().split(/\s+/).length : 0;
   const el = document.getElementById('wordCount');
   el.textContent = words + (words === 1 ? ' word' : ' words');
@@ -922,20 +923,32 @@ function showStage(text) {
 }
 
 /* ── RENDER ────────────────────────────────────────── */
-function renderResults(corr, grade, level, task) {
-  const issues = Array.isArray(corr.issues) ? corr.issues : [];
+/* Build the marked-up view.
 
-  /* Annotated text: strike the wrong form, show the fix after it. */
-  let annotated = escapeHtml(corr.correctedText || lastAnswer);
+   This deliberately starts from the learner's ORIGINAL text, not from
+   correctedText. correctedText already has every fix applied, so looking
+   there for the wrong form would find nothing to highlight. Matching each
+   reported `original` in turn also guarantees that the last occurrence
+   wins when a word repeats, which is the occurrence the model was most
+   likely talking about. */
+function annotate(originalText, correctedText, issues) {
+  let html = escapeHtml(originalText);
   issues.forEach(i => {
     if (!i.original || !i.corrected) return;
     const esc = s => escapeHtml(s).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    annotated = annotated.replace(
+    const title = escapeHtml((i.category || 'Other') + ': ' + (i.explanation || ''));
+    html = html.replace(
       new RegExp(esc(i.original), 'g'),
-      `<span class="err" title="${escapeHtml(i.category + ': ' + i.explanation)}">${escapeHtml(i.original)}</span>` +
+      `<span class="err" title="${title}">${escapeHtml(i.original)}</span>` +
       `<span class="fix">${escapeHtml(i.corrected)}</span>`
     );
   });
+  return html;
+}
+
+function renderResults(corr, grade, level, task) {
+  const issues = Array.isArray(corr.issues) ? corr.issues : [];
+  const annotated = annotate(lastAnswer, corr.correctedText, issues);
 
   const score = Number.isFinite(grade.score) ? grade.score : 0;
   const warn = score < 70 ? ' warn' : '';
