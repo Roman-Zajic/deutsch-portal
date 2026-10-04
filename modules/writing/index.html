@@ -310,26 +310,6 @@ const API_ROOT = "https://generativelanguage.googleapis.com/v1beta/models";
    of the Goethe / telc examinations. Sources and any gaps in
    the research are recorded in modules/writing/README.md.
 ────────────────────────────────────────────────────── */
-const TASKS = { /* ── EXAM WRITING TASKS ───────────────────────────────
-   Task formats per CEFR level, following the writing sections of
-   the real German exams. Every entry below traces to a provider's
-   own exam documentation; see modules/writing/README.md for the
-   source URL behind each one and the gaps that remain.
-
-   Level → text sorts:
-     A1  form + short message        (Goethe, telc, ÖSD all agree)
-     A2  SMS + semi-formal e-mail     (Goethe, telc); ÖSD uses one e-mail
-     B1  informal e-mail, forum post, short formal e-mail (Goethe, ÖSD)
-     B2  forum post + message to boss (Goethe); semi-formal e-mail (telc);
-         formal complaint e-mail (ÖSD)
-     C1  forum post + complaint (Goethe); Erörterung/Stellungnahme (telc);
-         formal reply e-mail (ÖSD)
-     C2  Leserbrief, long e-mail, Rezension (Goethe); integrative essay
-         with citations (telc)
-
-   `words` is the official target length. `min` means the exam says
-   "at least". The length check in the UI uses whichever applies.
-────────────────────────────────────────────────────── */
 const TASKS = {
   "A1": [
     {
@@ -628,7 +608,7 @@ const TASKS = {
       source: "telc"
     }
   ]
-}; };
+};
 
 /* ── STATE ─────────────────────────────────────────── */
 let current = null;      // { level, task }
