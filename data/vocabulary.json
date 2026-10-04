@@ -1,104 +1,298 @@
 [
   {
-    "id": "1700000000001",
-    "word": "sich beschäftigen mit",
-    "translation": "to be occupied with / to deal with",
+    "id": "1790777184462",
+    "word": "narbe",
+    "translation": "scar",
+    "partOfSpeech": "Noun",
+    "article": "die",
+    "level": "C2",
+    "plural": "",
+    "examples": []
+  },
+  {
+    "id": "1790772545124",
+    "word": "pfeifen",
+    "translation": "whistle",
     "partOfSpeech": "Verb",
     "article": "",
     "level": "B1",
     "plural": "",
-    "notes": "Dative: mit + D",
     "examples": [
-      "Ich beschäftige mich mit der Analyse.",
-      "Womit beschäftigt sich der Wetterdienst?",
-      "Der Wetterdienst beschäftigt sich mit dem Wetter und mit dem Klima.",
-      "Womit beschäftigen Sie sich in der Arbeit?",
-      "Wir müssen uns dringend mit diesem Problem beschäftigen."
+      "Der Schiedsrichter musste das Spiel abpfeifen. — The referee had to whistle the end of the game.",
+      "Ich kann ein Lied pfeifen. — I can whistle a song."
     ]
   },
   {
-    "id": "1700000000002",
-    "word": "Bericht",
-    "translation": "report",
+    "id": "1790762038423",
+    "word": "flüstern",
+    "translation": "whisper",
+    "partOfSpeech": "Verb",
+    "article": "",
+    "level": "B2",
+    "plural": "",
+    "examples": [
+      "Sie flüsterten, um das Baby nicht aufzuwecken. — They whispered so as not to wake up the baby.",
+      "Kannst du mir das Geheimnis flüstern? — Can you whisper the secret to me?"
+    ]
+  },
+  {
+    "id": "1790783100000",
+    "word": "Schnupfen",
+    "translation": "runny nose / common cold",
     "partOfSpeech": "Noun",
     "article": "der",
-    "level": "B1",
-    "plural": "die Berichte",
-    "notes": "",
+    "level": "A1",
+    "plural": "Schnupfen",
     "examples": [
-      "Ich habe den Bericht gestern fertiggestellt.",
-      "Der Bericht enthält alle wichtigen Finanzergebnisse.",
-      "Bitte lesen Sie diesen Bericht sorgfältig durch.",
-      "Wer hat diesen Bericht erstellt?",
-      "Dieser Bericht basiert auf aktuellen Daten."
+      "Ich habe einen starken Schnupfen. — I have a bad cold.",
+      "Gegen Schnupfen hilft heißer Tee. — Hot tea helps against a runny nose."
     ]
   },
   {
-    "id": "1700000000003",
-    "word": "liegen an",
-    "translation": "to depend on / to be caused by",
-    "partOfSpeech": "Verb",
+    "id": "1790783100008",
+    "word": "lässig",
+    "translation": "effortless / easily",
+    "partOfSpeech": "Adverb",
     "article": "",
-    "level": "B1",
+    "level": "B2",
     "plural": "",
-    "notes": "Dative: an + D",
     "examples": [
-      "Es liegt an der hohen Temperatur im Büro.",
-      "Liegt es an dir oder an mir?",
-      "Der schlechte Empfang liegt an den Bergen.",
-      "Es liegt oft an kleinen Details.",
-      "Wenn es nur an mir läge, würden wir sofort starten."
+      "Sie hat die schwierige Prüfung lässig bestanden. — She passed the difficult exam effortlessly.",
+      "Der Stürmer schoss den Ball lässig ins Tor. — The striker kicked the ball easily into the goal."
     ]
   },
   {
-    "id": "1700000000004",
-    "word": "ankommen auf",
-    "translation": "to depend on / to matter",
-    "partOfSpeech": "Verb",
-    "article": "",
-    "level": "B1",
-    "plural": "",
-    "notes": "Dative: auf + D",
+    "id": "1790783100010",
+    "word": "Kopf",
+    "translation": "head",
+    "partOfSpeech": "Noun",
+    "article": "der",
+    "level": "A1",
+    "plural": "Köpfe",
     "examples": [
-      "Es kommt auf das neue System an.",
-      "Worauf kommt es dir im Leben an?",
-      "Bei dieser Arbeit kommt es auf Schnelligkeit an.",
-      "Es kommt alles auf die richtige Vorbereitung an.",
-      "Es kommt auf die Zusammenarbeit im Team an."
+      "Mein Kopf tut weh. — My head hurts. (I have a headache.)"
     ]
   },
   {
-    "id": "1700000000005",
-    "word": "abhängen von",
-    "translation": "to depend on",
-    "partOfSpeech": "Verb",
-    "article": "",
-    "level": "B1",
-    "plural": "",
-    "notes": "Dative: von + D",
+    "id": "1790783100011",
+    "word": "Haar",
+    "translation": "hair",
+    "partOfSpeech": "Noun",
+    "article": "das",
+    "level": "A1",
+    "plural": "Haare",
+    "examples": []
+  },
+  {
+    "id": "1790783100012",
+    "word": "Auge",
+    "translation": "eye",
+    "partOfSpeech": "Noun",
+    "article": "das",
+    "level": "A1",
+    "plural": "Augen",
     "examples": [
-      "Das hängt vom Einkommen der ganzen Firma ab.",
-      "Wovon hängt dein Erfolg ab?",
-      "Das hängt ganz von dir ab.",
-      "Ob wir fliegen, hängt vom Wetter ab.",
-      "Die Qualität hängt von den verwendeten Materialien ab."
+      "Er hat blaue Augen. — He has blue eyes."
     ]
   },
   {
-    "id": "1700000000006",
-    "word": "abhängig sein von",
-    "translation": "to be dependent on",
-    "partOfSpeech": "Adjective",
-    "article": "",
-    "level": "B1",
-    "plural": "",
-    "notes": "Dative: von + D",
+    "id": "1790783100013",
+    "word": "Ohr",
+    "translation": "ear",
+    "partOfSpeech": "Noun",
+    "article": "das",
+    "level": "A1",
+    "plural": "Ohren",
+    "examples": []
+  },
+  {
+    "id": "1790783100014",
+    "word": "Nase",
+    "translation": "nose",
+    "partOfSpeech": "Noun",
+    "article": "die",
+    "level": "A1",
+    "plural": "Nasen",
+    "examples": []
+  },
+  {
+    "id": "1790783100015",
+    "word": "Mund",
+    "translation": "mouth",
+    "partOfSpeech": "Noun",
+    "article": "der",
+    "level": "A1",
+    "plural": "Münder",
+    "examples": []
+  },
+  {
+    "id": "1790783100016",
+    "word": "Zahn",
+    "translation": "tooth",
+    "partOfSpeech": "Noun",
+    "article": "der",
+    "level": "A1",
+    "plural": "Zähne",
+    "examples": []
+  },
+  {
+    "id": "1790783100017",
+    "word": "Lippe",
+    "translation": "lip",
+    "partOfSpeech": "Noun",
+    "article": "die",
+    "level": "A1",
+    "plural": "Lippen",
+    "examples": []
+  },
+  {
+    "id": "1790783100018",
+    "word": "Hals",
+    "translation": "neck / throat",
+    "partOfSpeech": "Noun",
+    "article": "der",
+    "level": "A1",
+    "plural": "Hälse",
+    "examples": []
+  },
+  {
+    "id": "1790783100019",
+    "word": "Schulter",
+    "translation": "shoulder",
+    "partOfSpeech": "Noun",
+    "article": "die",
+    "level": "A1",
+    "plural": "Schultern",
+    "examples": []
+  },
+  {
+    "id": "1790783100020",
+    "word": "Arm",
+    "translation": "arm",
+    "partOfSpeech": "Noun",
+    "article": "der",
+    "level": "A1",
+    "plural": "Arme",
+    "examples": []
+  },
+  {
+    "id": "1790783100021",
+    "word": "Hand",
+    "translation": "hand",
+    "partOfSpeech": "Noun",
+    "article": "die",
+    "level": "A1",
+    "plural": "Hände",
     "examples": [
-      "Projekte sind von unserer Zusammenarbeit abhängig.",
-      "Wir sind von diesem System abhängig.",
-      "Sind wir von ausländischen Lieferanten abhängig?",
-      "Der Erfolg ist von vielen Faktoren abhängig.",
-      "Die Entscheidung ist von der Zustimmung des Chefs abhängig."
+      "Wasch dir die Hände! — Wash your hands!"
+    ]
+  },
+  {
+    "id": "1790783100022",
+    "word": "Finger",
+    "translation": "finger",
+    "partOfSpeech": "Noun",
+    "article": "der",
+    "level": "A1",
+    "plural": "Finger",
+    "examples": []
+  },
+  {
+    "id": "1790783100023",
+    "word": "Brust",
+    "translation": "chest / breast",
+    "partOfSpeech": "Noun",
+    "article": "die",
+    "level": "A1",
+    "plural": "Brüste",
+    "examples": []
+  },
+  {
+    "id": "1790783100024",
+    "word": "Bauch",
+    "translation": "stomach / belly",
+    "partOfSpeech": "Noun",
+    "article": "der",
+    "level": "A1",
+    "plural": "Bäuche",
+    "examples": [
+      "Ich habe Bauchschmerzen. — I have a stomach ache."
+    ]
+  },
+  {
+    "id": "1790783100025",
+    "word": "Rücken",
+    "translation": "back",
+    "partOfSpeech": "Noun",
+    "article": "der",
+    "level": "A1",
+    "plural": "Rücken",
+    "examples": []
+  },
+  {
+    "id": "1790783100026",
+    "word": "Bein",
+    "translation": "leg",
+    "partOfSpeech": "Noun",
+    "article": "das",
+    "level": "A1",
+    "plural": "Beine",
+    "examples": []
+  },
+  {
+    "id": "1790783100027",
+    "word": "Knie",
+    "translation": "knee",
+    "partOfSpeech": "Noun",
+    "article": "das",
+    "level": "A1",
+    "plural": "Knie",
+    "examples": []
+  },
+  {
+    "id": "1790783100028",
+    "word": "Fuß",
+    "translation": "foot",
+    "partOfSpeech": "Noun",
+    "article": "der",
+    "level": "A1",
+    "plural": "Füße",
+    "examples": []
+  },
+  {
+    "id": "1790783100029",
+    "word": "Zeh",
+    "translation": "toe",
+    "partOfSpeech": "Noun",
+    "article": "der",
+    "level": "A1",
+    "plural": "Zehen",
+    "examples": []
+  },
+  {
+    "id": "1791063059534",
+    "word": "Fenster",
+    "translation": "window",
+    "partOfSpeech": "Noun",
+    "article": "das",
+    "level": "A1",
+    "plural": "Fenster",
+    "examples": [
+      "Das Fenster ist offen. — The window is open.",
+      "Ich schaue aus dem Fenster. — I look out of the window."
+    ]
+  },
+  {
+    "id": "1791063194045",
+    "word": "Ellbogen",
+    "translation": "elbow",
+    "partOfSpeech": "Noun",
+    "article": "der",
+    "level": "A1",
+    "plural": "Ellbogen",
+    "examples": [
+      "Ich habe den Ellbogen verletzt. — I injured my elbow.",
+      "Er stützte sich auf die Ellbogen. — He leaned on his elbows."
     ]
   }
 ]
