@@ -89,6 +89,18 @@ body {
 .btn-danger:hover { background: #A01830; }
 .btn-sm { padding: 6px 12px; font-size: 0.78rem; min-height: 34px; }
 
+/* The Add button sits on the dark teal navbar, where the normal
+   teal-900 primary fill would be invisible against the background.
+   Give it a light solid fill with a shadow so it reads as a button. */
+.nav-add {
+  background: var(--teal-100); color: var(--teal-900);
+  border: 1px solid var(--teal-100); border-radius: 6px;
+  padding: 7px 14px; font-size: 0.8rem; font-weight: 700;
+  box-shadow: 0 1px 3px rgba(1,45,44,.30);
+}
+.nav-add:hover { background: #fff; border-color: #fff; }
+.nav-add:active { transform: translateY(1px); }
+
 /* ── WRAPPER / CARD ─────────────────────────────────── */
 .wrap {
   width: 100%; max-width: var(--wrap); margin-inline: auto;
@@ -255,7 +267,6 @@ select.input { cursor: pointer; }
 /* ── ADD BAR ────────────────────────────────────────── */
 .add-bar { display: flex; gap: 8px; flex-wrap: wrap; position: relative; }
 .add-bar .input { flex: 1; min-width: 150px; }
-.field-hint { font-size: 0.78rem; color: var(--muted); margin-bottom: 8px; line-height: 1.5; }
 
 /* ── MODAL ──────────────────────────────────────────── */
 .modal-overlay {
@@ -406,7 +417,7 @@ select.input { cursor: pointer; }
   <div class="nav-pipe"></div>
   <a class="nav-brand-text" href="../../">Vocabulary</a>
   <div class="nav-actions">
-    <button class="btn btn-primary btn-sm" onclick="window.openModal()" title="Add a word">+ Add word</button>
+    <button class="btn nav-add" onclick="window.openModal()" title="Add a word">+ Add word</button>
   </div>
 </nav>
 
@@ -470,10 +481,9 @@ select.input { cursor: pointer; }
         </div>
 
         <div>
-          <div class="section-label">Add a word</div>
-          <p class="field-hint">Type a German word, then fill in the details yourself.</p>
+          <div class="section-label">Look Up</div>
           <div class="add-bar">
-            <input type="text" id="newWordInput" class="input" placeholder="German word…" autocomplete="off">
+            <input type="text" id="newWordInput" class="input" placeholder="Search your words…" autocomplete="off">
             <div class="de-kbd-widget">
               <div class="de-kbd-panel" id="deKbdPanel2">
                 <button class="de-char-btn" onmousedown="window.insertChar(event,'ä')">ä</button>
@@ -486,7 +496,6 @@ select.input { cursor: pointer; }
               </div>
               <button class="de-kbd-toggle" type="button" onmousedown="event.preventDefault()" onclick="window.toggleDeKbd(event,'deKbdPanel2')" title="Insert German characters">Ä</button>
             </div>
-            <button class="btn btn-primary btn-sm" onclick="window.openAddFromLookup()">Add word</button>
           </div>
         </div>
 
@@ -1006,32 +1015,6 @@ window.discardDraft = function() {
   loadData();
 };
 
-/* ── ADD FROM THE LOOKUP BAR ────────────────────────────
-   Deliberately does no translation or enrichment: the word is
-   passed straight into the form and every detail is the user's
-   to fill in. Keeps the project light and avoids third-party APIs.
-───────────────────────────────────────────────────────── */
-window.openAddFromLookup = function() {
-  const input = document.getElementById('newWordInput');
-  const word = input.value.trim();
-  input.value = '';
-  if (!word) return window.openModal();
-
-  const existing = window.vocabList.find(w => (w.word || '').toLowerCase() === word.toLowerCase());
-  if (existing) {
-    window.toast('info', 'Already in your list', word);
-    return window.openModal(existing);
-  }
-
-  // Article is a separate field; strip a leading one so the two
-  // cannot end up duplicated ("die die Narbe").
-  let bare = word;
-  const m = bare.match(/^(der|die|das)\s+(.+)$/i);
-  if (m) bare = m[2];
-
-  window.openModal({ id: '', word: bare, translation: '', partOfSpeech: 'Noun', article: '', level: 'C2', plural: '', notes: '', examples: [] });
-};
-
 /* ── GERMAN KEYBOARD ─────────────────────────────────── */
 document.addEventListener('focusin', e => {
   if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') window.lastFocusedInput = e.target;
@@ -1068,7 +1051,7 @@ window.addEventListener('beforeunload', e => {
   const m = localStorage.getItem(MODE_KEY);
   window.setMode(['review', 'de-en', 'en-de'].includes(m) ? m : 'review');
   document.getElementById('newWordInput').addEventListener('keydown', e => {
-    if (e.key === 'Enter') window.openAddFromLookup();
+    if (e.key === 'Enter') window.updateFilters();
   });
   // Warn before losing unsaved edits.
   window.addEventListener('beforeunload', e => {

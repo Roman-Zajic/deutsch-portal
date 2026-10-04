@@ -45,44 +45,47 @@ body {
 .nav-brand-text { font-size: 0.95rem; font-weight: 600; color: var(--teal-100); text-decoration: none; white-space: nowrap; }
 @media (max-width: 480px) { .nav-brand-text { font-size: 0.85rem; } .nav-pipe { margin: 0 8px; } }
 
-/* ── GITHUB SYNC SETTINGS ────────────────────────────── */
+/* ── GITHUB SYNC ────────────────────────────────────────
+   One token for the whole portal. Repo, branch and file path are
+   fixed constants — only the token is user-configurable.
+──────────────────────────────────────────────────────── */
 .nav-actions { margin-left: auto; display: flex; align-items: center; gap: 8px; }
 .icon-btn {
-  display: inline-flex; align-items: center; gap: 6px;
-  font-family: var(--font); font-size: 0.78rem; font-weight: 600;
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 32px; height: 32px; padding: 0;
   color: var(--teal-100); background: rgba(149,223,219,.12);
   border: 1px solid rgba(149,223,219,.22); border-radius: 4px;
-  padding: 6px 10px; cursor: pointer; transition: 130ms; white-space: nowrap;
+  cursor: pointer; transition: 130ms;
 }
-.icon-btn:hover { background: rgba(149,223,219,.22); border-color: rgba(149,223,219,.40); }
-.icon-btn svg { width: 14px; height: 14px; fill: currentColor; }
+.icon-btn:hover { background: rgba(149,223,219,.24); border-color: rgba(149,223,219,.45); }
+.icon-btn svg { width: 15px; height: 15px; fill: currentColor; }
 
-.settings-panel { max-width: var(--wrap); margin: 0 auto; padding: 0 16px 28px; width: 100%; }
-.settings-card {
+.modal-overlay {
+  position: fixed; inset: 0; z-index: 1000;
+  background: rgba(1,45,44,.55);
+  display: flex; align-items: center; justify-content: center;
+  opacity: 0; pointer-events: none; transition: opacity 180ms;
+  padding: 16px;
+}
+.modal-overlay.open { opacity: 1; pointer-events: all; }
+.modal-card {
   background: var(--card); border: 1px solid var(--border); border-radius: var(--r);
-  padding: 18px; box-shadow: var(--shadow);
+  box-shadow: var(--shadow-md); width: 100%; max-width: 360px;
+  padding: 20px; transform: translateY(6px); transition: transform 180ms;
 }
-.settings-card h2 { font-size: 1rem; font-weight: 700; color: var(--teal-900); margin-bottom: 4px; }
-.settings-card > p { font-size: 0.85rem; color: var(--muted); margin-bottom: 16px; line-height: 1.6; }
-.sync-state {
-  display: inline-flex; align-items: center; gap: 6px;
-  font-size: 0.72rem; font-weight: 700; padding: 4px 10px; border-radius: 12px;
-  background: rgba(0,130,130,.10); color: var(--teal-700); margin-bottom: 14px;
+.modal-overlay.open .modal-card { transform: translateY(0); }
+.modal-card label {
+  display: block; font-size: 0.72rem; font-weight: 700;
+  text-transform: uppercase; letter-spacing: .05em;
+  color: var(--teal-700); margin-bottom: 6px;
 }
-.sync-state.none { background: rgba(225,160,30,.15); color: var(--amber); }
-.form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-@media (max-width: 560px) { .form-grid { grid-template-columns: 1fr; } }
-.field { display: flex; flex-direction: column; gap: 5px; margin-bottom: 12px; }
-.field.full { grid-column: 1 / -1; }
-.field label { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: var(--teal-700); }
-.field input {
-  font-family: var(--font); font-size: 0.875rem; color: var(--ink, #012D2C);
+.modal-card input[type="password"], .modal-card input[type="text"] {
+  font-family: var(--font); font-size: 0.875rem; color: #012D2C;
   background: var(--in); border: 1px solid var(--border); border-radius: 4px;
   padding: 8px 10px; outline: none; width: 100%;
 }
-.field input:focus { border-color: var(--teal-700); box-shadow: 0 0 0 3px rgba(0,130,130,.15); }
-.field .hint { font-size: 0.72rem; color: var(--muted); line-height: 1.5; }
-.settings-actions { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 4px; }
+.modal-card input:focus { border-color: var(--teal-700); box-shadow: 0 0 0 3px rgba(0,130,130,.15); }
+.modal-actions { display: flex; gap: 8px; justify-content: flex-end; margin-top: 14px; }
 .btn {
   font-family: var(--font); font-size: 0.82rem; font-weight: 600;
   padding: 8px 14px; border-radius: 4px; cursor: pointer; transition: 130ms;
@@ -90,16 +93,10 @@ body {
 }
 .btn-primary { background: var(--teal-700); color: #fff; }
 .btn-primary:hover { background: var(--teal-900); }
-.btn-secondary { background: var(--in); color: var(--teal-700); border-color: var(--border); }
-.btn-secondary:hover { border-color: var(--teal-400); }
-.btn-danger { background: transparent; color: #C41E3A; border-color: rgba(196,30,58,.3); margin-right: auto; }
+.btn-ghost { background: transparent; color: var(--muted); }
+.btn-ghost:hover { color: var(--teal-700); }
+.btn-danger { background: transparent; color: #C41E3A; }
 .btn-danger:hover { background: rgba(196,30,58,.08); }
-.notice {
-  font-size: 0.8rem; line-height: 1.6; color: var(--muted);
-  background: var(--in); border: 1px solid var(--border);
-  border-radius: var(--r); padding: 11px 13px; margin-bottom: 14px;
-}
-.notice strong { color: var(--teal-900); }
 
 /* ── HERO ───────────────────────────────────────────── */
 .hero { max-width: var(--wrap); margin: 0 auto; padding: 40px 16px 4px; width: 100%; }
@@ -187,9 +184,8 @@ body {
   <div class="nav-pipe"></div>
   <a class="nav-brand-text" href="./">Deutsch Lernen</a>
   <div class="nav-actions">
-    <button class="icon-btn" onclick="window.toggleSettings()">
+    <button class="icon-btn" onclick="window.openToken()" title="GitHub token">
       <svg viewBox="0 0 24 24"><path d="M12.65 10C11.83 7.67 9.61 6 7 6c-3.31 0-6 2.69-6 6s2.69 6 6 6c2.61 0 4.83-1.67 5.65-4H17v4h4v-4h2v-4H12.65zM7 14c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"/></svg>
-      GitHub sync
     </button>
   </div>
 </nav>
@@ -205,48 +201,14 @@ body {
   <div class="module-grid" id="moduleGrid"></div>
 </div>
 
-<!-- ── GITHUB SYNC SETTINGS ────────────────────────────
-     One token for the whole portal. Every module reads it from
-     this same localStorage key, so configuring it here covers
-     vocabulary and anything added later.
-────────────────────────────────────────────────────── -->
-<div class="settings-panel" id="settings" hidden>
-  <div class="settings-card">
-    <h2>GitHub sync</h2>
-    <p>Your modules store their data as JSON in this repository. Reading is automatic — a token is only needed to save your changes back.</p>
-    <div class="sync-state none" id="syncState">No token stored — modules are read-only</div>
-
-    <div class="notice">
-      Create a token at <strong>github.com/settings/personal-access-tokens</strong> with
-      <strong>Contents: Read and write</strong> on this repository only.
-      It is stored in this browser and never written into the page or the repository.
-    </div>
-
-    <div class="field full">
-      <label for="ghToken">Personal access token</label>
-      <input type="password" id="ghToken" autocomplete="off" placeholder="github_pat_…">
-    </div>
-
-    <div class="form-grid">
-      <div class="field">
-        <label for="ghRepo">Repository</label>
-        <input type="text" id="ghRepo" placeholder="Roman-Zajic/deutsch-portal">
-      </div>
-      <div class="field">
-        <label for="ghBranch">Branch</label>
-        <input type="text" id="ghBranch" placeholder="main">
-      </div>
-      <div class="field full">
-        <label for="ghPath">Vocabulary data file</label>
-        <input type="text" id="ghPath" placeholder="data/vocabulary.json">
-        <span class="hint">New modules will use their own path, following the same pattern.</span>
-      </div>
-    </div>
-
-    <div class="settings-actions">
-      <button class="btn btn-danger" onclick="window.forgetToken()">Forget token</button>
-      <button class="btn btn-secondary" onclick="window.testToken()">Test connection</button>
-      <button class="btn btn-primary" onclick="window.saveSettings()">Save settings</button>
+<div class="modal-overlay" id="tokenModal" onclick="if(event.target === this) window.closeToken()">
+  <div class="modal-card">
+    <label for="ghToken">GitHub token</label>
+    <input type="password" id="ghToken" autocomplete="off" placeholder="github_pat_…">
+    <div class="modal-actions">
+      <button class="btn btn-danger" onclick="window.forgetToken()">Forget</button>
+      <button class="btn btn-ghost" onclick="window.closeToken()">Cancel</button>
+      <button class="btn btn-primary" onclick="window.saveToken()">Save</button>
     </div>
   </div>
 </div>
@@ -321,103 +283,45 @@ function renderModules() {
 
 renderModules();
 
-/* ── GITHUB SYNC SETTINGS ────────────────────────────────
-   One token for the whole portal, stored under the same key
-   (vs_cfg) every module reads, so configuring it once here
-   covers vocabulary and every module added later.
+/* ── GITHUB TOKEN ────────────────────────────────────────
+   One token for the whole portal, under the key every module
+   reads. Repository, branch and file path are fixed — the
+   modules read them from their own source.
 ──────────────────────────────────────────────────────── */
 const CFG_KEY = 'vs_cfg';
-const DEFAULTS = { repo: 'Roman-Zajic/deutsch-portal', branch: 'main', path: 'data/vocabulary.json' };
+const REPO = 'Roman-Zajic/deutsch-portal';
+const BRANCH = 'main';
+const PATH = 'data/vocabulary.json';
 
-function readCfg() {
-  try { return Object.assign({}, DEFAULTS, JSON.parse(localStorage.getItem(CFG_KEY) || '{}')); }
-  catch (e) { return Object.assign({}, DEFAULTS); }
+function getToken() {
+  try { return JSON.parse(localStorage.getItem(CFG_KEY) || '{}').token || ''; }
+  catch (e) { return ''; }
 }
-function writeCfg(c) { localStorage.setItem(CFG_KEY, JSON.stringify(c)); }
+function setToken(t) {
+  localStorage.setItem(CFG_KEY, JSON.stringify({ token: t, repo: REPO, branch: BRANCH, path: PATH }));
+}
 
-window.toggleSettings = function() {
-  const panel = document.getElementById('settings');
-  const showing = !panel.hidden;
-  panel.hidden = showing;
-  if (showing) return;
-  const c = readCfg();
-  document.getElementById('ghToken').value  = c.token || '';
-  document.getElementById('ghRepo').value   = c.repo;
-  document.getElementById('ghBranch').value = c.branch;
-  document.getElementById('ghPath').value   = c.path;
-  refreshSyncState();
-  panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+window.openToken = function() {
+  document.getElementById('ghToken').value = getToken();
+  document.getElementById('tokenModal').classList.add('open');
+  setTimeout(() => document.getElementById('ghToken').focus(), 60);
 };
+window.closeToken = function() { document.getElementById('tokenModal').classList.remove('open'); };
 
-function refreshSyncState() {
-  const el = document.getElementById('syncState');
-  const c = readCfg();
-  const ok = !!c.token;
-  el.className = 'sync-state' + (ok ? '' : ' none');
-  el.textContent = ok ? 'Token stored — all modules can save' : 'No token stored — modules are read-only';
-}
-
-/* Deep link from a module: ../../#settings */
-if (window.location.hash === '#settings') window.toggleSettings();
-window.addEventListener('hashchange', () => {
-  if (window.location.hash === '#settings' && document.getElementById('settings').hidden) window.toggleSettings();
-});
-
-window.saveSettings = function() {
-  const c = {
-    token:  document.getElementById('ghToken').value.trim(),
-    repo:   document.getElementById('ghRepo').value.trim()  || DEFAULTS.repo,
-    branch: document.getElementById('ghBranch').value.trim()|| DEFAULTS.branch,
-    path:   document.getElementById('ghPath').value.trim()  || DEFAULTS.path
-  };
-  writeCfg(c);
-  refreshSyncState();
-  window.alert(c.token ? 'Saved. Every module will now use this token.' : 'Saved without a token — modules stay read-only.');
+window.saveToken = function() {
+  setToken(document.getElementById('ghToken').value.trim());
+  window.closeToken();
 };
 
 window.forgetToken = function() {
-  if (!confirm('Forget the stored token on this device?')) return;
-  const c = readCfg();
-  delete c.token;
-  writeCfg(c);
+  setToken('');
   document.getElementById('ghToken').value = '';
-  refreshSyncState();
+  window.closeToken();
 };
 
-window.testToken = async function() {
-  const c = {
-    token:  document.getElementById('ghToken').value.trim(),
-    repo:   document.getElementById('ghRepo').value.trim()  || DEFAULTS.repo,
-    branch: document.getElementById('ghBranch').value.trim()|| DEFAULTS.branch,
-    path:   document.getElementById('ghPath').value.trim()  || DEFAULTS.path
-  };
-  if (!c.token) return alert('Paste a token first.');
-  const el = document.getElementById('syncState');
-  el.textContent = 'Testing…';
-  try {
-    const r = await fetch(`https://api.github.com/repos/${c.repo}/contents/${c.path}?ref=${c.branch}`, {
-      headers: { 'Authorization': `Bearer ${c.token}`, 'Accept': 'application/vnd.github+json' }
-    });
-    if (r.ok) {
-      el.className = 'sync-state';
-      el.textContent = 'Connected — token works for ' + c.repo;
-    } else if (r.status === 401 || r.status === 403) {
-      el.className = 'sync-state none';
-      el.textContent = 'Token rejected — invalid, or missing Contents: write';
-    } else if (r.status === 404) {
-      el.className = 'sync-state none';
-      el.textContent = 'Not found — check repo, branch and file path';
-    } else {
-      el.className = 'sync-state none';
-      el.textContent = 'GitHub returned ' + r.status;
-    }
-  } catch (e) {
-    el.className = 'sync-state none';
-    el.textContent = 'Network error — could not reach GitHub';
-  }
-};
-
-refreshSyncState();
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') window.closeToken();
+});
 </script>
 </body>
 </html>
