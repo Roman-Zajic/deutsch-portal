@@ -950,13 +950,15 @@ window.renderGrid = function() {
   if (!filtered.length) {
     grid.innerHTML = '<div class="empty-state">' + (window.vocabList.length
       ? 'No words match your filters.'
-      : 'No words yet — use <strong>Look Up</strong> or <strong>+ Add</strong>.') + '</div>';
+      : 'No words yet — use <strong>+ Add a word</strong> in the navigation bar.') + '</div>';
   }
 };
 
 /* ── CRUD ────────────────────────────────────────────── */
 window.openModal = function(data) {
-  document.getElementById('modalTitle').innerText = data ? "Edit Word" : "Add Word";
+  // An entry with no id is a new word, even though fields are prefilled.
+  const isEdit = !!(data && data.id);
+  document.getElementById('modalTitle').innerText = isEdit ? "Edit Word" : "Add Word";
   document.getElementById('editId').value          = data ? data.id : "";
   document.getElementById('editWord').value        = data ? data.word : "";
   document.getElementById('editTranslation').value = data ? data.translation : "";
