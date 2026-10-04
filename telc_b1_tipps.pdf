@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="de-DE">
+<head>
+
+<meta charset="utf-8">
+<!-- 
+	Based on the TYPO3 Bootstrap Package by Benjamin Kott - https://www.bootstrap-package.com/
+
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2026 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at https://typo3.org/
+-->
+
+
+<link rel="icon" href="/typo3conf/ext/ion2s_page_tlc/Resources/Public/Icons/telc.ico" type="image/vnd.microsoft.icon">
+<title>404 - telc</title>
+<meta http-equiv="x-ua-compatible" content="IE=edge" />
+<meta name="generator" content="TYPO3 CMS" />
+<meta name="robots" content="noindex,nofollow" />
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+<meta name="twitter:card" content="summary" />
+<meta name="apple-mobile-web-app-capable" content="no" />
+<meta name="google" content="notranslate" />
+
+<link rel="stylesheet" href="/typo3temp/assets/compressed/merged-f2ae8c9f888929d8cc01bc86fbcdc90c-4d772c91b8a95f6eb418d62927e1919f.css?1790882690" media="all">
+<link rel="stylesheet" href="/typo3conf/ext/ion2s_page_tlc/Resources/Public/fontawesome/css/all.min.css?1675675616" media="all">
+<link rel="stylesheet" href="/typo3temp/assets/compressed/merged-c295ae5f4caa69a0776fbd37c2be68c3-1c9f81656d62dbe274376923630358c4.css?1790882693" media="all">
+
+
+<script src="/typo3conf/ext/bootstrap_package/Resources/Public/Contrib/modernizr/modernizr.min.js?1675158609" async="async"></script>
+<script src="/typo3conf/ext/ion2s_page_tlc/Resources/Public/Js/bootstrap_package/accordion.js?1682404061"></script>
+<script src="/typo3conf/ext/ion2s_page_tlc/Resources/Public/Js/mobile-menu.js?1682404061"></script>
+<script src="/typo3conf/ext/ion2s_page_tlc/Resources/Public/Js/language.js?1768560922"></script>
+<script src="/typo3conf/ext/ion2s_page_tlc/Resources/Public/Js/newsletter.js?1701685459"></script>
+<script src="/typo3conf/ext/ion2s_page_tlc/Resources/Public/Js/contact-form.js?1769694275"></script>
+<script src="/typo3conf/ext/ion2s_page_tlc/Resources/Public/Js/overview.js?1776759606"></script>
+<script src="/typo3conf/ext/ion2s_page_tlc/Resources/Public/Js/search.js?1681987255"></script>
+
+
+<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="8761518b-b07a-4e8c-8381-457997429ba3" type="text/javascript" async></script><script id="CookieDeclaration" src="https://consent.cookiebot.com/8761518b-b07a-4e8c-8381-457997429ba3/cd.js" type="text/javascript" async></script><!-- Matomo Tag Manager --><script>var _mtm = window._mtm = window._mtm || [];_mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];g.async=true; g.src='https://matomo.telc.net/js/container_oo6aG2jK.js'; s.parentNode.insertBefore(g,s);</script><!-- End Matomo Tag Manager -->
+<script type="text/javascript">
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'GTM-W9MXPHC');
+</script>
+<!-- Google Tag Manager --><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-W9MXPHC');</script><!-- End Google Tag Manager -->
+
+<script type="application/ld+json" id="ext-schema-jsonld">{"@context":"https://schema.org/","@type":"WebPage"}</script>
+</head>
+<body id="p392" class="page-392 pagelevel-1 language-0 backendlayout-telc layout-default">
+
+    
+    
+        
+    
+    <div
+            class="body-bg Featurepage"
+        ><a class="visually-hidden-focusable" href="#page-content"><span
+                    >Skip to main content</span
+                ></a><header id="page-header" class="bp-page-header header navbar navbar-mainnavigation
+        navbar-default
+        navbar-has-image
+        navbar-top"><div class="container"><a class="logo" title="Zur Startseite" href="/"><svg viewBox="155.531 164.202 85.997 35.154" width="85.997" height="35.154"><path data-name="Pfad 1" fill="#fff"
+    d="M164.268 190.633c0 5.322 3.033 8.716 8.516 8.716a18.14 18.14 0 005.162-.623l-.2-5.543a6.315 6.315 0 01-3.193.723c-2.671 0-3.294-2.15-3.294-4.44v-25.264l-6.991 2.249zm23.358-7.993c.32-3.6 2.29-6.326 6.206-6.326s5.483 2.932 5.684 6.326zm16.61 8.877a18.128 18.128 0 01-8.937 2.71c-4.338 0-7.371-2.45-7.672-6.787h18.6c0-9.4-2.812-16.248-12.794-16.248-8.355 0-12.472 6.427-12.472 14.2 0 8.817 5.162 13.938 14.039 13.938a18.279 18.279 0 009.239-2.15v-5.664zm5.8-25.125h6.989v32.335h-6.985zm31.03 5.7a22.543 22.543 0 00-6.788-.884c-8.415 0-12.994 6.166-12.994 13.938 0 8.194 4.439 14.2 13.255 14.2a22.854 22.854 0 006.989-.884l-.321-5.8a14.863 14.863 0 01-5.38 1.24c-4.9 0-7.25-3.816-7.25-8.777 0-5.061 2.773-8.516 7.11-8.516a10.789 10.789 0 014.76.984l.624-5.5zm-68.398 4.562l7.47-.02v-4.56l-7.47.04z"
+    fill-rule="evenodd" /><circle data-name="Ellipse 1" fill="#fff" cx="3.695" cy="3.695" r="3.695" transform="translate(155.53 170.569)" /></svg></a><div id="mainnavigation" class="collapse"></div><div id="header-right"><nav class="meta-menu"><ul><li class="menu-item"><a class="meta-menu-link" href="/">telc.net</a></li></ul></nav><div class="header-always"><!-- Search --><div class="language-switch"><button class="language-toggle" type="button" aria-haspopup="true" aria-expanded="false"><span class="language-item"><img class="language-icon" src="/typo3/sysext/core/Resources/Public/Icons/Flags/DE.png" width="64" height="64" alt="" /><span class="language-label">Deutsch</span><span class="language-label-mobile">DE</span></span></button><ul id="languageDropdown" class="language-menu"><li><a href="/en/404/" hreflang="en-US" title="English"><span class="language-item"><img class="language-icon" src="/typo3/sysext/core/Resources/Public/Icons/Flags/GB.png" width="64" height="64" alt="" /><span class="language-label">Englisch</span><span class="language-label-mobile">EN</span></span></a></li><li><a href="/fr/404/" hreflang="fr_FR" title="Französisch"><span class="language-item"><img class="language-icon" src="/typo3/sysext/core/Resources/Public/Icons/Flags/FR.png" width="64" height="64" alt="" /><span class="language-label">Französisch</span><span class="language-label-mobile">FR</span></span></a></li><li><a href="/es/404/" hreflang="es_ES" title="Spanisch"><span class="language-item"><img class="language-icon" src="/typo3/sysext/core/Resources/Public/Icons/Flags/ES.png" width="64" height="64" alt="" /><span class="language-label">Spanisch</span><span class="language-label-mobile">SP</span></span></a></li></ul></div></div></div></div></header><div
+                    class="stage-simplified no-image"
+                ><div class="text frame-container frame-container-default"><div class="inner"><h1>404</h1><p class="subline">Seite nicht gefunden</p></div></div></div><main id="page-content" class="bp-page-content main-section "><!--TYPO3SEARCH_begin--><div class="section section-default"><div id="c1774" class=" frame frame-default frame-type-text frame-layout-default frame-size-default frame-height-default frame-background-none frame-space-before-none frame-space-after-none frame-no-backgroundimage"><div class="frame-group-container"><div class="frame-group-inner"><div class="frame-container frame-container-default"><div class="frame-inner"><header class="frame-header col-xl-8"><h3 class="element-header "><span>Da ist etwas schief gegangen</span></h3></header><div class="col-xl-8"><p>Entschuldigung, es scheint, als ob diese Seite den Weg verloren hat, aber keine Sorge, wir werden sie für Sie finden und Ihnen den richtigen Weg zeigen!</p><p><a href="/">Home</a></p><p><a href="/sprachpruefungen/">Sprachprüfungen</a></p><p><a href="/lehrmaterialien/">Lehrmaterialien</a></p><p><a href="/trainingsangebote/">Trainingsangebote</a></p><p><a href="/wir-sind-telc/">Wir sind telc&nbsp;</a></p><p><a href="/kontakt/">Kontakt</a></p><p><a href="https://telc.atlassian.net/servicedesk/customer/portal/3" title="Kundenservice" target="_blank" rel="noreferrer">Kundenservice</a></p></div></div></div></div></div></div></div><!--TYPO3SEARCH_end--></main><footer id="page-footer" class="footer"><div class="head"><div class="inner frame-container frame-container-default"><div class="logo" role="img" aria-label="telc Logo"><svg viewBox="155.531 164.202 85.997 35.154" width="85.997" height="35.154"><path data-name="Pfad 1" fill="#fff"
+    d="M164.268 190.633c0 5.322 3.033 8.716 8.516 8.716a18.14 18.14 0 005.162-.623l-.2-5.543a6.315 6.315 0 01-3.193.723c-2.671 0-3.294-2.15-3.294-4.44v-25.264l-6.991 2.249zm23.358-7.993c.32-3.6 2.29-6.326 6.206-6.326s5.483 2.932 5.684 6.326zm16.61 8.877a18.128 18.128 0 01-8.937 2.71c-4.338 0-7.371-2.45-7.672-6.787h18.6c0-9.4-2.812-16.248-12.794-16.248-8.355 0-12.472 6.427-12.472 14.2 0 8.817 5.162 13.938 14.039 13.938a18.279 18.279 0 009.239-2.15v-5.664zm5.8-25.125h6.989v32.335h-6.985zm31.03 5.7a22.543 22.543 0 00-6.788-.884c-8.415 0-12.994 6.166-12.994 13.938 0 8.194 4.439 14.2 13.255 14.2a22.854 22.854 0 006.989-.884l-.321-5.8a14.863 14.863 0 01-5.38 1.24c-4.9 0-7.25-3.816-7.25-8.777 0-5.061 2.773-8.516 7.11-8.516a10.789 10.789 0 014.76.984l.624-5.5zm-68.398 4.562l7.47-.02v-4.56l-7.47.04z"
+    fill-rule="evenodd" /><circle data-name="Ellipse 1" fill="#fff" cx="3.695" cy="3.695" r="3.695" transform="translate(155.53 170.569)" /></svg></div></div></div><div class="inner frame-container frame-container-default"><div class="content"><strong
+                    >Adresse</strong
+                ><div class="content-elements"><div id="c307" class=" frame frame-default frame-type-text frame-layout-default frame-size-default frame-height-default frame-background-none frame-space-before-none frame-space-after-none frame-no-backgroundimage"><div class="frame-group-container"><div class="frame-group-inner"><div class="frame-container frame-container-default"><div class="frame-inner"><div class="col-xl-8"><p>telc gGmbH<br> Basler Straße 7<br> 61352 Bad Homburg</p></div></div></div></div></div></div></div></div><div class="links"><strong>
+                            Rechtliches
+                        </strong><ul><li><a href="/impressum/">Impressum</a></li><li><a href="/erklaerung-zur-barrierefreiheit/">Barrierefreiheitserklärung</a></li><li><a href="/datenschutzerklaerung/">Datenschutzerklärung</a></li></ul></div></div></footer><a
+        class="scroll-top"
+        title="Scroll to top"
+        href="#page-header"
+    ><span class="scroll-top-icon"></span></a></div>
+
+<!-- Google Tag Manager (noscript) -->
+                <noscript><iframe src='https://www.googletagmanager.com/ns.html?id='GTM-W9MXPHC'
+                height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
+                <!-- End Google Tag Manager (noscript) -->
+<script src="/typo3conf/ext/bootstrap_package/Resources/Public/Contrib/popper-core/popper.min.js?1694597330"></script>
+<script src="/typo3conf/ext/bootstrap_package/Resources/Public/Contrib/bootstrap5/js/bootstrap.min.js?1694597330"></script>
+<script src="/typo3conf/ext/bootstrap_package/Resources/Public/Contrib/photoswipe/photoswipe.min.js?1675158609"></script>
+<script src="/typo3conf/ext/bootstrap_package/Resources/Public/Contrib/photoswipe/photoswipe-ui-default.min.js?1675158609"></script>
+<script src="/typo3conf/ext/bootstrap_package/Resources/Public/JavaScript/Dist/bootstrap.accordion.min.js?1675158609"></script>
+<script src="/typo3conf/ext/bootstrap_package/Resources/Public/JavaScript/Dist/bootstrap.popover.min.js?1675158609"></script>
+<script src="/typo3conf/ext/bootstrap_package/Resources/Public/JavaScript/Dist/bootstrap.stickyheader.min.js?1694597330"></script>
+<script src="/typo3conf/ext/bootstrap_package/Resources/Public/JavaScript/Dist/bootstrap.smoothscroll.min.js?1694597330"></script>
+<script src="/typo3conf/ext/bootstrap_package/Resources/Public/JavaScript/Dist/bootstrap.lightbox.min.js?1675158609"></script>
+<script src="/typo3conf/ext/bootstrap_package/Resources/Public/JavaScript/Dist/bootstrap.navbar.min.js?1675158609"></script>
+<script src="/typo3conf/ext/bootstrap_package/Resources/Public/Contrib/cookieconsent/cookieconsent.min.js?1675158609"></script>
+<script src="/typo3conf/ext/bootstrap_package/Resources/Public/JavaScript/Dist/bootstrap.cookieconsent.min.js?1675158609"></script>
+
+
+
+</body>
+</html>

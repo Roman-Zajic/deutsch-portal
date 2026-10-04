@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Writing — Deutsch Lernen</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --font:      "Segoe UI", system-ui, -apple-system, sans-serif;
+  --teal-900:  #005A5A;
+  --teal-700:  #008282;
+  --teal-400:  #50C1C1;
+  --teal-100:  #95DFDB;
+  --amber:     #E1A01E;
+  --red:       #C41E3A;
+  --ink:       #012D2C;
+  --muted:     #008282;
+  --page:      #F0FAFA;
+  --card:      #FFFFFF;
+  --in:        #F0FAFA;
+  --border:    #D0ECEB;
+  --shadow:    0 1px 4px rgba(1,45,44,.10);
+  --shadow-md: 0 4px 14px rgba(1,45,44,.12);
+  --r:         8px;
+  --wrap:      1040px;
+}
+
+html { font-size: 16px; -webkit-text-size-adjust: 100%; }
+body {
+  font-family: var(--font); font-size: 0.9375rem; color: var(--teal-900);
+  background: var(--page); line-height: 1.6; -webkit-font-smoothing: antialiased;
+  min-height: 100vh; min-height: 100dvh; display: flex; flex-direction: column;
+}
+
+/* ── NAVBAR ─────────────────────────────────────────── */
+.navbar {
+  display: flex; align-items: center; height: 48px; padding: 0 16px;
+  background: var(--teal-900); border-bottom: 1px solid rgba(149,223,219,.15);
+  position: sticky; top: 0; z-index: 100; flex-shrink: 0;
+}
+.brand-icon { display: flex; align-items: center; flex-shrink: 0; }
+.nav-pipe { width: 1px; height: 16px; background: rgba(149,223,219,.30); flex-shrink: 0; margin: 0 12px; }
+.nav-brand-text {
+  font-size: 0.95rem; font-weight: 600; color: var(--teal-100);
+  text-decoration: none; white-space: nowrap;
+}
+.nav-actions { margin-left: auto; display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
+.icon-btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 32px; height: 32px; padding: 0;
+  color: var(--teal-100); background: rgba(149,223,219,.12);
+  border: 1px solid rgba(149,223,219,.22); border-radius: 4px;
+  cursor: pointer; transition: 130ms;
+}
+.icon-btn:hover { background: rgba(149,223,219,.24); border-color: rgba(149,223,219,.45); }
+.icon-btn svg { width: 15px; height: 15px; fill: currentColor; }
+.icon-btn svg.line { fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+  font-family: var(--font); font-size: 0.875rem; font-weight: 600;
+  padding: 9px 18px; border-radius: 6px; border: 1px solid transparent;
+  cursor: pointer; white-space: nowrap; transition: 130ms;
+}
+.btn:disabled { opacity: .55; cursor: not-allowed; }
+.btn-primary { background: var(--amber); color: #3D2A00; border-color: var(--amber); }
+.btn-primary:hover:not(:disabled) { background: #EFB33A; border-color: #EFB33A; }
+.btn-ghost { background: transparent; color: var(--muted); }
+.btn-ghost:hover { color: var(--teal-700); }
+
+/* ── LAYOUT ─────────────────────────────────────────── */
+.wrap { width: 100%; max-width: var(--wrap); margin-inline: auto; padding: 16px; flex: 1; }
+.panel {
+  background: var(--card); border: 1px solid var(--border); border-radius: var(--r);
+  padding: 16px; box-shadow: var(--shadow); margin-bottom: 12px;
+}
+.section-label {
+  font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em;
+  color: var(--teal-700); margin-bottom: 8px; display: block;
+}
+
+.row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+@media (max-width: 620px) { .row { grid-template-columns: 1fr; } }
+
+.input, .select, .textarea {
+  font-family: var(--font); font-size: 0.9rem; color: var(--teal-900);
+  background: var(--in); border: 1px solid var(--border); border-radius: 6px;
+  padding: 9px 11px; outline: none; width: 100%;
+}
+.select { cursor: pointer; }
+.input:focus, .select:focus, .textarea:focus { border-color: var(--teal-700); box-shadow: 0 0 0 3px rgba(0,130,130,.15); }
+.textarea { min-height: 220px; resize: vertical; line-height: 1.65; font-size: 0.95rem; }
+
+/* ── TASK PROMPT ────────────────────────────────────── */
+.prompt-box {
+  background: var(--in); border: 1px solid var(--border); border-left: 4px solid var(--teal-400);
+  border-radius: 6px; padding: 13px 15px; margin-bottom: 12px;
+}
+.prompt-box h2 { font-size: 0.98rem; font-weight: 700; color: var(--teal-900); margin-bottom: 6px; }
+.prompt-box p { font-size: 0.88rem; color: var(--muted); line-height: 1.65; margin-bottom: 8px; }
+.prompt-box p:last-child { margin-bottom: 0; }
+.prompt-meta { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; }
+.chip {
+  font-size: 0.68rem; font-weight: 700; text-transform: uppercase; letter-spacing: .04em;
+  padding: 3px 9px; border-radius: 11px;
+  background: rgba(0,130,130,.10); color: var(--teal-700);
+}
+.chip.amber { background: rgba(225,160,30,.18); color: #7A5000; }
+
+/* ── RESULTS ────────────────────────────────────────── */
+.result-block { margin-bottom: 18px; }
+.result-head {
+  display: flex; align-items: center; justify-content: space-between; gap: 10px;
+  font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em;
+  color: var(--teal-700); border-bottom: 1px dashed var(--border);
+  padding-bottom: 6px; margin-bottom: 10px;
+}
+
+/* Annotated text */
+.annotated {
+  font-size: 0.95rem; line-height: 2.1; color: var(--ink);
+  background: var(--in); border: 1px solid var(--border); border-radius: 6px;
+  padding: 14px 16px; white-space: pre-wrap; word-break: break-word;
+}
+.err {
+  background: rgba(196,30,58,.10); border-bottom: 2px solid var(--red);
+  border-radius: 2px; padding: 1px 2px; cursor: help;
+}
+.fix {
+  background: rgba(0,130,130,.14); border-bottom: 2px solid var(--teal-700);
+  border-radius: 2px; padding: 1px 2px;
+}
+.legend { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 9px; font-size: 0.75rem; color: var(--muted); }
+.legend span { display: inline-flex; align-items: center; gap: 5px; }
+.swatch { width: 11px; height: 11px; border-radius: 2px; display: inline-block; }
+.swatch.e { background: rgba(196,30,58,.35); border-bottom: 2px solid var(--red); }
+.swatch.f { background: rgba(0,130,130,.30); border-bottom: 2px solid var(--teal-700); }
+
+/* Issue list */
+.issue {
+  display: flex; gap: 10px; padding: 10px 0;
+  border-bottom: 1px solid var(--border);
+}
+.issue:last-child { border-bottom: none; }
+.issue-kind {
+  flex-shrink: 0; font-size: 0.62rem; font-weight: 700; text-transform: uppercase;
+  letter-spacing: .05em; padding: 3px 7px; border-radius: 4px; height: fit-content;
+  background: rgba(0,130,130,.10); color: var(--teal-700); white-space: nowrap;
+}
+.issue-body { flex: 1; min-width: 0; }
+.issue-change { font-size: 0.88rem; margin-bottom: 3px; }
+.issue-change .was { color: var(--red); text-decoration: line-through; }
+.issue-change .now { color: var(--teal-700); font-weight: 600; }
+.issue-why { font-size: 0.8rem; color: var(--muted); line-height: 1.55; }
+
+/* Grade */
+.grade-head { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; margin-bottom: 12px; }
+.score {
+  font-size: 2.4rem; font-weight: 700; color: var(--teal-900); line-height: 1;
+}
+.score small { font-size: 0.9rem; color: var(--muted); font-weight: 600; }
+.band {
+  font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: .05em;
+  padding: 5px 12px; border-radius: 12px;
+  background: rgba(0,130,130,.12); color: var(--teal-700);
+}
+.band.warn { background: rgba(225,160,30,.18); color: #7A5000; }
+.crit { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; }
+.crit-item { background: var(--in); border: 1px solid var(--border); border-radius: 6px; padding: 10px 12px; }
+.crit-name { font-size: 0.68rem; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: var(--teal-700); margin-bottom: 3px; }
+.crit-val { font-size: 0.85rem; font-weight: 600; color: var(--teal-900); }
+
+.summary-text { font-size: 0.9rem; line-height: 1.7; color: var(--ink); }
+
+.empty { text-align: center; padding: 26px 16px; color: var(--muted); font-size: 0.9rem; }
+.spinner {
+  width: 15px; height: 15px; border: 2px solid rgba(255,255,255,.35);
+  border-top-color: #fff; border-radius: 50%; animation: spin .7s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.busy-note { font-size: 0.78rem; color: var(--muted); margin-top: 8px; }
+
+/* ── TOASTS ─────────────────────────────────────────── */
+#toast-container {
+  position: fixed; bottom: 20px; left: 20px; z-index: 9999;
+  display: flex; flex-direction: column; gap: 8px; pointer-events: none;
+}
+.toast {
+  display: flex; align-items: flex-start; gap: 10px; min-width: 240px; max-width: 340px;
+  padding: 11px 14px; border-radius: 6px; font-size: 0.8125rem;
+  box-shadow: 0 4px 18px rgba(1,45,44,.18); pointer-events: all;
+}
+.toast-success { background: var(--teal-900); color: #fff; }
+.toast-error { background: var(--red); color: #fff; }
+.toast-warning { background: #7A5000; color: #fff; }
+.toast-info { background: var(--card); color: var(--teal-900); border: 1px solid var(--border); }
+.toast-body { flex: 1; }
+.toast-title { font-weight: 600; }
+.toast-close { background: none; border: none; cursor: pointer; color: inherit; opacity: .6; font-size: 1rem; line-height: 1; }
+
+.footer {
+  max-width: var(--wrap); margin: 0 auto; width: 100%;
+  border-top: 1px solid var(--border); padding: 12px 16px;
+  text-align: center; font-size: 0.8rem; color: var(--muted); flex-shrink: 0;
+}
+.footer strong { color: var(--teal-900); font-weight: 600; }
+
+@media (max-width: 620px) { .navbar { padding: 0 14px; } .wrap { padding: 12px; } }
+</style>
+</head>
+<body>
+
+<div id="toast-container"></div>
+
+<nav class="navbar">
+  <a class="brand-icon" href="../../" aria-label="Deutsch Lernen home">
+    <svg width="22" height="16" viewBox="0 0 31 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0"  y="0"  width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="0"  width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="0"  width="9" height="6" rx="1.5" fill="#008282"/>
+      <rect x="0"  y="8"  width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="8"  width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="8"  width="9" height="6" rx="1.5" fill="#008282"/>
+      <rect x="0"  y="16" width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="16" width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="16" width="9" height="6" rx="1.5" fill="#E1A01E"/>
+    </svg>
+  </a>
+  <div class="nav-pipe"></div>
+  <a class="nav-brand-text" href="../../">Writing</a>
+  <div class="nav-actions">
+    <a class="icon-btn" href="../../" title="Back to all modules" aria-label="Back to all modules">
+      <svg class="line" viewBox="0 0 24 24"><path d="M3 12l9-9 9 9"></path><path d="M5 10v10h14V10"></path></svg>
+    </a>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <div class="panel">
+    <div class="row">
+      <div>
+        <span class="section-label">Level</span>
+        <select id="levelSelect" class="select"></select>
+      </div>
+      <div>
+        <span class="section-label">Task</span>
+        <select id="taskSelect" class="select"></select>
+      </div>
+    </div>
+    <div id="promptBox" style="margin-top:14px;"></div>
+  </div>
+
+  <div class="panel">
+    <span class="section-label">Your response</span>
+    <textarea id="answerInput" class="textarea" placeholder="Schreiben Sie Ihren Text hier…" autocomplete="off"></textarea>
+    <div style="display:flex; gap:10px; align-items:center; margin-top:12px; flex-wrap:wrap;">
+      <button id="submitBtn" class="btn btn-primary" onclick="window.submitText()">
+        <span id="submitLabel">Submit</span>
+        <span id="submitSpinner" class="spinner" style="display:none;"></span>
+      </button>
+      <button class="btn btn-ghost" onclick="window.resetAll()">Reset</button>
+      <span id="wordCount" class="busy-note">0 words</span>
+    </div>
+  </div>
+
+  <div class="panel" id="resultsPanel" style="display:none;">
+    <div id="results"></div>
+  </div>
+
+  <div class="panel" id="emptyPanel">
+    <div class="empty">Pick a level and a task, write your answer, then press Submit.</div>
+  </div>
+
+</div>
+
+<footer class="footer"><strong>Writing</strong> &middot; Roman Zajic</footer>
+
+<script>
+/* ── SHARED KEYS ─────────────────────────────────────────
+   The GitHub token and Gemini API key are entered once on the
+   portal home page and stored under vs_cfg, the key every
+   module reads. Nothing is entered on this page.
+──────────────────────────────────────────────────────── */
+const CFG_KEY = "vs_cfg";
+function getCfg() {
+  try { return JSON.parse(localStorage.getItem(CFG_KEY) || "{}"); }
+  catch (e) { return {}; }
+}
+let apiKey = "";
+function syncKeys() { apiKey = getCfg().geminiKey || ""; }
+syncKeys();
+window.addEventListener("storage", syncKeys);
+document.addEventListener("visibilitychange", () => { if (!document.hidden) syncKeys(); });
+
+/* ── MODELS ───────────────────────────────────────────
+   A text model, not a live-audio one: this module does
+   request/response grading only. The fallback is an older,
+   cheaper family used only when the primary is rate-limited.
+────────────────────────────────────────────────────── */
+const PRIMARY_MODEL   = "gemini-3.8-flash";
+const FALLBACK_MODEL  = "gemini-2.5-flash";
+const API_ROOT = "https://generativelanguage.googleapis.com/v1beta/models";
+
+/* ── EXAM WRITING TASKS ───────────────────────────────
+   Task formats per CEFR level, following the writing sections
+   of the Goethe / telc examinations. Sources and any gaps in
+   the research are recorded in modules/writing/README.md.
+────────────────────────────────────────────────────── */
+const TASKS = { /* ── EXAM WRITING TASKS ───────────────────────────────
+   Task formats per CEFR level, following the writing sections of
+   the real German exams. Every entry below traces to a provider's
+   own exam documentation; see modules/writing/README.md for the
+   source URL behind each one and the gaps that remain.
+
+   Level → text sorts:
+     A1  form + short message        (Goethe, telc, ÖSD all agree)
+     A2  SMS + semi-formal e-mail     (Goethe, telc); ÖSD uses one e-mail
+     B1  informal e-mail, forum post, short formal e-mail (Goethe, ÖSD)
+     B2  forum post + message to boss (Goethe); semi-formal e-mail (telc);
+         formal complaint e-mail (ÖSD)
+     C1  forum post + complaint (Goethe); Erörterung/Stellungnahme (telc);
+         formal reply e-mail (ÖSD)
+     C2  Leserbrief, long e-mail, Rezension (Goethe); integrative essay
+         with citations (telc)
+
+   `words` is the official target length. `min` means the exam says
+   "at least". The length check in the UI uses whichever applies.
+────────────────────────────────────────────────────── */
+const TASKS = {
+  "A1": [
+    {
+      id: "a1-formular",
+      label: "Formular ausfüllen — registration form",
+      title: "Anmeldung für einen Sprachkurs",
+      situation: "You want to register for a German course at the Volkshochschule. The form in front of you has five fields left blank.",
+      instruction: "Write the missing details for the five fields as a short block of text.",
+      words: "25–35 words",
+      format: "Goethe / telc / ÖSD A1",
+      source: "goethe"
+    },
+    {
+      id: "a1-mitteilung",
+      label: "Kurze Mitteilung — short message",
+      title: "E-Mail an die Touristeninformation",
+      situation: "You are staying in Dresden and write to the tourist information office.",
+      instruction: "Say why you are writing, ask about a cultural programme, and ask for addresses of suitable hotels.",
+      words: "ca. 30 words",
+      format: "Goethe / telc A1",
+      source: "goethe"
+    },
+    {
+      id: "a1-osd-antwort",
+      label: "Antwort-E-Mail an eine Freundin (ÖSD)",
+      title: "Antwort auf die E-Mail einer Freundin",
+      situation: "A friend has written to you about a visit and asked which day and time suit you, how long you can stay, and who you are bringing.",
+      instruction: "Reply to her e-mail and answer all her questions.",
+      words: "ca. 30 words",
+      format: "ÖSD ZA1",
+      source: "oesd"
+    }
+  ],
+
+  "A2": [
+    {
+      id: "a2-sms",
+      label: "SMS — apology for being late",
+      title: "SMS an eine Freundin",
+      situation: "You arranged to meet a friend but you are late.",
+      instruction: "Apologise for being late, give a reason, and suggest a new place and time.",
+      words: "20–30 words",
+      format: "Goethe A2",
+      source: "goethe"
+    },
+    {
+      id: "a2-einladung",
+      label: "E-Mail — reply to a party invitation",
+      title: "Antwort auf eine Einladung",
+      situation: "Your boss has invited you to her birthday party.",
+      instruction: "Thank her, confirm that you will come, say you are bringing someone, and ask for directions.",
+      words: "30–40 words",
+      format: "Goethe A2",
+      source: "goethe"
+    },
+    {
+      id: "a2-brief",
+      label: "Brief / halbformelle E-Mail (telc)",
+      title: "Antwort auf eine Einladung zur Hochzeit",
+      situation: "You have received an invitation to a wedding and must reply.",
+      instruction: "Reply in a semi-formal e-mail, covering at least three of the four points given in the invitation.",
+      words: "ca. 40 words",
+      format: "telc A2",
+      source: "telc"
+    },
+    {
+      id: "a2-osd-informell",
+      label: "Informelle E-Mail an eine Freundin (ÖSD)",
+      title: "Antwort-E-Mail an eine Freundin",
+      situation: "A friend has written to you and asked several questions.",
+      instruction: "Reply informally, answering every question in her e-mail and closing with a greeting.",
+      words: "ca. 50 words",
+      format: "ÖSD ZA2",
+      source: "oesd"
+    }
+  ],
+
+  "B1": [
+    {
+      id: "b1-informell",
+      label: "Informelle E-Mail — party and gift",
+      title: "E-Mail an eine Freundin",
+      situation: "A friend has written about a party she is giving.",
+      instruction: "Describe the party, say why you could not bring the gift she wanted, and suggest when to meet next.",
+      words: "ca. 80 words",
+      format: "Goethe / ÖSD B1, Aufgabe 1",
+      source: "goethe"
+    },
+    {
+      id: "b1-forum",
+      label: "Diskussionsbeitrag / Forumsbeitrag",
+      title: "Beitrag in ein Online-Gästebuch",
+      situation: "In an online guestbook someone has written: „Sollten Schulen Hausaufgaben geben?“",
+      instruction: "Give your opinion on the statement, justify it, and mention your own experience.",
+      words: "ca. 80 words",
+      format: "Goethe / ÖSD B1, Aufgabe 2",
+      source: "goethe"
+    },
+    {
+      id: "b1-entschuldigung",
+      label: "Kurze formelle E-Mail — apology for a missed appointment",
+      title: "E-Mail an eine Praxis",
+      situation: "You missed a medical appointment and did not cancel it.",
+      instruction: "Apologise politely in a short, fairly formal e-mail and propose a new date.",
+      words: "ca. 40 words",
+      format: "Goethe / ÖSD B1, Aufgabe 3",
+      source: "goethe"
+    },
+    {
+      id: "b1-telc-leitpunkte",
+      label: "Halbformelle E-Mail, 4 Leitpunkte (telc)",
+      title: "Antwort auf ein Angebot oder eine Anzeige",
+      situation: "You have seen an advertisement or received an offer and now reply to it.",
+      instruction: "Write a semi-formal e-mail as a reply, addressing four given bullet points.",
+      words: "80–100 words",
+      format: "telc B1",
+      source: "telc"
+    }
+  ],
+
+  "B2": [
+    {
+      id: "b2-forum",
+      label: "Forumsbeitrag — opinion piece",
+      title: "Forumsbeitrag zum Thema Verpackung",
+      situation: "An internet forum is discussing plastic packaging.",
+      instruction: "Give your opinion on the topic, argue your case, and give examples from your own experience.",
+      words: "min. 150 words",
+      format: "Goethe B2, Teil 1",
+      source: "goethe"
+    },
+    {
+      id: "b2-nachricht-chef",
+      label: "Nachricht an den Chef — workload",
+      title: "Nachricht an die Chefin",
+      situation: "Your workload has become too heavy and you need to raise it with your boss.",
+      instruction: "Ask your boss for understanding about the situation and make a concrete proposal.",
+      words: "min. 100 words",
+      format: "Goethe B2, Teil 2",
+      source: "goethe"
+    },
+    {
+      id: "b2-telc-halbformell",
+      label: "Halbformelle E-Mail, 3 von 4 Leitpunkten (telc)",
+      title: "Antwort auf eine Werbeanzeige",
+      situation: "You have seen an advertisement from a company or office and now reply to it.",
+      instruction: "Write a semi-formal e-mail as a reply. Answer at least three of the four given bullet points.",
+      words: "min. 150 words",
+      format: "telc B2",
+      source: "telc"
+    },
+    {
+      id: "b2-beschwerde",
+      label: "Formelle Beschwerde-E-Mail",
+      title: "Beschwerde an eine Servicestelle",
+      situation: "You have notes about a problem with a service you used.",
+      instruction: "Write a formal complaint e-mail based on your notes, including a proper salutation and closing formula.",
+      words: "ca. 120 words",
+      format: "ÖSD ZB2, Aufgabe 1",
+      source: "oesd"
+    },
+    {
+      id: "b2-osd-diskussion",
+      label: "Diskussionsbeitrag, 4 Leitpunkte (ÖSD)",
+      title: "Diskussionsbeitrag — Variante A oder B",
+      situation: "You are asked to comment on one of two given variants.",
+      instruction: "Cover the four bullet points: your opinion, your justification, your own experiences, and the situation in your country.",
+      words: "ca. 120 words",
+      format: "ÖSD ZB2, Aufgabe 2",
+      source: "oesd"
+    }
+  ],
+
+  "C1": [
+    {
+      id: "c1-forum",
+      label: "Diskussionsbeitrag — Karriere & Beruf",
+      title: "Forumsbeitrag „Studieren — aber was?“",
+      situation: "In the internet forum „Karriere & Beruf“ someone has opened the discussion topic „Studieren — aber was?“",
+      instruction: "Take a clear position, argue it convincingly, and connect it to your own experience.",
+      words: "ca. 230 words",
+      format: "Goethe C1, Teil 1",
+      source: "goethe"
+    },
+    {
+      id: "c1-beschwerde",
+      label: "Nachricht / Beschwerde an die Vorgesetzte",
+      title: "Beschwerde über ein Großraumbüro",
+      situation: "Your company has moved into an open-plan office and you want to object.",
+      instruction: "Write a message of complaint to your supervisor, making your case clearly and politely.",
+      words: "ca. 120 words",
+      format: "Goethe C1, Teil 2",
+      source: "goethe"
+    },
+    {
+      id: "c1-erörterung",
+      label: "Erörterung / Stellungnahme (telc)",
+      title: "Erörterung zu einem Thema",
+      situation: "You are given an input text containing two contradictory statements.",
+      instruction: "Take a position on the topic and argue it. Aim for a factual, well-structured text.",
+      words: "etwa 350 words",
+      format: "telc C1",
+      source: "telc"
+    },
+    {
+      id: "c1-telc-beruf",
+      label: "Erörterung zu einem Berufsthema (telc C1 Beruf)",
+      title: "Sachtext zu einem Thema aus der Arbeitswelt",
+      situation: "An input text from your professional field contains two contradictory statements.",
+      instruction: "Write a factual text (Sachtext) in which you set out your position on the contradiction.",
+      words: "etwa 350 words",
+      format: "telc C1 Beruf",
+      source: "telc"
+    },
+    {
+      id: "c1-formelles-antwortschreiben",
+      label: "Formelles Antwortschreiben (ÖSD)",
+      title: "Formelles Antwortschreiben nach Notizen",
+      situation: "You are given notes from a telephone call that you must turn into a letter.",
+      instruction: "Write a formal reply using the notes, with a salutation, closing formulas and appropriate polite forms.",
+      words: "250 words",
+      format: "ÖSD ZC1, Aufgabe 1",
+      source: "oesd"
+    },
+    {
+      id: "c1-ausarbeitung",
+      label: "Schriftliche Ausarbeitung eines Referats (ÖSD)",
+      title: "Ausarbeitung zu einem Referat",
+      situation: "You have to prepare a written version of a talk, and statistics are given.",
+      instruction: "Summarise the content and interpret the statistics given.",
+      words: "min. 250 words",
+      format: "ÖSD ZC1, Aufgabe 2",
+      source: "oesd"
+    },
+    {
+      id: "c1-stellungnahme",
+      label: "Stellungnahme zu einem Zeitungsartikel (ÖSD)",
+      title: "Stellungnahme zu einem Presseartikel",
+      situation: "You have read an article in a newspaper.",
+      instruction: "Write your comment on the article, taking a clear position.",
+      words: "min. 250 words",
+      format: "ÖSD ZC1, Aufgabe 2",
+      source: "oesd"
+    }
+  ],
+
+  "C2": [
+    {
+      id: "c2-leserbrief",
+      label: "Ausführlicher Leserbrief",
+      title: "Leserbrief an eine Redaktion",
+      situation: "You have read an article in a serious newspaper and want to write to the editorial team.",
+      instruction: "Write a detailed reader's letter, referring to the article in detail.",
+      words: "ca. 350 words",
+      format: "Goethe C2, Aufgabe 2",
+      source: "goethe"
+    },
+    {
+      id: "c2-email",
+      label: "Ausführliche E-Mail",
+      title: "Ausführliche E-Mail",
+      situation: "You need to write at length to a private or professional contact.",
+      instruction: "Write a detailed e-mail on the given topic.",
+      words: "ca. 350 words",
+      format: "Goethe C2, Aufgabe 2",
+      source: "goethe"
+    },
+    {
+      id: "c2-rezension-blog",
+      label: "Buchbesprechung für ein Buchblog",
+      title: "Rezension für ein Buchblog",
+      situation: "A book blog has asked you to review a book.",
+      instruction: "Write the review, presenting the book's content and giving a clear judgement.",
+      words: "ca. 350 words",
+      format: "Goethe C2, Aufgabe 2",
+      source: "goethe"
+    },
+    {
+      id: "c2-rezension-forum",
+      label: "Buchbesprechung für ein Literaturforum",
+      title: "Rezension für ein Literaturforum",
+      situation: "A literature forum has asked you to review a book for its readers.",
+      instruction: "Write the review for the forum audience.",
+      words: "ca. 350 words",
+      format: "Goethe C2, Aufgabe 2",
+      source: "goethe"
+    },
+    {
+      id: "c2-integrativ",
+      label: "Integrativer Essay mit Quellenbezug (telc)",
+      title: "Essay zum Oberthema des Prüfungstags",
+      situation: "You have read and heard several texts on one overarching topic during the exam.",
+      instruction: "Write an essay on that topic. Quote the sources: either literally in quotation marks with the source, or indirectly. Mark every citation.",
+      words: "no set limit",
+      format: "telc C2",
+      source: "telc"
+    }
+  ]
+}; };
+
+/* ── STATE ─────────────────────────────────────────── */
+let current = null;      // { level, task }
+let lastAnswer = "";
+
+/* ── TOASTS ────────────────────────────────────────── */
+const TOAST_ICONS = { success: '✓', error: '✕', warning: '⚠', info: 'ℹ' };
+window.toast = function (type, title, msg, duration) {
+  const dur = duration || 4500;
+  const el = document.createElement('div');
+  el.className = 'toast toast-' + (TOAST_ICONS[type] ? type : 'info');
+  el.innerHTML = '<div class="toast-body"><div class="toast-title"></div>' +
+                 (msg ? '<div class="toast-msg"></div>' : '') + '</div>' +
+                 '<button class="toast-close">×</button>';
+  el.querySelector('.toast-title').textContent = (TOAST_ICONS[type] ? TOAST_ICONS[type] + ' ' : '') + title;
+  if (msg) el.querySelector('.toast-msg').textContent = msg;
+  el.querySelector('.toast-close').addEventListener('click', () => el.remove());
+  document.getElementById('toast-container').appendChild(el);
+  setTimeout(() => el.remove(), dur);
+};
+
+/* ── SELECTORS ─────────────────────────────────────── */
+function currentLevel() { return document.getElementById('levelSelect').value; }
+function currentTaskId() { return document.getElementById('taskSelect').value; }
+
+window.renderTasks = function () {
+  const lvl = currentLevel();
+  const sel = document.getElementById('taskSelect');
+  const list = TASKS[lvl] || [];
+  sel.innerHTML = '';
+  list.forEach(t => sel.add(new Option(t.label, t.id)));
+  renderPrompt();
+};
+
+function renderPrompt() {
+  const lvl = currentLevel();
+  const t = (TASKS[lvl] || []).find(x => x.id === currentTaskId());
+  const box = document.getElementById('promptBox');
+  if (!t) { box.innerHTML = ''; return; }
+  current = { level: lvl, task: t };
+  box.innerHTML =
+    '<div class="prompt-box">' +
+      `<h2>${escapeHtml(t.title)}</h2>` +
+      `<p>${escapeHtml(t.situation)}</p>` +
+      `<p><strong>${escapeHtml(t.instruction)}</strong></p>` +
+      '<div class="prompt-meta">' +
+        `<span class="chip">${escapeHtml(t.level)}</span>` +
+        `<span class="chip">${escapeHtml(t.words)} words</span>` +
+        (t.format ? `<span class="chip amber">${escapeHtml(t.format)}</span>` : '') +
+      '</div>' +
+    '</div>';
+}
+
+function escapeHtml(s) {
+  return String(s == null ? '' : s)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+/* Word count + a nudge when the answer is far off the target. */
+document.getElementById('answerInput').addEventListener('input', e => {
+  const words = e.target.value.trim() ? e.target.value.trim().split(/\s+/).length : 0;
+  const el = document.getElementById('wordCount');
+  el.textContent = words + (words === 1 ? ' word' : ' words');
+  if (current && words > 0) {
+    const hint = lengthHint(current.task.words, words);
+    if (hint) el.textContent += ' · ' + hint;
+  }
+});
+
+/* The `words` field is free text ("ca. 80 words", "min. 150 words",
+   "no set limit"), so the guidance is derived rather than hard-coded
+   per task. Returns null when there is nothing useful to say. */
+function lengthHint(spec, words) {
+  if (!spec || /no set limit/i.test(spec)) return null;
+  const range = /(\d+)\s*[-–]\s*(\d+)/.exec(spec);
+  const min = /min\.?\s*(\d+)/i.exec(spec);
+  const lo = range ? +range[1] : (min ? +min[1] : null);
+  const hi = range ? +range[2] : null;
+  if (lo == null) return null;
+  if (words < lo) return 'short of the ' + lo + '-word target';
+  if (hi && words > hi) return 'over the ' + hi + '-word limit';
+  return null;
+}
+
+window.resetAll = function () {
+  document.getElementById('answerInput').value = '';
+  document.getElementById('answerInput').dispatchEvent(new Event('input'));
+  document.getElementById('resultsPanel').style.display = 'none';
+  document.getElementById('emptyPanel').style.display = '';
+  document.getElementById('results').innerHTML = '';
+};
+
+/* ── GEMINI CALL ─────────────────────────────────────
+   One request. Falls back to the older model family when the
+   primary reports a quota or rate-limit problem, so a long
+   answer does not fail outright. Returns parsed JSON, or
+   throws with a readable message.
+────────────────────────────────────────────────────── */
+async function callGemini(model, systemInstruction, userText, schema) {
+  const body = {
+    systemInstruction: { parts: [{ text: systemInstruction }] },
+    contents: [{ role: 'user', parts: [{ text: userText }] }],
+    generationConfig: {
+      temperature: 0.2,
+      responseMimeType: 'application/json',
+      responseSchema: schema
+    }
+  };
+  const res = await fetch(`${API_ROOT}/${model}:generateContent?key=${encodeURIComponent(apiKey)}`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(body)
+  });
+
+  if (!res.ok) {
+    const detail = await res.text().catch(() => '');
+    const err = new Error('HTTP ' + res.status);
+    err.status = res.status;
+    err.detail = detail;
+    throw err;
+  }
+  const data = await res.json();
+  const text = data.candidates?.[0]?.content?.parts?.map(p => p.text).join('') || '';
+  try { return JSON.parse(text); }
+  catch (e) { throw new Error('Model returned unreadable output'); }
+}
+
+/* True when retrying on the fallback model is worth it: rate limits,
+   exhausted quota, overloaded upstream, or a context window too big
+   for the primary model. */
+function isQuotaProblem(err) {
+  const d = (err.detail || '') + ' ' + err.message;
+  return err.status === 429 || err.status === 503 ||
+         /quota|resource_exhausted|rate.?limit|overloaded|candidate count|token count|too many tokens|context (length|window)/i.test(d);
+}
+
+/* Runs one logical call, transparently retrying on the fallback model.
+   `onStep` reports which model is being used so the UI can say so.
+   Exactly two network calls are made in the normal case — one for
+   corrections, one for grading. The fallback only costs a third call
+   when the primary actually fails. */
+async function callWithFallback(systemInstruction, userText, schema, onStep) {
+  try {
+    onStep(PRIMARY_MODEL, false);
+    return await callGemini(PRIMARY_MODEL, systemInstruction, userText, schema);
+  } catch (err) {
+    if (!isQuotaProblem(err)) throw err;
+    console.warn('Primary model failed, using fallback:', err.message);
+    onStep(FALLBACK_MODEL, true);
+    window.toast('warning', 'Falling back', 'The main model was busy, so the backup model is grading this.');
+    return await callGemini(FALLBACK_MODEL, systemInstruction, userText, schema);
+  }
+}
+
+/* ── SCHEMAS ───────────────────────────────────────── */
+const CORRECTIONS_SCHEMA = {
+  type: 'object',
+  properties: {
+    correctedText: { type: 'string', description: 'The full text with every correction applied.' },
+    issues: {
+      type: 'array',
+      items: {
+        type: 'object',
+        properties: {
+          original: { type: 'string', description: 'The exact wrong text as it appears.' },
+          corrected: { type: 'string', description: 'How it should be written.' },
+          category: { type: 'string', description: 'One of: Spelling, Grammar, Case, Word order, Verb form, Noun, Article, Punctuation, Word choice, Register, Capitalisation, Other' },
+          explanation: { type: 'string', description: 'A short English explanation of the rule.' }
+        },
+        required: ['original', 'corrected', 'category', 'explanation']
+      }
+    }
+  },
+  required: ['correctedText', 'issues']
+};
+
+const GRADE_SCHEMA = {
+  type: 'object',
+  properties: {
+    score: { type: 'integer', description: 'Overall score out of 100, on the Goethe scale.' },
+    band: { type: 'string', description: 'One of: sehr gut, gut, befriedigend, ausreichend, ungenügend' },
+    summary: { type: 'string', description: 'Two to four sentences of plain English explaining the grade.' },
+    taskCoverage: { type: 'string', description: 'Whether every part of the task was actually addressed.' },
+    criteria: {
+      type: 'array',
+      items: {
+        type: 'object',
+        properties: {
+          name: { type: 'string' },
+          score: { type: 'string' },
+          comment: { type: 'string' }
+        },
+        required: ['name', 'score', 'comment']
+      }
+    },
+    strengths: { type: 'array', items: { type: 'string' } },
+    improvements: { type: 'array', items: { type: 'string' } }
+  },
+  required: ['score', 'band', 'summary', 'taskCoverage', 'criteria', 'strengths', 'improvements']
+};
+
+/* ── PROMPTS ───────────────────────────────────────── */
+function correctionPrompt(task, level, text) {
+  return `You are a precise German corrector working with a ${level} learner.
+
+Correct ONLY genuine errors. Do NOT rewrite, translate, summarise, reformat or
+improve the style. Do NOT "fix" dialect, informal spellings, or choices that are
+acceptable at this level. If a sentence is correct, leave it alone.
+
+Find every spelling, grammar, case, word-order, verb-form, article, punctuation
+and capitalisation error. For each one give the exact wrong text, the correct
+form, a category, and a one-sentence explanation of the rule in English.
+
+Also return correctedText: the complete original text with all corrections applied.
+
+The learner was asked for: ${task.title} — ${task.situation} ${task.instruction}
+
+--- LEARNER TEXT ---
+${text}
+--- END ---`;
+}
+
+function gradingPrompt(task, level, text) {
+  return `You are a German examiner grading a ${level} writing task.
+
+Grade the text against how well it does the task, not just its grammar.
+
+The task was: ${task.title}
+Situation: ${task.situation}
+Instruction: ${task.instruction}
+Target length: ${task.words} words
+
+Use the Goethe grading scale: 90-100 sehr gut, 80-89 gut, 70-79 befriedigend,
+60-69 ausreichend, below 60 ungenügend. Be honest but fair — grade it as a
+learner at ${level}, not against a native speaker.
+
+Cover these criteria: task completion, vocabulary range, grammar accuracy,
+organisation and coherence, and register/formality.
+
+Return the grade, a plain-English summary, whether every part of the task was
+addressed, a score and comment per criterion, and concrete strengths plus the
+top improvements to work on next.
+
+--- LEARNER TEXT ---
+${text}
+--- END ---`;
+}
+
+/* ── SUBMIT ────────────────────────────────────────── */
+window.submitText = async function () {
+  const text = document.getElementById('answerInput').value.trim();
+  if (!text) return window.toast('warning', 'Nothing to grade', 'Write your answer first.');
+  if (!current) return window.toast('warning', 'No task selected', 'Pick a level and a task.');
+  syncKeys();
+  if (!apiKey) return window.toast('warning', 'API Key Missing', 'Add your Gemini API key on the home page.');
+
+  lastAnswer = text;
+  const { level, task } = current;
+
+  setBusy(true);
+  showStage('Correcting spelling and grammar…');
+  try {
+    /* Call 1 — corrections only. */
+    const corr = await callWithFallback(
+      correctionPrompt(task, level, text),
+      'Review the text above and return the corrections.',
+      CORRECTIONS_SCHEMA,
+      (model, fellBack) => showStage((fellBack ? 'Fallback model · ' : '') + 'Correcting spelling and grammar…')
+    );
+
+    /* Call 2 — grading, on the learner's ORIGINAL text. */
+    showStage('Grading and explaining…');
+    const grade = await callWithFallback(
+      gradingPrompt(task, level, text),
+      'Grade the text above.',
+      GRADE_SCHEMA,
+      (model, fellBack) => showStage((fellBack ? 'Fallback model · ' : '') + 'Grading and explaining…')
+    );
+
+    renderResults(corr, grade, level, task);
+    document.getElementById('resultsPanel').style.display = '';
+    document.getElementById('emptyPanel').style.display = 'none';
+    window.toast('success', 'Graded', 'Corrections and grade are below.');
+  } catch (err) {
+    console.error(err);
+    window.toast('error', 'Could not grade', err.detail ? String(err.detail).slice(0, 120) : err.message);
+    showStage('Something went wrong. Please try again.');
+  } finally {
+    setBusy(false);
+  }
+};
+
+function setBusy(on) {
+  document.getElementById('submitBtn').disabled = on;
+  document.getElementById('submitLabel').textContent = on ? 'Working…' : 'Submit';
+  document.getElementById('submitSpinner').style.display = on ? 'inline-block' : 'none';
+}
+
+function showStage(text) {
+  let el = document.getElementById('modelNote');
+  if (!el) {
+    el = document.createElement('div');
+    el.id = 'modelNote';
+    el.className = 'busy-note';
+    document.getElementById('resultsPanel').style.display = '';
+    document.getElementById('results').innerHTML = '';
+    document.getElementById('results').appendChild(el);
+    document.getElementById('emptyPanel').style.display = 'none';
+  }
+  el.textContent = text;
+}
+
+/* ── RENDER ────────────────────────────────────────── */
+function renderResults(corr, grade, level, task) {
+  const issues = Array.isArray(corr.issues) ? corr.issues : [];
+
+  /* Annotated text: strike the wrong form, show the fix after it. */
+  let annotated = escapeHtml(corr.correctedText || lastAnswer);
+  issues.forEach(i => {
+    if (!i.original || !i.corrected) return;
+    const esc = s => escapeHtml(s).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    annotated = annotated.replace(
+      new RegExp(esc(i.original), 'g'),
+      `<span class="err" title="${escapeHtml(i.category + ': ' + i.explanation)}">${escapeHtml(i.original)}</span>` +
+      `<span class="fix">${escapeHtml(i.corrected)}</span>`
+    );
+  });
+
+  const score = Number.isFinite(grade.score) ? grade.score : 0;
+  const warn = score < 70 ? ' warn' : '';
+
+  const html = `
+    <div class="result-block">
+      <div class="result-head"><span>Your text, marked up</span><span>${issues.length} correction${issues.length === 1 ? '' : 's'}</span></div>
+      <div class="annotated">${annotated}</div>
+      <div class="legend">
+        <span><i class="swatch e"></i> was incorrect</span>
+        <span><i class="swatch f"></i> should be written</span>
+      </div>
+    </div>
+
+    ${issues.length ? `
+    <div class="result-block">
+      <div class="result-head"><span>What to fix</span></div>
+      <div>${issues.map(i => `
+        <div class="issue">
+          <span class="issue-kind">${escapeHtml(i.category || 'Other')}</span>
+          <div class="issue-body">
+            <div class="issue-change"><span class="was">${escapeHtml(i.original)}</span> &rarr; <span class="now">${escapeHtml(i.corrected)}</span></div>
+            <div class="issue-why">${escapeHtml(i.explanation)}</div>
+          </div>
+        </div>`).join('')}</div>
+    </div>` : `
+    <div class="result-block">
+      <div class="result-head"><span>What to fix</span></div>
+      <div class="empty">No spelling or grammar errors found. Nice work.</div>
+    </div>`}
+
+    <div class="result-block">
+      <div class="result-head"><span>Grade</span><span>${escapeHtml(level)} &middot; ${escapeHtml(task.title)}</span></div>
+      <div class="grade-head">
+        <div class="score">${score}<small>/100</small></div>
+        <div class="band${warn}">${escapeHtml(grade.band || '')}</div>
+      </div>
+      <div class="summary-text">${escapeHtml(grade.summary || '')}</div>
+      ${grade.taskCoverage ? `<div class="issue-why" style="margin-top:8px;"><strong>Task coverage:</strong> ${escapeHtml(grade.taskCoverage)}</div>` : ''}
+      ${Array.isArray(grade.criteria) && grade.criteria.length ? `
+      <div class="crit" style="margin-top:14px;">
+        ${grade.criteria.map(c => `
+          <div class="crit-item">
+            <div class="crit-name">${escapeHtml(c.name)}</div>
+            <div class="crit-val">${escapeHtml(c.score)}</div>
+            <div class="issue-why">${escapeHtml(c.comment)}</div>
+          </div>`).join('')}
+      </div>` : ''}
+      <div class="row" style="margin-top:16px;">
+        ${Array.isArray(grade.strengths) && grade.strengths.length ? `
+        <div>
+          <span class="section-label">What worked</span>
+          <ul style="font-size:.88rem; line-height:1.7; padding-left:18px;">
+            ${grade.strengths.map(s => `<li>${escapeHtml(s)}</li>`).join('')}
+          </ul>
+        </div>` : ''}
+        ${Array.isArray(grade.improvements) && grade.improvements.length ? `
+        <div>
+          <span class="section-label">Work on next</span>
+          <ul style="font-size:.88rem; line-height:1.7; padding-left:18px;">
+            ${grade.improvements.map(s => `<li>${escapeHtml(s)}</li>`).join('')}
+          </ul>
+        </div>` : ''}
+      </div>
+    </div>`;
+
+  document.getElementById('results').innerHTML = html;
+  document.getElementById('resultsPanel').style.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+/* ── BOOT ──────────────────────────────────────────── */
+const levelSelect = document.getElementById('levelSelect');
+Object.keys(TASKS).forEach(lvl => levelSelect.add(new Option(lvl, lvl)));
+levelSelect.addEventListener('change', window.renderTasks);
+window.renderTasks();
+</script>
+</body>
+</html>
