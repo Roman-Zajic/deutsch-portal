@@ -396,9 +396,11 @@ select.input { cursor: pointer; }
   <a class="nav-brand-text" href="../../">Vocabulary</a>
   <div class="nav-actions">
     <span class="nav-stat" id="wordCount">…</span>
-    <button class="icon-btn" onclick="window.openSettings()" title="Save to GitHub">
+    <button class="icon-btn" onclick="window.openModal()" title="Add a word">
+      <svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
+    </button>
+    <button class="icon-btn" onclick="window.openSettings()" title="GitHub sync settings">
       <svg viewBox="0 0 24 24"><path d="M12.65 10C11.83 7.67 9.61 6 7 6c-3.31 0-6 2.69-6 6s2.69 6 6 6c2.61 0 4.83-1.67 5.65-4H17v4h4v-4h2v-4H12.65zM7 14c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"/></svg>
-      Save
     </button>
   </div>
 </nav>
@@ -406,11 +408,11 @@ select.input { cursor: pointer; }
 <div class="wrap">
 
   <div class="accordion">
-    <button class="accordion-trigger" id="filtersToggle" aria-expanded="true" onclick="window.toggleAccordion('filtersToggle','filtersBody')">
+    <button class="accordion-trigger" id="filtersToggle" aria-expanded="false" onclick="window.toggleAccordion('filtersToggle','filtersBody')">
       <span>Mode, Filters &amp; Lookup</span>
       <svg class="accordion-chevron" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="4 7 9 12 14 7"/></svg>
     </button>
-    <div class="accordion-body open" id="filtersBody">
+    <div class="accordion-body" id="filtersBody">
       <div class="accordion-inner">
 
         <div>
@@ -464,7 +466,7 @@ select.input { cursor: pointer; }
 
         <div>
           <div class="section-label">Add a word</div>
-          <p class="field-hint">Type a German word and add it. Missing details are filled in automatically.</p>
+          <p class="field-hint">Type a German word, then fill in the details yourself.</p>
           <div class="add-bar">
             <input type="text" id="newWordInput" class="input" placeholder="German word…" autocomplete="off">
             <div class="de-kbd-widget">
@@ -479,8 +481,7 @@ select.input { cursor: pointer; }
               </div>
               <button class="de-kbd-toggle" type="button" onmousedown="event.preventDefault()" onclick="window.toggleDeKbd(event,'deKbdPanel2')" title="Insert German characters">Ä</button>
             </div>
-            <button class="btn btn-primary btn-sm" onclick="window.addWordDirect()">Add word</button>
-            <button class="btn btn-secondary btn-sm" onclick="window.openModal()">Add with details</button>
+            <button class="btn btn-primary btn-sm" onclick="window.openAddFromLookup()">Add word</button>
           </div>
         </div>
 
@@ -606,6 +607,7 @@ select.input { cursor: pointer; }
     </div>
     <div class="modal-footer">
       <button class="btn btn-danger btn-sm" onclick="window.clearSettings()" style="margin-right:auto;">Forget token</button>
+      <button class="btn btn-secondary btn-sm" onclick="window.discardDraft()" style="margin-right:auto;">Discard unsaved</button>
       <button class="btn btn-secondary" onclick="window.closeSettings()">Cancel</button>
       <button class="btn btn-primary" onclick="window.saveSettings()">Save &amp; Reload</button>
     </div>
@@ -624,7 +626,8 @@ select.input { cursor: pointer; }
 const REPO      = "Roman-Zajic/deutsch-portal";
 const BRANCH    = "main";
 const DATA_PATH = "data/vocabulary.json";
-const CFG_KEY   = "vs_cfg";
+const CFG_KEY   = "vs_cfg";     // shared by every page in the portal
+const DRAFT_KEY = "vs_draft";   // unsaved edits, so they survive a reload
 const MODE_KEY  = "vs_mode";
 
 let GH_TOKEN = "";
@@ -637,6 +640,24 @@ window.lastFocusedInput = null;
 
 function hasToken() { return !!(GH_TOKEN && GH_REPO && GH_BRANCH && GH_PATH); }
 function rawUrl() { return `https://raw.githubusercontent.com/${GH_REPO}/${GH_BRANCH}/${GH_PATH}`; }
+
+/* ── LOCAL DRAFT ────────────────────────────────────────
+   Edits are kept in localStorage immediately, whether or not a
+   GitHub token is set. Without this, a delete or an add would
+   vanish on reload whenever the page could not reach GitHub.
+───────────────────────────────────────────────────────── */
+function saveDraft() {
+  try {
+    localStorage.setItem(DRAFT_KEY, JSON.stringify({ at: Date.now(), list: window.vocabList }));
+  } catch (e) {}
+}
+function readDraft() {
+  try {
+    const d = JSON.parse(localStorage.getItem(DRAFT_KEY) || "null");
+    return d && Array.isArray(d.list) ? d : null;
+  } catch (e) { return null; }
+}
+function clearDraft() { localStorage.removeItem(DRAFT_KEY); }
 
 function loadCfg() {
   try {
@@ -713,10 +734,14 @@ async function loadData() {
   try {
     const res = await fetch(rawUrl() + '?t=' + Date.now());
     if (!res.ok) throw new Error('HTTP ' + res.status);
-    const parsed = JSON.parse(await res.text());
-    if (!Array.isArray(parsed)) throw new Error('not an array');
+    const remote = JSON.parse(await res.text());
+    if (!Array.isArray(remote)) throw new Error('not an array');
 
-    window.vocabList = parsed.map(it => ({
+    // Unsaved local edits win over the repo copy, so nothing is lost.
+    const draft = readDraft();
+    const source = draft ? draft.list : remote;
+
+    window.vocabList = source.map(it => ({
       id: it.id || String(Date.now() + Math.floor(Math.random() * 1000)),
       word: it.word || '',
       translation: it.translation || '',
@@ -728,23 +753,36 @@ async function loadData() {
       examples: Array.isArray(it.examples) ? it.examples : []
     }));
 
-    dirty = false;
+    dirty = !!draft;
     window.renderGrid();
     const n = window.vocabList.length;
-    setStatus(n + (n === 1 ? ' word' : ' words'));
+    if (draft) setStatus(n + ' words · unsaved');
+    else setStatus(n + (n === 1 ? ' word' : ' words'));
   } catch (e) {
-    window.renderGrid();
-    setStatus("Load failed", true);
-    window.toast('error', 'Could not load words', e.message);
+    const draft = readDraft();
+    if (draft) {
+      window.vocabList = draft.list;
+      dirty = true;
+      window.renderGrid();
+      setStatus(window.vocabList.length + ' words · offline');
+      window.toast('warning', 'Offline', 'Showing your saved edits on this device.');
+    } else {
+      window.renderGrid();
+      setStatus("Load failed", true);
+      window.toast('error', 'Could not load words', e.message);
+    }
   }
 }
 
 /* ── SAVE (needs token) ──────────────────────────────── */
-async function saveToGitHub() {
+async function saveToGitHub(silent) {
   if (!hasToken()) {
-    window.openSettings();
-    window.toast('warning', 'Token required', 'Paste a token to save your changes back to GitHub.');
-    return;
+    // No token: the edits are already safe in localStorage. Just say so.
+    if (!silent) {
+      window.openSettings();
+      window.toast('info', 'Saved on this device', 'Add a token to also save to GitHub.');
+    }
+    return false;
   }
   try {
     let sha = null;
@@ -771,19 +809,21 @@ async function saveToGitHub() {
 
     if (res.ok) {
       dirty = false;
+      clearDraft();
       setStatus(window.vocabList.length + ' words · saved');
-      window.toast('success', 'Saved', 'Committed to GitHub.');
-      setTimeout(loadData, 3000);
+      if (!silent) window.toast('success', 'Saved', 'Committed to GitHub.');
+      return true;
     } else if (res.status === 401 || res.status === 403) {
       window.toast('error', 'Token rejected', 'It is invalid or lacks Contents write access.');
     } else if (res.status === 409) {
-      window.toast('error', 'Conflict', 'The file changed on GitHub. Reload before saving.');
+      window.toast('error', 'Conflict', 'The file changed on GitHub. Reload to pull the latest.');
     } else {
       window.toast('error', 'Save failed', 'GitHub returned ' + res.status + '.');
     }
   } catch (e) {
-    window.toast('error', 'Network error', 'Could not reach GitHub.');
+    window.toast('error', 'Network error', 'Could not reach GitHub — your edits are safe on this device.');
   }
+  return false;
 }
 
 /* ── SAVE MODAL ──────────────────────────────────────── */
@@ -941,9 +981,11 @@ window.deleteWord = function(id) {
   if (!confirm('Delete "' + (w ? w.word : 'this word') + '"?')) return;
   window.vocabList = window.vocabList.filter(x => x.id !== id);
   dirty = true;
+  saveDraft();                 // persist locally first, then try GitHub
   window.renderGrid();
   setStatus(window.vocabList.length + ' words · unsaved');
-  saveToGitHub();
+  window.toast('success', 'Deleted', w ? w.word : '');
+  saveToGitHub(true);          // silent: no dialog if there is no token
 };
 window.saveWord = function() {
   const id = document.getElementById('editId').value || String(Date.now());
@@ -962,119 +1004,47 @@ window.saveWord = function() {
   const i = window.vocabList.findIndex(x => x.id === id);
   if (i >= 0) window.vocabList[i] = d; else window.vocabList.unshift(d);
   dirty = true;
+  saveDraft();
   window.closeModal();
   window.renderGrid();
   setStatus(window.vocabList.length + ' words · unsaved');
   window.toast('success', i >= 0 ? 'Updated' : 'Added', d.word);
-  saveToGitHub();
+  saveToGitHub(true);
 };
 
-/* ── LOOKUP ──────────────────────────────────────────── */
-function guessLevel(word) {
-  const w = word.toLowerCase();
-  if (['ich','du','sein','haben','haus','machen','schnell','auto','hund'].includes(w)) return 'A1';
-  if (['ausbildung','beruf','glück','wichtig','teilnehmen'].includes(w)) return 'A2';
-  if (['voraussetzung','erfahrung','herausforderung','gesellschaft'].includes(w)) return 'B1';
-  return 'C2';
-}
-function decodeEntities(s) {
-  const el = document.createElement('textarea');
-  el.innerHTML = s;
-  return el.value;
-}
+/* Throw away local edits and go back to what GitHub has. */
+window.discardDraft = function() {
+  if (!confirm('Discard unsaved changes on this device and reload the saved list?')) return;
+  clearDraft();
+  dirty = false;
+  window.closeSettings();
+  loadData();
+};
 
-/* Fetch with a hard timeout, so one slow or dead API can never hang the add. */
-function fetchWithTimeout(url, ms) {
-  return Promise.race([
-    fetch(url),
-    new Promise((_, reject) => setTimeout(() => reject(new Error('timeout')), ms || 6000))
-  ]);
-}
-
-/* Enrich a bare German word using the free dictionary + translation APIs.
-   Everything here is best-effort: on failure the entry is still created,
-   just with fewer details filled in. */
-async function enrichWord(word) {
-  const out = { translation: '', partOfSpeech: 'Other', article: '', plural: '', examples: [] };
-
-  try {
-    const r = await fetchWithTimeout(`https://api.dictionaryapi.dev/api/v2/entries/de/${encodeURIComponent(word)}`, 5000);
-    if (r.ok) {
-      const d = await r.json();
-      if (Array.isArray(d) && d.length && d[0].meanings) {
-        const m0 = d[0].meanings[0];
-        const apiPos = ((m0 && m0.partOfSpeech) || '').toLowerCase();
-        if (/substantiv|noun/.test(apiPos)) out.partOfSpeech = 'Noun';
-        else if (/verb/.test(apiPos)) out.partOfSpeech = 'Verb';
-        else if (/adjektiv|adjective/.test(apiPos)) out.partOfSpeech = 'Adjective';
-        else if (/adverb/.test(apiPos)) out.partOfSpeech = 'Adverb';
-        else if (/pronomen|pronoun/.test(apiPos)) out.partOfSpeech = 'Pronoun';
-        else if (/präposition|preposition/.test(apiPos)) out.partOfSpeech = 'Preposition';
-        d[0].meanings.forEach(m => (m.definitions || []).forEach(x => { if (x.example) out.examples.push(x.example); }));
-      }
-    }
-  } catch (e) {}
-
-  try {
-    const r = await fetchWithTimeout(`https://api.mymemory.translated.net/get?q=${encodeURIComponent(word)}&langpair=de|en`, 5000);
-    const d = await r.json();
-    if (d && d.responseData && d.responseData.translatedText) {
-      out.translation = decodeEntities(d.responseData.translatedText.toLowerCase());
-    }
-  } catch (e) {}
-
-  return out;
-}
-
-/* Add the word straight away — no dialog. Details are filled in as we go,
-   and any gaps the free APIs could not answer are flagged for review. */
-window.addWordDirect = async function() {
+/* ── ADD FROM THE LOOKUP BAR ────────────────────────────
+   Deliberately does no translation or enrichment: the word is
+   passed straight into the form and every detail is the user's
+   to fill in. Keeps the project light and avoids third-party APIs.
+───────────────────────────────────────────────────────── */
+window.openAddFromLookup = function() {
   const input = document.getElementById('newWordInput');
   const word = input.value.trim();
-  if (!word) return window.toast('warning', 'No word given', 'Type a German word first.');
-
-  const exists = window.vocabList.find(w => (w.word || '').toLowerCase() === word.toLowerCase());
-  if (exists) {
-    window.toast('warning', 'Already in your list', word);
-    input.select();
-    return;
-  }
-
   input.value = '';
-  window.toast('info', 'Adding…', word, 2500);
+  if (!word) return window.openModal();
 
-  const info = await enrichWord(word);
-
-  const entry = {
-    id: String(Date.now()),
-    word,
-    translation: info.translation || '',
-    partOfSpeech: info.partOfSpeech,
-    article: info.article,
-    level: guessLevel(word),
-    plural: info.plural,
-    notes: '',
-    examples: info.examples.slice(0, 3)
-  };
-
-  window.vocabList.unshift(entry);
-  dirty = true;
-  window.renderGrid();
-  setStatus(window.vocabList.length + ' words · unsaved');
-
-  const gaps = [];
-  if (!entry.translation) gaps.push('translation');
-  if (!entry.examples.length) gaps.push('examples');
-  if (!entry.article && entry.partOfSpeech === 'Noun') gaps.push('article');
-
-  if (gaps.length) {
-    window.toast('info', word + ' added — needs ' + gaps.join(', '), 'Tap edit to fill in the rest.');
-  } else {
-    window.toast('success', 'Added', word);
+  const existing = window.vocabList.find(w => (w.word || '').toLowerCase() === word.toLowerCase());
+  if (existing) {
+    window.toast('info', 'Already in your list', word);
+    return window.openModal(existing);
   }
 
-  saveToGitHub();
-  return entry;
+  // Article is a separate field; strip a leading one so the two
+  // cannot end up duplicated ("die die Narbe").
+  let bare = word;
+  const m = bare.match(/^(der|die|das)\s+(.+)$/i);
+  if (m) bare = m[2];
+
+  window.openModal({ id: '', word: bare, translation: '', partOfSpeech: 'Noun', article: '', level: 'C2', plural: '', notes: '', examples: [] });
 };
 
 /* ── GERMAN KEYBOARD ─────────────────────────────────── */
@@ -1113,7 +1083,11 @@ window.addEventListener('beforeunload', e => {
   const m = localStorage.getItem(MODE_KEY);
   window.setMode(['review', 'de-en', 'en-de'].includes(m) ? m : 'review');
   document.getElementById('newWordInput').addEventListener('keydown', e => {
-    if (e.key === 'Enter') window.addWordDirect();
+    if (e.key === 'Enter') window.openAddFromLookup();
+  });
+  // Warn before losing unsaved edits.
+  window.addEventListener('beforeunload', e => {
+    if (dirty && readDraft()) { e.preventDefault(); e.returnValue = ''; }
   });
   loadData();
 })();
