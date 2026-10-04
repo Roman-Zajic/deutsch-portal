@@ -983,6 +983,14 @@ function decodeEntities(s) {
   return el.value;
 }
 
+/* Fetch with a hard timeout, so one slow or dead API can never hang the add. */
+function fetchWithTimeout(url, ms) {
+  return Promise.race([
+    fetch(url),
+    new Promise((_, reject) => setTimeout(() => reject(new Error('timeout')), ms || 6000))
+  ]);
+}
+
 /* Enrich a bare German word using the free dictionary + translation APIs.
    Everything here is best-effort: on failure the entry is still created,
    just with fewer details filled in. */
@@ -990,7 +998,7 @@ async function enrichWord(word) {
   const out = { translation: '', partOfSpeech: 'Other', article: '', plural: '', examples: [] };
 
   try {
-    const r = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/de/${encodeURIComponent(word)}`);
+    const r = await fetchWithTimeout(`https://api.dictionaryapi.dev/api/v2/entries/de/${encodeURIComponent(word)}`, 5000);
     if (r.ok) {
       const d = await r.json();
       if (Array.isArray(d) && d.length && d[0].meanings) {
@@ -1008,7 +1016,7 @@ async function enrichWord(word) {
   } catch (e) {}
 
   try {
-    const r = await fetch(`https://api.mymemory.translated.net/get?q=${encodeURIComponent(word)}&langpair=de|en`);
+    const r = await fetchWithTimeout(`https://api.mymemory.translated.net/get?q=${encodeURIComponent(word)}&langpair=de|en`, 5000);
     const d = await r.json();
     if (d && d.responseData && d.responseData.translatedText) {
       out.translation = decodeEntities(d.responseData.translatedText.toLowerCase());
