@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>German Lessons — Deutsch Lernen</title>
+<link rel="stylesheet" href="lesson.css">
+<style>
+.lessons{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+.lcard{
+  display:block;text-decoration:none;background:var(--in);border:1px solid var(--border);
+  border-radius:6px;padding:14px;transition:130ms;
+}
+.lcard:hover{border-color:var(--teal-700);background:#fff}
+.lcard .ld{font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;
+  color:var(--teal-700);margin-bottom:5px}
+.lcard h3{font-size:1rem;text-transform:none;letter-spacing:0;color:var(--teal-900);
+  margin:0 0 5px;line-height:1.35}
+.lcard p{font-size:.82rem;color:var(--muted);margin:0}
+.empty{text-align:center;padding:40px 16px;color:var(--muted)}
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+  <a class="nav-title" href="index.html">Deutsch Lernen</a>
+  <a class="nav-back" href="../">← Portal</a>
+</nav>
+
+<div class="wrap">
+  <div class="meta"><span class="tag amber">95-day rotation</span></div>
+  <h1>German Lessons</h1>
+  <p class="sub">One grammar topic per day, from A1 to C2. Each lesson has a full rule
+     explanation, many examples, and exercises with answers.</p>
+
+  <section>
+    <div class="lessons">
+      <a class="lcard" href="2026-10-04-konjunktiv-i.html">
+        <div class="ld">Tag 87 · C1 · 4 Oct 2026</div>
+        <h3>Der Konjunktiv I in der indirekten Rede</h3>
+        <p>Reported speech, and how to distance yourself from a claim.</p>
+      </a>
+    </div>
+  </section>
+
+  <p class="lead" style="color:var(--muted);font-size:.86rem">
+    One new lesson is added each morning at 05:00 UTC.
+  </p>
+</div>
+
+<footer><strong>Deutsch Lernen</strong> · Roman Zajic</footer>
+</div>
+</body>
+</html>
