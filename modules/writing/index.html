@@ -1003,7 +1003,11 @@ function renderResults(corr, grade, level, task) {
     </div>`;
 
   document.getElementById('results').innerHTML = html;
-  document.getElementById('resultsPanel').style.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+  const panel = document.getElementById('resultsPanel');
+  if (panel && typeof panel.scrollIntoView === 'function') {
+    panel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
 }
 
 /* ── BOOT ──────────────────────────────────────────── */
