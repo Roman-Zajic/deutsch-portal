@@ -778,44 +778,54 @@ async function saveToGitHub(silent) {
     }
     return false;
   }
-  try {
-    let sha = null;
-    const head = await fetch(`https://api.github.com/repos/${GH_REPO}/contents/${GH_PATH}?ref=${GH_BRANCH}`, {
-      headers: { 'Authorization': `Bearer ${GH_TOKEN}`, 'Accept': 'application/vnd.github+json' }
-    });
-    if (head.ok) sha = (await head.json()).sha;
 
-    const bytes = new TextEncoder().encode(JSON.stringify(window.vocabList, null, 2));
-    const b64 = btoa(Array.from(bytes, b => String.fromCodePoint(b)).join(''));
+  const url = `https://api.github.com/repos/${GH_REPO}/contents/${GH_PATH}`;
+  const headers = {
+    'Authorization': `Bearer ${GH_TOKEN}`,
+    'Accept': 'application/vnd.github+json',
+    'Content-Type': 'application/json'
+  };
 
-    const payload = { message: "Update vocabulary via Vocabulary module", content: b64, branch: GH_BRANCH };
-    if (sha) payload.sha = sha;
+  // The Contents API is compare-and-swap: it rejects the write unless the
+  // sha matches the file's current state. Re-reading the sha on every
+  // attempt is what makes back-to-back saves (delete, then edit) work
+  // instead of failing with 409.
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try {
+      const head = await fetch(`${url}?ref=${GH_BRANCH}&t=${Date.now()}`, {
+        headers: { 'Authorization': `Bearer ${GH_TOKEN}`, 'Accept': 'application/vnd.github+json' }
+      });
+      if (!head.ok) throw new Error('HEAD ' + head.status);
+      const current = (await head.json()).sha;
 
-    const res = await fetch(`https://api.github.com/repos/${GH_REPO}/contents/${GH_PATH}`, {
-      method: 'PUT',
-      headers: {
-        'Authorization': `Bearer ${GH_TOKEN}`,
-        'Accept': 'application/vnd.github+json',
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify(payload)
-    });
+      const bytes = new TextEncoder().encode(JSON.stringify(window.vocabList, null, 2));
+      const b64 = btoa(Array.from(bytes, b => String.fromCodePoint(b)).join(''));
+      const payload = { message: "Update vocabulary via Vocabulary module", content: b64, branch: GH_BRANCH, sha: current };
 
-    if (res.ok) {
-      dirty = false;
-      clearDraft();
-      setStatus(window.vocabList.length + ' words · saved');
-      if (!silent) window.toast('success', 'Saved', 'Committed to GitHub.');
-      return true;
-    } else if (res.status === 401 || res.status === 403) {
-      window.toast('error', 'Token rejected', 'It is invalid or lacks Contents write access.');
-    } else if (res.status === 409) {
-      window.toast('error', 'Conflict', 'The file changed on GitHub. Reload to pull the latest.');
-    } else {
-      window.toast('error', 'Save failed', 'GitHub returned ' + res.status + '.');
+      const res = await fetch(url, { method: 'PUT', headers, body: JSON.stringify(payload) });
+
+      if (res.ok) {
+        dirty = false;
+        clearDraft();
+        setStatus(window.vocabList.length + ' words · saved');
+        if (!silent) window.toast('success', 'Saved', 'Committed to GitHub.');
+        return true;
+      }
+      if (res.status === 409) {
+        // Someone (or another tab) wrote in between; re-read sha and retry.
+        await new Promise(r => setTimeout(r, 400 * attempt));
+        continue;
+      }
+      if (res.status === 401 || res.status === 403) {
+        window.toast('error', 'Token rejected', 'It is invalid or lacks Contents write access.');
+      } else {
+        window.toast('error', 'Save failed', 'GitHub returned ' + res.status + '.');
+      }
+      break;
+    } catch (e) {
+      window.toast('error', 'Network error', 'Could not reach GitHub — your edits are safe on this device.');
+      break;
     }
-  } catch (e) {
-    window.toast('error', 'Network error', 'Could not reach GitHub — your edits are safe on this device.');
   }
   return false;
 }
