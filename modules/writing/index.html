@@ -301,13 +301,12 @@ syncKeys();
 window.addEventListener("storage", syncKeys);
 document.addEventListener("visibilitychange", () => { if (!document.hidden) syncKeys(); });
 
-/* ── MODELS ───────────────────────────────────────────
-   A text model, not a live-audio one: this module does
-   request/response grading only. The fallback is an older,
-   cheaper family used only when the primary is rate-limited.
+/* ── MODEL ────────────────────────────────────────────
+   One text model, used for both calls. No fallback: if a request
+   fails, the error is shown rather than silently retried on a
+   different model, so a grade always comes from one known model.
 ────────────────────────────────────────────────────── */
-const PRIMARY_MODEL   = "gemini-3.8-flash";
-const FALLBACK_MODEL  = "gemini-2.5-flash";
+const MODEL    = "gemini-3.1-flash-lite";
 const API_ROOT = "https://generativelanguage.googleapis.com/v1beta/models";
 
 /* ── EXAM WRITING TASKS ───────────────────────────────
@@ -887,31 +886,12 @@ async function callGemini(model, systemInstruction, userText, schema) {
   catch (e) { throw new Error('Model returned unreadable output'); }
 }
 
-/* True when retrying on the fallback model is worth it: rate limits,
-   exhausted quota, overloaded upstream, or a context window too big
-   for the primary model. */
-function isQuotaProblem(err) {
-  const d = (err.detail || '') + ' ' + err.message;
-  return err.status === 429 || err.status === 503 ||
-         /quota|resource_exhausted|rate.?limit|overloaded|candidate count|token count|too many tokens|context (length|window)/i.test(d);
-}
-
-/* Runs one logical call, transparently retrying on the fallback model.
-   `onStep` reports which model is being used so the UI can say so.
-   Exactly two network calls are made in the normal case — one for
-   corrections, one for grading. The fallback only costs a third call
-   when the primary actually fails. */
-async function callWithFallback(systemInstruction, userText, schema, onStep) {
-  try {
-    onStep(PRIMARY_MODEL, false);
-    return await callGemini(PRIMARY_MODEL, systemInstruction, userText, schema);
-  } catch (err) {
-    if (!isQuotaProblem(err)) throw err;
-    console.warn('Primary model failed, using fallback:', err.message);
-    onStep(FALLBACK_MODEL, true);
-    window.toast('warning', 'Falling back', 'The main model was busy, so the backup model is grading this.');
-    return await callGemini(FALLBACK_MODEL, systemInstruction, userText, schema);
-  }
+/* One logical call, one network request, always on MODEL. There is no
+   fallback: a failed request surfaces its error instead of silently
+   re-running on a different model. `onStep` reports the stage name. */
+async function callGeminiOnce(systemInstruction, userText, schema, onStep) {
+  onStep(MODEL);
+  return await callGemini(MODEL, systemInstruction, userText, schema);
 }
 
 /* ── SCHEMAS ───────────────────────────────────────── */
@@ -1036,20 +1016,20 @@ window.submitText = async function () {
   showStage('Correcting spelling and grammar…');
   try {
     /* Call 1 — corrections only. */
-    const corr = await callWithFallback(
+    const corr = await callGeminiOnce(
       correctionPrompt(task, level, text),
       'Review the text above and return the corrections.',
       CORRECTIONS_SCHEMA,
-      (model, fellBack) => showStage((fellBack ? 'Fallback model · ' : '') + 'Correcting spelling and grammar…')
+      () => showStage('Correcting spelling and grammar…')
     );
 
     /* Call 2 — grading, on the learner's ORIGINAL text. */
     showStage('Grading and explaining…');
-    const grade = await callWithFallback(
+    const grade = await callGeminiOnce(
       gradingPrompt(task, level, text),
       'Grade the text above.',
       GRADE_SCHEMA,
-      (model, fellBack) => showStage((fellBack ? 'Fallback model · ' : '') + 'Grading and explaining…')
+      () => showStage('Grading and explaining…')
     );
 
     renderResults(corr, grade, level, task);
