@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Nebensatz — German Subordinate Clauses | Deutsch Lernen</title>
+<style>
+:root{
+  --font:"Segoe UI",system-ui,-apple-system,sans-serif;
+  --teal-900:#005A5A; --teal-700:#008282; --teal-400:#50C1C1; --teal-100:#95DFDB;
+  --amber:#E1A01E; --red:#C41E3A; --green:#1D7A4C;
+  --ink:#012D2C; --muted:#008282;
+  --page:#F0FAFA; --card:#FFF; --in:#F0FAFA; --border:#D0ECEB;
+  --shadow:0 1px 4px rgba(1,45,44,.10); --shadow-md:0 4px 14px rgba(1,45,44,.12);
+  --r:8px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font);font-size:16px;color:var(--teal-900);background:var(--page);
+  line-height:1.65;-webkit-font-smoothing:antialiased;padding-bottom:60px}
+
+.navbar{display:flex;align-items:center;gap:12px;height:48px;padding:0 14px;
+  background:var(--teal-900);border-bottom:1px solid rgba(149,223,219,.15);
+  position:sticky;top:0;z-index:100;flex-shrink:0}
+.brand-icon{display:flex;align-items:center;flex-shrink:0}
+.nav-pipe{width:1px;height:16px;background:rgba(149,223,219,.30);flex-shrink:0;margin:0 12px}
+.nav-brand-text{font-size:.95rem;font-weight:600;color:var(--teal-100);text-decoration:none;white-space:nowrap}
+.nav-actions{margin-left:auto;display:flex;align-items:center;gap:8px}
+.icon-btn{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;padding:0;
+  color:var(--teal-100);background:rgba(149,223,219,.12);border:1px solid rgba(149,223,219,.22);
+  border-radius:4px;cursor:pointer;transition:130ms;text-decoration:none;flex-shrink:0}
+.icon-btn:hover{background:rgba(149,223,219,.24);border-color:rgba(149,223,219,.45)}
+.icon-btn svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:2;
+  stroke-linecap:round;stroke-linejoin:round}
+@media (max-width:560px){.nav-brand-text{font-size:.85rem}}
+
+.wrap{max-width:860px;margin:0 auto;padding:16px 16px 0}
+.meta{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:10px}
+.tag{font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;
+  padding:3px 9px;border-radius:11px;background:rgba(0,130,130,.10);color:var(--teal-700)}
+.tag.amber{background:rgba(225,160,30,.18);color:#7A5000}
+
+h1{font-size:1.5rem;line-height:1.3;margin:6px 0 2px}
+h1 .de{display:block;font-size:1.05rem;color:var(--teal-700);font-weight:600;margin-top:2px}
+.sub{color:var(--muted);font-size:.92rem;margin-bottom:20px}
+
+section{margin-bottom:30px}
+h2{font-size:1.05rem;margin-bottom:10px;padding-bottom:6px;border-bottom:2px solid var(--teal-400)}
+h3{font-size:.85rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;
+  color:var(--teal-700);margin:16px 0 8px}
+p{margin-bottom:10px}
+.lead{color:var(--ink)}
+small{color:var(--muted)}
+
+.rulebox{background:var(--in);border:1px solid var(--border);border-left:4px solid var(--teal-400);
+  border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.rulebox strong{color:var(--teal-700)}
+.warnbox{background:rgba(196,30,58,.05);border:1px solid rgba(196,30,58,.25);
+  border-left:4px solid var(--red);border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.warnbox strong{color:var(--red)}
+.tipbox{background:rgba(29,122,76,.06);border:1px solid rgba(29,122,76,.22);
+  border-left:4px solid var(--green);border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.tipbox strong{color:var(--green)}
+
+table{width:100%;border-collapse:collapse;margin:12px 0;font-size:.88rem}
+th,td{text-align:left;padding:7px 9px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--in);font-weight:700;font-size:.76rem;text-transform:uppercase;
+  letter-spacing:.04em;color:var(--teal-700)}
+td.de{color:var(--ink)}
+tr:last-child td{border-bottom:none}
+
+.ex{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:12px 13px;
+  margin-bottom:9px;box-shadow:var(--shadow)}
+.ex .de{font-size:.98rem;color:var(--ink);margin-bottom:4px}
+.ex .de em{color:var(--teal-700);font-style:normal;font-weight:700;background:rgba(80,193,193,.20);
+  padding:0 3px;border-radius:2px}
+.ex .en{font-size:.84rem;color:var(--muted)}
+.ex .why{font-size:.82rem;color:var(--teal-700);margin-top:6px;padding-top:6px;
+  border-top:1px dotted var(--border)}
+.ex .why b{font-weight:700}
+
+/* ── EXERCISES ── */
+.xbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:12px;
+  background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:12px 14px;
+  box-shadow:var(--shadow)}
+.xbar .bar{flex:1;min-width:150px;height:7px;background:rgba(0,130,130,.10);border-radius:4px;overflow:hidden}
+.xbar .bar > span{display:block;height:100%;background:var(--teal-400);width:0;transition:width .2s}
+.xbar .pstat{font-size:.82rem;color:var(--muted);white-space:nowrap}
+.xbar .pstat b{color:var(--teal-700)}
+.btn{font-family:var(--font);font-size:.78rem;font-weight:600;cursor:pointer;
+  padding:6px 12px;border-radius:4px;border:1px solid var(--teal-400);
+  background:rgba(80,193,193,.14);color:var(--teal-700);transition:130ms;white-space:nowrap}
+.btn:hover{background:rgba(80,193,193,.28)}
+.btn.ghost{background:transparent;border-color:var(--border);color:var(--muted)}
+.btn.ghost:hover{border-color:var(--teal-400);color:var(--teal-700)}
+.filters{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.fbtn{font-family:var(--font);font-size:.76rem;font-weight:600;color:var(--teal-700);
+  background:var(--card);border:1px solid var(--border);border-radius:11px;
+  padding:4px 11px;cursor:pointer;transition:130ms;white-space:nowrap}
+.fbtn:hover{border-color:var(--teal-400)}
+.fbtn[aria-pressed="true"]{background:var(--teal-900);color:#fff;border-color:var(--teal-900)}
+
+.q{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:12px 13px;
+  margin-bottom:10px;box-shadow:var(--shadow)}
+.q.revealed{border-color:var(--teal-400)}
+.q.correct{border-color:rgba(29,122,76,.5);background:rgba(29,122,76,.04)}
+.q.wrong{border-color:rgba(196,30,58,.45);background:rgba(196,30,58,.03)}
+.qtop{display:flex;gap:9px;align-items:flex-start;margin-bottom:9px}
+.qnum{flex-shrink:0;width:23px;height:23px;border-radius:50%;background:rgba(0,130,130,.10);
+  color:var(--teal-7);color:var(--teal-700);font-size:.7rem;font-weight:700;display:flex;
+  align-items:center;justify-content:center;margin-top:1px}
+.q.correct .qnum{background:rgba(29,122,76,.16);color:var(--green)}
+.q.wrong .qnum{background:rgba(196,30,58,.14);color:var(--red)}
+.qskill{font-size:.66rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;
+  color:var(--muted);margin-left:auto;white-space:nowrap;padding-top:4px}
+.qtext{font-size:.95rem;color:var(--ink);margin-bottom:9px}
+.opts{display:flex;flex-direction:column;gap:5px}
+.opt{display:flex;gap:9px;align-items:flex-start;font-family:var(--font);font-size:.9rem;
+  text-align:left;color:var(--ink);background:var(--in);border:1px solid var(--border);
+  border-radius:5px;padding:8px 11px;cursor:pointer;transition:130ms;width:100%;line-height:1.45}
+.opt:hover:not(:disabled){border-color:var(--teal-400);background:rgba(80,193,193,.10)}
+.opt:disabled{cursor:default}
+.opt .k{flex-shrink:0;font-weight:700;color:var(--teal-700);font-size:.8rem;width:15px}
+.opt.picked{border-color:var(--teal-400);background:rgba(80,193,193,.16)}
+.opt.picked.wrong{border-color:var(--red);background:rgba(196,30,58,.09)}
+.opt.right{border-color:var(--green);background:rgba(29,122,76,.13)}
+.opt.right .k{color:var(--green)}
+.fb{margin-top:9px;padding-top:9px;border-top:1px dotted var(--border);font-size:.85rem}
+.fb .ans{font-weight:600;color:var(--teal-700);margin-bottom:4px}
+.fb .why{color:var(--muted)}
+.fb .ok{color:var(--green);font-weight:600}
+.fb .no{color:var(--red);font-weight:600}
+
+details.fold{margin-bottom:9px;border:1px solid var(--border);border-radius:6px;background:var(--card)}
+details.fold > summary{padding:9px 12px;font-weight:600;font-size:.88rem;cursor:pointer;
+  color:var(--teal-900);list-style:none}
+details.fold > summary::-webkit-details-marker{display:none}
+details.fold > summary::before{content:"▸";color:var(--teal-700);transition:transform .15s;
+  display:inline-block;margin-right:5px}
+details.fold[open] > summary::before{transform:rotate(90deg)}
+details.fold .foldbody{padding:0 12px 11px;border-top:1px solid var(--border);padding-top:9px;
+  font-size:.9rem}
+
+footer{text-align:center;padding:18px 16px;border-top:1px solid var(--border);
+  font-size:.8rem;color:var(--muted);margin-top:10px}
+footer strong{color:var(--teal-700)}
+.backlink{display:inline-block;margin-bottom:4px;font-size:.85rem;color:var(--teal-700)}
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+  <a class="brand-icon" href="../../" aria-label="Deutsch Lernen home">
+    <svg width="24" height="17" viewBox="0 0 31 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0"  y="0"  width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="0"  width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="0"  width="9" height="6" rx="1.5" fill="#008282"/>
+      <rect x="0"  y="8"  width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="8"  width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="8"  width="9" height="6" rx="1.5" fill="#008282"/>
+      <rect x="0"  y="16" width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="16" width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="16" width="9" height="6" rx="1.5" fill="#E1A01E"/>
+    </svg>
+  </a>
+  <div class="nav-pipe"></div>
+  <a class="nav-brand-text" href="index.html">Grammar</a>
+  <div class="nav-actions">
+    <a class="icon-btn" href="../../" title="Back to all modules" aria-label="Back to all modules">
+      <svg viewBox="0 0 24 24"><path d="M3 12l9-9 9 9"></path><path d="M5 10v10h14V10"></path></svg>
+    </a>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <div class="meta">
+    <span class="tag amber">B1</span>
+    <span class="tag">Nebensatz</span>
+    <span class="tag" id="tagCount">100 exercises</span>
+  </div>
+
+  <h1>Subordinate Clauses in German<span class="de">Der Nebensatz und das Nebensatzsystem</span></h1>
+  <p class="sub">The single most important word-order rule in German: in a Nebensatz the
+     conjugated verb goes <em>last</em>. Everything else builds on that.</p>
+
+  <p><a class="backlink" href="index.html">&larr; All grammar topics</a></p>
+
+  <!-- ══ 1. CONCEPT ══ -->
+  <section>
+    <h2>1 · The concept</h2>
+
+    <p class="lead">German builds every sentence around a verb. In a <strong>main clause
+      (Hauptsatz)</strong> the conjugated verb sits in <strong>position II</strong> — the
+      second slot, whatever fills the first. In a <strong>subordinate clause (Nebensatz)</strong>
+      the conjugated verb goes to the <strong>very end</strong> (Verb-Endstellung).</p>
+
+    <div class="rulebox">
+      <strong>The rule in one line.</strong> Main clause: verb second, in the bracket.
+      Subordinate clause: verb last, outside the bracket.
+    </div>
+
+    <h3>The two brackets</h3>
+    <table>
+      <thead><tr><th>Clause</th><th>Pattern</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">Hauptsatz</td><td class="de">… <em>verb</em> …</td>
+            <td>Heute <b>arbeite</b> ich lange.</td></tr>
+        <tr><td class="de">Nebensatz</td><td class="de">… <em>verb</em></td>
+            <td>…, weil ich heute lange <b>arbeite</b>.</td></tr>
+      </tbody>
+    </table>
+
+    <p>Put the two together and the difference becomes visible. In <em>Weil ich heute lange
+      <strong>arbeite</strong>, habe ich keine Zeit</em> the first clause already shows the rule:
+      subject <em>ich</em>, then the verb at the end. The main clause follows with
+      <em>habe</em> in position II.</p>
+
+    <h3>What makes a Nebensatz?</h3>
+    <p>Any clause introduced by a conjunction, a relative pronoun, or a question word in an
+      indirect question. All of these force verb-final order:</p>
+
+    <table>
+      <thead><tr><th>Type</th><th>Markers</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">Konjunktion</td><td class="de">weil, dass, wenn, obwohl, ob, damit, bevor, nachdem, seit, während, falls, sobald, als, um…zu</td>
+            <td>…, <b>weil</b> es regnet.</td></tr>
+        <tr><td class="de">Relativpronomen</td><td class="de">der, die, das, welcher, dessen, deren, wo, wann, was, wer</td>
+            <td>Der Mann, <b>der</b> dort steht, ist mein Chef.</td></tr>
+        <tr><td class="de">Indirect question</td><td class="de">ob, wann, wo, wie, warum, wer</td>
+            <td>Ich weiß nicht, <b>ob</b> er kommt.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="warnbox">
+      <strong>The trap everyone falls into.</strong> Learners keep the main-clause word order
+      inside a Nebensatz because the sentence "sounds" the same at the start. Compare:
+      <br><br>
+      &nbsp;&nbsp;✗ <em>Ich glaube, dass er kommt morgen.</em> &nbsp;— verb in the middle<br>
+      &nbsp;&nbsp;✓ <em>Ich glaube, dass er morgen kommt.</em> &nbsp;— verb at the end<br><br>
+      The verb must be the <strong>last word of the clause</strong>. Time expressions and
+      objects go <em>before</em> it, never after.
+    </div>
+
+    <h3>The four verb positions</h3>
+    <p>Two positions in the main clause, two in the subordinate clause. Position I is the first
+      slot, position II the second, position III everything between the verb and the end.</p>
+    <table>
+      <thead><tr><th>Position</th><th>Holds</th><th>Example (bold = conjugated verb)</th></tr></thead>
+      <tbody>
+        <tr><td class="de">I</td><td class="de">the subject, or any element moved to the front</td>
+            <td><b>Heute</b> arbeite ich lange. / <b>Gestern</b> habe ich lange gearbeitet.</td></tr>
+        <tr><td class="de">II</td><td class="de">the conjugated verb, always in main clauses</td>
+            <td>Heute <b>arbeite</b> ich lange.</td></tr>
+        <tr><td class="de">III</td><td class="de">everything after the verb: objects, time, manner</td>
+            <td>Ich <b>kaufe</b> ein Brot im Supermarkt.</td></tr>
+        <tr><td class="de">End</td><td class="de">the conjugated verb, always in subordinate clauses</td>
+            <td>…, weil ich heute lange <b>arbeite</b>.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="tipbox">
+      <strong>Two things can go in position I.</strong> If you start with anything other than
+      the subject, the subject moves to position III. <em>Heute arbeite <strong>ich</strong>
+      lange</em> — and in a subordinate clause the same inversion applies right before the
+      final verb: <em>…, weil heute <strong>ich</strong> lange arbeite</em>.
+    </div>
+
+    <h3>The comma rule</h3>
+    <p>A subordinate clause is always set off by a comma: one <strong>before</strong> the
+      conjunction or relative pronoun, one <strong>after</strong> the end of the clause. If the
+      Nebensatz is already last in the sentence, no comma is needed at all.</p>
+    <table>
+      <thead><tr><th>Position</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">Front</td><td><b>Weil</b> es regnet, gehen wir zu Hause.</td></tr>
+        <tr><td class="de">Middle</td><td>Ich glaube, <b>dass</b> er kommt.</td></tr>
+        <tr><td class="de">Last</td><td>Ich glaube, dass er kommt<em>.</em> <small>(no comma)</small></td></tr>
+      </tbody>
+    </table>
+
+    <div class="warnbox">
+      <strong>Never</strong> write a second comma after the clause before a short infinitive
+      phrase: ✗ <em>Wir gehen, weil es regnet, zu Hause.</em> ✓ <em>Wir gehen, weil es regnet,
+      zu Hause.</em>
+    </div>
+
+    <h3>Which conjunction do I need?</h3>
+    <table>
+      <thead><tr><th>Meaning</th><th>Conjunctions</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">cause</td><td class="de">weil, da</td><td>…, <b>weil</b> es regnet.</td></tr>
+        <tr><td class="de">result</td><td class="de">so … dass, sodass</td><td>Es war so kalt, <b>dass</b> wir zu Hause blieben.</td></tr>
+        <tr><td class="de">purpose</td><td class="de">damit, um … zu</td><td>Ich erkläre es, <b>damit</b> alle es verstehen.</td></tr>
+        <tr><td class="de">condition</td><td class="de">wenn, falls</td><td><b>Falls</b> es regnet, nehmen wir ein Taxi.</td></tr>
+        <tr><td class="de">concession</td><td class="de">obwohl, trotzdem</td><td><b>Obwohl</b> er müde war, arbeitete er weiter.</td></tr>
+        <tr><td class="de">time</td><td class="de">wenn, als, bevor, nachdem, seit, bis, während, sobald</td><td><b>Nachdem</b> wir gegessen hatten, gingen wir.</td></tr>
+        <tr><td class="de">statement</td><td class="de">dass</td><td>Ich hoffe, <b>dass</b> es klappt.</td></tr>
+        <tr><td class="de">indirect question</td><td class="de">ob, wann, wo, wie, warum</td><td>Ich frage, <b>ob</b> er kommt.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="tipbox">
+      <strong>weil or denn?</strong> Both mean "because". <em>weil</em> starts a Nebensatz, so
+      the verb goes last and a comma comes first: <em>Weil er krank war, blieb er zu Hause.</em>
+      <em>denn</em> is a main-clause connector, so the word order is unchanged and there is no
+      comma: <em>Ich komme nicht, denn ich habe keine Zeit.</em>
+    </div>
+
+    <div class="tipbox">
+      <strong>wenn or als?</strong> <em>als</em> for one completed past event:
+      <em>Als ich 1990 nach Berlin zog, war ich zwanzig.</em> <em>wenn</em> for repeated
+      situations or for the present/future: <em>Wenn ich ein Kind war, durfte ich lange spielen.</em>
+      In a subordinate clause both put the verb last, so only the meaning distinguishes them.
+    </div>
+
+    <h3>damit or um … zu?</h3>
+    <p>Both express purpose. Use <em>um … zu</em> when the main and subordinate subjects are the
+      same person — then no subject is repeated. Use <em>damit</em> when they differ, which
+      forces its own subject.</p>
+    <table>
+      <thead><tr><th></th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">same subject</td><td>Ich spare Zeit, <b>um</b> früher nach Hause <b>zu</b> kommen.</td></tr>
+        <tr><td class="de">different subject</td><td>Ich erkläre es noch einmal, <b>damit</b> alle es verstehen.</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Relative clauses</h3>
+    <p>A relative clause behaves exactly like any other Nebensatz — verb last — but the relative
+      pronoun must match the case of its role <em>inside</em> its own clause, not the case of the
+      word it replaces.</p>
+    <table>
+      <thead><tr><th>Pronoun</th><th>Stands for</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">der / die / das</td><td class="de">subject, or accusative object</td><td>Das Buch, <b>das</b> ich gekauft habe, ist teuer.</td></tr>
+        <tr><td class="de">den / die / das</td><td class="de">accusative masculine / feminine / neuter</td><td>Der Film, <b>den</b> wir gesehen haben, war gut.</td></tr>
+        <tr><td class="de">deren</td><td class="de">possessive for feminine / plural</td><td>Die Nachbarin, <b>deren</b> Kind in der Schule ist.</td></tr>
+        <tr><td class="de">dessen</td><td class="de">possessive for masculine / neuter</td><td>Der Hund, <b>dessen</b> Besitzer krank ist, bleibt allein.</td></tr>
+        <tr><td class="de">wo</td><td class="de">in + place</td><td>Das Café, <b>wo</b> wir uns kennengelernt haben.</td></tr>
+        <tr><td class="de">wohin</td><td class="de">in + direction</td><td>Die Straße, <b>wohin</b> wir gegangen sind.</td></tr>
+        <tr><td class="de">wann</td><td class="de">an einem + time</td><td>Der Tag, <b>wann</b> wir umgezogen sind.</td></tr>
+        <tr><td class="de">was</td><td class="de">things, or a whole clause</td><td>Ich weiß, <b>was</b> ich sagen soll.</td></tr>
+        <tr><td class="de">wer</td><td class="de">people, in the subject slot</td><td><b>Wer</b> das nicht weiß, muss raten.</td></tr>
+        <tr><td class="de">+ preposition</td><td class="de">any noun, case set by the preposition</td><td>Der Film, <b>über den</b> wir gesprochen haben.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="warnbox">
+      <strong>Common error:</strong> using <em>wo</em> for a person or a prepositional
+      relationship. ✗ <em>Die Kollegin, wo ich arbeite.</em> ✓ <em>Die Kollegin, bei der ich
+      arbeite.</em> — and the preposition must come <em>before</em> the pronoun.
+    </div>
+
+    <h3>Verb clusters go last as a block</h3>
+    <p>In a Nebensatz the verb is last, but a whole cluster moves with it. Position II of that
+      cluster is the <em>conjugated</em> verb; the modal, auxiliary and infinitive follow it.</p>
+    <table>
+      <thead><tr><th>Type</th><th>Main clause</th><th>Subordinate clause</th></tr></thead>
+      <tbody>
+        <tr><td class="de">Perfekt</td><td>Ich <b>habe</b> den Brief geschrieben.</td><td>…, dass ich den Brief geschrieben <b>habe</b>.</td></tr>
+        <tr><td class="de">Modal</td><td>Ich <b>muss</b> jetzt gehen.</td><td>…, dass ich jetzt gehen <b>muss</b>.</td></tr>
+        <tr><td class="de">Modal Perfekt</td><td>Ich <b>habe</b> arbeiten müssen.</td><td>…, dass ich arbeiten <b>haben</b> muss… <small>(rare)</small></td></tr>
+        <tr><td class="de">Passive</td><td>Der Brief <b>wird</b> geschrieben.</td><td>…, dass der Brief geschrieben <b>wird</b>.</td></tr>
+        <tr><td class="de">Modal passive</td><td>Der Brief <b>muss</b> geschrieben werden.</td><td>…, dass der Brief geschrieben werden <b>muss</b>.</td></tr>
+        <tr><td class="de">Futur I</td><td>Ich <b>werde</b> dich anrufen.</td><td>…, dass ich dich anrufen <b>werde</b>.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="tipbox">
+      <strong>Separable verbs rejoin in the Nebensatz.</strong> In the main clause the prefix
+      detaches: <em>Die Lieferung kommt <strong>morgen</strong> an.</em> In a subordinate clause
+      it snaps back: <em>Ich hoffe, dass die Lieferung <strong>morgen ankommt</strong>.</em> The
+      rule is: the prefix goes in front of the verb only in position II of a main clause.
+    </div>
+  </section>
+
+  <!-- ══ 2. EXAMPLES ══ -->
+  <section>
+    <h2>2 · 20 worked examples</h2>
+    <p><small>Each example marks the conjugated verb in bold and explains why it sits where it does.</small></p>
+    <div id="examples"></div>
+  </section>
+
+  <!-- ══ 3. EXERCISES ══ -->
+  <section>
+    <h2>3 · 100 exercises with self-check</h2>
+    <p>Choose an option, then use <strong>Check</strong> to see whether it was right. The
+       explanation appears either way — read it even when you were correct.</p>
+
+    <div class="xbar">
+      <div class="bar"><span id="barFill"></span></div>
+      <span class="pstat" id="pstat">—</span>
+      <button class="btn" id="checkAll">Check all</button>
+      <button class="btn ghost" id="resetAll">Reset</button>
+    </div>
+
+    <div class="filters" id="filters"></div>
+    <div id="quiz"></div>
+  </section>
+
+</div>
+
+<footer><strong>Deutsch Lernen</strong> · Roman Zajic</footer>
+
+<script>
+(function(){
+  "use strict";
+
+  var EXAMPLES = [
+    ["Heute <em>arbeite</em> ich bis acht. — Today I work until eight.", "A main clause starting with a time expression: <em>Heute</em> takes position I, so the subject <em>ich</em> is pushed into position III after the verb."],
+    ["<em>Weil</em> es heute regnet, <em>fahren</em> wir mit dem Bus. — Because it is raining today, we take the bus.", "A fronted <em>weil</em>-clause keeps verb-final order (<em>regnet</em>), and the main clause then has its verb in position II."],
+    ["Ich hoffe, <em>dass</em> du bald <em>kommst</em>. — I hope you come soon.", "The classic <em>dass</em>-clause: subject <em>du</em> then the conjugated verb at the very end."],
+    ["Ich weiß nicht, <em>ob</em> er <em>kommt</em>. — I don't know whether he is coming.", "An <em>ob</em>-indirect question is a subordinate clause, so <em>kommt</em> goes last, not <em>ob kommt er</em>."],
+    ["Es ist wichtig, <em>dass</em> man pünktlich <em>ist</em>. — It is important to be on time.", "After <em>es ist wichtig</em>, the <em>dass</em>-clause is still verb-final: <em>ist</em> last."],
+    ["Nachdem wir gegessen <em>hatten</em>, gingen wir spazieren. — After we had eaten, we went for a walk.", "A <em>nachdem</em>-clause in the Plusquamperfekt: <em>hatten</em> is the last word of the clause."],
+    ["Bevor ich zur Arbeit <em>gehe</em>, trinke ich einen Kaffee. — Before I go to work, I drink a coffee.", "<em>gehen</em> takes <em>gehe</em> in the first person singular — the e to i change applies inside a Nebensatz too."],
+    ["Solange man gesund <em>ist</em>, sollte man sich bewegen. — As long as you are healthy, you should exercise.", "<em>man</em> takes the singular verb <em>ist</em>, which sits at the end of the <em>solange</em>-clause."],
+    ["Er rief mich an, <em>damit</em> ich ihm <em>helfe</em>. — He called me so that I would help him.", "<em>helfen</em> with the dative gives <em>helfe</em> in the first person, and it ends the <em>damit</em>-clause."],
+    ["Ich spare Zeit, um früher nach Hause <em>zu kommen</em>. — I save time in order to get home earlier.", "An <em>um … zu</em> clause has no subject of its own, and the infinitive block <em>zu kommen</em> is last."],
+    ["Es war so kalt, <em>dass</em> wir alle zu Hause <em>blieben</em>. — It was so cold that we all stayed home.", "A result clause with <em>so … dass</em>: <em>blieben</em> is the final word."],
+    ["Der Mann, <em>der</em> neben mir <em>wohnt</em>, ist sehr freundlich. — The man who lives next to me is very friendly.", "A relative clause with <em>der</em>: the verb <em>wohnt</em> goes last, and the whole clause is set off by two commas."],
+    ["Die Frau, <em>deren</em> Sohn in der Schweiz <em>studiert</em>, ist meine Nachbarin. — The woman whose son studies in Switzerland is my neighbour.", "<em>deren</em> replaces a possessive; the clause's verb <em>studiert</em> still stands last."],
+    ["Das ist die Straße, <em>wohin</em> wir gegangen <em>sind</em>. — That is the street we went down to.", "<em>wohin</em> marks direction; the auxiliary <em>sind</em> closes the clause."],
+    ["Die Wohnung, <em>die</em> wir gemietet <em>haben</em>, liegt im dritten Stock. — The flat we rented is on the third floor.", "The Perfekt inside the relative clause keeps <em>haben</em> last, after the participle."],
+    ["Er hat gefragt, <em>ob</em> ich ihm helfen <em>würde</em>. — He asked whether I would help him.", "With a modal, the whole <em>würde</em> + infinitive cluster moves to the end of the <em>ob</em>-clause."],
+    ["<em>Falls</em> es regnet, nehmen wir ein Taxi. — In case it rains, we'll take a taxi.", "<em>falls</em> is a formal conditional; the clause takes the verb last, and the main clause follows with <em>nehmen</em> in position II."],
+    ["<em>Obwohl</em> er müde war, <em>arbeitete</em> er weiter. — Although he was tired, he kept working.", "Concession with <em>obwohl</em>: the clause is verb-final (<em>war</em>), the main clause keeps normal order."],
+    ["Die Rechnung, <em>die</em> wir bezahlen <em>müssen</em>, ist teuer. — The invoice we have to pay is expensive.", "A modal in the last position of a relative clause: <em>müssen</em> follows the bare infinitive <em>bezahlen</em>."],
+    ["<em>Seit</em> ich hier wohne, <em>kenne</em> ich viele Leute. — Since I have lived here, I know many people.", "<em>seit</em> with the present marks a situation that began in the past and still holds; verb last in the clause, position II in the main clause."]
+  ];
+
+  var DATA_URL = "../../data/grammar_exercises_nebensatz.json";
+  var STORE = "nebensatz_progress_v1";
+  var LETTERS = ["A","B","C","D"];
+  var state = {checked:{}, picks:{}};
+  var filter = "ALL";
+
+  function esc(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
+  function load(){ try{ var v=JSON.parse(localStorage.getItem(STORE)); if(v&&typeof v==="object"){state.checked=v.checked||{};state.picks=v.picks||{};} }catch(e){} }
+  function save(){ try{ localStorage.setItem(STORE, JSON.stringify(state)); }catch(e){} }
+
+  // ---- examples ----
+  document.getElementById("examples").innerHTML = EXAMPLES.map(function(x){
+    return '<div class="ex"><div class="de">'+x[0]+'</div><div class="en">'+x[1]+'</div>'+
+           '<div class="why"><b>Why:</b> '+x[2]+'</div></div>';
+  }).join("");
+
+  function skills(ex){
+    var m={}, out=[];
+    ex.forEach(function(e){ if(!m[e.skill]){m[e.skill]=1;out.push(e.skill);} });
+    return out;
+  }
+
+  function renderFilters(ex){
+    var el=document.getElementById("filters");
+    var sk=skills(ex);
+    var html='<button class="fbtn" data-f="ALL" aria-pressed="'+(filter==="ALL")+'">All '+ex.length+'</button>';
+    sk.forEach(function(s){
+      var n=ex.filter(function(e){return e.skill===s;}).length;
+      html+='<button class="fbtn" data-f="'+esc(s)+'" aria-pressed="'+(filter===s)+'">'+esc(s)+' '+n+'</button>';
+    });
+    el.innerHTML=html;
+    Array.prototype.forEach.call(el.querySelectorAll(".fbtn"),function(b){
+      b.addEventListener("click",function(){ filter=b.getAttribute("data-f"); renderFilters(ex); renderQuiz(ex); });
+    });
+  }
+
+  function stats(ex){
+    var n=ex.length, done=0, right=0;
+    ex.forEach(function(e){ if(state.checked[e.id]){ done++; if(state.picks[e.id]===e.answer) right++; } });
+    return {n:n,done:done,right:right};
+  }
+
+  function renderStat(ex){
+    var s=stats(ex);
+    document.getElementById("barFill").style.width = s.n ? Math.round(s.done/s.n*100)+"%" : "0%";
+    var txt = s.done===0 ? "Not started · "+s.n+" exercises"
+      : s.done+" of "+s.n+" checked · <b>"+s.right+"</b> correct ("+Math.round(s.right/s.done*100)+"%)";
+    if(filter!=="ALL") txt += " · showing "+s.n;
+    document.getElementById("pstat").innerHTML = txt;
+  }
+
+  function renderQuiz(ex){
+    var list = filter==="ALL" ? ex : ex.filter(function(e){return e.skill===filter;});
+    var el=document.getElementById("quiz");
+    el.innerHTML = list.map(function(e){
+      var isDone=!!state.checked[e.id];
+      var pick=state.picks[e.id];
+      var cls = isDone ? (pick===e.answer ? " correct" : " wrong") : "";
+      var opts = e.options.map(function(o,i){
+        var oc="opt";
+        if(isDone){
+          if(i===e.answer) oc+=" right";
+          else if(i===pick) oc+=" picked wrong";
+          else if(i===pick) oc+=" picked";
+        } else if(i===pick) oc+=" picked";
+        return '<button class="'+oc+'" data-q="'+e.id+'" data-i="'+i+'"'+(isDone?" disabled":"")+'>'+
+               '<span class="k">'+LETTERS[i]+'</span><span>'+o+'</span></button>';
+      }).join("");
+      var fb="";
+      if(isDone){
+        var ok = pick===e.answer;
+        fb='<div class="fb"><div class="ans">'+(ok
+              ? '<span class="ok">✓ Correct.</span>'
+              : '<span class="no">✗ Not quite.</span> The answer is '+LETTERS[e.answer]+' — '+esc(e.options[e.answer]))+'</div>'+
+           '<div class="why">'+esc(e.explanation)+'</div></div>';
+      } else if(pick!==undefined){
+        fb='<div class="fb"><div class="ans">Checking… press <strong>Check</strong>.</div></div>';
+      }
+      return '<article class="q'+cls+'" id="q'+e.id+'">'+
+        '<div class="qtop"><span class="qnum">'+e.id+'</span>'+
+        '<span class="qtext">'+e.question+'</span>'+
+        '<span class="qskill">'+esc(e.skill)+'</span></div>'+
+        '<div class="opts">'+opts+'</div>'+fb+'</article>';
+    }).join("");
+
+    Array.prototype.forEach.call(el.querySelectorAll(".opt"),function(b){
+      b.addEventListener("click",function(){
+        var q=+b.getAttribute("data-q"), i=+b.getAttribute("data-i");
+        state.picks[q]=i; save(); renderQuiz(ex);
+      });
+    });
+    renderStat(ex);
+  }
+
+  function checkAll(ex){
+    ex.forEach(function(e){ if(state.picks[e.id]!==undefined) state.checked[e.id]=true; });
+    save(); renderQuiz(ex);
+  }
+  function resetAll(ex){
+    ex.forEach(function(e){ delete state.checked[e.id]; delete state.picks[e.id]; });
+    save(); renderQuiz(ex);
+  }
+
+  load();
+
+  fetch(DATA_URL+"?cb="+Date.now())
+    .then(function(r){ if(!r.ok) throw new Error("HTTP "+r.status); return r.json(); })
+    .then(function(d){
+      var ex=d.exercises;
+      document.getElementById("tagCount").textContent = ex.length+" exercises";
+      renderFilters(ex);
+      renderQuiz(ex);
+      document.getElementById("checkAll").addEventListener("click",function(){checkAll(ex);});
+      document.getElementById("resetAll").addEventListener("click",function(){resetAll(ex);});
+    })
+    .catch(function(e){
+      document.getElementById("quiz").innerHTML =
+        '<div class="q"><b>Could not load the exercises.</b><br>'+esc(e.message)+'</div>';
+    });
+})();
+</script>
+</body>
+</html>
