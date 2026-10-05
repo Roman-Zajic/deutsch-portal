@@ -339,18 +339,19 @@
     ]
   },
   {
-    "id": "1791177553806",
-    "word": "Dude",
-    "translation": "dude, guy",
-    "partOfSpeech": "Noun",
-    "article": "der",
-    "level": "B1",
-    "plural": "die Dudes",
-    "notes": "Casual English loanword, common among younger speakers. The standard German words are der Typ, der Kerl or der Mann. Not for formal contexts.",
+    "id": "1791177720496",
+    "word": "dulden",
+    "translation": "to suffer, to endure",
+    "partOfSpeech": "Verb",
+    "article": "",
+    "level": "B2",
+    "plural": "",
+    "notes": "Strong verb, no prefix. Past: duldete. Perfekt: hat geduldet. Takes an abstract object (Schmerzen, Unrecht, eine lange Zeit) - usually with unter: unter Schmerzen leiden.",
     "examples": [
-      "Der Dude am Nebentisch hat die Rechnung bezahlt. — The guy at the next table paid the bill.",
-      "Ich habe mit einem Dude aus England gesprochen. — I spoke to a guy from England.",
-      "Dudes, das Festival war krass! — Guys, the festival was awesome!"
+      "Sie hat die Schmerzen jahrelang geduldet. — She endured the pain for years.",
+      "Er musste unter dem Druck seiner Kollegen dulden. — He had to endure the pressure from his colleagues.",
+      "Man kann diese Situation nicht lange dulden. — You cannot put up with this situation for long.",
+      "Sie hat ihr Unrecht geduldet, ohne zu protestieren. — She tolerated the injustice without protesting."
     ]
   }
 ]
