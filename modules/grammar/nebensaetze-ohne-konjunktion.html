@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Subordinate clauses without a conjunction — Nebensätze ohne Konjunktion | Deutsch Lernen</title>
+<style>
+:root{
+  --font:"Segoe UI",system-ui,-apple-system,sans-serif;
+  --teal-900:#005A5A; --teal-700:#008282; --teal-400:#50C1C1; --teal-100:#95DFDB;
+  --amber:#E1A01E; --red:#C41E3A; --green:#1D7A4C;
+  --ink:#012D2C; --muted:#008282;
+  --page:#F0FAFA; --card:#FFF; --in:#F0FAFA; --border:#D0ECEB;
+  --shadow:0 1px 4px rgba(1,45,44,.10); --shadow-md:0 4px 14px rgba(1,45,44,.12);
+  --r:8px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font);font-size:16px;color:var(--teal-900);background:var(--page);
+  line-height:1.65;-webkit-font-smoothing:antialiased;
+  display:flex;flex-direction:column;min-height:100vh}
+
+.navbar{display:flex;align-items:center;gap:12px;height:48px;padding:0 14px;
+  background:var(--teal-900);border-bottom:1px solid rgba(149,223,219,.15);
+  position:sticky;top:0;z-index:100;flex-shrink:0}
+.brand-icon{display:flex;align-items:center;flex-shrink:0}
+.nav-pipe{width:1px;height:16px;background:rgba(149,223,219,.30);flex-shrink:0;margin:0 12px}
+.nav-brand-text{font-size:.95rem;font-weight:600;color:var(--teal-100);text-decoration:none;white-space:nowrap}
+.nav-actions{margin-left:auto;display:flex;align-items:center;gap:8px}
+.icon-btn{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;padding:0;
+  color:var(--teal-100);background:rgba(149,223,219,.12);border:1px solid rgba(149,223,219,.22);
+  border-radius:4px;cursor:pointer;transition:130ms;text-decoration:none;flex-shrink:0}
+.icon-btn:hover{background:rgba(149,223,219,.24);border-color:rgba(149,223,219,.45)}
+.btn-nav{display:inline-flex;align-items:center;justify-content:center;height:32px;padding:0 12px;
+  font-size:.78rem;font-weight:600;font-family:var(--font);color:var(--teal-100);text-decoration:none;
+  background:rgba(149,223,219,.12);border:1px solid rgba(149,223,219,.22);border-radius:4px;
+  transition:130ms;white-space:nowrap;flex-shrink:0}
+.btn-nav:hover{background:rgba(149,223,219,.24);border-color:rgba(149,223,219,.45)}
+@media (max-width:400px){.btn-nav{padding:0 9px;font-size:.74px;font-size:.74rem}}
+.icon-btn svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:2;
+  stroke-linecap:round;stroke-linejoin:round}
+@media (max-width:560px){.nav-brand-text{font-size:.85rem}}
+
+.wrap{max-width:860px;width:100%;margin:0 auto;padding:20px 16px 0;flex:1 0 auto}
+
+h1{font-size:1.5rem;line-height:1.3;margin:0 0 4px}
+h1 .de{display:block;font-size:1rem;color:var(--teal-700);font-weight:600;margin-top:2px}
+
+section{margin-bottom:30px}
+h2{font-size:1.05rem;margin-bottom:10px;padding-bottom:6px;border-bottom:2px solid var(--teal-400)}
+h3{font-size:.85rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;
+  color:var(--teal-700);margin:16px 0 8px}
+p{margin-bottom:10px}
+.lead{color:var(--ink)}
+small{color:var(--muted)}
+
+.rulebox{background:var(--in);border:1px solid var(--border);border-left:4px solid var(--teal-400);
+  border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.rulebox strong{color:var(--teal-700)}
+.warnbox{background:rgba(196,30,58,.05);border:1px solid rgba(196,30,58,.25);
+  border-left:4px solid var(--red);border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.warnbox strong{color:var(--red)}
+.tipbox{background:rgba(29,122,76,.06);border:1px solid rgba(29,122,76,.22);
+  border-left:4px solid var(--green);border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.tipbox strong{color:var(--green)}
+
+table{width:100%;border-collapse:collapse;margin:12px 0;font-size:.88rem;
+  table-layout:fixed}
+th,td{overflow-wrap:anywhere;word-break:normal;hyphens:auto}
+th,td{text-align:left;padding:7px 9px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--in);font-weight:700;font-size:.76rem;text-transform:uppercase;
+  letter-spacing:.04em;color:var(--teal-700)}
+td.de{color:var(--ink)}
+tr:last-child td{border-bottom:none}
+
+.mic{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;
+  padding:0;flex-shrink:0;vertical-align:middle;border-radius:50%;cursor:pointer;
+  color:var(--teal-700);background:rgba(80,193,193,.16);border:1px solid rgba(80,193,193,.45);
+  transition:130ms}
+.mic:hover{background:rgba(80,193,193,.34)}
+.mic:focus-visible{outline:2px solid var(--teal-700);outline-offset:2px}
+.mic svg{width:13px;height:13px;fill:none;stroke:currentColor;stroke-width:2;
+  stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.mic[aria-pressed="true"]{background:var(--teal-700);color:#fff;border-color:var(--teal-700)}
+.mic[aria-pressed="true"] .pulse{animation:pulse 1s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+.mic[disabled]{opacity:.45;cursor:not-allowed}
+.microw{display:flex;align-items:flex-start;gap:8px}
+.microw > .mtext{flex:1;min-width:0}
+.ex{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:12px 13px;
+  margin-bottom:9px;box-shadow:var(--shadow)}
+.ex .de{font-size:.98rem;color:var(--ink);margin-bottom:4px}
+.ex .de em{color:var(--teal-700);font-style:normal;font-weight:700;background:rgba(80,193,193,.20);
+  padding:0 3px;border-radius:2px}
+.ex .en{font-size:.84rem;color:var(--muted)}
+.ex .why{font-size:.82rem;color:var(--teal-700);margin-top:6px;padding-top:6px;
+  border-top:1px dotted var(--border)}
+.ex .why b{font-weight:700}
+
+/* ── EXERCISES ── */
+.btn{font-family:var(--font);font-size:.78rem;font-weight:600;cursor:pointer;
+  padding:6px 12px;border-radius:4px;border:1px solid var(--teal-400);
+  background:rgba(80,193,193,.14);color:var(--teal-700);transition:130ms;white-space:nowrap}
+.btn:hover{background:rgba(80,193,193,.28)}
+.btn.ghost{background:transparent;border-color:var(--border);color:var(--muted)}
+.btn.ghost:hover{border-color:var(--teal-400);color:var(--teal-700)}
+.noVoice{display:none;align-items:flex-start;gap:8px;margin-bottom:12px;padding:9px 12px;
+  background:rgba(225,160,30,.12);border:1px solid rgba(225,160,30,.4);border-radius:var(--r);
+  font-size:.83rem;color:#7A5000}
+.noVoice b{color:#7A5000}
+
+.q{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:12px 13px;
+  margin-bottom:10px;box-shadow:var(--shadow)}
+.q.revealed{border-color:var(--teal-400)}
+.q.correct{border-color:rgba(29,122,76,.5);background:rgba(29,122,76,.04)}
+.q.wrong{border-color:rgba(196,30,58,.45);background:rgba(196,30,58,.03)}
+.qtop{display:flex;gap:9px;align-items:flex-start;margin-bottom:9px}
+.qnum{flex-shrink:0;width:23px;height:23px;border-radius:50%;background:rgba(0,130,130,.10);
+  color:var(--teal-7);color:var(--teal-700);font-size:.7rem;font-weight:700;display:flex;
+  align-items:center;justify-content:center;margin-top:1px}
+.q.correct .qnum{background:rgba(29,122,76,.16);color:var(--green)}
+.q.wrong .qnum{background:rgba(196,30,58,.14);color:var(--red)}
+.inputrow{display:flex;align-items:stretch;gap:6px;position:relative}
+.ainput{flex:1;min-width:0;font-family:var(--font);font-size:.92rem;color:var(--ink);
+  background:var(--in);border:1px solid var(--border);border-radius:5px;padding:8px 32px 8px 11px;transition:130ms}
+.ainput:focus{outline:none;border-color:var(--teal-400);background:#fff;box-shadow:0 0 0 3px rgba(80,193,193,.16)}
+/* small keyboard icon, vertically centred at the right edge of the field */
+.keybtn{flex-shrink:0;width:28px;align-self:stretch;display:inline-flex;align-items:center;
+  justify-content:center;padding:0;cursor:pointer;border-radius:5px;
+  color:var(--teal-700);background:rgba(80,193,193,.16);border:1px solid rgba(80,193,193,.45);
+  transition:130ms}
+.keybtn:hover{background:rgba(80,193,193,.32)}
+.keybtn:focus-visible{outline:2px solid var(--teal-700);outline-offset:2px}
+.keybtn svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:1.7;
+  stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.keybtn[aria-expanded="true"]{background:var(--teal-700);color:#fff;border-color:var(--teal-700)}
+/* letter panel lives inside the card so no ancestor can clip it */
+.pad{display:none;flex-wrap:wrap;gap:5px;margin-top:7px;padding:8px;
+  background:var(--in);border:1px solid var(--border);border-radius:5px}
+.pad.open{display:flex}
+.padkey{font-family:var(--font);font-size:.92rem;font-weight:600;color:var(--teal-900);
+  background:var(--card);border:1px solid var(--border);border-radius:4px;
+  min-width:34px;height:32px;cursor:pointer;transition:130ms}
+.padkey:hover{background:var(--teal-400);border-color:var(--teal-400)}
+.padkey:focus-visible{outline:2px solid var(--teal-700);outline-offset:1px}
+.btn.rev{margin-top:8px}
+.btn.rev.on{background:rgba(0,90,90,.10);border-color:var(--teal-700)}
+.ansrow{margin:6px 0;padding:7px 9px;background:rgba(80,193,193,.09);border-radius:5px}
+.ansrow .mtext{font-size:.93rem}
+.qtext{font-size:.95rem;color:var(--ink);margin-bottom:9px;flex:1;min-width:0}
+
+.fb{margin-top:9px;padding-top:9px;border-top:1px dotted var(--border);font-size:.85rem}
+.fb .ans{font-weight:600;color:var(--teal-700);margin-bottom:4px}
+.fb .why{color:var(--muted)}
+
+details.fold{margin-bottom:9px;border:1px solid var(--border);border-radius:6px;background:var(--card)}
+details.fold > summary{padding:9px 12px;font-weight:600;font-size:.88rem;cursor:pointer;
+  color:var(--teal-900);list-style:none}
+details.fold > summary::-webkit-details-marker{display:none}
+details.fold > summary::before{content:"▸";color:var(--teal-700);transition:transform .15s;
+  display:inline-block;margin-right:5px}
+details.fold[open] > summary::before{transform:rotate(90deg)}
+details.fold .foldbody{padding:0 12px 11px;border-top:1px solid var(--border);padding-top:9px;
+  font-size:.9rem}
+
+.footer{position:sticky;bottom:0;z-index:50;width:100%;max-width:var(--wrapw,860px);
+  margin-inline:auto;border-top:1px solid var(--border);padding:10px 16px;background:var(--page);
+  display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:.78rem;color:var(--muted)}
+.footer strong{color:var(--teal-700)}
+.footer-dot{margin:0 10px;color:var(--border)}
+
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+  <a class="brand-icon" href="../../" aria-label="Deutsch Lernen home">
+    <svg width="24" height="17" viewBox="0 0 31 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0"  y="0"  width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="0"  width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="0"  width="9" height="6" rx="1.5" fill="#008282"/>
+      <rect x="0"  y="8"  width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="8"  width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="8"  width="9" height="6" rx="1.5" fill="#008282"/>
+      <rect x="0"  y="16" width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="16" width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="16" width="9" height="6" rx="1.5" fill="#E1A01E"/>
+    </svg>
+  </a>
+  <div class="nav-pipe"></div>
+  <a class="nav-brand-text" href="index.html">Grammar</a>
+  <div class="nav-actions">
+    <a class="btn-nav" href="index.html" title="All grammar topics">All topics</a>
+    <a class="icon-btn" href="../../" title="Back to all modules" aria-label="Back to all modules">
+      <svg viewBox="0 0 24 24"><path d="M3 12l9-9 9 9"></path><path d="M5 10v10h14V10"></path></svg>
+    </a>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <h1>Subordinate clauses without a conjunction<span class="de">Nebensätze ohne Konjunktion</span></h1>
+  
+  <!-- ══ 1. CONCEPT ══ -->
+  <section>
+    <h2>1 · The concept</h2>
+
+    <p class="lead">Most subordinate clauses in German are introduced by a conjunction — <em>dass</em>,
+      <em>ob</em>, <em>weil</em>, <em>wenn</em>, <em>obwohl</em>. But a large group of clauses has
+      <strong>no conjunction at all</strong>. What marks them as subordinate clauses is the
+      <strong>verb at the end</strong>, or, where there is no finite verb, a fixed functional
+      element such as <em>zu</em> or <em>es</em>.</p>
+
+    <div class="rulebox">
+      <strong>The rule in one line.</strong> No conjunction, but still a subordinate clause —
+      and the price is that the finite verb goes to the very end, behind the subject, the
+      objects and every prepositional phrase.
+    </div>
+
+    <h3>The five mechanisms</h3>
+    <table>
+      <thead><tr><th>Type</th><th>Marker</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">clause after a verb of opinion</td><td class="de">dass</td>
+            <td><b>Ich glaube</b>, <b>dass</b> er <b>kommt</b>.</td></tr>
+        <tr><td class="de">indirect question</td><td class="de">ob</td>
+            <td><b>Ich weiß nicht</b>, <b>ob</b> er <b>kommt</b>.</td></tr>
+        <tr><td class="de">infinitive clause</td><td class="de">zu + Infinitiv</td>
+            <td><b>Er verspricht</b>, <b>mir zu helfen</b>.</td></tr>
+        <tr><td class="de">purpose / omission clause</td><td class="de">um … zu, ohne … zu, (an)statt … zu</td>
+            <td><b>Ich gehe</b>, <b>um dich zu sehen</b>.</td></tr>
+        <tr><td class="de">impersonal clause</td><td class="de">es</td>
+            <td><b>Es ist schade</b>, dass er <b>absagt</b>.</td></tr>
+      </tbody>
+    </table>
+
+    <h3>dass-clauses after verbs of opinion and thinking</h3>
+    <p>A whole class of verbs takes only a <em>dass</em>-clause as its complement. <em>Dass</em>
+      behaves exactly like a subject: it stands in position I of the clause, and the conjugated
+      verb is pushed to the end.</p>
+    <table>
+      <thead><tr><th>Group</th><th>Verbs</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">belief</td><td class="de">glauben, denken, vermuten, annehmen, meinen</td>
+            <td>Ich <b>glaube</b>, dass du <b>recht hast</b>.</td></tr>
+        <tr><td class="de">certainty</td><td class="de">sicher sein, überzeugt sein, feststehen, klar sein</td>
+            <td>Es ist <b>klar</b>, dass er <b>kommt</b>.</td></tr>
+        <tr><td class="de">saying</td><td class="de">sagen, behaupten, erklären, mitteilen</td>
+            <td>Er <b>sagte</b>, dass er <b>bleibt</b>.</td></tr>
+        <tr><td class="de">worry and hope</td><td class="de">befürchten, hoffen, fürchten, erwarten</td>
+            <td>Ich <b>befürchte</b>, dass wir <b>zu spät</b> <b>sind</b>.</td></tr>
+        <tr><td class="de">emotion</td><td class="de">freuen, ärgern, wundern, sich freuen</td>
+            <td>Es <b>ärgert</b> mich, dass er <b>nicht kam</b>.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="tipbox">
+      <strong>Compare the two orders.</strong> The same meaning is possible as a main clause with
+      <em>als</em>: <em>Ich glaube, er kommt.</em> The clause structure is identical —
+      <em>dass</em> takes the place of <em>als</em>.
+    </div>
+
+    <h3>Anatomy of a dass-clause</h3>
+    <p>Inside the clause, the order is fixed: <em>dass</em> or <em>ob</em>, then subject, then
+      objects and adverbials, then the verb. Nothing may be moved to the front except what the
+      meaning requires.</p>
+    <table>
+      <thead><tr><th>Slot</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">1 — conjunction</td><td>Ich glaube, <b>dass</b> der neue Kollege</td></tr>
+        <tr><td class="de">2 — subject</td><td>der neue Kollege</td></tr>
+        <tr><td class="de">3 — object</td><td>aus Berlin kommt,</td></tr>
+        <tr><td class="de">end — finite verb</td><td><b>heute</b> Hilfe <b>braucht</b>.</td></tr>
+      </tbody>
+    </table>
+
+    <table>
+      <thead><tr><th>Position of the clause</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">before the main verb</td><td><b>Dass</b> er das <b>weiß</b>, ist <b>wichtig</b>.</td></tr>
+        <tr><td class="de">after the main verb</td><td>Ich <b>glaube</b>, <b>dass</b> er das <b>weiß</b>.</td></tr>
+        <tr><td class="de">separated from the main clause</td><td><b>Dass</b> er das <b>weiß</b>, das <b>wusste</b> ich nicht.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="warnbox">
+      <strong>The main clause never changes.</strong> When the subordinate clause comes first,
+      the main clause still begins with position I: <em>Dass er kommt, ist gut</em> — but
+      <em>Dass er kommt, gut ist</em> is only possible with a heavy emphasis, and
+      <em>…, das ist gut</em> is the normal written form.
+    </div>
+
+    <h3>Indirect questions with ob</h3>
+    <p>Yes-or-no questions lose their question word in the indirect form and take <em>ob</em>
+      instead. <em>Ob</em> occupies position I of the clause and the verb goes last — the same
+      order as with <em>dass</em>.</p>
+    <table>
+      <thead><tr><th>Direct</th><th>Indirect</th></tr></thead>
+      <tbody>
+        <tr><td class="de">Kommt er?</td><td>Ich weiß nicht, <b>ob</b> er <b>kommt</b>.</td></tr>
+        <tr><td class="de">Haben Sie Zeit?</td><td>Ich frage, <b>ob</b> Sie <b>Zeit haben</b>.</td></tr>
+        <tr><td class="de">Warum kommst du?</td><td>Ich weiß nicht, <b>warum</b> du <b>kommst</b>.</td></tr>
+        <tr><td class="de">Wann beginnt die Sitzung?</td><td>Kannst du mir sagen, <b>wann</b> die Sitzung <b>beginnt</b>?</td></tr>
+      </tbody>
+    </table>
+
+    <table>
+      <thead><tr><th>Opening element</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">verb of asking or knowing</td><td>Ich <b>frage</b> mich, <b>ob</b> das <b>stimmt</b>.</td></tr>
+        <tr><td class="de">impersonal expression</td><td>Es ist <b>fraglich</b>, <b>ob</b> das <b>gelingt</b>.</td></tr>
+        <tr><td class="de">adjective or noun</td><td>Die <b>Frage</b>, <b>ob</b> er <b>zahlt</b>, bleibt offen.</td></tr>
+        <tr><td class="de">preposition</td><td>Es <b>hing</b> davon <b>ab</b>, <b>ob</b> er <b>zustimmte</b>.</td></tr>
+      </tbody>
+    </table>
+
+    <h3>zu + infinitive instead of a dass-clause</h3>
+    <p>A second group of verbs cannot take a subordinate clause at all. They are completed by a
+      <em>zu</em>-infinitive, which stands in the same slot as a <em>dass</em>-clause. This is not
+      a different meaning: only a smaller choice of verbs and a slightly less formal register.</p>
+    <table>
+      <thead><tr><th>Verb group</th><th>Verbs</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">beginning and stopping</td><td class="de">versuchen, beginnen, anfangen, aufhören, damit anfangen</td>
+            <td>Er <b>hörte auf</b> zu <b>reden</b>.</td></tr>
+        <tr><td class="de">intending</td><td class="de">vorhaben, planen, beabsichtigen, sich entschließen</td>
+            <td>Sie <b>hat vor</b>, <b>das Angebot zu prüfen</b>.</td></tr>
+        <tr><td class="de">forgetting</td><td class="de">vergessen, übersehen</td>
+            <td>Ich <b>habe vergessen</b>, <b>dir zu schreiben</b>.</td></tr>
+        <tr><td class="de">reflexive decisions</td><td class="de">sich bemühen, sich freuen, sich weigern, sich fürchten, sich entscheiden, sich trauen</td>
+            <td>Er <b>entschied sich</b>, <b>nicht zu kommen</b>.</td></tr>
+        <tr><td class="de">permission and obligation</td><td class="de">erlauben, empfehlen, anbieten, vorschlagen, vorschreiben</td>
+            <td>Der Arzt <b>empfahl</b> ihm, <b>sich zu schonen</b>.</td></tr>
+        <tr><td class="de">capability</td><td class="de">hoffen, drohen, Gelegenheit haben, Zeit haben, Lust haben</td>
+            <td>Ich <b>hoffe</b>, <b>dir helfen zu können</b>.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="tipbox">
+      <strong>Where <em>zu</em> stands.</strong> The <em>zu</em> always stands directly in front of
+      the infinitive, and a separable prefix stays in front of it:
+      <em>die Rechnung <b>zu bezahlen</b></em>, <em>ihn <b>anzurufen</b></em>,
+      <em>die Sitzung <b>zu verschieben</b></em>. For <em>sein</em>-verbs and intransitive verbs
+      <em>zu</em> is the only option anyway: <em>ich habe vor, <b>zu kommen</b></em>.
+    </div>
+
+    <h3>Infinitive clauses with ohne, um, (an)statt … zu</h3>
+    <p>The same <em>zu</em>-infinitive forms a complete clause on its own. The first element
+      states the relation to the main clause; the infinitive closes it.</p>
+    <table>
+      <thead><tr><th>Element</th><th>Meaning</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">ohne … zu</td><td class="de">a negative: without doing something</td>
+            <td>Er ist <b>gegangen</b>, <b>ohne</b> sich <b>zu verabschieden</b>.</td></tr>
+        <tr><td class="de">um … zu</td><td class="de">purpose: in order to do something</td>
+            <td>Ich <b>rufe</b> an, <b>um</b> dich <b>zu fragen</b>.</td></tr>
+        <tr><td class="de">(an)statt … zu</td><td class="de">instead of doing something</td>
+            <td>Statt <b>zu helfen</b>, kritisierte er nur.</td></tr>
+        <tr><td class="de">ohne es zu …</td><td class="de">fixed: without noticing it</td>
+            <td>Er hat es, <b>ohne es zu wissen</b>, <b>veröffentlicht</b>.</td></tr>
+        <tr><td class="de">außer … zu</td><td class="de">only after a negative main clause</td>
+            <td>Ich <b>kann</b> es <b>nicht</b> <b>anders</b>, <b>als es</b> <b>zu lösen</b>.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="warnbox">
+      <strong>Word order inside the infinitive clause.</strong> All elements belong to the clause,
+      so they all go <em>before</em> the final <em>zu</em>-infinitive:
+      <em>Ich <b>habe vergessen</b>, <b>dir davon zu erzählen</b></em> —
+      not <em>dir zu erzählen davon</em>. The same is true inside a <em>dass</em>-clause:
+      <em>Es ist schade, <b>dass</b> du <b>dir nichts zu sagen traust</b></em>.
+    </div>
+
+    <h3>es as a placeholder in impersonal clauses</h3>
+    <p>In impersonal clauses <em>es</em> has no meaning of its own. It only fills position I and
+      can therefore be left out when the position is already taken.</p>
+    <table>
+      <thead><tr><th>Type</th><th>With es</th><th>Without es</th></tr></thead>
+      <tbody>
+        <tr><td class="de">weather</td><td><b>Es</b> regnet.</td><td>Heute <b>regnet</b> es.</td></tr>
+        <tr><td class="de">impersonal</td><td><b>Es</b> ist mir kalt.</td><td><b>Mir</b> ist kalt.</td></tr>
+        <tr><td class="de">impersonal</td><td><b>Es</b> tut mir leid.</td><td><b>Mir</b> tut es leid.</td></tr>
+        <tr><td class="de">impersonal</td><td><b>Es</b> ist schade.</td><td>— (no subject, es stays)</td></tr>
+        <tr><td class="de">passive, general</td><td><b>Es</b> wird viel gearbeitet.</td><td>Heute <b>wird</b> viel gearbeitet.</td></tr>
+        <tr><td class="de">existential</td><td><b>Es</b> gibt keine Lösung.</td><td>— (es stays)</td></tr>
+      </tbody>
+    </table>
+
+    <div class="rulebox">
+      <strong>When <em>es</em> may be dropped.</strong> Only when position I is filled by
+      something else — an adverbial, a prepositional phrase, or in the impersonal
+      <em>Mir ist kalt</em> pattern the finite verb itself already stands first.
+      <em>Es ist mir kalt</em> and <em>Mir ist kalt</em> are both correct; the second is the
+      normal everyday form.
+    </div>
+
+    <h3>Imperative + zu-clause</h3>
+    <p>After an imperative, a reminder, or a request, a <em>zu</em>-infinitive stands as a second
+      element. The imperative verb stays in position I, the prepositional phrase goes to the end
+      of the first element, and only then does the infinitive clause begin.</p>
+    <table>
+      <thead><tr><th>Form</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">denken an</td><td><b>Denk</b> <b>daran</b>, <b>den Termin abzusagen</b>.</td></tr>
+        <tr><td class="de">denken an + Modal</td><td>Denken Sie <b>daran</b>, <b>sich zu melden</b>.</td></tr>
+        <tr><td class="de">vergessen</td><td><b>Vergiss</b> nicht, <b>mir zu antworten</b>.</td></tr>
+        <tr><td class="de">bitten</td><td>Bitte, <b>das Formular auszufüllen</b>.</td></tr>
+        <tr><td class="de">sein + zu</td><td><b>Seien</b> Sie <b>freundlich</b>, <b>mir zu helfen</b>.</td></tr>
+        <tr><td class="de">anbieten</td><td>Wir <b>bieten</b> Ihnen <b>an</b>, <b>beim Umzug zu helfen</b>.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="warnbox">
+      <strong><em>zu</em> comes after the preposition, never before it.</strong>
+      ✗ <em>Denken Sie daran zu, sich zu melden.</em>
+      &nbsp;✓ <em>Denken Sie daran, sich zu melden.</em>
+      The same holds in the main clause: <em>Ich denke daran, dir zu helfen</em>.
+    </div>
+
+    <h3>Relative clauses with a preposition, and the da-compound</h3>
+    <p>A relative clause may be attached to a noun by a preposition instead of a plain relative
+      pronoun. The preposition comes first and it determines the case of the relative pronoun.
+      For living things and non-countable nouns, <em>wo</em>-compounds replace the pronoun in
+      speaking German; for things, the <em>da</em>-compound is often shorter.</p>
+    <table>
+      <thead><tr><th></th><th>With pronoun</th><th>With da-compound</th></tr></thead>
+      <tbody>
+        <tr><td class="de">place, people</td><td>das Haus, <b>in dem</b> wir wohnen</td>
+            <td>das Haus, <b>da</b> wir wohnen</td></tr>
+        <tr><td class="de">place, things</td><td>der Ort, <b>an dem</b> wir trafen</td>
+            <td>der Ort, <b>dort</b> trafen wir uns</td></tr>
+        <tr><td class="de">preposition only</td><td>die Sache, <b>worüber</b> wir sprechen</td>
+            <td>darüber sprechen wir</td></tr>
+        <tr><td class="de">person</td><td>die Frau, <b>mit der</b> ich reise</td>
+            <td>mit der Frau, <b>mit der</b> ich reise</td></tr>
+        <tr><td class="de">genitive</td><td>das Auto, <b>dessen</b> Motor kaputt ist</td>
+            <td>— (no da-compound for genitive)</td></tr>
+      </tbody>
+    </table>
+
+    <div class="rulebox">
+      <strong>Case follows the preposition.</strong> <em>über</em> and <em>für</em> take the
+      accusative (<em>über den Vortrag</em>), <em>in</em>, <em>an</em>, <em>bei</em>, <em>von</em>
+      and <em>mit</em> take the dative (<em>mit der Kollegin</em>), and relative pronouns of
+      person have their own gender and number. Nothing is decided by the
+      antecedent: only the preposition is relevant.
+    </div>
+
+    <h3>Participial attributes</h3>
+    <p>Both participles can function as an adjective, usually placed before the noun, and the
+      second part of the verb is then redundant. There is no finite verb, so no verb-final
+      order: the participle and its modifiers stand in the normal adjective position.</p>
+    <table>
+      <thead><tr><th></th><th>Partizip I</th><th>Partizip II</th></tr></thead>
+      <tbody>
+        <tr><td class="de">form</td><td class="de">no ge-, active, present</td><td class="de">ge- … -t / -en, passive or completed</td></tr>
+        <tr><td class="de">example</td><td>die <b>steigenden</b> Preise</td><td>der <b>gefrostete</b> See</td></tr>
+        <tr><td class="de">from a sein-verb</td><td>— (no passive possible)</td><td>der <b>verunglückte</b> Fahrer <span class="de">(no <em>ge-</em> from a <em>sein</em>-verb)</span></td></tr>
+        <tr><td class="de">from a werden-verb</td><td class="de">— (no active present form)</td><td>der <b>reparierte</b> Tisch</td></tr>
+        <tr><td class="de">built from</td><td class="de">Vorbild + -end</td><td class="de">Vorlage + ge- … -t / -en</td></tr>
+      </tbody>
+    </table>
+
+    <table>
+      <thead><tr><th>Full clause</th><th>Participle as attribute</th></tr></thead>
+      <tbody>
+        <tr><td class="de">Der Kaffee, der frisch gekocht <b>wurde</b>, ist stark.</td>
+            <td>Der <b>frisch gekochte</b> Kaffee ist stark.</td></tr>
+        <tr><td class="de">Der Fahrer, der verunglückt <b>ist</b>, lebte noch.</td>
+            <td>Der <b>verunglückte</b> Fahrer lebte noch.</td></tr>
+        <tr><td class="de">Das Gut, das ein Investor gekauft hat, ist teuer.</td>
+            <td>Das <b>von einem Investor gekaufte</b> Gut ist teuer.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="warnbox">
+      <strong><em>Verunglückt</em> is a state, not an action.</strong> Participles of
+      <em>sein</em>-verbs usually describe an attained state (<em>die gewachsenen Bäume</em>,
+      <em>der gefrorene See</em>), while Partizip II of <em>werden</em>-verbs is passive
+      (<em>der reparierte Tisch</em>). A <em>sein</em>-verb cannot be made passive, so a
+      corresponding passive form does not exist.
+    </div>
+
+    <h3>Word order: what each construction does</h3>
+    <p>All of these are subordinate clauses, and all of them push something out of the normal
+      slot. The table states exactly what moves.</p>
+    <table>
+      <thead><tr><th>Construction</th><th>Effect on word order</th></tr></thead>
+      <tbody>
+        <tr><td class="de">dass-clause</td><td class="de">dass in slot I, finite verb at the very end</td></tr>
+        <tr><td class="de">ob-clause</td><td class="de">ob in slot I, finite verb at the very end</td></tr>
+        <tr><td class="de">w-Fragen indirect</td><td class="de">w-word in slot I, finite verb at the very end</td></tr>
+        <tr><td class="de">zu + Infinitiv</td><td class="de">no finite verb; the infinitive with zu closes the clause</td></tr>
+        <tr><td class="de">ohne / um / (an)statt … zu</td><td class="de">the infinitive with zu closes the clause; um can never stand alone</td></tr>
+        <tr><td class="de">es-clause</td><td class="de">es in slot I, finite verb last; es disappears if slot I is taken</td></tr>
+        <tr><td class="de">imperative + zu</td><td class="de">imperative verb in slot I, preposition to the end, then zu-infinitive</td></tr>
+        <tr><td class="de">relative clause with preposition</td><td class="de">preposition + pronoun in slot I, finite verb last</td></tr>
+        <tr><td class="de">da-compound</td><td class="de">no new clause: da + preposition replaces the whole phrase including the subject</td></tr>
+        <tr><td class="de">participle as attribute</td><td class="de">no effect: there is no finite verb, so the adjective position applies</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Do not confuse these</h3>
+    <table>
+      <thead><tr><th>Pair</th><th>Difference</th></tr></thead>
+      <tbody>
+        <tr><td class="de">dass vs. als</td>
+            <td>Same word order, different origin. <em>dass</em> reports content,
+            <em>als</em> reports a fact: <em>Ich glaube, dass er kommt</em> against
+            <em>Ich glaube, er kommt</em>. <em>als</em> disappears as soon as the clause is
+            extended or put first.</td></tr>
+        <tr><td class="de">ob vs. wenn</td>
+            <td>Both are indirect-question markers, but <em>ob</em> only asks yes or no
+            (<em>ob er kommt</em>), while <em>wenn</em> in an indirect question means
+            &bdquo;if&ldquo;: <em>Ich weiß nicht, wenn er kommt</em> is wrong;
+            <em>Ich weiß nicht, ob er kommt</em> is right.</td></tr>
+        <tr><td class="de">ob vs. dass</td>
+            <td><em>ob</em> keeps the open question, <em>dass</em> states it as given. After
+            <em>ich frage dich</em> both are possible, with a slight difference in tone.</td></tr>
+        <tr><td class="de">zu + Inf. vs. um … zu</td>
+            <td><em>Ich verspreche, dir zu helfen</em> is a promise — a single verb and one
+            infinitive. <em>Ich komme, um dir zu helfen</em> states a purpose in a second
+            clause with its own subject. The <em>zu</em> alone never expresses purpose.</td></tr>
+        <tr><td class="de">um … zu vs. damit</td>
+            <td><em>um … zu</em> requires the same subject as the main clause. With a second
+            subject you need <em>damit</em> + full clause:
+            <em>Ich lerne Deutsch, um in Wien zu arbeiten</em> but
+            <em>Ich lerne Deutsch, damit meine Frau in Wien arbeiten kann</em>.</td></tr>
+        <tr><td class="de">anstatt vs. statt</td>
+            <td>Before <em>zu</em> + infinitive they are identical (<em>anstatt zu fragen</em>).
+            As a preposition without a verb, both take genitive: <em>statt eines Gesprächs</em>
+            — never <em>statt einem Gespräch</em>.</td></tr>
+        <tr><td class="de">Mir ist kalt vs. Ich bin kalt</td>
+            <td><em>Mir ist kalt</em> is a dative experiencer and describes a feeling;
+            <em>Ich bin kalt</em> is a predicative adjective and describes a temperature or a
+            character. The same split applies to <em>warm</em>, <em>schlecht</em>,
+            <em>übel</em>.</td></tr>
+        <tr><td class="de">Es ist schade vs. Es freut mich</td>
+            <td><em>Schade</em> and <em>angenehm</em> are adjectives used predicatively,
+            <em>Freude</em> and <em>Leid</em> are nouns and need a verb. Hence
+            <em>Es ist schade, dass&hellip;</em> but <em>Es freut mich, dass&hellip;</em> /
+            <em>Ich freue mich, dass&hellip;</em> — and never <em>Es ist Freude</em> or
+            <em>Mir ist Freude</em>.</td></tr>
+        <tr><td class="de">es vs. was (relative)</td>
+            <td><em>Es</em> in <em>Es gibt</em> is a subject pronoun and belongs to a main
+            clause. The neutral relative pronoun that refers to an indefinite whole thing is
+            <em>was</em>: <em>Er hat alles, was er wollte</em>. After a preposition it
+            becomes <em>wo-</em>: <em>…, womit man rechnen muss</em>.</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Summary</h3>
+    <table>
+      <thead><tr><th>You want to&hellip;</th><th>Use</th></tr></thead>
+      <tbody>
+        <tr><td class="de">report what someone thinks</td><td class="de">glauben, denken + dass</td></tr>
+        <tr><td class="de">ask indirectly, yes or no</td><td class="de">ob + verb last</td></tr>
+        <tr><td class="de">ask indirectly with a w-word</td><td class="de">wann, warum, wer + verb last</td></tr>
+        <tr><td class="de">complete a verb that forbids a clause</td><td class="de">versuchen, aufhören, vergessen + zu + Inf.</td></tr>
+        <tr><td class="de">state a purpose with the same subject</td><td class="de">um … zu</td></tr>
+        <tr><td class="de">state a purpose with a second subject</td><td class="de">damit + clause</td></tr>
+        <tr><td class="de">state what did not happen</td><td class="de">ohne … zu</td></tr>
+        <tr><td class="de">replace a rejected action</td><td class="de">(an)statt … zu</td></tr>
+        <tr><td class="de">say what is not important</td><td class="de">es + adjective</td></tr>
+        <tr><td class="de">remind someone of an action</td><td class="de">imperative + preposition + zu + Inf.</td></tr>
+        <tr><td class="de">relate a noun to a place or a thing</td><td class="de">preposition + relative pronoun, or da</td></tr>
+        <tr><td class="de">attach information to a noun</td><td class="de">participle as attribute</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- ══ 2. EXAMPLES ══ -->
+  <section>
+    <h2>2 · 20 worked examples</h2>
+    <p><small>Each example marks the opener and closer in bold and explains what it does to the sentence.</small></p>
+    <div id="examples"></div>
+  </section>
+
+  <!-- ══ 3. EXERCISES ══ -->
+  <section>
+    <h2>3 · 100 exercises</h2>
+
+    <div class="noVoice" id="noVoice">
+      <b>Pronunciation unavailable.</b> This browser has no German speech voice installed, so the
+      speaker buttons will not play. In Chrome, Edge and Safari on a desktop, German is available by default.
+    </div>
+    <div id="quiz"></div>
+  </section>
+
+</div>
+
+<footer class="footer"><strong>Subordinate clauses without a conjunction</strong><span class="footer-dot">·</span><span>Roman Zajic</span></footer>
+
+<script>
+(function(){
+  "use strict";
+
+  var EXAMPLES = [
+    ["Ich <em>glaube</em>, <em>dass</em> er <em>kommt</em>. — I think he is coming.", "<em>dass</em> needs no <em>ob</em> or <em>wenn</em>: after the frame verb <em>glauben</em> the clause is verb-final, so <em>kommt</em> stands at its end."],
+    ["Der Arzt <em>warnt</em> uns <em>davor</em>, <em>dass</em> wir <em>so</em> <em>viel</em> <em>Kaffee</em> <em>trinken</em>. — The doctor warns us not to drink so much coffee.", "A <em>davor</em> that takes a personal action would normally use a <em>zu</em>-infinitive; here the <em>dass</em>-clause stands in for it, with the clause verb <em>trinken</em> at the end."],
+    ["<em>Dass</em> er <em>darüber</em> <em>nichts</em> <em>weiß</em>, <em>ärgert</em> <em>mich</em> ganz <em>schon</em>. — That he knows nothing about it annoys me a lot.", "A fronted <em>dass</em>-clause occupies position I; the main clause is <em>verbfinial invertiert</em> &ndash; the subject <em>mich</em> is pushed in front and the conjugated verb <em>ärgert</em> takes position III."],
+    ["Sie <em>weiß</em> <em>nicht</em>, <em>ob</em> wir <em>noch</em> <em>rechtzeitig</em> <em>kommen</em>. — She does not know whether we will still arrive in time.", "<em>ob</em> stands for a yes/no question in indirect speech; the clause is verb-final, and the <em>noch</em> keeps its normal slot between subject and final verb."],
+    ["<em>Kannst</em> du mir <em>sagen</em>, <em>ob</em> der <em>Reisebus</em> <em>heute</em> <em>abf&auml;hrt</em>? — Can you tell me whether the coach leaves today?", "The <em>ob</em>-clause is the complement of <em>sagen</em>; in the question the finite verb <em>abf&auml;hrt</em> goes last, while the subject <em>Reisebus</em> stands before the <em>heute</em>."],
+    ["<em>Vergiss</em> nicht, <em>mir</em> <em>zu</em> <em>antworten</em>! — Do not forget to answer me.", "<em>vergessen</em> cannot be followed by an <em>ob</em>/<em>dass</em>-clause here, so <em>zu</em> plus <em>antworten</em> replaces the second verb: the imperative <em>Vergiss</em> stands at the front, the clause is closed by the infinitive."],
+    ["Wir <em>versuchen</em> <em>heute</em> noch, <em>den</em> <em>Handwerker</em> <em>zu</em> <em>erreichen</em>. — Today we are still trying to reach the tradesman.", "<em>versuchen</em> takes a <em>zu</em>-infinitive instead of a <em>zu</em> plus person: the clause has no own subject, so only the infinitive comes last."],
+    ["<em>Wir</em> <em>haben</em> <em>vor</em>, <em>im</em> <em>Sommer</em> <em>nach</em> <em>Rom</em> <em>zu</em> <em>fahren</em>. — We plan to travel to Rome in the summer.", "<em>vorhaben</em> is followed by <em>zu</em> plus infinitive; the whole <em>zu</em>-group stands behind the time and place phrases and closes the clause."],
+    ["<em>H&ouml;r</em> <em>auf</em>, <em>mich</em> <em>zu</em> <em>unterbrechen</em>! — Stop interrupting me.", "<em>aufh&ouml;ren</em> is one of the verbs that takes a <em>zu</em>-infinitive; the separable prefix <em>auf</em> stays in the main clause, the clause itself ends with <em>unterbrechen</em>."],
+    ["Der Trainer <em>empfiehlt</em> uns, <em>die</em> <em>&Uuml;bungen</em> <em>zweimal</em> <em>zu</em> <em>wiederholen</em>. — The trainer recommends that we repeat the exercises twice.", "<em>empfehlen</em> allows a <em>dass</em>-clause, but the <em>zu</em>-infinitive is shorter; the object of <em>empfehlen</em> is <em>uns</em>, and the infinitive carries the passive sense."],
+    ["<em>Wir</em> <em>haben</em> <em>entschieden</em>, <em>das</em> <em>alte</em> <em>Auto</em> <em>zu</em> <em>verkaufen</em>. — We have decided to sell the old car.", "<em>entscheiden</em> here introduces a <em>zu</em>-infinitive, so the sentence has no subordinate clause and keeps its normal main-clause word order."],
+    ["<em>Mir</em> <em>ist</em> <em>kalt</em>. — I am cold.", "In the impersonal <em>es</em>-clauses the <em>es</em> is left out; the dative person stands in position I and the adjective closes the clause, so the word order of a real Nebensatz is kept."],
+    ["<em>Es</em> <em>ist</em> <em>schade</em>, <em>dass</em> du <em>nicht</em> <em>kommen</em> <em>kannst</em>. — It is a pity you cannot come.", "Here <em>es</em> fills the subject slot, and the <em>dass</em>-clause follows it with the separable verb cluster at the end: <em>kannst</em>."],
+    ["<em>Es</em> <em>tut</em> <em>mir</em> <em>leid</em>, <em>dass</em> ich <em>Ihnen</em> <em>keine</em> <em>gute</em> <em>Nachricht</em> <em>geben</em> <em>konnte</em>. — I am sorry that I could not give you any good news.", "<em>es</em> + <em>tun</em> + dative is the classic impersonal frame; the <em>dass</em>-clause after it ends in the perfect auxiliary <em>konnte</em> with <em>geben</em> before it."],
+    ["Das ist das Haus, <em>in</em> <em>dem</em> wir <em>schon</em> <em>zwanzig</em> <em>Jahre</em> <em>leben</em>. — That is the house in which we have already lived for twenty years.", "The preposition <em>in</em> stands in the relative clause, not in the main clause; everything else is verb-final, so <em>leben</em> closes the clause before <em>schon zwanzig Jahre</em>."],
+    ["Die Stra&szlig;e, <em>an</em> <em>deren</em> unser <em>Geb&auml;ude</em> <em>liegt</em>, <em>wird</em> <em>gerade</em> <em>saniert</em>. — The street at the edge of which our building lies is being renovated right now.", "The case of the relative pronoun is fixed by the preposition (<em>an</em> + <em>deren</em> = <em>an dem</em>); the clause verb <em>liegt</em> is final, the main clause then starts with <em>wird</em>."],
+    ["<em>Wir</em> <em>haben</em> <em>ein</em> <em>Grundst&uuml;ck</em> <em>gekauft</em>, <em>da</em> <em>wir</em> <em>sp&auml;ter</em> <em>bauen</em> <em>wollen</em>. — We bought a plot because we want to build later.", "<em>da</em> replaces the preposition plus relative pronoun as a location marker; after it the verb-final order is kept, and it can also mean <em>deshalb</em> here."],
+    ["Das ist das Lokal, <em>wo</em> wir fr&uuml;her immer <em>sa&szlig;en</em> <em>sind</em>. — That is the pub where we used to sit back in the day.", "The <em>da</em>-compound refers to a place, not a person, so it replaces the prepositional <em>in dem</em>; the perfect verb <em>ingesessen sind</em> closes the clause."],
+    ["Die <em>steigenden</em> Preise f&uuml;r <em>Strom</em> belasten <em>viele</em> <em>Haushalte</em>. — Rising electricity prices put a strain on many households.", "Partizip I (<em>steigend</em>) is active and present: the price itself rises, so the attribute is built on the stem <em>steig-</em> plus <em>-end</em>, without <em>ge-</em>."],
+    ["Der <em>verungl&uuml;ckte</em> Fahrer wurde in den <em>gefrorenen</em> Graben geschleudert. — The driver who crashed was thrown into the frozen ditch.", "Two Partizip II forms, two different rules: <em>verungl&uuml;cken</em> is a <em>sein</em>-verb and therefore takes no <em>ge-</em>, while <em>gefrieren</em> is a <em>haben</em>-verb and does (<em>gefrorenen</em>)."]
+  ];
+
+  var DATA_URL = "../../data/grammar_exercises_nebensaetze_ohne_konjunktion.json";
+  var STORE = "nebensaetze_ohne_konjunktion_progress_v1";
+  // ── pronunciation via the browser speech engine ──
+  var MIC_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5z"></path>'
+    + '<path class="pulse" d="M15.5 8.5a5 5 0 0 1 0 7"></path>'
+    + '<path class="pulse" d="M18.5 5.5a9 9 0 0 1 0 13"></path></svg>';
+  var synth = window.speechSynthesis || null;
+  var germanVoice = null;
+
+  function stripTags(t){ return String(t).replace(/<[^>]*>/g,""); }
+
+  function pickVoice(){
+    if(!synth) return null;
+    var vs = synth.getVoices() || [];
+    germanVoice = vs.filter(function(v){ return /^de(-|_|$)/i.test(v.lang); })[0] || null;
+    return germanVoice;
+  }
+  if(synth){
+    pickVoice();
+    if(synth.addEventListener) synth.addEventListener("voiceschanged", pickVoice);
+  }
+
+  function stopSpeech(){ if(synth) try{ synth.cancel(); }catch(e){} }
+
+  var warned = false;
+  function noVoiceNotice(){
+    if(warned) return; warned = true;
+    var n = document.getElementById("noVoice");
+    if(n) n.style.display = "flex";
+  }
+  function micBtn(text, label){
+    var b = document.createElement("button");
+    b.className = "mic";
+    b.type = "button";
+    b.setAttribute("aria-pressed","false");
+    b.setAttribute("aria-label", (label||"Play") + ": " + stripTags(text));
+    b.title = "Play pronunciation";
+    b.innerHTML = MIC_SVG;
+    b.addEventListener("click", function(ev){
+      ev.stopPropagation();
+      if(!synth){ b.disabled = true; b.title = "Speech is not available in this browser"; noVoiceNotice(); return; }
+      if(b.getAttribute("aria-pressed")==="true"){ stopSpeech(); b.setAttribute("aria-pressed","false"); return; }
+      stopSpeech();
+      if(!germanVoice) pickVoice();
+      var u = new SpeechSynthesisUtterance(stripTags(text));
+      u.lang = "de-DE";
+      if(germanVoice) u.voice = germanVoice;
+      u.rate = 0.92; u.pitch = 1;
+      b.setAttribute("aria-pressed","true");
+      var off = function(){ b.setAttribute("aria-pressed","false"); };
+      u.onend = off;
+      u.onerror = function(){ off(); noVoiceNotice(); };
+      synth.speak(u);
+      // some engines report no voices at all; surface that instead of a dead button
+      if(!synth.getVoices().length) noVoiceNotice();
+    });
+    return b;
+  }
+
+  var state = {revealed:{}, answers:{}};
+
+  function esc(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
+  function load(){ try{ var v=JSON.parse(localStorage.getItem(STORE)); if(v&&typeof v==="object"){state.revealed=v.revealed||{};state.answers=v.answers||{};} }catch(e){} }
+  function save(){ try{ localStorage.setItem(STORE, JSON.stringify(state)); }catch(e){} }
+
+  // ---- examples ----
+  // Each entry is [german_and_english, why]. The first field carries the English
+  // translation after an em dash, so split it out for separate styling.
+  function splitDE(t){
+    var i = t.indexOf("\u2014");
+    if(i < 0) return [t, ""];
+    return [t.slice(0,i).trim(), t.slice(i+1).trim()];
+  }
+  (function renderExamples(){
+    var host = document.getElementById("examples");
+    host.innerHTML = "";
+    EXAMPLES.forEach(function(x){
+      var de = x[0] || "";
+      var why = x[1] || "";
+      var parts = splitDE(de);
+      var card = document.createElement("div");
+      card.className = "ex";
+
+      var row = document.createElement("div");
+      row.className = "microw";
+      var txt = document.createElement("div");
+      txt.className = "mtext";
+      txt.innerHTML = '<div class="de">'+parts[0]+'</div>'+
+                      (parts[1] ? '<div class="en">'+parts[1]+'</div>' : "");
+      row.appendChild(txt);
+      row.appendChild(micBtn(parts[0], "Play this example"));
+      card.appendChild(row);
+
+      if(why){
+        var w = document.createElement("div");
+        w.className = "why";
+        w.innerHTML = "<b>Why:</b> "+why;
+        card.appendChild(w);
+      }
+      host.appendChild(card);
+    });
+  })();
+
+  // German special letters, inserted at the caret in the focused input.
+  var KEYS = ["ä","ö","ü","Ä","Ö","Ü","ß","€"];
+
+  function insertAt(input, ch){
+    var v = input.value;
+    var a = input.selectionStart == null ? v.length : input.selectionStart;
+    var b = input.selectionEnd == null ? v.length : input.selectionEnd;
+    input.value = v.slice(0,a) + ch + v.slice(b);
+    var pos = a + ch.length;
+    try{ input.setSelectionRange(pos,pos); }catch(e){}
+    input.focus();
+  }
+
+  function keypadBtn(id){
+    var b = document.createElement("button");
+    b.type = "button";
+    b.className = "keybtn";
+    b.title = "German letters";
+    b.setAttribute("aria-label","Insert German special characters");
+    b.setAttribute("aria-expanded","false");
+    b.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true">'+
+      '<rect x="2" y="5" width="20" height="14" rx="2"></rect>'+
+      '<path d="M6 9h.01M10 9h.01M14 9h.01M18 9h.01M6 13h.01M10 13h.01M14 13h.01M18 13h.01M8 16h8"></path>'+
+      '</svg>';
+    b.addEventListener("click", function(ev){
+      ev.stopPropagation();
+      var panel = document.getElementById("pad-"+id);
+      if(!panel) return;
+      var open = panel.classList.toggle("open");
+      b.setAttribute("aria-expanded", open ? "true" : "false");
+      closeAllKeypads(panel);
+    });
+    return b;
+  }
+
+  function closeAllKeypads(except){
+    Array.prototype.forEach.call(document.querySelectorAll(".pad.open"), function(p){
+      if(p === except) return;
+      p.classList.remove("open");
+      var btn = p.previousSibling && p.previousSibling.querySelector ? p.previousSibling.querySelector(".keybtn") : null;
+      if(btn) btn.setAttribute("aria-expanded","false");
+    });
+  }
+
+  document.addEventListener("click", function(){ closeAllKeypads(null); });
+  document.addEventListener("keydown", function(e){ if(e.key === "Escape") closeAllKeypads(null); });
+
+  function renderQuiz(ex){
+    var el = document.getElementById("quiz");
+    el.innerHTML = "";
+    ex.forEach(function(e){
+      var rev = !!state.revealed[e.id];
+      var card = document.createElement("article");
+      card.className = "q" + (rev ? " revealed" : "");
+      card.id = "q"+e.id;
+
+      var top = document.createElement("div");
+      top.className = "qtop";
+      top.innerHTML = '<span class="qnum">'+e.id+'</span>';
+      var qt = document.createElement("span");
+      qt.className = "qtext";
+      qt.textContent = e.english;
+      top.appendChild(qt);
+      card.appendChild(top);
+
+      // input with the letter keypad docked inside its right edge
+      var row = document.createElement("div");
+      row.className = "inputrow";
+      var ta = document.createElement("input");
+      ta.type = "text";
+      ta.className = "ainput";
+      ta.placeholder = "Write the German here…";
+      ta.setAttribute("aria-label","Your German answer for exercise "+e.id);
+      ta.value = state.answers[e.id] || "";
+      ta.addEventListener("input", function(){ state.answers[e.id] = ta.value; save(); });
+      row.appendChild(ta);
+      row.appendChild(keypadBtn(e.id));
+      card.appendChild(row);
+
+      // the letter panel sits inside the card so it is never clipped
+      var pad = document.createElement("div");
+      pad.className = "pad";
+      pad.id = "pad-"+e.id;
+      KEYS.forEach(function(k){
+        var kb = document.createElement("button");
+        kb.type = "button";
+        kb.className = "padkey";
+        kb.textContent = k;
+        kb.addEventListener("click", function(ev){
+          ev.stopPropagation();
+          var target = card.querySelector(".ainput");
+          insertAt(target, k);
+          state.answers[e.id] = target.value;
+          save();
+        });
+        pad.appendChild(kb);
+      });
+      card.appendChild(pad);
+
+      // reveal / hide toggle
+      var rb = document.createElement("button");
+      rb.type = "button";
+      rb.className = "btn rev" + (rev ? " on" : "");
+      rb.textContent = rev ? "Hide answer" : "Reveal answer";
+      rb.setAttribute("aria-expanded", rev ? "true" : "false");
+      rb.addEventListener("click", function(){
+        state.revealed[e.id] = !state.revealed[e.id];
+        save();
+        renderQuiz(ex);
+      });
+      card.appendChild(rb);
+
+      if(rev){
+        var fb = document.createElement("div");
+        fb.className = "fb";
+
+        var ansRow = document.createElement("div");
+        ansRow.className = "microw ansrow";
+        var at = document.createElement("div");
+        at.className = "mtext";
+        at.textContent = e.german;
+        ansRow.appendChild(at);
+        ansRow.appendChild(micBtn(e.german, "Play the German answer"));
+        fb.appendChild(ansRow);
+
+        var wy = document.createElement("div");
+        wy.className = "why";
+        wy.textContent = e.why;
+        fb.appendChild(wy);
+
+        card.appendChild(fb);
+      }
+      el.appendChild(card);
+    });
+  }
+
+  load();
+
+  fetch(DATA_URL+"?cb="+Date.now())
+    .then(function(r){ if(!r.ok) throw new Error("HTTP "+r.status); return r.json(); })
+    .then(function(d){
+      var ex=d.exercises;
+      renderQuiz(ex);
+    })
+    .catch(function(e){
+      document.getElementById("quiz").innerHTML =
+        '<div class="q"><b>Could not load the exercises.</b><br>'+esc(e.message)+'</div>';
+    });
+})();
+</script>
+</body>
+</html>

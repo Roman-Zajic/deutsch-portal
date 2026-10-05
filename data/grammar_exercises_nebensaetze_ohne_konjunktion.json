@@ -1,0 +1,711 @@
+{
+  "title": "Subordinate clauses without a conjunction",
+  "level": "B2",
+  "n": 33,
+  "topic_en": "Subordinate clauses without a conjunction",
+  "term_de": "Nebensätze ohne Konjunktion",
+  "updated": "2026-10-05",
+  "schema": "english-prompt -> learner types German -> Reveal/Hide answer shows reference + speaker",
+  "exercises": [
+    {
+      "id": 1,
+      "skill": "Subordinate clauses without a conjunction: dass-clause after a frame verb",
+      "english": "I think he is right.",
+      "german": "Ich glaube, dass er recht hat.",
+      "why": "glauben takes a verb-final dass-clause: the two-part verb hat sits at the end, the subject er comes first."
+    },
+    {
+      "id": 2,
+      "skill": "Subordinate clauses without a conjunction: dass-clause after a frame verb",
+      "english": "It is important that you arrive on time.",
+      "german": "Es ist wichtig, dass du pünktlich kommst.",
+      "why": "The impersonal frame Es ist wichtig, dass is followed by a dass-clause with the verb kommst at the very end."
+    },
+    {
+      "id": 3,
+      "skill": "Subordinate clauses without a conjunction: dass-clause after a frame verb",
+      "english": "I hope you feel better soon.",
+      "german": "Ich hoffe, dass du dich bald besser fühlst.",
+      "why": "A verb of opinion (hoffen) allows only the complement clause, not an Infinitiv; fühlst is verb-final."
+    },
+    {
+      "id": 4,
+      "skill": "Subordinate clauses without a conjunction: dass-clause after a frame verb",
+      "english": "It seems nobody noticed anything.",
+      "german": "Es scheint, dass niemand etwas bemerkt hat.",
+      "why": "scheinen introduces a dass-clause; the perfect form bemerkt hat closes the clause in verbal-final position."
+    },
+    {
+      "id": 5,
+      "skill": "Subordinate clauses without a conjunction: dass-clause after a frame verb",
+      "english": "Do you think she will come to the party?",
+      "german": "Glaubst du, dass sie zur Feier kommen wird?",
+      "why": "In a question the conjugated glaubst is also verb-final, and the dass-clause adds a second verb-final slot: wird."
+    },
+    {
+      "id": 6,
+      "skill": "Subordinate clauses without a conjunction: dass-clause after a frame verb",
+      "english": "I am convinced that this is the right decision.",
+      "german": "Ich bin überzeugt, dass das die richtige Entscheidung ist.",
+      "why": "The frame phrase überzeugt sein only takes a subordinate clause, never a preposition with a noun, so the final slot is ist."
+    },
+    {
+      "id": 7,
+      "skill": "Subordinate clauses without a conjunction: dass-clause after a frame verb",
+      "english": "It is necessary that we book earlier.",
+      "german": "Es ist notwendig, dass wir früher buchen.",
+      "why": "Es ist …, dass is the classic impersonal assessment clause; buchen closes it, and the subject wir sits in front of the verb."
+    },
+    {
+      "id": 8,
+      "skill": "Subordinate clauses without a conjunction: dass-clause after a frame verb",
+      "english": "I heard that the flight was delayed.",
+      "german": "Ich habe gehört, dass der Flug verspätet war.",
+      "why": "A perception verb (gehört haben) triggers a dass-clause with the perfect passive Verspätet war in final position."
+    },
+    {
+      "id": 9,
+      "skill": "Subordinate clauses without a conjunction: dass-clause after a frame verb",
+      "english": "It is doubtful that he will agree.",
+      "german": "Es ist zweifelhaft, dass er zustimmt.",
+      "why": "The expression Es ist zweifelhaft, dass judges the coming clause; the modal zustimmt ends it."
+    },
+    {
+      "id": 10,
+      "skill": "Subordinate clauses without a conjunction: dass-clause after a frame verb",
+      "english": "She complained that the noise was unbearable.",
+      "german": "Sie beschwerte sich, dass der Lärm unerträglich war.",
+      "why": "sich beschweren über + accusative can be replaced by a dass-clause, which then has to end in war."
+    },
+    {
+      "id": 11,
+      "skill": "Subordinate clauses without a conjunction: dass-clause after a frame verb",
+      "english": "It bothers me that nobody tells me the truth.",
+      "german": "Es stört mich, dass mir niemand die Wahrheit sagt.",
+      "why": "The impersonal subject es is replaced by the object mir in the main clause; inside the clause the dative object mir precedes the final verb sagt."
+    },
+    {
+      "id": 12,
+      "skill": "Subordinate clauses without a conjunction: dass-clause after a frame verb",
+      "english": "I did not expect the exam to be that difficult.",
+      "german": "Ich hatte nicht erwartet, dass die Prüfung so schwer sein würde.",
+      "why": "A verb of expectation plus the Konjunktiv II würde: the modal verb in its subordinate form closes the dass-clause."
+    },
+    {
+      "id": 13,
+      "skill": "Subordinate clauses without a conjunction: dass-clause after a frame verb",
+      "english": "It is possible that they are still waiting for us.",
+      "german": "Es ist möglich, dass sie noch auf uns warten.",
+      "why": "Modal of possibility in the dass-clause: the verb is warten, and the separable prefix of warten follows it as a particle."
+    },
+    {
+      "id": 14,
+      "skill": "Subordinate clauses without a conjunction: dass-clause after a frame verb",
+      "english": "He admitted that he had made a mistake.",
+      "german": "Er gab zu, dass er einen Fehler gemacht hatte.",
+      "why": "The verb phrase zugeben, dass … uses a preterite main verb with a perfect clause, so the double infiniite form hatte is verb-final."
+    },
+    {
+      "id": 15,
+      "skill": "Subordinate clauses without a conjunction: dass-clause after a frame verb",
+      "english": "I find it strange that nobody said anything.",
+      "german": "Ich finde es seltsam, dass niemand etwas gesagt hat.",
+      "why": "The noun es is a placeholder object that falls away inside the clause; gesagt hat is the closing verbal group."
+    },
+    {
+      "id": 16,
+      "skill": "Subordinate clauses without a conjunction: dass-clause after a frame verb",
+      "english": "It is said that the company is being sold.",
+      "german": "Es heißt, dass die Firma verkauft werden soll.",
+      "why": "The passive reporting verb verkauft werden and the modal-like sollen in its final position make the clause impersonal."
+    },
+    {
+      "id": 17,
+      "skill": "Subordinate clauses without a conjunction: dass-clause after a frame verb",
+      "english": "I deny that I have ever seen this film.",
+      "german": "Ich bestreite, dass ich diesen Film schon einmal gesehen habe.",
+      "why": "bestreiten demands a dass-clause; the perfect form gesehen habe and the negation schon einmal belong to the final slot."
+    },
+    {
+      "id": 18,
+      "skill": "Subordinate clauses without a conjunction: dass-clause after a frame verb",
+      "english": "It annoys me that he never listens.",
+      "german": "Mich ärgert, dass er nie zuhört.",
+      "why": "A verbless impersonal clause (Mich ärgert, dass …) with the object mich in front; the clause ends in zuhört."
+    },
+    {
+      "id": 19,
+      "skill": "Subordinate clauses without a conjunction: dass-clause after a frame verb",
+      "english": "It goes without saying that one arrives on time.",
+      "german": "Es versteht sich von selbst, dass man pünktlich kommt.",
+      "why": "A fixed idiom of assessment followed by a dass-clause; the impersonal man stays the subject of the final verb kommt."
+    },
+    {
+      "id": 20,
+      "skill": "Subordinate clauses without a conjunction: dass-clause after a frame verb",
+      "english": "I am convinced the mistake lies elsewhere.",
+      "german": "Ich war überzeugt, dass der Fehler woanders liegt.",
+      "why": "The frame überzeugt sein allows only the clause complement; liegt as a two-part verb closes the sentence."
+    },
+    {
+      "id": 21,
+      "skill": "Subordinate clauses without a conjunction: indirect question with ob",
+      "english": "I do not know whether he is coming tonight.",
+      "german": "Ich weiß nicht, ob er heute Abend kommt.",
+      "why": "After weiß nicht the indirect question uses ob instead of a wh-word, and the verb kommt stands at the end."
+    },
+    {
+      "id": 22,
+      "skill": "Subordinate clauses without a conjunction: indirect question with ob",
+      "english": "Could you tell me where the station is?",
+      "german": "Könnten Sie mir sagen, wo der Bahnhof ist?",
+      "why": "The indirect question is introduced by wo without a correlative second conjunction; ist is the final word of the clause."
+    },
+    {
+      "id": 23,
+      "skill": "Subordinate clauses without a conjunction: indirect question with ob",
+      "english": "She asked me whether I had already eaten.",
+      "german": "Sie fragte, ob ich schon gegessen hatte.",
+      "why": "A past verb of asking is followed by an ob-clause whose verb had is verb-final, not a second finite verb."
+    },
+    {
+      "id": 24,
+      "skill": "Subordinate clauses without a conjunction: indirect question with ob",
+      "english": "I wonder whether they will accept the offer.",
+      "german": "Ich frage mich, ob sie das Angebot annehmen.",
+      "why": "The reflexive verb fragen takes the ob-clause directly, with the verb annehmen closing it."
+    },
+    {
+      "id": 25,
+      "skill": "Subordinate clauses without a conjunction: indirect question with ob",
+      "english": "It depends on whether the weather is good.",
+      "german": "Es hängt davon ab, ob das Wetter gut ist.",
+      "why": "The preposition ab with a dependent clause forms a verb cluster abzuhängen, but the ob-clause itself keeps verb-final ist."
+    },
+    {
+      "id": 26,
+      "skill": "Subordinate clauses without a conjunction: indirect question with ob",
+      "english": "Tell me whether you agree with me.",
+      "german": "Sag mir, ob du mit mir einverstanden bist.",
+      "why": "The imperative main clause and the ob-clause contrast: the subordinate verb bist comes after einverstanden."
+    },
+    {
+      "id": 27,
+      "skill": "Subordinate clauses without a conjunction: indirect question with ob",
+      "english": "Nobody knows whether the shop is open.",
+      "german": "Niemand weiß, ob der Laden geöffnet hat.",
+      "why": "Knowledge verbs frame an ob-clause; the perfect form geöffnet hat ends it, and the subject precedes it."
+    },
+    {
+      "id": 28,
+      "skill": "Subordinate clauses without a conjunction: indirect question with ob",
+      "english": "I have not decided whether to stay or to leave.",
+      "german": "Ich habe noch nicht entschieden, ob ich bleibe oder gehe.",
+      "why": "Two alternatives inside one ob-clause: the finite verbs bleibe and gehe follow their subjects, so the position of two verbs is still final."
+    },
+    {
+      "id": 29,
+      "skill": "Subordinate clauses without a conjunction: indirect question with ob",
+      "english": "He was unsure whether she had noticed.",
+      "german": "Er war unsicher, ob sie es bemerkt hatte.",
+      "why": "A predicate adjective before the clause still leaves the ob-clause verb-final: bemerkt hatte."
+    },
+    {
+      "id": 30,
+      "skill": "Subordinate clauses without a conjunction: indirect question with ob",
+      "english": "Can you find out whether the office is still open?",
+      "german": "Kannst du herausfinden, ob das Büro noch geöffnet ist?",
+      "why": "herausfinden is separated in the main clause; inside the ob-clause the separable prefix of geöffnet follows the participle."
+    },
+    {
+      "id": 31,
+      "skill": "Subordinate clauses without a conjunction: indirect question with ob",
+      "english": "The question is whether the plan is realistic.",
+      "german": "Die Frage ist, ob der Plan realistisch ist.",
+      "why": "The copula ist appears twice; in the clause it comes last, after the predicative adjective realistisch."
+    },
+    {
+      "id": 32,
+      "skill": "Subordinate clauses without a conjunction: indirect question with ob",
+      "english": "I have not checked whether the tickets are still available.",
+      "german": "Ich habe nicht geprüft, ob die Tickets noch verfügbar sind.",
+      "why": "A perfect main clause with a passive predicate (verfügbar sind) in the verb-final position of the ob-clause."
+    },
+    {
+      "id": 33,
+      "skill": "Subordinate clauses without a conjunction: indirect question with ob",
+      "english": "Do you know whether they have already moved?",
+      "german": "Weißt du, ob sie schon umgezogen sind?",
+      "why": "Again two verb positions: weißt in the question, sind at the end of the ob-clause; the perfect participle is before it."
+    },
+    {
+      "id": 34,
+      "skill": "Subordinate clauses without a conjunction: indirect question with ob",
+      "english": "It was unclear whether he would come at all.",
+      "german": "Es war unklar, ob er überhaupt kommen würde.",
+      "why": "The Konjunktiv II würde is the last element of the indirect question, keeping verb-final order."
+    },
+    {
+      "id": 35,
+      "skill": "Subordinate clauses without a conjunction: indirect question with ob",
+      "english": "She wanted to know whether I would help her.",
+      "german": "Sie wollte wissen, ob ich ihr helfen würde.",
+      "why": "The modal helfen and the Konjunktiv II of werden form a bracket: würde as the finite element comes last."
+    },
+    {
+      "id": 36,
+      "skill": "Subordinate clauses without a conjunction: indirect question with ob",
+      "english": "Let us find out whether the meeting has been cancelled.",
+      "german": "Finden wir heraus, ob die Sitzung abgesagt wurde.",
+      "why": "A suggestion in the imperative plus a passive clause in the verb-final slot: wurde ends the sentence."
+    },
+    {
+      "id": 37,
+      "skill": "Subordinate clauses without a conjunction: indirect question with ob",
+      "english": "I do not care whether he agrees or not.",
+      "german": "Mir ist egal, ob er zustimmt oder nicht.",
+      "why": "The impersonal mir ist egal frames the ob-clause; the negated oder nicht comes after the closing verb zustimmt."
+    },
+    {
+      "id": 38,
+      "skill": "Subordinate clauses without a conjunction: indirect question with ob",
+      "english": "It is not certain whether the delivery will arrive tomorrow.",
+      "german": "Es steht nicht fest, ob die Lieferung morgen kommt.",
+      "why": "A fixed impersonal expression with an ob-clause; kommt is the single verb and therefore the final word."
+    },
+    {
+      "id": 39,
+      "skill": "Subordinate clauses without a conjunction: indirect question with ob",
+      "english": "Nobody could say whether the ring was real.",
+      "german": "Niemand konnte sagen, ob der Ring echt war.",
+      "why": "The modal konnte of perception is followed by a simple past war at the end of the ob-clause."
+    },
+    {
+      "id": 40,
+      "skill": "Subordinate clauses without a conjunction: indirect question with ob",
+      "english": "We still have to check whether the visa is valid.",
+      "german": "Wir müssen noch prüfen, ob das Visum gültig ist.",
+      "why": "Two modal frames in one sentence: müssen in the main clause, ist at the end of the ob-clause."
+    },
+    {
+      "id": 41,
+      "skill": "Subordinate clauses without a conjunction: zu + infinitive instead of a clause",
+      "english": "Do not forget to close the window!",
+      "german": "Vergiss nicht, das Fenster zu schließen!",
+      "why": "vergessen cannot take a dass-clause, so the verb moves into an infinitive group with zu and the verb goes to the end."
+    },
+    {
+      "id": 42,
+      "skill": "Subordinate clauses without a conjunction: zu + infinitive instead of a clause",
+      "english": "He stopped smoking last year.",
+      "german": "Er hörte letztes Jahr auf zu rauchen.",
+      "why": "aufhören takes a zu-infinitive, never a dass-clause; the infinitive is the last element of the sentence."
+    },
+    {
+      "id": 43,
+      "skill": "Subordinate clauses without a conjunction: zu + infinitive instead of a clause",
+      "english": "What are you planning to do tonight?",
+      "german": "Was hast du vor, heute Abend zu machen?",
+      "why": "vorhaben, etwas zu tun is a verb-final construction without any conjunction at all."
+    },
+    {
+      "id": 44,
+      "skill": "Subordinate clauses without a conjunction: zu + infinitive instead of a clause",
+      "english": "She forgot to post the letter.",
+      "german": "Sie hat vergessen, den Brief aufzugeben.",
+      "why": "After vergessen the accusative object is placed in front of the separable prefix, which attaches to the infinitive: aufzugeben."
+    },
+    {
+      "id": 45,
+      "skill": "Subordinate clauses without a conjunction: zu + infinitive instead of a clause",
+      "english": "We decided to travel by train.",
+      "german": "Wir haben beschlossen, mit dem Zug zu fahren.",
+      "why": "beschließen requires a zu-infinitive; a comma separates the main clause from the infinitive group ending in fahren."
+    },
+    {
+      "id": 46,
+      "skill": "Subordinate clauses without a conjunction: zu + infinitive instead of a clause",
+      "english": "Try to be quiet, please.",
+      "german": "Versuch bitte, leise zu sein!",
+      "why": "After the imperative of versuchen the particle zu stands directly in front of the separable verb: zu sein."
+    },
+    {
+      "id": 47,
+      "skill": "Subordinate clauses without a conjunction: zu + infinitive instead of a clause",
+      "english": "I cannot afford to eat out every week.",
+      "german": "Ich kann es mir nicht leisten, jede Woche auszugehen.",
+      "why": "sich leisten is followed by a zu-infinitive group, which cannot be replaced by a dass-clause."
+    },
+    {
+      "id": 48,
+      "skill": "Subordinate clauses without a conjunction: zu + infinitive instead of a clause",
+      "english": "He promised to call me back.",
+      "german": "Er versprach, mich anzurufen.",
+      "why": "versprechen takes a zu-infinitive with the personal object placed before the prefix: mich anzurufen."
+    },
+    {
+      "id": 49,
+      "skill": "Subordinate clauses without a conjunction: zu + infinitive instead of a clause",
+      "english": "The doctor advised me to take it easy.",
+      "german": "Der Arzt empfahl mir, mich zu schonen.",
+      "why": "A separable verb appears after zu: zu schonen, with the reflexive object in front of the zu."
+    },
+    {
+      "id": 50,
+      "skill": "Subordinate clauses without a conjunction: zu + infinitive instead of a clause",
+      "english": "Stop talking nonsense!",
+      "german": "Hör auf, Unsinn zu reden!",
+      "why": "The negated imperative of aufhören is followed by an accusative object and the zu-infinitive reden."
+    },
+    {
+      "id": 51,
+      "skill": "Subordinate clauses without a conjunction: zu + infinitive instead of a clause",
+      "english": "I do not feel like cooking tonight.",
+      "german": "Ich habe keine Lust, heute Abend zu kochen.",
+      "why": "Lust haben is one of the fixed verbs that only works with a zu-infinitive, never with a subordinate clause."
+    },
+    {
+      "id": 52,
+      "skill": "Subordinate clauses without a conjunction: zu + infinitive instead of a clause",
+      "english": "He finally managed to repair the bicycle.",
+      "german": "Er schaffte es endlich, das Fahrrad zu reparieren.",
+      "why": "A verb of ability (schaffen) plus a zu-infinitive; the it replaces the usual es-construction and the infinitive closes the clause."
+    },
+    {
+      "id": 53,
+      "skill": "Subordinate clauses without a conjunction: zu + infinitive instead of a clause",
+      "english": "Do not forget to take an umbrella.",
+      "german": "Vergiss nicht, deinen Schirm mitzunehmen!",
+      "why": "The accusative object precedes the prefixed infinitive mitzunehmen, which ends the sentence."
+    },
+    {
+      "id": 54,
+      "skill": "Subordinate clauses without a conjunction: zu + infinitive instead of a clause",
+      "english": "We plan to move to Berlin next spring.",
+      "german": "Wir haben vor, im Frühjahr nach Berlin umzuziehen.",
+      "why": "vorhaben is always intransitive and demands a zu-infinitive; the time expression stands in front of it."
+    },
+    {
+      "id": 55,
+      "skill": "Subordinate clauses without a conjunction: zu + infinitive instead of a clause",
+      "english": "I refuse to talk about it any longer.",
+      "german": "Ich weigere mich, darüber weiter zu sprechen.",
+      "why": "sich weigern takes a zu-infinitive; the separable verb weiter zu sprechen stands at the very end."
+    },
+    {
+      "id": 56,
+      "skill": "Subordinate clauses without a conjunction: zu + infinitive instead of a clause",
+      "english": "They warned me not to touch the cables.",
+      "german": "Sie warnten mich, die Kabel nicht zu berühren.",
+      "why": "warnen requires a zu-infinitive with negation, which is placed in front of the final infinitive berühren."
+    },
+    {
+      "id": 57,
+      "skill": "Subordinate clauses without a conjunction: zu + infinitive instead of a clause",
+      "english": "She hopes to move abroad next year.",
+      "german": "Sie hofft, nächstes Jahr ins Ausland zu ziehen.",
+      "why": "hoffen is interesting: with a person it takes a dass-clause, but with the intent it takes the zu-infinitive ziehen."
+    },
+    {
+      "id": 58,
+      "skill": "Subordinate clauses without a conjunction: zu + infinitive instead of a clause",
+      "english": "He denied having lied.",
+      "german": "Er bestritt gelogen zu haben.",
+      "why": "A verb of denial takes the perfect infinitive without zu, whereas a negated claim would need a dass-clause."
+    },
+    {
+      "id": 59,
+      "skill": "Subordinate clauses without a conjunction: zu + infinitive instead of a clause",
+      "english": "She thanked me for helping her.",
+      "german": "Sie dankte mir, ihr geholfen zu haben.",
+      "why": "A verb of gratitude frames the perfect infinitive with zu between participle and infinitive: geholfen zu haben."
+    },
+    {
+      "id": 60,
+      "skill": "Subordinate clauses without a conjunction: zu + infinitive instead of a clause",
+      "english": "He stopped working when the colleagues arrived.",
+      "german": "Er hörte auf zu arbeiten, als die Kollegen kamen.",
+      "why": "Two clauses in one sentence: the zu-infinitive after aufhören, then a temporal als-clause with the verb at the end."
+    },
+    {
+      "id": 61,
+      "skill": "Subordinate clauses without a conjunction: infinitive group with ohne / um / (an)statt ... zu",
+      "english": "He left the house without saying goodbye.",
+      "german": "Er verließ das Haus, ohne sich zu verabschieden.",
+      "why": "ohne precedes a reflexive object plus zu-infinitive; ohne zu-subject must not appear here."
+    },
+    {
+      "id": 62,
+      "skill": "Subordinate clauses without a conjunction: infinitive group with ohne / um / (an)statt ... zu",
+      "english": "She went to bed without eating anything.",
+      "german": "Sie ging zu Bett, ohne etwas zu essen.",
+      "why": "The accusative object etwas stands in front of zu, and essen is the last word of the infinitive group."
+    },
+    {
+      "id": 63,
+      "skill": "Subordinate clauses without a conjunction: infinitive group with ohne / um / (an)statt ... zu",
+      "english": "I am calling you in order to announce my arrival.",
+      "german": "Ich rufe dich an, um dir meine Ankunft anzukündigen.",
+      "why": "The purpose clause um … zu contains a nominalised object; without a conjunction the infinitive anzukündigen has to be last."
+    },
+    {
+      "id": 64,
+      "skill": "Subordinate clauses without a conjunction: infinitive group with ohne / um / (an)statt ... zu",
+      "english": "I get up early in order to catch the first train.",
+      "german": "Ich stehe früh auf, um den ersten Zug zu bekommen.",
+      "why": "The separable verb in the main clause is split, and the purpose infinitive zu bekommen ends the sentence."
+    },
+    {
+      "id": 65,
+      "skill": "Subordinate clauses without a conjunction: infinitive group with ohne / um / (an)statt ... zu",
+      "english": "Do not go out without telling me.",
+      "german": "Geh nicht hinaus, ohne mir Bescheid zu sagen.",
+      "why": "Negated imperative with an ohne-group: the dative object mir precedes zu sagen, which stands at the end."
+    },
+    {
+      "id": 66,
+      "skill": "Subordinate clauses without a conjunction: infinitive group with ohne / um / (an)statt ... zu",
+      "english": "Instead of taking the bus, she walked.",
+      "german": "Statt mit dem Bus zu fahren, ging sie zu Fuß.",
+      "why": "statt … zu replaces a normal verb phrase, the infinitive fahren is preceded by the preparation mit dem Zug-like phrase mit dem Bus."
+    },
+    {
+      "id": 67,
+      "skill": "Subordinate clauses without a conjunction: infinitive group with ohne / um / (an)statt ... zu",
+      "english": "Without hesitating, he opened the door.",
+      "german": "Ohne zu zögern, öffnete er die Tür.",
+      "why": "A fixed idiom of manner: Ohne zu zögern keeps the bare infinitive directly after zu."
+    },
+    {
+      "id": 68,
+      "skill": "Subordinate clauses without a conjunction: infinitive group with ohne / um / (an)statt ... zu",
+      "english": "She stopped smoking in order to protect her health.",
+      "german": "Sie hörte auf zu rauchen, um ihre Gesundheit zu schützen.",
+      "why": "Two infinitive constructions in one sentence: the first ends with rauchen, the purpose group begins with um."
+    },
+    {
+      "id": 69,
+      "skill": "Subordinate clauses without a conjunction: infinitive group with ohne / um / (an)statt ... zu",
+      "english": "He is saving money in order to travel around the world.",
+      "german": "Er spart Geld, um eine Weltreise zu machen.",
+      "why": "Purpose infinitive with an article phrase in front; machen as the last word carries the zu."
+    },
+    {
+      "id": 70,
+      "skill": "Subordinate clauses without a conjunction: infinitive group with ohne / um / (an)statt ... zu",
+      "english": "The apology did not stop him from complaining.",
+      "german": "Die Entschuldigung hielt ihn nicht davon ab, sich zu beschweren.",
+      "why": "davon abhalten is a separable verb whose zu-infinitive must be placed behind the whole main clause."
+    },
+    {
+      "id": 71,
+      "skill": "Subordinate clauses without a conjunction: infinitive group with ohne / um / (an)statt ... zu",
+      "english": "She did it without being asked.",
+      "german": "Sie hat es getan, ohne gefragt zu werden.",
+      "why": "Passive infinitive with zu: the passive wird is preceded by the Partizip II gefragt and placed at the very end."
+    },
+    {
+      "id": 72,
+      "skill": "Subordinate clauses without a conjunction: infinitive group with ohne / um / (an)statt ... zu",
+      "english": "He kept talking without noticing the attention of the others.",
+      "german": "Er redete weiter, ohne die Aufmerksamkeit der anderen zu bemerken.",
+      "why": "The ohne-group is expanded by an accusative phrase; the infinitive bemerken still stands at the very end."
+    },
+    {
+      "id": 73,
+      "skill": "Subordinate clauses without a conjunction: infinitive group with ohne / um / (an)statt ... zu",
+      "english": "I need an hour in order to shower.",
+      "german": "Ich brauche eine Stunde, um zu duschen.",
+      "why": "A separable verb in the purpose group: zu precedes the whole verb, so zu duschen is the last element."
+    },
+    {
+      "id": 74,
+      "skill": "Subordinate clauses without a conjunction: infinitive group with ohne / um / (an)statt ... zu",
+      "english": "Instead of complaining, she simply changed providers.",
+      "german": "Anstatt sich zu beschweren, hat sie den Anbieter gewechselt.",
+      "why": "A perfect main clause may be placed after the anstatt-group; the reflexive sich precedes zu beschweren."
+    },
+    {
+      "id": 75,
+      "skill": "Subordinate clauses without a conjunction: infinitive group with ohne / um / (an)statt ... zu",
+      "english": "He left early without saying goodbye to anyone.",
+      "german": "Er ging früh, ohne sich von jemandem zu verabschieden.",
+      "why": "The prepositional phrase von jemandem separates the reflexive object from zu; verabschieden is last."
+    },
+    {
+      "id": 76,
+      "skill": "Subordinate clauses without a conjunction: infinitive group with ohne / um / (an)statt ... zu",
+      "english": "They celebrated the end of the year without buying expensive gifts.",
+      "german": "Sie feierten das Jahresende, ohne teure Geschenke zu kaufen.",
+      "why": "The adjective phrase teure Geschenke comes before zu; kaufen finishes the infinitive group."
+    },
+    {
+      "id": 77,
+      "skill": "Subordinate clauses without a conjunction: infinitive group with ohne / um / (an)statt ... zu",
+      "english": "He took an umbrella along in order to stay dry in the rain.",
+      "german": "Er nahm einen Schirm mit, um bei Regen trocken zu bleiben.",
+      "why": "Purpose infinitive with a second predicative adjective: zu bleiben closes the sentence."
+    },
+    {
+      "id": 78,
+      "skill": "Subordinate clauses without a conjunction: infinitive group with ohne / um / (an)statt ... zu",
+      "english": "I rang twice without reaching you.",
+      "german": "Ich habe zweimal angerufen, ohne dich zu erreichen.",
+      "why": "Perfect main clause plus an accusative object before the zu-infinitive: dich zu erreichen."
+    },
+    {
+      "id": 79,
+      "skill": "Subordinate clauses without a conjunction: infinitive group with ohne / um / (an)statt ... zu",
+      "english": "She is learning Japanese in order to work in Tokyo.",
+      "german": "Sie lernt Japanisch, um in Tokio zu arbeiten.",
+      "why": "The place expression in Tokio keeps its position between um and the infinitive; arbeiten is verb-final."
+    },
+    {
+      "id": 80,
+      "skill": "Subordinate clauses without a conjunction: infinitive group with ohne / um / (an)statt ... zu",
+      "english": "Without a plan, they wandered through the old town.",
+      "german": "Ohne Plan zogen sie durch die Altstadt.",
+      "why": "ohne here takes a bare noun instead of a zu-infinitive, which is also possible with this preposition."
+    },
+    {
+      "id": 81,
+      "skill": "Subordinate clauses without a conjunction: relative clause with a preposition, da-compound, participial attribute",
+      "english": "The house in which we live is old.",
+      "german": "Das Haus, in dem wir wohnen, ist alt.",
+      "why": "A prepositional relative clause in dem introduces the verb-final wohnen and is set off by two commas."
+    },
+    {
+      "id": 82,
+      "skill": "Subordinate clauses without a conjunction: relative clause with a preposition, da-compound, participial attribute",
+      "english": "The woman whose car was stolen went to the police.",
+      "german": "Die Frau, deren Auto gestohlen wurde, ging zur Polizei.",
+      "why": "The genitive relative pronoun deren precedes the noun Auto; the passive wurde is verb-final inside the clause."
+    },
+    {
+      "id": 83,
+      "skill": "Subordinate clauses without a conjunction: relative clause with a preposition, da-compound, participial attribute",
+      "english": "This is the project on which we have been working for months.",
+      "german": "Das ist das Projekt, an dem wir seit Monaten arbeiten.",
+      "why": "A preposition plus dative an combines with dem into an dem; the two-part verb haben … arbeiten ends the clause."
+    },
+    {
+      "id": 84,
+      "skill": "Subordinate clauses without a conjunction: relative clause with a preposition, da-compound, participial attribute",
+      "english": "The colleague to whom I lent the book has gone on holiday.",
+      "german": "Die Kollegin, der ich das Buch geliehen habe, macht gerade Urlaub.",
+      "why": "The dative relative pronoun der replaces the prepositional form mit; the perfect form geliehen habe is final."
+    },
+    {
+      "id": 85,
+      "skill": "Subordinate clauses without a conjunction: relative clause with a preposition, da-compound, participial attribute",
+      "english": "The hotel in which we stayed was fully booked.",
+      "german": "Das Hotel, in dem wir übernachtet haben, war ausgebucht.",
+      "why": "in dem as the preposition of location; the perfect verb of the relative clause closes it, while the main clause has its own verb war."
+    },
+    {
+      "id": 86,
+      "skill": "Subordinate clauses without a conjunction: relative clause with a preposition, da-compound, participial attribute",
+      "english": "I know a restaurant where you can eat very well.",
+      "german": "Ich kenne ein Restaurant, in dem man sehr gut essen kann.",
+      "why": "The preposition in is omitted from the relative pronoun (wo) and reappears as in dem; impersonal man as subject keeps kann last."
+    },
+    {
+      "id": 87,
+      "skill": "Subordinate clauses without a conjunction: relative clause with a preposition, da-compound, participial attribute",
+      "english": "That is the man who, as far as I know, lives next door.",
+      "german": "Das ist der Mann, der, soweit ich weiß, nebenan wohnt.",
+      "why": "A relative pronoun followed by a comment in brackets; the clause still ends verb-final with wohnt."
+    },
+    {
+      "id": 88,
+      "skill": "Subordinate clauses without a conjunction: relative clause with a preposition, da-compound, participial attribute",
+      "english": "The negotiations whose outcome surprised everyone lasted two days.",
+      "german": "Die Verhandlungen, deren Ergebnis alle überraschte, dauerten zwei Tage.",
+      "why": "The genitive relative clause is inserted in the middle of the sentence and closed by its own finite verb überraschte."
+    },
+    {
+      "id": 89,
+      "skill": "Subordinate clauses without a conjunction: relative clause with a preposition, da-compound, participial attribute",
+      "english": "The city in which my parents live is not that big.",
+      "german": "Die Stadt, in der meine Eltern wohnen, ist nicht besonders groß.",
+      "why": "in der for feminine nouns; the relative pronoun agrees in gender and case with das Haus, in dem."
+    },
+    {
+      "id": 90,
+      "skill": "Subordinate clauses without a conjunction: relative clause with a preposition, da-compound, participial attribute",
+      "english": "The house where we used to live has been sold.",
+      "german": "Das Haus, da wir früher gewohnt haben, wurde verkauft.",
+      "why": "The da-compound is the short variant of the prepositional relative clause: da replaces in dem, the clause stays verb-final."
+    },
+    {
+      "id": 91,
+      "skill": "Subordinate clauses without a conjunction: relative clause with a preposition, da-compound, participial attribute",
+      "english": "We are moving to Leipzig because the flats there are much cheaper.",
+      "german": "Wir ziehen nach Leipzig, da die Wohnungen dort viel günstiger sind.",
+      "why": "A da-compound in a main-clause position: da points back to Leipzig and replaces weil; the clause ends verb-final with sind."
+    },
+    {
+      "id": 92,
+      "skill": "Subordinate clauses without a conjunction: relative clause with a preposition, da-compound, participial attribute",
+      "english": "She said goodbye yesterday because she is flying to Zurich tomorrow.",
+      "german": "Sie hat sich gestern verabschiedet, da sie morgen nach Zürich fliegt.",
+      "why": "da as a substitute for the preposition in: it links back to the place just mentioned and precedes a verb-final clause."
+    },
+    {
+      "id": 93,
+      "skill": "Subordinate clauses without a conjunction: relative clause with a preposition, da-compound, participial attribute",
+      "english": "The colleague to whom I told this wants to help us.",
+      "german": "Der Kollege, dem ich davon erzählt habe, will uns helfen.",
+      "why": "A dative object in front of the reflexive verb; the perfect form erzählt habe is the last element of the relative clause."
+    },
+    {
+      "id": 94,
+      "skill": "Subordinate clauses without a conjunction: relative clause with a preposition, da-compound, participial attribute",
+      "english": "The rising electricity prices surprised many households.",
+      "german": "Die steigenden Strompreise haben viele Haushalte überrascht.",
+      "why": "The present active Partizip I steigenden functions as a predicative attribute before the noun and is declined."
+    },
+    {
+      "id": 95,
+      "skill": "Subordinate clauses without a conjunction: relative clause with a preposition, da-compound, participial attribute",
+      "english": "The frozen lake offers a beautiful view.",
+      "german": "Der gefrorene See bietet einen schönen Blick.",
+      "why": "The Partizip II gefrorene is used passively here because the ice is affected; the ge- prefix is kept with no vowel change."
+    },
+    {
+      "id": 96,
+      "skill": "Subordinate clauses without a conjunction: relative clause with a preposition, da-compound, participial attribute",
+      "english": "The injured driver was taken to hospital with serious injuries.",
+      "german": "Der verunglückte Fahrer wurde mit schweren Verletzungen ins Krankenhaus gebracht.",
+      "why": "A Partizip II as attribute with sein, so there is no ge- prefix; the vowel alternation unglückte is also visible."
+    },
+    {
+      "id": 97,
+      "skill": "Subordinate clauses without a conjunction: relative clause with a preposition, da-compound, participial attribute",
+      "english": "The submitted documents will be checked by Friday.",
+      "german": "Die eingereichten Unterlagen werden bis Freitag geprüft.",
+      "why": "Past Partizip II as attribute: the ge- prefix and the -en ending of eingereichten show passive meaning."
+    },
+    {
+      "id": 98,
+      "skill": "Subordinate clauses without a conjunction: relative clause with a preposition, da-compound, participial attribute",
+      "english": "The remote districts that are hard to reach are often ignored.",
+      "german": "Die schwer erreichbaren Ortsteile werden oft übersehen.",
+      "why": "A Partizip I-like adjective group with zu: the zu-infinitive is embedded inside the attribute before the passive predicate."
+    },
+    {
+      "id": 99,
+      "skill": "Subordinate clauses without a conjunction: relative clause with a preposition, da-compound, participial attribute",
+      "english": "The growing distrust towards the administration led to protests.",
+      "german": "Das wachsende Misstrauen gegenüber der Verwaltung führte zu Protesten.",
+      "why": "Partizip I with a meaning of ongoing development; the prepositional phrase sits between the attribute and the verb."
+    },
+    {
+      "id": 100,
+      "skill": "Subordinate clauses without a conjunction: relative clause with a preposition, da-compound, participial attribute",
+      "english": "The friends with whom we are travelling have known each other since school.",
+      "german": "Die Freunde, mit denen wir reisen, kennen sich seit der Schulzeit.",
+      "why": "The preposition mit contracts with the relative pronoun to den: mit denen; the main clause keeps its own verb kennen."
+    }
+  ]
+}

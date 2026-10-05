@@ -1019,7 +1019,8 @@
           "topic_en": "The sentence bracket and field positions",
           "term_de": "Satzklammer, Position I–III, Nachfeld",
           "covers": "position I, II and III, and which constituents can enter the Nachfeld.",
-          "provider_split": false
+          "provider_split": false,
+          "page": "satzklammer.html"
         },
         {
           "n": 25,
@@ -1081,14 +1082,16 @@
           "topic_en": "Adversative connectors",
           "term_de": "adversative Konnektoren",
           "covers": "trotzdem, dennoch, allerdings, vielmehr, hingegen.",
-          "provider_split": false
+          "provider_split": false,
+          "page": "adversative-konnektoren.html"
         },
         {
           "n": 33,
           "topic_en": "Subordinate clauses without a conjunction",
           "term_de": "Nebensätze ohne Konjunktion",
           "covers": "participle clauses: Ich gehe, ohne mich zu verabschieden.",
-          "provider_split": false
+          "provider_split": false,
+          "page": "nebensaetze-ohne-konjunktion.html"
         },
         {
           "n": 34,

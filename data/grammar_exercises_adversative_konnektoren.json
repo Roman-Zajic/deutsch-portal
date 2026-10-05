@@ -1,0 +1,711 @@
+{
+  "title": "Adversative connectors",
+  "level": "B2",
+  "n": 32,
+  "topic_en": "Adversative connectors",
+  "term_de": "Die adversativen Konnektoren",
+  "updated": "2026-10-05",
+  "schema": "english-prompt -> learner types German -> Reveal/Hide answer shows reference + speaker",
+  "exercises": [
+    {
+      "id": 1,
+      "skill": "Contrastive adverbs in position II",
+      "english": "The report was long, but nobody read it anyway.",
+      "german": "Der Bericht war lang, trotzdem hat ihn niemand gelesen.",
+      "why": "trotzdem stands in slot II before the finite verb hat and cancels the expected effect of the concession."
+    },
+    {
+      "id": 2,
+      "skill": "Contrastive adverbs in position II",
+      "english": "The warning came in time, yet we set off all the same.",
+      "german": "Die Warnung kam rechtzeitig, dennoch sind wir losgefahren.",
+      "why": "dennoch is the more formal variant of trotzdem and also occupies field II."
+    },
+    {
+      "id": 3,
+      "skill": "Contrastive adverbs in position II",
+      "english": "He has a lot of experience, but he lacks the courage.",
+      "german": "Er hat viel Erfahrung, allerdings fehlt ihm der Mut.",
+      "why": "allerdings is a particle that prefers field I, but it is also used in field II, and here it limits a positive statement."
+    },
+    {
+      "id": 4,
+      "skill": "Contrastive adverbs in position II",
+      "english": "She is helpful in principle, but she is terrible at remembering names.",
+      "german": "Sie ist grundsätzlich hilfsbereit, dabei merkt sie sich Namen schlecht.",
+      "why": "dabei points back to something already known and can stand in field II as a contrastive adverb."
+    },
+    {
+      "id": 5,
+      "skill": "Contrastive adverbs in position II",
+      "english": "He was not rude, rather he was simply in a hurry.",
+      "german": "Er war nicht unhöflich, vielmehr war er nur in Eile.",
+      "why": "vielmehr in field II refuses a previously mentioned quality and substitutes a different one."
+    },
+    {
+      "id": 6,
+      "skill": "Contrastive adverbs in position II",
+      "english": "She did not resign, rather she took a paid year off.",
+      "german": "Sie hat nicht gekündigt, vielmehr hat sie ein bezahltes Jahr genommen.",
+      "why": "vielmehr can also be used with perfect-tense main clauses, and it corrects the expectation the negated clause created."
+    },
+    {
+      "id": 7,
+      "skill": "Contrastive adverbs in position II",
+      "english": "The contract is running out, yet nobody is renewing it.",
+      "german": "Der Vertrag läuft aus, dennoch verlängert ihn niemand.",
+      "why": "dennoch in field II forms a close contrast with a passive main clause."
+    },
+    {
+      "id": 8,
+      "skill": "Contrastive adverbs in position II",
+      "english": "In spite of all our efforts we are getting nowhere.",
+      "german": "Trotzdem aller Bemühungen kommen wir nicht weiter.",
+      "why": "The genitive plural of the concession is governed by trotzdem, and the adverb still takes field II."
+    },
+    {
+      "id": 9,
+      "skill": "Contrastive adverbs in position II",
+      "english": "Despite his explanation the accusation still stands.",
+      "german": "Trotzdem seiner Erklärung bleibt der Vorwurf stehen.",
+      "why": "trotzdem with the dative of the person or thing conceded; the main clause keeps normal order."
+    },
+    {
+      "id": 10,
+      "skill": "Contrastive adverbs in position II",
+      "english": "In spite of the rain we went for a walk.",
+      "german": "Trotzdem des Regens gingen wir spazieren.",
+      "why": "trotzdem plus genitive is neutral in gender here, and the verb gingen is the second field element."
+    },
+    {
+      "id": 11,
+      "skill": "Contrastive adverbs in position II",
+      "english": "Despite his good upbringing he does not understand the rule.",
+      "german": "Trotzdem seiner guten Erziehung versteht er die Regel nicht.",
+      "why": "The dative form seiner follows trotzdem; the negated verb stays in field III because the negated element steht already fills a slot."
+    },
+    {
+      "id": 12,
+      "skill": "Contrastive adverbs in position II",
+      "english": "Despite several cancellations the course is still going ahead.",
+      "german": "Trotzdem mehrerer Absagen bleibt der Kurs geplant.",
+      "why": "mehrerer is a genitive quantifier that has to agree with the plural Absagen."
+    },
+    {
+      "id": 13,
+      "skill": "Contrastive adverbs in position II",
+      "english": "Despite his request we are travelling without him.",
+      "german": "Trotzdem seiner Bitte fahren wir ohne ihn.",
+      "why": "A common error would be trotzdem die Bitte; the pronoun must stay in the dative."
+    },
+    {
+      "id": 14,
+      "skill": "Contrastive adverbs in position II",
+      "english": "Despite the low prices nobody is buying anything.",
+      "german": "Trotzdem günstiger Preise kauft niemand ein.",
+      "why": "günstiger Preise shows the uninflected adjective form used in a fixed genitive phrase."
+    },
+    {
+      "id": 15,
+      "skill": "Contrastive adverbs in position II",
+      "english": "The exercise is hard, but it will be worth it.",
+      "german": "Die Übung fällt schwer, allerdings wird sie sich lohnen.",
+      "why": "Here allerdings concedes a difficulty and then points to a compensation in field II."
+    },
+    {
+      "id": 16,
+      "skill": "Contrastive adverbs in position II",
+      "english": "Sales here are stagnating, whereas demand abroad is growing.",
+      "german": "Der Absatz stagniert, hingegen wächst die Nachfrage im Ausland.",
+      "why": "hingegen compares two clauses from different points of view and never stands in field I."
+    },
+    {
+      "id": 17,
+      "skill": "Contrastive adverbs in position II",
+      "english": "We are saving on materials, whereas staff costs are rising.",
+      "german": "Wir sparen beim Material, hingegen steigen die Personalkosten.",
+      "why": "A third-person verb in the following clause shows that hingegen sits in field II, not field I."
+    },
+    {
+      "id": 18,
+      "skill": "Contrastive adverbs in position II",
+      "english": "She is staying at home, whereas he works in the office.",
+      "german": "Sie bleibt zu Hause, hingegen arbeitet er im Büro.",
+      "why": "The change of subject makes the contrast explicit without any conjunction."
+    },
+    {
+      "id": 19,
+      "skill": "Contrastive adverbs in position II",
+      "english": "He only reads newspapers, whereas she is working through a whole stack of novels.",
+      "german": "Er liest nur Zeitungen, sie hingegen einen ganzen Stapel Romane.",
+      "why": "When the second subject is repeated, the verb and even objects may be left out after hingegen."
+    },
+    {
+      "id": 20,
+      "skill": "Contrastive adverbs in position II",
+      "english": "The software is mature, yet there is not a line of documentation.",
+      "german": "Die Software ist ausgereift, dabei fehlt jede Dokumentation.",
+      "why": "dabei in field II picks up the immediately preceding point and negates the expectation it created."
+    },
+    {
+      "id": 21,
+      "skill": "Contrast: während",
+      "english": "While he was talking about getting better, he looked completely exhausted.",
+      "german": "Während er von der Erholung sprach, wirkte er völlig erschöpft.",
+      "why": "The two states contradict each other, which is what makes this a contrastive and not a merely temporal während."
+    },
+    {
+      "id": 22,
+      "skill": "Contrast: während",
+      "english": "While the advertisement promised a quick solution, the repair took weeks.",
+      "german": "Während die Anzeige eine schnelle Lösung versprach, dauerte die Reparatur Wochen.",
+      "why": "The verb pair versprach and dauerte highlights the contradiction between promise and reality."
+    },
+    {
+      "id": 23,
+      "skill": "Contrast: während",
+      "english": "While she painted the walls, the neighbours argued the whole time.",
+      "german": "Während sie die Wände strich, stritten die Nachbarn die ganze Zeit.",
+      "why": "This is the temporal reading: zwei Vorgänge laufen gleichzeitig ab, one positive, one unwelcome."
+    },
+    {
+      "id": 24,
+      "skill": "Contrast: während",
+      "english": "While I was waiting for the letter, the postman walked past our house.",
+      "german": "Während ich auf den Brief wartete, ging der Postbote an unserem Haus vorbei.",
+      "why": "Simultaneity alone: the waiting and the passing are neutral, so the clause is temporal, not contrastive."
+    },
+    {
+      "id": 25,
+      "skill": "Contrast: während",
+      "english": "While she claims to be short of time, she always finds an hour for the gym.",
+      "german": "Während sie behauptet, keine Zeit zu haben, findet sie immer eine Stunde fürs Training.",
+      "why": "The two statements are incompatible, so während introduces an ironic contrast."
+    },
+    {
+      "id": 26,
+      "skill": "Contrast: während",
+      "english": "While he apologised for the delay, he did not mention the reason.",
+      "german": "Während er sich für die Verspätung entschuldigte, nannte er keinen Grund.",
+      "why": "The contrast lies between the apology and the missing explanation, marked by keinen Grund."
+    },
+    {
+      "id": 27,
+      "skill": "Contrast: während",
+      "english": "While they praised the project, half the team left before the end.",
+      "german": "Während sie das Projekt lobten, verließ die halbe Mannschaft vor dem Schluss.",
+      "why": "Public praise and the mass departure form the paradox that während highlights."
+    },
+    {
+      "id": 28,
+      "skill": "Contrast: während",
+      "english": "While the doctor forbade him sport, he ran a half-marathon.",
+      "german": "Während der Arzt ihm Sport verbot, lief er einen Halbmarathon.",
+      "why": "Temporal setting with a clear contradiction; a single temporal reading would be neutral, the verb contrast carries the irony."
+    },
+    {
+      "id": 29,
+      "skill": "Contrast: während",
+      "english": "While the rent is rising, the number of tenants is falling.",
+      "german": "Während die Miete steigt, sinkt die Zahl der Mieter.",
+      "why": "Two simultaneous developments in opposite directions, the classic economic contrast."
+    },
+    {
+      "id": 30,
+      "skill": "Contrast: während",
+      "english": "While we were queuing for tickets, they were already giving them away.",
+      "german": "Während wir für Karten anstanden, verschenkten sie welche.",
+      "why": "The queue and the free give-away are simultaneous opposites in the same scene."
+    },
+    {
+      "id": 31,
+      "skill": "Contrast: während",
+      "english": "While the report praises the plant, the staff consider it a firetrap.",
+      "german": "Während der Bericht die Anlage lobt, halten die Beschäftigten sie für eine Brandfalle.",
+      "why": "Official report and insider opinion contradict each other; both clauses stay in the present for a general contrast."
+    },
+    {
+      "id": 32,
+      "skill": "Contrast: während",
+      "english": "While she was packing, her brother unpacked the bags again.",
+      "german": "Während sie die Koffer packte, packte ihr Bruder sie wieder aus.",
+      "why": "Contradictory parallel actions make this contrastive even though the timing is simultaneous."
+    },
+    {
+      "id": 33,
+      "skill": "Contrast: während",
+      "english": "While he promised to get in touch, he disappeared for a week.",
+      "german": "Während er zusagte, sich zu melden, verschwand er für eine Woche.",
+      "why": "The promise and the disappearance clash, so the clause works as a contrastive rather than merely temporal setting."
+    },
+    {
+      "id": 34,
+      "skill": "Contrast: während",
+      "english": "While the workshop was full of praise for the design, nobody mentioned the cost.",
+      "german": "Während die Werkstatt den Entwurf lobte, erwähnte niemand die Kosten.",
+      "why": "Praise plus silence about the price is the contrast the sentence stages."
+    },
+    {
+      "id": 35,
+      "skill": "Contrast: während",
+      "english": "While the audience clapped, the soloist made a false note.",
+      "german": "Während das Publikum klatschte, sang die Solistin einen falschen Ton.",
+      "why": "Apparent success and the audible error contradict each other."
+    },
+    {
+      "id": 36,
+      "skill": "Contrast: während",
+      "english": "While everybody was searching for the key, it lay in her pocket.",
+      "german": "Während alle nach dem Schlüssel suchten, lag er in ihrer Tasche.",
+      "why": "The search and the obvious place are simultaneous opposites with an ironic point."
+    },
+    {
+      "id": 37,
+      "skill": "Contrast: während",
+      "english": "While the company saves on staff, it spends a fortune on consultants.",
+      "german": "Während die Firma beim Personal spart, gibt sie für Berater ein Vermögen aus.",
+      "why": "Two simultaneous but contradictory decisions make the contrast unmistakable."
+    },
+    {
+      "id": 38,
+      "skill": "Contrast: während",
+      "english": "While he was signing the contract, his old car broke down outside.",
+      "german": "Während er den Vertrag unterschrieb, blieb sein alter Wagen draußen liegen.",
+      "why": "Purely temporal: the main clause narrates what happened at the same moment, no contradiction."
+    },
+    {
+      "id": 39,
+      "skill": "Contrast: während",
+      "english": "While she insists on early flights, she never gets up before nine.",
+      "german": "Während sie auf frühe Flüge besteht, steht sie nie vor neun auf.",
+      "why": "Insistence and behaviour contradict each other, giving the ironic contrastive reading."
+    },
+    {
+      "id": 40,
+      "skill": "Contrast: während",
+      "english": "While they said the software was stable, it crashed three times on Monday.",
+      "german": "Während sie behaupteten, die Software sei stabil, stürzte sie am Montag dreimal ab.",
+      "why": "Claim and event clash; the finite verb in the subordinate clause brackets the reported statement."
+    },
+    {
+      "id": 41,
+      "skill": "Contrast: nicht ... sondern",
+      "english": "He is not in Berlin, he is in Hamburg.",
+      "german": "Er ist nicht in Berlin, sondern in Hamburg.",
+      "why": "sondern stands in field III and replaces the negated member of the same set."
+    },
+    {
+      "id": 42,
+      "skill": "Contrast: nicht ... sondern",
+      "english": "She did not call, she wrote an email.",
+      "german": "Sie hat nicht angerufen, sondern eine E-Mail geschrieben.",
+      "why": "Perfect tense: the negation covers the auxiliary and the participle, sondern links the two clauses."
+    },
+    {
+      "id": 43,
+      "skill": "Contrast: nicht ... sondern",
+      "english": "I did not go swimming, I went running.",
+      "german": "Ich bin nicht schwimmen gegangen, sondern joggen.",
+      "why": "The verb phrase after sondern is the elliptical form, with only the infinitival complement."
+    },
+    {
+      "id": 44,
+      "skill": "Contrast: nicht ... sondern",
+      "english": "The problem is not the price but the delivery time.",
+      "german": "Das Problem ist nicht der Preis, sondern die Lieferzeit.",
+      "why": "A copula takes a nominal complement on both sides; the negated noun is the only member replaced."
+    },
+    {
+      "id": 45,
+      "skill": "Contrast: nicht ... sondern",
+      "english": "We did not lose money, we broke even.",
+      "german": "Wir haben kein Geld verloren, sondern nur die Kosten gedeckt.",
+      "why": "Here the negated part is a noun, so the ellipsis after sondern is not a verb at all."
+    },
+    {
+      "id": 46,
+      "skill": "Contrast: nicht ... sondern",
+      "english": "He is not tired but rather bored.",
+      "german": "Er ist nicht müde, sondern gelangweilt.",
+      "why": "Adjectives without sein stand in the first part, so the second part is reduced to the adjective."
+    },
+    {
+      "id": 47,
+      "skill": "Contrast: nicht ... sondern",
+      "english": "They are not at school, they are on a school trip.",
+      "german": "Sie sind nicht in der Schule, sondern auf Klassenfahrt.",
+      "why": "Two locative complements are opposed; the prepositional phrase stands in the second position of the main clause."
+    },
+    {
+      "id": 48,
+      "skill": "Contrast: nicht ... sondern",
+      "english": "I did not understand the question, I simply did not hear it.",
+      "german": "Ich habe die Frage nicht verstanden, sondern einfach nicht gehört.",
+      "why": "A near-synonym of the negated word appears in the second part, which sharpens the contrast."
+    },
+    {
+      "id": 49,
+      "skill": "Contrast: nicht ... sondern",
+      "english": "It is not a question of money but of time.",
+      "german": "Es ist keine Frage des Geldes, sondern der Zeit.",
+      "why": "The genitive parallel after the preposition of must be repeated, nicht … sondern does not license ellipsis here."
+    },
+    {
+      "id": 50,
+      "skill": "Contrast: nicht ... sondern",
+      "english": "She did not want to rest, she wanted to work.",
+      "german": "Sie wollte sich nicht ausruhen, sondern arbeiten.",
+      "why": "A verb second clause with the same subject follows, which is possible with the final sondern."
+    },
+    {
+      "id": 51,
+      "skill": "Contrast: nicht ... sondern",
+      "english": "The wine is not red but white.",
+      "german": "Der Wein ist nicht rot, sondern weiß.",
+      "why": "The classic minimal pair: two predicative adjectives, one negated, one substituted."
+    },
+    {
+      "id": 52,
+      "skill": "Contrast: nicht ... sondern",
+      "english": "I did not arrive late, I came in time.",
+      "german": "Ich bin nicht zu spät gekommen, sondern pünktlich.",
+      "why": "Adverbials replace each other; the negated adverb occupies the same slot the second adverb takes."
+    },
+    {
+      "id": 53,
+      "skill": "Contrast: nicht ... sondern",
+      "english": "He is not out of spite, he is out of principle.",
+      "german": "Er handelt nicht aus Bosheit, sondern aus Prinzip.",
+      "why": "The second aus-phrase repeats the preposition but takes a new noun, showing no full ellipsis."
+    },
+    {
+      "id": 54,
+      "skill": "Contrast: nicht ... sondern",
+      "english": "We did not lose the final, we were eliminated in the semi-final.",
+      "german": "Wir haben das Finale nicht verloren, sondern erst im Halbfinale ausgeschieden.",
+      "why": "A longer predicate replaces the negated one, so the second clause cannot be shortened further."
+    },
+    {
+      "id": 55,
+      "skill": "Contrast: nicht ... sondern",
+      "english": "The film is not a thriller but a family drama.",
+      "german": "Der Film ist kein Thriller, sondern ein Familiendrama.",
+      "why": "Indefinite pronouns kein and ein are contrasted inside the same noun slot."
+    },
+    {
+      "id": 56,
+      "skill": "Contrast: nicht ... sondern",
+      "english": "I am not angry, only disappointed.",
+      "german": "Ich bin nicht ärgerlich, sondern enttäuscht.",
+      "why": "Only the adjective changes; the copula and the subject are identical."
+    },
+    {
+      "id": 57,
+      "skill": "Contrast: nicht ... sondern",
+      "english": "She is not only a colleague, but also the person we confide in.",
+      "german": "Sie ist nicht nur Kollegin, sondern auch unsere Vertrauensperson.",
+      "why": "sondern auch adds a role to the negated one; the focus stays on the first predicate."
+    },
+    {
+      "id": 58,
+      "skill": "Contrast: nicht ... sondern",
+      "english": "The flat is not only quiet, but also centrally located.",
+      "german": "Die Wohnung ist nicht nur ruhig, sondern auch zentral.",
+      "why": "nur … auch coordinates two adjectives, so both properties are asserted."
+    },
+    {
+      "id": 59,
+      "skill": "Contrast: nicht ... sondern",
+      "english": "He not only helped, but also paid for everything.",
+      "german": "Er hat nicht nur geholfen, sondern auch alles bezahlt.",
+      "why": "The second verb group replaces nothing, it enlarges what the first one did."
+    },
+    {
+      "id": 60,
+      "skill": "Contrast: nicht ... sondern",
+      "english": "We not only waited, but also complained the whole time.",
+      "german": "Wir haben nicht nur gewartet, sondern auch die ganze Zeit geschimpft.",
+      "why": "sondern auch links two past actions, and the coordinated verb groups are both complete."
+    },
+    {
+      "id": 61,
+      "skill": "Concession short: zwar ... aber / doch, zugegeben, na gut",
+      "english": "The flat is expensive, but it does have three rooms.",
+      "german": "Zwar ist die Wohnung teuer, drei Zimmer gibt es dafür.",
+      "why": "zwar concedes the price, the second clause adds the compensating fact; no closing aber is needed when the contrast is loose."
+    },
+    {
+      "id": 62,
+      "skill": "Concession short: zwar ... aber / doch, zugegeben, na gut",
+      "english": "He is new, but his results are better.",
+      "german": "Er ist zwar noch neu, seine Ergebnisse sind aber besser.",
+      "why": "The two clauses are independent main clauses, which is the standard zwar … aber pattern."
+    },
+    {
+      "id": 63,
+      "skill": "Concession short: zwar ... aber / doch, zugegeben, na gut",
+      "english": "I was wrong, but the damage was small.",
+      "german": "Zwar habe ich mich geirrt, doch der Schaden war gering.",
+      "why": "With doch the main clause is inverted: the verb war comes before the subject der Schaden."
+    },
+    {
+      "id": 64,
+      "skill": "Concession short: zwar ... aber / doch, zugegeben, na gut",
+      "english": "All right, I was wrong.",
+      "german": "Na gut, ich habe mich geirrt.",
+      "why": "na gut concedes a point in a single short sentence, with no second clause at all."
+    },
+    {
+      "id": 65,
+      "skill": "Concession short: zwar ... aber / doch, zugegeben, na gut",
+      "english": "Admittedly the idea was good, only the execution was not.",
+      "german": "Zugegeben, die Idee war gut, nur die Umsetzung nicht.",
+      "why": "The bare form zugegeben opens the sentence, and nur closes the contrast."
+    },
+    {
+      "id": 66,
+      "skill": "Concession short: zwar ... aber / doch, zugegeben, na gut",
+      "english": "The date was awkward, but we kept it anyway.",
+      "german": "Der Termin war zwar ungünstig, wir haben ihn trotzdem wahrgenommen.",
+      "why": "zwar in field I, main clause with normal field II order."
+    },
+    {
+      "id": 67,
+      "skill": "Concession short: zwar ... aber / doch, zugegeben, na gut",
+      "english": "Well, that was not exactly a success.",
+      "german": "Na ja, ein Erfolg war das nicht.",
+      "why": "na ja concedes with visible scepticism; a following negation creates the contrast."
+    },
+    {
+      "id": 68,
+      "skill": "Concession short: zwar ... aber / doch, zugegeben, na gut",
+      "english": "I do not know how it will go on, but I am staying with it.",
+      "german": "Zwar weiß ich nicht, wie es weitergeht, ich bleibe aber dabei.",
+      "why": "zwar introduces the concession, aber carries the main message."
+    },
+    {
+      "id": 69,
+      "skill": "Concession short: zwar ... aber / doch, zugegeben, na gut",
+      "english": "She has a lot of experience, but she lacks patience.",
+      "german": "Sie hat zwar viel Erfahrung, nur fehlt ihr die Geduld.",
+      "why": "nur as the closing particle after a zwar clause, typical of spoken German."
+    },
+    {
+      "id": 70,
+      "skill": "Concession short: zwar ... aber / doch, zugegeben, na gut",
+      "english": "Admittedly one could have informed me.",
+      "german": "Zugegebenermaßen hätte man mich informieren können.",
+      "why": "A one-clause concession; the missing second part makes the reproach implicit."
+    },
+    {
+      "id": 71,
+      "skill": "Contrast without a connector",
+      "english": "He runs fast, he is not athletic.",
+      "german": "Er läuft schnell, er ist nicht sportlich.",
+      "why": "The negated statement at the end corrects what the first clause suggested."
+    },
+    {
+      "id": 72,
+      "skill": "Contrast without a connector",
+      "english": "The solution was not elegant, yet it worked.",
+      "german": "Die Lösung war nicht elegant, sie hat trotzdem funktioniert.",
+      "why": "Two independent main clauses whose contrast is carried by the word order and intonation alone, with no conjunction."
+    },
+    {
+      "id": 73,
+      "skill": "Contrast without a connector",
+      "english": "We argued for a long time, nothing was decided.",
+      "german": "Wir haben lange diskutiert, beschlossen wurde nichts.",
+      "why": "The second clause is passive and nominative: the contrast is made by word order alone."
+    },
+    {
+      "id": 74,
+      "skill": "Contrast without a connector",
+      "english": "Barely any coffee, but three meetings a day.",
+      "german": "Kaum Kaffee, dafür drei Meetings am Tag.",
+      "why": "dafür is an adversative particle; the verb is left out of the second nominalised clause."
+    },
+    {
+      "id": 75,
+      "skill": "Contrast without a connector",
+      "english": "He has a fever, she is completely healthy.",
+      "german": "Er hat Fieber, sie ist völlig gesund.",
+      "why": "A parallel present-tense pair comparing two people, no linking word needed."
+    },
+    {
+      "id": 76,
+      "skill": "Contrast without a connector",
+      "english": "Where is the rest?",
+      "german": "Wo bleibt der Rest?",
+      "why": "A short elliptical question whose meaning is only clear from the context, a frequent contrastive move in dialogue."
+    },
+    {
+      "id": 77,
+      "skill": "Contrast without a connector",
+      "english": "Rain again? Rain again?",
+      "german": "Wieder Regen? Schon wieder Regen?",
+      "why": "Repetition of the question word marks exasperation, a purely sentence-level contrast."
+    },
+    {
+      "id": 78,
+      "skill": "Contrast without a connector",
+      "english": "First the draft, then we will discuss.",
+      "german": "Zuerst der Entwurf, dann diskutieren wir.",
+      "why": "The first imperative and the second main clause contrast the order of two steps."
+    },
+    {
+      "id": 79,
+      "skill": "Contrast without a connector",
+      "english": "He laughed, and nobody laughed with him.",
+      "german": "Er lachte, und keiner lachte mit.",
+      "why": "A coordinated second clause with an ellipsis of the verb gruppe; the contrast comes from keiner alone."
+    },
+    {
+      "id": 80,
+      "skill": "Contrast without a connector",
+      "english": "Done – and now to the food!",
+      "german": "Fertig – und jetzt zum Essen!",
+      "why": "A two-part sentence: a bare elliptical statement followed by an imperative pivot, no connector."
+    },
+    {
+      "id": 81,
+      "skill": "Concession short: zwar ... aber / doch, zugegeben, na gut",
+      "english": "We waited a long time, but the queue moved at last.",
+      "german": "Wir haben zwar lange gewartet, doch die Schlange bewegte sich endlich.",
+      "why": "zwar … doch inverts the main clause: the verb moves behind doch, the subject follows it."
+    },
+    {
+      "id": 82,
+      "skill": "Concession short: zwar ... aber / doch, zugegeben, na gut",
+      "english": "The file is small, yet it takes forever to open.",
+      "german": "Die Datei ist zwar klein, doch das Öffnen dauert ewig.",
+      "why": "With doch the main clause is inverted, so it reads as a short, emphatic reaction."
+    },
+    {
+      "id": 83,
+      "skill": "Concession short: zwar ... aber / doch, zugegeben, na gut",
+      "english": "She is certainly right, though nobody believes her.",
+      "german": "Sie hat zwar recht, doch niemand glaubt ihr.",
+      "why": "Inverted main clause: the subject follows the verb, which is a hallmark of doch."
+    },
+    {
+      "id": 84,
+      "skill": "Concession short: zwar ... aber / doch, zugegeben, na gut",
+      "english": "The flat is fine, but there is no lift.",
+      "german": "Die Wohnung ist in Ordnung, einen Aufzug gibt es dort jedoch nicht.",
+      "why": "zwar can stand in field II as well; here the following clause ends with a negation that reverses it."
+    },
+    {
+      "id": 85,
+      "skill": "Concession short: zwar ... aber / doch, zugegeben, na gut",
+      "english": "Admittedly the app is useful, but it collects far too much data.",
+      "german": "Zugegebenermaßen ist die App nützlich, sie sammelt aber viel zu viele Daten.",
+      "why": "zugegebenermaßen concedes at the start of the sentence in a neutral, written register."
+    },
+    {
+      "id": 86,
+      "skill": "Concession short: zwar ... aber / doch, zugegeben, na gut",
+      "english": "It is admittedly a small point, but it changes the whole argument.",
+      "german": "Zugegeben ist es ein kleiner Punkt, doch er ändert das ganze Argument.",
+      "why": "The bare form zugegeben works as a sentence-initial concession, with doch inverting the main clause."
+    },
+    {
+      "id": 87,
+      "skill": "Concession short: zwar ... aber / doch, zugegeben, na gut",
+      "english": "His presentation was not exactly brilliant, but he got the job.",
+      "german": "Sein Vortrag war na gut, er bekam die Stelle aber trotzdem.",
+      "why": "na gut is the colloquial concession; the adverb placement in the main clause adds ironic understatement."
+    },
+    {
+      "id": 88,
+      "skill": "Concession short: zwar ... aber / doch, zugegeben, na gut",
+      "english": "The attempt was pretty useless, but we learned a lot.",
+      "german": "Der Versuch war na gut nutzlos, wir haben aber viel daraus gelernt.",
+      "why": "na gut in field I downgrades what follows, and the main clause recovers the value."
+    },
+    {
+      "id": 89,
+      "skill": "Concession short: zwar ... aber / doch, zugegeben, na gut",
+      "english": "The grammar exercise was not exactly easy, but it helped me a lot.",
+      "german": "Die Grammatikübung war na nicht leicht, sie hat mir aber sehr geholfen.",
+      "why": "na combines with a negation to concede in an understated, conversational way."
+    },
+    {
+      "id": 90,
+      "skill": "Concession short: zwar ... aber / doch, zugegeben, na gut",
+      "english": "The course is not cheap, but the material is worth the money.",
+      "german": "Der Kurs ist na teuer, das Material ist aber jeden Cent wert.",
+      "why": "na vor dem Komparativ is a spoken alternative to the written zugegebenermaßen."
+    },
+    {
+      "id": 91,
+      "skill": "Contrast without a connector",
+      "english": "Your shirt is blue, mine is white.",
+      "german": "Dein Hemd ist blau, meins ist weiß.",
+      "why": "Two main clauses set side by side; the second pronoun subject plus meins replaces the repeated noun."
+    },
+    {
+      "id": 92,
+      "skill": "Contrast without a connector",
+      "english": "He arrived on time, she ten minutes late.",
+      "german": "Er kam pünktlich, sie zehn Minuten zu spät.",
+      "why": "The second clause leaves out the verb; subject and adverbial alone carry the contrast."
+    },
+    {
+      "id": 93,
+      "skill": "Contrast without a connector",
+      "english": "Are you coming with us, or are you staying here?",
+      "german": "Kommst du mit, oder bleibst du hier?",
+      "why": "An either-or question is a contrast between two alternatives with no connector at all."
+    },
+    {
+      "id": 94,
+      "skill": "Contrast without a connector",
+      "english": "The children wanted to stay, the parents insisted on leaving.",
+      "german": "Die Kinder wollten bleiben, die Eltern bestanden darauf zu fahren.",
+      "why": "Two finite clauses with the verb repeated show the two camps set against each other."
+    },
+    {
+      "id": 95,
+      "skill": "Contrast without a connector",
+      "english": "I ordered coffee, she ordered tea.",
+      "german": "Ich habe Kaffee bestellt, sie Tee.",
+      "why": "The verb and the article are dropped in the second clause, so the ellipsis itself marks the contrast."
+    },
+    {
+      "id": 96,
+      "skill": "Contrast without a connector",
+      "english": "Of course nobody agrees, then who paid the deposit?",
+      "german": "Natürlich stimmt niemand zu, und wer hat dann die Anzahlung gemacht?",
+      "why": "The first clause is a negative statement, the second an impatient question about the same matter."
+    },
+    {
+      "id": 97,
+      "skill": "Contrast without a connector",
+      "english": "What a shame! And after all that work?",
+      "german": "Schade! Und nach all der Arbeit?",
+      "why": "An exclamation plus an elliptical question fragment; the missing verb heightens the reproach."
+    },
+    {
+      "id": 98,
+      "skill": "Contrast without a connector",
+      "english": "He is not stupid, just inexperienced.",
+      "german": "Er ist nicht dumm, nur unerfahren.",
+      "why": "The two predicative adjectives are contrasted by nur, which is a one-word contrastive adverb."
+    },
+    {
+      "id": 99,
+      "skill": "Contrast without a connector",
+      "english": "It was the plan that was wrong, not the team.",
+      "german": "Der Plan war falsch, nicht das Team.",
+      "why": "The negated part is moved to the end as a focus correction, with no connector in front of it."
+    },
+    {
+      "id": 100,
+      "skill": "Contrast without a connector",
+      "english": "Go ahead, just take an umbrella with you.",
+      "german": "Mach ruhig, nimm nur einen Schirm mit.",
+      "why": "The imperative concedes and then corrects with the particle nur, which is a contrastive adverb in field I of the second clause."
+    }
+  ]
+}

@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Adversative connectors — Die adversativen Konnektoren | Deutsch Lernen</title>
+<style>
+:root{
+  --font:"Segoe UI",system-ui,-apple-system,sans-serif;
+  --teal-900:#005A5A; --teal-700:#008282; --teal-400:#50C1C1; --teal-100:#95DFDB;
+  --amber:#E1A01E; --red:#C41E3A; --green:#1D7A4C;
+  --ink:#012D2C; --muted:#008282;
+  --page:#F0FAFA; --card:#FFF; --in:#F0FAFA; --border:#D0ECEB;
+  --shadow:0 1px 4px rgba(1,45,44,.10); --shadow-md:0 4px 14px rgba(1,45,44,.12);
+  --r:8px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font);font-size:16px;color:var(--teal-900);background:var(--page);
+  line-height:1.65;-webkit-font-smoothing:antialiased;
+  display:flex;flex-direction:column;min-height:100vh}
+
+.navbar{display:flex;align-items:center;gap:12px;height:48px;padding:0 14px;
+  background:var(--teal-900);border-bottom:1px solid rgba(149,223,219,.15);
+  position:sticky;top:0;z-index:100;flex-shrink:0}
+.brand-icon{display:flex;align-items:center;flex-shrink:0}
+.nav-pipe{width:1px;height:16px;background:rgba(149,223,219,.30);flex-shrink:0;margin:0 12px}
+.nav-brand-text{font-size:.95rem;font-weight:600;color:var(--teal-100);text-decoration:none;white-space:nowrap}
+.nav-actions{margin-left:auto;display:flex;align-items:center;gap:8px}
+.icon-btn{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;padding:0;
+  color:var(--teal-100);background:rgba(149,223,219,.12);border:1px solid rgba(149,223,219,.22);
+  border-radius:4px;cursor:pointer;transition:130ms;text-decoration:none;flex-shrink:0}
+.icon-btn:hover{background:rgba(149,223,219,.24);border-color:rgba(149,223,219,.45)}
+.btn-nav{display:inline-flex;align-items:center;justify-content:center;height:32px;padding:0 12px;
+  font-size:.78rem;font-weight:600;font-family:var(--font);color:var(--teal-100);text-decoration:none;
+  background:rgba(149,223,219,.12);border:1px solid rgba(149,223,219,.22);border-radius:4px;
+  transition:130ms;white-space:nowrap;flex-shrink:0}
+.btn-nav:hover{background:rgba(149,223,219,.24);border-color:rgba(149,223,219,.45)}
+@media (max-width:400px){.btn-nav{padding:0 9px;font-size:.74px;font-size:.74rem}}
+.icon-btn svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:2;
+  stroke-linecap:round;stroke-linejoin:round}
+@media (max-width:560px){.nav-brand-text{font-size:.85rem}}
+
+.wrap{max-width:860px;width:100%;margin:0 auto;padding:20px 16px 0;flex:1 0 auto}
+
+h1{font-size:1.5rem;line-height:1.3;margin:0 0 4px}
+h1 .de{display:block;font-size:1rem;color:var(--teal-700);font-weight:600;margin-top:2px}
+
+section{margin-bottom:30px}
+h2{font-size:1.05rem;margin-bottom:10px;padding-bottom:6px;border-bottom:2px solid var(--teal-400)}
+h3{font-size:.85rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;
+  color:var(--teal-700);margin:16px 0 8px}
+p{margin-bottom:10px}
+.lead{color:var(--ink)}
+small{color:var(--muted)}
+
+.rulebox{background:var(--in);border:1px solid var(--border);border-left:4px solid var(--teal-400);
+  border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.rulebox strong{color:var(--teal-700)}
+.warnbox{background:rgba(196,30,58,.05);border:1px solid rgba(196,30,58,.25);
+  border-left:4px solid var(--red);border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.warnbox strong{color:var(--red)}
+.tipbox{background:rgba(29,122,76,.06);border:1px solid rgba(29,122,76,.22);
+  border-left:4px solid var(--green);border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.tipbox strong{color:var(--green)}
+
+table{width:100%;border-collapse:collapse;margin:12px 0;font-size:.88rem;
+  table-layout:fixed}
+th,td{overflow-wrap:anywhere;word-break:normal;hyphens:auto}
+th,td{text-align:left;padding:7px 9px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--in);font-weight:700;font-size:.76rem;text-transform:uppercase;
+  letter-spacing:.04em;color:var(--teal-700)}
+td.de{color:var(--ink)}
+tr:last-child td{border-bottom:none}
+
+.mic{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;
+  padding:0;flex-shrink:0;vertical-align:middle;border-radius:50%;cursor:pointer;
+  color:var(--teal-700);background:rgba(80,193,193,.16);border:1px solid rgba(80,193,193,.45);
+  transition:130ms}
+.mic:hover{background:rgba(80,193,193,.34)}
+.mic:focus-visible{outline:2px solid var(--teal-700);outline-offset:2px}
+.mic svg{width:13px;height:13px;fill:none;stroke:currentColor;stroke-width:2;
+  stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.mic[aria-pressed="true"]{background:var(--teal-700);color:#fff;border-color:var(--teal-700)}
+.mic[aria-pressed="true"] .pulse{animation:pulse 1s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+.mic[disabled]{opacity:.45;cursor:not-allowed}
+.microw{display:flex;align-items:flex-start;gap:8px}
+.microw > .mtext{flex:1;min-width:0}
+.ex{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:12px 13px;
+  margin-bottom:9px;box-shadow:var(--shadow)}
+.ex .de{font-size:.98rem;color:var(--ink);margin-bottom:4px}
+.ex .de em{color:var(--teal-700);font-style:normal;font-weight:700;background:rgba(80,193,193,.20);
+  padding:0 3px;border-radius:2px}
+.ex .en{font-size:.84rem;color:var(--muted)}
+.ex .why{font-size:.82rem;color:var(--teal-700);margin-top:6px;padding-top:6px;
+  border-top:1px dotted var(--border)}
+.ex .why b{font-weight:700}
+
+/* ── EXERCISES ── */
+.btn{font-family:var(--font);font-size:.78rem;font-weight:600;cursor:pointer;
+  padding:6px 12px;border-radius:4px;border:1px solid var(--teal-400);
+  background:rgba(80,193,193,.14);color:var(--teal-700);transition:130ms;white-space:nowrap}
+.btn:hover{background:rgba(80,193,193,.28)}
+.btn.ghost{background:transparent;border-color:var(--border);color:var(--muted)}
+.btn.ghost:hover{border-color:var(--teal-400);color:var(--teal-700)}
+.noVoice{display:none;align-items:flex-start;gap:8px;margin-bottom:12px;padding:9px 12px;
+  background:rgba(225,160,30,.12);border:1px solid rgba(225,160,30,.4);border-radius:var(--r);
+  font-size:.83rem;color:#7A5000}
+.noVoice b{color:#7A5000}
+
+.q{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:12px 13px;
+  margin-bottom:10px;box-shadow:var(--shadow)}
+.q.revealed{border-color:var(--teal-400)}
+.q.correct{border-color:rgba(29,122,76,.5);background:rgba(29,122,76,.04)}
+.q.wrong{border-color:rgba(196,30,58,.45);background:rgba(196,30,58,.03)}
+.qtop{display:flex;gap:9px;align-items:flex-start;margin-bottom:9px}
+.qnum{flex-shrink:0;width:23px;height:23px;border-radius:50%;background:rgba(0,130,130,.10);
+  color:var(--teal-7);color:var(--teal-700);font-size:.7rem;font-weight:700;display:flex;
+  align-items:center;justify-content:center;margin-top:1px}
+.q.correct .qnum{background:rgba(29,122,76,.16);color:var(--green)}
+.q.wrong .qnum{background:rgba(196,30,58,.14);color:var(--red)}
+.inputrow{display:flex;align-items:stretch;gap:6px;position:relative}
+.ainput{flex:1;min-width:0;font-family:var(--font);font-size:.92rem;color:var(--ink);
+  background:var(--in);border:1px solid var(--border);border-radius:5px;padding:8px 32px 8px 11px;transition:130ms}
+.ainput:focus{outline:none;border-color:var(--teal-400);background:#fff;box-shadow:0 0 0 3px rgba(80,193,193,.16)}
+/* small keyboard icon, vertically centred at the right edge of the field */
+.keybtn{flex-shrink:0;width:28px;align-self:stretch;display:inline-flex;align-items:center;
+  justify-content:center;padding:0;cursor:pointer;border-radius:5px;
+  color:var(--teal-700);background:rgba(80,193,193,.16);border:1px solid rgba(80,193,193,.45);
+  transition:130ms}
+.keybtn:hover{background:rgba(80,193,193,.32)}
+.keybtn:focus-visible{outline:2px solid var(--teal-700);outline-offset:2px}
+.keybtn svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:1.7;
+  stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.keybtn[aria-expanded="true"]{background:var(--teal-700);color:#fff;border-color:var(--teal-700)}
+/* letter panel lives inside the card so no ancestor can clip it */
+.pad{display:none;flex-wrap:wrap;gap:5px;margin-top:7px;padding:8px;
+  background:var(--in);border:1px solid var(--border);border-radius:5px}
+.pad.open{display:flex}
+.padkey{font-family:var(--font);font-size:.92rem;font-weight:600;color:var(--teal-900);
+  background:var(--card);border:1px solid var(--border);border-radius:4px;
+  min-width:34px;height:32px;cursor:pointer;transition:130ms}
+.padkey:hover{background:var(--teal-400);border-color:var(--teal-400)}
+.padkey:focus-visible{outline:2px solid var(--teal-700);outline-offset:1px}
+.btn.rev{margin-top:8px}
+.btn.rev.on{background:rgba(0,90,90,.10);border-color:var(--teal-700)}
+.ansrow{margin:6px 0;padding:7px 9px;background:rgba(80,193,193,.09);border-radius:5px}
+.ansrow .mtext{font-size:.93rem}
+.qtext{font-size:.95rem;color:var(--ink);margin-bottom:9px;flex:1;min-width:0}
+
+.fb{margin-top:9px;padding-top:9px;border-top:1px dotted var(--border);font-size:.85rem}
+.fb .ans{font-weight:600;color:var(--teal-700);margin-bottom:4px}
+.fb .why{color:var(--muted)}
+
+details.fold{margin-bottom:9px;border:1px solid var(--border);border-radius:6px;background:var(--card)}
+details.fold > summary{padding:9px 12px;font-weight:600;font-size:.88rem;cursor:pointer;
+  color:var(--teal-900);list-style:none}
+details.fold > summary::-webkit-details-marker{display:none}
+details.fold > summary::before{content:"▸";color:var(--teal-700);transition:transform .15s;
+  display:inline-block;margin-right:5px}
+details.fold[open] > summary::before{transform:rotate(90deg)}
+details.fold .foldbody{padding:0 12px 11px;border-top:1px solid var(--border);padding-top:9px;
+  font-size:.9rem}
+
+.footer{position:sticky;bottom:0;z-index:50;width:100%;max-width:var(--wrapw,860px);
+  margin-inline:auto;border-top:1px solid var(--border);padding:10px 16px;background:var(--page);
+  display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:.78rem;color:var(--muted)}
+.footer strong{color:var(--teal-700)}
+.footer-dot{margin:0 10px;color:var(--border)}
+
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+  <a class="brand-icon" href="../../" aria-label="Deutsch Lernen home">
+    <svg width="24" height="17" viewBox="0 0 31 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0"  y="0"  width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="0"  width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="0"  width="9" height="6" rx="1.5" fill="#008282"/>
+      <rect x="0"  y="8"  width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="8"  width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="8"  width="9" height="6" rx="1.5" fill="#008282"/>
+      <rect x="0"  y="16" width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="16" width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="16" width="9" height="6" rx="1.5" fill="#E1A01E"/>
+    </svg>
+  </a>
+  <div class="nav-pipe"></div>
+  <a class="nav-brand-text" href="index.html">Grammar</a>
+  <div class="nav-actions">
+    <a class="btn-nav" href="index.html" title="All grammar topics">All topics</a>
+    <a class="icon-btn" href="../../" title="Back to all modules" aria-label="Back to all modules">
+      <svg viewBox="0 0 24 24"><path d="M3 12l9-9 9 9"></path><path d="M5 10v10h14V10"></path></svg>
+    </a>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <h1>Adversative connectors<span class="de">Die adversativen Konnektoren</span></h1>
+  
+  <!-- ══ 1. CONCEPT ══ -->
+  <section>
+    <h2>1 · The concept</h2>
+
+    <p class="lead">A <strong>contrast</strong> is not the same as a concession. A concession
+      admits an obstacle and then overrides it; a contrast sets two facts side by side and
+      lets the speaker say that they do not match. German builds contrast in three ways:
+      with an adverb in a fixed slot, with a contrastive clause, and with a bare second
+      sentence that needs no connective at all.</p>
+
+    <div class="rulebox">
+      <strong>The rule in one line.</strong> A contrastive adverb is counted as one element in
+      the position it occupies — usually position II. Only the contrastive <em>clause</em>
+      (<em>w&auml;hrend</em>, <em>wo hingegen</em>) forces verb-final order; <em>sondern</em>
+      opens its own clause and therefore resets the count to position I.
+    </div>
+
+    <h3>The three mechanisms</h3>
+    <table>
+      <thead><tr><th>Type</th><th>Markers</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">adverb in a fixed slot</td>
+            <td class="de">trotzdem, dennoch, jedoch, allerdings, hingegen, vielmehr, dabei, indessen, gleichwohl, denkbar</td>
+            <td><b>Er</b> ist <b>krank</b>, <b>trotzdem</b> kommt er.</td></tr>
+        <tr><td class="de">contrastive clause</td>
+            <td class="de">w&auml;hrend, w&auml;hrend … hingegen, wo hingegen</td>
+            <td><b>W&auml;hrend</b> sie <b>plant</b>, <b>schreiben</b> wir.</td></tr>
+        <tr><td class="de">bare second clause</td>
+            <td class="de">none — sentence contrast, ellipsis, <em>nicht … sondern</em></td>
+            <td>Der Film war lang. <b>Gefallen</b> hat er mir.</td></tr>
+      </tbody>
+    </table>
+
+    <h3>The contrastive adverbs and the slot they occupy</h3>
+    <p>Each of these words counts as exactly one element. Place it where an element is
+      expected and everything after it shifts one place to the right.</p>
+    <table>
+      <thead><tr><th>Adverb</th><th>Slot</th><th>Nuance</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">trotzdem</td><td class="de">II</td><td class="de">spoken, neutral &ldquo;anyway&rdquo;</td>
+            <td>Er hat <b>nicht</b> gefragt, <b>trotzdem</b> kam <b>er</b> allein.</td></tr>
+        <tr><td class="de">dennoch</td><td class="de">II</td><td class="de">neutral written form of <em>trotzdem</em></td>
+            <td>Der Plan war teuer, <b>dennoch</b> lohnt er sich.</td></tr>
+        <tr><td class="de">gleichwohl</td><td class="de">II</td><td class="de">formal written, strong emphasis</td>
+            <td>Man warnte, <b>gleichwohl</b> gingen wir.</td></tr>
+        <tr><td class="de">denkbar</td><td class="de">II</td><td class="de">formal written, &ldquo;barely conceivable&rdquo;</td>
+            <td>Das ist kaum <b>denkbar</b>, <b>denkbar</b> ist es trotzdem.</td></tr>
+        <tr><td class="de">jedoch</td><td class="de">I</td><td class="de">neutral written connective, comma after it</td>
+            <td>Der Plan war teuer; <b>jedoch</b> lohnt er sich.</td></tr>
+        <tr><td class="de">indessen</td><td class="de">I</td><td class="de">formal, same slot as <em>jedoch</em></td>
+            <td>Er z&ouml;gerte, <b>indessen</b> half er.</td></tr>
+        <tr><td class="de">allerdings</td><td class="de">II or later</td><td class="de">concedes a drawback inside the sentence</td>
+            <td>Es ist teuer, <b>allerdings</b> haltbar.</td></tr>
+        <tr><td class="de">hingegen</td><td class="de">II</td><td class="de">&ldquo;by contrast&rdquo;, two comparable facts</td>
+            <td>Er bleibt im B&uuml;ro, <b>hingegen</b> geht sie nach Hause.</td></tr>
+        <tr><td class="de">dabei</td><td class="de">II</td><td class="de">concedes what was done at the same time</td>
+            <td>Wir haben 40 Minuten gewartet, <b>dabei</b> stand niemand auf.</td></tr>
+        <tr><td class="de">vielmehr</td><td class="de">II or III</td><td class="de">corrects <em>your own</em> previous statement</td>
+            <td>Er weinte nicht, er l&auml;chelte <b>vielmehr</b>.</td></tr>
+      </tbody>
+    </table>
+
+    <h3>What the adverb displaces</h3>
+    <p>The adverb is never left hanging in mid-sentence without a counting consequence. If it
+      takes position II, the element that would have stood there moves to position III — and
+      the finite verb moves with it if it was the displaced element.</p>
+    <table>
+      <thead><tr><th>Slot</th><th>Normal order</th><th>With the contrastive adverb</th></tr></thead>
+      <tbody>
+        <tr><td class="de">position I</td>
+            <td>Die Preise <b>steigen</b> weiter.</td>
+            <td><b>Trotzdem</b> <b>steigen</b> die Preise.</td></tr>
+        <tr><td class="de">position II after the subject</td>
+            <td>Er war lange krank, er kam.</td>
+            <td>Er war lange krank, er <b>trotzdem</b> kam.</td></tr>
+        <tr><td class="de">displacing an infinitive group</td>
+            <td>Die Kosten <b>zu senken</b>, w&auml;re leicht.</td>
+            <td>Die Kosten <b>trotzdem</b> zu senken, w&auml;re leicht.</td></tr>
+        <tr><td class="de">after an object</td>
+            <td>Er hat es geschafft.</td>
+            <td>Er hat es <b>trotzdem</b> geschafft.</td></tr>
+        <tr><td class="de">after a negated element</td>
+            <td>Er hat es nicht geschafft.</td>
+            <td>Er hat es <b>nicht</b> geschafft, <b>trotzdem</b> kam er.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="tipbox">
+      <strong>Adverb in position I is always safe.</strong> Putting the contrastive word at the
+      very front costs nothing: <em>Trotzdem kamen wir.</em> The counting only starts to bite
+      when the sentence already has a subject and an object in front.
+    </div>
+
+    <div class="warnbox">
+      <strong><em>jedoch</em> and <em>indessen</em> never stand in position II.</strong> They are
+      conjunctive adverbs: they take position I and are followed by a comma.
+      &times; <em>Er ist krank, jedoch kommt er.</em>
+      &nbsp; &check; <em>Er ist krank; <b>jedoch</b> kommt er.</em>
+      &nbsp; &check; <em>Er ist krank, er kommt jedoch.</em>
+    </div>
+
+    <h3>What each construction does to word order</h3>
+    <table>
+      <thead><tr><th>Construction</th><th>Effect on word order</th></tr></thead>
+      <tbody>
+        <tr><td class="de">trotzdem / dennoch / gleichwohl / denkbar / hingegen</td>
+            <td class="de">counts as one element in position II; the main clause stays a main clause</td></tr>
+        <tr><td class="de">allerdings / vielmehr / dabei</td>
+            <td class="de">counts as one element wherever it stands; no clause is opened</td></tr>
+        <tr><td class="de">jedoch / indessen</td>
+            <td class="de">position I only, followed by a comma; verb goes to position II</td></tr>
+        <tr><td class="de">w&auml;hrend (contrastive)</td>
+            <td class="de">verb-final in the <em>w&auml;hrend</em> clause</td></tr>
+        <tr><td class="de">wo hingegen</td>
+            <td class="de">relative clause with verb-final order</td></tr>
+        <tr><td class="de">nicht … sondern</td>
+            <td class="de">negation directly after the finite verb (position III); <em>sondern</em> opens the corrective clause</td></tr>
+        <tr><td class="de">zwar … aber / doch</td>
+            <td class="de">no change after <em>aber</em>; inversion after <em>doch</em></td></tr>
+        <tr><td class="de">bare sentence contrast</td>
+            <td class="de">two independent main clauses, nothing is counted across them</td></tr>
+      </tbody>
+    </table>
+
+    <h3>w&auml;hrend: one form, two functions</h3>
+    <p><em>W&auml;hrend</em> is temporal when it reports two events in time and adversative when
+      it sets one permanent state next to another ongoing one. The word order is identical in
+      both readings, so only tense and content tell you which one you have.</p>
+    <table>
+      <thead><tr><th>Reading</th><th>Signal</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">temporal</td><td class="de">two past events, one interrupts the other</td>
+            <td><b>W&auml;hrend</b> er <b>a&szlig;</b>, <b>rief</b> sie ihn an. <small>(while he ate, she called)</small></td></tr>
+        <tr><td class="de">adversative</td><td class="de">two present states, one contradicts the other</td>
+            <td><b>W&auml;hrend</b> sie <b>plant</b>, <b>schreiben</b> wir. <small>(while she plans, we write)</small></td></tr>
+      </tbody>
+    </table>
+
+    <p>In the contrastive use the clause verb is normally in the present tense, because the
+      contrast is valid right now and stays valid; in the temporal use it takes whatever tense
+      the events need.</p>
+
+    <h3>w&auml;hrend, hingegen, wo hingegen</h3>
+    <table>
+      <thead><tr><th>Form</th><th>Type</th><th>What it adds</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">w&auml;hrend …</td><td class="de">clause, verb-final</td>
+            <td class="de">a simultaneous difference, no correction of the first clause</td>
+            <td><b>W&auml;hrend</b> er <b>arbeitet</b>, <b>ruht</b> sie sich aus.</td></tr>
+        <tr><td class="de">w&auml;hrend … hingegen</td><td class="de">clause + adverb</td>
+            <td class="de">marks the difference explicitly and points back to the first clause</td>
+            <td><b>W&auml;hrend</b> er <b>arbeitet</b>, <b>schl&auml;ft</b> sie, <b>hingegen</b> steht er <b>auf</b>.</td></tr>
+        <tr><td class="de">hingegen</td><td class="de">adverb in position II</td>
+            <td class="de">points back to the previous sentence, needs two comparable facts</td>
+            <td>Er bleibt im B&uuml;ro, <b>hingegen</b> geht sie nach Hause.</td></tr>
+        <tr><td class="de">wo hingegen / w&auml;hrend</td><td class="de">relative clause</td>
+            <td class="de">corrects an <em>indefinite or negative</em> statement about the same subject</td>
+            <td>Er besitzt drei H&auml;user, <b>w&auml;hrend</b> er <b>nur in einem davon wohnt</b>.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="tipbox">
+      <strong>What <em>wo hingegen</em> corrects.</strong> The first part must contain something
+      indefinite or negative — <em>drei</em>, <em>mehrere</em>, <em>ein paar</em>, <em>oft</em>,
+      <em>nur</em>. With a full positive statement it has nothing to correct and sounds empty:
+      <em>Er besitzt drei H&auml;user, <b>wo hingegen</b> er darin wohnt.</em> works;
+      <em>Er besitzt ein Haus, <b>wo hingegen</b> er darin wohnt.</em> does not.
+    </div>
+
+    <p>For people, <em>wo hingegen</em> is replaced by an ordinary relative pronoun:
+      <em>Sie hat einen Kollegen, <b>der hingegen</b> immer p&auml;nklich ist.</em> The relative
+      pronoun stands in position I of the relative clause, and the verb ends the clause.</p>
+
+    <h3>nicht … sondern: where the negation and where <em>sondern</em> stand</h3>
+    <p>The negating element stands directly after the finite verb, and <em>sondern</em> opens the
+      corrective clause in its position I. That means the second clause is counted from scratch:
+      the subject of the first clause does not travel into it.</p>
+    <table>
+      <thead><tr><th>Structure</th><th>Positions</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">subject &middot; verb &middot; negation &middot; … &middot; <em>sondern</em> …</td>
+            <td class="de">I &middot; II &middot; III</td>
+            <td>Er <b>kauft</b> <b>nicht</b> das Auto, <b>sondern</b> ein Rad.</td></tr>
+        <tr><td class="de">negation before the verb (no preceding subject)</td>
+            <td class="de">I &middot; II &middot; III</td>
+            <td><b>Nicht</b> das Auto kauft er, <b>sondern</b> das Rad.</td></tr>
+        <tr><td class="de">negation in the last slot before the comma</td>
+            <td class="de">III</td>
+            <td>Er ist nicht krank, <b>sondern</b> nur m&uuml;de.</td></tr>
+        <tr><td class="de">negation as the whole predicate</td>
+            <td class="de">III</td>
+            <td>Das Projekt <b>gelang</b> <b>nicht</b>, <b>sondern</b> es <b>kam</b> <b>versp&auml;t</b> <b>zu</b> Start.</td></tr>
+        <tr><td class="de"><em>nicht nur … sondern auch</em></td>
+            <td class="de">III &middot; also III</td>
+            <td>Er ist nicht nur m&uuml;de, <b>sondern</b> auch erk&auml;nkelt.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="warnbox">
+      <strong>The second member carries its own negation.</strong> Never write a second
+      <em>nicht</em> after <em>sondern</em>, and never drop the first one: &times; <em>Er kommt
+      nicht, sondern kommt nicht nicht.</em> &nbsp; &check; <em>Er kommt nicht, sondern erst
+      morgen.</em> For an open, mutually exclusive choice German uses <em>weder … noch</em> or
+      <em>entweder … oder</em> instead of <em>nicht … sondern</em>.
+    </div>
+
+    <h3><em>sondern</em> as a correction of what you said yourself</h3>
+    <p>Where <em>nicht … sondern</em> cancels one member and names another, a bare <em>sondern</em>
+      names a correction to a statement the speaker has just made. It also opens its clause in
+      position I, and it may only correct a statement that is actually there.</p>
+    <table>
+      <thead><tr><th>Function</th><th>Marker</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">cancel one member, name the other</td><td class="de">nicht … sondern</td>
+            <td>Ich rufe <b>nicht</b> an, <b>sondern</b> ich schreibe.</td></tr>
+        <tr><td class="de">correct your own wrong statement</td><td class="de">sondern alone</td>
+            <td>Der Zug f&auml;hrt nicht um 12 Uhr, <b>sondern</b> erst um 14 Uhr.</td></tr>
+        <tr><td class="de">repair a slip immediately</td><td class="de">verzeihung, <em>sondern</em></td>
+            <td>Frag bitte nach 12 Uhr, <b>sondern</b> nach 14 Uhr.</td></tr>
+        <tr><td class="de">add as well, keep the negation</td><td class="de">nicht nur … sondern auch</td>
+            <td>Wir fahren <b>nicht nur</b> nach Rom, <b>sondern auch</b> nach Neapel.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="warnbox">
+      <strong><em>obwohl</em> and <em>sondern</em> do not form a pair.</strong> The
+      <em>obwohl</em> clause already admits an obstacle; a <em>sondern</em> clause would deny it,
+      and the sentence contradicts itself.
+      &times; <em>Obwohl das Auto teuer war, kauften wir es nicht, sondern ein Rad.</em>
+      &nbsp; &check; <em>Das Auto war teuer; wir kauften <b>nicht</b> es, <b>sondern</b> ein Rad.</em>
+      &nbsp; &check; <em>Zwar war das Auto teuer, wir kauften <b>aber</b> ein Rad.</em>
+    </div>
+
+    <h3>Contrast without any connector</h3>
+    <p>The strongest contrast often carries no word at all. Two independent sentences stand next
+      to each other and the repeat is simply dropped, so the omitted part stays unmentioned but
+      understood.</p>
+    <table>
+      <thead><tr><th>Device</th><th>Example</th><th>What is left out</th></tr></thead>
+      <tbody>
+        <tr><td class="de">bare second sentence</td>
+            <td>Die Regel war einfach. Sie hat niemand gelesen.</td>
+            <td class="de">&mdash;</td></tr>
+        <tr><td class="de">ellipsis of the repeated part</td>
+            <td>Der Film war lang. Gefallen hat er mir.</td>
+            <td class="de">the subject and the copula of the first sentence</td></tr>
+        <tr><td class="de">ellipsis of the predicate</td>
+            <td>Sie r&auml;umt auf. Er nicht.</td>
+            <td class="de">the verb</td></tr>
+        <tr><td class="de">strong negative alone</td>
+            <td>Verstanden habe ich ihn. Verstanden habe ich ihn <b>nicht</b>.</td>
+            <td class="de">nothing &mdash; the repeat carries the contrast</td></tr>
+        <tr><td class="de">period instead of a connective</td>
+            <td>Ein Aufwand. Ein Ergebnis.</td>
+            <td class="de">the relation between the two sentences</td></tr>
+      </tbody>
+    </table>
+
+    <div class="tipbox">
+      <strong>Ellipsis is a stylistic device, not a neutral one.</strong> It is normal in speech
+      and in advertising copy, and it is normal at B2 in a written exercise as long as the
+      omitted part is unambiguous. For a formal letter, replace it with
+      <em>hingegen</em> or <em>w&auml;hrend</em> so the reader does not have to reconstruct the
+      missing piece.
+    </div>
+
+    <h3><em>zwar … aber</em> and <em>zwar … doch</em></h3>
+    <p>This pair belongs to the concessive family rather than the adversative one, but it is
+      where most learners meet contrast. <em>Zwar</em> occupies position I and concedes; the
+      second half either keeps its normal order (<em>aber</em>) or is inverted (<em>doch</em>),
+      because <em>doch</em> is itself counted as an element.</p>
+    <table>
+      <thead><tr><th>Form</th><th>Order of the second half</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">zwar … aber</td><td class="de">normal: verb in position II</td>
+            <td><b>Zwar</b> ist es teuer, es <b>lohnt</b> sich <b>aber</b>.</td></tr>
+        <tr><td class="de">zwar … doch</td><td class="de">inverted: verb in position II, subject later</td>
+            <td><b>Zwar</b> ist es teuer, <b>doch</b> es <b>lohnt</b> sich.</td></tr>
+        <tr><td class="de">zwar … dennoch</td><td class="de">normal; the adverb counts as one element</td>
+            <td><b>Zwar</b> ist er m&uuml;de, <b>dennoch</b> <b>arbeitet</b> er.</td></tr>
+        <tr><td class="de">zwar … hingegen</td><td class="de">normal; points back to a whole previous sentence</td>
+            <td><b>Zwar</b> ist er m&uuml;de, <b>hingegen</b> <b>arbeitet</b> er weiter.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="warnbox">
+      <strong>Do not double up.</strong> Only one contrast marker carries the load.
+      &times; <em>Zwar ist es teuer, <b>aber dennoch</b> lohnt es sich.</em>
+      &nbsp; &times; <em><b>Obwohl</b> es teuer war, <b>aber</b> haben wir es gekauft.</em>
+    </div>
+
+    <h3>andererseits: the additive side of contrast</h3>
+    <p><em>Andererseits</em> does not deny what came before; it adds a second point that counts
+      just as much. That makes it a member of the additive family, and it can be followed by a
+      simultaneous marker to put both facts in one moment.</p>
+    <table>
+      <thead><tr><th>Use</th><th>Function</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">andererseits alone</td><td class="de">adds a further point, contradicting nothing</td>
+            <td>Das Angebot ist teuer. <b>Andererseits</b> enth&auml;lt es alles.</td></tr>
+        <tr><td class="de">andererseits … zugleich</td><td class="de">adds a point and pins it to the same moment</td>
+            <td><b>Andererseits</b> bietet es alles, <b>zugleich</b> bleibt es erreichbar.</td></tr>
+        <tr><td class="de">außerdem / ferner / zudem / dar&uuml;ber hinaus</td>
+            <td class="de">plain additive, no contrast element at all</td>
+            <td><b>Au&szlig;erdem</b> kostet es nichts.</td></tr>
+        <tr><td class="de">zum anderen … zum anderen</td>
+            <td class="de">two-member enumeration inside one contrast frame</td>
+            <td><b>Zum einen</b> ist es teuer, <b>zum anderen</b> ist es kompliziert.</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Do not confuse these</h3>
+    <table>
+      <thead><tr><th>Pair</th><th>Difference</th></tr></thead>
+      <tbody>
+        <tr><td class="de">w&auml;hrend (temporal) vs. w&auml;hrend (adversative)</td>
+            <td class="de">Identical form and identical verb-final order. Temporal <em>w&auml;hrend</em>
+            reports two events, adversative <em>w&auml;hrend</em> sets two states that contradict
+            each other.</td></tr>
+        <tr><td class="de">w&auml;hrend vs. hingegen</td>
+            <td class="de"><em>w&auml;hrend</em> states the simultaneous difference itself and opens a
+            clause; <em>hingegen</em> only points back to the previous sentence and stays an adverb.</td></tr>
+        <tr><td class="de">vielmehr vs. jedoch</td>
+            <td class="de"><em>Vielmehr</em> corrects a statement the speaker made; <em>jedoch</em>
+            contrasts with a fact from outside and stands in position I.</td></tr>
+        <tr><td class="de">dabei (adversative) vs. dabei (accompanying)</td>
+            <td class="de"><em>Wir haben gewartet, <b>dabei</b> kam niemand.</em> = and yet. But
+            <em>Er hat <b>dabei</b> gelacht.</em> = in the process. The second use never contrasts.</td></tr>
+        <tr><td class="de">nicht … sondern vs. zwar … aber</td>
+            <td class="de"><em>nicht … sondern</em> cancels a member and replaces it; <em>zwar … aber</em>
+            concedes something and adds an outcome. Only the first may use <em>sondern</em>.</td></tr>
+        <tr><td class="de">nicht … sondern vs. weder … noch</td>
+            <td class="de"><em>nicht … sondern</em> works with any number of members and can add
+            (<em>sondern auch</em>); <em>weder … noch</em> closes the choice after exactly two
+            members and cannot be extended.</td></tr>
+        <tr><td class="de">dennoch vs. trotzdem vs. gleichwohl</td>
+            <td class="de">One function, three registers: <em>trotzdem</em> spoken,
+            <em>dennoch</em> neutral written, <em>gleichwohl</em> formal and emphatic.</td></tr>
+        <tr><td class="de">wo hingegen vs. w&auml;hrend</td>
+            <td class="de"><em>Wo hingegen</em> relates to the same subject and corrects an indefinite
+            or negative statement; <em>w&auml;hrend</em> compares two different subjects or states.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="warnbox">
+      <strong>A contrast is not a negation.</strong> <em>Er ist krank, trotzdem kommt er.</em> has
+      two positive facts. If you add <em>nicht</em> to both halves you no longer have a contrast but
+      a doubled denial, and the second one loses its force.
+    </div>
+
+    <h3>Summary</h3>
+    <table>
+      <thead><tr><th>You want to…</th><th>Use</th></tr></thead>
+      <tbody>
+        <tr><td class="de">override an obstacle in a main clause</td><td class="de">trotzdem, dennoch, gleichwohl, denkbar</td></tr>
+        <tr><td class="de">connect two sentences in writing</td><td class="de">jedoch, indessen (position I)</td></tr>
+        <tr><td class="de">concede a drawback inside the sentence</td><td class="de">allerdings</td></tr>
+        <tr><td class="de">point back to the previous sentence</td><td class="de">hingegen</td></tr>
+        <tr><td class="de">correct your own statement</td><td class="de">vielmehr, oder a bare <em>sondern</em></td></tr>
+        <tr><td class="de">set two simultaneous states against each other</td><td class="de">w&auml;hrend … hingegen</td></tr>
+        <tr><td class="de">correct an indefinite or negative statement about one subject</td><td class="de">wo hingegen</td></tr>
+        <tr><td class="de">replace one member of a pair</td><td class="de">nicht … sondern</td></tr>
+        <tr><td class="de">contrast without naming it</td><td class="de">sentence contrast with ellipsis</td></tr>
+        <tr><td class="de">concede briefly, then override</td><td class="de">zwar … aber / <em>zwar … doch</em></td></tr>
+        <tr><td class="de">add a second point that counts too</td><td class="de">andererseits … zugleich</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- ══ 2. EXAMPLES ══ -->
+  <section>
+    <h2>2 · 20 worked examples</h2>
+    <p><small>Each example marks the opener and closer in bold and explains what it does to the sentence.</small></p>
+    <div id="examples"></div>
+  </section>
+
+  <!-- ══ 3. EXERCISES ══ -->
+  <section>
+    <h2>3 · 100 exercises</h2>
+
+    <div class="noVoice" id="noVoice">
+      <b>Pronunciation unavailable.</b> This browser has no German speech voice installed, so the
+      speaker buttons will not play. In Chrome, Edge and Safari on a desktop, German is available by default.
+    </div>
+    <div id="quiz"></div>
+  </section>
+
+</div>
+
+<footer class="footer"><strong>Adversative connectors</strong><span class="footer-dot">·</span><span>Roman Zajic</span></footer>
+
+<script>
+(function(){
+  "use strict";
+
+  var EXAMPLES = [
+    ["Der Termin war ausgebucht, <em>trotzdem</em> haben wir uns bei der Schlange eingereiht. — The appointment was fully booked; we still got in line.", "<em>trotzdem</em> stands in position II as the second field member, so the subject <em>wir</em> and the conjugated verb <em>haben</em> follow it in that order."],
+    ["<em>Dennoch</em> m&ouml;chte ich auf den Fehler im Protokoll hinweisen. — Nevertheless, I would like to point out the mistake in the minutes.", "With a modal verb the second field is <em>Dennoch</em>; the modal <em>m&ouml;chte</em> forms the bracket, so the infinitive <em>hinweisen</em> closes the sentence."],
+    ["Die Wohnung ist teuer, <em>allerdings</em> liegt sie direkt am Park. — The flat is expensive, but it is right by the park.", "<em>allerdings</em> occupies position II here, marking the whole clause as an afterthought that softens the preceding criticism."],
+    ["Wir hatten keine Reservierung, <em>jedoch</em> war das Lokal nicht voll. — We had no reservation, however, the restaurant was not full.", "<em>jedoch</em> in position II is followed by the subject <em>das Lokal</em> and then the negated verb <em>war</em>, which marks it as the focus of the contrast."],
+    ["Er spricht flie&szlig;end Franz&ouml;sisch, <em>dabei</em> ist er erst seit zwei Jahren hier. — She speaks fluent French, yet she has been living in Lyon for two years.", "<em>dabei</em> points back to the whole preceding statement; placed in position II, it introduces the surprising fact without naming a contrast partner."],
+    ["Er bleibt im B&uuml;ro, <em>hingegen</em> geht sie nach Hause. — He is staying in the office; she, on the other hand, is going home.", "<em>hingegen</em> in position II leads a second main clause, so its verb <em>geht</em> comes second and its subject <em>sie</em> third."],
+    ["Die Strecke war kurz, <em>vielmehr</em> war die Technik entscheidend. — The route was short; what mattered was the technique instead.", "<em>vielmehr</em> in position II does not simply add: it cancels the previous statement and puts a new one in its place."],
+    ["Er behauptet, er sei krank, <em>w&auml;hrend</em> wir ihn gestern im Kino gesehen haben. — He claims he is ill, whereas we saw him at the cinema yesterday.", "Here <em>w&auml;hrend</em> contrasts two points in time, so the subordinate clause ends with the verb <em>haben</em> and the main clause keeps normal order."],
+    ["<em>W&auml;hrend</em> die einen den Teich <em>z&auml;unen</em>, <em>beobachten</em> die anderen das Entenpaar. — While some people feed the ducks, others watch the pair of mallards.", "In the temporal reading <em>w&auml;hrend</em> simply links two simultaneous activities; the verb <em>z&auml;unen</em> is finite and final in its clause."],
+    ["<em>Nicht</em> im Garten, <em>sondern</em> im Haus hat er die Kinder gesucht. — Not in the garden, but inside the house, he looked for the children.", "<em>nicht</em> cancels the first member and <em>sondern</em> stands in position III, so the finite verb <em>hat</em> follows immediately in the main clause."],
+    ["Wir treffen uns <em>nicht</em> am Bahnhof, <em>sondern</em> direkt vor dem Museum. — We are not meeting at the station, but right in front of the museum.", "The negated <em>nicht</em> preposition is replaced; <em>sondern</em> in position III puts the new prepositional phrase next, before the subject."],
+    ["Der Kollege half <em>nicht</em> nur im Labor, <em>sondern auch</em> bei der Auswertung. — The colleague did not only help in the lab, but also with the evaluation.", "<em>nicht nur</em> … <em>sondern auch</em> keeps the first member and adds a second one; <em>auch</em> stays in position III directly after <em>sondern</em>."],
+    ["Die Packung ist <em>zwar</em> teuer, die Qualit&auml;t h&auml;lt aber jahrelang. — The package is admittedly expensive, but the quality lasts for years.", "<em>zwar</em> in position I makes the concession, <em>aber</em> sits in the main clause and keeps normal order: subject <em>die Qualit&auml;t</em> before the verb <em>h&auml;lt</em>."],
+    ["<em>Zwar</em> dauert der Kurs l&auml;nger, <em>doch</em> bekommst du einen Absatz. — The course does take longer, but you get a certificate.", "With <em>zwar</em> … <em>doch</em> the main clause is inverted: the verb <em>bekommst</em> takes position II and the subject <em>du</em> follows it."],
+    ["Er ist <em>zugegeben</em> etwas unbeholfen, hat aber alle Fristen eingehalten. — He is admittedly a bit clumsy, but he met every deadline.", "<em>zugegeben</em> works as a fixed phrase between the two parts and is set off by commas; <em>aber</em> starts the second main clause in normal order."],
+    ["<em>Na gut</em>, deine Be&ouml;rkungen sind nicht ganz unberechtigt. — Fair enough, your criticisms are not entirely unfounded.", "<em>Na gut</em> concedes the point as a sentence-initial fixed phrase; it needs no second clause and the main clause follows in normal order."],
+    ["Die Regel war einfach. Sie hat <em>niemand</em> gelesen. — The rule was simple. Nobody read it.", "No connector at all: the second sentence stands on its own, and the negated pronoun <em>niemand</em> makes the contrast to the first sentence."],
+    ["Die Kollegen lobten den Plan. Die Gesch&auml;ftsf&uuml;hrung f&auml;ndete Dutzende Fehler. — The colleagues praised the plan. The management found dozens of mistakes.", "Two plain main clauses in sequence; each has its own subject before the verb, so the opposition emerges only from the content."],
+    ["Wir haben das Protokoll dreimal gelesen. Verstanden haben wir es trotzdem nicht. — We read the minutes three times. We still did not understand them.", "The ellipsis avoids repeating the object; <em>trotzdem</em> inside the second sentence still signals that the concession is being overruled."],
+    ["<em>Zwar</em> ist die Wohnung klein, <em>dabei</em> liegt sie im dritten Stock. — The flat is admittedly small, but it is on the third floor.", "Here <em>zwar</em> makes the concession and <em>dabei</em> takes position II, so the verb <em>liegt</em> follows it directly."]
+  ];
+
+  var DATA_URL = "../../data/grammar_exercises_adversative_konnektoren.json";
+  var STORE = "adversative_konnektoren_progress_v1";
+  // ── pronunciation via the browser speech engine ──
+  var MIC_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5z"></path>'
+    + '<path class="pulse" d="M15.5 8.5a5 5 0 0 1 0 7"></path>'
+    + '<path class="pulse" d="M18.5 5.5a9 9 0 0 1 0 13"></path></svg>';
+  var synth = window.speechSynthesis || null;
+  var germanVoice = null;
+
+  function stripTags(t){ return String(t).replace(/<[^>]*>/g,""); }
+
+  function pickVoice(){
+    if(!synth) return null;
+    var vs = synth.getVoices() || [];
+    germanVoice = vs.filter(function(v){ return /^de(-|_|$)/i.test(v.lang); })[0] || null;
+    return germanVoice;
+  }
+  if(synth){
+    pickVoice();
+    if(synth.addEventListener) synth.addEventListener("voiceschanged", pickVoice);
+  }
+
+  function stopSpeech(){ if(synth) try{ synth.cancel(); }catch(e){} }
+
+  var warned = false;
+  function noVoiceNotice(){
+    if(warned) return; warned = true;
+    var n = document.getElementById("noVoice");
+    if(n) n.style.display = "flex";
+  }
+  function micBtn(text, label){
+    var b = document.createElement("button");
+    b.className = "mic";
+    b.type = "button";
+    b.setAttribute("aria-pressed","false");
+    b.setAttribute("aria-label", (label||"Play") + ": " + stripTags(text));
+    b.title = "Play pronunciation";
+    b.innerHTML = MIC_SVG;
+    b.addEventListener("click", function(ev){
+      ev.stopPropagation();
+      if(!synth){ b.disabled = true; b.title = "Speech is not available in this browser"; noVoiceNotice(); return; }
+      if(b.getAttribute("aria-pressed")==="true"){ stopSpeech(); b.setAttribute("aria-pressed","false"); return; }
+      stopSpeech();
+      if(!germanVoice) pickVoice();
+      var u = new SpeechSynthesisUtterance(stripTags(text));
+      u.lang = "de-DE";
+      if(germanVoice) u.voice = germanVoice;
+      u.rate = 0.92; u.pitch = 1;
+      b.setAttribute("aria-pressed","true");
+      var off = function(){ b.setAttribute("aria-pressed","false"); };
+      u.onend = off;
+      u.onerror = function(){ off(); noVoiceNotice(); };
+      synth.speak(u);
+      // some engines report no voices at all; surface that instead of a dead button
+      if(!synth.getVoices().length) noVoiceNotice();
+    });
+    return b;
+  }
+
+  var state = {revealed:{}, answers:{}};
+
+  function esc(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
+  function load(){ try{ var v=JSON.parse(localStorage.getItem(STORE)); if(v&&typeof v==="object"){state.revealed=v.revealed||{};state.answers=v.answers||{};} }catch(e){} }
+  function save(){ try{ localStorage.setItem(STORE, JSON.stringify(state)); }catch(e){} }
+
+  // ---- examples ----
+  // Each entry is [german_and_english, why]. The first field carries the English
+  // translation after an em dash, so split it out for separate styling.
+  function splitDE(t){
+    var i = t.indexOf("\u2014");
+    if(i < 0) return [t, ""];
+    return [t.slice(0,i).trim(), t.slice(i+1).trim()];
+  }
+  (function renderExamples(){
+    var host = document.getElementById("examples");
+    host.innerHTML = "";
+    EXAMPLES.forEach(function(x){
+      var de = x[0] || "";
+      var why = x[1] || "";
+      var parts = splitDE(de);
+      var card = document.createElement("div");
+      card.className = "ex";
+
+      var row = document.createElement("div");
+      row.className = "microw";
+      var txt = document.createElement("div");
+      txt.className = "mtext";
+      txt.innerHTML = '<div class="de">'+parts[0]+'</div>'+
+                      (parts[1] ? '<div class="en">'+parts[1]+'</div>' : "");
+      row.appendChild(txt);
+      row.appendChild(micBtn(parts[0], "Play this example"));
+      card.appendChild(row);
+
+      if(why){
+        var w = document.createElement("div");
+        w.className = "why";
+        w.innerHTML = "<b>Why:</b> "+why;
+        card.appendChild(w);
+      }
+      host.appendChild(card);
+    });
+  })();
+
+  // German special letters, inserted at the caret in the focused input.
+  var KEYS = ["ä","ö","ü","Ä","Ö","Ü","ß","€"];
+
+  function insertAt(input, ch){
+    var v = input.value;
+    var a = input.selectionStart == null ? v.length : input.selectionStart;
+    var b = input.selectionEnd == null ? v.length : input.selectionEnd;
+    input.value = v.slice(0,a) + ch + v.slice(b);
+    var pos = a + ch.length;
+    try{ input.setSelectionRange(pos,pos); }catch(e){}
+    input.focus();
+  }
+
+  function keypadBtn(id){
+    var b = document.createElement("button");
+    b.type = "button";
+    b.className = "keybtn";
+    b.title = "German letters";
+    b.setAttribute("aria-label","Insert German special characters");
+    b.setAttribute("aria-expanded","false");
+    b.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true">'+
+      '<rect x="2" y="5" width="20" height="14" rx="2"></rect>'+
+      '<path d="M6 9h.01M10 9h.01M14 9h.01M18 9h.01M6 13h.01M10 13h.01M14 13h.01M18 13h.01M8 16h8"></path>'+
+      '</svg>';
+    b.addEventListener("click", function(ev){
+      ev.stopPropagation();
+      var panel = document.getElementById("pad-"+id);
+      if(!panel) return;
+      var open = panel.classList.toggle("open");
+      b.setAttribute("aria-expanded", open ? "true" : "false");
+      closeAllKeypads(panel);
+    });
+    return b;
+  }
+
+  function closeAllKeypads(except){
+    Array.prototype.forEach.call(document.querySelectorAll(".pad.open"), function(p){
+      if(p === except) return;
+      p.classList.remove("open");
+      var btn = p.previousSibling && p.previousSibling.querySelector ? p.previousSibling.querySelector(".keybtn") : null;
+      if(btn) btn.setAttribute("aria-expanded","false");
+    });
+  }
+
+  document.addEventListener("click", function(){ closeAllKeypads(null); });
+  document.addEventListener("keydown", function(e){ if(e.key === "Escape") closeAllKeypads(null); });
+
+  function renderQuiz(ex){
+    var el = document.getElementById("quiz");
+    el.innerHTML = "";
+    ex.forEach(function(e){
+      var rev = !!state.revealed[e.id];
+      var card = document.createElement("article");
+      card.className = "q" + (rev ? " revealed" : "");
+      card.id = "q"+e.id;
+
+      var top = document.createElement("div");
+      top.className = "qtop";
+      top.innerHTML = '<span class="qnum">'+e.id+'</span>';
+      var qt = document.createElement("span");
+      qt.className = "qtext";
+      qt.textContent = e.english;
+      top.appendChild(qt);
+      card.appendChild(top);
+
+      // input with the letter keypad docked inside its right edge
+      var row = document.createElement("div");
+      row.className = "inputrow";
+      var ta = document.createElement("input");
+      ta.type = "text";
+      ta.className = "ainput";
+      ta.placeholder = "Write the German here…";
+      ta.setAttribute("aria-label","Your German answer for exercise "+e.id);
+      ta.value = state.answers[e.id] || "";
+      ta.addEventListener("input", function(){ state.answers[e.id] = ta.value; save(); });
+      row.appendChild(ta);
+      row.appendChild(keypadBtn(e.id));
+      card.appendChild(row);
+
+      // the letter panel sits inside the card so it is never clipped
+      var pad = document.createElement("div");
+      pad.className = "pad";
+      pad.id = "pad-"+e.id;
+      KEYS.forEach(function(k){
+        var kb = document.createElement("button");
+        kb.type = "button";
+        kb.className = "padkey";
+        kb.textContent = k;
+        kb.addEventListener("click", function(ev){
+          ev.stopPropagation();
+          var target = card.querySelector(".ainput");
+          insertAt(target, k);
+          state.answers[e.id] = target.value;
+          save();
+        });
+        pad.appendChild(kb);
+      });
+      card.appendChild(pad);
+
+      // reveal / hide toggle
+      var rb = document.createElement("button");
+      rb.type = "button";
+      rb.className = "btn rev" + (rev ? " on" : "");
+      rb.textContent = rev ? "Hide answer" : "Reveal answer";
+      rb.setAttribute("aria-expanded", rev ? "true" : "false");
+      rb.addEventListener("click", function(){
+        state.revealed[e.id] = !state.revealed[e.id];
+        save();
+        renderQuiz(ex);
+      });
+      card.appendChild(rb);
+
+      if(rev){
+        var fb = document.createElement("div");
+        fb.className = "fb";
+
+        var ansRow = document.createElement("div");
+        ansRow.className = "microw ansrow";
+        var at = document.createElement("div");
+        at.className = "mtext";
+        at.textContent = e.german;
+        ansRow.appendChild(at);
+        ansRow.appendChild(micBtn(e.german, "Play the German answer"));
+        fb.appendChild(ansRow);
+
+        var wy = document.createElement("div");
+        wy.className = "why";
+        wy.textContent = e.why;
+        fb.appendChild(wy);
+
+        card.appendChild(fb);
+      }
+      el.appendChild(card);
+    });
+  }
+
+  load();
+
+  fetch(DATA_URL+"?cb="+Date.now())
+    .then(function(r){ if(!r.ok) throw new Error("HTTP "+r.status); return r.json(); })
+    .then(function(d){
+      var ex=d.exercises;
+      renderQuiz(ex);
+    })
+    .catch(function(e){
+      document.getElementById("quiz").innerHTML =
+        '<div class="q"><b>Could not load the exercises.</b><br>'+esc(e.message)+'</div>';
+    });
+})();
+</script>
+</body>
+</html>

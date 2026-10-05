@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>The sentence bracket and field positions — Die Satzklammer, Position I–III, Nachfeld | Deutsch Lernen</title>
+<style>
+:root{
+  --font:"Segoe UI",system-ui,-apple-system,sans-serif;
+  --teal-900:#005A5A; --teal-700:#008282; --teal-400:#50C1C1; --teal-100:#95DFDB;
+  --amber:#E1A01E; --red:#C41E3A; --green:#1D7A4C;
+  --ink:#012D2C; --muted:#008282;
+  --page:#F0FAFA; --card:#FFF; --in:#F0FAFA; --border:#D0ECEB;
+  --shadow:0 1px 4px rgba(1,45,44,.10); --shadow-md:0 4px 14px rgba(1,45,44,.12);
+  --r:8px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font);font-size:16px;color:var(--teal-900);background:var(--page);
+  line-height:1.65;-webkit-font-smoothing:antialiased;
+  display:flex;flex-direction:column;min-height:100vh}
+
+.navbar{display:flex;align-items:center;gap:12px;height:48px;padding:0 14px;
+  background:var(--teal-900);border-bottom:1px solid rgba(149,223,219,.15);
+  position:sticky;top:0;z-index:100;flex-shrink:0}
+.brand-icon{display:flex;align-items:center;flex-shrink:0}
+.nav-pipe{width:1px;height:16px;background:rgba(149,223,219,.30);flex-shrink:0;margin:0 12px}
+.nav-brand-text{font-size:.95rem;font-weight:600;color:var(--teal-100);text-decoration:none;white-space:nowrap}
+.nav-actions{margin-left:auto;display:flex;align-items:center;gap:8px}
+.icon-btn{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;padding:0;
+  color:var(--teal-100);background:rgba(149,223,219,.12);border:1px solid rgba(149,223,219,.22);
+  border-radius:4px;cursor:pointer;transition:130ms;text-decoration:none;flex-shrink:0}
+.icon-btn:hover{background:rgba(149,223,219,.24);border-color:rgba(149,223,219,.45)}
+.btn-nav{display:inline-flex;align-items:center;justify-content:center;height:32px;padding:0 12px;
+  font-size:.78rem;font-weight:600;font-family:var(--font);color:var(--teal-100);text-decoration:none;
+  background:rgba(149,223,219,.12);border:1px solid rgba(149,223,219,.22);border-radius:4px;
+  transition:130ms;white-space:nowrap;flex-shrink:0}
+.btn-nav:hover{background:rgba(149,223,219,.24);border-color:rgba(149,223,219,.45)}
+@media (max-width:400px){.btn-nav{padding:0 9px;font-size:.74px;font-size:.74rem}}
+.icon-btn svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:2;
+  stroke-linecap:round;stroke-linejoin:round}
+@media (max-width:560px){.nav-brand-text{font-size:.85rem}}
+
+.wrap{max-width:860px;width:100%;margin:0 auto;padding:20px 16px 0;flex:1 0 auto}
+
+h1{font-size:1.5rem;line-height:1.3;margin:0 0 4px}
+h1 .de{display:block;font-size:1rem;color:var(--teal-700);font-weight:600;margin-top:2px}
+
+section{margin-bottom:30px}
+h2{font-size:1.05rem;margin-bottom:10px;padding-bottom:6px;border-bottom:2px solid var(--teal-400)}
+h3{font-size:.85rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;
+  color:var(--teal-700);margin:16px 0 8px}
+p{margin-bottom:10px}
+.lead{color:var(--ink)}
+small{color:var(--muted)}
+
+.rulebox{background:var(--in);border:1px solid var(--border);border-left:4px solid var(--teal-400);
+  border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.rulebox strong{color:var(--teal-700)}
+.warnbox{background:rgba(196,30,58,.05);border:1px solid rgba(196,30,58,.25);
+  border-left:4px solid var(--red);border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.warnbox strong{color:var(--red)}
+.tipbox{background:rgba(29,122,76,.06);border:1px solid rgba(29,122,76,.22);
+  border-left:4px solid var(--green);border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.tipbox strong{color:var(--green)}
+
+table{width:100%;border-collapse:collapse;margin:12px 0;font-size:.88rem;
+  table-layout:fixed}
+th,td{overflow-wrap:anywhere;word-break:normal;hyphens:auto}
+th,td{text-align:left;padding:7px 9px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--in);font-weight:700;font-size:.76rem;text-transform:uppercase;
+  letter-spacing:.04em;color:var(--teal-700)}
+td.de{color:var(--ink)}
+tr:last-child td{border-bottom:none}
+
+.mic{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;
+  padding:0;flex-shrink:0;vertical-align:middle;border-radius:50%;cursor:pointer;
+  color:var(--teal-700);background:rgba(80,193,193,.16);border:1px solid rgba(80,193,193,.45);
+  transition:130ms}
+.mic:hover{background:rgba(80,193,193,.34)}
+.mic:focus-visible{outline:2px solid var(--teal-700);outline-offset:2px}
+.mic svg{width:13px;height:13px;fill:none;stroke:currentColor;stroke-width:2;
+  stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.mic[aria-pressed="true"]{background:var(--teal-700);color:#fff;border-color:var(--teal-700)}
+.mic[aria-pressed="true"] .pulse{animation:pulse 1s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+.mic[disabled]{opacity:.45;cursor:not-allowed}
+.microw{display:flex;align-items:flex-start;gap:8px}
+.microw > .mtext{flex:1;min-width:0}
+.ex{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:12px 13px;
+  margin-bottom:9px;box-shadow:var(--shadow)}
+.ex .de{font-size:.98rem;color:var(--ink);margin-bottom:4px}
+.ex .de em{color:var(--teal-700);font-style:normal;font-weight:700;background:rgba(80,193,193,.20);
+  padding:0 3px;border-radius:2px}
+.ex .en{font-size:.84rem;color:var(--muted)}
+.ex .why{font-size:.82rem;color:var(--teal-700);margin-top:6px;padding-top:6px;
+  border-top:1px dotted var(--border)}
+.ex .why b{font-weight:700}
+
+/* ── EXERCISES ── */
+.btn{font-family:var(--font);font-size:.78rem;font-weight:600;cursor:pointer;
+  padding:6px 12px;border-radius:4px;border:1px solid var(--teal-400);
+  background:rgba(80,193,193,.14);color:var(--teal-700);transition:130ms;white-space:nowrap}
+.btn:hover{background:rgba(80,193,193,.28)}
+.btn.ghost{background:transparent;border-color:var(--border);color:var(--muted)}
+.btn.ghost:hover{border-color:var(--teal-400);color:var(--teal-700)}
+.noVoice{display:none;align-items:flex-start;gap:8px;margin-bottom:12px;padding:9px 12px;
+  background:rgba(225,160,30,.12);border:1px solid rgba(225,160,30,.4);border-radius:var(--r);
+  font-size:.83rem;color:#7A5000}
+.noVoice b{color:#7A5000}
+
+.q{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:12px 13px;
+  margin-bottom:10px;box-shadow:var(--shadow)}
+.q.revealed{border-color:var(--teal-400)}
+.q.correct{border-color:rgba(29,122,76,.5);background:rgba(29,122,76,.04)}
+.q.wrong{border-color:rgba(196,30,58,.45);background:rgba(196,30,58,.03)}
+.qtop{display:flex;gap:9px;align-items:flex-start;margin-bottom:9px}
+.qnum{flex-shrink:0;width:23px;height:23px;border-radius:50%;background:rgba(0,130,130,.10);
+  color:var(--teal-7);color:var(--teal-700);font-size:.7rem;font-weight:700;display:flex;
+  align-items:center;justify-content:center;margin-top:1px}
+.q.correct .qnum{background:rgba(29,122,76,.16);color:var(--green)}
+.q.wrong .qnum{background:rgba(196,30,58,.14);color:var(--red)}
+.inputrow{display:flex;align-items:stretch;gap:6px;position:relative}
+.ainput{flex:1;min-width:0;font-family:var(--font);font-size:.92rem;color:var(--ink);
+  background:var(--in);border:1px solid var(--border);border-radius:5px;padding:8px 32px 8px 11px;transition:130ms}
+.ainput:focus{outline:none;border-color:var(--teal-400);background:#fff;box-shadow:0 0 0 3px rgba(80,193,193,.16)}
+/* small keyboard icon, vertically centred at the right edge of the field */
+.keybtn{flex-shrink:0;width:28px;align-self:stretch;display:inline-flex;align-items:center;
+  justify-content:center;padding:0;cursor:pointer;border-radius:5px;
+  color:var(--teal-700);background:rgba(80,193,193,.16);border:1px solid rgba(80,193,193,.45);
+  transition:130ms}
+.keybtn:hover{background:rgba(80,193,193,.32)}
+.keybtn:focus-visible{outline:2px solid var(--teal-700);outline-offset:2px}
+.keybtn svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:1.7;
+  stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.keybtn[aria-expanded="true"]{background:var(--teal-700);color:#fff;border-color:var(--teal-700)}
+/* letter panel lives inside the card so no ancestor can clip it */
+.pad{display:none;flex-wrap:wrap;gap:5px;margin-top:7px;padding:8px;
+  background:var(--in);border:1px solid var(--border);border-radius:5px}
+.pad.open{display:flex}
+.padkey{font-family:var(--font);font-size:.92rem;font-weight:600;color:var(--teal-900);
+  background:var(--card);border:1px solid var(--border);border-radius:4px;
+  min-width:34px;height:32px;cursor:pointer;transition:130ms}
+.padkey:hover{background:var(--teal-400);border-color:var(--teal-400)}
+.padkey:focus-visible{outline:2px solid var(--teal-700);outline-offset:1px}
+.btn.rev{margin-top:8px}
+.btn.rev.on{background:rgba(0,90,90,.10);border-color:var(--teal-700)}
+.ansrow{margin:6px 0;padding:7px 9px;background:rgba(80,193,193,.09);border-radius:5px}
+.ansrow .mtext{font-size:.93rem}
+.qtext{font-size:.95rem;color:var(--ink);margin-bottom:9px;flex:1;min-width:0}
+
+.fb{margin-top:9px;padding-top:9px;border-top:1px dotted var(--border);font-size:.85rem}
+.fb .ans{font-weight:600;color:var(--teal-700);margin-bottom:4px}
+.fb .why{color:var(--muted)}
+
+details.fold{margin-bottom:9px;border:1px solid var(--border);border-radius:6px;background:var(--card)}
+details.fold > summary{padding:9px 12px;font-weight:600;font-size:.88rem;cursor:pointer;
+  color:var(--teal-900);list-style:none}
+details.fold > summary::-webkit-details-marker{display:none}
+details.fold > summary::before{content:"▸";color:var(--teal-700);transition:transform .15s;
+  display:inline-block;margin-right:5px}
+details.fold[open] > summary::before{transform:rotate(90deg)}
+details.fold .foldbody{padding:0 12px 11px;border-top:1px solid var(--border);padding-top:9px;
+  font-size:.9rem}
+
+.footer{position:sticky;bottom:0;z-index:50;width:100%;max-width:var(--wrapw,860px);
+  margin-inline:auto;border-top:1px solid var(--border);padding:10px 16px;background:var(--page);
+  display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:.78rem;color:var(--muted)}
+.footer strong{color:var(--teal-700)}
+.footer-dot{margin:0 10px;color:var(--border)}
+
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+  <a class="brand-icon" href="../../" aria-label="Deutsch Lernen home">
+    <svg width="24" height="17" viewBox="0 0 31 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0"  y="0"  width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="0"  width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="0"  width="9" height="6" rx="1.5" fill="#008282"/>
+      <rect x="0"  y="8"  width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="8"  width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="8"  width="9" height="6" rx="1.5" fill="#008282"/>
+      <rect x="0"  y="16" width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="16" width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="16" width="9" height="6" rx="1.5" fill="#E1A01E"/>
+    </svg>
+  </a>
+  <div class="nav-pipe"></div>
+  <a class="nav-brand-text" href="index.html">Grammar</a>
+  <div class="nav-actions">
+    <a class="btn-nav" href="index.html" title="All grammar topics">All topics</a>
+    <a class="icon-btn" href="../../" title="Back to all modules" aria-label="Back to all modules">
+      <svg viewBox="0 0 24 24"><path d="M3 12l9-9 9 9"></path><path d="M5 10v10h14V10"></path></svg>
+    </a>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <h1>The sentence bracket and field positions<span class="de">Die Satzklammer, Position I–III, Nachfeld</span></h1>
+  
+  <!-- ══ 1. CONCEPT ══ -->
+  <section>
+    <h2>1 · The concept</h2>
+
+    <p class="lead">Every German main clause is built as a <strong>bracket</strong>: the finite
+      verb opens it, and everything else the clause owns closes it. The bracket has three
+      numbered fields, and German lets you put a great deal of material almost anywhere in
+      it — except in three places that never move. What follows is not about the order you
+      must <em>keep</em>, but about the order you are <em>allowed</em> to break and what the
+      sentence looks like afterwards.</p>
+
+    <div class="rulebox">
+      <strong>The rule in one line.</strong> Position I holds the finite verb unless some other
+      element stands in front of it; everything else the clause contains sits in position II; the
+      separable part of a prefixed verb goes to position III; and a fourth slot, the
+      <em>Nachfeld</em>, is the one place where a whole extra clause can hide.
+    </div>
+
+    <h3>The three fields of the main clause</h3>
+    <table>
+      <thead><tr><th>Field</th><th>What belongs there</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">I — Vorfeld / finite verb</td><td class="de">either one fronted element, or the conjugated verb in second position</td>
+            <td>Am Montag <b>fahren</b> wir nach Berlin. &nbsp;·&nbsp; Wir <b>fahren</b> am Montag nach Berlin.</td></tr>
+        <tr><td class="de">II — Mittelfeld</td><td class="de">the rest of the clause: subject, objects, complements, adverbs, negation</td>
+            <td>Am Montag <b>fahren</b> wir <b>mit dem Zug</b> nach Berlin. &nbsp;·&nbsp; Wir <b>fahren</b> mit dem Zug <b>nicht</b> nach Berlin.</td></tr>
+        <tr><td class="de">III — Endfeld</td><td class="de">the separable prefix, or the participle of a Perfekt verb</td>
+            <td>Am Montag <b>rufen</b> wir dich <b>an</b>. &nbsp;·&nbsp; Wir <b>haben</b> dich <b>angerufen</b>.</td></tr>
+        <tr><td class="de">Nachfeld</td><td class="de">a whole extra clause after the closing bracket, introduced by a comma</td>
+            <td>Wir <b>fahren</b> morgen, <b>wenn</b> das Wetter <b>gut</b> ist.</td></tr>
+      </tbody>
+    </table>
+
+    <p>Read the fields as an instruction rather than a list. The finite verb is in position II
+      only when position I is already filled by something else; the non-finite verb part is always
+      last inside its own bracket; and the Nachfeld is optional, never obligatory, and never
+      changes the word order of the main clause it belongs to.</p>
+
+    <h3>Position I: the field the finite verb vacates</h3>
+    <p>Position I has exactly one inhabitant. If it is not the finite verb, then the finite verb
+      stands in position II and the subject is pushed one step to the right. The verb never
+      stands in position I <em>and</em> keeps its subject in front of it.</p>
+    <table>
+      <thead><tr><th>What stands in position I</th><th>Effect on what follows</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">the subject (V2, no inversion)</td><td class="de">nothing moves; the verb is simply in position II</td>
+            <td><b>Der Zug</b> kommt um 14 Uhr.</td></tr>
+        <tr><td class="de">an adverb, a time or a place phrase</td><td class="de">the subject follows the verb</td>
+            <td><b>Um 14 Uhr</b> kommt <b>der Zug</b>.</td></tr>
+        <tr><td class="de">a negated element (<em>nicht</em>, <em>kein</em>)</td><td class="de">the subject follows the verb</td>
+            <td><b>Nicht der Zug</b> ist versp&auml;tet.</td></tr>
+        <tr><td class="de">an object or a complement</td><td class="de">the subject follows the verb</td>
+            <td><b>Diese Entscheidung</b> kann ich nicht akzeptieren.</td></tr>
+        <tr><td class="de">a whole subordinate clause</td><td class="de">the subject follows the verb; the clause keeps its own internal order</td>
+            <td><b>Dass er kommt</b>, wei&szlig; ich nicht.</td></tr>
+        <tr><td class="de">a clause with a conditional finite verb (<em>w&uuml;rde</em>, <em>sollte</em>)</td><td class="de">the finite verb comes first, the subject after it</td>
+            <td>Wenn es geht, <b>w&uuml;rde</b> ich <b>kommen</b>.</td></tr>
+        <tr><td class="de">nothing (yes–no question, imperative)</td><td class="de">the finite verb itself moves to position I</td>
+            <td><b>Kommst</b> du mit? &nbsp;·&nbsp; <b>Nimm</b> bitte den zweiten Bus.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="rulebox">
+      <strong>The one case that looks like a mistake but is not.</strong> When you front a phrase
+      that belongs to the subject, the verb stays in position II and the subject follows normally:
+      <em>Trotz aller Warnungen <b>fuhren</b> wir.</em> Compare <em>Trotz aller Warnungen <b>fuhren
+      wir</b> nicht.</em> — the same fronted phrase, but now it is an adverbial, not a subject
+      attribute, so the verb is fronted and the subject follows it.
+    </div>
+
+    <h3>Fronting out of position II: what happens to the rest</h3>
+    <p>German is not a fixed-order language. You may pull almost any element out of the Mittelfeld
+      and put it in front. One element moves into position I, the finite verb jumps to position II,
+      and the remaining elements of the Mittelfeld keep their relative order.</p>
+    <table>
+      <thead><tr><th>Base order</th><th>Fronted order</th><th>What changed</th></tr></thead>
+      <tbody>
+        <tr><td>Der Professor <b>erkl&auml;rt</b> den Studenten den Stoff.</td>
+            <td><b>Den Studenten</b> erkl&auml;rt <b>der Professor</b> den Stoff.</td>
+            <td class="de">object to position I; verb now in position II; subject after the verb</td></tr>
+        <tr><td>Wir <b>haben</b> die &Uuml;bung <b>zwei</b> Mal <b>wiederholt</b>.</td>
+            <td><b>Zwei Mal</b> haben <b>wir</b> die &Uuml;bung <b>wiederholt</b>.</td>
+            <td class="de">adverbial to position I; verb in position II; separable part still last</td></tr>
+        <tr><td>Ich <b>rufe</b> dich <b>heute</b> an.</td>
+            <td><b>Heute</b> rufe <b>ich</b> dich <b>an</b>.</td>
+            <td class="de">time phrase to position I; verb in position II; <em>an</em> stays in position III</td></tr>
+        <tr><td>Er ist <b>seit drei Jahren</b> in dieser Firma.</td>
+            <td><b>Seit drei Jahren</b> ist <b>er</b> in dieser Firma.</td>
+            <td class="de">no inversion at all — the fronted phrase is a subject attribute</td></tr>
+      </tbody>
+    </table>
+
+    <div class="tipbox">
+      <strong>Position III does not care.</strong> Fronting never touches the closing bracket. In
+      <em>Heute rufe ich dich an</em> the prefix <em>an</em> is still the last thing in the
+      sentence; in <em>Heute habe ich dich angerufen</em> the participle is still last. A separable
+      verb part is the easiest thing in the field system to get right, precisely because it never
+      moves.
+    </div>
+
+    <h3>Position III: separable and non-separable verbs</h3>
+    <table>
+      <thead><tr><th>Type</th><th>Structure</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">separable (trennbar)</td><td class="de">stem + prefix in position III; the prefix is unstressed</td>
+            <td>Ich <b>rufe</b> dich <b>an</b>. &nbsp;·&nbsp; Der Bus <b>h&auml;lt</b> in Mainz <b>an</b>.</td></tr>
+        <tr><td class="de">separable in the Perfekt</td><td class="de"><em>ge-</em> goes between the two parts</td>
+            <td>Ich <b>habe</b> dich <b>angerufen</b>.</td></tr>
+        <tr><td class="de">separable with <em>sein</em> in the Pr&auml;teritum</td><td class="de">the two parts fuse into one word</td>
+            <td>Der Bus <b>kam</b> in Mainz <b>an</b>. &nbsp;·&nbsp; Sie ist in Berlin <b>angekommen</b>.</td></tr>
+        <tr><td class="de">non-separable (untrennbar)</td><td class="de">the prefix is unstressed and stays on the verb</td>
+            <td>Ich <b>besuche</b> dich. &nbsp;·&nbsp; Er <b>&uuml;bersetzt</b> den Text.</td></tr>
+        <tr><td class="de"><em>ver-, be-, ent-, zer-, emp-, miss-, er-, ge-</em></td><td class="de">always untrennbar; the participle takes no <em>ge-</em></td>
+            <td>Er <b>verspricht</b> es. &nbsp;·&nbsp; Sie hat es <b>versprochen</b>.</td></tr>
+        <tr><td class="de">modal verbs</td><td class="de">never separable; the second verb is a bare infinitive at the end</td>
+            <td>Ich <b>muss</b> dich <b>anrufen</b>.</td></tr>
+      </tbody>
+    </table>
+
+    <h3>The three elements you cannot manipulate</h3>
+    <p>German word order looks free because almost everything in it <em>is</em> free. Three things
+      are not, and they are non-negotiable in every register from a telegram to a dissertation.</p>
+    <table>
+      <thead><tr><th>Element</th><th>Why it is fixed</th><th>Legal and illegal</th></tr></thead>
+      <tbody>
+        <tr><td class="de">the finite verb</td><td class="de">it opens or anchors the bracket; in position II it is the single fixed point of the clause</td>
+            <td>&#10003; <b>Um 14 Uhr</b> kommt <b>der Zug</b>. &nbsp; ✗ <b>Um 14 Uhr der Zug</b> kommt.</td></tr>
+        <tr><td class="de">the subject of the main clause</td><td class="de">fronting the subject keeps V2; if any other element is fronted, the subject follows the verb</td>
+            <td>&#10003; <b>Der Zug</b> kommt. &nbsp; ✗ <b>Der Zug</b> kommt der Zug p&uuml;nktlich.</td></tr>
+        <tr><td class="de">the separable part or the participle</td><td class="de">it closes the bracket and is always last in its own clause</td>
+            <td>&#10003; Ich rufe dich <b>an</b>. &nbsp; ✗ Ich rufe dich <b>an</b> am Abend.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="rulebox">
+      <strong>The formal statement.</strong> In the main clause the finite verb occupies the
+      second position counting from the left. If the first position is already filled by a fronted
+      element, the finite verb still stands in the second position — the fronted element is counted
+      as a member of the bracket, not as a member of the field. In the subordinate clause there is no
+      front field at all: the finite verb is last, and the position the fronted element would have
+      taken is occupied by the conjunction.
+    </div>
+
+    <h3>The Nachfeld: the fourth field</h3>
+    <p>The Nachfeld is the stretch after the closing bracket of the main clause, introduced by a
+      comma. It can hold a whole subordinate clause, a relative clause, a prepositional phrase or
+      an infinitive group, and it is closed by the final punctuation mark.</p>
+    <table>
+      <thead><tr><th>What is extraposed</th><th>Example</th><th>Note</th></tr></thead>
+      <tbody>
+        <tr><td class="de">an adverbial clause with a conjunction</td>
+            <td>Wir <b>fahren</b> morgen, <b>wenn</b> das Wetter <b>gut</b> ist.</td>
+            <td class="de">the conjunction takes position I <em>inside</em> the Nachfeld clause; its own verb stays last</td></tr>
+        <tr><td class="de">a relative clause</td>
+            <td>Das ist das Haus, <b>in dem</b> ich <b>aufgewachsen</b> bin.</td>
+            <td class="de">the relative clause keeps verb-final order inside the Nachfeld</td></tr>
+        <tr><td class="de">a prepositional phrase</td>
+            <td>Wir <b>warten</b> auf dich, <b>der</b> <b>hinter</b> dem Bahnhof <b>steht</b>.</td>
+            <td class="de">the final adverbial shifts back behind the extraposed phrase without any change of order</td></tr>
+        <tr><td class="de">an indirect question (<em>ob</em>, <em>wann</em>, <em>warum</em>)</td>
+            <td>Ich <b>wei&szlig;</b> nicht, <b>ob</b> er <b>kommt</b>.</td>
+            <td class="de">the question word is optional and takes the position <em>ob</em> would have taken</td></tr>
+        <tr><td class="de">a second clause joined by <em>und / oder / denn</em></td>
+            <td>Ich <b>rufe</b> dich an, <b>und</b> dann <b>erz&auml;hle</b> ich dir alles.</td>
+            <td class="de">this one has normal main-clause word order, not verb-final order</td></tr>
+      </tbody>
+    </table>
+
+    <div class="tipbox">
+      <strong>Nachfeld is not the same as Ausklammerung.</strong> Both push material to the end,
+      but they are two different constructions. <em>Er hat, soweit ich wei&szlig;, alles
+      vorbereitet</em> breaks the Mittelfeld open and is marked — avoid it. <em>Er hat alles
+      vorbereitet, soweit ich wei&szlig;</em> uses the Nachfeld and is neutral to formal. If in
+      doubt, use the Nachfeld.
+    </div>
+
+    <h3>True Nachfeld: extraposition with <em>es</em> … <em>dass</em></h3>
+    <p>In extraposition a short <em>es</em> stands in position I or II and the real content follows
+      in the Nachfeld. The word order inside the Nachfeld clause is untouched: <em>ob</em>,
+      <em>dass</em> and <em>wenn</em> occupy its position I, and the verb stays last.</p>
+    <table>
+      <thead><tr><th>Form</th><th>Example</th><th>Comma?</th></tr></thead>
+      <tbody>
+        <tr><td class="de">correlate in position II, clause refers to the whole sentence</td>
+            <td>Es ist <b>nicht leicht</b>, <b>dass</b> wir uns <b>treffen</b>.</td>
+            <td class="de">comma — the extraposed clause comments on the whole proposition</td></tr>
+        <tr><td class="de">correlate in position I</td>
+            <td><b>Es</b> ist nicht leicht, <b>dass</b> wir uns <b>treffen</b>.</td>
+            <td class="de">same, because the clause still refers back to the whole proposition</td></tr>
+        <tr><td class="de">correlate in position II, clause belongs to one word</td>
+            <td>Es ist <b>schade</b>, da&szlig; er nicht <b>gekommen</b> ist.</td>
+            <td class="de">no comma — the clause belongs to the single correlate <em>schade</em></td></tr>
+        <tr><td class="de"><em>dass</em> without a correlate</td>
+            <td>Er <b>hat</b> oft <b>gesagt</b>, da&szlig; er <b>kommt</b>.</td>
+            <td class="de">comma — the clause belongs to the whole preceding clause</td></tr>
+        <tr><td class="de">question word as the extraposed correlative</td>
+            <td>Es ist <b>ungekl&auml;rt</b>, <b>warum</b> er <b>gegangen</b> ist.</td>
+            <td class="de"><em>warum</em> takes the position <em>dass</em> would have taken</td></tr>
+        <tr><td class="de">relative pronoun instead of <em>es</em></td>
+            <td>Es ist <b>etwas</b>, <b>was</b> mich <b>besch&auml;ftigt</b>.</td>
+            <td class="de">no comma when the whole clause is the correlate; with a single-word correlate: <em>Es ist etwas, das mich besch&auml;ftigt</em> — comma</td></tr>
+      </tbody>
+    </table>
+
+    <div class="warnbox">
+      <strong>The Nachfeld clause has its own fields.</strong> You cannot treat the extraposed
+      content as a free block. <em>Es ist nicht leicht, wir treffen uns.</em> is wrong: a
+      <em>dass</em>-clause in the Nachfeld stays verb-final (<em>dass wir uns treffen</em>), and a
+      second main clause joined with <em>und</em> keeps its verb in position II (<em>und dann
+      treffen wir uns</em>).
+    </div>
+
+    <h3>The Nachfeld with a reflexive-accusative verb</h3>
+    <p>Verbs with a <em>sich</em>-accusative plus a complement form a tight bracket. The content of
+      the complement can be extraposed, but the linking preposition stays in the Mittelfeld and still
+      points forward — and the extraposed clause cannot then be pulled up to position I.</p>
+    <table>
+      <thead><tr><th>Pattern</th><th>Example</th><th>What stays where</th></tr></thead>
+      <tbody>
+        <tr><td class="de">sich + Akkusativ + preposition</td>
+            <td>Ich <b>freue</b> mich <b>darauf</b>, da&szlig; du <b>mitkommst</b>.</td>
+            <td class="de">the preposition remains in the Mittelfeld and governs the extraposed clause</td></tr>
+        <tr><td class="de">sich + Akkusativ + <em>dass</em>-clause, no preposition</td>
+            <td>Ich <b>freue</b> mich, da&szlig; du <b>mitkommst</b>.</td>
+            <td class="de">no preposition may be added; the extraposition is complete</td></tr>
+        <tr><td class="de">sich + Akkusativ + infinitive group</td>
+            <td>Ich <b>freue</b> mich, dich <b>zu sehen</b>.</td>
+            <td class="de">the <em>zu</em>-infinitive is the extraposed content</td></tr>
+        <tr><td class="de">sich + Akkusativ, clause fronted as a whole</td>
+            <td>Da&szlig; du <b>mitkommst</b>, <b>freue</b> <b>ich</b> mich.</td>
+            <td class="de">fronting a <em>dass</em>-clause is possible; inversion is then obligatory</td></tr>
+        <tr><td class="de">sich + Akkusativ with subject control</td>
+            <td>Es <b>freut</b> <b>mich</b>, da&szlig; du <b>mitkommst</b>.</td>
+            <td class="de">the subject of the main clause stays in the main clause; it is never pulled into the <em>dass</em>-clause</td></tr>
+      </tbody>
+    </table>
+
+    <div class="warnbox">
+      <strong>Fronting the <em>dass</em>-clause of a reflexive verb is not free.</strong>
+      <em>Ich freue mich, dass du mitkommst</em> can become <em>Da&szlig; du mitkommst, freue ich
+      mich</em>, but <em>Dass du mitkommst, ich freue mich</em> is not possible: once the clause
+      stands in position I, the finite verb must occupy position II and the subject must follow it.
+    </div>
+
+    <h3>The Nachfeld with an infinitive clause</h3>
+    <p>An extraposed content can be an infinitive group rather than a full clause. There is no finite
+      verb, so there is no position I inside it — but the group still counts as a field of the
+      Nachfeld and stays last, after the closing bracket.</p>
+    <table>
+      <thead><tr><th>Type of infinitive group</th><th>Example</th><th>Note</th></tr></thead>
+      <tbody>
+        <tr><td class="de"><em>zu</em>-infinitive as a complement</td>
+            <td>Ich <b>hoffe</b>, dich bald <b>zu sehen</b>.</td>
+            <td class="de">the preposition that would introduce it stays in the Mittelfeld: <em>Ich hoffe darauf, dich bald zu sehen</em></td></tr>
+        <tr><td class="de"><em>um … zu</em> (purpose)</td>
+            <td>Ich <b>stehe</b> fr&uuml;h auf, <b>um</b> den Zug <b>zu erreichen</b>.</td>
+            <td class="de"><em>um</em> stands in the first position of the group, the verb of purpose is last</td></tr>
+        <tr><td class="de"><em>ohne … zu</em></td>
+            <td>Er <b>ging</b> weg, <b>ohne</b> sich <b>zu verabschieden</b>.</td>
+            <td class="de">the reflexive pronoun belongs to the extraposed group, not to the main clause</td></tr>
+        <tr><td class="de"><em>(an)statt … zu</em></td>
+            <td>Er <b>wartete</b>, <b>statt</b> nach Hause <b>zu gehen</b>.</td>
+            <td class="de">the same structure with a contrastive meaning</td></tr>
+        <tr><td class="de">bare infinitive after a perception verb</td>
+            <td>Ich <b>sehe</b> dich <b>kommen</b>.</td>
+            <td class="de">no <em>zu</em>; the group simply closes the clause</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Stance phrases in position I</h3>
+    <p>Expressions of opinion can occupy the front field on their own. Because they are not
+      clauses, the finite verb moves to position II in exactly the way it does after any other
+      fronted element.</p>
+    <table>
+      <thead><tr><th>Phrase</th><th>Example</th><th>Structure</th></tr></thead>
+      <tbody>
+        <tr><td class="de">der Meinung nach / meiner Meinung nach</td>
+            <td><b>Der Meinung nach</b> ist er im Vorteil.</td>
+            <td class="de">genitive phrase: definite article for <em>die Meinung</em>, possessive for <em>meine Meinung</em></td></tr>
+        <tr><td class="de">meiner Ansicht nach</td>
+            <td><b>Meiner Ansicht nach</b> war das ein Fehler.</td>
+            <td class="de">no article; identical position I behaviour</td></tr>
+        <tr><td class="de">meines Erachtens</td>
+            <td><b>Meines Erachtens</b> war das ein Fehler.</td>
+            <td class="de">fixed phrase, genitive form, no article, never inflected</td></tr>
+        <tr><td class="de">meinerseits / deinerseits</td>
+            <td><b>Meinerseits</b> w&auml;re ich daf&uuml;r.</td>
+            <td class="de">adverbial form; Konjunktiv II remains possible in position II</td></tr>
+        <tr><td class="de">in meinen Augen / meines Erachtens nach … zu urteilen</td>
+            <td><b>In meinen Augen</b> ist das keine L&ouml;sung.</td>
+            <td class="de">an ordinary prepositional phrase — it may equally stay in the Mittelfeld</td></tr>
+      </tbody>
+    </table>
+
+    <div class="tipbox">
+      <strong>All of them put the verb in position II.</strong> <em>Meines Erachtens war das ein
+      Fehler</em>, never <em>Meines Erachtens das war ein Fehler</em>. And they are not simply
+      interchangeable: <em>der Meinung nach</em> can also report somebody else's opinion when the
+      possessor is named — <em>Der Meinung nach <strong>seiner Mutter</strong> war das
+      richtig.</em> <em>meines Erachtens</em> can only ever be the speaker's own view.
+    </div>
+
+    <h3>Comparative pairs in position I: <em>je … desto</em></h3>
+    <p><em>Je … desto …</em> is a correlative pair whose first half fills position I with a
+      clause-like unit. The first half keeps verb-final order; the second half is a full main clause
+      with the verb in position II. In writing, <em>umso</em> is the more precise and more usual
+      alternative.</p>
+    <table>
+      <thead><tr><th>Form</th><th>Example</th><th>Word order</th></tr></thead>
+      <tbody>
+        <tr><td class="de"><em>je …, desto …</em> (spoken)</td>
+            <td><b>Je fr&uuml;her</b> du kommst, <b>desto l&auml;nger</b> k&ouml;nnen wir reden.</td>
+            <td class="de">first half verb-final, second half with the verb in position II</td></tr>
+        <tr><td class="de"><em>je …, umso …</em> (written)</td>
+            <td><b>Je mehr</b> man &uuml;bt, <b>umso sicherer</b> wird <b>man</b>.</td>
+            <td class="de">identical structure; <em>umso</em> is neutral in register</td></tr>
+        <tr><td class="de">first half without a correlative</td>
+            <td>Je mehr man &uuml;bt, desto sicherer wird man.</td>
+            <td class="de">if <em>desto / umso</em> is missing, the second half may take any main-clause order</td></tr>
+        <tr><td class="de"><em>desto</em> after a negative first half</td>
+            <td>Je &ouml;fter <b>man</b> wartet, <b>desto &auml;rger</b> wird <b>er</b>.</td>
+            <td class="de">the correlative is obligatory for the marked, inverted reading</td></tr>
+        <tr><td class="de">reversed order</td>
+            <td>&#10003; <b>Je mehr</b> man &uuml;bt, <b>desto besser</b> wird man.</td>
+            <td class="de">✗ <b>Desto besser, je mehr</b> man &uuml;bt — the two halves may not be swapped</td></tr>
+      </tbody>
+    </table>
+
+    <div class="rulebox">
+      <strong>Why the second half inverts.</strong> <em>Desto besser</em> is the field in position I of
+      the second clause, so the finite verb <em>wird</em> takes position II and the subject
+      <em>man</em> follows it. This is not a stylistic inversion; it is the normal V2 order for a
+      clause with a fronted field.
+    </div>
+
+    <h3>Emphasis on the Nachfeld: <em>Was mich betrifft, …</em></h3>
+    <p>To put a whole clause into position I and shift the emphasis onto it, the clause must be
+      fronted <em>as a unit</em>. The subject then follows the finite verb, and the Nachfeld stays
+      empty.</p>
+    <table>
+      <thead><tr><th>Fronted unit</th><th>Example</th><th>Effect</th></tr></thead>
+      <tbody>
+        <tr><td class="de">relative clause with <em>was</em></td>
+            <td><b>Was mich betrifft</b>, habe ich keine Einw&auml;nde.</td>
+            <td class="de">the fronted clause is position I; the main clause inverts; the Nachfeld is unused</td></tr>
+        <tr><td class="de"><em>was</em> + subject + participle</td>
+            <td><b>Was die Kosten betrifft</b>, k&ouml;nnen wir <b>das</b> <b>besprechen</b>.</td>
+            <td class="de">the Perfekt participle stays last: it still closes the second bracket</td></tr>
+        <tr><td class="de">fronted <em>dass</em>-clause</td>
+            <td><b>Dass er nicht kommt</b>, m&uuml;ssen wir <b>das</b> entscheiden.</td>
+            <td class="de">verb-final order inside the fronted clause, V2 in the main clause</td></tr>
+        <tr><td class="de">fronted indirect question</td>
+            <td><b>Wann er kommt</b>, ist noch offen.</td>
+            <td class="de">the question word stands in position I <em>inside</em> the fronted group</td></tr>
+        <tr><td class="de">fronted without inversion</td>
+            <td>Was mich betrifft, das stimmt.</td>
+            <td class="de">possible only because <em>das</em> is the subject; a <em>dass</em>-clause here would be wrong</td></tr>
+      </tbody>
+    </table>
+
+    <div class="warnbox">
+      <strong>Fronting a Nachfeld clause is not the same as writing it in the Nachfeld.</strong>
+      <em>Was mich betrifft, habe ich keine Einw&auml;nde</em> (fronted, inverted) and
+      <em>Ich habe keine Einw&auml;nde, was mich betrifft</em> (Nachfeld) are both possible and mean
+      almost the same — but a bare clause with its own subject may not be put in position I:
+      <em>Was das betrifft, ich habe keine Einw&auml;nde</em> is ungrammatical, because the subject
+      of a fronted clause cannot also serve as the subject of the following main clause.
+    </div>
+
+    <h3>Do not confuse these</h3>
+    <table>
+      <thead><tr><th>Pair</th><th>Difference</th></tr></thead>
+      <tbody>
+        <tr><td class="de">position I vs. position II</td><td class="de">position I holds <em>either</em> one fronted element <em>or</em> the finite verb, never both. Position II holds the finite verb only when position I is already filled.</td></tr>
+        <tr><td class="de">position II vs. position III</td><td class="de">position II is the whole open Mittelfeld; position III is the single closing slot for the separable part or the participle. In <em>Ich rufe dich an</em>, <em>an</em> is position III and <em>dich</em> is position II.</td></tr>
+        <tr><td class="de">Nachfeld vs. Ausklammerung</td><td class="de">the Nachfeld is a field of its own with its own word order, introduced by a comma and closed by the full stop. Ausklammerung pulls an element out of the Mittelfeld across the closing bracket; it is marked and normally wrong in formal German.</td></tr>
+        <tr><td class="de">Nachfeld clause vs. second main clause</td><td class="de">a subordinate clause in the Nachfeld is verb-final; a second main clause joined by <em>und / oder / denn / aber</em> keeps its verb in position II: <em>…, weil er kommt</em> vs. <em>…, und dann kommt er</em>.</td></tr>
+        <tr><td class="de">fronted subordinate clause vs. extraposition</td><td class="de">fronting puts the clause in position I and forces inversion in the main clause; extraposition leaves position I to a short <em>es</em> and leaves the main clause uninverted: <em>Dass er kommt, wei&szlig; ich</em> vs. <em>Es ist klar, dass er kommt</em>.</td></tr>
+        <tr><td class="de"><em>der Meinung nach</em> vs. <em>meiner Meinung nach</em> vs. <em>meines Erachtens</em></td><td class="de">identical in position and in effect on word order. <em>der</em> for a general or third-party opinion, <em>meiner</em> for the speaker's own, <em>meines Erachtens</em> a fixed formal phrase. All three put the finite verb in position II.</td></tr>
+        <tr><td class="de">fronting a subject attribute vs. fronting an adverbial</td><td class="de">a fronted phrase that belongs to the subject does not cause inversion (<em>Trotz allem sind wir gefahren</em>); a fronted adverbial does (<em>Trotz allem fahren wir nicht</em>).</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Summary: which field, which structure</h3>
+    <table>
+      <thead><tr><th>You want to…</th><th>Structure</th><th>Effect on word order</th></tr></thead>
+      <tbody>
+        <tr><td class="de">put a time, place or reason phrase first</td><td class="de">fronted adverbial in position I</td><td class="de">verb to position II, subject after the verb</td></tr>
+        <tr><td class="de">emphasise an object rather than the time</td><td class="de">fronted object in position I</td><td class="de">verb to position II, the rest of the Mittelfeld unchanged</td></tr>
+        <tr><td class="de">ask a yes–no question</td><td class="de">nothing in position I</td><td class="de">the finite verb itself to position I</td></tr>
+        <tr><td class="de">keep a separable verb correct</td><td class="de">prefix in position III</td><td class="de">none — the prefix is always last</td></tr>
+        <tr><td class="de">add a reason, condition or time clause at the end</td><td class="de">subordinate clause in the Nachfeld</td><td class="de">main clause unchanged; the clause itself stays verb-final</td></tr>
+        <tr><td class="de">make a long content the topic of the sentence</td><td class="de">extraposition: <em>es</em> … <em>dass / ob</em></td><td class="de">short correlate in position I or II, content in the Nachfeld, verb-final inside</td></tr>
+        <tr><td class="de">extrapose a purpose or a <em>zu</em>-infinitive</td><td class="de">infinitive group in the Nachfeld</td><td class="de">no finite verb in the group; the linking preposition stays in the Mittelfeld</td></tr>
+        <tr><td class="de">state a viewpoint first</td><td class="de"><em>der Meinung nach</em> / <em>meines Erachtens</em> in position I</td><td class="de">verb to position II; no inversion beyond the normal pattern</td></tr>
+        <tr><td class="de">express a proportionate relation</td><td class="de"><em>je …, desto / umso …</em></td><td class="de">first half verb-final, second half inverted with the verb in position II</td></tr>
+        <tr><td class="de">focus a whole clause on one point</td><td class="de">fronted clause: <em>Was mich betrifft, …</em></td><td class="de">clause in position I, main clause inverted, Nachfeld left empty</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- ══ 2. EXAMPLES ══ -->
+  <section>
+    <h2>2 · 20 worked examples</h2>
+    <p><small>Each example marks the opener and closer in bold and explains what it does to the sentence.</small></p>
+    <div id="examples"></div>
+  </section>
+
+  <!-- ══ 3. EXERCISES ══ -->
+  <section>
+    <h2>3 · 100 exercises</h2>
+
+    <div class="noVoice" id="noVoice">
+      <b>Pronunciation unavailable.</b> This browser has no German speech voice installed, so the
+      speaker buttons will not play. In Chrome, Edge and Safari on a desktop, German is available by default.
+    </div>
+    <div id="quiz"></div>
+  </section>
+
+</div>
+
+<footer class="footer"><strong>The sentence bracket and field positions</strong><span class="footer-dot">·</span><span>Roman Zajic</span></footer>
+
+<script>
+(function(){
+  "use strict";
+
+  var EXAMPLES = [
+    ["<em>Um 14 Uhr</em> <em>kommt</em> der Zug nach Hamburg. — At 2 p.m. the train to Hamburg arrives.", "The time expression takes position I, so the finite verb <em>kommt</em> moves to position II and the subject <em>der Zug</em> follows in position II as well; the destination stays in position III."],
+    ["<em>Heute Abend</em> <em>rufe</em> ich dich an. — This evening I will call you.", "<em>Heute Abend</em> is fronted, so <em>rufe</em> fills position I and the subject <em>ich</em> stands in position II; the separable prefix <em>an</em> closes the bracket at the very end."],
+    ["<em>Leider</em> <em>haben</em> wir den Zug verpasst. — Unfortunately we missed the train.", "The adverbial <em>leider</em> occupies position I, <em>haben</em> takes position II, and the participle <em>verpasst</em> closes the bracket in position III."],
+    ["Der Techniker <em>ruft</em> gleich <em>wieder</em> <em>an</em>. — The technician will call back shortly.", "Subject first, so the finite verb <em>ruft</em> goes to position II; the separable prefix <em>an</em> stands at the end of the bracket, behind <em>wieder</em>."],
+    ["<em>Am Montag</em> <em>stehen</em> die Pr&uuml;fungen <em>an</em>. — On Monday the exams are scheduled.", "The date in position I pushes <em>stehen</em> into position II; <em>an</em> is the separable prefix and must stand at the end, not before the object."],
+    ["Ich <em>sehe</em> mir den Film <em>an</em>. — I am watching the film.", "With the subject in position I, <em>sehe</em> is the finite verb in position II and the separable prefix <em>an</em> ends the sentence."],
+    ["Wir <em>nehmen</em> den Bus <em>um 8 Uhr</em>, wenn es regnet. — We take the bus at 8 if it rains.", "The Nachfeld clause <em>wenn es regnet</em> is optional and stands after the closing element of the bracket; without it the sentence is complete."],
+    ["Ich <em>habe</em> die Rechnung <em>bezahlt</em>, <em>wie</em> du <em>mir</em> <em>geraten</em> <em>hast</em>. — I paid the bill, as you advised me.", "The whole <em>wie</em>-clause sits in the Nachfeld after the completed bracket; inside it the finite verb <em>hast</em> stands last, before the participle <em>geraten</em>."],
+    ["Er stellt die Frage, <em>wo</em> das Treffen <em>stattfindet</em>. — He asks where the meeting is taking place.", "<em>wo</em>-clauses occupy the Nachfeld; <em>stattfindet</em> is the verb of the subordinate clause, while the main clause verb <em>stellt</em> keeps position II."],
+    ["<em>Der Meinung nach</em> <em>ist</em> er im Vorteil. — In my opinion he has the advantage.", "The stance phrase <em>Der Meinung nach</em> sits in position I, so the subject <em>er</em> must be pulled into position II after <em>ist</em>."],
+    ["<em>Meiner Ansicht nach</em> <em>war</em> das ein Fehler. — In my view that was a mistake.", "A dative stance phrase in position I inverts the clause: <em>war</em> leads, the subject <em>das</em> follows; <em>ein Fehler</em> is the predicate in position III."],
+    ["<em>Meines Erachtens</em> <em>haben</em> wir zu fr&uuml;h entschieden. — In my opinion we decided too early.", "<em>Meines Erachtens</em> is a genitive stance phrase in position I; <em>haben</em> takes position II, <em>wir</em> the subject slot, and the participle <em>entschieden</em> closes the bracket."],
+    ["<em>Je mehr</em> man &uuml;bt, <em>desto</em> sicherer <em>wird</em> man. — The more one practises, the more confident one becomes.", "The <em>je</em>-clause keeps normal order, but the <em>desto</em>-clause must invert: the comparative in position I, <em>wird</em> in position II, <em>man</em> as subject in position III; the halves cannot be swapped."],
+    ["<em>Je fr&uuml;her</em> wir <em>anfangen</em>, desto besser <em>gelingt</em> es. — The earlier we start, the better it goes.", "The first half is a main-clause order with the separable prefix <em>anfangen</em> at the end; the second half is inverted, so <em>gelingt</em> leads and <em>es</em> follows in position III."],
+    ["<em>Dass</em> er kommt, <em>wei&szlig;</em> ich nicht. — That he is coming, I do not know.", "The fronted <em>dass</em>-clause occupies position I, so the main clause inverts: <em>wei&szlig;</em> in position II and the subject <em>ich</em> behind it, with <em>nicht</em> at the end."],
+    ["<em>Wenn</em> du mich <em>fragst</em>, &ouml;ffne ich die T&uuml;r. — If you ask me, I will open the door.", "The conditional clause in position I ends verb-final (<em>fragst</em>), and the main clause must invert, which is why <em>&ouml;ffne</em> and <em>ich</em> swap places."],
+    ["Weil das Wetter sch&ouml;n ist, <em>machen</em> wir ein Picknick. — Because the weather is nice, we are having a picnic.", "A <em>weil</em>-clause in position I has its verb last (<em>ist</em>), and the following main clause inverts to <em>machen</em> … <em>wir</em>."],
+    ["Ob Sie mitfahren, <em>entscheiden</em> Sie bitte selbst. — Whether you come along is up to you to decide.", "The indirect question as a fronted field occupies position I; the main clause behind it is in formal inversion, with the polite <em>Sie</em> in the subject position."],
+    ["<em>Den ganzen Nachmittag</em> <em>hat</em> der Techniker <em>an</em> der Anlage <em>gearbeitet</em>. — The technician worked on the system all afternoon.", "Three-part bracket: the time phrase in position I, <em>hat</em> plus subject <em>der Techniker</em> in position II, then the object with the separable prefix <em>an</em> and the participle <em>gearbeitet</em> at the end."],
+    ["&Uuml;bermorgen <em>soll</em> die neue Regelung <em>in Kraft treten</em>. — The new regulation is to come into force the day after tomorrow.", "<em>&Uuml;bermorgen</em> in position I puts <em>soll</em> in position II; the modal verb and the separable prefix <em>treten</em> form the bracket end, with <em>in Kraft</em> in position III."]
+  ];
+
+  var DATA_URL = "../../data/grammar_exercises_satzklammer.json";
+  var STORE = "satzklammer_progress_v1";
+  // ── pronunciation via the browser speech engine ──
+  var MIC_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5z"></path>'
+    + '<path class="pulse" d="M15.5 8.5a5 5 0 0 1 0 7"></path>'
+    + '<path class="pulse" d="M18.5 5.5a9 9 0 0 1 0 13"></path></svg>';
+  var synth = window.speechSynthesis || null;
+  var germanVoice = null;
+
+  function stripTags(t){ return String(t).replace(/<[^>]*>/g,""); }
+
+  function pickVoice(){
+    if(!synth) return null;
+    var vs = synth.getVoices() || [];
+    germanVoice = vs.filter(function(v){ return /^de(-|_|$)/i.test(v.lang); })[0] || null;
+    return germanVoice;
+  }
+  if(synth){
+    pickVoice();
+    if(synth.addEventListener) synth.addEventListener("voiceschanged", pickVoice);
+  }
+
+  function stopSpeech(){ if(synth) try{ synth.cancel(); }catch(e){} }
+
+  var warned = false;
+  function noVoiceNotice(){
+    if(warned) return; warned = true;
+    var n = document.getElementById("noVoice");
+    if(n) n.style.display = "flex";
+  }
+  function micBtn(text, label){
+    var b = document.createElement("button");
+    b.className = "mic";
+    b.type = "button";
+    b.setAttribute("aria-pressed","false");
+    b.setAttribute("aria-label", (label||"Play") + ": " + stripTags(text));
+    b.title = "Play pronunciation";
+    b.innerHTML = MIC_SVG;
+    b.addEventListener("click", function(ev){
+      ev.stopPropagation();
+      if(!synth){ b.disabled = true; b.title = "Speech is not available in this browser"; noVoiceNotice(); return; }
+      if(b.getAttribute("aria-pressed")==="true"){ stopSpeech(); b.setAttribute("aria-pressed","false"); return; }
+      stopSpeech();
+      if(!germanVoice) pickVoice();
+      var u = new SpeechSynthesisUtterance(stripTags(text));
+      u.lang = "de-DE";
+      if(germanVoice) u.voice = germanVoice;
+      u.rate = 0.92; u.pitch = 1;
+      b.setAttribute("aria-pressed","true");
+      var off = function(){ b.setAttribute("aria-pressed","false"); };
+      u.onend = off;
+      u.onerror = function(){ off(); noVoiceNotice(); };
+      synth.speak(u);
+      // some engines report no voices at all; surface that instead of a dead button
+      if(!synth.getVoices().length) noVoiceNotice();
+    });
+    return b;
+  }
+
+  var state = {revealed:{}, answers:{}};
+
+  function esc(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
+  function load(){ try{ var v=JSON.parse(localStorage.getItem(STORE)); if(v&&typeof v==="object"){state.revealed=v.revealed||{};state.answers=v.answers||{};} }catch(e){} }
+  function save(){ try{ localStorage.setItem(STORE, JSON.stringify(state)); }catch(e){} }
+
+  // ---- examples ----
+  // Each entry is [german_and_english, why]. The first field carries the English
+  // translation after an em dash, so split it out for separate styling.
+  function splitDE(t){
+    var i = t.indexOf("\u2014");
+    if(i < 0) return [t, ""];
+    return [t.slice(0,i).trim(), t.slice(i+1).trim()];
+  }
+  (function renderExamples(){
+    var host = document.getElementById("examples");
+    host.innerHTML = "";
+    EXAMPLES.forEach(function(x){
+      var de = x[0] || "";
+      var why = x[1] || "";
+      var parts = splitDE(de);
+      var card = document.createElement("div");
+      card.className = "ex";
+
+      var row = document.createElement("div");
+      row.className = "microw";
+      var txt = document.createElement("div");
+      txt.className = "mtext";
+      txt.innerHTML = '<div class="de">'+parts[0]+'</div>'+
+                      (parts[1] ? '<div class="en">'+parts[1]+'</div>' : "");
+      row.appendChild(txt);
+      row.appendChild(micBtn(parts[0], "Play this example"));
+      card.appendChild(row);
+
+      if(why){
+        var w = document.createElement("div");
+        w.className = "why";
+        w.innerHTML = "<b>Why:</b> "+why;
+        card.appendChild(w);
+      }
+      host.appendChild(card);
+    });
+  })();
+
+  // German special letters, inserted at the caret in the focused input.
+  var KEYS = ["ä","ö","ü","Ä","Ö","Ü","ß","€"];
+
+  function insertAt(input, ch){
+    var v = input.value;
+    var a = input.selectionStart == null ? v.length : input.selectionStart;
+    var b = input.selectionEnd == null ? v.length : input.selectionEnd;
+    input.value = v.slice(0,a) + ch + v.slice(b);
+    var pos = a + ch.length;
+    try{ input.setSelectionRange(pos,pos); }catch(e){}
+    input.focus();
+  }
+
+  function keypadBtn(id){
+    var b = document.createElement("button");
+    b.type = "button";
+    b.className = "keybtn";
+    b.title = "German letters";
+    b.setAttribute("aria-label","Insert German special characters");
+    b.setAttribute("aria-expanded","false");
+    b.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true">'+
+      '<rect x="2" y="5" width="20" height="14" rx="2"></rect>'+
+      '<path d="M6 9h.01M10 9h.01M14 9h.01M18 9h.01M6 13h.01M10 13h.01M14 13h.01M18 13h.01M8 16h8"></path>'+
+      '</svg>';
+    b.addEventListener("click", function(ev){
+      ev.stopPropagation();
+      var panel = document.getElementById("pad-"+id);
+      if(!panel) return;
+      var open = panel.classList.toggle("open");
+      b.setAttribute("aria-expanded", open ? "true" : "false");
+      closeAllKeypads(panel);
+    });
+    return b;
+  }
+
+  function closeAllKeypads(except){
+    Array.prototype.forEach.call(document.querySelectorAll(".pad.open"), function(p){
+      if(p === except) return;
+      p.classList.remove("open");
+      var btn = p.previousSibling && p.previousSibling.querySelector ? p.previousSibling.querySelector(".keybtn") : null;
+      if(btn) btn.setAttribute("aria-expanded","false");
+    });
+  }
+
+  document.addEventListener("click", function(){ closeAllKeypads(null); });
+  document.addEventListener("keydown", function(e){ if(e.key === "Escape") closeAllKeypads(null); });
+
+  function renderQuiz(ex){
+    var el = document.getElementById("quiz");
+    el.innerHTML = "";
+    ex.forEach(function(e){
+      var rev = !!state.revealed[e.id];
+      var card = document.createElement("article");
+      card.className = "q" + (rev ? " revealed" : "");
+      card.id = "q"+e.id;
+
+      var top = document.createElement("div");
+      top.className = "qtop";
+      top.innerHTML = '<span class="qnum">'+e.id+'</span>';
+      var qt = document.createElement("span");
+      qt.className = "qtext";
+      qt.textContent = e.english;
+      top.appendChild(qt);
+      card.appendChild(top);
+
+      // input with the letter keypad docked inside its right edge
+      var row = document.createElement("div");
+      row.className = "inputrow";
+      var ta = document.createElement("input");
+      ta.type = "text";
+      ta.className = "ainput";
+      ta.placeholder = "Write the German here…";
+      ta.setAttribute("aria-label","Your German answer for exercise "+e.id);
+      ta.value = state.answers[e.id] || "";
+      ta.addEventListener("input", function(){ state.answers[e.id] = ta.value; save(); });
+      row.appendChild(ta);
+      row.appendChild(keypadBtn(e.id));
+      card.appendChild(row);
+
+      // the letter panel sits inside the card so it is never clipped
+      var pad = document.createElement("div");
+      pad.className = "pad";
+      pad.id = "pad-"+e.id;
+      KEYS.forEach(function(k){
+        var kb = document.createElement("button");
+        kb.type = "button";
+        kb.className = "padkey";
+        kb.textContent = k;
+        kb.addEventListener("click", function(ev){
+          ev.stopPropagation();
+          var target = card.querySelector(".ainput");
+          insertAt(target, k);
+          state.answers[e.id] = target.value;
+          save();
+        });
+        pad.appendChild(kb);
+      });
+      card.appendChild(pad);
+
+      // reveal / hide toggle
+      var rb = document.createElement("button");
+      rb.type = "button";
+      rb.className = "btn rev" + (rev ? " on" : "");
+      rb.textContent = rev ? "Hide answer" : "Reveal answer";
+      rb.setAttribute("aria-expanded", rev ? "true" : "false");
+      rb.addEventListener("click", function(){
+        state.revealed[e.id] = !state.revealed[e.id];
+        save();
+        renderQuiz(ex);
+      });
+      card.appendChild(rb);
+
+      if(rev){
+        var fb = document.createElement("div");
+        fb.className = "fb";
+
+        var ansRow = document.createElement("div");
+        ansRow.className = "microw ansrow";
+        var at = document.createElement("div");
+        at.className = "mtext";
+        at.textContent = e.german;
+        ansRow.appendChild(at);
+        ansRow.appendChild(micBtn(e.german, "Play the German answer"));
+        fb.appendChild(ansRow);
+
+        var wy = document.createElement("div");
+        wy.className = "why";
+        wy.textContent = e.why;
+        fb.appendChild(wy);
+
+        card.appendChild(fb);
+      }
+      el.appendChild(card);
+    });
+  }
+
+  load();
+
+  fetch(DATA_URL+"?cb="+Date.now())
+    .then(function(r){ if(!r.ok) throw new Error("HTTP "+r.status); return r.json(); })
+    .then(function(d){
+      var ex=d.exercises;
+      renderQuiz(ex);
+    })
+    .catch(function(e){
+      document.getElementById("quiz").innerHTML =
+        '<div class="q"><b>Could not load the exercises.</b><br>'+esc(e.message)+'</div>';
+    });
+})();
+</script>
+</body>
+</html>
