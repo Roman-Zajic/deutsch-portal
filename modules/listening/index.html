@@ -254,11 +254,20 @@ function showMsg(id, text){
 function clearMsgs(){ ["keyMsg","errMsg","warnMsg"].forEach(function(id){ showMsg(id,""); }); }
 
 /* ── sentence splitting ─────────────────────────────────
-   German abbreviations and initials that must NOT end a sentence:
-   z.B., d.h., u.a., bzw., Dr., Nr., Abb., vs., usw., etc.
-   A decimal or an initial letter before the period is protected.
+   A period only ends a sentence when what follows starts a new
+   one. German abbreviations (z.B., d.h., u.a., Dr., Nr.) and
+   initials are protected by an explicit list, plus two rules:
+   a digit either side of the period means a decimal or an
+   ordinal, and a known abbreviation pattern means no break.
 ──────────────────────────────────────────────────────── */
-const ABBREV = /(?:^|\s)(?:z\.\s?B|d\.\s?h|u\.\s?a|bzw|usw|Dr|Prof|Dr\.?|Nr|Abb|Bsp|S\.|ca|evtl|inkl|z\.\s?T|evtl|bspw|max|min|Nr\.|vgl|Mrd|ca)\.$/i;
+const ABBREV_WORDS = [
+  "z\.B","d\.h","u\.a","bzw","usw","sog","Dr","Prof","Nr","Abb","Bsp","vgl","ca","evtl",
+  "inkl","exkl","max","min","Mrd","Mio","St","Nr","bspw","z\.T","ggf","inkl\.","etc","lat",
+  "engl","dt","ital","frz","s\.o","u\.U","v\.a","i\.d\.R","Nr\.","Abb\.","Hr","Fr"
+];
+const ABBREV_TAIL = new RegExp("\\s(?:" + ABBREV_WORDS.join("|") + ")$", "i");
+const INITIAL_TAIL = /\s[A-ZÄÖÜ]\.$/;          // "Dr. Meier", "A. B."
+const DECIMAL      = /\d\.$|^\.$/;              // "3.500 Euro" -> digit before the dot
 
 function splitSentences(text){
   const clean = String(text).replace(/\s+/g, " ").trim();
@@ -268,24 +277,27 @@ function splitSentences(text){
   for(let i = 0; i < clean.length; i++){
     const ch = clean[i];
     buf += ch;
-    if(ch === "." || ch === "!" || ch === "?"){
-      // look ahead: is the next non-space char a capital letter / opening quote?
-      let j = i + 1;
-      while(j < clean.length && clean[j] === " ") j++;
-      const nextCh = clean[j] || "";
-      const nextIsNew = !nextCh || /["'„“(\-–]?[A-ZÄÖÜ0-9]/.test(nextCh);
-      if(nextIsNew){
-        // guard against abbreviations and single initials
-        const candidate = buf.trim();
-        const isAbbrev = ABBREV.test(candidate) ||
-                         /(?:^|\s)[A-ZÄÖÜ]\.$/.test(candidate) ||
-                         /\b[A-Za-zÄÖÜäöü]{1,3}\.$/.test(candidate) ||
-                         /\d\.$/.test(candidate);
-        if(!isAbbrev && candidate.length > 1){
-          out.push(candidate);
-          buf = "";
-        }
-      }
+    if(ch !== "." && ch !== "!" && ch !== "?") continue;
+
+    let j = i + 1;
+    while(j < clean.length && clean[j] === " ") j++;
+    const nextCh = clean[j] || "";
+    // a new sentence begins with a capital, a digit, or an opening quote
+    const startsNew = !nextCh || /["'\u201e\u201c(\-\u2013]?[A-ZÄÖÜ0-9]/.test(nextCh);
+    if(!startsNew) continue;
+
+    const candidate = buf.trim();
+    // ! and ? always end a sentence; only "." needs the guards
+    if(ch !== "."){
+      out.push(candidate); buf = "";
+      continue;
+    }
+    if(ABBREV_TAIL.test(candidate)) continue;   // ends in z.B., Dr., usw.
+    if(INITIAL_TAIL.test(candidate)) continue;  // ends in a single capital initial
+    if(DECIMAL.test(candidate)) continue;       // ends in a digit + dot
+    if(candidate.length > 1){
+      out.push(candidate);
+      buf = "";
     }
   }
   const rest = buf.trim();
