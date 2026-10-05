@@ -1041,7 +1041,8 @@
           "topic_en": "Concessive connectors",
           "term_de": "konzessive Konnektoren",
           "covers": "zweiteilige Formen: wenn … auch, obwohl … trotzdem, wie … auch.",
-          "provider_split": false
+          "provider_split": false,
+          "page": "konzessive-konnektoren.html"
         },
         {
           "n": 28,

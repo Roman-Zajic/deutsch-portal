@@ -1,0 +1,711 @@
+{
+  "title": "Concessive connectors",
+  "level": "B2",
+  "n": 27,
+  "topic_en": "Concessive connectors",
+  "term_de": "Die konzessiven Konnektoren",
+  "updated": "2026-10-05",
+  "schema": "english-prompt -> learner types German -> Reveal/Hide answer shows reference + speaker",
+  "exercises": [
+    {
+      "id": 1,
+      "skill": "Concessive: wenn … auch",
+      "english": "Even if it rains, we will still go.",
+      "german": "Wenn es auch regnet, gehen wir trotzdem.",
+      "why": "Two-part concessive: the wenn-clause concedes the obstacle, and trotzdem in the main clause overrides it."
+    },
+    {
+      "id": 2,
+      "skill": "Concessive: wenn … auch",
+      "english": "Whatever you decide, I will support it.",
+      "german": "Was du auch entscheidest, ich werde dich unterstützen.",
+      "why": "was … auch is the freest form: was stands for anything, and the clause keeps verb-final order."
+    },
+    {
+      "id": 3,
+      "skill": "Concessive: wenn … auch",
+      "english": "However expensive it is, we cannot afford it.",
+      "german": "Wie teuer es auch ist, wir können es uns nicht leisten.",
+      "why": "wie … auch with a comparative; the clause concedes the degree, the main clause states the limit."
+    },
+    {
+      "id": 4,
+      "skill": "Concessive: wenn … auch",
+      "english": "Even if he apologises, I will not forgive him.",
+      "german": "Wenn er sich auch entschuldigt, vergebe ich ihm trotzdem nicht.",
+      "why": "Both parts are negated, and the concessive reading comes from wenn … auch rather than from negation."
+    },
+    {
+      "id": 5,
+      "skill": "Concessive: wenn … auch",
+      "english": "Even if it were expensive, I would buy it.",
+      "german": "Wenn es auch teuer wäre, würde ich es kaufen.",
+      "why": "Irreal concessive: wäre in the clause, würde + infinitive in the main clause."
+    },
+    {
+      "id": 6,
+      "skill": "Concessive: wenn … auch",
+      "english": "Even if you try, you cannot open it.",
+      "german": "Wie du es auch versuchst, du wirst es nicht öffnen können.",
+      "why": "wie … auch with a separable verb; the main clause keeps modal + infinitive."
+    },
+    {
+      "id": 7,
+      "skill": "Concessive: wenn … auch",
+      "english": "Even if she were here, she would say no.",
+      "german": "Auch wenn sie hier wäre, würde sie Nein sagen.",
+      "why": "Auch placed before wenn emphasises the concession without changing word order."
+    },
+    {
+      "id": 8,
+      "skill": "Concessive: wenn … auch",
+      "english": "Even if we leave now, we will be late.",
+      "german": "Wenn wir auch jetzt losgehen, werden wir zu spät kommen.",
+      "why": "The concessive does not remove the main-clause verb, which stays in position II."
+    },
+    {
+      "id": 9,
+      "skill": "Concessive: obwohl … trotzdem",
+      "english": "Although it is raining, we are going for a walk.",
+      "german": "Obwohl es regnet, gehen wir spazieren.",
+      "why": "The classic concessive: obwohl with a verb-final clause, then the main clause in normal order."
+    },
+    {
+      "id": 10,
+      "skill": "Concessive: obwohl … trotzdem",
+      "english": "Although he is tired, he keeps working.",
+      "german": "Obwohl er müde ist, arbeitet er weiter.",
+      "why": "obwohl concedes the reason that would normally stop the action."
+    },
+    {
+      "id": 11,
+      "skill": "Concessive: obwohl … trotzdem",
+      "english": "Although the task was hard, we finished it.",
+      "german": "Obwohl die Aufgabe schwer war, haben wir sie geschafft.",
+      "why": "The concession may sit in any tense; only word order matters."
+    },
+    {
+      "id": 12,
+      "skill": "Concessive: obwohl … trotzdem",
+      "english": "He kept going although everyone advised against it.",
+      "german": "Er ging weiter, obwohl alle davon abgeraten hatten.",
+      "why": "The obwohl-clause can stand last, in which case no comma closes the sentence."
+    },
+    {
+      "id": 13,
+      "skill": "Concessive: obwohl … trotzdem",
+      "english": "Although I am tired, I will finish this.",
+      "german": "Obwohl ich müde bin, werde ich das fertig machen.",
+      "why": "Same structure with a future in the main clause; the clause verb is still last."
+    },
+    {
+      "id": 14,
+      "skill": "Concessive: obwohl … trotzdem",
+      "english": "Although it was expensive, she bought it anyway.",
+      "german": "Obwohl es teuer war, hat sie es trotzdem gekauft.",
+      "why": "trotzdem in the main clause is optional but makes the override explicit."
+    },
+    {
+      "id": 15,
+      "skill": "Concessive: obwohl … trotzdem",
+      "english": "Although we agree, I cannot sign it.",
+      "german": "Obwohl wir übereinstimmen, kann ich es nicht unterschreiben.",
+      "why": "The concession can be accepted while the conclusion still differs."
+    },
+    {
+      "id": 16,
+      "skill": "Concessive: obwohl … trotzdem",
+      "english": "Although he apologised, she was not satisfied.",
+      "german": "Obwohl er sich entschuldigt hat, war sie nicht zufrieden.",
+      "why": "Perfect in the clause, main clause with a simple verb in position II."
+    },
+    {
+      "id": 17,
+      "skill": "Concessive: wie … auch",
+      "english": "However often he tries, he fails.",
+      "german": "Wie oft er es auch versucht, er scheitert.",
+      "why": "wie + quantifier + auch concedes the frequency."
+    },
+    {
+      "id": 18,
+      "skill": "Concessive: wie … auch",
+      "english": "However much money he has, he never buys anything.",
+      "german": "Wie viel Geld er auch hat, er kauft nie etwas.",
+      "why": "wie viel (informal) / wie viele; the clause stays verb-final."
+    },
+    {
+      "id": 19,
+      "skill": "Concessive: wie … auch",
+      "english": "However hard she works, nobody notices.",
+      "german": "Wie hart sie auch arbeitet, niemand bemerkt es.",
+      "why": "Degree + auch concedes the effort; the main clause contradicts the expectation."
+    },
+    {
+      "id": 20,
+      "skill": "Concessive: wie … auch",
+      "english": "However good the news is, he will not change his mind.",
+      "german": "Wie gut die Nachricht auch ist, er wird seine Meinung nicht ändern.",
+      "why": "Adjective before the noun inside the clause; auch still precedes the verb-final position."
+    },
+    {
+      "id": 21,
+      "skill": "Concessive: wie … auch",
+      "english": "However many people come, there will be room.",
+      "german": "Wie viele Leute auch kommen, es wird Platz sein.",
+      "why": "Plural quantifier with wie viele; the main clause states the consequence."
+    },
+    {
+      "id": 22,
+      "skill": "Concessive: wie … auch",
+      "english": "However little he earns, he saves something.",
+      "german": "Wie wenig er auch verdient, er spart etwas.",
+      "why": "wie wenig concedes a small amount without changing the clause structure."
+    },
+    {
+      "id": 23,
+      "skill": "Concessive: wie … auch",
+      "english": "However slowly she speaks, I understand her.",
+      "german": "Wie langsam sie auch spricht, ich verstehe sie.",
+      "why": "Adverb in the clause; the concession does not affect the main-clause verb."
+    },
+    {
+      "id": 24,
+      "skill": "Concessive: wie … auch",
+      "english": "However carefully you plan, something always changes.",
+      "german": "Wie sorgfältig du auch planst, etwas ändert sich immer.",
+      "why": "Second-person du with a separable verb: the prefix planst rejoins in the clause."
+    },
+    {
+      "id": 25,
+      "skill": "Concessive: wie … auch",
+      "english": "However clear the rules are, people break them.",
+      "german": "Wie klar die Regeln auch sind, die Leute brechen sie.",
+      "why": "The concession may be factually true and still overridden."
+    },
+    {
+      "id": 26,
+      "skill": "Concessive: wie … auch",
+      "english": "However early you arrive, the queue is long.",
+      "german": "Wie früh du auch kommst, die Schlange ist lang.",
+      "why": "Early arrival is conceded; the outcome contradicts it."
+    },
+    {
+      "id": 27,
+      "skill": "Concessive: one-part",
+      "english": "Although it was expensive, the car sold well.",
+      "german": "Teuer war das Auto, verkauft hat es sich gut.",
+      "why": "zwar … doch with inverted order: the finite verb leads the first element, doch introduces the main clause."
+    },
+    {
+      "id": 28,
+      "skill": "Concessive: one-part",
+      "english": "She is tired, but she keeps working.",
+      "german": "Sie ist müde, arbeitet aber weiter.",
+      "why": "A comma before a position-I verb with aber signals the contrast."
+    },
+    {
+      "id": 29,
+      "skill": "Concessive: one-part",
+      "english": "Granted it is difficult, the result is worth it.",
+      "german": "Zwar ist es schwierig, das Ergebnis lohnt sich aber.",
+      "why": "zwar in position I makes the concession, aber marks the override."
+    },
+    {
+      "id": 30,
+      "skill": "Concessive: one-part",
+      "english": "It is true that he is tired, nevertheless he works.",
+      "german": "Zwar ist er müde, dennoch arbeitet er.",
+      "why": "zwar … dennoch: dennoch is the neutral equivalent of trotzdem."
+    },
+    {
+      "id": 31,
+      "skill": "Concessive: one-part",
+      "english": "He admits the mistake, but he does not regret it.",
+      "german": "Er gibt den Fehler zu, bereut ihn aber nicht.",
+      "why": "The verb form depends on position I; a comma separates the two clauses."
+    },
+    {
+      "id": 32,
+      "skill": "Concessive: one-part",
+      "english": "Although the film was long, I enjoyed it.",
+      "german": "Der Film war zwar lang, hat mir aber gefallen.",
+      "why": "Perfect with a reference to the present: hat … gefallen, with the subject pulled in front."
+    },
+    {
+      "id": 33,
+      "skill": "Concessive: one-part",
+      "english": "It is a shame, but the deadline does not move.",
+      "german": "Schade, aber die Frist verschiebt sich nicht.",
+      "why": "A standalone concession like schade needs no verb at all."
+    },
+    {
+      "id": 34,
+      "skill": "Concessive: one-part",
+      "english": "Admittedly it is old, however it still works.",
+      "german": "Zwar ist es alt, funktioniert es aber immer noch.",
+      "why": "zwar … jedoch: however is the neutral written equivalent."
+    },
+    {
+      "id": 35,
+      "skill": "Word order and position",
+      "english": "Even if it were up to me, I would not change anything.",
+      "german": "Auch wenn es an mir läge, würde ich nichts ändern.",
+      "why": "Subjunctive in the clause for an unreal condition; würde in the main clause."
+    },
+    {
+      "id": 36,
+      "skill": "Word order and position",
+      "english": "Even if you had asked me, I would have helped.",
+      "german": "Wenn du mich gefragt hättest, hätte ich geholfen.",
+      "why": "Plusquamperfekt in the clause, hätte + Perfekt in the main clause."
+    },
+    {
+      "id": 37,
+      "skill": "Word order and position",
+      "english": "Even if she were right, it would not matter.",
+      "german": "Selbst wenn sie recht hätte, wäre das egal.",
+      "why": "selbst … wenn strengthens the concession to a hypothetical extreme."
+    },
+    {
+      "id": 38,
+      "skill": "Word order and position",
+      "english": "However you look at it, the sum is wrong.",
+      "german": "Wie man es auch dreht und wendet, die Summe stimmt nicht.",
+      "why": "Idiomatic drehen und wenden with wie … auch; a fixed colloquial phrase."
+    },
+    {
+      "id": 39,
+      "skill": "Word order and position",
+      "english": "Even if everyone agreed, nothing would change.",
+      "german": "Auch wenn alle zustimmen würden, würde sich nichts ändern.",
+      "why": "Konjunktiv II in both halves for a hypothetical concession."
+    },
+    {
+      "id": 40,
+      "skill": "Word order and position",
+      "english": "Although the deadline is Friday, I need it Monday.",
+      "german": "Die Frist ist zwar Freitag, ich brauche sie aber Montag.",
+      "why": "The concession comes first, the personal need overrides it."
+    },
+    {
+      "id": 41,
+      "skill": "Word order and position",
+      "english": "Even if it were free, I would not want it.",
+      "german": "Auch wenn es umsonst wäre, würde ich es nicht wollen.",
+      "why": "A negated main clause is compatible with a positive concession."
+    },
+    {
+      "id": 42,
+      "skill": "Word order and position",
+      "english": "However we try, the result stays the same.",
+      "german": "Wie wir es auch versuchen, das Ergebnis bleibt gleich.",
+      "why": "wie + wir es … auch with an inserted object before the verb."
+    },
+    {
+      "id": 43,
+      "skill": "Word order and position",
+      "english": "Even if he were here, he would not agree.",
+      "german": "Auch wenn er hier wäre, würde er nicht zustimmen.",
+      "why": "Irreal concession: the clause and the main clause both use Konjunktiv II."
+    },
+    {
+      "id": 44,
+      "skill": "Word order and position",
+      "english": "Although the shop is open, it is empty inside.",
+      "german": "Das Geschäft ist zwar offen, es ist aber leer.",
+      "why": "Two short main clauses with zwar … aber; no subordinate clause at all."
+    },
+    {
+      "id": 45,
+      "skill": "Concessive: wenn … auch",
+      "english": "Even if the price drops, we cannot buy it.",
+      "german": "Auch wenn der Preis fällt, können wir es nicht kaufen.",
+      "why": "The concession accepts a favourable change; the main clause still refuses."
+    },
+    {
+      "id": 46,
+      "skill": "Concessive: wenn … auch",
+      "english": "Even if he comes, I will not wait.",
+      "german": "Wenn er auch kommt, warte ich nicht auf ihn.",
+      "why": "Auch or auch in the clause; the main clause negates the expectation."
+    },
+    {
+      "id": 47,
+      "skill": "Concessive: wenn … auch",
+      "english": "Even if it takes years, it is worth it.",
+      "german": "Wenn es auch Jahre dauert, es lohnt sich.",
+      "why": "The main clause has no subject, which is normal for a maxim."
+    },
+    {
+      "id": 48,
+      "skill": "Concessive: wenn … auch",
+      "english": "Even if she had more time, she could not do it.",
+      "german": "Wenn sie auch mehr Zeit hätte, könnte sie es nicht schaffen.",
+      "why": "Irreal concessive with hätte and könnte, both Konjunktiv II."
+    },
+    {
+      "id": 49,
+      "skill": "Concessive: wenn … auch",
+      "english": "Even if the shop were open, nobody would come.",
+      "german": "Wenn das Geschäft auch offen wäre, käme niemand.",
+      "why": "käme is the Konjunktiv II of kommen, used after an unreal concession."
+    },
+    {
+      "id": 50,
+      "skill": "Concessive: wenn … auch",
+      "english": "Even if you insist, the answer stays no.",
+      "german": "Wenn du auch darauf bestehst, bleibt es bei einem Nein.",
+      "why": "trotzdem is replaced by bleibt es bei; the concession changes nothing."
+    },
+    {
+      "id": 51,
+      "skill": "Concessive: wenn … auch",
+      "english": "Even if it were snowing, we would walk.",
+      "german": "Wenn es auch schneite, würden wir zu Fuß gehen.",
+      "why": "schneite is Konjunktiv II; the main clause is würde plus infinitive."
+    },
+    {
+      "id": 52,
+      "skill": "Concessive: wenn … auch",
+      "english": "Even that were true, it would not help.",
+      "german": "Auch wenn das stimmte, würde es nicht helfen.",
+      "why": "stimmte is Konjunktiv II of stimmen; the concession is explicitly hypothetical."
+    },
+    {
+      "id": 53,
+      "skill": "Concessive: obwohl … trotzdem",
+      "english": "Although he studied hard, he did not pass.",
+      "german": "Obwohl er hart lernte, bestand er nicht.",
+      "why": "Präteritum in both halves; the concession explains an unexpected result."
+    },
+    {
+      "id": 54,
+      "skill": "Concessive: obwohl … trotzdem",
+      "english": "Although it is her birthday, she is working.",
+      "german": "Obwohl es ihr Geburtstag ist, arbeitet sie.",
+      "why": "A dative possessive inside the clause; the verb stays last."
+    },
+    {
+      "id": 55,
+      "skill": "Concessive: obwohl … trotzdem",
+      "english": "Although we warned her, she came anyway.",
+      "german": "Obwohl wir sie gewarnt hatten, kam sie trotzdem.",
+      "why": "Plusquamperfekt in the clause, Präteritum in the main clause."
+    },
+    {
+      "id": 56,
+      "skill": "Concessive: obwohl … trotzdem",
+      "english": "Although the path is steep, it is worth the climb.",
+      "german": "Obwohl der Weg steil ist, lohnt sich der Aufstieg.",
+      "why": "Two predicative complements, one per clause."
+    },
+    {
+      "id": 57,
+      "skill": "Concessive: obwohl … trotzdem",
+      "english": "Although he has apologised, nothing changed.",
+      "german": "Obwohl er sich entschuldigt hat, hat sich nichts geändert.",
+      "why": "Perfect in the clause and in the main clause; negation only in the main clause."
+    },
+    {
+      "id": 58,
+      "skill": "Concessive: obwohl … trotzdem",
+      "english": "Although it is late, we keep working.",
+      "german": "Obwohl es spät ist, arbeiten wir weiter.",
+      "why": "The main clause uses a separable verb whose prefix stays in position III."
+    },
+    {
+      "id": 59,
+      "skill": "Concessive: obwohl … trotzdem",
+      "english": "Although the material is weak, the bridge holds.",
+      "german": "Obwohl das Material schwach ist, hält die Brücke.",
+      "why": "The concession contradicts an expectation; hält is the finite verb in position II."
+    },
+    {
+      "id": 60,
+      "skill": "Concessive: obwohl … trotzdem",
+      "english": "Although she wanted to, she did not come.",
+      "german": "Obwohl sie wollte, kam sie nicht.",
+      "why": "A very short clause is still verb-final: wollte, not will sie."
+    },
+    {
+      "id": 61,
+      "skill": "Concessive: obwohl … trotzdem",
+      "english": "Although we agree on the facts, we disagree on the plan.",
+      "german": "Obwohl wir über die Fakten einig sind, sind wir uns über den Plan nicht einig.",
+      "why": "A long concessive clause still keeps its verb last, even with a prepositional phrase in front."
+    },
+    {
+      "id": 62,
+      "skill": "Concessive: wie … auch",
+      "english": "However tired he is, he does not stop.",
+      "german": "Wie müde er auch ist, er hört nicht auf.",
+      "why": "An adjective rather than a comparative; auch precedes the clause verb."
+    },
+    {
+      "id": 63,
+      "skill": "Concessive: wie … auch",
+      "english": "However many times I ask, nobody answers.",
+      "german": "Wie oft ich auch frage, niemand antwortet.",
+      "why": "First-person clause with a separable verb: frage stays last."
+    },
+    {
+      "id": 64,
+      "skill": "Concessive: wie … auch",
+      "english": "However nice he is, he cannot be trusted.",
+      "german": "Wie nett er auch ist, man kann ihm nicht trauen.",
+      "why": "A positive concession contradicted by a passive with a modal in the main clause."
+    },
+    {
+      "id": 65,
+      "skill": "Concessive: wie … auch",
+      "english": "However small the amount is, it matters.",
+      "german": "Wie klein der Betrag auch ist, er zählt.",
+      "why": "Nominative demonstrative der; the concession need not be negative."
+    },
+    {
+      "id": 66,
+      "skill": "Concessive: wie … auch",
+      "english": "However well prepared you are, accidents happen.",
+      "german": "Wie gut du dich auch vorbereitest, Unfälle passieren.",
+      "why": "A separable verb with a reflexive pronoun in the clause."
+    },
+    {
+      "id": 67,
+      "skill": "Concessive: wie … auch",
+      "english": "However long the list is, I found the error.",
+      "german": "Wie lang die Liste auch ist, ich habe den Fehler gefunden.",
+      "why": "The main clause uses the Perfekt; nur reverses the concessive reading, so it is omitted."
+    },
+    {
+      "id": 68,
+      "skill": "Concessive: wie … auch",
+      "english": "However close he came, he did not win.",
+      "german": "Wie nah er auch kam, er gewann nicht.",
+      "why": "A near miss conceded, then the fact stated; both verbs in position II of their own clause."
+    },
+    {
+      "id": 69,
+      "skill": "Concessive: wie … auch",
+      "english": "However warm it is, I wear a coat.",
+      "german": "Wie warm es auch ist, ich trage einen Mantel.",
+      "why": "es as the clause subject is kept in place; ist closes the clause."
+    },
+    {
+      "id": 70,
+      "skill": "Concessive: wie … auch",
+      "english": "However often we explain it, he forgets.",
+      "german": "Wie oft wir es auch erklären, er vergisst es.",
+      "why": "The accusative pronoun es sits before the clause verb."
+    },
+    {
+      "id": 71,
+      "skill": "Concessive: one-part",
+      "english": "It is expensive, admittedly, but useful.",
+      "german": "Es ist teuer, allerdings nützlich.",
+      "why": "allerdings is inserted mid-sentence and concedes without changing word order."
+    },
+    {
+      "id": 72,
+      "skill": "Concessive: one-part",
+      "english": "The plan is ambitious, to be sure.",
+      "german": "Der Plan ist ehrgeizig, zweifelsohne.",
+      "why": "zweifelsohne as a standalone concession takes no second clause."
+    },
+    {
+      "id": 73,
+      "skill": "Concessive: one-part",
+      "english": "Yes, it is difficult, but we are doing it.",
+      "german": "Ja, es ist schwierig, aber wir machen es.",
+      "why": "The particle ja concedes openly before aber contrasts."
+    },
+    {
+      "id": 74,
+      "skill": "Concessive: one-part",
+      "english": "Granted, the price is too high.",
+      "german": "Zugegeben, der Preis ist zu hoch.",
+      "why": "zugegeben can stand alone as an entire first clause."
+    },
+    {
+      "id": 75,
+      "skill": "Concessive: one-part",
+      "english": "Admittedly it is late, but we are nearly done.",
+      "german": "Zwar ist es spät, aber wir sind fast fertig.",
+      "why": "The standard zwar … aber pair with normal word order in both halves."
+    },
+    {
+      "id": 76,
+      "skill": "Concessive: one-part",
+      "english": "It is true, yet the law does not allow it.",
+      "german": "Es stimmt, das Gesetz erlaubt es dennoch nicht.",
+      "why": "A verbless first element with dennoch in the main clause."
+    },
+    {
+      "id": 77,
+      "skill": "Concessive: one-part",
+      "english": "Fine, he is late again.",
+      "german": "Na gut, er ist wieder zu spät.",
+      "why": "na gut concedes with irritation rather than with trotzdem."
+    },
+    {
+      "id": 78,
+      "skill": "Concessive: one-part",
+      "english": "Sure, let us try that.",
+      "german": "Na gut, versuchen wir das.",
+      "why": "An imperative proposal after the concession; the verb is final because verb-first is chosen."
+    },
+    {
+      "id": 79,
+      "skill": "Concessive: wenn … auch",
+      "english": "Even if everyone leaves, I will stay.",
+      "german": "Auch wenn alle gehen, bleibe ich.",
+      "why": "Even if everyone leaves, I will stay."
+    },
+    {
+      "id": 80,
+      "skill": "Concessive: wenn … auch",
+      "english": "Even if the child were tired, she would not sleep.",
+      "german": "Auch wenn das Kind müde wäre, würde es nicht schlafen.",
+      "why": "Auch wenn das Kind müde wäre, würde es nicht schlafen."
+    },
+    {
+      "id": 81,
+      "skill": "Concessive: wenn … auch",
+      "english": "Even if I had more money, I would not buy a car.",
+      "german": "Auch wenn ich mehr Geld hätte, würde ich kein Auto kaufen.",
+      "why": "Auch wenn ich mehr Geld hätte, würde ich kein Auto kaufen."
+    },
+    {
+      "id": 82,
+      "skill": "Concessive: wenn … auch",
+      "english": "Even if he apologised again, I would still not go.",
+      "german": "Auch wenn er sich noch einmal entschuldigte, würde ich trotzdem nicht gehen.",
+      "why": "Auch wenn er sich noch einmal entschuldigte, würde ich trotzdem nicht gehen."
+    },
+    {
+      "id": 83,
+      "skill": "Concessive: obwohl … trotzdem",
+      "english": "Although I explained it twice, he still did not understand.",
+      "german": "Obwohl ich es zweimal erklärt hatte, verstand er es immer noch nicht.",
+      "why": "Obwohl ich es zweimal erklärt hatte, verstand er es immer noch nicht."
+    },
+    {
+      "id": 84,
+      "skill": "Concessive: obwohl … trotzdem",
+      "english": "Although the task is easy, he takes a long time.",
+      "german": "Obwohl die Aufgabe leicht ist, braucht er lange.",
+      "why": "Obwohl die Aufgabe leicht ist, braucht er lange."
+    },
+    {
+      "id": 85,
+      "skill": "Concessive: obwohl … trotzdem",
+      "english": "Although nobody asked him, he kept talking.",
+      "german": "Obwohl ihn niemand gefragt hatte, redete er weiter.",
+      "why": "Obwohl ihn ihn niemand gefragt hatte, redete er weiter."
+    },
+    {
+      "id": 86,
+      "skill": "Concessive: wie … auch",
+      "english": "However intelligent he is, he makes careless mistakes.",
+      "german": "Wie intelligent er auch ist, macht er nachlässige Fehler.",
+      "why": "Wie intelligent er auch ist, macht er nachlässige Fehler."
+    },
+    {
+      "id": 87,
+      "skill": "Concessive: one-part",
+      "english": "Of course it is late, but that is not a problem.",
+      "german": "Natürlich ist es spät, aber das ist kein Problem.",
+      "why": "Natürlich ist es spät, aber das ist kein Problem."
+    },
+    {
+      "id": 88,
+      "skill": "Concessive: one-part",
+      "english": "I agree, though I see the difficulty.",
+      "german": "Ich stimme zu, sehe aber die Schwierigkeit.",
+      "why": "Ich stimme zu, sehe aber die Schwierigkeit."
+    },
+    {
+      "id": 89,
+      "skill": "Concessive: one-part",
+      "english": "Fine, it is your decision.",
+      "german": "Schon gut, es ist deine Entscheidung.",
+      "why": "Schon gut, es ist deine Entscheidung."
+    },
+    {
+      "id": 90,
+      "skill": "Concessive: one-part",
+      "english": "Let it be, the deadline does not matter.",
+      "german": "Sei es drum, die Frist spielt keine Rolle.",
+      "why": "Sei es drum, die Frist spielt keine Rolle."
+    },
+    {
+      "id": 91,
+      "skill": "Word order and position",
+      "english": "Even if it were up to me, the answer would be no.",
+      "german": "Auch wenn es an mir wäre, wäre die Antwort nein.",
+      "why": "Auch wenn es an mir wäre, wäre die Antwort nein."
+    },
+    {
+      "id": 92,
+      "skill": "Word order and position",
+      "english": "Even if he apologised in person, it would not help.",
+      "german": "Auch wenn er sich persönlich entschuldigte, würde es nicht helfen.",
+      "why": "Auch wenn er sich persönlich entschuldigte, würde es nicht helfen."
+    },
+    {
+      "id": 93,
+      "skill": "Word order and position",
+      "english": "Although she had every reason to leave, she stayed.",
+      "german": "Obwohl sie allen Grund zu gehen hatte, blieb sie.",
+      "why": "Obwohl sie allen Grund zu gehen hatte, blieb sie."
+    },
+    {
+      "id": 94,
+      "skill": "Word order and position",
+      "english": "However much he apologised, she did not forgive him.",
+      "german": "Wie oft er sich auch entschuldigte, vergab sie ihm nicht.",
+      "why": "Wie oft er sich auch entschuldigte, vergab sie ihm nicht."
+    },
+    {
+      "id": 95,
+      "skill": "Word order and position",
+      "english": "Even if the report were short, nobody would read it.",
+      "german": "Auch wenn der Bericht kurz wäre, würde ihn niemand lesen.",
+      "why": "Auch wenn der Bericht kurz wäre, würde ihn niemand lesen."
+    },
+    {
+      "id": 96,
+      "skill": "Word order and position",
+      "english": "Although it rained, the match continued.",
+      "german": "Obwohl es regnete, wurde das Spiel fortgesetzt.",
+      "why": "Obwohl es regnete, wurde das Spiel fortgesetzt."
+    },
+    {
+      "id": 97,
+      "skill": "Word order and position",
+      "english": "However generous the offer is, we must decline.",
+      "german": "Wie großzügig das Angebot auch ist, müssen wir ablehnen.",
+      "why": "Wie großzügig das Angebot auch ist, müssen wir ablehnen."
+    },
+    {
+      "id": 98,
+      "skill": "Word order and position",
+      "english": "Even if it were up for negotiation, I would refuse.",
+      "german": "Auch wenn es verhandelbar wäre, würde ich ablehnen.",
+      "why": "Auch wenn es verhandelbar wäre, würde ich ablehnen."
+    },
+    {
+      "id": 99,
+      "skill": "Word order and position",
+      "english": "Although the two sides agreed, nothing changed.",
+      "german": "Obwohl sich beide Seiten einig waren, änderte sich nichts.",
+      "why": "Obwohl sich beide Seiten einig waren, änderte sich nichts."
+    },
+    {
+      "id": 100,
+      "skill": "Word order and position",
+      "english": "However often he tries to explain it, nobody understands.",
+      "german": "Wie oft er auch versucht, es zu erklären, versteht es niemand.",
+      "why": "Wie oft er auch versucht, es zu erklären, versteht es niemand."
+    }
+  ]
+}

@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Concessive connectors — Die konzessiven Konnektoren | Deutsch Lernen</title>
+<style>
+:root{
+  --font:"Segoe UI",system-ui,-apple-system,sans-serif;
+  --teal-900:#005A5A; --teal-700:#008282; --teal-400:#50C1C1; --teal-100:#95DFDB;
+  --amber:#E1A01E; --red:#C41E3A; --green:#1D7A4C;
+  --ink:#012D2C; --muted:#008282;
+  --page:#F0FAFA; --card:#FFF; --in:#F0FAFA; --border:#D0ECEB;
+  --shadow:0 1px 4px rgba(1,45,44,.10); --shadow-md:0 4px 14px rgba(1,45,44,.12);
+  --r:8px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font);font-size:16px;color:var(--teal-900);background:var(--page);
+  line-height:1.65;-webkit-font-smoothing:antialiased;
+  display:flex;flex-direction:column;min-height:100vh}
+
+.navbar{display:flex;align-items:center;gap:12px;height:48px;padding:0 14px;
+  background:var(--teal-900);border-bottom:1px solid rgba(149,223,219,.15);
+  position:sticky;top:0;z-index:100;flex-shrink:0}
+.brand-icon{display:flex;align-items:center;flex-shrink:0}
+.nav-pipe{width:1px;height:16px;background:rgba(149,223,219,.30);flex-shrink:0;margin:0 12px}
+.nav-brand-text{font-size:.95rem;font-weight:600;color:var(--teal-100);text-decoration:none;white-space:nowrap}
+.nav-actions{margin-left:auto;display:flex;align-items:center;gap:8px}
+.icon-btn{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;padding:0;
+  color:var(--teal-100);background:rgba(149,223,219,.12);border:1px solid rgba(149,223,219,.22);
+  border-radius:4px;cursor:pointer;transition:130ms;text-decoration:none;flex-shrink:0}
+.icon-btn:hover{background:rgba(149,223,219,.24);border-color:rgba(149,223,219,.45)}
+.btn-nav{display:inline-flex;align-items:center;justify-content:center;height:32px;padding:0 12px;
+  font-size:.78rem;font-weight:600;font-family:var(--font);color:var(--teal-100);text-decoration:none;
+  background:rgba(149,223,219,.12);border:1px solid rgba(149,223,219,.22);border-radius:4px;
+  transition:130ms;white-space:nowrap;flex-shrink:0}
+.btn-nav:hover{background:rgba(149,223,219,.24);border-color:rgba(149,223,219,.45)}
+@media (max-width:400px){.btn-nav{padding:0 9px;font-size:.74px;font-size:.74rem}}
+.icon-btn svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:2;
+  stroke-linecap:round;stroke-linejoin:round}
+@media (max-width:560px){.nav-brand-text{font-size:.85rem}}
+
+.wrap{max-width:860px;width:100%;margin:0 auto;padding:20px 16px 0;flex:1 0 auto}
+
+h1{font-size:1.5rem;line-height:1.3;margin:0 0 4px}
+h1 .de{display:block;font-size:1rem;color:var(--teal-700);font-weight:600;margin-top:2px}
+
+section{margin-bottom:30px}
+h2{font-size:1.05rem;margin-bottom:10px;padding-bottom:6px;border-bottom:2px solid var(--teal-400)}
+h3{font-size:.85rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;
+  color:var(--teal-700);margin:16px 0 8px}
+p{margin-bottom:10px}
+.lead{color:var(--ink)}
+small{color:var(--muted)}
+
+.rulebox{background:var(--in);border:1px solid var(--border);border-left:4px solid var(--teal-400);
+  border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.rulebox strong{color:var(--teal-700)}
+.warnbox{background:rgba(196,30,58,.05);border:1px solid rgba(196,30,58,.25);
+  border-left:4px solid var(--red);border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.warnbox strong{color:var(--red)}
+.tipbox{background:rgba(29,122,76,.06);border:1px solid rgba(29,122,76,.22);
+  border-left:4px solid var(--green);border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.tipbox strong{color:var(--green)}
+
+table{width:100%;border-collapse:collapse;margin:12px 0;font-size:.88rem}
+th,td{text-align:left;padding:7px 9px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--in);font-weight:700;font-size:.76rem;text-transform:uppercase;
+  letter-spacing:.04em;color:var(--teal-700)}
+td.de{color:var(--ink)}
+tr:last-child td{border-bottom:none}
+
+.mic{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;
+  padding:0;flex-shrink:0;vertical-align:middle;border-radius:50%;cursor:pointer;
+  color:var(--teal-700);background:rgba(80,193,193,.16);border:1px solid rgba(80,193,193,.45);
+  transition:130ms}
+.mic:hover{background:rgba(80,193,193,.34)}
+.mic:focus-visible{outline:2px solid var(--teal-700);outline-offset:2px}
+.mic svg{width:13px;height:13px;fill:none;stroke:currentColor;stroke-width:2;
+  stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.mic[aria-pressed="true"]{background:var(--teal-700);color:#fff;border-color:var(--teal-700)}
+.mic[aria-pressed="true"] .pulse{animation:pulse 1s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+.mic[disabled]{opacity:.45;cursor:not-allowed}
+.microw{display:flex;align-items:flex-start;gap:8px}
+.microw > .mtext{flex:1;min-width:0}
+.ex{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:12px 13px;
+  margin-bottom:9px;box-shadow:var(--shadow)}
+.ex .de{font-size:.98rem;color:var(--ink);margin-bottom:4px}
+.ex .de em{color:var(--teal-700);font-style:normal;font-weight:700;background:rgba(80,193,193,.20);
+  padding:0 3px;border-radius:2px}
+.ex .en{font-size:.84rem;color:var(--muted)}
+.ex .why{font-size:.82rem;color:var(--teal-700);margin-top:6px;padding-top:6px;
+  border-top:1px dotted var(--border)}
+.ex .why b{font-weight:700}
+
+/* ── EXERCISES ── */
+.btn{font-family:var(--font);font-size:.78rem;font-weight:600;cursor:pointer;
+  padding:6px 12px;border-radius:4px;border:1px solid var(--teal-400);
+  background:rgba(80,193,193,.14);color:var(--teal-700);transition:130ms;white-space:nowrap}
+.btn:hover{background:rgba(80,193,193,.28)}
+.btn.ghost{background:transparent;border-color:var(--border);color:var(--muted)}
+.btn.ghost:hover{border-color:var(--teal-400);color:var(--teal-700)}
+.noVoice{display:none;align-items:flex-start;gap:8px;margin-bottom:12px;padding:9px 12px;
+  background:rgba(225,160,30,.12);border:1px solid rgba(225,160,30,.4);border-radius:var(--r);
+  font-size:.83rem;color:#7A5000}
+.noVoice b{color:#7A5000}
+
+.q{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:12px 13px;
+  margin-bottom:10px;box-shadow:var(--shadow)}
+.q.revealed{border-color:var(--teal-400)}
+.q.correct{border-color:rgba(29,122,76,.5);background:rgba(29,122,76,.04)}
+.q.wrong{border-color:rgba(196,30,58,.45);background:rgba(196,30,58,.03)}
+.qtop{display:flex;gap:9px;align-items:flex-start;margin-bottom:9px}
+.qnum{flex-shrink:0;width:23px;height:23px;border-radius:50%;background:rgba(0,130,130,.10);
+  color:var(--teal-7);color:var(--teal-700);font-size:.7rem;font-weight:700;display:flex;
+  align-items:center;justify-content:center;margin-top:1px}
+.q.correct .qnum{background:rgba(29,122,76,.16);color:var(--green)}
+.q.wrong .qnum{background:rgba(196,30,58,.14);color:var(--red)}
+.inputrow{display:flex;align-items:stretch;gap:6px;position:relative}
+.ainput{flex:1;min-width:0;font-family:var(--font);font-size:.92rem;color:var(--ink);
+  background:var(--in);border:1px solid var(--border);border-radius:5px;padding:8px 32px 8px 11px;transition:130ms}
+.ainput:focus{outline:none;border-color:var(--teal-400);background:#fff;box-shadow:0 0 0 3px rgba(80,193,193,.16)}
+/* small keyboard icon, vertically centred at the right edge of the field */
+.keybtn{flex-shrink:0;width:28px;align-self:stretch;display:inline-flex;align-items:center;
+  justify-content:center;padding:0;cursor:pointer;border-radius:5px;
+  color:var(--teal-700);background:rgba(80,193,193,.16);border:1px solid rgba(80,193,193,.45);
+  transition:130ms}
+.keybtn:hover{background:rgba(80,193,193,.32)}
+.keybtn:focus-visible{outline:2px solid var(--teal-700);outline-offset:2px}
+.keybtn svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:1.7;
+  stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.keybtn[aria-expanded="true"]{background:var(--teal-700);color:#fff;border-color:var(--teal-700)}
+/* letter panel lives inside the card so no ancestor can clip it */
+.pad{display:none;flex-wrap:wrap;gap:5px;margin-top:7px;padding:8px;
+  background:var(--in);border:1px solid var(--border);border-radius:5px}
+.pad.open{display:flex}
+.padkey{font-family:var(--font);font-size:.92rem;font-weight:600;color:var(--teal-900);
+  background:var(--card);border:1px solid var(--border);border-radius:4px;
+  min-width:34px;height:32px;cursor:pointer;transition:130ms}
+.padkey:hover{background:var(--teal-400);border-color:var(--teal-400)}
+.padkey:focus-visible{outline:2px solid var(--teal-700);outline-offset:1px}
+.btn.rev{margin-top:8px}
+.btn.rev.on{background:rgba(0,90,90,.10);border-color:var(--teal-700)}
+.ansrow{margin:6px 0;padding:7px 9px;background:rgba(80,193,193,.09);border-radius:5px}
+.ansrow .mtext{font-size:.93rem}
+.qtext{font-size:.95rem;color:var(--ink);margin-bottom:9px;flex:1;min-width:0}
+
+.fb{margin-top:9px;padding-top:9px;border-top:1px dotted var(--border);font-size:.85rem}
+.fb .ans{font-weight:600;color:var(--teal-700);margin-bottom:4px}
+.fb .why{color:var(--muted)}
+
+details.fold{margin-bottom:9px;border:1px solid var(--border);border-radius:6px;background:var(--card)}
+details.fold > summary{padding:9px 12px;font-weight:600;font-size:.88rem;cursor:pointer;
+  color:var(--teal-900);list-style:none}
+details.fold > summary::-webkit-details-marker{display:none}
+details.fold > summary::before{content:"▸";color:var(--teal-700);transition:transform .15s;
+  display:inline-block;margin-right:5px}
+details.fold[open] > summary::before{transform:rotate(90deg)}
+details.fold .foldbody{padding:0 12px 11px;border-top:1px solid var(--border);padding-top:9px;
+  font-size:.9rem}
+
+.footer{position:sticky;bottom:0;z-index:50;width:100%;max-width:var(--wrapw,860px);
+  margin-inline:auto;border-top:1px solid var(--border);padding:10px 16px;background:var(--page);
+  display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:.78rem;color:var(--muted)}
+.footer strong{color:var(--teal-700)}
+.footer-dot{margin:0 10px;color:var(--border)}
+
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+  <a class="brand-icon" href="../../" aria-label="Deutsch Lernen home">
+    <svg width="24" height="17" viewBox="0 0 31 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0"  y="0"  width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="0"  width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="0"  width="9" height="6" rx="1.5" fill="#008282"/>
+      <rect x="0"  y="8"  width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="8"  width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="8"  width="9" height="6" rx="1.5" fill="#008282"/>
+      <rect x="0"  y="16" width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="16" width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="16" width="9" height="6" rx="1.5" fill="#E1A01E"/>
+    </svg>
+  </a>
+  <div class="nav-pipe"></div>
+  <a class="nav-brand-text" href="index.html">Grammar</a>
+  <div class="nav-actions">
+    <a class="btn-nav" href="index.html" title="All grammar topics">All topics</a>
+    <a class="icon-btn" href="../../" title="Back to all modules" aria-label="Back to all modules">
+      <svg viewBox="0 0 24 24"><path d="M3 12l9-9 9 9"></path><path d="M5 10v10h14V10"></path></svg>
+    </a>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <h1>Concessive connectors<span class="de">Die konzessiven Konnektoren</span></h1>
+  
+  <!-- ══ 1. CONCEPT ══ -->
+  <section>
+    <h2>1 · The concept</h2>
+
+    <p class="lead">A <strong>concessive</strong> sentence admits a fact that would normally
+      change the outcome, and then overrides it anyway. German has three ways to do this:
+      a one-part conjunction, a two-part pair that brackets the sentence, or a fixed
+      phrase with no verb at all.</p>
+
+    <div class="rulebox">
+      <strong>The rule in one line.</strong> The concession comes first, the override second —
+      and only a real clause (<em>obwohl</em>, <em>wenn … auch</em>) forces verb-final order.
+    </div>
+
+    <h3>The three mechanisms</h3>
+    <table>
+      <thead><tr><th>Type</th><th>Markers</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">one-part conjunction</td><td class="de">obwohl, obgleich, trotzdem, dennoch, denkbar, nichtsdestotrotz</td>
+            <td><b>Obwohl</b> es regnet, gehen wir.</td></tr>
+        <tr><td class="de">two-part pair</td><td class="de">wenn … auch, wie … auch, was … auch, selbst wenn</td>
+            <td><b>Wenn</b> es auch regnet, <b>trotzdem</b> gehen wir.</td></tr>
+        <tr><td class="de">fixed phrase</td><td class="de">zwar … aber, zugegeben, na gut, schade, nat&uuml;rlich</td>
+            <td>Es ist <b>zwar</b> teuer, <b>aber</b> es lohnt sich.</td></tr>
+      </tbody>
+    </table>
+
+    <h3>obwohl: the default choice</h3>
+    <p><em>Obwohl</em> states a real, factual obstacle. Because it introduces a clause, the
+      verb goes last — and the main clause that follows keeps normal word order.</p>
+    <table>
+      <thead><tr><th>Position</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">front</td><td><b>Obwohl</b> es regnet, <b>gehen</b> wir spazieren.</td></tr>
+        <tr><td class="de">end</td><td>Er ging weiter, <b>obwohl</b> alle davon abgeraten <b>hatten</b>.</td></tr>
+      </tbody>
+    </table>
+
+    <p>When the clause stands last, no comma closes the sentence.</p>
+
+    <h3>wenn … auch and wie … auch: the intensifying pair</h3>
+    <p>These concede something the speaker believes could have stopped them. The opener may
+      stand alone before <em>auch</em>, or <em>auch</em> may precede <em>wenn</em> / <em>wie</em>.</p>
+    <table>
+      <thead><tr><th>Variant</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">wenn … auch</td><td><b>Wenn</b> es auch regnet, <b>gehen</b> wir.</td></tr>
+        <tr><td class="de">auch wenn</td><td><b>Auch wenn</b> es regnet, <b>gehen</b> wir.</td></tr>
+        <tr><td class="de">selbst wenn</td><td><b>Selbst wenn</b> er sich entschuldigt, <b>gehe</b> ich nicht.</td></tr>
+        <tr><td class="de">wie + adj. + auch</td><td><b>Wie teuer</b> es <b>auch</b> ist, wir <b>haben</b> kein Geld.</td></tr>
+        <tr><td class="de">was … auch</td><td><b>Was</b> du <b>auch</b> sagst, es <b>bleibt</b> dabei.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="tipbox">
+      <strong>All four variants are correct.</strong> <em>Wenn es auch regnet</em>,
+      <em>Auch wenn es regnet</em> and <em>Selbst wenn es regnet</em> differ only in emphasis:
+      <em>selbst wenn</em> raises the concession to an extreme, <em>auch wenn</em> is neutral.
+    </div>
+
+    <h3>wie … auch: degree and frequency</h3>
+    <table>
+      <thead><tr><th>Question</th><th>Form</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">how much</td><td class="de">wie viel / wie viele</td><td><b>Wie viel</b> Geld er <b>auch</b> hat, er <b>kauft</b> nichts.</td></tr>
+        <tr><td class="de">how often</td><td class="de">wie oft</td><td><b>Wie oft</b> ich <b>frage</b>, niemand <b>antwortet</b>.</td></tr>
+        <tr><td class="de">how long</td><td class="de">wie lange</td><td><b>Wie lange</b> du <b>wartest</b>, es <b>ändert</b> sich nicht.</td></tr>
+        <tr><td class="de">how small</td><td class="de">wie klein</td><td><b>Wie klein</b> der Betrag <b>auch ist</b>, er <b>zählt</b>.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="warnbox">
+      <strong>Never <em>wie … als</em>.</strong> The partner is always <em>auch</em>:
+      ✗ <em>Wie teuer es als ist</em> &nbsp; ✓ <em>Wie teuer es auch ist</em>
+    </div>
+
+    <h3>Irreal concession</h3>
+    <p>A concession that is not true at all uses Konjunktiv II in both halves. This is the same
+      pattern as an unreal condition, with a concession instead of a consequence.</p>
+    <table>
+      <thead><tr><th></th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">present</td><td><b>Wenn</b> es <b>teuer wäre</b>, <b>würde</b> ich es <b>kaufen</b>.</td></tr>
+        <tr><td class="de">past</td><td><b>Wenn</b> er <b>gefragt hätte</b>, <b>hätte</b> ich <b>geholfen</b>.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="rulebox">
+      <strong>Compare the shape.</strong> Unreal condition: <em>Wenn ich Zeit hätte, würde ich
+      kommen.</em> Unreal concession: <em>Auch wenn ich Zeit hätte, würde ich nicht kommen.</em>
+      The tense pattern is identical — only <em>nicht</em> and the meaning differ.
+    </div>
+
+    <h3>zwar … aber / zwar … doch</h3>
+    <p><em>Zwar</em> concedes in position I. With <em>aber</em> the main clause keeps its normal
+      order; with <em>doch</em> it is inverted, because <em>doch</em> also pushes a part of the
+      clause to the front.</p>
+    <table>
+      <thead><tr><th>Form</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">zwar … aber</td><td>Zwar ist es teuer, <b>es lohnt sich aber</b>.</td></tr>
+        <tr><td class="de">zwar … doch (inverted)</td><td>Teuer war es, <b>doch es lohnt sich</b>.</td></tr>
+        <tr><td class="de">zwar … dennoch</td><td>Zwar ist er m&uuml;de, <b>dennoch</b> arbeitet er.</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Fixed concessive phrases</h3>
+    <table>
+      <thead><tr><th>Phrase</th><th>Tone</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">zugegeben</td><td class="de">formal</td><td><b>Zugegeben</b>, die Idee ist alt.</td></tr>
+        <tr><td class="de">freilich / zweifelsohne</td><td class="de">formal</td><td><b>Freilich</b>, das war teuer.</td></tr>
+        <tr><td class="de">nat&uuml;rlich</td><td class="de">neutral</td><td><b>Nat&uuml;rlich</b> ist es sp&auml;t, aber kein Problem.</td></tr>
+        <tr><td class="de">na gut / schon gut</td><td class="de">colloquial, resigned</td><td><b>Na gut</b>, versuchen wir es.</td></tr>
+        <tr><td class="de">schade</td><td class="de">regretful</td><td><b>Schade</b>, aber die Frist bleibt.</td></tr>
+        <tr><td class="de">sei es drum</td><td class="de">colloquial</td><td><b>Sei es drum</b>, wir machen weiter.</td></tr>
+      </tbody>
+    </table>
+
+    <p>Most of these need no verb of their own. They work as a concession in front of a normal
+      main clause.</p>
+
+    <h3>trotz and its relatives</h3>
+    <table>
+      <thead><tr><th>Form</th><th>Case</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">trotz + genitive</td><td class="de">written, formal</td><td><b>Trotz</b> aller Warnungen <b>fuhren</b> wir.</td></tr>
+        <tr><td class="de">trotzdem / trotz dessen</td><td class="de">adverb in position II</td><td>Er war krank, <b>trotzdem</b> <b>kam</b> er.</td></tr>
+        <tr><td class="de">obwohl</td><td class="de">full clause</td><td><b>Obwohl</b> er krank war, <b>kam</b> er.</td></tr>
+        <tr><td class="de">ungeachtet + genitive</td><td class="de">very formal</td><td><b>Ungeachtet</b> aller Einw&auml;nde <b>beschlossen</b> wir.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="tipbox">
+      <strong>Semicolon or period.</strong> In writing you can end the concession as a full
+      sentence and start the override with a semicolon: <em>Trotz aller Einw&auml;nde. Wir
+      machen weiter.</em> <em>oder</em> <em>Trotz aller Einw&auml;nde; wir machen weiter.</em>
+    </div>
+
+    <h3>Word order: what changes and what does not</h3>
+    <p>Only the real clause constructions force verb-final order. One-part conjunctions,
+      fixed phrases and <em>trotz</em> + genitive leave the main clause completely untouched.</p>
+    <table>
+      <thead><tr><th>Construction</th><th>Effect on word order</th></tr></thead>
+      <tbody>
+        <tr><td class="de">obwohl / obgleich / wenn … auch</td><td class="de">clause verb goes last</td></tr>
+        <tr><td class="de">trotzdem / dennoch / allerdings</td><td class="de">adverb in position II</td></tr>
+        <tr><td class="de">zwar … aber / doch</td><td class="de">main clause may invert</td></tr>
+        <tr><td class="de">trotz + genitive</td><td class="de">no effect at all</td></tr>
+        <tr><td class="de">zugegeben / na gut / schade</td><td class="de">no effect at all</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Do not confuse these</h3>
+    <table>
+      <thead><tr><th>Pair</th><th>Difference</th></tr></thead>
+      <tbody>
+        <tr><td class="de">obwohl vs. trotzdem</td><td class="de">obwohl is a clause and sets a reason; trotzdem is an adverb that overrides. <em>Obwohl</em> explains, <em>trotzdem</em> pushes on regardless.</td></tr>
+        <tr><td class="de">obwohl vs. weil</td><td class="de">Both are causal clauses with verb-last order, but the meaning inverts: <em>weil</em> gives a real reason, <em>obwohl</em> gives a reason that does not apply.</td></tr>
+        <tr><td class="de">obwohl vs. wenn</td><td class="de"><em>wenn</em> is open and neutral; <em>obwohl</em> is loaded and asserts that the reason is insufficient.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="warnbox">
+      <strong>A concessive reading is not the same as a negated one.</strong>
+      <em>Obwohl er nicht kam, blieb ich.</em> concedes his absence and states the persistence.
+      The negation belongs to the event; <em>obwohl</em> supplies the concession.
+    </div>
+
+    <h3>Summary</h3>
+    <table>
+      <thead><tr><th>You want to…</th><th>Use</th></tr></thead>
+      <tbody>
+        <tr><td class="de">state a real obstacle you ignore</td><td class="de">obwohl / obgleich</td></tr>
+        <tr><td class="de">concede something hypothetical or extreme</td><td class="de">selbst wenn / selbst wenn auch</td></tr>
+        <tr><td class="de">concede a degree or frequency</td><td class="de">wie … auch</td></tr>
+        <tr><td class="de">concede anything at all</td><td class="de">was … auch</td></tr>
+        <tr><td class="de">concede briefly, in one short clause</td><td class="de">zwar … aber</td></tr>
+        <tr><td class="de">concede without a verb</td><td class="de">zugegeben / na gut / schade</td></tr>
+        <tr><td class="de">concede in formal writing</td><td class="de">trotz + genitive</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- ══ 2. EXAMPLES ══ -->
+  <section>
+    <h2>2 · 20 worked examples</h2>
+    <p><small>Each example marks the opener and closer in bold and explains what it does to the sentence.</small></p>
+    <div id="examples"></div>
+  </section>
+
+  <!-- ══ 3. EXERCISES ══ -->
+  <section>
+    <h2>3 · 100 exercises</h2>
+
+    <div class="noVoice" id="noVoice">
+      <b>Pronunciation unavailable.</b> This browser has no German speech voice installed, so the
+      speaker buttons will not play. In Chrome, Edge and Safari on a desktop, German is available by default.
+    </div>
+    <div id="quiz"></div>
+  </section>
+
+</div>
+
+<footer class="footer"><strong>Concessive connectors</strong><span class="footer-dot">·</span><span>Roman Zajic</span></footer>
+
+<script>
+(function(){
+  "use strict";
+
+  var EXAMPLES = [
+    ["Auch <em>wenn</em> es regnet, <em>gehen</em> wir trotzdem. — Even if it rains, we are going anyway.", "The pattern <em>auch wenn</em> … <em>trotzdem</em>: the clause concedes the obstacle, the main clause overrides it."],
+    ["<em>Obwohl</em> es regnet, <em>regnen</em> wir nicht. — Although it is raining, we are not going to walk.", "<em>obwohl</em> states the actual obstacle and <em>nicht</em> in the main clause makes the contrast concrete."],
+    ["<em>Wie teuer</em> es <em>auch</em> ist, wir <em>können</em> es nicht kaufen. — However expensive it is, we cannot buy it.", "<em>wie</em> plus a comparative plus <em>auch</em>: the degree is conceded without any negative word in the clause."],
+    ["<em>Was</em> du <em>auch</em> entscheidest, ich <em>werde</em> dich unterstützen. — Whatever you decide, I will support you.", "<em>was</em> stands for anything and needs no article; <em>auch</em> goes before the clause verb."],
+    ["<em>Selbst wenn</em> er sich entschuldigt hätte, <em>würde</em> ich ihm <em>vergeben</em>. — Even if he had apologised, I would forgive him.", "Irreal concession: <em>hätte</em> in the clause, <em>würde</em> plus infinitive in the main clause."],
+    ["<em>Obwohl</em> sie allen Grund zu gehen <em>hatte</em>, <em>blieb</em> sie. — Although she had every reason to leave, she stayed.", "A <em>zu</em>-infinitive sits before the final clause verb <em>hatte</em>, which is what makes it a Nebensatz."],
+    ["Der Film <em>war</em> zwar lang, <em>hat</em> mir aber <em>gefallen</em>. — The film was long, but I liked it.", "<em>zwar</em> … <em>aber</em> with an inversion in the main clause: <em>hat</em> leads and the subject follows."],
+    ["<em>Zwar</em> ist es schwierig, das Ergebnis <em>lohnt</em> sich <em>aber</em>. — It is admittedly difficult, but the result is worth it.", "<em>zwar</em> in position I makes the concession; <em>aber</em> keeps its place in the main clause."],
+    ["Er ist <em>talentiert</em>, <em>zugegeben</em>, aber <em>faul</em>. — He is talented, admittedly, but lazy.", "<em>zugegeben</em> can stand between two clauses as a fixed concessive phrase, with commas on both sides."],
+    ["<em>Wie oft</em> der Wecker <em>auch klingelt</em>, niemand <em>wacht</em> auf. — However often the alarm rings, nobody wakes up.", "Frequency conceded with <em>wie oft … auch</em>; each clause has its own separable verb with the prefix last."],
+    ["<em>Obwohl</em> die Tür offen <em>war</em>, <em>kam</em> niemand herein. — Although the door was open, nobody came in.", "The clause is <em>war</em>; the main clause carries the separable <em>hereinkam</em> with <em>herein</em> at the end."],
+    ["<em>Je</em> länger ich warte, <em>desto</em> später <em>kommt</em> er. — The longer I wait, the later he comes.", "A concessive-adjacent correlation: two degrees grow together, so the concession becomes a consequence."],
+    ["<em>Auch wenn</em> du dich <em>bemühst</em>, es bringt <em>nichts</em>. — Even if you make an effort, it is pointless.", "<em>auch wenn</em> is the most common two-part concessive; <em>nichts</em> stands in for the verb in the main clause."],
+    ["<em>Obgleich</em> es mühsam <em>war</em>, wir <em>schafften</em> es. — Although it was laborious, we managed it.", "<em>obgleich</em> is a formal alternative to <em>obwohl</em> with identical word order."],
+    ["<em>Mag</em> es <em>sein</em>, wie es will — ich <em>bleibe</em>. — Be it as it may, I am staying.", "An idiomatic inverted concessive: the <em>mag</em>-clause is nominal, and the main clause stays independent."],
+    ["<em>Trotz</em> aller Warnungen <em>fuhren</em> wir. — In spite of all warnings, we went.", "<em>trotz</em> plus genitive is a compact written concession; no verb-final order is triggered."],
+    ["<em>Nun</em> du <em>weißt</em>, dass es <em>gefährlich</em> ist, <em>hast</em> du <em>keinen</em> Grund. — Now you know it is dangerous, you have no excuse.", "Concessive <em>nun</em> with the main clause following in normal order; <em>nun</em> itself introduces the premise."],
+    ["<em>Sowohl</em> die Kosten <em>als auch</em> die Zeit <em>waren</em> zu hoch. — Both the costs and the time were too much.", "A <em>sowohl … als auch</em> pair can carry the concession as a premise for the following sentence."],
+    ["<em>Wenn</em> auch teuer, es <em>lohnt</em> sich. — Expensive though it is, it is worth it.", "<em>wenn</em> plus <em>auch</em> before an adjective: the concessive reading survives without any main-clause contrast."],
+    ["<em>Ungeachtet</em> aller Einwände <em>beschlossen</em> wir, weiterzumachen. — In spite of all objections, we decided to continue.", "Formal written concessive with a genitive; <em>ungeachtet</em> behaves like a preposition, so no verb-final order applies."]
+  ];
+
+  var DATA_URL = "../../data/grammar_exercises_konzessive_konnektoren.json";
+  var STORE = "konzessive_konnektoren_progress_v1";
+  // ── pronunciation via the browser speech engine ──
+  var MIC_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5z"></path>'
+    + '<path class="pulse" d="M15.5 8.5a5 5 0 0 1 0 7"></path>'
+    + '<path class="pulse" d="M18.5 5.5a9 9 0 0 1 0 13"></path></svg>';
+  var synth = window.speechSynthesis || null;
+  var germanVoice = null;
+
+  function stripTags(t){ return String(t).replace(/<[^>]*>/g,""); }
+
+  function pickVoice(){
+    if(!synth) return null;
+    var vs = synth.getVoices() || [];
+    germanVoice = vs.filter(function(v){ return /^de(-|_|$)/i.test(v.lang); })[0] || null;
+    return germanVoice;
+  }
+  if(synth){
+    pickVoice();
+    if(synth.addEventListener) synth.addEventListener("voiceschanged", pickVoice);
+  }
+
+  function stopSpeech(){ if(synth) try{ synth.cancel(); }catch(e){} }
+
+  var warned = false;
+  function noVoiceNotice(){
+    if(warned) return; warned = true;
+    var n = document.getElementById("noVoice");
+    if(n) n.style.display = "flex";
+  }
+  function micBtn(text, label){
+    var b = document.createElement("button");
+    b.className = "mic";
+    b.type = "button";
+    b.setAttribute("aria-pressed","false");
+    b.setAttribute("aria-label", (label||"Play") + ": " + stripTags(text));
+    b.title = "Play pronunciation";
+    b.innerHTML = MIC_SVG;
+    b.addEventListener("click", function(ev){
+      ev.stopPropagation();
+      if(!synth){ b.disabled = true; b.title = "Speech is not available in this browser"; noVoiceNotice(); return; }
+      if(b.getAttribute("aria-pressed")==="true"){ stopSpeech(); b.setAttribute("aria-pressed","false"); return; }
+      stopSpeech();
+      if(!germanVoice) pickVoice();
+      var u = new SpeechSynthesisUtterance(stripTags(text));
+      u.lang = "de-DE";
+      if(germanVoice) u.voice = germanVoice;
+      u.rate = 0.92; u.pitch = 1;
+      b.setAttribute("aria-pressed","true");
+      var off = function(){ b.setAttribute("aria-pressed","false"); };
+      u.onend = off;
+      u.onerror = function(){ off(); noVoiceNotice(); };
+      synth.speak(u);
+      // some engines report no voices at all; surface that instead of a dead button
+      if(!synth.getVoices().length) noVoiceNotice();
+    });
+    return b;
+  }
+
+  var state = {revealed:{}, answers:{}};
+
+  function esc(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
+  function load(){ try{ var v=JSON.parse(localStorage.getItem(STORE)); if(v&&typeof v==="object"){state.revealed=v.revealed||{};state.answers=v.answers||{};} }catch(e){} }
+  function save(){ try{ localStorage.setItem(STORE, JSON.stringify(state)); }catch(e){} }
+
+  // ---- examples ----
+  // Each entry is [german_and_english, why]. The first field carries the English
+  // translation after an em dash, so split it out for separate styling.
+  function splitDE(t){
+    var i = t.indexOf("\u2014");
+    if(i < 0) return [t, ""];
+    return [t.slice(0,i).trim(), t.slice(i+1).trim()];
+  }
+  (function renderExamples(){
+    var host = document.getElementById("examples");
+    host.innerHTML = "";
+    EXAMPLES.forEach(function(x){
+      var de = x[0] || "";
+      var why = x[1] || "";
+      var parts = splitDE(de);
+      var card = document.createElement("div");
+      card.className = "ex";
+
+      var row = document.createElement("div");
+      row.className = "microw";
+      var txt = document.createElement("div");
+      txt.className = "mtext";
+      txt.innerHTML = '<div class="de">'+parts[0]+'</div>'+
+                      (parts[1] ? '<div class="en">'+parts[1]+'</div>' : "");
+      row.appendChild(txt);
+      row.appendChild(micBtn(parts[0], "Play this example"));
+      card.appendChild(row);
+
+      if(why){
+        var w = document.createElement("div");
+        w.className = "why";
+        w.innerHTML = "<b>Why:</b> "+why;
+        card.appendChild(w);
+      }
+      host.appendChild(card);
+    });
+  })();
+
+  // German special letters, inserted at the caret in the focused input.
+  var KEYS = ["ä","ö","ü","Ä","Ö","Ü","ß","€"];
+
+  function insertAt(input, ch){
+    var v = input.value;
+    var a = input.selectionStart == null ? v.length : input.selectionStart;
+    var b = input.selectionEnd == null ? v.length : input.selectionEnd;
+    input.value = v.slice(0,a) + ch + v.slice(b);
+    var pos = a + ch.length;
+    try{ input.setSelectionRange(pos,pos); }catch(e){}
+    input.focus();
+  }
+
+  function keypadBtn(id){
+    var b = document.createElement("button");
+    b.type = "button";
+    b.className = "keybtn";
+    b.title = "German letters";
+    b.setAttribute("aria-label","Insert German special characters");
+    b.setAttribute("aria-expanded","false");
+    b.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true">'+
+      '<rect x="2" y="5" width="20" height="14" rx="2"></rect>'+
+      '<path d="M6 9h.01M10 9h.01M14 9h.01M18 9h.01M6 13h.01M10 13h.01M14 13h.01M18 13h.01M8 16h8"></path>'+
+      '</svg>';
+    b.addEventListener("click", function(ev){
+      ev.stopPropagation();
+      var panel = document.getElementById("pad-"+id);
+      if(!panel) return;
+      var open = panel.classList.toggle("open");
+      b.setAttribute("aria-expanded", open ? "true" : "false");
+      closeAllKeypads(panel);
+    });
+    return b;
+  }
+
+  function closeAllKeypads(except){
+    Array.prototype.forEach.call(document.querySelectorAll(".pad.open"), function(p){
+      if(p === except) return;
+      p.classList.remove("open");
+      var btn = p.previousSibling && p.previousSibling.querySelector ? p.previousSibling.querySelector(".keybtn") : null;
+      if(btn) btn.setAttribute("aria-expanded","false");
+    });
+  }
+
+  document.addEventListener("click", function(){ closeAllKeypads(null); });
+  document.addEventListener("keydown", function(e){ if(e.key === "Escape") closeAllKeypads(null); });
+
+  function renderQuiz(ex){
+    var el = document.getElementById("quiz");
+    el.innerHTML = "";
+    ex.forEach(function(e){
+      var rev = !!state.revealed[e.id];
+      var card = document.createElement("article");
+      card.className = "q" + (rev ? " revealed" : "");
+      card.id = "q"+e.id;
+
+      var top = document.createElement("div");
+      top.className = "qtop";
+      top.innerHTML = '<span class="qnum">'+e.id+'</span>';
+      var qt = document.createElement("span");
+      qt.className = "qtext";
+      qt.textContent = e.english;
+      top.appendChild(qt);
+      card.appendChild(top);
+
+      // input with the letter keypad docked inside its right edge
+      var row = document.createElement("div");
+      row.className = "inputrow";
+      var ta = document.createElement("input");
+      ta.type = "text";
+      ta.className = "ainput";
+      ta.placeholder = "Write the German here…";
+      ta.setAttribute("aria-label","Your German answer for exercise "+e.id);
+      ta.value = state.answers[e.id] || "";
+      ta.addEventListener("input", function(){ state.answers[e.id] = ta.value; save(); });
+      row.appendChild(ta);
+      row.appendChild(keypadBtn(e.id));
+      card.appendChild(row);
+
+      // the letter panel sits inside the card so it is never clipped
+      var pad = document.createElement("div");
+      pad.className = "pad";
+      pad.id = "pad-"+e.id;
+      KEYS.forEach(function(k){
+        var kb = document.createElement("button");
+        kb.type = "button";
+        kb.className = "padkey";
+        kb.textContent = k;
+        kb.addEventListener("click", function(ev){
+          ev.stopPropagation();
+          var target = card.querySelector(".ainput");
+          insertAt(target, k);
+          state.answers[e.id] = target.value;
+          save();
+        });
+        pad.appendChild(kb);
+      });
+      card.appendChild(pad);
+
+      // reveal / hide toggle
+      var rb = document.createElement("button");
+      rb.type = "button";
+      rb.className = "btn rev" + (rev ? " on" : "");
+      rb.textContent = rev ? "Hide answer" : "Reveal answer";
+      rb.setAttribute("aria-expanded", rev ? "true" : "false");
+      rb.addEventListener("click", function(){
+        state.revealed[e.id] = !state.revealed[e.id];
+        save();
+        renderQuiz(ex);
+      });
+      card.appendChild(rb);
+
+      if(rev){
+        var fb = document.createElement("div");
+        fb.className = "fb";
+
+        var ansRow = document.createElement("div");
+        ansRow.className = "microw ansrow";
+        var at = document.createElement("div");
+        at.className = "mtext";
+        at.textContent = e.german;
+        ansRow.appendChild(at);
+        ansRow.appendChild(micBtn(e.german, "Play the German answer"));
+        fb.appendChild(ansRow);
+
+        var wy = document.createElement("div");
+        wy.className = "why";
+        wy.textContent = e.why;
+        fb.appendChild(wy);
+
+        card.appendChild(fb);
+      }
+      el.appendChild(card);
+    });
+  }
+
+  load();
+
+  fetch(DATA_URL+"?cb="+Date.now())
+    .then(function(r){ if(!r.ok) throw new Error("HTTP "+r.status); return r.json(); })
+    .then(function(d){
+      var ex=d.exercises;
+      renderQuiz(ex);
+    })
+    .catch(function(e){
+      document.getElementById("quiz").innerHTML =
+        '<div class="q"><b>Could not load the exercises.</b><br>'+esc(e.message)+'</div>';
+    });
+})();
+</script>
+</body>
+</html>
