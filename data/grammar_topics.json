@@ -91,9 +91,9 @@
         },
         {
           "n": 11,
-          "topic_en": "Present tense of regular verbs",
+          "topic_en": "Present tense: regular, -eln/-ern and vowel-changing verbs",
           "term_de": "Präsens regelmäßiger Verben",
-          "covers": "the -e/-st/-t endings, the stem change in -eln/-ern verbs, and the vowel-changing irregulars (nehmen → du nimmst, fahren → du fährst).",
+          "covers": "the -e/-st/-t endings, the stem change in -eln/-ern verbs (sammeln, wandern), and vowel-consonant irregulars (nehmen → du nimmst, fahren → du fährst).",
           "provider_split": false
         },
         {
@@ -254,7 +254,7 @@
           "n": 34,
           "topic_en": "Ordinal numbers and dates",
           "term_de": "Ordinalzahlen",
-          "covers": "erste, zweite … and the adjective ending; der 5. Oktober 2026 in spoken versus written word order.",
+          "covers": "erste, zweite … with the adjective ending; 1.–31. and the word order in spoken versus written dates, including der 5. Oktober 2026.",
           "provider_split": false
         },
         {
@@ -281,7 +281,7 @@
       ]
     },
     "A2": {
-      "count": 43,
+      "count": 41,
       "topics": [
         {
           "n": 1,
@@ -320,265 +320,251 @@
         },
         {
           "n": 6,
-          "topic_en": "Two-way prepositions: static vs. directional",
-          "term_de": "Wechselpräpositionen: Lage und Richtung",
-          "covers": "wo? vs. wohin? deciding the case by position versus movement.",
-          "provider_split": false
-        },
-        {
-          "n": 7,
           "topic_en": "Prepositions with fixed prepositional cases",
           "term_de": "Präpositionen mit fixem Kasus",
           "covers": "schriftlich vor, telefonisch mit and the case each governs.",
           "provider_split": false
         },
         {
-          "n": 8,
+          "n": 7,
           "topic_en": "Verbs with a preposition",
           "term_de": "Verben mit Präposition",
           "covers": "warten auf, helfen bei, sprechen über and the case they govern.",
           "provider_split": false
         },
         {
-          "n": 9,
+          "n": 8,
           "topic_en": "Verbs with prepositions and pronouns",
           "term_de": "Verben mit Präposition und Pronomen",
           "covers": "auf ihn, über sie and pronoun agreement with the preposition.",
           "provider_split": false
         },
         {
-          "n": 10,
+          "n": 9,
           "topic_en": "Genitive as an attribute",
           "term_de": "Genitivattribut",
           "covers": "des Freundes, of people, places and measures.",
           "provider_split": false
         },
         {
-          "n": 11,
+          "n": 10,
           "topic_en": "Genitive prepositions",
           "term_de": "Präpositionen mit Genitiv",
           "covers": "während, trotz, wegen, statt.",
           "provider_split": false
         },
         {
-          "n": 12,
+          "n": 11,
           "topic_en": "n-declension: masculine nouns",
           "term_de": "n-Deklination: maskuline Substantive",
           "covers": "der Name → den Namen, den Kollegen and the weak plural in -en.",
           "provider_split": false
         },
         {
-          "n": 13,
+          "n": 12,
           "topic_en": "n-declension: neuter nouns",
           "term_de": "n-Deklination: neutrale Substantive",
           "covers": "das Museum → das Museum, and the plural in -n or -e.",
           "provider_split": false
         },
         {
-          "n": 14,
+          "n": 13,
           "topic_en": "Adjective declension after a definite article",
           "term_de": "Adjektivdeklination nach dem bestimmten Artikel",
           "covers": "weak endings in -e, and -en in the dative plural.",
           "provider_split": false
         },
         {
-          "n": 15,
+          "n": 14,
           "topic_en": "Adjective declension after an indefinite article",
           "term_de": "Adjektivdeklination nach dem unbestimmten Artikel",
           "covers": "mixed endings: -er, -e, -es, -en.",
           "provider_split": false
         },
         {
-          "n": 16,
+          "n": 15,
           "topic_en": "Adjective declension without an article",
           "term_de": "Adjektivdeklination ohne Artikel",
           "covers": "strong endings and attributive versus predicative use.",
           "provider_split": false
         },
         {
-          "n": 17,
+          "n": 16,
           "topic_en": "Adjectives after possessive articles",
           "term_de": "Adjektivendungen nach Possessivartikeln",
           "covers": "mein, dein, sein take the same endings as ein.",
           "provider_split": false
         },
         {
-          "n": 18,
+          "n": 17,
           "topic_en": "Adjectives after quantifiers",
           "term_de": "Adjektivendungen nach Quantifikatoren",
           "covers": "viel, wenig, ein paar and the mixed/strong pattern they follow.",
           "provider_split": false
         },
         {
-          "n": 19,
+          "n": 18,
           "topic_en": "Comparatives",
           "term_de": "Komparativ",
           "covers": "-er form, gut → besser, hoch → höher and the vowel change.",
           "provider_split": false
         },
         {
-          "n": 20,
+          "n": 19,
           "topic_en": "Superlatives",
           "term_de": "Superlativ",
           "covers": "am besten, am höchsten and the -sten adjective ending.",
           "provider_split": false
         },
         {
-          "n": 21,
+          "n": 20,
           "topic_en": "Comparative and superlative with Gleichgestellung",
           "term_de": "Komparation mit Gleichstellung",
           "covers": "so groß wie, genauso teuer wie.",
           "provider_split": false
         },
         {
-          "n": 22,
+          "n": 21,
           "topic_en": "Attributive and predicative position",
           "term_de": "Attributive und prädikative Stellung",
           "covers": "das große Haus vs. das Haus ist groß — the decisive difference.",
           "provider_split": false
         },
         {
-          "n": 23,
+          "n": 22,
           "topic_en": "Perfect tense with sein and haben",
           "term_de": "Perfekt mit sein und haben",
           "covers": "sein for movement and change of state, haben otherwise.",
           "provider_split": false
         },
         {
-          "n": 24,
+          "n": 23,
           "topic_en": "Präteritum of sein and haben",
           "term_de": "Präteritum von sein und haben",
           "covers": "war and hatte — the two irregular forms every learner must know.",
           "provider_split": false
         },
         {
-          "n": 25,
+          "n": 24,
           "topic_en": "Präteritum of regular verbs",
           "term_de": "Präteritum der regelmäßigen Verben",
           "covers": "ich machte, du machtest and the -te endings.",
           "provider_split": false
         },
         {
-          "n": 26,
+          "n": 25,
           "topic_en": "Präteritum of strong verbs",
           "term_de": "Präteritum der starken Verben",
           "covers": "gehen → ging, sehen → sah, sprechen → sprach and the vowel change.",
           "provider_split": false
         },
         {
-          "n": 27,
+          "n": 26,
           "topic_en": "Perfect of strong verbs",
           "term_de": "Perfekt der starken Verben",
           "covers": "gegangen, gesehen and where the ge- goes.",
           "provider_split": false
         },
         {
-          "n": 28,
+          "n": 27,
           "topic_en": "Verbs with inseparable prefixes",
           "term_de": "Verben mit untrennbaren Vorsilben",
           "covers": "be-, emp-, ent-, er-, ge-, ver-, zer- take ge- inside the word.",
           "provider_split": false
         },
         {
-          "n": 29,
+          "n": 28,
           "topic_en": "Verbs changing the stem vowel in the past",
           "term_de": "Verben mit Vokalwechsel im Präteritum",
           "covers": "nehmen → nahm, essen → aß, give the vowel change a special treatment.",
           "provider_split": false
         },
         {
-          "n": 30,
+          "n": 29,
           "topic_en": "Modal verbs in the perfect",
           "term_de": "Modalverben im Perfekt",
           "covers": "müssen → müssen, können → können plus the bare infinitive.",
           "provider_split": false
         },
         {
-          "n": 31,
-          "topic_en": "Ordinal numbers and dates",
-          "term_de": "Ordinalzahlen und Datumsangaben",
-          "covers": "1.–31. and the word order in spoken and written dates.",
-          "provider_split": false
-        },
-        {
-          "n": 32,
+          "n": 30,
           "topic_en": "Subordinate clauses: word order",
           "term_de": "Nebensatzstellung",
           "covers": "verb-final and the comma before the subordinate clause.",
           "provider_split": false
         },
         {
-          "n": 33,
+          "n": 31,
           "topic_en": "Subordinators of time",
           "term_de": "temporale Konjunktionen",
           "covers": "wenn, als, bevor, nachdem, seit, bis.",
           "provider_split": false
         },
         {
-          "n": 34,
+          "n": 32,
           "topic_en": "Subordinators of cause and effect",
           "term_de": "kausale und konsekutive Konjunktionen",
           "covers": "weil, denn, deshalb, deshalb and sodass.",
           "provider_split": false
         },
         {
-          "n": 35,
+          "n": 33,
           "topic_en": "Adjectives as predicates",
           "term_de": "Adjektive als Prädikate",
           "covers": "sein and werden as the two copulas of German.",
           "provider_split": false
         },
         {
-          "n": 36,
+          "n": 34,
           "topic_en": "werden: change of state",
           "term_de": "werden: Zustandswechsel",
           "covers": "krank werden, rot werden — werden marks a change, sein a state.",
           "provider_split": false
         },
         {
-          "n": 37,
+          "n": 35,
           "topic_en": "Infinitive with zu, and the fixed verbs without it",
           "term_de": "Infinitiv mit zu",
           "covers": "which verbs take zu, which fixed verbs omit it (sehen, hören, lassen, gehen), and where the infinitive stands.",
           "provider_split": false
         },
         {
-          "n": 38,
+          "n": 36,
           "topic_en": "Weil-clauses before and after the verb",
           "term_de": "Position von weil-Sätzen",
           "covers": "weil-Sätze at position I or at the end, and the comma rule.",
           "provider_split": false
         },
         {
-          "n": 39,
+          "n": 37,
           "topic_en": "Reflexive verbs with the dative",
           "term_de": "Reflexive Verben mit Dativ",
           "covers": "sich etwas vorstellen, sich etwas wünschen, es sich leisten — when the reflexive takes the dative.",
           "provider_split": false
         },
         {
-          "n": 40,
+          "n": 38,
           "topic_en": "Reciprocal pronouns",
           "term_de": "Reflexivpronomen wechselseitig",
           "covers": "Wir helfen uns gegenseitig / einander.",
           "provider_split": false
         },
         {
-          "n": 41,
+          "n": 39,
           "topic_en": "Konjunktiv II: würde forms and the own forms",
           "term_de": "Konjunktiv II: würde-Formen",
           "covers": "ich würde, wir würden as the safe form, and the own forms of sein, haben and the modals that replace würde.",
           "provider_split": false
         },
         {
-          "n": 42,
+          "n": 40,
           "topic_en": "Imperativ with Sie",
           "term_de": "Imperativ: Sie",
           "covers": "formal requests with the verb in position I.",
           "provider_split": false
         },
         {
-          "n": 43,
+          "n": 41,
           "topic_en": "Konjunctive pairs: sondern",
           "term_de": "Konjunktion: sondern",
           "covers": "used to replace und/oder after a negative.",
@@ -587,7 +573,7 @@
       ]
     },
     "B1": {
-      "count": 39,
+      "count": 38,
       "topics": [
         {
           "n": 1,
@@ -598,160 +584,153 @@
         },
         {
           "n": 2,
-          "topic_en": "Irregular verbs in the present tense",
-          "term_de": "unregelmäßige Verben im Präsens",
-          "covers": "nehmen, du nimmst, fahren, du fährst, and stem changes in vowel-consonant verbs.",
-          "provider_split": false
-        },
-        {
-          "n": 3,
           "topic_en": "Plusquamperfekt",
           "term_de": "Plusquamperfekt",
           "covers": "the strictly-earlier layer of the past, and why it marks the earlier of two past events.",
           "provider_split": false
         },
         {
-          "n": 4,
+          "n": 3,
           "topic_en": "Futur I",
           "term_de": "Futur I",
           "covers": "formation and word order of werden + Infinitiv, and reading it as prediction vs. spoken intention.",
           "provider_split": false
         },
         {
-          "n": 5,
+          "n": 4,
           "topic_en": "Modal verbs: conjugation and sentence pattern",
           "term_de": "Modalverben",
           "covers": "the modal + infinitive pattern, and the position of the infinitive when another object follows.",
           "provider_split": false
         },
         {
-          "n": 6,
+          "n": 5,
           "topic_en": "Modal verbs of probability",
           "term_de": "Modalverben zum Ausdruck der Wahrscheinlichkeit",
           "covers": "sicher, wohl, vielleicht and the modal + inflected infinitive used as an adverb.",
           "provider_split": false
         },
         {
-          "n": 7,
+          "n": 6,
           "topic_en": "Impersonal verbs",
           "term_de": "unpersönliche Verben",
           "covers": "es gibt, es regnet, mir ist kalt: es as a formal placeholder subject.",
           "provider_split": false
         },
         {
-          "n": 8,
+          "n": 7,
           "topic_en": "Object order: accusative before dative",
           "term_de": "Objektstellung: Akkusativ vor Dativ",
           "covers": "Ich gebe ihm das Buch, and why the shorter dative object comes first.",
           "provider_split": false
         },
         {
-          "n": 9,
+          "n": 8,
           "topic_en": "Imperative forms",
           "term_de": "Imperativ",
           "covers": "du, ihr, Sie and the let-forms, including the position of the pronoun.",
           "provider_split": false
         },
         {
-          "n": 10,
+          "n": 9,
           "topic_en": "Adjective declension after an indefinite or possessive article",
           "term_de": "Adjektivdeklination nach unbestimmten Artikeln und Possessiva",
           "covers": "mixed endings: -er, -e, -es, -en, and the ein- irregularity.",
           "provider_split": false
         },
         {
-          "n": 11,
+          "n": 10,
           "topic_en": "Adjective declension with demonstratives and possessives",
           "term_de": "Adjektivdeklination mit Demonstrativ- und Possessivartikeln",
           "covers": "dieser/jener/ein jeder and the pattern they share.",
           "provider_split": false
         },
         {
-          "n": 12,
+          "n": 11,
           "topic_en": "Comparatives and superlatives",
           "term_de": "Komparation und Vergleich",
           "covers": "-er, am -sten, Gleichstand, and ellipsis in the comparison.",
           "provider_split": false
         },
         {
-          "n": 13,
+          "n": 12,
           "topic_en": "Adverbs and their comparison",
           "term_de": "Komparation von Adverbien",
           "covers": "gut → besser → am besten, and where adverb comparison differs from adjective comparison.",
           "provider_split": false
         },
         {
-          "n": 14,
+          "n": 13,
           "topic_en": "Participles I and II as adjectives",
           "term_de": "Partizip I und II als Adjektiv",
           "covers": "das kommende Jahr, das reparierte Auto: participle plus adjective ending.",
           "provider_split": false
         },
         {
-          "n": 15,
+          "n": 14,
           "topic_en": "Relative clauses: nominative and accusative",
           "term_de": "Relativsätze im Nominativ und Akkusativ",
           "covers": "der/die/das, welcher/welche/welches; case is decided inside the relative clause.",
           "provider_split": false
         },
         {
-          "n": 16,
+          "n": 15,
           "topic_en": "Relative clauses: dative, genitive and prepositions",
           "term_de": "Relativsätze im Dativ, Genitiv und mit Präpositionen",
           "covers": "deren, dessen, and relative pronouns after a preposition.",
           "provider_split": false
         },
         {
-          "n": 17,
+          "n": 16,
           "topic_en": "Relative clauses with was, wo, wohin, wann",
           "term_de": "Relativsätze mit w-Wörtern",
           "covers": "weil sie Dinge und Personen ersetzen; wo vs. wohin vs. wann.",
           "provider_split": false
         },
         {
-          "n": 18,
+          "n": 17,
           "topic_en": "Subordinators of cause and concession",
           "term_de": "kausale und konzessive Konjunktionen",
           "covers": "weil, da, denn, obwohl, trotzdem als Konjunktion.",
           "provider_split": false
         },
         {
-          "n": 19,
+          "n": 18,
           "topic_en": "Subordinators of purpose and result",
           "term_de": "finale und konsekutive Konjunktionen",
           "covers": "damit, um zu, zu, sodass, so dass.",
           "provider_split": false
         },
         {
-          "n": 20,
+          "n": 19,
           "topic_en": "Infinitive with and without zu",
           "term_de": "Infinitiv mit und ohne zu",
           "covers": "which verbs take zu, and the fixed verbs that omit it.",
           "provider_split": false
         },
         {
-          "n": 21,
+          "n": 20,
           "topic_en": "Main-clause connectors",
           "term_de": "Konjunktionaladverbien",
           "covers": "deshalb, trotzdem, außerdem: position zero, then verb in position II.",
           "provider_split": false
         },
         {
-          "n": 22,
+          "n": 21,
           "topic_en": "Indirect questions",
           "term_de": "indirekte Fragesätze",
           "covers": "ob, wann, wo, wie, warum and the verb-final subordinate clause.",
           "provider_split": false
         },
         {
-          "n": 23,
+          "n": 22,
           "topic_en": "Direct speech",
           "term_de": "direkte Rede",
           "covers": "quotation marks, the colon, and pronoun and tense adjustment.",
           "provider_split": false
         },
         {
-          "n": 24,
+          "n": 23,
           "topic_en": "Konjunktiv II: formation",
           "term_de": "Konjunktiv II der Gegenwart",
           "covers": "the umlaut + -e forms of sein, haben and the modals.",
@@ -759,56 +738,56 @@
           "page": "../../lessons/2026-10-05-b1-1-konjunktiv-ii-of-all-common-verbs.html"
         },
         {
-          "n": 25,
+          "n": 24,
           "topic_en": "Konjunktiv II: wishes and polite requests",
           "term_de": "Konjunktiv II für Wünsche und Höflichkeit",
           "covers": "ich würde, gern hätte, könnte ich bitte — the everyday wish and request forms.",
           "provider_split": false
         },
         {
-          "n": 26,
+          "n": 25,
           "topic_en": "Konjunktiv II in the past",
           "term_de": "Konjunktiv II der Vergangenheit",
           "covers": "würde + haben/sein + Partizip II.",
           "provider_split": false
         },
         {
-          "n": 27,
+          "n": 26,
           "topic_en": "Konjunktiv II: advice and proposals",
           "term_de": "Konjunktiv II für Ratschläge und Vorschläge",
           "covers": "sollte, müsste and thewürde-form for proposing.",
           "provider_split": false
         },
         {
-          "n": 28,
+          "n": 27,
           "topic_en": "Irreal conditionals",
           "term_de": "irreale Bedingungssätze",
           "covers": "wenn + Konjunktiv II and the verb-final position of the wenn-clause.",
           "provider_split": false
         },
         {
-          "n": 29,
+          "n": 28,
           "topic_en": "Passive in all tenses",
           "term_de": "Passiv in allen Zeiten",
           "covers": "werden + Partizip II across tenses, and the von-phrase agent.",
           "provider_split": false
         },
         {
-          "n": 30,
+          "n": 29,
           "topic_en": "Passive with modal verbs",
           "term_de": "Passiv mit Modalverben",
           "covers": "müssen/sollen/können + werden + Partizip II, and the resulting meanings.",
           "provider_split": false
         },
         {
-          "n": 31,
+          "n": 30,
           "topic_en": "Zustandspassiv and Vorgangspassiv",
           "term_de": "sein + Partizip II vs. werden + Partizip II",
           "covers": "result vs. process, and sein for the resultative reading.",
           "provider_split": false
         },
         {
-          "n": 32,
+          "n": 31,
           "topic_en": "n-declension: the complete paradigm",
           "term_de": "n-Deklination",
           "covers": "der Name / der Kollege / das Museum: the full masculine and neuter paradigm with the special plurals.",
@@ -816,49 +795,49 @@
           "split_note": "Recognition at B1, productive use at B2; telc introduces the full paradigm earlier."
         },
         {
-          "n": 33,
+          "n": 32,
           "topic_en": "Subordinate clauses: the full system",
           "term_de": "Nebensatzsystem",
           "covers": "every subordinate clause has the verb last; the conjunctions that introduce one, and the comma that always follows.",
           "provider_split": false
         },
         {
-          "n": 34,
+          "n": 33,
           "topic_en": "Subordinators of condition",
           "term_de": "konditionale Konjunktionen",
           "covers": "wenn/als in real conditions, plus ob and the ich-Passiv alternative.",
           "provider_split": false
         },
         {
-          "n": 35,
+          "n": 34,
           "topic_en": "so-clauses: so … wie and so … dass",
           "term_de": "so … wie und so … dass",
           "covers": "comparison with so, and result with so … dass / sodass.",
           "provider_split": false
         },
         {
-          "n": 36,
+          "n": 35,
           "topic_en": "Irreal comparison",
           "term_de": "irreale Vergleichssätze",
           "covers": "als ob, als wenn, als though for unreal resemblance.",
           "provider_split": false
         },
         {
-          "n": 37,
+          "n": 36,
           "topic_en": "Relative clauses: the full system",
           "term_de": "Relativsätze: das System",
           "covers": "der/die/das, welcher, deren, dessen and the case decided inside the relative clause.",
           "provider_split": false
         },
         {
-          "n": 38,
+          "n": 37,
           "topic_en": "Participle attributes",
           "term_de": "Partizipialattribut und Partizipialkonstruktion",
           "covers": "the compressed subordinate clause: die zur Verfügung stehenden Daten.",
           "provider_split": false
         },
         {
-          "n": 39,
+          "n": 38,
           "topic_en": "Gerundiv as a passive substitute",
           "term_de": "Gerundiv als Passiversatz",
           "covers": "zu + Partizip I + adjective ending agreeing with the following noun: die zu lösenden Aufgaben.",
