@@ -41,14 +41,8 @@ body{font-family:var(--font);font-size:16px;color:var(--teal-900);background:var
 @media (max-width:560px){.nav-brand-text{font-size:.85rem}}
 
 .wrap{max-width:860px;width:100%;margin:0 auto;padding:16px 16px 0;flex:1 0 auto}
-.meta{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:10px}
-.tag{font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;
-  padding:3px 9px;border-radius:11px;background:rgba(0,130,130,.10);color:var(--teal-700)}
-.tag.amber{background:rgba(225,160,30,.18);color:#7A5000}
 
 h1{font-size:1.5rem;line-height:1.3;margin:6px 0 2px}
-h1 .de{display:block;font-size:1.05rem;color:var(--teal-700);font-weight:600;margin-top:2px}
-.sub{color:var(--muted);font-size:.92rem;margin-bottom:20px}
 
 section{margin-bottom:30px}
 h2{font-size:1.05rem;margin-bottom:10px;padding-bottom:6px;border-bottom:2px solid var(--teal-400)}
@@ -168,7 +162,7 @@ details.fold .foldbody{padding:0 12px 11px;border-top:1px solid var(--border);pa
   display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:.78rem;color:var(--muted)}
 .footer strong{color:var(--teal-700)}
 .footer-dot{margin:0 10px;color:var(--border)}
-.backlink{display:inline-block;margin-bottom:4px;font-size:.85rem;color:var(--teal-700)}
+
 </style>
 </head>
 <body>
@@ -199,18 +193,8 @@ details.fold .foldbody{padding:0 12px 11px;border-top:1px solid var(--border);pa
 
 <div class="wrap">
 
-  <div class="meta">
-    <span class="tag amber">B1</span>
-    <span class="tag">Nebensatz</span>
-    <span class="tag" id="tagCount">100 exercises</span>
-  </div>
-
   <h1>Subordinate Clauses in German<span class="de">Der Nebensatz und das Nebensatzsystem</span></h1>
-  <p class="sub">The single most important word-order rule in German: in a Nebensatz the
-     conjugated verb goes <em>last</em>. Everything else builds on that.</p>
-
-  <p><a class="backlink" href="index.html">&larr; All grammar topics</a></p>
-
+  
   <!-- ══ 1. CONCEPT ══ -->
   <section>
     <h2>1 · The concept</h2>
@@ -463,8 +447,9 @@ details.fold .foldbody{padding:0 12px 11px;border-top:1px solid var(--border);pa
   var DATA_URL = "../../data/grammar_exercises_nebensatz.json";
   var STORE = "nebensatz_progress_v1";
   // ── pronunciation via the browser speech engine ──
-  var MIC_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"></path>'
-    + '<path class="pulse" d="M19 10v2a7 7 0 0 1-14 0v-2"></path><path d="M12 19v3"></path></svg>';
+  var MIC_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5z"></path>'
+    + '<path class="pulse" d="M15.5 8.5a5 5 0 0 1 0 7"></path>'
+    + '<path class="pulse" d="M18.5 5.5a9 9 0 0 1 0 13"></path></svg>';
   var synth = window.speechSynthesis || null;
   var germanVoice = null;
 
@@ -713,7 +698,6 @@ details.fold .foldbody{padding:0 12px 11px;border-top:1px solid var(--border);pa
     .then(function(d){
       var ex=d.exercises;
       ALL_EX=ex;
-      document.getElementById("tagCount").textContent = ex.length+" exercises";
       renderFilters(ex);
       renderQuiz(ex);
       document.getElementById("checkAll").addEventListener("click",function(){revealAll(ex);});

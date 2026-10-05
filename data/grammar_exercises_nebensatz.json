@@ -79,16 +79,16 @@
     {
       "id": 11,
       "skill": "Verb-final in the subordinate clause",
-      "english": "When I am nervous, everything goes wrong.",
+      "english": "When she gets nervous, everything goes wrong for her.",
       "german": "Sie hat Angst, dass es schiefgeht.",
-      "why": "Separable verb: the prefix schief- rejoins the verb, so the full verb geht is the last word of the dass-clause."
+      "why": "Separable verb: the prefix schief- rejoins the verb, so the whole verb geht is the last word of the dass-clause."
     },
     {
       "id": 12,
       "skill": "Verb-final in the subordinate clause",
       "english": "Assuming we had more time, we would travel to Japan.",
-      "german": "Angenommen, wir hätten mehr Zeit, würden reisen wir nach Japan.",
-      "why": "würde + infinitive: the whole verb cluster goes last."
+      "german": "Angenommen, wir hätten mehr Zeit, würden wir nach Japan reisen.",
+      "why": "Irreal condition: hätten in the clause, würde + Position II + infinitive last in the main clause."
     },
     {
       "id": 13,
@@ -296,9 +296,9 @@
     {
       "id": 42,
       "skill": "Conjunction choice",
-      "english": "I doubt that he is telling the truth.",
-      "german": "Ich zweifle, dass er die Wahrheit sagt.",
-      "why": "doubting a statement takes dass; doubting whether something is the case takes ob."
+      "english": "I doubt whether he is telling the truth.",
+      "german": "Ich bezweifle, dass er die Wahrheit sagt.",
+      "why": "A dass-clause reports a doubt: the verb bezweifle stays in Position II, and sagt is last inside the clause."
     },
     {
       "id": 43,
@@ -450,9 +450,9 @@
     {
       "id": 64,
       "skill": "Verb cluster, modal & Perfekt",
-      "english": "The form has to be handed in by Friday.",
-      "german": "Das Formular muss bis Freitag abgegeben werden.",
-      "why": "Modal passive: müssen + werden + Partizip II as the final cluster."
+      "english": "I hope that the form will be handed in on time.",
+      "german": "Ich hoffe, dass das Formular rechtzeitig abgegeben wird.",
+      "why": "The whole modal-passive cluster is only abgegeben wird here; the auxiliary wird is the last word of the clause."
     },
     {
       "id": 65,
@@ -499,9 +499,9 @@
     {
       "id": 71,
       "skill": "Verb cluster, modal & Perfekt",
-      "english": "I have to pay the bill today.",
-      "german": "Ich muss die Rechnung heute noch bezahlen.",
-      "why": "Only one modal per clause; the second verb is the bare infinitive bezahlen."
+      "english": "I hope that I can pay the bill on time.",
+      "german": "Ich hoffe, dass ich die Rechnung pünktlich bezahlen kann.",
+      "why": "Modal kann is the finite verb of the dass-clause and goes last, with the infinitive bezahlen in front of it."
     },
     {
       "id": 72,
@@ -646,9 +646,9 @@
     {
       "id": 92,
       "skill": "Integrated",
-      "english": "It is important to submit the results on time.",
-      "german": "Es ist wichtig, die Ergebnisse rechtzeitig vorzulegen.",
-      "why": "Prepositional infinitives with sein keep the whole verb at the end: vorzulegen."
+      "english": "It is important that you submit the results on time.",
+      "german": "Es ist wichtig, dass du die Ergebnisse rechtzeitig vorlegst.",
+      "why": "A dass-clause after es ist wichtig needs its own finite verb: vorlegst sits at the end."
     },
     {
       "id": 93,
