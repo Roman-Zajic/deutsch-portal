@@ -261,13 +261,22 @@ function clearMsgs(){ ["keyMsg","errMsg","warnMsg"].forEach(function(id){ showMs
    ordinal, and a known abbreviation pattern means no break.
 ──────────────────────────────────────────────────────── */
 const ABBREV_WORDS = [
-  "z\.B","d\.h","u\.a","bzw","usw","sog","Dr","Prof","Nr","Abb","Bsp","vgl","ca","evtl",
-  "inkl","exkl","max","min","Mrd","Mio","St","Nr","bspw","z\.T","ggf","inkl\.","etc","lat",
-  "engl","dt","ital","frz","s\.o","u\.U","v\.a","i\.d\.R","Nr\.","Abb\.","Hr","Fr"
+  "z\.B","d\.h","u\.a","bzw","sog","Dr","Prof","Nr","Abb","Bsp","vgl","ca","evtl",
+  "inkl","exkl","max","min","Mrd","Mio","bspw","z\.T","ggf","etc","lat","usw","Abb\.","Nr\.",
+  "engl","dt","ital","frz","u\.U","v\.a","Hr","Fr"
 ];
-const ABBREV_TAIL = new RegExp("\\s(?:" + ABBREV_WORDS.join("|") + ")$", "i");
-const INITIAL_TAIL = /\s[A-ZÄÖÜ]\.$/;          // "Dr. Meier", "A. B."
-const DECIMAL      = /\d\.$|^\.$/;              // "3.500 Euro" -> digit before the dot
+/* the buffer ends in a known abbreviation: "Dr.", "z.B.", "Nr." */
+const ABBREV_TAIL = new RegExp("(?:^|\\s)(?:" + ABBREV_WORDS.join("|") + ")\\.$", "i");
+/* the buffer ends in the first half of a dotted pair: the "z." of "z.B." */
+const ABBREV_HEAD = /(?:^|\s)(?:z|d|u|v|i|b)\.$/i;
+/* the buffer already holds a spaced pair: "z. B." */
+const ABBREV_PAIR = /(?:^|\s)(?:z|d|u|v|i|b)\.\s?[A-Za-zÄÖÜäöü]{1,3}\.$/i;
+/* a lone capital initial, at the start of the text or after a word */
+const INITIAL_TAIL = /(?:^|\s)[A-ZÄÖÜ]\.$/;
+/* a digit before the dot: 3.500 or 1.2.2024 */
+const DECIMAL      = /\d\.$/;
+/* a time expression still ends the sentence: "20 Uhr." */
+const TIME_TAIL    = /\d{1,2}\s?(?:Uhr|Min|Sek)\.$/i;
 
 function splitSentences(text){
   const clean = String(text).replace(/\s+/g, " ").trim();
@@ -279,26 +288,35 @@ function splitSentences(text){
     buf += ch;
     if(ch !== "." && ch !== "!" && ch !== "?") continue;
 
+    const candidate = buf.trim();
+    if(ch !== "."){ out.push(candidate); buf = ""; continue; }
+
     let j = i + 1;
     while(j < clean.length && clean[j] === " ") j++;
     const nextCh = clean[j] || "";
-    // a new sentence begins with a capital, a digit, or an opening quote
-    const startsNew = !nextCh || /["'\u201e\u201c(\-\u2013]?[A-ZÄÖÜ0-9]/.test(nextCh);
-    if(!startsNew) continue;
+    const after = clean.slice(j, j + 4);
 
-    const candidate = buf.trim();
-    // ! and ? always end a sentence; only "." needs the guards
-    if(ch !== "."){
-      out.push(candidate); buf = "";
-      continue;
-    }
-    if(ABBREV_TAIL.test(candidate)) continue;   // ends in z.B., Dr., usw.
-    if(INITIAL_TAIL.test(candidate)) continue;  // ends in a single capital initial
-    if(DECIMAL.test(candidate)) continue;       // ends in a digit + dot
-    if(candidate.length > 1){
-      out.push(candidate);
-      buf = "";
-    }
+    /* guard 1 - this period does not end a sentence.
+       Trade-off: after an abbreviation we never break, so a sentence
+       ending "... usw. Dann" stays one block rather than splitting.
+       Splitting is the worse error here - "Dr. Meier" must never come
+       apart, and one slightly long block reads fine while two broken
+       halves do not. */
+    if(ABBREV_TAIL.test(candidate)) continue;
+    if(ABBREV_PAIR.test(candidate)) continue;
+    if(ABBREV_HEAD.test(candidate) && /^[A-Za-zÄÖÜäöü]{1,3}\./.test(after)) continue;
+    if(INITIAL_TAIL.test(candidate) && /^[A-ZÄÖÜ]{1,3}[.,]/.test(after)) continue;
+    if(DECIMAL.test(candidate) && /^\d/.test(nextCh)) continue;
+
+    /* guard 2 - a new sentence starts with a capital, a digit or an
+       opening quote. A CLOSING quote sits between the period and the
+       next capital ("...morgen." Danach), so it has to be stepped
+       over before the test. */
+    let k = j;
+    while(k < clean.length && (clean[k] === " " || /["'”’)\]]/.test(clean[k]))) k++;
+    const realNext = clean[k] || "";
+    const looksNew = !realNext || /[„“(\-–]?[A-ZÄÖÜ0-9]/.test(realNext);
+    if(looksNew && candidate.length > 1){ out.push(candidate); buf = ""; }
   }
   const rest = buf.trim();
   if(rest) out.push(rest);
