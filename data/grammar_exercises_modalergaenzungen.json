@@ -1,0 +1,704 @@
+{
+ "exercises": [
+  {
+   "id": 1,
+   "skill": "Modal + noun phrase instead of infinitive",
+   "english": "My brother is hungry.",
+   "german": "Mein Bruder hat Hunger.",
+   "why": "haben plus an accusative noun expresses hunger without an infinitive."
+  },
+  {
+   "id": 2,
+   "skill": "Modal + noun phrase instead of infinitive",
+   "english": "Are you in a hurry?",
+   "german": "Hast du es eilig?",
+   "why": "The predicative complement of the accented es is an adjective, not a verb."
+  },
+  {
+   "id": 3,
+   "skill": "Modal + noun phrase instead of infinitive",
+   "english": "I do not have time today.",
+   "german": "Ich habe heute keine Zeit.",
+   "why": "A time noun in the accusative replaces the infinitive of the default modal pattern."
+  },
+  {
+   "id": 4,
+   "skill": "Modal + noun phrase instead of infinitive",
+   "english": "The company has a heavy debt burden.",
+   "german": "Die Firma hat eine große Schuldenlast.",
+   "why": "haben plus an accusative noun of state, with no infinitive anywhere in the clause."
+  },
+  {
+   "id": 5,
+   "skill": "Modal + noun phrase instead of infinitive",
+   "english": "Do you feel like going to the cinema?",
+   "german": "Hast du Lust, ins Kino zu gehen?",
+   "why": "haben plus Lust is completed by a zu-infinitive clause of its own."
+  },
+  {
+   "id": 6,
+   "skill": "Modal + noun phrase instead of infinitive",
+   "english": "She was afraid of making a mistake.",
+   "german": "Sie hatte Angst, einen Fehler zu machen.",
+   "why": "A past form of the haben pattern with a zu-infinitive clause after the noun."
+  },
+  {
+   "id": 7,
+   "skill": "Modal + noun phrase instead of infinitive",
+   "english": "I have reason to complain about the noise.",
+   "german": "Ich habe Grund, mich über den Lärm zu beschweren.",
+   "why": "haben plus a noun, with a reflexive zu-infinitive clause as its complement."
+  },
+  {
+   "id": 8,
+   "skill": "Modal + noun phrase instead of infinitive",
+   "english": "The child has no fear of dogs.",
+   "german": "Das Kind hat keine Angst vor Hunden.",
+   "why": "Angst is the accusative object; vor takes the dative."
+  },
+  {
+   "id": 9,
+   "skill": "Modal + noun phrase instead of infinitive",
+   "english": "Do you have a lot of work to do?",
+   "german": "Hast du viel Arbeit zu erledigen?",
+   "why": "A zu-infinitive clause stands in the slot after the noun, not after the modal."
+  },
+  {
+   "id": 10,
+   "skill": "Modal + noun phrase instead of infinitive",
+   "english": "We have a meeting at nine.",
+   "german": "Wir haben eine Besprechung um neun.",
+   "why": "A time adverbial closes a clause whose only verb is the haben of the modal pattern."
+  },
+  {
+   "id": 11,
+   "skill": "Modal + noun phrase instead of infinitive",
+   "english": "I have an appointment at the doctor tomorrow.",
+   "german": "Ich habe morgen einen Termin beim Arzt.",
+   "why": "Two prepositional additions follow a plain accusative noun as the modal complement."
+  },
+  {
+   "id": 12,
+   "skill": "Modal + noun phrase instead of infinitive",
+   "english": "He has a good eye for detail.",
+   "german": "Er hat ein gutes Auge für Details.",
+   "why": "haben plus a noun phrase, with für governing the accusative inside it."
+  },
+  {
+   "id": 13,
+   "skill": "Modal + noun phrase instead of infinitive",
+   "english": "She has a clear opinion on the subject.",
+   "german": "Sie hat eine klare Meinung zu dem Thema.",
+   "why": "haben plus an accusative noun plus a prepositional phrase naming the domain."
+  },
+  {
+   "id": 14,
+   "skill": "Modal + noun phrase instead of infinitive",
+   "english": "We have no choice but to leave.",
+   "german": "Wir haben keine andere Wahl, als zu gehen.",
+   "why": "The als-clause of the zu-infinitive complement is set off by a comma."
+  },
+  {
+   "id": 15,
+   "skill": "Modal + noun phrase instead of infinitive",
+   "english": "How much time do I have?",
+   "german": "Wie viel Zeit habe ich?",
+   "why": "A question with the modal in position two and an accusative noun as complement."
+  },
+  {
+   "id": 16,
+   "skill": "Modal + noun phrase instead of infinitive",
+   "english": "You have to see to that rule.",
+   "german": "Du musst dich um diese Regel kümmern.",
+   "why": "sich kümmern um takes the accusative, with the reflexive pronoun between modal and preposition."
+  },
+  {
+   "id": 17,
+   "skill": "Modal + noun phrase instead of infinitive",
+   "english": "You have my word for it.",
+   "german": "Du hast mein Wort dafür.",
+   "why": "A noun phrase with a da-compound standing in for für das."
+  },
+  {
+   "id": 18,
+   "skill": "Modal + noun phrase instead of infinitive",
+   "english": "I have no time to waste.",
+   "german": "Ich habe keine Zeit zu verschwenden.",
+   "why": "The zu-infinitive after the noun keeps the verb last in the clause."
+  },
+  {
+   "id": 19,
+   "skill": "Modal + noun phrase instead of infinitive",
+   "english": "Do you have a lighter?",
+   "german": "Hast du ein Feuerzeug?",
+   "why": "A short question showing the plain accusative noun complement of a modal haben."
+  },
+  {
+   "id": 20,
+   "skill": "Modal + noun phrase instead of infinitive",
+   "english": "He has the right to complain.",
+   "german": "Er hat das Recht, sich zu beschweren.",
+   "why": "haben plus a noun of entitlement with a reflexive zu-infinitive clause."
+  },
+  {
+   "id": 21,
+   "skill": "Modal + preposition + case",
+   "english": "You have to answer for that mistake.",
+   "german": "Du musst für diesen Fehler geradestehen.",
+   "why": "geradestehen für governs the accusative, which the modal carries along."
+  },
+  {
+   "id": 22,
+   "skill": "Modal + preposition + case",
+   "english": "We must insist on this condition.",
+   "german": "Wir müssen auf diese Bedingung bestehen.",
+   "why": "bestehen auf governs the accusative, and the modal keeps the second slot in the main clause."
+  },
+  {
+   "id": 23,
+   "skill": "Modal + preposition + case",
+   "english": "We can achieve a lot without your help.",
+   "german": "Wir können ohne deine Hilfe viel erreichen.",
+   "why": "The ohne-phrase follows the modal directly and stands in front of the infinitive."
+  },
+  {
+   "id": 24,
+   "skill": "Modal + preposition + case",
+   "english": "What is that supposed to be for?",
+   "german": "Wofür soll das denn gut sein?",
+   "why": "The da-compound für das is question word and complement in one."
+  },
+  {
+   "id": 25,
+   "skill": "Modal + preposition + case",
+   "english": "We must rely on your judgement.",
+   "german": "Wir müssen uns auf dein Urteil verlassen.",
+   "why": "The reflexive dative pronoun sits between the modal and the preposition."
+  },
+  {
+   "id": 26,
+   "skill": "Modal + preposition + case",
+   "english": "He is not allowed to talk to the press.",
+   "german": "Er darf nicht mit der Presse sprechen.",
+   "why": "Modal, negation and a mit-phrase, with the infinitive closing the clause."
+  },
+  {
+   "id": 27,
+   "skill": "Modal + preposition + case",
+   "english": "Can you take responsibility for that?",
+   "german": "Kannst du dafür die Verantwortung übernehmen?",
+   "why": "A da-compound precedes the accusative object in the finite clause."
+  },
+  {
+   "id": 28,
+   "skill": "Modal + preposition + case",
+   "english": "We must not blame the messenger.",
+   "german": "Wir dürfen den Boten nicht für die Nachricht verantwortlich machen.",
+   "why": "A long accusative object sits between the modal and its prepositional phrase."
+  },
+  {
+   "id": 29,
+   "skill": "Modal + preposition + case",
+   "english": "I must make do with what I have.",
+   "german": "Ich muss mich mit dem begnügen, was ich habe.",
+   "why": "A modal with a reflexive pronoun and a mit-phrase, plus a second clause."
+  },
+  {
+   "id": 30,
+   "skill": "Modal + preposition + case",
+   "english": "You should be aware of the risk.",
+   "german": "Du solltest dich des Risikos bewusst sein.",
+   "why": "bewusst sein takes a genitive object, which the modal makes possible."
+  },
+  {
+   "id": 31,
+   "skill": "Modal + preposition + case",
+   "english": "We must stay away from the water.",
+   "german": "Wir müssen vom Wasser wegbleiben.",
+   "why": "A prepositional phrase with a verb of motion and no infinitive complement."
+  },
+  {
+   "id": 32,
+   "skill": "Modal + preposition + case",
+   "english": "You should be ashamed of your behaviour.",
+   "german": "Du solltest dich deines Verhaltens schämen.",
+   "why": "sich schämen takes a genitive; the reflexive pronoun is dative here."
+  },
+  {
+   "id": 33,
+   "skill": "Modal + preposition + case",
+   "english": "We can count on him.",
+   "german": "Auf ihn können wir uns verlassen.",
+   "why": "The prepositional phrase can be fronted; the modal then comes second."
+  },
+  {
+   "id": 34,
+   "skill": "Modal + preposition + case",
+   "english": "We have to react to the complaint quickly.",
+   "german": "Wir müssen schnell auf die Beschwerde reagieren.",
+   "why": "reagieren auf takes the accusative, and the modal keeps the second slot in the main clause."
+  },
+  {
+   "id": 35,
+   "skill": "Modal + preposition + case",
+   "english": "We must object to this plan.",
+   "german": "Wir müssen gegen diesen Plan Einspruch einlegen.",
+   "why": "A preposition with the accusative and a separable-prefix verb after the modal."
+  },
+  {
+   "id": 36,
+   "skill": "Modal + preposition + case",
+   "english": "We must be prepared for a long wait.",
+   "german": "Wir müssen uns auf eine lange Wartezeit einstellen.",
+   "why": "Modal, reflexive accusative pronoun and an auf-phrase with an infinitive."
+  },
+  {
+   "id": 37,
+   "skill": "Modal + preposition + case",
+   "english": "Can you cope with the situation?",
+   "german": "Kannst du mit der Situation zurechtkommen?",
+   "why": "zurechtkommen mit governs the dative, not the accusative."
+  },
+  {
+   "id": 38,
+   "skill": "Modal + preposition + case",
+   "english": "He bears no responsibility for the accident.",
+   "german": "Er hat keine Schuld am Unfall.",
+   "why": "haben plus a negated accusative noun phrase, with am Unfall naming the domain."
+  },
+  {
+   "id": 39,
+   "skill": "Modal + preposition + case",
+   "english": "You have to pay for the damage.",
+   "german": "Du musst für den Schaden aufkommen.",
+   "why": "aufkommen für keeps its accusative object in a modal clause."
+  },
+  {
+   "id": 40,
+   "skill": "Modal + preposition + case",
+   "english": "I cannot decide against it.",
+   "german": "Ich kann mich nicht dagegen entscheiden.",
+   "why": "The reflexive pronoun with da-: dagegen = gegen das, placed before the infinitive."
+  },
+  {
+   "id": 41,
+   "skill": "Modal + da-compound instead of a prepositional phrase",
+   "english": "I can get along with that.",
+   "german": "Ich kann damit zurechtkommen.",
+   "why": "A da-compound stands in for mit dem Angebot after a modal."
+  },
+  {
+   "id": 42,
+   "skill": "Modal + da-compound instead of a prepositional phrase",
+   "english": "We must insist on this point.",
+   "german": "Wir müssen darauf bestehen.",
+   "why": "bestehen auf in the da-form: darauf, followed by the infinitive."
+  },
+  {
+   "id": 43,
+   "skill": "Modal + da-compound instead of a prepositional phrase",
+   "english": "I do not want to know anything about it.",
+   "german": "Ich will nichts davon wissen.",
+   "why": "The negated object precedes the da-compound inside the modal clause."
+  },
+  {
+   "id": 44,
+   "skill": "Modal + da-compound instead of a prepositional phrase",
+   "english": "Can you do anything with that?",
+   "german": "Kannst du damit etwas anfangen?",
+   "why": "A da-compound object and an infinitive, the normal modal frame."
+  },
+  {
+   "id": 45,
+   "skill": "Modal + da-compound instead of a prepositional phrase",
+   "english": "We have to live with that.",
+   "german": "Wir müssen damit leben.",
+   "why": "A modal plus da-compound plus infinitive, with no preposition spelled out."
+  },
+  {
+   "id": 46,
+   "skill": "Modal + da-compound instead of a prepositional phrase",
+   "english": "I would rather not talk about it.",
+   "german": "Ich möchte lieber nicht darüber sprechen.",
+   "why": "mögen plus a negated infinitive clause introduced by a da-compound."
+  },
+  {
+   "id": 47,
+   "skill": "Modal + da-compound instead of a prepositional phrase",
+   "english": "I can do without it.",
+   "german": "Ich kann darauf verzichten.",
+   "why": "verzichten auf contracts to the da-compound darauf."
+  },
+  {
+   "id": 48,
+   "skill": "Modal + da-compound instead of a prepositional phrase",
+   "english": "Nothing can be done about that.",
+   "german": "Da kann man nichts machen.",
+   "why": "A da-compound at the head of the clause pushes the modal to position two."
+  },
+  {
+   "id": 49,
+   "skill": "Modal + da-compound instead of a prepositional phrase",
+   "english": "We must get used to it.",
+   "german": "Wir müssen uns daran gewöhnen.",
+   "why": "A reflexive pronoun plus the da-form of an, then the infinitive."
+  },
+  {
+   "id": 50,
+   "skill": "Modal + da-compound instead of a prepositional phrase",
+   "english": "I want nothing to do with it.",
+   "german": "Ich will damit nichts zu tun haben.",
+   "why": "A da-compound object with a separable infinitive group and an infinitive at the end."
+  },
+  {
+   "id": 51,
+   "skill": "Modal + da-compound instead of a prepositional phrase",
+   "english": "What are you waiting for?",
+   "german": "Worauf wartest du?",
+   "why": "The question word is the da-compound of the prepositional phrase."
+  },
+  {
+   "id": 52,
+   "skill": "Modal + da-compound instead of a prepositional phrase",
+   "english": "We can take that as given.",
+   "german": "Wir können davon ausgehen.",
+   "why": "ausgehen von contracts to davon; the subject stays in front of the modal."
+  },
+  {
+   "id": 53,
+   "skill": "Modal + da-compound instead of a prepositional phrase",
+   "english": "I am tired of waiting.",
+   "german": "Ich habe genug vom Warten.",
+   "why": "haben plus a genitive noun phrase, with the final verb in the noun phrase."
+  },
+  {
+   "id": 54,
+   "skill": "Modal + da-compound instead of a prepositional phrase",
+   "english": "I cannot agree with that.",
+   "german": "Damit kann ich nicht übereinstimmen.",
+   "why": "The da-compound in initial position, the modal in second position."
+  },
+  {
+   "id": 55,
+   "skill": "Modal + da-compound instead of a prepositional phrase",
+   "english": "We should hold on to that.",
+   "german": "Daran sollten wir festhalten.",
+   "why": "festhalten an contracts to daran, which the modal makes the head of the clause."
+  },
+  {
+   "id": 56,
+   "skill": "Modal + da-compound instead of a prepositional phrase",
+   "english": "We need to think about it again.",
+   "german": "Wir müssen noch einmal darüber nachdenken.",
+   "why": "A modal, an adverbial and a da-compound, with the separable verb at the end."
+  },
+  {
+   "id": 57,
+   "skill": "Modal + da-compound instead of a prepositional phrase",
+   "english": "The schedule has to be adapted to the situation.",
+   "german": "Der Zeitplan muss der Lage angepasst werden.",
+   "why": "A modal passive: the modal is finite, and infinitive and participle follow it."
+  },
+  {
+   "id": 58,
+   "skill": "Modal + da-compound instead of a prepositional phrase",
+   "english": "We have to close that door today.",
+   "german": "Dafür müssen wir heute die Tür schließen.",
+   "why": "sollen/müssen plus a da-compound object, with the infinitive last in the clause."
+  },
+  {
+   "id": 59,
+   "skill": "Modal + da-compound instead of a prepositional phrase",
+   "english": "We have to get along with that.",
+   "german": "Wir müssen damit zurechtkommen.",
+   "why": "A modal of necessity with a da-compound object and a separable infinitive at the end."
+  },
+  {
+   "id": 60,
+   "skill": "Modal + da-compound instead of a prepositional phrase",
+   "english": "We must reckon with the verdict of the court.",
+   "german": "Wir müssen mit dem Urteil des Gerichts rechnen.",
+   "why": "rechnen mit keeps the full mit-phrase, since mit has no usable da-compound."
+  },
+  {
+   "id": 61,
+   "skill": "Modal + subordinate clause",
+   "english": "I know that he has to leave early.",
+   "german": "Ich weiß, dass er früher gehen muss.",
+   "why": "In the dass-clause the finite modal is the last element."
+  },
+  {
+   "id": 62,
+   "skill": "Modal + subordinate clause",
+   "english": "I understand that you cannot come.",
+   "german": "Ich verstehe, dass du nicht kommen kannst.",
+   "why": "The modal with negation stands last in the subordinate clause."
+  },
+  {
+   "id": 63,
+   "skill": "Modal + subordinate clause",
+   "english": "I hope that we can finish today.",
+   "german": "Ich hoffe, dass wir heute fertig werden können.",
+   "why": "A modal with its own infinitive: können is the final word of the clause."
+  },
+  {
+   "id": 64,
+   "skill": "Modal + subordinate clause",
+   "english": "It cannot be that he said that.",
+   "german": "Es kann nicht sein, dass er das gesagt hat.",
+   "why": "A negated existential with a dass-clause governed by kann sein."
+  },
+  {
+   "id": 65,
+   "skill": "Modal + subordinate clause",
+   "english": "I did not expect that she would refuse.",
+   "german": "Ich habe nicht erwartet, dass sie ablehnen würde.",
+   "why": "A negated matrix verb with a verb-final dass-clause in the Konjunktiv."
+  },
+  {
+   "id": 66,
+   "skill": "Modal + subordinate clause",
+   "english": "Can you tell me where he lives?",
+   "german": "Kannst du mir sagen, wo er wohnt?",
+   "why": "A w-question subordinate clause with the finite verb at the end."
+  },
+  {
+   "id": 67,
+   "skill": "Modal + subordinate clause",
+   "english": "We must ensure that nobody is left behind.",
+   "german": "Wir müssen dafür sorgen, dass niemand zurückbleibt.",
+   "why": "A modal governs a dass-clause; a comma separates it and the clause is final."
+  },
+  {
+   "id": 68,
+   "skill": "Modal + subordinate clause",
+   "english": "You should bear in mind that prices have risen.",
+   "german": "Du solltest bedenken, dass die Preise gestiegen sind.",
+   "why": "A modal of advice whose infinitive is completed by a verb-final dass-clause."
+  },
+  {
+   "id": 69,
+   "skill": "Modal + subordinate clause",
+   "english": "Coming is not enough; he has to help.",
+   "german": "Es reicht nicht, dass er kommt; er muss helfen.",
+   "why": "Two main clauses, the second with a modal and no infinitive."
+  },
+  {
+   "id": 70,
+   "skill": "Modal + subordinate clause",
+   "english": "We must take into account that the deadline has passed.",
+   "german": "Wir müssen berücksichtigen, dass die Frist abgelaufen ist.",
+   "why": "An infinitive verb whose complement is the whole dass-clause."
+  },
+  {
+   "id": 71,
+   "skill": "Modal + subordinate clause",
+   "english": "I am glad that you could make it.",
+   "german": "Ich freue mich, dass du es geschafft hast.",
+   "why": "A verb-final dass-clause with a perfect tense in the subordinate clause."
+  },
+  {
+   "id": 72,
+   "skill": "Modal + subordinate clause",
+   "english": "The teacher demanded that the students stay.",
+   "german": "Die Lehrerin verlangte, dass die Studenten bleiben.",
+   "why": "A past reporting verb with a verb-final dass-clause."
+  },
+  {
+   "id": 73,
+   "skill": "Modal + subordinate clause",
+   "english": "It seems that nobody knows the exact size.",
+   "german": "Es scheint, dass niemand die genaue Größe kennt.",
+   "why": "A dass-clause in the present tense after a modal of appearance."
+  },
+  {
+   "id": 74,
+   "skill": "Modal + subordinate clause",
+   "english": "It is clear that the deadline cannot be met.",
+   "german": "Es ist klar, dass die Frist nicht eingehalten werden kann.",
+   "why": "A passive with a modal at the end of the subordinate clause."
+  },
+  {
+   "id": 75,
+   "skill": "Modal + subordinate clause",
+   "english": "I did not think that you would say that.",
+   "german": "Ich habe nicht gedacht, dass du das sagst.",
+   "why": "A negated matrix verb with a verb-final dass-clause in the present."
+  },
+  {
+   "id": 76,
+   "skill": "Modal + subordinate clause",
+   "english": "One should consider whether such a project makes sense.",
+   "german": "Man sollte überlegen, ob ein solches Projekt sinnvoll ist.",
+   "why": "An ob-clause as the complement, with the finite verb at its end."
+  },
+  {
+   "id": 77,
+   "skill": "Modal + subordinate clause",
+   "english": "Do you think that the deadline can still be met?",
+   "german": "Glaubst du, dass die Frist noch eingehalten werden kann?",
+   "why": "A yes-no question in the matrix clause with a verb-final dass-clause."
+  },
+  {
+   "id": 78,
+   "skill": "Modal + subordinate clause",
+   "english": "It is not certain that we will find the file.",
+   "german": "Es ist nicht sicher, dass wir die Datei finden werden.",
+   "why": "A future clause after a negated modal, verb in final position."
+  },
+  {
+   "id": 79,
+   "skill": "Modal + subordinate clause",
+   "english": "Although the price has risen, they still want to buy it.",
+   "german": "Obwohl der Preis gestiegen ist, wollen sie es kaufen.",
+   "why": "A concessive clause with its own finite verb, and an infinitive in the main clause."
+  },
+  {
+   "id": 80,
+   "skill": "Modal + subordinate clause",
+   "english": "If you want to succeed, you have to work hard.",
+   "german": "Wenn du Erfolg haben willst, musst du hart arbeiten.",
+   "why": "A conditional clause in front, a modal clause with an infinitive behind it."
+  },
+  {
+   "id": 81,
+   "skill": "Modal + infinitive or non-infinitival complement",
+   "english": "I am able to swim.",
+   "german": "Ich kann schwimmen.",
+   "why": "A pure modal plus infinitive: the default frame for ability."
+  },
+  {
+   "id": 82,
+   "skill": "Modal + infinitive or non-infinitival complement",
+   "english": "He has a solution for it.",
+   "german": "Er hat eine Lösung dafür.",
+   "why": "Ability expressed as a state: haben plus an accusative noun and no infinitive at all."
+  },
+  {
+   "id": 83,
+   "skill": "Modal + infinitive or non-infinitival complement",
+   "english": "We are allowed to park here.",
+   "german": "Wir dürfen hier parken.",
+   "why": "Modal of permission with an infinitive, nothing else in the complement."
+  },
+  {
+   "id": 84,
+   "skill": "Modal + infinitive or non-infinitival complement",
+   "english": "Do you want to come along?",
+   "german": "Willst du mitkommen?",
+   "why": "A modal plus separable-prefix infinitive, with the prefix attached to the verb stem."
+  },
+  {
+   "id": 85,
+   "skill": "Modal + infinitive or non-infinitival complement",
+   "english": "The manager wants to see you tomorrow.",
+   "german": "Der Chef will dich morgen sehen.",
+   "why": "An accusative object and a time adverbial precede the final infinitive."
+  },
+  {
+   "id": 86,
+   "skill": "Modal + infinitive or non-infinitival complement",
+   "english": "The teacher wants a quiet classroom.",
+   "german": "Die Lehrerin will Ruhe im Klassenzimmer.",
+   "why": "wollen takes a noun phrase here, so no infinitive closes the sentence."
+  },
+  {
+   "id": 87,
+   "skill": "Modal + infinitive or non-infinitival complement",
+   "english": "We must act quickly.",
+   "german": "Wir müssen schnell handeln.",
+   "why": "A modal with an adverbial and a simple infinitive."
+  },
+  {
+   "id": 88,
+   "skill": "Modal + infinitive or non-infinitival complement",
+   "english": "We must decide by Friday.",
+   "german": "Wir müssen bis Freitag entscheiden.",
+   "why": "A modal with a time adverbial but no second verb at all."
+  },
+  {
+   "id": 89,
+   "skill": "Modal + infinitive or non-infinitival complement",
+   "english": "You are not allowed to smoke here.",
+   "german": "Hier darfst du nicht rauchen.",
+   "why": "A place adverbial first, the modal second, the infinitive last."
+  },
+  {
+   "id": 90,
+   "skill": "Modal + infinitive or non-infinitival complement",
+   "english": "You are not allowed to use the phone at work.",
+   "german": "Bei der Arbeit darfst du das Telefon nicht benutzen.",
+   "why": "A prepositional phrase, a modal and an accusative object before the infinitive."
+  },
+  {
+   "id": 91,
+   "skill": "Modal + infinitive or non-infinitival complement",
+   "english": "I like this idea.",
+   "german": "Ich mag diese Idee.",
+   "why": "mögen plus an accusative noun: a liking that needs no verb."
+  },
+  {
+   "id": 92,
+   "skill": "Modal + infinitive or non-infinitival complement",
+   "english": "I would like to know the answer.",
+   "german": "Ich möchte die Antwort wissen.",
+   "why": "A modal of preference followed by an object and an infinitive."
+  },
+  {
+   "id": 93,
+   "skill": "Modal + infinitive or non-infinitival complement",
+   "english": "I have to tell you the truth.",
+   "german": "Ich muss dir die Wahrheit sagen.",
+   "why": "A dative person, an accusative thing and the infinitive in that order."
+  },
+  {
+   "id": 94,
+   "skill": "Modal + infinitive or non-infinitival complement",
+   "english": "The company should make a decision.",
+   "german": "Die Firma sollte eine Entscheidung treffen.",
+   "why": "The modal carries the sense of advice; the action is still named, so an infinitive follows."
+  },
+  {
+   "id": 95,
+   "skill": "Modal + infinitive or non-infinitival complement",
+   "english": "The company should pay the invoice today.",
+   "german": "Die Firma sollte die Rechnung heute bezahlen.",
+   "why": "Two accusative objects, a time adverbial and the infinitive at the end."
+  },
+  {
+   "id": 96,
+   "skill": "Modal + infinitive or non-infinitival complement",
+   "english": "It may be that the meeting is cancelled.",
+   "german": "Es kann sein, dass die Sitzung ausfällt.",
+   "why": "A modal of possibility governing a verb-final dass-clause."
+  },
+  {
+   "id": 97,
+   "skill": "Modal + infinitive or non-infinitival complement",
+   "english": "Can you be at the station by five?",
+   "german": "Kannst du um fünf am Bahnhof sein?",
+   "why": "A fronted time phrase, the modal in second position and the infinitive last."
+  },
+  {
+   "id": 98,
+   "skill": "Modal + infinitive or non-infinitival complement",
+   "english": "We have the right to complain.",
+   "german": "Wir haben das Recht, uns zu beschweren.",
+   "why": "haben plus a noun of entitlement with a reflexive zu-infinitive clause."
+  },
+  {
+   "id": 99,
+   "skill": "Modal + infinitive or non-infinitival complement",
+   "english": "I would rather eat at home.",
+   "german": "Ich möchte lieber zu Hause essen.",
+   "why": "A modal of preference, an adverb and a non-separable infinitive."
+  },
+  {
+   "id": 100,
+   "skill": "Modal + infinitive or non-infinitival complement",
+   "english": "You need to start earlier.",
+   "german": "Du musst früher anfangen.",
+   "why": "A modal with a separable-prefix infinitive in the default frame."
+  }
+ ]
+}

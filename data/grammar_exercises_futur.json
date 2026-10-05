@@ -1,0 +1,704 @@
+{
+ "exercises": [
+  {
+   "id": 1,
+   "skill": "Futur I for prediction and assumption",
+   "english": "It will probably rain tomorrow.",
+   "german": "Morgen wird es wahrscheinlich regnen.",
+   "why": "wahrscheinlich in the open slot after the subject turns a neutral forecast into a hedge."
+  },
+  {
+   "id": 2,
+   "skill": "Futur I for prediction and assumption",
+   "english": "The train is certain to be late today.",
+   "german": "Der Zug wird heute bestimmt zu spät kommen.",
+   "why": "bestimmt fixes Futur I at the strong end of the certainty scale."
+  },
+  {
+   "id": 3,
+   "skill": "Futur I for prediction and assumption",
+   "english": "Where will she be tomorrow?",
+   "german": "Wo wird sie morgen sein?",
+   "why": "The wh-word takes the second position, so the finite wird follows it directly."
+  },
+  {
+   "id": 4,
+   "skill": "Futur I for prediction and assumption",
+   "english": "Will you still be living here in five years?",
+   "german": "Wirst du in fünf Jahren noch hier wohnen?",
+   "why": "The particle noch fixes the future as a continuation of the present state."
+  },
+  {
+   "id": 5,
+   "skill": "Futur I for prediction and assumption",
+   "english": "It is certain that prices will rise.",
+   "german": "Es ist sicher, dass die Preise weiter steigen werden.",
+   "why": "A dass-clause is verb-final, so werden steigen closes the subordinate clause."
+  },
+  {
+   "id": 6,
+   "skill": "Futur I for prediction and assumption",
+   "english": "That will not take long.",
+   "german": "Das wird nicht lange dauern.",
+   "why": "Futur I in the present reference frame: nothing is finished yet, so there is no haben."
+  },
+  {
+   "id": 7,
+   "skill": "Futur I for prediction and assumption",
+   "english": "He will probably forget about it.",
+   "german": "Er wird es wahrscheinlich vergessen.",
+   "why": "A negated-in-meaning prediction still takes the positive form with wahrscheinlich."
+  },
+  {
+   "id": 8,
+   "skill": "Futur I for prediction and assumption",
+   "english": "The result will surely be better than this one.",
+   "german": "Das Ergebnis wird bestimmt besser sein.",
+   "why": "A comparison with a bare adjective needs no werden of its own; only werden + sein stands there."
+  },
+  {
+   "id": 9,
+   "skill": "Futur I for prediction and assumption",
+   "english": "Nothing will come of it.",
+   "german": "Es wird nichts dabei herauskommen.",
+   "why": "A separable prefix detaches from the infinitive and joins the final group."
+  },
+  {
+   "id": 10,
+   "skill": "Futur I for prediction and assumption",
+   "english": "It will not matter in the long run.",
+   "german": "Auf die Dauer wird es nicht wichtig sein.",
+   "why": "An impersonal mattering uses the predicate important sein after the finite wird."
+  },
+  {
+   "id": 11,
+   "skill": "Futur I for prediction and assumption",
+   "english": "I will probably see you at the conference.",
+   "german": "Ich werde dich wahrscheinlich auf der Konferenz sehen.",
+   "why": "A separable prefix in the final infinitive group: an/auf ordering is set by the prefix."
+  },
+  {
+   "id": 12,
+   "skill": "Futur I for prediction and assumption",
+   "english": "The committee will decide next week.",
+   "german": "Der Ausschuss wird nächste Woche entscheiden.",
+   "why": "An organisational subject in third person singular takes wird, not werden."
+  },
+  {
+   "id": 13,
+   "skill": "Futur I for prediction and assumption",
+   "english": "That cannot be true, she will have made a mistake.",
+   "german": "Das kann nicht sein, sie wird einen Fehler gemacht haben.",
+   "why": "Futur II with haben draws a firm conclusion from evidence in the present frame."
+  },
+  {
+   "id": 14,
+   "skill": "Futur I for prediction and assumption",
+   "english": "Probably nobody will come to the second session.",
+   "german": "Wahrscheinlich wird niemand zur zweiten Sitzung kommen.",
+   "why": "The particle may open the clause; the negated subject niemand follows the finite verb."
+  },
+  {
+   "id": 15,
+   "skill": "Futur I for prediction and assumption",
+   "english": "When the results come in, the situation will have changed.",
+   "german": "Wenn die Ergebnisse vorliegen, wird sich die Lage geändert haben.",
+   "why": "A present-tense wenn-clause sets a future reference point for Futur II."
+  },
+  {
+   "id": 16,
+   "skill": "Futur I for prediction and assumption",
+   "english": "The letter will already be on your desk tomorrow morning.",
+   "german": "Der Brief wird morgen früh schon auf deinem Schreibtisch liegen.",
+   "why": "schon marks the event as completed relative to a future point."
+  },
+  {
+   "id": 17,
+   "skill": "Futur I for prediction and assumption",
+   "english": "There will probably be a lot of people there.",
+   "german": "Es werden wahrscheinlich viele Leute dort sein.",
+   "why": "After the expletive es the verb agrees with the subject of the clause, so the plural werden is required."
+  },
+  {
+   "id": 18,
+   "skill": "Futur I for prediction and assumption",
+   "english": "How long will the meeting still take?",
+   "german": "Wie lange wird die Besprechung noch dauern?",
+   "why": "A how-long question takes the finite slot; noch asks about the remaining duration."
+  },
+  {
+   "id": 19,
+   "skill": "Futur I for prediction and assumption",
+   "english": "The weather will probably stay bad until the weekend.",
+   "german": "Das Wetter wird wahrscheinlich bis zum Wochenende schlecht bleiben.",
+   "why": "A bis-phrase fixes the end of the future span; bleiben carries the state."
+  },
+  {
+   "id": 20,
+   "skill": "Futur I for prediction and assumption",
+   "english": "She will surely not forget the appointment.",
+   "german": "Sie wird den Termin bestimmt nicht vergessen.",
+   "why": "Negation after the particle weakens rather than cancels the assertion."
+  },
+  {
+   "id": 21,
+   "skill": "Futur I for promise and intention",
+   "english": "I will call you tomorrow morning.",
+   "german": "Ich werde dich morgen früh anrufen.",
+   "why": "First-person werden with a separable prefix is a commitment, not a forecast."
+  },
+  {
+   "id": 22,
+   "skill": "Futur I for promise and intention",
+   "english": "We will arrive in good time.",
+   "german": "Wir werden rechtzeitig ankommen.",
+   "why": "The inclusive wir turns the statement into a promise to the hearer."
+  },
+  {
+   "id": 23,
+   "skill": "Futur I for promise and intention",
+   "english": "I promise to be there by eight.",
+   "german": "Ich verspreche, dass ich pünktlich bin.",
+   "why": "versprechen governs a dass-clause, and its verb stands last without a future form."
+  },
+  {
+   "id": 24,
+   "skill": "Futur I for promise and intention",
+   "english": "Do not worry, I will handle it.",
+   "german": "Keine Sorge, ich kümmere mich darum.",
+   "why": "A literal promise drops Futur I in favour of the present tense."
+  },
+  {
+   "id": 25,
+   "skill": "Futur I for promise and intention",
+   "english": "He will pay for the damage.",
+   "german": "Er wird für den Schaden aufkommen.",
+   "why": "Third-person werden in a commitment context still reads as a firm announcement."
+  },
+  {
+   "id": 26,
+   "skill": "Futur I for promise and intention",
+   "english": "We are going to need more time.",
+   "german": "Wir werden mehr Zeit brauchen.",
+   "why": "A von-subclass verb such as brauchen keeps its infinitive at the end of the clause."
+  },
+  {
+   "id": 27,
+   "skill": "Futur I for promise and intention",
+   "english": "I will send you the documents this evening.",
+   "german": "Ich werde dir heute Abend die Unterlagen schicken.",
+   "why": "The dative pronoun precedes the accusative noun phrase in the middle field."
+  },
+  {
+   "id": 28,
+   "skill": "Futur I for promise and intention",
+   "english": "Nothing will change, I give you my word.",
+   "german": "Unsere Pläne werden sich nicht ändern.",
+   "why": "A negated sich ändern fixes the outcome, so the Future form reads as a commitment rather than a forecast."
+  },
+  {
+   "id": 29,
+   "skill": "Futur I for promise and intention",
+   "english": "She will not forget your birthday, I am certain.",
+   "german": "Sie wird deinen Geburtstag bestimmt nicht vergessen.",
+   "why": "A reassurance in the third person still leans on the particle to signal the speaker's commitment."
+  },
+  {
+   "id": 30,
+   "skill": "Futur I for promise and intention",
+   "english": "We will keep you informed.",
+   "german": "Wir werden dich auf dem Laufenden halten.",
+   "why": "An idiom in the final group; the separable prefix of the infinitive stays attached."
+  },
+  {
+   "id": 31,
+   "skill": "Futur I for promise and intention",
+   "english": "I will take care of the tickets.",
+   "german": "Ich werde die Tickets besorgen.",
+   "why": "A simple decision reported as a promise needs no hedging particle."
+  },
+  {
+   "id": 32,
+   "skill": "Futur I for promise and intention",
+   "english": "They will move into the new flat in autumn.",
+   "german": "Sie werden im Herbst in die neue Wohnung ziehen.",
+   "why": "A separable prefix plus a directional complement stays together in the final group."
+  },
+  {
+   "id": 33,
+   "skill": "Futur I for promise and intention",
+   "english": "I will do my best.",
+   "german": "Ich werde mein Bestes tun.",
+   "why": "The idiom takes a bare accusative object in the middle field."
+  },
+  {
+   "id": 34,
+   "skill": "Futur I for promise and intention",
+   "english": "We will never forget that evening.",
+   "german": "Wir werden diesen Abend nie vergessen.",
+   "why": "The temporal object is an accusative demonstrative; nie negates the future, not the past."
+  },
+  {
+   "id": 35,
+   "skill": "Futur I for promise and intention",
+   "english": "He will bring the drinks.",
+   "german": "Er wird die Getränke mitbringen.",
+   "why": "A separable prefix joined to the final noun by nothing: mitbringen is one unit here."
+  },
+  {
+   "id": 36,
+   "skill": "Futur I for promise and intention",
+   "english": "You will hear from me next week.",
+   "german": "Du wirst nächste Woche von mir hören.",
+   "why": "The idiom hören von takes dative: von mir, not von mich."
+  },
+  {
+   "id": 37,
+   "skill": "Futur I for promise and intention",
+   "english": "I will not go without you.",
+   "german": "Ich werde nicht ohne dich gehen.",
+   "why": "Negation of the infinitive, with the prepositional phrase in the middle field."
+  },
+  {
+   "id": 38,
+   "skill": "Futur I for promise and intention",
+   "english": "Everything will be fine, really.",
+   "german": "Es wird schon alles in Ordnung sein.",
+   "why": "schon reassures and softens, so the promise need not be hedged further."
+  },
+  {
+   "id": 39,
+   "skill": "Futur I for promise and intention",
+   "english": "We will celebrate properly next year.",
+   "german": "Wir werden nächstes Jahr ordentlich feiern.",
+   "why": "A separable-free infinitive after an adverb in the middle field."
+  },
+  {
+   "id": 40,
+   "skill": "Futur I for promise and intention",
+   "english": "I will speak to him about it.",
+   "german": "Ich werde mit ihm darüber sprechen.",
+   "why": "Two prepositional phrases bracket the subject, leaving the verb group intact."
+  },
+  {
+   "id": 41,
+   "skill": "Futur II for a completed future-past event",
+   "english": "By the time you arrive, I will have finished the report.",
+   "german": "Bis du ankommst, werde ich den Bericht fertig haben.",
+   "why": "A bis-clause in the present marks the future reference point for Futur II."
+  },
+  {
+   "id": 42,
+   "skill": "Futur II for a completed future-past event",
+   "english": "By the end of the year, the company will have doubled its staff.",
+   "german": "Bis Ende des Jahres wird das Unternehmen seinen Personalbestand verdoppelt haben.",
+   "why": "An accusative object and a participle join the final group after werden."
+  },
+  {
+   "id": 43,
+   "skill": "Futur II for a completed future-past event",
+   "english": "In ten years, the climate will have changed dramatically.",
+   "german": "In zehn Jahren wird sich das Klima dramatisch verändert haben.",
+   "why": "A future time adverb is enough on its own to require the retrospective future."
+  },
+  {
+   "id": 44,
+   "skill": "Futur II for a completed future-past event",
+   "english": "By then, she will have written her dissertation.",
+   "german": "Bis dahin wird sie ihre Dissertation geschrieben haben.",
+   "why": "ge- reappears before the participle, which is separated from its prefix by werden."
+  },
+  {
+   "id": 45,
+   "skill": "Futur II for a completed future-past event",
+   "english": "In 2050, nobody will know anything about this scandal.",
+   "german": "Im Jahr 2050 wird niemand mehr etwas von diesem Skandal wissen.",
+   "why": "A negated subject with a negated verb still needs the Futur II form."
+  },
+  {
+   "id": 46,
+   "skill": "Futur II for a completed future-past event",
+   "english": "By the time you get here, the weather will have changed completely.",
+   "german": "Bis du hier eintrifft, wird sich das Wetter völlig verändert haben.",
+   "why": "A reflexive verb in Futur II with haben, not with sein."
+  },
+  {
+   "id": 47,
+   "skill": "Futur II for a completed future-past event",
+   "english": "By 2030, most people will have stopped using cash.",
+   "german": "Bis 2030 werden die meisten Menschen aufgehört haben, Bargeld zu benutzen.",
+   "why": "The zu-infinitive may follow the bare participle in the final group."
+  },
+  {
+   "id": 48,
+   "skill": "Futur II for a completed future-past event",
+   "english": "In a week, the editorial team will have published the figures.",
+   "german": "Die Redaktion wird die Zahlen in einer Woche bereits veröffentlicht haben.",
+   "why": "A perfect participle in the final group; bereits stresses that the action is already finished."
+  },
+  {
+   "id": 49,
+   "skill": "Futur II for a completed future-past event",
+   "english": "By the time the guests arrive, the hostess will have set the table.",
+   "german": "Bis die Gäste eintreffen, wird die Gastgeberin den Tisch gedeckt haben.",
+   "why": "A bis-clause in the present plus an active Futur II in the main clause."
+  },
+  {
+   "id": 50,
+   "skill": "Futur II for a completed future-past event",
+   "english": "By the time we meet again, the situation will have changed completely.",
+   "german": "Wenn wir uns wiedersehen, wird sich die Lage völlig geändert haben.",
+   "why": "A present-tense wenn-clause and a reflexive Futur II with haben in the main clause."
+  },
+  {
+   "id": 51,
+   "skill": "Futur II for a completed future-past event",
+   "english": "Once the application arrives, we will have processed it.",
+   "german": "Sobald der Antrag eingeht, werden wir ihn bearbeitet haben.",
+   "why": "A separable prefix in the subclause and a prefixed participle in the main clause."
+  },
+  {
+   "id": 52,
+   "skill": "Futur II for a completed future-past event",
+   "english": "At the end of next month, she will have finished her training.",
+   "german": "Ende nächsten Monats wird sie ihre Ausbildung abgeschlossen haben.",
+   "why": "An adverbial of time opens the clause, the subject follows, and the verb group closes it."
+  },
+  {
+   "id": 53,
+   "skill": "Futur II for a completed future-past event",
+   "english": "By Sunday, the new rules will already have been applied.",
+   "german": "Bis Sonntag wird man das neue Regelwerk bereits angewendet haben.",
+   "why": "man plus Futur II renders a passive without needing a passive form."
+  },
+  {
+   "id": 54,
+   "skill": "Futur II for a completed future-past event",
+   "english": "By then, people will have forgotten these buildings.",
+   "german": "Bis dahin wird man diese Gebäude vergessen haben.",
+   "why": "man plus Futur II reports the finished state of a past event from a future vantage point."
+  },
+  {
+   "id": 55,
+   "skill": "Futur II for a completed future-past event",
+   "english": "Once the reconstruction is finished, much will have changed.",
+   "german": "Bis der Wiederaufbau abgeschlossen sein wird, wird sich viel verändert haben.",
+   "why": "A bis-clause in Futur I sets the same future reference point from the other side."
+  },
+  {
+   "id": 56,
+   "skill": "Futur II for a completed future-past event",
+   "english": "By 2028, the population will have halved.",
+   "german": "Bis 2028 wird sich die Bevölkerung halbiert haben.",
+   "why": "A reflexive verb with haben; halbieren is not a change-of-state verb here."
+  },
+  {
+   "id": 57,
+   "skill": "Futur II for a completed future-past event",
+   "english": "By the anniversary, the whole story will have been forgotten.",
+   "german": "Bis zum Jubiläum wird man die Geschichte vergessen haben.",
+   "why": "A bis-phrase with an article phrase in the accusative after zum."
+  },
+  {
+   "id": 58,
+   "skill": "Futur II for a completed future-past event",
+   "english": "When she returns from abroad, she will have completed her degree.",
+   "german": "Wenn sie aus dem Ausland zurückkommt, wird sie ihr Studium abgeschlossen haben.",
+   "why": "A present-tense wenn-clause; the participle takes the ge- of its verb stem."
+  },
+  {
+   "id": 59,
+   "skill": "Futur II for a completed future-past event",
+   "english": "By December, the company will have completed its move.",
+   "german": "Bis Dezember wird das Unternehmen seinen Umzug abgeschlossen haben.",
+   "why": "A separable prefix in the participle, placed inside the final verb group."
+  },
+  {
+   "id": 60,
+   "skill": "Futur II for a completed future-past event",
+   "english": "After ten years of research, the team will have found a cure.",
+   "german": "Nach zehn Jahren Forschung wird das Team ein Heilmittel gefunden haben.",
+   "why": "A temporal preposition in front, an accusative object in the middle field, verb group last."
+  },
+  {
+   "id": 61,
+   "skill": "Futur II with time clauses (wenn + Präteritum)",
+   "english": "If I had known that, I would have told you.",
+   "german": "Wenn ich das gewusst hätte, hätte ich es dir gesagt.",
+   "why": "The unreal condition takes the preterite of haben and the main clause the Konjunktiv II."
+  },
+  {
+   "id": 62,
+   "skill": "Futur II with time clauses (wenn + Präteritum)",
+   "english": "If she had asked, I would have helped her.",
+   "german": "Wenn sie gefragt hätte, hätte ich ihr geholfen.",
+   "why": "The verb of the wenn-clause stands last, and hätte is the preterite, not a perfect form."
+  },
+  {
+   "id": 63,
+   "skill": "Futur II with time clauses (wenn + Präteritum)",
+   "english": "If we had left earlier, we would have caught the train.",
+   "german": "Wenn wir früher gegangen wären, hätten wir den Zug bekommen.",
+   "why": "A counterfactual movement verb in the preterite with the Konjunctive II auxiliary wären."
+  },
+  {
+   "id": 64,
+   "skill": "Futur II with time clauses (wenn + Präteritum)",
+   "english": "If he had studied more, he would have found a job.",
+   "german": "Wenn er mehr gelernt hätte, hätte er eine Stelle gefunden.",
+   "why": "Two finite forms of the same verb in different positions keep the two clauses apart."
+  },
+  {
+   "id": 65,
+   "skill": "Futur II with time clauses (wenn + Präteritum)",
+   "english": "If you had warned me, I would not have gone there.",
+   "german": "Wenn du mich gewarnt hättest, wäre ich nicht dorthin gegangen.",
+   "why": "A negated Konjunktiv II main clause with the infinitive of gehen standing last."
+  },
+  {
+   "id": 66,
+   "skill": "Futur II with time clauses (wenn + Präteritum)",
+   "english": "If they had arrived earlier, they would have seen the exhibition.",
+   "german": "Wenn sie früher gekommen wären, hätten sie die Ausstellung noch gesehen.",
+   "why": "A past participle in the Konjunktiv II main clause; the subordinate verb is preterite."
+  },
+  {
+   "id": 67,
+   "skill": "Futur II with time clauses (wenn + Präteritum)",
+   "english": "If we had not booked in time, the hotel would have been full.",
+   "german": "Wenn wir nicht rechtzeitig gebucht hätten, wäre das Hotel ausgebucht gewesen.",
+   "why": "A negated preterite clause in front, so the finite verb follows it immediately."
+  },
+  {
+   "id": 68,
+   "skill": "Futur II with time clauses (wenn + Präteritum)",
+   "english": "If I had taken the 6:15 train, I would have been on time.",
+   "german": "Wenn ich den Zug um 6.15 Uhr genommen hätte, wäre ich pünktlich gewesen.",
+   "why": "A time expression inside the subordinate clause does not disturb its final verb."
+  },
+  {
+   "id": 69,
+   "skill": "Futur II with time clauses (wenn + Präteritum)",
+   "english": "If the weather had been better, we would have gone hiking.",
+   "german": "Wenn das Wetter besser gewesen wäre, wären wir wandern gegangen.",
+   "why": "sein in the preterite of a state; the main clause keeps Konjunktiv II rather than Futur II."
+  },
+  {
+   "id": 70,
+   "skill": "Futur II with time clauses (wenn + Präteritum)",
+   "english": "If he had slept longer, he would not have missed the flight.",
+   "german": "Wenn er länger geschlafen hätte, hätte er den Flug nicht verpasst.",
+   "why": "Two separable-free infinitives, one in each clause, both at the very end."
+  },
+  {
+   "id": 71,
+   "skill": "Futur II with time clauses (wenn + Präteritum)",
+   "english": "If we had asked her, she would have helped us.",
+   "german": "Wenn wir sie gefragt hätten, hätte sie uns geholfen.",
+   "why": "The object pronoun precedes the subject pronoun in the main clause as usual."
+  },
+  {
+   "id": 72,
+   "skill": "Futur II with time clauses (wenn + Präteritum)",
+   "english": "When the concert begins, we will already have been waiting for an hour.",
+   "german": "Wenn das Konzert beginnt, werden wir schon eine Stunde gewartet haben.",
+   "why": "A present-tense wenn-clause fixes the future reference point; the durative main clause needs Futur II."
+  },
+  {
+   "id": 73,
+   "skill": "Futur II with time clauses (wenn + Präteritum)",
+   "english": "If you had asked me yesterday, you will have heard the whole story.",
+   "german": "Wenn du mich gestern gefragt hättest, wirst du die ganze Geschichte gehört haben.",
+   "why": "The wenn-clause is unreal and so takes Konjunktiv II, while the main clause is Futur II."
+  },
+  {
+   "id": 74,
+   "skill": "Futur II with time clauses (wenn + Präteritum)",
+   "english": "If I had known the answer, I would have said so at the time.",
+   "german": "Wenn ich die Antwort gewusst hätte, hätte ich es damals gesagt.",
+   "why": "The adverbial sits behind the pronoun in the main clause; the verb still comes first."
+  },
+  {
+   "id": 75,
+   "skill": "Futur II with time clauses (wenn + Präteritum)",
+   "english": "When the reconstruction is done, the museum will have reopened.",
+   "german": "Wenn der Wiederaufbau beendet ist, wird das Museum wiedereröffnet haben.",
+   "why": "A present-tense wenn-clause; a prefixed participle closes the Futur II main clause."
+  },
+  {
+   "id": 76,
+   "skill": "Futur II with time clauses (wenn + Präteritum)",
+   "english": "If he had listened to me, he would still be working there.",
+   "german": "Wenn er auf mich gehört hätte, würde er heute noch dort arbeiten.",
+   "why": "A separable prefix in the subordinate clause, and a modal in the main clause."
+  },
+  {
+   "id": 77,
+   "skill": "Futur II with time clauses (wenn + Präteritum)",
+   "english": "If we had left the port earlier, we would have missed the storm.",
+   "german": "Wenn wir den Hafen früher verlassen hätten, hätten wir den Sturm verpasst.",
+   "why": "A strong-verb preterite in the wenn-clause, a perfect participle in the main clause."
+  },
+  {
+   "id": 78,
+   "skill": "Futur II with time clauses (wenn + Präteritum)",
+   "english": "If the deadline had been later, I could have submitted it.",
+   "german": "Wenn die Frist später gewesen wäre, hätte ich es abgeben können.",
+   "why": "The modal infinitive at the end may stand after a full infinitive group."
+  },
+  {
+   "id": 79,
+   "skill": "Futur II with time clauses (wenn + Präteritum)",
+   "english": "When the invoice is paid, the customer will have received his refund.",
+   "german": "Sobald die Rechnung bezahlt ist, wird der Kunde sein Geld zurückbekommen haben.",
+   "why": "A present-tense sobald-clause marks the reference point; the prefixed participle closes the main clause."
+  },
+  {
+   "id": 80,
+   "skill": "Futur II with time clauses (wenn + Präteritum)",
+   "english": "If I had understood the question, I would have answered differently.",
+   "german": "Wenn ich die Frage verstanden hätte, hätte ich anders geantwortet.",
+   "why": "Two strong-verb preterites with identical auxiliary forms, separated by their objects."
+  },
+  {
+   "id": 81,
+   "skill": "werden + Infinitiv as a substitute for Futur",
+   "english": "I am going to leave now.",
+   "german": "Ich gehe jetzt.",
+   "why": "A neutral future with a time expression needs no future form at all."
+  },
+  {
+   "id": 82,
+   "skill": "werden + Infinitiv as a substitute for Futur",
+   "english": "She is going to call you tomorrow.",
+   "german": "Sie wird dich morgen anrufen.",
+   "why": "Present werden plus infinitive, the plain future of a plan rather than a forecast."
+  },
+  {
+   "id": 83,
+   "skill": "werden + Infinitiv as a substitute for Futur",
+   "english": "The new bus line will start running on Monday.",
+   "german": "Ab Montag fährt die neue Buslinie.",
+   "why": "Present tense plus a time adverb: the standard written German future."
+  },
+  {
+   "id": 84,
+   "skill": "werden + Infinitiv as a substitute for Futur",
+   "english": "There will be no class next Tuesday.",
+   "german": "Am nächsten Dienstag findet kein Unterricht statt.",
+   "why": "Present of finden as a neutral future, with negation carried by kein."
+  },
+  {
+   "id": 85,
+   "skill": "werden + Infinitiv as a substitute for Futur",
+   "english": "I will have time for a coffee tomorrow.",
+   "german": "Morgen habe ich Zeit für einen Kaffee.",
+   "why": "Present haben plus a time expression means the same as a Futur I prediction."
+  },
+  {
+   "id": 86,
+   "skill": "werden + Infinitiv as a substitute for Futur",
+   "english": "We are moving house in the summer.",
+   "german": "Wir ziehen im Sommer um.",
+   "why": "A separable prefix detaches before the time adverb and rejoins the final group."
+  },
+  {
+   "id": 87,
+   "skill": "werden + Infinitiv as a substitute for Futur",
+   "english": "Are you going to come to the party?",
+   "german": "Kommst du zu Annas Geburtstagsfeier?",
+   "why": "The present tense in a question is neutral between present and future meaning."
+  },
+  {
+   "id": 88,
+   "skill": "werden + Infinitiv as a substitute for Futur",
+   "english": "The meeting will start at nine.",
+   "german": "Die Besprechung beginnt um neun.",
+   "why": "A timetable statement; a present-tense form is more idiomatic than any future form."
+  },
+  {
+   "id": 89,
+   "skill": "werden + Infinitiv as a substitute for Futur",
+   "english": "I am writing to her this week.",
+   "german": "Ich schreibe ihr diese Woche einen Brief.",
+   "why": "A present intention with an accusative object in the middle field."
+  },
+  {
+   "id": 90,
+   "skill": "werden + Infinitiv as a substitute for Futur",
+   "english": "It will probably snow tonight.",
+   "german": "Heute Abend schneit es vielleicht.",
+   "why": "vielleicht can accompany a present tense just as well as a Futur I form."
+  },
+  {
+   "id": 91,
+   "skill": "werden + Infinitiv as a substitute for Futur",
+   "english": "What are you going to do this weekend?",
+   "german": "Was machst du dieses Wochenende?",
+   "why": "Present of machen in an interrogative with a temporal expression."
+  },
+  {
+   "id": 92,
+   "skill": "werden + Infinitiv as a substitute for Futur",
+   "english": "Prices will go up next year.",
+   "german": "Nächstes Jahr steigen die Preise.",
+   "why": "A present-tense rise with a future time adverb is a neutral statement of fact."
+  },
+  {
+   "id": 93,
+   "skill": "werden + Infinitiv as a substitute for Futur",
+   "english": "She is going to study medicine.",
+   "german": "Sie studiert Medizin.",
+   "why": "A present-tense plan with an accusative field of study."
+  },
+  {
+   "id": 94,
+   "skill": "werden + Infinitiv as a substitute for Futur",
+   "english": "The library will close at eight.",
+   "german": "Die Bibliothek schließt um acht.",
+   "why": "A closing time is given in the present, not with werden."
+  },
+  {
+   "id": 95,
+   "skill": "werden + Infinitiv as a substitute for Futur",
+   "english": "The children will go to school by bike.",
+   "german": "Die Kinder fahren mit dem Fahrrad zur Schule.",
+   "why": "Present tense plus a modal phrase of means in the middle field."
+  },
+  {
+   "id": 96,
+   "skill": "werden + Infinitiv as a substitute for Futur",
+   "english": "The train will depart from platform three.",
+   "german": "Der Zug fährt von Gleis drei ab.",
+   "why": "The separable prefix of abfahren stands last, after the platform phrase."
+  },
+  {
+   "id": 97,
+   "skill": "werden + Infinitiv as a substitute for Futur",
+   "english": "You are going to regret that.",
+   "german": "Das wirst du bereuen.",
+   "why": "Present of werden with a predicative adjective and no infinitive at all."
+  },
+  {
+   "id": 98,
+   "skill": "werden + Infinitiv as a substitute for Futur",
+   "english": "The letter will arrive tomorrow morning.",
+   "german": "Morgen früh liegt der Brief im Postfach.",
+   "why": "Present of liegen with a place phrase: a neutral future needing no future form at all."
+  },
+  {
+   "id": 99,
+   "skill": "werden + Infinitiv as a substitute for Futur",
+   "english": "The law will come into force in July.",
+   "german": "Das Gesetz tritt im Juli in Kraft.",
+   "why": "A fixed legal idiom, fixed time, present tense: no future form belongs here."
+  },
+  {
+   "id": 100,
+   "skill": "werden + Infinitiv as a substitute for Futur",
+   "english": "Prices will keep rising for a while yet.",
+   "german": "Die Preise werden weiter steigen.",
+   "why": "Present werden with an adverb and no infinitive: a process already under way."
+  }
+ ]
+}

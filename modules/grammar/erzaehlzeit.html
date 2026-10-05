@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Narrating the past: Präteritum vs. Plusquamperfekt — Die Erzählzeit im Präteritum und Plusquamperfekt | Deutsch Lernen</title>
+<style>
+:root{
+  --font:"Segoe UI",system-ui,-apple-system,sans-serif;
+  --teal-900:#005A5A; --teal-700:#008282; --teal-400:#50C1C1; --teal-100:#95DFDB;
+  --amber:#E1A01E; --red:#C41E3A; --green:#1D7A4C;
+  --ink:#012D2C; --muted:#008282;
+  --page:#F0FAFA; --card:#FFF; --in:#F0FAFA; --border:#D0ECEB;
+  --shadow:0 1px 4px rgba(1,45,44,.10); --shadow-md:0 4px 14px rgba(1,45,44,.12);
+  --r:8px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font);font-size:16px;color:var(--teal-900);background:var(--page);
+  line-height:1.65;-webkit-font-smoothing:antialiased;
+  display:flex;flex-direction:column;min-height:100vh}
+
+.navbar{display:flex;align-items:center;gap:12px;height:48px;padding:0 14px;
+  background:var(--teal-900);border-bottom:1px solid rgba(149,223,219,.15);
+  position:sticky;top:0;z-index:100;flex-shrink:0}
+.brand-icon{display:flex;align-items:center;flex-shrink:0}
+.nav-pipe{width:1px;height:16px;background:rgba(149,223,219,.30);flex-shrink:0;margin:0 12px}
+.nav-brand-text{font-size:.95rem;font-weight:600;color:var(--teal-100);text-decoration:none;white-space:nowrap}
+.nav-actions{margin-left:auto;display:flex;align-items:center;gap:8px}
+.icon-btn{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;padding:0;
+  color:var(--teal-100);background:rgba(149,223,219,.12);border:1px solid rgba(149,223,219,.22);
+  border-radius:4px;cursor:pointer;transition:130ms;text-decoration:none;flex-shrink:0}
+.icon-btn:hover{background:rgba(149,223,219,.24);border-color:rgba(149,223,219,.45)}
+.btn-nav{display:inline-flex;align-items:center;justify-content:center;height:32px;padding:0 12px;
+  font-size:.78rem;font-weight:600;font-family:var(--font);color:var(--teal-100);text-decoration:none;
+  background:rgba(149,223,219,.12);border:1px solid rgba(149,223,219,.22);border-radius:4px;
+  transition:130ms;white-space:nowrap;flex-shrink:0}
+.btn-nav:hover{background:rgba(149,223,219,.24);border-color:rgba(149,223,219,.45)}
+@media (max-width:400px){.btn-nav{padding:0 9px;font-size:.74px;font-size:.74rem}}
+.icon-btn svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:2;
+  stroke-linecap:round;stroke-linejoin:round}
+@media (max-width:560px){.nav-brand-text{font-size:.85rem}}
+
+.wrap{max-width:860px;width:100%;margin:0 auto;padding:20px 16px 0;flex:1 0 auto}
+
+h1{font-size:1.5rem;line-height:1.3;margin:0 0 4px}
+h1 .de{display:block;font-size:1rem;color:var(--teal-700);font-weight:600;margin-top:2px}
+
+section{margin-bottom:30px}
+h2{font-size:1.05rem;margin-bottom:10px;padding-bottom:6px;border-bottom:2px solid var(--teal-400)}
+h3{font-size:.85rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;
+  color:var(--teal-700);margin:16px 0 8px}
+p{margin-bottom:10px}
+.lead{color:var(--ink)}
+small{color:var(--muted)}
+
+.rulebox{background:var(--in);border:1px solid var(--border);border-left:4px solid var(--teal-400);
+  border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.rulebox strong{color:var(--teal-700)}
+.warnbox{background:rgba(196,30,58,.05);border:1px solid rgba(196,30,58,.25);
+  border-left:4px solid var(--red);border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.warnbox strong{color:var(--red)}
+.tipbox{background:rgba(29,122,76,.06);border:1px solid rgba(29,122,76,.22);
+  border-left:4px solid var(--green);border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.tipbox strong{color:var(--green)}
+
+table{width:100%;border-collapse:collapse;margin:12px 0;font-size:.88rem;
+  table-layout:fixed}
+th,td{overflow-wrap:anywhere;word-break:normal;hyphens:auto}
+th,td{text-align:left;padding:7px 9px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--in);font-weight:700;font-size:.76rem;text-transform:uppercase;
+  letter-spacing:.04em;color:var(--teal-700)}
+td.de{color:var(--ink)}
+tr:last-child td{border-bottom:none}
+
+.mic{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;
+  padding:0;flex-shrink:0;vertical-align:middle;border-radius:50%;cursor:pointer;
+  color:var(--teal-700);background:rgba(80,193,193,.16);border:1px solid rgba(80,193,193,.45);
+  transition:130ms}
+.mic:hover{background:rgba(80,193,193,.34)}
+.mic:focus-visible{outline:2px solid var(--teal-700);outline-offset:2px}
+.mic svg{width:13px;height:13px;fill:none;stroke:currentColor;stroke-width:2;
+  stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.mic[aria-pressed="true"]{background:var(--teal-700);color:#fff;border-color:var(--teal-700)}
+.mic[aria-pressed="true"] .pulse{animation:pulse 1s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+.mic[disabled]{opacity:.45;cursor:not-allowed}
+.microw{display:flex;align-items:flex-start;gap:8px}
+.microw > .mtext{flex:1;min-width:0}
+.ex{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:12px 13px;
+  margin-bottom:9px;box-shadow:var(--shadow)}
+.ex .de{font-size:.98rem;color:var(--ink);margin-bottom:4px}
+.ex .de em{color:var(--teal-700);font-style:normal;font-weight:700;background:rgba(80,193,193,.20);
+  padding:0 3px;border-radius:2px}
+.ex .en{font-size:.84rem;color:var(--muted)}
+.ex .why{font-size:.82rem;color:var(--teal-700);margin-top:6px;padding-top:6px;
+  border-top:1px dotted var(--border)}
+.ex .why b{font-weight:700}
+
+/* ── EXERCISES ── */
+.btn{font-family:var(--font);font-size:.78rem;font-weight:600;cursor:pointer;
+  padding:6px 12px;border-radius:4px;border:1px solid var(--teal-400);
+  background:rgba(80,193,193,.14);color:var(--teal-700);transition:130ms;white-space:nowrap}
+.btn:hover{background:rgba(80,193,193,.28)}
+.btn.ghost{background:transparent;border-color:var(--border);color:var(--muted)}
+.btn.ghost:hover{border-color:var(--teal-400);color:var(--teal-700)}
+.noVoice{display:none;align-items:flex-start;gap:8px;margin-bottom:12px;padding:9px 12px;
+  background:rgba(225,160,30,.12);border:1px solid rgba(225,160,30,.4);border-radius:var(--r);
+  font-size:.83rem;color:#7A5000}
+.noVoice b{color:#7A5000}
+
+.q{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:12px 13px;
+  margin-bottom:10px;box-shadow:var(--shadow)}
+.q.revealed{border-color:var(--teal-400)}
+.q.correct{border-color:rgba(29,122,76,.5);background:rgba(29,122,76,.04)}
+.q.wrong{border-color:rgba(196,30,58,.45);background:rgba(196,30,58,.03)}
+.qtop{display:flex;gap:9px;align-items:flex-start;margin-bottom:9px}
+.qnum{flex-shrink:0;width:23px;height:23px;border-radius:50%;background:rgba(0,130,130,.10);
+  color:var(--teal-7);color:var(--teal-700);font-size:.7rem;font-weight:700;display:flex;
+  align-items:center;justify-content:center;margin-top:1px}
+.q.correct .qnum{background:rgba(29,122,76,.16);color:var(--green)}
+.q.wrong .qnum{background:rgba(196,30,58,.14);color:var(--red)}
+.inputrow{display:flex;align-items:stretch;gap:6px;position:relative}
+.ainput{flex:1;min-width:0;font-family:var(--font);font-size:.92rem;color:var(--ink);
+  background:var(--in);border:1px solid var(--border);border-radius:5px;padding:8px 32px 8px 11px;transition:130ms}
+.ainput:focus{outline:none;border-color:var(--teal-400);background:#fff;box-shadow:0 0 0 3px rgba(80,193,193,.16)}
+/* small keyboard icon, vertically centred at the right edge of the field */
+.keybtn{flex-shrink:0;width:28px;align-self:stretch;display:inline-flex;align-items:center;
+  justify-content:center;padding:0;cursor:pointer;border-radius:5px;
+  color:var(--teal-700);background:rgba(80,193,193,.16);border:1px solid rgba(80,193,193,.45);
+  transition:130ms}
+.keybtn:hover{background:rgba(80,193,193,.32)}
+.keybtn:focus-visible{outline:2px solid var(--teal-700);outline-offset:2px}
+.keybtn svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:1.7;
+  stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.keybtn[aria-expanded="true"]{background:var(--teal-700);color:#fff;border-color:var(--teal-700)}
+/* letter panel lives inside the card so no ancestor can clip it */
+.pad{display:none;flex-wrap:wrap;gap:5px;margin-top:7px;padding:8px;
+  background:var(--in);border:1px solid var(--border);border-radius:5px}
+.pad.open{display:flex}
+.padkey{font-family:var(--font);font-size:.92rem;font-weight:600;color:var(--teal-900);
+  background:var(--card);border:1px solid var(--border);border-radius:4px;
+  min-width:34px;height:32px;cursor:pointer;transition:130ms}
+.padkey:hover{background:var(--teal-400);border-color:var(--teal-400)}
+.padkey:focus-visible{outline:2px solid var(--teal-700);outline-offset:1px}
+.btn.rev{margin-top:8px}
+.btn.rev.on{background:rgba(0,90,90,.10);border-color:var(--teal-700)}
+.ansrow{margin:6px 0;padding:7px 9px;background:rgba(80,193,193,.09);border-radius:5px}
+.ansrow .mtext{font-size:.93rem}
+.qtext{font-size:.95rem;color:var(--ink);margin-bottom:9px;flex:1;min-width:0}
+
+.fb{margin-top:9px;padding-top:9px;border-top:1px dotted var(--border);font-size:.85rem}
+.fb .ans{font-weight:600;color:var(--teal-700);margin-bottom:4px}
+.fb .why{color:var(--muted)}
+
+details.fold{margin-bottom:9px;border:1px solid var(--border);border-radius:6px;background:var(--card)}
+details.fold > summary{padding:9px 12px;font-weight:600;font-size:.88rem;cursor:pointer;
+  color:var(--teal-900);list-style:none}
+details.fold > summary::-webkit-details-marker{display:none}
+details.fold > summary::before{content:"▸";color:var(--teal-700);transition:transform .15s;
+  display:inline-block;margin-right:5px}
+details.fold[open] > summary::before{transform:rotate(90deg)}
+details.fold .foldbody{padding:0 12px 11px;border-top:1px solid var(--border);padding-top:9px;
+  font-size:.9rem}
+
+.footer{position:sticky;bottom:0;z-index:50;width:100%;max-width:var(--wrapw,860px);
+  margin-inline:auto;border-top:1px solid var(--border);padding:10px 16px;background:var(--page);
+  display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:.78rem;color:var(--muted)}
+.footer strong{color:var(--teal-700)}
+.footer-dot{margin:0 10px;color:var(--border)}
+
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+  <a class="brand-icon" href="../../" aria-label="Deutsch Lernen home">
+    <svg width="24" height="17" viewBox="0 0 31 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0"  y="0"  width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="0"  width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="0"  width="9" height="6" rx="1.5" fill="#008282"/>
+      <rect x="0"  y="8"  width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="8"  width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="8"  width="9" height="6" rx="1.5" fill="#008282"/>
+      <rect x="0"  y="16" width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="16" width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="16" width="9" height="6" rx="1.5" fill="#E1A01E"/>
+    </svg>
+  </a>
+  <div class="nav-pipe"></div>
+  <a class="nav-brand-text" href="index.html">Grammar</a>
+  <div class="nav-actions">
+    <a class="btn-nav" href="index.html" title="All grammar topics">All topics</a>
+    <a class="icon-btn" href="../../" title="Back to all modules" aria-label="Back to all modules">
+      <svg viewBox="0 0 24 24"><path d="M3 12l9-9 9 9"></path><path d="M5 10v10h14V10"></path></svg>
+    </a>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <h1>Narrating the past: Präteritum vs. Plusquamperfekt<span class="de">Die Erzählzeit im Präteritum und Plusquamperfekt</span></h1>
+  
+  <!-- ══ 1. CONCEPT ══ -->
+  <section>
+    <h2>1 · The concept</h2>
+    <p class="lead">German narrates in two layers. One tense carries the story, and that tense is normally the Präteritum. The second tense marks what had already happened <em>before</em> that story reached the point it is now at, and that is the Plusquamperfekt. Getting the two apart is less a question of dates than of the narrator&rsquo;s point of view: which event is the line the reader is standing on, and which event lies behind it.</p>
+
+    <h3>1. The Präteritum carries the narrative</h3>
+    <p>When German writes about the past &ndash; in reports, memoirs, news features, academic accounts, novels &ndash; the Präteritum is the default. The learner&rsquo;s instinct is often to reach for the Perfekt, which is the tense of spoken German. That is not wrong, but a page of Perfekt reads as informal, and in B2 writing it is worth shifting down into the past.</p>
+    <p>The Präteritum is used for all finite persons of a verb, which is why its forms look so economical. <em>sein</em> is the exception: it takes <em>war</em> in every person, with no person ending at all.</p>
+    <table>
+      <thead><tr><th>Verb</th><th>Präteritum (all persons)</th></tr></thead>
+      <tbody>
+        <tr><td>sein</td><td>ich war, er war, wir waren, sie waren</td></tr>
+        <tr><td>haben</td><td>ich hatte, er hatte, wir hatten</td></tr>
+        <tr><td>können</td><td>ich konnte, er konnte, wir konnten</td></tr>
+        <tr><td>müssen</td><td>ich musste, er musste, wir mussten</td></tr>
+        <tr><td>dürfen / sollen / wollen</td><td>durfte / sollte / wollte</td></tr>
+        <tr><td>gehen / kommen / sehen</td><td>ging / kam / sah</td></tr>
+        <tr><td>nehmen / geben / treffen</td><td>nahm / gab / traf</td></tr>
+        <tr><td>schreiben / sprechen / helfen</td><td>schrieb / sprach / half</td></tr>
+        <tr><td>halten / lesen / schlafen</td><td>hielt / las / schlief</td></tr>
+        <tr><td>schließen / heißen</td><td>schloss / hieß</td></tr>
+        <tr><td>arbeiten / warten / sammeln</td><td>arbeitete / wartete / sammelte</td></tr>
+      </tbody>
+    </table>
+    <div class="rulebox">
+      <p><strong>The Präteritum has no person endings.</strong> <em>ich ging</em>, <em>ich sah</em>, <em>ich kam</em> &ndash; one form covers every person, so <em>ich ging</em> can never acquire an <em>-te-</em> or any other ending. Weak verbs simply add <em>-te-</em> to the stem, which is why the forms look so regular.</p>
+    </div>
+
+    <h3>2. The Plusquamperfekt marks the earlier event</h3>
+    <p>The Plusquamperfekt is formed with <em>hatte</em> or <em>war</em> plus the participle II: <em>Ich hatte den Brief schon gelesen.</em> Formally it is identical to the Perfekt. The only thing that separates the two is the reference point: in a narrative, <em>hatte gelesen</em> is read as <em>read before the moment now being described</em>, and the same form in a conversation is read as <em>read at some point up to now</em>.</p>
+    <table>
+      <thead><tr><th>Situation</th><th>Reading</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td>Present relevance (Perfekt)</td><td>at some time up to now</td><td>Ich habe den Film dreimal gesehen.</td></tr>
+        <tr><td>Earlier than a past event (Plusquamperfekt)</td><td>before the event now narrated</td><td>Ich hatte den Film dreimal gesehen, bevor wir ins Kino gingen.</td></tr>
+      </tbody>
+    </table>
+    <p>Adverbs make the earlier layer explicit and are the learner&rsquo;s safest guide: <em>schon</em>, <em>bereits</em>, <em>vorher</em>, <em>zuvor</em>, <em>früher</em>, <em>jahrelang</em>, <em>damals</em>. If you can insert <em>vorher</em> without changing the meaning, the Plusquamperfekt is right.</p>
+    <h4>hatte or war?</h4>
+    <p>Verbs of movement and change of state take <em>war</em>: <em>war gegangen</em>, <em>war gekommen</em>, <em>war gefahren</em>, <em>war geblieben</em>, <em>war geworden</em>. Verbs of activity take <em>hatte</em>: <em>hatte gearbeitet</em>, <em>hatte gewohnt</em>, <em>hatte gekannt</em>, <em>hatte bekommen</em>. With a direct object, <em>haben</em> is normally forced: <em>Ich hatte ihn nie gesehen</em>, not <em>Ich war ihn nie gesehen</em>. For verbs that allow both, the states of experience and lasting result prefer <em>war</em>: <em>Ich war noch nie dort gewesen.</em></p>
+    <div class="rulebox">
+      <p><strong>Verb-final in the subordinate clause.</strong> <em>Nachdem ich gegessen hatte</em> &ndash; not <em>Nachdem ich hatte gegessen</em>. The same holds after <em>als</em>, <em>wenn</em>, <em>weil</em>, <em>bevor</em>, <em>sobald</em> and <em>wie</em>.</p>
+    </div>
+
+    <h3>3. The Plusquamperfekt with modal verbs</h3>
+    <p>A modal verb in the second past drops its infinitive entirely, and the participle is irregular, with no <em>ge-</em>:</p>
+    <table>
+      <thead><tr><th>Modal</th><th>Partizip II</th><th>Plusquamperfekt</th></tr></thead>
+      <tbody>
+        <tr><td>können</td><td>gekonnt</td><td>Er hatte nicht kommen können.</td></tr>
+        <tr><td>müssen</td><td>gemusst</td><td>Wir hatten früher um sechs aufstehen müssen.</td></tr>
+        <tr><td>dürfen</td><td>gedurft</td><td>Sie hatte das Foto nicht zeigen dürfen.</td></tr>
+        <tr><td>sollen</td><td>gesollt</td><td>Die Firma hatte den Kunden früher informieren sollen.</td></tr>
+        <tr><td>wollen</td><td>gewollt</td><td>Niemand hatte die Diskussion abbrechen wollen.</td></tr>
+      </tbody>
+    </table>
+    <p>A second, lexical verb is kept in the infinitive, and the two infinitives close the clause: <em>Ich hatte zwei Stunden warten müssen.</em> A separable prefix stays whole inside that final position: <em>Wir hatten den Termin absagen müssen.</em></p>
+    <p>Nothing distinguishes a modal Perfekt from a modal Plusquamperfekt except the reference point, so the two forms sit side by side: <em>Er hat nicht kommen können</em> (he was not able to come &ndash; relevant now), <em>Er hatte nicht kommen können</em> (he had not been able to come before the next event).</p>
+
+    <h3>4. Two past events in one sentence</h3>
+    <p>When a sentence carries two past events on different time planes, the earlier one goes into the Plusquamperfekt and the later one into the Präteritum. The order of the events and the order of the clauses are two separate things: in a subordinate clause introduced by <em>nachdem</em> the earlier event comes first, and the finite verb of that clause is last.</p>
+    <table>
+      <thead><tr><th>Earlier event (Plusquamperfekt)</th><th>Later event (Präteritum)</th></tr></thead>
+      <tbody>
+        <tr><td>Nachdem er den Schlüssel verloren hatte,</td><td>rief er seinen Vermieter an.</td></tr>
+        <tr><td>Weil wir den Zug verpasst hatten,</td><td>mussten wir ein Taxi nehmen.</td></tr>
+        <tr><td>Sie stieg in die Bahn, nachdem sie am Bahnsteig gewartet hatte.</td><td>&nbsp;</td></tr>
+        <tr><td>Er konnte die Tür nicht öffnen, weil er den Schlüssel eingeschlossen hatte.</td><td>&nbsp;</td></tr>
+        <tr><td>Das Feuer war gelöscht, bevor die Feuerwehr eintraf.</td><td>&nbsp;</td></tr>
+      </tbody>
+    </table>
+    <div class="rulebox">
+      <p><strong>One very common exception.</strong> After <em>als</em> with a Präteritum main clause, the earlier event is often rendered with <em>war</em> plus participle II: <em>Als ich ankam, war er schon gegangen.</em> This is fully idiomatic and needs no explanation.</p>
+    </div>
+    <p>Two finite Präteritum verbs do occur in one clause, but only when the two actions belong to the same time plane and stand side by side: <em>Wir besuchten die Altstadt, aßen in einem kleinen Restaurant und gingen am Fluss entlang.</em> The moment the two events are not simultaneous in that way, the earlier one becomes a Plusquamperfekt.</p>
+
+    <h3>5. Präteritum or Perfekt in writing?</h3>
+    <p>The division is not absolute, but it is stable enough to plan with. The Präteritum dominates whenever the text looks <em>backwards</em>; the Perfekt dominates whenever it looks at the past from a point that still matters.</p>
+    <table>
+      <thead><tr><th>Choose Präteritum</th><th>Choose Perfekt</th></tr></thead>
+      <tbody>
+        <tr><td>Reports, minutes, official statements</td><td>Everyday spoken narrative, informal reports to a colleague</td></tr>
+        <tr><td>Biographical and historical accounts</td><td>Statements about experience up to today</td></tr>
+        <tr><td>Literature, film plots, summaries</td><td>Opening a piece of news and stating the current result</td></tr>
+        <tr><td>Long stretches of past action with no present relevance</td><td>Completed states: <em>Die Ausstellung ist zu Ende.</em></td></tr>
+      </tbody>
+    </table>
+    <p>A workable split for a written text: use the Präteritum for the process, and the Perfekt for the state that still holds. <em>Der Verein wurde 1998 gegründet und hat seit 2004 dreimal den Titel gewonnen.</em> In a formal letter, the first paragraph is usually better in the Präteritum; a closing sentence about today falls naturally into the Perfekt.</p>
+
+    <h3>6. Errors that recur</h3>
+    <table>
+      <thead><tr><th>Faulty</th><th>Correct</th><th>Reason</th></tr></thead>
+      <tbody>
+        <tr><td>Ich hatte in Japan gewesen.</td><td>Ich war in Japan gewesen.</td><td>Movement and state of experience take <em>war</em>.</td></tr>
+        <tr><td>Er hatte nicht kommen können können.</td><td>Er hatte nicht kommen können.</td><td>The modal loses its infinitive entirely.</td></tr>
+        <tr><td>Ich hatte gefahren das Auto.</td><td>Ich hatte das Auto gefahren.</td><td>With a direct object the verb is <em>hatte</em>, and word order is verb before object.</td></tr>
+        <tr><td>Nachdem ich hatte den Brief gelesen, ging ich.</td><td>Nachdem ich den Brief gelesen hatte, ging ich.</td><td>Verb cluster goes last in the subordinate clause.</td></tr>
+        <tr><td>Die Firma hat 1998 gegründet.</td><td>Die Firma wurde 1998 gegründet.</td><td>German has no present perfect; the passive past is <em>wurde</em> plus participle II.</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- ══ 2. EXAMPLES ══ -->
+  <section>
+    <h2>2 · 20 worked examples</h2>
+    <p><small>Each example marks the opener and closer in bold and explains what it does to the sentence.</small></p>
+    <div id="examples"></div>
+  </section>
+
+  <!-- ══ 3. EXERCISES ══ -->
+  <section>
+    <h2>3 · 100 exercises</h2>
+
+    <div class="noVoice" id="noVoice">
+      <b>Pronunciation unavailable.</b> This browser has no German speech voice installed, so the
+      speaker buttons will not play. In Chrome, Edge and Safari on a desktop, German is available by default.
+    </div>
+    <div id="quiz"></div>
+  </section>
+
+</div>
+
+<footer class="footer"><strong>Narrating the past: Präteritum vs. Plusquamperfekt</strong><span class="footer-dot">·</span><span>Roman Zajic</span></footer>
+
+<script>
+(function(){
+  "use strict";
+
+  var EXAMPLES = [
+    ["Nach dem Krieg kehrte die Familie in ihr Heimatdorf zurück und baute die alte Scheune neu. — After the war, the family returned to their home village and rebuilt the old barn.", "Präteritum throughout: war, kehrte, baute carry the whole account."],
+    ["Der Bürgermeister erklärte gestern, der Verein habe die Sporthalle schon im Sommer bezogen. — The mayor said yesterday that the club had already moved into the sports hall in the summer.", "Präteritum erklärte frames a Perfekt in the reported clause."],
+    ["1938 zerstörte ein Großbrand den alten Bahnhof; der Wiederaufbau dauerte fast zehn Jahre. — A major fire destroyed the old railway station in 1938; rebuilding took almost ten years.", "A formal historical account entirely in Präteritum, with zerstörte and dauerte."],
+    ["Wir saßen bis Mitternacht am Kamin und erzählten Geschichten aus der Schulzeit. — We sat by the fireplace until midnight and told stories from our school days.", "Coordinated Präteritum verbs for actions on the same time plane."],
+    ["Ich hatte das Buch zweimal gelesen, bevor ich verstand, warum so viele Leute es empfehlen. — I had read the book twice before I understood why so many people recommend it.", "Plusquamperfekt hatte gelesen for the earlier event, Präteritum verstand for the later one."],
+    ["Die Zeugen waren schon gegangen, als die Polizei vor dem Haus stand. — The witnesses had already left when the police stood in front of the house.", "The idiom war + participle II after als, with the main clause in Präteritum."],
+    ["Bis 2005 hatte ich sechs Jahre Deutsch gelernt. — By 2005 I had been learning German for six years.", "Bis plus a duration makes the Plusquamperfekt unavoidable."],
+    ["Wir hatten uns erst wenige Wochen vor der Hochzeit kennengelernt. — We had only got to know each other a few weeks before the wedding.", "Plusquamperfekt with the reciprocal pronoun uns and the verb kennenlernen."],
+    ["Er hatte den Vertrag nicht rechtzeitig unterschreiben können und rief den Anwalt an. — He had not been able to sign the contract in time and called the lawyer.", "Modal Plusquamperfekt: the infinitive unterschreiben survives, gekonnt loses its ge- pattern to können."],
+    ["Niemand hatte das alte Klavier anfassen wollen. — Nobody had wanted to touch the old piano.", "Modal Plusquamperfekt with wollen, and a separable prefix inside the final position."],
+    ["Als Kind hatte ich oft im Garten spielen dürfen. — As a child I was often allowed to play in the garden.", "A lexical infinitive plus a modal participle closes the clause."],
+    ["Nachdem die Ärzte die Röntgenaufnahme ausgewertet hatten, teilte die Klinik den Patienten den Termin mit. — After the doctors had evaluated the X-ray, the clinic informed the patients of the appointment.", "Nachdem plus Plusquamperfekt with the verb cluster last, then a Präteritum main clause."],
+    ["Er konnte die Tür nicht öffnen, weil er den Schlüssel eingeschlossen hatte. — He could not open the door because he had locked the key inside.", "Weil clause in the Plusquamperfekt, modal Präteritum in the main clause."],
+    ["Bevor das Institut gegründet worden war, wurden die Daten von Hand ausgewertet. — Before the institute had been founded, the data were evaluated by hand.", "Vorgangspassiv in the Plusquamperfekt: worden plus gegründet plus war."],
+    ["Sie stieg in die Bahn, nachdem sie fast eine Stunde am Bahnsteig gewartet hatte. — She got on the train after waiting on the platform for almost an hour.", "The subordinate clause with nachdem comes last, the main clause in Präteritum comes first."],
+    ["Der Betrieb hatte die Maschine zweimal reparieren lassen, bevor er sie endgültig verkaufte. — The company had had the machine repaired twice before finally selling it.", "Plusquamperfekt of a verb with lassen, then the later event in Präteritum."],
+    ["Im März beschloss der Stadtrat, die alte Sporthalle abzureißen. — In March the city council decided to demolish the old sports hall.", "Präteritum in a formal report, with the infinitive at the end."],
+    ["Sie hat mir gestern ein Foto vom neuen Balkon geschickt. — She sent me a photo of the new balcony yesterday.", "Perfekt because the result matters in the here and now of the conversation."],
+    ["Weil wir so lange gewartet hatten, saßen wir bei Kerzenlicht im Garten. — Because we had waited so long, we sat in the garden by candlelight.", "A Plusquamperfekt we clause with a Präteritum main clause: two events, two layers."],
+    ["Der Kollege, der mir das Buch geliehen hatte, wohnte inzwischen in Leipzig. — The colleague who had lent me the book has since moved to Leipzig.", "Plusquamperfekt in a relative clause attached to a Präteritum main clause."]
+  ];
+
+  var DATA_URL = "../../data/grammar_exercises_erzaehlzeit.json";
+  var STORE = "erzaehlzeit_progress_v1";
+  // ── pronunciation via the browser speech engine ──
+  var MIC_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5z"></path>'
+    + '<path class="pulse" d="M15.5 8.5a5 5 0 0 1 0 7"></path>'
+    + '<path class="pulse" d="M18.5 5.5a9 9 0 0 1 0 13"></path></svg>';
+  var synth = window.speechSynthesis || null;
+  var germanVoice = null;
+
+  function stripTags(t){ return String(t).replace(/<[^>]*>/g,""); }
+
+  function pickVoice(){
+    if(!synth) return null;
+    var vs = synth.getVoices() || [];
+    germanVoice = vs.filter(function(v){ return /^de(-|_|$)/i.test(v.lang); })[0] || null;
+    return germanVoice;
+  }
+  if(synth){
+    pickVoice();
+    if(synth.addEventListener) synth.addEventListener("voiceschanged", pickVoice);
+  }
+
+  function stopSpeech(){ if(synth) try{ synth.cancel(); }catch(e){} }
+
+  var warned = false;
+  function noVoiceNotice(){
+    if(warned) return; warned = true;
+    var n = document.getElementById("noVoice");
+    if(n) n.style.display = "flex";
+  }
+  function micBtn(text, label){
+    var b = document.createElement("button");
+    b.className = "mic";
+    b.type = "button";
+    b.setAttribute("aria-pressed","false");
+    b.setAttribute("aria-label", (label||"Play") + ": " + stripTags(text));
+    b.title = "Play pronunciation";
+    b.innerHTML = MIC_SVG;
+    b.addEventListener("click", function(ev){
+      ev.stopPropagation();
+      if(!synth){ b.disabled = true; b.title = "Speech is not available in this browser"; noVoiceNotice(); return; }
+      if(b.getAttribute("aria-pressed")==="true"){ stopSpeech(); b.setAttribute("aria-pressed","false"); return; }
+      stopSpeech();
+      if(!germanVoice) pickVoice();
+      var u = new SpeechSynthesisUtterance(stripTags(text));
+      u.lang = "de-DE";
+      if(germanVoice) u.voice = germanVoice;
+      u.rate = 0.92; u.pitch = 1;
+      b.setAttribute("aria-pressed","true");
+      var off = function(){ b.setAttribute("aria-pressed","false"); };
+      u.onend = off;
+      u.onerror = function(){ off(); noVoiceNotice(); };
+      synth.speak(u);
+      // some engines report no voices at all; surface that instead of a dead button
+      if(!synth.getVoices().length) noVoiceNotice();
+    });
+    return b;
+  }
+
+  var state = {revealed:{}, answers:{}};
+
+  function esc(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
+  function load(){ try{ var v=JSON.parse(localStorage.getItem(STORE)); if(v&&typeof v==="object"){state.revealed=v.revealed||{};state.answers=v.answers||{};} }catch(e){} }
+  function save(){ try{ localStorage.setItem(STORE, JSON.stringify(state)); }catch(e){} }
+
+  // ---- examples ----
+  // Each entry is [german_and_english, why]. The first field carries the English
+  // translation after an em dash, so split it out for separate styling.
+  function splitDE(t){
+    var i = t.indexOf("\u2014");
+    if(i < 0) return [t, ""];
+    return [t.slice(0,i).trim(), t.slice(i+1).trim()];
+  }
+  (function renderExamples(){
+    var host = document.getElementById("examples");
+    host.innerHTML = "";
+    EXAMPLES.forEach(function(x){
+      var de = x[0] || "";
+      var why = x[1] || "";
+      var parts = splitDE(de);
+      var card = document.createElement("div");
+      card.className = "ex";
+
+      var row = document.createElement("div");
+      row.className = "microw";
+      var txt = document.createElement("div");
+      txt.className = "mtext";
+      txt.innerHTML = '<div class="de">'+parts[0]+'</div>'+
+                      (parts[1] ? '<div class="en">'+parts[1]+'</div>' : "");
+      row.appendChild(txt);
+      row.appendChild(micBtn(parts[0], "Play this example"));
+      card.appendChild(row);
+
+      if(why){
+        var w = document.createElement("div");
+        w.className = "why";
+        w.innerHTML = "<b>Why:</b> "+why;
+        card.appendChild(w);
+      }
+      host.appendChild(card);
+    });
+  })();
+
+  // German special letters, inserted at the caret in the focused input.
+  var KEYS = ["ä","ö","ü","Ä","Ö","Ü","ß","€"];
+
+  function insertAt(input, ch){
+    var v = input.value;
+    var a = input.selectionStart == null ? v.length : input.selectionStart;
+    var b = input.selectionEnd == null ? v.length : input.selectionEnd;
+    input.value = v.slice(0,a) + ch + v.slice(b);
+    var pos = a + ch.length;
+    try{ input.setSelectionRange(pos,pos); }catch(e){}
+    input.focus();
+  }
+
+  function keypadBtn(id){
+    var b = document.createElement("button");
+    b.type = "button";
+    b.className = "keybtn";
+    b.title = "German letters";
+    b.setAttribute("aria-label","Insert German special characters");
+    b.setAttribute("aria-expanded","false");
+    b.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true">'+
+      '<rect x="2" y="5" width="20" height="14" rx="2"></rect>'+
+      '<path d="M6 9h.01M10 9h.01M14 9h.01M18 9h.01M6 13h.01M10 13h.01M14 13h.01M18 13h.01M8 16h8"></path>'+
+      '</svg>';
+    b.addEventListener("click", function(ev){
+      ev.stopPropagation();
+      var panel = document.getElementById("pad-"+id);
+      if(!panel) return;
+      var open = panel.classList.toggle("open");
+      b.setAttribute("aria-expanded", open ? "true" : "false");
+      closeAllKeypads(panel);
+    });
+    return b;
+  }
+
+  function closeAllKeypads(except){
+    Array.prototype.forEach.call(document.querySelectorAll(".pad.open"), function(p){
+      if(p === except) return;
+      p.classList.remove("open");
+      var btn = p.previousSibling && p.previousSibling.querySelector ? p.previousSibling.querySelector(".keybtn") : null;
+      if(btn) btn.setAttribute("aria-expanded","false");
+    });
+  }
+
+  document.addEventListener("click", function(){ closeAllKeypads(null); });
+  document.addEventListener("keydown", function(e){ if(e.key === "Escape") closeAllKeypads(null); });
+
+  function renderQuiz(ex){
+    var el = document.getElementById("quiz");
+    el.innerHTML = "";
+    ex.forEach(function(e){
+      var rev = !!state.revealed[e.id];
+      var card = document.createElement("article");
+      card.className = "q" + (rev ? " revealed" : "");
+      card.id = "q"+e.id;
+
+      var top = document.createElement("div");
+      top.className = "qtop";
+      top.innerHTML = '<span class="qnum">'+e.id+'</span>';
+      var qt = document.createElement("span");
+      qt.className = "qtext";
+      qt.textContent = e.english;
+      top.appendChild(qt);
+      card.appendChild(top);
+
+      // input with the letter keypad docked inside its right edge
+      var row = document.createElement("div");
+      row.className = "inputrow";
+      var ta = document.createElement("input");
+      ta.type = "text";
+      ta.className = "ainput";
+      ta.placeholder = "Write the German here…";
+      ta.setAttribute("aria-label","Your German answer for exercise "+e.id);
+      ta.value = state.answers[e.id] || "";
+      ta.addEventListener("input", function(){ state.answers[e.id] = ta.value; save(); });
+      row.appendChild(ta);
+      row.appendChild(keypadBtn(e.id));
+      card.appendChild(row);
+
+      // the letter panel sits inside the card so it is never clipped
+      var pad = document.createElement("div");
+      pad.className = "pad";
+      pad.id = "pad-"+e.id;
+      KEYS.forEach(function(k){
+        var kb = document.createElement("button");
+        kb.type = "button";
+        kb.className = "padkey";
+        kb.textContent = k;
+        kb.addEventListener("click", function(ev){
+          ev.stopPropagation();
+          var target = card.querySelector(".ainput");
+          insertAt(target, k);
+          state.answers[e.id] = target.value;
+          save();
+        });
+        pad.appendChild(kb);
+      });
+      card.appendChild(pad);
+
+      // reveal / hide toggle
+      var rb = document.createElement("button");
+      rb.type = "button";
+      rb.className = "btn rev" + (rev ? " on" : "");
+      rb.textContent = rev ? "Hide answer" : "Reveal answer";
+      rb.setAttribute("aria-expanded", rev ? "true" : "false");
+      rb.addEventListener("click", function(){
+        state.revealed[e.id] = !state.revealed[e.id];
+        save();
+        renderQuiz(ex);
+      });
+      card.appendChild(rb);
+
+      if(rev){
+        var fb = document.createElement("div");
+        fb.className = "fb";
+
+        var ansRow = document.createElement("div");
+        ansRow.className = "microw ansrow";
+        var at = document.createElement("div");
+        at.className = "mtext";
+        at.textContent = e.german;
+        ansRow.appendChild(at);
+        ansRow.appendChild(micBtn(e.german, "Play the German answer"));
+        fb.appendChild(ansRow);
+
+        var wy = document.createElement("div");
+        wy.className = "why";
+        wy.textContent = e.why;
+        fb.appendChild(wy);
+
+        card.appendChild(fb);
+      }
+      el.appendChild(card);
+    });
+  }
+
+  load();
+
+  fetch(DATA_URL+"?cb="+Date.now())
+    .then(function(r){ if(!r.ok) throw new Error("HTTP "+r.status); return r.json(); })
+    .then(function(d){
+      var ex=d.exercises;
+      renderQuiz(ex);
+    })
+    .catch(function(e){
+      document.getElementById("quiz").innerHTML =
+        '<div class="q"><b>Could not load the exercises.</b><br>'+esc(e.message)+'</div>';
+    });
+})();
+</script>
+</body>
+</html>

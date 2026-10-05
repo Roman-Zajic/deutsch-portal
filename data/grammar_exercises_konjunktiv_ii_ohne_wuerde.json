@@ -1,0 +1,704 @@
+{
+ "exercises": [
+  {
+   "id": 1,
+   "skill": "Konjunktiv II of sein and haben",
+   "english": "in your place I would have gone right away",
+   "german": "An deiner Stelle wäre ich sofort gegangen.",
+   "why": "The Konjunktiv II of sein forms the hypothetical with no help from würde."
+  },
+  {
+   "id": 2,
+   "skill": "Konjunktiv II of sein and haben",
+   "english": "I would like a coffee, please",
+   "german": "Ich hätte gern einen Kaffee, bitte.",
+   "why": "A polite wish takes hätte plus gern, never würde plus gern."
+  },
+  {
+   "id": 3,
+   "skill": "Konjunktiv II of sein and haben",
+   "english": "we would have been finished long ago if you had helped",
+   "german": "Wir hätten längst fertig gewesen, wenn du geholfen hättest.",
+   "why": "Both halves of the sentence use the Konjunktiv II of haben."
+  },
+  {
+   "id": 4,
+   "skill": "Konjunktiv II of sein and haben",
+   "english": "the meeting would have been pointless without her",
+   "german": "Die Besprechung wäre ohne sie sinnlos gewesen.",
+   "why": "Wäre forms a counterfactual judgement about a past situation."
+  },
+  {
+   "id": 5,
+   "skill": "Konjunktiv II of sein and haben",
+   "english": "would you have anything against a short break",
+   "german": "Hättest du etwas gegen eine kurze Pause?",
+   "why": "The Konjunktiv II of haben is fronted together with the subject because it is the first element."
+  },
+  {
+   "id": 6,
+   "skill": "Konjunktiv II of sein and haben",
+   "english": "without your help we would not have got the order",
+   "german": "Ohne deine Hilfe hätten wir den Auftrag nicht bekommen.",
+   "why": "Hätte plus a second verb expresses the unreal condition directly."
+  },
+  {
+   "id": 7,
+   "skill": "Konjunktiv II of sein and haben",
+   "english": "she was not the person who could have solved it",
+   "german": "Sie war nicht die Person, die es hätte lösen können.",
+   "why": "Here hätte is the auxiliary of the Plusquamperfekt of können."
+  },
+  {
+   "id": 8,
+   "skill": "Konjunktiv II of sein and haben",
+   "english": "I would not have believed how large the crowd was",
+   "german": "Ich hätte nicht geglaubt, wie groß die Menge war.",
+   "why": "Hätte expresses the counterfactual inside a negated main clause."
+  },
+  {
+   "id": 9,
+   "skill": "Konjunktiv II of sein and haben",
+   "english": "what would you have done in my situation",
+   "german": "Was hättest du an meiner Stelle getan?",
+   "why": "The Konjunktiv II of haben replaces würde tun in a question."
+  },
+  {
+   "id": 10,
+   "skill": "Konjunktiv II of sein and haben",
+   "english": "if the room had been free, we would have taken it",
+   "german": "Wenn der Raum frei gewesen wäre, hätten wir ihn genommen.",
+   "why": "A verb-final wenn-clause with two Konjunktiv II forms."
+  },
+  {
+   "id": 11,
+   "skill": "Konjunktiv II of sein and haben",
+   "english": "the company would have gone bankrupt otherwise",
+   "german": "Die Firma wäre sonst bankrottgegangen.",
+   "why": "Wäre plus a participle gives the unreal past consequence directly."
+  },
+  {
+   "id": 12,
+   "skill": "Konjunktiv II of sein and haben",
+   "english": "he would be the right candidate for the job",
+   "german": "Er wäre der richtige Kandidat für die Stelle.",
+   "why": "The Konjunktiv II of sein expresses a hypothetical judgement about a real person."
+  },
+  {
+   "id": 13,
+   "skill": "Konjunktiv II of sein and haben",
+   "english": "I would have liked to stay a little longer",
+   "german": "Ich hätte gern noch etwas länger geblieben.",
+   "why": "Hätte plus gern expresses an unrealised wish concerning the past."
+  },
+  {
+   "id": 14,
+   "skill": "Konjunktiv II of sein and haben",
+   "english": "it would be better if we left a little earlier",
+   "german": "Es wäre besser, wenn wir etwas früher gingen.",
+   "why": "Wäre in the main clause and gingen in the final position of the wenn-clause."
+  },
+  {
+   "id": 15,
+   "skill": "Konjunktiv II of sein and haben",
+   "english": "they would have been relieved to hear that",
+   "german": "Sie wären erleichtert gewesen, das zu hören.",
+   "why": "The Konjunktiv II of sein forms an unreal past state of affairs."
+  },
+  {
+   "id": 16,
+   "skill": "Konjunktiv II of sein and haben",
+   "english": "would that be all right for you",
+   "german": "Wäre das für dich in Ordnung?",
+   "why": "The Konjunktiv II of sein makes a tentative, polite suggestion."
+  },
+  {
+   "id": 17,
+   "skill": "Konjunktiv II of sein and haben",
+   "english": "had I been in your place, I would have said no",
+   "german": "Hätte ich an deiner Stelle gestanden, hätte ich Nein gesagt.",
+   "why": "The Konjunktiv II of haben appears twice in the inverted clause."
+  },
+  {
+   "id": 18,
+   "skill": "Konjunktiv II of sein and haben",
+   "english": "the results would have been better with more time",
+   "german": "Die Ergebnisse wären mit mehr Zeit besser gewesen.",
+   "why": "Wäre plus a comparative gives an unreal past comparison."
+  },
+  {
+   "id": 19,
+   "skill": "Konjunktiv II of sein and haben",
+   "english": "we would have been safer in the other street",
+   "german": "Wir wären in der anderen Straße sicherer gewesen.",
+   "why": "The Konjunktiv II of sein forms an unreal past comparison without würde."
+  },
+  {
+   "id": 20,
+   "skill": "Konjunktiv II of sein and haben",
+   "english": "no one would have been offended by that question",
+   "german": "Niemand wäre von dieser Frage beleidigt gewesen.",
+   "why": "Wäre plus a participle expresses a state that never came about."
+  },
+  {
+   "id": 21,
+   "skill": "Konjunktiv II of the modal verbs",
+   "english": "we would have to book a table for four",
+   "german": "Wir müssten einen Tisch für vier reservieren.",
+   "why": "The Konjunktiv II of müssen expresses unavoidable necessity."
+  },
+  {
+   "id": 22,
+   "skill": "Konjunktiv II of the modal verbs",
+   "english": "you could tell me the truth once",
+   "german": "Könntest du mir wenigstens einmal die Wahrheit sagen.",
+   "why": "The Konjunktiv II of können softens a request."
+  },
+  {
+   "id": 23,
+   "skill": "Konjunktiv II of the modal verbs",
+   "english": "I would like to pay by card, please",
+   "german": "Ich möchte bitte mit Karte zahlen.",
+   "why": "Möchte is the standard polite form and never needs würde."
+  },
+  {
+   "id": 24,
+   "skill": "Konjunktiv II of the modal verbs",
+   "english": "you should not have said that",
+   "german": "Du solltest das nicht gesagt haben.",
+   "why": "The Konjunktiv II of sollen plus a participle criticises a past action."
+  },
+  {
+   "id": 25,
+   "skill": "Konjunktiv II of the modal verbs",
+   "english": "may I ask you something",
+   "german": "Dürfte ich Sie etwas fragen?",
+   "why": "The Konjunktiv II of dürfen is the polite form of the question."
+  },
+  {
+   "id": 26,
+   "skill": "Konjunktiv II of the modal verbs",
+   "english": "the weather would probably stay dry",
+   "german": "Das Wetter würde wahrscheinlich trocken bleiben.",
+   "why": "Würde is the right auxiliary here, since a modal form would change the meaning."
+  },
+  {
+   "id": 27,
+   "skill": "Konjunktiv II of the modal verbs",
+   "english": "she would have to start the presentation again",
+   "german": "Sie müsste die Präsentation neu beginnen.",
+   "why": "Müsste gives the necessity in the Konjunktiv II."
+  },
+  {
+   "id": 28,
+   "skill": "Konjunktiv II of the modal verbs",
+   "english": "I would like you to repeat that, please",
+   "german": "Ich möchte, dass Sie das bitte wiederholen.",
+   "why": "Möchte plus a dass-clause gives a firm but polite instruction."
+  },
+  {
+   "id": 29,
+   "skill": "Konjunktiv II of the modal verbs",
+   "english": "you could have warned me earlier",
+   "german": "Du hättest mich früher warnen können.",
+   "why": "The Konjunktiv II of können in the Perfekt points to a missed possibility."
+  },
+  {
+   "id": 30,
+   "skill": "Konjunktiv II of the modal verbs",
+   "english": "nobody would be allowed to enter the hall",
+   "german": "Niemand dürfte die Halle betreten.",
+   "why": "Dürfte is the Konjunktiv II of dürfen and replaces würde dürfen."
+  },
+  {
+   "id": 31,
+   "skill": "Konjunktiv II of the modal verbs",
+   "english": "we would be well advised to leave now",
+   "german": "Wir wären gut beraten, jetzt zu gehen.",
+   "why": "The Konjunktiv II of sein carries the meaning of a piece of advice."
+  },
+  {
+   "id": 32,
+   "skill": "Konjunktiv II of the modal verbs",
+   "english": "I would prefer the vegetarian menu",
+   "german": "Ich möchte lieber die vegetarische Karte.",
+   "why": "Möchte plus lieber expresses a preference without any infinitive construction."
+  },
+  {
+   "id": 33,
+   "skill": "Konjunktiv II of the modal verbs",
+   "english": "you should talk to your teacher about it",
+   "german": "Du solltest mit deiner Lehrerin darüber sprechen.",
+   "why": "The Konjunktiv II of sollen is the standard form of advice."
+  },
+  {
+   "id": 34,
+   "skill": "Konjunktiv II of the modal verbs",
+   "english": "he would have to pay for the damage",
+   "german": "Er müsste für den Schaden bezahlen.",
+   "why": "Müsste expresses the unavoidable consequence in the Konjunktiv II."
+  },
+  {
+   "id": 35,
+   "skill": "Konjunktiv II of the modal verbs",
+   "english": "you should see a doctor about that",
+   "german": "Du solltest einen Arzt fragen.",
+   "why": "Solltest is the usual form of advice; würde sollen sounds wrong."
+  },
+  {
+   "id": 36,
+   "skill": "Konjunktiv II of the modal verbs",
+   "english": "I would like to know the departure time",
+   "german": "Ich möchte die Abfahrtszeit wissen.",
+   "why": "The Konjunktiv II of mögen forms a polite, indirect question."
+  },
+  {
+   "id": 37,
+   "skill": "Konjunktiv II of the modal verbs",
+   "english": "we could meet at the station instead",
+   "german": "Wir könnten uns stattdessen am Bahnhof treffen.",
+   "why": "Könnten offers a possibility in the Konjunktiv II."
+  },
+  {
+   "id": 38,
+   "skill": "Konjunktiv II of the modal verbs",
+   "english": "they would have to apply for a visa again",
+   "german": "Sie müssten noch einmal ein Visum beantragen.",
+   "why": "The Konjunktiv II of müssen replaces the clumsy würde beantragen construction."
+  },
+  {
+   "id": 39,
+   "skill": "Konjunktiv II of the modal verbs",
+   "english": "you should not worry about the details",
+   "german": "Du solltest dir wegen der Details keine Sorgen machen.",
+   "why": "Solltest is used for advice; an infinitive with würde is not idiomatic here."
+  },
+  {
+   "id": 40,
+   "skill": "Konjunktiv II of the modal verbs",
+   "english": "you would be allowed to park here",
+   "german": "Du dürftest hier parken.",
+   "why": "The Konjunktiv II of dürfen grants permission in an unreal situation."
+  },
+  {
+   "id": 41,
+   "skill": "Konjunktiv II of strong verbs from the Prateritum stem",
+   "english": "if you came earlier, we could talk",
+   "german": "Wenn du früher kämest, könnten wir reden.",
+   "why": "Kämest is the Konjunktiv II of kommen, built from the Präteritum stem kam."
+  },
+  {
+   "id": 42,
+   "skill": "Konjunktiv II of strong verbs from the Prateritum stem",
+   "english": "I would give you the rest of the money",
+   "german": "Ich gäbe dir den Rest des Geldes.",
+   "why": "Gäbe is built from the Präteritum gab with an umlaut."
+  },
+  {
+   "id": 43,
+   "skill": "Konjunktiv II of strong verbs from the Prateritum stem",
+   "english": "where would you go if nobody stopped you",
+   "german": "Wohin gingest du, wenn dich niemand aufhielte?",
+   "why": "The Konjunktiv II endings are added to the stem ging plus umlaut."
+  },
+  {
+   "id": 44,
+   "skill": "Konjunktiv II of strong verbs from the Prateritum stem",
+   "english": "we would find a cheaper hotel",
+   "german": "Wir fänden ein günstigeres Hotel.",
+   "why": "Fänden replaces würde finden in a conditional statement."
+  },
+  {
+   "id": 45,
+   "skill": "Konjunktiv II of strong verbs from the Prateritum stem",
+   "english": "if he took the last seat, I would stand",
+   "german": "Wenn er den letzten Platz nähme, stünde ich.",
+   "why": "Two Konjunktiv II forms, one per clause, the subordinate one in final position."
+  },
+  {
+   "id": 46,
+   "skill": "Konjunktiv II of strong verbs from the Prateritum stem",
+   "english": "if the train stopped, we would miss our connection",
+   "german": "Wenn der Zug hielte, verpassten wir unseren Anschluss.",
+   "why": "Hielte is the Konjunktiv II of halten, from hielt plus umlaut."
+  },
+  {
+   "id": 47,
+   "skill": "Konjunktiv II of strong verbs from the Prateritum stem",
+   "english": "I would see the film again if I had time",
+   "german": "Ich sähe den Film gern noch einmal, wenn ich Zeit hätte.",
+   "why": "Sähe is the Konjunktiv II of sehen, and hätte closes the wenn-clause."
+  },
+  {
+   "id": 48,
+   "skill": "Konjunktiv II of strong verbs from the Prateritum stem",
+   "english": "he would carry the heavy case alone",
+   "german": "Er trüge den schweren Koffer allein.",
+   "why": "Trüge is the Konjunktiv II of tragen, from the Präteritum trug."
+  },
+  {
+   "id": 49,
+   "skill": "Konjunktiv II of strong verbs from the Prateritum stem",
+   "english": "if the dog ran into the street, that would be dangerous",
+   "german": "Löfe der Hund auf die Straße, wäre das gefährlich.",
+   "why": "An inverted conditional clause with a main clause in the Konjunktiv II of sein."
+  },
+  {
+   "id": 50,
+   "skill": "Konjunktiv II of strong verbs from the Prateritum stem",
+   "english": "I would drink a coffee if I had one",
+   "german": "Ich tränke einen Kaffee, wenn ich einen hätte.",
+   "why": "The Konjunktiv II of trinken is tränke, formed directly from the Präteritum."
+  },
+  {
+   "id": 51,
+   "skill": "Konjunktiv II of strong verbs from the Prateritum stem",
+   "english": "if you ate less sugar, you would feel better",
+   "german": "Wenn du weniger Zucker äßest, ginge es dir besser.",
+   "why": "Äßest is the Konjunktiv II of essen; ginge is the Konjunktiv II of gehen."
+  },
+  {
+   "id": 52,
+   "skill": "Konjunktiv II of strong verbs from the Prateritum stem",
+   "english": "you would speak better after a month here",
+   "german": "Du sprächest nach einem Monat hier besser.",
+   "why": "Sprächest is the Konjunktiv II of sprechen, from sprach plus umlaut."
+  },
+  {
+   "id": 53,
+   "skill": "Konjunktiv II of strong verbs from the Prateritum stem",
+   "english": "if we took a taxi, we would arrive in time",
+   "german": "Nähmen wir ein Taxi, kämen wir pünktlich an.",
+   "why": "An inverted conditional clause with two Konjunktiv II forms in final position."
+  },
+  {
+   "id": 54,
+   "skill": "Konjunktiv II of strong verbs from the Prateritum stem",
+   "english": "if the rope broke, we would be in danger",
+   "german": "Bräche das Seil, wäre die Leitung in Gefahr.",
+   "why": "Bräche is the Konjunktiv II of brechen, from brach plus umlaut."
+  },
+  {
+   "id": 55,
+   "skill": "Konjunktiv II of strong verbs from the Prateritum stem",
+   "english": "I would let you decide",
+   "german": "Ich ließe dir die Entscheidung.",
+   "why": "Ließe is the Konjunktiv II of lassen, which takes no umlaut."
+  },
+  {
+   "id": 56,
+   "skill": "Konjunktiv II of strong verbs from the Prateritum stem",
+   "english": "where would you spend the evening if you had the choice",
+   "german": "Wo verbrächtest du den Abend, wenn du die Wahl hättest?",
+   "why": "Verbrächtest and hättest are the Konjunktiv II of two strong-verb stems plus haben."
+  },
+  {
+   "id": 57,
+   "skill": "Konjunktiv II of strong verbs from the Prateritum stem",
+   "english": "we would read the whole book in one week",
+   "german": "Wir läsen das ganze Buch in einer Woche.",
+   "why": "Läsen is the Konjunktiv II of lesen, built on las plus umlaut."
+  },
+  {
+   "id": 58,
+   "skill": "Konjunktiv II of strong verbs from the Prateritum stem",
+   "english": "if she slept better, she would feel more fit",
+   "german": "Schliefe sie besser, fühle sie sich fitter.",
+   "why": "Schliefe is the Konjunktiv II of schließen, from schlief plus umlaut."
+  },
+  {
+   "id": 59,
+   "skill": "Konjunktiv II of strong verbs from the Prateritum stem",
+   "english": "if the water froze, the pipe would burst",
+   "german": "Froere das Wasser, würde die Leitung platzen.",
+   "why": "Froere is the Konjunktiv II of frieren, while würde carries the neutral verb."
+  },
+  {
+   "id": 60,
+   "skill": "Konjunktiv II of strong verbs from the Prateritum stem",
+   "english": "they would meet in front of the station",
+   "german": "Sie träfen sich vor dem Bahnhof.",
+   "why": "Träfen is the Konjunktiv II of treffen, from traf plus umlaut."
+  },
+  {
+   "id": 61,
+   "skill": "wurde versus the direct Konjunktiv II",
+   "english": "I would like to book a table for tonight",
+   "german": "Ich würde gern für heute Abend einen Tisch buchen.",
+   "why": "With a full verb there is no separate Konjunktiv II, so würde plus gern is correct."
+  },
+  {
+   "id": 62,
+   "skill": "wurde versus the direct Konjunktiv II",
+   "english": "if I had a car, I would drive to work",
+   "german": "Hätte ich ein Auto, würde ich zur Arbeit fahren.",
+   "why": "Hätte forms the condition and würde carries the neutral verb fahren."
+  },
+  {
+   "id": 63,
+   "skill": "wurde versus the direct Konjunktiv II",
+   "english": "he would probably come if we asked him",
+   "german": "Er käme wohl, wenn wir ihn bäten.",
+   "why": "The direct Konjunktiv II of kommen and bitten is the idiomatic written choice."
+  },
+  {
+   "id": 64,
+   "skill": "wurde versus the direct Konjunktiv II",
+   "english": "what would you do if the train was cancelled",
+   "german": "Was würden Sie tun, wenn der Zug ausfiele?",
+   "why": "Ausfiele is the Konjunktiv II of ausfallen, used for a possible but uncertain event."
+  },
+  {
+   "id": 65,
+   "skill": "wurde versus the direct Konjunktiv II",
+   "english": "we would be better off staying at home",
+   "german": "Wir wären besser dran, zu Hause zu bleiben.",
+   "why": "The Konjunktiv II of sein is used; würde sein besser dran would be clumsy."
+  },
+  {
+   "id": 66,
+   "skill": "wurde versus the direct Konjunktiv II",
+   "english": "I would not have seen the mistake without your help",
+   "german": "Ich hätte den Fehler ohne deine Hilfe nicht gesehen.",
+   "why": "The Konjunktiv II of haben forms the unreal past condition."
+  },
+  {
+   "id": 67,
+   "skill": "wurde versus the direct Konjunktiv II",
+   "english": "could you open the window a little",
+   "german": "Könntest du das Fenster einen Spalt öffnen?",
+   "why": "The Konjunktiv II of können makes the request; würde können is not used."
+  },
+  {
+   "id": 68,
+   "skill": "wurde versus the direct Konjunktiv II",
+   "english": "if you insist, I would pay the difference",
+   "german": "Wenn du darauf bestehst, würde ich die Differenz zahlen.",
+   "why": "Bestehst stays indicative because the condition is real, and würde carries the result."
+  },
+  {
+   "id": 69,
+   "skill": "wurde versus the direct Konjunktiv II",
+   "english": "you should really talk to your partner",
+   "german": "Du solltest wirklich mit deiner Partnerin sprechen.",
+   "why": "Solltest is the normal form of advice, so no other Konjunktiv II form appears."
+  },
+  {
+   "id": 70,
+   "skill": "wurde versus the direct Konjunktiv II",
+   "english": "the conference would take place in March",
+   "german": "Die Konferenz fände im März statt.",
+   "why": "Fände is the Konjunktiv II of finden and replaces würde stattfinden."
+  },
+  {
+   "id": 71,
+   "skill": "wurde versus the direct Konjunktiv II",
+   "english": "I would rather not decide today",
+   "german": "Ich möchte heute lieber nicht entscheiden.",
+   "why": "Möchte plus lieber is the idiomatic way to state a preference."
+  },
+  {
+   "id": 72,
+   "skill": "wurde versus the direct Konjunktiv II",
+   "english": "she would have liked to study medicine",
+   "german": "Sie hätte gern Medizin studiert.",
+   "why": "Hätte plus gern forms the unrealised wish."
+  },
+  {
+   "id": 73,
+   "skill": "wurde versus the direct Konjunktiv II",
+   "english": "if the deadline were extended, we could submit later",
+   "german": "Würde die Frist verlängert, könnten wir später einreichen.",
+   "why": "Könnten is the Konjunktiv II of können and not würde können."
+  },
+  {
+   "id": 74,
+   "skill": "wurde versus the direct Konjunktiv II",
+   "english": "we would rather leave now than wait",
+   "german": "Wir würden lieber jetzt gehen als warten.",
+   "why": "With the full verb gehen the Konjunktiv II looks like the indicative, so würde is used."
+  },
+  {
+   "id": 75,
+   "skill": "wurde versus the direct Konjunktiv II",
+   "english": "the committee would probably decide against it",
+   "german": "Der Ausschuss entschiede wahrscheinlich dagegen.",
+   "why": "Entschiede is the Konjunktiv II of entscheiden, from entschied plus umlaut."
+  },
+  {
+   "id": 76,
+   "skill": "wurde versus the direct Konjunktiv II",
+   "english": "if I were you, I would ask for the receipt",
+   "german": "Wäre ich du, würde ich nach der Quittung fragen.",
+   "why": "The Konjunktiv II of sein goes first, and würde carries the neutral verb fragen."
+  },
+  {
+   "id": 77,
+   "skill": "wurde versus the direct Konjunktiv II",
+   "english": "I would like to know when the office opens",
+   "german": "Ich möchte wissen, wann das Büro öffnet.",
+   "why": "Möchte is the Konjunktiv II of mögen and the usual polite opening."
+  },
+  {
+   "id": 78,
+   "skill": "wurde versus the direct Konjunktiv II",
+   "english": "he would hardly have noticed the difference",
+   "german": "Er hätte den Unterschied kaum bemerkt.",
+   "why": "The Konjunktiv II of haben expresses the unreal past situation."
+  },
+  {
+   "id": 79,
+   "skill": "wurde versus the direct Konjunktiv II",
+   "english": "if you had spoken French, we could have travelled together",
+   "german": "Hättest du Französisch gesprochen, hätten wir zusammen reisen können.",
+   "why": "Hättest and hätten können are both Konjunktiv II with no use of würde."
+  },
+  {
+   "id": 80,
+   "skill": "wurde versus the direct Konjunktiv II",
+   "english": "you would be foolish to argue about that",
+   "german": "Es wäre töricht, darüber zu streiten.",
+   "why": "The Konjunktiv II of sein gives the assessment; würde plus an infinitive would be clunky."
+  },
+  {
+   "id": 81,
+   "skill": "Konjunktiv II forms in subordinate clauses",
+   "english": "if I had more time, I would take a course",
+   "german": "Wenn ich mehr Zeit hätte, würde ich einen Kurs belegen.",
+   "why": "The Konjunktiv II of haben stands in the final position of the wenn-clause."
+  },
+  {
+   "id": 82,
+   "skill": "Konjunktiv II forms in subordinate clauses",
+   "english": "whether we would come or not",
+   "german": "ob wir kämen oder nicht",
+   "why": "The Konjunktiv II of kommen closes the negated ob-clause."
+  },
+  {
+   "id": 83,
+   "skill": "Konjunktiv II forms in subordinate clauses",
+   "english": "it seemed as if nobody had understood the instructions",
+   "german": "Es sah aus, als hätte niemand die Anweisungen verstanden.",
+   "why": "The Konjunktiv II of haben forms the unreal content of the als-clause."
+  },
+  {
+   "id": 84,
+   "skill": "Konjunktiv II forms in subordinate clauses",
+   "english": "she restructured the plan so that the result would be better",
+   "german": "Sie hat den Plan umgestellt, damit das Ergebnis besser wäre.",
+   "why": "A damit-clause takes the Konjunktiv II, with the verb in final position."
+  },
+  {
+   "id": 85,
+   "skill": "Konjunktiv II forms in subordinate clauses",
+   "english": "in case she had not noticed the deadline",
+   "german": "falls sie die Frist nicht bemerkt hätte",
+   "why": "The Perfekt Konjunktiv II of bemerken closes the falls-clause."
+  },
+  {
+   "id": 86,
+   "skill": "Konjunktiv II forms in subordinate clauses",
+   "english": "even if it were expensive, it would be worth it",
+   "german": "Selbst wenn es teuer wäre, wäre es das Geld wert.",
+   "why": "Two Konjunktiv II forms of sein, one in each clause."
+  },
+  {
+   "id": 87,
+   "skill": "Konjunktiv II forms in subordinate clauses",
+   "english": "everything seemed as if it had been planned",
+   "german": "Alles wirkte, als wäre es geplant gewesen.",
+   "why": "Wäre plus a participle forms the Konjunktiv II in the als-clause."
+  },
+  {
+   "id": 88,
+   "skill": "Konjunktiv II forms in subordinate clauses",
+   "english": "unless I had studied more, I would not get the job",
+   "german": "Wenn ich mehr gelernt hätte, bekäme ich die Stelle nicht.",
+   "why": "The condition stands in the Konjunktiv II, and bekäme forms the main clause."
+  },
+  {
+   "id": 89,
+   "skill": "Konjunktiv II forms in subordinate clauses",
+   "english": "as if he had never heard of it",
+   "german": "als hätte er nie davon gehört",
+   "why": "The Konjunktiv II of haben stands at the end of the als-clause."
+  },
+  {
+   "id": 90,
+   "skill": "Konjunktiv II forms in subordinate clauses",
+   "english": "I would stay if I were you",
+   "german": "Ich würde bleiben, wenn ich du wäre.",
+   "why": "Wäre is the Konjunktiv II of sein in the final position of the wenn-clause."
+  },
+  {
+   "id": 91,
+   "skill": "Konjunktiv II forms in subordinate clauses",
+   "english": "he asked whether we would come",
+   "german": "Er fragte, ob wir kommen würden.",
+   "why": "In a reported question the Konjunktiv II follows ob in final position."
+  },
+  {
+   "id": 92,
+   "skill": "Konjunktiv II forms in subordinate clauses",
+   "english": "they complained that nobody had informed them",
+   "german": "Sie beschwerten sich, dass sie niemand informiert hätte.",
+   "why": "The Konjunktiv II of haben closes the dass-clause while the main clause stays Konjunktiv I."
+  },
+  {
+   "id": 93,
+   "skill": "Konjunktiv II forms in subordinate clauses",
+   "english": "so that nobody would be late",
+   "german": "damit niemand zu spät käme",
+   "why": "The Konjunktiv II of kommen gives the intended result of the action."
+  },
+  {
+   "id": 94,
+   "skill": "Konjunktiv II forms in subordinate clauses",
+   "english": "if it were up to me, I would cancel the trip",
+   "german": "Wenn es nach mir ginge, würde ich die Reise absagen.",
+   "why": "Ginge is the Konjunktiv II of gehen in the wenn-clause, and würde carries absagen."
+  },
+  {
+   "id": 95,
+   "skill": "Konjunktiv II forms in subordinate clauses",
+   "english": "although we had warned him, he came anyway",
+   "german": "Obwohl wir ihn gewarnt hatten, kam er trotzdem.",
+   "why": "The Plusquamperfekt in the obwohl-clause marks the earlier completed action."
+  },
+  {
+   "id": 96,
+   "skill": "Konjunktiv II forms in subordinate clauses",
+   "english": "he behaved as if the matter were urgent",
+   "german": "Er benahm sich, als wäre die Sache dringend.",
+   "why": "Wäre in final position of the als-clause describes a mere assumption."
+  },
+  {
+   "id": 97,
+   "skill": "Konjunktiv II forms in subordinate clauses",
+   "english": "in case you had asked me earlier, I would have helped",
+   "german": "Falls du mich früher gefragt hättest, hätte ich geholfen.",
+   "why": "Hättest and hätte are Konjunktiv II forms spread across the two clauses."
+  },
+  {
+   "id": 98,
+   "skill": "Konjunktiv II forms in subordinate clauses",
+   "english": "I doubt whether they would agree",
+   "german": "Ich bezweifle, dass sie zustimmen würden.",
+   "why": "The Konjunktiv II of zustimmen closes the dass-clause after bezweifeln."
+  },
+  {
+   "id": 99,
+   "skill": "Konjunktiv II forms in subordinate clauses",
+   "english": "once he had explained everything, we understood",
+   "german": "Nachdem er alles erklärt hatte, verstanden wir.",
+   "why": "The Konjunktiv II of haben in the nachdem-clause marks the completed earlier action."
+  },
+  {
+   "id": 100,
+   "skill": "Konjunktiv II forms in subordinate clauses",
+   "english": "whatever decision they made, we would go along with it",
+   "german": "Welche Entscheidung sie auch träfen, wir würden mitgehen.",
+   "why": "Träfen is the Konjunktiv II of treffen in a free-thematic clause."
+  }
+ ]
+}

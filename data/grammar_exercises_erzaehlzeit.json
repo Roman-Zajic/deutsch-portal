@@ -1,0 +1,704 @@
+{
+ "exercises": [
+  {
+   "id": 1,
+   "skill": "Präteritum as the narrative tense",
+   "english": "In 1987 the company moved its headquarters to Stuttgart.",
+   "german": "1987 verlegte das Unternehmen seinen Hauptsitz nach Stuttgart.",
+   "why": "A neutral factual report takes the Präteritum verlegte, not the Perfekt."
+  },
+  {
+   "id": 2,
+   "skill": "Präteritum as the narrative tense",
+   "english": "The old town hall was torn down after the war.",
+   "german": "Nach dem Krieg riss man das alte Rathaus ab.",
+   "why": "Passive narrative with the Präteritum of the modal man."
+  },
+  {
+   "id": 3,
+   "skill": "Präteritum as the narrative tense",
+   "english": "My grandfather worked as a railway engineer for forty years.",
+   "german": "Mein Großvater arbeitete vierzig Jahre lang als Eisenbahningenieur.",
+   "why": "A biographical stretch of life is narrated in the Präteritum."
+  },
+  {
+   "id": 4,
+   "skill": "Präteritum as the narrative tense",
+   "english": "The committee rejected the proposal without a long discussion.",
+   "german": "Der Ausschuss lehnte den Antrag ab, ohne lange zu diskutieren.",
+   "why": "Präteritum lehnte ab with the zu-infinitive clause placed at the end."
+  },
+  {
+   "id": 5,
+   "skill": "Präteritum as the narrative tense",
+   "english": "She took over the workshop from her uncle in 2003.",
+   "german": "2003 übernahm sie die Werkstatt von ihrem Onkel.",
+   "why": "Verbs of transfer and change of ownership take the Präteritum here."
+  },
+  {
+   "id": 6,
+   "skill": "Präteritum as the narrative tense",
+   "english": "The delegation arrived two days late.",
+   "german": "Die Delegation kam zwei Tage zu spät.",
+   "why": "A short factual statement in a report is built on the Präteritum kam."
+  },
+  {
+   "id": 7,
+   "skill": "Präteritum as the narrative tense",
+   "english": "Nobody understood the real reason for his resignation.",
+   "german": "Niemand verstand den wahren Grund für seinen Rücktritt.",
+   "why": "A second past event on the same narrative level stays in the Präteritum."
+  },
+  {
+   "id": 8,
+   "skill": "Präteritum as the narrative tense",
+   "english": "They planted apple trees all along the avenue.",
+   "german": "Sie pflanzten die ganze Allee mit Apfelbäumen.",
+   "why": "Präteritum pflanzten with a dative object complement mit."
+  },
+  {
+   "id": 9,
+   "skill": "Präteritum as the narrative tense",
+   "english": "The factory employed four hundred people in its best years.",
+   "german": "Die Fabrik beschäftigte in ihren besten Jahren vierhundert Menschen.",
+   "why": "A written description of a past state uses the Präteritum beschäftigte."
+  },
+  {
+   "id": 10,
+   "skill": "Präteritum as the narrative tense",
+   "english": "He wrote in his diary that the situation was getting worse.",
+   "german": "Er schrieb in sein Tagebuch, dass die Lage schlimmer wurde.",
+   "why": "The dass-clause reports a fact rather than a speaker opinion, so it stays indicative."
+  },
+  {
+   "id": 11,
+   "skill": "Präteritum as the narrative tense",
+   "english": "The river flooded the lower streets several times in that decade.",
+   "german": "Der Fluss überflutete in jenem Jahrzehnt mehrmals die unteren Straßen.",
+   "why": "Historical narration with the Präteritum of a strong verb, überflutete."
+  },
+  {
+   "id": 12,
+   "skill": "Präteritum as the narrative tense",
+   "english": "The minister denied having been informed about the failure.",
+   "german": "Der Minister bestritt, ihn von dem Vorfall informiert zu haben.",
+   "why": "Präteritum bestritt with an infinitive clause and a perfect participle inside."
+  },
+  {
+   "id": 13,
+   "skill": "Präteritum as the narrative tense",
+   "english": "After the lecture we walked home through the old town.",
+   "german": "Nach der Vorlesung gingen wir durch die Altstadt nach Hause.",
+   "why": "After a temporal preposition the narrative verb is the Präteritum gingen."
+  },
+  {
+   "id": 14,
+   "skill": "Präteritum as the narrative tense",
+   "english": "The publisher rejected the manuscript without reading it.",
+   "german": "Der Verlag lehnte das Manuskript ab, ohne es zu lesen.",
+   "why": "The pronoun es inside the infinitive clause refers back to das Manuskript."
+  },
+  {
+   "id": 15,
+   "skill": "Präteritum as the narrative tense",
+   "english": "Her life changed completely when she moved abroad.",
+   "german": "Ihr Leben änderte sich grundlegend, als sie ins Ausland zog.",
+   "why": "After als the event that sets the change in motion also takes the Präteritum zog."
+  },
+  {
+   "id": 16,
+   "skill": "Präteritum as the narrative tense",
+   "english": "The museum opened a new wing in the spring of that year.",
+   "german": "Das Museum eröffnete im Frühjahr jenes Jahres einen neuen Flügel.",
+   "why": "A dated official statement is normally written in the Präteritum."
+  },
+  {
+   "id": 17,
+   "skill": "Präteritum as the narrative tense",
+   "english": "He knew everybody in the village but spoke to very few.",
+   "german": "Er kannte im Dorf jeden, sprach aber mit sehr wenigen.",
+   "why": "Two coordinated Präteritum verbs joined by aber describe the same stretch of time."
+  },
+  {
+   "id": 18,
+   "skill": "Präteritum as the narrative tense",
+   "english": "The engine stopped twice on the way to the coast.",
+   "german": "Der Motor blieb zweimal auf dem Weg zur Küste stehen.",
+   "why": "The separable verb bleibt stehen keeps its prefix in the infinitive after bleiben."
+  },
+  {
+   "id": 19,
+   "skill": "Präteritum as the narrative tense",
+   "english": "They voted on the proposal only once, in November.",
+   "german": "Sie stimmten nur einmal über den Antrag ab, im November.",
+   "why": "The separable verb abstimmen splits as ab in the Präteritum: stimmten ab."
+  },
+  {
+   "id": 20,
+   "skill": "Präteritum as the narrative tense",
+   "english": "The war changed the whole region for good.",
+   "german": "Der Krieg veränderte die gesamte Region für immer.",
+   "why": "A general statement about the past is made in the Präteritum."
+  },
+  {
+   "id": 21,
+   "skill": "Plusquamperfekt for the earlier event",
+   "english": "I had already paid the bill when she arrived.",
+   "german": "Ich hatte die Rechnung schon bezahlt, als sie ankam.",
+   "why": "The earlier action is Plusquamperfekt, the later one the Präteritum ankam."
+  },
+  {
+   "id": 22,
+   "skill": "Plusquamperfekt for the earlier event",
+   "english": "We had never seen such heavy snowfall before that winter.",
+   "german": "Vor diesem Winter hatten wir noch nie so starken Schneefall erlebt.",
+   "why": "Bis with a time point turns hatte erlebt into a Plusquamperfekt."
+  },
+  {
+   "id": 23,
+   "skill": "Plusquamperfekt for the earlier event",
+   "english": "The museum had closed an hour before we arrived.",
+   "german": "Das Museum hatte schon eine Stunde vor unserer Ankunft geschlossen.",
+   "why": "The duration vor unserer Ankunft fixes the closing as the earlier event."
+  },
+  {
+   "id": 24,
+   "skill": "Plusquamperfekt for the earlier event",
+   "english": "She had studied chemistry for four years before she changed her mind.",
+   "german": "Sie hatte vier Jahre Chemie studiert, bevor sie ihre Meinung änderte.",
+   "why": "The length of study lies before the decision, so it is a Plusquamperfekt."
+  },
+  {
+   "id": 25,
+   "skill": "Plusquamperfekt for the earlier event",
+   "english": "The letter had been lying unopened on the shelf for days.",
+   "german": "Der Brief hatte tagelang ungelesen auf dem Regal gelegen.",
+   "why": "A state that lasted up to a past moment is expressed with hatte gelegen."
+  },
+  {
+   "id": 26,
+   "skill": "Plusquamperfekt for the earlier event",
+   "english": "He had forgotten her name, so he waited outside.",
+   "german": "Er hatte ihren Namen vergessen, deshalb wartete er draußen.",
+   "why": "The forgetting is the earlier event; the waiting is the Präteritum main clause."
+  },
+  {
+   "id": 27,
+   "skill": "Plusquamperfekt for the earlier event",
+   "english": "By 2010 the town had grown by nearly a third.",
+   "german": "Bis 2010 war die Stadt um fast ein Drittel gewachsen.",
+   "why": "Bis plus a change-of-state verb takes war as the auxiliary of the Plusquamperfekt."
+  },
+  {
+   "id": 28,
+   "skill": "Plusquamperfekt for the earlier event",
+   "english": "They had eaten before the film started, so they were hungry again.",
+   "german": "Sie hatten vor dem Film gegessen und bekamen später wieder Hunger.",
+   "why": "A hatte-gegessen clause and a Präteritum clause carry the two different time planes."
+  },
+  {
+   "id": 29,
+   "skill": "Plusquamperfekt for the earlier event",
+   "english": "The teacher asked why we had not done the exercise.",
+   "german": "Die Lehrerin fragte, warum wir die Übung nicht gemacht hatten.",
+   "why": "The indirect question is a verb-final clause with the Plusquamperfekt at its end."
+  },
+  {
+   "id": 30,
+   "skill": "Plusquamperfekt for the earlier event",
+   "english": "Once the old tree had been cut down, the view was much better.",
+   "german": "Sobald der alte Baum gefällt worden war, war der Blick viel besser.",
+   "why": "The Vorgangspassiv in the Plusquamperfekt is worden plus participle plus war."
+  },
+  {
+   "id": 31,
+   "skill": "Plusquamperfekt for the earlier event",
+   "english": "Until that evening I had never tasted a better soup.",
+   "german": "Bis zu jenem Abend hatte ich noch nie eine bessere Suppe gekostet.",
+   "why": "Bis zu with a time limit marks the tasting as lying before a past moment."
+  },
+  {
+   "id": 32,
+   "skill": "Plusquamperfekt for the earlier event",
+   "english": "She noticed that he had already read the message.",
+   "german": "Sie merkte, dass er die Nachricht schon gelesen hatte.",
+   "why": "The dass-clause reports a completed earlier event, so gelesen hatte is Plusquamperfekt."
+  },
+  {
+   "id": 33,
+   "skill": "Plusquamperfekt for the earlier event",
+   "english": "The delegation had waited two hours before they were admitted.",
+   "german": "Die Delegation hatte zwei Stunden gewartet, bevor sie hereingelassen wurde.",
+   "why": "The waiting precedes the later passive event, so it is a Plusquamperfekt."
+  },
+  {
+   "id": 34,
+   "skill": "Plusquamperfekt for the earlier event",
+   "english": "Nothing had changed in the village during all those years.",
+   "german": "In all den Jahren hatte sich im Dorf nichts geändert.",
+   "why": "Reflexive sich with hatte marks the state that held before the point narrated."
+  },
+  {
+   "id": 35,
+   "skill": "Plusquamperfekt for the earlier event",
+   "english": "When we reached the airport, the airline had already cancelled our flight.",
+   "german": "Als wir am Flughafen ankamen, hatte die Airline unseren Flug schon annulliert.",
+   "why": "The main clause is Präteritum ankam, the subordinate clause Plusquamperfekt annulliert."
+  },
+  {
+   "id": 36,
+   "skill": "Plusquamperfekt for the earlier event",
+   "english": "He had written three drafts before he showed anyone the text.",
+   "german": "Er hatte drei Fassungen geschrieben, bevor er jemandem den Text zeigte.",
+   "why": "The number of earlier attempts is expressed in the Plusquamperfekt."
+  },
+  {
+   "id": 37,
+   "skill": "Plusquamperfekt for the earlier event",
+   "english": "The building had stood empty for years before the renovation began.",
+   "german": "Das Gebäude hatte jahrelang leer gestanden, bevor mit dem Umbau begonnen wurde.",
+   "why": "A long state that ended before a past event is a Plusquamperfekt with hatte."
+  },
+  {
+   "id": 38,
+   "skill": "Plusquamperfekt for the earlier event",
+   "english": "She had trained as a nurse for six years before she switched to law.",
+   "german": "Sie hatte sechs Jahre Krankenpflege gelernt, bevor sie auf Jura wechselte.",
+   "why": "The training is the earlier period, expressed with hatte gelernt."
+  },
+  {
+   "id": 39,
+   "skill": "Plusquamperfekt for the earlier event",
+   "english": "Both parents had worked abroad when the children were small.",
+   "german": "Beide Eltern hatten im Ausland gearbeitet, als die Kinder klein waren.",
+   "why": "A relative clause in the Plusquamperfekt attached to a Präteritum when-clause."
+  },
+  {
+   "id": 40,
+   "skill": "Plusquamperfekt for the earlier event",
+   "english": "He had warned me twice before I understood the danger.",
+   "german": "Er hatte mich zweimal gewarnt, bevor ich die Gefahr verstand.",
+   "why": "The repeated earlier act takes the Plusquamperfekt, das understanding the Präteritum."
+  },
+  {
+   "id": 41,
+   "skill": "Plusquamperfekt with modal verbs",
+   "english": "We had to wait at customs for three hours.",
+   "german": "Wir hatten beim Zoll drei Stunden lang warten müssen.",
+   "why": "In the Plusquamperfekt the modal loses its infinitive and keeps the lexical verb."
+  },
+  {
+   "id": 42,
+   "skill": "Plusquamperfekt with modal verbs",
+   "english": "She was not allowed to use the service entrance.",
+   "german": "Sie hatte den Personaleingang nicht benutzen dürfen.",
+   "why": "A modal prohibition earlier than a past moment is hatte plus gedurft."
+  },
+  {
+   "id": 43,
+   "skill": "Plusquamperfekt with modal verbs",
+   "english": "He had not been able to finish the translation in time.",
+   "german": "Er hatte die Übersetzung nicht rechtzeitig fertig machen können.",
+   "why": "The lexical infinitive fertig machen stays, the modal contributes gekonnt."
+  },
+  {
+   "id": 44,
+   "skill": "Plusquamperfekt with modal verbs",
+   "english": "The doctor had to operate without any help.",
+   "german": "Der Arzt hatte ohne jede Hilfe operieren müssen.",
+   "why": "A single lexical infinitive plus a modal participle closes the clause."
+  },
+  {
+   "id": 45,
+   "skill": "Plusquamperfekt with modal verbs",
+   "english": "We had to use the stairs because the lift was out of order.",
+   "german": "Wir hatten die Treppe benutzen müssen, weil der Aufzug außer Betrieb war.",
+   "why": "The modal in the Plusquamperfekt takes gemusst, the reason clause uses the Präteritum."
+  },
+  {
+   "id": 46,
+   "skill": "Plusquamperfekt with modal verbs",
+   "english": "Nobody was permitted to park in the courtyard.",
+   "german": "Niemand hatte im Innenhof parken dürfen.",
+   "why": "A separable prefix stays whole in the final position: parken dürfen."
+  },
+  {
+   "id": 47,
+   "skill": "Plusquamperfekt with modal verbs",
+   "english": "She had to give up smoking after the second operation.",
+   "german": "Sie hatte nach der zweiten Operation mit dem Rauchen aufhören müssen.",
+   "why": "The mit-infinitive and the modal participle form the clause-final verb cluster."
+  },
+  {
+   "id": 48,
+   "skill": "Plusquamperfekt with modal verbs",
+   "english": "The school was supposed to close at five, and we had to wait outside.",
+   "german": "Die Schule hatte um fünf schließen sollen, und wir hatten bis sechs draußen warten müssen.",
+   "why": "Two modal Plusquamperfekte: hatte schließen sollen and hatten warten müssen."
+  },
+  {
+   "id": 49,
+   "skill": "Plusquamperfekt with modal verbs",
+   "english": "I had to look up three words in the dictionary.",
+   "german": "Ich hatte drei Wörter im Wörterbuch nachschlagen müssen.",
+   "why": "The separable prefix of nachschlagen reappears in the infinitive at the end."
+  },
+  {
+   "id": 50,
+   "skill": "Plusquamperfekt with modal verbs",
+   "english": "They were not supposed to discuss the case with the press.",
+   "german": "Sie hatten mit der Presse nicht über den Fall sprechen dürfen.",
+   "why": "Negation sits between the prepositional phrase and the infinitive cluster."
+  },
+  {
+   "id": 51,
+   "skill": "Plusquamperfekt with modal verbs",
+   "english": "We had to book a second hotel because the first was full.",
+   "german": "Wir hatten ein zweites Hotel buchen müssen, weil das erste voll war.",
+   "why": "The modal in the second past governs the lexical infinitive at the clause end."
+  },
+  {
+   "id": 52,
+   "skill": "Plusquamperfekt with modal verbs",
+   "english": "He had been unable to reach her on the phone.",
+   "german": "Er hatte sie telefonisch nicht erreichen können.",
+   "why": "A negated modal ability earlier than a past point is hatte plus gekonnt."
+  },
+  {
+   "id": 53,
+   "skill": "Plusquamperfekt with modal verbs",
+   "english": "Nobody had been allowed to use the old bridge any more.",
+   "german": "Niemand hatte die alte Brücke noch benutzen dürfen.",
+   "why": "The temporal adverb noch and the modal gedurft mark the earlier restriction."
+  },
+  {
+   "id": 54,
+   "skill": "Plusquamperfekt with modal verbs",
+   "english": "We had to take a taxi because the last bus had already left the square.",
+   "german": "Wir hatten ein Taxi nehmen müssen, weil der letzte Bus schon gegangen war.",
+   "why": "A modal Plusquamperfekt in the main clause with a war-clause as the reason."
+  },
+  {
+   "id": 55,
+   "skill": "Plusquamperfekt with modal verbs",
+   "english": "I had to work overtime for three weeks that autumn.",
+   "german": "Ich hatte in jenem Herbst drei Wochen lang Überstunden machen müssen.",
+   "why": "A lexical infinitive with zu plus the modal participle gemusst closes the clause."
+  },
+  {
+   "id": 56,
+   "skill": "Plusquamperfekt with modal verbs",
+   "english": "They had to cancel the wedding because of the storm.",
+   "german": "Sie hatten die Hochzeit wegen des Sturms absagen müssen.",
+   "why": "A separable verb stays intact in the infinitive before the modal participle."
+  },
+  {
+   "id": 57,
+   "skill": "Plusquamperfekt with modal verbs",
+   "english": "We were not supposed to mention the name of the client.",
+   "german": "Wir hatten den Namen des Kunden nicht nennen dürfen.",
+   "why": "The modal Plusquamperfekt places nicht in front of the lexical infinitive."
+  },
+  {
+   "id": 58,
+   "skill": "Plusquamperfekt with modal verbs",
+   "english": "He had wanted to study medicine, but he changed his mind.",
+   "german": "Er hatte Medizin studieren wollen, entschied sich dann aber anders.",
+   "why": "The earlier intention is a modal Plusquamperfekt with gewollt."
+  },
+  {
+   "id": 59,
+   "skill": "Plusquamperfekt with modal verbs",
+   "english": "The tenant had to pay for the new window himself.",
+   "german": "Der Mieter hatte das neue Fenster selbst bezahlen müssen.",
+   "why": "The reflexive-looking selbst is an adverb placed before the final verb cluster."
+  },
+  {
+   "id": 60,
+   "skill": "Plusquamperfekt with modal verbs",
+   "english": "We had to leave the ship before it reached the harbour.",
+   "german": "Wir hatten das Schiff verlassen müssen, bevor es den Hafen erreichte.",
+   "why": "The modal Plusquamperfekt precedes a bevor-clause in the Präteritum."
+  },
+  {
+   "id": 61,
+   "skill": "Two past events in one sentence",
+   "english": "After we had paid, the waiter brought the bill again.",
+   "german": "Nachdem wir bezahlt hatten, brachte der Kellner die Rechnung noch einmal.",
+   "why": "A nachdem-clause in the Plusquamperfekt precedes the Präteritum main clause."
+  },
+  {
+   "id": 62,
+   "skill": "Two past events in one sentence",
+   "english": "Because he had lost his passport, he could not board the plane.",
+   "german": "Weil er seinen Pass verloren hatte, konnte er nicht in das Flugzeug einsteigen.",
+   "why": "The reason sits in a Plusquamperfekt, the consequence in the Präteritum."
+  },
+  {
+   "id": 63,
+   "skill": "Two past events in one sentence",
+   "english": "She had already locked the door when the phone rang.",
+   "german": "Sie hatte die Tür schon abgeschlossen, als das Telefon klingelte.",
+   "why": "The completed action before the als-clause is a Plusquamperfekt."
+  },
+  {
+   "id": 64,
+   "skill": "Two past events in one sentence",
+   "english": "When I arrived, the film had already started.",
+   "german": "Als ich ankam, hatte der Film schon angefangen.",
+   "why": "A Präteritum als-clause is followed by the Plusquamperfekt for the earlier event."
+  },
+  {
+   "id": 65,
+   "skill": "Two past events in one sentence",
+   "english": "The office had closed at six, so nobody answered the phone.",
+   "german": "Das Büro hatte um sechs geschlossen, deshalb ging niemand ans Telefon.",
+   "why": "The earlier closing uses hatte, the later reaction the Präteritum ging."
+  },
+  {
+   "id": 66,
+   "skill": "Two past events in one sentence",
+   "english": "After they had waited an hour, they finally got a taxi.",
+   "german": "Nachdem sie eine Stunde lang gewartet hatten, bekamen sie endlich ein Taxi.",
+   "why": "The duration of waiting belongs to the Plusquamperfekt, the outcome to the Präteritum."
+  },
+  {
+   "id": 67,
+   "skill": "Two past events in one sentence",
+   "english": "She did not go on holiday because she had not saved enough money.",
+   "german": "Sie fuhr nicht in den Urlaub, weil sie nicht genug Geld gespart hatte.",
+   "why": "A negated Präteritum main clause with a Plusquamperfekt reason clause."
+  },
+  {
+   "id": 68,
+   "skill": "Two past events in one sentence",
+   "english": "The meeting began only after everyone had arrived.",
+   "german": "Die Besprechung begann erst, nachdem alle angekommen waren.",
+   "why": "The temporal subordinate clause closes the sentence with the auxiliary war."
+  },
+  {
+   "id": 69,
+   "skill": "Two past events in one sentence",
+   "english": "When the storm had passed, they left the campsite.",
+   "german": "Als der Sturm vorübergezogen war, verließen sie den Campingplatz.",
+   "why": "The earlier event is war plus participle, the main clause is the Präteritum verließen."
+  },
+  {
+   "id": 70,
+   "skill": "Two past events in one sentence",
+   "english": "He was late because he had missed the earlier train.",
+   "german": "Er kam zu spät, weil er den früheren Zug verpasst hatte.",
+   "why": "Two different time planes on two sides of the weil-clause."
+  },
+  {
+   "id": 71,
+   "skill": "Two past events in one sentence",
+   "english": "After the letter had arrived, she called the office.",
+   "german": "Nachdem der Brief angekommen war, erkundigte sie sich bei der Firma.",
+   "why": "An intransitive verb of movement takes war in the Plusquamperfekt."
+  },
+  {
+   "id": 72,
+   "skill": "Two past events in one sentence",
+   "english": "They ate well because they had bought groceries on the way.",
+   "german": "Sie aßen gut, weil sie unterwegs Lebensmittel eingekauft hatten.",
+   "why": "The Präteritum aßen and the Plusquamperfekt gekauft hatten cover different layers."
+  },
+  {
+   "id": 73,
+   "skill": "Two past events in one sentence",
+   "english": "The shop reopened only after it had been renovated.",
+   "german": "Der Laden öffnete erst wieder, nachdem er renoviert worden war.",
+   "why": "A passive Plusquamperfekt closes the nachdem-clause."
+  },
+  {
+   "id": 74,
+   "skill": "Two past events in one sentence",
+   "english": "I understood the question only after I had read the text twice.",
+   "german": "Ich verstand die Frage erst, nachdem ich den Text zweimal gelesen hatte.",
+   "why": "Erst marks the later event, the nachdem-clause the earlier one."
+  },
+  {
+   "id": 75,
+   "skill": "Two past events in one sentence",
+   "english": "Because they had not reserved a table, they had to wait.",
+   "german": "Weil sie keinen Tisch reserviert hatten, mussten sie warten.",
+   "why": "A Plusquamperfekt reason clause followed by a modal Präteritum."
+  },
+  {
+   "id": 76,
+   "skill": "Two past events in one sentence",
+   "english": "When she had finished her report, everyone left the room.",
+   "german": "Als sie ihren Bericht beendet hatte, verließen alle den Raum.",
+   "why": "The two time planes are marked by hatte beendet and Präteritum verließen."
+  },
+  {
+   "id": 77,
+   "skill": "Two past events in one sentence",
+   "english": "The address was wrong because he had copied it carelessly.",
+   "german": "Die Adresse war falsch, weil er sie fahrlässig abgeschrieben hatte.",
+   "why": "The state war falsch belongs to a past moment, the cause is earlier still."
+  },
+  {
+   "id": 78,
+   "skill": "Two past events in one sentence",
+   "english": "The concert began before we had found our seats.",
+   "german": "Das Konzert begann, bevor wir unsere Plätze gefunden hatten.",
+   "why": "The later event first in the main clause, the earlier one in the bevor-clause."
+  },
+  {
+   "id": 79,
+   "skill": "Two past events in one sentence",
+   "english": "After the war had ended, thousands of families returned home.",
+   "german": "Nachdem der Krieg geendet hatte, kehrten tausend Familien nach Hause zurück.",
+   "why": "A Plusquamperfekt nachdem-clause and a Präteritum main clause with a separable prefix."
+  },
+  {
+   "id": 80,
+   "skill": "Two past events in one sentence",
+   "english": "She could not enter because she had left her pass at home.",
+   "german": "Sie konnte nicht eintreten, weil sie ihren Ausweis zu Hause gelassen hatte.",
+   "why": "A modal Präteritum in the main clause and a Plusquamperfekt in the weil-clause."
+  },
+  {
+   "id": 81,
+   "skill": "Choosing Präteritum vs. Perfekt in writing",
+   "english": "Write a formal report sentence: the council met in March and decided to close the pool.",
+   "german": "Der Stadtrat trat im März zusammen und beschloss, das Freibad zu schließen.",
+   "why": "A formal report takes the Präteritum for both the meeting and the decision."
+  },
+  {
+   "id": 82,
+   "skill": "Choosing Präteritum vs. Perfekt in writing",
+   "english": "Say casually at the office that you have already sent the file.",
+   "german": "Ich habe die Datei schon geschickt.",
+   "why": "Spoken German about a current result uses the Perfekt."
+  },
+  {
+   "id": 83,
+   "skill": "Choosing Präteritum vs. Perfekt in writing",
+   "english": "Give the plot of the film: the hero leaves the island and never returns.",
+   "german": "Der Held verlässt die Insel und kehrt nie zurück.",
+   "why": "Plot summaries are narrated in the Präteritum regardless of the film is recent."
+  },
+  {
+   "id": 84,
+   "skill": "Choosing Präteritum vs. Perfekt in writing",
+   "english": "Explain to a friend that you have visited the new exhibition three times.",
+   "german": "Ich habe die neue Ausstellung dreimal besucht.",
+   "why": "An experience up to today belongs in the Perfekt."
+  },
+  {
+   "id": 85,
+   "skill": "Choosing Präteritum vs. Perfekt in writing",
+   "english": "In a history lesson: the economy collapsed in 1929 and unemployment rose sharply.",
+   "german": "Die Wirtschaft brach 1929 zusammen, und die Arbeitslosigkeit stieg stark.",
+   "why": "A history lesson is written narrative, so the Präteritum dominates."
+  },
+  {
+   "id": 86,
+   "skill": "Choosing Präteritum vs. Perfekt in writing",
+   "english": "Tell your flatmate that you have already eaten.",
+   "german": "Ich habe schon gegessen.",
+   "why": "The state still holds now, so the Perfekt is the natural choice in speech."
+  },
+  {
+   "id": 87,
+   "skill": "Choosing Präteritum vs. Perfekt in writing",
+   "english": "In an official report: two employees left the company in 2020 without notice.",
+   "german": "Zwei Mitarbeiter verließen das Unternehmen 2020 ohne Kündigungsfrist.",
+   "why": "Official reports look backwards and take the Präteritum verließen."
+  },
+  {
+   "id": 88,
+   "skill": "Choosing Präteritum vs. Perfekt in writing",
+   "english": "Say that you have already paid the invoice.",
+   "german": "Ich habe die Rechnung schon bezahlt.",
+   "why": "A completed action with present relevance is a Perfekt, not a Plusquamperfekt."
+  },
+  {
+   "id": 89,
+   "skill": "Choosing Präteritum vs. Perfekt in writing",
+   "english": "Summarise the legend: the treasure was buried in 1840 and nobody found it again.",
+   "german": "Der Schatz wurde 1840 vergraben und nie wieder gefunden.",
+   "why": "A narrative summary prefers the Präteritum of the passive, wurde vergraben."
+  },
+  {
+   "id": 90,
+   "skill": "Choosing Präteritum vs. Perfekt in writing",
+   "english": "Mention casually that you have met her a few times.",
+   "german": "Ich habe sie ein paarmal getroffen.",
+   "why": "An informal mention of a past meeting uses the Perfekt getroffen."
+  },
+  {
+   "id": 91,
+   "skill": "Choosing Präteritum vs. Perfekt in writing",
+   "english": "In a company history: the founder established the workshop in 1902 and ran it until 1934.",
+   "german": "Der Gründer richtete 1902 die Werkstatt ein und führte sie bis 1934.",
+   "why": "Company histories are continuous narration and use the Präteritum throughout."
+  },
+  {
+   "id": 92,
+   "skill": "Choosing Präteritum vs. Perfekt in writing",
+   "english": "Say that you have lost your keys again.",
+   "german": "Ich habe schon wieder meinen Schlüssel verloren.",
+   "why": "A complaint about the present uses the Perfekt with a separable-free participle."
+  },
+  {
+   "id": 93,
+   "skill": "Choosing Präteritum vs. Perfekt in writing",
+   "english": "In a news report: the storm damaged three houses in the village centre.",
+   "german": "Der Sturm beschädigte drei Häuser im Zentrum des Dorfes.",
+   "why": "A printed news report narrates the event in the Präteritum."
+  },
+  {
+   "id": 94,
+   "skill": "Choosing Präteritum vs. Perfekt in writing",
+   "english": "Tell someone that you have already read the whole report.",
+   "german": "Ich habe den ganzen Bericht schon gelesen.",
+   "why": "The result is relevant now, so the Perfekt is correct in speech."
+  },
+  {
+   "id": 95,
+   "skill": "Choosing Präteritum vs. Perfekt in writing",
+   "english": "In a review: the film was long, slow and nevertheless impressive.",
+   "german": "Der Film war lang, langsam und trotzdem eindrucksvoll.",
+   "why": "A critical judgement about a past film is expressed with the Präteritum war."
+  },
+  {
+   "id": 96,
+   "skill": "Choosing Präteritum vs. Perfekt in writing",
+   "english": "Say casually that you have never been to a football match.",
+   "german": "Ich bin noch nie bei einem Fußballspiel gewesen.",
+   "why": "A negated experience uses the Perfekt of sein with the participle gewesen."
+  },
+  {
+   "id": 97,
+   "skill": "Choosing Präteritum vs. Perfekt in writing",
+   "english": "In minutes: the committee rejected the amendment on Tuesday evening.",
+   "german": "Der Ausschuss wies am Dienstagabend den Änderungsantrag zurück.",
+   "why": "Minutes record a past decision and take the Präteritum wies zurück."
+  },
+  {
+   "id": 98,
+   "skill": "Choosing Präteritum vs. Perfekt in writing",
+   "english": "Ask a colleague casually whether he has finished the report.",
+   "german": "Hast du den Bericht schon fertig?",
+   "why": "A question about a state that holds now invites the Perfekt, not the Präteritum."
+  },
+  {
+   "id": 99,
+   "skill": "Choosing Präteritum vs. Perfekt in writing",
+   "english": "In an obituary: she taught at the same school for thirty years and never took a sabbatical.",
+   "german": "Sie unterrichtete dreißig Jahre lang in einer kleinen Schule und nahm nie ein Sabbatical.",
+   "why": "Obituaries narrate a whole life in the Präteritum."
+  },
+  {
+   "id": 100,
+   "skill": "Choosing Präteritum vs. Perfekt in writing",
+   "english": "Say casually that you have already booked the tickets.",
+   "german": "Ich habe die Karten schon gebucht.",
+   "why": "A booking that is settled and still counts uses the Perfekt gebucht."
+  }
+ ]
+}

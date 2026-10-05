@@ -1,0 +1,704 @@
+{
+ "exercises": [
+  {
+   "id": 1,
+   "skill": "Deduction from evidence (mussen / sollen)",
+   "english": "She has had a fever since yesterday and keeps coughing – conclude that she is ill.",
+   "german": "Sie muss krank sein.",
+   "why": "Müssen in the epistemic use draws the conclusion that the symptoms indicate."
+  },
+  {
+   "id": 2,
+   "skill": "Deduction from evidence (mussen / sollen)",
+   "english": "The street outside is completely wet, although the window is open – conclude that it rained.",
+   "german": "Es hat geregnet.",
+   "why": "Here the deduction needs no modal at all: a present perfect states what must have happened."
+  },
+  {
+   "id": 3,
+   "skill": "Deduction from evidence (mussen / sollen)",
+   "english": "All three lights are on and nobody answers the phone – conclude that they are still at the office.",
+   "german": "Sie müssen noch im Büro sein.",
+   "why": "The plural subject confirms that the deduction is about all of them together."
+  },
+  {
+   "id": 4,
+   "skill": "Deduction from evidence (mussen / sollen)",
+   "english": "He has eaten nothing since breakfast and keeps looking at the clock – conclude that he is hungry.",
+   "german": "Er muss Hunger haben.",
+   "why": "A deduction with a non-verbal conclusion, which is the standard müssen pattern."
+  },
+  {
+   "id": 5,
+   "skill": "Deduction from evidence (mussen / sollen)",
+   "english": "Her face is pale and she has been in bed all afternoon – conclude that she is not feeling well.",
+   "german": "Sie muss sich nicht wohlfühlen.",
+   "why": "A deduction with a separable verb stays in the infinitive at the end of the clause."
+  },
+  {
+   "id": 6,
+   "skill": "Deduction from evidence (mussen / sollen)",
+   "english": "Nobody has answered the bell for five minutes – conclude that the flat is empty.",
+   "german": "Die Wohnung muss leer sein.",
+   "why": "Müssen plus an adjective in the predicate states the inferred conclusion."
+  },
+  {
+   "id": 7,
+   "skill": "Deduction from evidence (mussen / sollen)",
+   "english": "The file is nowhere in the folder, but she used it this morning – conclude that she deleted it.",
+   "german": "Sie muss die Datei gelöscht haben.",
+   "why": "The perfect infinitive locates the deduction in the past without changing the present modal."
+  },
+  {
+   "id": 8,
+   "skill": "Deduction from evidence (mussen / sollen)",
+   "english": "The printer is switched on and the queue has not moved – conclude that the paper is jammed.",
+   "german": "Es muss ein Papierstau sein.",
+   "why": "Müssen with a nominal conclusion works as readily as one with an adjective."
+  },
+  {
+   "id": 9,
+   "skill": "Deduction from evidence (mussen / sollen)",
+   "english": "His colleagues are still at their desks although the meeting started ten minutes ago – conclude that he is being waited for.",
+   "german": "Man muss auf ihn warten.",
+   "why": "With the impersonal man, the deduction no longer needs a subject in the nominative."
+  },
+  {
+   "id": 10,
+   "skill": "Deduction from evidence (mussen / sollen)",
+   "english": "He has been calling the number for an hour without an answer – conclude that the number is wrong.",
+   "german": "Die Nummer muss falsch sein.",
+   "why": "The conclusion comes first in subject position, the evidence in a preceding prepositional phrase."
+  },
+  {
+   "id": 11,
+   "skill": "Deduction from evidence (mussen / sollen)",
+   "english": "The official statement promises an answer this week – report it as given.",
+   "german": "Laut der Pressemitteilung soll in dieser Woche eine Antwort kommen.",
+   "why": "Sollen after laut attributes the conclusion to a written source."
+  },
+  {
+   "id": 12,
+   "skill": "Deduction from evidence (mussen / sollen)",
+   "english": "The rumour says the department will close – report the rumour without committing to it.",
+   "german": "Es heißt, die Abteilung werde geschlossen.",
+   "why": "Hier a paraphrase frame carries the reported claim, keeping the speaker neutral."
+  },
+  {
+   "id": 13,
+   "skill": "Deduction from evidence (mussen / sollen)",
+   "english": "The examiner is said to have marked the scripts already – state it as reported.",
+   "german": "Der Prüfer soll die Klausuren schon korrigiert haben.",
+   "why": "Reported deduction with sollen in the perfect and the participle placed at the end."
+  },
+  {
+   "id": 14,
+   "skill": "Deduction from evidence (mussen / sollen)",
+   "english": "According to the technician, the fault must be in the cable – give the reported version.",
+   "german": "Laut dem Techniker müsste der Fehler im Kabel liegen.",
+   "why": "Konjunktiv II müsste plus laut marks the conclusion as somebody else's and fallible."
+  },
+  {
+   "id": 15,
+   "skill": "Deduction from evidence (mussen / sollen)",
+   "english": "The absence list is signed by three people – conclude that they have not returned yet.",
+   "german": "Die drei müssen noch auf dem Weg sein.",
+   "why": "A numeral subject with müssen gives a deduction about their current state."
+  },
+  {
+   "id": 16,
+   "skill": "Deduction from evidence (mussen / sollen)",
+   "english": "The manuscript is full of empty phrases – conclude that the author took no time for it.",
+   "german": "Der Autor muss sich keine Zeit genommen haben.",
+   "why": "The deduction carries a perfect infinitive with a verb taking a separable zu-infinitive."
+  },
+  {
+   "id": 17,
+   "skill": "Deduction from evidence (mussen / sollen)",
+   "english": "Nothing was stolen but the safe is open – conclude that someone knew the code.",
+   "german": "Jemand muss den Code gekannt haben.",
+   "why": "Müssen here concludes that a hidden premise was met, a typical inference from lack of damage."
+  },
+  {
+   "id": 18,
+   "skill": "Deduction from evidence (mussen / sollen)",
+   "english": "The date on the letter is from June – conclude that the notice is out of date.",
+   "german": "Die Mitteilung muss veraltet sein.",
+   "why": "Müssen with a temporal piece of evidence supports a state that still holds."
+  },
+  {
+   "id": 19,
+   "skill": "Deduction from evidence (mussen / sollen)",
+   "english": "The train stopped for ten minutes in the middle of nowhere – conclude that there was a problem on the line.",
+   "german": "Es muss auf der Strecke ein Problem gegeben haben.",
+   "why": "The conclusion is a whole subordinate-style clause with a perfect infinitive and zu."
+  },
+  {
+   "id": 20,
+   "skill": "Deduction from evidence (mussen / sollen)",
+   "english": "The sign says the museum is closed today, and there is no queue – conclude that nothing is open.",
+   "german": "Es dürfte heute nichts geöffnet haben.",
+   "why": "Dürfte plus perfect gives a probability estimate, the softest form of müssen."
+  },
+  {
+   "id": 21,
+   "skill": "Conjecture about the speaker's opinion",
+   "english": "Give your personal estimate that the train will arrive late again.",
+   "german": "Meiner Meinung nach kommt der Zug wieder zu spät.",
+   "why": "Meiner Meinung nach introduces a subjective assessment before the statement itself."
+  },
+  {
+   "id": 22,
+   "skill": "Conjecture about the speaker's opinion",
+   "english": "Say with certainty that the person at the door is a colleague.",
+   "german": "Da ist sicher ein Kollege.",
+   "why": "The emphatic sicher raises the certainty of an otherwise unqualified statement."
+  },
+  {
+   "id": 23,
+   "skill": "Conjecture about the speaker's opinion",
+   "english": "State your conclusion that she has not noticed anything, using a deduction modal and the perfect.",
+   "german": "Sie muss nichts bemerkt haben.",
+   "why": "Müssen in the epistemic use plus a perfect infinitive carries the deduction about a completed action."
+  },
+  {
+   "id": 24,
+   "skill": "Conjecture about the speaker's opinion",
+   "english": "Say that you assume the reason for the delay is technical.",
+   "german": "Meiner Einschätzung nach ist der Grund für die Verspätung technisch bedingt.",
+   "why": "Meiner Einschätzung nach introduces an inference in the main clause before the conclusion itself."
+  },
+  {
+   "id": 25,
+   "skill": "Conjecture about the speaker's opinion",
+   "english": "Express the possibility that the package went to the wrong address.",
+   "german": "Das Paket könnte falsch adressiert worden sein.",
+   "why": "Könnte plus perfect reports a possibility about the address without committing to a cause."
+  },
+  {
+   "id": 26,
+   "skill": "Conjecture about the speaker's opinion",
+   "english": "State as your own conclusion that they lost the key somewhere.",
+   "german": "Sie haben den Schlüssel irgendwo verloren.",
+   "why": "With an unmotivated present perfect, the present form itself expresses the deduction."
+  },
+  {
+   "id": 27,
+   "skill": "Conjecture about the speaker's opinion",
+   "english": "State your supposition that the hotel is fully booked.",
+   "german": "Das Hotel ist vermutlich ausgebucht.",
+   "why": "Vermutlich marks the speaker's estimate and needs no modal verb at all."
+  },
+  {
+   "id": 28,
+   "skill": "Conjecture about the speaker's opinion",
+   "english": "Express the possibility that the two lines are not connected.",
+   "german": "Die beiden Linien könnten nicht verbunden sein.",
+   "why": "Können combined with nicht covers a possibility the speaker doubts."
+  },
+  {
+   "id": 29,
+   "skill": "Conjecture about the speaker's opinion",
+   "english": "Say that you do not rule out the idea that the data were changed.",
+   "german": "Man kann nicht ausschließen, dass die Daten geändert wurden.",
+   "why": "The idiom man kann nicht ausschließen, dass introduces a possibility the speaker leaves open."
+  },
+  {
+   "id": 30,
+   "skill": "Conjecture about the speaker's opinion",
+   "english": "Give your personal opinion that the deadline is far too tight.",
+   "german": "Die Frist ist meines Erachtens viel zu knapp.",
+   "why": "Meines Erachtens is a formal way of marking a personal judgement."
+  },
+  {
+   "id": 31,
+   "skill": "Conjecture about the speaker's opinion",
+   "english": "Say, hedging your conclusion, that the date is probably correct after all.",
+   "german": "Das Datum müsste doch stimmen.",
+   "why": "Müsste presents the date as very probably correct, and doch adds the corrective stress."
+  },
+  {
+   "id": 32,
+   "skill": "Conjecture about the speaker's opinion",
+   "english": "State that you have the impression that nobody noticed.",
+   "german": "Ich habe den Eindruck, dass es niemand bemerkt hat.",
+   "why": "Ich habe den Eindruck, dass presents a conjecture as an impression, not as a fact."
+  },
+  {
+   "id": 33,
+   "skill": "Conjecture about the speaker's opinion",
+   "english": "Say that the file must have been corrupted, adding a hedge of your own.",
+   "german": "Die Datei muss wohl beschädigt sein.",
+   "why": "Wohl inside the clause softens an otherwise firm deduction."
+  },
+  {
+   "id": 34,
+   "skill": "Conjecture about the speaker's opinion",
+   "english": "Say that the meeting point could not have been the printed one.",
+   "german": "Der Treffpunkt kann nicht der gedruckte gewesen sein.",
+   "why": "Kann nicht rejects the alternative without naming a subject of ability."
+  },
+  {
+   "id": 35,
+   "skill": "Conjecture about the speaker's opinion",
+   "english": "Say that someone must have forgotten the extension cord.",
+   "german": "Jemand muss das Verlängerungskabel vergessen haben.",
+   "why": "A quantified subject plus müssen and perfect infinitive covers an unspecified person."
+  },
+  {
+   "id": 36,
+   "skill": "Conjecture about the speaker's opinion",
+   "english": "Give your opinion that the problem lies in the documentation.",
+   "german": "Meiner Ansicht nach liegt das Problem in der Dokumentation.",
+   "why": "Meiner Ansicht nach marks the following clause as the speaker's judgement."
+  },
+  {
+   "id": 37,
+   "skill": "Conjecture about the speaker's opinion",
+   "english": "State that the results could well arrive before Monday.",
+   "german": "Die Ergebnisse könnten gut vor Montag kommen.",
+   "why": "Gut as a focusing adverb raises the probability that könnte leaves open."
+  },
+  {
+   "id": 38,
+   "skill": "Conjecture about the speaker's opinion",
+   "english": "Say that you assume the majority has not noticed the change.",
+   "german": "Die Mehrheit hat vermutlich die Änderung nicht bemerkt.",
+   "why": "A negated clause after vermutlich keeps the deduction and the negation together."
+  },
+  {
+   "id": 39,
+   "skill": "Conjecture about the speaker's opinion",
+   "english": "State that the reader ought to know it cannot be a coincidence.",
+   "german": "Der Leser sollte wissen, dass es kein Zufall sein kann.",
+   "why": "Sollte in the subordinate clause is the indirect form of a warning about the author's certainty."
+  },
+  {
+   "id": 40,
+   "skill": "Conjecture about the speaker's opinion",
+   "english": "Give your personal conclusion that nobody could have known.",
+   "german": "Niemand konnte das gewusst haben.",
+   "why": "A modal could in the perfect with a universal subject expresses the speaker's belief about knowledge."
+  },
+  {
+   "id": 41,
+   "skill": "Tentative permission and probability (duerfen, koennen)",
+   "english": "Give permission for the guests to wait outside until the room is ready.",
+   "german": "Die Gäste dürfen draußen warten, bis der Raum fertig ist.",
+   "why": "Dürfen in the second person plural grants permission, with the clause order of a modal verb."
+  },
+  {
+   "id": 42,
+   "skill": "Tentative permission and probability (duerfen, koennen)",
+   "english": "Say politely that you may come in.",
+   "german": "Sie dürfen hereinkommen.",
+   "why": "A modal of permission addressed to the listener, not a deduction."
+  },
+  {
+   "id": 43,
+   "skill": "Tentative permission and probability (duerfen, koennen)",
+   "english": "Grant permission to park on the pavement for deliveries.",
+   "german": "Sie dürfen zum Liefern auf dem Bürgersteig parken.",
+   "why": "Dürfen plus an infinitive with a purpose clause states what is allowed."
+  },
+  {
+   "id": 44,
+   "skill": "Tentative permission and probability (duerfen, koennen)",
+   "english": "Ask very politely whether you may ask a short question.",
+   "german": "Dürfte ich kurz eine Frage stellen?",
+   "why": "Dürfte ich puts the modal in first position and is the standard polite request formula."
+  },
+  {
+   "id": 45,
+   "skill": "Tentative permission and probability (duerfen, koennen)",
+   "english": "Say that taking a photo is probably not allowed in the hall.",
+   "german": "Im Foyer dürfte ein Foto wohl nicht erlaubt sein.",
+   "why": "Dürfte in the third person softens a rule into an estimate, and wohl adds the hedge."
+  },
+  {
+   "id": 46,
+   "skill": "Tentative permission and probability (duerfen, koennen)",
+   "english": "Grant the visitors permission to use the lift.",
+   "german": "Die Besucher dürfen den Aufzug benutzen.",
+   "why": "Permission is given to a plural subject with the infinitive at the end."
+  },
+  {
+   "id": 47,
+   "skill": "Tentative permission and probability (duerfen, koennen)",
+   "english": "Say that the addressee may leave early today.",
+   "german": "Sie dürfen heute früher gehen.",
+   "why": "A separable verb in the final position of a modal clause, as the grammar requires."
+  },
+  {
+   "id": 48,
+   "skill": "Tentative permission and probability (duerfen, koennen)",
+   "english": "Say that you are allowed to take the last seat.",
+   "german": "Sie dürfen den letzten Platz nehmen.",
+   "why": "Dürfen here follows the pattern of an explicit permission from an authority."
+  },
+  {
+   "id": 49,
+   "skill": "Tentative permission and probability (duerfen, koennen)",
+   "english": "Ask whether one may park here on Sundays.",
+   "german": "Darf man sonntags hier parken?",
+   "why": "In questions the modal moves to first position and man stands for an unspecified person."
+  },
+  {
+   "id": 50,
+   "skill": "Tentative permission and probability (duerfen, koennen)",
+   "english": "Grant permission to speak briefly after the lecture.",
+   "german": "Sie dürfen nach dem Vortrag kurz etwas sagen.",
+   "why": "Dürfen plus a temporal clause permits a limited action, not general freedom."
+  },
+  {
+   "id": 51,
+   "skill": "Tentative permission and probability (duerfen, koennen)",
+   "english": "Say that we may probably count on the results by Thursday.",
+   "german": "Auf die Ergebnisse können wir wohl bis Donnerstag rechnen.",
+   "why": "A modal of possibility combined with rechnen auf reports a justified expectation."
+  },
+  {
+   "id": 52,
+   "skill": "Tentative permission and probability (duerfen, koennen)",
+   "english": "State that the report is probably not finished yet.",
+   "german": "Der Bericht dürfte noch nicht fertig sein.",
+   "why": "Dürfte plus a negated participle hedges both the state and the negation."
+  },
+  {
+   "id": 53,
+   "skill": "Tentative permission and probability (duerfen, koennen)",
+   "english": "Say that the file can probably still be recovered.",
+   "german": "Die Datei müsste sich noch wiederherstellen lassen.",
+   "why": "A modal passive states what the speaker believes is still possible, not what he can do."
+  },
+  {
+   "id": 54,
+   "skill": "Tentative permission and probability (duerfen, koennen)",
+   "english": "Grant permission to the interns to sit in on the meeting.",
+   "german": "Die Praktikanten dürfen bei der Sitzung zuhören.",
+   "why": "Zuhören takes no object, so the accusative case appears only in the separable verb itself."
+  },
+  {
+   "id": 55,
+   "skill": "Tentative permission and probability (duerfen, koennen)",
+   "english": "Say that the tenant may probably keep the flat until March.",
+   "german": "Der Mieter dürfte die Wohnung wohl bis März behalten dürfen.",
+   "why": "Two instances of dürfen: the outer one hedges, the inner one states the permission."
+  },
+  {
+   "id": 56,
+   "skill": "Tentative permission and probability (duerfen, koennen)",
+   "english": "Ask whether one is allowed to leave the room during the test.",
+   "german": "Darf man während der Prüfung den Raum verlassen?",
+   "why": "An ob-less yes/no question in the first person singular of the modal permission."
+  },
+  {
+   "id": 57,
+   "skill": "Tentative permission and probability (duerfen, koennen)",
+   "english": "Give permission to the students to use their own notes.",
+   "german": "Die Studierenden dürfen ihre eigenen Notizen benutzen.",
+   "why": "A permission sentence with a nominalised subject and an accusative object."
+  },
+  {
+   "id": 58,
+   "skill": "Tentative permission and probability (duerfen, koennen)",
+   "english": "Say that we are allowed to park here only on weekdays.",
+   "german": "Hier können wir nur werktags parken.",
+   "why": "Können here reports what is objectively possible for us, not an epistemic estimate."
+  },
+  {
+   "id": 59,
+   "skill": "Tentative permission and probability (duerfen, koennen)",
+   "english": "Say that the report will presumably have to be rewritten.",
+   "german": "Der Bericht wird vermutlich umgeschrieben werden müssen.",
+   "why": "A modal passive plus vermutlich: the necessity is attributed to the circumstances, not to a person."
+  },
+  {
+   "id": 60,
+   "skill": "Tentative permission and probability (duerfen, koennen)",
+   "english": "Grant permission to use the lift only in case of fire.",
+   "german": "Den Aufzug dürfen Sie nur im Brandfall benutzen.",
+   "why": "Permission with a restrictive clause in the infinitive position of a modal sentence."
+  },
+  {
+   "id": 61,
+   "skill": "Hedging with modal adverbs plus a modal verb",
+   "english": "Hedge with apparently: the appointment has obviously been cancelled.",
+   "german": "Der Termin ist anscheinend abgesagt.",
+   "why": "Anscheinend stands in main-clause position after the subject and marks reported evidence."
+  },
+  {
+   "id": 62,
+   "skill": "Hedging with modal adverbs plus a modal verb",
+   "english": "Hedge with presumably: the invoice has probably not arrived.",
+   "german": "Die Rechnung ist vermutlich nicht angekommen.",
+   "why": "Vermutlich with a negated participle hedges the whole proposition, not only the verb."
+  },
+  {
+   "id": 63,
+   "skill": "Hedging with modal adverbs plus a modal verb",
+   "english": "Hedge with of course: you obviously have to book earlier.",
+   "german": "Natürlich muss man früher buchen.",
+   "why": "Natürlich signals that the deduction is obvious, and impersonal man keeps the modal general."
+  },
+  {
+   "id": 64,
+   "skill": "Hedging with modal adverbs plus a modal verb",
+   "english": "Hedge with probably: she is probably not coming to the meeting.",
+   "german": "Sie kommt wahrscheinlich nicht zur Besprechung.",
+   "why": "Wahrscheinlich before a negated clause hedges the negative without weakening the modal."
+  },
+  {
+   "id": 65,
+   "skill": "Hedging with modal adverbs plus a modal verb",
+   "english": "Hedge with possibly: we might have to change rooms.",
+   "german": "Vielleicht müssen wir den Raum wechseln.",
+   "why": "Vielleicht marks open possibility, and the modal in first person keeps it non-committal."
+  },
+  {
+   "id": 66,
+   "skill": "Hedging with modal adverbs plus a modal verb",
+   "english": "Hedge with apparently: the server must have crashed.",
+   "german": "Der Server ist anscheinend abgestürzt.",
+   "why": "Anscheinend with a present perfect reports what the speaker has been told."
+  },
+  {
+   "id": 67,
+   "skill": "Hedging with modal adverbs plus a modal verb",
+   "english": "Hedge with probably: the parcel must be at the post office.",
+   "german": "Das Paket muss vermutlich auf der Poststelle sein.",
+   "why": "Müssen with a modal adverb after it gives a firm but explicitly estimated conclusion."
+  },
+  {
+   "id": 68,
+   "skill": "Hedging with modal adverbs plus a modal verb",
+   "english": "Hedge with possibly: the workshop might have been moved.",
+   "german": "Der Workshop ist vielleicht verlegt worden.",
+   "why": "Vielleicht plus a passive perfect covers a change the speaker cannot confirm."
+  },
+  {
+   "id": 69,
+   "skill": "Hedging with modal adverbs plus a modal verb",
+   "english": "Hedge with in all likelihood: the deadline must be extended.",
+   "german": "Die Frist muss sehr wahrscheinlich verlängert werden.",
+   "why": "Sehr wahrscheinlich intensifies the hedge without changing the modal."
+  },
+  {
+   "id": 70,
+   "skill": "Hedging with modal adverbs plus a modal verb",
+   "english": "Hedge with presumably: the file should still be on the server.",
+   "german": "Die Datei sollte vermutlich noch auf dem Server liegen.",
+   "why": "Sollte expresses an expectation about the state, vermutlich names it as the speaker's guess."
+  },
+  {
+   "id": 71,
+   "skill": "Hedging with modal adverbs plus a modal verb",
+   "english": "Hedge with maybe: we could come on Friday instead.",
+   "german": "Vielleicht könnten wir am Freitag kommen.",
+   "why": "Vielleicht with könnte in the first person plural makes the offer easy to refuse."
+  },
+  {
+   "id": 72,
+   "skill": "Hedging with modal adverbs plus a modal verb",
+   "english": "Hedge with of course: nobody can know that for certain.",
+   "german": "Natürlich kann das niemand sicher wissen.",
+   "why": "The modal is inside a selbst construction, and natürlich marks the conclusion as obvious."
+  },
+  {
+   "id": 73,
+   "skill": "Hedging with modal adverbs plus a modal verb",
+   "english": "Hedge with apparently: the letters have gone to the wrong department.",
+   "german": "Die Briefe sind offenbar in die falsche Abteilung gegangen.",
+   "why": "Offenbar and anscheinend are interchangeable here; the perfect carries the evidence."
+  },
+  {
+   "id": 74,
+   "skill": "Hedging with modal adverbs plus a modal verb",
+   "english": "Hedge with probably: the train must be running late again.",
+   "german": "Der Zug fährt sehr wahrscheinlich wieder mit Verspätung.",
+   "why": "A modal adverb plus a present passive hedges a fact the speaker has heard from others."
+  },
+  {
+   "id": 75,
+   "skill": "Hedging with modal adverbs plus a modal verb",
+   "english": "Hedge with possibly: the flat may already be let.",
+   "german": "Die Wohnung ist vielleicht schon vermietet.",
+   "why": "Vielleicht with a passive states an unverified state, which is exactly what hedging is for."
+  },
+  {
+   "id": 76,
+   "skill": "Hedging with modal adverbs plus a modal verb",
+   "english": "Hedge with apparently: the customer seems to have cancelled.",
+   "german": "Der Kunde scheint den Termin abgesagt zu haben.",
+   "why": "Scheinen plus a perfect infinitive hedges the whole event through the adverb of seeming."
+  },
+  {
+   "id": 77,
+   "skill": "Hedging with modal adverbs plus a modal verb",
+   "english": "Hedge with it seems: the results must have been manipulated.",
+   "german": "Es scheint, dass die Ergebnisse manipuliert worden sein müssen.",
+   "why": "A dass-clause after es scheint, dass keeps the modal at the end of the subordinate clause."
+  },
+  {
+   "id": 78,
+   "skill": "Hedging with modal adverbs plus a modal verb",
+   "english": "Hedge with probably: we can probably expect a reply next week.",
+   "german": "Wir können wahrscheinlich mit einer Antwort nächste Woche rechnen.",
+   "why": "Können mit rechnen auf reports an expectation, and the adverb marks it as likely."
+  },
+  {
+   "id": 79,
+   "skill": "Hedging with modal adverbs plus a modal verb",
+   "english": "Hedge with presumably: you should have received the invoice.",
+   "german": "Sie sollten die Rechnung vermutlich erhalten haben.",
+   "why": "A perfect with sollten gives an indirect expectation, and vermutlich keeps it a guess."
+  },
+  {
+   "id": 80,
+   "skill": "Hedging with modal adverbs plus a modal verb",
+   "english": "Hedge with maybe: the room must have been booked by someone.",
+   "german": "Jemand muss den Raum wohl gebucht haben.",
+   "why": "Wohl after the modal softens an otherwise very firm deduction without changing the word order."
+  },
+  {
+   "id": 81,
+   "skill": "Epistemic vs dynamic modality, choosing correctly",
+   "english": "The pupil is very good at maths – state a fact about her skill, not a deduction.",
+   "german": "Die Schülerin kann sehr gut rechnen.",
+   "why": "Können here is dynamic: it describes an ability the subject actually has."
+  },
+  {
+   "id": 82,
+   "skill": "Epistemic vs dynamic modality, choosing correctly",
+   "english": "The heating is broken and it is minus ten degrees – conclude that it will be cold inside.",
+   "german": "Es muss innen kalt werden.",
+   "why": "The evidence concerns the heating, so the conclusion about the temperature is epistemic."
+  },
+  {
+   "id": 83,
+   "skill": "Epistemic vs dynamic modality, choosing correctly",
+   "english": "She has swum ten kilometres without stopping – state that she is able to swim that far.",
+   "german": "Sie kann zehn Kilometer am Stück schwimmen.",
+   "why": "The capacity is demonstrated, so this is a dynamic use of können."
+  },
+  {
+   "id": 84,
+   "skill": "Epistemic vs dynamic modality, choosing correctly",
+   "english": "Nobody knocks and the door does not open – conclude that the door was locked.",
+   "german": "Die Tür muss abgeschlossen gewesen sein.",
+   "why": "The blocked doorway is the evidence, so the conclusion about the lock is epistemic."
+  },
+  {
+   "id": 85,
+   "skill": "Epistemic vs dynamic modality, choosing correctly",
+   "english": "The doctor is on holiday until Monday – state that she is not available today.",
+   "german": "Die Ärztin ist heute nicht zu sprechen.",
+   "why": "A fact about the calendar, so no modal is needed at all."
+  },
+  {
+   "id": 86,
+   "skill": "Epistemic vs dynamic modality, choosing correctly",
+   "english": "The notice says the flat is let – conclude that we cannot move in.",
+   "german": "Wir können nicht einziehen.",
+   "why": "Können here is dynamic: a permission based on the legal situation, not a deduction."
+  },
+  {
+   "id": 87,
+   "skill": "Epistemic vs dynamic modality, choosing correctly",
+   "english": "He holds the national record – conclude that he is the fastest swimmer in the country.",
+   "german": "Er muss der schnellste Schwimmer des Landes sein.",
+   "why": "From one record the speaker infers a ranking, which is an epistemic conclusion."
+  },
+  {
+   "id": 88,
+   "skill": "Epistemic vs dynamic modality, choosing correctly",
+   "english": "She is allowed to park in that street – state the permission.",
+   "german": "Sie darf in dieser Straße parken.",
+   "why": "Dürfen is a permission modal addressed to the subject, not a probability."
+  },
+  {
+   "id": 89,
+   "skill": "Epistemic vs dynamic modality, choosing correctly",
+   "english": "The letter has not been opened – conclude that the recipient has not read it.",
+   "german": "Der Empfänger muss den Brief nicht gelesen haben.",
+   "why": "The conclusion concerns the recipient's action, so the modal is epistemic despite the subject."
+  },
+  {
+   "id": 90,
+   "skill": "Epistemic vs dynamic modality, choosing correctly",
+   "english": "The apprentice has been in the workshop for two years – state that he can work independently.",
+   "german": "Der Lehrling kann inzwischen selbstständig arbeiten.",
+   "why": "A statement of competence, so können is dynamic and takes no hedging adverb."
+  },
+  {
+   "id": 91,
+   "skill": "Epistemic vs dynamic modality, choosing correctly",
+   "english": "The lights are off and the windows are shuttered – conclude that nobody is home.",
+   "german": "Es muss niemand zu Hause sein.",
+   "why": "The evidence is the state of the building, so the deduction concerns the residents, not their ability."
+  },
+  {
+   "id": 92,
+   "skill": "Epistemic vs dynamic modality, choosing correctly",
+   "english": "Visitors may take photographs in the atrium – state the permission.",
+   "german": "Besucher dürfen im Atrium Fotos machen.",
+   "why": "Dürfen states what visitors are allowed to do, an objective permission."
+  },
+  {
+   "id": 93,
+   "skill": "Epistemic vs dynamic modality, choosing correctly",
+   "english": "The test results show a clear trend – conclude that the method works.",
+   "german": "Die Methode muss funktionieren.",
+   "why": "A deduction from data about how something behaves, so the modal is epistemic."
+  },
+  {
+   "id": 94,
+   "skill": "Epistemic vs dynamic modality, choosing correctly",
+   "english": "She signs all documents with a drawing – state that she cannot write.",
+   "german": "Sie kann nicht schreiben.",
+   "why": "A lasting incapacity, so können is dynamic and expresses a limitation."
+  },
+  {
+   "id": 95,
+   "skill": "Epistemic vs dynamic modality, choosing correctly",
+   "english": "The parcel weighs twelve kilos and the label says fragile – conclude that it must be treated carefully.",
+   "german": "Es muss vorsichtig behandelt werden.",
+   "why": "A modal passive expressing an inference about how something must be handled."
+  },
+  {
+   "id": 96,
+   "skill": "Epistemic vs dynamic modality, choosing correctly",
+   "english": "Employees are obliged to wear a badge – state the obligation.",
+   "german": "Die Mitarbeiter müssen einen Ausweis tragen.",
+   "why": "Müssen expresses a rule that applies to every employee, not the speaker's conclusion."
+  },
+  {
+   "id": 97,
+   "skill": "Epistemic vs dynamic modality, choosing correctly",
+   "english": "The figures do not add up – conclude that there is an error somewhere.",
+   "german": "Da muss ein Fehler sein.",
+   "why": "The arithmetic is the evidence, so the conclusion about the error is epistemic."
+  },
+  {
+   "id": 98,
+   "skill": "Epistemic vs dynamic modality, choosing correctly",
+   "english": "He has a driving licence – state that he is allowed to drive a car.",
+   "german": "Er darf Auto fahren.",
+   "why": "A legal permission following from the licence, an objective use of dürfen."
+  },
+  {
+   "id": 99,
+   "skill": "Epistemic vs dynamic modality, choosing correctly",
+   "english": "Nobody in the office has a copy of the contract – conclude that it was never distributed.",
+   "german": "Der Vertrag muss nie verteilt worden sein.",
+   "why": "The inference concerns a past event, so the modal stays present with a perfect infinitive."
+  },
+  {
+   "id": 100,
+   "skill": "Epistemic vs dynamic modality, choosing correctly",
+   "english": "A beginner cannot read that manual – state the limitation of ability.",
+   "german": "Ein Anfänger kann dieses Handbuch nicht lesen.",
+   "why": "Können with a negated infinitive expresses a skill limit, a dynamic use."
+  }
+ ]
+}

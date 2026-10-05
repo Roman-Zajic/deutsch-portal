@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Two-level modality — Die doppelte Modalität | Deutsch Lernen</title>
+<style>
+:root{
+  --font:"Segoe UI",system-ui,-apple-system,sans-serif;
+  --teal-900:#005A5A; --teal-700:#008282; --teal-400:#50C1C1; --teal-100:#95DFDB;
+  --amber:#E1A01E; --red:#C41E3A; --green:#1D7A4C;
+  --ink:#012D2C; --muted:#008282;
+  --page:#F0FAFA; --card:#FFF; --in:#F0FAFA; --border:#D0ECEB;
+  --shadow:0 1px 4px rgba(1,45,44,.10); --shadow-md:0 4px 14px rgba(1,45,44,.12);
+  --r:8px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font);font-size:16px;color:var(--teal-900);background:var(--page);
+  line-height:1.65;-webkit-font-smoothing:antialiased;
+  display:flex;flex-direction:column;min-height:100vh}
+
+.navbar{display:flex;align-items:center;gap:12px;height:48px;padding:0 14px;
+  background:var(--teal-900);border-bottom:1px solid rgba(149,223,219,.15);
+  position:sticky;top:0;z-index:100;flex-shrink:0}
+.brand-icon{display:flex;align-items:center;flex-shrink:0}
+.nav-pipe{width:1px;height:16px;background:rgba(149,223,219,.30);flex-shrink:0;margin:0 12px}
+.nav-brand-text{font-size:.95rem;font-weight:600;color:var(--teal-100);text-decoration:none;white-space:nowrap}
+.nav-actions{margin-left:auto;display:flex;align-items:center;gap:8px}
+.icon-btn{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;padding:0;
+  color:var(--teal-100);background:rgba(149,223,219,.12);border:1px solid rgba(149,223,219,.22);
+  border-radius:4px;cursor:pointer;transition:130ms;text-decoration:none;flex-shrink:0}
+.icon-btn:hover{background:rgba(149,223,219,.24);border-color:rgba(149,223,219,.45)}
+.btn-nav{display:inline-flex;align-items:center;justify-content:center;height:32px;padding:0 12px;
+  font-size:.78rem;font-weight:600;font-family:var(--font);color:var(--teal-100);text-decoration:none;
+  background:rgba(149,223,219,.12);border:1px solid rgba(149,223,219,.22);border-radius:4px;
+  transition:130ms;white-space:nowrap;flex-shrink:0}
+.btn-nav:hover{background:rgba(149,223,219,.24);border-color:rgba(149,223,219,.45)}
+@media (max-width:400px){.btn-nav{padding:0 9px;font-size:.74px;font-size:.74rem}}
+.icon-btn svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:2;
+  stroke-linecap:round;stroke-linejoin:round}
+@media (max-width:560px){.nav-brand-text{font-size:.85rem}}
+
+.wrap{max-width:860px;width:100%;margin:0 auto;padding:20px 16px 0;flex:1 0 auto}
+
+h1{font-size:1.5rem;line-height:1.3;margin:0 0 4px}
+h1 .de{display:block;font-size:1rem;color:var(--teal-700);font-weight:600;margin-top:2px}
+
+section{margin-bottom:30px}
+h2{font-size:1.05rem;margin-bottom:10px;padding-bottom:6px;border-bottom:2px solid var(--teal-400)}
+h3{font-size:.85rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;
+  color:var(--teal-700);margin:16px 0 8px}
+p{margin-bottom:10px}
+.lead{color:var(--ink)}
+small{color:var(--muted)}
+
+.rulebox{background:var(--in);border:1px solid var(--border);border-left:4px solid var(--teal-400);
+  border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.rulebox strong{color:var(--teal-700)}
+.warnbox{background:rgba(196,30,58,.05);border:1px solid rgba(196,30,58,.25);
+  border-left:4px solid var(--red);border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.warnbox strong{color:var(--red)}
+.tipbox{background:rgba(29,122,76,.06);border:1px solid rgba(29,122,76,.22);
+  border-left:4px solid var(--green);border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.tipbox strong{color:var(--green)}
+
+table{width:100%;border-collapse:collapse;margin:12px 0;font-size:.88rem;
+  table-layout:fixed}
+th,td{overflow-wrap:anywhere;word-break:normal;hyphens:auto}
+th,td{text-align:left;padding:7px 9px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--in);font-weight:700;font-size:.76rem;text-transform:uppercase;
+  letter-spacing:.04em;color:var(--teal-700)}
+td.de{color:var(--ink)}
+tr:last-child td{border-bottom:none}
+
+.mic{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;
+  padding:0;flex-shrink:0;vertical-align:middle;border-radius:50%;cursor:pointer;
+  color:var(--teal-700);background:rgba(80,193,193,.16);border:1px solid rgba(80,193,193,.45);
+  transition:130ms}
+.mic:hover{background:rgba(80,193,193,.34)}
+.mic:focus-visible{outline:2px solid var(--teal-700);outline-offset:2px}
+.mic svg{width:13px;height:13px;fill:none;stroke:currentColor;stroke-width:2;
+  stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.mic[aria-pressed="true"]{background:var(--teal-700);color:#fff;border-color:var(--teal-700)}
+.mic[aria-pressed="true"] .pulse{animation:pulse 1s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+.mic[disabled]{opacity:.45;cursor:not-allowed}
+.microw{display:flex;align-items:flex-start;gap:8px}
+.microw > .mtext{flex:1;min-width:0}
+.ex{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:12px 13px;
+  margin-bottom:9px;box-shadow:var(--shadow)}
+.ex .de{font-size:.98rem;color:var(--ink);margin-bottom:4px}
+.ex .de em{color:var(--teal-700);font-style:normal;font-weight:700;background:rgba(80,193,193,.20);
+  padding:0 3px;border-radius:2px}
+.ex .en{font-size:.84rem;color:var(--muted)}
+.ex .why{font-size:.82rem;color:var(--teal-700);margin-top:6px;padding-top:6px;
+  border-top:1px dotted var(--border)}
+.ex .why b{font-weight:700}
+
+/* ── EXERCISES ── */
+.btn{font-family:var(--font);font-size:.78rem;font-weight:600;cursor:pointer;
+  padding:6px 12px;border-radius:4px;border:1px solid var(--teal-400);
+  background:rgba(80,193,193,.14);color:var(--teal-700);transition:130ms;white-space:nowrap}
+.btn:hover{background:rgba(80,193,193,.28)}
+.btn.ghost{background:transparent;border-color:var(--border);color:var(--muted)}
+.btn.ghost:hover{border-color:var(--teal-400);color:var(--teal-700)}
+.noVoice{display:none;align-items:flex-start;gap:8px;margin-bottom:12px;padding:9px 12px;
+  background:rgba(225,160,30,.12);border:1px solid rgba(225,160,30,.4);border-radius:var(--r);
+  font-size:.83rem;color:#7A5000}
+.noVoice b{color:#7A5000}
+
+.q{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:12px 13px;
+  margin-bottom:10px;box-shadow:var(--shadow)}
+.q.revealed{border-color:var(--teal-400)}
+.q.correct{border-color:rgba(29,122,76,.5);background:rgba(29,122,76,.04)}
+.q.wrong{border-color:rgba(196,30,58,.45);background:rgba(196,30,58,.03)}
+.qtop{display:flex;gap:9px;align-items:flex-start;margin-bottom:9px}
+.qnum{flex-shrink:0;width:23px;height:23px;border-radius:50%;background:rgba(0,130,130,.10);
+  color:var(--teal-7);color:var(--teal-700);font-size:.7rem;font-weight:700;display:flex;
+  align-items:center;justify-content:center;margin-top:1px}
+.q.correct .qnum{background:rgba(29,122,76,.16);color:var(--green)}
+.q.wrong .qnum{background:rgba(196,30,58,.14);color:var(--red)}
+.inputrow{display:flex;align-items:stretch;gap:6px;position:relative}
+.ainput{flex:1;min-width:0;font-family:var(--font);font-size:.92rem;color:var(--ink);
+  background:var(--in);border:1px solid var(--border);border-radius:5px;padding:8px 32px 8px 11px;transition:130ms}
+.ainput:focus{outline:none;border-color:var(--teal-400);background:#fff;box-shadow:0 0 0 3px rgba(80,193,193,.16)}
+/* small keyboard icon, vertically centred at the right edge of the field */
+.keybtn{flex-shrink:0;width:28px;align-self:stretch;display:inline-flex;align-items:center;
+  justify-content:center;padding:0;cursor:pointer;border-radius:5px;
+  color:var(--teal-700);background:rgba(80,193,193,.16);border:1px solid rgba(80,193,193,.45);
+  transition:130ms}
+.keybtn:hover{background:rgba(80,193,193,.32)}
+.keybtn:focus-visible{outline:2px solid var(--teal-700);outline-offset:2px}
+.keybtn svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:1.7;
+  stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.keybtn[aria-expanded="true"]{background:var(--teal-700);color:#fff;border-color:var(--teal-700)}
+/* letter panel lives inside the card so no ancestor can clip it */
+.pad{display:none;flex-wrap:wrap;gap:5px;margin-top:7px;padding:8px;
+  background:var(--in);border:1px solid var(--border);border-radius:5px}
+.pad.open{display:flex}
+.padkey{font-family:var(--font);font-size:.92rem;font-weight:600;color:var(--teal-900);
+  background:var(--card);border:1px solid var(--border);border-radius:4px;
+  min-width:34px;height:32px;cursor:pointer;transition:130ms}
+.padkey:hover{background:var(--teal-400);border-color:var(--teal-400)}
+.padkey:focus-visible{outline:2px solid var(--teal-700);outline-offset:1px}
+.btn.rev{margin-top:8px}
+.btn.rev.on{background:rgba(0,90,90,.10);border-color:var(--teal-700)}
+.ansrow{margin:6px 0;padding:7px 9px;background:rgba(80,193,193,.09);border-radius:5px}
+.ansrow .mtext{font-size:.93rem}
+.qtext{font-size:.95rem;color:var(--ink);margin-bottom:9px;flex:1;min-width:0}
+
+.fb{margin-top:9px;padding-top:9px;border-top:1px dotted var(--border);font-size:.85rem}
+.fb .ans{font-weight:600;color:var(--teal-700);margin-bottom:4px}
+.fb .why{color:var(--muted)}
+
+details.fold{margin-bottom:9px;border:1px solid var(--border);border-radius:6px;background:var(--card)}
+details.fold > summary{padding:9px 12px;font-weight:600;font-size:.88rem;cursor:pointer;
+  color:var(--teal-900);list-style:none}
+details.fold > summary::-webkit-details-marker{display:none}
+details.fold > summary::before{content:"▸";color:var(--teal-700);transition:transform .15s;
+  display:inline-block;margin-right:5px}
+details.fold[open] > summary::before{transform:rotate(90deg)}
+details.fold .foldbody{padding:0 12px 11px;border-top:1px solid var(--border);padding-top:9px;
+  font-size:.9rem}
+
+.footer{position:sticky;bottom:0;z-index:50;width:100%;max-width:var(--wrapw,860px);
+  margin-inline:auto;border-top:1px solid var(--border);padding:10px 16px;background:var(--page);
+  display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:.78rem;color:var(--muted)}
+.footer strong{color:var(--teal-700)}
+.footer-dot{margin:0 10px;color:var(--border)}
+
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+  <a class="brand-icon" href="../../" aria-label="Deutsch Lernen home">
+    <svg width="24" height="17" viewBox="0 0 31 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0"  y="0"  width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="0"  width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="0"  width="9" height="6" rx="1.5" fill="#008282"/>
+      <rect x="0"  y="8"  width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="8"  width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="8"  width="9" height="6" rx="1.5" fill="#008282"/>
+      <rect x="0"  y="16" width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="16" width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="16" width="9" height="6" rx="1.5" fill="#E1A01E"/>
+    </svg>
+  </a>
+  <div class="nav-pipe"></div>
+  <a class="nav-brand-text" href="index.html">Grammar</a>
+  <div class="nav-actions">
+    <a class="btn-nav" href="index.html" title="All grammar topics">All topics</a>
+    <a class="icon-btn" href="../../" title="Back to all modules" aria-label="Back to all modules">
+      <svg viewBox="0 0 24 24"><path d="M3 12l9-9 9 9"></path><path d="M5 10v10h14V10"></path></svg>
+    </a>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <h1>Two-level modality<span class="de">Die doppelte Modalität</span></h1>
+  
+<!-- ══ 1. CONCEPT ══ -->
+<section>
+  <h2>1 &middot; The concept</h2>
+  <p class="lead">Two-level modality is the stacking of two modal concepts in one clause. The first modal verb is finite and carries the main clause; the second modal verb stands at the end of the clause as the <em>infinitive of the first one</em>. In between sits the full verb they both govern, so a single clause expresses two kinds of necessity, ability, permission or will at once.</p>
+
+  <h3>1.1 The bracket that grows</h3>
+  <p>One modal verb already builds a bracket: the finite modal takes position two, and the infinitive closes the clause at the very end. A second modal verb does not create a second bracket. It joins the closing element, so the clause still has exactly <strong>one opening and one closing</strong>, and the middle field simply holds everything else.</p>
+  <table>
+    <thead><tr><th>Level</th><th>Structure</th><th>Example</th></tr></thead>
+    <tbody>
+      <tr><td>no modal</td><td>verb + object</td><td>Du füllst das Formular aus.</td></tr>
+      <tr><td>one modal</td><td>finite modal + closing infinitive</td><td>Du <em>musst</em> das Formular <em>ausfüllen</em>.</td></tr>
+      <tr><td>two modals</td><td>finite modal + field + infinitive + modal infinitive</td><td>Du <em>musst</em> das Formular heute noch <em>ausfüllen können</em>.</td></tr>
+    </tbody>
+  </table>
+  <p>Note the order of the two closing elements: the <strong>full verb comes first, the modal infinitive last</strong>. That order is fixed. <em>Du musst das Formular ausfüllen können</em> means that you must be <em>able</em> to fill in the form; the ability is the second, weaker level, and it is spoken last because it is the closer of the two.</p>
+
+  <h3>1.2 Which modal is first and which is second</h3>
+  <p>The <strong>outer</strong> modal is finite and decides the whole clause. The <strong>inner</strong> modal is its infinitive and refines the outer meaning. The usual pairs are:</p>
+  <table>
+    <thead><tr><th>Outer (finite)</th><th>Inner (infinitive)</th><th>Meaning of the stack</th></tr></thead>
+    <tbody>
+      <tr><td>m&uuml;ssen</td><td>k&ouml;nnen</td><td>compulsion plus capability: it is unavoidable <em>and</em> you are up to it</td></tr>
+      <tr><td>m&uuml;ssen</td><td>wollen</td><td>the person is forced to want something, or does not want to have to do it</td></tr>
+      <tr><td>sollen</td><td>k&ouml;nnen</td><td>an instruction from a third party, plus your own ability</td></tr>
+      <tr><td>d&uuml;rfen</td><td>m&uuml;ssen</td><td>permission, with an inner obligation attached to it</td></tr>
+      <tr><td>wollen</td><td>m&uuml;ssen</td><td>wanting not to be forced: <em>Ich will nicht l&auml;nger warten m&uuml;ssen.</em></td></tr>
+    </tbody>
+  </table>
+  <p>The two levels may also follow each other directly, with no full verb between them, because the inner modal alone forms the complement of the outer one: <em>Ich will nicht l&auml;nger warten m&uuml;ssen</em> &ndash; the will is the outer level, the obligation to wait is the second, and the single <em>nicht</em> covers the whole clause.</p>
+
+  <h3>1.3 Negation and pronouns in the two-level clause</h3>
+  <p>The middle field is normal: subject, time expressions, objects and reflexive pronouns all stand between the finite modal and the closing cluster. Negation is the one point that needs care, because German <em>nicht</em> placed after a modal infinitive would cancel the outer modal and turn the sentence into its opposite.</p>
+  <table>
+    <thead><tr><th>Function</th><th>Placement</th><th>Example</th></tr></thead>
+    <tbody>
+      <tr><td>negating the whole clause</td><td><em>nicht</em> directly after the finite modal</td><td>Du musst das Formular heute nicht ausf&uuml;llen k&ouml;nnen.</td></tr>
+      <tr><td>neutral position</td><td><em>nicht</em> at the end of the field, directly before the full verb</td><td>Du musst das Formular heute nicht ausf&uuml;llen &ndash; das h&auml;tte letzte Woche sein m&uuml;ssen.</td></tr>
+      <tr><td>reflexive pronoun</td><td>in the field, accusative</td><td>Die Sch&uuml;lerin muss sich bei der Chefin entschuldigen k&ouml;nnen.</td></tr>
+    </tbody>
+  </table>
+  <p>Never put a second <em>nicht</em> into the closing cluster to negate the inner modal. <em>Du musst nicht k&ouml;nnen</em> is not a way of saying that you are unable to; it says that you do not have to be able to.</p>
+
+  <h3>1.4 The Perfekt as a second level</h3>
+  <p>In the perfect tense a modal verb forms its own Perfekt, and the modal slot is filled by a <strong>double infinitive</strong>: the full verb in the Infinitiv I plus the modal in the Infinitiv II. The participle of the modal is <em>not</em> used, because the participle position is already occupied by the first infinitive.</p>
+  <table>
+    <thead><tr><th>Tense</th><th>Structure</th><th>Example</th></tr></thead>
+    <tbody>
+      <tr><td>Pr&auml;sens</td><td>finite modal + Infinitiv I + modal infinitive</td><td>Er muss heute ins Amt kommen.</td></tr>
+      <tr><td>Perfekt</td><td>hat + Infinitiv I + modal infinitive</td><td>Er hat heute ins Amt kommen m&uuml;ssen.</td></tr>
+      <tr><td>Perfekt, no full verb</td><td>hat + participle of the modal</td><td>Er hat es nicht gewollt. / Sie hat nicht kommen k&ouml;nnen.</td></tr>
+      <tr><td>Konjunktiv II in the past</td><td>h&auml;tte + Infinitiv I + modal infinitive</td><td>Er h&auml;tte kommen m&uuml;ssen.</td></tr>
+    </tbody>
+  </table>
+  <p>The second level of the Perfekt carries the retrospective nuance: the situation is over, and the sentence reports that the obligation, ability or permission applied during it. <em>Ich habe dich nicht erreichen k&ouml;nnen</em> is stronger and more explicit than <em>Ich konnte dich nicht erreichen</em>, and it is the normal choice after another past expression: <em>Nach dem Telefonat habe ich das Formular noch ausf&uuml;llen k&ouml;nnen</em>.</p>
+  <p>One form exists only in speech: <em>Er hat m&uuml;ssen kommen</em> with the modal infinitive in front of the full verb. In writing, keep the order <strong>Infinitiv I before the modal infinitive</strong>.</p>
+
+  <h3>1.5 Stacks in subordinate clauses</h3>
+  <p>Nothing changes in the subordinate clause except the position of the cluster. The second modal still closes the clause, and the whole cluster &ndash; the full verb and both modal levels &ndash; is a single closing element, so the verb comes last as a unit.</p>
+  <table>
+    <thead><tr><th>Clause type</th><th>Example</th><th>Note</th></tr></thead>
+    <tbody>
+      <tr><td>dass-clause</td><td>Ich wei&szlig;, dass wir den Bericht noch abgeben m&uuml;ssen.</td><td>finite modal, no infinitive stack here</td></tr>
+      <tr><td>dass-clause, stacked</td><td>Er sagt, dass sie den Bericht allein schreiben k&ouml;nnen muss.</td><td>the finite modal is the very last word, the second level stands in front of it</td></tr>
+      <tr><td>relative clause</td><td>Das ist eine Regel, die man &uuml;berall anwenden muss.</td><td>relative pronoun in the field</td></tr>
+      <tr><td>um&nbsp;&ndash; zu clause</td><td>Ich rufe dich an, damit du die Bilder heute noch ausdrucken kannst.</td><td>use <em>damit</em>, not <em>um&nbsp;zu</em>, when a modal stands at the end</td></tr>
+    </tbody>
+  </table>
+  <p>Subordinate clauses also host the Perfekt stack, where the perfect auxiliary is the verb of the subordinate clause: <em>Sie hat erkl&auml;rt, dass sie den Hund hat versorgen m&uuml;ssen.</em> Here <em>hat</em> comes twice &ndash; once as the main-clause auxiliary, once inside the <em>dass</em> clause &ndash; and the two infinitive level of the second one is closed by <em>m&uuml;ssen</em>.</p>
+
+  <h3>1.6 Choosing the right modal for strength and relationship</h3>
+  <p>German separates obligation, instruction, permission and ability, and the second level in a stack must be chosen so that the two meanings do not contradict each other.</p>
+  <table>
+    <thead><tr><th>Modal</th><th>Strength and relation</th><th>Example</th></tr></thead>
+    <tbody>
+      <tr><td><strong>m&uuml;ssen</strong></td><td>objective necessity, inner or outer, no negotiation</td><td>Du musst die Frist ab morgen einhalten.</td></tr>
+      <tr><td><strong>sollen</strong></td><td>instruction or advice reported by a third party</td><td>Die Sch&uuml;lerin soll den Bericht bis Freitag abgeben.</td></tr>
+      <tr><td><strong>d&uuml;rfen</strong></td><td>permission granted, or prohibition when negated</td><td>Du darfst hier nicht parken.</td></tr>
+      <tr><td><strong>k&ouml;nnen</strong></td><td>capacity, and impossibility when negated</td><td>Ich kann am Montag nicht kommen.</td></tr>
+      <tr><td><strong>wollen / m&ouml;gen / m&ouml;chte</strong></td><td>will, inclination, polite wish &ndash; never necessity</td><td>Ich m&ouml;chte gern einen Termin vereinbaren.</td></tr>
+    </tbody>
+  </table>
+  <p>Two modals of the same strength waste the second level. <em>Du m&uuml;sstest nicht k&ouml;nnen</em> says nothing useful; a productive stack always combines <em>m&uuml;ssen</em> or <em>sollen</em> with <em>k&ouml;nnen</em>, <em>wollen</em> or <em>d&uuml;rfen</em>. And the relation between the two must stay consistent: the person who is obliged and the person who is able are the same in <em>Du musst das selbst machen k&ouml;nnen</em>, while <em>Du musst das machen, wir k&ouml;nnen es leisten</em> reports two separate facts and is not a stack.</p>
+
+  <div class="rulebox">
+    <p><strong>Five rules to check</strong></p>
+    <p>1. Only the first modal is finite. A second finite modal in the same clause does not exist in German.</p>
+    <p>2. Closing order: full verb, then the modal infinitive &ndash; <em>m&uuml;ssen</em> &hellip; <em>arbeiten k&ouml;nnen</em>.</p>
+    <p>3. In the Perfekt: <em>hat / h&auml;tte</em> + full verb infinitive + modal infinitive, never a participle of the modal in that slot.</p>
+    <p>4. One <em>nicht</em> per clause, on the finite verb, unless you are making a contrast.</p>
+    <p>5. In subordinate clauses the entire cluster counts as one closing element. A purpose clause with a finite modal takes <em>damit</em>; with <em>um&nbsp;zu</em> the modal belongs inside the zu infinitive, as in <em>um das Formular ausf&uuml;llen zu k&ouml;nnen</em>.</p>
+  </div>
+</section>
+
+  <!-- ══ 2. EXAMPLES ══ -->
+  <section>
+    <h2>2 · 20 worked examples</h2>
+    <p><small>Each example marks the opener and closer in bold and explains what it does to the sentence.</small></p>
+    <div id="examples"></div>
+  </section>
+
+  <!-- ══ 3. EXERCISES ══ -->
+  <section>
+    <h2>3 · 100 exercises</h2>
+
+    <div class="noVoice" id="noVoice">
+      <b>Pronunciation unavailable.</b> This browser has no German speech voice installed, so the
+      speaker buttons will not play. In Chrome, Edge and Safari on a desktop, German is available by default.
+    </div>
+    <div id="quiz"></div>
+  </section>
+
+</div>
+
+<footer class="footer"><strong>Two-level modality</strong><span class="footer-dot">·</span><span>Roman Zajic</span></footer>
+
+<script>
+(function(){
+  "use strict";
+
+  var EXAMPLES = [
+    ["Du musst das Formular heute noch ausfüllen können. — You still have to be able to fill in the form today.", "The standard two-level bracket: finite müssen, the full verb ausfüllen, and können as its infinitive at the very end."],
+    ["Der Techniker muss auch die schwierigsten Fälle bearbeiten können. — The technician has to be able to handle the most difficult cases as well.", "A professional obligation and an ability stack: what is demanded is a capability, not just an action."],
+    ["Ich will nicht länger warten müssen. — I do not want to have to wait any longer.", "A pure modal stack with no full verb: wollen as the outer level, müssen as the inner one, and a single nicht in front."],
+    ["Meine Eltern müssen auch mitkommen wollen. — My parents have to want to come along as well.", "External necessity plus a reported will, the typical pattern when parents or an authority are quoted."],
+    ["Nach dem Telefonat habe ich das Formular noch ausfüllen können. — After the phone call I was able to fill in the form after all.", "The Perfekt of a modal as the second level: hat plus the two infinitives, reporting a completed situation."],
+    ["Er hat heute ins Amt kommen müssen. — He has had to go to the registry office today.", "Perfekt with a directional full verb, one of the most frequent ways of reporting a past obligation."],
+    ["Hast du das machen können? — Have you been able to do it?", "A yes/no question in the Perfekt keeps haben in position two and sends both infinitives to the end."],
+    ["Sie hat ihren kranken Vater versorgen müssen. — She has had to look after her sick father.", "The double infinitive carries the second level, while versorgen is the Infinitiv I of the Perfekt."],
+    ["Du hättest mich warnen sollen. — You should have warned me.", "Konjunktiv II in the past: hätte plus Infinitiv I plus modal infinitive, expressing regret about a duty not carried out."],
+    ["Wir haben deine E-Mail leider nicht rechtzeitig sehen können. — Unfortunately we did not see your e-mail in time.", "Negation belongs to the inner level, but it stands after the finite auxiliary so that the whole perfect clause is denied."],
+    ["Ich glaube nicht, dass er das machen darf. — I do not think that he is allowed to do that.", "A modal in a subordinate clause: the verb comes last, and the modal governs the accusative object from the field."],
+    ["Es ist wichtig, dass du die Frist nicht vergessen darfst. — It is important that you must not forget the deadline.", "A dass-clause with a negated modal and the object in the field of the subordinate clause."],
+    ["Sie hat erklärt, dass sie den Hund hat versorgen müssen. — She explained that she had had to look after the dog.", "Two hat forms: the main-clause auxiliary and the subordinate perfect, which itself ends in a double infinitive."],
+    ["Gehen Sie bitte zum Schalter, damit Sie das Formular unterschreiben können. — Please go to the counter so that you can sign the form.", "damit instead of um zu, because a finite modal in the purpose clause would not be possible with um zu."],
+    ["Ich muss lernen, um die Prüfung bestehen zu können. — I have to study in order to be able to pass the exam.", "The outer modal of the main clause governs an um-clause that carries a second modal level of its own."],
+    ["Wer hier parken darf, muss am Automaten bezahlen. — Whoever is allowed to park here has to pay at the machine.", "A relative clause holds the first level, the main clause the second: permission followed by the payment duty."],
+    ["Ich möchte einen Tisch für zwei reservieren. — I would like to book a table for two.", "Strength check: möchte expresses a polite wish and never necessity, so it takes no second modal."],
+    ["Du darfst ihm nicht sagen, dass du das machen musst. — You may not tell him that you have to do it.", "Two levels in two clauses: a prohibition in the main clause and an obligation in the reported speech inside it."],
+    ["Wir müssen das gut aushalten können. — We have to be able to cope with that well.", "A minimal, very frequent stack where müssen and können have the same subject and the full verb is short."],
+    ["Man muss auch ohne Auto zurechtkommen können. — People have to be able to manage without a car as well.", "Impersonal man plus two modals: general necessity and general capacity in one clause."]
+  ];
+
+  var DATA_URL = "../../data/grammar_exercises_doppelte_modalitaet.json";
+  var STORE = "doppelte_modalitaet_progress_v1";
+  // ── pronunciation via the browser speech engine ──
+  var MIC_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5z"></path>'
+    + '<path class="pulse" d="M15.5 8.5a5 5 0 0 1 0 7"></path>'
+    + '<path class="pulse" d="M18.5 5.5a9 9 0 0 1 0 13"></path></svg>';
+  var synth = window.speechSynthesis || null;
+  var germanVoice = null;
+
+  function stripTags(t){ return String(t).replace(/<[^>]*>/g,""); }
+
+  function pickVoice(){
+    if(!synth) return null;
+    var vs = synth.getVoices() || [];
+    germanVoice = vs.filter(function(v){ return /^de(-|_|$)/i.test(v.lang); })[0] || null;
+    return germanVoice;
+  }
+  if(synth){
+    pickVoice();
+    if(synth.addEventListener) synth.addEventListener("voiceschanged", pickVoice);
+  }
+
+  function stopSpeech(){ if(synth) try{ synth.cancel(); }catch(e){} }
+
+  var warned = false;
+  function noVoiceNotice(){
+    if(warned) return; warned = true;
+    var n = document.getElementById("noVoice");
+    if(n) n.style.display = "flex";
+  }
+  function micBtn(text, label){
+    var b = document.createElement("button");
+    b.className = "mic";
+    b.type = "button";
+    b.setAttribute("aria-pressed","false");
+    b.setAttribute("aria-label", (label||"Play") + ": " + stripTags(text));
+    b.title = "Play pronunciation";
+    b.innerHTML = MIC_SVG;
+    b.addEventListener("click", function(ev){
+      ev.stopPropagation();
+      if(!synth){ b.disabled = true; b.title = "Speech is not available in this browser"; noVoiceNotice(); return; }
+      if(b.getAttribute("aria-pressed")==="true"){ stopSpeech(); b.setAttribute("aria-pressed","false"); return; }
+      stopSpeech();
+      if(!germanVoice) pickVoice();
+      var u = new SpeechSynthesisUtterance(stripTags(text));
+      u.lang = "de-DE";
+      if(germanVoice) u.voice = germanVoice;
+      u.rate = 0.92; u.pitch = 1;
+      b.setAttribute("aria-pressed","true");
+      var off = function(){ b.setAttribute("aria-pressed","false"); };
+      u.onend = off;
+      u.onerror = function(){ off(); noVoiceNotice(); };
+      synth.speak(u);
+      // some engines report no voices at all; surface that instead of a dead button
+      if(!synth.getVoices().length) noVoiceNotice();
+    });
+    return b;
+  }
+
+  var state = {revealed:{}, answers:{}};
+
+  function esc(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
+  function load(){ try{ var v=JSON.parse(localStorage.getItem(STORE)); if(v&&typeof v==="object"){state.revealed=v.revealed||{};state.answers=v.answers||{};} }catch(e){} }
+  function save(){ try{ localStorage.setItem(STORE, JSON.stringify(state)); }catch(e){} }
+
+  // ---- examples ----
+  // Each entry is [german_and_english, why]. The first field carries the English
+  // translation after an em dash, so split it out for separate styling.
+  function splitDE(t){
+    var i = t.indexOf("\u2014");
+    if(i < 0) return [t, ""];
+    return [t.slice(0,i).trim(), t.slice(i+1).trim()];
+  }
+  (function renderExamples(){
+    var host = document.getElementById("examples");
+    host.innerHTML = "";
+    EXAMPLES.forEach(function(x){
+      var de = x[0] || "";
+      var why = x[1] || "";
+      var parts = splitDE(de);
+      var card = document.createElement("div");
+      card.className = "ex";
+
+      var row = document.createElement("div");
+      row.className = "microw";
+      var txt = document.createElement("div");
+      txt.className = "mtext";
+      txt.innerHTML = '<div class="de">'+parts[0]+'</div>'+
+                      (parts[1] ? '<div class="en">'+parts[1]+'</div>' : "");
+      row.appendChild(txt);
+      row.appendChild(micBtn(parts[0], "Play this example"));
+      card.appendChild(row);
+
+      if(why){
+        var w = document.createElement("div");
+        w.className = "why";
+        w.innerHTML = "<b>Why:</b> "+why;
+        card.appendChild(w);
+      }
+      host.appendChild(card);
+    });
+  })();
+
+  // German special letters, inserted at the caret in the focused input.
+  var KEYS = ["ä","ö","ü","Ä","Ö","Ü","ß","€"];
+
+  function insertAt(input, ch){
+    var v = input.value;
+    var a = input.selectionStart == null ? v.length : input.selectionStart;
+    var b = input.selectionEnd == null ? v.length : input.selectionEnd;
+    input.value = v.slice(0,a) + ch + v.slice(b);
+    var pos = a + ch.length;
+    try{ input.setSelectionRange(pos,pos); }catch(e){}
+    input.focus();
+  }
+
+  function keypadBtn(id){
+    var b = document.createElement("button");
+    b.type = "button";
+    b.className = "keybtn";
+    b.title = "German letters";
+    b.setAttribute("aria-label","Insert German special characters");
+    b.setAttribute("aria-expanded","false");
+    b.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true">'+
+      '<rect x="2" y="5" width="20" height="14" rx="2"></rect>'+
+      '<path d="M6 9h.01M10 9h.01M14 9h.01M18 9h.01M6 13h.01M10 13h.01M14 13h.01M18 13h.01M8 16h8"></path>'+
+      '</svg>';
+    b.addEventListener("click", function(ev){
+      ev.stopPropagation();
+      var panel = document.getElementById("pad-"+id);
+      if(!panel) return;
+      var open = panel.classList.toggle("open");
+      b.setAttribute("aria-expanded", open ? "true" : "false");
+      closeAllKeypads(panel);
+    });
+    return b;
+  }
+
+  function closeAllKeypads(except){
+    Array.prototype.forEach.call(document.querySelectorAll(".pad.open"), function(p){
+      if(p === except) return;
+      p.classList.remove("open");
+      var btn = p.previousSibling && p.previousSibling.querySelector ? p.previousSibling.querySelector(".keybtn") : null;
+      if(btn) btn.setAttribute("aria-expanded","false");
+    });
+  }
+
+  document.addEventListener("click", function(){ closeAllKeypads(null); });
+  document.addEventListener("keydown", function(e){ if(e.key === "Escape") closeAllKeypads(null); });
+
+  function renderQuiz(ex){
+    var el = document.getElementById("quiz");
+    el.innerHTML = "";
+    ex.forEach(function(e){
+      var rev = !!state.revealed[e.id];
+      var card = document.createElement("article");
+      card.className = "q" + (rev ? " revealed" : "");
+      card.id = "q"+e.id;
+
+      var top = document.createElement("div");
+      top.className = "qtop";
+      top.innerHTML = '<span class="qnum">'+e.id+'</span>';
+      var qt = document.createElement("span");
+      qt.className = "qtext";
+      qt.textContent = e.english;
+      top.appendChild(qt);
+      card.appendChild(top);
+
+      // input with the letter keypad docked inside its right edge
+      var row = document.createElement("div");
+      row.className = "inputrow";
+      var ta = document.createElement("input");
+      ta.type = "text";
+      ta.className = "ainput";
+      ta.placeholder = "Write the German here…";
+      ta.setAttribute("aria-label","Your German answer for exercise "+e.id);
+      ta.value = state.answers[e.id] || "";
+      ta.addEventListener("input", function(){ state.answers[e.id] = ta.value; save(); });
+      row.appendChild(ta);
+      row.appendChild(keypadBtn(e.id));
+      card.appendChild(row);
+
+      // the letter panel sits inside the card so it is never clipped
+      var pad = document.createElement("div");
+      pad.className = "pad";
+      pad.id = "pad-"+e.id;
+      KEYS.forEach(function(k){
+        var kb = document.createElement("button");
+        kb.type = "button";
+        kb.className = "padkey";
+        kb.textContent = k;
+        kb.addEventListener("click", function(ev){
+          ev.stopPropagation();
+          var target = card.querySelector(".ainput");
+          insertAt(target, k);
+          state.answers[e.id] = target.value;
+          save();
+        });
+        pad.appendChild(kb);
+      });
+      card.appendChild(pad);
+
+      // reveal / hide toggle
+      var rb = document.createElement("button");
+      rb.type = "button";
+      rb.className = "btn rev" + (rev ? " on" : "");
+      rb.textContent = rev ? "Hide answer" : "Reveal answer";
+      rb.setAttribute("aria-expanded", rev ? "true" : "false");
+      rb.addEventListener("click", function(){
+        state.revealed[e.id] = !state.revealed[e.id];
+        save();
+        renderQuiz(ex);
+      });
+      card.appendChild(rb);
+
+      if(rev){
+        var fb = document.createElement("div");
+        fb.className = "fb";
+
+        var ansRow = document.createElement("div");
+        ansRow.className = "microw ansrow";
+        var at = document.createElement("div");
+        at.className = "mtext";
+        at.textContent = e.german;
+        ansRow.appendChild(at);
+        ansRow.appendChild(micBtn(e.german, "Play the German answer"));
+        fb.appendChild(ansRow);
+
+        var wy = document.createElement("div");
+        wy.className = "why";
+        wy.textContent = e.why;
+        fb.appendChild(wy);
+
+        card.appendChild(fb);
+      }
+      el.appendChild(card);
+    });
+  }
+
+  load();
+
+  fetch(DATA_URL+"?cb="+Date.now())
+    .then(function(r){ if(!r.ok) throw new Error("HTTP "+r.status); return r.json(); })
+    .then(function(d){
+      var ex=d.exercises;
+      renderQuiz(ex);
+    })
+    .catch(function(e){
+      document.getElementById("quiz").innerHTML =
+        '<div class="q"><b>Could not load the exercises.</b><br>'+esc(e.message)+'</div>';
+    });
+})();
+</script>
+</body>
+</html>

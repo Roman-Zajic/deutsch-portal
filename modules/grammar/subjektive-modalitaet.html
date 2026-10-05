@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Modal verbs of deduction and hedging — Die subjektive Modalität | Deutsch Lernen</title>
+<style>
+:root{
+  --font:"Segoe UI",system-ui,-apple-system,sans-serif;
+  --teal-900:#005A5A; --teal-700:#008282; --teal-400:#50C1C1; --teal-100:#95DFDB;
+  --amber:#E1A01E; --red:#C41E3A; --green:#1D7A4C;
+  --ink:#012D2C; --muted:#008282;
+  --page:#F0FAFA; --card:#FFF; --in:#F0FAFA; --border:#D0ECEB;
+  --shadow:0 1px 4px rgba(1,45,44,.10); --shadow-md:0 4px 14px rgba(1,45,44,.12);
+  --r:8px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font);font-size:16px;color:var(--teal-900);background:var(--page);
+  line-height:1.65;-webkit-font-smoothing:antialiased;
+  display:flex;flex-direction:column;min-height:100vh}
+
+.navbar{display:flex;align-items:center;gap:12px;height:48px;padding:0 14px;
+  background:var(--teal-900);border-bottom:1px solid rgba(149,223,219,.15);
+  position:sticky;top:0;z-index:100;flex-shrink:0}
+.brand-icon{display:flex;align-items:center;flex-shrink:0}
+.nav-pipe{width:1px;height:16px;background:rgba(149,223,219,.30);flex-shrink:0;margin:0 12px}
+.nav-brand-text{font-size:.95rem;font-weight:600;color:var(--teal-100);text-decoration:none;white-space:nowrap}
+.nav-actions{margin-left:auto;display:flex;align-items:center;gap:8px}
+.icon-btn{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;padding:0;
+  color:var(--teal-100);background:rgba(149,223,219,.12);border:1px solid rgba(149,223,219,.22);
+  border-radius:4px;cursor:pointer;transition:130ms;text-decoration:none;flex-shrink:0}
+.icon-btn:hover{background:rgba(149,223,219,.24);border-color:rgba(149,223,219,.45)}
+.btn-nav{display:inline-flex;align-items:center;justify-content:center;height:32px;padding:0 12px;
+  font-size:.78rem;font-weight:600;font-family:var(--font);color:var(--teal-100);text-decoration:none;
+  background:rgba(149,223,219,.12);border:1px solid rgba(149,223,219,.22);border-radius:4px;
+  transition:130ms;white-space:nowrap;flex-shrink:0}
+.btn-nav:hover{background:rgba(149,223,219,.24);border-color:rgba(149,223,219,.45)}
+@media (max-width:400px){.btn-nav{padding:0 9px;font-size:.74px;font-size:.74rem}}
+.icon-btn svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:2;
+  stroke-linecap:round;stroke-linejoin:round}
+@media (max-width:560px){.nav-brand-text{font-size:.85rem}}
+
+.wrap{max-width:860px;width:100%;margin:0 auto;padding:20px 16px 0;flex:1 0 auto}
+
+h1{font-size:1.5rem;line-height:1.3;margin:0 0 4px}
+h1 .de{display:block;font-size:1rem;color:var(--teal-700);font-weight:600;margin-top:2px}
+
+section{margin-bottom:30px}
+h2{font-size:1.05rem;margin-bottom:10px;padding-bottom:6px;border-bottom:2px solid var(--teal-400)}
+h3{font-size:.85rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;
+  color:var(--teal-700);margin:16px 0 8px}
+p{margin-bottom:10px}
+.lead{color:var(--ink)}
+small{color:var(--muted)}
+
+.rulebox{background:var(--in);border:1px solid var(--border);border-left:4px solid var(--teal-400);
+  border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.rulebox strong{color:var(--teal-700)}
+.warnbox{background:rgba(196,30,58,.05);border:1px solid rgba(196,30,58,.25);
+  border-left:4px solid var(--red);border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.warnbox strong{color:var(--red)}
+.tipbox{background:rgba(29,122,76,.06);border:1px solid rgba(29,122,76,.22);
+  border-left:4px solid var(--green);border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.tipbox strong{color:var(--green)}
+
+table{width:100%;border-collapse:collapse;margin:12px 0;font-size:.88rem;
+  table-layout:fixed}
+th,td{overflow-wrap:anywhere;word-break:normal;hyphens:auto}
+th,td{text-align:left;padding:7px 9px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--in);font-weight:700;font-size:.76rem;text-transform:uppercase;
+  letter-spacing:.04em;color:var(--teal-700)}
+td.de{color:var(--ink)}
+tr:last-child td{border-bottom:none}
+
+.mic{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;
+  padding:0;flex-shrink:0;vertical-align:middle;border-radius:50%;cursor:pointer;
+  color:var(--teal-700);background:rgba(80,193,193,.16);border:1px solid rgba(80,193,193,.45);
+  transition:130ms}
+.mic:hover{background:rgba(80,193,193,.34)}
+.mic:focus-visible{outline:2px solid var(--teal-700);outline-offset:2px}
+.mic svg{width:13px;height:13px;fill:none;stroke:currentColor;stroke-width:2;
+  stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.mic[aria-pressed="true"]{background:var(--teal-700);color:#fff;border-color:var(--teal-700)}
+.mic[aria-pressed="true"] .pulse{animation:pulse 1s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+.mic[disabled]{opacity:.45;cursor:not-allowed}
+.microw{display:flex;align-items:flex-start;gap:8px}
+.microw > .mtext{flex:1;min-width:0}
+.ex{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:12px 13px;
+  margin-bottom:9px;box-shadow:var(--shadow)}
+.ex .de{font-size:.98rem;color:var(--ink);margin-bottom:4px}
+.ex .de em{color:var(--teal-700);font-style:normal;font-weight:700;background:rgba(80,193,193,.20);
+  padding:0 3px;border-radius:2px}
+.ex .en{font-size:.84rem;color:var(--muted)}
+.ex .why{font-size:.82rem;color:var(--teal-700);margin-top:6px;padding-top:6px;
+  border-top:1px dotted var(--border)}
+.ex .why b{font-weight:700}
+
+/* ── EXERCISES ── */
+.btn{font-family:var(--font);font-size:.78rem;font-weight:600;cursor:pointer;
+  padding:6px 12px;border-radius:4px;border:1px solid var(--teal-400);
+  background:rgba(80,193,193,.14);color:var(--teal-700);transition:130ms;white-space:nowrap}
+.btn:hover{background:rgba(80,193,193,.28)}
+.btn.ghost{background:transparent;border-color:var(--border);color:var(--muted)}
+.btn.ghost:hover{border-color:var(--teal-400);color:var(--teal-700)}
+.noVoice{display:none;align-items:flex-start;gap:8px;margin-bottom:12px;padding:9px 12px;
+  background:rgba(225,160,30,.12);border:1px solid rgba(225,160,30,.4);border-radius:var(--r);
+  font-size:.83rem;color:#7A5000}
+.noVoice b{color:#7A5000}
+
+.q{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:12px 13px;
+  margin-bottom:10px;box-shadow:var(--shadow)}
+.q.revealed{border-color:var(--teal-400)}
+.q.correct{border-color:rgba(29,122,76,.5);background:rgba(29,122,76,.04)}
+.q.wrong{border-color:rgba(196,30,58,.45);background:rgba(196,30,58,.03)}
+.qtop{display:flex;gap:9px;align-items:flex-start;margin-bottom:9px}
+.qnum{flex-shrink:0;width:23px;height:23px;border-radius:50%;background:rgba(0,130,130,.10);
+  color:var(--teal-7);color:var(--teal-700);font-size:.7rem;font-weight:700;display:flex;
+  align-items:center;justify-content:center;margin-top:1px}
+.q.correct .qnum{background:rgba(29,122,76,.16);color:var(--green)}
+.q.wrong .qnum{background:rgba(196,30,58,.14);color:var(--red)}
+.inputrow{display:flex;align-items:stretch;gap:6px;position:relative}
+.ainput{flex:1;min-width:0;font-family:var(--font);font-size:.92rem;color:var(--ink);
+  background:var(--in);border:1px solid var(--border);border-radius:5px;padding:8px 32px 8px 11px;transition:130ms}
+.ainput:focus{outline:none;border-color:var(--teal-400);background:#fff;box-shadow:0 0 0 3px rgba(80,193,193,.16)}
+/* small keyboard icon, vertically centred at the right edge of the field */
+.keybtn{flex-shrink:0;width:28px;align-self:stretch;display:inline-flex;align-items:center;
+  justify-content:center;padding:0;cursor:pointer;border-radius:5px;
+  color:var(--teal-700);background:rgba(80,193,193,.16);border:1px solid rgba(80,193,193,.45);
+  transition:130ms}
+.keybtn:hover{background:rgba(80,193,193,.32)}
+.keybtn:focus-visible{outline:2px solid var(--teal-700);outline-offset:2px}
+.keybtn svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:1.7;
+  stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.keybtn[aria-expanded="true"]{background:var(--teal-700);color:#fff;border-color:var(--teal-700)}
+/* letter panel lives inside the card so no ancestor can clip it */
+.pad{display:none;flex-wrap:wrap;gap:5px;margin-top:7px;padding:8px;
+  background:var(--in);border:1px solid var(--border);border-radius:5px}
+.pad.open{display:flex}
+.padkey{font-family:var(--font);font-size:.92rem;font-weight:600;color:var(--teal-900);
+  background:var(--card);border:1px solid var(--border);border-radius:4px;
+  min-width:34px;height:32px;cursor:pointer;transition:130ms}
+.padkey:hover{background:var(--teal-400);border-color:var(--teal-400)}
+.padkey:focus-visible{outline:2px solid var(--teal-700);outline-offset:1px}
+.btn.rev{margin-top:8px}
+.btn.rev.on{background:rgba(0,90,90,.10);border-color:var(--teal-700)}
+.ansrow{margin:6px 0;padding:7px 9px;background:rgba(80,193,193,.09);border-radius:5px}
+.ansrow .mtext{font-size:.93rem}
+.qtext{font-size:.95rem;color:var(--ink);margin-bottom:9px;flex:1;min-width:0}
+
+.fb{margin-top:9px;padding-top:9px;border-top:1px dotted var(--border);font-size:.85rem}
+.fb .ans{font-weight:600;color:var(--teal-700);margin-bottom:4px}
+.fb .why{color:var(--muted)}
+
+details.fold{margin-bottom:9px;border:1px solid var(--border);border-radius:6px;background:var(--card)}
+details.fold > summary{padding:9px 12px;font-weight:600;font-size:.88rem;cursor:pointer;
+  color:var(--teal-900);list-style:none}
+details.fold > summary::-webkit-details-marker{display:none}
+details.fold > summary::before{content:"▸";color:var(--teal-700);transition:transform .15s;
+  display:inline-block;margin-right:5px}
+details.fold[open] > summary::before{transform:rotate(90deg)}
+details.fold .foldbody{padding:0 12px 11px;border-top:1px solid var(--border);padding-top:9px;
+  font-size:.9rem}
+
+.footer{position:sticky;bottom:0;z-index:50;width:100%;max-width:var(--wrapw,860px);
+  margin-inline:auto;border-top:1px solid var(--border);padding:10px 16px;background:var(--page);
+  display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:.78rem;color:var(--muted)}
+.footer strong{color:var(--teal-700)}
+.footer-dot{margin:0 10px;color:var(--border)}
+
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+  <a class="brand-icon" href="../../" aria-label="Deutsch Lernen home">
+    <svg width="24" height="17" viewBox="0 0 31 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0"  y="0"  width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="0"  width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="0"  width="9" height="6" rx="1.5" fill="#008282"/>
+      <rect x="0"  y="8"  width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="8"  width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="8"  width="9" height="6" rx="1.5" fill="#008282"/>
+      <rect x="0"  y="16" width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="16" width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="16" width="9" height="6" rx="1.5" fill="#E1A01E"/>
+    </svg>
+  </a>
+  <div class="nav-pipe"></div>
+  <a class="nav-brand-text" href="index.html">Grammar</a>
+  <div class="nav-actions">
+    <a class="btn-nav" href="index.html" title="All grammar topics">All topics</a>
+    <a class="icon-btn" href="../../" title="Back to all modules" aria-label="Back to all modules">
+      <svg viewBox="0 0 24 24"><path d="M3 12l9-9 9 9"></path><path d="M5 10v10h14V10"></path></svg>
+    </a>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <h1>Modal verbs of deduction and hedging<span class="de">Die subjektive Modalität</span></h1>
+  
+<!-- ══ 1. CONCEPT ══ -->
+<section>
+  <h2>1 &middot; The concept</h2>
+  <p class="lead"><strong>Subjektive Modalit&auml;t</strong> (epistemic modality) says something about the <em>speaker</em>: what the speaker concludes, considers possible or is only guessing. The modal verb is not about the grammatical subject &ndash; it comments on how much the speaker knows. This is the decisive difference to the &ldquo;objective&rdquo; uses of <em>m&uuml;ssen, k&ouml;nnen, d&uuml;rfen, sollen</em>, where the verb does describe the subject.</p>
+  <div class="rulebox">
+    <p><strong>Central rule:</strong> An epistemic modal verb is conjugated, stands in second position of the main clause, and leaves the nominative subject unchanged &ndash; the same skeleton as any other modal sentence. Only the <em>meaning</em> of the modal changes: it no longer qualifies the subject, it qualifies the speaker&rsquo;s certainty.</p>
+    <p><strong>Minimal pair:</strong> <em>Der Kollege muss im B&uuml;ro arbeiten.</em> &ndash; the colleague is obliged to work. <em>Der Kollege muss im B&uuml;ro sein.</em> &ndash; from the evidence, I conclude that the colleague is in the office.</p>
+  </div>
+
+  <h3>1.1 Objective and subjective reading side by side</h3>
+  <table>
+    <thead>
+      <tr><th>Sentence</th><th>Reading</th><th>Who is concerned</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Die Sch&uuml;lerin kann gut rechnen.</td><td>She is good at calculating (ability).</td><td>the pupil</td></tr>
+      <tr><td>Die Schl&uuml;sserin muss im Haus sein.</td><td>The keys must be in the house (deduction).</td><td>the speaker&rsquo;s evidence</td></tr>
+      <tr><td>Du darfst hier parken.</td><td>You are permitted to park (permission).</td><td>the addressee</td></tr>
+      <tr><td>Die Rechnung d&uuml;rfte schon bezahlt sein.</td><td>The bill is probably paid already (probability).</td><td>the speaker&rsquo;s estimate</td></tr>
+    </tbody>
+  </table>
+  <p>Grammar gives you no label. The two readings are separated by the <em>evidence</em>: if you can point to something the speaker has observed, the modal is subjective; if not, it belongs to the subject.</p>
+
+  <h3>1.2 <em>m&uuml;ssen</em> as deduction: the strongest signal</h3>
+  <p>With epistemic <em>m&uuml;ssen</em> the speaker presents a conclusion as almost certain, without formally marking it as such. It is the normal German way of saying &ldquo;must be&rdquo; or &ldquo;obviously&rdquo;, and it is extremely frequent in spoken and written German.</p>
+  <table>
+    <thead>
+      <tr><th>Evidence in the context</th><th>Epistemic sentence</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>His voice sounds strange, he keeps coughing.</td><td>Er muss erk&auml;ltet sein.</td></tr>
+      <tr><td>It has been raining for an hour.</td><td>Die Zeltbahn muss durch sein.</td></tr>
+      <tr><td>Nobody has replied to three e-mails.</td><td>Die Adresse m&uuml;sste falsch sein.</td></tr>
+      <tr><td>The report is full of empty phrases.</td><td>Der Autor muss die Deadline sehr ernst nehmen.</td></tr>
+    </tbody>
+  </table>
+  <p>Two structural points matter. First, the conclusion is usually placed <em>after</em> the modal, because the evidence comes first; <em>Er muss krank sein</em>, not <em>*Er ist krank, muss</em>. Second, deduction combines freely with the perfect: <em>sie muss sich verlaufen haben</em> &ndash; the conclusion is drawn in the past, although <em>sich verlaufen</em> is a present form.</p>
+
+  <h3>1.3 <em>sollen</em> as reported or expected deduction</h3>
+  <p><em>sollen</em> in the subjective use is the reported variant of <em>m&uuml;ssen</em>. It is used when the deduction is passed on, announced, or when it is attributed to somebody else &ndash; a report, a rumour, an official statement, or simply the present speaker&rsquo;s hedged conclusion.</p>
+  <table>
+    <thead>
+      <tr><th>Function</th><th>Sentence</th><th>English</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>reported deduction</td><td>Der Techniker m&uuml;sste im Kabel arbeiten.</td><td>According to the technician, the fault must be in the cable.</td></tr>
+      <tr><td>announcement</td><td>Die Bahn muss heute versp&auml;tet sein.</td><td>The train is apparently delayed today.</td></tr>
+      <tr><td>official statement</td><td>Der Sprecher soll einger&auml;ckt haben.</td><td>The spokesman is said to have resigned.</td></tr>
+      <tr><td>public notice</td><td>Die Daten m&uuml;ssten gel&ouml;scht werden.</td><td>The data are said to be deleted.</td></tr>
+    </tbody>
+  </table>
+  <p>Note the flat indicative after <em>sollen</em>. German does not use Konjunktiv I or a special subjunctive in reported speech; the modal itself already signals the distance. If the same event is the speaker&rsquo;s own conclusion, use <em>m&uuml;ssen</em> instead &ndash; <em>Der Techniker muss im Kabel arbeiten</em> is my conclusion, <em>Der Techniker soll im Kabel arbeiten</em> is his.</p>
+
+  <h3>1.4 <em>konj&#252;nktiv II</em> forms: conjecture and tentative permission</h3>
+  <p><em>konj&#252;nktiv II</em> (<em>k&ouml;nnte, m&uuml;sste, d&uuml;rfte, sollte, m&ouml;chte</em>) lowers the speaker&rsquo;s commitment. Where the indicative modal asserts a conclusion, the Konjunktiv II opens the possibility that the speaker is wrong.</p>
+  <table>
+    <thead>
+      <tr><th>Modal</th><th>Epistemic use</th><th>Degree of certainty</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><em>muss</em></td><td>Er muss im Zug sein.</td><td>very high (almost no doubt)</td></tr>
+      <tr><td><em>m&uuml;sste</em></td><td>Er m&uuml;sste im Zug sein.</td><td>high, but I could be wrong</td></tr>
+      <tr><td><em>mag</em></td><td>Er mag im Zug sein.</td><td>low, deliberately unspecific</td></tr>
+      <tr><td><em>k&ouml;nnte</em></td><td>Er k&ouml;nnte im Zug sein.</td><td>possible, no preference</td></tr>
+      <tr><td><em>d&uuml;rfte</em></td><td>Er d&uuml;rfte im Zug sein.</td><td>probable, softened estimate</td></tr>
+      <tr><td><em>sollte</em></td><td>Er sollte im Zug sein.</td><td>what ought to be the case, warning</td></tr>
+    </tbody>
+  </table>
+  <p>In subordinate clauses the two forms collapse: <em>Ich glaube, dass er im Zug sein muss</em> and <em>Ich glaube, dass er im Zug sein m&uuml;sste</em> both occur. In the indicative &ndash; with <em>dass</em>, <em>ob</em>, <em>wenn</em>, <em>weil</em> &ndash; <em>m&uuml;sste</em> and <em>sollte</em> survive, while <em>mag</em> and <em>d&uuml;rfte</em> are sharply restricted or absent. The indicative is also required after <em>als ob / als wenn</em>, and <em>k&ouml;nnte</em> usually stays in the main clause.</p>
+  <p>Modal <em>sollen</em> + <em>Infinitiv</em> after <em>als ob</em> is a useful fixed pattern: <em>Er tut so, als m&uuml;sste er die Lage kennen.</em></p>
+
+  <h3>1.5 <em>d&uuml;rfen</em>: two unrelated readings</h3>
+  <p>Subjunctive II <em>d&uuml;rfte</em> is a probability marker; the present form <em>darf</em> is a permission marker. The two are not a scale of the same meaning &ndash; they belong to different systems.</p>
+  <table>
+    <thead>
+      <tr><th>Form</th><th>Epistemic reading</th><th>Non-epistemic reading</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><em>d&uuml;rfte</em></td><td>Das Paket d&uuml;rfte noch im Lager sein. (probably still in the warehouse)</td><td>&ndash;</td></tr>
+      <tr><td><em>darf</em></td><td>&ndash;</td><td>Sie d&uuml;rfen das Formular selbst ausf&uuml;llen. (you may fill in the form)</td></tr>
+    </tbody>
+  </table>
+  <p>Epistemic <em>d&uuml;rfte</em> is the politest way of guessing and is standard when a speaker does not want to commit: <em>Die Rechnung d&uuml;rfte schon bezahlt sein.</em> Combined with <em>nicht</em> it gives a confident negation of the negative: <em>Das kann nicht sein.</em></p>
+  <p>Tentative permission in the second person is also <em>d&uuml;rfen</em>, but as a <em>present</em> form addressed to the listener: <em>Sie d&uuml;rfen kurz warten.</em> Politer still is <em>D&uuml;rfte ich kurz fragen?</em> Here <em>d&uuml;rfte</em> is a modal verb of politeness, not a probability &ndash; but the form is identical, so read the sentence situationally.</p>
+
+  <h3>1.6 <em>k&ouml;nnen</em> for possibility and for tentative statements</h3>
+  <p>With <em>k&ouml;nnen</em> the speaker reports a possibility without judging how likely it is. <em>Konj&#252;nktiv II</em> (<em>k&ouml;nnte</em>) makes the possibility still weaker, especially in the main clause, and is very common in polite requests and in proposals where the speaker does not want to impose.</p>
+  <table>
+    <thead>
+      <tr><th>Sentence</th><th>What the speaker signals</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Der Fluss kann im Winter zu&eacute;gef&uuml;ren sein.</td><td>a real, considerable possibility</td></tr>
+      <tr><td>Der Fluss k&ouml;nnte zu&eacute;gef&uuml;ren sein.</td><td>possible, but I would not bet on it</td></tr>
+      <tr><td>Es k&ouml;nnte sein, dass wir uns verrechnet haben.</td><td>formal wrapper for a bare conjecture</td></tr>
+      <tr><td>Wir k&ouml;nnten uns einen Kaffee leisten.</td><td>polite suggestion, not a question about ability</td></tr>
+    </tbody>
+  </table>
+  <p>Watch the verb-final pattern: <em>Der Fluss k&ouml;nnte zu&eacute;gef&uuml;ren sein</em> and <em>Wir k&ouml;nnten uns einen Kaffee leisten</em> both keep the infinitive at the end, which is the normal main-clause order for modals and stays the same in subjective readings.</p>
+
+  <h3>1.7 Hedging: modal adverb + modal verb</h3>
+  <p>German marks hedging with a <em>separate</em> adverb more often than English does with <em>must / may / might / could</em>. The two combine, and each does part of the work: the adverb fixes the approximate strength, the modal verb carries the grammatical marker.</p>
+  <table>
+    <thead>
+      <tr><th>Hedging adverb</th><th>Approximate strength</th><th>Typical combination</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><em>nat&uuml;rlich</em>, <em>offensichtlich</em>, <em>seltsamerweise</em></td><td>almost certain</td><td>Offensichtlich muss die Zusage verloren gehen.</td></tr>
+      <tr><td><em>anscheinend</em>, <em>offenbar</em>, <em>vermutlich</em>, <em>wahrscheinlich</em></td><td>high probability</td><td>Anscheinend muss der Termin abgesagt sein.</td></tr>
+      <tr><td><em>wohl</em>, <em>wohl nicht</em></td><td>tentative, slightly old-fashioned</td><td>Das wird wohl stimmen.</td></tr>
+      <tr><td><em>vielleicht</em>, <em>eventuell</em>, <em>m&ouml;glicherweise</em></td><td>open possibility</td><td>Vielleicht k&ouml;nnen wir den Termin verschieben.</td></tr>
+      <tr><td><em>bestimmt</em>, <em>garantiert</em></td><td>speaker&rsquo;s guess, emphatic</td><td>Er hat bestimmt vergessen, den Antrag zu schicken.</td></tr>
+    </tbody>
+  </table>
+  <p>These adverbs are perfectly normal in main-clause position after the subject, and just as normal in front of a modal verb in a subordinate clause: <em>Ich nehme an, dass er vermutlich nur den falschen Flur gesucht hat.</em></p>
+
+  <h3>1.8 Negation and questions</h3>
+  <p>Negating the modal word denies the <em>conclusion</em>, which is a common way to state a <em>certainty</em> &ndash; stronger than any positive hedge.</p>
+  <table>
+    <thead>
+      <tr><th>Sentence</th><th>Meaning</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Das kann nicht sein.</td><td>That simply cannot be the case.</td></tr>
+      <tr><td>Das muss nicht stimmen.</td><td>It need not be correct (the conclusion is not valid).</td></tr>
+ <tr><td>Das muss nicht falsch sein.</td><td>It may well be correct.</td></tr>
+      <tr><td>Das d&uuml;rfte nicht passiert sein.</td><td>Presumably that did not happen.</td></tr>
+    </tbody>
+  </table>
+  <p>In yes/no questions the modal simply moves into first position: <em>Kann das sein?</em>, <em>M&uuml;sste er das gewusst haben?</em>, <em>W&auml;re es m&ouml;glich, den Termin zu verschieben?</em> The verb-final order of the subordinate clause and the full conjugation of the modal are unchanged.</p>
+
+  <h3>1.9 Choosing the right form: a decision procedure</h3>
+  <p><strong>Step 1.</strong> Can you name the evidence the speaker bases the statement on? &rarr; epistemic reading, go on.</p>
+  <p><strong>Step 2.</strong> Is the modal <em>d&uuml;rfen</em> in the present and addressed to a person? &rarr; permission, not epistemic.</p>
+  <p><strong>Step 3.</strong> Is the modal <em>k&ouml;nnen</em> about a skill or capacity of the subject? &rarr; dynamic, not epistemic.</p>
+  <p><strong>Step 4.</strong> Is it <em>m&uuml;ssen</em> about obligation, or <em>sollen</em> about an instruction? &rarr; deontic, not epistemic.</p>
+  <p><strong>Step 5.</strong> Otherwise you are in the subjective system: choose <em>m&uuml;ssen</em> for a firm conclusion, <em>m&uuml;sste</em> or <em>d&uuml;rfte</em> for a softened estimate, <em>sollen</em> for reported or announced deduction, <em>k&ouml;nnte</em> or <em>mag</em> for open possibility.</p>
+  <div class="rulebox">
+    <p><strong>One more trap:</strong> <em>Das Formular muss bis Freitag eingereicht werden.</em> is a passive obligation &ndash; the <em>subject</em> is the form. <em>Das Formular muss falsch ausgef&uuml;llt worden sein.</em> is a deduction &ndash; the speaker draws a conclusion about the form. Same modal, same tense, completely different meaning.</p>
+  </div>
+</section>
+
+  <!-- ══ 2. EXAMPLES ══ -->
+  <section>
+    <h2>2 · 20 worked examples</h2>
+    <p><small>Each example marks the opener and closer in bold and explains what it does to the sentence.</small></p>
+    <div id="examples"></div>
+  </section>
+
+  <!-- ══ 3. EXERCISES ══ -->
+  <section>
+    <h2>3 · 100 exercises</h2>
+
+    <div class="noVoice" id="noVoice">
+      <b>Pronunciation unavailable.</b> This browser has no German speech voice installed, so the
+      speaker buttons will not play. In Chrome, Edge and Safari on a desktop, German is available by default.
+    </div>
+    <div id="quiz"></div>
+  </section>
+
+</div>
+
+<footer class="footer"><strong>Modal verbs of deduction and hedging</strong><span class="footer-dot">·</span><span>Roman Zajic</span></footer>
+
+<script>
+(function(){
+  "use strict";
+
+  var EXAMPLES = [
+    ["Sie hat seit zwei Tagen Fieber und hustet – sie muss krank sein. — She has had a fever and a cough for two days – she must be ill.", "The classic deduction with müssen plus a copular conclusion after the evidence."],
+    ["Die Adresse war richtig, aber niemand hat geöffnet; die Schlüssel müssen in der Tasche sein. — The address was right, but nobody opened up; the keys must be in the bag.", "A two-clause context in which müssen draws the only conclusion the evidence supports."],
+    ["Der Techniker müsste den Fehler schon gefunden haben, sonst wäre das Netz noch unten. — The technician must already have found the fault, otherwise the network would still be down.", "Konjunktiv II müsste with a perfect infinitive softens an otherwise firm deduction."],
+    ["Der Sprecher soll zurückgetreten sein, aber im Rundfunk wurde es nicht bestätigt. — The spokesman is said to have resigned, but it was not confirmed on the radio.", "Reported deduction with sollen plus a perfect, the standard news idiom."],
+    ["Der Fluss kann nach den Regen überflutet sein; die Straße am Wehr war jedenfalls nicht passierbar. — The river may have flooded after the rains; the road at the weir was impassable in any case.", "Können in the epistemic use reports a possibility without judging how likely it is."],
+    ["Die Rechnung dürfte schon bezahlt sein, sonst hätten wir längst eine Mahnung bekommen. — The invoice is probably already paid, otherwise we would have received a reminder long ago.", "Dürfte gives a softened probability estimate, and the main clause supplies the reason."],
+    ["Es könnte sein, dass wir die Datei doppelt gespeichert haben. — It could be that we saved the file twice.", "Könnte sein, dass introduces a conjecture in a fully formal wrapper."],
+    ["Du kannst dich für die Krankschreibung entschuldigen, aber du musst den Arzt informieren. — You can make excuses for the sick leave, but you have to inform the doctor.", "Two modals in one sentence: dynamic kann for ability, deontic muss for obligation."],
+    ["Meiner Einschätzung nach müsste der Fluss weiter steigen. — In my estimation the river will have to keep rising.", "Meiner Einschätzung nach frames a personal estimate that müsste marks as fallible."],
+    ["Wir könnten den Termin verschieben, wenn das für Sie passt. — We could postpone the appointment, if that suits you.", "Könnten in the first person is a tentative proposal, not a question about ability."],
+    ["Anscheinend hat niemand den Antrag geprüft; er muss vergessen worden sein. — Apparently nobody checked the application; it must have been forgotten.", "A hedging adverb plus a deduction, and the passive perfect as the conclusion."],
+    ["Verdächtig ist nur, dass die Daten müssten gelöscht worden sein. — The only suspicious thing is that the data are said to have been deleted.", "Sollen in the middle of a sentence still uses the final infinitive, as modals always do."],
+    ["Vielleicht hat er sich verhört; das klang vorhin ganz anders. — Maybe he misheard; it sounded quite different a moment ago.", "Vielleicht introduces open possibility without any modal verb commitment."],
+    ["Bestimmt hat er den Bus verpasst, denn die Uhrzeit auf dem Display stimmt nicht. — He must have missed the bus, since the time on the display is not right.", "Bestimmt is an emphatic adverb; the evidence follows as a denn clause."],
+    ["Wir dachten, der Server sei ausgefallen, aber das kann nicht sein, er läuft seit gestern ohne Unterbrechung. — We thought the server had crashed, but that cannot be, it has been running since yesterday without interruption.", "Kann nicht is a categorical rejection of the speaker’s own earlier conclusion."],
+    ["Die Daten müssen nicht vollständig sein, wenn die Übertragung abgebrochen wurde. — The data need not be complete if the transfer was interrupted.", "Muss nicht means the conclusion is not valid, not that the data are absent."],
+    ["Der Techniker müsste im Kabel gearbeitet haben, denn an der Steckdose stimmt etwas nicht. — The technician must have been working on the cable, because something is wrong at the socket.", "Reported deduction with müsste plus perfect, introduced as somebody else’s assessment."],
+    ["Dürfte ich Sie etwas fragen? Die Rechnung sieht nicht so aus, als wäre sie aktuell. — May I ask you something? The invoice does not look as if it were current.", "Dürfte is a polite permission request, while the main clause states a hedged criticism."],
+    ["Ob er das gewusst hat, muss sein Anwalt klären; wir haben ihn nie etwas davon gewusst. — Whether he knew that, his lawyer will have to clarify; we never knew anything about it.", "An ob-clause in first position with müssen as a deduction, plus a contrastive main clause."],
+    ["Sie muss den Zug verpasst haben; ihre Tasche ist noch hier und ihr Mantel hängt im Büro. — She must have missed the train; her bag is still here and her coat is hanging in the office.", "A deduction built only from physical evidence, with a perfect infinitive as the conclusion."]
+  ];
+
+  var DATA_URL = "../../data/grammar_exercises_subjektive_modalitaet.json";
+  var STORE = "subjektive_modalitaet_progress_v1";
+  // ── pronunciation via the browser speech engine ──
+  var MIC_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5z"></path>'
+    + '<path class="pulse" d="M15.5 8.5a5 5 0 0 1 0 7"></path>'
+    + '<path class="pulse" d="M18.5 5.5a9 9 0 0 1 0 13"></path></svg>';
+  var synth = window.speechSynthesis || null;
+  var germanVoice = null;
+
+  function stripTags(t){ return String(t).replace(/<[^>]*>/g,""); }
+
+  function pickVoice(){
+    if(!synth) return null;
+    var vs = synth.getVoices() || [];
+    germanVoice = vs.filter(function(v){ return /^de(-|_|$)/i.test(v.lang); })[0] || null;
+    return germanVoice;
+  }
+  if(synth){
+    pickVoice();
+    if(synth.addEventListener) synth.addEventListener("voiceschanged", pickVoice);
+  }
+
+  function stopSpeech(){ if(synth) try{ synth.cancel(); }catch(e){} }
+
+  var warned = false;
+  function noVoiceNotice(){
+    if(warned) return; warned = true;
+    var n = document.getElementById("noVoice");
+    if(n) n.style.display = "flex";
+  }
+  function micBtn(text, label){
+    var b = document.createElement("button");
+    b.className = "mic";
+    b.type = "button";
+    b.setAttribute("aria-pressed","false");
+    b.setAttribute("aria-label", (label||"Play") + ": " + stripTags(text));
+    b.title = "Play pronunciation";
+    b.innerHTML = MIC_SVG;
+    b.addEventListener("click", function(ev){
+      ev.stopPropagation();
+      if(!synth){ b.disabled = true; b.title = "Speech is not available in this browser"; noVoiceNotice(); return; }
+      if(b.getAttribute("aria-pressed")==="true"){ stopSpeech(); b.setAttribute("aria-pressed","false"); return; }
+      stopSpeech();
+      if(!germanVoice) pickVoice();
+      var u = new SpeechSynthesisUtterance(stripTags(text));
+      u.lang = "de-DE";
+      if(germanVoice) u.voice = germanVoice;
+      u.rate = 0.92; u.pitch = 1;
+      b.setAttribute("aria-pressed","true");
+      var off = function(){ b.setAttribute("aria-pressed","false"); };
+      u.onend = off;
+      u.onerror = function(){ off(); noVoiceNotice(); };
+      synth.speak(u);
+      // some engines report no voices at all; surface that instead of a dead button
+      if(!synth.getVoices().length) noVoiceNotice();
+    });
+    return b;
+  }
+
+  var state = {revealed:{}, answers:{}};
+
+  function esc(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
+  function load(){ try{ var v=JSON.parse(localStorage.getItem(STORE)); if(v&&typeof v==="object"){state.revealed=v.revealed||{};state.answers=v.answers||{};} }catch(e){} }
+  function save(){ try{ localStorage.setItem(STORE, JSON.stringify(state)); }catch(e){} }
+
+  // ---- examples ----
+  // Each entry is [german_and_english, why]. The first field carries the English
+  // translation after an em dash, so split it out for separate styling.
+  function splitDE(t){
+    var i = t.indexOf("\u2014");
+    if(i < 0) return [t, ""];
+    return [t.slice(0,i).trim(), t.slice(i+1).trim()];
+  }
+  (function renderExamples(){
+    var host = document.getElementById("examples");
+    host.innerHTML = "";
+    EXAMPLES.forEach(function(x){
+      var de = x[0] || "";
+      var why = x[1] || "";
+      var parts = splitDE(de);
+      var card = document.createElement("div");
+      card.className = "ex";
+
+      var row = document.createElement("div");
+      row.className = "microw";
+      var txt = document.createElement("div");
+      txt.className = "mtext";
+      txt.innerHTML = '<div class="de">'+parts[0]+'</div>'+
+                      (parts[1] ? '<div class="en">'+parts[1]+'</div>' : "");
+      row.appendChild(txt);
+      row.appendChild(micBtn(parts[0], "Play this example"));
+      card.appendChild(row);
+
+      if(why){
+        var w = document.createElement("div");
+        w.className = "why";
+        w.innerHTML = "<b>Why:</b> "+why;
+        card.appendChild(w);
+      }
+      host.appendChild(card);
+    });
+  })();
+
+  // German special letters, inserted at the caret in the focused input.
+  var KEYS = ["ä","ö","ü","Ä","Ö","Ü","ß","€"];
+
+  function insertAt(input, ch){
+    var v = input.value;
+    var a = input.selectionStart == null ? v.length : input.selectionStart;
+    var b = input.selectionEnd == null ? v.length : input.selectionEnd;
+    input.value = v.slice(0,a) + ch + v.slice(b);
+    var pos = a + ch.length;
+    try{ input.setSelectionRange(pos,pos); }catch(e){}
+    input.focus();
+  }
+
+  function keypadBtn(id){
+    var b = document.createElement("button");
+    b.type = "button";
+    b.className = "keybtn";
+    b.title = "German letters";
+    b.setAttribute("aria-label","Insert German special characters");
+    b.setAttribute("aria-expanded","false");
+    b.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true">'+
+      '<rect x="2" y="5" width="20" height="14" rx="2"></rect>'+
+      '<path d="M6 9h.01M10 9h.01M14 9h.01M18 9h.01M6 13h.01M10 13h.01M14 13h.01M18 13h.01M8 16h8"></path>'+
+      '</svg>';
+    b.addEventListener("click", function(ev){
+      ev.stopPropagation();
+      var panel = document.getElementById("pad-"+id);
+      if(!panel) return;
+      var open = panel.classList.toggle("open");
+      b.setAttribute("aria-expanded", open ? "true" : "false");
+      closeAllKeypads(panel);
+    });
+    return b;
+  }
+
+  function closeAllKeypads(except){
+    Array.prototype.forEach.call(document.querySelectorAll(".pad.open"), function(p){
+      if(p === except) return;
+      p.classList.remove("open");
+      var btn = p.previousSibling && p.previousSibling.querySelector ? p.previousSibling.querySelector(".keybtn") : null;
+      if(btn) btn.setAttribute("aria-expanded","false");
+    });
+  }
+
+  document.addEventListener("click", function(){ closeAllKeypads(null); });
+  document.addEventListener("keydown", function(e){ if(e.key === "Escape") closeAllKeypads(null); });
+
+  function renderQuiz(ex){
+    var el = document.getElementById("quiz");
+    el.innerHTML = "";
+    ex.forEach(function(e){
+      var rev = !!state.revealed[e.id];
+      var card = document.createElement("article");
+      card.className = "q" + (rev ? " revealed" : "");
+      card.id = "q"+e.id;
+
+      var top = document.createElement("div");
+      top.className = "qtop";
+      top.innerHTML = '<span class="qnum">'+e.id+'</span>';
+      var qt = document.createElement("span");
+      qt.className = "qtext";
+      qt.textContent = e.english;
+      top.appendChild(qt);
+      card.appendChild(top);
+
+      // input with the letter keypad docked inside its right edge
+      var row = document.createElement("div");
+      row.className = "inputrow";
+      var ta = document.createElement("input");
+      ta.type = "text";
+      ta.className = "ainput";
+      ta.placeholder = "Write the German here…";
+      ta.setAttribute("aria-label","Your German answer for exercise "+e.id);
+      ta.value = state.answers[e.id] || "";
+      ta.addEventListener("input", function(){ state.answers[e.id] = ta.value; save(); });
+      row.appendChild(ta);
+      row.appendChild(keypadBtn(e.id));
+      card.appendChild(row);
+
+      // the letter panel sits inside the card so it is never clipped
+      var pad = document.createElement("div");
+      pad.className = "pad";
+      pad.id = "pad-"+e.id;
+      KEYS.forEach(function(k){
+        var kb = document.createElement("button");
+        kb.type = "button";
+        kb.className = "padkey";
+        kb.textContent = k;
+        kb.addEventListener("click", function(ev){
+          ev.stopPropagation();
+          var target = card.querySelector(".ainput");
+          insertAt(target, k);
+          state.answers[e.id] = target.value;
+          save();
+        });
+        pad.appendChild(kb);
+      });
+      card.appendChild(pad);
+
+      // reveal / hide toggle
+      var rb = document.createElement("button");
+      rb.type = "button";
+      rb.className = "btn rev" + (rev ? " on" : "");
+      rb.textContent = rev ? "Hide answer" : "Reveal answer";
+      rb.setAttribute("aria-expanded", rev ? "true" : "false");
+      rb.addEventListener("click", function(){
+        state.revealed[e.id] = !state.revealed[e.id];
+        save();
+        renderQuiz(ex);
+      });
+      card.appendChild(rb);
+
+      if(rev){
+        var fb = document.createElement("div");
+        fb.className = "fb";
+
+        var ansRow = document.createElement("div");
+        ansRow.className = "microw ansrow";
+        var at = document.createElement("div");
+        at.className = "mtext";
+        at.textContent = e.german;
+        ansRow.appendChild(at);
+        ansRow.appendChild(micBtn(e.german, "Play the German answer"));
+        fb.appendChild(ansRow);
+
+        var wy = document.createElement("div");
+        wy.className = "why";
+        wy.textContent = e.why;
+        fb.appendChild(wy);
+
+        card.appendChild(fb);
+      }
+      el.appendChild(card);
+    });
+  }
+
+  load();
+
+  fetch(DATA_URL+"?cb="+Date.now())
+    .then(function(r){ if(!r.ok) throw new Error("HTTP "+r.status); return r.json(); })
+    .then(function(d){
+      var ex=d.exercises;
+      renderQuiz(ex);
+    })
+    .catch(function(e){
+      document.getElementById("quiz").innerHTML =
+        '<div class="q"><b>Could not load the exercises.</b><br>'+esc(e.message)+'</div>';
+    });
+})();
+</script>
+</body>
+</html>

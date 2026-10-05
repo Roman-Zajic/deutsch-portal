@@ -853,42 +853,60 @@
           "topic_en": "Narrating the past: Präteritum vs. Plusquamperfekt",
           "term_de": "Erzählzeit im Präteritum und Plusquamperfekt",
           "covers": "which past tense carries the narrative, and using Plusquamperfekt for the earlier event.",
-          "provider_split": false
+          "provider_split": false,
+          "page": "erzaehlzeit.html",
+          "title_en": "Narrating the past: Präteritum vs. Plusquamperfekt",
+          "title_de": "Die Erzählzeit im Präteritum und Plusquamperfekt"
         },
         {
           "n": 2,
           "topic_en": "Futur I and Futur II",
           "term_de": "Futur I und Futur II",
           "covers": "adding Futur II for a future view of the past, and wird + Infinitiv as a present-tense substitute. Futur I itself was covered at B1.",
-          "provider_split": false
+          "provider_split": false,
+          "page": "futur.html",
+          "title_en": "Futur I and Futur II",
+          "title_de": "Futur I und Futur II"
         },
         {
           "n": 3,
           "topic_en": "Modal verbs with non-infinitival complements",
           "term_de": "Modalverben mit nicht-infinitivischen Ergänzungen",
           "covers": "wissen, glauben and modal meaning without an infinitive.",
-          "provider_split": false
+          "provider_split": false,
+          "page": "modalergaenzungen.html",
+          "title_en": "Modal verbs with non-infinitival complements",
+          "title_de": "Modalverben mit nicht-infinitivischen Ergänzungen"
         },
         {
           "n": 4,
           "topic_en": "Two-level modality",
           "term_de": "doppelte Modalität",
           "covers": "a modal inside a reported clause: Er sagt, er müsse arbeiten.",
-          "provider_split": false
+          "provider_split": false,
+          "page": "doppelte-modalitaet.html",
+          "title_en": "Two-level modality",
+          "title_de": "Die doppelte Modalität"
         },
         {
           "n": 5,
           "topic_en": "Modal verbs of deduction and hedging",
           "term_de": "subjektive Modalität",
           "covers": "müssen, dürfen, können expressing the speaker's degree of certainty.",
-          "provider_split": false
+          "provider_split": false,
+          "page": "subjektive-modalitaet.html",
+          "title_en": "Modal verbs of deduction and hedging",
+          "title_de": "Die subjektive Modalität"
         },
         {
           "n": 6,
           "topic_en": "Konjunktiv II without würde",
           "term_de": "Konjunktiv II ohne würde",
           "covers": "the own forms of sein, haben and the modals, and when they replace würde.",
-          "provider_split": false
+          "provider_split": false,
+          "page": "konjunktiv-ii-ohne-wuerde.html",
+          "title_en": "Konjunktiv II without würde",
+          "title_de": "Der Konjunktiv II ohne würde"
         },
         {
           "n": 7,

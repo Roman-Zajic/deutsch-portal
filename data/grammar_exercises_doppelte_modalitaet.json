@@ -1,0 +1,704 @@
+{
+ "exercises": [
+  {
+   "id": 1,
+   "skill": "Two modal verbs in one clause (müssen + können)",
+   "english": "You must be able to reach me by phone today.",
+   "german": "Du musst mich heute noch telefonisch erreichen können.",
+   "why": "The finite modal is müssen, the full verb is erreichen and können closes the clause as the second level."
+  },
+  {
+   "id": 2,
+   "skill": "Two modal verbs in one clause (müssen + können)",
+   "english": "I have to be able to work on Sundays every now and then.",
+   "german": "Ich muss ab und zu sonntags arbeiten können.",
+   "why": "Necessity plus ability, with the time expression ab und zu in the middle field."
+  },
+  {
+   "id": 3,
+   "skill": "Two modal verbs in one clause (müssen + können)",
+   "english": "The apprentice must be able to explain the mistake to the customer.",
+   "german": "Die Auszubildende muss den Kunden den Fehler erklären können.",
+   "why": "The accusative object den Kunden stands in the field, and the double infinitive closes the clause."
+  },
+  {
+   "id": 4,
+   "skill": "Two modal verbs in one clause (müssen + können)",
+   "english": "You must be able to apologise for the mistake.",
+   "german": "Du musst dich für den Fehler entschuldigen können.",
+   "why": "The reflexive pronoun sich is accusative and belongs in the field before the closing cluster."
+  },
+  {
+   "id": 5,
+   "skill": "Two modal verbs in one clause (müssen + können)",
+   "english": "We have to be able to book the room online.",
+   "german": "Wir müssen das Zimmer online buchen können.",
+   "why": "A simple müssen and können stack with the determiner das Zimmer in the field."
+  },
+  {
+   "id": 6,
+   "skill": "Two modal verbs in one clause (müssen + können)",
+   "english": "You must be able to reach your boss even while he is on holiday.",
+   "german": "Du musst den Chef auch im Urlaub erreichen können.",
+   "why": "Two modal levels with the prepositional phrase auch im Urlaub in the field."
+  },
+  {
+   "id": 7,
+   "skill": "Two modal verbs in one clause (müssen + können)",
+   "english": "A nurse has to be able to recognise a severe reaction.",
+   "german": "Eine Pflegekraft muss eine schwere Reaktion erkennen können.",
+   "why": "The indefinite article of the subject is kept and the modal stack ends the clause."
+  },
+  {
+   "id": 8,
+   "skill": "Two modal verbs in one clause (müssen + können)",
+   "english": "You must be able to find the file without help.",
+   "german": "Du musst die Datei ohne Hilfe finden können.",
+   "why": "The bare noun ohne Hilfe is the first level of the obligation, the second is the ability to find it."
+  },
+  {
+   "id": 9,
+   "skill": "Two modal verbs in one clause (müssen + können)",
+   "english": "The teacher must be able to explain the rule in simple words.",
+   "german": "Die Lehrerin muss die Regel in einfachen Worten erklären können.",
+   "why": "The verb position stays second in the main clause while the two infinitives sit at the end."
+  },
+  {
+   "id": 10,
+   "skill": "Two modal verbs in one clause (müssen + können)",
+   "english": "You must be able to get a receipt at the customer service.",
+   "german": "Du musst beim Kundenservice einen Beleg bekommen können.",
+   "why": "The second modal können is the infinitive of müssen and closes the sentence after the full verb."
+  },
+  {
+   "id": 11,
+   "skill": "Two modal verbs in one clause (müssen + können)",
+   "english": "He has to be able to say no to his own boss.",
+   "german": "Er muss Nein zu seinem Chef sagen können.",
+   "why": "The verb sagen with a prepositional object in the field, then können as the second level."
+  },
+  {
+   "id": 12,
+   "skill": "Two modal verbs in one clause (müssen + können)",
+   "english": "You must be able to say that honestly.",
+   "german": "Du musst das ehrlich sagen können.",
+   "why": "A short two-level clause where the modal infinitive follows the full verb directly."
+  },
+  {
+   "id": 13,
+   "skill": "Two modal verbs in one clause (müssen + können)",
+   "english": "I want to be able to go swimming again after the injury.",
+   "german": "Ich will nach der Verletzung wieder ins Schwimmbad gehen können.",
+   "why": "Here wollen is the outer level and können the inner one, so the two meanings are will plus ability."
+  },
+  {
+   "id": 14,
+   "skill": "Two modal verbs in one clause (müssen + können)",
+   "english": "I do not want to have to ask my landlord about every single thing.",
+   "german": "Ich will nicht für alles meinen Vermieter fragen müssen.",
+   "why": "A pure modal stack with only one nicht, placed after the finite modal wollen."
+  },
+  {
+   "id": 15,
+   "skill": "Two modal verbs in one clause (müssen + können)",
+   "english": "We have to be able to manage without a car.",
+   "german": "Wir müssen ohne Auto zurechtkommen können.",
+   "why": "Idiomatic zurechtkommen takes a können infinitive to express coping on one's own."
+  },
+  {
+   "id": 16,
+   "skill": "Two modal verbs in one clause (müssen + können)",
+   "english": "You must be able to read the meter correctly.",
+   "german": "Du musst den Zähler richtig ablesen können.",
+   "why": "The separable verb ablesen loses its prefix and appears in the infinitive at the end."
+  },
+  {
+   "id": 17,
+   "skill": "Two modal verbs in one clause (müssen + können)",
+   "english": "The employee must be able to meet the deadline during the holidays as well.",
+   "german": "Die Mitarbeiterin muss die Frist auch in den Ferien einhalten können.",
+   "why": "The accusative object die Frist stays in the field, and both infinitives close the clause."
+  },
+  {
+   "id": 18,
+   "skill": "Two modal verbs in one clause (müssen + können)",
+   "english": "I have to be able to check the numbers again at home.",
+   "german": "Ich muss die Zahlen zu Hause noch einmal kontrollieren können.",
+   "why": "A three-part field of place, time and object between the finite modal and the closing cluster."
+  },
+  {
+   "id": 19,
+   "skill": "Two modal verbs in one clause (müssen + können)",
+   "english": "Our guests must be able to get to the fourth floor without a lift.",
+   "german": "Die Gäste müssen auch ohne Aufzug in den vierten Stock kommen können.",
+   "why": "A modal stack on a prefixed motion verb: kommen können expresses mobility, not permission."
+  },
+  {
+   "id": 20,
+   "skill": "Two modal verbs in one clause (müssen + können)",
+   "english": "He has to be able to take the train to the airport.",
+   "german": "Er muss mit dem Zug zum Flughafen fahren können.",
+   "why": "The means of transport sits in the field, and fahren können forms the second level."
+  },
+  {
+   "id": 21,
+   "skill": "Modal verb as the infinitive of another modal",
+   "english": "I have to be able to cope with all of that.",
+   "german": "Ich muss das alles verkraften können.",
+   "why": "The modal können is the infinitive of müssen and stands behind the full verb verkraften."
+  },
+  {
+   "id": 22,
+   "skill": "Modal verb as the infinitive of another modal",
+   "english": "You have to be able to find your way here on your own.",
+   "german": "Du musst dich hier ohne Hilfe orientieren können.",
+   "why": "The reflexive pronoun is accusative and the modal infinitive closes the two-level bracket."
+  },
+  {
+   "id": 23,
+   "skill": "Modal verb as the infinitive of another modal",
+   "english": "He has to be able to stand the new pace.",
+   "german": "Er muss das neue Tempo aushalten können.",
+   "why": "A separable prefix verb in the Infinitiv I, with können as the second modal level."
+  },
+  {
+   "id": 24,
+   "skill": "Modal verb as the infinitive of another modal",
+   "english": "She has to be able to cope on her own.",
+   "german": "Sie muss von allein zurechtkommen können.",
+   "why": "A must-phrase about independence, expressed as a modal plus a modal plus a full verb."
+  },
+  {
+   "id": 25,
+   "skill": "Modal verb as the infinitive of another modal",
+   "english": "You all have to be able to afford that.",
+   "german": "Ihr müsst euch das leisten können.",
+   "why": "The accusative reflexive pronoun euch belongs in the field, and the second modal is können."
+  },
+  {
+   "id": 26,
+   "skill": "Modal verb as the infinitive of another modal",
+   "english": "People have to be able to deal with a refusal.",
+   "german": "Man muss mit einer Ablehnung umgehen können.",
+   "why": "Impersonal man takes a können infinitive, giving general necessity plus general capacity."
+  },
+  {
+   "id": 27,
+   "skill": "Modal verb as the infinitive of another modal",
+   "english": "I have to be able to react to it.",
+   "german": "Ich muss darauf reagieren können.",
+   "why": "A very short stack: modal, field with a prepositional object, full verb, modal infinitive."
+  },
+  {
+   "id": 28,
+   "skill": "Modal verb as the infinitive of another modal",
+   "english": "You have to be able to answer for that.",
+   "german": "Du musst das verantworten können.",
+   "why": "A two-level clause with no separable prefix and no auxiliary: only the two modals govern the content."
+  },
+  {
+   "id": 29,
+   "skill": "Modal verb as the infinitive of another modal",
+   "english": "He has to be able to bear the consequences.",
+   "german": "Er muss die Folgen tragen können.",
+   "why": "The full verb tragen is followed by the second modal, which is the compulsory order."
+  },
+  {
+   "id": 30,
+   "skill": "Modal verb as the infinitive of another modal",
+   "english": "We have to be able to come to terms with it.",
+   "german": "Wir müssen damit klarkommen können.",
+   "why": "The middle field holds a pronoun standing for the situation, and the modal stack closes the clause."
+  },
+  {
+   "id": 31,
+   "skill": "Modal verb as the infinitive of another modal",
+   "english": "You have to be able to register in person.",
+   "german": "Du musst dich persönlich anmelden können.",
+   "why": "A reflexive full verb plus a können infinitive, both at the end in that order."
+  },
+  {
+   "id": 32,
+   "skill": "Modal verb as the infinitive of another modal",
+   "english": "You all have to be able to arrange that yourselves.",
+   "german": "Ihr müsst das bewerkstelligen können.",
+   "why": "A modal addressing a group, with the modal infinitive as the second level of the closing element."
+  },
+  {
+   "id": 33,
+   "skill": "Modal verb as the infinitive of another modal",
+   "english": "Pupils have to be able to understand that.",
+   "german": "Die Schüler müssen das nachvollziehen können.",
+   "why": "Plural subject, single verb in the middle field, and the modal stack at the end."
+  },
+  {
+   "id": 34,
+   "skill": "Modal verb as the infinitive of another modal",
+   "english": "One has to be able to make use of this offer.",
+   "german": "Man muss von diesem Angebot Gebrauch machen können.",
+   "why": "A fixed prepositional phrase stays in the field while können closes the sentence."
+  },
+  {
+   "id": 35,
+   "skill": "Modal verb as the infinitive of another modal",
+   "english": "You have to be able to work here without help.",
+   "german": "Du musst hier ohne Hilfe arbeiten können.",
+   "why": "Place and qualifier in the field, arbeiten as the Infinitiv I and können as the Infinitiv II."
+  },
+  {
+   "id": 36,
+   "skill": "Modal verb as the infinitive of another modal",
+   "english": "She has to be able to look after herself.",
+   "german": "Sie muss auf sich selbst aufpassen können.",
+   "why": "The reflexive pronoun sits in the accusative field, and the modal infinitive completes the stack."
+  },
+  {
+   "id": 37,
+   "skill": "Modal verb as the infinitive of another modal",
+   "english": "He has to be able to get used to it.",
+   "german": "Er muss sich auf die neue Lage einstellen können.",
+   "why": "A separable verb appears without its prefix in the infinitive, followed by the modal level."
+  },
+  {
+   "id": 38,
+   "skill": "Modal verb as the infinitive of another modal",
+   "english": "Everyone has to be able to enforce their own rights.",
+   "german": "Alle müssen ihre Rechte durchsetzen können.",
+   "why": "The indefinite pronoun is the subject of the finite modal, and können closes the clause."
+  },
+  {
+   "id": 39,
+   "skill": "Modal verb as the infinitive of another modal",
+   "english": "You have to be able to express your opinion.",
+   "german": "Du musst deine Meinung äußern können.",
+   "why": "An umlaut verb in the Infinitiv I plus a können infinitive, both at the end."
+  },
+  {
+   "id": 40,
+   "skill": "Modal verb as the infinitive of another modal",
+   "english": "You have to be able to assess the situation.",
+   "german": "Du musst die Lage einschätzen können.",
+   "why": "A two-level clause whose first modal is a must, not a want, so the obligation stays visible."
+  },
+  {
+   "id": 41,
+   "skill": "Perfekt of modal verbs as the second level",
+   "english": "He has had to come to the office twice this week.",
+   "german": "Er hat in dieser Woche zweimal ins Büro kommen müssen.",
+   "why": "The Perfekt of a modal: hat plus kommen plus the modal infinitive müssen, with no participle."
+  },
+  {
+   "id": 42,
+   "skill": "Perfekt of modal verbs as the second level",
+   "english": "I have had to cancel the appointment.",
+   "german": "Ich habe den Termin absagen müssen.",
+   "why": "The double infinitive reports a completed obligation; absagen precedes the modal level."
+  },
+  {
+   "id": 43,
+   "skill": "Perfekt of modal verbs as the second level",
+   "english": "She was allowed to go home early.",
+   "german": "Sie hat früher gehen dürfen.",
+   "why": "In the Perfekt, permission is expressed with the dürfen infinitive, not with a participle."
+  },
+  {
+   "id": 44,
+   "skill": "Perfekt of modal verbs as the second level",
+   "english": "You have had to warn her.",
+   "german": "Du hast sie warnen müssen.",
+   "why": "A two-part Perfekt with the full verb first and the modal infinitive as the closer."
+  },
+  {
+   "id": 45,
+   "skill": "Perfekt of modal verbs as the second level",
+   "english": "We had to wait two hours for the visa.",
+   "german": "Wir haben zwei Stunden auf das Visum warten müssen.",
+   "why": "A duration in the field, a directional verb as Infinitiv I and the obligation as the second level."
+  },
+  {
+   "id": 46,
+   "skill": "Perfekt of modal verbs as the second level",
+   "english": "He has had to postpone the exam.",
+   "german": "Er hat die Prüfung verschieben müssen.",
+   "why": "A common exam-context Perfekt with the modal infinitive in the final position."
+  },
+  {
+   "id": 47,
+   "skill": "Perfekt of modal verbs as the second level",
+   "english": "I have had to go to the police.",
+   "german": "Ich habe zur Polizei gehen müssen.",
+   "why": "The modal Perfekt of a directional verb, with the destination in the field."
+  },
+  {
+   "id": 48,
+   "skill": "Perfekt of modal verbs as the second level",
+   "english": "They were not allowed to enter the room.",
+   "german": "Sie haben den Raum nicht betreten dürfen.",
+   "why": "Negation belongs to the inner level and the modal infinitive dürfen closes the clause."
+  },
+  {
+   "id": 49,
+   "skill": "Perfekt of modal verbs as the second level",
+   "english": "You should have warned me.",
+   "german": "Du hättest mich warnen sollen.",
+   "why": "Konjunktiv II in the past uses hätte plus Infinitiv I plus modal infinitive to express regret."
+  },
+  {
+   "id": 50,
+   "skill": "Perfekt of modal verbs as the second level",
+   "english": "She has had to work overtime several times.",
+   "german": "Sie hat mehrmals Überstunden machen müssen.",
+   "why": "The multiword noun Überstunden stays accusative in the field of the double infinitive."
+  },
+  {
+   "id": 51,
+   "skill": "Perfekt of modal verbs as the second level",
+   "english": "He has had to sign for the package.",
+   "german": "Er hat für das Paket unterschreiben müssen.",
+   "why": "A separable prefix verb appears in the Infinitiv I, followed by the modal infinitive."
+  },
+  {
+   "id": 52,
+   "skill": "Perfekt of modal verbs as the second level",
+   "english": "I have been able to finish the work.",
+   "german": "Ich habe die Arbeit fertig machen können.",
+   "why": "The second level is the ability, reported retrospectively by the können infinitive."
+  },
+  {
+   "id": 53,
+   "skill": "Perfekt of modal verbs as the second level",
+   "english": "We have been able to pay by card.",
+   "german": "Wir haben mit Karte bezahlen können.",
+   "why": "A modal Perfekt whose modal infinitive expresses a capacity that has been used up."
+  },
+  {
+   "id": 54,
+   "skill": "Perfekt of modal verbs as the second level",
+   "english": "Did you have to pay extra?",
+   "german": "Hast du extra zahlen müssen?",
+   "why": "A yes/no question keeps the auxiliary in position two and both infinitives at the end."
+  },
+  {
+   "id": 55,
+   "skill": "Perfekt of modal verbs as the second level",
+   "english": "She has had to learn German from scratch.",
+   "german": "Sie hat Deutsch ganz neu lernen müssen.",
+   "why": "A whole object phrase stays in the field, and the obligation is the second level."
+  },
+  {
+   "id": 56,
+   "skill": "Perfekt of modal verbs as the second level",
+   "english": "They have been able to stay in the old flat.",
+   "german": "Sie haben in der alten Wohnung bleiben können.",
+   "why": "Ability as the second level of a modal Perfekt, with the location in the field."
+  },
+  {
+   "id": 57,
+   "skill": "Perfekt of modal verbs as the second level",
+   "english": "He has had to leave the country once more.",
+   "german": "Er hat das Land noch einmal verlassen müssen.",
+   "why": "A Perfekt with a prefixed full verb, which is inserted between hat and the modal infinitive."
+  },
+  {
+   "id": 58,
+   "skill": "Perfekt of modal verbs as the second level",
+   "english": "You have had to work without a break.",
+   "german": "Du hast ohne Pause arbeiten müssen.",
+   "why": "The Perfekt auxiliary replaces the present modal, but the modal infinitive still closes the clause."
+  },
+  {
+   "id": 59,
+   "skill": "Perfekt of modal verbs as the second level",
+   "english": "I have not been able to reach you.",
+   "german": "Ich habe dich nicht erreichen können.",
+   "why": "One nicht after the auxiliary denies the whole perfect clause, including the second level."
+  },
+  {
+   "id": 60,
+   "skill": "Perfekt of modal verbs as the second level",
+   "english": "She has had to look after her sick father.",
+   "german": "Sie hat ihren kranken Vater versorgen müssen.",
+   "why": "The possessive article and adjective stay in the accusative field of the double infinitive."
+  },
+  {
+   "id": 61,
+   "skill": "Modal stacks in subordinate clauses",
+   "english": "He says that we have to start earlier.",
+   "german": "Er sagt, dass wir früher anfangen müssen.",
+   "why": "A modal in a dass-clause stands last; the accusative object stays in the field."
+  },
+  {
+   "id": 62,
+   "skill": "Modal stacks in subordinate clauses",
+   "english": "I do not think that he is allowed to do that.",
+   "german": "Ich glaube nicht, dass er das machen darf.",
+   "why": "A modal subordinate clause: negation sits on the matrix verb, the modal closes the clause."
+  },
+  {
+   "id": 63,
+   "skill": "Modal stacks in subordinate clauses",
+   "english": "It is important that you are not allowed to forget the deadline.",
+   "german": "Es ist wichtig, dass du die Frist nicht vergessen darfst.",
+   "why": "A dass-clause with a negated modal in the last position and the object in the field."
+  },
+  {
+   "id": 64,
+   "skill": "Modal stacks in subordinate clauses",
+   "english": "She explained that she had to look after the dog.",
+   "german": "Sie hat erklärt, dass sie den Hund hat versorgen müssen.",
+   "why": "The subordinate Perfekt has its own hat plus double infinitive inside an outer perfect clause."
+  },
+  {
+   "id": 65,
+   "skill": "Modal stacks in subordinate clauses",
+   "english": "Please go to the counter so that you can sign the form.",
+   "german": "Gehen Sie bitte zum Schalter, damit Sie das Formular unterschreiben können.",
+   "why": "damit is required here, because a modal verb at the end rules out um zu."
+  },
+  {
+   "id": 66,
+   "skill": "Modal stacks in subordinate clauses",
+   "english": "I need to call you so that you can get the pictures printed today.",
+   "german": "Ich muss dich heute noch anrufen, damit du die Bilder ausdrucken kannst.",
+   "why": "The main clause carries the modal intention, the damit-clause the second level of ability."
+  },
+  {
+   "id": 67,
+   "skill": "Modal stacks in subordinate clauses",
+   "english": "She was annoyed that she was not allowed to speak.",
+   "german": "Sie war ärgert, dass sie nicht sprechen durfte.",
+   "why": "A past modal in a subordinate clause reports the state of affairs at that moment."
+  },
+  {
+   "id": 68,
+   "skill": "Modal stacks in subordinate clauses",
+   "english": "The rule is that students are not allowed to use their phones.",
+   "german": "Die Regel ist, dass die Schüler ihre Handys nicht benutzen dürfen.",
+   "why": "The negated modal in the dass-clause expresses the prohibition the rule contains."
+  },
+  {
+   "id": 69,
+   "skill": "Modal stacks in subordinate clauses",
+   "english": "Although he has to work late, he still comes to the course.",
+   "german": "Obwohl er spät arbeiten muss, kommt er zum Kurs.",
+   "why": "The modal sits at the end of the obwohl-clause, the main clause keeps verb two."
+  },
+  {
+   "id": 70,
+   "skill": "Modal stacks in subordinate clauses",
+   "english": "I need to know whether we are allowed to park here.",
+   "german": "Ich muss wissen, ob wir hier parken dürfen.",
+   "why": "A matrix modal in the main clause plus a second modal level inside the ob-clause."
+  },
+  {
+   "id": 71,
+   "skill": "Modal stacks in subordinate clauses",
+   "english": "The lawyer asked whether we have to pay the costs.",
+   "german": "Der Anwalt hat gefragt, ob wir die Kosten tragen müssen.",
+   "why": "An indirect question with the modal at the end and the object in the subordinate field."
+  },
+  {
+   "id": 72,
+   "skill": "Modal stacks in subordinate clauses",
+   "english": "The teacher demanded that we hand in the report by Friday.",
+   "german": "Die Lehrerin verlangte, dass wir den Bericht bis Freitag abgeben sollen.",
+   "why": "Reported instruction takes sollen, not müssen, because the obligation comes from a third party."
+  },
+  {
+   "id": 73,
+   "skill": "Modal stacks in subordinate clauses",
+   "english": "She apologised for having to cancel the trip.",
+   "german": "Sie entschuldigte sich dafür, dass sie die Reise absagen musste.",
+   "why": "The modal of obligation stands last in the dass-clause after the preposition dafür."
+  },
+  {
+   "id": 74,
+   "skill": "Modal stacks in subordinate clauses",
+   "english": "Whoever is allowed to park here has to pay at the machine.",
+   "german": "Wer hier parken darf, muss am Automaten bezahlen.",
+   "why": "The relative clause holds the permission level, the main clause the payment obligation."
+  },
+  {
+   "id": 75,
+   "skill": "Modal stacks in subordinate clauses",
+   "english": "I am pleased that we can start at eight.",
+   "german": "Ich freue mich, dass wir um acht anfangen können.",
+   "why": "A können subordinate clause after a matrix verb, with the time in the subordinate field."
+  },
+  {
+   "id": 76,
+   "skill": "Modal stacks in subordinate clauses",
+   "english": "You need a visa so that you can enter the country.",
+   "german": "Du brauchst ein Visum, um in das Land einreisen zu können.",
+   "why": "An um zu-clause is fine as long as its final word is the zu infinitive, not a modal."
+  },
+  {
+   "id": 77,
+   "skill": "Modal stacks in subordinate clauses",
+   "english": "He was annoyed that he had to wait for an hour.",
+   "german": "Er ärgerte sich darüber, dass er eine Stunde warten musste.",
+   "why": "A dass-clause with a duration in the field and the modal obligation as the closer."
+  },
+  {
+   "id": 78,
+   "skill": "Modal stacks in subordinate clauses",
+   "english": "It makes a difference whether you can come or not.",
+   "german": "Es ist egal, ob du kommen kannst oder nicht.",
+   "why": "The ob-clause carries a können present form, and oder nicht keeps the negation outside it."
+  },
+  {
+   "id": 79,
+   "skill": "Modal stacks in subordinate clauses",
+   "english": "She said that she would have to move the delivery to Monday.",
+   "german": "Sie sagte, dass sie die Lieferung auf Montag verschieben müsste.",
+   "why": "Reported obligation in Konjunktiv II, with the verb last in the dass-clause."
+  },
+  {
+   "id": 80,
+   "skill": "Modal stacks in subordinate clauses",
+   "english": "I think it is right that we can still fill in the form online today.",
+   "german": "Ich finde es richtig, dass wir das Formular heute noch online ausfüllen können.",
+   "why": "A können modal closes the dass-clause while the matrix verb keeps its place in the main clause."
+  },
+  {
+   "id": 81,
+   "skill": "Choosing the right modal for strength and relationship",
+   "english": "I have to leave now.",
+   "german": "Ich muss jetzt gehen.",
+   "why": "Objective necessity is müssen, and it takes no second modal because no ability is in question."
+  },
+  {
+   "id": 82,
+   "skill": "Choosing the right modal for strength and relationship",
+   "english": "You are not allowed to park here.",
+   "german": "Du darfst hier nicht parken.",
+   "why": "A prohibition is a negated dürfen, not a negated müssen."
+  },
+  {
+   "id": 83,
+   "skill": "Choosing the right modal for strength and relationship",
+   "english": "Please compare the two contracts.",
+   "german": "Die beiden Verträge sollen Sie bitte vergleichen.",
+   "why": "Instruction reported by a third party takes sollen, with Sie in the field."
+  },
+  {
+   "id": 84,
+   "skill": "Choosing the right modal for strength and relationship",
+   "english": "I do not feel like going out tonight.",
+   "german": "Ich mag heute Abend nicht ausgehen.",
+   "why": "Inclination is mögen; a negated mögen is a preference, not a prohibition."
+  },
+  {
+   "id": 85,
+   "skill": "Choosing the right modal for strength and relationship",
+   "english": "I would like to book a table for two.",
+   "german": "Ich möchte einen Tisch für zwei reservieren.",
+   "why": "möchte is the polite form of wollen and never expresses necessity."
+  },
+  {
+   "id": 86,
+   "skill": "Choosing the right modal for strength and relationship",
+   "english": "I will not sign that.",
+   "german": "Ich will das nicht unterschreiben.",
+   "why": "A decision of the speaker is wollen, not müssen, so no second level is added."
+  },
+  {
+   "id": 87,
+   "skill": "Choosing the right modal for strength and relationship",
+   "english": "You should see a doctor.",
+   "german": "Du solltest einen Arzt aufsuchen.",
+   "why": "Advice from the speaker is sollen in Konjunktiv II, weaker than müssen."
+  },
+  {
+   "id": 88,
+   "skill": "Choosing the right modal for strength and relationship",
+   "english": "He has to work night shifts this month.",
+   "german": "Er muss diesen Monat Nachtschichten machen.",
+   "why": "A fixed external requirement is müssen, with the plural noun as the accusative object."
+  },
+  {
+   "id": 89,
+   "skill": "Choosing the right modal for strength and relationship",
+   "english": "You must not forget the keys.",
+   "german": "Du musst die Schlüssel nicht vergessen.",
+   "why": "A negated müssen denies the necessity itself here; a rule would take dürfen nicht instead."
+  },
+  {
+   "id": 90,
+   "skill": "Choosing the right modal for strength and relationship",
+   "english": "I have to make the 6:15 train.",
+   "german": "Ich muss den Zug um 6:15 Uhr noch erreichen.",
+   "why": "A single modal suffices, because only one level of necessity is meant."
+  },
+  {
+   "id": 91,
+   "skill": "Choosing the right modal for strength and relationship",
+   "english": "It would be better if you came with us.",
+   "german": "Es wäre besser, wenn du mit uns kommst.",
+   "why": "An unreal condition uses Konjunktiv II in the wenn-clause with a single modal at the end."
+  },
+  {
+   "id": 92,
+   "skill": "Choosing the right modal for strength and relationship",
+   "english": "Am I allowed to open the window?",
+   "german": "Darf ich das Fenster öffnen?",
+   "why": "A yes/no question about permission keeps the modal in position two."
+  },
+  {
+   "id": 93,
+   "skill": "Choosing the right modal for strength and relationship",
+   "english": "Are you able to help me tomorrow?",
+   "german": "Kannst du mir morgen helfen?",
+   "why": "Ability is können; the accusative pronoun mir stays in the field."
+  },
+  {
+   "id": 94,
+   "skill": "Choosing the right modal for strength and relationship",
+   "english": "We are supposed to be there at nine.",
+   "german": "Wir sollen um neun dort sein.",
+   "why": "An arrangement reported by a third party takes sollen plus the verb sein."
+  },
+  {
+   "id": 95,
+   "skill": "Choosing the right modal for strength and relationship",
+   "english": "She wants to study medicine in Vienna.",
+   "german": "Sie will in Wien Medizin studieren.",
+   "why": "A stated plan is wollen and takes no ability or obligation modal after it."
+  },
+  {
+   "id": 96,
+   "skill": "Choosing the right modal for strength and relationship",
+   "english": "Nobody is allowed to smoke on the balcony.",
+   "german": "Niemand darf auf dem Balkon rauchen.",
+   "why": "A general prohibition is a negated dürfen, and niemand as subject keeps verb two."
+  },
+  {
+   "id": 97,
+   "skill": "Choosing the right modal for strength and relationship",
+   "english": "I would prefer to walk.",
+   "german": "Ich würde lieber zu Fuß gehen.",
+   "why": "The Konjunktiv II of mögen expresses a preference, and gehen stays in the Infinitiv."
+  },
+  {
+   "id": 98,
+   "skill": "Choosing the right modal for strength and relationship",
+   "english": "You have to take the stairs; the lift is broken.",
+   "german": "Du musst die Treppe nehmen; der Aufzug ist kaputt.",
+   "why": "A consequence takes a single müssen in the present, with a semicolon before the reason."
+  },
+  {
+   "id": 99,
+   "skill": "Choosing the right modal for strength and relationship",
+   "english": "You may not tell him that you have to do it.",
+   "german": "Du darfst ihm nicht sagen, dass du das machen musst.",
+   "why": "Two different levels in two clauses: prohibition in the main clause, obligation in the reported speech."
+  },
+  {
+   "id": 100,
+   "skill": "Choosing the right modal for strength and relationship",
+   "english": "You cannot afford something like that.",
+   "german": "So etwas kannst du dir nicht leisten.",
+   "why": "A negated können reports impossibility, and the modal needs no second level of its own."
+  }
+ ]
+}

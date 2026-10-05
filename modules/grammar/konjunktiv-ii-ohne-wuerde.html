@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Konjunktiv II without würde — Der Konjunktiv II ohne würde | Deutsch Lernen</title>
+<style>
+:root{
+  --font:"Segoe UI",system-ui,-apple-system,sans-serif;
+  --teal-900:#005A5A; --teal-700:#008282; --teal-400:#50C1C1; --teal-100:#95DFDB;
+  --amber:#E1A01E; --red:#C41E3A; --green:#1D7A4C;
+  --ink:#012D2C; --muted:#008282;
+  --page:#F0FAFA; --card:#FFF; --in:#F0FAFA; --border:#D0ECEB;
+  --shadow:0 1px 4px rgba(1,45,44,.10); --shadow-md:0 4px 14px rgba(1,45,44,.12);
+  --r:8px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font);font-size:16px;color:var(--teal-900);background:var(--page);
+  line-height:1.65;-webkit-font-smoothing:antialiased;
+  display:flex;flex-direction:column;min-height:100vh}
+
+.navbar{display:flex;align-items:center;gap:12px;height:48px;padding:0 14px;
+  background:var(--teal-900);border-bottom:1px solid rgba(149,223,219,.15);
+  position:sticky;top:0;z-index:100;flex-shrink:0}
+.brand-icon{display:flex;align-items:center;flex-shrink:0}
+.nav-pipe{width:1px;height:16px;background:rgba(149,223,219,.30);flex-shrink:0;margin:0 12px}
+.nav-brand-text{font-size:.95rem;font-weight:600;color:var(--teal-100);text-decoration:none;white-space:nowrap}
+.nav-actions{margin-left:auto;display:flex;align-items:center;gap:8px}
+.icon-btn{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;padding:0;
+  color:var(--teal-100);background:rgba(149,223,219,.12);border:1px solid rgba(149,223,219,.22);
+  border-radius:4px;cursor:pointer;transition:130ms;text-decoration:none;flex-shrink:0}
+.icon-btn:hover{background:rgba(149,223,219,.24);border-color:rgba(149,223,219,.45)}
+.btn-nav{display:inline-flex;align-items:center;justify-content:center;height:32px;padding:0 12px;
+  font-size:.78rem;font-weight:600;font-family:var(--font);color:var(--teal-100);text-decoration:none;
+  background:rgba(149,223,219,.12);border:1px solid rgba(149,223,219,.22);border-radius:4px;
+  transition:130ms;white-space:nowrap;flex-shrink:0}
+.btn-nav:hover{background:rgba(149,223,219,.24);border-color:rgba(149,223,219,.45)}
+@media (max-width:400px){.btn-nav{padding:0 9px;font-size:.74px;font-size:.74rem}}
+.icon-btn svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:2;
+  stroke-linecap:round;stroke-linejoin:round}
+@media (max-width:560px){.nav-brand-text{font-size:.85rem}}
+
+.wrap{max-width:860px;width:100%;margin:0 auto;padding:20px 16px 0;flex:1 0 auto}
+
+h1{font-size:1.5rem;line-height:1.3;margin:0 0 4px}
+h1 .de{display:block;font-size:1rem;color:var(--teal-700);font-weight:600;margin-top:2px}
+
+section{margin-bottom:30px}
+h2{font-size:1.05rem;margin-bottom:10px;padding-bottom:6px;border-bottom:2px solid var(--teal-400)}
+h3{font-size:.85rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;
+  color:var(--teal-700);margin:16px 0 8px}
+p{margin-bottom:10px}
+.lead{color:var(--ink)}
+small{color:var(--muted)}
+
+.rulebox{background:var(--in);border:1px solid var(--border);border-left:4px solid var(--teal-400);
+  border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.rulebox strong{color:var(--teal-700)}
+.warnbox{background:rgba(196,30,58,.05);border:1px solid rgba(196,30,58,.25);
+  border-left:4px solid var(--red);border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.warnbox strong{color:var(--red)}
+.tipbox{background:rgba(29,122,76,.06);border:1px solid rgba(29,122,76,.22);
+  border-left:4px solid var(--green);border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.tipbox strong{color:var(--green)}
+
+table{width:100%;border-collapse:collapse;margin:12px 0;font-size:.88rem;
+  table-layout:fixed}
+th,td{overflow-wrap:anywhere;word-break:normal;hyphens:auto}
+th,td{text-align:left;padding:7px 9px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--in);font-weight:700;font-size:.76rem;text-transform:uppercase;
+  letter-spacing:.04em;color:var(--teal-700)}
+td.de{color:var(--ink)}
+tr:last-child td{border-bottom:none}
+
+.mic{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;
+  padding:0;flex-shrink:0;vertical-align:middle;border-radius:50%;cursor:pointer;
+  color:var(--teal-700);background:rgba(80,193,193,.16);border:1px solid rgba(80,193,193,.45);
+  transition:130ms}
+.mic:hover{background:rgba(80,193,193,.34)}
+.mic:focus-visible{outline:2px solid var(--teal-700);outline-offset:2px}
+.mic svg{width:13px;height:13px;fill:none;stroke:currentColor;stroke-width:2;
+  stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.mic[aria-pressed="true"]{background:var(--teal-700);color:#fff;border-color:var(--teal-700)}
+.mic[aria-pressed="true"] .pulse{animation:pulse 1s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+.mic[disabled]{opacity:.45;cursor:not-allowed}
+.microw{display:flex;align-items:flex-start;gap:8px}
+.microw > .mtext{flex:1;min-width:0}
+.ex{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:12px 13px;
+  margin-bottom:9px;box-shadow:var(--shadow)}
+.ex .de{font-size:.98rem;color:var(--ink);margin-bottom:4px}
+.ex .de em{color:var(--teal-700);font-style:normal;font-weight:700;background:rgba(80,193,193,.20);
+  padding:0 3px;border-radius:2px}
+.ex .en{font-size:.84rem;color:var(--muted)}
+.ex .why{font-size:.82rem;color:var(--teal-700);margin-top:6px;padding-top:6px;
+  border-top:1px dotted var(--border)}
+.ex .why b{font-weight:700}
+
+/* ── EXERCISES ── */
+.btn{font-family:var(--font);font-size:.78rem;font-weight:600;cursor:pointer;
+  padding:6px 12px;border-radius:4px;border:1px solid var(--teal-400);
+  background:rgba(80,193,193,.14);color:var(--teal-700);transition:130ms;white-space:nowrap}
+.btn:hover{background:rgba(80,193,193,.28)}
+.btn.ghost{background:transparent;border-color:var(--border);color:var(--muted)}
+.btn.ghost:hover{border-color:var(--teal-400);color:var(--teal-700)}
+.noVoice{display:none;align-items:flex-start;gap:8px;margin-bottom:12px;padding:9px 12px;
+  background:rgba(225,160,30,.12);border:1px solid rgba(225,160,30,.4);border-radius:var(--r);
+  font-size:.83rem;color:#7A5000}
+.noVoice b{color:#7A5000}
+
+.q{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:12px 13px;
+  margin-bottom:10px;box-shadow:var(--shadow)}
+.q.revealed{border-color:var(--teal-400)}
+.q.correct{border-color:rgba(29,122,76,.5);background:rgba(29,122,76,.04)}
+.q.wrong{border-color:rgba(196,30,58,.45);background:rgba(196,30,58,.03)}
+.qtop{display:flex;gap:9px;align-items:flex-start;margin-bottom:9px}
+.qnum{flex-shrink:0;width:23px;height:23px;border-radius:50%;background:rgba(0,130,130,.10);
+  color:var(--teal-7);color:var(--teal-700);font-size:.7rem;font-weight:700;display:flex;
+  align-items:center;justify-content:center;margin-top:1px}
+.q.correct .qnum{background:rgba(29,122,76,.16);color:var(--green)}
+.q.wrong .qnum{background:rgba(196,30,58,.14);color:var(--red)}
+.inputrow{display:flex;align-items:stretch;gap:6px;position:relative}
+.ainput{flex:1;min-width:0;font-family:var(--font);font-size:.92rem;color:var(--ink);
+  background:var(--in);border:1px solid var(--border);border-radius:5px;padding:8px 32px 8px 11px;transition:130ms}
+.ainput:focus{outline:none;border-color:var(--teal-400);background:#fff;box-shadow:0 0 0 3px rgba(80,193,193,.16)}
+/* small keyboard icon, vertically centred at the right edge of the field */
+.keybtn{flex-shrink:0;width:28px;align-self:stretch;display:inline-flex;align-items:center;
+  justify-content:center;padding:0;cursor:pointer;border-radius:5px;
+  color:var(--teal-700);background:rgba(80,193,193,.16);border:1px solid rgba(80,193,193,.45);
+  transition:130ms}
+.keybtn:hover{background:rgba(80,193,193,.32)}
+.keybtn:focus-visible{outline:2px solid var(--teal-700);outline-offset:2px}
+.keybtn svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:1.7;
+  stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.keybtn[aria-expanded="true"]{background:var(--teal-700);color:#fff;border-color:var(--teal-700)}
+/* letter panel lives inside the card so no ancestor can clip it */
+.pad{display:none;flex-wrap:wrap;gap:5px;margin-top:7px;padding:8px;
+  background:var(--in);border:1px solid var(--border);border-radius:5px}
+.pad.open{display:flex}
+.padkey{font-family:var(--font);font-size:.92rem;font-weight:600;color:var(--teal-900);
+  background:var(--card);border:1px solid var(--border);border-radius:4px;
+  min-width:34px;height:32px;cursor:pointer;transition:130ms}
+.padkey:hover{background:var(--teal-400);border-color:var(--teal-400)}
+.padkey:focus-visible{outline:2px solid var(--teal-700);outline-offset:1px}
+.btn.rev{margin-top:8px}
+.btn.rev.on{background:rgba(0,90,90,.10);border-color:var(--teal-700)}
+.ansrow{margin:6px 0;padding:7px 9px;background:rgba(80,193,193,.09);border-radius:5px}
+.ansrow .mtext{font-size:.93rem}
+.qtext{font-size:.95rem;color:var(--ink);margin-bottom:9px;flex:1;min-width:0}
+
+.fb{margin-top:9px;padding-top:9px;border-top:1px dotted var(--border);font-size:.85rem}
+.fb .ans{font-weight:600;color:var(--teal-700);margin-bottom:4px}
+.fb .why{color:var(--muted)}
+
+details.fold{margin-bottom:9px;border:1px solid var(--border);border-radius:6px;background:var(--card)}
+details.fold > summary{padding:9px 12px;font-weight:600;font-size:.88rem;cursor:pointer;
+  color:var(--teal-900);list-style:none}
+details.fold > summary::-webkit-details-marker{display:none}
+details.fold > summary::before{content:"▸";color:var(--teal-700);transition:transform .15s;
+  display:inline-block;margin-right:5px}
+details.fold[open] > summary::before{transform:rotate(90deg)}
+details.fold .foldbody{padding:0 12px 11px;border-top:1px solid var(--border);padding-top:9px;
+  font-size:.9rem}
+
+.footer{position:sticky;bottom:0;z-index:50;width:100%;max-width:var(--wrapw,860px);
+  margin-inline:auto;border-top:1px solid var(--border);padding:10px 16px;background:var(--page);
+  display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:.78rem;color:var(--muted)}
+.footer strong{color:var(--teal-700)}
+.footer-dot{margin:0 10px;color:var(--border)}
+
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+  <a class="brand-icon" href="../../" aria-label="Deutsch Lernen home">
+    <svg width="24" height="17" viewBox="0 0 31 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0"  y="0"  width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="0"  width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="0"  width="9" height="6" rx="1.5" fill="#008282"/>
+      <rect x="0"  y="8"  width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="8"  width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="8"  width="9" height="6" rx="1.5" fill="#008282"/>
+      <rect x="0"  y="16" width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="16" width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="16" width="9" height="6" rx="1.5" fill="#E1A01E"/>
+    </svg>
+  </a>
+  <div class="nav-pipe"></div>
+  <a class="nav-brand-text" href="index.html">Grammar</a>
+  <div class="nav-actions">
+    <a class="btn-nav" href="index.html" title="All grammar topics">All topics</a>
+    <a class="icon-btn" href="../../" title="Back to all modules" aria-label="Back to all modules">
+      <svg viewBox="0 0 24 24"><path d="M3 12l9-9 9 9"></path><path d="M5 10v10h14V10"></path></svg>
+    </a>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <h1>Konjunktiv II without würde<span class="de">Der Konjunktiv II ohne würde</span></h1>
+  
+  <!-- ══ 1. CONCEPT ══ -->
+  <section>
+    <h2>1 &middot; The concept</h2>
+    <p class="lead">German has two ways to say <em>&bdquo;would&rdquo;</em>: the verb <strong>würde</strong> plus an infinitive, and the <strong>Konjunktiv II</strong> built directly on the Präteritum stem. For a large group of very frequent verbs, the second way is not optional &ndash; it is the normal, expected form, and <em>würde</em> sounds clumsy or foreign.</p>
+
+    <h3>The two systems</h3>
+    <p>With <strong>würde</strong>, the verb in question never changes its form. <em>Ich <strong>würde</strong> kommen.</em> &ndash; <em>Ich <strong>würde</strong> gehen.</em> &ndash; <em>Ich <strong>würde</strong> kommen.</em> The Konjunktiv II, by contrast, is built from the Präteritum form: take the stem, add the appropriate endings, and in the case of most strong verbs also an umlaut.</p>
+    <table>
+      <thead><tr><th>Infinitive</th><th>Präteritum</th><th>Konjunktiv II stem + endings</th><th>With würde</th></tr></thead>
+      <tbody>
+        <tr><td>kommen</td><td>kam</td><td>käme, kämest, kämen, kämet</td><td>würde kommen</td></tr>
+        <tr><td>gehen</td><td>ging</td><td>ginge, gingest, gingen, ginget</td><td>würde gehen</td></tr>
+        <tr><td>nehmen</td><td>nahm</td><td>nähme, nähmest, nähmen, nähmet</td><td>würde nehmen</td></tr>
+        <tr><td>geben</td><td>gab</td><td>gäbe, gäbest, gäben, gäbet</td><td>würde geben</td></tr>
+        <tr><td>finden</td><td>fand</td><td>fände, fändest, fänden, fändet</td><td>würde finden</td></tr>
+        <tr><td>treffen</td><td>traf</td><td>träfe, träfest, träfen, träfet</td><td>würde treffen</td></tr>
+        <tr><td>halten</td><td>hielt</td><td>halte &ndash; irregular, see below</td><td>würde halten</td></tr>
+        <tr><td>heißen</td><td>heißen</td><td>heißen &ndash; no change</td><td>würde heißen</td></tr>
+      </tbody>
+    </table>
+    <p>The endings are those of <strong>sein</strong> in its Konjunktiv II function: <em>-e, -est, -e, -en, -et</em> in the singular, and the two plural forms are <em>-en</em> and <em>-et</em> (<em>wir kämen</em>, <em>ihr kämet</em>). Note that the <em>e</em> ending in the first and third person singular and the <em>en</em> ending in the first person plural are pronounced, so the forms can sound close to one another; the spelling always keeps them apart.</p>
+
+    <h3>sein and haben: the two irregular pairs</h3>
+    <p>These two verbs supply their own Konjunktiv II forms and are the most frequent of all.</p>
+    <table>
+      <thead><tr><th></th><th>sein</th><th>haben</th></tr></thead>
+      <tbody>
+        <tr><td>ich</td><td>wäre</td><td>hätte</td></tr>
+        <tr><td>du</td><td>wärst</td><td>hättest</td></tr>
+        <tr><td>er/sie/es</td><td>wäre</td><td>hätte</td></tr>
+        <tr><td>wir</td><td>wären</td><td>hätten</td></tr>
+        <tr><td>ihr</td><td>wärt</td><td>hättet</td></tr>
+        <tr><td>sie/Sie</td><td>wären</td><td>hätten</td></tr>
+      </tbody>
+    </table>
+    <p>Two habits follow from this. First, idiomatic German prefers <em>wäre</em> and <em>hätte</em> wherever <em>würde</em> would also be possible: <em>Wenn ich mehr Zeit <strong>hätte</strong>.&nbsp;&ndash; <strong>Wäre</strong> ich krank, würde ich zu Hause bleiben.</em> Second, these forms have meanings of their own that <em>würde</em> cannot express. <em><strong>Hätte</strong> gern ein Kaffee.</em> means <em>I would like a coffee</em> &ndash; a desire, not a prediction. <em>An deiner Stelle <strong>wäre</strong> ich sofort gegangen.</em> means <em>In your place I would have gone</em> &ndash; a judgement. <em>Wir <strong>hätten</strong> den Zug verpasst.</em> means <em>We would have missed the train</em>, because the counterfactual is a completed past event.</p>
+    <p>With <em>sein</em> the form <em>wäre</em> is also used for something that never existed, in the sense of a quality: <em>Er ist nicht der Mann, der er hätte sein können.</em> And in reported speech, <em>sein</em> normally stays in the <strong>Konjunktiv I</strong>: <em>Er sagte, er <strong>sei</strong> krank.</em> The <em>wäre</em> form is the one for hypotheticals, not for reporting what someone actually said.</p>
+
+    <h3>The modal verbs</h3>
+    <p>All six modals have full Konjunktiv II forms, and native speakers use them far more than <em>würde</em> + infinitive. The rule of thumb is simple: <strong>if a modal has a Konjunktiv II, use it.</strong></p>
+    <table>
+      <thead><tr><th>Modal</th><th>Konjunktiv II (ich/du/wir)</th><th>Meaning</th><th>Clumsy alternative</th></tr></thead>
+      <tbody>
+        <tr><td>können</td><td>könnte, könntest, könnten</td><td>possibility, polite request</td><td>würde können</td></tr>
+        <tr><td>müssen</td><td>müsste, müsstest, müssten</td><td>necessity</td><td>würde müssen</td></tr>
+        <tr><td>dürfen</td><td>dürfte, dürftest, dürften</td><td>permission, tentative judgement</td><td>würde dürfen</td></tr>
+        <tr><td>sollen</td><td>sollte, solltest, sollten</td><td>advice, reported obligation</td><td>würde sollen</td></tr>
+        <tr><td>wollen</td><td>wollte, wolltest, wollten</td><td>reported will</td><td>würde wollen</td></tr>
+        <tr><td>mögen</td><td>möchte, möchtest, möchten</td><td>polite wish and request</td><td>würde mögen</td></tr>
+      </tbody>
+    </table>
+    <p><em>Möchte</em> is the everyday form behind the <em>ich möchte</em> you hear in every shop and restaurant. <em>Ich möchte bitte eine Tasse Kaffee.</em> &ndash; never <em>Ich würde bitte gerne</em>, which sounds like a translation. In reported speech the modals keep their own reporting forms: <em>Er sagte, er <strong>müsse</strong> früher los.</em></p>
+    <p>Notice that <em>müssen</em> and <em>können</em> have a second function in the Konjunktiv II, alongside <em>hatte</em> and <em>konnte</em>: <em>Ich <strong>hätte</strong> das nicht <strong>gehen</strong> sehen.</em> &ndash; <em>Das <strong>hätte</strong> ich nicht <strong>gedacht</strong>.</em> Here <em>hatte</em> is the auxiliary of the Plusquamperfekt and must not be replaced by <em>würde</em>.</p>
+
+    <h3>werden</h3>
+    <p><em>Werden</em> is the interesting case: it has a full Konjunktiv II (<em>würde, würdest, würden</em>) <em>and</em> a full <em>würde</em> + infinitive construction. Both mean <em>would become / would happen</em>, but they are used differently.</p>
+    <table>
+      <thead><tr><th>Sentence</th><th>Reading</th></tr></thead>
+      <tbody>
+        <tr><td>Er würde nicht kommen.</td><td>He would not come. (A plain prediction.)</td></tr>
+        <tr><td>Er würde nicht kommen wollen.</td><td>He would not want to come. (Reported wish.)</td></tr>
+        <tr><td>Es würde regnen.</td><td>It would rain. (Weather forecast.)</td></tr>
+        <tr><td>Ich würde gern Pilotin werden.</td><td>I would like to become a pilot. (A wish, with an infinitive.)</td></tr>
+        <tr><td>Würdest du das werden lassen?</td><td>Would you leave that alone? (Konjunktiv II of werden.)</td></tr>
+      </tbody>
+    </table>
+    <p>So the two are not interchangeable: <em>würde</em> + infinitive describes a change of state or a course of events, the bare <em>würde</em> describes the simple future-parallel meaning. When in doubt, both readings are close enough that either form will be accepted; the differences only become visible in longer contexts.</p>
+
+    <h3>When you must use the direct Konjunktiv II</h3>
+    <div class="rulebox">
+      <p><strong>Never use würde with:</strong></p>
+      <ul>
+        <li><strong>sein</strong> &ndash; <em>wäre</em>, not <em>würde sein</em></li>
+        <li><strong>haben</strong> &ndash; <em>hätte</em>, not <em>würde haben</em></li>
+        <li><strong>the six modals</strong> &ndash; <em>könnte, müsste, dürfte, sollte, wollte, möchte</em></li>
+        <li>the <strong>Präteritum of werden</strong> as a pure hypothetical &ndash; <em>wenn es regnete</em> rather than <em>wenn es regnen würde</em></li>
+        <li>any verb whose <strong>Plusquamperfekt is meant</strong> &ndash; <em>wenn ich gekommen wäre</em>, not <em>wenn ich gekommen wäre … würde</em></li>
+      </ul>
+      <p><strong>Prefer the direct Konjunktiv II also with</strong> the modal-like strong verbs that carry a hypothetical of their own: <em>ginge, käme, gäbe, nähme, fände, träfe, schlüge, zöge, stünde, hieße, ließe</em>. Written German, news reports and exam answers all prefer these compact forms.</p>
+    </div>
+
+    <h3>Choosing between the two systems</h3>
+    <table>
+      <thead><tr><th>Situation</th><th>Use</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td>The verb has a Konjunktiv II</td><td>Konjunktiv II</td><td><em>Ich <strong>gäbe</strong> ihm das Geld.</em></td></tr><tr>
+        <td>The verb is vague, abstract or very long</td><td>würde + infinitive</td><td><em>Ich <strong>würde</strong> vorschlagen, das Ganze zu verschieben.</em></td></tr><tr>
+        <td>You want to stay polite without a modal</td><td>würde + infinitive</td><td><em>Ich <strong>würde</strong> sagen, wir verschieben das.</em></td></tr><tr>
+        <td>A wish or a plan</td><td>hätte gern / würde gern + infinitive</td><td><em>Ich <strong>hätte</strong> gern einen Kaffee.</em></td></tr><tr>
+        <td>Repeated würde in one clause</td><td>mix: Konjunktiv II for the precise verb</td><td><em>Wenn es nach mir <strong>ginge</strong>, <strong>würde</strong> ich kündigen.</em></td></tr>
+      </tbody>
+    </table>
+    <p>Both systems are fully grammatical, so a wrong choice is a style error, not a grammatical one &ndash; except where the rule above forbids <em>würde</em> altogether. The safe strategy for a learner is: build the Konjunktiv II for the six modals, <em>sein</em>, <em>haben</em> and a handful of frequent strong verbs, and reserve <em>würde</em> for everything else.</p>
+
+    <h3>Subordinate clauses</h3>
+    <p>In a <em>wenn</em>, <em>falls</em>, <em>ob</em>, <em>dass</em>, <em>als ob</em>, <em>so dass</em> or <em>ohne dass</em> clause the conjugated verb goes to the <strong>final position</strong>, and the Konjunktiv II is chosen exactly as in a main clause. So the ending is not dropped: <em>Wenn du mich <strong>fragst</strong></em> becomes <em>Wenn du mich <strong>fragtest</strong></em>, and <em>…, <strong>ob</strong> es <strong>regnet</strong></em> becomes <em>…, <strong>ob</strong> es <strong>regnete</strong></em>.</p>
+    <p>With <em>würde</em> the auxiliary already occupies the final slot and the infinitive follows it, which is why long <em>würde</em> clauses feel heavy in writing: <em>Ich <strong>würde</strong> mich <strong>freuen</strong>, wenn du <strong>kämest</strong>.</em> Compare the lighter mixed form <em>Ich <strong>würde</strong> mich freuen, wenn du <strong>kommen</strong> würdest</em> &ndash; fully grammatical, but at B2 the Konjunktiv II is the more idiomatic choice.</p>
+    <p>In reported speech, remember which mood does which job. Konjunktiv I normally reports what someone said: <em>Er <strong>sagte</strong>, er <strong>habe</strong> den Film nicht <strong>gesehen</strong>.</em> The Konjunktiv II marks what is contrary to fact or what the speaker only supposes: <em>Er <strong>behauptete</strong>, er <strong>habe</strong> alles <strong>gemacht</strong> &ndash; das <strong>hätte</strong> er <strong>aber</strong> sicher nicht <strong>gesagt</strong>.</em></p>
+  </section>
+
+  <!-- ══ 2. EXAMPLES ══ -->
+  <section>
+    <h2>2 · 20 worked examples</h2>
+    <p><small>Each example marks the opener and closer in bold and explains what it does to the sentence.</small></p>
+    <div id="examples"></div>
+  </section>
+
+  <!-- ══ 3. EXERCISES ══ -->
+  <section>
+    <h2>3 · 100 exercises</h2>
+
+    <div class="noVoice" id="noVoice">
+      <b>Pronunciation unavailable.</b> This browser has no German speech voice installed, so the
+      speaker buttons will not play. In Chrome, Edge and Safari on a desktop, German is available by default.
+    </div>
+    <div id="quiz"></div>
+  </section>
+
+</div>
+
+<footer class="footer"><strong>Konjunktiv II without würde</strong><span class="footer-dot">·</span><span>Roman Zajic</span></footer>
+
+<script>
+(function(){
+  "use strict";
+
+  var EXAMPLES = [
+    ["Wenn ich mehr Zeit hätte, würde ich einen Abendkurs belegen. — If I had more time, I would take an evening course.", "The Konjunktiv II of haben appears without würde, while the neutral verb takes würde."],
+    ["An deiner Stelle wäre ich sofort mit dem Zug gefahren. — On your part I would have travelled by train straight away.", "The Konjunktiv II of sein replaces würde fahren in the main clause."],
+    ["Ohne deine Hilfe hätten wir die Prüfung nicht bestanden. — Without your help we would not have passed the exam.", "The Konjunktiv II of haben carries its own modal meaning without any help from würde."],
+    ["Es wäre schön, wenn du uns bald Bescheid geben könntest. — It would be good if you could let us know soon.", "A main clause with wäre plus a verb-final subordinate clause in the Konjunktiv II."],
+    ["Hättest du etwas dagegen, wenn wir die Sitzung auf morgen verschieben? — Would you have anything against it if we moved the meeting to tomorrow?", "The Konjunktiv II of haben inverts with the subject at the start of the clause."],
+    ["Ich hätte gern ein größeres Zimmer mit Balkon. — I would like a larger room with a balcony.", "A polite wish uses hätte gern, never würde gern, with sein-type verbs."],
+    ["Wenn es nach mir ginge, würde ich das Projekt sofort abbrechen. — If it were up to me, I would call the project off immediately.", "Konjunktiv II of the strong verb gehen, with würde only for the neutral second verb."],
+    ["Wer hätte das gedacht, als wir die Zahlen zum ersten Mal gesehen haben? — Who would have thought that, when we first saw the figures?", "A rhetorical question in the Konjunktiv II in a main clause."],
+    ["Wir könnten die Sitzung auf Freitag legen, wenn das für alle passt. — We could move the meeting to Friday, if that suits everyone.", "Konjunktiv II of the modal können instead of the clumsy würde können."],
+    ["Du müsstest die Frist leider verlängern, sonst verlieren wir den Auftrag. — You would have to extend the deadline, I'm afraid, or we will lose the order.", "Konjunktiv II of the modal müssen for unavoidable obligation."],
+    ["Selbst wenn es viel kosten würde, würde ich diesen Kurs trotzdem machen. — Even if it cost a lot, I would still do this course.", "A Konjunktiv II inside the wenn-clause together with würde in the main clause."],
+    ["Wenn ich nur ein bisschen früher gekommen wäre, hätte ich einen Platz gehabt. — If I had only arrived a little earlier, I would have had a seat.", "The Konjunktiv II of gehen in the Perfekt is wäre, not würde gekommen sein."],
+    ["Nachdem er die Zahlen gesehen hätte, stellte er keine weiteren Fragen. — After he had seen the figures, he asked no further questions.", "A temporal subordinate clause with Perfekt Konjunktiv II and the verb in final position."],
+    ["Ich möchte, dass du die Datei bis Freitag überarbeitest. — I would like you to revise the file by Friday.", "The modal möchten in the Konjunktiv II expresses a firm but polite request."],
+    ["Wäre es dir recht, wenn wir den Termin auf nächste Woche legten? — Would it be all right by you if we moved the appointment to next week?", "The Konjunktiv II of the strong verb legen stands at the end of the subordinate clause."],
+    ["Was würdest du an meiner Stelle tun, wenn der Chef so entschieden wäre? — What would you do in my place if the boss were so determined?", "würde for the vague verb tun, Konjunktiv II for the precise verb entscheiden."],
+    ["Ohne dass er sich meldete, machten wir mit dem Plan weiter. — Without him getting in touch, we carried on with the plan.", "The Konjunktiv II of the strong verb melden after the correlative ohne dass."],
+    ["Ich dachte nicht, dass sich so etwas ohne Vorbereitung lösen ließe. — I did not think that such a thing could be solved without preparation.", "The Konjunktiv II of lassen in a verb-final dass-clause."],
+    ["Falls es regnete, würden wir zu Hause bleiben. — If it were to rain, we would stay at home.", "A short conditional clause with a matching würde in the main clause."],
+    ["Der Beschwerdeführer behauptete, er sei zu Unrecht abgewiesen worden. — The complainant claimed that he had been unjustly turned away.", "Reported speech: Konjunktiv I in the main clause, Konjunktiv II in the subordinate clause."]
+  ];
+
+  var DATA_URL = "../../data/grammar_exercises_konjunktiv_ii_ohne_wuerde.json";
+  var STORE = "konjunktiv_ii_ohne_wuerde_progress_v1";
+  // ── pronunciation via the browser speech engine ──
+  var MIC_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5z"></path>'
+    + '<path class="pulse" d="M15.5 8.5a5 5 0 0 1 0 7"></path>'
+    + '<path class="pulse" d="M18.5 5.5a9 9 0 0 1 0 13"></path></svg>';
+  var synth = window.speechSynthesis || null;
+  var germanVoice = null;
+
+  function stripTags(t){ return String(t).replace(/<[^>]*>/g,""); }
+
+  function pickVoice(){
+    if(!synth) return null;
+    var vs = synth.getVoices() || [];
+    germanVoice = vs.filter(function(v){ return /^de(-|_|$)/i.test(v.lang); })[0] || null;
+    return germanVoice;
+  }
+  if(synth){
+    pickVoice();
+    if(synth.addEventListener) synth.addEventListener("voiceschanged", pickVoice);
+  }
+
+  function stopSpeech(){ if(synth) try{ synth.cancel(); }catch(e){} }
+
+  var warned = false;
+  function noVoiceNotice(){
+    if(warned) return; warned = true;
+    var n = document.getElementById("noVoice");
+    if(n) n.style.display = "flex";
+  }
+  function micBtn(text, label){
+    var b = document.createElement("button");
+    b.className = "mic";
+    b.type = "button";
+    b.setAttribute("aria-pressed","false");
+    b.setAttribute("aria-label", (label||"Play") + ": " + stripTags(text));
+    b.title = "Play pronunciation";
+    b.innerHTML = MIC_SVG;
+    b.addEventListener("click", function(ev){
+      ev.stopPropagation();
+      if(!synth){ b.disabled = true; b.title = "Speech is not available in this browser"; noVoiceNotice(); return; }
+      if(b.getAttribute("aria-pressed")==="true"){ stopSpeech(); b.setAttribute("aria-pressed","false"); return; }
+      stopSpeech();
+      if(!germanVoice) pickVoice();
+      var u = new SpeechSynthesisUtterance(stripTags(text));
+      u.lang = "de-DE";
+      if(germanVoice) u.voice = germanVoice;
+      u.rate = 0.92; u.pitch = 1;
+      b.setAttribute("aria-pressed","true");
+      var off = function(){ b.setAttribute("aria-pressed","false"); };
+      u.onend = off;
+      u.onerror = function(){ off(); noVoiceNotice(); };
+      synth.speak(u);
+      // some engines report no voices at all; surface that instead of a dead button
+      if(!synth.getVoices().length) noVoiceNotice();
+    });
+    return b;
+  }
+
+  var state = {revealed:{}, answers:{}};
+
+  function esc(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
+  function load(){ try{ var v=JSON.parse(localStorage.getItem(STORE)); if(v&&typeof v==="object"){state.revealed=v.revealed||{};state.answers=v.answers||{};} }catch(e){} }
+  function save(){ try{ localStorage.setItem(STORE, JSON.stringify(state)); }catch(e){} }
+
+  // ---- examples ----
+  // Each entry is [german_and_english, why]. The first field carries the English
+  // translation after an em dash, so split it out for separate styling.
+  function splitDE(t){
+    var i = t.indexOf("\u2014");
+    if(i < 0) return [t, ""];
+    return [t.slice(0,i).trim(), t.slice(i+1).trim()];
+  }
+  (function renderExamples(){
+    var host = document.getElementById("examples");
+    host.innerHTML = "";
+    EXAMPLES.forEach(function(x){
+      var de = x[0] || "";
+      var why = x[1] || "";
+      var parts = splitDE(de);
+      var card = document.createElement("div");
+      card.className = "ex";
+
+      var row = document.createElement("div");
+      row.className = "microw";
+      var txt = document.createElement("div");
+      txt.className = "mtext";
+      txt.innerHTML = '<div class="de">'+parts[0]+'</div>'+
+                      (parts[1] ? '<div class="en">'+parts[1]+'</div>' : "");
+      row.appendChild(txt);
+      row.appendChild(micBtn(parts[0], "Play this example"));
+      card.appendChild(row);
+
+      if(why){
+        var w = document.createElement("div");
+        w.className = "why";
+        w.innerHTML = "<b>Why:</b> "+why;
+        card.appendChild(w);
+      }
+      host.appendChild(card);
+    });
+  })();
+
+  // German special letters, inserted at the caret in the focused input.
+  var KEYS = ["ä","ö","ü","Ä","Ö","Ü","ß","€"];
+
+  function insertAt(input, ch){
+    var v = input.value;
+    var a = input.selectionStart == null ? v.length : input.selectionStart;
+    var b = input.selectionEnd == null ? v.length : input.selectionEnd;
+    input.value = v.slice(0,a) + ch + v.slice(b);
+    var pos = a + ch.length;
+    try{ input.setSelectionRange(pos,pos); }catch(e){}
+    input.focus();
+  }
+
+  function keypadBtn(id){
+    var b = document.createElement("button");
+    b.type = "button";
+    b.className = "keybtn";
+    b.title = "German letters";
+    b.setAttribute("aria-label","Insert German special characters");
+    b.setAttribute("aria-expanded","false");
+    b.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true">'+
+      '<rect x="2" y="5" width="20" height="14" rx="2"></rect>'+
+      '<path d="M6 9h.01M10 9h.01M14 9h.01M18 9h.01M6 13h.01M10 13h.01M14 13h.01M18 13h.01M8 16h8"></path>'+
+      '</svg>';
+    b.addEventListener("click", function(ev){
+      ev.stopPropagation();
+      var panel = document.getElementById("pad-"+id);
+      if(!panel) return;
+      var open = panel.classList.toggle("open");
+      b.setAttribute("aria-expanded", open ? "true" : "false");
+      closeAllKeypads(panel);
+    });
+    return b;
+  }
+
+  function closeAllKeypads(except){
+    Array.prototype.forEach.call(document.querySelectorAll(".pad.open"), function(p){
+      if(p === except) return;
+      p.classList.remove("open");
+      var btn = p.previousSibling && p.previousSibling.querySelector ? p.previousSibling.querySelector(".keybtn") : null;
+      if(btn) btn.setAttribute("aria-expanded","false");
+    });
+  }
+
+  document.addEventListener("click", function(){ closeAllKeypads(null); });
+  document.addEventListener("keydown", function(e){ if(e.key === "Escape") closeAllKeypads(null); });
+
+  function renderQuiz(ex){
+    var el = document.getElementById("quiz");
+    el.innerHTML = "";
+    ex.forEach(function(e){
+      var rev = !!state.revealed[e.id];
+      var card = document.createElement("article");
+      card.className = "q" + (rev ? " revealed" : "");
+      card.id = "q"+e.id;
+
+      var top = document.createElement("div");
+      top.className = "qtop";
+      top.innerHTML = '<span class="qnum">'+e.id+'</span>';
+      var qt = document.createElement("span");
+      qt.className = "qtext";
+      qt.textContent = e.english;
+      top.appendChild(qt);
+      card.appendChild(top);
+
+      // input with the letter keypad docked inside its right edge
+      var row = document.createElement("div");
+      row.className = "inputrow";
+      var ta = document.createElement("input");
+      ta.type = "text";
+      ta.className = "ainput";
+      ta.placeholder = "Write the German here…";
+      ta.setAttribute("aria-label","Your German answer for exercise "+e.id);
+      ta.value = state.answers[e.id] || "";
+      ta.addEventListener("input", function(){ state.answers[e.id] = ta.value; save(); });
+      row.appendChild(ta);
+      row.appendChild(keypadBtn(e.id));
+      card.appendChild(row);
+
+      // the letter panel sits inside the card so it is never clipped
+      var pad = document.createElement("div");
+      pad.className = "pad";
+      pad.id = "pad-"+e.id;
+      KEYS.forEach(function(k){
+        var kb = document.createElement("button");
+        kb.type = "button";
+        kb.className = "padkey";
+        kb.textContent = k;
+        kb.addEventListener("click", function(ev){
+          ev.stopPropagation();
+          var target = card.querySelector(".ainput");
+          insertAt(target, k);
+          state.answers[e.id] = target.value;
+          save();
+        });
+        pad.appendChild(kb);
+      });
+      card.appendChild(pad);
+
+      // reveal / hide toggle
+      var rb = document.createElement("button");
+      rb.type = "button";
+      rb.className = "btn rev" + (rev ? " on" : "");
+      rb.textContent = rev ? "Hide answer" : "Reveal answer";
+      rb.setAttribute("aria-expanded", rev ? "true" : "false");
+      rb.addEventListener("click", function(){
+        state.revealed[e.id] = !state.revealed[e.id];
+        save();
+        renderQuiz(ex);
+      });
+      card.appendChild(rb);
+
+      if(rev){
+        var fb = document.createElement("div");
+        fb.className = "fb";
+
+        var ansRow = document.createElement("div");
+        ansRow.className = "microw ansrow";
+        var at = document.createElement("div");
+        at.className = "mtext";
+        at.textContent = e.german;
+        ansRow.appendChild(at);
+        ansRow.appendChild(micBtn(e.german, "Play the German answer"));
+        fb.appendChild(ansRow);
+
+        var wy = document.createElement("div");
+        wy.className = "why";
+        wy.textContent = e.why;
+        fb.appendChild(wy);
+
+        card.appendChild(fb);
+      }
+      el.appendChild(card);
+    });
+  }
+
+  load();
+
+  fetch(DATA_URL+"?cb="+Date.now())
+    .then(function(r){ if(!r.ok) throw new Error("HTTP "+r.status); return r.json(); })
+    .then(function(d){
+      var ex=d.exercises;
+      renderQuiz(ex);
+    })
+    .catch(function(e){
+      document.getElementById("quiz").innerHTML =
+        '<div class="q"><b>Could not load the exercises.</b><br>'+esc(e.message)+'</div>';
+    });
+})();
+</script>
+</body>
+</html>
