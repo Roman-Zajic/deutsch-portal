@@ -10,702 +10,702 @@
     {
       "id": 1,
       "skill": "Fronting: position I and inversion",
-      "english": "Tomorrow morning the train leaves at six.",
-      "german": "Morgen früh fährt der Zug um sechs ab.",
-      "why": "A fronted time expression takes position I, so the finite verb fährt follows in position II and the subject comes last; the separable prefix ab stays at the very end in position III."
+      "english": "At two o'clock, the train arrives at platform five.",
+      "german": "Um zwei Uhr kommt der Zug auf Gleis fünf an.",
+      "why": "The time adverbial is fronted into position I, so the finite verb kommt follows it and the subject der Zug takes position II; the separable prefix an closes position III."
     },
     {
       "id": 2,
       "skill": "Fronting: position I and inversion",
-      "english": "At nine o'clock the museum opens.",
-      "german": "Um neun Uhr öffnet das Museum.",
-      "why": "The fronted time phrase occupies position I and the conjugated verb öffnet is promoted to position II, with das Museum as the subject behind it."
+      "english": "Yesterday I finally spoke to the landlord.",
+      "german": "Gestern habe ich endlich mit dem Vermieter gesprochen.",
+      "why": "Fronting Gestern displaces the verb from position I; the perfect auxiliary steht position II and the prefix gesprochen returns to the very end."
     },
     {
       "id": 3,
       "skill": "Fronting: position I and inversion",
-      "english": "Yesterday I read all day long.",
-      "german": "Gestern habe ich den ganzen Tag gelesen.",
-      "why": "Fronting Gestern forces Perfekt order: position I = Gestern, position II = habe, position III = gelesen, and the subject ich plus the time span follow."
+      "english": "It would be much better to come earlier.",
+      "german": "Deutlich besser wäre es, früher zu kommen.",
+      "why": "A fronted comparative phrase fills position I, which pushes the Konjunktiv II wäre of the copula into position II ahead of the subject es."
     },
     {
       "id": 4,
       "skill": "Fronting: position I and inversion",
-      "english": "The guests only arrived after dinner.",
-      "german": "Erst nach dem Essen kamen die Gäste.",
-      "why": "The focus particle erst belongs in position I together with nach dem Essen, and the verb kamen then takes position II before the subject die Gäste."
+      "english": "Since you are here, I will show you the garden.",
+      "german": "Da du hier bist, zeige ich dir den Garten.",
+      "why": "The subordinate clause in position I leaves the finite verb of the main clause in position II, which is the second use of the Da-clause."
     },
     {
       "id": 5,
       "skill": "Fronting: position I and inversion",
-      "english": "Only two colleagues understood the lecture.",
-      "german": "Nur zwei Kollegen haben den Vortrag verstanden.",
-      "why": "Nur is fronted with its quantified phrase, so the finite Perfekt auxiliary haben stands in position II and verstanden closes the verb bracket in position III."
+      "english": "That he was lying never occurred to me.",
+      "german": "Dass er gelogen hat, ist mir nie in den Sinn gekommen.",
+      "why": "A fronted dass-clause in position I makes the main clause verb ist occupy position II, while the subject er of the fronted clause stays inside the dass-clause."
     },
     {
       "id": 6,
       "skill": "Fronting: position I and inversion",
-      "english": "I would love to come along.",
-      "german": "Sehr gern komme ich mit.",
-      "why": "With modal verbs the modal in position II carries the tense, so the whole verb bracket is komme ich and the separable prefix mit comes last in position III."
+      "english": "Only after three months did she get the visa.",
+      "german": "Erst nach drei Monaten hat sie das Visum bekommen.",
+      "why": "The fronted temporal phrase Erst nach drei Monaten is emphasised, so the perfect auxiliary hat follows in position II and the subject sie stands behind it."
     },
     {
       "id": 7,
       "skill": "Fronting: position I and inversion",
-      "english": "In good weather we are having a picnic.",
-      "german": "Bei gutem Wetter machen wir ein Picknick.",
-      "why": "The fronted prepositional phrase in position I leaves position II for machen, and the subject wir plus accusative object follow in that order."
+      "english": "Despite all the effort, it did not get any better.",
+      "german": "Trotz aller Bemühungen ist es nicht besser geworden.",
+      "why": "A prepositional phrase with trotz takes position I, and the copula ist of the Perfekt follows in position II before the subject es."
     },
     {
       "id": 8,
       "skill": "Fronting: position I and inversion",
-      "english": "In summer we go to the Baltic Sea.",
-      "german": "Im Sommer fahren wir an die Ostsee.",
-      "why": "Im Sommer is fronted, so fahren moves to position II and wir is pushed behind it; the directional complement stays at the end of the sentence."
+      "english": "Not a single guest complained about the noise.",
+      "german": "Kein einziger Gast hat sich über den Lärm beschwert.",
+      "why": "Kein einziger Gast is the fronted subject in position I, so the perfect auxiliary hat, not the subject, comes next."
     },
     {
       "id": 9,
       "skill": "Fronting: position I and inversion",
-      "english": "The day after tomorrow we have to pay the bill.",
-      "german": "Übermorgen müssen wir die Rechnung zahlen.",
-      "why": "With a modal in position II the modal müssen counts as the finite verb, so the subject wir lands in position III and the infinitive zahlen ends the bracket."
+      "english": "Where do you actually want to go on holiday?",
+      "german": "Wo willst du denn eigentlich in den Urlaub fahren?",
+      "why": "The interrogative word wo occupies position I; willst is the finite verb in position II and the subject du follows it."
     },
     {
       "id": 10,
       "skill": "Fronting: position I and inversion",
-      "english": "I live in a shared flat with my sister.",
-      "german": "Mit meiner Schwester wohne ich in einer WG.",
-      "why": "The accompanying person is fronted, which pushes wohne into position II and leaves ich as the subject in the field behind it."
+      "english": "When the children were small, we lived in the countryside.",
+      "german": "Als die Kinder klein waren, lebten wir auf dem Land.",
+      "why": "A fronted temporal clause in position I pushes the main-clause verb lebten into position II."
     },
     {
       "id": 11,
       "skill": "Fronting: position I and inversion",
-      "english": "He has been learning Japanese for two years.",
-      "german": "Seit zwei Jahren lernt er Japanisch.",
-      "why": "A fronted duration phrase in position I allows present tense lernt in position II instead of a Perfekt, with er following directly."
+      "english": "One thing is certain: the figures are not verified.",
+      "german": "Eines ist sicher: Die Zahlen sind nicht geprüft.",
+      "why": "The nominalised fronted clause Eines ist sicher forms its own bracket, which the colon closes; the following main clause keeps its normal subject-verb order."
     },
     {
       "id": 12,
       "skill": "Fronting: position I and inversion",
-      "english": "This week I simply have no time.",
-      "german": "Diese Woche habe ich überhaupt keine Zeit.",
-      "why": "Diese Woche in position I pushes the Perfekt auxiliary habe to position II, and the negation überhaupt keine Zeit follows the subject."
+      "english": "Had I known it, I would have cancelled the trip.",
+      "german": "Hätte ich es gewusst, hätte ich die Reise storniert.",
+      "why": "The Konjunktiv II of haben in position I stands alone, and the subject ich follows it in position II before the main-clause verb."
     },
     {
       "id": 13,
       "skill": "Fronting: position I and inversion",
-      "english": "In the end he did win after all.",
-      "german": "Am Ende hat er doch noch gewonnen.",
-      "why": "A fronted time phrase plus Perfekt gives Am Ende in position I, hat in position II, and gewonnen seals position III before the subject er."
+      "english": "For exactly this reason the contract was terminated.",
+      "german": "Aus genau diesem Grund wurde der Vertrag gekündigt.",
+      "why": "The causal phrase is fronted into position I, so the finite part wurde of the passive Perfekt follows, with the subject behind it."
     },
     {
       "id": 14,
       "skill": "Fronting: position I and inversion",
-      "english": "Without an ID card you cannot get in here.",
-      "german": "Ohne Ausweis kommt man hier nicht hinein.",
-      "why": "The preposition ohne with its nominal complement is fronted; kommt is then the finite verb in position II and the impersonal man follows it."
+      "english": "Should the prices rise again, we will react immediately.",
+      "german": "Sollten die Preise nochmals steigen, reagieren wir sofort.",
+      "why": "The inverted conditional in position I replaces the subject; the Konjunktiv II sollen in position II is followed by the subject wir."
     },
     {
       "id": 15,
       "skill": "Fronting: position I and inversion",
-      "english": "In two years I want to work in Zürich.",
-      "german": "In zwei Jahren will ich in Zürich arbeiten.",
-      "why": "Modal will takes position II because the fronted time phrase fills position I, so the infinitive arbeiten goes to the end of the sentence."
+      "english": "In 1998 she moved to Vienna.",
+      "german": "Im Jahr 1998 zog sie nach Wien.",
+      "why": "A fronted time expression takes position I, the finite verb zog follows in position II and sie enters the bracket behind it."
     },
     {
       "id": 16,
       "skill": "Fronting: position I and inversion",
-      "english": "I would gladly drink a coffee.",
-      "german": "Trinken würde ich gern einen Kaffee.",
-      "why": "The infinitive itself is fronted; under the special inversion the finite verb würde then moves up to position I and the subject ich follows in position II."
+      "english": "Why did nobody warn us?",
+      "german": "Warum hat uns niemand gewarnt?",
+      "why": "The question word warum is in position I and the perfect auxiliary hat is the finite verb in position II."
     },
     {
       "id": 17,
       "skill": "Fronting: position I and inversion",
-      "english": "Do I really have to read the whole report?",
-      "german": "Muss ich wirklich den ganzen Bericht lesen?",
-      "why": "In a yes-no question the finite verb is the very first element even without any fronting, and the subject ich comes right after it in position II."
+      "english": "What matters is not the prize, but the way you get there.",
+      "german": "Entscheidend ist nicht der Preis, sondern der Weg dorthin.",
+      "why": "A fronted predicate nominative occupies position I; the linking verb ist goes to position II and the subject folgt after it."
     },
     {
       "id": 18,
       "skill": "Fronting: position I and inversion",
-      "english": "Careful, the floor is slippery!",
-      "german": "Vorsicht, der Boden ist glatt!",
-      "why": "An imperative with a fronted warning word is read as two sentences, so the verb ist begins the second clause and the subject der Boden comes after it."
+      "english": "Without that letter, the application would never have succeeded.",
+      "german": "Ohne diesen Brief wäre die Bewerbung nie erfolgreich gewesen.",
+      "why": "The preposition ohne with its accusative object forms the fronted position I, so the Konjunktiv II wäre of war starts position II."
     },
     {
       "id": 19,
       "skill": "Fronting: position I and inversion",
-      "english": "What you find in it is for you alone to decide.",
-      "german": "Was du darin findest, entscheidest nur du.",
-      "why": "A fronted subordinate clause pushes the main-clause verb to position I, so entscheidest steht before the subject du, which now ends the sentence."
+      "english": "How gladly she would accept the offer!",
+      "german": "Wie gern würde sie das Angebot annehmen!",
+      "why": "A fronted exclamation with wie gern introduces an inverted Konjunktiv II würde position II with the subject following it."
     },
     {
       "id": 20,
       "skill": "Fronting: position I and inversion",
-      "english": "I do not know whether he is coming.",
-      "german": "Dass er kommt, weiß ich nicht.",
-      "why": "Fronting the dass-clause puts the verb of the main clause in position I: weiß in I, ich in II, and the negation nicht follows the subject."
+      "english": "Sometime, somewhere, somebody has to have been right.",
+      "german": "Irgendwann, irgendwo, irgendjemand muss recht gehabt haben.",
+      "why": "Three indefinites are coordinated in position I, and the modal muss is the finite verb in position II with its subject in front of the infinitive haben."
     },
     {
       "id": 21,
       "skill": "Position III: separable verbs and Perfekt",
-      "english": "The train arrives at two p.m.",
-      "german": "Der Zug kommt um vierzehn Uhr an.",
-      "why": "The separable prefix an cannot stand in the middle of the verb bracket, so it detaches and occupies the final slot in position III."
+      "english": "I will write to you in detail tomorrow.",
+      "german": "Ich schreibe dir morgen ausführlich.",
+      "why": "The separable prefix schreib- of schreiben leaves the stem in position II, and the adverbial morgen takes the place of the prefix before the end of the clause."
     },
     {
       "id": 22,
       "skill": "Position III: separable verbs and Perfekt",
-      "english": "Please call me back tomorrow!",
-      "german": "Ruft mich bitte morgen wieder an!",
-      "why": "In the imperative the pronoun object sits in position III and the particle an has to jump over it to the end of the sentence."
+      "english": "Have you ever tried our new coffee?",
+      "german": "Hast du schon einmal unseren neuen Kaffee probiert?",
+      "why": "In the Perfekt the auxiliary hast occupies position II and the participle probiert stands at the end of the clause."
     },
     {
       "id": 23,
       "skill": "Position III: separable verbs and Perfekt",
-      "english": "Have you already paid the bill?",
-      "german": "Hast du die Rechnung schon bezahlt?",
-      "why": "A Perfekt question puts the auxiliary hast in I and du in II; the whole participle phrase die Rechnung schon bezahlt forms the verb bracket ending in III."
+      "english": "The train to Hamburg departs at 7:15.",
+      "german": "Der Zug nach Hamburg fährt um 7:15 ab.",
+      "why": "With a time of departure, the fixed verbal complement abfahren splits: the stem fährt stays in position II and ab goes to position III."
     },
     {
       "id": 24,
       "skill": "Position III: separable verbs and Perfekt",
-      "english": "We are meeting at eight at the main station.",
-      "german": "Wir treffen uns um acht am Hauptbahnhof.",
-      "why": "The reflexive pronoun uns occupies position III directly after treffen, while the time and place complements are free to follow in the Nachfeld."
+      "english": "We are taking the children swimming tomorrow.",
+      "german": "Wir nehmen die Kinder morgen zum Schwimmen mit.",
+      "why": "The accusative object Kinder fills the middle field and mit, the prefix of mitnehmen, occupies position III at the very end."
     },
     {
       "id": 25,
       "skill": "Position III: separable verbs and Perfekt",
-      "english": "The club has cancelled the game.",
-      "german": "Der Verein hat das Spiel abgesagt.",
-      "why": "In the Perfekt the conjugated part hat takes position II and the participle abgesagt must be pulled to the end, separating ab and gesagt."
+      "english": "She called her mother in the evening.",
+      "german": "Sie ruft am Abend ihre Mutter an.",
+      "why": "The temporal phrase stays in the middle field while the separable prefix an- joins the accusative object ihre Mutter at the end."
     },
     {
       "id": 26,
       "skill": "Position III: separable verbs and Perfekt",
-      "english": "Why do you always call me at night?",
-      "german": "Warum rufst du mich nachts immer an?",
-      "why": "The prefix an is stressed in meaning and therefore detaches; with two objects in position III, mich and nachts immer, the particle an comes last."
+      "english": "Look after the plants while we are away.",
+      "german": "Achte auf die Pflanzen, solange wir weg sind.",
+      "why": "The imperative stem achte fills position II for the pronoun du, and auf plus its object is the verb complement in the final position."
     },
     {
       "id": 27,
       "skill": "Position III: separable verbs and Perfekt",
-      "english": "I get up at six every morning.",
-      "german": "Ich stehe jeden Morgen um sechs auf.",
-      "why": "The non-finite position III cannot be filled by the separable prefix, so auf ends the sentence even though temporal phrases could stand earlier."
+      "english": "You have broken my glasses.",
+      "german": "Du hast meine Brille kaputtgemacht.",
+      "why": "In the Perfekt the auxiliary hast fills position II and the participle kaputtgemacht has a separable prefix that stands at the clause end."
     },
     {
       "id": 28,
       "skill": "Position III: separable verbs and Perfekt",
-      "english": "She has already handed in her notice.",
-      "german": "Sie hat ihre Stelle schon gekündigt.",
-      "why": "Perfekt of a separable verb: hat in position II, the object ihre Stelle and the temporal schon in position III, and the participle gekündigt closes the sentence."
+      "english": "The meeting will be postponed by two weeks.",
+      "german": "Die Besprechung wird um zwei Wochen verschoben.",
+      "why": "The passive auxiliary wird is the finite verb in position II and the participle verschoben, a verb with a separable prefix, goes last."
     },
     {
       "id": 29,
       "skill": "Position III: separable verbs and Perfekt",
-      "english": "He picked up the parcel at the post office.",
-      "german": "Er hat das Paket bei der Post abgeholt.",
-      "why": "The Perfekt auxiliary hat sits in position II, das Paket and bei der Post fill the middle field, and the participle abgeholt closes the bracket."
+      "english": "Please pick up the parcel at the post office.",
+      "german": "Holen Sie bitte das Paket bei der Post ab.",
+      "why": "The infinitive of holen drops the prefix ab- into the verb field, and bitte and the accusative object stay in the middle field."
     },
     {
       "id": 30,
       "skill": "Position III: separable verbs and Perfekt",
-      "english": "He will pick you up at twelve.",
-      "german": "Er holt dich um zwölf ab.",
-      "why": "Future meaning is expressed by present tense holt in position II, and the separable prefix ab detaches to the very end despite the time expression."
+      "english": "We didn't arrive in time.",
+      "german": "Wir sind nicht pünktlich angekommen.",
+      "why": "The negated auxiliary ist stands in position II and the participle angekommen, whose prefix an- detaches, follows it."
     },
     {
       "id": 31,
       "skill": "Position III: separable verbs and Perfekt",
-      "english": "Does the film start at half past eight?",
-      "german": "Fängt der Film um halb neun an?",
-      "why": "In the yes-no question an sits at the far end of the bracket, not directly after the conjugated verb, which is the classic test of position III."
+      "english": "My little brother eats breakfast without me.",
+      "german": "Mein kleiner Bruder isst ohne mich Frühstück.",
+      "why": "The accusative object Frühstück is the verb complement of essen and moves to position III, after the prepositional phrase ohne mich."
     },
     {
       "id": 32,
       "skill": "Position III: separable verbs and Perfekt",
-      "english": "We signed the contract last week.",
-      "german": "Wir haben den Vertrag letzte Woche unterschrieben.",
-      "why": "The separable prefix of the participle underschrieben is torn off and forms the final element, while den Vertrag occupies position III with the temporal phrase."
+      "english": "The children have already gone out.",
+      "german": "Die Kinder sind schon nach draußen gegangen.",
+      "why": "The directional complement nach draußen is the verb complement of gehen, and the participle gegangen closes the clause."
     },
     {
       "id": 33,
       "skill": "Position III: separable verbs and Perfekt",
-      "english": "Will you give me the documents tonight?",
-      "german": "Gibst du mir die Unterlagen heute Abend?",
-      "why": "Both pronouns and the accusative object fill the bracket positions after the imperative, and the time expression is pushed to the Nachfeld."
+      "english": "I will call you from the airport.",
+      "german": "Ich rufe dich vom Flughafen aus an.",
+      "why": "Vom Flughafen aus is a directional complement of anrufen; the prefix an closes position III after it."
     },
     {
       "id": 34,
       "skill": "Position III: separable verbs and Perfekt",
-      "english": "How long does the meeting last?",
-      "german": "Wie lange hat die Besprechung gedauert?",
-      "why": "The fronted question phrase is position I, the Perfekt auxiliary hat takes position II, and the participle gedauert closes the bracket in position III."
+      "english": "When will you introduce your parents to hers?",
+      "german": "Wann stellst du deine Eltern ihren vor?",
+      "why": "The prefix vor- of vorstellen separates: stellst is the finite verb in position II and vor moves to the end of the clause."
     },
     {
       "id": 35,
       "skill": "Position III: separable verbs and Perfekt",
-      "english": "The children played in the garden all afternoon.",
-      "german": "Die Kinder haben den ganzen Nachmittag im Garten gespielt.",
-      "why": "The object and the adverbial both sit in the bracketed middle field, and the participle gespielt must be the last element of the sentence."
+      "english": "Who took the last bottle of water?",
+      "german": "Wer hat die letzte Flasche Wasser genommen?",
+      "why": "The question word in position I is followed by the perfect auxiliary hat; the strong participle genommen needs no ge- and stands last."
     },
     {
       "id": 36,
       "skill": "Position III: separable verbs and Perfekt",
-      "english": "On Monday I am starting the new job.",
-      "german": "Am Montag fange ich die neue Stelle an.",
-      "why": "The fronted day makes the present tense fange mean a future start, and the separable prefix an again occupies position III at the end."
+      "english": "The council will be dissolved after the vote.",
+      "german": "Der Rat wird nach der Abstimmung aufgelöst.",
+      "why": "The prefix auf- of auflösen is separated; only the stem löst stands in position II, and the participle aufgelöst ends the sentence."
     },
     {
       "id": 37,
       "skill": "Position III: separable verbs and Perfekt",
-      "english": "Please sit down for a moment!",
-      "german": "Setz dich bitte kurz hin!",
-      "why": "The pronoun sich stands in position III and the separable prefix hin has to cross it, so the accusative-adverbial bitte kurz cannot follow the verb directly."
+      "english": "My sister has just taken the cake out of the oven.",
+      "german": "Meine Schwester hat gerade den Kuchen aus dem Ofen geholt.",
+      "why": "A separable verb with a prepositional object places the participle hol- at the very end, after the extended prepositional phrase."
     },
     {
       "id": 38,
       "skill": "Position III: separable verbs and Perfekt",
-      "english": "Can you reach me after work?",
-      "german": "Kannst du mich nach der Arbeit erreichen?",
-      "why": "A modal in position II leaves the infinitive erreichen at the end, which is position III; with a modal the prefix is no longer separable."
+      "english": "Please switch off the light when you leave.",
+      "german": "Mach bitte das Licht aus, wenn du gehst.",
+      "why": "The separable prefix aus- of the imperative attaches to the object das Licht and closes the verb field at the end of the first clause."
     },
     {
       "id": 39,
       "skill": "Position III: separable verbs and Perfekt",
-      "english": "Are you taking the train or the bike?",
-      "german": "Nimmst du den Zug oder das Fahrrad?",
-      "why": "The two coordinated objects fill the positions after the verb, and there is no non-finite element, so position III ends with the last alternative."
+      "english": "Our guests have already left.",
+      "german": "Unsere Gäste sind schon weg.",
+      "why": "Weg belongs to the predicate of weggehen and fills the final slot after the auxiliary ist, since the participle merges with the prefix ge-."
     },
     {
       "id": 40,
       "skill": "Position III: separable verbs and Perfekt",
-      "english": "Have you talked to her yet?",
-      "german": "Hast du mit ihr schon gesprochen?",
-      "why": "The prepositional object mit ihr and the short temporal schon share the middle field, and the participle gesprochen anchors the end of the verb bracket."
+      "english": "The parcel will be delivered tomorrow.",
+      "german": "Das Paket wird morgen zugestellt.",
+      "why": "The passive auxiliary wird occupies position II; the time adverbial morgen stays in the middle field and the participle zugestellt closes position III."
     },
     {
       "id": 41,
-      "skill": "Stance phrases in position I",
-      "english": "In my opinion I should apologise after all.",
-      "german": "Meines Erachtens sollte ich mich doch entschuldigen.",
-      "why": "The stance phrase meines Erachtens occupies position I, so the modal sollte goes to position II and the reflexive sich plus the infinitive entschuldigen fill the bracket."
+      "skill": "The Nachfeld",
+      "english": "The garden finally bloomed after the rain.",
+      "german": "Der Garten blühte endlich, nachdem es geregnet hatte.",
+      "why": "A whole subordinate clause occupies the Nachfeld; its finite verb had closes the sentence, because the Nachfeld has no verb field of its own."
     },
     {
       "id": 42,
       "skill": "The Nachfeld",
-      "english": "I spoke with my boss yesterday.",
-      "german": "Ich habe gestern mit meiner Chefin gesprochen.",
-      "why": "The Nachfeld is the optional slot after the verb bracket: gesprochen ends the sentence and the prepositional object mit meiner Chefin is the free element behind it."
+      "english": "We cancelled the appointment, as agreed.",
+      "german": "Wir haben, wie besprochen, den Termin abgesagt.",
+      "why": "The comment on the manner is inserted in the Nachfeld between the auxiliary and the object, so unlike a fronted comment it does not force inversion."
     },
     {
       "id": 43,
       "skill": "The Nachfeld",
-      "english": "We have to pay the bill before the end of the month.",
-      "german": "Wir müssen die Rechnung vor dem Monatsende bezahlen.",
-      "why": "Moving vor dem Monatsende behind the closing infinitive shows the Nachfeld at work: it belongs outside the bracket and carries the deadline."
+      "english": "I sent the report to my boss yesterday.",
+      "german": "Ich habe dem Chef gestern den Bericht geschickt.",
+      "why": "The dative recipient stays in the middle field while the short accusative object moves into the Nachfeld, leaving the separable prefix geschickt at the very end."
     },
     {
       "id": 44,
       "skill": "The Nachfeld",
-      "english": "The new colleague is joining us next month.",
-      "german": "Der neue Kollege kommt im nächsten Monat zu uns.",
-      "why": "The directional complement zu uns is the focus and therefore placed in the Nachfeld after the temporal phrase, which is also permitted but less marked."
+      "english": "Honestly, I have no appetite for this appointment at all.",
+      "german": "Ich habe, ehrlich gesagt, überhaupt keine Lust auf diesen Termin.",
+      "why": "The comment on the manner of speaking stands in the Nachfeld, inserted after the auxiliary habe, and the unstressed object stays at the very end."
     },
     {
       "id": 45,
       "skill": "The Nachfeld",
-      "english": "You should talk to the doctor about it.",
-      "german": "Du solltest mit dem Arzt darüber sprechen.",
-      "why": "The prepositional object mit dem Arzt follows the modal in the bracket, while the pronoun complement darüber is a typical Nachfeld element after the infinitive."
+      "english": "I haven't had a moment's peace since I signed the contract.",
+      "german": "Ich habe, seitdem ich den Vertrag unterschrieben habe, keine Ruhe mehr.",
+      "why": "A fronted temporal subordinate clause would force inversion, but placed in the Nachfeld after habe it simply supplements the clause."
     },
     {
       "id": 46,
       "skill": "The Nachfeld",
-      "english": "He got the message last night.",
-      "german": "Er hat die Nachricht gestern am Abend bekommen.",
-      "why": "Placing the time expression gestern am Abend behind bekommen is possible because that is exactly the function of the Nachfeld: extending and commenting on what is already said."
+      "english": "On Tuesday the board will decide about the budget.",
+      "german": "Der Vorstand entscheidet am Dienstag über das Budget.",
+      "why": "The prepositional object über plus its accusative goes into the Nachfeld, because a prepositional phrase normally closes the middle field."
     },
     {
       "id": 47,
       "skill": "The Nachfeld",
-      "english": "We are meeting behind the station.",
-      "german": "Wir treffen uns hinter dem Bahnhof.",
-      "why": "The place complement can be moved in front of the verb, but only in the Nachfeld does it follow the whole bracket and thus close the sentence."
+      "english": "We went to a bar after the concert, as planned.",
+      "german": "Wir gingen, wie geplant, nach dem Konzert in eine Bar.",
+      "why": "The inserted comment in the Nachfeld licenses the neutral order, in which nach dem Konzert precedes the directional complement in eine Bar."
     },
     {
       "id": 48,
       "skill": "The Nachfeld",
-      "english": "I waited for him for a long time.",
-      "german": "Ich habe lange auf ihn gewartet.",
-      "why": "Both den ganzen Tag and auf ihn sit inside the bracket; the Nachfeld after gewartet stays free for any further comment, which is what makes its position so flexible."
+      "english": "We received the report, and that already last week.",
+      "german": "Wir haben den Bericht bekommen, und zwar schon letzte Woche.",
+      "why": "An und zwar phrase can be added in the Nachfeld, which is why the sentence ends with an optional correction rather than with the verb field."
     },
     {
       "id": 49,
       "skill": "The Nachfeld",
-      "english": "Have you already read the report completely?",
-      "german": "Haben Sie den Bericht schon vollständig gelesen?",
-      "why": "The formal pronoun Sie in position II pushes den Bericht into position III, whereas schon and vollständig are manner and temporal elements that could also go to the Nachfeld."
+      "english": "We would get the bicycle for 1,200 euros.",
+      "german": "Das Fahrrad würden wir für 1.200 Euro bekommen.",
+      "why": "The prepositional phrase für 1.200 Euro sits behind the subject and the modal in the Nachfeld, giving the price the last word."
     },
     {
       "id": 50,
       "skill": "The Nachfeld",
-      "english": "My parents are coming to visit on Sunday.",
-      "german": "Meine Eltern kommen am Sonntag zu Besuch.",
-      "why": "The Nachfeld noun phrase zu Besuch is the semantically decisive part of the sentence and is placed after the closing element to end the statement."
+      "english": "We will not accept the offer that is already on the table.",
+      "german": "Das Angebot, das uns bereits vorliegt, nehmen wir nicht an.",
+      "why": "The relative clause is inserted in the Nachfeld after the fronted object, and the prefix of annehmen closes the verb field at the end."
     },
     {
       "id": 51,
       "skill": "The Nachfeld",
-      "english": "The lecture starts in five minutes.",
-      "german": "Die Vorlesung fängt in fünf Minuten an.",
-      "why": "The temporal phrase could occupy position I, but after the verb it belongs to the Nachfeld, and the separable prefix an closes the sentence."
+      "english": "She will finish her diploma's thesis next year.",
+      "german": "Sie wird ihre Diplomarbeit nächstes Jahr abschließen.",
+      "why": "The time expression could occupy the middle field; putting it in the Nachfeld lets the prefixed participle abschließen follow it."
     },
     {
       "id": 52,
       "skill": "The Nachfeld",
-      "english": "We rented a small flat in the summer.",
-      "german": "Wir haben im Sommer eine kleine Wohnung gemietet.",
-      "why": "Placing eine kleine Wohnung at the end of the middle field puts focus on the object, which is an alternative to moving it into the Nachfeld after gemietet."
+      "english": "After a long search we finally found a flat.",
+      "german": "Wir haben, nachdem wir lange gesucht haben, endlich eine Wohnung gefunden.",
+      "why": "The temporal subordinate clause in the Nachfeld expands what happened earlier, while the main clause keeps the usual word order."
     },
     {
       "id": 53,
       "skill": "The Nachfeld",
-      "english": "He was very pleased about the news.",
-      "german": "Er hat sich über die Nachricht sehr gefreut.",
-      "why": "The degree adverb sehr could close the sentence in the Nachfeld; here it stands inside the bracket and the position III is filled by the participle."
+      "english": "He went to the interview against everybody's advice.",
+      "german": "Er ist zum Vorstellungsgespräch gegangen, gegen den Rat aller Freunde.",
+      "why": "The prepositional phrase sits in the Nachfeld, so the separable prefix of the Perfekt participle can close the sentence directly."
     },
     {
       "id": 54,
       "skill": "The Nachfeld",
-      "english": "On Friday my brother is going to Leipzig.",
-      "german": "Am Freitag fährt mein Bruder nach Leipzig.",
-      "why": "The destination nach Leipzig closes the sentence as a Nachfeld element, which is the normal place for a directional complement with a motion verb."
+      "english": "For her birthday I will bake a cake, as always.",
+      "german": "Zu ihrem Geburtstag backe ich einen Kuchen, wie immer.",
+      "why": "The accusative object already fills the middle field, so the comment on the manner is placed in the Nachfeld after it."
     },
     {
       "id": 55,
       "skill": "The Nachfeld",
-      "english": "The children played in the garden all day.",
-      "german": "Die Kinder haben den ganzen Tag im Garten gespielt.",
-      "why": "A long adverbial such as den ganzen Tag pushes the other field element into the Nachfeld; here im Garten keeps the balanced bracket and gespielt ends the sentence."
+      "english": "Nothing has changed in the village since then, and that is fine.",
+      "german": "Seitdem hat sich im Dorf nichts geändert, und das ist auch gut so.",
+      "why": "A whole main clause supplements the first one in the Nachfeld; the first clause closes with its own perfect participle."
     },
     {
       "id": 56,
       "skill": "The Nachfeld",
-      "english": "We will cover the topic next semester.",
-      "german": "Wir werden das Thema im nächsten Semester behandeln.",
-      "why": "The subject of the modal clause stays behind the modal, and the temporal complement can be extended into the Nachfeld after the infinitive behandeln."
+      "english": "Instead of taking the bus, let's take the train.",
+      "german": "Statt mit dem Bus zu fahren, nehmen wir lieber den Zug.",
+      "why": "An infinitive clause introduced by statt … zu stands in the Nachfeld and ends the sentence, since it forms a bracket with the preposition statt."
     },
     {
       "id": 57,
       "skill": "The Nachfeld",
-      "english": "This motion still has to be discussed in the committee.",
-      "german": "Über diesen Antrag muss noch im Ausschuss gesprochen werden.",
-      "why": "In the passive the participle gesprochen werden always ends the sentence, and the prepositional phrase im Ausschuss is what the Nachfeld can carry before it."
+      "english": "Thanks to her advice we found the right address.",
+      "german": "Wir haben, dank ihrem Rat, die richtige Adresse gefunden.",
+      "why": "The two-part causal phrase dank ihrem Rat is inserted in the Nachfeld and does not disturb the order of the middle field."
     },
     {
       "id": 58,
       "skill": "The Nachfeld",
-      "english": "Have you already packed the toothbrush in the suitcase?",
-      "german": "Hast du die Zahnbürste schon in den Koffer gepackt?",
-      "why": "The Nachfeld is free for the prepositional object in den Koffer, but placing it there before the participle is equally correct because position III is closed by gepackt."
+      "english": "The meeting will take place on Friday, as planned.",
+      "german": "Das Treffen findet, wie geplant, am Freitag statt.",
+      "why": "A comment on the manner of the arrangement is placed in the Nachfeld after the finite verb; fronting it would instead invert the clause."
     },
     {
       "id": 59,
       "skill": "The Nachfeld",
-      "english": "Luckily nothing happened to anyone.",
-      "german": "Zum Glück ist niemandem etwas passiert.",
-      "why": "Zum Glück is a comment that can sit in the middle field like an extended attribute; between subject and predicate it makes the statement sound reflective."
+      "english": "In my view, she is far too self-confident.",
+      "german": "Sie ist, wie ich finde, viel zu selbstbewusst.",
+      "why": "The comment on the opinion is inserted in the Nachfeld after the copula ist, which keeps the normal subject-verb order intact."
     },
     {
       "id": 60,
       "skill": "The Nachfeld",
-      "english": "He was still standing at the station shortly before midnight.",
-      "german": "Er stand tatsächlich kurz vor Mitternacht noch am Bahnhof.",
-      "why": "The two long temporal phrases almost fill the middle field, so the place complement am Bahnhof is naturally pushed to the end, where the Nachfeld also allows it."
+      "english": "We are meeting at the main station, as agreed.",
+      "german": "Wir treffen uns, wie besprochen, am Hauptbahnhof.",
+      "why": "The Nachfeld holds the inserted comment wie besprochen, while the accusative of place remains the final element before the verb field closes."
     },
     {
       "id": 61,
-      "skill": "The Nachfeld",
-      "english": "She has been working at a Berlin clinic since last year.",
-      "german": "Seit letztem Jahr arbeitet sie in einer Berliner Klinik.",
-      "why": "The duration in position I allows present tense, and the place complement in einer Berliner Klinik closes the middle field after the subject."
+      "skill": "Stance phrases in position I",
+      "english": "In my view, we should take the road along the river.",
+      "german": "Meiner Meinung nach sollten wir den Flussweg nehmen.",
+      "why": "A comment on the opinion can stand in the Nachfeld or in the Mittelfeld, but in position I it licenses subject-verb inversion: sollten wir."
     },
     {
       "id": 62,
       "skill": "Stance phrases in position I",
-      "english": "In my opinion he has the advantage.",
-      "german": "Der Meinung nach ist er im Vorteil.",
-      "why": "A stance phrase behaves like a fronted adverbial, so the finite verb ist moves to position II and the subject er follows it."
+      "english": "In my opinion, the deadline is unrealistic.",
+      "german": "Meines Erachtens ist die Frist unrealistisch.",
+      "why": "A genitive comment on the opinion stands in position I; the linking verb ist follows in position II and die Frist comes after it."
     },
     {
       "id": 63,
       "skill": "Stance phrases in position I",
-      "english": "In my view we have to postpone the project.",
-      "german": "Meines Erachtens müssen wir das Projekt verschieben.",
-      "why": "The genitive phrase meines Erachtens fills position I and the modal müssen is promoted to position II, with wir as the subject of the following field."
+      "english": "As I see it, we have no alternative.",
+      "german": "Meiner Ansicht nach haben wir keine Alternative.",
+      "why": "A comment on the opinion built on a dative base takes position I, the auxiliary haben forms position II with wir behind it."
     },
     {
       "id": 64,
       "skill": "Stance phrases in position I",
-      "english": "In my view the task is too difficult.",
-      "german": "Meiner Ansicht nach ist die Aufgabe zu schwer.",
-      "why": "Unlike a subordinate clause, the phrase meiner Ansicht nach stays in the main clause and triggers inversion: ist in II, die Aufgabe in III."
+      "english": "For me, that is a complete waste of time.",
+      "german": "Für mich ist das eine reine Zeitverschwendung.",
+      "why": "Für mich is a comment on the speaker's standpoint; it is followed by the copula ist, and the nominative complement completes the sentence."
     },
     {
       "id": 65,
       "skill": "Stance phrases in position I",
-      "english": "In my opinion the railway should run more often.",
-      "german": "Meiner Meinung nach sollte die Bahn häufiger fahren.",
-      "why": "A stance phrase in position I places the modal sollte second and leaves the infinitive fahren, together with the comparative, in the closing positions."
+      "english": "Frankly, the project is not worth the money.",
+      "german": "Offen gesagt bringt das Projekt sein Geld nicht wert.",
+      "why": "A comment on the manner of speaking stands in position I; the main clause then follows with its normal subject-verb order."
     },
     {
       "id": 66,
       "skill": "Stance phrases in position I",
-      "english": "I have a feeling he will be late.",
-      "german": "Meinem Gefühl nach kommt er zu spät.",
-      "why": "The dative stance phrase meinem Gefühl nach is field I; the verb kommt follows in II and the subject er is inserted after it."
+      "english": "To be honest, I forgot about it completely.",
+      "german": "Ehrlich gesagt habe ich es völlig vergessen.",
+      "why": "The comment on the manner of speaking occupies position I, and the perfect auxiliary habe has to follow it in position II."
     },
     {
       "id": 67,
       "skill": "Stance phrases in position I",
-      "english": "I am convinced that we lack the time.",
-      "german": "Meiner Überzeugung nach fehlt uns die Zeit.",
-      "why": "Here the fronted stance phrase explains why the following clause sounds subjective: fehlt occupies position II and the subject comes after the verb, not before it."
+      "english": "Naturally, nobody wants to admit the mistake.",
+      "german": "Natürlich will niemand den Fehler zugeben.",
+      "why": "The comment stands in position I and the modal will fills position II, with the subject niemand behind it."
     },
     {
       "id": 68,
       "skill": "Stance phrases in position I",
-      "english": "In my opinion the company has too few trains.",
-      "german": "Der Meinung nach hat der Betrieb zu wenige Züge.",
-      "why": "The negated quantifier zu wenige is part of the middle field, while position I is taken by the stance phrase and position II by hat."
+      "english": "In other words, the plan is not realistic.",
+      "german": "Mit anderen Worten: Der Plan ist nicht realistisch.",
+      "why": "The comment opens the sentence like a demonstrative, so the following main clause keeps the regular order Der Plan ist."
     },
     {
       "id": 69,
       "skill": "Stance phrases in position I",
-      "english": "In my opinion one should rewrite the rule.",
-      "german": "Meines Erachtens hat man die Regel neu schreiben.",
-      "why": "With the Perfekt of a modal verb the modal-like auxiliary hat takes position II, the impersonal man follows, and the participle schreiben seals position III."
+      "english": "As a consequence, the deadline was extended.",
+      "german": "Demzufolge wurde die Frist verlängert.",
+      "why": "A comment on the consequence can be fronted, and the passive auxiliary wurde in position II follows it directly."
     },
     {
       "id": 70,
       "skill": "Stance phrases in position I",
-      "english": "In my view the sender was a bot.",
-      "german": "Meiner Ansicht nach war der Absender ein Bot.",
-      "why": "Position I is the stance phrase, position II the copula war, and the two nominal components follow as subject and predicative complement."
+      "english": "In my opinion, the price is still too high.",
+      "german": "Meiner Ansicht nach ist der Preis immer noch zu hoch.",
+      "why": "The dative comment occupies position I; ist in position II is followed by the nominative subject, not by the comment itself."
     },
     {
       "id": 71,
       "skill": "Stance phrases in position I",
-      "english": "In my view one should have acted earlier.",
-      "german": "Meiner Ansicht nach hätte man früher eingreifen müssen.",
-      "why": "The Konjunktiv II auxiliary hätte goes to position II, the modal infinitive must form the end of the bracket, and the participle eingreifen sits just before it."
+      "english": "All things considered, the offer is not bad at all.",
+      "german": "Alles in allem ist das Angebot gar nicht schlecht.",
+      "why": "A comment on the whole set of aspects is fronted into position I and pushes the copula ist to position II."
     },
     {
       "id": 72,
       "skill": "Stance phrases in position I",
-      "english": "In my opinion the order arrives too late.",
-      "german": "Der Meinung nach kommt die Bestellung zu spät.",
-      "why": "A stance phrase in first position never blocks inversion: kommt is the finite verb in II, the subject die Bestellung follows and zu spät closes the sentence."
+      "english": "I am convinced that the project was worthwhile.",
+      "german": "Meiner Überzeugung nach hat sich das Projekt gelohnt.",
+      "why": "A comment on a conviction uses the dative, and the perfect auxiliary hat forms position II before the reflexive sich."
     },
     {
       "id": 73,
       "skill": "Stance phrases in position I",
-      "english": "I have a feeling you spelled the name wrong.",
-      "german": "Meinem Gefühl nach hast du den Namen falsch geschrieben.",
-      "why": "The dative phrase occupies field I, so the Perfekt auxiliary hast appears in II and the participle geschrieben ends the bracket in III."
+      "english": "If you ask me, the whole thing was a mistake.",
+      "german": "Wenn Sie mich fragen, war die ganze Sache ein Fehler.",
+      "why": "The comment on a person asked is a conditional clause, and a fronted wenn-clause in position I forces inversion: war die ganze Sache ein Fehler."
     },
     {
       "id": 74,
       "skill": "Stance phrases in position I",
-      "english": "I am convinced the invoice is not correct.",
-      "german": "Meiner Überzeugung nach stimmt die Rechnung nicht.",
-      "why": "Again the stance phrase signals that what follows is an opinion, and it still obeys the bracket rule with stimmt in II and the negation in III."
+      "english": "Obviously, the results speak for themselves.",
+      "german": "Offensichtlich sprechen die Ergebnisse für sich.",
+      "why": "A comment on how obvious something is is fronted; the main clause then begins with its subject and verb sprechen."
     },
     {
       "id": 75,
       "skill": "Stance phrases in position I",
-      "english": "In my opinion that is not a good solution.",
-      "german": "Meiner Meinung nach ist das keine gute Lösung.",
-      "why": "After the fronted phrase the copula ist is the finite verb, das becomes the subject, and keine gute Lösung completes the sentence."
+      "english": "From my experience, such plans rarely work out.",
+      "german": "Nach meiner Erfahrung bringen solche Pläne selten etwas.",
+      "why": "The comment on experience is a prepositional phrase with the dative; fronted, it is followed by the finite verb bringen."
     },
     {
       "id": 76,
       "skill": "Stance phrases in position I",
-      "english": "In my view the preliminary phase took too long.",
-      "german": "Meines Erachtens hat der Vorlauf zu lange gedauert.",
-      "why": "The stance phrase pushes the Perfekt auxiliary hat to position II, and the separable prefix of the participle returns to the end of the bracket as gedauert."
+      "english": "In my assessment, the deadline was badly calculated.",
+      "german": "Nach meiner Einschätzung war die Frist viel zu knapp bemessen.",
+      "why": "A comment on the assessment is fronted into position I, so the finite verb war enters position II ahead of the subject."
     },
     {
       "id": 77,
       "skill": "Stance phrases in position I",
-      "english": "In my view the appointment could be postponed.",
-      "german": "Meiner Ansicht nach könnte man den Termin verschieben.",
-      "why": "The Konjunktiv II modal könnte in position II marks the hypothetical, and the object den Termin plus the separable verb verschieben fill the rest of the bracket."
+      "english": "By my reading, the treaty was signed in 1998.",
+      "german": "Meines Erachtens wurde der Vertrag 1998 unterzeichnet.",
+      "why": "A genitive comment on the opinion occupies position I; the passive auxiliary wurde takes position II, with the subject after it."
     },
     {
       "id": 78,
       "skill": "Stance phrases in position I",
-      "english": "In my opinion we have to change the law.",
-      "german": "Der Meinung nach müssen wir das Gesetz ändern.",
-      "why": "A stance phrase does not create a subordinate clause, so müssen takes position II directly and the infinitive ändern goes to the end."
+      "english": "Basically, that is a decision against the project.",
+      "german": "Im Grunde ist das eine Entscheidung gegen das Projekt.",
+      "why": "A comment on the way something is done stands in position I; the linking verb ist in position II is followed by the nominative complement."
     },
     {
       "id": 79,
       "skill": "Stance phrases in position I",
-      "english": "According to the rumour the company is selling its site.",
-      "german": "Dem Gerücht nach verkauft die Firma ihren Standort.",
-      "why": "The dative source phrase dem Gerücht nach is a free position I element, and verkauft as the finite verb is then followed by the subject die Firma."
+      "english": "It seems that everything points in the same direction.",
+      "german": "Es scheint, dass alles in dieselbe Richtung zeigt.",
+      "why": "The comment Es scheint, dass opens the clause like a demonstrative, so the subordinate clause behind it keeps its own field structure."
     },
     {
       "id": 80,
       "skill": "Stance phrases in position I",
-      "english": "In my opinion the preliminary meeting was a waste of time.",
-      "german": "Meiner Meinung nach war die Vorbereitung eine Zeitverschwendung.",
-      "why": "Here the stance phrase in field I makes the copula war the second position, and the two nominative-style components follow in subject-predicate order."
+      "english": "Quite frankly, that would be a mistake.",
+      "german": "Ganz ehrlich gesagt wäre das ein Fehler.",
+      "why": "A comment on the manner of speaking stands in position I, the Konjunktiv II wäre in position II, and das completes the bracket."
     },
     {
       "id": 81,
       "skill": "je ... desto with inversion",
-      "english": "The more one practises, the more confident one becomes.",
-      "german": "Je mehr man übt, desto sicherer wird man.",
-      "why": "The je-clause keeps normal order, but the second half is a main clause and therefore needs inversion: wird in II and man in III."
+      "english": "The more you practise, the more fluent you become.",
+      "german": "Je mehr du übst, desto sicherer wirst du.",
+      "why": "The je-clause stands in position I with its verb übst; after desto the main clause must invert to wirst du, not du wirst."
     },
     {
       "id": 82,
       "skill": "je ... desto with inversion",
-      "english": "The later you start, the more stress you get.",
-      "german": "Je später man anfängt, desto mehr Stress bekommt man.",
-      "why": "The comparison must start with je; after the comma the second half inverts to bekommt man, and the two halves may not be swapped."
+      "english": "The longer the seminar lasts, the more expensive it becomes.",
+      "german": "Je länger das Seminar dauert, desto teurer wird es.",
+      "why": "The comparative je-clause fills position I, and the second half inverts so that the verb wird comes before the subject es."
     },
     {
       "id": 83,
       "skill": "je ... desto with inversion",
-      "english": "The longer you wait, the more expensive the ticket becomes.",
-      "german": "Je länger man wartet, desto teurer wird das Ticket.",
-      "why": "The comparative destination desto teurer introduces an ordinary main clause, so wird takes position II and das Ticket follows it."
+      "english": "The more we practise, the fewer mistakes we make.",
+      "german": "Je mehr wir üben, desto weniger Fehler machen wir.",
+      "why": "A negated comparative in the second half; the inversion after desto places machen, the finite verb, in front of wir."
     },
     {
       "id": 84,
       "skill": "je ... desto with inversion",
-      "english": "The faster we drive, the earlier we arrive.",
-      "german": "Je schneller wir fahren, desto früher kommen wir an.",
-      "why": "The subject wir is repeated in both halves, and only the second half needs the inverted verb pair kommen wir, with an detaching to the end."
+      "english": "The earlier you book, the cheaper it will be.",
+      "german": "Je früher du buchst, desto billiger wird es.",
+      "why": "The je-clause carries the finite verb buchst in position I, and the second clause with desto inverts to wird es."
     },
     {
       "id": 85,
       "skill": "je ... desto with inversion",
-      "english": "The less you plan, the more problems there are.",
-      "german": "Je weniger man plant, desto mehr Probleme entstehen.",
-      "why": "The result clause entstehen follows the comparative normally; the point of the item is that no subject-verb inversion like Probleme entstehen is possible in German."
+      "english": "The harder she tried, the more she learned.",
+      "german": "Je mehr sie sich anstrengte, desto mehr lernte sie.",
+      "why": "A verb with a reflexive pronoun in position I; the second half after desto again puts the finite verb lernte before its subject."
     },
     {
       "id": 86,
       "skill": "je ... desto with inversion",
-      "english": "The more precisely you calculate, the smaller the difference becomes.",
-      "german": "Je genauer man rechnet, desto kleiner wird die Differenz.",
-      "why": "The second half must be a main clause with the verb in position II, so wird comes directly after desto kleiner and not after die Differenz."
+      "english": "The colder it gets, the more firewood we need.",
+      "german": "Je kälter es wird, desto mehr Holz brauchen wir.",
+      "why": "The subject es in the je-clause comes after the comparative; the second half inverts to brauchen wir."
     },
     {
       "id": 87,
       "skill": "je ... desto with inversion",
-      "english": "The more often you repeat the words, the better they stick.",
-      "german": "Je öfter man die Wörter wiederholt, desto besser bleiben sie hängen.",
-      "why": "The second clause inverts to bleiben sie, and the separable verb hängen detaches to the very end as position III."
+      "english": "The more time you have, the better you can prepare.",
+      "german": "Je mehr Zeit du hast, desto besser kannst du dich vorbereiten.",
+      "why": "The modal verb in position II of the je-clause is kannst; after desto the second main clause inverts to kannst du."
     },
     {
       "id": 88,
       "skill": "je ... desto with inversion",
-      "english": "The better you prepare, the more calmly the talk goes.",
-      "german": "Je besser man sich vorbereitet, desto ruhiger läuft der Vortrag.",
-      "why": "The first half contains the reflexive pronoun in the middle field, the second half inverts the verb läuft in front of its subject der Vortrag."
+      "english": "The later you go to sleep, the harder it is to get up.",
+      "german": "Je später du zu Bett gehst, desto schwerer fällt dir das Aufstehen.",
+      "why": "The separable prefix ge- of gehen moves to position III; the second half inverts to fällt dir das Aufstehen."
     },
     {
       "id": 89,
       "skill": "je ... desto with inversion",
-      "english": "The more details you give, the clearer the matter becomes.",
-      "german": "Je mehr Details man nennt, desto klarer wird die Sache.",
-      "why": "The genitive detail in the first half stays in its position, whereas the result clause uses wird in position II followed by its subject."
+      "english": "The more people join, the better the event will be.",
+      "german": "Je mehr Leute mitmachen, desto besser wird die Veranstaltung.",
+      "why": "A prefix verb mitmachen keeps its prefix in position I; the second half inverts to wird die Veranstaltung."
     },
     {
       "id": 90,
       "skill": "je ... desto with inversion",
-      "english": "The more expensive the flat is, the harder financing becomes.",
-      "german": "Je teurer die Wohnung ist, desto schwerer wird die Finanzierung.",
-      "why": "Both halves are main clauses, so the second one inverts to wird die Finanzierung; the comparative word order je then desto is obligatory."
+      "english": "The deeper the roots, the more stable the tree.",
+      "german": "Je tiefer die Wurzeln reichen, desto standfester wird der Baum.",
+      "why": "The je-clause with a final verb reichen is the first member of the comparison; the second member must invert to wird der Baum."
     },
     {
       "id": 91,
       "skill": "je ... desto with inversion",
-      "english": "The more precisely you plan, the better it goes.",
-      "german": "Je genauer man plant, umso besser klappt es.",
-      "why": "With umso the second half still needs inversion, so klappt comes before the impersonal es instead of after it."
+      "english": "The less you plan, the more chaos you will cause.",
+      "german": "Je weniger du planst, desto mehr Chaos verursachst du.",
+      "why": "The je-clause in position I with verb planst; the second half inverts to verursachst du, not du verursachst."
     },
     {
       "id": 92,
       "skill": "je ... desto with inversion",
-      "english": "The harder you train, the greater your endurance.",
-      "german": "Je härter man trainiert, desto größer wird die Ausdauer.",
-      "why": "The inversion in the second half is what makes it a main clause, and the subject die Ausdauer must stand behind the verb wird."
+      "english": "The faster you read, the less you remember.",
+      "german": "Je schneller du liest, desto weniger erinnerst du dich.",
+      "why": "A reflexive pronoun in the second half: the inversion places the finite verb erinnerst before the subject du, and the dative sich follows."
     },
     {
       "id": 93,
       "skill": "je ... desto with inversion",
-      "english": "The longer delivery takes, the more dissatisfied the customers are.",
-      "german": "Je länger die Lieferung dauert, desto unzufriedener sind die Kunden.",
-      "why": "The result clause inverts to sind die Kunden, and the comparative unzufriedener comes before the verb because it is part of the predicative position."
+      "english": "The more one travels, the less one fears the unknown.",
+      "german": "Je mehr man reist, desto weniger fürchtet man das Unbekannte.",
+      "why": "The impersonal man is a subject and stays in position II; the second half inverts to fürchtet man."
     },
     {
       "id": 94,
       "skill": "je ... desto with inversion",
-      "english": "The sooner you set off, the sooner you arrive.",
-      "german": "Je eher du losgehst, desto eher kommst du an.",
-      "why": "The second clause is again a main clause, so kommst du is inverted and the separable prefix an closes the sentence in position III."
+      "english": "The longer you wait, the more you lose.",
+      "german": "Je länger man wartet, desto mehr verliert man.",
+      "why": "A parallel je-clause with man as subject; the verb in position I is wartet, and after desto the main clause inverts to verliert man."
     },
     {
       "id": 95,
       "skill": "je ... desto with inversion",
-      "english": "The more we try, the better the result becomes.",
-      "german": "Je mehr wir uns bemühen, desto besser wird das Ergebnis.",
-      "why": "The reflexive sich in the first half must not be confused with the subject order in the second, where wird precedes das Ergebnis."
+      "english": "The more you know, the fewer questions you ask.",
+      "german": "Je mehr du weißt, desto weniger fragst du.",
+      "why": "The second comparative is negated; the inversion after desto gives fragst du, which also happens to end in -st."
     },
     {
       "id": 96,
       "skill": "je ... desto with inversion",
-      "english": "The more you study, the less you forget.",
-      "german": "Je mehr man lernt, desto weniger vergisst man.",
-      "why": "The result clause inverts to vergisst man, and the negating prefix ver- plus the participle vergisst stay together at the end of the bracket."
+      "english": "The earlier you start, the more buffer you have.",
+      "german": "Je früher du anfängst, desto mehr Puffer hast du.",
+      "why": "The prefix an- of anfangen separates in position I, where only the finite verb fängst appears; the second half inverts to hast du."
     },
     {
       "id": 97,
       "skill": "je ... desto with inversion",
-      "english": "The higher the price, the greater the benefit.",
-      "german": "Je höher der Preis ist, desto größer ist der Nutzen.",
-      "why": "The second half is a full main clause, so ist occupies position II and the subject der Nutzen must follow it, never stand in front of it."
+      "english": "The more we cut corners, the more errors appear.",
+      "german": "Je mehr wir abkürzen, desto mehr Fehler entstehen.",
+      "why": "The je-clause with abkürzen in position I; the second half inverts to entstehen, with Fehler as its subject."
     },
     {
       "id": 98,
       "skill": "je ... desto with inversion",
-      "english": "The later summer gets, the earlier the sun sets.",
-      "german": "Je später der Sommer wird, desto früher geht die Sonne unter.",
-      "why": "The inversion pattern geht die Sonne in the second half shows that this is a main clause, and the separable prefix unter detaches to position III."
+      "english": "The greater the effort, the greater the reward.",
+      "german": "Je größer der Aufwand ist, desto größer der Erfolg.",
+      "why": "The main clause in the second half leaves out the auxiliary entirely, so ist is the only finite verb and der Erfolg follows it."
     },
     {
       "id": 99,
       "skill": "je ... desto with inversion",
-      "english": "The more rehearsals we do, the more confident the performance.",
-      "german": "Je mehr Proben wir machen, desto sicherer wird die Aufführung.",
-      "why": "The second half could be completed by a verb, and once wird is inserted the subject die Aufführung has to follow it, never precede it."
+      "english": "The more you train, the better you play.",
+      "german": "Je mehr du trainierst, desto besser spielst du.",
+      "why": "Both halves carry a finite verb of their own; the second one inverts to spielst du, which is the reverse of du spielst."
     },
     {
       "id": 100,
       "skill": "je ... desto with inversion",
-      "english": "The more carefully you work, the fewer mistakes you make.",
-      "german": "Je sorgfältiger man arbeitet, desto weniger Fehler entstehen.",
-      "why": "German never allows Fehler entstehen in the second half; the inversion entstehen Fehler with fewer as the subject is what the item tests."
+      "english": "The more generously she donates, the more she is thanked.",
+      "german": "Je großzügiger sie spendet, desto mehr wird ihr gedankt.",
+      "why": "The passive in the second half is inverted into position II: wird ihr gedankt, with the dative object and the participle behind it."
     }
   ]
 }
