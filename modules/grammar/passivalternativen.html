@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Passive alternatives and the agentless passive — Die Passivalternativen | Deutsch Lernen</title>
+<style>
+:root{
+  --font:"Segoe UI",system-ui,-apple-system,sans-serif;
+  --teal-900:#005A5A; --teal-700:#008282; --teal-400:#50C1C1; --teal-100:#95DFDB;
+  --amber:#E1A01E; --red:#C41E3A; --green:#1D7A4C;
+  --ink:#012D2C; --muted:#008282;
+  --page:#F0FAFA; --card:#FFF; --in:#F0FAFA; --border:#D0ECEB;
+  --shadow:0 1px 4px rgba(1,45,44,.10); --shadow-md:0 4px 14px rgba(1,45,44,.12);
+  --r:8px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font);font-size:16px;color:var(--teal-900);background:var(--page);
+  line-height:1.65;-webkit-font-smoothing:antialiased;
+  display:flex;flex-direction:column;min-height:100vh}
+
+.navbar{display:flex;align-items:center;gap:12px;height:48px;padding:0 14px;
+  background:var(--teal-900);border-bottom:1px solid rgba(149,223,219,.15);
+  position:sticky;top:0;z-index:100;flex-shrink:0}
+.brand-icon{display:flex;align-items:center;flex-shrink:0}
+.nav-pipe{width:1px;height:16px;background:rgba(149,223,219,.30);flex-shrink:0;margin:0 12px}
+.nav-brand-text{font-size:.95rem;font-weight:600;color:var(--teal-100);text-decoration:none;white-space:nowrap}
+.nav-actions{margin-left:auto;display:flex;align-items:center;gap:8px}
+.icon-btn{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;padding:0;
+  color:var(--teal-100);background:rgba(149,223,219,.12);border:1px solid rgba(149,223,219,.22);
+  border-radius:4px;cursor:pointer;transition:130ms;text-decoration:none;flex-shrink:0}
+.icon-btn:hover{background:rgba(149,223,219,.24);border-color:rgba(149,223,219,.45)}
+.btn-nav{display:inline-flex;align-items:center;justify-content:center;height:32px;padding:0 12px;
+  font-size:.78rem;font-weight:600;font-family:var(--font);color:var(--teal-100);text-decoration:none;
+  background:rgba(149,223,219,.12);border:1px solid rgba(149,223,219,.22);border-radius:4px;
+  transition:130ms;white-space:nowrap;flex-shrink:0}
+.btn-nav:hover{background:rgba(149,223,219,.24);border-color:rgba(149,223,219,.45)}
+@media (max-width:400px){.btn-nav{padding:0 9px;font-size:.74px;font-size:.74rem}}
+.icon-btn svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:2;
+  stroke-linecap:round;stroke-linejoin:round}
+@media (max-width:560px){.nav-brand-text{font-size:.85rem}}
+
+.wrap{max-width:860px;width:100%;margin:0 auto;padding:20px 16px 0;flex:1 0 auto}
+
+h1{font-size:1.5rem;line-height:1.3;margin:0 0 4px}
+h1 .de{display:block;font-size:1rem;color:var(--teal-700);font-weight:600;margin-top:2px}
+
+section{margin-bottom:30px}
+h2{font-size:1.05rem;margin-bottom:10px;padding-bottom:6px;border-bottom:2px solid var(--teal-400)}
+h3{font-size:.85rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;
+  color:var(--teal-700);margin:16px 0 8px}
+p{margin-bottom:10px}
+.lead{color:var(--ink)}
+small{color:var(--muted)}
+
+.rulebox{background:var(--in);border:1px solid var(--border);border-left:4px solid var(--teal-400);
+  border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.rulebox strong{color:var(--teal-700)}
+.warnbox{background:rgba(196,30,58,.05);border:1px solid rgba(196,30,58,.25);
+  border-left:4px solid var(--red);border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.warnbox strong{color:var(--red)}
+.tipbox{background:rgba(29,122,76,.06);border:1px solid rgba(29,122,76,.22);
+  border-left:4px solid var(--green);border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.tipbox strong{color:var(--green)}
+
+table{width:100%;border-collapse:collapse;margin:12px 0;font-size:.88rem;
+  table-layout:fixed}
+th,td{overflow-wrap:anywhere;word-break:normal;hyphens:auto}
+th,td{text-align:left;padding:7px 9px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--in);font-weight:700;font-size:.76rem;text-transform:uppercase;
+  letter-spacing:.04em;color:var(--teal-700)}
+td.de{color:var(--ink)}
+tr:last-child td{border-bottom:none}
+
+.mic{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;
+  padding:0;flex-shrink:0;vertical-align:middle;border-radius:50%;cursor:pointer;
+  color:var(--teal-700);background:rgba(80,193,193,.16);border:1px solid rgba(80,193,193,.45);
+  transition:130ms}
+.mic:hover{background:rgba(80,193,193,.34)}
+.mic:focus-visible{outline:2px solid var(--teal-700);outline-offset:2px}
+.mic svg{width:13px;height:13px;fill:none;stroke:currentColor;stroke-width:2;
+  stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.mic[aria-pressed="true"]{background:var(--teal-700);color:#fff;border-color:var(--teal-700)}
+.mic[aria-pressed="true"] .pulse{animation:pulse 1s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+.mic[disabled]{opacity:.45;cursor:not-allowed}
+.microw{display:flex;align-items:flex-start;gap:8px}
+.microw > .mtext{flex:1;min-width:0}
+.ex{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:12px 13px;
+  margin-bottom:9px;box-shadow:var(--shadow)}
+.ex .de{font-size:.98rem;color:var(--ink);margin-bottom:4px}
+.ex .de em{color:var(--teal-700);font-style:normal;font-weight:700;background:rgba(80,193,193,.20);
+  padding:0 3px;border-radius:2px}
+.ex .en{font-size:.84rem;color:var(--muted)}
+.ex .why{font-size:.82rem;color:var(--teal-700);margin-top:6px;padding-top:6px;
+  border-top:1px dotted var(--border)}
+.ex .why b{font-weight:700}
+
+/* ── EXERCISES ── */
+.btn{font-family:var(--font);font-size:.78rem;font-weight:600;cursor:pointer;
+  padding:6px 12px;border-radius:4px;border:1px solid var(--teal-400);
+  background:rgba(80,193,193,.14);color:var(--teal-700);transition:130ms;white-space:nowrap}
+.btn:hover{background:rgba(80,193,193,.28)}
+.btn.ghost{background:transparent;border-color:var(--border);color:var(--muted)}
+.btn.ghost:hover{border-color:var(--teal-400);color:var(--teal-700)}
+.noVoice{display:none;align-items:flex-start;gap:8px;margin-bottom:12px;padding:9px 12px;
+  background:rgba(225,160,30,.12);border:1px solid rgba(225,160,30,.4);border-radius:var(--r);
+  font-size:.83rem;color:#7A5000}
+.noVoice b{color:#7A5000}
+
+.q{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:12px 13px;
+  margin-bottom:10px;box-shadow:var(--shadow)}
+.q.revealed{border-color:var(--teal-400)}
+.q.correct{border-color:rgba(29,122,76,.5);background:rgba(29,122,76,.04)}
+.q.wrong{border-color:rgba(196,30,58,.45);background:rgba(196,30,58,.03)}
+.qtop{display:flex;gap:9px;align-items:flex-start;margin-bottom:9px}
+.qnum{flex-shrink:0;width:23px;height:23px;border-radius:50%;background:rgba(0,130,130,.10);
+  color:var(--teal-7);color:var(--teal-700);font-size:.7rem;font-weight:700;display:flex;
+  align-items:center;justify-content:center;margin-top:1px}
+.q.correct .qnum{background:rgba(29,122,76,.16);color:var(--green)}
+.q.wrong .qnum{background:rgba(196,30,58,.14);color:var(--red)}
+.inputrow{display:flex;align-items:stretch;gap:6px;position:relative}
+.ainput{flex:1;min-width:0;font-family:var(--font);font-size:.92rem;color:var(--ink);
+  background:var(--in);border:1px solid var(--border);border-radius:5px;padding:8px 32px 8px 11px;transition:130ms}
+.ainput:focus{outline:none;border-color:var(--teal-400);background:#fff;box-shadow:0 0 0 3px rgba(80,193,193,.16)}
+/* small keyboard icon, vertically centred at the right edge of the field */
+.keybtn{flex-shrink:0;width:28px;align-self:stretch;display:inline-flex;align-items:center;
+  justify-content:center;padding:0;cursor:pointer;border-radius:5px;
+  color:var(--teal-700);background:rgba(80,193,193,.16);border:1px solid rgba(80,193,193,.45);
+  transition:130ms}
+.keybtn:hover{background:rgba(80,193,193,.32)}
+.keybtn:focus-visible{outline:2px solid var(--teal-700);outline-offset:2px}
+.keybtn svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:1.7;
+  stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.keybtn[aria-expanded="true"]{background:var(--teal-700);color:#fff;border-color:var(--teal-700)}
+/* letter panel lives inside the card so no ancestor can clip it */
+.pad{display:none;flex-wrap:wrap;gap:5px;margin-top:7px;padding:8px;
+  background:var(--in);border:1px solid var(--border);border-radius:5px}
+.pad.open{display:flex}
+.padkey{font-family:var(--font);font-size:.92rem;font-weight:600;color:var(--teal-900);
+  background:var(--card);border:1px solid var(--border);border-radius:4px;
+  min-width:34px;height:32px;cursor:pointer;transition:130ms}
+.padkey:hover{background:var(--teal-400);border-color:var(--teal-400)}
+.padkey:focus-visible{outline:2px solid var(--teal-700);outline-offset:1px}
+.btn.rev{margin-top:8px}
+.btn.rev.on{background:rgba(0,90,90,.10);border-color:var(--teal-700)}
+.ansrow{margin:6px 0;padding:7px 9px;background:rgba(80,193,193,.09);border-radius:5px}
+.ansrow .mtext{font-size:.93rem}
+.qtext{font-size:.95rem;color:var(--ink);margin-bottom:9px;flex:1;min-width:0}
+
+.fb{margin-top:9px;padding-top:9px;border-top:1px dotted var(--border);font-size:.85rem}
+.fb .ans{font-weight:600;color:var(--teal-700);margin-bottom:4px}
+.fb .why{color:var(--muted)}
+
+details.fold{margin-bottom:9px;border:1px solid var(--border);border-radius:6px;background:var(--card)}
+details.fold > summary{padding:9px 12px;font-weight:600;font-size:.88rem;cursor:pointer;
+  color:var(--teal-900);list-style:none}
+details.fold > summary::-webkit-details-marker{display:none}
+details.fold > summary::before{content:"▸";color:var(--teal-700);transition:transform .15s;
+  display:inline-block;margin-right:5px}
+details.fold[open] > summary::before{transform:rotate(90deg)}
+details.fold .foldbody{padding:0 12px 11px;border-top:1px solid var(--border);padding-top:9px;
+  font-size:.9rem}
+
+.footer{position:sticky;bottom:0;z-index:50;width:100%;max-width:var(--wrapw,860px);
+  margin-inline:auto;border-top:1px solid var(--border);padding:10px 16px;background:var(--page);
+  display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:.78rem;color:var(--muted)}
+.footer strong{color:var(--teal-700)}
+.footer-dot{margin:0 10px;color:var(--border)}
+
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+  <a class="brand-icon" href="../../" aria-label="Deutsch Lernen home">
+    <svg width="24" height="17" viewBox="0 0 31 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0"  y="0"  width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="0"  width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="0"  width="9" height="6" rx="1.5" fill="#008282"/>
+      <rect x="0"  y="8"  width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="8"  width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="8"  width="9" height="6" rx="1.5" fill="#008282"/>
+      <rect x="0"  y="16" width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="16" width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="16" width="9" height="6" rx="1.5" fill="#E1A01E"/>
+    </svg>
+  </a>
+  <div class="nav-pipe"></div>
+  <a class="nav-brand-text" href="index.html">Grammar</a>
+  <div class="nav-actions">
+    <a class="btn-nav" href="index.html" title="All grammar topics">All topics</a>
+    <a class="icon-btn" href="../../" title="Back to all modules" aria-label="Back to all modules">
+      <svg viewBox="0 0 24 24"><path d="M3 12l9-9 9 9"></path><path d="M5 10v10h14V10"></path></svg>
+    </a>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <h1>Passive alternatives and the agentless passive<span class="de">Die Passivalternativen</span></h1>
+  
+  <!-- ══ 1. CONCEPT ══ -->
+  <section>
+    <h2>1 · The concept</h2>
+
+    <p class="lead">German has more ways of saying <em>somebody does something</em> than the
+      <strong>Vorgangspassiv</strong>. At B2 level you are expected to choose the
+      construction that fits the <em>speaker's point of view</em>: the process, the
+      result, the recipient, or the impersonal event. All of the constructions below are
+      built on one grammatical idea &mdash; <strong>the person or thing doing the
+      action is not the grammatical subject</strong>.</p>
+
+    <div class="rulebox">
+      <strong>The rule in one line.</strong> Whenever the doer is unimportant, unknown or
+      obvious, German demotes it: the <em>patient</em> takes the subject slot, and the doer
+      either disappears completely or is added back at the end as <em>von</em> + dative.
+    </div>
+
+    <h3>The six constructions at a glance</h3>
+    <table>
+      <thead><tr><th>Construction</th><th>Pattern</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">Vorgangspassiv</td><td class="de">wird / wurde + PII (+ von + Dat.)</td>
+            <td>Der Brief <b>wurde</b> gestern <b>geschrieben</b>.</td></tr>
+        <tr><td class="de">Zustandspassiv</td><td class="de">sein + PII</td>
+            <td>Der Brief ist <b>geschrieben</b>.</td></tr>
+        <tr><td class="de">sich lassen + Inf.</td><td class="de">l&auml;sst sich + Inf. (no <em>zu</em>)</td>
+            <td>Der Brief <b>l&auml;sst sich</b> schnell <b>schreiben</b>.</td></tr>
+        <tr><td class="de">sich lassen + zu</td><td class="de">l&auml;sst sich + zu + Inf. (few verbs only)</td>
+            <td>Das <b>ist nicht zu verantworten</b> &mdash; <em>das l&auml;sst sich nicht verantworten</em></td></tr>
+        <tr><td class="de">bekommen + PII</td><td class="de">hat + PII of a transfer verb</td>
+            <td>Ich <b>habe</b> den Brief <b>bekommen</b>.</td></tr>
+        <tr><td class="de">es gibt + zu</td><td class="de">es gibt + Nominativ + zu + Inf.</td>
+            <td>Da <b>gibt es</b> nichts <b>zu beanstanden</b>.</td></tr>
+        <tr><td class="de">unpers&ouml;nliches Passiv</td><td class="de">es / man + wird + PII</td>
+            <td>Hier <b>wird nicht geraucht</b>.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="warnbox">
+      <strong>The trap in row 4.</strong> <em>sich lassen</em> + <strong>plain infinitive</strong>
+      is the productive pattern. The <em>zu</em>-version exists only for a handful of fixed
+      verbs, so it is a fossil, not a pattern you can use at will. Never invent
+      <em>*l&auml;sst sich schreiben zu</em>.
+    </div>
+
+    <h3>sich lassen + infinitive</h3>
+    <p>This looks like a passive and behaves like one, but it is not one. Grammatically it
+      is a <strong>reflexive-active</strong> sentence: the subject in the nominative is
+      really the <em>object</em> of the action, and <em>lassen</em> is a full modal verb in
+      its infinitive form. Nobody is named &mdash; but somebody is always there.</p>
+    <table>
+      <thead><tr><th>Pattern</th><th>Example</th><th>Note</th></tr></thead>
+      <tbody>
+        <tr><td class="de">Das + Nom. + l&auml;sst sich + Inf.</td>
+            <td>Das <b>Problem l&auml;sst sich</b> leicht <b>l&ouml;sen</b>.</td>
+            <td class="de">no agent, no <em>zu</em></td></tr>
+        <tr><td class="de">Der / Die / Das + Nom. + l&auml;sst sich + Inf.</td>
+            <td>Das <b>Fenster l&auml;sst sich</b> nicht <b>&ouml;ffnen</b>.</td>
+            <td class="de">somebody opens it &mdash; only the doer is hidden</td></tr>
+        <tr><td class="de">sich lassen + Perfekt</td>
+            <td>Das <b>hat sich</b> leider <b>nicht machen lassen</b>.</td>
+            <td class="de">only with <em>haben</em></td></tr>
+        <tr><td class="de">sich lassen + Pr&auml;teritum</td>
+            <td>Die T&uuml;r <b>lie&szlig; sich</b> gut <b>schlie&szlig;en</b>.</td>
+            <td class="de">no <em>wurde</em> anywhere</td></tr>
+        <tr><td class="de">sich lassen + modal</td>
+            <td>Das <b>wird sich</b> nicht <b>machen lassen</b>.</td>
+            <td class="de">modal in position I, <em>lassen</em> last</td></tr>
+      </tbody>
+    </table>
+
+    <h3>sich lassen + zu + infinitive</h3>
+    <p>The same construction, but the following verb appears as a <em>non-finite</em> form
+      introduced by <em>zu</em>. That <em>zu</em>-infinitive is an indivisible block and closes
+      the clause, after every other object.</p>
+    <table>
+      <thead><tr><th>Pattern</th><th>Example</th><th>Note</th></tr></thead>
+      <tbody>
+        <tr><td class="de">Es + l&auml;sst sich + zu + Inf.</td>
+            <td>Es <b>l&auml;sst sich</b> durchaus <b>vermeiden</b>.</td>
+            <td class="de">with <em>es</em> as a neutral subject</td></tr>
+        <tr><td class="de">Der Fehler + l&auml;sst sich + Inf.</td>
+            <td>Der Fehler <b>lie&szlig; sich</b> nicht mehr gut <b>machen</b>.</td>
+            <td class="de">the natural, productive variant</td></tr>
+        <tr><td class="de">fixed phrases</td>
+            <td>Das <b>ist nicht zu verantworten</b> &mdash; <em>das l&auml;sst sich nicht verantworten</em></td>
+            <td class="de">the <em>zu</em> form survives only here</td></tr>
+        <tr><td class="de">no second object after the block</td>
+            <td>Die Entscheidung <b>l&auml;sst sich</b> nicht <b>leicht &auml;ndern</b>.</td>
+            <td class="de">adverbs sit in front, the block is last</td></tr>
+      </tbody>
+    </table>
+
+    <div class="tipbox">
+      <strong>Which one should I use?</strong> With almost every verb the plain infinitive is
+      the natural, productive choice: <em>Das l&auml;sst sich machen.</em> The <em>zu</em>-version is
+      not a pattern you can generalise. If in doubt, use the infinitive without <em>zu</em>.
+    </div>
+
+    <h3>bekommen + Partizip II: a real alternative</h3>
+    <p>The <em>bekommen</em>-construction looks like a passive from far away, but it is an
+      <strong>active</strong> sentence. <em>Bekommen</em> means <em>to receive</em>, the thing
+      received stands in the <strong>nominative</strong>, and no <em>werden</em> appears. This
+      is the construction for texts where the <em>recipient's</em> situation matters more than
+      the process.</p>
+    <table>
+      <thead><tr><th>Focus</th><th>Vorgangspassiv</th><th>bekommen + PII</th></tr></thead>
+      <tbody>
+        <tr><td class="de">the process</td>
+            <td>Der Brief <b>wurde</b> geschrieben.</td>
+            <td class="de">&mdash;</td></tr>
+        <tr><td class="de">the recipient</td>
+            <td class="de">&mdash;</td>
+            <td>Ich <b>habe</b> den Brief <b>bekommen</b>.</td></tr>
+        <tr><td class="de">a result that concerns you</td>
+            <td class="de">&mdash;</td>
+            <td>Ich <b>habe</b> eine Antwort <b>bekommen</b>.</td></tr>
+        <tr><td class="de">an unfavourable event</td>
+            <td>Uns <b>wurde</b> gestern <b>eingebrochen</b>.</td>
+            <td>Uns <b>ist</b> gestern <b>eingebrochen worden</b>.</td></tr>
+        <tr><td class="de">with a modal</td>
+            <td>Das <b>muss</b> gemacht <b>werden</b>.</td>
+            <td>Das <b>muss</b> ich <b>bekommen</b>.</td></tr>
+      </tbody>
+    </table>
+
+    <h3>The agent in the bekommen-construction</h3>
+    <p>Because <em>bekommen</em> is active, the giver cannot simply be attached with
+      <em>von</em> + dative as in the Vorgangspassiv. Use <strong>von</strong> + dative, a bare
+      dative of the giver, or <em>durch</em> + accusative for a means.</p>
+    <table>
+      <thead><tr><th>Form</th><th>Example</th><th>Register</th></tr></thead>
+      <tbody>
+        <tr><td class="de">von + dative</td>
+            <td>Er hat den Brief <b>von Maria</b> <b>bekommen</b>.</td>
+            <td class="de">neutral</td></tr>
+        <tr><td class="de">bare dative of the giver</td>
+            <td>Er hat den Brief <b>geschenkt bekommen</b>.</td>
+            <td class="de">natural</td></tr>
+        <tr><td class="de">dative + von</td>
+            <td>Der Brief ist ihm <b>von der Post</b> <b>zugestellt worden</b>.</td>
+            <td class="de">formal</td></tr>
+        <tr><td class="de">durch + accusative</td>
+            <td>Wir haben die Nachricht <b>durch einen Freund</b> <b>erfahren</b>.</td>
+            <td class="de">agent, route or means</td></tr>
+        <tr><td class="de">agent simply left out</td>
+            <td>Ich habe eine Absage <b>bekommen</b>.</td>
+            <td class="de">neutral</td></tr>
+      </tbody>
+    </table>
+
+    <h3>es gibt + zu + infinitive</h3>
+    <p><em>Es gibt</em> plus a <em>zu</em>-infinitive says: <em>there is something outstanding,
+      and nobody is doing it.</em> The <em>zu</em>-infinitive is the grammatical subject, closes
+      the clause, and the negated <em>nichts</em> carries the evaluation.</p>
+    <table>
+      <thead><tr><th>Example</th><th>Meaning</th></tr></thead>
+      <tbody>
+        <tr><td class="de">Da <b>gibt es nichts zu beanstanden</b>.</td>
+            <td class="de">nothing to criticise</td></tr>
+        <tr><td class="de">Da <b>gibt es viel zu tun</b>.</td>
+            <td class="de">there is a lot to do</td></tr>
+        <tr><td class="de">Wir haben noch einiges <b>zu besprechen</b>.</td>
+            <td class="de">something left to discuss</td></tr>
+        <tr><td class="de">Ich habe einen Termin <b>wahrzunehmen</b>.</td>
+            <td class="de">an appointment to attend</td></tr>
+        <tr><td class="de">Hast du noch etwas <b>mitzubringen</b>?</td>
+            <td class="de">a separable prefix stays inside the block</td></tr>
+      </tbody>
+    </table>
+
+    <h3>es muss / man muss: obligation without an agent</h3>
+    <p>When a modal verb takes over, the unpers&ouml;nliches Passiv switches to <strong>man</strong>
+      and the infinitive replaces the participle. This is the everyday equivalent of
+      <em>Es muss gemacht werden</em>, and it is far more frequent in speech than in writing.</p>
+    <table>
+      <thead><tr><th>Passive</th><th>Modal + man</th></tr></thead>
+      <tbody>
+        <tr><td class="de">Das muss <b>gemacht werden</b>.</td>
+            <td>Das <b>muss man machen</b>.</td></tr>
+        <tr><td class="de">Das kann nicht <b>gesagt werden</b>.</td>
+            <td>Das <b>kann man nicht sagen</b>.</td></tr>
+        <tr><td class="de">Der Antrag muss <b>gepr&uuml;ft werden</b>.</td>
+            <td>Der Antrag <b>muss gepr&uuml;ft werden</b> / <b>man muss den Antrag pr&uuml;fen</b>.</td></tr>
+        <tr><td class="de">Hier darf nicht <b>geraucht werden</b>.</td>
+            <td>Hier <b>darf man nicht rauchen</b>.</td></tr>
+        <tr><td class="de">Hier wird nicht <b>geraucht</b>.</td>
+            <td>Hier <b>darf man nicht rauchen</b>. &mdash; <em>man</em> = a generic doer</td></tr>
+        <tr><td class="de">Es muss etwas <b>geschehen</b>.</td>
+            <td>Es <b>muss etwas passieren</b> &mdash; no <em>man</em> required</td></tr>
+      </tbody>
+    </table>
+
+    <h3>unpers&ouml;nliches Passiv</h3>
+    <p>The <strong>agentless passive</strong> names no agent at all: neither <em>von</em> +
+      dative nor <em>durch</em>. The doer is a generic <em>man</em> or nobody, and the sentence
+      becomes a statement about the activity itself &mdash; a rule, a custom, an event.</p>
+    <table>
+      <thead><tr><th>Pattern</th><th>Example</th><th>Reading</th></tr></thead>
+      <tbody>
+        <tr><td class="de">Hier + wird + PII (negativ)</td>
+            <td>Hier <b>wird nicht geraucht</b>.</td>
+            <td class="de">a standing rule</td></tr>
+        <tr><td class="de">Zeitangabe + wurde + PII</td>
+            <td>Gestern <b>wurde</b> lange <b>getanzt</b>.</td>
+            <td class="de">a past event</td></tr>
+        <tr><td class="de">Ortsangabe + es wird + PII</td>
+            <td>In dem Saal <b>wird gerade gebaut</b>.</td>
+            <td class="de">an ongoing activity</td></tr>
+        <tr><td class="de\">passive command</td>
+            <td>Bitte <b>werden</b> die Schuhe <b>ausgezogen</b>!</td>
+            <td class="de">infinitive, verb first</td></tr>
+        <tr><td class="de">with a modal verb</td>
+            <td>Das <b>muss</b> gemacht <b>werden</b>.</td>
+            <td class="de">obligation</td></tr>
+        <tr><td class="de">periphrastic with man</td>
+            <td>Da <b>muss man etwas machen</b>.</td>
+            <td class="de"><em>man</em> replaces the agent</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Why the agentless passive is usually preferred</h3>
+    <p>A <em>von</em> + dative agent is grammatically easy and stylistically expensive. It is a
+      bare noun phrase with no verb of its own, it lands at the end of the clause like an
+      afterthought, and it usually carries a lot of grammatical weight. German prefers to
+      leave it out and let the context supply the doer.</p>
+    <table>
+      <thead><tr><th>Version</th><th>Example</th><th>Effect</th></tr></thead>
+      <tbody>
+        <tr><td class="de">heavy <em>von</em> + dative</td>
+            <td>Der Vertrag <b>wurde</b> gestern <b>von der Rechtsanw&auml;ltin gepr&uuml;ft</b>.</td>
+            <td class="de">wordy; the agent monopolises the end of the line</td></tr>
+        <tr><td class="de">agentless passive</td>
+            <td>Der Vertrag <b>wurde</b> gestern <b>gepr&uuml;ft</b>.</td>
+            <td class="de">clean; who did it is irrelevant or obvious</td></tr>
+        <tr><td class="de">active, the doer as subject</td>
+            <td>Die Rechtsanw&auml;ltin <b>hat</b> den Vertrag gestern <b>gepr&uuml;ft</b>.</td>
+            <td class="de">best when the agent is the point of the sentence</td></tr>
+        <tr><td class="de">active with generic man</td>
+            <td>Man <b>hat</b> den Vertrag gestern <b>gepr&uuml;ft</b>.</td>
+            <td class="de">neutral and deliberately vague</td></tr>
+        <tr><td class="de">passive with a short agent</td>
+            <td>Der Vertrag <b>wurde</b> von Maria <b>gepr&uuml;ft</b>.</td>
+            <td class="de">acceptable: <em>von</em> + dative is light when the noun is short</td></tr>
+      </tbody>
+    </table>
+
+    <div class="warnbox">
+      <strong>When <em>man</em> is not enough.</strong> Do not use the agentless passive when
+      the doer is exactly the information the reader needs &mdash; responsibility, blame,
+      credit, a named person. <em>Die Wohnung wurde renoviert.</em> is fine, but in a dispute
+      only <em>Die Wohnung wurde von einem anderen Mieter renoviert.</em> tells you anything.
+      Report the agent with an active clause, with <em>von</em> + <strong>dative</strong>
+      (norm for people and organisations), or with <em>durch</em> + accusative (a means, a
+      route, an unnamed source). There is a limit here: you cannot add an agent to
+      <em>sich lassen</em> or to <em>es gibt</em> + <em>zu</em> at all.
+    </div>
+
+    <h3>es + passive + participle</h3>
+    <p>German neutralises an unnamed agent into a formal placeholder subject <strong>es</strong>.
+      This is not the impersonal <em>es</em> of the weather, but a subject that keeps the slot
+      filled: it stands in position I, and everything after it follows normal main-clause
+      order, including verb-final placement of the participle.</p>
+    <table>
+      <thead><tr><th>Pattern</th><th>Example</th><th>Note</th></tr></thead>
+      <tbody>
+        <tr><td class="de">Es + wurde + PII + …</td>
+            <td><b>Es wurde beschlossen</b>, die Sitzung zu verschieben.</td>
+            <td class="de">formal, written</td></tr>
+        <tr><td class="de">Es + wird + PII + …</td>
+            <td><b>Es wird diskutiert</b>, ob das sinnvoll ist.</td>
+            <td class="de">reports and the media</td></tr>
+        <tr><td class="de">Es + muss + PII + werden</td>
+            <td><b>Es muss</b> noch <b>entschieden werden</b>, wer das macht.</td>
+            <td class="de">modal and <em>werden</em> together</td></tr>
+        <tr><td class="de">Es + PII (no werden)</td>
+            <td>Heute ist <b>vereinbart</b>, dass wir uns treffen.</td>
+            <td class="de">a passive meaning, but an <em>sein</em> clause</td></tr>
+        <tr><td class="de">Es + wird + PII (short)</td>
+            <td>Es <b>wurde</b> lange <b>diskutiert</b>.</td>
+            <td class="de">the <em>es</em> is often optional</td></tr>
+      </tbody>
+    </table>
+
+    <div class="tipbox">
+      <strong>Zustandspassiv for comparison.</strong> <em>Der Brief <b>ist</b> geschrieben.</em>
+      is a <strong>Zustandspassiv</strong>: <em>sein</em> + Partizip II, no agent, and the focus
+      is the <em>resulting state</em>. The agentless <em>werden</em>-passiv is about the
+      <em>process</em> &mdash; <em>Der Brief <b>wurde</b> geschrieben.</em> One event, two
+      focuses: <em>Die T&uuml;r <b>ist</b> geschlossen</em> (state) against
+      <em>Die T&uuml;r <b>wurde</b> geschlossen</em> (event).
+    </div>
+
+    <h3>Word order: what each construction does</h3>
+    <p>These constructions differ far more in word order than in meaning. Note especially where
+      the non-finite form goes: a participle in the final slot, a bare infinitive in the final
+      slot, or a <em>zu</em>-infinitive as a closing block.</p>
+    <table>
+      <thead><tr><th>Construction</th><th>Effect on word order</th></tr></thead>
+      <tbody>
+        <tr><td class="de">Vorgangspassiv</td>
+            <td class="de"><em>wird</em> in position II, Partizip II in the final slot; a <em>von</em> + dative agent follows the participle</td></tr>
+        <tr><td class="de">Zustandspassiv</td>
+            <td class="de"><em>ist</em> in position II, Partizip II used adjectivally, no closing slot</td></tr>
+        <tr><td class="de">sich lassen + Inf.</td>
+            <td class="de"><em>l&auml;sst sich</em> in the middle, bare infinitive last, never <em>zu</em></td></tr>
+        <tr><td class="de">sich lassen + zu + Inf.</td>
+            <td class="de">the <em>zu</em>-infinitive is an indivisible block in the final slot</td></tr>
+        <tr><td class="de">bekommen + PII</td>
+            <td class="de">ordinary main-clause order: <em>Ich habe den Brief gestern bekommen.</em> <em>hat</em> early, participle last</td></tr>
+        <tr><td class="de">es gibt + zu + Inf.</td>
+            <td class="de">the <em>zu</em>-infinitive is the subject and stands last: <em>Es gibt etwas zu tun.</em></td></tr>
+        <tr><td class="de">unpers&ouml;nliches Passiv</td>
+            <td class="de"><em>wird</em> in position II, Partizip II last, nothing may follow it</td></tr>
+        <tr><td class="de">modal + man</td>
+            <td class="de"><em>man</em> occupies the subject slot: <em>Da muss man etwas machen.</em></td></tr>
+        <tr><td class="de">es + passive + participle</td>
+            <td class="de"><em>es</em> in position I, <em>wird</em> in position II, participle in the final slot</td></tr>
+        <tr><td class="de">modal + passive</td>
+            <td class="de">modal in position II, <em>werden</em> infinitive at the very end: <em>Das muss gemacht werden.</em></td></tr>
+      </tbody>
+    </table>
+
+    <h3>Do not confuse these</h3>
+    <table>
+      <thead><tr><th>Pair</th><th>Difference</th></tr></thead>
+      <tbody>
+        <tr><td class="de">sich lassen vs. Vorgangspassiv</td>
+            <td class="de">Same meaning, different grammar: <em>Das l&auml;sst sich machen</em> is reflexive-active with a modal, <em>Das wurde gemacht</em> is passive with <em>werden</em>. <em>sich lassen</em> cannot take an agent; the passive can.</td></tr>
+        <tr><td class="de">sich lassen vs. es gibt + zu</td>
+            <td class="de"><em>Das l&auml;sst sich machen</em> is neutral between yes and no; <em>Da gibt es nichts zu machen</em> states that nothing is outstanding.</td></tr>
+        <tr><td class="de">bekommen + PII vs. Vorgangspassiv</td>
+            <td class="de">Both have the patient in the nominative, but <em>bekommen</em> is active and means <em>to receive</em>. <em>Der Brief wurde geschrieben</em> = somebody wrote it; <em>Ich habe den Brief bekommen</em> = I received it.</td></tr>
+        <tr><td class="de">bekommen vs. kriegen</td>
+            <td class="de">Identical in meaning, <em>kriegen</em> is colloquial: <em>Ich hab den Brief gekriegt.</em> Both work only with countable things and a few abstract nouns.</td></tr>
+        <tr><td class="de">unpers&ouml;nliches Passiv vs. Vorgangspassiv mit <em>von</em></td>
+            <td class="de">The only difference is the agent: <em>Hier wird nicht geraucht</em> names nobody, <em>Es wurde von Maria geraucht</em> names Maria.</td></tr>
+        <tr><td class="de">Zustandspassiv vs. unpers&ouml;nliches Passiv</td>
+            <td class="de"><em>Die T&uuml;r ist geschlossen</em> = state, the result; <em>Die T&uuml;r wurde geschlossen</em> = event, the process. Different auxiliary, different focus.</td></tr>
+        <tr><td class="de">es gibt + zu vs. es muss</td>
+            <td class="de"><em>Da gibt es nichts zu beanstanden</em> is an evaluation; <em>Da muss man etwas machen</em> is an obligation. Different verbs, different logic.</td></tr>
+        <tr><td class="de">es + passive vs. impersonal es</td>
+            <td class="de"><em>Es regnet</em> has no grammatical subject; <em>Es wurde beschlossen</em> has a real placeholder subject and full main-clause order.</td></tr>
+        <tr><td class="de">es + passive vs. Zustandspassiv</td>
+            <td class="de"><em>Es wurde beschlossen, …</em> reports a decision being taken; <em>Es ist beschlossen, …</em> reports the state of affairs afterwards.</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Summary</h3>
+    <table>
+      <thead><tr><th>You want to…</th><th>Use</th><th>Agent?</th></tr></thead>
+      <tbody>
+        <tr><td class="de">report the process, neutral</td>
+            <td class="de">Vorgangspassiv: wird + PII</td>
+            <td class="de">optional, von + dative</td></tr>
+        <tr><td class="de">describe the resulting state</td>
+            <td class="de">Zustandspassiv: ist + PII</td>
+            <td class="de">no</td></tr>
+        <tr><td class="de">say that something is possible</td>
+            <td class="de">sich lassen + Inf. (no zu)</td>
+            <td class="de">never</td></tr>
+        <tr><td class="de">use a fixed idiom of possibility</td>
+            <td class="de">sich lassen + zu + Inf.</td>
+            <td class="de">never</td></tr>
+        <tr><td class="de">report what someone received</td>
+            <td class="de">bekommen / kriegen + PII</td>
+            <td class="de">von + dative or bare dative</td></tr>
+        <tr><td class="de">say that nothing needs doing</td>
+            <td class="de">es gibt + zu + Inf.</td>
+            <td class="de">no</td></tr>
+        <tr><td class="de">express an obligation</td>
+            <td class="de">es muss / man muss + Inf.</td>
+            <td class="de">no, or a generic man</td></tr>
+        <tr><td class="de">state a rule, a custom, an event</td>
+            <td class="de">unpers&ouml;nliches Passiv: es wird + PII</td>
+            <td class="de">no</td></tr>
+        <tr><td class="de">open a formal, official statement</td>
+            <td class="de">es + passive + participle</td>
+            <td class="de">no</td></tr>
+        <tr><td class="de">name the agent deliberately</td>
+            <td class="de">active clause, or von + dative</td>
+            <td class="de">yes, stated</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- ══ 2. EXAMPLES ══ -->
+  <section>
+    <h2>2 · 20 worked examples</h2>
+    <p><small>Each example marks the opener and closer in bold and explains what it does to the sentence.</small></p>
+    <div id="examples"></div>
+  </section>
+
+  <!-- ══ 3. EXERCISES ══ -->
+  <section>
+    <h2>3 · 100 exercises</h2>
+
+    <div class="noVoice" id="noVoice">
+      <b>Pronunciation unavailable.</b> This browser has no German speech voice installed, so the
+      speaker buttons will not play. In Chrome, Edge and Safari on a desktop, German is available by default.
+    </div>
+    <div id="quiz"></div>
+  </section>
+
+</div>
+
+<footer class="footer"><strong>Passive alternatives and the agentless passive</strong><span class="footer-dot">·</span><span>Roman Zajic</span></footer>
+
+<script>
+(function(){
+  "use strict";
+
+  var EXAMPLES = [
+    ["Das <em>l&auml;sst</em> sich <em>machen</em>. — That's easy to do.", "With <em>sich lassen</em> the second verb is a <em>bare infinitive</em> — there is no <em>zu</em>. <em>Das l&auml;sst sich machen zu</em> is therefore ungrammatical; the <em>zu</em> only appears in the perfect (<em>gemacht</em> would be wrong) and in genuinely different <em>zu</em>-constructions."],
+    ["Der Termin <em>l&auml;sst</em> sich leider <em>nicht verschieben</em>. — Unfortunately the appointment can't be moved.", "A modal <em>nicht</em> between <em>sich</em> and the infinitive blocks possibility; the <em>Reflexivpassiv</em> replaces an agent we either don't know or don't want to name."],
+    ["Wie <em>l&auml;sst</em> sich das <em>&ouml;ffnen</em>? — How is that opened?", "In a question the conjugated <em>l&auml;sst</em> stands in position I, <em>sich</em> follows as a normal middle-field element, and the bare infinitive <em>&ouml;ffnen</em> closes the clause."],
+    ["Hier <em>l&auml;sst</em> sich <em>nichts mehr &auml;ndern</em>. — Nothing can be changed here any more.", "The <em>sich</em> construction is the standard alternative to <em>man kann hier nichts mehr &auml;ndern</em>: same meaning, one clause fewer, and the subject slot is freed for the thing itself."],
+    ["Das <em>l&auml;sst</em> sich nicht leicht <em>zu l&ouml;sen</em>. — That isn't easy to solve.", "Here <em>zu</em> + infinitive closes the clause. Both variants are correct and near-identical in meaning (&<em>l&ouml;sen</em> and <em>zu l&ouml;sen</em>); the <em>zu</em> group is required as soon as the infinitive has a complement of its own, as in <em>Es l&auml;sst sich nicht leicht zu l&ouml;sen, warum die Antr&auml;ge abgelehnt wurden.</em>"],
+    ["Es <em>l&auml;sst</em> sich nicht <em>ausschlie&szlig;en</em>, dass es regnet. — It can't be ruled out that it'll rain.", "Here <em>zu</em> + infinitive is required by the whole following clause: a <em>dass</em>-sentence is too big for a bare infinitive, so the group has to be nominalised with <em>zu</em>."],
+    ["Deine Frage <em>l&auml;sst</em> sich nicht einfach <em>beantworten</em>. — Your question can't simply be answered.", "<em>Beantworten</em> is transitive, yet the pattern still works: the thing to be done is named first and becomes the grammatical subject, the bare infinitive then simply states the action. With <em>zu</em> you would write <em>Deine Frage l&auml;sst sich nicht einfach zu beantworten</em> — possible, but the bare infinitive is the unmarked variant here."],
+    ["Ich habe den Brief <em>bekommen</em>. — I got the letter.", "This is <em>not</em> a passive: <em>ich</em> stays the subject and stays the doer, while the letter is only the thing received. <em>Bekommen</em> belongs to the verbs that take <em>Partizip II</em> without a <em>werden</em>."],
+    ["Wir haben gestern die Einladung <em>von Maria</em> <em>bekommen</em>. — Yesterday we got the invitation from Maria.", "The source is expressed as <em>von</em> + dative (<em>von Maria</em>), parallel to <em>von mir bekommen</em>. The recipient, not the source, is the grammatical subject of the whole sentence."],
+    ["Du hast aber <em>Gl&uuml;ck gehabt</em>! — You were lucky, though!", "The idiomatic bekommen-construction: <em>haben</em> + <em>Partizip II</em> instead of <em>warst</em> + <em>gl&uuml;cklich</em>. <em>Gl&uuml;ck haben</em> and not <em>Gl&uuml;ck bekommen</em> — the verb is <em>haben</em>, and the subject is the lucky person, not anything that could be handed over."],
+    ["Ich habe die Zusage des Ministers <em>bekommen</em>. — I got the minister's assurance.", "A genitive (<em>des Ministers</em>) can name the source just as well as <em>von + dative</em>; the two are interchangeable here, and the source may also be left out entirely if the context makes it clear."],
+    ["Hier wird <em>nicht geraucht</em>. — There's no smoking here.", "The <em>unpers&ouml;nliche Passiv</em> uses <em>werden</em> + <em>Partizip II</em> with <em>no</em> <em>von</em>-phrase: the agent is either irrelevant or deliberately unnamed. Signs, rules and bans are the typical context."],
+    ["In der Sitzung wird <em>viel diskutiert</em>. — A lot is discussed in the meeting.", "The intransitive verb forms a passive without an object, so the clause says what happens, not who does it — the <em>Unpers&ouml;nlichkeit</em> of the passive at its strongest."],
+    ["Es wird darum <em>gebeten</em>, die Musik <em>leiser zu stellen</em>. — You are asked to turn the music down.", "A <em>zu</em>-infinitive clause can be appended to the agentless passive as a final complement; <em>bitten um</em> becomes <em>es wird gebeten um</em> plus what is requested."],
+    ["Heute wird <em>&uuml;ber</em> den neuen Tarif <em>verhandelt</em>. — The new pay scale is being negotiated today.", "A <em>zu</em>-infinitive group can be appended to the agentless passive as a final complement; the full verb stays <em>bitten</em>, with its dative object <em>darum</em> in the bracket and what is requested expressed as the <em>zu</em>-infinitive."],
+    ["In diesem Haus <em>darf</em> nicht <em>geraucht werden</em>. — Smoking is not allowed in this building.", "The separable prefix <em>&uuml;ber</em> leaves the verb stem and joins <em>handelt</em> inside the Partizip II as <em>verhandelt</em>, standing in the middle field in front of the object <em>den neuen Tarif</em>."],
+    ["Es gibt <em>viel zu tun</em>. — There is a lot to do.", "<em>Es gibt</em> + dative + nominalised infinitive (<em>zu tun</em>) is the classic agentless way to state a pending or open task; there is no <em>man</em> and no <em>werden</em> at all."],
+    ["Den Antrag <em>muss</em> man <em>online einreichen</em>. — The application has to be submitted online.", "<em>Man</em> in the subject slot keeps the sentence impersonal, while <em>m&uuml;ssen</em> + infinitive replaces the passive <em>Der Antrag muss online eingereicht werden</em>. Both are correct; the active-looking variant with <em>man</em> is the usual one in instructions and feels less stiff."],
+    ["Am Plan <em>gibt</em> es <em>einiges zu beanstanden</em>. — There is something to criticise about the plan.", "Here the <em>zu</em>-infinitive has a nominal object in the accusative (<em>einiges</em>), and <em>beanstanden</em> also exists as a transitive verb: the nominalised <em>zu</em>-form makes the criticism itself the theme instead of naming who criticises."],
+    ["Das Formular <em>muss</em> noch <em>ausgef&uuml;llt werden</em>. — The form still has to be filled in. Equally possible: Das Formular <em>l&auml;sst</em> sich noch <em>ausf&uuml;llen</em>.", "The two alternatives exclude each other only in one respect: both drop the agent, so they are interchangeable where the doer is unimportant. As soon as the agent matters, neither of them works and the Vorgangspassiv <em>Das Formular wird von der Abteilung ausgef&uuml;llt</em> is the only option."]
+  ];
+
+  var DATA_URL = "../../data/grammar_exercises_passivalternativen.json";
+  var STORE = "passivalternativen_progress_v1";
+  // ── pronunciation via the browser speech engine ──
+  var MIC_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5z"></path>'
+    + '<path class="pulse" d="M15.5 8.5a5 5 0 0 1 0 7"></path>'
+    + '<path class="pulse" d="M18.5 5.5a9 9 0 0 1 0 13"></path></svg>';
+  var synth = window.speechSynthesis || null;
+  var germanVoice = null;
+
+  function stripTags(t){ return String(t).replace(/<[^>]*>/g,""); }
+
+  function pickVoice(){
+    if(!synth) return null;
+    var vs = synth.getVoices() || [];
+    germanVoice = vs.filter(function(v){ return /^de(-|_|$)/i.test(v.lang); })[0] || null;
+    return germanVoice;
+  }
+  if(synth){
+    pickVoice();
+    if(synth.addEventListener) synth.addEventListener("voiceschanged", pickVoice);
+  }
+
+  function stopSpeech(){ if(synth) try{ synth.cancel(); }catch(e){} }
+
+  var warned = false;
+  function noVoiceNotice(){
+    if(warned) return; warned = true;
+    var n = document.getElementById("noVoice");
+    if(n) n.style.display = "flex";
+  }
+  function micBtn(text, label){
+    var b = document.createElement("button");
+    b.className = "mic";
+    b.type = "button";
+    b.setAttribute("aria-pressed","false");
+    b.setAttribute("aria-label", (label||"Play") + ": " + stripTags(text));
+    b.title = "Play pronunciation";
+    b.innerHTML = MIC_SVG;
+    b.addEventListener("click", function(ev){
+      ev.stopPropagation();
+      if(!synth){ b.disabled = true; b.title = "Speech is not available in this browser"; noVoiceNotice(); return; }
+      if(b.getAttribute("aria-pressed")==="true"){ stopSpeech(); b.setAttribute("aria-pressed","false"); return; }
+      stopSpeech();
+      if(!germanVoice) pickVoice();
+      var u = new SpeechSynthesisUtterance(stripTags(text));
+      u.lang = "de-DE";
+      if(germanVoice) u.voice = germanVoice;
+      u.rate = 0.92; u.pitch = 1;
+      b.setAttribute("aria-pressed","true");
+      var off = function(){ b.setAttribute("aria-pressed","false"); };
+      u.onend = off;
+      u.onerror = function(){ off(); noVoiceNotice(); };
+      synth.speak(u);
+      // some engines report no voices at all; surface that instead of a dead button
+      if(!synth.getVoices().length) noVoiceNotice();
+    });
+    return b;
+  }
+
+  var state = {revealed:{}, answers:{}};
+
+  function esc(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
+  function load(){ try{ var v=JSON.parse(localStorage.getItem(STORE)); if(v&&typeof v==="object"){state.revealed=v.revealed||{};state.answers=v.answers||{};} }catch(e){} }
+  function save(){ try{ localStorage.setItem(STORE, JSON.stringify(state)); }catch(e){} }
+
+  // ---- examples ----
+  // Each entry is [german_and_english, why]. The first field carries the English
+  // translation after an em dash, so split it out for separate styling.
+  function splitDE(t){
+    var i = t.indexOf("\u2014");
+    if(i < 0) return [t, ""];
+    return [t.slice(0,i).trim(), t.slice(i+1).trim()];
+  }
+  (function renderExamples(){
+    var host = document.getElementById("examples");
+    host.innerHTML = "";
+    EXAMPLES.forEach(function(x){
+      var de = x[0] || "";
+      var why = x[1] || "";
+      var parts = splitDE(de);
+      var card = document.createElement("div");
+      card.className = "ex";
+
+      var row = document.createElement("div");
+      row.className = "microw";
+      var txt = document.createElement("div");
+      txt.className = "mtext";
+      txt.innerHTML = '<div class="de">'+parts[0]+'</div>'+
+                      (parts[1] ? '<div class="en">'+parts[1]+'</div>' : "");
+      row.appendChild(txt);
+      row.appendChild(micBtn(parts[0], "Play this example"));
+      card.appendChild(row);
+
+      if(why){
+        var w = document.createElement("div");
+        w.className = "why";
+        w.innerHTML = "<b>Why:</b> "+why;
+        card.appendChild(w);
+      }
+      host.appendChild(card);
+    });
+  })();
+
+  // German special letters, inserted at the caret in the focused input.
+  var KEYS = ["ä","ö","ü","Ä","Ö","Ü","ß","€"];
+
+  function insertAt(input, ch){
+    var v = input.value;
+    var a = input.selectionStart == null ? v.length : input.selectionStart;
+    var b = input.selectionEnd == null ? v.length : input.selectionEnd;
+    input.value = v.slice(0,a) + ch + v.slice(b);
+    var pos = a + ch.length;
+    try{ input.setSelectionRange(pos,pos); }catch(e){}
+    input.focus();
+  }
+
+  function keypadBtn(id){
+    var b = document.createElement("button");
+    b.type = "button";
+    b.className = "keybtn";
+    b.title = "German letters";
+    b.setAttribute("aria-label","Insert German special characters");
+    b.setAttribute("aria-expanded","false");
+    b.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true">'+
+      '<rect x="2" y="5" width="20" height="14" rx="2"></rect>'+
+      '<path d="M6 9h.01M10 9h.01M14 9h.01M18 9h.01M6 13h.01M10 13h.01M14 13h.01M18 13h.01M8 16h8"></path>'+
+      '</svg>';
+    b.addEventListener("click", function(ev){
+      ev.stopPropagation();
+      var panel = document.getElementById("pad-"+id);
+      if(!panel) return;
+      var open = panel.classList.toggle("open");
+      b.setAttribute("aria-expanded", open ? "true" : "false");
+      closeAllKeypads(panel);
+    });
+    return b;
+  }
+
+  function closeAllKeypads(except){
+    Array.prototype.forEach.call(document.querySelectorAll(".pad.open"), function(p){
+      if(p === except) return;
+      p.classList.remove("open");
+      var btn = p.previousSibling && p.previousSibling.querySelector ? p.previousSibling.querySelector(".keybtn") : null;
+      if(btn) btn.setAttribute("aria-expanded","false");
+    });
+  }
+
+  document.addEventListener("click", function(){ closeAllKeypads(null); });
+  document.addEventListener("keydown", function(e){ if(e.key === "Escape") closeAllKeypads(null); });
+
+  function renderQuiz(ex){
+    var el = document.getElementById("quiz");
+    el.innerHTML = "";
+    ex.forEach(function(e){
+      var rev = !!state.revealed[e.id];
+      var card = document.createElement("article");
+      card.className = "q" + (rev ? " revealed" : "");
+      card.id = "q"+e.id;
+
+      var top = document.createElement("div");
+      top.className = "qtop";
+      top.innerHTML = '<span class="qnum">'+e.id+'</span>';
+      var qt = document.createElement("span");
+      qt.className = "qtext";
+      qt.textContent = e.english;
+      top.appendChild(qt);
+      card.appendChild(top);
+
+      // input with the letter keypad docked inside its right edge
+      var row = document.createElement("div");
+      row.className = "inputrow";
+      var ta = document.createElement("input");
+      ta.type = "text";
+      ta.className = "ainput";
+      ta.placeholder = "Write the German here…";
+      ta.setAttribute("aria-label","Your German answer for exercise "+e.id);
+      ta.value = state.answers[e.id] || "";
+      ta.addEventListener("input", function(){ state.answers[e.id] = ta.value; save(); });
+      row.appendChild(ta);
+      row.appendChild(keypadBtn(e.id));
+      card.appendChild(row);
+
+      // the letter panel sits inside the card so it is never clipped
+      var pad = document.createElement("div");
+      pad.className = "pad";
+      pad.id = "pad-"+e.id;
+      KEYS.forEach(function(k){
+        var kb = document.createElement("button");
+        kb.type = "button";
+        kb.className = "padkey";
+        kb.textContent = k;
+        kb.addEventListener("click", function(ev){
+          ev.stopPropagation();
+          var target = card.querySelector(".ainput");
+          insertAt(target, k);
+          state.answers[e.id] = target.value;
+          save();
+        });
+        pad.appendChild(kb);
+      });
+      card.appendChild(pad);
+
+      // reveal / hide toggle
+      var rb = document.createElement("button");
+      rb.type = "button";
+      rb.className = "btn rev" + (rev ? " on" : "");
+      rb.textContent = rev ? "Hide answer" : "Reveal answer";
+      rb.setAttribute("aria-expanded", rev ? "true" : "false");
+      rb.addEventListener("click", function(){
+        state.revealed[e.id] = !state.revealed[e.id];
+        save();
+        renderQuiz(ex);
+      });
+      card.appendChild(rb);
+
+      if(rev){
+        var fb = document.createElement("div");
+        fb.className = "fb";
+
+        var ansRow = document.createElement("div");
+        ansRow.className = "microw ansrow";
+        var at = document.createElement("div");
+        at.className = "mtext";
+        at.textContent = e.german;
+        ansRow.appendChild(at);
+        ansRow.appendChild(micBtn(e.german, "Play the German answer"));
+        fb.appendChild(ansRow);
+
+        var wy = document.createElement("div");
+        wy.className = "why";
+        wy.textContent = e.why;
+        fb.appendChild(wy);
+
+        card.appendChild(fb);
+      }
+      el.appendChild(card);
+    });
+  }
+
+  load();
+
+  fetch(DATA_URL+"?cb="+Date.now())
+    .then(function(r){ if(!r.ok) throw new Error("HTTP "+r.status); return r.json(); })
+    .then(function(d){
+      var ex=d.exercises;
+      renderQuiz(ex);
+    })
+    .catch(function(e){
+      document.getElementById("quiz").innerHTML =
+        '<div class="q"><b>Could not load the exercises.</b><br>'+esc(e.message)+'</div>';
+    });
+})();
+</script>
+</body>
+</html>

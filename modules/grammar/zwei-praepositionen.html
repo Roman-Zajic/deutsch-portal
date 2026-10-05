@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Verbs with two prepositions and different cases — Verben mit zwei Präpositionen | Deutsch Lernen</title>
+<style>
+:root{
+  --font:"Segoe UI",system-ui,-apple-system,sans-serif;
+  --teal-900:#005A5A; --teal-700:#008282; --teal-400:#50C1C1; --teal-100:#95DFDB;
+  --amber:#E1A01E; --red:#C41E3A; --green:#1D7A4C;
+  --ink:#012D2C; --muted:#008282;
+  --page:#F0FAFA; --card:#FFF; --in:#F0FAFA; --border:#D0ECEB;
+  --shadow:0 1px 4px rgba(1,45,44,.10); --shadow-md:0 4px 14px rgba(1,45,44,.12);
+  --r:8px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font);font-size:16px;color:var(--teal-900);background:var(--page);
+  line-height:1.65;-webkit-font-smoothing:antialiased;
+  display:flex;flex-direction:column;min-height:100vh}
+
+.navbar{display:flex;align-items:center;gap:12px;height:48px;padding:0 14px;
+  background:var(--teal-900);border-bottom:1px solid rgba(149,223,219,.15);
+  position:sticky;top:0;z-index:100;flex-shrink:0}
+.brand-icon{display:flex;align-items:center;flex-shrink:0}
+.nav-pipe{width:1px;height:16px;background:rgba(149,223,219,.30);flex-shrink:0;margin:0 12px}
+.nav-brand-text{font-size:.95rem;font-weight:600;color:var(--teal-100);text-decoration:none;white-space:nowrap}
+.nav-actions{margin-left:auto;display:flex;align-items:center;gap:8px}
+.icon-btn{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;padding:0;
+  color:var(--teal-100);background:rgba(149,223,219,.12);border:1px solid rgba(149,223,219,.22);
+  border-radius:4px;cursor:pointer;transition:130ms;text-decoration:none;flex-shrink:0}
+.icon-btn:hover{background:rgba(149,223,219,.24);border-color:rgba(149,223,219,.45)}
+.btn-nav{display:inline-flex;align-items:center;justify-content:center;height:32px;padding:0 12px;
+  font-size:.78rem;font-weight:600;font-family:var(--font);color:var(--teal-100);text-decoration:none;
+  background:rgba(149,223,219,.12);border:1px solid rgba(149,223,219,.22);border-radius:4px;
+  transition:130ms;white-space:nowrap;flex-shrink:0}
+.btn-nav:hover{background:rgba(149,223,219,.24);border-color:rgba(149,223,219,.45)}
+@media (max-width:400px){.btn-nav{padding:0 9px;font-size:.74px;font-size:.74rem}}
+.icon-btn svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:2;
+  stroke-linecap:round;stroke-linejoin:round}
+@media (max-width:560px){.nav-brand-text{font-size:.85rem}}
+
+.wrap{max-width:860px;width:100%;margin:0 auto;padding:20px 16px 0;flex:1 0 auto}
+
+h1{font-size:1.5rem;line-height:1.3;margin:0 0 4px}
+h1 .de{display:block;font-size:1rem;color:var(--teal-700);font-weight:600;margin-top:2px}
+
+section{margin-bottom:30px}
+h2{font-size:1.05rem;margin-bottom:10px;padding-bottom:6px;border-bottom:2px solid var(--teal-400)}
+h3{font-size:.85rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;
+  color:var(--teal-700);margin:16px 0 8px}
+p{margin-bottom:10px}
+.lead{color:var(--ink)}
+small{color:var(--muted)}
+
+.rulebox{background:var(--in);border:1px solid var(--border);border-left:4px solid var(--teal-400);
+  border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.rulebox strong{color:var(--teal-700)}
+.warnbox{background:rgba(196,30,58,.05);border:1px solid rgba(196,30,58,.25);
+  border-left:4px solid var(--red);border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.warnbox strong{color:var(--red)}
+.tipbox{background:rgba(29,122,76,.06);border:1px solid rgba(29,122,76,.22);
+  border-left:4px solid var(--green);border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.tipbox strong{color:var(--green)}
+
+table{width:100%;border-collapse:collapse;margin:12px 0;font-size:.88rem;
+  table-layout:fixed}
+th,td{overflow-wrap:anywhere;word-break:normal;hyphens:auto}
+th,td{text-align:left;padding:7px 9px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--in);font-weight:700;font-size:.76rem;text-transform:uppercase;
+  letter-spacing:.04em;color:var(--teal-700)}
+td.de{color:var(--ink)}
+tr:last-child td{border-bottom:none}
+
+.mic{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;
+  padding:0;flex-shrink:0;vertical-align:middle;border-radius:50%;cursor:pointer;
+  color:var(--teal-700);background:rgba(80,193,193,.16);border:1px solid rgba(80,193,193,.45);
+  transition:130ms}
+.mic:hover{background:rgba(80,193,193,.34)}
+.mic:focus-visible{outline:2px solid var(--teal-700);outline-offset:2px}
+.mic svg{width:13px;height:13px;fill:none;stroke:currentColor;stroke-width:2;
+  stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.mic[aria-pressed="true"]{background:var(--teal-700);color:#fff;border-color:var(--teal-700)}
+.mic[aria-pressed="true"] .pulse{animation:pulse 1s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+.mic[disabled]{opacity:.45;cursor:not-allowed}
+.microw{display:flex;align-items:flex-start;gap:8px}
+.microw > .mtext{flex:1;min-width:0}
+.ex{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:12px 13px;
+  margin-bottom:9px;box-shadow:var(--shadow)}
+.ex .de{font-size:.98rem;color:var(--ink);margin-bottom:4px}
+.ex .de em{color:var(--teal-700);font-style:normal;font-weight:700;background:rgba(80,193,193,.20);
+  padding:0 3px;border-radius:2px}
+.ex .en{font-size:.84rem;color:var(--muted)}
+.ex .why{font-size:.82rem;color:var(--teal-700);margin-top:6px;padding-top:6px;
+  border-top:1px dotted var(--border)}
+.ex .why b{font-weight:700}
+
+/* ── EXERCISES ── */
+.btn{font-family:var(--font);font-size:.78rem;font-weight:600;cursor:pointer;
+  padding:6px 12px;border-radius:4px;border:1px solid var(--teal-400);
+  background:rgba(80,193,193,.14);color:var(--teal-700);transition:130ms;white-space:nowrap}
+.btn:hover{background:rgba(80,193,193,.28)}
+.btn.ghost{background:transparent;border-color:var(--border);color:var(--muted)}
+.btn.ghost:hover{border-color:var(--teal-400);color:var(--teal-700)}
+.noVoice{display:none;align-items:flex-start;gap:8px;margin-bottom:12px;padding:9px 12px;
+  background:rgba(225,160,30,.12);border:1px solid rgba(225,160,30,.4);border-radius:var(--r);
+  font-size:.83rem;color:#7A5000}
+.noVoice b{color:#7A5000}
+
+.q{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:12px 13px;
+  margin-bottom:10px;box-shadow:var(--shadow)}
+.q.revealed{border-color:var(--teal-400)}
+.q.correct{border-color:rgba(29,122,76,.5);background:rgba(29,122,76,.04)}
+.q.wrong{border-color:rgba(196,30,58,.45);background:rgba(196,30,58,.03)}
+.qtop{display:flex;gap:9px;align-items:flex-start;margin-bottom:9px}
+.qnum{flex-shrink:0;width:23px;height:23px;border-radius:50%;background:rgba(0,130,130,.10);
+  color:var(--teal-7);color:var(--teal-700);font-size:.7rem;font-weight:700;display:flex;
+  align-items:center;justify-content:center;margin-top:1px}
+.q.correct .qnum{background:rgba(29,122,76,.16);color:var(--green)}
+.q.wrong .qnum{background:rgba(196,30,58,.14);color:var(--red)}
+.inputrow{display:flex;align-items:stretch;gap:6px;position:relative}
+.ainput{flex:1;min-width:0;font-family:var(--font);font-size:.92rem;color:var(--ink);
+  background:var(--in);border:1px solid var(--border);border-radius:5px;padding:8px 32px 8px 11px;transition:130ms}
+.ainput:focus{outline:none;border-color:var(--teal-400);background:#fff;box-shadow:0 0 0 3px rgba(80,193,193,.16)}
+/* small keyboard icon, vertically centred at the right edge of the field */
+.keybtn{flex-shrink:0;width:28px;align-self:stretch;display:inline-flex;align-items:center;
+  justify-content:center;padding:0;cursor:pointer;border-radius:5px;
+  color:var(--teal-700);background:rgba(80,193,193,.16);border:1px solid rgba(80,193,193,.45);
+  transition:130ms}
+.keybtn:hover{background:rgba(80,193,193,.32)}
+.keybtn:focus-visible{outline:2px solid var(--teal-700);outline-offset:2px}
+.keybtn svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:1.7;
+  stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.keybtn[aria-expanded="true"]{background:var(--teal-700);color:#fff;border-color:var(--teal-700)}
+/* letter panel lives inside the card so no ancestor can clip it */
+.pad{display:none;flex-wrap:wrap;gap:5px;margin-top:7px;padding:8px;
+  background:var(--in);border:1px solid var(--border);border-radius:5px}
+.pad.open{display:flex}
+.padkey{font-family:var(--font);font-size:.92rem;font-weight:600;color:var(--teal-900);
+  background:var(--card);border:1px solid var(--border);border-radius:4px;
+  min-width:34px;height:32px;cursor:pointer;transition:130ms}
+.padkey:hover{background:var(--teal-400);border-color:var(--teal-400)}
+.padkey:focus-visible{outline:2px solid var(--teal-700);outline-offset:1px}
+.btn.rev{margin-top:8px}
+.btn.rev.on{background:rgba(0,90,90,.10);border-color:var(--teal-700)}
+.ansrow{margin:6px 0;padding:7px 9px;background:rgba(80,193,193,.09);border-radius:5px}
+.ansrow .mtext{font-size:.93rem}
+.qtext{font-size:.95rem;color:var(--ink);margin-bottom:9px;flex:1;min-width:0}
+
+.fb{margin-top:9px;padding-top:9px;border-top:1px dotted var(--border);font-size:.85rem}
+.fb .ans{font-weight:600;color:var(--teal-700);margin-bottom:4px}
+.fb .why{color:var(--muted)}
+
+details.fold{margin-bottom:9px;border:1px solid var(--border);border-radius:6px;background:var(--card)}
+details.fold > summary{padding:9px 12px;font-weight:600;font-size:.88rem;cursor:pointer;
+  color:var(--teal-900);list-style:none}
+details.fold > summary::-webkit-details-marker{display:none}
+details.fold > summary::before{content:"▸";color:var(--teal-700);transition:transform .15s;
+  display:inline-block;margin-right:5px}
+details.fold[open] > summary::before{transform:rotate(90deg)}
+details.fold .foldbody{padding:0 12px 11px;border-top:1px solid var(--border);padding-top:9px;
+  font-size:.9rem}
+
+.footer{position:sticky;bottom:0;z-index:50;width:100%;max-width:var(--wrapw,860px);
+  margin-inline:auto;border-top:1px solid var(--border);padding:10px 16px;background:var(--page);
+  display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:.78rem;color:var(--muted)}
+.footer strong{color:var(--teal-700)}
+.footer-dot{margin:0 10px;color:var(--border)}
+
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+  <a class="brand-icon" href="../../" aria-label="Deutsch Lernen home">
+    <svg width="24" height="17" viewBox="0 0 31 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0"  y="0"  width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="0"  width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="0"  width="9" height="6" rx="1.5" fill="#008282"/>
+      <rect x="0"  y="8"  width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="8"  width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="8"  width="9" height="6" rx="1.5" fill="#008282"/>
+      <rect x="0"  y="16" width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="16" width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="16" width="9" height="6" rx="1.5" fill="#E1A01E"/>
+    </svg>
+  </a>
+  <div class="nav-pipe"></div>
+  <a class="nav-brand-text" href="index.html">Grammar</a>
+  <div class="nav-actions">
+    <a class="btn-nav" href="index.html" title="All grammar topics">All topics</a>
+    <a class="icon-btn" href="../../" title="Back to all modules" aria-label="Back to all modules">
+      <svg viewBox="0 0 24 24"><path d="M3 12l9-9 9 9"></path><path d="M5 10v10h14V10"></path></svg>
+    </a>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <h1>Verbs with two prepositions and different cases<span class="de">Verben mit zwei Präpositionen</span></h1>
+  
+  <!-- ══ 1. CONCEPT ══ -->
+  <section>
+    <h2>1 · The concept</h2>
+
+    <p class="lead">Many German verbs are not complete in themselves. They need a
+      <strong>case complement</strong> (a person or thing in the accusative or dative, with no
+      preposition) and/or a <strong>prepositional complement</strong> (a phrase introduced by a
+      preposition). When a verb carries a preposition, that preposition becomes part of the verb:
+      it is memorized <em>with</em> the verb, and the case after it is <strong>fixed by the
+      verb</strong>, not chosen by you.</p>
+
+    <div class="rulebox">
+      <strong>The rule in one line.</strong> A preposition that belongs to a verb always takes the
+      case that verb demands — even if the preposition is a <em>Wechselpr&auml;position</em> like
+      <em>auf</em>, <em>an</em>, <em>in</em> or <em>&uuml;ber</em>. Only when the preposition stands on
+      its own, without a verb, does the case follow meaning (direction = accusative, position =
+      dative).
+    </div>
+
+    <h3>Two groups you must keep apart</h3>
+    <table>
+      <thead><tr><th>Group</th><th>What it looks like</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de"><strong>Two prepositions</strong></td>
+            <td class="de">verb + first preposition + its case, then second preposition + its own case</td>
+            <td>Ich rede <b>mit meinem Chef</b> <b>&uuml;ber das Budget</b>.</td></tr>
+        <tr><td class="de"><strong>Case + preposition</strong></td>
+            <td class="de">bare dative or accusative person/object, then a prepositional phrase</td>
+            <td>Ich <b>helfe dir</b> <b>bei der Aufgabe</b>.</td></tr>
+        <tr><td class="de"><strong>Fixed-case prepositional verb</strong></td>
+            <td class="de">one preposition, one unchangeable case — no second, free choice</td>
+            <td>Ich warte <b>auf den Bus</b>.</td></tr>
+      </tbody>
+    </table>
+
+    <h3>1 · Verbs with two prepositions</h3>
+    <p>Here each preposition brings its own case. You cannot swap them, and you cannot drop one:</p>
+    <table>
+      <thead><tr><th>Verb</th><th>First preposition</th><th>Second preposition</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">reden</td><td class="de"><b>mit</b> + Dativ (person)</td><td class="de"><b>&uuml;ber</b> + Akkusativ (topic)</td>
+            <td>Ich rede <b>mit ihr</b> <b>&uuml;ber den Termin</b>.</td></tr>
+        <tr><td class="de">sprechen</td><td class="de"><b>mit</b> + Dativ (person)</td><td class="de"><b>&uuml;ber</b> + Akkusativ / <b>von</b> + Dativ (topic)</td>
+            <td>Ich spreche <b>mit dir</b> <b>&uuml;ber das Angebot</b>.</td></tr>
+        <tr><td class="de">sich bedanken</td><td class="de"><b>bei</b> + Dativ (person)</td><td class="de"><b>f&uuml;r</b> + Akkusativ (thing)</td>
+            <td>Ich bedanke mich <b>bei dir</b> <b>f&uuml;r deine Hilfe</b>.</td></tr>
+        <tr><td class="de">sich entschuldigen</td><td class="de"><b>bei</b> + Dativ (person)</td><td class="de"><b>f&uuml;r</b> + Akkusativ (thing)</td>
+            <td>Ich entschuldige mich <b>bei ihr</b> <b>f&uuml;r den Fehler</b>.</td></tr>
+        <tr><td class="de">sich verabreden</td><td class="de"><b>mit</b> + Dativ (person)</td><td class="de"><b>um</b> + Akkusativ (time)</td>
+            <td>Ich verrede mich <b>mit ihm</b> <b>um 15 Uhr</b>.</td></tr>
+        <tr><td class="de">tauschen</td><td class="de"><b>mit</b> + Dativ (person)</td><td class="de"><b>gegen</b> + Akkusativ (thing)</td>
+            <td>Ich tausche <b>mit dir</b> <b>gegen meine alte Jacke</b>.</td></tr>
+        <tr><td class="de">streiten</td><td class="de"><b>mit</b> + Dativ (person)</td><td class="de"><b>&uuml;ber</b> + Akkusativ (topic)</td>
+            <td>Ich streite <b>mit ihr</b> <b>&uuml;ber die Zust&auml;ndigkeit</b>.</td></tr>
+        <tr><td class="de">sich einigen</td><td class="de"><b>mit</b> + Dativ (person)</td><td class="de"><b>&uuml;ber</b> + Akkusativ (point)</td>
+            <td>Wir einigen uns <b>mit dem Vorstand</b> <b>&uuml;ber den Termin</b>.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="warnbox">
+      <strong>Order of the two phrases is free, case of each is not.</strong>
+      <em>Ich spreche mit dir &uuml;ber den Plan</em> = <em>Ich spreche &uuml;ber den Plan mit dir.</em>
+      But the second preposition keeps its case: <em>&uuml;ber den Plan</em> (Akkusativ) &mdash; not
+      <em>&uuml;ber dem Plan</em>.
+    </div>
+
+    <h3>reden and sprechen in detail</h3>
+    <table>
+      <thead><tr><th>Pattern</th><th>Meaning</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de"><b>mit</b> + Dat &bull; <b>&uuml;ber</b> + Akk</td><td class="de">discussion of a definite topic with a definite person</td>
+            <td>Wir reden <b>mit dem Kunden</b> <b>&uuml;ber den Preis</b>.</td></tr>
+        <tr><td class="de"><b>&uuml;ber</b> + Akk &bull; <b>mit</b> + Dat</td><td class="de">same, other order — the topic often comes first in writing</td>
+            <td>Wir reden <b>&uuml;ber den Preis</b> <b>mit dem Kunden</b>.</td></tr>
+        <tr><td class="de"><b>von</b> + Dat &bull; <b>mit</b> + Dat</td><td class="de">both dative — <em>von</em> for the subject matter</td>
+            <td>Ich spreche <b>von dem Angebot</b> <b>mit meinem Chef</b>.</td></tr>
+        <tr><td class="de"><b>&uuml;ber</b> + Akk only</td><td class="de">general statement, no partner mentioned</td>
+            <td>Wir sprechen <b>&uuml;ber die n&auml;chsten Schritte</b>.</td></tr>
+        <tr><td class="de"><b>mit</b> + Dat only</td><td class="de">a language or a group of people</td>
+            <td>Sie spricht <b>mit den Kindern</b> &uuml;ber <em>ihre</em> Schulzeit.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="tipbox">
+      <strong><em>&uuml;ber</em> vs. <em>von</em>.</strong> After <em>sprechen</em> and <em>reden</em>,
+      <em>&uuml;ber</em> + Akkusativ points to a concrete topic (&uuml;ber den Vertrag), <em>von</em> + Dativ
+      is more general or reports what someone said (von einem Ger&uuml;cht). Both are normal; the case
+      is not negotiable.
+    </div>
+
+    <h3>sich bedanken and sich entschuldigen: the same skeleton</h3>
+    <table>
+      <thead><tr><th>Step</th><th>Form</th><th>Question it answers</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">1. verb</td><td class="de">sich bedanken / sich entschuldigen</td><td class="de">&mdash;</td>
+            <td>Ich <b>bedanke mich</b> / Ich <b>entschuldige mich</b></td></tr>
+        <tr><td class="de">2. bei + Dat</td><td class="de">the person (or institution)</td><td class="de">Bei <em>wem</em>?</td>
+            <td><b>bei dir</b> / <b>bei der &Auml;rztin</b></td></tr>
+        <tr><td class="de">3. f&uuml;r + Akk</td><td class="de">the thing, the reason, the matter</td><td class="de">F&uuml;r <em>was</em>?</td>
+            <td><b>f&uuml;r deine Hilfe</b> / <b>f&uuml;r den Fehler</b></td></tr>
+        <tr><td class="de">no. 1 variant</td><td class="de">danken (without sich)</td><td class="de">person comes <em>without</em> a preposition</td>
+            <td>Ich <b>danke dir</b> <b>f&uuml;r deine Hilfe</b>. (<b>bei</b> has no function here.)</td></tr>
+      </tbody>
+    </table>
+
+    <h3>2 · Verbs with a case complement plus a prepositional complement</h3>
+    <p>These verbs have <em>no</em> preposition after the person. The person stands in the bare
+      dative or accusative, and the preposition introduces a second, separate piece of information:</p>
+    <table>
+      <thead><tr><th>Verb</th><th>Person complement</th><th>Prepositional complement</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">helfen</td><td class="de">+ Dativ</td><td class="de">bei + Dativ</td>
+            <td>Ich helfe <b>dir</b> <b>bei der Aufgabe</b>.</td></tr>
+        <tr><td class="de">danken</td><td class="de">+ Dativ</td><td class="de">f&uuml;r + Akkusativ</td>
+            <td>Ich danke <b>dir</b> <b>f&uuml;r deine Hilfe</b>.</td></tr>
+        <tr><td class="de">warnen</td><td class="de">+ Akkusativ</td><td class="de">vor + Dativ</td>
+            <td>Ich warne <b>dich</b> <b>vor dem Mann</b>.</td></tr>
+        <tr><td class="de">bitten</td><td class="de">+ Akkusativ</td><td class="de">um + Akkusativ</td>
+            <td>Ich bitte <b>dich</b> <b>um Hilfe</b>.</td></tr>
+        <tr><td class="de">brauchen</td><td class="de">+ Akkusativ</td><td class="de">zu + Dativ / f&uuml;r + Akkusativ</td>
+            <td>Ich brauche <b>dich</b> <b>f&uuml;r diese Aufgabe</b>.</td></tr>
+        <tr><td class="de">erlauben</td><td class="de">+ Dativ</td><td class="de">+ Akkusativ (no preposition)</td>
+            <td>Du erlaubst <b>mir</b>, <b>das zu tun</b>.</td></tr>
+      </tbody>
+    </table>
+
+    <h3>The four classics, with the case logic</h3>
+    <table>
+      <thead><tr><th>Verb</th><th>Slot 1</th><th>Slot 2</th><th>Example and note</th></tr></thead>
+      <tbody>
+        <tr><td class="de">helfen</td><td class="de">Dativ (person)</td><td class="de">bei + Dativ</td>
+            <td>Ich helfe <b>dir</b> <b>bei der Aufgabe</b> &mdash; dative twice, in both slots.</td></tr>
+        <tr><td class="de">helfen</td><td class="de">Dativ (person)</td><td class="de">zu + Infinitiv (no preposition)</td>
+            <td>Ich helfe <b>dir</b>, <b>das Formular auszuf&uuml;llen</b> &mdash; second slot is a <em>zu</em>-infinitiv.</td></tr>
+        <tr><td class="de">danken</td><td class="de">Dativ (person)</td><td class="de">f&uuml;r + Akkusativ</td>
+            <td>Ich danke <b>dir</b> <b>f&uuml;r deine Hilfe</b> &mdash; dative person, accusative thing.</td></tr>
+        <tr><td class="de">warnen</td><td class="de">Akkusativ (person)</td><td class="de">vor + Dativ</td>
+            <td>Ich warne <b>dich</b> <b>vor dem Mann</b> &mdash; the two cases are <em>opposite</em>. This is the classic trap.</td></tr>
+        <tr><td class="de">bitten</td><td class="de">Akkusativ (person)</td><td class="de">um + Akkusativ</td>
+            <td>Ich bitte <b>dich</b> <b>um Hilfe</b> &mdash; accusative in both slots.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="warnbox">
+      <strong>Why <em>vor</em> is dative here.</strong> In <em>warne dich vor dem Mann</em> the phrase
+      answers the question <em>Wovor?</em> (before what?) and the danger is treated as an
+      abstract, non-directed notion &mdash; the dative slot of a <em>Wechselpr&auml;position</em>. The
+      accusative <em>dich</em> is the person warned. Do not let the two cases swap:
+      &check; <em>Ich warne dich vor dem Mann.</em> &nbsp;&nbsp; &cross; <em>Ich warne dem Mann vor dich.</em>
+    </div>
+
+    <h3>sprechen with a bare dative person</h3>
+    <table>
+      <thead><tr><th>Form</th><th>Example</th><th>Note</th></tr></thead>
+      <tbody>
+        <tr><td class="de">sprechen + Dativ (no preposition)</td><td>Ich spreche <b>mit dir</b> / Wie spreche ich <b>mit ihm</b>?</td>
+            <td class="de"><em>mit</em> is the normal marker; the dative alone is possible with a few verbs (<em>sprechen helfen</em>, <em>sprechen gefallen</em>: <em>Das Buch gef&auml;llt mir</em>).</td></tr>
+        <tr><td class="de">sprechen + Dativ (fixed phrase)</td><td>Ein Wort <em>spricht mir</em> &mdash; <em>Das spricht daf&uuml;r</em>.</td>
+            <td class="de">Reflexive pronouns in these idioms are dative, not accusative.</td></tr>
+        <tr><td class="de">sprechen + &uuml;ber + Akk</td><td>Ich spreche <b>&uuml;ber den Vertrag</b>.</td>
+            <td class="de">No person given: <em>&uuml;ber</em> keeps the accusative for the topic.</td></tr>
+        <tr><td class="de">sich &auml;ussern + zu + Dativ</td><td>Er &auml;u&szlig;erte sich <b>zu dem Vorwurf</b>.</td>
+            <td class="de">Related pattern: accusative object first, <em>zu</em> + dative for the comment.</td></tr>
+      </tbody>
+    </table>
+
+    <h3>3 · Fixed-case prepositional verbs (not Wechselpr&auml;positionen)</h3>
+    <div class="warnbox">
+      <strong>This is the main trap of the topic.</strong> <em>auf</em>, <em>an</em>, <em>in</em>,
+      <em>&uuml;ber</em>, <em>vor</em> are <em>Wechselpr&auml;positionen</em> &mdash; accusative for
+      direction, dative for position. That rule applies only to the preposition <em>on its own</em>.
+      Bound to a verb, they become <strong>fixed-case</strong> and never alternate. The
+      &nbsp;&#9888;  marks each verb where learners most often pick the wrong case.
+    </div>
+    <table>
+      <thead><tr><th>Verb + preposition</th><th>Fixed case</th><th>&nbsp;&#9888;  Example</th><th>Wrong</th></tr></thead>
+      <tbody>
+        <tr><td class="de"><b>warten auf</b></td><td class="de">Akkusativ &mdash; always</td>
+            <td>Ich warte <b>auf den Bus</b>.</td><td class="de">&nbsp;&#9888;  auf <em>dem</em> Bus</td></tr>
+        <tr><td class="de"><b>teilnehmen an</b></td><td class="de">Dativ &mdash; always</td>
+            <td>Ich nehme <b>an der Sitzung</b> teil.</td><td class="de">&nbsp;&#9888;  an <em>die</em> Sitzung</td></tr>
+        <tr><td class="de"><b>sich interessieren f&uuml;r</b></td><td class="de">Akkusativ &mdash; always</td>
+            <td>Ich interessiere mich <b>f&uuml;r Musik</b>.</td><td class="de">&nbsp;&#9888;  f&uuml;r <em>der</em> Musik</td></tr>
+        <tr><td class="de"><b>sich freuen auf</b></td><td class="de">Akkusativ &mdash; always</td>
+            <td>Ich freue mich <b>auf den Urlaub</b>.</td><td class="de">&nbsp;&#9888;  auf <em>den</em> Urlaub</td></tr>
+        <tr><td class="de"><b>achten auf</b></td><td class="de">Akkusativ &mdash; always</td>
+            <td>Achte <b>auf die Frist</b>!</td><td class="de">&nbsp;&#9888;  auf <em>der</em> Frist</td></tr>
+        <tr><td class="de"><b>sich verlassen auf</b></td><td class="de">Akkusativ &mdash; always</td>
+            <td>Ich verlasse mich <b>auf dich</b>.</td><td class="de">&nbsp;&#9888;  auf <em>dir</em></td></tr>
+        <tr><td class="de"><b>denken an</b></td><td class="de">Akkusativ &mdash; always</td>
+            <td>Ich denke <b>an dich</b>.</td><td class="de">&nbsp;&#9888;  an <em>dir</em></td></tr>
+        <tr><td class="de"><b>sich bewerben um</b></td><td class="de">Akkusativ &mdash; always</td>
+            <td>Ich bewerbe mich <b>um die Stelle</b>.</td><td class="de">&nbsp;&#9888;  um <em>der</em> Stelle</td></tr>
+        <tr><td class="de"><b>sich erinnern an</b></td><td class="de">Akkusativ &mdash; always</td>
+            <td>Ich erinnere mich <b>an den Termin</b>.</td><td class="de">&nbsp;&#9888;  an <em>dem</em> Termin</td></tr>
+        <tr><td class="de"><b>sich richten nach</b></td><td class="de">Dativ &mdash; always</td>
+            <td>Ich richte mich <b>nach deinem Rat</b>.</td><td class="de">&nbsp;&#9888;  nach <em>deinen</em> Rat</td></tr>
+        <tr><td class="de"><b>teilen</b> in + Akk</td><td class="de">Akkusativ &mdash; always</td>
+            <td>Ich teile <b>die Rechnung</b> <b>in drei Raten</b>.</td><td class="de">two accusatives, never mixed</td></tr>
+        <tr><td class="de"><b>teilen mit</b></td><td class="de">Dativ (person)</td>
+            <td>Ich teile <b>die Rechnung</b> <b>mit dir</b>.</td><td class="de">&nbsp;&#9888;  mit <em>dich</em></td></tr>
+      </tbody>
+    </table>
+
+    <p>How to recognise a fixed-case prepositional verb: the preposition cannot be replaced by a
+      synonym, and it cannot be exchanged for <em>mit</em>, <em>von</em> or <em>zu</em>. The only
+      thing that varies is the <em>content</em> of the phrase, never its case.</p>
+
+    <h3>The same preposition, two different cases</h3>
+    <p>Compare each fixed pair with the free <em>Wechselpr&auml;position</em> use. This is exactly
+      where A2 knowledge produces a B2 error:</p>
+    <table>
+      <thead><tr><th>Preposition</th><th>Bound to a verb (fixed case)</th><th>Free use (dative for position)</th><th>Free use (accusative for direction)</th></tr></thead>
+      <tbody>
+        <tr><td class="de"><b>auf</b></td><td class="de">warten <b>auf</b> + <b>Akk</b></td>
+            <td class="de">Das Buch liegt <b>auf dem</b> Tisch.</td><td class="de">Ich lege das Buch <b>auf den</b> Tisch.</td></tr>
+        <tr><td class="de"><b>an</b></td><td class="de">teilnehmen <b>an</b> + <b>Dat</b></td>
+            <td class="de">Das Bild h&auml;ngt <b>an der</b> Wand.</td><td class="de">Ich h&auml;nge das Bild <b>an die</b> Wand.</td></tr>
+        <tr><td class="de"><b>vor</b></td><td class="de">warnen <b>vor</b> + <b>Dat</b></td>
+            <td class="de">Ich stehe <b>vor dem</b> Haus.</td><td class="de">Ich stelle die Kiste <b>vor das</b> Haus.</td></tr>
+        <tr><td class="de"><b>&uuml;ber</b></td><td class="de">sich interessieren f&uuml;r + Akk (no free &uuml;ber); <b>reden &uuml;ber</b> + Akk</td>
+            <td class="de">Die Br&uuml;cke ist <b>&uuml;ber dem</b> Fluss.</td><td class="de">Ich gehe <b>&uuml;ber die</b> Br&uuml;cke.</td></tr>
+        <tr><td class="de"><b>in</b></td><td class="de">sich beteiligen <b>an</b> + Dat; <b>einladen in</b> + Akk</td>
+            <td class="de">Die Karte steckt <b>in der</b> Tasche.</td><td class="de">Ich stecke die Karte <b>in die</b> Tasche.</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Two complements, one sentence: the case stays visible</h3>
+    <p>A pronoun plus a <em>da</em>-compound shows both cases at once &mdash; useful for checking
+      your own sentences. Note which verb carries which case:</p>
+    <table>
+      <thead><tr><th>Full phrase (with case visible)</th><th>Pronoun phrase (case hidden in the verb)</th><th>Case of the thing</th></tr></thead>
+      <tbody>
+        <tr><td class="de">Ich warte <b>auf den Bus</b>.</td><td class="de">Ich warte <b>darauf</b>.</td><td class="de">Akkusativ</td></tr>
+        <tr><td class="de">Ich nehme <b>an der Sitzung</b> teil.</td><td class="de">Ich nehme <b>daran</b> teil.</td><td class="de">Dativ</td></tr>
+        <tr><td class="de">Ich freue mich <b>auf den Urlaub</b>.</td><td class="de">Ich freue mich <b>daraf</b>.</td><td class="de">Akkusativ</td></tr>
+        <tr><td class="de">Ich interessiere mich <b>f&uuml;r den Film</b>.</td><td class="de">Ich interessiere mich <b>daf&uuml;r</b>.</td><td class="de">Akkusativ</td></tr>
+        <tr><td class="de">Ich warne dich <b>vor dem Hund</b>.</td><td class="de">Ich warne dich <b>davor</b>.</td><td class="de">Dativ</td></tr>
+        <tr><td class="de">Ich danke dir <b>f&uuml;r die Hilfe</b>.</td><td class="de">Ich danke dir <b>daf&uuml;r</b>.</td><td class="de">Akkusativ</td></tr>
+        <tr><td class="de">Ich denke <b>an den Termin</b>.</td><td class="de">Ich denke <b>daran</b>.</td><td class="de">Akkusativ</td></tr>
+      </tbody>
+    </table>
+
+    <div class="tipbox">
+      <strong>Learn them in pairs.</strong> <em>warten auf</em> / <em>freuen auf</em> / <em>sich
+      interessieren f&uuml;r</em> / <em>sich bewerben um</em> &mdash; all accusative, all with
+      <em>darauf</em> / <em>daf&uuml;r</em>. <em>teilnehmen an</em> / <em>sich beteiligen an</em> /
+      <em>sich richten nach</em> &mdash; all dative, all with <em>daran</em> / <em>danach</em>.
+      The pronoun tells you the case even when you have forgotten the verb.
+    </div>
+
+    <h3>Word order: what the prepositional phrase does &mdash; and does not do</h3>
+    <p>A prepositional complement is a phrase, not a clause. It never turns the main clause into
+      a <em>Nebensatz</em>: the finite verb keeps position II, and the phrase simply goes wherever it
+      fits best.</p>
+    <table>
+      <thead><tr><th>Position of the phrase</th><th>Example</th><th>Effect on the finite verb</th></tr></thead>
+      <tbody>
+        <tr><td class="de">Ende (Nachfeld) &mdash; the neutral default</td><td>Ich rede <b>&uuml;ber den Vertrag</b> <b>mit meinem Chef</b>.</td>
+            <td class="de">none &mdash; <b>rede</b> stays in position II</td></tr>
+        <tr><td class="de">Mittelfeld, after the object</td><td>Ich danke <b>dir</b> <b>f&uuml;r deine gro&szlig;e Hilfe</b>.</td>
+            <td class="de">none &mdash; <b>danke</b> stays in position II</td></tr>
+        <tr><td class="de">Vorfeld (position I) &mdash; possible, marked</td><td><b>F&uuml;r deine Hilfe</b> danke ich dir.</td>
+            <td class="de">none &mdash; <b>danke</b> inverts to position II</td></tr>
+        <tr><td class="de">fronting a component, the whole phrase follows</td><td><b>Am Freitag</b> rede ich <b>mit dir &uuml;ber den Antrag</b>.</td>
+            <td class="de">none &mdash; only the fronted element moves</td></tr>
+        <tr><td class="de">with a <em>zu</em>-infinitiv after the PP</td><td>Ich freue mich <b>auf den Termin</b>, <b>mit dir</b> essen <b>zu</b> gehen.</td>
+            <td class="de">none &mdash; the infinitive clause keeps its own verb-last order</td></tr>
+        <tr><td class="de">in a relative clause</td><td>Das ist der Kollege, <b>mit dem ich &uuml;ber den Antrag</b> gesprochen <b>habe</b>.</td>
+            <td class="de">relative clause: <b>hatte</b> goes last, PP before it</td></tr>
+        <tr><td class="de">with a separable verb prefix</td><td>Ich nehme <b>an der Sitzung</b> <b>teil</b>.</td>
+            <td class="de"><b>nehme</b> stays in position II, <b>teil</b> closes the clause</td></tr>
+        <tr><td class="de">two PPs, one in each field</td><td>Ich rede <b>mit ihr &uuml;ber den Vertrag</b> und <b>danke dir f&uuml;r die Info</b>.</td>
+            <td class="de">none &mdash; both phrases follow the same rule</td></tr>
+        <tr><td class="de">as the subject &mdash; a different slot, not a complement</td><td><b>&Uuml;ber den Vertrag</b> rede ich <b>mit meinem Chef</b>.</td>
+            <td class="de">none &mdash; a fronted PP may replace the subject, verb follows</td></tr>
+      </tbody>
+    </table>
+
+    <div class="tipbox">
+      <strong>Where do two prepositions go?</strong> Both phrases together, usually in the
+      <em>Nachfeld</em> (<em>Ich entschuldige mich bei ihr f&uuml;r den Fehler</em>), or the first in
+      the <em>Mittelfeld</em> and the second at the end. What you should <em>not</em> do is split
+      them across the sentence and lose sight of a case: <em>Ich bedanke mich bei dir, und das
+      m&ouml;chte ich f&uuml;r die Hilfe tun</em> changes the meaning of <em>f&uuml;r</em> completely.
+    </div>
+
+    <h3>Do not confuse these</h3>
+    <table>
+      <thead><tr><th>Pair</th><th>Difference</th></tr></thead>
+      <tbody>
+        <tr><td class="de"><b>warten auf</b> + Akk &nbsp;vs.&nbsp; <b>warten bei</b> + Dat</td>
+            <td class="de">Two different verbs of waiting. <em>auf</em> = wait for a person or thing arriving (<em>Ich warte auf den Bus</em>); <em>bei</em> = be physically located somewhere (<em>Ich warte bei der Abholung</em>). Here the dative is correct &mdash; and it is a different preposition.</td></tr>
+        <tr><td class="de"><b>warten auf</b> + Akk &nbsp;vs.&nbsp; <b>Ich warte auf dem Bahnsteig</b></td>
+            <td class="de">Both are correct, in the same sentence even: <em>Ich warte auf dem Bahnsteig auf den Bus.</em> The first phrase is a free locative <em>Wechselpr&auml;position</em> (dative, position); the second belongs to the verb (accusative). One preposition, two cases, two different jobs.</td></tr>
+        <tr><td class="de"><b>sich bedanken bei</b> + Dat &nbsp;vs.&nbsp; <b>danken</b> + Dat</td>
+            <td class="de"><em>sich bedanken bei jdm. f&uuml;r etw.</em> names the recipient; plain <em>danken</em> does not use <em>bei</em>: <em>Ich danke dir f&uuml;r die Hilfe</em>, never <em>Ich danke bei dir</em>.</td></tr>
+        <tr><td class="de"><b>sich entschuldigen bei</b> + Dat &nbsp;vs.&nbsp; <b>entschuldigen f&uuml;r</b></td>
+            <td class="de"><em>bei</em> names the person you apologise to, <em>f&uuml;r</em> the matter you apologise for. <em>Ich entschuldige mich bei ihr f&uuml;r den Fehler</em> &mdash; both, in that order. <em>Entschuldigen f&uuml;r</em> alone means excusing someone in general.</td></tr>
+        <tr><td class="de"><b>reden &uuml;ber</b> + Akk &nbsp;vs.&nbsp; <b>sprechen von</b> + Dat</td>
+            <td class="de">Both name a topic. <em>&uuml;ber</em> + Akk is a concrete, defined subject matter; <em>von</em> + Dat is vaguer and often reports content (<em>Wir haben von einem Angebot geh&ouml;rt</em>). With <em>reden</em>, <em>von</em> + Dat needs a second dative with <em>mit</em>.</td></tr>
+        <tr><td class="de"><b>helfen bei</b> + Dat &nbsp;vs.&nbsp; <b>helfen mit</b> + Dat</td>
+            <td class="de"><em>bei</em> = help with a task or area (<em>Ich helfe dir bei der &Uuml;bersetzung</em>); <em>mit</em> = help with a tool or means (<em>Ich helfe dir mit der &Uuml;bersetzung</em>). Both dative, different meaning.</td></tr>
+        <tr><td class="de"><b>warnen vor</b> + Dat &nbsp;vs.&nbsp; <b>warnen</b> + <em>zu</em>-Infinitiv</td>
+            <td class="de"><em>warnen vor</em> warns against a thing (dative); <em>jemanden davor warnen, etwas zu tun</em> warns against an action: <em>Ich warne dich davor, das allein zu machen.</em></td></tr>
+        <tr><td class="de"><b>sich freuen auf</b> + Akk &nbsp;vs.&nbsp; <b>sich freuen &uuml;ber</b> + Akk</td>
+            <td class="de">Tense of the feeling, case identical. <em>auf</em> = something still ahead (<em>Ich freue mich auf den Urlaub</em>); <em>&uuml;ber</em> = something that has already happened (<em>Ich freue mich &uuml;ber deine Antwort</em>).</td></tr>
+        <tr><td class="de"><b>sich interessieren f&uuml;r</b> &nbsp;vs.&nbsp; <b>interessant f&uuml;r</b></td>
+            <td class="de">In the first, <em>f&uuml;r</em> belongs to the verb (accusative): <em>Ich interessiere mich f&uuml;r den Film</em>. In the second it is free: <em>Der Film ist interessant f&uuml;r mich</em> &mdash; accusative, because of the direction, even though the film is static.</td></tr>
+        <tr><td class="de"><b>teilnehmen an</b> + Dat &nbsp;vs.&nbsp; <b>teilen mit</b> + Dat</td>
+            <td class="de">Different verbs. <em>teilnehmen</em> is separable and takes dative (<em>an der Sitzung</em>); <em>teilen mit</em> shares something with a person and takes dative for that person (<em>mit dir</em>) plus an accusative thing.</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Summary</h3>
+    <table>
+      <thead><tr><th>You want to&hellip;</th><th>Use</th><th>Case pattern</th></tr></thead>
+      <tbody>
+        <tr><td class="de">discuss a topic with someone</td><td class="de">reden / sprechen mit + &uuml;ber (or von)</td><td class="de">Dat &bull; Akk (or Dat)</td></tr>
+        <tr><td class="de">thank or apologise formally</td><td class="de">sich bedanken / sich entschuldigen bei + f&uuml;r</td><td class="de">Dat &bull; Akk</td></tr>
+        <tr><td class="de">help with a task</td><td class="de">helfen + bei</td><td class="de">Dat &bull; Dat</td></tr>
+        <tr><td class="de">thank (everyday)</td><td class="de">danken + f&uuml;r</td><td class="de">Dat &bull; Akk</td></tr>
+        <tr><td class="de">warn against a danger</td><td class="de">warnen + vor</td><td class="de">Akk &bull; Dat</td></tr>
+        <tr><td class="de">request something</td><td class="de">bitten + um</td><td class="de">Akk &bull; Akk</td></tr>
+        <tr><td class="de">express a fixed preposition case</td><td class="de">warten auf, teilnehmen an, denken an, sich verlassen auf, achten auf, sich interessieren f&uuml;r, sich freuen auf</td><td class="de">fixed, never changes</td></tr>
+        <tr><td class="de">place or direct a thing in space</td><td class="de"><em>auf</em>, <em>an</em>, <em>in</em>, <em>&uuml;ber</em> on their own</td><td class="de">Akk for direction, Dat for position</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- ══ 2. EXAMPLES ══ -->
+  <section>
+    <h2>2 · 20 worked examples</h2>
+    <p><small>Each example marks the opener and closer in bold and explains what it does to the sentence.</small></p>
+    <div id="examples"></div>
+  </section>
+
+  <!-- ══ 3. EXERCISES ══ -->
+  <section>
+    <h2>3 · 100 exercises</h2>
+
+    <div class="noVoice" id="noVoice">
+      <b>Pronunciation unavailable.</b> This browser has no German speech voice installed, so the
+      speaker buttons will not play. In Chrome, Edge and Safari on a desktop, German is available by default.
+    </div>
+    <div id="quiz"></div>
+  </section>
+
+</div>
+
+<footer class="footer"><strong>Verbs with two prepositions and different cases</strong><span class="footer-dot">·</span><span>Roman Zajic</span></footer>
+
+<script>
+(function(){
+  "use strict";
+
+  var EXAMPLES = [
+    ["Ich <em>warte auf den Bus</em>. — I'm waiting for the bus.", "<em>warten auf</em> is fixed and always takes the accusative, however the sentence is arranged; <em>den Bus</em> is masculine accusative because the person is waiting <em>for</em> the bus, not <em>on</em> it."],
+    ["Sie <em>nimmt an dem Seminar</em> teil. — She's taking part in the seminar.", "<em>teilnehmen an</em> governs the dative, so feminine <em>das Seminar</em> appears as <em>dem Seminar</em>, and the separable prefix <em>teil</em> travels to the end and closes the clause."],
+    ["Der Verein <em>dankt seinem Sponsor f&uuml;r die Hilfe</em>. — The club thanks its sponsor for the help.", "<em>danken</em> pairs a dative person with a prepositional complement: masculine <em>der Sponsor</em> becomes <em>seinem Sponsor</em>, while the thing being thanked for stands in the accusative after <em>f&uuml;r</em> as <em>die Hilfe</em>."],
+    ["Ich <em>helfe dir bei der Aufgabe</em>. — I'll help you with the task.", "<em>helfen</em> takes a dative person and <em>bei</em> takes a dative thing, so both slots are dative: <em>dir</em> and <em>der Aufgabe</em>."],
+    ["Die &Auml;rztin <em>warnt dich vor dem Risiko</em>. — The doctor warns you about the risk.", "<em>warnen vor</em> = accusative person plus dative thing; neuter <em>das Risiko</em> turns into <em>dem Risiko</em>, never <em>vor das Risiko</em>."],
+    ["Ich <em>bitte Sie um Verst&auml;ndnis</em>. — I ask you for understanding.", "<em>bitten um</em> uses the accusative twice: <em>Sie</em> is the accusative person, <em>Verst&auml;ndnis</em> is the accusative thing after <em>um</em>."],
+    ["Ich <em>rede mit dir &uuml;ber den Plan</em>. — I'm talking to you about the plan.", "Two prepositions, two cases: <em>mit</em> + dative for the person (<em>dir</em>), <em>&uuml;ber</em> + accusative for the topic (<em>den Plan</em>). The English prepositions hide this difference completely."],
+    ["Ich <em>bedanke mich bei dir f&uuml;r deine Hilfe</em>. — I thank you for your help.", "<em>sich bedanken</em> is the reflexive form of the same pattern: <em>bei</em> + dative for the person thanked, <em>f&uuml;r</em> + accusative for the reason."],
+    ["Er <em>entschuldigt sich bei der Nachbarin wegen des L&auml;rms</em>. — He apologises to the neighbour for the noise.", "<em>sich entschuldigen</em> needs dative <em>bei</em> and genitive <em>wegen</em>: masculine <em>der L&auml;rm</em> becomes <em>des L&auml;rms</em>, and <em>wegen</em> is one of the few prepositions that still forces the genitive."],
+    ["Sie <em>bewirbt sich bei einer Bank um eine Stelle</em>. — She's applying to a bank for a position.", "Two prepositions in one frame with different requirements: <em>bei</em> + dative names the institution, <em>um</em> + accusative names the thing applied for."],
+    ["Ich <em>verlasse mich auf dich</em>. — I'm counting on you.", "Reflexive verbs of trust take the reflexive pronoun in the accusative (<em>mich</em>), and the prepositional complement <em>auf dich</em> is accusative as well — the case never depends on the subject's person."],
+    ["Wir <em>freuen uns auf das Konzert</em>. — We're looking forward to the concert.", "<em>sich freuen auf</em> is fixed accusative; the contrast pair <em>sich freuen &uuml;ber</em> also takes the accusative but describes joy about something that has already happened."],
+    ["Sie <em>interessiert sich f&uuml;r die Musiktheorie</em>. — She's interested in music theory.", "<em>sich interessieren f&uuml;r</em> is fixed accusative. With feminine <em>die Theorie</em> the article looks the same in nominative and accusative, so the case has to be carried by a following adjective: <em>eine interessante Regel</em> (accusative) vs <em>mit einer interessanten Regel</em> (dative after <em>mit</em>)."],
+    ["Der Sch&uuml;ler <em>achtet auf die Hausaufgaben</em>. — The pupil pays attention to his homework.", "<em>achten auf</em> is fixed accusative; with a plural noun like <em>die Hausaufgaben</em> nominative and accusative look identical, which is why the mistake only shows up in the singular."],
+    ["Wir <em>denken oft an unsere Lehrerin</em>. — We often think about our teacher.", "<em>denken an</em> takes the accusative, and the strong adjective ending <em>unsere</em> (not <em>unserer</em>) shows the case clearly."],
+    ["Ich <em>rechne mit deiner Unterst&uuml;tzung</em>. — I'm counting on your support.", "<em>rechnen mit</em> is dative, so feminine <em>die Unterst&uuml;tzung</em> appears as <em>deiner Unterst&uuml;tzung</em>; because English has no case here, the pattern has to be learned together with the verb."],
+    ["H&ouml;r bitte <em>mit dem Streit auf</em>. — Please stop arguing.", "<em>aufh&ouml;ren mit</em> governs the dative, so masculine <em>der Streit</em> becomes <em>dem Streit</em>, and the separable prefix <em>auf</em> goes to the end after the imperative."],
+    ["Wir <em>warten auf den Zug</em>. — We're waiting for the train.", "Hear the contrast: correct <em>auf den Zug</em> (accusative) means we are waiting for the train to arrive, while the dative <em>auf dem Zug</em> would mean that someone else is waiting on the train — the case tells you who is doing the waiting."],
+    ["Die Kinder <em>nehmen an dem Ausflug teil</em>. — The children are going on the excursion.", "The dative <em>an dem Ausflug</em> is the only correct form; the accusative <em>an den Ausflug</em> is a frequent English-influenced error even though the preposition looks identical in both languages."],
+    ["Mein Nachbar <em>warnt mich vor dem Hund</em>. — My neighbour warns me about the dog.", "The frame needs two different cases at once: accusative <em>mich</em> for the person warned and dative <em>dem Hund</em> after <em>vor</em>. <em>Warn mich vor den Hund</em> is wrong precisely because the second slot must be dative."]
+  ];
+
+  var DATA_URL = "../../data/grammar_exercises_zwei-praepositionen.json";
+  var STORE = "zwei_praepositionen_progress_v1";
+  // ── pronunciation via the browser speech engine ──
+  var MIC_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5z"></path>'
+    + '<path class="pulse" d="M15.5 8.5a5 5 0 0 1 0 7"></path>'
+    + '<path class="pulse" d="M18.5 5.5a9 9 0 0 1 0 13"></path></svg>';
+  var synth = window.speechSynthesis || null;
+  var germanVoice = null;
+
+  function stripTags(t){ return String(t).replace(/<[^>]*>/g,""); }
+
+  function pickVoice(){
+    if(!synth) return null;
+    var vs = synth.getVoices() || [];
+    germanVoice = vs.filter(function(v){ return /^de(-|_|$)/i.test(v.lang); })[0] || null;
+    return germanVoice;
+  }
+  if(synth){
+    pickVoice();
+    if(synth.addEventListener) synth.addEventListener("voiceschanged", pickVoice);
+  }
+
+  function stopSpeech(){ if(synth) try{ synth.cancel(); }catch(e){} }
+
+  var warned = false;
+  function noVoiceNotice(){
+    if(warned) return; warned = true;
+    var n = document.getElementById("noVoice");
+    if(n) n.style.display = "flex";
+  }
+  function micBtn(text, label){
+    var b = document.createElement("button");
+    b.className = "mic";
+    b.type = "button";
+    b.setAttribute("aria-pressed","false");
+    b.setAttribute("aria-label", (label||"Play") + ": " + stripTags(text));
+    b.title = "Play pronunciation";
+    b.innerHTML = MIC_SVG;
+    b.addEventListener("click", function(ev){
+      ev.stopPropagation();
+      if(!synth){ b.disabled = true; b.title = "Speech is not available in this browser"; noVoiceNotice(); return; }
+      if(b.getAttribute("aria-pressed")==="true"){ stopSpeech(); b.setAttribute("aria-pressed","false"); return; }
+      stopSpeech();
+      if(!germanVoice) pickVoice();
+      var u = new SpeechSynthesisUtterance(stripTags(text));
+      u.lang = "de-DE";
+      if(germanVoice) u.voice = germanVoice;
+      u.rate = 0.92; u.pitch = 1;
+      b.setAttribute("aria-pressed","true");
+      var off = function(){ b.setAttribute("aria-pressed","false"); };
+      u.onend = off;
+      u.onerror = function(){ off(); noVoiceNotice(); };
+      synth.speak(u);
+      // some engines report no voices at all; surface that instead of a dead button
+      if(!synth.getVoices().length) noVoiceNotice();
+    });
+    return b;
+  }
+
+  var state = {revealed:{}, answers:{}};
+
+  function esc(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
+  function load(){ try{ var v=JSON.parse(localStorage.getItem(STORE)); if(v&&typeof v==="object"){state.revealed=v.revealed||{};state.answers=v.answers||{};} }catch(e){} }
+  function save(){ try{ localStorage.setItem(STORE, JSON.stringify(state)); }catch(e){} }
+
+  // ---- examples ----
+  // Each entry is [german_and_english, why]. The first field carries the English
+  // translation after an em dash, so split it out for separate styling.
+  function splitDE(t){
+    var i = t.indexOf("\u2014");
+    if(i < 0) return [t, ""];
+    return [t.slice(0,i).trim(), t.slice(i+1).trim()];
+  }
+  (function renderExamples(){
+    var host = document.getElementById("examples");
+    host.innerHTML = "";
+    EXAMPLES.forEach(function(x){
+      var de = x[0] || "";
+      var why = x[1] || "";
+      var parts = splitDE(de);
+      var card = document.createElement("div");
+      card.className = "ex";
+
+      var row = document.createElement("div");
+      row.className = "microw";
+      var txt = document.createElement("div");
+      txt.className = "mtext";
+      txt.innerHTML = '<div class="de">'+parts[0]+'</div>'+
+                      (parts[1] ? '<div class="en">'+parts[1]+'</div>' : "");
+      row.appendChild(txt);
+      row.appendChild(micBtn(parts[0], "Play this example"));
+      card.appendChild(row);
+
+      if(why){
+        var w = document.createElement("div");
+        w.className = "why";
+        w.innerHTML = "<b>Why:</b> "+why;
+        card.appendChild(w);
+      }
+      host.appendChild(card);
+    });
+  })();
+
+  // German special letters, inserted at the caret in the focused input.
+  var KEYS = ["ä","ö","ü","Ä","Ö","Ü","ß","€"];
+
+  function insertAt(input, ch){
+    var v = input.value;
+    var a = input.selectionStart == null ? v.length : input.selectionStart;
+    var b = input.selectionEnd == null ? v.length : input.selectionEnd;
+    input.value = v.slice(0,a) + ch + v.slice(b);
+    var pos = a + ch.length;
+    try{ input.setSelectionRange(pos,pos); }catch(e){}
+    input.focus();
+  }
+
+  function keypadBtn(id){
+    var b = document.createElement("button");
+    b.type = "button";
+    b.className = "keybtn";
+    b.title = "German letters";
+    b.setAttribute("aria-label","Insert German special characters");
+    b.setAttribute("aria-expanded","false");
+    b.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true">'+
+      '<rect x="2" y="5" width="20" height="14" rx="2"></rect>'+
+      '<path d="M6 9h.01M10 9h.01M14 9h.01M18 9h.01M6 13h.01M10 13h.01M14 13h.01M18 13h.01M8 16h8"></path>'+
+      '</svg>';
+    b.addEventListener("click", function(ev){
+      ev.stopPropagation();
+      var panel = document.getElementById("pad-"+id);
+      if(!panel) return;
+      var open = panel.classList.toggle("open");
+      b.setAttribute("aria-expanded", open ? "true" : "false");
+      closeAllKeypads(panel);
+    });
+    return b;
+  }
+
+  function closeAllKeypads(except){
+    Array.prototype.forEach.call(document.querySelectorAll(".pad.open"), function(p){
+      if(p === except) return;
+      p.classList.remove("open");
+      var btn = p.previousSibling && p.previousSibling.querySelector ? p.previousSibling.querySelector(".keybtn") : null;
+      if(btn) btn.setAttribute("aria-expanded","false");
+    });
+  }
+
+  document.addEventListener("click", function(){ closeAllKeypads(null); });
+  document.addEventListener("keydown", function(e){ if(e.key === "Escape") closeAllKeypads(null); });
+
+  function renderQuiz(ex){
+    var el = document.getElementById("quiz");
+    el.innerHTML = "";
+    ex.forEach(function(e){
+      var rev = !!state.revealed[e.id];
+      var card = document.createElement("article");
+      card.className = "q" + (rev ? " revealed" : "");
+      card.id = "q"+e.id;
+
+      var top = document.createElement("div");
+      top.className = "qtop";
+      top.innerHTML = '<span class="qnum">'+e.id+'</span>';
+      var qt = document.createElement("span");
+      qt.className = "qtext";
+      qt.textContent = e.english;
+      top.appendChild(qt);
+      card.appendChild(top);
+
+      // input with the letter keypad docked inside its right edge
+      var row = document.createElement("div");
+      row.className = "inputrow";
+      var ta = document.createElement("input");
+      ta.type = "text";
+      ta.className = "ainput";
+      ta.placeholder = "Write the German here…";
+      ta.setAttribute("aria-label","Your German answer for exercise "+e.id);
+      ta.value = state.answers[e.id] || "";
+      ta.addEventListener("input", function(){ state.answers[e.id] = ta.value; save(); });
+      row.appendChild(ta);
+      row.appendChild(keypadBtn(e.id));
+      card.appendChild(row);
+
+      // the letter panel sits inside the card so it is never clipped
+      var pad = document.createElement("div");
+      pad.className = "pad";
+      pad.id = "pad-"+e.id;
+      KEYS.forEach(function(k){
+        var kb = document.createElement("button");
+        kb.type = "button";
+        kb.className = "padkey";
+        kb.textContent = k;
+        kb.addEventListener("click", function(ev){
+          ev.stopPropagation();
+          var target = card.querySelector(".ainput");
+          insertAt(target, k);
+          state.answers[e.id] = target.value;
+          save();
+        });
+        pad.appendChild(kb);
+      });
+      card.appendChild(pad);
+
+      // reveal / hide toggle
+      var rb = document.createElement("button");
+      rb.type = "button";
+      rb.className = "btn rev" + (rev ? " on" : "");
+      rb.textContent = rev ? "Hide answer" : "Reveal answer";
+      rb.setAttribute("aria-expanded", rev ? "true" : "false");
+      rb.addEventListener("click", function(){
+        state.revealed[e.id] = !state.revealed[e.id];
+        save();
+        renderQuiz(ex);
+      });
+      card.appendChild(rb);
+
+      if(rev){
+        var fb = document.createElement("div");
+        fb.className = "fb";
+
+        var ansRow = document.createElement("div");
+        ansRow.className = "microw ansrow";
+        var at = document.createElement("div");
+        at.className = "mtext";
+        at.textContent = e.german;
+        ansRow.appendChild(at);
+        ansRow.appendChild(micBtn(e.german, "Play the German answer"));
+        fb.appendChild(ansRow);
+
+        var wy = document.createElement("div");
+        wy.className = "why";
+        wy.textContent = e.why;
+        fb.appendChild(wy);
+
+        card.appendChild(fb);
+      }
+      el.appendChild(card);
+    });
+  }
+
+  load();
+
+  fetch(DATA_URL+"?cb="+Date.now())
+    .then(function(r){ if(!r.ok) throw new Error("HTTP "+r.status); return r.json(); })
+    .then(function(d){
+      var ex=d.exercises;
+      renderQuiz(ex);
+    })
+    .catch(function(e){
+      document.getElementById("quiz").innerHTML =
+        '<div class="q"><b>Could not load the exercises.</b><br>'+esc(e.message)+'</div>';
+    });
+})();
+</script>
+</body>
+</html>

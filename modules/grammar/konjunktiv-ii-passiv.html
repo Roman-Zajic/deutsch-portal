@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Passive in Konjunktiv II — Das Passiv im Konjunktiv II | Deutsch Lernen</title>
+<style>
+:root{
+  --font:"Segoe UI",system-ui,-apple-system,sans-serif;
+  --teal-900:#005A5A; --teal-700:#008282; --teal-400:#50C1C1; --teal-100:#95DFDB;
+  --amber:#E1A01E; --red:#C41E3A; --green:#1D7A4C;
+  --ink:#012D2C; --muted:#008282;
+  --page:#F0FAFA; --card:#FFF; --in:#F0FAFA; --border:#D0ECEB;
+  --shadow:0 1px 4px rgba(1,45,44,.10); --shadow-md:0 4px 14px rgba(1,45,44,.12);
+  --r:8px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font);font-size:16px;color:var(--teal-900);background:var(--page);
+  line-height:1.65;-webkit-font-smoothing:antialiased;
+  display:flex;flex-direction:column;min-height:100vh}
+
+.navbar{display:flex;align-items:center;gap:12px;height:48px;padding:0 14px;
+  background:var(--teal-900);border-bottom:1px solid rgba(149,223,219,.15);
+  position:sticky;top:0;z-index:100;flex-shrink:0}
+.brand-icon{display:flex;align-items:center;flex-shrink:0}
+.nav-pipe{width:1px;height:16px;background:rgba(149,223,219,.30);flex-shrink:0;margin:0 12px}
+.nav-brand-text{font-size:.95rem;font-weight:600;color:var(--teal-100);text-decoration:none;white-space:nowrap}
+.nav-actions{margin-left:auto;display:flex;align-items:center;gap:8px}
+.icon-btn{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;padding:0;
+  color:var(--teal-100);background:rgba(149,223,219,.12);border:1px solid rgba(149,223,219,.22);
+  border-radius:4px;cursor:pointer;transition:130ms;text-decoration:none;flex-shrink:0}
+.icon-btn:hover{background:rgba(149,223,219,.24);border-color:rgba(149,223,219,.45)}
+.btn-nav{display:inline-flex;align-items:center;justify-content:center;height:32px;padding:0 12px;
+  font-size:.78rem;font-weight:600;font-family:var(--font);color:var(--teal-100);text-decoration:none;
+  background:rgba(149,223,219,.12);border:1px solid rgba(149,223,219,.22);border-radius:4px;
+  transition:130ms;white-space:nowrap;flex-shrink:0}
+.btn-nav:hover{background:rgba(149,223,219,.24);border-color:rgba(149,223,219,.45)}
+@media (max-width:400px){.btn-nav{padding:0 9px;font-size:.74px;font-size:.74rem}}
+.icon-btn svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:2;
+  stroke-linecap:round;stroke-linejoin:round}
+@media (max-width:560px){.nav-brand-text{font-size:.85rem}}
+
+.wrap{max-width:860px;width:100%;margin:0 auto;padding:20px 16px 0;flex:1 0 auto}
+
+h1{font-size:1.5rem;line-height:1.3;margin:0 0 4px}
+h1 .de{display:block;font-size:1rem;color:var(--teal-700);font-weight:600;margin-top:2px}
+
+section{margin-bottom:30px}
+h2{font-size:1.05rem;margin-bottom:10px;padding-bottom:6px;border-bottom:2px solid var(--teal-400)}
+h3{font-size:.85rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;
+  color:var(--teal-700);margin:16px 0 8px}
+p{margin-bottom:10px}
+.lead{color:var(--ink)}
+small{color:var(--muted)}
+
+.rulebox{background:var(--in);border:1px solid var(--border);border-left:4px solid var(--teal-400);
+  border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.rulebox strong{color:var(--teal-700)}
+.warnbox{background:rgba(196,30,58,.05);border:1px solid rgba(196,30,58,.25);
+  border-left:4px solid var(--red);border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.warnbox strong{color:var(--red)}
+.tipbox{background:rgba(29,122,76,.06);border:1px solid rgba(29,122,76,.22);
+  border-left:4px solid var(--green);border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.tipbox strong{color:var(--green)}
+
+table{width:100%;border-collapse:collapse;margin:12px 0;font-size:.88rem;
+  table-layout:fixed}
+th,td{overflow-wrap:anywhere;word-break:normal;hyphens:auto}
+th,td{text-align:left;padding:7px 9px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--in);font-weight:700;font-size:.76rem;text-transform:uppercase;
+  letter-spacing:.04em;color:var(--teal-700)}
+td.de{color:var(--ink)}
+tr:last-child td{border-bottom:none}
+
+.mic{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;
+  padding:0;flex-shrink:0;vertical-align:middle;border-radius:50%;cursor:pointer;
+  color:var(--teal-700);background:rgba(80,193,193,.16);border:1px solid rgba(80,193,193,.45);
+  transition:130ms}
+.mic:hover{background:rgba(80,193,193,.34)}
+.mic:focus-visible{outline:2px solid var(--teal-700);outline-offset:2px}
+.mic svg{width:13px;height:13px;fill:none;stroke:currentColor;stroke-width:2;
+  stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.mic[aria-pressed="true"]{background:var(--teal-700);color:#fff;border-color:var(--teal-700)}
+.mic[aria-pressed="true"] .pulse{animation:pulse 1s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+.mic[disabled]{opacity:.45;cursor:not-allowed}
+.microw{display:flex;align-items:flex-start;gap:8px}
+.microw > .mtext{flex:1;min-width:0}
+.ex{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:12px 13px;
+  margin-bottom:9px;box-shadow:var(--shadow)}
+.ex .de{font-size:.98rem;color:var(--ink);margin-bottom:4px}
+.ex .de em{color:var(--teal-700);font-style:normal;font-weight:700;background:rgba(80,193,193,.20);
+  padding:0 3px;border-radius:2px}
+.ex .en{font-size:.84rem;color:var(--muted)}
+.ex .why{font-size:.82rem;color:var(--teal-700);margin-top:6px;padding-top:6px;
+  border-top:1px dotted var(--border)}
+.ex .why b{font-weight:700}
+
+/* ── EXERCISES ── */
+.btn{font-family:var(--font);font-size:.78rem;font-weight:600;cursor:pointer;
+  padding:6px 12px;border-radius:4px;border:1px solid var(--teal-400);
+  background:rgba(80,193,193,.14);color:var(--teal-700);transition:130ms;white-space:nowrap}
+.btn:hover{background:rgba(80,193,193,.28)}
+.btn.ghost{background:transparent;border-color:var(--border);color:var(--muted)}
+.btn.ghost:hover{border-color:var(--teal-400);color:var(--teal-700)}
+.noVoice{display:none;align-items:flex-start;gap:8px;margin-bottom:12px;padding:9px 12px;
+  background:rgba(225,160,30,.12);border:1px solid rgba(225,160,30,.4);border-radius:var(--r);
+  font-size:.83rem;color:#7A5000}
+.noVoice b{color:#7A5000}
+
+.q{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:12px 13px;
+  margin-bottom:10px;box-shadow:var(--shadow)}
+.q.revealed{border-color:var(--teal-400)}
+.q.correct{border-color:rgba(29,122,76,.5);background:rgba(29,122,76,.04)}
+.q.wrong{border-color:rgba(196,30,58,.45);background:rgba(196,30,58,.03)}
+.qtop{display:flex;gap:9px;align-items:flex-start;margin-bottom:9px}
+.qnum{flex-shrink:0;width:23px;height:23px;border-radius:50%;background:rgba(0,130,130,.10);
+  color:var(--teal-7);color:var(--teal-700);font-size:.7rem;font-weight:700;display:flex;
+  align-items:center;justify-content:center;margin-top:1px}
+.q.correct .qnum{background:rgba(29,122,76,.16);color:var(--green)}
+.q.wrong .qnum{background:rgba(196,30,58,.14);color:var(--red)}
+.inputrow{display:flex;align-items:stretch;gap:6px;position:relative}
+.ainput{flex:1;min-width:0;font-family:var(--font);font-size:.92rem;color:var(--ink);
+  background:var(--in);border:1px solid var(--border);border-radius:5px;padding:8px 32px 8px 11px;transition:130ms}
+.ainput:focus{outline:none;border-color:var(--teal-400);background:#fff;box-shadow:0 0 0 3px rgba(80,193,193,.16)}
+/* small keyboard icon, vertically centred at the right edge of the field */
+.keybtn{flex-shrink:0;width:28px;align-self:stretch;display:inline-flex;align-items:center;
+  justify-content:center;padding:0;cursor:pointer;border-radius:5px;
+  color:var(--teal-700);background:rgba(80,193,193,.16);border:1px solid rgba(80,193,193,.45);
+  transition:130ms}
+.keybtn:hover{background:rgba(80,193,193,.32)}
+.keybtn:focus-visible{outline:2px solid var(--teal-700);outline-offset:2px}
+.keybtn svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:1.7;
+  stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.keybtn[aria-expanded="true"]{background:var(--teal-700);color:#fff;border-color:var(--teal-700)}
+/* letter panel lives inside the card so no ancestor can clip it */
+.pad{display:none;flex-wrap:wrap;gap:5px;margin-top:7px;padding:8px;
+  background:var(--in);border:1px solid var(--border);border-radius:5px}
+.pad.open{display:flex}
+.padkey{font-family:var(--font);font-size:.92rem;font-weight:600;color:var(--teal-900);
+  background:var(--card);border:1px solid var(--border);border-radius:4px;
+  min-width:34px;height:32px;cursor:pointer;transition:130ms}
+.padkey:hover{background:var(--teal-400);border-color:var(--teal-400)}
+.padkey:focus-visible{outline:2px solid var(--teal-700);outline-offset:1px}
+.btn.rev{margin-top:8px}
+.btn.rev.on{background:rgba(0,90,90,.10);border-color:var(--teal-700)}
+.ansrow{margin:6px 0;padding:7px 9px;background:rgba(80,193,193,.09);border-radius:5px}
+.ansrow .mtext{font-size:.93rem}
+.qtext{font-size:.95rem;color:var(--ink);margin-bottom:9px;flex:1;min-width:0}
+
+.fb{margin-top:9px;padding-top:9px;border-top:1px dotted var(--border);font-size:.85rem}
+.fb .ans{font-weight:600;color:var(--teal-700);margin-bottom:4px}
+.fb .why{color:var(--muted)}
+
+details.fold{margin-bottom:9px;border:1px solid var(--border);border-radius:6px;background:var(--card)}
+details.fold > summary{padding:9px 12px;font-weight:600;font-size:.88rem;cursor:pointer;
+  color:var(--teal-900);list-style:none}
+details.fold > summary::-webkit-details-marker{display:none}
+details.fold > summary::before{content:"▸";color:var(--teal-700);transition:transform .15s;
+  display:inline-block;margin-right:5px}
+details.fold[open] > summary::before{transform:rotate(90deg)}
+details.fold .foldbody{padding:0 12px 11px;border-top:1px solid var(--border);padding-top:9px;
+  font-size:.9rem}
+
+.footer{position:sticky;bottom:0;z-index:50;width:100%;max-width:var(--wrapw,860px);
+  margin-inline:auto;border-top:1px solid var(--border);padding:10px 16px;background:var(--page);
+  display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:.78rem;color:var(--muted)}
+.footer strong{color:var(--teal-700)}
+.footer-dot{margin:0 10px;color:var(--border)}
+
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+  <a class="brand-icon" href="../../" aria-label="Deutsch Lernen home">
+    <svg width="24" height="17" viewBox="0 0 31 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0"  y="0"  width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="0"  width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="0"  width="9" height="6" rx="1.5" fill="#008282"/>
+      <rect x="0"  y="8"  width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="8"  width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="8"  width="9" height="6" rx="1.5" fill="#008282"/>
+      <rect x="0"  y="16" width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="16" width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="16" width="9" height="6" rx="1.5" fill="#E1A01E"/>
+    </svg>
+  </a>
+  <div class="nav-pipe"></div>
+  <a class="nav-brand-text" href="index.html">Grammar</a>
+  <div class="nav-actions">
+    <a class="btn-nav" href="index.html" title="All grammar topics">All topics</a>
+    <a class="icon-btn" href="../../" title="Back to all modules" aria-label="Back to all modules">
+      <svg viewBox="0 0 24 24"><path d="M3 12l9-9 9 9"></path><path d="M5 10v10h14V10"></path></svg>
+    </a>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <h1>Passive in Konjunktiv II<span class="de">Das Passiv im Konjunktiv II</span></h1>
+  
+  <!-- ══ 1. CONCEPT ══ -->
+  <section>
+    <h2>1 · The concept</h2>
+
+    <p class="lead">The <strong>Konjunktiv II passive</strong> reports a process that
+      should have happened but did not (<em>Das m&uuml;sste gemacht werden</em>), a process
+      that would happen under a condition (<em>Das w&uuml;rde gemacht werden</em>), or a
+      state that ought to obtain (<em>Das Fenster m&uuml;sste repariert sein</em>). Its whole
+      difficulty is one thing: in the passive the <em>werden</em> that builds the form is the
+      finite verb of the clause, and everything else is an infinitive standing in front of it.</p>
+
+    <div class="rulebox">
+      <strong>The rule in one line.</strong> Konjunktiv II passive = <em>modal in Konjunktiv II</em>
+      (or <em>w&uuml;rde</em>) in finite position &rarr; <em>Partizip II</em> &rarr;
+      <em>werden</em> / <em>sein</em> last. If a modal is added, the passive <em>werden</em>
+      is no longer the last word &mdash; the <strong>modal</strong> is, and the two infinitives
+      stand in the fixed order Partizip II &rarr; <em>werden</em> &rarr; <em>Modal</em>.
+    </div>
+
+    <h3>1 · The m&uuml;sste-passive: one infinitive, werden last</h3>
+    <p>The core form. A modal in Konjunktiv II takes the place of the ordinary finite verb,
+      and <em>werden</em> becomes an infinitive at the end of the clause. There is no
+      <em>zu</em> before the participle &mdash; the whole group is built without it.</p>
+    <table>
+      <thead><tr><th>Tense</th><th>Active</th><th>Konjunktiv II passive</th></tr></thead>
+      <tbody>
+        <tr><td class="de">Pr&auml;sens</td><td>Das muss gemacht werden.</td><td>—</td></tr>
+        <tr><td class="de">Pr&auml;sens, other modal</td><td>Der Antrag muss gepr&uuml;ft werden.</td><td>—</td></tr>
+        <tr><td class="de">Konjunktiv II</td><td>Ich muss das machen.</td><td><b>Das m&uuml;sste gemacht werden.</b></td></tr>
+        <tr><td class="de">Konjunktiv II</td><td>Der Antrag muss gepr&uuml;ft werden.</td><td><b>Der Antrag m&uuml;sste gepr&uuml;ft werden.</b></td></tr>
+        <tr><td class="de">Konjunktiv II</td><td>Man muss das melden.</td><td><b>Es m&uuml;sste gemeldet werden.</b></td></tr>
+      </tbody>
+    </table>
+
+    <div class="warnbox">
+      <strong>No <em>zu</em>, no <em>worden</em>, no second verb in final position.</strong>
+      &nbsp;✗ <em>Das m&uuml;sste zu machen werden</em> &nbsp; ✓ <em>Das m&uuml;sste gemacht werden</em><br>
+      &nbsp;✗ <em>Das m&uuml;sste gemacht worden werden</em> &nbsp; ✓ <em>Das m&uuml;sste gemacht werden</em>
+    </div>
+
+    <h3>2 · The w&uuml;rde-passive: one slot, two possibilities</h3>
+    <p>Instead of a modal you may use <em>w&uuml;rde</em> plus infinitive. It occupies the finite
+      slot, and because <em>werden</em> is the only remaining infinitive, the double-infinitive
+      rule does not kick in: <em>werden</em> still closes the clause.</p>
+    <table>
+      <thead><tr><th>Case</th><th>Form</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">no modal at all</td><td class="de">w&uuml;rde + Partizip II + werden</td><td><b>Das w&uuml;rde gemacht werden.</b></td></tr>
+        <tr><td class="de">no modal, negation</td><td class="de">w&uuml;rde + nicht + Partizip II + werden</td><td><b>Das w&uuml;rde nicht gemacht werden.</b></td></tr>
+        <tr><td class="de">a modal is also present</td><td class="de">w&uuml;rde + Partizip II + werden + Modal</td><td><b>Das w&uuml;rde gemacht werden m&uuml;ssen.</b></td></tr>
+        <tr><td class="de">Zustandspassiv with w&uuml;rde</td><td class="de">w&uuml;rde + Partizip II + sein</td><td><b>Das Fenster w&uuml;rde repariert sein.</b></td></tr>
+      </tbody>
+    </table>
+
+    <div class="tipbox">
+      <strong>Why the word order changes.</strong> <em>Das w&uuml;rde gemacht werden</em> has one
+      infinitive, so it behaves like a normal <em>w&uuml;rde</em> sentence and <em>werden</em> is last.
+      <em>Das w&uuml;rde gemacht werden m&uuml;ssen</em> has two infinitives &mdash; and two infinitives
+      in Konjunktiv II always form a double-infinitive group, which must end with the modal.
+    </div>
+
+    <h3>3 · The trap: w&uuml;rde &hellip; werden vs. w&uuml;rde werden &hellip;</h3>
+    <p>Ask one question: <em>how many infinitives are in the group?</em> One &rarr;
+      <em>werden</em> last. Two &rarr; the modal goes to the very end and the passive
+      <em>werden</em> moves into the middle. The position of <em>werden</em> is not fixed; the
+      number of infinitives is.</p>
+    <table>
+      <thead><tr><th>Number of infinitives</th><th>Finite verb</th><th>Infinitive group</th><th>Result</th></tr></thead>
+      <tbody>
+        <tr><td class="de">one: Partizip II + werden</td><td class="de">w&uuml;rde</td><td class="de">gemacht werden</td><td><b>Das w&uuml;rde gemacht werden.</b></td></tr>
+        <tr><td class="de">two: Partizip II + werden + Modal</td><td class="de">w&uuml;rde</td><td class="de">gemacht werden m&uuml;ssen</td><td><b>Das w&uuml;rde gemacht werden m&uuml;ssen.</b></td></tr>
+        <tr><td class="de">two, wrong order</td><td class="de">w&uuml;rde</td><td class="de">m&uuml;ssen gemacht werden</td><td><b>&nbsp;&times;&nbsp; Das w&uuml;rde m&uuml;ssen gemacht werden.</b></td></tr>
+        <tr><td class="de">two, modal in finite slot</td><td class="de">m&uuml;sste</td><td class="de">gemacht werden</td><td><b>Das m&uuml;sste gemacht werden.</b></td></tr>
+      </tbody>
+    </table>
+
+    <div class="rulebox">
+      <strong>One finite verb, one fixed end.</strong> The clause has exactly one finite verb. It
+      either <em>is</em> a modal (<em>Das m&uuml;sste gemacht werden</em>) or it <em>is</em>
+      <em>w&uuml;rde</em> (<em>Das w&uuml;rde gemacht werden m&uuml;ssen</em>). You never get both in the
+      finite slot, and the passive <em>werden</em> is never the word that ends the sentence when
+      a modal is there.
+    </div>
+
+    <h3>4 · Modals in Konjunktiv II: form and w&uuml;rde-equivalent</h3>
+    <table>
+      <thead><tr><th>Modal</th><th>Pr&auml;sens</th><th>Konjunktiv II</th><th>w&uuml;rde-form</th><th>Passive in Konjunktiv II</th></tr></thead>
+      <tbody>
+        <tr><td class="de">m&uuml;ssen</td><td class="de">muss</td><td class="de">m&uuml;sste</td><td class="de">w&uuml;rde … m&uuml;ssen</td><td>Das m&uuml;sste gemacht werden.</td></tr>
+        <tr><td class="de">k&ouml;nnen</td><td class="de">kann</td><td class="de">k&ouml;nnte</td><td class="de">w&uuml;rde … k&ouml;nnen</td><td>Das k&ouml;nnte bezahlt werden.</td></tr>
+        <tr><td class="de">d&uuml;rfen</td><td class="de">darf</td><td class="de">d&uuml;rfte</td><td class="de">w&uuml;rde … d&uuml;rfen</td><td>Es d&uuml;rfte nicht geraucht werden.</td></tr>
+        <tr><td class="de">sollen</td><td class="de">soll</td><td class="de">sollte</td><td class="de">w&uuml;rde … sollen</td><td>Das sollte vereinbart werden.</td></tr>
+        <tr><td class="de">wollen</td><td class="de">will</td><td class="de">wollte</td><td class="de">w&uuml;rde … wollen</td><td>Das wollte vermieden werden.</td></tr>
+        <tr><td class="de">m&ouml;gen</td><td class="de">mag</td><td class="de">m&ouml;chte</td><td class="de">w&uuml;rde … m&ouml;gen</td><td>—</td></tr>
+      </tbody>
+    </table>
+
+    <h3>5 · The w&uuml;rde-substitute in subordinate clauses</h3>
+    <p>In a <em>Nebensatz</em> the modal goes to the end anyway, so the elegant solution is to keep
+      the real modal and let it be the last word. <em>W&uuml;rde</em> as a modal replacement is then
+      unnecessary &mdash; and in careful style it is avoided, because <em>w&uuml;rde</em> weakens the
+      meaning towards a hypothetical.</p>
+    <table>
+      <thead><tr><th>Position</th><th>Preferred (modal last)</th><th>Possible but flatter</th></tr></thead>
+      <tbody>
+        <tr><td class="de">subordinate clause, active</td><td>…, <b>weil er das machen m&uuml;sste</b>.</td><td>…, weil er das machen w&uuml;rde.</td></tr>
+        <tr><td class="de">subordinate clause, passive</td><td>…, <b>weil es gemacht werden m&uuml;sste</b>.</td><td>…, weil es gemacht werden w&uuml;rde.</td></tr>
+        <tr><td class="de">subordinate clause, Perfekt</td><td>…, <b>weil es h&auml;tte gemacht werden m&uuml;ssen</b>.</td><td>…, weil es w&uuml;rde haben machen m&uuml;ssen.</td></tr>
+        <tr><td class="de">main clause</td><td><b>Das m&uuml;sste gemacht werden</b>, sonst ist der Termin weg.</td><td><b>Das w&uuml;rde gemacht werden</b>, sonst ist der Termin weg.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="tipbox">
+      <strong>Asking for advice is the exception.</strong> <em>Ich w&uuml;rde das machen. &mdash; What
+      would you do?</em> The <em>w&uuml;rde</em> here is a genuine polite question form, not a mood
+      marker, so no <em>m&ouml;chte</em> is needed.
+    </div>
+
+    <h3>6 · Perfekt passive in Konjunktiv II</h3>
+    <p>The past layer appears in front: <em>h&auml;tte</em> (or <em>w&auml;re</em> for
+      <em>sein</em>) plus <em>worden</em> &mdash; and the <em>sein</em>/<em>haben</em> of the Perfekt
+      becomes <em>geworden</em>, not <em>gewesen</em>. With a modal the <em>worden</em> disappears
+      and the double infinitive is completed by the modal.</p>
+    <table>
+      <thead><tr><th>Pr&auml;sens Perfekt</th><th>Konjunktiv II Perfekt</th><th>Note</th></tr></thead>
+      <tbody>
+        <tr><td>Das ist gemacht worden.</td><td><b>Das w&auml;re gemacht worden.</b></td><td class="de">no modal: <em>worden</em> closes the group</td></tr>
+        <tr><td>Das ist gemacht worden.</td><td><b>Das h&auml;tte gemacht werden m&uuml;ssen.</b></td><td class="de">with modal: no <em>worden</em>, modal last</td></tr>
+        <tr><td>Das ist bezahlt worden.</td><td><b>Das w&uuml;rde bezahlt worden sein.</b></td><td class="de"><em>w&uuml;rde</em> variant of the first row</td></tr>
+        <tr><td>Das ist bezahlt worden.</td><td><b>Das h&auml;tte bezahlt werden m&uuml;ssen.</b></td><td class="de">double infinitive, both parts inflected-looking</td></tr>
+        <tr><td>Die Akte ist abgelegt worden.</td><td><b>Die Akte h&auml;tte abgelegt werden m&uuml;ssen.</b></td><td class="de">separable prefix stays with the participle</td></tr>
+      </tbody>
+    </table>
+
+    <h3>7 · Indirect speech in the Konjunktiv II passive</h3>
+    <p>Reported speech uses <em>dass</em> (never <em>da&szlig;</em>) and keeps the passive, so the
+      reported statement ends in <em>werden</em> or in the modal.</p>
+    <table>
+      <thead><tr><th>Direct</th><th>Indirect</th><th>End position</th></tr></thead>
+      <tbody>
+        <tr><td>Es muss gemacht werden.</td><td>Er sagte, <b>es m&uuml;sse gemacht werden</b>.</td><td class="de">werden last</td></tr>
+        <tr><td>Der Antrag muss gepr&uuml;ft werden.</td><td>Sie meinte, <b>der Antrag m&uuml;sste gepr&uuml;ft werden</b>.</td><td class="de">werden last</td></tr>
+        <tr><td>Die Fenster m&uuml;ssen repariert werden.</td><td>Er sagte, <b>die Fenster m&uuml;ssten repariert werden</b>.</td><td class="de">plural modal, then werden</td></tr>
+        <tr><td>Die Fenster m&uuml;ssen repariert werden.</td><td>Er sagte, <b>die Fenster m&uuml;ssten repariert werden m&uuml;ssen</b>.</td><td class="de">double infinitive, modal last</td></tr>
+        <tr><td>Das ist nicht fertig geworden.</td><td>Sie fand, <b>das w&auml;re nicht fertig geworden</b>.</td><td class="de">Perfekt, <em>worden</em> last</td></tr>
+      </tbody>
+    </table>
+
+    <h3>8 · Zustandspassiv in Konjunktiv II</h3>
+    <p>The state passive names a <em>result</em>, not an event, so it is built with
+      <em>sein</em> and contains no <em>werden</em> and no <em>zu</em>. It is the natural form for
+      criticism, obligations and states that should hold.</p>
+    <table>
+      <thead><tr><th>Type</th><th>Pr&auml;sens</th><th>Konjunktiv II</th></tr></thead>
+      <tbody>
+        <tr><td class="de">Vorgangspassiv</td><td>Das Fenster wird repariert.</td><td><b>Das Fenster m&uuml;sste repariert werden.</b></td></tr>
+        <tr><td class="de">Zustandspassiv</td><td>Das Fenster ist repariert.</td><td><b>Das Fenster m&uuml;sste repariert sein.</b></td></tr>
+        <tr><td class="de">Zustandspassiv, w&uuml;rde</td><td>—</td><td><b>Das Fenster w&uuml;rde repariert sein.</b></td></tr>
+        <tr><td class="de">Zustandspassiv Perfekt</td><td>Das Fenster ist repariert gewesen.</td><td><b>Das Fenster w&auml;re repariert gewesen sein.</b></td></tr>
+        <tr><td class="de">Zustandspassiv, Negation</td><td>Die Rechnung ist nicht bezahlt.</td><td><b>Die Rechnung m&uuml;sste bezahlt sein.</b></td></tr>
+      </tbody>
+    </table>
+
+    <div class="rulebox">
+      <strong>Agentless passive + Konjunktiv II.</strong> If nobody needs to be named, the
+      sentence simply drops the agent and the modal carries the judgement:
+      <em>Das m&uuml;sste l&auml;ngst erledigt sein.</em> Here <em>sein</em> closes the clause
+      because the state passive has no <em>werden</em> at all.
+    </div>
+
+    <h3>9 · Do not confuse these: passive <em>werden</em> vs. full verb <em>werden</em></h3>
+    <p>Both forms are spelled <em>werden</em> and both appear in the same slot. The difference is
+      purely structural: passive <em>werden</em> is followed by a <em>Partizip II</em>, full
+      <em>werden</em> is followed by an adjective or a noun phrase. In the Konjunktiv II passive the
+      <em>werden</em> loses its finite form and becomes an infinitive, which is the clearest proof
+      that it is only a grammatical tool there.</p>
+    <table>
+      <thead><tr><th>Feature</th><th>Passive <em>werden</em> (Hilfsverb)</th><th>Full verb <em>werden</em> (to become)</th></tr></thead>
+      <tbody>
+        <tr><td class="de">Pr&auml;sens, 3. sg.</td><td>Er <b>wird</b> gearbeitet. (passive, no agent)</td><td>Er <b>wird</b> krank. (change of state)</td></tr>
+        <tr><td class="de">what follows</td><td class="de">Partizip II</td><td class="de">adjective / noun / werden + adj.</td></tr>
+        <tr><td class="de">Konjunktiv II, own form</td><td class="de">none &mdash; it is replaced by w&uuml;rde + Infinitiv</td><td>Er <b>w&uuml;rde</b> krank.</td></tr>
+        <tr><td class="de">with a modal</td><td>Das m&uuml;sste <b>gemacht werden</b>.</td><td>Er m&uuml;sste <b>krank werden</b>.</td></tr>
+        <tr><td class="de">infinitive form</td><td class="de">werden (identical, but reclassified)</td><td class="de">werden (same word)</td></tr>
+        <tr><td class="de">Perfekt</td><td>Es ist <b>gemacht worden</b>.</td><td>Er ist <b>krank geworden</b>.</td></tr>
+        <tr><td class="de">test question</td><td class="de">Can I insert <em>von</em> + person? then it is passive</td><td class="de">Does it answer &ldquo;become X&rdquo;? then it is the full verb</td></tr>
+      </tbody>
+    </table>
+
+    <div class="warnbox">
+      <strong>Two traps in one sentence.</strong> <em>Er w&uuml;rde krank werden</em> uses the full
+      verb (<em>w&uuml;rde</em> &rarr; <em>werden</em>), while <em>Er w&uuml;rde gearbeitet werden</em> is not
+      German at all &mdash; the passive and <em>werden</em> as a full verb cannot be mixed. Say
+      <em>Er w&uuml;rde zur&uuml;ckgerufen werden</em> if you mean the passive.
+    </div>
+
+    <h3>10 · Build order: how to assemble the form</h3>
+    <table>
+      <thead><tr><th>Step</th><th>Question</th><th>Example in progress</th></tr></thead>
+      <tbody>
+        <tr><td class="de">1</td><td class="de">Vorgang or Zustand?</td><td>Zustand &rarr; <em>sein</em>; Vorgang &rarr; <em>werden</em></td></tr>
+        <tr><td class="de">2</td><td class="de">Which modal, and which form?</td><td class="de">m&uuml;ssen &rarr; m&uuml;sste / w&uuml;rde</td></tr>
+        <tr><td class="de">3</td><td class="de">Which tense layer?</td><td class="de">present: m&uuml;sste &nbsp;&middot;&nbsp; Perfekt: h&auml;tte … m&uuml;ssen</td></tr>
+        <tr><td class="de">4</td><td class="de">Partizip II of the action verb</td><td>gemacht</td></tr>
+        <tr><td class="de">5</td><td class="de">Passiv-Hilfsverb (infinitive)</td><td>werden / sein</td></tr>
+        <tr><td class="de">6</td><td class="de">Modal present?</td><td class="de">no &rarr; stop at 5; yes &rarr; continue to 7</td></tr>
+        <tr><td class="de">7</td><td class="de">Modal in the base form, absolutely last</td><td>m&uuml;ssen / k&ouml;nnen / d&uuml;rfen</td></tr>
+        <tr><td class="de">8</td><td class="de">Finite verb back to its slot</td><td>Das &nbsp;·&nbsp; m&uuml;sste &nbsp;·&nbsp; gemacht &nbsp;·&nbsp; werden &nbsp;·&nbsp; m&uuml;ssen</td></tr>
+      </tbody>
+    </table>
+
+    <h3>11 · Word order: what the construction does</h3>
+    <table>
+      <thead><tr><th>Context</th><th>Where the finite verb stands</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">main clause, one infinitive</td><td class="de">position II, <em>werden</em> last</td><td><b>Das m&uuml;sste</b> gemacht <b>werden</b>.</td></tr>
+        <tr><td class="de">main clause, two infinitives</td><td class="de">position II, modal last</td><td><b>Das w&uuml;rde</b> gemacht werden <b>m&uuml;ssen</b>.</td></tr>
+        <tr><td class="de">subordinate clause</td><td class="de">last, after all infinitives</td><td>…, weil es gemacht werden <b>m&uuml;sste</b>.</td></tr>
+        <tr><td class="de">Perfekt, no modal</td><td class="de">position II, <em>worden</em> last</td><td><b>Das w&auml;re</b> gemacht <b>worden</b>.</td></tr>
+        <tr><td class="de">Perfekt with modal</td><td class="de">position II, modal last</td><td><b>Das h&auml;tte</b> gemacht werden <b>m&uuml;ssen</b>.</td></tr>
+        <tr><td class="de">Zustandspassiv</td><td class="de">position II, <em>sein</em> last</td><td><b>Das Fenster m&uuml;sste</b> repariert <b>sein</b>.</td></tr>
+        <tr><td class="de">yes/no question</td><td class="de">finite verb in position I</td><td><b>M&uuml;sste</b> das gemacht werden?</td></tr>
+        <tr><td class="de">with negation</td><td class="de">negation between finite verb and participle</td><td>Das m&uuml;sste <b>nicht</b> gemacht werden.</td></tr>
+        <tr><td class="de">ob-clause</td><td class="de">order unchanged, verb still last</td><td>Es ist unklar, <b>ob</b> es gemacht werden <b>m&uuml;sste</b>.</td></tr>
+      </tbody>
+    </table>
+
+    <h3>12 · Full paradigm: Pr&auml;sens and Konjunktiv II side by side</h3>
+    <table>
+      <thead><tr><th>Type</th><th>Pr&auml;sens</th><th>Konjunktiv II (with modal)</th><th>Konjunktiv II (with w&uuml;rde)</th></tr></thead>
+      <tbody>
+        <tr><td class="de">aktiv</td><td>Man muss das Fenster reparieren.</td><td>Das Fenster m&uuml;sste man reparieren. / Ich m&uuml;sste das reparieren.</td><td>Ich w&uuml;rde das reparieren.</td></tr>
+        <tr><td class="de">Vorgangspassiv</td><td>Das Fenster muss repariert werden.</td><td>Das Fenster m&uuml;sste repariert <b>werden</b>.</td><td>Das Fenster w&uuml;rde repariert <b>werden</b>.</td></tr>
+        <tr><td class="de">Vorgangspassiv + Modal</td><td>Das Fenster muss heute repariert werden.</td><td>Das Fenster m&uuml;sste heute repariert werden <b>m&uuml;ssen</b>.</td><td>Das Fenster w&uuml;rde heute repariert werden <b>m&uuml;ssen</b>.</td></tr>
+        <tr><td class="de">unpers&ouml;nliches Passiv</td><td>Hier wird gearbeitet.</td><td>Hier m&uuml;sste gearbeitet <b>werden</b>.</td><td>Hier w&uuml;rde gearbeitet <b>werden</b>.</td></tr>
+        <tr><td class="de">unpers&ouml;nliches Passiv Perfekt</td><td>Hier ist gearbeitet worden.</td><td>Hier w&auml;re gearbeitet <b>worden</b>. / Hier h&auml;tte gearbeitet werden <b>m&uuml;ssen</b>.</td><td>Hier w&uuml;rde gearbeitet worden <b>sein</b>.</td></tr>
+        <tr><td class="de">Zustandspassiv</td><td>Das Fenster ist repariert.</td><td>Das Fenster m&uuml;sste repariert <b>sein</b>.</td><td>Das Fenster w&uuml;rde repariert <b>sein</b>.</td></tr>
+        <tr><td class="de">Zustandspassiv Perfekt</td><td>Das Fenster ist repariert gewesen.</td><td>Das Fenster w&auml;re repariert gewesen <b>sein</b>.</td><td>—</td></tr>
+        <tr><td class="de">Vorgangspassiv Perfekt</td><td>Das Fenster ist repariert worden.</td><td>Das Fenster h&auml;tte repariert werden <b>m&uuml;ssen</b>.</td><td>Das Fenster w&uuml;rde repariert worden <b>sein</b>.</td></tr>
+      </tbody>
+    </table>
+
+    <h3>13 · Do not confuse these: near neighbours</h3>
+    <table>
+      <thead><tr><th>Pair</th><th>Difference</th></tr></thead>
+      <tbody>
+        <tr><td class="de">Vorgangspassiv vs. Zustandspassiv</td><td class="de"><em>wird repariert</em> = the repair is going on; <em>ist repariert</em> = the result exists. Hence <em>werden</em> vs. <em>sein</em> in both tenses.</td></tr>
+        <tr><td class="de">passives werden vs. full verb werden</td><td class="de">Partizip II after it = passive; adjective after it = full verb. <em>Er wird gearbeitet</em> vs. <em>Er wird krank</em>.</td></tr>
+        <tr><td class="de">m&uuml;sste-passive vs. w&uuml;rde-passive (no modal)</td><td class="de">Same word order, different force: <em>Das m&uuml;sste gemacht werden</em> demands it; <em>Das w&uuml;rde gemacht werden</em> only states a hypothetical.</td></tr>
+        <tr><td class="de">w&uuml;rde-passive with and without a modal</td><td class="de">One infinitive: <em>Das w&uuml;rde gemacht werden</em>. Two: the order flips and the modal goes last &mdash; <em>Das w&uuml;rde gemacht werden m&uuml;ssen</em>.</td></tr>
+        <tr><td class="de">m&uuml;sste-passive vs. Zustandspassiv</td><td class="de"><em>Das m&uuml;sste gemacht werden</em> criticises the missing action; <em>Das m&uuml;sste gemacht sein</em> states the missing result.</td></tr>
+        <tr><td class="de">werden vs. sein in the Perfekt</td><td class="de">Vorgang: <em>ist … geworden</em> (never <em>gewesen</em>). Zustand: <em>ist … gewesen</em>.</td></tr>
+        <tr><td class="de">unpers&ouml;nliches Passiv vs. Vorgangspassiv with von</td><td class="de">The impersonal form leaves the agent out (<em>Hier wird gearbeitet</em>); a <em>von</em>-phrase is only possible in the Vorgangspassiv.</td></tr>
+        <tr><td class="de">dass vs. da&szlig;</td><td class="de">Only the reformed spelling <em>dass</em> is correct; <em>da&szlig;</em> is pre-1996 orthography.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="rulebox">
+      <strong>Summary.</strong> Pick Vorgang (<em>werden</em>) or Zustand (<em>sein</em>), pick the
+      modal in Konjunktiv II (<em>m&uuml;sste</em>) or <em>w&uuml;rde</em>, drop the Partizip II
+      behind it, then let <em>werden</em>/<em>sein</em> close the clause &mdash; unless a modal is
+      also there, in which case the modal is the word that closes the clause.
+    </div>
+  </section>
+
+  <!-- ══ 2. EXAMPLES ══ -->
+  <section>
+    <h2>2 · 20 worked examples</h2>
+    <p><small>Each example marks the opener and closer in bold and explains what it does to the sentence.</small></p>
+    <div id="examples"></div>
+  </section>
+
+  <!-- ══ 3. EXERCISES ══ -->
+  <section>
+    <h2>3 · 100 exercises</h2>
+
+    <div class="noVoice" id="noVoice">
+      <b>Pronunciation unavailable.</b> This browser has no German speech voice installed, so the
+      speaker buttons will not play. In Chrome, Edge and Safari on a desktop, German is available by default.
+    </div>
+    <div id="quiz"></div>
+  </section>
+
+</div>
+
+<footer class="footer"><strong>Passive in Konjunktiv II</strong><span class="footer-dot">·</span><span>Roman Zajic</span></footer>
+
+<script>
+(function(){
+  "use strict";
+
+  var EXAMPLES = [
+    ["Der Antrag <em>m&uuml;sste</em> heute noch <em>eingereicht werden</em>. — The application should really be submitted today.", "Modal in Konjunktiv II without w&uuml;rde: the modal <em>m&uuml;sste</em> is finite and sits in position II, and the passive infinitive group <em>eingereicht werden</em> closes the clause. Crucially there is no <em>zu</em> before the participle &ndash; the modal already carries the zu, so it is simply dropped."],
+    ["Die Zahlen <em>m&uuml;ssten</em> vor dem Abschluss noch <em>gepr&uuml;ft werden</em>. — The figures should still be checked before closing.", "Plural <em>m&uuml;ssten</em> in position II, then object, then the two-part infinitive group as one block at the end. The verbal bracket is opened by the subject and closed by <em>werden</em>, which is always the last element."],
+    ["Die Kosten <em>d&uuml;rften</em> in diesem Jahr <em>nicht gesenkt werden</em>. — Costs should not be reduced this year.", "<em>d&uuml;rften</em> is the Konjunktiv II form of d&uuml;rfen (d&uuml;rfte would be Indikativ). The negation <em>nicht</em> stands in the middle field in front of the infinitive group and does not change the position of <em>werden</em>."],
+    ["Der Brief <em>m&uuml;sste</em> noch <em>von der Chefin unterschrieben werden</em>. — The letter should really be signed by the boss.", "The agent appears in a <em>von</em>-phrase inside the middle field; because the modal is already finite, the passive is simply modal + participle + <em>werden</em>, never modal + <em>zu</em> + participle."],
+    ["Das Formular <em>m&uuml;sste</em> <em>vollst&auml;ndig ausgef&uuml;llt werden</em>. — The form should be filled in completely.", "Two participles (<em>vollst&auml;ndig</em> as adverb, <em>ausgef&uuml;llt</em> as participle) both belong to the participle slot; <em>werden</em> remains the very last word of the clause."],
+    ["Die Rechnung <em>w&uuml;rde</em> <em>sofort bezahlt werden</em>. — The invoice would be paid immediately.", "With w&uuml;rde there is only ONE infinitive group, because the hypothetical is now carried by <em>w&uuml;rde</em> in position II; the participle plus <em>werden</em> follows. Note that <em>werden</em> is still last, and no <em>zu</em> appears."],
+    ["Das Angebot <em>w&uuml;rde</em> <em>wohl schriftlich best&auml;tigt werden</em>. — The offer would presumably be confirmed in writing.", "The unstressed particle <em>wohl</em> sits in the middle field behind the finite verb, and the whole infinitive group <em>schriftlich best&auml;tigt werden</em> is pushed to the end as one inseparable block, with <em>werden</em> last."],
+    ["An dem Projekt <em>w&uuml;rde</em> <em>hart gearbeitet werden</em>. — Hard work would be put into the project.", "<em>gearbeitet werden</em> is a full verbal phrase, so it behaves like one word: preposition and subject first, <em>w&uuml;rde</em> in position II, <em>hart gearbeitet</em> at the very end."],
+    ["Er <em>wird</em> morgen <em>operiert</em>. — He is going to be operated on tomorrow.", "Here <em>werden</em> is the full verb <em>werden</em> (to be done to somebody), not the passive auxiliary: compare <em>Er wird krank</em> (he is getting ill, no participle at all). In Konjunktiv II the same sentence is <em>Er w&uuml;rde morgen operiert</em>."],
+    ["Die Zahlen <em>h&auml;tten</em> <em>gepr&uuml;ft werden m&uuml;ssen</em>. — The figures should have had to be checked.", "The heart of the topic: a modal in the infinitive group turns the clause into a DOUBLE INFINITIVE, and the order is participle &ndash; <em>werden</em> &ndash; modal. The modal <em>m&uuml;ssen</em> is absolutely last. <em>Das h&auml;tten m&uuml;ssen gepr&uuml;ft werden</em> would be the classic learner error."],
+    ["Das h&auml;tte <em>gemacht werden m&uuml;ssen</em>. — That should have had to be done.", "Same double-infinitive order in the simplest possible shape: <em>h&auml;tte</em> in position II, then <em>gemacht</em> + <em>werden</em> + <em>m&uuml;ssen</em> as a three-word chain. The agent is irrelevant, which is why the passive is used at all."],
+    ["Der Antrag h&auml;tte <em>rechtzeitig gestellt werden m&uuml;ssen</em>. — The application should have had to be submitted on time.", "Perfekt of Konjunktiv II (<em>h&auml;tte</em> + participle) with a modal still yields three infinitives at the end; the modal keeps the final slot even though a <em>hatte</em> form is already present."],
+    ["Die Fenster h&auml;tten <em>vor dem Winter ausgetauscht werden sollen</em>. — The windows should have had to be replaced before winter.", "Double infinitive with a modal other than m&uuml;ssen: <em>sollen</em> closes the chain just as <em>m&uuml;ssen</em> does. The temporal phrase <em>vor dem Winter</em> stays in the middle field and never enters the cluster."],
+    ["Die Rechnung <em>m&uuml;sste</em> <em>bezahlt sein</em>. — The invoice should be paid (as it stands).", "Zustandspassiv in Konjunktiv II: <em>sein</em> replaces <em>werden</em>, the participle has no <em>zu</em>, and the result describes a finished state &ndash; the invoice is settled. Contrast the Vorgangspassiv <em>Die Rechnung m&uuml;sste bezahlt werden</em> (payment is still pending)."],
+    ["Das Fenster <em>m&uuml;sste</em> <em>repariert sein</em>. — The window should be (repaired) already.", "The same Zustandspassiv pattern with a short participle: modal in position II, then participle + <em>sein</em> at the end. <em>repariert sein</em> states the resulting condition, not the repair process."],
+    ["Die W&auml;nde <em>w&uuml;rden</em> <em>gestrichen sein</em>. — The walls would be painted already.", "Zustandspassiv with w&uuml;rde instead of a modal: <em>w&uuml;rden</em> is finite, and the state expression <em>gestrichen sein</em> forms one group at the end. Note the special <em>sein</em> form <em>gestrichen</em> (ge- is kept)."],
+    ["Die Besprechung fand nicht statt, <em>weil</em> sie h&auml;tte <em>abgesagt werden m&uuml;ssen</em>. — The meeting did not take place because it should have had to be cancelled.", "In a subordinate clause the finite verb goes last, and the double infinitive still follows it untouched: <em>weil</em> sie h&auml;tte abgesagt werden m&uuml;ssen. The modal-substitute for the whole group is not used here, because the modal itself is still present."],
+    ["Der Termin wurde abgesagt, <em>weil</em> die Unterlagen h&auml;tten <em>eingereicht werden m&uuml;ssen</em>. — The appointment was cancelled because the documents should have had to be submitted.", "Main clause in the ordinary past passive, then a Konjunktiv II subordinate clause: the double infinitive <em>eingereicht werden m&uuml;ssen</em> is not split by the verb of the main clause, which stands earlier in its own clause."],
+    ["Er sagte, <em>es m&uuml;sse</em> <em>gemacht werden</em>. — He said it had to be done.", "Indirect speech in Konjunktiv II: the Konjunktiv II modal <em>m&uuml;sse</em> in position II plus <em>gemacht werden</em> as the final group. Here w&uuml;rde could replace the modal (es w&uuml;rde gemacht werden), but a modal is more natural for a necessity."],
+    ["Sie sagte, <em>die Rechnung h&auml;tte</em> <em>bezahlt werden m&uuml;ssen</em>. — She said the invoice should have had to be paid.", "Reported Perfekt Konjunktiv II with a double infinitive &ndash; the full form the learner is most afraid of. Order in the quote is unchanged: <em>h&auml;tte</em> then <em>bezahlt werden m&uuml;ssen</em>."]
+  ];
+
+  var DATA_URL = "../../data/grammar_exercises_konjunktiv-ii-passiv.json";
+  var STORE = "konjunktiv_ii_passiv_progress_v1";
+  // ── pronunciation via the browser speech engine ──
+  var MIC_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5z"></path>'
+    + '<path class="pulse" d="M15.5 8.5a5 5 0 0 1 0 7"></path>'
+    + '<path class="pulse" d="M18.5 5.5a9 9 0 0 1 0 13"></path></svg>';
+  var synth = window.speechSynthesis || null;
+  var germanVoice = null;
+
+  function stripTags(t){ return String(t).replace(/<[^>]*>/g,""); }
+
+  function pickVoice(){
+    if(!synth) return null;
+    var vs = synth.getVoices() || [];
+    germanVoice = vs.filter(function(v){ return /^de(-|_|$)/i.test(v.lang); })[0] || null;
+    return germanVoice;
+  }
+  if(synth){
+    pickVoice();
+    if(synth.addEventListener) synth.addEventListener("voiceschanged", pickVoice);
+  }
+
+  function stopSpeech(){ if(synth) try{ synth.cancel(); }catch(e){} }
+
+  var warned = false;
+  function noVoiceNotice(){
+    if(warned) return; warned = true;
+    var n = document.getElementById("noVoice");
+    if(n) n.style.display = "flex";
+  }
+  function micBtn(text, label){
+    var b = document.createElement("button");
+    b.className = "mic";
+    b.type = "button";
+    b.setAttribute("aria-pressed","false");
+    b.setAttribute("aria-label", (label||"Play") + ": " + stripTags(text));
+    b.title = "Play pronunciation";
+    b.innerHTML = MIC_SVG;
+    b.addEventListener("click", function(ev){
+      ev.stopPropagation();
+      if(!synth){ b.disabled = true; b.title = "Speech is not available in this browser"; noVoiceNotice(); return; }
+      if(b.getAttribute("aria-pressed")==="true"){ stopSpeech(); b.setAttribute("aria-pressed","false"); return; }
+      stopSpeech();
+      if(!germanVoice) pickVoice();
+      var u = new SpeechSynthesisUtterance(stripTags(text));
+      u.lang = "de-DE";
+      if(germanVoice) u.voice = germanVoice;
+      u.rate = 0.92; u.pitch = 1;
+      b.setAttribute("aria-pressed","true");
+      var off = function(){ b.setAttribute("aria-pressed","false"); };
+      u.onend = off;
+      u.onerror = function(){ off(); noVoiceNotice(); };
+      synth.speak(u);
+      // some engines report no voices at all; surface that instead of a dead button
+      if(!synth.getVoices().length) noVoiceNotice();
+    });
+    return b;
+  }
+
+  var state = {revealed:{}, answers:{}};
+
+  function esc(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
+  function load(){ try{ var v=JSON.parse(localStorage.getItem(STORE)); if(v&&typeof v==="object"){state.revealed=v.revealed||{};state.answers=v.answers||{};} }catch(e){} }
+  function save(){ try{ localStorage.setItem(STORE, JSON.stringify(state)); }catch(e){} }
+
+  // ---- examples ----
+  // Each entry is [german_and_english, why]. The first field carries the English
+  // translation after an em dash, so split it out for separate styling.
+  function splitDE(t){
+    var i = t.indexOf("\u2014");
+    if(i < 0) return [t, ""];
+    return [t.slice(0,i).trim(), t.slice(i+1).trim()];
+  }
+  (function renderExamples(){
+    var host = document.getElementById("examples");
+    host.innerHTML = "";
+    EXAMPLES.forEach(function(x){
+      var de = x[0] || "";
+      var why = x[1] || "";
+      var parts = splitDE(de);
+      var card = document.createElement("div");
+      card.className = "ex";
+
+      var row = document.createElement("div");
+      row.className = "microw";
+      var txt = document.createElement("div");
+      txt.className = "mtext";
+      txt.innerHTML = '<div class="de">'+parts[0]+'</div>'+
+                      (parts[1] ? '<div class="en">'+parts[1]+'</div>' : "");
+      row.appendChild(txt);
+      row.appendChild(micBtn(parts[0], "Play this example"));
+      card.appendChild(row);
+
+      if(why){
+        var w = document.createElement("div");
+        w.className = "why";
+        w.innerHTML = "<b>Why:</b> "+why;
+        card.appendChild(w);
+      }
+      host.appendChild(card);
+    });
+  })();
+
+  // German special letters, inserted at the caret in the focused input.
+  var KEYS = ["ä","ö","ü","Ä","Ö","Ü","ß","€"];
+
+  function insertAt(input, ch){
+    var v = input.value;
+    var a = input.selectionStart == null ? v.length : input.selectionStart;
+    var b = input.selectionEnd == null ? v.length : input.selectionEnd;
+    input.value = v.slice(0,a) + ch + v.slice(b);
+    var pos = a + ch.length;
+    try{ input.setSelectionRange(pos,pos); }catch(e){}
+    input.focus();
+  }
+
+  function keypadBtn(id){
+    var b = document.createElement("button");
+    b.type = "button";
+    b.className = "keybtn";
+    b.title = "German letters";
+    b.setAttribute("aria-label","Insert German special characters");
+    b.setAttribute("aria-expanded","false");
+    b.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true">'+
+      '<rect x="2" y="5" width="20" height="14" rx="2"></rect>'+
+      '<path d="M6 9h.01M10 9h.01M14 9h.01M18 9h.01M6 13h.01M10 13h.01M14 13h.01M18 13h.01M8 16h8"></path>'+
+      '</svg>';
+    b.addEventListener("click", function(ev){
+      ev.stopPropagation();
+      var panel = document.getElementById("pad-"+id);
+      if(!panel) return;
+      var open = panel.classList.toggle("open");
+      b.setAttribute("aria-expanded", open ? "true" : "false");
+      closeAllKeypads(panel);
+    });
+    return b;
+  }
+
+  function closeAllKeypads(except){
+    Array.prototype.forEach.call(document.querySelectorAll(".pad.open"), function(p){
+      if(p === except) return;
+      p.classList.remove("open");
+      var btn = p.previousSibling && p.previousSibling.querySelector ? p.previousSibling.querySelector(".keybtn") : null;
+      if(btn) btn.setAttribute("aria-expanded","false");
+    });
+  }
+
+  document.addEventListener("click", function(){ closeAllKeypads(null); });
+  document.addEventListener("keydown", function(e){ if(e.key === "Escape") closeAllKeypads(null); });
+
+  function renderQuiz(ex){
+    var el = document.getElementById("quiz");
+    el.innerHTML = "";
+    ex.forEach(function(e){
+      var rev = !!state.revealed[e.id];
+      var card = document.createElement("article");
+      card.className = "q" + (rev ? " revealed" : "");
+      card.id = "q"+e.id;
+
+      var top = document.createElement("div");
+      top.className = "qtop";
+      top.innerHTML = '<span class="qnum">'+e.id+'</span>';
+      var qt = document.createElement("span");
+      qt.className = "qtext";
+      qt.textContent = e.english;
+      top.appendChild(qt);
+      card.appendChild(top);
+
+      // input with the letter keypad docked inside its right edge
+      var row = document.createElement("div");
+      row.className = "inputrow";
+      var ta = document.createElement("input");
+      ta.type = "text";
+      ta.className = "ainput";
+      ta.placeholder = "Write the German here…";
+      ta.setAttribute("aria-label","Your German answer for exercise "+e.id);
+      ta.value = state.answers[e.id] || "";
+      ta.addEventListener("input", function(){ state.answers[e.id] = ta.value; save(); });
+      row.appendChild(ta);
+      row.appendChild(keypadBtn(e.id));
+      card.appendChild(row);
+
+      // the letter panel sits inside the card so it is never clipped
+      var pad = document.createElement("div");
+      pad.className = "pad";
+      pad.id = "pad-"+e.id;
+      KEYS.forEach(function(k){
+        var kb = document.createElement("button");
+        kb.type = "button";
+        kb.className = "padkey";
+        kb.textContent = k;
+        kb.addEventListener("click", function(ev){
+          ev.stopPropagation();
+          var target = card.querySelector(".ainput");
+          insertAt(target, k);
+          state.answers[e.id] = target.value;
+          save();
+        });
+        pad.appendChild(kb);
+      });
+      card.appendChild(pad);
+
+      // reveal / hide toggle
+      var rb = document.createElement("button");
+      rb.type = "button";
+      rb.className = "btn rev" + (rev ? " on" : "");
+      rb.textContent = rev ? "Hide answer" : "Reveal answer";
+      rb.setAttribute("aria-expanded", rev ? "true" : "false");
+      rb.addEventListener("click", function(){
+        state.revealed[e.id] = !state.revealed[e.id];
+        save();
+        renderQuiz(ex);
+      });
+      card.appendChild(rb);
+
+      if(rev){
+        var fb = document.createElement("div");
+        fb.className = "fb";
+
+        var ansRow = document.createElement("div");
+        ansRow.className = "microw ansrow";
+        var at = document.createElement("div");
+        at.className = "mtext";
+        at.textContent = e.german;
+        ansRow.appendChild(at);
+        ansRow.appendChild(micBtn(e.german, "Play the German answer"));
+        fb.appendChild(ansRow);
+
+        var wy = document.createElement("div");
+        wy.className = "why";
+        wy.textContent = e.why;
+        fb.appendChild(wy);
+
+        card.appendChild(fb);
+      }
+      el.appendChild(card);
+    });
+  }
+
+  load();
+
+  fetch(DATA_URL+"?cb="+Date.now())
+    .then(function(r){ if(!r.ok) throw new Error("HTTP "+r.status); return r.json(); })
+    .then(function(d){
+      var ex=d.exercises;
+      renderQuiz(ex);
+    })
+    .catch(function(e){
+      document.getElementById("quiz").innerHTML =
+        '<div class="q"><b>Could not load the exercises.</b><br>'+esc(e.message)+'</div>';
+    });
+})();
+</script>
+</body>
+</html>

@@ -1114,28 +1114,32 @@
           "topic_en": "Passive alternatives and the agentless passive",
           "term_de": "Alternativen zum Passiv, unpersönliches Passiv",
           "covers": "sich lassen + Infinitiv, bekommen + Partizip II, and Passiv without an agent.",
-          "provider_split": false
+          "provider_split": false,
+          "page": "passivalternativen.html"
         },
         {
           "n": 37,
           "topic_en": "Funktionsverb constructions",
           "term_de": "Funktionsverbgefüge",
           "covers": "eine Entscheidung treffen, in Frage kommen, zur Verfügung stellen.",
-          "provider_split": false
+          "provider_split": false,
+          "page": "funktionsverbgefuege.html"
         },
         {
           "n": 38,
           "topic_en": "Verbs with two prepositions and different cases",
           "term_de": "Verben mit zwei Präpositionen",
           "covers": "reden mit +Dat / über +Akk, danken +Dat für +Akk, sich bedanken bei +Dat für +Akk, helfen +Dat bei +Dat; fixed-case prepositional verbs warten auf +Akk, teilnehmen an +Dat, sich interessieren für +Akk.",
-          "provider_split": false
+          "provider_split": false,
+          "page": "zwei-praepositionen.html"
         },
         {
           "n": 39,
           "topic_en": "Passive in Konjunktiv II",
           "term_de": "Konjunktiv II im Passiv",
           "covers": "müsste gemacht werden, and würde + werden + Partizip II.",
-          "provider_split": false
+          "provider_split": false,
+          "page": "konjunktiv-ii-passiv.html"
         }
       ]
     },

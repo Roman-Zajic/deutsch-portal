@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Funktionsverb constructions — Die Funktionsverbgefüge | Deutsch Lernen</title>
+<style>
+:root{
+  --font:"Segoe UI",system-ui,-apple-system,sans-serif;
+  --teal-900:#005A5A; --teal-700:#008282; --teal-400:#50C1C1; --teal-100:#95DFDB;
+  --amber:#E1A01E; --red:#C41E3A; --green:#1D7A4C;
+  --ink:#012D2C; --muted:#008282;
+  --page:#F0FAFA; --card:#FFF; --in:#F0FAFA; --border:#D0ECEB;
+  --shadow:0 1px 4px rgba(1,45,44,.10); --shadow-md:0 4px 14px rgba(1,45,44,.12);
+  --r:8px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font);font-size:16px;color:var(--teal-900);background:var(--page);
+  line-height:1.65;-webkit-font-smoothing:antialiased;
+  display:flex;flex-direction:column;min-height:100vh}
+
+.navbar{display:flex;align-items:center;gap:12px;height:48px;padding:0 14px;
+  background:var(--teal-900);border-bottom:1px solid rgba(149,223,219,.15);
+  position:sticky;top:0;z-index:100;flex-shrink:0}
+.brand-icon{display:flex;align-items:center;flex-shrink:0}
+.nav-pipe{width:1px;height:16px;background:rgba(149,223,219,.30);flex-shrink:0;margin:0 12px}
+.nav-brand-text{font-size:.95rem;font-weight:600;color:var(--teal-100);text-decoration:none;white-space:nowrap}
+.nav-actions{margin-left:auto;display:flex;align-items:center;gap:8px}
+.icon-btn{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;padding:0;
+  color:var(--teal-100);background:rgba(149,223,219,.12);border:1px solid rgba(149,223,219,.22);
+  border-radius:4px;cursor:pointer;transition:130ms;text-decoration:none;flex-shrink:0}
+.icon-btn:hover{background:rgba(149,223,219,.24);border-color:rgba(149,223,219,.45)}
+.btn-nav{display:inline-flex;align-items:center;justify-content:center;height:32px;padding:0 12px;
+  font-size:.78rem;font-weight:600;font-family:var(--font);color:var(--teal-100);text-decoration:none;
+  background:rgba(149,223,219,.12);border:1px solid rgba(149,223,219,.22);border-radius:4px;
+  transition:130ms;white-space:nowrap;flex-shrink:0}
+.btn-nav:hover{background:rgba(149,223,219,.24);border-color:rgba(149,223,219,.45)}
+@media (max-width:400px){.btn-nav{padding:0 9px;font-size:.74px;font-size:.74rem}}
+.icon-btn svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:2;
+  stroke-linecap:round;stroke-linejoin:round}
+@media (max-width:560px){.nav-brand-text{font-size:.85rem}}
+
+.wrap{max-width:860px;width:100%;margin:0 auto;padding:20px 16px 0;flex:1 0 auto}
+
+h1{font-size:1.5rem;line-height:1.3;margin:0 0 4px}
+h1 .de{display:block;font-size:1rem;color:var(--teal-700);font-weight:600;margin-top:2px}
+
+section{margin-bottom:30px}
+h2{font-size:1.05rem;margin-bottom:10px;padding-bottom:6px;border-bottom:2px solid var(--teal-400)}
+h3{font-size:.85rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;
+  color:var(--teal-700);margin:16px 0 8px}
+p{margin-bottom:10px}
+.lead{color:var(--ink)}
+small{color:var(--muted)}
+
+.rulebox{background:var(--in);border:1px solid var(--border);border-left:4px solid var(--teal-400);
+  border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.rulebox strong{color:var(--teal-700)}
+.warnbox{background:rgba(196,30,58,.05);border:1px solid rgba(196,30,58,.25);
+  border-left:4px solid var(--red);border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.warnbox strong{color:var(--red)}
+.tipbox{background:rgba(29,122,76,.06);border:1px solid rgba(29,122,76,.22);
+  border-left:4px solid var(--green);border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.tipbox strong{color:var(--green)}
+
+table{width:100%;border-collapse:collapse;margin:12px 0;font-size:.88rem;
+  table-layout:fixed}
+th,td{overflow-wrap:anywhere;word-break:normal;hyphens:auto}
+th,td{text-align:left;padding:7px 9px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--in);font-weight:700;font-size:.76rem;text-transform:uppercase;
+  letter-spacing:.04em;color:var(--teal-700)}
+td.de{color:var(--ink)}
+tr:last-child td{border-bottom:none}
+
+.mic{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;
+  padding:0;flex-shrink:0;vertical-align:middle;border-radius:50%;cursor:pointer;
+  color:var(--teal-700);background:rgba(80,193,193,.16);border:1px solid rgba(80,193,193,.45);
+  transition:130ms}
+.mic:hover{background:rgba(80,193,193,.34)}
+.mic:focus-visible{outline:2px solid var(--teal-700);outline-offset:2px}
+.mic svg{width:13px;height:13px;fill:none;stroke:currentColor;stroke-width:2;
+  stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.mic[aria-pressed="true"]{background:var(--teal-700);color:#fff;border-color:var(--teal-700)}
+.mic[aria-pressed="true"] .pulse{animation:pulse 1s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+.mic[disabled]{opacity:.45;cursor:not-allowed}
+.microw{display:flex;align-items:flex-start;gap:8px}
+.microw > .mtext{flex:1;min-width:0}
+.ex{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:12px 13px;
+  margin-bottom:9px;box-shadow:var(--shadow)}
+.ex .de{font-size:.98rem;color:var(--ink);margin-bottom:4px}
+.ex .de em{color:var(--teal-700);font-style:normal;font-weight:700;background:rgba(80,193,193,.20);
+  padding:0 3px;border-radius:2px}
+.ex .en{font-size:.84rem;color:var(--muted)}
+.ex .why{font-size:.82rem;color:var(--teal-700);margin-top:6px;padding-top:6px;
+  border-top:1px dotted var(--border)}
+.ex .why b{font-weight:700}
+
+/* ── EXERCISES ── */
+.btn{font-family:var(--font);font-size:.78rem;font-weight:600;cursor:pointer;
+  padding:6px 12px;border-radius:4px;border:1px solid var(--teal-400);
+  background:rgba(80,193,193,.14);color:var(--teal-700);transition:130ms;white-space:nowrap}
+.btn:hover{background:rgba(80,193,193,.28)}
+.btn.ghost{background:transparent;border-color:var(--border);color:var(--muted)}
+.btn.ghost:hover{border-color:var(--teal-400);color:var(--teal-700)}
+.noVoice{display:none;align-items:flex-start;gap:8px;margin-bottom:12px;padding:9px 12px;
+  background:rgba(225,160,30,.12);border:1px solid rgba(225,160,30,.4);border-radius:var(--r);
+  font-size:.83rem;color:#7A5000}
+.noVoice b{color:#7A5000}
+
+.q{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:12px 13px;
+  margin-bottom:10px;box-shadow:var(--shadow)}
+.q.revealed{border-color:var(--teal-400)}
+.q.correct{border-color:rgba(29,122,76,.5);background:rgba(29,122,76,.04)}
+.q.wrong{border-color:rgba(196,30,58,.45);background:rgba(196,30,58,.03)}
+.qtop{display:flex;gap:9px;align-items:flex-start;margin-bottom:9px}
+.qnum{flex-shrink:0;width:23px;height:23px;border-radius:50%;background:rgba(0,130,130,.10);
+  color:var(--teal-7);color:var(--teal-700);font-size:.7rem;font-weight:700;display:flex;
+  align-items:center;justify-content:center;margin-top:1px}
+.q.correct .qnum{background:rgba(29,122,76,.16);color:var(--green)}
+.q.wrong .qnum{background:rgba(196,30,58,.14);color:var(--red)}
+.inputrow{display:flex;align-items:stretch;gap:6px;position:relative}
+.ainput{flex:1;min-width:0;font-family:var(--font);font-size:.92rem;color:var(--ink);
+  background:var(--in);border:1px solid var(--border);border-radius:5px;padding:8px 32px 8px 11px;transition:130ms}
+.ainput:focus{outline:none;border-color:var(--teal-400);background:#fff;box-shadow:0 0 0 3px rgba(80,193,193,.16)}
+/* small keyboard icon, vertically centred at the right edge of the field */
+.keybtn{flex-shrink:0;width:28px;align-self:stretch;display:inline-flex;align-items:center;
+  justify-content:center;padding:0;cursor:pointer;border-radius:5px;
+  color:var(--teal-700);background:rgba(80,193,193,.16);border:1px solid rgba(80,193,193,.45);
+  transition:130ms}
+.keybtn:hover{background:rgba(80,193,193,.32)}
+.keybtn:focus-visible{outline:2px solid var(--teal-700);outline-offset:2px}
+.keybtn svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:1.7;
+  stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.keybtn[aria-expanded="true"]{background:var(--teal-700);color:#fff;border-color:var(--teal-700)}
+/* letter panel lives inside the card so no ancestor can clip it */
+.pad{display:none;flex-wrap:wrap;gap:5px;margin-top:7px;padding:8px;
+  background:var(--in);border:1px solid var(--border);border-radius:5px}
+.pad.open{display:flex}
+.padkey{font-family:var(--font);font-size:.92rem;font-weight:600;color:var(--teal-900);
+  background:var(--card);border:1px solid var(--border);border-radius:4px;
+  min-width:34px;height:32px;cursor:pointer;transition:130ms}
+.padkey:hover{background:var(--teal-400);border-color:var(--teal-400)}
+.padkey:focus-visible{outline:2px solid var(--teal-700);outline-offset:1px}
+.btn.rev{margin-top:8px}
+.btn.rev.on{background:rgba(0,90,90,.10);border-color:var(--teal-700)}
+.ansrow{margin:6px 0;padding:7px 9px;background:rgba(80,193,193,.09);border-radius:5px}
+.ansrow .mtext{font-size:.93rem}
+.qtext{font-size:.95rem;color:var(--ink);margin-bottom:9px;flex:1;min-width:0}
+
+.fb{margin-top:9px;padding-top:9px;border-top:1px dotted var(--border);font-size:.85rem}
+.fb .ans{font-weight:600;color:var(--teal-700);margin-bottom:4px}
+.fb .why{color:var(--muted)}
+
+details.fold{margin-bottom:9px;border:1px solid var(--border);border-radius:6px;background:var(--card)}
+details.fold > summary{padding:9px 12px;font-weight:600;font-size:.88rem;cursor:pointer;
+  color:var(--teal-900);list-style:none}
+details.fold > summary::-webkit-details-marker{display:none}
+details.fold > summary::before{content:"▸";color:var(--teal-700);transition:transform .15s;
+  display:inline-block;margin-right:5px}
+details.fold[open] > summary::before{transform:rotate(90deg)}
+details.fold .foldbody{padding:0 12px 11px;border-top:1px solid var(--border);padding-top:9px;
+  font-size:.9rem}
+
+.footer{position:sticky;bottom:0;z-index:50;width:100%;max-width:var(--wrapw,860px);
+  margin-inline:auto;border-top:1px solid var(--border);padding:10px 16px;background:var(--page);
+  display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:.78rem;color:var(--muted)}
+.footer strong{color:var(--teal-700)}
+.footer-dot{margin:0 10px;color:var(--border)}
+
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+  <a class="brand-icon" href="../../" aria-label="Deutsch Lernen home">
+    <svg width="24" height="17" viewBox="0 0 31 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0"  y="0"  width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="0"  width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="0"  width="9" height="6" rx="1.5" fill="#008282"/>
+      <rect x="0"  y="8"  width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="8"  width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="8"  width="9" height="6" rx="1.5" fill="#008282"/>
+      <rect x="0"  y="16" width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="16" width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="16" width="9" height="6" rx="1.5" fill="#E1A01E"/>
+    </svg>
+  </a>
+  <div class="nav-pipe"></div>
+  <a class="nav-brand-text" href="index.html">Grammar</a>
+  <div class="nav-actions">
+    <a class="btn-nav" href="index.html" title="All grammar topics">All topics</a>
+    <a class="icon-btn" href="../../" title="Back to all modules" aria-label="Back to all modules">
+      <svg viewBox="0 0 24 24"><path d="M3 12l9-9 9 9"></path><path d="M5 10v10h14V10"></path></svg>
+    </a>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <h1>Funktionsverb constructions<span class="de">Die Funktionsverbgefüge</span></h1>
+  
+  <!-- ══ 1. CONCEPT ══ -->
+  <section>
+    <h2>1 &middot; The concept</h2>
+
+    <p class="lead">A <strong>Funktionsverbgef&uuml;ge</strong> (FVG) is a phrase in which a
+      semantically empty verb and a noun together express one idea. The verb supplies
+      <em>tense</em> and the <em>subject</em>; the noun supplies the <em>meaning</em>.</p>
+
+    <div class="rulebox">
+      <strong>The rule in one line.</strong> The <strong>Funktionsverb</strong>
+      (<em>machen, treffen, geben, nehmen, stellen, legen, f&uuml;hren, bringen, halten,
+      ziehen, finden</em>) is conjugated and takes the subject &ndash; but on its own it says
+      almost nothing. The <strong>nominal core</strong> (a noun or a prefixed preposition
+      phrase) is what the sentence is actually about.
+    </div>
+
+    <h3>The three parts</h3>
+    <p>Every FVG can be taken apart in the same way. <em>eine Entscheidung treffen</em>
+      (<em>to decide</em>) is the classic example: the <strong>Funktionsverb</strong>
+      <em>treffen</em> is conjugated &ndash; <em>trifft, trafen, hat getroffen</em> &ndash; but on
+      its own it only means <em>to hit</em> or <em>to meet</em>. The
+      <strong>nominal core</strong> <em>eine Entscheidung</em> is the content word. Together they
+      form one fixed verbal meaning: <em>eine Entscheidung treffen</em> &ndash;
+      <em>to decide</em>.</p>
+
+    <div class="tipbox">
+      <strong>The quickest test.</strong> Remove the noun. If what is left cannot stand alone
+      with its normal meaning, you are looking at a Funktionsverb:
+      <em>eine Entscheidung treffen</em> &rarr; <em>Er trifft.</em> (meaningless in this context)
+      &rarr; but <em>die Sonne trifft</em> (= <em>the sun hits</em>) is a full verb.
+    </div>
+
+    <h3>Funktionsverbgef&uuml;ge and their simple verbs</h3>
+    <p>Most FVG have a one-word equivalent with the same meaning. Both forms are correct; the
+      FVG is the more formal, written alternative.</p>
+    <table>
+      <thead><tr><th>Funktionsverbgef&uuml;ge</th><th>Simple verb</th><th>English</th></tr></thead>
+      <tbody>
+        <tr><td class="de">eine Entscheidung <b>treffen</b></td><td class="de"><b>entscheiden</b></td><td class="de">to decide</td></tr>
+        <tr><td class="de">eine Frage <b>stellen</b></td><td class="de"><b>fragen</b></td><td class="de">to ask</td></tr>
+        <tr><td class="de">einen Vorschlag <b>machen</b></td><td class="de"><b>vorschlagen</b></td><td class="de">to make a proposal</td></tr>
+        <tr><td class="de">einen Antrag <b>stellen</b></td><td class="de"><b>beantragen</b></td><td class="de">to submit an application</td></tr>
+        <tr><td class="de">einen Durchbruch <b>erreichen</b></td><td class="de"><b>durchbrechen</b></td><td class="de">to achieve a breakthrough</td></tr>
+        <tr><td class="de">einen Antrag <b>stellen</b> (im Parlament)</td><td class="de"><b>antragen</b></td><td class="de">to table a motion</td></tr>
+        <tr><td class="de">in Kraft <b>treten</b></td><td class="de"><b>in Kraft <b class="de">gehen</b></b></td><td class="de">to come into force</td></tr>
+        <tr><td class="de">eine Entscheidung <b>f&auml;llen</b></td><td class="de"><b>entscheiden</b></td><td class="de">to decide</td></tr>
+      </tbody>
+    </table>
+
+    <p>Some FVG have no simple verb at all &ndash; the noun phrase <em>ist</em> the verb:
+      <em>in Betracht ziehen</em> (<em>to consider</em>), <em>in Kauf nehmen</em>
+      (<em>to accept</em>), <em>unter Druck stehen</em> (<em>to be under pressure</em>).</p>
+
+    <h3>The Funktionsverb has no accusative of its own</h3>
+    <p>A single FVG contains <strong>exactly one object</strong> &ndash; the nominal core. The
+      Funktionsverb is intransitive. It never takes a second accusative next to its own noun.</p>
+    <table>
+      <thead><tr><th>Status</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">correct</td><td class="de"><b>Er trifft eine Entscheidung.</b></td></tr>
+        <tr><td class="de">correct</td><td class="de"><b>Die Regierung hat einen Beschluss gefasst.</b></td></tr>
+        <tr><td class="de">wrong &ndash; double object</td><td class="de">&#10007; <b>Er trifft sie eine Entscheidung.</b></td></tr>
+        <tr><td class="de">wrong &ndash; pronoun before the noun</td><td class="de">&#10007; <b>Ich stelle dir diese Frage nicht.</b></td></tr>
+      </tbody>
+    </table>
+
+    <div class="warnbox">
+      <strong>The most common error.</strong> Learners carry the object pronoun over from
+      English or from a simple verb and produce <em>Er trifft sie eine Entscheidung.</em>
+      Either the pronoun <em>or</em> the noun fills the object slot &ndash; never both.
+      &nbsp;&#10007; <em>Er trifft sie eine Entscheidung.</em>
+      &nbsp;&#10003; <em>Er trifft eine Entscheidung.</em>
+      &nbsp;&#10003; <em>Er trifft sie.</em>
+    </div>
+
+    <div class="rulebox">
+      <strong>One FVG, one object.</strong> If the sentence needs a <em>personal pronoun</em>
+      as the object, use the simple verb instead: <em>Ich beantworte Ihre Frage.</em>, not
+      <em>&#10007; Ich beantworte Ihnen die Frage.</em>
+    </div>
+
+    <h3>Separable Funktionsverben</h3>
+    <p>In these FVG the Funktionsverb is separable, so the prefix lands at the end of the clause
+      in the main clause and at the end of its own clause in the subordinate clause.</p>
+    <table>
+      <thead><tr><th>Main clause</th><th>Subordinate clause</th><th>English</th></tr></thead>
+      <tbody>
+        <tr><td class="de">Der Punkt kommt endlich <b>zur Sprache</b>.</td>
+            <td class="de">Es ist schade, dass der Punkt nicht <b>zur Sprache kommt</b>.</td>
+            <td class="de">to come up (for discussion)</td></tr>
+        <tr><td class="de">Das kommt nicht <b>in Frage</b>.</td>
+            <td class="de">Ich bezweifle, dass das <b>in Frage kommt</b>.</td>
+            <td class="de">to be conceivable / out of the question</td></tr>
+        <tr><td class="de">Die Firma steht stark <b>unter Druck</b>.</td>
+            <td class="de">Es stimmt, dass sie <b>unter Druck steht</b>.</td>
+            <td class="de">to be under pressure</td></tr>
+        <tr><td class="de">Die Reform <b>kam</b> in Gang.</td>
+            <td class="de">Ich hoffe, dass die Reform <b>in Gang kommt</b>.</td>
+            <td class="de">to get under way</td></tr>
+        <tr><td class="de">Der Vertrag tritt am 1. Januar <b>in Kraft</b>.</td>
+            <td class="de">Es ist fraglich, ob er <b>in Kraft tritt</b>.</td>
+            <td class="de">to come into force</td></tr>
+      </tbody>
+    </table>
+
+    <div class="tipbox">
+      <strong>Note the fused preposition.</strong> Where the phrase is built on
+      <em>zu</em> + Dativ, the two merge into <em>zur</em>: <em>zur Sprache kommen</em>,
+      <em>zur Diskussion stehen</em>, <em>zur Verf&uuml;gung stellen</em>. There is no separate
+      <em>zu</em> in front of the noun: &#10007; <em>Das ist ein Thema zu Sprache gekommen.</em>
+      &nbsp;&#10003; <em>Das Thema ist heute zur Sprache gekommen.</em>
+    </div>
+
+    <div class="warnbox">
+      <strong>No object in the clause.</strong> <em>in Frage kommen</em>, <em>zur Sprache
+      kommen</em>, <em>in Kraft treten</em> and <em>unter Druck stehen</em> are intransitive
+      here: the subject is a thing, not a person, and no accusative is possible.
+      &nbsp;&#10007; <em>Das kommt nicht in Frage.</em> as a response to <em>Was meinen Sie damit?</em> &ndash; the object already appears in the previous sentence.
+    </div>
+
+    <h3>in Frage / in Betracht: the impersonal intransitive pattern</h3>
+    <p>With these two verbs the meaning is impersonal: the subject is <em>etwas</em> or the
+      dummy <em>es</em>, never a person doing the considering. In formal German the
+      preposition phrase is often fronted, and in <em>in Betracht</em> the verb is commonly
+      followed by <em>ziehen</em>.</p>
+    <table>
+      <thead><tr><th>Form</th><th>Pattern</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">in Frage kommen</td><td class="de">no object; subject = <em>etwas</em></td>
+            <td class="de"><b>Das kommt nicht in Frage.</b></td></tr>
+        <tr><td class="de">in Betracht kommen</td><td class="de">no object; subject = <em>etwas</em></td>
+            <td class="de"><b>Ein Umzug kommt derzeit nicht in Betracht.</b></td></tr>
+        <tr><td class="de">in Betracht ziehen</td><td class="de"><b>transitive</b> + Akkusativ</td>
+            <td class="de"><b>Wir ziehen diesen Vorschlag in Betracht.</b></td></tr>
+        <tr><td class="de">zur Sprache kommen</td><td class="de">no object; subject = <em>etwas</em></td>
+            <td class="de"><b>Das Thema ist heute zur Sprache gekommen.</b></td></tr>
+      </tbody>
+    </table>
+
+    <div class="warnbox">
+      <strong><em>in Betracht ziehen</em> is transitive.</strong> It is the one member of this
+      family that takes an accusative object. <em>in Betracht</em> then works like an
+      adverbial phrase and can even be fronted, but in neutral German the object comes first:
+      &nbsp;&#10003; <em>Wir ziehen den Vorschlag in Betracht.</em>
+      &nbsp;&#10003; <em>In Betracht gezogen wird auch ein weiterer Vorschlag.</em>
+      &nbsp;&#10007; <em>Wir ziehen in Betracht den Vorschlag</em> (understandable, but
+      marked &ndash; use the simple order instead).
+    </div>
+
+    <h3>The two classic actor/object pairs</h3>
+    <p>Some FVG come in pairs. The <strong>transitive</strong> member is active: somebody puts
+      something somewhere. The <strong>intransitive</strong> member is passive or
+      impersonal: the thing itself is in that state. The case changes with the role.</p>
+
+    <h3>zur Verf&uuml;gung: stellen (+Akk) vs. stehen (+Dat)</h3>
+    <table>
+      <thead><tr><th>Member</th><th>Case</th><th>Example</th><th>Meaning</th></tr></thead>
+      <tbody>
+        <tr><td class="de"><b>zur Verf&uuml;gung stellen</b> (transitive)</td>
+            <td class="de">+ Akkusativ</td>
+            <td class="de"><b>Wir stellen Ihnen die Daten zur Verf&uuml;gung.</b></td>
+            <td class="de">to make available (active)</td></tr>
+        <tr><td class="de"><b>zur Verf&uuml;gung stehen</b> (intransitive)</td>
+            <td class="de">+ Dativ</td>
+            <td class="de"><b>Die Daten stehen Ihnen zur Verf&uuml;gung.</b></td>
+            <td class="de">to be available (passive)</td></tr>
+      </tbody>
+    </table>
+
+    <p>Note who receives the accusative and who receives the dative: the <em>person</em> is
+      accusative in the <em>stellen</em> form (<em>Wir stellen <b>Ihnen</b> die Daten</em>)
+      and dative in the <em>stehen</em> form (<em>Die Daten stehen <b>Ihnen</b> zur
+      Verf&uuml;gung</em>). The thing being made available is always accusative.</p>
+
+    <h3>zur Diskussion: stellen (+Akk) vs. stehen (+Dat)</h3>
+    <table>
+      <thead><tr><th>Member</th><th>Case</th><th>Example</th><th>Meaning</th></tr></thead>
+      <tbody>
+        <tr><td class="de"><b>zur Diskussion stellen</b> (transitive)</td>
+            <td class="de">+ Akkusativ</td>
+            <td class="de"><b>Der Ausschuss stellt die Frage zur Diskussion.</b></td>
+            <td class="de">to put on the agenda (active)</td></tr>
+        <tr><td class="de"><b>zur Diskussion stehen</b> (intransitive)</td>
+            <td class="de">+ Dativ</td>
+            <td class="de"><b>Der Vorschlag steht schon lange zur Diskussion.</b></td>
+            <td class="de">to be under discussion (passive)</td></tr>
+      </tbody>
+    </table>
+
+    <div class="rulebox">
+      <strong>How to tell the two apart.</strong> Ask yourself who is doing the action.
+      If a person or institution does it, you need <em>stellen</em> + Akkusativ.
+      If nothing is being done &ndash; the state simply holds &ndash; you need
+      <em>stehen</em> (+ Dativ). <em>stehen</em> is never accompanied by an accusative object
+      in this pattern.
+    </div>
+
+    <h3>in Kauf nehmen: accept a consequence</h3>
+    <p>Here the Funktionsverb is <em>nehmen</em> and the nominal core is the prefixed phrase
+      <em>in Kauf</em>. There is <strong>no preposition</strong> introducing the object &ndash;
+      the object is simply the accusative complement of <em>nehmen</em>.</p>
+    <table>
+      <thead><tr><th>Tense</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">Pr&auml;sens</td><td class="de"><b>Ich nehme die Folgen in Kauf.</b></td></tr>
+        <tr><td class="de">Pr&auml;teritum</td><td class="de"><b>Er nahm die Folgen in Kauf.</b></td></tr>
+        <tr><td class="de">Perfekt</td><td class="de"><b>Er hat die Folgen in Kauf genommen.</b></td></tr>
+        <tr><td class="de">Modalverb</td><td class="de"><b>Das m&uuml;ssen wir in Kauf nehmen.</b></td></tr>
+      </tbody>
+    </table>
+
+    <div class="warnbox">
+      <strong>No preposition before the object.</strong> &#10007; <em>Er nimmt in Kauf die
+      Folgen.</em> / &#10007; <em>Er nimmt die Folgen in Kauf auch.</em>
+      &nbsp;&#10003; <em>Er nimmt die Folgen in Kauf.</em>
+      Also note the verb: <em>nehmen</em>, never <em>nehmen auf</em> and never
+      <em>&uuml;bernehmen</em> in this phrase.
+    </div>
+
+    <h3>Funktionsverben with a fixed preposition</h3>
+    <p>These four are learned as one block. The preposition decides the case, and the case is
+      part of the FVG &ndash; it never varies.</p>
+    <table>
+      <thead><tr><th>FVG</th><th>Case</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de"><b>R&uuml;cksicht nehmen auf</b> + Akkusativ</td><td class="de">Akkusativ</td>
+            <td class="de"><b>Nimm R&uuml;cksicht auf die Kinder.</b></td></tr>
+        <tr><td class="de"><b>Abstand nehmen von</b> + Dativ</td><td class="de">Dativ</td>
+            <td class="de"><b>Halte Abstand von der Bahn.</b></td></tr>
+        <tr><td class="de"><b>Teil nehmen an</b> + Dativ</td><td class="de">Dativ</td>
+            <td class="de"><b>Ich nehme an der Sitzung teil.</b></td></tr>
+        <tr><td class="de"><b>Bezug nehmen auf</b> + Akkusativ</td><td class="de">Akkusativ</td>
+            <td class="de"><b>Danke f&uuml;r Ihre Antwort. Ich nehme Bezug auf Ihre E-Mail vom 3. Mai.</b></td></tr>
+      </tbody>
+    </table>
+
+    <div class="tipbox">
+      <strong>Two accusatives, two datives.</strong> <em>auf</em> and <em>an</em> look like
+      English <em>on</em> and <em>at</em> and look alike, but here both take the
+      <strong>accusative</strong>: <em>R&uuml;cksicht auf die Kinder</em>,
+      <em>Bezug auf Ihre Anfrage</em>. <em>von</em> and <em>an</em> in
+      <em>Abstand nehmen von</em> and <em>Teil nehmen an</em> take the
+      <strong>dative</strong>.
+      &nbsp;&#10007; <em>Abstand nehmen von der Zug.</em>
+      &nbsp;&#10003; <em>Abstand nehmen vom Zug.</em>
+    </div>
+
+    <h3>Common Funktionsverbgef&uuml;ge you will meet in writing</h3>
+    <table>
+      <thead><tr><th>FVG</th><th>English</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">eine Entscheidung <b>treffen</b></td><td class="de">to decide</td>
+            <td class="de"><b>Die Kommission hat eine klare Entscheidung getroffen.</b></td></tr>
+        <tr><td class="de">eine Frage <b>stellen</b></td><td class="de">to ask a question</td>
+            <td class="de"><b>Ich darf dazu eine Frage stellen.</b></td></tr>
+        <tr><td class="de">einen Vorschlag <b>machen</b></td><td class="de">to make a proposal</td>
+            <td class="de"><b>Sie hat einen Gegenvorschlag gemacht.</b></td></tr>
+        <tr><td class="de">einen Antrag <b>stellen</b></td><td class="de">to submit an application</td>
+            <td class="de"><b>Er hat einen Antrag auf F&ouml;rderung gestellt.</b></td></tr>
+        <tr><td class="de">Zugang <b>gew&auml;hren</b></td><td class="de">to grant access</td>
+            <td class="de"><b>Der Pf&ouml;rter gew&auml;hrt Ihnen den Zugang zum Archiv.</b>
+            <br><em>Pattern: jdm. (Dat.) den Zugang (Akk.) zu etwas (Dat.) gew&auml;hren</em></td></tr>
+        <tr><td class="de">einen Durchbruch <b>erreichen</b></td><td class="de">to achieve a breakthrough</td>
+            <td class="de"><b>Die Verhandlungen haben einen Durchbruch erreicht.</b></td></tr>
+        <tr><td class="de">in Kraft <b>treten</b></td><td class="de">to come into force</td>
+            <td class="de"><b>Das Gesetz tritt am 1. Juli in Kraft.</b></td></tr>
+        <tr><td class="de">zur Sprache <b>kommen</b></td><td class="de">to come up for discussion</td>
+            <td class="de"><b>Der Fall ist im Untersuchungsausschuss zur Sprache gekommen.</b></td></tr>
+        <tr><td class="de">in Betracht <b>ziehen</b></td><td class="de">to consider</td>
+            <td class="de"><b>Diesen Umzug ziehen wir vorerst nicht in Betracht.</b></td></tr>
+        <tr><td class="de">R&uuml;cksicht <b>nehmen auf</b> + Akk</td><td class="de">to show consideration for</td>
+            <td class="de"><b>Bitte nehmen Sie R&uuml;cksicht auf die Nachbarn.</b></td></tr>
+        <tr><td class="de">Abstand <b>nehmen von</b> + Dat</td><td class="de">to keep your distance from</td>
+            <td class="de"><b>Halte wegen der Glatteisgefahr Abstand von der Br&uuml;cke.</b></td></tr>
+        <tr><td class="de">Teil <b>nehmen an</b> + Dat</td><td class="de">to take part in</td>
+            <td class="de"><b>Mehr als 200 Leute nahmen an der Demonstration teil.</b></td></tr>
+        <tr><td class="de">Bezug <b>nehmen auf</b> + Akk</td><td class="de">to refer to</td>
+            <td class="de"><b>Ich nehme Bezug auf Ihr Schreiben vom 12. Februar.</b></td></tr>
+        <tr><td class="de">in Frage <b>kommen</b></td><td class="de">to be conceivable</td>
+            <td class="de"><b>Eine K&uuml;ndigung kommt in diesem Fall nicht in Frage.</b></td></tr>
+        <tr><td class="de">in Kauf <b>nehmen</b></td><td class="de">to accept, to put up with</td>
+            <td class="de"><b>Wir m&uuml;ssen die Verz&ouml;gerung in Kauf nehmen.</b></td></tr>
+        <tr><td class="de">zur Verf&uuml;gung <b>stellen</b> + Akk</td><td class="de">to make available</td>
+            <td class="de"><b>Wir stellen Ihnen die Unterlagen gerne zur Verf&uuml;gung.</b></td></tr>
+        <tr><td class="de">zur Verf&uuml;gung <b>stehen</b> + Dat</td><td class="de">to be available</td>
+            <td class="de"><b>Die Ergebnisse stehen Ihnen ab Montag zur Verf&uuml;gung.</b></td></tr>
+        <tr><td class="de">unter Druck <b>stehen</b></td><td class="de">to be under pressure</td>
+            <td class="de"><b>Die Einrichtung steht seit Monaten unter Druck.</b></td></tr>
+        <tr><td class="de">in Gang <b>setzen</b> + Akk</td><td class="de">to set in motion</td>
+            <td class="de"><b>Die Stadt hat das Projekt nicht in Gang gesetzt.</b></td></tr>
+        <tr><td class="de">einen Beschluss <b>fassen</b></td><td class="de">to pass a resolution</td>
+            <td class="de"><b>Der Vorstand hat gestern einen Beschluss gefasst.</b></td></tr>
+      </tbody>
+    </table>
+
+    <h3>Transitive vs. intransitive at a glance</h3>
+    <table>
+      <thead><tr><th>FVG</th><th>Type</th><th>Case</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">zur Verf&uuml;gung <b>stellen</b></td><td class="de">transitive</td>
+            <td class="de">+ Akkusativ</td><td class="de"><b>Wir stellen die Daten zur Verf&uuml;gung.</b></td></tr>
+        <tr><td class="de">zur Verf&uuml;gung <b>stehen</b></td><td class="de">intransitive</td>
+            <td class="de">+ Dativ</td><td class="de"><b>Die Daten stehen uns zur Verf&uuml;gung.</b></td></tr>
+        <tr><td class="de">zur Diskussion <b>stellen</b></td><td class="de">transitive</td>
+            <td class="de">+ Akkusativ</td><td class="de"><b>Er stellt den Antrag zur Diskussion.</b></td></tr>
+        <tr><td class="de">zur Diskussion <b>stehen</b></td><td class="de">intransitive</td>
+            <td class="de">+ Dativ</td><td class="de"><b>Der Antrag steht zur Diskussion.</b></td></tr>
+        <tr><td class="de">in Gang <b>setzen</b></td><td class="de">transitive</td>
+            <td class="de">+ Akkusativ</td><td class="de"><b>Er setzt die Maschine in Gang.</b></td></tr>
+        <tr><td class="de">in Gang <b>kommen</b></td><td class="de">intransitive</td>
+            <td class="de">no object</td><td class="de"><b>Die Maschine ist in Gang gekommen.</b></td></tr>
+        <tr><td class="de">in Betracht <b>ziehen</b></td><td class="de">transitive</td>
+            <td class="de">+ Akkusativ</td><td class="de"><b>Wir ziehen zwei Varianten in Betracht.</b></td></tr>
+        <tr><td class="de">in Betracht <b>kommen</b></td><td class="de">intransitive</td>
+            <td class="de">no object</td><td class="de"><b>Beide Varianten kommen in Betracht.</b></td></tr>
+        <tr><td class="de">in Frage <b>kommen</b></td><td class="de">intransitive</td>
+            <td class="de">no object</td><td class="de"><b>Das kommt nicht in Frage.</b></td></tr>
+        <tr><td class="de">zur Sprache <b>kommen</b></td><td class="de">intransitive</td>
+            <td class="de">no object</td><td class="de"><b>Das Thema kam zur Sprache.</b></td></tr>
+        <tr><td class="de">in Kauf <b>nehmen</b></td><td class="de">transitive</td>
+            <td class="de">+ Akkusativ</td><td class="de"><b>Er nimmt die Folgen in Kauf.</b></td></tr>
+        <tr><td class="de">unter Druck <b>stehen</b></td><td class="de">intransitive</td>
+            <td class="de">no object</td><td class="de"><b>Die Schule steht unter Druck.</b></td></tr>
+        <tr><td class="de">in Kraft <b>treten</b></td><td class="de">intransitive</td>
+            <td class="de">no object</td><td class="de"><b>Die Verordnung tritt in Kraft.</b></td></tr>
+        <tr><td class="de">Zugang <b>gew&auml;hren</b> zu + Dat</td><td class="de">transitive</td>
+            <td class="de">+ Akkusativ (+ Dativ)</td><td class="de"><b>Er gew&auml;hrt ihnen Zugang zum Hof.</b></td></tr>
+        <tr><td class="de">R&uuml;cksicht <b>nehmen auf</b></td><td class="de">transitive</td>
+            <td class="de">+ Akkusativ</td><td class="de"><b>Wir nehmen R&uuml;cksicht auf die Umwelt.</b></td></tr>
+        <tr><td class="de">Abstand <b>nehmen von</b></td><td class="de">intransitive</td>
+            <td class="de">+ Dativ</td><td class="de"><b>Nehmen Sie bitte Abstand von der Kante.</b></td></tr>
+        <tr><td class="de">Teil <b>nehmen an</b></td><td class="de">intransitive</td>
+            <td class="de">+ Dativ</td><td class="de"><b>Wir nehmen an dem Kurs teil.</b></td></tr>
+        <tr><td class="de">Bezug <b>nehmen auf</b></td><td class="de">intransitive</td>
+            <td class="de">+ Akkusativ</td><td class="de"><b>Nehmen Sie Bezug auf die Anlage.</b></td></tr>
+      </tbody>
+    </table>
+
+    <h3>Word order: what changes and what does not</h3>
+    <p>The construction is a normal clause, not a subordinate clause. The Funktionsverb keeps
+      the ordinary finite-verb position &ndash; second in the main clause, last in a
+      subordinate clause. The nominal core sits either in the object slot or inside the
+      prepositional phrase.</p>
+    <table>
+      <thead><tr><th>Slot</th><th>What goes there</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">finite verb position</td><td class="de">the Funktionsverb, conjugated</td>
+            <td class="de"><b>Der Vorstand fasst</b> morgen einen <b>Beschluss</b>.</td></tr>
+        <tr><td class="de">subject (position I or II)</td><td class="de">who does it</td>
+            <td class="de"><b>Er</b> trifft eine Entscheidung.</td></tr>
+        <tr><td class="de">object slot</td><td class="de">the nominal core, if it is the object</td>
+            <td class="de">Er trifft <b>eine Entscheidung</b>.</td></tr>
+        <tr><td class="de">end of clause</td><td class="de">the separable prefix of a separable FVG</td>
+            <td class="de">Der Vertrag tritt morgen <b>in Kraft</b>.</td></tr>
+        <tr><td class="de">adverbial phrase</td><td class="de">the preposition + nominal core</td>
+            <td class="de">Er nimmt <b>an der Sitzung</b> teil.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="tipbox">
+      <strong>Nothing exotic happens.</strong> A Funktionsverbgef&uuml;ge is still an ordinary
+      German clause. Conjugation, negation, <em>weil</em> clauses and the Perfekt all work
+      exactly as usual &ndash; the only thing to keep straight is <em>which</em> noun belongs
+      to the verb and which case it takes.
+    </div>
+
+    <h3>Do not confuse these</h3>
+    <table>
+      <thead><tr><th>Pair</th><th>Difference</th></tr></thead>
+      <tbody>
+        <tr><td class="de">ein Vertrag <b>schlie&szlig;en</b> vs. einen Vertrag <b>abschlie&szlig;en</b></td>
+            <td class="de">Not a Funktionsverb: <em>schlie&szlig;en</em> is a full verb meaning <em>to close</em>, and the prefixes change the meaning, not the valency. <em>einen Vertrag schlie&szlig;en</em> = to conclude a contract.</td></tr>
+        <tr><td class="de">in Frage <b>kommen</b> vs. in Frage <b>stellen</b></td>
+            <td class="de">The pair exists for this verb too: <em>kommen</em> is intransitive and impersonal (<em>Das kommt nicht in Frage.</em>), <em>stellen</em> is transitive and takes an accusative subject + object (<em>Er stellt diese Regel in Frage.</em>).</td></tr>
+        <tr><td class="de">in Betracht <b>kommen</b> vs. in Betracht <b>ziehen</b></td>
+            <td class="de">Both look similar, but only <em>ziehen</em> takes an accusative object: <em>Wir ziehen das in Betracht.</em> <em>kommen</em> takes none.</td></tr>
+        <tr><td class="de">einen Vorschlag <b>machen</b> vs. einen Vorschlag <b>machen</b> k&ouml;nnen</td>
+            <td class="de">The FVG takes a modal verb, and the whole phrase behaves like one verb: <em>Wir k&ouml;nnen einen Vorschlag machen.</em> The object still goes in front of the FVG, not inside it.</td></tr>
+        <tr><td class="de">Teil <b>nehmen an</b> vs. <b>teilnehmen</b></td>
+            <td class="de"><em>teilnehmen</em> is the separable compound verb and takes no fixed preposition; <em>Teil nehmen an</em> is the FVG and <em>an</em> + Dativ is obligatory. Both are correct, but only the FVG fixes the preposition.</td></tr>
+        <tr><td class="de">die Folgen <b>in Kauf nehmen</b> vs. die Folgen <b>auf sich nehmen</b></td>
+            <td class="de">Same noun, different meaning: <em>Er nimmt die Folgen in Kauf</em> = he accepts them; <em>Er nimmt die Folgen auf sich</em> = he takes them on and acts. The first is passive in meaning, the second active.</td></tr>
+        <tr><td class="de">R&uuml;cksicht <b>nehmen auf</b> vs. <b>ber&uuml;cksichtigen</b></td>
+            <td class="de"><em>ber&uuml;cksichtigen</em> takes a bare accusative (<em>Wir ber&uuml;cksichtigen die Umwelt</em>), the FVG adds <em>auf</em>: <em>R&uuml;cksicht nehmen auf die Umwelt.</em></td></tr>
+        <tr><td class="de">eine Entscheidung <b>treffen</b> vs. eine Entscheidung <b>erzwingen</b></td>
+            <td class="de">Both are transitive, but only <em>treffen</em> is a Funktionsverbgef&uuml;ge; <em>erzwingen</em> is a normal verb. The word order is identical, so the difference is lexical, not grammatical.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="warnbox">
+      <strong>One construction, one object &ndash; always.</strong> The single most reliable
+      check is whether you have produced two accusatives or an accusative plus a pronoun in
+      one FVG. If you have, use the simple verb.
+      &nbsp;&#10007; <em>Er trifft sie eine Entscheidung.</em>
+      &nbsp;&#10007; <em>Die Daten stellen Ihnen die Unterlagen zur Verf&uuml;gung.</em>
+      &nbsp;&#10003; <em>Wir stellen Ihnen die Daten zur Verf&uuml;gung.</em>
+    </div>
+
+    <div class="rulebox">
+      <strong>Register in one line.</strong> Learn the FVG because you will have to
+      <em>read</em> and <em>write</em> them, and because a few of them
+      (<em>in Frage kommen, in Kauf nehmen, Abstand nehmen</em>) are completely normal even in
+      casual speech. In conversation the simple verb usually sounds more natural
+      (<em>Wir haben entschieden</em> rather than <em>Wir haben eine Entscheidung getroffen</em>),
+      and in official writing the opposite holds: <em>Der Vorstand hat einen Beschluss gefasst</em>
+      is expected where <em>hat beschlossen</em> would sound casual.
+    </div>
+
+    <h3>Summary</h3>
+    <table>
+      <thead><tr><th>You want to&hellip;</th><th>Use</th></tr></thead>
+      <tbody>
+        <tr><td class="de">say a general verb in a formal, written way</td><td class="de">Funktionsverb + noun (<em>eine Entscheidung treffen</em>)</td></tr>
+        <tr><td class="de">keep the object unique</td><td class="de">either the pronoun or the noun, never both</td></tr>
+        <tr><td class="de">make something available</td><td class="de">zur Verf&uuml;gung stellen + Akkusativ</td></tr>
+        <tr><td class="de">say something is available</td><td class="de">zur Verf&uuml;gung stehen + Dativ</td></tr>
+        <tr><td class="de">put a topic on the agenda</td><td class="de">zur Diskussion stellen + Akkusativ</td></tr>
+        <tr><td class="de">say a topic is being discussed</td><td class="de">zur Diskussion stehen + Dativ</td></tr>
+        <tr><td class="de">accept a bad consequence</td><td class="de">die Folgen in Kauf nehmen</td></tr>
+        <tr><td class="de">consider an option</td><td class="de">etwas in Betracht ziehen + Akkusativ</td></tr>
+        <tr><td class="de">rule an option out</td><td class="de">etwas kommt nicht in Frage / in Betracht</td></tr>
+        <tr><td class="de">show consideration</td><td class="de">R&uuml;cksicht nehmen auf + Akkusativ</td></tr>
+        <tr><td class="de">keep your distance</td><td class="de">Abstand nehmen von + Dativ</td></tr>
+        <tr><td class="de">join in</td><td class="de">Teil nehmen an + Dativ</td></tr>
+        <tr><td class="de">refer to a document</td><td class="de">Bezug nehmen auf + Akkusativ</td></tr>
+        <tr><td class="de">describe a state, no action</td><td class="de">intransitive FVG (<em>unter Druck stehen, in Gang kommen</em>)</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- ══ 2. EXAMPLES ══ -->
+  <section>
+    <h2>2 · 20 worked examples</h2>
+    <p><small>Each example marks the opener and closer in bold and explains what it does to the sentence.</small></p>
+    <div id="examples"></div>
+  </section>
+
+  <!-- ══ 3. EXERCISES ══ -->
+  <section>
+    <h2>3 · 100 exercises</h2>
+
+    <div class="noVoice" id="noVoice">
+      <b>Pronunciation unavailable.</b> This browser has no German speech voice installed, so the
+      speaker buttons will not play. In Chrome, Edge and Safari on a desktop, German is available by default.
+    </div>
+    <div id="quiz"></div>
+  </section>
+
+</div>
+
+<footer class="footer"><strong>Funktionsverb constructions</strong><span class="footer-dot">·</span><span>Roman Zajic</span></footer>
+
+<script>
+(function(){
+  "use strict";
+
+  var EXAMPLES = [
+    ["Der Betriebsrat <em>trifft</em> eine <em>Entscheidung</em>. — The works council is making a decision.", "The Funktionsverb <em>trifft</em> is intransitive and takes no accusative of its own: the nominal core <em>eine Entscheidung</em> is the whole object. <em>Er trifft sie eine Entscheidung</em> is impossible; a pronoun may only stand in for the core on its own: <em>Der Betriebsrat hat eine Entscheidung getroffen, und morgen trifft er sie.</em>"],
+    ["Die Kundin <em>stellt</em> einen <em>Antrag</em> auf einen neuen Stromanbieter. — The customer submits an application for a new electricity provider.", "The accusative is opened by the core <em>einen Antrag</em>, not by the verb; the preposition <em>auf</em> belongs to the noun phrase <em>Antrag auf</em> + accusative. <em>stellt</em> itself can never be given a second accusative object."],
+    ["Die Regierung <em>f&uuml;hrt</em> einen <em>Krieg</em> gegen das Nachbarland. — The government is waging a war against the neighbouring country.", "In this Funktionsverbgef&uuml;ge the verb is semantically empty: it merely carries tense, mood and person, while the whole meaning sits in the core <em>Krieg</em>. The core keeps the accusative, the core and not <em>f&uuml;hrt</em> controls the preposition <em>gegen</em> + accusative."],
+    ["Die Firma hat im letzten Jahr <em>Gewinn</em> gemacht. — The company made a profit last year.", "<em>Gewinn machen</em> takes the mass noun without an article, so no accusative is visible at all — the idiom is as fixed as a single word. In the negative the noun gets its article: <em>Die Firma hat keinen Gewinn gemacht.</em>"],
+    ["Das Parlament <em>fasst</em> einen <em>Beschluss</em> &uuml;ber den Etat. — The parliament is passing a resolution on the budget.", "The irregular Funktionsverb <em>fasst</em> — <em>fasste</em>, <em>hat gefasst</em> — supplies the perfect itself, so no <em>hat</em> form is added. Semantically it is just 'hold', and only the core <em>Beschluss</em> makes it a legislative act."],
+    ["Wir <em>stellen</em> Ihnen die Daten <em>zur Verf&uuml;gung</em>. — We are making the data available to you.", "<em>zur Verf&uuml;gung stellen</em> is transitive: <em>die Daten</em> is the accusative object of the verb, <em>Ihnen</em> is the dative person. The one accusative has to be the data, never a pronoun inserted before the core."],
+    ["Die Regierung <em>stellt</em> die <em>Weichen</em> f&uuml;r die Reform. — The government is setting the course for the reform.", "A second accusative example: the Funktionsverb <em>stellt</em> governs the object <em>die Weichen</em>, and <em>f&uuml;r die Reform</em> is a prepositional attribute of the core, not a second object. A closer meaning of <em>stellen</em> survives here as 'aim'."],
+    ["Die K&uuml;rzerei <em>zieht</em> den <em>Umsturz</em> nicht <em>in Betracht</em>. — The leadership is not considering a coup.", "<em>in Betracht ziehen</em> requires an accusative object (<em>den Umsturz</em>), and the idiom closes the clause. Contrast <em>Ein Umsturz kommt hier nicht in Betracht</em>: intransitive, with <em>zu</em> + dative, and the verb in position II."],
+    ["Der Vorstand <em>stellt</em> die Frage nach dem Budget <em>zur Diskussion</em>. — The executive board is putting the budget question on the table.", "<em>zur Diskussion stellen</em> is transitive with an accusative object (<em>die Frage</em>), and the separable prefix goes to the very end. Its intransitive partner <em>zur Diskussion stehen</em> has a dative person instead and no object: <em>Die Frage steht den B&uuml;rgern zur Diskussion.</em>"],
+    ["Die Daten <em>stehen</em> Ihnen <em>zur Verf&uuml;gung</em>. — The data is at your disposal.", "The mirror image of <em>zur Verf&uuml;gung stellen</em>: <em>stehen</em> is intransitive, the data is the subject, <em>Ihnen</em> is dative, and an object is impossible — <em>Die Daten stehen Ihnen die Daten zur Verf&uuml;gung</em> is not German."],
+    ["Das Thema <em>steht</em> schon lange <em>zur Diskussion</em>. — The issue has been up for discussion for a long time.", "<em>zur Diskussion stehen</em> is intransitive and takes no object: unlike <em>zur Diskussion stellen</em> (+Akkusativ), it cannot be given an accusative thing. A dative person is possible but rare, so the plain form is preferred."],
+    ["Dem Kunden <em>steht</em> ein <em>Widerrufsrecht</em> <em>zu</em>. — The customer has a right of withdrawal.", "<em>jemandem etwas zustehen</em>: the dative person <em>dem Kunden</em> is placed before the subject, the nominative core <em>ein Widerrufsrecht</em> is the subject, and the separable prefix <em>zu</em> ends the clause. Same pattern in <em>Mir ist nicht klar, was das bedeutet.</em>"],
+    ["K&ouml;nnen Sie mir <em>behilflich</em> <em>sein</em>? — Could you help me out?", "<em>jemandem behilflich sein</em> is a pure Funktionsverbgef&uuml;ge: dative <em>mir</em>, predicative <em>behilflich</em>, and neither an object nor a preposition such as <em>bei</em>. The variant <em>Ich bin Ihnen dabei behilflich</em> uses <em>dabei</em> as a free middle-field adverb."],
+    ["Nimm <em>R&uuml;cksicht</em> <em>auf</em> die Kinder. — Be considerate of the children.", "<em>R&uuml;cksicht nehmen auf</em> + accusative (<em>die Kinder</em>). The preposition belongs to the core, the idiom is untrennbar, and <em>auf</em> never travels to the end — the sentence would be <em>Nimm die Kinder auf R&uuml;cksicht</em> instead, with the core accusative."],
+    ["Halte <em>Abstand</em> <em>von</em> der Bahn. — Keep your distance from the tracks.", "<em>Abstand nehmen von</em> + <em>dative</em>, because <em>Abstand</em> expresses a relation rather than an action on something. Same idiom in the perfect: <em>Er hat Abstand von der Bahn genommen.</em> Dative, not accusative, is the contrast learners most often get wrong."],
+    ["Der Bericht <em>nimmt</em> <em>Bezug</em> <em>auf das Protokoll</em> der letzten Sitzung. — The report refers to the minutes of the last meeting.", "<em>Bezug nehmen auf</em> + Akkusativ (<em>auf das Protokoll</em>), with the core <em>Bezug</em> usually article-less. <em>Bezug nehmen</em> takes a singular subject here; for a plural subject use <em>sich beziehen auf</em> instead."],
+    ["Er <em>nimmt</em> die Folgen <em>in Kauf</em>. — He accepts the consequences.", "<em>in Kauf nehmen</em> takes an accusative object (<em>die Folgen</em>) and has no preposition after the core: there is no <em>in Kauf nehmen auf</em> and no <em>gegen&uuml;ber</em>. Semantically it is 'accept as something one has to live with', and the accent on <em>in Kauf</em> signals that cost."],
+    ["Ich <em>nehme</em> an der Sitzung <em>teil</em>. — I am taking part in the meeting.", "<em>Teil nehmen an</em> + <em>dative</em> (<em>an der Sitzung</em>), and the verb is separable: in the main clause the finite part <em>nehme</em> stands in position II while the prefix <em>teil</em> closes the clause. Wrong: <em>Ich nehme teil an der Sitzung.</em>"],
+    ["Diese Option <em>kommt</em> f&uuml;r uns nicht in <em>Frage</em>. — This option is not up for discussion.", "<em>in Frage kommen</em> is intransitive and takes only <em>zu</em> + dative (<em>f&uuml;r uns</em>) — no object, and the separable prefix <em>in</em> with <em>Frage</em> stays at the end. <em>eine Frage ziehen</em> does not exist; the transitive form is <em>in Betracht ziehen</em> + accusative."],
+    ["Er <em>nimmt</em> die Kritik <em>ernst</em>. — He takes the criticism seriously.", "A separable Funktionsverb without a preposition and with an accusative object: <em>nimmt</em> is in position II, the object <em>die Kritik</em> in the middle, and the stressed prefix <em>ernst</em> ends the sentence as the semantic focus. In a subordinate clause it would move to the front: <em>..., dass er die Kritik ernst nimmt.</em>"]
+  ];
+
+  var DATA_URL = "../../data/grammar_exercises_funktionsverbgefuege.json";
+  var STORE = "funktionsverbgefuege_progress_v1";
+  // ── pronunciation via the browser speech engine ──
+  var MIC_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5z"></path>'
+    + '<path class="pulse" d="M15.5 8.5a5 5 0 0 1 0 7"></path>'
+    + '<path class="pulse" d="M18.5 5.5a9 9 0 0 1 0 13"></path></svg>';
+  var synth = window.speechSynthesis || null;
+  var germanVoice = null;
+
+  function stripTags(t){ return String(t).replace(/<[^>]*>/g,""); }
+
+  function pickVoice(){
+    if(!synth) return null;
+    var vs = synth.getVoices() || [];
+    germanVoice = vs.filter(function(v){ return /^de(-|_|$)/i.test(v.lang); })[0] || null;
+    return germanVoice;
+  }
+  if(synth){
+    pickVoice();
+    if(synth.addEventListener) synth.addEventListener("voiceschanged", pickVoice);
+  }
+
+  function stopSpeech(){ if(synth) try{ synth.cancel(); }catch(e){} }
+
+  var warned = false;
+  function noVoiceNotice(){
+    if(warned) return; warned = true;
+    var n = document.getElementById("noVoice");
+    if(n) n.style.display = "flex";
+  }
+  function micBtn(text, label){
+    var b = document.createElement("button");
+    b.className = "mic";
+    b.type = "button";
+    b.setAttribute("aria-pressed","false");
+    b.setAttribute("aria-label", (label||"Play") + ": " + stripTags(text));
+    b.title = "Play pronunciation";
+    b.innerHTML = MIC_SVG;
+    b.addEventListener("click", function(ev){
+      ev.stopPropagation();
+      if(!synth){ b.disabled = true; b.title = "Speech is not available in this browser"; noVoiceNotice(); return; }
+      if(b.getAttribute("aria-pressed")==="true"){ stopSpeech(); b.setAttribute("aria-pressed","false"); return; }
+      stopSpeech();
+      if(!germanVoice) pickVoice();
+      var u = new SpeechSynthesisUtterance(stripTags(text));
+      u.lang = "de-DE";
+      if(germanVoice) u.voice = germanVoice;
+      u.rate = 0.92; u.pitch = 1;
+      b.setAttribute("aria-pressed","true");
+      var off = function(){ b.setAttribute("aria-pressed","false"); };
+      u.onend = off;
+      u.onerror = function(){ off(); noVoiceNotice(); };
+      synth.speak(u);
+      // some engines report no voices at all; surface that instead of a dead button
+      if(!synth.getVoices().length) noVoiceNotice();
+    });
+    return b;
+  }
+
+  var state = {revealed:{}, answers:{}};
+
+  function esc(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
+  function load(){ try{ var v=JSON.parse(localStorage.getItem(STORE)); if(v&&typeof v==="object"){state.revealed=v.revealed||{};state.answers=v.answers||{};} }catch(e){} }
+  function save(){ try{ localStorage.setItem(STORE, JSON.stringify(state)); }catch(e){} }
+
+  // ---- examples ----
+  // Each entry is [german_and_english, why]. The first field carries the English
+  // translation after an em dash, so split it out for separate styling.
+  function splitDE(t){
+    var i = t.indexOf("\u2014");
+    if(i < 0) return [t, ""];
+    return [t.slice(0,i).trim(), t.slice(i+1).trim()];
+  }
+  (function renderExamples(){
+    var host = document.getElementById("examples");
+    host.innerHTML = "";
+    EXAMPLES.forEach(function(x){
+      var de = x[0] || "";
+      var why = x[1] || "";
+      var parts = splitDE(de);
+      var card = document.createElement("div");
+      card.className = "ex";
+
+      var row = document.createElement("div");
+      row.className = "microw";
+      var txt = document.createElement("div");
+      txt.className = "mtext";
+      txt.innerHTML = '<div class="de">'+parts[0]+'</div>'+
+                      (parts[1] ? '<div class="en">'+parts[1]+'</div>' : "");
+      row.appendChild(txt);
+      row.appendChild(micBtn(parts[0], "Play this example"));
+      card.appendChild(row);
+
+      if(why){
+        var w = document.createElement("div");
+        w.className = "why";
+        w.innerHTML = "<b>Why:</b> "+why;
+        card.appendChild(w);
+      }
+      host.appendChild(card);
+    });
+  })();
+
+  // German special letters, inserted at the caret in the focused input.
+  var KEYS = ["ä","ö","ü","Ä","Ö","Ü","ß","€"];
+
+  function insertAt(input, ch){
+    var v = input.value;
+    var a = input.selectionStart == null ? v.length : input.selectionStart;
+    var b = input.selectionEnd == null ? v.length : input.selectionEnd;
+    input.value = v.slice(0,a) + ch + v.slice(b);
+    var pos = a + ch.length;
+    try{ input.setSelectionRange(pos,pos); }catch(e){}
+    input.focus();
+  }
+
+  function keypadBtn(id){
+    var b = document.createElement("button");
+    b.type = "button";
+    b.className = "keybtn";
+    b.title = "German letters";
+    b.setAttribute("aria-label","Insert German special characters");
+    b.setAttribute("aria-expanded","false");
+    b.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true">'+
+      '<rect x="2" y="5" width="20" height="14" rx="2"></rect>'+
+      '<path d="M6 9h.01M10 9h.01M14 9h.01M18 9h.01M6 13h.01M10 13h.01M14 13h.01M18 13h.01M8 16h8"></path>'+
+      '</svg>';
+    b.addEventListener("click", function(ev){
+      ev.stopPropagation();
+      var panel = document.getElementById("pad-"+id);
+      if(!panel) return;
+      var open = panel.classList.toggle("open");
+      b.setAttribute("aria-expanded", open ? "true" : "false");
+      closeAllKeypads(panel);
+    });
+    return b;
+  }
+
+  function closeAllKeypads(except){
+    Array.prototype.forEach.call(document.querySelectorAll(".pad.open"), function(p){
+      if(p === except) return;
+      p.classList.remove("open");
+      var btn = p.previousSibling && p.previousSibling.querySelector ? p.previousSibling.querySelector(".keybtn") : null;
+      if(btn) btn.setAttribute("aria-expanded","false");
+    });
+  }
+
+  document.addEventListener("click", function(){ closeAllKeypads(null); });
+  document.addEventListener("keydown", function(e){ if(e.key === "Escape") closeAllKeypads(null); });
+
+  function renderQuiz(ex){
+    var el = document.getElementById("quiz");
+    el.innerHTML = "";
+    ex.forEach(function(e){
+      var rev = !!state.revealed[e.id];
+      var card = document.createElement("article");
+      card.className = "q" + (rev ? " revealed" : "");
+      card.id = "q"+e.id;
+
+      var top = document.createElement("div");
+      top.className = "qtop";
+      top.innerHTML = '<span class="qnum">'+e.id+'</span>';
+      var qt = document.createElement("span");
+      qt.className = "qtext";
+      qt.textContent = e.english;
+      top.appendChild(qt);
+      card.appendChild(top);
+
+      // input with the letter keypad docked inside its right edge
+      var row = document.createElement("div");
+      row.className = "inputrow";
+      var ta = document.createElement("input");
+      ta.type = "text";
+      ta.className = "ainput";
+      ta.placeholder = "Write the German here…";
+      ta.setAttribute("aria-label","Your German answer for exercise "+e.id);
+      ta.value = state.answers[e.id] || "";
+      ta.addEventListener("input", function(){ state.answers[e.id] = ta.value; save(); });
+      row.appendChild(ta);
+      row.appendChild(keypadBtn(e.id));
+      card.appendChild(row);
+
+      // the letter panel sits inside the card so it is never clipped
+      var pad = document.createElement("div");
+      pad.className = "pad";
+      pad.id = "pad-"+e.id;
+      KEYS.forEach(function(k){
+        var kb = document.createElement("button");
+        kb.type = "button";
+        kb.className = "padkey";
+        kb.textContent = k;
+        kb.addEventListener("click", function(ev){
+          ev.stopPropagation();
+          var target = card.querySelector(".ainput");
+          insertAt(target, k);
+          state.answers[e.id] = target.value;
+          save();
+        });
+        pad.appendChild(kb);
+      });
+      card.appendChild(pad);
+
+      // reveal / hide toggle
+      var rb = document.createElement("button");
+      rb.type = "button";
+      rb.className = "btn rev" + (rev ? " on" : "");
+      rb.textContent = rev ? "Hide answer" : "Reveal answer";
+      rb.setAttribute("aria-expanded", rev ? "true" : "false");
+      rb.addEventListener("click", function(){
+        state.revealed[e.id] = !state.revealed[e.id];
+        save();
+        renderQuiz(ex);
+      });
+      card.appendChild(rb);
+
+      if(rev){
+        var fb = document.createElement("div");
+        fb.className = "fb";
+
+        var ansRow = document.createElement("div");
+        ansRow.className = "microw ansrow";
+        var at = document.createElement("div");
+        at.className = "mtext";
+        at.textContent = e.german;
+        ansRow.appendChild(at);
+        ansRow.appendChild(micBtn(e.german, "Play the German answer"));
+        fb.appendChild(ansRow);
+
+        var wy = document.createElement("div");
+        wy.className = "why";
+        wy.textContent = e.why;
+        fb.appendChild(wy);
+
+        card.appendChild(fb);
+      }
+      el.appendChild(card);
+    });
+  }
+
+  load();
+
+  fetch(DATA_URL+"?cb="+Date.now())
+    .then(function(r){ if(!r.ok) throw new Error("HTTP "+r.status); return r.json(); })
+    .then(function(d){
+      var ex=d.exercises;
+      renderQuiz(ex);
+    })
+    .catch(function(e){
+      document.getElementById("quiz").innerHTML =
+        '<div class="q"><b>Could not load the exercises.</b><br>'+esc(e.message)+'</div>';
+    });
+})();
+</script>
+</body>
+</html>

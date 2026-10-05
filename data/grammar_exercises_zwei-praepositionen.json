@@ -528,9 +528,9 @@
   {
    "id": 76,
    "skill": "Reflexive verbs with a fixed-case preposition",
-   "english": "My parents are interested in how I spend my evenings.",
-   "german": "Meine Eltern interessieren sich dafür, wie ich meine Abende verbringe.",
-   "why": "sich interessieren für the impersonal dafür takes accusative here, and the dass-clause carries the question."
+   "english": "My parents are interested in my evenings.",
+   "german": "Meine Eltern interessieren sich für meine Abendgestaltung.",
+   "why": "sich interessieren für + Akkusativ: the prepositional complement takes a noun or pronoun, never a whole clause, so the case stays accusative."
   },
   {
    "id": 77,
@@ -700,7 +700,5 @@
    "german": "Der Anwalt spricht mit dem Mandanten über den Vertrag und achtet auf die Fristen.",
    "why": "mit plus dative and über plus accusative, then achten auf plus accusative, three fixed patterns side by side."
   }
- ],
- "topic_en": "Verbs with two prepositions and different cases",
- "term_de": "Verben mit zwei Präpositionen"
+ ]
 }
