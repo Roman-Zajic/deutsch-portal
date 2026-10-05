@@ -68,10 +68,19 @@ h1{font-size:1.5rem;line-height:1.3;margin:6px 0 2px}
 
 /* ── LEVEL BLOCK ── */
 .level{margin-bottom:26px}
-.level-head{display:flex;align-items:baseline;gap:10px;padding-bottom:7px;
-  border-bottom:2px solid var(--teal-400);margin-bottom:12px}
-.level-head h2{font-size:1.05rem;letter-spacing:.02em}
-.level-head .n{font-size:.8rem;color:var(--muted);margin-left:auto;white-space:nowrap}
+.lvl-toggle{all:unset;display:flex;align-items:center;gap:10px;width:100%;
+  cursor:pointer;padding:6px 0 7px;border-bottom:2px solid var(--teal-400);
+  box-sizing:border-box;border-radius:3px}
+.lvl-toggle:focus-visible{outline:2px solid var(--teal-400);outline-offset:2px}
+.lvl-toggle:hover .lv{color:var(--teal-900)}
+.lvl-toggle .chev{flex-shrink:0;width:9px;height:9px;border-right:2px solid var(--teal-400);
+  border-bottom:2px solid var(--teal-400);transform:rotate(45deg);margin-top:-4px;
+  transition:transform .15s}
+.level.open .lvl-toggle .chev{transform:rotate(-135deg);margin-top:2px}
+.lv{font-size:1.05rem;font-weight:700;letter-spacing:.02em;color:var(--teal-700);transition:130ms}
+.lvl-toggle .n{font-size:.8rem;color:var(--muted);margin-left:auto;white-space:nowrap}
+.lvl-body{padding-top:12px}
+.level:not(.open) .lvl-body{display:none}
 .level-note{font-size:.82rem;color:var(--muted);margin-bottom:12px}
 
 /* ── TOPIC LIST ── */
@@ -87,7 +96,14 @@ h1{font-size:1.5rem;line-height:1.3;margin:6px 0 2px}
 .ename{font-size:.94rem;font-weight:600;color:var(--ink);line-height:1.35}
 .term{display:block;font-size:.82rem;color:var(--teal-700);font-style:italic;margin-top:1px}
 .covers{font-size:.83rem;color:var(--muted);margin-top:6px}
-.foot{display:flex;align-items:center;gap:8px;margin-top:9px}
+.foot{display:flex;align-items:center;gap:8px;margin-top:9px;flex-wrap:wrap}
+.pill{font-size:.66rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;
+  padding:2px 7px;border-radius:10px;white-space:nowrap}
+.pill.soon{background:rgba(225,160,30,.20);color:#7A5000;border:1px solid rgba(225,160,30,.35)}
+.pill.live{background:rgba(29,122,76,.14);color:#1D7A4C;border:1px solid rgba(29,122,76,.3)}
+.topiclink{font-size:.72rem;font-weight:600;color:var(--teal-700);text-decoration:none;
+  border:1px solid var(--teal-400);border-radius:4px;padding:3px 9px;white-space:nowrap;transition:130ms}
+.topiclink:hover{background:rgba(80,193,193,.18)}
 .markbtn{font-family:var(--font);font-size:.72rem;font-weight:600;letter-spacing:.02em;
   color:var(--muted);background:transparent;border:1px solid var(--border);border-radius:4px;
   padding:3px 9px;cursor:pointer;transition:130ms;white-space:nowrap}
@@ -148,7 +164,7 @@ footer strong{color:var(--teal-700)}
   </div>
 
   <h1>Grammar Review</h1>
-  <p class="sub">A complete reference of German grammar topics from B1 to C2, ordered so
+  <p class="sub">A complete reference of German grammar topics from A1 to C2, ordered so
      each one builds on the last. Mark a topic done as you work through the grammar module.</p>
 
   <div class="controls">
@@ -188,9 +204,9 @@ footer strong{color:var(--teal-700)}
   "use strict";
   var DATA_URL = "../../data/grammar_topics.json";
   var STORE_KEY = "grammar_done_v1";
-  var LEVELS = ["B1","B2","C1","C2"];
+  var LEVELS = ["A1","A2","B1","B2","C1","C2"];
 
-  var data = null, activeLevel = "ALL", query = "", done = {};
+  var data = null, activeLevel = "ALL", query = "", done = {}, open = {};
 
   function loadDone(){
     try { done = JSON.parse(localStorage.getItem(STORE_KEY)) || {}; } catch(e){ done = {}; }
@@ -262,10 +278,14 @@ footer strong{color:var(--teal-700)}
       if(!topics.length) return;
       shown += topics.length;
 
-      html += '<section class="level">';
-      html += '<div class="level-head"><h2>' + lv + '</h2><span class="n">' +
-              topics.length + ' of ' + L.count + ' topics</span></div>';
-      html += '<div class="topics">';
+      var isOpen = open[lv] !== false;
+      html += '<section class="level' + (isOpen ? " open" : "") + '" id="lv' + lv + '">';
+      html += '<button class="lvl-toggle" data-lv="' + lv + '" aria-expanded="' + isOpen + '">';
+      html += '<span class="chev" aria-hidden="true"></span>';
+      html += '<span class="lv">' + lv + '</span>';
+      html += '<span class="n">' + topics.length + ' of ' + L.count + ' topics</span>';
+      html += '</button>';
+      html += '<div class="lvl-body"><div class="topics">';
       topics.forEach(function(t){
         var k = key(lv,t.n), isDone = !!done[k];
         html += '<article class="topic' + (isDone ? " done" : "") + '" id="t' + esc(k) + '">';
@@ -275,11 +295,19 @@ footer strong{color:var(--teal-700)}
         if(t.split_note){
           html += '<div class="split"><b>Provider split:</b> ' + esc(t.split_note) + '</div>';
         }
+        var hasPage = !!t.page;
         html += '<div class="foot"><button class="markbtn" data-k="' + esc(k) + '">' +
-                (isDone ? "✓ Done" : "Mark done") + '</button></div>';
+                (isDone ? "✓ Done" : "Mark done") + '</button>';
+        if(hasPage){
+          html += '<span class="pill live">Lesson</span>';
+          html += '<a class="topiclink" href="' + esc(t.page) + '">Open lesson →</a>';
+        } else {
+          html += '<span class="pill soon">Soon</span>';
+        }
+        html += '</div>';
         html += '</article>';
       });
-      html += '</div></section>';
+      html += '</div></div></section>';
     });
 
     if(!shown){
@@ -287,6 +315,17 @@ footer strong{color:var(--teal-700)}
              '<p>Try a German term such as Genitiv, Passiv or Konjunktiv.</p></div>';
     }
     out.innerHTML = html;
+
+    Array.prototype.forEach.call(out.querySelectorAll(".lvl-toggle"), function(b){
+      b.addEventListener("click", function(){
+        var lv = b.getAttribute("data-lv");
+        var sec = document.getElementById("lv" + lv);
+        var nowOpen = !sec.classList.contains("open");
+        sec.classList.toggle("open", nowOpen);
+        b.setAttribute("aria-expanded", String(nowOpen));
+        open[lv] = nowOpen;
+      });
+    });
 
     Array.prototype.forEach.call(out.querySelectorAll(".markbtn"), function(b){
       b.addEventListener("click", function(){
