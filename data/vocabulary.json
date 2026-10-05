@@ -6,9 +6,13 @@
     "partOfSpeech": "Noun",
     "article": "die",
     "level": "C2",
-    "plural": "",
+    "plural": "Narben",
     "notes": "",
-    "examples": []
+    "examples": [
+      "Die Narbe an ihrem Arm ist kaum noch zu sehen. — The scar on her arm is barely visible any more.",
+      "Er hat eine lange Narbe von der alten Operation. — He has a long scar from the old operation.",
+      "Narben können nach einer Verbrennung zurückbleiben. — Scars can remain after a burn."
+    ]
   },
   {
     "id": "1790772545124",
@@ -21,7 +25,8 @@
     "notes": "",
     "examples": [
       "Der Schiedsrichter musste das Spiel abpfeifen. — The referee had to whistle the end of the game.",
-      "Ich kann ein Lied pfeifen. — I can whistle a song."
+      "Ich kann ein Lied pfeifen. — I can whistle a song.",
+      "Der Trainer pfiff das Spiel an. — The trainer blew the whistle to start the game."
     ]
   },
   {
@@ -35,7 +40,8 @@
     "notes": "",
     "examples": [
       "Sie flüsterten, um das Baby nicht aufzuwecken. — They whispered so as not to wake up the baby.",
-      "Kannst du mir das Geheimnis flüstern? — Can you whisper the secret to me?"
+      "Kannst du mir das Geheimnis flüstern? — Can you whisper the secret to me?",
+      "Sie flüsterte mir den Namen seiner Kollegin ins Ohr. — She whispered her colleague's name in my ear."
     ]
   },
   {
@@ -49,7 +55,8 @@
     "notes": "",
     "examples": [
       "Ich habe einen starken Schnupfen. — I have a bad cold.",
-      "Gegen Schnupfen hilft heißer Tee. — Hot tea helps against a runny nose."
+      "Gegen Schnupfen hilft heißer Tee. — Hot tea helps against a runny nose.",
+      "Mein Sohn hat seit drei Tagen Schnupfen. — My son has had a runny nose for three days."
     ]
   },
   {
@@ -63,7 +70,8 @@
     "notes": "",
     "examples": [
       "Sie hat die schwierige Prüfung lässig bestanden. — She passed the difficult exam effortlessly.",
-      "Der Stürmer schoss den Ball lässig ins Tor. — The striker kicked the ball easily into the goal."
+      "Der Stürmer schoss den Ball lässig ins Tor. — The striker kicked the ball easily into the goal.",
+      "Die neue Stelle lässt sich lässig erledigen. — The new task can be done effortlessly."
     ]
   },
   {
@@ -76,7 +84,9 @@
     "plural": "Köpfe",
     "notes": "",
     "examples": [
-      "Mein Kopf tut weh. — My head hurts. (I have a headache.)"
+      "Mein Kopf tut weh. — My head hurts. (I have a headache.)",
+      "Mir tut der Kopf weh. — My head hurts.",
+      "Ich muss das noch einmal durch den Kopf gehen lassen. — I have to let it go through my head once more."
     ]
   },
   {
@@ -88,7 +98,11 @@
     "level": "A1",
     "plural": "Haare",
     "notes": "",
-    "examples": []
+    "examples": [
+      "Sie hat langes, blondes Haar. — She has long, blonde hair.",
+      "Ich muss mein Haar schneiden lassen. — I have to get my hair cut.",
+      "Vor dem Spiegel kammt sie ihr Haar. — In front of the mirror she combs her hair."
+    ]
   },
   {
     "id": "1790783100012",
@@ -100,7 +114,9 @@
     "plural": "Augen",
     "notes": "",
     "examples": [
-      "Er hat blaue Augen. — He has blue eyes."
+      "Er hat blaue Augen. — He has blue eyes.",
+      "Ich habe ein Auge zugemacht. — I closed one eye.",
+      "Sie hat mich mit einem Blick aus dem Auge verloren. — She lost me from sight with a glance."
     ]
   },
   {
@@ -112,7 +128,11 @@
     "level": "A1",
     "plural": "Ohren",
     "notes": "",
-    "examples": []
+    "examples": [
+      "Ich habe ein Ohr gegen die Tür gedrückt. — I pressed an ear against the door.",
+      "Musik mit Kopfhörern ruiniert die Ohren. — Music with headphones damages your ears.",
+      "Das Baby hat sechs Monate lang geweint, bis es beide Ohren entzündet waren. — The baby cried for six months until both ears were infected."
+    ]
   },
   {
     "id": "1790783100014",
@@ -123,7 +143,11 @@
     "level": "A1",
     "plural": "Nasen",
     "notes": "",
-    "examples": []
+    "examples": [
+      "Meine Nase ist verstopft. — My nose is blocked.",
+      "Er zieht lauwarm an der Nase. — He is sniffing gently.",
+      "Die Nase läuft, seit ich erkältet bin. — My nose has been running since I caught a cold."
+    ]
   },
   {
     "id": "1790783100015",
@@ -134,7 +158,11 @@
     "level": "A1",
     "plural": "Münder",
     "notes": "",
-    "examples": []
+    "examples": [
+      "Halte den Mund! — Shut up!",
+      "Das Wort ging ihm nicht aus dem Mund. — He could not get the word out.",
+      "Er öffnete den Mund, aber es kam kein Ton. — He opened his mouth, but no sound came out."
+    ]
   },
   {
     "id": "1790783100016",
@@ -145,7 +173,11 @@
     "level": "A1",
     "plural": "Zähne",
     "notes": "",
-    "examples": []
+    "examples": [
+      "Der Zahnarzt hat mir einen Zahn gezogen. — The dentist pulled one of my teeth.",
+      "Ich putze mir zweimal täglich die Zähne. — I brush my teeth twice a day.",
+      "Mir fehlt ein Zahn vorne. — I'm missing a tooth at the front."
+    ]
   },
   {
     "id": "1790783100017",
@@ -156,7 +188,11 @@
     "level": "A1",
     "plural": "Lippen",
     "notes": "",
-    "examples": []
+    "examples": [
+      "Sie hat sich auf die Lippe gebissen. — She bit her lip.",
+      "Die Lippen sind vor Kälte blau geworden. — The lips have turned blue with cold.",
+      "Sie hat sich auf die Lippe gebissen, um nicht laut zu werden. — She bit her lip to keep from speaking up."
+    ]
   },
   {
     "id": "1790783100018",
@@ -167,7 +203,11 @@
     "level": "A1",
     "plural": "Hälse",
     "notes": "",
-    "examples": []
+    "examples": [
+      "Mein Hals tut so weh, dass ich kaum sprechen kann. — My throat hurts so much I can barely speak.",
+      "Ein Fischgrät ist ihm im Hals stecken geblieben. — A fishbone got stuck in his throat.",
+      "Der zu enge Kragen schneidet ihm in den Hals. — The collar is too tight and cuts into his neck."
+    ]
   },
   {
     "id": "1790783100019",
@@ -178,7 +218,11 @@
     "level": "A1",
     "plural": "Schultern",
     "notes": "",
-    "examples": []
+    "examples": [
+      "Ich habe mir die Schulter gestoßen. — I knocked my shoulder.",
+      "Sie legte ihm die Hand auf die Schulter. — She put her hand on his shoulder.",
+      "Die Tasche schiebt sie immer auf eine Schulter. — She always pushes the bag up onto one shoulder."
+    ]
   },
   {
     "id": "1790783100020",
@@ -189,7 +233,11 @@
     "level": "A1",
     "plural": "Arme",
     "notes": "",
-    "examples": []
+    "examples": [
+      "Er hat den linken Arm in eine Schlinge gelegt. — He put his left arm in a sling.",
+      "Sie umarmte ihn mit einem Arm. — She hugged him with one arm.",
+      "Er hat sich den Arm beim Sturz gebrochen. — He broke his arm in the fall."
+    ]
   },
   {
     "id": "1790783100021",
@@ -201,7 +249,9 @@
     "plural": "Hände",
     "notes": "",
     "examples": [
-      "Wasch dir die Hände! — Wash your hands!"
+      "Wasch dir die Hände! — Wash your hands!",
+      "Kannst du mir kurz die Hand halten? — Can you hold my hand for a moment?",
+      "Das Projekt steht in jedermanns Hand. — The project is in everyone's hands."
     ]
   },
   {
@@ -213,7 +263,11 @@
     "level": "A1",
     "plural": "Finger",
     "notes": "",
-    "examples": []
+    "examples": [
+      "Ich habe mir den Finger in der Tür eingeklemmt. — I caught my finger in the door.",
+      "Er hat alle Finger auf den Tisch gelegt. — He laid all his fingers on the table.",
+      "Zwei Finger der linken Hand sind taub. — Two fingers of the left hand are numb."
+    ]
   },
   {
     "id": "1790783100023",
@@ -224,7 +278,11 @@
     "level": "A1",
     "plural": "Brüste",
     "notes": "",
-    "examples": []
+    "examples": [
+      "Er beklagte sich über Schmerzen in der Brust. — He complained of pain in his chest.",
+      "Nach dem Übertragen drückte sie ihm einen Kuss auf die Brust. — After the handover she gave him a kiss on the chest.",
+      "Ein Stein hat ihn in der Brust getroffen. — A stone hit him in the chest."
+    ]
   },
   {
     "id": "1790783100024",
@@ -236,7 +294,9 @@
     "plural": "Bäuche",
     "notes": "",
     "examples": [
-      "Ich habe Bauchschmerzen. — I have a stomach ache."
+      "Ich habe Bauchschmerzen. — I have a stomach ache.",
+      "Mir tut der Bauch weh. — My stomach hurts.",
+      "Sie hat sich den Bauch mit den Händen gehalten. — She held her stomach with her hands."
     ]
   },
   {
@@ -248,7 +308,11 @@
     "level": "A1",
     "plural": "Rücken",
     "notes": "",
-    "examples": []
+    "examples": [
+      "Mir tut der Rücken weh, wenn ich zu lange sitze. — My back hurts when I sit for too long.",
+      "Er hat sich den Rücken an der Tür gestoßen. — He hit his back against the door.",
+      "Der Arzt klopft ihm den Rücken ab. — The doctor thumps his back."
+    ]
   },
   {
     "id": "1790783100026",
@@ -259,7 +323,11 @@
     "level": "A1",
     "plural": "Beine",
     "notes": "",
-    "examples": []
+    "examples": [
+      "Er hat sich beim Stufensteigen das Bein verdreht. — He twisted his leg on the stairs.",
+      "Mir sind die Beine eingeschlafen. — My legs have gone numb.",
+      "Sie liegt mit einem gebrochenen Bein im Krankenhaus. — She is in hospital with a broken leg."
+    ]
   },
   {
     "id": "1790783100027",
@@ -270,7 +338,11 @@
     "level": "A1",
     "plural": "Knie",
     "notes": "",
-    "examples": []
+    "examples": [
+      "Mein Knie tut noch weh. — My knee still hurts.",
+      "Er ist auf dem Knie gelandet. — He landed on his knee.",
+      "Beim Treppensteigen kracht es im Knie. — His knee cracks going up the stairs."
+    ]
   },
   {
     "id": "1790783100028",
@@ -281,7 +353,11 @@
     "level": "A1",
     "plural": "Füße",
     "notes": "",
-    "examples": []
+    "examples": [
+      "Mein linker Fuß ist kalt. — My left foot is cold.",
+      "Ich habe mir den Fuß gestoßen. — I bumped my foot.",
+      "Er hat sich den Fuß in der Badewanne gestoßen. — He bumped his foot in the bathtub."
+    ]
   },
   {
     "id": "1790783100029",
@@ -292,7 +368,11 @@
     "level": "A1",
     "plural": "Zehen",
     "notes": "",
-    "examples": []
+    "examples": [
+      "Der Stiefel drückt auf den großen Zeh. — The boot presses on the big toe.",
+      "Ich habe mir den Zeh an der Kante gestoßen. — I hit my toe on the edge.",
+      "Der Schuh ist zu eng, er drückt auf die Zehen. — The shoe is too tight, it presses on the toes."
+    ]
   },
   {
     "id": "1791063059534",
@@ -305,7 +385,8 @@
     "notes": "",
     "examples": [
       "Das Fenster ist offen. — The window is open.",
-      "Ich schaue aus dem Fenster. — I look out of the window."
+      "Ich schaue aus dem Fenster. — I look out of the window.",
+      "Machen Sie bitte das Fenster auf. — Please open the window."
     ]
   },
   {
@@ -319,7 +400,8 @@
     "notes": "",
     "examples": [
       "Ich habe den Ellbogen verletzt. — I injured my elbow.",
-      "Er stützte sich auf die Ellbogen. — He leaned on his elbows."
+      "Er stützte sich auf die Ellbogen. — He leaned on his elbows.",
+      "Sie stützte sich mit dem Ellbogen auf den Tisch. — She propped herself up on the table with her elbow."
     ]
   },
   {
