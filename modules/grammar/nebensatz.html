@@ -473,8 +473,8 @@ footer strong{color:var(--teal-700)}
 
   var ALL_EX = null;   // every exercise, so totals stay stable while filtering
 
-  function renderStat(ex){
-    var s = stats(ex);
+  function renderStat(ex, shown){
+    var s = stats(shown || ex);
     var tot = ALL_EX ? stats(ALL_EX) : s;
     // Progress bar and totals always describe the whole set, never the filter,
     // so the numbers do not jump when a skill filter is applied.
@@ -487,8 +487,8 @@ footer strong{color:var(--teal-700)}
             Math.round(tot.right/tot.done*100)+"%)";
     }
     if(filter!=="ALL"){
-      var sh = s.n, sd = s.done;
-      txt += " · filter: "+(sd===0 ? sh+" shown, none checked" : sd+" of "+sh+" checked");
+      txt += " · filter: "+(s.done===0 ? s.n+" shown, none checked"
+                             : s.done+" of "+s.n+" checked");
     }
     document.getElementById("pstat").innerHTML = txt;
   }
@@ -533,7 +533,7 @@ footer strong{color:var(--teal-700)}
         state.picks[q]=i; save(); renderQuiz(ex);
       });
     });
-    renderStat(ex);
+    renderStat(ex, list);
   }
 
   function checkAll(ex){
