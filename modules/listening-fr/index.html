@@ -279,14 +279,28 @@ function splitSentences(text){
   const clean = String(text).replace(/\s+/g, " ").trim();
   if(!clean) return [];
   const out = [];
-  let buf = "";
+  let start = 0;               /* debut de la phrase en cours */
   for(let i = 0; i < clean.length; i++){
     const ch = clean[i];
-    buf += ch;
     if(ch !== "." && ch !== "!" && ch !== "?") continue;
 
-    const candidate = buf.trim();
-    if(ch !== "."){ out.push(candidate); buf = ""; continue; }
+    const candidate = clean.slice(start, i + 1).trim();   /* phrase jusqu'au point */
+
+    if(ch !== "."){
+      /* "!" et "?" terminent aussi la phrase, mais un guillemet fermant
+         peut les suivre : « Salut ! » reste une phrase entiere. */
+      let cut = i + 1, q = i + 1;
+      while(q < clean.length && clean[q] === " ") q++;
+      if(/["'”’»)\]]/.test(clean[q] || "")){
+        let r = q;
+        while(r < clean.length && /["'”’»)\]]/.test(clean[r])) r++;
+        if(r < clean.length && clean[r] === " ") cut = r;
+      }
+      if(candidate.length > 1) out.push(clean.slice(start, cut).trim());
+      start = cut;
+      i = cut - 1;
+      continue;
+    }
 
     let j = i + 1;
     while(j < clean.length && clean[j] === " ") j++;
@@ -299,27 +313,26 @@ function splitSentences(text){
     if(INITIAL_TAIL.test(candidate) && /^[A-ZÉÈÊÀÎÔÛÇ]{1,3}[.,]/.test(after)) continue;
     if(DECIMAL.test(candidate) && /^\d/.test(nextCh)) continue;
 
-    /* Un guillemet fermant appartient a la phrase qu'il termine :
-       « Bonjour. » donne la phrase « Bonjour. », pas « Bonjour ».
-       On ne l'avale que s'il suit immediatement un guillemet fermant
-       puis un espace ; « et " ne sont jamais avales. */
+    /* Un guillemet fermant APPARTIENT a la phrase qu'il termine :
+       « Bonjour. » est une phrase entiere. On ne l'attache que s'il suit
+       immediatement un guillemet fermant puis un espace. */
+    let cut = i + 1;           /* fin de la phrase, point compris */
     let k = j;
     if(/["'”’»)\]]/.test(nextCh)){
       let q = j;
       while(q < clean.length && /["'”’»)\]]/.test(clean[q])) q++;
-      if(q < clean.length && clean[q] === " ") k = q + 1;
-      while(k < clean.length && clean[k] === " ") k++;
+      if(q < clean.length && clean[q] === " "){ cut = q; k = q + 1; }
     }
+    while(k < clean.length && clean[k] === " ") k++;
     const realNext = clean[k] || "";
     const looksNew = !realNext || /[«“‘(\-–]?[A-ZÉÈÊÀÎÔÛÇ0-9]/.test(realNext);
+    if(!looksNew || candidate.length <= 1) continue;
 
-    if(looksNew && candidate.length > 1){
-      out.push(buf.trim());   /* la phrase s'arrete au point */
-      buf = "";
-      i = j - 1;              /* reprend apres les espaces, avant le guillemet */
-    }
+    out.push(clean.slice(start, cut).trim());
+    start = cut;
+    i = cut - 1;               /* le prochain caractere lu est cut */
   }
-  const rest = buf.trim();
+  const rest = clean.slice(start).trim();
   if(rest) out.push(rest);
   return out;
 }
