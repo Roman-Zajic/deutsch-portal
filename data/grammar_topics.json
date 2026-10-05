@@ -1103,10 +1103,11 @@
         },
         {
           "n": 35,
-          "topic_en": "Infinitive constructions",
-          "term_de": "Infinitivkonstruktionen",
-          "covers": "anstatt, um, ohne, anlässlich + zu + Infinitiv.",
-          "provider_split": false
+          "topic_en": "(merged into B2 33)",
+          "term_de": "(siehe B2 33)",
+          "covers": "Merged: ohne / um / (an)statt … zu is taught at B2 33, Subordinate clauses without a conjunction. No separate page.",
+          "provider_split": false,
+          "superseded_by": "nebensaetze-ohne-konjunktion.html"
         },
         {
           "n": 36,
@@ -1124,9 +1125,9 @@
         },
         {
           "n": 38,
-          "topic_en": "Verbs with variable case government",
-          "term_de": "Verben mit Wechselpräpositionen",
-          "covers": "warten auf / helfen bei, and the dependent case that changes.",
+          "topic_en": "Verbs with two prepositions and different cases",
+          "term_de": "Verben mit zwei Präpositionen",
+          "covers": "reden mit +Dat / über +Akk, danken +Dat für +Akk, sich bedanken bei +Dat für +Akk, helfen +Dat bei +Dat; fixed-case prepositional verbs warten auf +Akk, teilnehmen an +Dat, sich interessieren für +Akk.",
           "provider_split": false
         },
         {
