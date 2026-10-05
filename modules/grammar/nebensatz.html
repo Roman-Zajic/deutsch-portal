@@ -16,7 +16,8 @@
 }
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 body{font-family:var(--font);font-size:16px;color:var(--teal-900);background:var(--page);
-  line-height:1.65;-webkit-font-smoothing:antialiased;padding-bottom:60px}
+  line-height:1.65;-webkit-font-smoothing:antialiased;
+  display:flex;flex-direction:column;min-height:100vh}
 
 .navbar{display:flex;align-items:center;gap:12px;height:48px;padding:0 14px;
   background:var(--teal-900);border-bottom:1px solid rgba(149,223,219,.15);
@@ -29,11 +30,17 @@ body{font-family:var(--font);font-size:16px;color:var(--teal-900);background:var
   color:var(--teal-100);background:rgba(149,223,219,.12);border:1px solid rgba(149,223,219,.22);
   border-radius:4px;cursor:pointer;transition:130ms;text-decoration:none;flex-shrink:0}
 .icon-btn:hover{background:rgba(149,223,219,.24);border-color:rgba(149,223,219,.45)}
+.btn-nav{display:inline-flex;align-items:center;justify-content:center;height:32px;padding:0 12px;
+  font-size:.78rem;font-weight:600;font-family:var(--font);color:var(--teal-100);text-decoration:none;
+  background:rgba(149,223,219,.12);border:1px solid rgba(149,223,219,.22);border-radius:4px;
+  transition:130ms;white-space:nowrap;flex-shrink:0}
+.btn-nav:hover{background:rgba(149,223,219,.24);border-color:rgba(149,223,219,.45)}
+@media (max-width:400px){.btn-nav{padding:0 9px;font-size:.74px;font-size:.74rem}}
 .icon-btn svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:2;
   stroke-linecap:round;stroke-linejoin:round}
 @media (max-width:560px){.nav-brand-text{font-size:.85rem}}
 
-.wrap{max-width:860px;margin:0 auto;padding:16px 16px 0}
+.wrap{max-width:860px;width:100%;margin:0 auto;padding:16px 16px 0;flex:1 0 auto}
 .meta{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:10px}
 .tag{font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;
   padding:3px 9px;border-radius:11px;background:rgba(0,130,130,.10);color:var(--teal-700)}
@@ -68,6 +75,20 @@ th{background:var(--in);font-weight:700;font-size:.76rem;text-transform:uppercas
 td.de{color:var(--ink)}
 tr:last-child td{border-bottom:none}
 
+.mic{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;
+  padding:0;flex-shrink:0;vertical-align:middle;border-radius:50%;cursor:pointer;
+  color:var(--teal-700);background:rgba(80,193,193,.16);border:1px solid rgba(80,193,193,.45);
+  transition:130ms}
+.mic:hover{background:rgba(80,193,193,.34)}
+.mic:focus-visible{outline:2px solid var(--teal-700);outline-offset:2px}
+.mic svg{width:13px;height:13px;fill:none;stroke:currentColor;stroke-width:2;
+  stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.mic[aria-pressed="true"]{background:var(--teal-700);color:#fff;border-color:var(--teal-700)}
+.mic[aria-pressed="true"] .pulse{animation:pulse 1s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+.mic[disabled]{opacity:.45;cursor:not-allowed}
+.microw{display:flex;align-items:flex-start;gap:8px}
+.microw > .mtext{flex:1;min-width:0}
 .ex{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:12px 13px;
   margin-bottom:9px;box-shadow:var(--shadow)}
 .ex .de{font-size:.98rem;color:var(--ink);margin-bottom:4px}
@@ -110,20 +131,18 @@ tr:last-child td{border-bottom:none}
   align-items:center;justify-content:center;margin-top:1px}
 .q.correct .qnum{background:rgba(29,122,76,.16);color:var(--green)}
 .q.wrong .qnum{background:rgba(196,30,58,.14);color:var(--red)}
+.ainput{flex:1;min-width:0;font-family:var(--font);font-size:.92rem;color:var(--ink);
+  background:var(--in);border:1px solid var(--border);border-radius:5px;padding:8px 11px;transition:130ms}
+.ainput:focus{outline:none;border-color:var(--teal-400);background:#fff;box-shadow:0 0 0 3px rgba(80,193,193,.16)}
+.ainput:disabled{opacity:.7;cursor:default;background:rgba(0,130,130,.05)}
+.q .microw .btn{flex-shrink:0}
+.ansrow{margin:6px 0;padding:7px 9px;background:rgba(80,193,193,.09);border-radius:5px}
+.ansrow .mtext{font-size:.93rem}
+.fb .mut{color:var(--muted);font-weight:500}
 .qskill{font-size:.66rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;
   color:var(--muted);margin-left:auto;white-space:nowrap;padding-top:4px}
 .qtext{font-size:.95rem;color:var(--ink);margin-bottom:9px}
-.opts{display:flex;flex-direction:column;gap:5px}
-.opt{display:flex;gap:9px;align-items:flex-start;font-family:var(--font);font-size:.9rem;
-  text-align:left;color:var(--ink);background:var(--in);border:1px solid var(--border);
-  border-radius:5px;padding:8px 11px;cursor:pointer;transition:130ms;width:100%;line-height:1.45}
-.opt:hover:not(:disabled){border-color:var(--teal-400);background:rgba(80,193,193,.10)}
-.opt:disabled{cursor:default}
-.opt .k{flex-shrink:0;font-weight:700;color:var(--teal-700);font-size:.8rem;width:15px}
-.opt.picked{border-color:var(--teal-400);background:rgba(80,193,193,.16)}
-.opt.picked.wrong{border-color:var(--red);background:rgba(196,30,58,.09)}
-.opt.right{border-color:var(--green);background:rgba(29,122,76,.13)}
-.opt.right .k{color:var(--green)}
+
 .fb{margin-top:9px;padding-top:9px;border-top:1px dotted var(--border);font-size:.85rem}
 .fb .ans{font-weight:600;color:var(--teal-700);margin-bottom:4px}
 .fb .why{color:var(--muted)}
@@ -140,9 +159,11 @@ details.fold[open] > summary::before{transform:rotate(90deg)}
 details.fold .foldbody{padding:0 12px 11px;border-top:1px solid var(--border);padding-top:9px;
   font-size:.9rem}
 
-footer{text-align:center;padding:18px 16px;border-top:1px solid var(--border);
-  font-size:.8rem;color:var(--muted);margin-top:10px}
-footer strong{color:var(--teal-700)}
+.footer{position:sticky;bottom:0;z-index:50;width:100%;max-width:var(--wrapw,860px);
+  margin-inline:auto;border-top:1px solid var(--border);padding:10px 16px;background:var(--page);
+  display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:.78rem;color:var(--muted)}
+.footer strong{color:var(--teal-700)}
+.footer-dot{margin:0 10px;color:var(--border)}
 .backlink{display:inline-block;margin-bottom:4px;font-size:.85rem;color:var(--teal-700)}
 </style>
 </head>
@@ -165,6 +186,7 @@ footer strong{color:var(--teal-700)}
   <div class="nav-pipe"></div>
   <a class="nav-brand-text" href="index.html">Grammar</a>
   <div class="nav-actions">
+    <a class="btn-nav" href="index.html" title="All grammar topics">All topics</a>
     <a class="icon-btn" href="../../" title="Back to all modules" aria-label="Back to all modules">
       <svg viewBox="0 0 24 24"><path d="M3 12l9-9 9 9"></path><path d="M5 10v10h14V10"></path></svg>
     </a>
@@ -383,14 +405,15 @@ footer strong{color:var(--teal-700)}
 
   <!-- ══ 3. EXERCISES ══ -->
   <section>
-    <h2>3 · 100 exercises with self-check</h2>
-    <p>Choose an option, then use <strong>Check</strong> to see whether it was right. The
-       explanation appears either way — read it even when you were correct.</p>
+    <h2>3 · 100 exercises: translate into German</h2>
+    <p>Each sentence is in <strong>English</strong>. Write your German translation in the
+       box, then press <strong>Reveal answer</strong> to compare it with the reference answer and
+       read the grammar note. Use the mic icon to hear the German aloud.</p>
 
     <div class="xbar">
       <div class="bar"><span id="barFill"></span></div>
       <span class="pstat" id="pstat">—</span>
-      <button class="btn" id="checkAll">Check all</button>
+      <button class="btn" id="checkAll">Reveal all</button>
       <button class="btn ghost" id="resetAll">Reset</button>
     </div>
 
@@ -400,7 +423,7 @@ footer strong{color:var(--teal-700)}
 
 </div>
 
-<footer><strong>Deutsch Lernen</strong> · Roman Zajic</footer>
+<footer class="footer"><strong>Nebensatz</strong><span class="footer-dot">·</span><span>Roman Zajic</span></footer>
 
 <script>
 (function(){
@@ -431,19 +454,97 @@ footer strong{color:var(--teal-700)}
 
   var DATA_URL = "../../data/grammar_exercises_nebensatz.json";
   var STORE = "nebensatz_progress_v1";
-  var LETTERS = ["A","B","C","D"];
-  var state = {checked:{}, picks:{}};
+  // ── pronunciation via the browser speech engine ──
+  var MIC_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"></path>'
+    + '<path class="pulse" d="M19 10v2a7 7 0 0 1-14 0v-2"></path><path d="M12 19v3"></path></svg>';
+  var synth = window.speechSynthesis || null;
+  var germanVoice = null;
+
+  function stripTags(t){ return String(t).replace(/<[^>]*>/g,""); }
+
+  function pickVoice(){
+    if(!synth) return null;
+    var vs = synth.getVoices() || [];
+    germanVoice = vs.filter(function(v){ return /^de(-|_|$)/i.test(v.lang); })[0] || null;
+    return germanVoice;
+  }
+  if(synth){
+    pickVoice();
+    if(synth.onvoiceschanged === null) synth.onvoiceschanged = pickVoice;
+  }
+
+  function stopSpeech(){ if(synth) try{ synth.cancel(); }catch(e){} }
+
+  function micBtn(text, label){
+    var b = document.createElement("button");
+    b.className = "mic";
+    b.type = "button";
+    b.setAttribute("aria-pressed","false");
+    b.setAttribute("aria-label", (label||"Play") + ": " + stripTags(text));
+    b.title = "Play pronunciation";
+    b.innerHTML = MIC_SVG;
+    b.addEventListener("click", function(ev){
+      ev.stopPropagation();
+      if(!synth){ b.disabled = true; b.title = "Speech is not available in this browser"; return; }
+      if(b.getAttribute("aria-pressed")==="true"){ stopSpeech(); b.setAttribute("aria-pressed","false"); return; }
+      stopSpeech();
+      if(!germanVoice) pickVoice();
+      var u = new SpeechSynthesisUtterance(stripTags(text));
+      u.lang = "de-DE";
+      if(germanVoice) u.voice = germanVoice;
+      u.rate = 0.92; u.pitch = 1;
+      b.setAttribute("aria-pressed","true");
+      var off = function(){ b.setAttribute("aria-pressed","false"); };
+      u.onend = off; u.onerror = off;
+      synth.speak(u);
+    });
+    return b;
+  }
+
+  var state = {revealed:{}, answers:{}};
   var filter = "ALL";
 
   function esc(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
-  function load(){ try{ var v=JSON.parse(localStorage.getItem(STORE)); if(v&&typeof v==="object"){state.checked=v.checked||{};state.picks=v.picks||{};} }catch(e){} }
+  function load(){ try{ var v=JSON.parse(localStorage.getItem(STORE)); if(v&&typeof v==="object"){state.revealed=v.revealed||{};state.answers=v.answers||{};} }catch(e){} }
   function save(){ try{ localStorage.setItem(STORE, JSON.stringify(state)); }catch(e){} }
 
   // ---- examples ----
-  document.getElementById("examples").innerHTML = EXAMPLES.map(function(x){
-    return '<div class="ex"><div class="de">'+x[0]+'</div><div class="en">'+x[1]+'</div>'+
-           '<div class="why"><b>Why:</b> '+x[2]+'</div></div>';
-  }).join("");
+  // Each entry is [german_and_english, why]. The first field carries the English
+  // translation after an em dash, so split it out for separate styling.
+  function splitDE(t){
+    var i = t.indexOf("\u2014");
+    if(i < 0) return [t, ""];
+    return [t.slice(0,i).trim(), t.slice(i+1).trim()];
+  }
+  (function renderExamples(){
+    var host = document.getElementById("examples");
+    host.innerHTML = "";
+    EXAMPLES.forEach(function(x){
+      var de = x[0] || "";
+      var why = x[1] || "";
+      var parts = splitDE(de);
+      var card = document.createElement("div");
+      card.className = "ex";
+
+      var row = document.createElement("div");
+      row.className = "microw";
+      var txt = document.createElement("div");
+      txt.className = "mtext";
+      txt.innerHTML = '<div class="de">'+parts[0]+'</div>'+
+                      (parts[1] ? '<div class="en">'+parts[1]+'</div>' : "");
+      row.appendChild(txt);
+      row.appendChild(micBtn(parts[0], "Play this example"));
+      card.appendChild(row);
+
+      if(why){
+        var w = document.createElement("div");
+        w.className = "why";
+        w.innerHTML = "<b>Why:</b> "+why;
+        card.appendChild(w);
+      }
+      host.appendChild(card);
+    });
+  })();
 
   function skills(ex){
     var m={}, out=[];
@@ -455,9 +556,9 @@ footer strong{color:var(--teal-700)}
     var el=document.getElementById("filters");
     var sk=skills(ex);
     var html='<button class="fbtn" data-f="ALL" aria-pressed="'+(filter==="ALL")+'">All '+ex.length+'</button>';
-    sk.forEach(function(s){
-      var n=ex.filter(function(e){return e.skill===s;}).length;
-      html+='<button class="fbtn" data-f="'+esc(s)+'" aria-pressed="'+(filter===s)+'">'+esc(s)+' '+n+'</button>';
+    sk.forEach(function(sk2){
+      var n=ex.filter(function(e){return e.skill===sk2;}).length;
+      html+='<button class="fbtn" data-f="'+esc(sk2)+'" aria-pressed="'+(filter===sk2)+'">'+esc(sk2)+' '+n+'</button>';
     });
     el.innerHTML=html;
     Array.prototype.forEach.call(el.querySelectorAll(".fbtn"),function(b){
@@ -465,30 +566,45 @@ footer strong{color:var(--teal-700)}
     });
   }
 
-  function stats(ex){
-    var n=ex.length, done=0, right=0;
-    ex.forEach(function(e){ if(state.checked[e.id]){ done++; if(state.picks[e.id]===e.answer) right++; } });
-    return {n:n,done:done,right:right};
+  // Normalise a typed answer so that punctuation and spacing differences do not
+  // count as errors: case, umlaut-free spelling, articles and final punctuation.
+  function norm(t){
+    return String(t||"")
+      .toLowerCase()
+      .replace(/\u00e4/g,"a").replace(/\u00f6/g,"o").replace(/\u00fc/g,"u")
+      .replace(/\u00df/g,"ss")
+      .replace(/\u201e|\u201c|"/g,'"').replace(/\u201c|\u201d|"/g,'"')
+      .replace(/[.,!?;:]/g,"")
+      .replace(/\s+/g," ")
+      .trim();
   }
 
-  var ALL_EX = null;   // every exercise, so totals stay stable while filtering
+  function stats(list){
+    var n=list.length, done=0, typed=0, right=0;
+    list.forEach(function(e){
+      if(state.revealed[e.id]){
+        done++;
+        if(norm(state.answers[e.id]) && norm(state.answers[e.id])===norm(e.german)) right++;
+      }
+      if(state.answers[e.id]) typed++;
+    });
+    return {n:n,done:done,typed:typed,right:right};
+  }
+
+  var ALL_EX = null;
 
   function renderStat(ex, shown){
-    var s = stats(shown || ex);
-    var tot = ALL_EX ? stats(ALL_EX) : s;
-    // Progress bar and totals always describe the whole set, never the filter,
-    // so the numbers do not jump when a skill filter is applied.
+    var tot = ALL_EX ? stats(ALL_EX) : stats(ex);
+    var s   = stats(shown || ex);
     document.getElementById("barFill").style.width = tot.n ? Math.round(tot.done/tot.n*100)+"%" : "0%";
     var txt;
     if(tot.done===0){
       txt = "Not started · "+tot.n+" exercises";
     } else {
-      txt = tot.done+" of "+tot.n+" checked · <b>"+tot.right+"</b> correct ("+
-            Math.round(tot.right/tot.done*100)+"%)";
+      txt = tot.done+" of "+tot.n+" checked · <b>"+tot.right+"</b> written correctly";
     }
     if(filter!=="ALL"){
-      txt += " · filter: "+(s.done===0 ? s.n+" shown, none checked"
-                             : s.done+" of "+s.n+" checked");
+      txt += " · filter: "+(s.done===0 ? s.n+" shown, none revealed" : s.done+" of "+s.n+" revealed");
     }
     document.getElementById("pstat").innerHTML = txt;
   }
@@ -496,52 +612,80 @@ footer strong{color:var(--teal-700)}
   function renderQuiz(ex){
     var list = filter==="ALL" ? ex : ex.filter(function(e){return e.skill===filter;});
     var el=document.getElementById("quiz");
-    el.innerHTML = list.map(function(e){
-      var isDone=!!state.checked[e.id];
-      var pick=state.picks[e.id];
-      var cls = isDone ? (pick===e.answer ? " correct" : " wrong") : "";
-      var opts = e.options.map(function(o,i){
-        var oc="opt";
-        if(isDone){
-          if(i===e.answer) oc+=" right";
-          else if(i===pick) oc+=" picked wrong";
-          else if(i===pick) oc+=" picked";
-        } else if(i===pick) oc+=" picked";
-        return '<button class="'+oc+'" data-q="'+e.id+'" data-i="'+i+'"'+(isDone?" disabled":"")+'>'+
-               '<span class="k">'+LETTERS[i]+'</span><span>'+o+'</span></button>';
-      }).join("");
-      var fb="";
-      if(isDone){
-        var ok = pick===e.answer;
-        fb='<div class="fb"><div class="ans">'+(ok
-              ? '<span class="ok">✓ Correct.</span>'
-              : '<span class="no">✗ Not quite.</span> The answer is '+LETTERS[e.answer]+' — '+esc(e.options[e.answer]))+'</div>'+
-           '<div class="why">'+esc(e.explanation)+'</div></div>';
-      } else if(pick!==undefined){
-        fb='<div class="fb"><div class="ans">Checking… press <strong>Check</strong>.</div></div>';
-      }
-      return '<article class="q'+cls+'" id="q'+e.id+'">'+
-        '<div class="qtop"><span class="qnum">'+e.id+'</span>'+
-        '<span class="qtext">'+e.question+'</span>'+
-        '<span class="qskill">'+esc(e.skill)+'</span></div>'+
-        '<div class="opts">'+opts+'</div>'+fb+'</article>';
-    }).join("");
+    el.innerHTML="";
+    list.forEach(function(e){
+      var rev = !!state.revealed[e.id];
+      var card=document.createElement("article");
+      card.className="q"+(rev?" revealed":"");
+      card.id="q"+e.id;
 
-    Array.prototype.forEach.call(el.querySelectorAll(".opt"),function(b){
-      b.addEventListener("click",function(){
-        var q=+b.getAttribute("data-q"), i=+b.getAttribute("data-i");
-        state.picks[q]=i; save(); renderQuiz(ex);
-      });
+      var top=document.createElement("div");
+      top.className="qtop";
+      top.innerHTML='<span class="qnum">'+e.id+'</span>';
+      var qt=document.createElement("span");
+      qt.className="qtext";
+      qt.textContent=e.english;
+      top.appendChild(qt);
+      var skl=document.createElement("span");
+      skl.className="qskill";
+      skl.textContent=e.skill;
+      top.appendChild(skl);
+      card.appendChild(top);
+
+      // answer row: input + reveal button, mic on the revealed German
+      var row=document.createElement("div");
+      row.className="microw";
+      var ta=document.createElement("input");
+      ta.type="text"; ta.className="ainput";
+      ta.placeholder="Write the German here…";
+      ta.setAttribute("aria-label","Your German answer for exercise "+e.id);
+      ta.value=state.answers[e.id]||"";
+      ta.disabled=rev;
+      ta.addEventListener("input",function(){ state.answers[e.id]=ta.value; save(); });
+      row.appendChild(ta);
+
+      var btn=document.createElement("button");
+      btn.className="btn";
+      btn.type="button";
+      btn.textContent=rev?"Revealed":"Reveal answer";
+      btn.disabled=rev;
+      btn.addEventListener("click",function(){ state.revealed[e.id]=true; save(); renderQuiz(ex); });
+      row.appendChild(btn);
+      card.appendChild(row);
+
+      if(rev){
+        var fb=document.createElement("div");
+        fb.className="fb";
+        var got=norm(state.answers[e.id]);
+        var verdict = got==="" ? '<span class="mut">Answer revealed \u2014 no attempt written.</span>'
+          : (got===norm(e.german) ? '<span class="ok">\u2713 Matches the reference answer.</span>'
+                                  : '<span class="no">\u2717 Your answer differs from the reference.</span>');
+        var ansRow=document.createElement("div");
+        ansRow.className="microw ansrow";
+        var at=document.createElement("div");
+        at.className="mtext";
+        at.innerHTML='<b>'+esc(e.german)+'</b>';
+        ansRow.appendChild(at);
+        ansRow.appendChild(micBtn(e.german, "Play the German answer"));
+        fb.innerHTML='<div class="ans">'+verdict+'</div>';
+        fb.appendChild(ansRow);
+        var wy=document.createElement("div");
+        wy.className="why";
+        wy.textContent=e.why;
+        fb.appendChild(wy);
+        card.appendChild(fb);
+      }
+      el.appendChild(card);
     });
     renderStat(ex, list);
   }
 
-  function checkAll(ex){
-    ex.forEach(function(e){ if(state.picks[e.id]!==undefined) state.checked[e.id]=true; });
+  function revealAll(ex){
+    ex.forEach(function(e){ state.revealed[e.id]=true; });
     save(); renderQuiz(ex);
   }
   function resetAll(ex){
-    ex.forEach(function(e){ delete state.checked[e.id]; delete state.picks[e.id]; });
+    ex.forEach(function(e){ delete state.revealed[e.id]; delete state.answers[e.id]; });
     save(); renderQuiz(ex);
   }
 
@@ -555,7 +699,7 @@ footer strong{color:var(--teal-700)}
       document.getElementById("tagCount").textContent = ex.length+" exercises";
       renderFilters(ex);
       renderQuiz(ex);
-      document.getElementById("checkAll").addEventListener("click",function(){checkAll(ex);});
+      document.getElementById("checkAll").addEventListener("click",function(){revealAll(ex);});
       document.getElementById("resetAll").addEventListener("click",function(){resetAll(ex);});
     })
     .catch(function(e){

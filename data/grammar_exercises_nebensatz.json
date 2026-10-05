@@ -4,1306 +4,707 @@
   "topic": "Subordinate clauses: the full system",
   "term_de": "Nebensatz und Nebensatzsystem",
   "updated": "2026-10-05",
+  "schema": "english-prompt -> learner types German -> Reveal answer shows reference + mic",
   "exercises": [
     {
       "id": 1,
       "skill": "Verb-final in the subordinate clause",
-      "question": "Weil er müde ___, geht er früh ins Bett.",
-      "options": [
-        "ist",
-        "wird",
-        "war",
-        "ist gewesen"
-      ],
-      "answer": 0,
-      "explanation": "A weil-clause is subordinate: the conjugated verb goes last, then the main clause follows."
+      "english": "Because he is tired, he goes to bed early.",
+      "german": "Weil er müde ist, geht er früh ins Bett.",
+      "why": "A weil-clause is subordinate: the conjugated verb goes last, then the main clause follows."
     },
     {
       "id": 2,
       "skill": "Verb-final in the subordinate clause",
-      "question": "Ich hoffe, dass du bald ___.",
-      "options": [
-        "kommst",
-        "kommen",
-        "kommt",
-        "gekommen"
-      ],
-      "answer": 0,
-      "explanation": "dass-clause: verb last, matching the subject du."
+      "english": "I hope that you will come soon.",
+      "german": "Ich hoffe, dass du bald kommst.",
+      "why": "dass-clause: verb last, matching the subject du."
     },
     {
       "id": 3,
       "skill": "Verb-final in the subordinate clause",
-      "question": "Wenn das Wetter schön ___, machen wir ein Picknick.",
-      "options": [
-        "bleibt",
-        "bleiben",
-        "geblieben",
-        "bleibst"
-      ],
-      "answer": 0,
-      "explanation": "Subordinate clause: verb last, and bleibt agrees with the singular subject das Wetter."
+      "english": "If the weather stays nice, we are having a picnic.",
+      "german": "Wenn das Wetter schön bleibt, machen wir ein Picknick.",
+      "why": "Subordinate clause: verb last, and bleibt agrees with the singular subject das Wetter."
     },
     {
       "id": 4,
       "skill": "Verb-final in the subordinate clause",
-      "question": "Obwohl es regnet, ___ wir mit dem Rad.",
-      "options": [
-        "fahren",
-        "fahren wir",
-        "wir fahren",
-        "gefahren"
-      ],
-      "answer": 0,
-      "explanation": "obwohl-clause is subordinate: fahren last, without the pronoun wir."
+      "english": "Although it is raining, we are going by bike.",
+      "german": "Obwohl es regnet, fahren wir mit dem Rad.",
+      "why": "obwohl-clause is subordinate: fahren last, without the pronoun wir."
     },
     {
       "id": 5,
       "skill": "Verb-final in the subordinate clause",
-      "question": "Nachdem wir gegessen ___, gehen wir spazieren.",
-      "options": [
-        "haben",
-        "hat",
-        "werden",
-        "sein"
-      ],
-      "answer": 0,
-      "explanation": "With haben the participle forms the Perfekt: gegessen haben."
+      "english": "After we have eaten, we are going for a walk.",
+      "german": "Nachdem wir gegessen haben, gehen wir spazieren.",
+      "why": "With haben the participle forms the Perfekt: gegessen haben."
     },
     {
       "id": 6,
       "skill": "Verb-final in the subordinate clause",
-      "question": "Bevor ich zur Arbeit ___, trinke ich einen Kaffee.",
-      "options": [
-        "gehe",
-        "geht",
-        "gehen",
-        "ging"
-      ],
-      "answer": 0,
-      "explanation": "gehen takes gehe in the first person - the e to i change."
+      "english": "Before I go to work, I drink a coffee.",
+      "german": "Bevor ich zur Arbeit gehe, trinke ich einen Kaffee.",
+      "why": "gehen takes gehe in the first person - the e to i change."
     },
     {
       "id": 7,
       "skill": "Verb-final in the subordinate clause",
-      "question": "Der Mann, der neben mir ___, ist sehr freundlich.",
-      "options": [
-        "wohnt",
-        "wohnen",
-        "gewohnt",
-        "wohnte"
-      ],
-      "answer": 0,
-      "explanation": "Relative clause on der: verb last, singular subject, and a Präteritum would need a time reference."
+      "english": "The man who lives next to me is very kind.",
+      "german": "Der Mann, der neben mir wohnt, ist sehr freundlich.",
+      "why": "Relative clause on der: verb last, singular subject, and a Präteritum would need a time reference."
     },
     {
       "id": 8,
       "skill": "Verb-final in the subordinate clause",
-      "question": "Die Frau, deren Sohn in der Schweiz ___, ist meine Nachbarin.",
-      "options": [
-        "studiert",
-        "studieren",
-        "studierten",
-        "studiert habe"
-      ],
-      "answer": 0,
-      "explanation": "Relative clause on deren: verb last, and studieren would not agree with the singular subject ihr Sohn."
+      "english": "The woman whose son studies in Switzerland is my neighbour.",
+      "german": "Die Frau, deren Sohn in der Schweiz studiert, ist meine Nachbarin.",
+      "why": "Relative clause on deren: verb last, and studieren would not agree with the singular subject ihr Sohn."
     },
     {
       "id": 9,
       "skill": "Verb-final in the subordinate clause",
-      "question": "Es ist wichtig, dass du pünktlich ___.",
-      "options": [
-        "kommst",
-        "kommen",
-        "kommt",
-        "gekommen"
-      ],
-      "answer": 0,
-      "explanation": "es ist wichtig, dass … keeps the verb in final position."
+      "english": "It is important that you come on time.",
+      "german": "Es ist wichtig, dass du pünktlich kommst.",
+      "why": "es ist wichtig, dass … keeps the verb in final position."
     },
     {
       "id": 10,
       "skill": "Verb-final in the subordinate clause",
-      "question": "Ich habe eine Frage, ob wir früher ___ können.",
-      "options": [
-        "anfangen",
-        "anfangen wir",
-        "fangen",
-        "angefangen"
-      ],
-      "answer": 0,
-      "explanation": "Infinitival clause: the modal können stands last, anfangen stays at the start."
+      "english": "I have a question about whether we can start earlier.",
+      "german": "Ich habe eine Frage, ob wir früher anfangen können.",
+      "why": "Infinitival clause: the modal können stands last, anfangen stays at the start."
     },
     {
       "id": 11,
       "skill": "Verb-final in the subordinate clause",
-      "question": "Sie hat Angst, dass es schief__.",
-      "options": [
-        "geht",
-        "gehen",
-        "gegangen",
-        "geht nicht"
-      ],
-      "answer": 0,
-      "explanation": "Separable verb: the prefix schief- rejoins the verb in the subordinate clause, giving geht."
+      "english": "When I am nervous, everything goes wrong.",
+      "german": "geht",
+      "why": "Separable verb: the prefix schief- rejoins the verb in the subordinate clause, giving geht."
     },
     {
       "id": 12,
       "skill": "Verb-final in the subordinate clause",
-      "question": "Angenommen, wir hätten mehr Zeit, ___ wir nach Japan.",
-      "options": [
-        "würden reisen",
-        "reisen wir",
-        "reist",
-        "gereist"
-      ],
-      "answer": 0,
-      "explanation": "würde + infinitive: the whole verb cluster goes last."
+      "english": "Assuming we had more time, we would travel to Japan.",
+      "german": "Angenommen, wir hätten mehr Zeit, würden reisen wir nach Japan.",
+      "why": "würde + infinitive: the whole verb cluster goes last."
     },
     {
       "id": 13,
       "skill": "Verb-final in the subordinate clause",
-      "question": "Solange man gesund ___, sollte man sich viel bewegen.",
-      "options": [
-        "ist",
-        "sind",
-        "war",
-        "gewesen"
-      ],
-      "answer": 0,
-      "explanation": "solange-clause: verb last; man takes the singular form ist."
+      "english": "As long as you are healthy, you should get plenty of exercise.",
+      "german": "Solange man gesund ist, sollte man sich viel bewegen.",
+      "why": "solange-clause: verb last; man takes the singular form ist."
     },
     {
       "id": 14,
       "skill": "Verb-final in the subordinate clause",
-      "question": "Sobald der Film anfängt, ___ das Handy weg.",
-      "options": [
-        "muss",
-        "müssen",
-        "muss nicht",
-        "möchte"
-      ],
-      "answer": 0,
-      "explanation": "Modal in Position II of the main clause, singular because das Handy is singular."
+      "english": "As soon as the film starts, the phone has to go.",
+      "german": "Sobald der Film anfängt, muss das Handy weg.",
+      "why": "Modal in Position II of the main clause, singular because das Handy is singular."
     },
     {
       "id": 15,
       "skill": "Verb-final in the subordinate clause",
-      "question": "Er rief mich an, damit ich ihm ___.",
-      "options": [
-        "helfe",
-        "hilft",
-        "helfen",
-        "geholfen"
-      ],
-      "answer": 0,
-      "explanation": "damit-clause: verb last; helfen with the dative gives helfe."
+      "english": "He called me so that I can help him.",
+      "german": "Er rief mich an, damit ich ihm helfe.",
+      "why": "damit-clause: verb last; helfen with the dative gives helfe."
     },
     {
       "id": 16,
       "skill": "Verb-final in the subordinate clause",
-      "question": "Die Wohnung, die wir gemietet ___, liegt im dritten Stock.",
-      "options": [
-        "haben",
-        "hat",
-        "werden",
-        "sind"
-      ],
-      "answer": 0,
-      "explanation": "Relative clause: the auxiliary haben goes last after the participle."
+      "english": "The flat we have rented is on the third floor.",
+      "german": "Die Wohnung, die wir gemietet haben, liegt im dritten Stock.",
+      "why": "Relative clause: the auxiliary haben goes last after the participle."
     },
     {
       "id": 17,
       "skill": "Verb-final in the subordinate clause",
-      "question": "Ob ich Zeit ___, weiß ich noch nicht.",
-      "options": [
-        "habe",
-        "haben",
-        "hätte",
-        "gehabt"
-      ],
-      "answer": 0,
-      "explanation": "ob-indirect question: verb last. was ich habe carries the negation, not the answer."
+      "english": "I still do not know whether I have time.",
+      "german": "Ob ich Zeit habe, weiß ich noch nicht.",
+      "why": "ob-indirect question: verb last. was ich habe carries the negation, not the answer."
     },
     {
       "id": 18,
       "skill": "Verb-final in the subordinate clause",
-      "question": "Es freut mich, dass du heute ___.",
-      "options": [
-        "kommst",
-        "kommen",
-        "kommt",
-        "kam"
-      ],
-      "answer": 0,
-      "explanation": "dass-clause: verb last, matching du."
+      "english": "I am glad that you are coming today.",
+      "german": "Es freut mich, dass du heute kommst.",
+      "why": "dass-clause: verb last, matching du."
     },
     {
       "id": 19,
       "skill": "Comma",
-      "question": "Which sentence is written correctly? dass-clause with er kommt",
-      "options": [
-        "Ich glaube, dass er kommt.",
-        "Ich glaube dass er kommt.",
-        "Ich glaube, daß er kommt.",
-        "Ich glaube,das er kommt."
-      ],
-      "answer": 0,
-      "explanation": "Every subordinate clause takes a comma before the conjunction and after the clause."
+      "english": "I believe that he is coming.",
+      "german": "Ich glaube, dass er kommt.",
+      "why": "Every subordinate clause takes a comma before the conjunction and after the clause."
     },
     {
       "id": 20,
       "skill": "Comma",
-      "question": "Which sentence is written correctly? wenn-clause followed by an imperative",
-      "options": [
-        "Wenn du Zeit hast, komm bitte mit.",
-        "Wenn du Zeit hast komm bitte mit.",
-        "Wenn, du Zeit hast, komm bitte mit.",
-        "Wenn du Zeit hast, komm, bitte mit."
-      ],
-      "answer": 0,
-      "explanation": "One comma opens the clause; no second comma follows it."
+      "english": "If you have time, please come along.",
+      "german": "Wenn du Zeit hast, komm bitte mit.",
+      "why": "One comma opens the clause; no second comma follows it."
     },
     {
       "id": 21,
       "skill": "Comma",
-      "question": "Which sentence is written correctly? reported speech in Konjunktiv II",
-      "options": [
-        "Er sagte, dass er krank sei.",
-        "Er sagte dass er krank sei.",
-        "Er sagte, daß er krank sei.",
-        "Er sagte, daß er krank ist."
-      ],
-      "answer": 0,
-      "explanation": "Reported speech uses Konjunktiv II and is written with dass."
+      "english": "He said that he was ill.",
+      "german": "Er sagte, dass er krank sei.",
+      "why": "Reported speech uses Konjunktiv II and is written with dass."
     },
     {
       "id": 22,
       "skill": "Comma",
-      "question": "Which sentence is written correctly? obwohl-clause in front position",
-      "options": [
-        "Obwohl es regnet, gehen wir.",
-        "Obwohl es regnet gehen wir.",
-        "Obwohl, es regnet, gehen wir.",
-        "Obwohl es regnet, gehen wir, ins Haus."
-      ],
-      "answer": 0,
-      "explanation": "The comma closes the clause; no comma before a short infinitive phrase."
+      "english": "Although it is raining, we are going.",
+      "german": "Obwohl es regnet, gehen wir.",
+      "why": "The comma closes the clause; no comma before a short infinitive phrase."
     },
     {
       "id": 23,
       "skill": "Comma",
-      "question": "Which sentence is written correctly? dass-clause joined by aber",
-      "options": [
-        "Ich weiß, dass er kommt, aber ich habe es dir gesagt.",
-        "Ich weiß, dass er kommt aber ich habe es dir gesagt.",
-        "Ich weiß, dass er kommt, aber, ich habe es dir gesagt.",
-        "Ich weiß dass, er kommt, aber ich habe es dir gesagt."
-      ],
-      "answer": 0,
-      "explanation": "Two main clauses joined by aber each take their own comma."
+      "english": "I know that he is coming, but I told you so.",
+      "german": "Ich weiß, dass er kommt, aber ich habe es dir gesagt.",
+      "why": "Two main clauses joined by aber each take their own comma."
     },
     {
       "id": 24,
       "skill": "Comma",
-      "question": "Which sentence is written correctly? Perfekt inside a nachdem-clause",
-      "options": [
-        "Nachdem er gegessen hat, ging er spazieren.",
-        "Nachdem er gegessen hat ging er spazieren.",
-        "Nachdem, er gegessen hat, ging er spazieren.",
-        "Nachdem er gegessen, hat ging er spazieren."
-      ],
-      "answer": 0,
-      "explanation": "The Perfekt belongs inside the clause: gegessen hat, then the comma."
+      "english": "After he had eaten, he went for a walk.",
+      "german": "Nachdem er gegessen hat, ging er spazieren.",
+      "why": "The Perfekt belongs inside the clause: gegessen hat, then the comma."
     },
     {
       "id": 25,
       "skill": "Comma",
-      "question": "Which sentence is written correctly? relative clause on a definite noun",
-      "options": [
-        "Das Buch, das ich gekauft habe, ist teuer.",
-        "Das Buch das ich gekauft habe ist teuer.",
-        "Das Buch, das ich gekauft habe ist teuer.",
-        "Das Buch das, ich gekauft habe, ist teuer."
-      ],
-      "answer": 0,
-      "explanation": "A relative clause with a relative pronoun is set off by two commas."
+      "english": "The flat that we rent is rather expensive.",
+      "german": "Die Wohnung, die wir mieten, ist ziemlich teuer.",
+      "why": "das is the relative pronoun for neuter objects; the verb mieten goes last inside the clause."
     },
     {
       "id": 26,
       "skill": "Comma",
-      "question": "Which sentence is written correctly? ob-indirect question after egal",
-      "options": [
-        "Es ist mir egal, ob es regnet.",
-        "Es ist mir egal ob es regnet.",
-        "Es ist mir egal, ob, es regnet.",
-        "Es ist mir egal ob, es regnet."
-      ],
-      "answer": 0,
-      "explanation": "Comma before ob and after the end of the clause."
+      "english": "It doesn't matter to me whether it rains.",
+      "german": "Es ist mir egal, ob es regnet.",
+      "why": "Comma before ob and after the end of the clause."
     },
     {
       "id": 27,
       "skill": "Comma",
-      "question": "Which sentence is written correctly? bevor-clause plus a short infinitive",
-      "options": [
-        "Bevor du gehst, mach bitte das Fenster zu.",
-        "Bevor du gehst mach bitte das Fenster zu.",
-        "Bevor, du gehst, mach bitte das Fenster zu.",
-        "Bevor du gehst, mach bitte, das Fenster zu."
-      ],
-      "answer": 0,
-      "explanation": "The comma closes the clause; no comma before the short infinitive."
+      "english": "Before you go, please close the window.",
+      "german": "Bevor du gehst, mach bitte das Fenster zu.",
+      "why": "The comma closes the clause; no comma before the short infinitive."
     },
     {
       "id": 28,
       "skill": "Comma",
-      "question": "Which sentence is written correctly? dass-clause after hoffen",
-      "options": [
-        "Ich hoffe, dass es klappt.",
-        "Ich hoffe,das es klappt.",
-        "Ich hoffe dass, es klappt.",
-        "Ich hoffe dass es, klappt."
-      ],
-      "answer": 0,
-      "explanation": "Comma before dass and after the clause."
+      "english": "I hope that it works out.",
+      "german": "Ich hoffe, dass es klappt.",
+      "why": "Comma before dass and after the clause."
     },
     {
       "id": 29,
       "skill": "Clause position",
-      "question": "Which sentence is correct? a weil-clause at the end of the sentence",
-      "options": [
-        "Ich komme später, weil ich noch arbeiten muss.",
-        "Ich komme später weil ich noch arbeiten muss.",
-        "Ich, weil ich noch arbeiten muss, komme später.",
-        "Weil ich noch arbeiten muss, ich komme später."
-      ],
-      "answer": 0,
-      "explanation": "A trailing subordinate clause takes its own comma; it cannot lead a clause that repeats its subject."
+      "english": "I'm coming later because I still have to work.",
+      "german": "Ich komme später, weil ich noch arbeiten muss.",
+      "why": "A trailing subordinate clause takes its own comma; it cannot lead a clause that repeats its subject."
     },
     {
       "id": 30,
       "skill": "Clause position",
-      "question": "Which sentence is correct? a weil-clause in front position",
-      "options": [
-        "Weil ich müde war, ging ich früh ins Bett.",
-        "Weil ich müde war ging ich früh ins Bett.",
-        "Weil, ich müde war, ging ich früh ins Bett.",
-        "Weil ich müde war, ich ging früh ins Bett."
-      ],
-      "answer": 0,
-      "explanation": "Fronted subordinate clause is set off by a comma; the main clause keeps normal word order."
+      "english": "Because I was tired, I went to bed early.",
+      "german": "Weil ich müde war, ging ich früh ins Bett.",
+      "why": "Fronted subordinate clause is set off by a comma; the main clause keeps normal word order."
     },
     {
       "id": 31,
       "skill": "Clause position",
-      "question": "Which sentence is correct? main clause plus a dass-clause",
-      "options": [
-        "Ich habe vergessen, dass ich den Termin absagen musste.",
-        "Ich habe vergessen, ich musste den Termin absagen.",
-        "Ich vergessen habe, dass ich den Termin absagen musste.",
-        "Ich habe, vergessen dass ich den Termin absagen musste."
-      ],
-      "answer": 0,
-      "explanation": "Main clause verb in position II, then the dass-clause with its verb last."
+      "english": "I forgot that I had to cancel the appointment.",
+      "german": "Ich habe vergessen, dass ich den Termin absagen musste.",
+      "why": "Main clause verb in position II, then the dass-clause with its verb last."
     },
     {
       "id": 32,
       "skill": "Clause position",
-      "question": "Which sentence is correct? es tut mir leid plus a dass-clause",
-      "options": [
-        "Es tut mir leid, dass ich so spät komme.",
-        "Es tut mir leid, ich komme so spät.",
-        "Tut mir leid es, dass ich so spät komme.",
-        "Es tut mir leid dass, ich komme so spät."
-      ],
-      "answer": 0,
-      "explanation": "tut + dative + es, then a dass-clause in final position."
+      "english": "I'm sorry that I'm coming so late.",
+      "german": "Es tut mir leid, dass ich so spät komme.",
+      "why": "tut + dative + es, then a dass-clause in final position."
     },
     {
       "id": 33,
       "skill": "Clause position",
-      "question": "Which sentence is correct? glauben plus a dass-clause",
-      "options": [
-        "Ich glaube, dass er morgen kommt.",
-        "Ich glaube, dass kommt er morgen.",
-        "Glaube ich, dass kommt er morgen.",
-        "Ich glauben, dass er morgen kommt."
-      ],
-      "answer": 0,
-      "explanation": "Inside the clause the subject er comes before the verb kommt."
+      "english": "I believe that he is coming tomorrow.",
+      "german": "Ich glaube, dass er morgen kommt.",
+      "why": "Inside the clause the subject er comes before the verb kommt."
     },
     {
       "id": 34,
       "skill": "Clause position",
-      "question": "Which sentence is correct? sein plus a dass-clause with Perfekt",
-      "options": [
-        "Wir sind froh, dass die Prüfung gut ausgegangen ist.",
-        "Wir sind froh, die Prüfung ist gut ausgegangen.",
-        "Wir sind froh, dass die Prüfung gut ausgegangen.",
-        "Wir froh sind, dass die Prüfung gut ausgegangen ist."
-      ],
-      "answer": 0,
-      "explanation": "The Perfekt needs both parts: ausgegangen ist, with ist last."
+      "english": "We are glad that the exam went well.",
+      "german": "Wir sind froh, dass die Prüfung gut ausgegangen ist.",
+      "why": "The Perfekt needs both parts: ausgegangen ist, with ist last."
     },
     {
       "id": 35,
       "skill": "Clause position",
-      "question": "Which sentence is correct? a relative clause with mit dem",
-      "options": [
-        "Der Kollege, mit dem ich das Projekt leite, ist im Urlaub.",
-        "Der Kollege, mit dem ich leite das Projekt, ist im Urlaub.",
-        "Der Kollege, ich mit dem das Projekt leite, ist im Urlaub.",
-        "Der Kollege mit dem ich das Project leite, ist im Urlaub."
-      ],
-      "answer": 0,
-      "explanation": "In a prepositional relative clause the whole verb cluster sits at the end."
+      "english": "The colleague with whom I'm running the project is on holiday.",
+      "german": "Der Kollege, mit dem ich das Projekt leite, ist im Urlaub.",
+      "why": "In a prepositional relative clause the whole verb cluster sits at the end."
     },
     {
       "id": 36,
       "skill": "Clause position",
-      "question": "Which sentence is correct? fragen plus an ob with Konjunktiv II",
-      "options": [
-        "Ich habe ihn gefragt, ob er mir helfen würde.",
-        "Ich habe ihn gefragt, ob er mir helfen will.",
-        "Ich habe ihn gefragt, ob würde er mir helfen.",
-        "Ich habe ihn gefragt, ob er mir hilft würde."
-      ],
-      "answer": 0,
-      "explanation": "The würde + infinitive cluster goes last inside the ob-clause."
+      "english": "I asked him whether he would help me.",
+      "german": "Ich habe ihn gefragt, ob er mir helfen würde.",
+      "why": "The würde + infinitive cluster goes last inside the ob-clause."
     },
     {
       "id": 37,
       "skill": "Clause position",
-      "question": "Which sentence is correct? a bevor-clause before a main clause",
-      "options": [
-        "Bevor wir anfangen, müssen wir noch das Material kaufen.",
-        "Bevor wir anfangen müssen wir noch das Material kaufen.",
-        "Bevor wir anfangen, müssen wir kaufen noch das Material.",
-        "Bevor wir anfangen müssen, wir noch das Material kaufen."
-      ],
-      "answer": 0,
-      "explanation": "bevor-clause with verb last, comma, then the main clause in position II."
+      "english": "Before we start, we still have to buy the material.",
+      "german": "Bevor wir anfangen, müssen wir noch das Material kaufen.",
+      "why": "bevor-clause with verb last, comma, then the main clause in position II."
     },
     {
       "id": 38,
       "skill": "Clause position",
-      "question": "Which sentence is correct? sagen plus a dass-clause",
-      "options": [
-        "Sie sagt, dass sie kommt.",
-        "Sie sagt, dass sie kommen.",
-        "Sie sagt, sie dass kommt.",
-        "Sie sagt, dass kommt sie."
-      ],
-      "answer": 0,
-      "explanation": "Subject sie then verb kommt, both inside the dass-clause."
+      "english": "She says that she is coming.",
+      "german": "Sie sagt, dass sie kommt.",
+      "why": "Subject sie then verb kommt, both inside the dass-clause."
     },
     {
       "id": 39,
       "skill": "Conjunction choice",
-      "question": "Which conjunction fits? weil or denn",
-      "options": [
-        "Weil er krank war, blieb er zu Hause.",
-        "Denn er krank war, blieb er zu Hause.",
-        "Weil er krank war, er blieb zu Hause.",
-        "Weil er war krank, blieb er zu Hause."
-      ],
-      "answer": 0,
-      "explanation": "weil starts a subordinate clause, so its verb war goes last. denn would need main-clause word order and no comma."
+      "english": "Because he was ill, he stayed at home.",
+      "german": "Weil er krank war, blieb er zu Hause.",
+      "why": "weil starts a subordinate clause, so its verb war goes last. denn would need main-clause word order and no comma."
     },
     {
       "id": 40,
       "skill": "Conjunction choice",
-      "question": "Which conjunction fits? denn as a main-clause connector",
-      "options": [
-        "Ich komme nicht, denn ich habe keine Zeit.",
-        "Ich komme nicht, weil ich keine Zeit habe.",
-        "Ich komme nicht, weil ich habe keine Zeit.",
-        "Ich komme nicht, ich habe keine Zeit."
-      ],
-      "answer": 0,
-      "explanation": "denn keeps the main clause order: zweite conjugierte Verb habe stays in position II."
+      "english": "I'm not coming because I don't have time.",
+      "german": "Ich komme nicht, denn ich habe keine Zeit.",
+      "why": "denn keeps the main clause order: zweite conjugierte Verb habe stays in position II."
     },
     {
       "id": 41,
       "skill": "Conjunction choice",
-      "question": "Which conjunction fits? dass-clause after wichtig",
-      "options": [
-        "Es ist wichtig, dass man pünktlich kommt.",
-        "Es ist wichtig, wenn man pünctlich kommt.",
-        "Es ist wichtig, ob man pünktlich kommt.",
-        "Es ist wichtig, dass man kommt pünktlich."
-      ],
-      "answer": 0,
-      "explanation": "dass introduces a statement; wenn would introduce a condition, ob a question."
+      "english": "It's important that people arrive on time.",
+      "german": "Es ist wichtig, dass man pünktlich kommt.",
+      "why": "dass introduces a statement; wenn would introduce a condition, ob a question."
     },
     {
       "id": 42,
       "skill": "Conjunction choice",
-      "question": "Which conjunction fits? dass-clause expressing doubt",
-      "options": [
-        "Ich zweifle, dass er die Wahrheit sagt.",
-        "Ich zweifle, wenn er die Wahrheit sagt.",
-        "Ich zweifle, ob er die Wahrheit sagt.",
-        "Ich zweifle, dass er sagt die Wahrheit."
-      ],
-      "answer": 0,
-      "explanation": "doubting a statement takes dass; doubting whether something is the case takes ob."
+      "english": "I doubt that he is telling the truth.",
+      "german": "Ich zweifle, dass er die Wahrheit sagt.",
+      "why": "doubting a statement takes dass; doubting whether something is the case takes ob."
     },
     {
       "id": 43,
       "skill": "Conjunction choice",
-      "question": "Which conjunction fits? ob for an indirect question",
-      "options": [
-        "Weißt du, ob der Zug pünktlich kommt?",
-        "Weißt du, dass der Zug pünktlich kommt?",
-        "Weißt du, wenn der Zug pünktlich kommt?",
-        "Weißt du, ob kommt der Zug pünktlich?"
-      ],
-      "answer": 0,
-      "explanation": "ob asks whether something is the case and puts the verb last."
+      "english": "Do you know whether the train is arriving on time?",
+      "german": "Weißt du, ob der Zug pünktlich kommt?",
+      "why": "ob asks whether something is the case and puts the verb last."
     },
     {
       "id": 44,
       "skill": "Conjunction choice",
-      "question": "Which conjunction fits? weil giving a reason",
-      "options": [
-        "Er bleibt zu Hause, weil er sich erkältet hat.",
-        "Er bleibt zu Hause, obwohl er sich erkältet hat.",
-        "Er bleibt zu Hause, dass er sich erkältet hat.",
-        "Er bleibt zu Hause, weil hat er sich erkältet."
-      ],
-      "answer": 0,
-      "explanation": "weil states a cause; obwohl would contradict what the sentence asserts."
+      "english": "He stays at home because he has caught a cold.",
+      "german": "Er bleibt zu Hause, weil er sich erkältet hat.",
+      "why": "weil states a cause; obwohl would contradict what the sentence asserts."
     },
     {
       "id": 45,
       "skill": "Conjunction choice",
-      "question": "Which conjunction fits? als for one completed past event",
-      "options": [
-        "Als ich 1990 nach Berlin zog, war ich zwanzig.",
-        "Wenn ich 1990 nach Berlin zog, war ich zwanzig.",
-        "Seit ich 1990 nach Berlin zog, war ich zwanzig.",
-        "Als ich ziehe nach Berlin, war ich zwanzig."
-      ],
-      "answer": 0,
-      "explanation": "als narrates one completed event in the past; wenn is used for repeated or uncertain events."
+      "english": "When I moved to Berlin in 1990, I was twenty.",
+      "german": "Als ich 1990 nach Berlin zog, war ich zwanzig.",
+      "why": "als narrates one completed event in the past; wenn is used for repeated or uncertain events."
     },
     {
       "id": 46,
       "skill": "Conjunction choice",
-      "question": "Which conjunction fits? wenn for a repeated past event",
-      "options": [
-        "Wenn ich ein Kind war, durfte ich lange spielen.",
-        "Als ich ein Kind war, durfte ich lange spielen.",
-        "Seit ich ein Kind war, durfte ich lange spielen.",
-        "Wenn ich ein Kind war, darf ich lange spielen."
-      ],
-      "answer": 0,
-      "explanation": "winden covers a repeated situation; als is reserved for a single completed event."
+      "english": "When I was a child, I was allowed to play for a long time.",
+      "german": "Wenn ich ein Kind war, durfte ich lange spielen.",
+      "why": "winden covers a repeated situation; als is reserved for a single completed event."
     },
     {
       "id": 47,
       "skill": "Conjunction choice",
-      "question": "Which conjunction fits? seit for a starting point",
-      "options": [
-        "Seit ich hier wohne, kenne ich viele Leute.",
-        "Wenn ich hier wohne, kenne ich viele Leute.",
-        "Als ich hier wohne, kenne ich viele Leute.",
-        "Dass ich hier wohne, kenne ich viele Leute."
-      ],
-      "answer": 0,
-      "explanation": "seit with the present tense marks a situation that started in the past and still holds."
+      "english": "Since I have lived here, I have got to know a lot of people.",
+      "german": "Seit ich hier wohne, kenne ich viele Leute.",
+      "why": "seit with the present tense marks a situation that started in the past and still holds."
     },
     {
       "id": 48,
       "skill": "Conjunction choice",
-      "question": "Which conjunction fits? bis as a limit",
-      "options": [
-        "Warte hier, bis ich zurückkomme.",
-        "Warte hier, seit ich zurückkomme.",
-        "Warte hier, während ich zurückkomme.",
-        "Warte hier, dass ich zurückkomme."
-      ],
-      "answer": 0,
-      "explanation": "bis marks the end point of a waiting period."
+      "english": "Wait here until I come back.",
+      "german": "Warte hier, bis ich zurückkomme.",
+      "why": "bis marks the end point of a waiting period."
     },
     {
       "id": 49,
       "skill": "Conjunction choice",
-      "question": "Which conjunction fits? nachdem for sequence",
-      "options": [
-        "Nachdem ich gegessen hatte, ging ich spazieren.",
-        "Bevor ich gegessen hatte, ging ich spazieren.",
-        "Wenn ich gegessen hatte, ging ich spazieren.",
-        "Nachdem ich gegessen war, ging ich zum Essen spazieren."
-      ],
-      "answer": 0,
-      "explanation": "nachdem places one completed past action before another."
+      "english": "After I had eaten, I went for a walk.",
+      "german": "Nachdem ich gegessen hatte, ging ich spazieren.",
+      "why": "nachdem places one completed past action before another."
     },
     {
       "id": 50,
       "skill": "Conjunction choice",
-      "question": "Which conjunction fits? damit for a purpose with a subject",
-      "options": [
-        "Ich erkläre es noch einmal, damit alle es verstehen.",
-        "Ich erkläre es noch einmal, um alle es zu verstehen.",
-        "Ich erkläre es noch einmal, dass alle es verstehen.",
-        "Ich erkläre es noch einmal, damit alle verstehen es."
-      ],
-      "answer": 0,
-      "explanation": "damit forms its own clause with a subject; um … zu has no subject of its own."
+      "english": "I'll explain it one more time so that everyone understands.",
+      "german": "Ich erkläre es noch einmal, damit alle es verstehen.",
+      "why": "damit forms its own clause with a subject; um … zu has no subject of its own."
     },
     {
       "id": 51,
       "skill": "Conjunction choice",
-      "question": "Which conjunction fits? um … zu for purpose",
-      "options": [
-        "Ich spare Zeit, um früher nach Hause zu kommen.",
-        "Ich spare Zeit, damit ich früher nach Hause zu kommen.",
-        "Ich spare Zeit, dass ich früher nach Hause komme.",
-        "Ich spare Zeit, um ich früher nach Hause komme."
-      ],
-      "answer": 0,
-      "explanation": "um … zu replaces damit when main and subordinate subject are identical."
+      "english": "I save time so that I can get home earlier.",
+      "german": "Ich spare Zeit, um früher nach Hause zu kommen.",
+      "why": "um … zu replaces damit when main and subordinate subject are identical."
     },
     {
       "id": 52,
       "skill": "Conjunction choice",
-      "question": "Which conjunction fits? so … dass for a result",
-      "options": [
-        "Es war so kalt, dass wir alle zu Hause blieben.",
-        "Es war so kalt, damit wir alle zu Hause blieben.",
-        "Es war so kalt, um wir alle zu Hause zu bleiben.",
-        "Es war so kalt, dass wir alle blieben zu Hause."
-      ],
-      "answer": 0,
-      "explanation": "so … dass states a consequence; damit would state a purpose."
+      "english": "It was so cold that we all stayed at home.",
+      "german": "Es war so kalt, dass wir alle zu Hause blieben.",
+      "why": "so … dass states a consequence; damit would state a purpose."
     },
     {
       "id": 53,
       "skill": "Conjunction choice",
-      "question": "Which conjunction fits? sodast written together",
-      "options": [
-        "Die Straßen waren glatt, sodass wir langsam fahren mussten.",
-        "Die Straßen waren glatt, so dass wir langsom fahren mussten.",
-        "Die Straßen waren glatt, sodass wir mussten langsam fahren.",
-        "Die Straßen waren glatt, sodas wir langsam fahren mussten."
-      ],
-      "answer": 0,
-      "explanation": "The result clause may be written sodass as one word; inside it the verb still comes last."
+      "english": "The roads were slippery, so we had to drive slowly.",
+      "german": "Die Straßen waren glatt, sodass wir langsam fahren mussten.",
+      "why": "The result clause may be written sodass as one word; inside it the verb still comes last."
     },
     {
       "id": 54,
       "skill": "Conjunction choice",
-      "question": "Which conjunction fits? während for parallel events",
-      "options": [
-        "Während ich koche, telefoniert mein Bruder.",
-        "Während ich koche, telefoniert mein Bruder, während ich koche.",
-        "Während ich koche, ich telefoniert mein Bruder.",
-        "Während ich koche, Telefoniert mein Bruder."
-      ],
-      "answer": 0,
-      "explanation": "während with the present tense covers two simultaneous actions."
+      "english": "While I am cooking, my brother is making a phone call.",
+      "german": "Während ich koche, telefoniert mein Bruder.",
+      "why": "während with the present tense covers two simultaneous actions."
     },
     {
       "id": 55,
       "skill": "Conjunction choice",
-      "question": "Which conjunction fits? bevor before the second action",
-      "options": [
-        "Bevor wir losgehen, müssen wir das Licht ausschalten.",
-        "Nachdem wir losgehen, müssen wir das Licht ausschalten.",
-        "Seit wir losgehen, müssen wir das Licht ausschalten.",
-        "Wenn wir losgehen, müssen wir vorher das Licht ausschalten."
-      ],
-      "answer": 0,
-      "explanation": "bevor puts one action ahead of the other; the main clause states what follows."
+      "english": "Before we set off, we have to switch off the light.",
+      "german": "Bevor wir losgehen, müssen wir das Licht ausschalten.",
+      "why": "bevor puts one action ahead of the other; the main clause states what follows."
     },
     {
       "id": 56,
       "skill": "Conjunction choice",
-      "question": "Which conjunction fits? falls for a formal condition",
-      "options": [
-        "Falls es regnet, nehmen wir ein Taxi.",
-        "Falls es regnen, nehmen wir ein Taxi.",
-        "Falls es regnet wird, nehmen wir ein Taxi.",
-        "Falls ob es regnet, nehmen wir ein Taxi."
-      ],
-      "answer": 0,
-      "explanation": "falls introduces a possible condition and takes the verb last."
+      "english": "If it happens to rain, we will take a taxi.",
+      "german": "Falls es regnet, nehmen wir ein Taxi.",
+      "why": "falls introduces a possible condition and takes the verb last."
     },
     {
       "id": 57,
       "skill": "Conjunction choice",
-      "question": "Which conjunction fits? sodass versus damit",
-      "options": [
-        "Er sprach langsam, sodass alle ihn verstanden.",
-        "Er sprach langsam, damit alle ihn verstanden.",
-        "Er sprach langsam, sodass alle verstanden ihn.",
-        "Er sprach langsam, dass alle ihn verstanden."
-      ],
-      "answer": 0,
-      "explanation": "sodass states a consequence that follows from speaking slowly."
+      "english": "He spoke slowly, so that everyone understood him.",
+      "german": "Er sprach langsam, sodass alle ihn verstanden.",
+      "why": "sodass states a consequence that follows from speaking slowly."
     },
     {
       "id": 58,
       "skill": "Conjunction choice",
-      "question": "Which conjunction fits? dass-clause after sagen",
-      "options": [
-        "Er sagte, dass er kommt.",
-        "Er sagte, weil er kommt.",
-        "Er sagte, wenn er kommt.",
-        "Er sagte, dass kommt er."
-      ],
-      "answer": 0,
-      "explanation": "sagen plus dass forms a subordinate clause, so kommt comes last."
+      "english": "He said that he is coming.",
+      "german": "Er sagte, dass er kommt.",
+      "why": "sagen plus dass forms a subordinate clause, so kommt comes last."
     },
     {
       "id": 59,
       "skill": "Conjunction choice",
-      "question": "Which conjunction fits? obwohl plus trotzdem contrast",
-      "options": [
-        "Obwohl er müde war, arbeitete er weiter.",
-        "Obwohl er müde war, er arbeitete weiter.",
-        "Obwohl er war müde, arbeitete er weiter.",
-        "Obwohl er müde war, gearbeitet er weiter."
-      ],
-      "answer": 0,
-      "explanation": "obwohl-clause with verb last; the main clause keeps normal order."
+      "english": "Although he was tired, he went on working.",
+      "german": "Obwohl er müde war, arbeitete er weiter.",
+      "why": "obwohl-clause with verb last; the main clause keeps normal order."
     },
     {
       "id": 60,
       "skill": "Verb cluster, modal & Perfekt",
-      "question": "Complete the subordinate clause correctly: a dass-clause needs a finite verb",
-      "options": [
-        "Es ist notwendig, dass man das Formular ausfüllt.",
-        "Es ist notwendig, dass man das Formular zu ausfüllt.",
-        "Es ist notwendig, dass ausfüllt man das Formular.",
-        "Es ist notwendig, dass man das Formular ausfüllt sind."
-      ],
-      "answer": 0,
-      "explanation": "A dass-clause needs its own finite verb (ausfüllt). An infinitive alone cannot be the clause verb."
+      "english": "It is necessary that you fill in the form.",
+      "german": "Es ist notwendig, dass man das Formular ausfüllt.",
+      "why": "A dass-clause needs its own finite verb (ausfüllt). An infinitive alone cannot be the clause verb."
     },
     {
       "id": 61,
       "skill": "Verb cluster, modal & Perfekt",
-      "question": "Complete the subordinate clause correctly: Perfekt inside a dass-clause",
-      "options": [
-        "Er sagt, dass er den Film schon gesehen hat.",
-        "Er sagt, dass er den Film schon gesehen.",
-        "Er sagt, dass hat er den Film schon gesehen.",
-        "Er sagt, dass er hat den Film schon gesehen."
-      ],
-      "answer": 0,
-      "explanation": "Inside the clause the Perfekt is gesehen hat, with the auxiliary in final position."
+      "english": "He says that he has already seen the film.",
+      "german": "Er sagt, dass er den Film schon gesehen hat.",
+      "why": "Inside the clause the Perfekt is gesehen hat, with the auxiliary in final position."
     },
     {
       "id": 62,
       "skill": "Verb cluster, modal & Perfekt",
-      "question": "Complete the subordinate clause correctly: irreal condition in the present",
-      "options": [
-        "Wenn ich mehr Zeit hätte, würde ich einen Kurs besuchen.",
-        "Wenn ich hätte mehr Zeit, würde ich einen Kurs besuchen.",
-        "Wenn ich mehr Zeit haben würde, würde ich einen Kurs besuchen.",
-        "Wenn ich mehr Zeit hatte, würde ich einen Kurs besuchen."
-      ],
-      "answer": 0,
-      "explanation": "Irreal condition: hätte in the wenn-clause, würde + infinitive in the main clause."
+      "english": "If I had more time, I would take a course.",
+      "german": "Wenn ich mehr Zeit hätte, würde ich einen Kurs besuchen.",
+      "why": "Irreal condition: hätte in the wenn-clause, würde + infinitive in the main clause."
     },
     {
       "id": 63,
       "skill": "Verb cluster, modal & Perfekt",
-      "question": "Complete the subordinate clause correctly: irreal condition in the past",
-      "options": [
-        "Wenn ich mehr Zeit gehabt hätte, würde ich einen Kurs besucht haben.",
-        "Wenn ich hätte mehr Zeit, würde ich einen Kurs besucht haben.",
-        "Wenn ich mehr Zeit gehabt habe, würde ich einen Kurs besucht haben.",
-        "Wenn ich mehr Zeit haben würde, würde ich besucht haben einen Kurs."
-      ],
-      "answer": 0,
-      "explanation": "Plusquamperfekt in the clause and würde + Perfekt in the main clause."
+      "english": "If I had had more time, I would have taken a course.",
+      "german": "Wenn ich mehr Zeit gehabt hätte, würde ich einen Kurs besucht haben.",
+      "why": "Plusquamperfekt in the clause and würde + Perfekt in the main clause."
     },
     {
       "id": 64,
       "skill": "Verb cluster, modal & Perfekt",
-      "question": "Complete the subordinate clause correctly: passive with a modal",
-      "options": [
-        "Das Formular muss bis Freitag abgegeben werden.",
-        "Das Formular muss bis Freitag abgeben werden.",
-        "Das Formular muss bis Freitag werden abgegeben.",
-        "Das Formular muss bis Freitag abgegeben sein."
-      ],
-      "answer": 0,
-      "explanation": "Modal passive: müssen + werden + Partizip II as the final cluster."
+      "english": "The form has to be handed in by Friday.",
+      "german": "Das Formular muss bis Freitag abgegeben werden.",
+      "why": "Modal passive: müssen + werden + Partizip II as the final cluster."
     },
     {
       "id": 65,
       "skill": "Verb cluster, modal & Perfekt",
-      "question": "Complete the subordinate clause correctly: passive inside a dass-clause",
-      "options": [
-        "Ich hoffe, dass die Rechnung bald bezahlt wird.",
-        "Ich hoffe, dass die Rechnung bald bezahlt sein wird.",
-        "Ich hoffe, dass die Rechnung bald werden bezahlt.",
-        "Ich hoffe, dass die Rechnung bald bezahlt."
-      ],
-      "answer": 0,
-      "explanation": "The whole werden-passive cluster sits last inside the clause."
+      "english": "I hope that the bill will be paid soon.",
+      "german": "Ich hoffe, dass die Rechnung bald bezahlt wird.",
+      "why": "The whole werden-passive cluster sits last inside the clause."
     },
     {
       "id": 66,
       "skill": "Verb cluster, modal & Perfekt",
-      "question": "Complete the subordinate clause correctly: Perfekt of a modal verb",
-      "options": [
-        "Ich habe arbeiten müssen, weil der Zug Verspätung hatte.",
-        "Ich habe müssen arbeiten, weil der Zug Verspätung hatte.",
-        "Ich habe arbeiten müssen, weil der Zug hatte Verspätung.",
-        "Ich habe arbeiten müssen weil der Zug Verspätung hatte."
-      ],
-      "answer": 0,
-      "explanation": "Modal Perfekt keeps the infinitive before the auxiliary: arbeiten müssen. A comma also closes the weil-clause."
+      "english": "I had to work because the train was delayed.",
+      "german": "Ich habe arbeiten müssen, weil der Zug Verspätung hatte.",
+      "why": "Modal Perfekt keeps the infinitive before the auxiliary: arbeiten müssen. A comma also closes the weil-clause."
     },
     {
       "id": 67,
       "skill": "Verb cluster, modal & Perfekt",
-      "question": "Complete the subordinate clause correctly: separable verb in a dass-clause",
-      "options": [
-        "Ich hoffe, dass die Lieferung morgen ankommt.",
-        "Ich hoffe, dass die Lieferung kommt morgen an.",
-        "Ich hoffe, dass ankommt die Lieferung morgen.",
-        "Ich hoffe, dass die Lieferung morgen an kommt."
-      ],
-      "answer": 0,
-      "explanation": "In the subordinate clause the separable prefix rejoins the verb: ankommt."
+      "english": "I hope that the delivery will arrive tomorrow.",
+      "german": "Ich hoffe, dass die Lieferung morgen ankommt.",
+      "why": "In the subordinate clause the separable prefix rejoins the verb: ankommt."
     },
     {
       "id": 68,
       "skill": "Verb cluster, modal & Perfekt",
-      "question": "Complete the subordinate clause correctly: two coordinated verbs, one subject",
-      "options": [
-        "Es ist wichtig, dass du abschreibst und die Quellen liest.",
-        "Es ist wichtig, dass du abschreibst und liest die Quellen.",
-        "Es ist wichtig, dass abschreibst du und die Quellen liest.",
-        "Es ist wichtig, dass du abschreibst und die Quellen liest sind."
-      ],
-      "answer": 0,
-      "explanation": "In coordinated clauses sharing one subject, only the first verb goes final."
+      "english": "It is important that you take notes and read the sources.",
+      "german": "Es ist wichtig, dass du abschreibst und die Quellen liest.",
+      "why": "In coordinated clauses sharing one subject, only the first verb goes final."
     },
     {
       "id": 69,
       "skill": "Verb cluster, modal & Perfekt",
-      "question": "Complete the subordinate clause correctly: ob-clause with a modal",
-      "options": [
-        "Ich weiß nicht, ob ich teilnehmen kann.",
-        "Ich weiß nicht, ob ich kann teilnehmen.",
-        "Ich weiß nicht, ob ich teilzunehmen kann.",
-        "Ich weiß nicht, ob kann ich teilnehmen."
-      ],
-      "answer": 0,
-      "explanation": "In an ob-clause the modal kann stands last, with the infinitive in front of it."
+      "english": "I do not know whether I will be able to take part.",
+      "german": "Ich weiß nicht, ob ich teilnehmen kann.",
+      "why": "In an ob-clause the modal kann stands last, with the infinitive in front of it."
     },
     {
       "id": 70,
       "skill": "Verb cluster, modal & Perfekt",
-      "question": "Complete the subordinate clause correctly: werden-passiv inside a weil-clause",
-      "options": [
-        "Er ist weg, weil die Tür geschlossen wurde.",
-        "Er ist weg, weil die Tür wurde geschlossen.",
-        "Er ist weg, weil geschlossen wurde die Tür.",
-        "Er ist weg, weil die Tür geschlossen worden ist."
-      ],
-      "answer": 0,
-      "explanation": "Passive of werden in the Präteritum: wurde geschlossen, auxiliary last."
+      "english": "He is gone because the door was closed.",
+      "german": "Er ist weg, weil die Tür geschlossen wurde.",
+      "why": "Passive of werden in the Präteritum: wurde geschlossen, auxiliary last."
     },
     {
       "id": 71,
       "skill": "Verb cluster, modal & Perfekt",
-      "question": "Complete the subordinate clause correctly: two verbs where the second is modal",
-      "options": [
-        "Ich muss die Rechnung heute noch bezahlen.",
-        "Ich muss die Rechnung heute noch zu bezahlen.",
-        "Ich muss heute noch die Rechnung bezahlen.",
-        "Ich muss die Rechnung heute noch bezahlt haben."
-      ],
-      "answer": 0,
-      "explanation": "Only one modal per clause; the second verb is the bare infinitive bezahlen."
+      "english": "I have to pay the bill today.",
+      "german": "Ich muss die Rechnung heute noch bezahlen.",
+      "why": "Only one modal per clause; the second verb is the bare infinitive bezahlen."
     },
     {
       "id": 72,
       "skill": "Verb cluster, modal & Perfekt",
-      "question": "Complete the subordinate clause correctly: dass-clause with a future",
-      "options": [
-        "Ich hoffe, dass ich den Kurs bestehen werde.",
-        "Ich hoffe, dass ich werde den Kurs bestehen.",
-        "Ich hoffe, dass bestehen ich den Kurs werde.",
-        "Ich hoffe, dass ich den Kurs bestehen."
-      ],
-      "answer": 0,
-      "explanation": "werden as a finite verb goes last; the infinitive stays in front of it."
+      "english": "I hope that I will pass the course.",
+      "german": "Ich hoffe, dass ich den Kurs bestehen werde.",
+      "why": "werden as a finite verb goes last; the infinitive stays in front of it."
     },
     {
       "id": 73,
       "skill": "Relative clauses",
-      "question": "Complete the relative clause correctly: der for a masculine person",
-      "options": [
-        "Der Mann, der dort steht, ist mein Chef.",
-        "Der Mann, wo dort steht, ist mein Chef.",
-        "Der Mann, der dort steht ist mein Chef.",
-        "Der Mann, denn dort steht, ist mein Chef."
-      ],
-      "answer": 0,
-      "explanation": "der is the relative pronoun for masculine persons; the verb steht goes last."
+      "english": "The man standing over there is my boss.",
+      "german": "Der Mann, der dort steht, ist mein Chef.",
+      "why": "der is the relative pronoun for masculine persons; the verb steht goes last."
     },
     {
       "id": 74,
       "skill": "Relative clauses",
-      "question": "Complete the relative clause correctly: den as an accusative object",
-      "options": [
-        "Das Buch, das ich gekauft habe, ist teuer.",
-        "Das Buch, den ich gekauft habe, ist teuer.",
-        "Das Buch, wo ich gekauft habe, ist teuer.",
-        "Das Buch, das ich gekauft habe ist teuer."
-      ],
-      "answer": 0,
-      "explanation": "The relative pronoun takes the case of its role inside the clause: das as the object of gekauft habe."
+      "english": "The book that I bought is expensive.",
+      "german": "Das Buch, das ich gekauft habe, ist teuer.",
+      "why": "The relative pronoun takes the case of its role inside the clause: das as the object of gekauft habe."
     },
     {
       "id": 75,
       "skill": "Relative clauses",
-      "question": "Complete the relative clause correctly: deren for a possessive",
-      "options": [
-        "Das ist die Nachbarin, deren Kind in der Schule ist.",
-        "Das ist die Nachbarin, die Kind in der Schule ist.",
-        "Das ist die Nachbarin, wo Kind in der Schule ist.",
-        "Das ist die Nachbarin, deren Kind ist in der Schule."
-      ],
-      "answer": 0,
-      "explanation": "deren replaces des + possessive and agrees with the following noun."
+      "english": "That is the neighbour whose child is at school.",
+      "german": "Das ist die Nachbarin, deren Kind in der Schule ist.",
+      "why": "deren replaces des + possessive and agrees with the following noun."
     },
     {
       "id": 76,
       "skill": "Relative clauses",
-      "question": "Complete the relative clause correctly: dessen for a masculine possessor",
-      "options": [
-        "Der Hund, dessen Besitzer krank ist, bleibt allein.",
-        "Der Hund, der Besitzer krank ist, bleibt allein.",
-        "Der Hund, wo Besitzer krank ist, bleibt allein.",
-        "Der Hund, dessen Besitzer ist krank, bleibt allein."
-      ],
-      "answer": 0,
-      "explanation": "dessen replaces des + possessive; the clause keeps its own verb order, so ist stays last."
+      "english": "The dog whose owner is ill stays home alone.",
+      "german": "Der Hund, dessen Besitzer krank ist, bleibt allein.",
+      "why": "dessen replaces des + possessive; the clause keeps its own verb order, so ist stays last."
     },
     {
       "id": 77,
       "skill": "Relative clauses",
-      "question": "Complete the relative clause correctly: wo for a fixed location",
-      "options": [
-        "Das ist das Café, wo wir uns kennengelernt haben.",
-        "Das ist das Café, wohin wir uns kennengelernt haben.",
-        "Das ist das Café, was wir uns kennengelernt haben.",
-        "Das ist das Café, wo haben wir uns kennengelernt."
-      ],
-      "answer": 0,
-      "explanation": "wo replaces in + location and stands without a preposition; wohin would mean direction."
+      "english": "That is the café where we met each other.",
+      "german": "Das ist das Café, wo wir uns kennengelernt haben.",
+      "why": "wo replaces in + location and stands without a preposition; wohin would mean direction."
     },
     {
       "id": 78,
       "skill": "Relative clauses",
-      "question": "Complete the relative clause correctly: wohin for a direction",
-      "options": [
-        "Das ist die Straße, wohin wir gegangen sind.",
-        "Das ist die Straße, wo wir gegangen sind.",
-        "Das ist die Straße, dass wir gegangen sind.",
-        "Das ist die Straße, wohin sind wir gegangen."
-      ],
-      "answer": 0,
-      "explanation": "wohin replaces in + accusative for movement; wo would imply a fixed location."
+      "english": "That is the street we walked to.",
+      "german": "Das ist die Straße, wohin wir gegangen sind.",
+      "why": "wohin replaces in + accusative for movement; wo would imply a fixed location."
     },
     {
       "id": 79,
       "skill": "Relative clauses",
-      "question": "Complete the relative clause correctly: wann for a time",
-      "options": [
-        "Ich erinnere mich an den Tag, wann wir umgezogen sind.",
-        "Ich erinnere mich an den Tag, wo wir umgezogen sind.",
-        "Ich erinnere mich an den Tag, dass wir umgezogen sind.",
-        "Ich erinnere mich an den Tag, wann sind wir umgezogen."
-      ],
-      "answer": 0,
-      "explanation": "wann replaces an einem + time and stands without a preposition."
+      "english": "I still remember the day when we moved house.",
+      "german": "Ich erinnere mich an den Tag, wann wir umgezogen sind.",
+      "why": "wann replaces an einem + time and stands without a preposition."
     },
     {
       "id": 80,
       "skill": "Relative clauses",
-      "question": "Complete the relative clause correctly: was for things and whole clauses",
-      "options": [
-        "Ich weiß, was ich sagen soll.",
-        "Ich weiß, wo ich sagen soll.",
-        "Ich weiß, wann ich sagen soll.",
-        "Ich weiß, wer ich sagen soll."
-      ],
-      "answer": 0,
-      "explanation": "was stands for things and for the content of a whole clause."
+      "english": "I know what I should say.",
+      "german": "Ich weiß, was ich sagen soll.",
+      "why": "was stands for things and for the content of a whole clause."
     },
     {
       "id": 81,
       "skill": "Relative clauses",
-      "question": "Complete the relative clause correctly: wer for an unnamed person",
-      "options": [
-        "Wer das nicht weiß, muss raten.",
-        "Was das nicht weiß, muss raten.",
-        "Wo das nicht weiß, muss raten.",
-        "Wann das nicht weiß, muss raten."
-      ],
-      "answer": 0,
-      "explanation": "wer stands for an unnamed person and takes over the subject of the main clause."
+      "english": "Whoever does not know that has to guess.",
+      "german": "Wer das nicht weiß, muss raten.",
+      "why": "wer stands for an unnamed person and takes over the subject of the main clause."
     },
     {
       "id": 82,
       "skill": "Relative clauses",
-      "question": "Complete the relative clause correctly: relative clause with a preposition",
-      "options": [
-        "Das ist der Film, über den wir gesprochen haben.",
-        "Das ist der Film, den wir gesprochen haben.",
-        "Das ist der Film, wo wir gesprochen haben.",
-        "Das ist der Film, was wir gesprochen haben."
-      ],
-      "answer": 0,
-      "explanation": "A preposition stands before the relative pronoun: über den, with den as the accusative object."
+      "english": "That is the film we talked about.",
+      "german": "Das ist der Film, über den wir gesprochen haben.",
+      "why": "A preposition stands before the relative pronoun: über den, with den as the accusative object."
     },
     {
       "id": 83,
       "skill": "Relative clauses",
-      "question": "Complete the relative clause correctly: preposition plus dative in a relative clause",
-      "options": [
-        "Ich kenne jemanden, mit dem ich gut auskommen bin.",
-        "Ich kenne jemanden, der ich gut auskommen bin.",
-        "Ich kenne jemanden, wo ich gut auskommen bin.",
-        "Ich kenne jemanden, was ich gut auskommen bin."
-      ],
-      "answer": 0,
-      "explanation": "mit dem: the preposition stands first, dem is the dative object of auskommen."
+      "english": "I know someone I get along with really well.",
+      "german": "Ich kenne jemanden, mit dem ich gut auskommen bin.",
+      "why": "mit dem: the preposition stands first, dem is the dative object of auskommen."
     },
     {
       "id": 84,
       "skill": "Relative clauses",
-      "question": "Complete the relative clause correctly: welche for a feminine person",
-      "options": [
-        "Ich kenne eine Kollegin, mit der ich viel zusammenarbeite.",
-        "Ich kenne eine Kollegin, wo ich viel zusammenarbeite.",
-        "Ich kenne eine Kollegin, was ich viel zusammenarbeite.",
-        "Ich kenne eine Kollegin, mit was ich viel zusammenarbeite."
-      ],
-      "answer": 0,
-      "explanation": "For a feminine person the relative pronoun is welche; with a preposition it becomes mit der."
+      "english": "I know a colleague I work closely with.",
+      "german": "Ich kenne eine Kollegin, mit der ich viel zusammenarbeite.",
+      "why": "For a feminine person the relative pronoun is welche; with a preposition it becomes mit der."
     },
     {
       "id": 85,
       "skill": "Integrated",
-      "question": "Put it together: a dass-clause after a modal main clause",
-      "options": [
-        "Es ist möglich, dass wir früher anfangen.",
-        "Es ist möglich, dass wir früher anfangt.",
-        "Es ist möglich, dass früher wir anfangen.",
-        "Es ist möglich, wir dass wir früher anfangen."
-      ],
-      "answer": 0,
-      "explanation": "A modal main clause plus a dass-clause: anfangen goes last inside the clause."
+      "english": "It is possible that we will start earlier.",
+      "german": "Es ist möglich, dass wir früher anfangen.",
+      "why": "A modal main clause plus a dass-clause: anfangen goes last inside the clause."
     },
     {
       "id": 86,
       "skill": "Integrated",
-      "question": "Put it together: an ob-clause after a modal main clause",
-      "options": [
-        "Ich hoffe, dass ich teilnehmen kann.",
-        "Ich hoffe, dass ich kann teilnehmen.",
-        "Ich hoffe, dass teilnehmen ich kann.",
-        "Ich hoffe, dass ich teilnehmen kann sind."
-      ],
-      "answer": 0,
-      "explanation": "Inside an ob-clause the modal kann is the finite verb and goes last."
+      "english": "I hope that I can take part.",
+      "german": "Ich hoffe, dass ich teilnehmen kann.",
+      "why": "Inside an ob-clause the modal kann is the finite verb and goes last."
     },
     {
       "id": 87,
       "skill": "Integrated",
-      "question": "Put it together: two subordinate clauses in sequence",
-      "options": [
-        "Weil es regnete und die Straßen glatt waren, sind wir zu Hause geblieben.",
-        "Weil es regnete und waren die Straßen glatt, sind wir zu Hause geblieben.",
-        "Weil es regnete, und die Straßen glatt waren, sind wir zu Hause geblieben.",
-        "Weil es regnete und die Straßen waren glatt, sind wir zu Hause geblieben."
-      ],
-      "answer": 0,
-      "explanation": "The first subordinate clause is verb-final; the second shares its subject and keeps Position III."
+      "english": "Because it was raining and the streets were slippery, we stayed at home.",
+      "german": "Weil es regnete und die Straßen glatt waren, sind wir zu Hause geblieben.",
+      "why": "The first subordinate clause is verb-final; the second shares its subject and keeps Position III."
     },
     {
       "id": 88,
       "skill": "Integrated",
-      "question": "Put it together: a wenn-clause plus a main-clause modal",
-      "options": [
-        "Wenn du willst, kannst du gerne mitkommen.",
-        "Wenn du willst, kannst du gerne mitkommst.",
-        "Wenn du willst, kann du gerne mitkommen.",
-        "Wenn du willst, gerne kannst du mitkommen."
-      ],
-      "answer": 0,
-      "explanation": "wenn-clause with willst last, then kannst in Position II of the main clause."
+      "english": "If you feel like it, you are very welcome to come along.",
+      "german": "Wenn du willst, kannst du gerne mitkommen.",
+      "why": "wenn-clause with willst last, then kannst in Position II of the main clause."
     },
     {
       "id": 89,
       "skill": "Integrated",
-      "question": "Put it together: a weil-clause containing a dass-clause",
-      "options": [
-        "Ich glaube, dass er kommt, weil er es versprochen hat.",
-        "Ich glaube, dass er kommt weil er es versprochen hat.",
-        "Ich glaube, dass kommt er, weil er es versprochen hat.",
-        "Ich glaube, dass er kommt, weil hat er es versprochen."
-      ],
-      "answer": 0,
-      "explanation": "Both clauses are verb-final and each is closed by its own comma."
+      "english": "I think he is coming, because he promised to.",
+      "german": "Ich glaube, dass er kommt, weil er es versprochen hat.",
+      "why": "Both clauses are verb-final and each is closed by its own comma."
     },
     {
       "id": 90,
       "skill": "Integrated",
-      "question": "Put it together: a relative clause inside a dass-clause",
-      "options": [
-        "Ich hoffe, dass der Kollege, der mir hilft, Zeit hat.",
-        "Ich hoffe, dass der Kollege, der mir hilft Zeit hat.",
-        "Ich hoffe, dass der Kollege, mir hilft der, Zeit hat.",
-        "Ich hoffe, dass der Kollege der, der mir hilft, Zeit hat."
-      ],
-      "answer": 0,
-      "explanation": "The relative clause sits inside the dass-clause and keeps its own verb-last order."
+      "english": "I hope that the colleague who is helping me has time.",
+      "german": "Ich hoffe, dass der Kollege, der mir hilft, Zeit hat.",
+      "why": "The relative clause sits inside the dass-clause and keeps its own verb-last order."
     },
     {
       "id": 91,
       "skill": "Integrated",
-      "question": "Put it together: an um … zu clause after a modal",
-      "options": [
-        "Ich habe keine Zeit, um mit dir zu sprechen.",
-        "Ich habe keine Zeit, um mit dir sprechen zu.",
-        "Ich habe keine Zeit, um zu mit dir sprechen.",
-        "Ich habe keine Zeit, damit ich mit dir zu sprechen."
-      ],
-      "answer": 0,
-      "explanation": "um … zu keeps its infinitive at the end: mit dir zu sprechen."
+      "english": "I do not have time to talk with you.",
+      "german": "Ich habe keine Zeit, um mit dir zu sprechen.",
+      "why": "um … zu keeps its infinitive at the end: mit dir zu sprechen."
     },
     {
       "id": 92,
       "skill": "Integrated",
-      "question": "Put it together: a dass-clause with a prepositional infinitive",
-      "options": [
-        "Es ist wichtig, die Ergebnisse rechtzeitig vorzulegen.",
-        "Es ist wichtig, die Ergebnisse vorzulegen rechtzeitig.",
-        "Es ist wichtig, dass die Ergebnisse rechtzeitig vorlegen.",
-        "Es ist wichtig, die Ergebnisse vorgelegt zu sein."
-      ],
-      "answer": 0,
-      "explanation": "Prepositional infinitives with sein keep the whole verb at the end: vorzulegen."
+      "english": "It is important to submit the results on time.",
+      "german": "Es ist wichtig, die Ergebnisse rechtzeitig vorzulegen.",
+      "why": "Prepositional infinitives with sein keep the whole verb at the end: vorzulegen."
     },
     {
       "id": 93,
       "skill": "Integrated",
-      "question": "Put it together: a while-clause plus a modal",
-      "options": [
-        "Während du kochst, kann ich schon den Tisch decken.",
-        "Während du kochst, kann ich den Tisch decken schon.",
-        "Während du kochst, ich kann schon den Tisch decken.",
-        "Während kochst du, kann ich schon den Tisch decken."
-      ],
-      "answer": 0,
-      "explanation": "während-clause with verb last, then kann in Position II of the main clause."
+      "english": "While you are cooking, I can already set the table.",
+      "german": "Während du kochst, kann ich schon den Tisch decken.",
+      "why": "während-clause with verb last, then kann in Position II of the main clause."
     },
     {
       "id": 94,
       "skill": "Integrated",
-      "question": "Put it together: reported speech plus a time clause",
-      "options": [
-        "Er sagte, dass er später kommt, weil er im Stau steht.",
-        "Er sagte, dass er später kommt weil er im Stau steht.",
-        "Er sagte, dass kommt er später, weil er im Stau steht.",
-        "Er sagte, dass er später kommt, weil steht er im Stau."
-      ],
-      "answer": 0,
-      "explanation": "dass-clause and weil-clause are both verb-final, each closed by a comma."
+      "english": "He said that he is coming later, because he is stuck in traffic.",
+      "german": "Er sagte, dass er später kommt, weil er im Stau steht.",
+      "why": "dass-clause and weil-clause are both verb-final, each closed by a comma."
     },
     {
       "id": 95,
       "skill": "Integrated",
-      "question": "Put it together: a sobald-clause with the Perfekt",
-      "options": [
-        "Sobald ich den Text gelesen habe, rufe ich dich an.",
-        "Sobald ich den Text gelesen habe rufe ich dich an.",
-        "Sobald ich gelesen habe den Text, rufe ich dich an.",
-        "Sobald ich den Text habe gelesen, rufe ich dich an."
-      ],
-      "answer": 0,
-      "explanation": "sobold-clause with the Perfekt: gelesen habe, with habe last."
+      "english": "As soon as I have read the text, I will call you.",
+      "german": "Sobald ich den Text gelesen habe, rufe ich dich an.",
+      "why": "sobold-clause with the Perfekt: gelesen habe, with habe last."
     },
     {
       "id": 96,
       "skill": "Integrated",
-      "question": "Put it together: a dass-clause after sich freuen",
-      "options": [
-        "Ich freue mich, dass du kommst.",
-        "Ich freue mich, dass du kommen.",
-        "Ich freue mich, dass kommst du.",
-        "Ich freue mich, du dass du kommst."
-      ],
-      "answer": 0,
-      "explanation": "sich freuen auf/dass takes a dass-clause with verb-final order."
+      "english": "I am glad that you are coming.",
+      "german": "Ich freue mich, dass du kommst.",
+      "why": "sich freuen auf/dass takes a dass-clause with verb-final order."
     },
     {
       "id": 97,
       "skill": "Integrated",
-      "question": "Put it together: two different clause types side by side",
-      "options": [
-        "Wenn es regnet, weiß ich, dass wir zu Hause bleiben.",
-        "Wenn es regnet, weiß ich, dass bleiben wir zu Hause.",
-        "Wenn es regnet, weiß ich, ob wir zu Hause bleiben.",
-        "Wenn es regnet, dass ich weiß, wir bleiben zu Hause."
-      ],
-      "answer": 0,
-      "explanation": "The wenn-clause ends the sentence, so no comma; the internal dass-clause is verb-final."
+      "english": "If it rains, I know that we are staying at home.",
+      "german": "Wenn es regnet, weiß ich, dass wir zu Hause bleiben.",
+      "why": "The wenn-clause ends the sentence, so no comma; the internal dass-clause is verb-final."
     },
     {
       "id": 98,
       "skill": "Integrated",
-      "question": "Put it together: an ob-clause inside a relative clause",
-      "options": [
-        "Ich suche jemanden, der weiß, ob die Stelle noch frei ist.",
-        "Ich suche jemanden, der weiß ob die Stelle noch frei ist.",
-        "Ich suche jemanden, weiß der, ob die Stelle noch frei ist.",
-        "Ich suche jemanden, der weiß, ob ist die Stelle noch frei."
-      ],
-      "answer": 0,
-      "explanation": "Nested clauses: the relative clause is verb-final, and the ob-clause inside it is too."
+      "english": "I am looking for someone who knows whether the position is still available.",
+      "german": "Ich suche jemanden, der weiß, ob die Stelle noch frei ist.",
+      "why": "Nested clauses: the relative clause is verb-final, and the ob-clause inside it is too."
     },
     {
       "id": 99,
       "skill": "Integrated",
-      "question": "Put it together: a passive main clause after a dass-clause",
-      "options": [
-        "Es tut mir leid, dass der Antrag nicht genehmigt wurde.",
-        "Es tut mir leid, dass der Antrag nicht genehmigt worden ist.",
-        "Es tut mir leid, dass der Antrag nicht wurde genehmigt.",
-        "Es tut mir leid, dass genehmigt der Antrag nicht wurde."
-      ],
-      "answer": 0,
-      "explanation": "Passive with wurde: the auxiliary steht last inside the dass-clause."
+      "english": "I am sorry that the application was not approved.",
+      "german": "Es tut mir leid, dass der Antrag nicht genehmigt wurde.",
+      "why": "Passive with wurde: the auxiliary steht last inside the dass-clause."
     },
     {
       "id": 100,
       "skill": "Integrated",
-      "question": "Put it together: a Konjunktiv II wenn-clause with an advice modal",
-      "options": [
-        "Wenn ich mehr Zeit hätte, würde ich einen Kurs besuchen.",
-        "Wenn ich hätte mehr Zeit, würde ich einen Kurs besuchen.",
-        "Wenn ich mehr Zeit haben würde, würde ich einen Kurs besuchen.",
-        "Wenn ich mehr Zeit hatte, würde ich einen Kurs besuchen."
-      ],
-      "answer": 0,
-      "explanation": "Irreal condition: hätte in the wenn-clause, würde + infinitive in the main clause."
+      "english": "If I were you, I would take the job.",
+      "german": "Wenn ich du wärst, würde ich die Stelle annehmen.",
+      "why": "Irreal comparison: wärst in the wenn-clause, würde + infinitive in the main clause."
     }
   ]
 }
