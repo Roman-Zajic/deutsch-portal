@@ -80,8 +80,8 @@
       "id": 11,
       "skill": "Verb-final in the subordinate clause",
       "english": "When I am nervous, everything goes wrong.",
-      "german": "geht",
-      "why": "Separable verb: the prefix schief- rejoins the verb in the subordinate clause, giving geht."
+      "german": "Sie hat Angst, dass es schiefgeht.",
+      "why": "Separable verb: the prefix schief- rejoins the verb, so the full verb geht is the last word of the dass-clause."
     },
     {
       "id": 12,
