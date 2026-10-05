@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Modal particles — Die Modalpartikeln | Deutsch Lernen</title>
+<style>
+:root{
+  --font:"Segoe UI",system-ui,-apple-system,sans-serif;
+  --teal-900:#005A5A; --teal-700:#008282; --teal-400:#50C1C1; --teal-100:#95DFDB;
+  --amber:#E1A01E; --red:#C41E3A; --green:#1D7A4C;
+  --ink:#012D2C; --muted:#008282;
+  --page:#F0FAFA; --card:#FFF; --in:#F0FAFA; --border:#D0ECEB;
+  --shadow:0 1px 4px rgba(1,45,44,.10); --shadow-md:0 4px 14px rgba(1,45,44,.12);
+  --r:8px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font);font-size:16px;color:var(--teal-900);background:var(--page);
+  line-height:1.65;-webkit-font-smoothing:antialiased;
+  display:flex;flex-direction:column;min-height:100vh}
+
+.navbar{display:flex;align-items:center;gap:12px;height:48px;padding:0 14px;
+  background:var(--teal-900);border-bottom:1px solid rgba(149,223,219,.15);
+  position:sticky;top:0;z-index:100;flex-shrink:0}
+.brand-icon{display:flex;align-items:center;flex-shrink:0}
+.nav-pipe{width:1px;height:16px;background:rgba(149,223,219,.30);flex-shrink:0;margin:0 12px}
+.nav-brand-text{font-size:.95rem;font-weight:600;color:var(--teal-100);text-decoration:none;white-space:nowrap}
+.nav-actions{margin-left:auto;display:flex;align-items:center;gap:8px}
+.icon-btn{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;padding:0;
+  color:var(--teal-100);background:rgba(149,223,219,.12);border:1px solid rgba(149,223,219,.22);
+  border-radius:4px;cursor:pointer;transition:130ms;text-decoration:none;flex-shrink:0}
+.icon-btn:hover{background:rgba(149,223,219,.24);border-color:rgba(149,223,219,.45)}
+.btn-nav{display:inline-flex;align-items:center;justify-content:center;height:32px;padding:0 12px;
+  font-size:.78rem;font-weight:600;font-family:var(--font);color:var(--teal-100);text-decoration:none;
+  background:rgba(149,223,219,.12);border:1px solid rgba(149,223,219,.22);border-radius:4px;
+  transition:130ms;white-space:nowrap;flex-shrink:0}
+.btn-nav:hover{background:rgba(149,223,219,.24);border-color:rgba(149,223,219,.45)}
+@media (max-width:400px){.btn-nav{padding:0 9px;font-size:.74px;font-size:.74rem}}
+.icon-btn svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:2;
+  stroke-linecap:round;stroke-linejoin:round}
+@media (max-width:560px){.nav-brand-text{font-size:.85rem}}
+
+.wrap{max-width:860px;width:100%;margin:0 auto;padding:20px 16px 0;flex:1 0 auto}
+
+h1{font-size:1.5rem;line-height:1.3;margin:0 0 4px}
+h1 .de{display:block;font-size:1rem;color:var(--teal-700);font-weight:600;margin-top:2px}
+
+section{margin-bottom:30px}
+h2{font-size:1.05rem;margin-bottom:10px;padding-bottom:6px;border-bottom:2px solid var(--teal-400)}
+h3{font-size:.85rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;
+  color:var(--teal-700);margin:16px 0 8px}
+p{margin-bottom:10px}
+.lead{color:var(--ink)}
+small{color:var(--muted)}
+
+.rulebox{background:var(--in);border:1px solid var(--border);border-left:4px solid var(--teal-400);
+  border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.rulebox strong{color:var(--teal-700)}
+.warnbox{background:rgba(196,30,58,.05);border:1px solid rgba(196,30,58,.25);
+  border-left:4px solid var(--red);border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.warnbox strong{color:var(--red)}
+.tipbox{background:rgba(29,122,76,.06);border:1px solid rgba(29,122,76,.22);
+  border-left:4px solid var(--green);border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.tipbox strong{color:var(--green)}
+
+table{width:100%;border-collapse:collapse;margin:12px 0;font-size:.88rem;
+  table-layout:fixed}
+th,td{overflow-wrap:anywhere;word-break:normal;hyphens:auto}
+th,td{text-align:left;padding:7px 9px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--in);font-weight:700;font-size:.76rem;text-transform:uppercase;
+  letter-spacing:.04em;color:var(--teal-700)}
+td.de{color:var(--ink)}
+tr:last-child td{border-bottom:none}
+
+.mic{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;
+  padding:0;flex-shrink:0;vertical-align:middle;border-radius:50%;cursor:pointer;
+  color:var(--teal-700);background:rgba(80,193,193,.16);border:1px solid rgba(80,193,193,.45);
+  transition:130ms}
+.mic:hover{background:rgba(80,193,193,.34)}
+.mic:focus-visible{outline:2px solid var(--teal-700);outline-offset:2px}
+.mic svg{width:13px;height:13px;fill:none;stroke:currentColor;stroke-width:2;
+  stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.mic[aria-pressed="true"]{background:var(--teal-700);color:#fff;border-color:var(--teal-700)}
+.mic[aria-pressed="true"] .pulse{animation:pulse 1s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+.mic[disabled]{opacity:.45;cursor:not-allowed}
+.microw{display:flex;align-items:flex-start;gap:8px}
+.microw > .mtext{flex:1;min-width:0}
+.ex{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:12px 13px;
+  margin-bottom:9px;box-shadow:var(--shadow)}
+.ex .de{font-size:.98rem;color:var(--ink);margin-bottom:4px}
+.ex .de em{color:var(--teal-700);font-style:normal;font-weight:700;background:rgba(80,193,193,.20);
+  padding:0 3px;border-radius:2px}
+.ex .en{font-size:.84rem;color:var(--muted)}
+.ex .why{font-size:.82rem;color:var(--teal-700);margin-top:6px;padding-top:6px;
+  border-top:1px dotted var(--border)}
+.ex .why b{font-weight:700}
+
+/* ── EXERCISES ── */
+.btn{font-family:var(--font);font-size:.78rem;font-weight:600;cursor:pointer;
+  padding:6px 12px;border-radius:4px;border:1px solid var(--teal-400);
+  background:rgba(80,193,193,.14);color:var(--teal-700);transition:130ms;white-space:nowrap}
+.btn:hover{background:rgba(80,193,193,.28)}
+.btn.ghost{background:transparent;border-color:var(--border);color:var(--muted)}
+.btn.ghost:hover{border-color:var(--teal-400);color:var(--teal-700)}
+.noVoice{display:none;align-items:flex-start;gap:8px;margin-bottom:12px;padding:9px 12px;
+  background:rgba(225,160,30,.12);border:1px solid rgba(225,160,30,.4);border-radius:var(--r);
+  font-size:.83rem;color:#7A5000}
+.noVoice b{color:#7A5000}
+
+.q{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:12px 13px;
+  margin-bottom:10px;box-shadow:var(--shadow)}
+.q.revealed{border-color:var(--teal-400)}
+.q.correct{border-color:rgba(29,122,76,.5);background:rgba(29,122,76,.04)}
+.q.wrong{border-color:rgba(196,30,58,.45);background:rgba(196,30,58,.03)}
+.qtop{display:flex;gap:9px;align-items:flex-start;margin-bottom:9px}
+.qnum{flex-shrink:0;width:23px;height:23px;border-radius:50%;background:rgba(0,130,130,.10);
+  color:var(--teal-7);color:var(--teal-700);font-size:.7rem;font-weight:700;display:flex;
+  align-items:center;justify-content:center;margin-top:1px}
+.q.correct .qnum{background:rgba(29,122,76,.16);color:var(--green)}
+.q.wrong .qnum{background:rgba(196,30,58,.14);color:var(--red)}
+.inputrow{display:flex;align-items:stretch;gap:6px;position:relative}
+.ainput{flex:1;min-width:0;font-family:var(--font);font-size:.92rem;color:var(--ink);
+  background:var(--in);border:1px solid var(--border);border-radius:5px;padding:8px 32px 8px 11px;transition:130ms}
+.ainput:focus{outline:none;border-color:var(--teal-400);background:#fff;box-shadow:0 0 0 3px rgba(80,193,193,.16)}
+/* small keyboard icon, vertically centred at the right edge of the field */
+.keybtn{flex-shrink:0;width:28px;align-self:stretch;display:inline-flex;align-items:center;
+  justify-content:center;padding:0;cursor:pointer;border-radius:5px;
+  color:var(--teal-700);background:rgba(80,193,193,.16);border:1px solid rgba(80,193,193,.45);
+  transition:130ms}
+.keybtn:hover{background:rgba(80,193,193,.32)}
+.keybtn:focus-visible{outline:2px solid var(--teal-700);outline-offset:2px}
+.keybtn svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:1.7;
+  stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.keybtn[aria-expanded="true"]{background:var(--teal-700);color:#fff;border-color:var(--teal-700)}
+/* letter panel lives inside the card so no ancestor can clip it */
+.pad{display:none;flex-wrap:wrap;gap:5px;margin-top:7px;padding:8px;
+  background:var(--in);border:1px solid var(--border);border-radius:5px}
+.pad.open{display:flex}
+.padkey{font-family:var(--font);font-size:.92rem;font-weight:600;color:var(--teal-900);
+  background:var(--card);border:1px solid var(--border);border-radius:4px;
+  min-width:34px;height:32px;cursor:pointer;transition:130ms}
+.padkey:hover{background:var(--teal-400);border-color:var(--teal-400)}
+.padkey:focus-visible{outline:2px solid var(--teal-700);outline-offset:1px}
+.btn.rev{margin-top:8px}
+.btn.rev.on{background:rgba(0,90,90,.10);border-color:var(--teal-700)}
+.ansrow{margin:6px 0;padding:7px 9px;background:rgba(80,193,193,.09);border-radius:5px}
+.ansrow .mtext{font-size:.93rem}
+.qtext{font-size:.95rem;color:var(--ink);margin-bottom:9px;flex:1;min-width:0}
+
+.fb{margin-top:9px;padding-top:9px;border-top:1px dotted var(--border);font-size:.85rem}
+.fb .ans{font-weight:600;color:var(--teal-700);margin-bottom:4px}
+.fb .why{color:var(--muted)}
+
+details.fold{margin-bottom:9px;border:1px solid var(--border);border-radius:6px;background:var(--card)}
+details.fold > summary{padding:9px 12px;font-weight:600;font-size:.88rem;cursor:pointer;
+  color:var(--teal-900);list-style:none}
+details.fold > summary::-webkit-details-marker{display:none}
+details.fold > summary::before{content:"▸";color:var(--teal-700);transition:transform .15s;
+  display:inline-block;margin-right:5px}
+details.fold[open] > summary::before{transform:rotate(90deg)}
+details.fold .foldbody{padding:0 12px 11px;border-top:1px solid var(--border);padding-top:9px;
+  font-size:.9rem}
+
+.footer{position:sticky;bottom:0;z-index:50;width:100%;max-width:var(--wrapw,860px);
+  margin-inline:auto;border-top:1px solid var(--border);padding:10px 16px;background:var(--page);
+  display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:.78rem;color:var(--muted)}
+.footer strong{color:var(--teal-700)}
+.footer-dot{margin:0 10px;color:var(--border)}
+
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+  <a class="brand-icon" href="../../" aria-label="Deutsch Lernen home">
+    <svg width="24" height="17" viewBox="0 0 31 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0"  y="0"  width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="0"  width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="0"  width="9" height="6" rx="1.5" fill="#008282"/>
+      <rect x="0"  y="8"  width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="8"  width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="8"  width="9" height="6" rx="1.5" fill="#008282"/>
+      <rect x="0"  y="16" width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="16" width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="16" width="9" height="6" rx="1.5" fill="#E1A01E"/>
+    </svg>
+  </a>
+  <div class="nav-pipe"></div>
+  <a class="nav-brand-text" href="index.html">Grammar</a>
+  <div class="nav-actions">
+    <a class="btn-nav" href="index.html" title="All grammar topics">All topics</a>
+    <a class="icon-btn" href="../../" title="Back to all modules" aria-label="Back to all modules">
+      <svg viewBox="0 0 24 24"><path d="M3 12l9-9 9 9"></path><path d="M5 10v10h14V10"></path></svg>
+    </a>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <h1>Modal particles<span class="de">Die Modalpartikeln</span></h1>
+  
+  <!-- ══ 1. CONCEPT ══ -->
+  <section>
+    <h2>1 · The concept</h2>
+    <p><strong>Modalpartikeln</strong> are the smallest, toneless little words in German. They have no meaning of their own in the dictionary sense &ndash; they are not a subject, not an object, not a predicate. What they do is <em>show the listener where the speaker stands</em>: whether the speaker contradicts a negative expectation, softens a demand, confirms something already known, or shrugs in resignation.</p>
+    <p>They are not decorative fillers. Germans notice immediately when a student leaves them out, because the <strong>attitude</strong> disappears: <em class="de">Du kommst mit.</em> is neutral, <em class="de">Du kommst <strong>doch</strong> mit.</em> is almost a reproach or a plea.</p>
+
+    <table>
+      <thead>
+        <tr><th>Merkmal</th><th>Was das hei&szlig;t</th><th>Beispiel</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>unbetont</strong></td><td>kein eigener Ton, kein Druck, keine betonte Endsilbe</td><td class="de"><em>Du kommst <u>doch</u> mit.</em> &ndash; <u>doch</u> wird leicht und tiefer gesprochen als <em>mit</em></td></tr>
+        <tr><td><strong>tonlos</strong></td><td>es gibt keine eigene Betonungsregel; man kann es nicht hervorheben</td><td class="de">*<em>Du kommst DOCH mit.</em> (als Betonung unnat&uuml;rlich)</td></tr>
+        <tr><td><strong>keine lexikalische Bedeutung</strong></td><td>kein W&ouml;rterbuch-Eintrag &bdquo;Bedeutung&ldquo;, sondern nur eine Haltungssignal-Funktion</td><td class="de"><em>Das ist halt so.</em> &ndash; <em>halt</em> &uuml;bersetzt nicht &bdquo;because&ldquo;, es signalisiert: &bdquo;wir nehmen es hin&ldquo;</td></tr>
+        <tr><td><strong>kein Bezug auf ein Subjekt</strong></td><td>die Partikel zeigt nicht, <em>wer</em> etwas tut, sondern wie der Sprecher die Lage bewertet</td><td class="de"><em>Er ist <u>wohl</u> krank.</em> &ndash; der Bezug liegt bei <em>er</em>, nicht bei <u>wohl</u></td></tr>
+        <tr><td><strong>unver&auml;nderlich</strong></td><td>keine Deklination, keine Konjugation, keine Vergleichsform</td><td class="de">nur <em>doch</em>, nicht <em>docher</em>/<em>doches</em></td></tr>
+        <tr><td><strong>kein Wortersatz</strong></td><td>die Partikel steht nie <em>statt</em> eines Wortes, sondern nur <em>zus&auml;tzlich</em> zu einem vollst&auml;ndigen Satz</td><td class="de">*<em>Doch.</em> als vollst&auml;ndige Antwort ist zwar m&ouml;glich, meint aber dann ein <em>ja</em></td></tr>
+      </tbody>
+    </table>
+
+    <table>
+      <thead>
+        <tr><th>Position im Satz</th><th>Beispiel</th><th>Anmerkung</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Position I</td><td class="de"><em>Doch, ich komme.</em></td><td>als Konjunktionaladverb, nicht als Modalpartikel &ndash; Modalpartikeln stehen fast nie allein in Position I</td></tr>
+        <tr><td><strong>Position II (Standard)</strong></td><td class="de"><em>Du kommst <u>doch</u> mit.</em></td><td>der klassische Platz: dort, wo auch ein Konjunktionaladverb stehen k&ouml;nnte</td></tr>
+        <tr><td>Position III (im Fragesatz)</td><td class="de"><em>Kommst du <u>doch</u> mit?</em></td><td>bei Verb-initial-Fragen; die Partikel besetzt den zweiten Satzglied-Slot</td></tr>
+        <tr><td>sp&auml;ter im Satz</td><td class="de"><em>Ich habe es dir <u>doch</u> gesagt.</em></td><td>Modalpartikeln k&ouml;nnen weit nach rechts wandern &ndash; der Fokus liegt auf dem, was folgt</td></tr>
+        <tr><td><strong>nicht am Satzende</strong></td><td class="de"><em>*Ich habe es dir gesagt <u>doch</u>.</em></td><td>unm&ouml;glich: eine unbetonte Partikel kann nicht als letzte, tontragende Einheit stehen</td></tr>
+      </tbody>
+    </table>
+
+    <table>
+      <thead>
+        <tr><th>Partikel</th><th>Bedeutung / Haltung</th><th>Ton</th><th>Beispiel</th><th>Position</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>doch</strong></td><td>widerspricht einer negativen Erwartung; dr&auml;ngt; bittet um Best&auml;tigung</td><td>energisch, fordernd, &ouml;berrascht</td><td class="de"><em>Das ist <u>doch</u> nicht dein Ernst!</em></td><td>II</td></tr>
+        <tr><td><strong>mal</strong></td><td>macht eine Forderung weicher: &bdquo;f&uuml;r einen Moment&ldquo;; auch beim Angebot</td><td>locker, freundlich, beil&auml;ufig</td><td class="de"><em>Kannst du <u>mal</u> kurz schauen?</em></td><td>II</td></tr>
+        <tr><td><strong>ja</strong></td><td>best&auml;tigt etwas bereits Bekanntes; &bdquo;das versteht sich&ldquo;</td><td>wissend, selbstverst&auml;ndlich</td><td class="de"><em>Das ist <u>ja</u> bekannt.</em></td><td>II</td></tr>
+        <tr><td><strong>halt</strong></td><td>resignierte Annahme: &bdquo;so ist es eben&ldquo;</td><td>abgeh&auml;kt, gleichg&uuml;ltig</td><td class="de"><em>Das ist <u>halt</u> so.</em></td><td>II</td></tr>
+        <tr><td><strong>eben</strong></td><td>resignierte Annahme, st&auml;rker als <em>halt</em>; auch: &bdquo;gerade&ldquo; (Zeit)</td><td>abgeschlossen, matter, final</td><td class="de"><em>Dann bleiben wir <u>eben</u> zu Hause.</em></td><td>II</td></tr>
+        <tr><td><strong>wohl</strong></td><td>vorsichtige Vermutung; Abstandhaltung</td><td>zur&uuml;ckhaltend, vorsichtig</td><td class="de"><em>Das ist <u>wohl</u> nicht alles.</em></td><td>II</td></tr>
+        <tr><td><strong>eigentlich</strong></td><td>&bdquo;eigentlich&ldquo;; stellt eine Frage oder macht eine Annahme zum Nebenpunkt</td><td>neugierig, beil&auml;ufig, nachdenklich</td><td class="de"><em>Wie war <u>eigentlich</u> noch mal der Name?</em></td><td>II</td></tr>
+      </tbody>
+    </table>
+
+    <table>
+      <thead>
+        <tr><th>Aussagesatz</th><th>Mit Modalpartikel</th><th>Was passiert</th></tr>
+      </thead>
+      <tbody>
+        <tr><td class="de"><em>Du kommst mit.</em></td><td class="de"><em>Du kommst <u>doch</u> mit.</em></td><td>Partikel in Position II, das finite Verb <em>kommst</em> steht direkt danach &ndash; es bleibt an Position II</td></tr>
+        <tr><td class="de"><em>Kommst du mit?</em></td><td class="de"><em>Kommst du <u>doch</u> mit?</em></td><td>die Partikel besetzt hier Position III, das Verb bleibt auf Position I</td></tr>
+        <tr><td class="de"><em>Wir fahren nach Berlin.</em></td><td class="de"><em>Wir fahren <u>eben</u> nach Berlin.</em></td><td>Resignation wird eingeschoben, die Satzinformation bleibt dieselbe</td></tr>
+        <tr><td class="de"><em>Ich habe es gesagt.</em></td><td class="de"><em>Ich habe es <u>doch</u> gesagt.</em></td><td>die Partikel wandert: hier steht sie nicht in Position II, sondern vor dem Objekt &ndash; der Fokus wandert auf <em>gesagt</em></td></tr>
+        <tr><td class="de"><em>Der Bericht war gut.</em></td><td class="de"><em>Der Bericht war <u>ja</u> gut.</em></td><td>die Partikel steht zwischen Pr&auml;dikat und Objekt; der Akzent liegt auf dem, was <em>ja</em> best&auml;tigt</td></tr>
+      </tbody>
+    </table>
+
+    <table>
+      <thead>
+        <tr><th>Funktion von <strong>doch</strong></th><th>Kontext</th><th>Beispiel</th><th>was der Sprecher sagt</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>negative Erwartung widerlegen</strong></td><td>etwas sollte nicht passiert sein</td><td class="de"><em>Du hast mir <u>doch</u> Bescheid gesagt!</em></td><td>&bdquo;Ich dachte, du sagst nichts &ndash; aber du hast es getan.&ldquo;</td></tr>
+        <tr><td><strong>auffordern / dr&auml;ngen</strong></td><td>die andere Person z&ouml;gert</td><td class="de"><em>Komm <u>doch</u> mit!</em></td><td>&bdquo;Jetzt tu es, bitte, ich warte.&ldquo;</td></tr>
+        <tr><td><strong>Best&auml;tigung erbitten</strong></td><td>nach einer ja-nein-Frage</td><td class="de"><em>Kommst du <u>doch</u> mit?</em></td><td>die erwartete Antwort ist <strong>ja</strong> &ndash; ein <em>nein</em> w&uuml;rde widersprechen</td></tr>
+        <tr><td><strong>taktisches Missverstehen aufdecken</strong></td><td>etwas lief schief</td><td class="de"><em>Das warst <u>doch</u> du, oder?</em></td><td>&bdquo;Schieb es nicht auf mich.&ldquo;</td></tr>
+        <tr><td><strong>Erstaunen / Emp&ouml;rung</strong></td><td>gegen eine Unterstellung</td><td class="de"><em>Du glaubst das <u>doch</u> nicht im Ernst!</em></td><td>&bdquo;Bitte sei nicht naiv.&ldquo;</td></tr>
+      </tbody>
+    </table>
+
+    <table>
+      <thead>
+        <tr><th>Funktion von <strong>mal</strong></th><th>Situation</th><th>Beispiel</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Bitte <strong>abschw&auml;chen</strong></td><td>du brauchst etwas von jemandem</td><td class="de"><em>Kannst du <u>mal</u> kurz schauen?</em></td></tr>
+        <tr><td>Bitte <strong>abschw&auml;chen</strong></td><td>Aufforderung, die sonst k&ouml;nnte wie ein Befehl klingen</td><td class="de"><em>Schau <u>mal</u> auf die Uhr.</em></td></tr>
+        <tr><td><strong>Angebot</strong> anbieten</td><td>du machst etwas, das anderen hilft</td><td class="de"><em>Ich bringe <u>mal</u> die Fotos mit.</em></td></tr>
+        <tr><td>ausgesprochener <strong>Wunsch</strong></td><td>Vorstellung, wie es w&auml;re</td><td class="de"><em>Wir sollten <u>mal</u> wieder an den Strand fahren.</em></td></tr>
+        <tr><td>Verst&auml;ndnis <strong>einholen</strong></td><td>etwas war unklar</td><td class="de"><em>Kannst du mir <u>mal</u> erkl&auml;ren, was gemeint war?</em></td></tr>
+        <tr><td>Verst&auml;ndnis <strong>einholen</strong></td><td>Erkl&auml;rung, bevor man weiterspricht</td><td class="de"><em>Wo <u>mal</u> war die Abk&uuml;rzung f&uuml;r &bdquo;beispielsweise&ldquo;?</em></td></tr>
+      </tbody>
+    </table>
+
+    <table>
+      <thead>
+        <tr><th>Funktion von <strong>ja</strong></th><th>Beispiel</th><th>englische Entsprechung (nur als Notbehelf)</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>best&auml;tigt Bekanntes</strong></td><td class="de"><em>Du bist <u>ja</u> nicht bl&ouml;d.</em></td><td>&bdquo;you&rsquo;re not stupid, after all&rdquo;</td></tr>
+        <tr><td><strong>weist auf Offensichtliches hin</strong></td><td class="de"><em>Der Bus f&auml;hrt <u>ja</u> um acht ab.</em></td><td>&bdquo;the bus does leave at eight&rdquo;</td></tr>
+        <tr><td>begr&uuml;ndet, warum etwas nahe liegt</td><td class="de"><em>Du kannst dich <u>ja</u> nicht beklagen.</em></td><td>&bdquo;after all, you can&rsquo;t complain&rdquo;</td></tr>
+        <tr><td>ersetzt <em>denn</em> in einer Begründung</td><td class="de"><em>Ich sage es dir <u>ja</u> schon!</em></td><td>&bdquo;I <em>am</em> telling you, after all&rdquo;</td></tr>
+        <tr><td>verst&auml;rkt eine Aufforderung im Imperativ</td><td class="de"><em>Sag <u>ja</u> nicht solche Sachen.</em></td><td>&bdquo;now don&rsquo;t say such things&rdquo;</td></tr>
+      </tbody>
+    </table>
+
+    <table>
+      <thead>
+        <tr><th>Partikel</th><th>Grad der Resignation</th><th>Beispiel</th><th>Wirkung</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>halt</strong></td><td>mild: &bdquo;nun ja, so l&auml;uft das eben&ldquo;</td><td class="de"><em>Die Bahn hatte halt wieder Versp&auml;tung.</em></td><td>die Lage wird als gegeben hingenommen</td></tr>
+        <tr><td><strong>eben</strong></td><td>st&auml;rker: &bdquo;die Sache ist eben so&ldquo;</td><td class="de"><em>Man kann es <u>eben</u> nicht &auml;ndern.</em></td><td>die Sache wird abgeschlossen, als normal betrachtet</td></tr>
+        <tr><td><strong>eben + halt</strong></td><td>doppelt, ironisch-distanziert</td><td class="de"><em>Das ist <u>eben halt</u> so.</em></td><td>die Kombination klingt oft leicht genervt oder zynisch</td></tr>
+        <tr><td><strong>halt</strong> als Aufforderung</td><td>st&ouml;risch, nicht resigniert</td><td class="de"><em>Na gut, dann <u>halt</u>.</em></td><td>&bdquo;na ja, wenn es nicht anders geht&rdquo;</td></tr>
+        <tr><td><strong>eben</strong> als Zeitangabe</td><td>keine Haltung, sondern Zeit</td><td class="de"><em>Ich habe <u>eben</u> das Gleiche gedacht.</em></td><td>Achtung: hier ist es keine Modalpartikel, sondern ein Adverb (&bdquo;gerade&rdquo;)</td></tr>
+      </tbody>
+    </table>
+
+    <table>
+      <thead>
+        <tr><th>Funktion von <strong>wohl</strong></th><th>Bevorzugte Umgebung</th><th>Beispiel</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>gedachte Vermutung</strong></td><td>mit Modalverb</td><td class="de"><em>Er wird <u>wohl</u> erst morgen kommen.</em></td></tr>
+        <tr><td><strong>vermutete Ursache</strong></td><td>mit Modalverb</td><td class="de"><em>Sie hat es <u>wohl</u> nicht verstanden.</em></td></tr>
+        <tr><td>abgeschw&auml;chte Vermutung ohne Modalverb</td><td>Aussagesatz</td><td class="de"><em>Er ist <u>wohl</u> krank.</em></td></tr>
+        <tr><td>freundliche Vorwarnung</td><td>Aussagesatz</td><td class="de"><em>Das wird <u>wohl</u> nicht lange dauern.</em></td></tr>
+        <tr><td>z&ouml;gerndes, vorsichtiges Urteil</td><td>Aussagesatz</td><td class="de"><em>Das ist <u>wohl</u> nicht alles, was du erz&auml;hlt hast.</em></td></tr>
+        <tr><td>Abstand nehmen, etwas nicht allzu deutlich sagen</td><td>Aussagesatz</td><td class="de"><em>Er war <u>wohl</u> nicht gerade gl&uuml;cklich dar&uuml;ber.</em></td></tr>
+      </tbody>
+    </table>
+
+    <table>
+      <thead>
+        <tr><th>Funktion von <strong>eigentlich</strong></th><th>Beispiel</th><th>englische Entsprechung (Notbehelf)</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>eine echte Frage einleiten, die man lange aufgeschoben hat</td><td class="de"><em>Eigentlich wollte ich dich etwas fragen.</em></td><td>&bdquo;actually, I wanted to ask you something&rdquo;</td></tr>
+        <tr><td>eine Nebensache ansprechen, die gerade nicht zentral war</td><td class="de"><em>Wie war <u>eigentlich</u> noch mal der Name?</em></td><td>&bdquo;what was the name again, actually?&rdquo;</td></tr>
+        <tr><td>ein Angebot vorsichtig einleiten</td><td class="de"><em>Wir k&ouml;nnten <u>eigentlich</u> am Wochenende fahren.</em></td><td>&bdquo;we could actually go away at the weekend&rdquo;</td></tr>
+        <tr><td>eine Annahme markieren, die man selbst relativiert</td><td class="de"><em>Das war <u>eigentlich</u> eine gute Idee.</em></td><td>&bdquo;it was actually a good idea&rdquo;</td></tr>
+        <tr><td>einen Vorwurf abmildern</td><td class="de"><em>Was machst du <u>eigentlich</u> hier?</em></td><td>&ldquo;actually&rdquo; – oft vorwurfsvoll, aber gem&auml;&szlig;igter</td></tr>
+      </tbody>
+    </table>
+
+    <table>
+      <thead>
+        <tr><th>Wort</th><th>als Modalpartikel</th><th>als etwas anderem</th><th>Unterscheidungsmerkmal</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>doch</strong></td><td class="de"><em>Du kommst <u>doch</u> mit.</em> (Position II, Haltung)</td><td class="de"><em><u>Doch</u>, ich habe Zeit.</em> (Position I, Konjunktionaladverb)</td><td>in Position I ist es ein Adverb mit eigener Aussage; in Position II eine Haltung</td></tr>
+        <tr><td><strong>ja</strong></td><td class="de"><em>Das ist <u>ja</u> bekannt.</em> (Position II, Haltung)</td><td class="de"><em><u>Ja</u>, das stimmt.</em> (Position I, Konjunktionaladverb)</td><td>in Position I best&auml;tigt es die <em>Aussage</em>, in Position II den <em>Sachverhalt</em></td></tr>
+        <tr><td><strong>ja</strong></td><td class="de"><em>Du bist <u>ja</u> nicht bl&ouml;d.</em></td><td class="de"><em>Ich komme, <u>ja</u>?</em> (Konjunktion, verbindet zwei Haupts&auml;tze)</td><td>eine Konjunktion kann S&auml;tze verbinden, eine Modalpartikel nie</td></tr>
+        <tr><td><strong>doch</strong></td><td class="de"><em>Das ist <u>doch</u> nicht dein Ernst!</em></td><td class="de"><em><u>Doch</u>!</em> (allein stehend = Antwortpartikel, &bdquo;ja, nat&uuml;rlich&rdquo;)</td><td>allein stehend ist es keine Modalpartikel mehr, sondern eine Antwort auf eine Ja-Nein-Frage</td></tr>
+        <tr><td><strong>mal</strong></td><td class="de"><em>Schau <u>mal</u> hier.</em></td><td class="de"><em>Ich war <u>mal</u> in Wien.</em> (&bdquo;einmal&ldquo;, Zeitangabe)</td><td>mit Artikel/Adverb ist es eine Zeitangabe, ohne ist es eine Haltung</td></tr>
+        <tr><td><strong>eben</strong></td><td class="de"><em>Das ist <u>eben</u> so.</em> (Resignation)</td><td class="de"><em><u>Eben</u> deshalb machen wir es so.</em> (Konjunktionaladverb, &bdquo;gerade&rdquo;)</td><td>Adverb in Position I &uuml;ber die Zeit, Partikel &uuml;ber die Haltung</td></tr>
+        <tr><td><strong>halt</strong></td><td class="de"><em>Es ist <u>halt</u> nicht anders.</em></td><td class="de"><em>Er hat es <u>halt</u>.</em> (Substantiv &bdquo;der Halt&rdquo;, Genitiv)</td><td>die Modalpartikel ist unflexibel, das Substantiv wird dekliniert</td></tr>
+        <tr><td><strong>Interjektion</strong></td><td class="de"><em>Na gut, <u>halt</u>.</em> &ndash; Modalpartikel <em>im</em> Satz</td><td class="de"><em>Ach was!</em> &ndash; Interjektion steht <em>f&uuml;r sich</em>, ohne Verb</td><td>eine Interjektion kann allein stehen, eine Modalpartikel nie</td></tr>
+      </tbody>
+    </table>
+
+    <table>
+      <thead>
+        <tr><th>Satztyp / Konstellation</th><th>Satz</th><th>Wortstellungseffekt</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Modalpartikel in Position II</td><td class="de"><em>Du kommst <u>doch</u> mit.</em></td><td>Standard: Partikel an Position II, finite Verb direkt dahinter</td></tr>
+        <tr><td>Modalpartikel in Position III (Frage)</td><td class="de"><em>Warum hast du <u>doch</u> nicht angerufen?</em></td><td>Verb bleibt auf Position I, die Partikel besetzt den n&auml;chsten Slot</td></tr>
+        <tr><td>Modalpartikel vor Modalverb</td><td class="de"><em>Fahr <u>doch</u> nicht einfach mit!</em></td><td>die Modalpartikel steht auch vor dem Modalverb &ndash; sie geht diesem stets voraus</td></tr>
+        <tr><td>Ausl&ouml;serung des Satzes</td><td class="de"><em>Das ist <u>doch</u> ein guter Grund, alles abzusagen.</em></td><td>mit Infinitiv als Nebensatz steht die Modalpartikel weit vorne, nicht am Ende</td></tr>
+        <tr><td>Modalpartikel in der Ausklammerung</td><td class="de"><em>Wir machen es <u>eben</u> so.</em></td><td>die Partikel steht vor dem Adverb, sie wandert nicht hinter das letzte Wort</td></tr>
+        <tr><td>Modalpartikel vor Pronomen</td><td class="de"><em>Ich sage <u>doch</u> nicht alles.</em></td><td>auch vor einem Objektpronomen m&ouml;glich</td></tr>
+        <tr><td>Imperativ</td><td class="de"><em>Nimm <u>doch</u> bitte einen Platz.</em></td><td>der Imperativ steht auf Position I, die Partikel auf Position II &ndash; wie im Aussagesatz</td></tr>
+        <tr><td>Infinitiv mit <em>zu</em></td><td class="de"><em>Ich habe vergessen, <u>mal</u> nachzufragen.</em></td><td>im eingebetteten Infinitiv stehen Modalpartikeln vor dem Infinitiv</td></tr>
+        <tr><td>am Satzende</td><td class="de"><em>*Das Auto ist kaputt <u>doch</u>.</em></td><td><strong>unm&ouml;glich</strong> &ndash; das ist der entscheidende Negativtest</td></tr>
+      </tbody>
+    </table>
+
+    <table>
+      <thead>
+        <tr><th>Was ich sagen will</th><th>Modalpartikel</th><th>Beispiel</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>&bdquo;Das habe ich doch gesagt!&ldquo;</td><td><strong>doch</strong></td><td class="de"><em>Ich habe es <u>doch</u> gewusst!</em></td></tr>
+        <tr><td>&bdquo;Bitte, komm!&ldquo;</td><td><strong>doch</strong></td><td class="de"><em>Komm <u>doch</u> mit!</em></td></tr>
+        <tr><td>&bdquo;Sag mir, dass es stimmt&ldquo;</td><td><strong>doch</strong></td><td class="de"><em>Das stimmt <u>doch</u>, oder?</em></td></tr>
+        <tr><td>&bdquo;Kannst du mir einen Gefallen tun?&ldquo;</td><td><strong>mal</strong></td><td class="de"><em>Schau <u>mal</u> auf die Rechnung.</em></td></tr>
+        <tr><td>&bdquo;Hier, ich helfe dir&ldquo;</td><td><strong>mal</strong></td><td class="de"><em>Ich erkl&auml;re es dir <u>mal</u>.</em></td></tr>
+        <tr><td>&bdquo;Das ist doch Allgemeinwissen&ldquo;</td><td><strong>ja</strong></td><td class="de"><em>Das wei&szlig;t du <u>ja</u> selbst.</em></td></tr>
+        <tr><td>&bdquo;Daran l&auml;sst sich nichts &auml;ndern&ldquo;</td><td><strong>halt</strong></td><td class="de"><em>Es bleibt uns <u>halt</u> nichts anderes &uuml;brig.</em></td></tr>
+        <tr><td>&bdquo;So sind die Dinge nun mal&ldquo;</td><td><strong>eben</strong></td><td class="de"><em>Es ist <u>eben</u> anders gekommen.</em></td></tr>
+        <tr><td>&bdquo;Ich vermute, aber sicher bin ich nicht&ldquo;</td><td><strong>wohl</strong></td><td class="de"><em>Er hat es <u>wohl</u> vergessen.</em></td></tr>
+        <tr><td>&bdquo;Urspr&uuml;glich gemeint&ldquo;</td><td><strong>eigentlich</strong></td><td class="de"><em>Was wolltest du <u>eigentlich</u> damit sagen?</em></td></tr>
+        <tr><td>&bdquo;Ach, was soll&rsquo;s&ldquo;</td><td><strong>eben + halt</strong></td><td class="de"><em>Na, das ist <u>eben halt</u> nicht zu &auml;ndern.</em></td></tr>
+      </tbody>
+    </table>
+
+    <div class="warnbox">
+      <p><strong>Vier Dinge, die immer stimmen:</strong></p>
+      <ul>
+        <li><strong>Modalpartikeln sind unbetont.</strong> Sie tragen nie die Betonung des Satzes und stehen nicht hinter einem Punkt, wo man sie hervorheben k&ouml;nnte. Betont wird das Verb oder das letzte sinntragende Wort, nicht <em>doch</em>, <em>mal</em> oder <em>halt</em>.</li>
+        <li><strong>Sie haben kein 1:1-&Uuml;quivalent im Englischen.</strong> F&uuml;r <em>doch</em> gibt es kein einzelnes Wort &ndash; je nach Kontext braucht es &bdquo;come on&rdquo;, &ldquo;of course&rdquo;, &ldquo;you know&rdquo; oder gar nichts mit &Uuml;bersetzung. &Uuml;bersetzen Sie die <em>Haltung</em>, nicht das Wort.</li>
+        <li><strong>Sie stehen nie am very last of the clause.</strong> <span class="de"><em>*Das ist <u>halt</u> so <u>eben</u>.</em></span> ist ungrammatisch, weil das unbetonte Wort dann die letzte Einheit w&auml;re.</li>
+        <li><strong>Sie sind nicht frei platzierbar wie Adverbien.</strong> Weicht die Partikel von Position II ab, wandert sie nach <em>rechts</em> an ein Bezugswort, nie an den Satzende. Tipp zum &Uuml;berpr&uuml;fen: Wenn Sie die Partikel streichen und der Satz noch vollst&auml;ndig ist, war sie eine Modalpartikel &ndash; wenn nicht, war es ein Adverb.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ══ 2. EXAMPLES ══ -->
+  <section>
+    <h2>2 · 20 worked examples</h2>
+    <p><small>Each example marks the opener and closer in bold and explains what it does to the sentence.</small></p>
+    <div id="examples"></div>
+  </section>
+
+  <!-- ══ 3. EXERCISES ══ -->
+  <section>
+    <h2>3 · 100 exercises</h2>
+
+    <div class="noVoice" id="noVoice">
+      <b>Pronunciation unavailable.</b> This browser has no German speech voice installed, so the
+      speaker buttons will not play. In Chrome, Edge and Safari on a desktop, German is available by default.
+    </div>
+    <div id="quiz"></div>
+  </section>
+
+</div>
+
+<footer class="footer"><strong>Modal particles</strong><span class="footer-dot">·</span><span>Roman Zajic</span></footer>
+
+<script>
+(function(){
+  "use strict";
+
+  var EXAMPLES = [
+    ["Du <em>kommst</em> <em>doch</em> mit. — You're coming with us, aren't you?", "<em>doch</em> takes the second slot inside the bracket and pushes the finite verb <em>kommst</em> behind itself, so the subject has to follow, against the neutral <em>Kommst du mit?</em>"],
+    ["<em>Kommst</em> du mit? — Are you coming along?", "Without a particle the question keeps the plain verb-first order; put <em>doch</em> after the subject and the same sentence becomes a check of an expectation."],
+    ["<em>Das</em> ist <em>doch</em> nicht dein Ernst! — You're not serious!", "A fronted constituent or particle opens the bracket, and the finite verb <em>ist</em> takes position II immediately behind it; <em>doch</em> contradicts the negative expectation the listener had."],
+    ["<em>Fahr</em> <em>doch</em> nicht einfach mit! — Don't just go along with it!", "In the imperative the finite verb <em>Fahr</em> stands first and the unstressed <em>doch</em> follows it; the negation still comes after the particle."],
+    ["<em>Schau</em> <em>mal</em> auf die Uhr. — Do take a look at the clock.", "<em>mal</em> softens the request, the imperative <em>Schau</em> keeps position I, and the particle is unstressed in the middle field."],
+    ["<em>Erzähl</em> <em>mal,</em> was gestern war. — Do tell me what happened yesterday.", "The separable prefix of <em>erzählen</em> moves to the end and closes the bracket, so <em>mal</em> can sit right behind the verb as a normal middle-field element."],
+    ["Das ist <em>ja</em> bekannt. — That's well known.", "<em>ja</em> assumes shared knowledge: subject first, finite <em>ist</em> in position II, the unstressed particle behind it, no English equivalent exists."],
+    ["Du <em>hast</em> <em>ja</em> keine Ahnung. — You haven't got a clue.", "<em>ja</em> after the finite verb concedes what the listener already suspected, and <em>keine</em> negates only the noun, not the particle."],
+    ["Das ist <em>halt</em> so. — That's just how it is.", "<em>halt</em> expresses resigned acceptance; order stays neutral (subject, <em>ist</em> in position II, particle, complement) and the particle is never stressed."],
+    ["Wir bleiben hier, das geht <em>halt</em> nicht. — We're staying here; that's just not possible.", "Two main clauses: the second keeps <em>geht</em> in position II and puts the unstressed <em>halt</em> in the middle field, before the negation."],
+    ["Es ist <em>eben</em> nicht anders. — It just isn't any different.", "<em>eben</em> is a near-synonym of <em>halt</em> for resignation, and it occupies exactly the same middle-field slot: after the verb, before the negation."],
+    ["Er wird <em>wohl</em> erst morgen kommen. — He'll probably only come tomorrow.", "A hedged supposition prefers a modal verb: <em>wird</em> in position II, the unstressed <em>wohl</em> right behind it, infinitive last."],
+    ["Wie war <em>eigentlich</em> noch <em>mal</em> der Name? — What was the name again, actually?", "Question order is kept, and the two stacked unstressed particles <em>eigentlich</em> and <em>mal</em> stand together between the verb and the subject."],
+    ["Kannst du mir das Fenster <em>mal</em> zumachen? — Could you close the window for me?", "In a modal clause the finite <em>Kannst</em> comes first, the infinitive cluster <em>zumachen</em> closes the bracket, and <em>mal</em> is placed directly in front of it."],
+    ["Ich habe <em>doch</em> schon bezahlt! — I did pay for it, though!", "Here <em>doch</em> opens the bracket in a main clause, so the finite <em>habe</em> is pushed into position II and the emphasised object follows at the end."],
+    ["<em>Wir</em> <em>sind doch</em> alle schon da. — We are all there already, aren't we?", "<em>doch</em> forms the verb-plus-particle unit in position II, the subject is pushed in front of it, and <em>alle schon</em> closes the clause at the end."],
+    ["Die Nachbarn haben <em>wohl</em> nichts gehört. — The neighbours probably didn't hear anything.", "The modal <em>haben</em> stands in position II, <em>wohl</em> is unstressed behind it, and negation plus object follow in the middle and end of the clause."],
+    ["Wir haben <em>ja</em> schon zweimal <em>darüber</em> geredet. — We've talked about it twice already.", "<em>ja</em> recalls something the listener should know; the separable prefix <em>darüber</em> travels to the end, after the intransitive <em>geredet</em>."],
+    ["<em>Setz dich</em> <em>doch,</em> du <em>stehst doch</em> schon die ganze Zeit. — Do sit down, you've been standing there the whole time.", "Imperative <em>Setz</em> in position I with the particle attached; in the second clause the verb-final <em>stehst</em> puts <em>doch</em> after the subject and before the temporal phrase."],
+    ["Das Auto ist kaputt <em>doch</em>. — *(ungrammatical)*", "Impossible: a modal particle has no slot there and can never close the clause. It belongs in the middle field instead, so say: Das Auto ist <em>doch</em> kaputt."]
+  ];
+
+  var DATA_URL = "../../data/grammar_exercises_modalpartikeln.json";
+  var STORE = "modalpartikeln_progress_v1";
+  // ── pronunciation via the browser speech engine ──
+  var MIC_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5z"></path>'
+    + '<path class="pulse" d="M15.5 8.5a5 5 0 0 1 0 7"></path>'
+    + '<path class="pulse" d="M18.5 5.5a9 9 0 0 1 0 13"></path></svg>';
+  var synth = window.speechSynthesis || null;
+  var germanVoice = null;
+
+  function stripTags(t){ return String(t).replace(/<[^>]*>/g,""); }
+
+  function pickVoice(){
+    if(!synth) return null;
+    var vs = synth.getVoices() || [];
+    germanVoice = vs.filter(function(v){ return /^de(-|_|$)/i.test(v.lang); })[0] || null;
+    return germanVoice;
+  }
+  if(synth){
+    pickVoice();
+    if(synth.addEventListener) synth.addEventListener("voiceschanged", pickVoice);
+  }
+
+  function stopSpeech(){ if(synth) try{ synth.cancel(); }catch(e){} }
+
+  var warned = false;
+  function noVoiceNotice(){
+    if(warned) return; warned = true;
+    var n = document.getElementById("noVoice");
+    if(n) n.style.display = "flex";
+  }
+  function micBtn(text, label){
+    var b = document.createElement("button");
+    b.className = "mic";
+    b.type = "button";
+    b.setAttribute("aria-pressed","false");
+    b.setAttribute("aria-label", (label||"Play") + ": " + stripTags(text));
+    b.title = "Play pronunciation";
+    b.innerHTML = MIC_SVG;
+    b.addEventListener("click", function(ev){
+      ev.stopPropagation();
+      if(!synth){ b.disabled = true; b.title = "Speech is not available in this browser"; noVoiceNotice(); return; }
+      if(b.getAttribute("aria-pressed")==="true"){ stopSpeech(); b.setAttribute("aria-pressed","false"); return; }
+      stopSpeech();
+      if(!germanVoice) pickVoice();
+      var u = new SpeechSynthesisUtterance(stripTags(text));
+      u.lang = "de-DE";
+      if(germanVoice) u.voice = germanVoice;
+      u.rate = 0.92; u.pitch = 1;
+      b.setAttribute("aria-pressed","true");
+      var off = function(){ b.setAttribute("aria-pressed","false"); };
+      u.onend = off;
+      u.onerror = function(){ off(); noVoiceNotice(); };
+      synth.speak(u);
+      // some engines report no voices at all; surface that instead of a dead button
+      if(!synth.getVoices().length) noVoiceNotice();
+    });
+    return b;
+  }
+
+  var state = {revealed:{}, answers:{}};
+
+  function esc(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
+  function load(){ try{ var v=JSON.parse(localStorage.getItem(STORE)); if(v&&typeof v==="object"){state.revealed=v.revealed||{};state.answers=v.answers||{};} }catch(e){} }
+  function save(){ try{ localStorage.setItem(STORE, JSON.stringify(state)); }catch(e){} }
+
+  // ---- examples ----
+  // Each entry is [german_and_english, why]. The first field carries the English
+  // translation after an em dash, so split it out for separate styling.
+  function splitDE(t){
+    var i = t.indexOf("\u2014");
+    if(i < 0) return [t, ""];
+    return [t.slice(0,i).trim(), t.slice(i+1).trim()];
+  }
+  (function renderExamples(){
+    var host = document.getElementById("examples");
+    host.innerHTML = "";
+    EXAMPLES.forEach(function(x){
+      var de = x[0] || "";
+      var why = x[1] || "";
+      var parts = splitDE(de);
+      var card = document.createElement("div");
+      card.className = "ex";
+
+      var row = document.createElement("div");
+      row.className = "microw";
+      var txt = document.createElement("div");
+      txt.className = "mtext";
+      txt.innerHTML = '<div class="de">'+parts[0]+'</div>'+
+                      (parts[1] ? '<div class="en">'+parts[1]+'</div>' : "");
+      row.appendChild(txt);
+      row.appendChild(micBtn(parts[0], "Play this example"));
+      card.appendChild(row);
+
+      if(why){
+        var w = document.createElement("div");
+        w.className = "why";
+        w.innerHTML = "<b>Why:</b> "+why;
+        card.appendChild(w);
+      }
+      host.appendChild(card);
+    });
+  })();
+
+  // German special letters, inserted at the caret in the focused input.
+  var KEYS = ["ä","ö","ü","Ä","Ö","Ü","ß","€"];
+
+  function insertAt(input, ch){
+    var v = input.value;
+    var a = input.selectionStart == null ? v.length : input.selectionStart;
+    var b = input.selectionEnd == null ? v.length : input.selectionEnd;
+    input.value = v.slice(0,a) + ch + v.slice(b);
+    var pos = a + ch.length;
+    try{ input.setSelectionRange(pos,pos); }catch(e){}
+    input.focus();
+  }
+
+  function keypadBtn(id){
+    var b = document.createElement("button");
+    b.type = "button";
+    b.className = "keybtn";
+    b.title = "German letters";
+    b.setAttribute("aria-label","Insert German special characters");
+    b.setAttribute("aria-expanded","false");
+    b.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true">'+
+      '<rect x="2" y="5" width="20" height="14" rx="2"></rect>'+
+      '<path d="M6 9h.01M10 9h.01M14 9h.01M18 9h.01M6 13h.01M10 13h.01M14 13h.01M18 13h.01M8 16h8"></path>'+
+      '</svg>';
+    b.addEventListener("click", function(ev){
+      ev.stopPropagation();
+      var panel = document.getElementById("pad-"+id);
+      if(!panel) return;
+      var open = panel.classList.toggle("open");
+      b.setAttribute("aria-expanded", open ? "true" : "false");
+      closeAllKeypads(panel);
+    });
+    return b;
+  }
+
+  function closeAllKeypads(except){
+    Array.prototype.forEach.call(document.querySelectorAll(".pad.open"), function(p){
+      if(p === except) return;
+      p.classList.remove("open");
+      var btn = p.previousSibling && p.previousSibling.querySelector ? p.previousSibling.querySelector(".keybtn") : null;
+      if(btn) btn.setAttribute("aria-expanded","false");
+    });
+  }
+
+  document.addEventListener("click", function(){ closeAllKeypads(null); });
+  document.addEventListener("keydown", function(e){ if(e.key === "Escape") closeAllKeypads(null); });
+
+  function renderQuiz(ex){
+    var el = document.getElementById("quiz");
+    el.innerHTML = "";
+    ex.forEach(function(e){
+      var rev = !!state.revealed[e.id];
+      var card = document.createElement("article");
+      card.className = "q" + (rev ? " revealed" : "");
+      card.id = "q"+e.id;
+
+      var top = document.createElement("div");
+      top.className = "qtop";
+      top.innerHTML = '<span class="qnum">'+e.id+'</span>';
+      var qt = document.createElement("span");
+      qt.className = "qtext";
+      qt.textContent = e.english;
+      top.appendChild(qt);
+      card.appendChild(top);
+
+      // input with the letter keypad docked inside its right edge
+      var row = document.createElement("div");
+      row.className = "inputrow";
+      var ta = document.createElement("input");
+      ta.type = "text";
+      ta.className = "ainput";
+      ta.placeholder = "Write the German here…";
+      ta.setAttribute("aria-label","Your German answer for exercise "+e.id);
+      ta.value = state.answers[e.id] || "";
+      ta.addEventListener("input", function(){ state.answers[e.id] = ta.value; save(); });
+      row.appendChild(ta);
+      row.appendChild(keypadBtn(e.id));
+      card.appendChild(row);
+
+      // the letter panel sits inside the card so it is never clipped
+      var pad = document.createElement("div");
+      pad.className = "pad";
+      pad.id = "pad-"+e.id;
+      KEYS.forEach(function(k){
+        var kb = document.createElement("button");
+        kb.type = "button";
+        kb.className = "padkey";
+        kb.textContent = k;
+        kb.addEventListener("click", function(ev){
+          ev.stopPropagation();
+          var target = card.querySelector(".ainput");
+          insertAt(target, k);
+          state.answers[e.id] = target.value;
+          save();
+        });
+        pad.appendChild(kb);
+      });
+      card.appendChild(pad);
+
+      // reveal / hide toggle
+      var rb = document.createElement("button");
+      rb.type = "button";
+      rb.className = "btn rev" + (rev ? " on" : "");
+      rb.textContent = rev ? "Hide answer" : "Reveal answer";
+      rb.setAttribute("aria-expanded", rev ? "true" : "false");
+      rb.addEventListener("click", function(){
+        state.revealed[e.id] = !state.revealed[e.id];
+        save();
+        renderQuiz(ex);
+      });
+      card.appendChild(rb);
+
+      if(rev){
+        var fb = document.createElement("div");
+        fb.className = "fb";
+
+        var ansRow = document.createElement("div");
+        ansRow.className = "microw ansrow";
+        var at = document.createElement("div");
+        at.className = "mtext";
+        at.textContent = e.german;
+        ansRow.appendChild(at);
+        ansRow.appendChild(micBtn(e.german, "Play the German answer"));
+        fb.appendChild(ansRow);
+
+        var wy = document.createElement("div");
+        wy.className = "why";
+        wy.textContent = e.why;
+        fb.appendChild(wy);
+
+        card.appendChild(fb);
+      }
+      el.appendChild(card);
+    });
+  }
+
+  load();
+
+  fetch(DATA_URL+"?cb="+Date.now())
+    .then(function(r){ if(!r.ok) throw new Error("HTTP "+r.status); return r.json(); })
+    .then(function(d){
+      var ex=d.exercises;
+      renderQuiz(ex);
+    })
+    .catch(function(e){
+      document.getElementById("quiz").innerHTML =
+        '<div class="q"><b>Could not load the exercises.</b><br>'+esc(e.message)+'</div>';
+    });
+})();
+</script>
+</body>
+</html>

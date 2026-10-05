@@ -1098,7 +1098,8 @@
           "topic_en": "Modal particles",
           "term_de": "Modalpartikeln",
           "covers": "doch, eben, halt, ja, eben, wohl: position and effect on the mood.",
-          "provider_split": false
+          "provider_split": false,
+          "page": "modalpartikeln.html"
         },
         {
           "n": 35,

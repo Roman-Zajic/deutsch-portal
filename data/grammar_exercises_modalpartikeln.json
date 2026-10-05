@@ -1,0 +1,711 @@
+{
+  "title": "Modal particles",
+  "level": "B2",
+  "n": 34,
+  "topic_en": "Modal particles",
+  "term_de": "Die Modalpartikeln",
+  "updated": "2026-10-05",
+  "schema": "english-prompt -> learner types German -> Reveal/Hide answer shows reference + speaker",
+  "exercises": [
+    {
+      "id": 1,
+      "skill": "Modal particle: doch",
+      "english": "Would you please come along with us?",
+      "german": "Komm doch bitte mit uns!",
+      "why": "Imperative plus unstressed doch right after the imperative verb: an urgent nudge, not a question."
+    },
+    {
+      "id": 2,
+      "skill": "Modal particle: doch",
+      "english": "You did tell me that.",
+      "german": "Das hast du doch gesagt.",
+      "why": "Perfect with the conjugated auxiliary in position II, and doch in the Mittelfeld after the object."
+    },
+    {
+      "id": 3,
+      "skill": "Modal particle: doch",
+      "english": "I have told you that already, haven't I?",
+      "german": "Ich habe es dir doch schon gesagt.",
+      "why": "The particle cannot end the sentence, so it moves into the Mittelfeld between the objects and schon."
+    },
+    {
+      "id": 4,
+      "skill": "Modal particle: doch",
+      "english": "The train does leave at eight, doesn't it?",
+      "german": "Der Zug fährt doch um acht ab.",
+      "why": "Ablösende abfahren splits into ab + fährt in the sentence; doch softens the contradiction to a listener."
+    },
+    {
+      "id": 5,
+      "skill": "Modal particle: doch",
+      "english": "That is exactly what I said.",
+      "german": "Genau das habe ich doch gesagt.",
+      "why": "Heavy topic als Genau das first; the particle follows the auxiliary in the Mittelfeld."
+    },
+    {
+      "id": 6,
+      "skill": "Modal particle: doch",
+      "english": "You did forget your keys again, didn't you?",
+      "german": "Du hast deine Schlüssel doch wieder vergessen!",
+      "why": "An accusative object in the Mittelfeld pushes doch in front of the participle wieder vergessen."
+    },
+    {
+      "id": 7,
+      "skill": "Modal particle: doch",
+      "english": "Do wait a moment, will you?",
+      "german": "Warte doch einen Moment!",
+      "why": "Modal particles can follow the imperative form, which is why doch stands here behind warte."
+    },
+    {
+      "id": 8,
+      "skill": "Modal particle: doch",
+      "english": "It won't take long, will it?",
+      "german": "Das wird doch nicht lange dauern.",
+      "why": "Future auxiliaries also attract particles, and doch directly before the negation negates the estimate."
+    },
+    {
+      "id": 9,
+      "skill": "Modal particle: doch",
+      "english": "Let's just take a taxi, shall we?",
+      "german": "Lass uns doch einfach ein Taxi nehmen.",
+      "why": "In the lassen construction the infinitive goes to the end, so doch sits inside the Mittelfeld."
+    },
+    {
+      "id": 10,
+      "skill": "Modal particle: doch",
+      "english": "You only had to ask me.",
+      "german": "Du hättest mich doch nur fragen müssen.",
+      "why": "Konjunktiv II plus modal infinitive; doch before nur strengthens the reproach about what was missing."
+    },
+    {
+      "id": 11,
+      "skill": "Modal particle: doch",
+      "english": "I would not have thought that!",
+      "german": "Das hätte ich doch nicht gedacht!",
+      "why": "Aubitive hätte plus negation; the particle marks the surprising expectation being contradicted."
+    },
+    {
+      "id": 12,
+      "skill": "Modal particle: doch",
+      "english": "I am telling you that it will turn out that way.",
+      "german": "Ich sage dir doch, dass es so kommen wird.",
+      "why": "A particle can introduce a dass-clause, but here it stays in the main clause before dass."
+    },
+    {
+      "id": 13,
+      "skill": "Modal particle: doch",
+      "english": "Do be a little less stubborn about it.",
+      "german": "Sei doch bitte nicht so stur.",
+      "why": "Imperative with particle plus politeness adverb; doch reduces the sharpness of the command."
+    },
+    {
+      "id": 14,
+      "skill": "Modal particle: doch",
+      "english": "She is coming after all, isn't she?",
+      "german": "Sie kommt doch tatsächlich.",
+      "why": "tatsächlich and doch combine: the speaker withdraws an earlier assumption instead of insisting."
+    },
+    {
+      "id": 15,
+      "skill": "Modal particle: doch",
+      "english": "But I told you the opposite!",
+      "german": "Aber ich habe dir doch das Gegenteil gesagt!",
+      "why": "Explicit contradiction; the unstressed doch is never written in capitals to show emphasis."
+    },
+    {
+      "id": 16,
+      "skill": "Modal particle: doch",
+      "english": "You can see that I am right, can't you?",
+      "german": "Siehst du doch, dass ich recht habe.",
+      "why": "After the finite verb the particle may stand directly before the dass-clause, with no comma."
+    },
+    {
+      "id": 17,
+      "skill": "Modal particle: doch",
+      "english": "You could have told me earlier, couldn't you?",
+      "german": "Du hättest mir doch früher Bescheid sagen können.",
+      "why": "Modal infinitive at the end keeps the particle far from the end, in the middle of the clause."
+    },
+    {
+      "id": 18,
+      "skill": "Modal particle: doch",
+      "english": "Would you mind opening the window?",
+      "german": "Mach doch bitte das Fenster auf.",
+      "why": "Separable verb aufmachen: the particle attaches after the imperative, not after the prefix."
+    },
+    {
+      "id": 19,
+      "skill": "Modal particle: doch",
+      "english": "It won't turn out that badly, will it?",
+      "german": "So schlimm wird es doch nicht werden.",
+      "why": "Comparative degree in the subject, with doch placed directly in front of the negation."
+    },
+    {
+      "id": 20,
+      "skill": "Modal particle: doch",
+      "english": "If you do hurry, we'll miss the train.",
+      "german": "Wenn du dich doch beeilst, verpassen wir den Zug.",
+      "why": "Position I particle after the wenn-clause: the comma is obligatory, and the focus falls on verpassen."
+    },
+    {
+      "id": 21,
+      "skill": "Modal particle: mal and ja",
+      "english": "Come here for a moment!",
+      "german": "Komm mal her!",
+      "why": "Komm her would be a command; mal makes the same sentence a casual, friendly request."
+    },
+    {
+      "id": 22,
+      "skill": "Modal particle: mal and ja",
+      "english": "Let's have a look at what that is.",
+      "german": "Schauen wir mal, was das ist.",
+      "why": "Wir-subject sentence: the particle follows the finite verb, marking a brief, informal procedure."
+    },
+    {
+      "id": 23,
+      "skill": "Modal particle: mal and ja",
+      "english": "Take a break for a moment.",
+      "german": "Mach mal eine Pause.",
+      "why": "One-off suggestion; mal is the softened counterpart of the plain imperative."
+    },
+    {
+      "id": 24,
+      "skill": "Modal particle: mal and ja",
+      "english": "I heard from you again, by the way.",
+      "german": "Ich habe mal wieder etwas von dir gehört.",
+      "why": "An idiomatic connector meaning by the way, sitting between the two verb elements."
+    },
+    {
+      "id": 25,
+      "skill": "Modal particle: mal and ja",
+      "english": "Could you call me later?",
+      "german": "Rufst du mich mal später an?",
+      "why": "Separable verb anrufen: the particle cannot split verb and prefix and must follow the finite part."
+    },
+    {
+      "id": 26,
+      "skill": "Modal particle: mal and ja",
+      "english": "How was it again with the appointment?",
+      "german": "Wie war das noch mal mit dem Termin?",
+      "why": "A fixed search expression, noch mal paired with a question word in position I."
+    },
+    {
+      "id": 27,
+      "skill": "Modal particle: mal and ja",
+      "english": "Tell me, did you see the key?",
+      "german": "Sag mal, hast du den Schlüssel gesehen?",
+      "why": "The particle doubles as a discourse opener, like a comma-marked parenthetical after the imperative."
+    },
+    {
+      "id": 28,
+      "skill": "Modal particle: mal and ja",
+      "english": "We need to talk about your plans at some point.",
+      "german": "Wir müssen mal über deine Pläne reden.",
+      "why": "Modal verb müssen with the particle in front of it: müssen mal, not mal müssen."
+    },
+    {
+      "id": 29,
+      "skill": "Modal particle: mal and ja",
+      "english": "That was quite a surprise!",
+      "german": "Das war ja eine Überraschung!",
+      "why": "ja states that the surprise is shared knowledge, a frequent reaction particle."
+    },
+    {
+      "id": 30,
+      "skill": "Modal particle: mal and ja",
+      "english": "You did say you were coming.",
+      "german": "Du hast ja gesagt, dass du kommst.",
+      "why": "ja points to something the hearer should recall, and a dass-clause follows the particle."
+    },
+    {
+      "id": 31,
+      "skill": "Modal particle: mal and ja",
+      "english": "We have talked about that before.",
+      "german": "Wir haben ja schon darüber gesprochen.",
+      "why": "Akkusativ with a preposition plus ja, which keeps the anaphoric link to the shared past."
+    },
+    {
+      "id": 32,
+      "skill": "Modal particle: mal and ja",
+      "english": "Don't help me with your excuses!",
+      "german": "Hilf mir ja nicht mit deinen Ausreden!",
+      "why": "Here ja is emphatic, not additive: negated, it intensifies the rejection."
+    },
+    {
+      "id": 33,
+      "skill": "Modal particle: mal and ja",
+      "english": "Don't do anything silly!",
+      "german": "Mach ja keinen Unsinn!",
+      "why": "ja in front of a negation can signal a warning rather than a factual concession."
+    },
+    {
+      "id": 34,
+      "skill": "Modal particle: mal and ja",
+      "english": "Just be careful, I don't have time.",
+      "german": "Pass nur auf, ich habe ja keine Zeit.",
+      "why": "The second clause needs no particle itself; ja highlights the scarce resource."
+    },
+    {
+      "id": 35,
+      "skill": "Modal particle: mal and ja",
+      "english": "Tell me, did you really mean that?",
+      "german": "Sag mal, hast du das wirklich ernst gemeint?",
+      "why": "Two sentence features combined: an informal opener and a perfekt clause in the Mittelfeld."
+    },
+    {
+      "id": 36,
+      "skill": "Modal particle: mal and ja",
+      "english": "Will you call me later, then?",
+      "german": "Rufst du mich dann mal später an?",
+      "why": "The particle sits in the Mittelfeld between the two pronouns and the temporal adverb."
+    },
+    {
+      "id": 37,
+      "skill": "Modal particle: mal and ja",
+      "english": "Let's talk about Tuesday for a moment.",
+      "german": "Lass uns mal über den Dienstag sprechen.",
+      "why": "Particle after the accusative pronoun in the lassen construction."
+    },
+    {
+      "id": 38,
+      "skill": "Modal particle: mal and ja",
+      "english": "He really is completely right.",
+      "german": "Der hat ja wirklich völlig recht.",
+      "why": "Perfect tense, where ja asserts the obvious rightness of the judgement just made."
+    },
+    {
+      "id": 39,
+      "skill": "Modal particle: mal and ja",
+      "english": "Try that out, it tastes better.",
+      "german": "Probier das mal aus, das schmeckt besser.",
+      "why": "Bare imperative in the first clause, main-clause statement in the second, particle in between."
+    },
+    {
+      "id": 40,
+      "skill": "Modal particle: mal and ja",
+      "english": "We haven't seen each other for a long time!",
+      "german": "Wir haben uns ja lange nicht gesehen!",
+      "why": "Reflexive reciprocal pronoun in the Akkusativ; ja draws attention to the shared fact."
+    },
+    {
+      "id": 41,
+      "skill": "Modal particles: halt and eben",
+      "english": "Then just eat less.",
+      "german": "Dann iss halt weniger.",
+      "why": "halt changes an open demand into resigned acceptance of a fact."
+    },
+    {
+      "id": 42,
+      "skill": "Modal particles: halt and eben",
+      "english": "It is just the way it is.",
+      "german": "Es ist halt, wie es ist.",
+      "why": "Parallel-clause comparison with a comma before wie, and halt carrying resignation."
+    },
+    {
+      "id": 43,
+      "skill": "Modal particles: halt and eben",
+      "english": "We just have to get on with it.",
+      "german": "Wir müssen halt mit dem Leben klarkommen.",
+      "why": "Particle in front of the modal verb müssen, with a separable verb later in the clause."
+    },
+    {
+      "id": 44,
+      "skill": "Modal particles: halt and eben",
+      "english": "Such a shame, nothing helps at all.",
+      "german": "So ein Mist, da hilft halt nichts mehr.",
+      "why": "An exclamation followed by a da-clause; halt softens the helplessness."
+    },
+    {
+      "id": 45,
+      "skill": "Modal particles: halt and eben",
+      "english": "That was just a stupid idea.",
+      "german": "Das war eben eine dumme Idee.",
+      "why": "eben stresses that the judgement concerns exactly this single case."
+    },
+    {
+      "id": 46,
+      "skill": "Modal particles: halt and eben",
+      "english": "We have only just talked.",
+      "german": "Wir haben uns eben erst unterhalten.",
+      "why": "eben in its temporal reading, just now, before erst: it signals the latest action."
+    },
+    {
+      "id": 47,
+      "skill": "Modal particles: halt and eben",
+      "english": "Precisely for that reason we should start earlier.",
+      "german": "Eben darum sollten wir früher anfangen.",
+      "why": "eben as an emphatic point particle before a prepositional phrase, not as just."
+    },
+    {
+      "id": 48,
+      "skill": "Modal particles: halt and eben",
+      "english": "He just wasn't lucky.",
+      "german": "Er hat eben kein Glück gehabt.",
+      "why": "Perfect tense, with eben dismissing the outcome as a one-off piece of bad luck."
+    },
+    {
+      "id": 49,
+      "skill": "Modal particles: halt and eben",
+      "english": "All right, you're right after all.",
+      "german": "Na gut, du hast halt recht.",
+      "why": "halt concedes a point the speaker has just lost after a disagreement."
+    },
+    {
+      "id": 50,
+      "skill": "Modal particles: halt and eben",
+      "english": "You just have to take risks sometimes.",
+      "german": "Man muss halt ab und zu Risiken eingehen.",
+      "why": "Generic man-clause: halt generalises the admission beyond the single case."
+    },
+    {
+      "id": 51,
+      "skill": "Modal particles: halt and eben",
+      "english": "That was simply too much for us.",
+      "german": "Das war eben zu viel für uns.",
+      "why": "eben limits the statement to what just happened, not to the general situation."
+    },
+    {
+      "id": 52,
+      "skill": "Modal particles: halt and eben",
+      "english": "He only just returned the book.",
+      "german": "Er hat das Buch eben erst zurückgegeben.",
+      "why": "Temporal eben, with the two time adverbs eben erst marking a very recent action."
+    },
+    {
+      "id": 53,
+      "skill": "Modal particles: halt and eben",
+      "english": "You simply can't control every situation.",
+      "german": "Du kannst halt nicht jede Situation kontrollieren.",
+      "why": "Negated modal sentence where halt acknowledges a permanent limitation."
+    },
+    {
+      "id": 54,
+      "skill": "Modal particles: halt and eben",
+      "english": "Exactly for that reason we're going earlier.",
+      "german": "Eben deshalb gehen wir früher.",
+      "why": "The particle highlights the immediate link to the reason just given."
+    },
+    {
+      "id": 55,
+      "skill": "Modal particles: halt and eben",
+      "english": "We'll just wait until everyone is there.",
+      "german": "Wir warten halt, bis alle da sind.",
+      "why": "A bis-clause in position I, with the particle marking passive waiting in the main clause."
+    },
+    {
+      "id": 56,
+      "skill": "Modal particles: halt and eben",
+      "english": "The bus just didn't run today, that's all.",
+      "german": "Der Bus ist halt heute einmal ausgefallen.",
+      "why": "Auffallen, a separable verb, with the particle before the temporal phrase."
+    },
+    {
+      "id": 57,
+      "skill": "Modal particles: halt and eben",
+      "english": "It's just not that easy.",
+      "german": "Das ist eben nicht so einfach.",
+      "why": "Negation plus eben downgrades the expectation of an easy solution."
+    },
+    {
+      "id": 58,
+      "skill": "Modal particles: halt and eben",
+      "english": "We're in the same seminar after all.",
+      "german": "Wir sitzen eben im selben Seminar.",
+      "why": "eben frames the shared seminar as the obvious reason for the situation being discussed."
+    },
+    {
+      "id": 59,
+      "skill": "Modal particles: halt and eben",
+      "english": "That's exactly what I mean.",
+      "german": "Eben das meine ich.",
+      "why": "Particle in the focus position at the very front of the declarative sentence."
+    },
+    {
+      "id": 60,
+      "skill": "Modal particles: halt and eben",
+      "english": "If it just doesn't work, then so be it.",
+      "german": "Wenn es halt nicht geht, dann eben nicht.",
+      "why": "Double use: halt concedes the failure, the second eben accepts it without protest."
+    },
+    {
+      "id": 61,
+      "skill": "Modal particles: wohl and eigentlich",
+      "english": "You must have missed the first lesson.",
+      "german": "Du hast wohl die erste Stunde verpasst.",
+      "why": "wohl as an epistemic particle turns a complaint into a guess about the cause."
+    },
+    {
+      "id": 62,
+      "skill": "Modal particles: wohl and eigentlich",
+      "english": "It's probably raining again.",
+      "german": "Es regnet wohl schon wieder.",
+      "why": "Wohl softens the bad news here; the particle comes before the temporal adverb schon."
+    },
+    {
+      "id": 63,
+      "skill": "Modal particles: wohl and eigentlich",
+      "english": "She probably won't come anymore.",
+      "german": "Sie kommt wohl nicht mehr.",
+      "why": "A pre-negated verb, which pushes the particle to the very start of the clause."
+    },
+    {
+      "id": 64,
+      "skill": "Modal particles: wohl and eigentlich",
+      "english": "That's probably not so important.",
+      "german": "Das ist wohl nicht so wichtig.",
+      "why": "Negation follows the particle; wohl lowers the speaker's estimate of the issue."
+    },
+    {
+      "id": 65,
+      "skill": "Modal particles: wohl and eigentlich",
+      "english": "Actually, I wanted to call you today.",
+      "german": "Eigentlich wollte ich dich heute anrufen.",
+      "why": "eigentlich as a correction of the hearer's assumption about what the speaker meant."
+    },
+    {
+      "id": 66,
+      "skill": "Modal particles: wohl and eigentlich",
+      "english": "We're actually meeting at eight.",
+      "german": "Wir treffen uns eigentlich um acht.",
+      "why": "Delayed qualification of the time: eigentlich softens the correction."
+    },
+    {
+      "id": 67,
+      "skill": "Modal particles: wohl and eigentlich",
+      "english": "Actually, you should sleep more.",
+      "german": "Eigentlich solltest du mehr schlafen.",
+      "why": "Modal verb with the particle in front of it, undercutting a stated intention."
+    },
+    {
+      "id": 68,
+      "skill": "Modal particles: wohl and eigentlich",
+      "english": "Where actually is my book?",
+      "german": "Wo ist denn eigentlich mein Buch?",
+      "why": "Two particles in a wh-question: denn addresses the listener, eigentlich the search itself."
+    },
+    {
+      "id": 69,
+      "skill": "Modal particles: wohl and eigentlich",
+      "english": "He probably forgot half of it.",
+      "german": "Er hat wohl die Hälfte vergessen.",
+      "why": "Akkusativ object, with the epistemic particle between auxiliary and participle."
+    },
+    {
+      "id": 70,
+      "skill": "Modal particles: wohl and eigentlich",
+      "english": "The restaurant was probably fully booked.",
+      "german": "Das Restaurant war wohl ausgebucht.",
+      "why": "Sein with a predicate adjective: the particle carries the inference about the reason."
+    },
+    {
+      "id": 71,
+      "skill": "Modal particles: wohl and eigentlich",
+      "english": "Actually, one correction is still missing.",
+      "german": "Eigentlich fehlt noch eine Korrektur.",
+      "why": "Reversal of a presumption, a typical function of the discourse particle eigentlich."
+    },
+    {
+      "id": 72,
+      "skill": "Modal particles: wohl and eigentlich",
+      "english": "When does the lecture actually begin?",
+      "german": "Wann beginnt eigentlich die Vorlesung?",
+      "why": "The verb comes directly after the question word, and eigentlich follows it in the Mittelfeld."
+    },
+    {
+      "id": 73,
+      "skill": "Modal particles: wohl and eigentlich",
+      "english": "I probably mixed up two appointments.",
+      "german": "Ich habe wohl zwei Termine verwechselt.",
+      "why": "Akkusativ plural object, with wohl placed after the auxiliary habe."
+    },
+    {
+      "id": 74,
+      "skill": "Modal particles: wohl and eigentlich",
+      "english": "Actually, I'd rather have Friday.",
+      "german": "Eigentlich möchte ich lieber am Freitag.",
+      "why": "Konjunktiv-like möchte plus a second degree: eigentlich opens a preference revision."
+    },
+    {
+      "id": 75,
+      "skill": "Modal particles: wohl and eigentlich",
+      "english": "The colleague must have fallen ill.",
+      "german": "Der Kollege ist wohl krank geworden.",
+      "why": "A conclusion from visible evidence, the classic use of wohl with a sein perfect."
+    },
+    {
+      "id": 76,
+      "skill": "Modal particles: wohl and eigentlich",
+      "english": "Actually, we still need two seats.",
+      "german": "Eigentlich brauchen wir noch zwei Plätze.",
+      "why": "brauchen takes an Akkusativ object; the particle introduces a factual reservation."
+    },
+    {
+      "id": 77,
+      "skill": "Modal particles: wohl and eigentlich",
+      "english": "She probably didn't notice any of it.",
+      "german": "Sie hat wohl nichts davon gemerkt.",
+      "why": "Pronoun nichts, which takes the front slot and carries the negation here."
+    },
+    {
+      "id": 78,
+      "skill": "Modal particles: wohl and eigentlich",
+      "english": "Actually, I haven't seen him for a long time.",
+      "german": "Eigentlich habe ich ihn lange nicht gesehen.",
+      "why": "Perfect with the full verb, where eigentlich reveals the speaker's neglected intention."
+    },
+    {
+      "id": 79,
+      "skill": "Modal particles: wohl and eigentlich",
+      "english": "That was probably a spontaneous decision.",
+      "german": "Das war wohl eine spontane Entscheidung.",
+      "why": "An inference about a past situation, with wohl in front of the Akkusativ subject complement."
+    },
+    {
+      "id": 80,
+      "skill": "Modal particles: wohl and eigentlich",
+      "english": "Actually, we should report that earlier.",
+      "german": "Eigentlich sollten wir das früher melden.",
+      "why": "Modal infinitive at the end, with the particle marking the forgotten duty."
+    },
+    {
+      "id": 81,
+      "skill": "Particle position and word order",
+      "english": "I told you yesterday that it would be difficult.",
+      "german": "Ich habe dir doch gestern gesagt, dass es schwierig wird.",
+      "why": "Perfect with the full verb in position II; the particle slides into the Mittelfeld after gestern."
+    },
+    {
+      "id": 82,
+      "skill": "Particle position and word order",
+      "english": "I would probably have come earlier.",
+      "german": "Ich wäre wohl früher gekommen.",
+      "why": "Konjunktiv II of sein, with the particle in front of the temporal adverb."
+    },
+    {
+      "id": 83,
+      "skill": "Particle position and word order",
+      "english": "Could you close the window for a moment?",
+      "german": "Könntest du mal bitte das Fenster schließen?",
+      "why": "Modal verb in position II, and the particle must precede the modal, not follow it."
+    },
+    {
+      "id": 84,
+      "skill": "Particle position and word order",
+      "english": "If you actually wanted to, you would have said so.",
+      "german": "Wenn du es eigentlich gewollt hättest, hättest du es gesagt.",
+      "why": "A comma is obligatory before a particle in position I of the main clause after a subordinate clause."
+    },
+    {
+      "id": 85,
+      "skill": "Particle position and word order",
+      "english": "You are coming with me, aren't you?",
+      "german": "Du kommst doch mit, oder?",
+      "why": "A disjunction tag closes the sentence, so the particle can never be the last element itself."
+    },
+    {
+      "id": 86,
+      "skill": "Particle position and word order",
+      "english": "You would probably not have noticed the difference.",
+      "german": "Du hättest den Unterschied wohl nicht bemerkt.",
+      "why": "The negation follows the particle, and a Modalpartikel may never be the final word."
+    },
+    {
+      "id": 87,
+      "skill": "Particle position and word order",
+      "english": "You can simply ask me, can't you?",
+      "german": "Du kannst mich doch einfach fragen.",
+      "why": "Modal verb with the particle before it, and a separable verb later in the Mittelfeld."
+    },
+    {
+      "id": 88,
+      "skill": "Particle position and word order",
+      "english": "We should actually talk about that once.",
+      "german": "Wir sollten eigentlich mal darüber sprechen.",
+      "why": "Two particles in the Mittelfeld, placed before the modal verb and before the separable verb."
+    },
+    {
+      "id": 89,
+      "skill": "Particle position and word order",
+      "english": "She is probably right.",
+      "german": "Sie hat wohl recht.",
+      "why": "Short sentence: the particle can occupy the slot directly after the auxiliary."
+    },
+    {
+      "id": 90,
+      "skill": "Particle position and word order",
+      "english": "You can count on me, of course.",
+      "german": "Du kannst dich ja auf mich verlassen.",
+      "why": "After a reflexive verb, ja reads as a reassurance and stays in the Mittelfeld."
+    },
+    {
+      "id": 91,
+      "skill": "Particle position and word order",
+      "english": "You should have come earlier, then.",
+      "german": "Dann hättest du eben früher kommen sollen.",
+      "why": "A modal infinitive at the end means the particle has to move far to the left, right after hättest."
+    },
+    {
+      "id": 92,
+      "skill": "Particle position and word order",
+      "english": "Could you introduce me to her?",
+      "german": "Könntest du mich ihr wohl mal vorstellen?",
+      "why": "Akkusativ and Dativ pronouns precede the two particles in the Mittelfeld."
+    },
+    {
+      "id": 93,
+      "skill": "Particle position and word order",
+      "english": "Have you been there before?",
+      "german": "Bist du da doch schon mal gewesen?",
+      "why": "Perfect tense; the particles stay inside the Mittelfeld and the participle closes the sentence."
+    },
+    {
+      "id": 94,
+      "skill": "Particle position and word order",
+      "english": "I have heard that before, haven't I?",
+      "german": "Das habe ich doch schon gehört.",
+      "why": "Akkusativ subject first, auxiliary in position II, particle in the Mittelfeld, participle last."
+    },
+    {
+      "id": 95,
+      "skill": "Particle position and word order",
+      "english": "Then why are you still sitting here?",
+      "german": "Dann sitzt du ja immer noch hier.",
+      "why": "Adverb at the end: since it occupies the final slot, ja cannot follow it and sits in the Mittelfeld."
+    },
+    {
+      "id": 96,
+      "skill": "Particle position and word order",
+      "english": "I would have gladly helped you.",
+      "german": "Ich hätte dir ja gern geholfen.",
+      "why": "Modal-like gern is an adverb, so ja precedes it in the Mittelfeld and the verb stays finite."
+    },
+    {
+      "id": 97,
+      "skill": "Particle position and word order",
+      "english": "Could you just look at the timetable once?",
+      "german": "Schau doch mal bitte in den Fahrplan.",
+      "why": "Two particles after the imperative; separable prefix in attaches to the verb, not to the particle."
+    },
+    {
+      "id": 98,
+      "skill": "Particle position and word order",
+      "english": "We would have arrived earlier, wouldn't we?",
+      "german": "Wir wären wohl früher angekommen.",
+      "why": "Konjunktiv II with an arrival verb; the particle cannot be moved behind the participle at the end."
+    },
+    {
+      "id": 99,
+      "skill": "Particle position and word order",
+      "english": "You have already eaten, right?",
+      "german": "Du hast ja schon gegessen.",
+      "why": "Perfekt with sein-less gehessen: the particle keeps its place between auxiliary and adverb."
+    },
+    {
+      "id": 100,
+      "skill": "Particle position and word order",
+      "english": "Since you actually know it, tell me.",
+      "german": "Da du es eigentlich weißt, sag es mir.",
+      "why": "A da-clause, then a main clause whose particle takes position I and is followed by a comma."
+    }
+  ]
+}
