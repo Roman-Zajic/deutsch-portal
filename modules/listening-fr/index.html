@@ -38,75 +38,48 @@ body{font-family:var(--font);font-size:16px;color:var(--teal-900);background:var
 h1{font-size:1.35rem;line-height:1.3;margin:0 0 14px}
 
 /* ── input area ─────────────────────────────────────── */
-.panel{background:var(--card);border:1px solid var(--border);border-radius:var(--r);const ABBREV_WORDS = [
-  "M","Mme","Mlle","Dr","Pr","St","Ste","Nr","bd","env","c\.-à-d","cf","qqch","qqn",
-  "etc","p\.ex","c'est-à-dire","av","bd","sup","inf","max","min","n°","tel"
-];
-/* le tampon se termine par une abréviation connue : "M.", "etc.", "p.ex." */
-const ABBREV_TAIL = new RegExp("(?:" + ABBREV_WORDS.join("|") + ")\\.$", "i");
-/* première moitié d'une paire pointée : le "M" de "M." suivi d'un nom propre */
-const ABBREV_HEAD = /(?:^|\s)[MNLJCD]\.$/;
-/* initiale isolée, ne continue que si un nom suit */
-const INITIAL_TAIL = /(?:^|\s)[A-ZÉÈÊÀÎÔÛÇ]\.$/;
-/* un chiffre avant le point : 3.500 ou 1.2.2024 */
-const DECIMAL      = /\d\.$/;
-/* une heure termine bien la phrase : "20 h." */
-const TIME_TAIL    = /\d{1,2}\s?(?:h|min|s)\.?$/i;
+.panel{background:var(--card);border:1px solid var(--border);border-radius:var(--r);
+  box-shadow:var(--shadow);padding:14px;margin-bottom:14px}
+#src{width:100%;min-height:150px;padding:11px;border:1px solid var(--border);border-radius:6px;
+  font-family:var(--font);font-size:1rem;line-height:1.6;color:var(--ink);background:var(--in);
+  resize:vertical}
+#src:focus{outline:2px solid var(--teal-400);outline-offset:-1px;border-color:var(--teal-400)}
 
-function splitSentences(text){
-  const clean = String(text).replace(/\s+/g, " ").trim();
-  if(!clean) return [];
-  const out = [];
-  let buf = "";
-  for(let i = 0; i < clean.length; i++){
-    const ch = clean[i];
-    buf += ch;
-    if(ch !== "." && ch !== "!" && ch !== "?") continue;
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:7px;height:40px;padding:0 16px;
+  font-size:.88rem;font-weight:600;font-family:var(--font);border-radius:6px;cursor:pointer;
+  border:1px solid transparent;transition:130ms}
+.btn-primary{background:var(--teal-700);color:#fff}
+.btn-primary:hover:not(:disabled){background:var(--teal-900)}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+.btn svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.row{display:flex;gap:9px;flex-wrap:wrap;align-items:center}
 
-    const candidate = buf.trim();
-    if(ch !== "."){ out.push(candidate); buf = ""; continue; }
+/* ── transport ──────────────────────────────────────── */
+.transport{display:flex;gap:9px;flex-wrap:wrap;align-items:center;
+  background:var(--card);border:1px solid var(--border);border-radius:var(--r);
+  box-shadow:var(--shadow);padding:11px;margin-bottom:14px;
+  position:sticky;top:58px;z-index:50}
+.tbtn{display:inline-flex;align-items:center;justify-content:center;gap:6px;height:38px;padding:0 13px;
+  font-size:.84rem;font-weight:600;font-family:var(--font);color:var(--teal-900);
+  background:var(--in);border:1px solid var(--border);border-radius:6px;cursor:pointer;
+  transition:130ms;min-width:44px}
+.tbtn:hover:not(:disabled){background:var(--teal-100);border-color:var(--teal-400)}
+.tbtn:disabled{opacity:.4;cursor:not-allowed}
+.tbtn.play{background:var(--teal-700);color:#fff;border-color:var(--teal-700)}
+.tbtn.play:hover:not(:disabled){background:var(--teal-900)}
+.tbtn svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.tstate{margin-left:auto;font-size:.78rem;color:var(--muted);white-space:nowrap}
 
-    let j = i + 1;
-    while(j < clean.length && clean[j] === " ") j++;
-    const nextCh = clean[j] || "";
-    const after = clean.slice(j, j + 4);
-
-    /* garde 1 - ce point ne termine pas une phrase */
-    if(ABBREV_TAIL.test(candidate)) continue;
-    /* "M. Dupont" : le point de laParticle est suivi d'un nom propre */
-    if(ABBREV_HEAD.test(candidate) && /^[A-ZÉÈÊÀÎÔÛÇ][a-zà-ÿé-ë]/.test(after)) continue;
-    if(INITIAL_TAIL.test(candidate) && /^[A-ZÉÈÊÀÎÔÛÇ]{1,3}[.,]/.test(after)) continue;
-    if(DECIMAL.test(candidate) && /^\d/.test(nextCh)) continue;
-
-    /* garde 2 - une nouvelle phrase commence par une majuscule, un chiffre
-       ou un guillemet ouvrant. Un guillemet FERMET se glisse entre le point
-       et la majuscule suivante, comme dans « Bonjour. » Ensuite... */
-    /* un guillemet fermant appartient a la phrase qu'il termine :
-       « Bonjour. » donne la phrase « Bonjour. », pas « Bonjour »
-       On n'avance que sur un guillemet FERMET, jamais sur « ou ", et
-       l'avance s'arrete au premier espace significant. */
-    let end = i + 1;
-    if(clean[end] === " " && /["'”’»)\]]/.test(clean[end + 1] || "")){
-      let q = end + 1;
-      while(q < clean.length && /["'”’»)\]]/.test(clean[q])) q++;
-      if(q < clean.length && clean[q] === " ") end = q;   // le guillemet ferme ici
-    }
-    let k = end;
-    while(k < clean.length && clean[k] === " ") k++;
-    const realNext = clean[k] || "";
-    const looksNew = !realNext || /[«“‘(\-–]?[A-ZÉÈÊÀÎÔÛÇ0-9]/.test(realNext);
-    if(looksNew && candidate.length > 1){
-      out.push(clean.slice(0, end).trim());
-      buf = "";
-      i = end - 1;
-    }
-  }
-  const rest = buf.trim();
-  if(rest) out.push(rest);
-  return out;
-}
-
-00)}
+/* ── the two panels ─────────────────────────────────── */
+.panels{display:grid;grid-template-columns:1fr 1fr;gap:12px;align-items:start}
+@media (max-width:760px){.panels{grid-template-columns:1fr}}
+.col{background:var(--card);border:1px solid var(--border);border-radius:var(--r);
+  box-shadow:var(--shadow);overflow:hidden}
+.col-head{display:flex;align-items:center;gap:8px;padding:9px 12px;background:var(--teal-900);
+  color:var(--teal-100);font-size:.8rem;font-weight:600;letter-spacing:.02em}
+.col-head .spk{margin-left:auto;width:26px;height:26px;display:inline-flex;align-items:center;
+  justify-content:center;background:rgba(149,223,219,.16);border:1px solid rgba(149,223,219,.28);
+  border-radius:4px;cursor:pointer;color:var(--teal-100)}
 .col-head .spk:hover{background:rgba(149,223,219,.30)}
 .col-head .spk:disabled{opacity:.4;cursor:not-allowed}
 .col-head .spk svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
@@ -259,7 +232,7 @@ const MODEL    = "gemini-3.1-flash-lite";
 const API_ROOT = "https://generativelanguage.googleapis.com/v1beta/models";
 
 /* ── state ─────────────────────────────────────────── */
-let deSentences = [];   // French sentences
+let deSentences = [];   // German sentences
 let enSentences = [];   // English sentences (count may differ)
 let pairs       = [];   // [{de, en}] aligned for highlighting
 let current     = -1;   // index of the sentence being spoken
@@ -288,14 +261,14 @@ function clearMsgs(){ ["keyMsg","errMsg","warnMsg"].forEach(function(id){ showMs
    ordinal, and a known abbreviation pattern means no break.
 ──────────────────────────────────────────────────────── */
 const ABBREV_WORDS = [
-  "M","Mme","Mlle","Dr","Pr","St","Ste","N°","etc","p\.ex","c\.f","qqch","qqn",
+  "M","Mme","Mlle","Dr","Pr","St","Ste","N°","etc","p\.ex","cf","qqch","qqn",
   "env","av","bd","sup","inf","max","min","n°","tel","réf","art"
 ];
-/* le tampon se termine par une abréviation connue : "M.", "etc.", "p.ex." */
+/* le tampon se termine par une abreviation connue : "M.", "etc.", "p.ex." */
 const ABBREV_TAIL = new RegExp("(?:^|\\s)(?:" + ABBREV_WORDS.join("|") + ")\\.$", "i");
-/* particle seule qui précède un nom propre : "M. Dupont", "Mme Curie" */
+/* particule seule qui precede un nom propre : "M. Dupont", "Mme Curie" */
 const ABBREV_HEAD = /(?:^|\s)[MNLJCD]\.$/;
-/* initiale isolée, ne continue que si un nom suit : "A. B. et C." */
+/* initiale isolee, ne continue que si un nom suit : "A. B. et C." */
 const INITIAL_TAIL = /(?:^|\s)[A-ZÉÈÊÀÎÔÛÇ]\.$/;
 /* un chiffre avant le point : 3.500 ou 1.2.2024 */
 const DECIMAL      = /\d\.$/;
@@ -326,27 +299,24 @@ function splitSentences(text){
     if(INITIAL_TAIL.test(candidate) && /^[A-ZÉÈÊÀÎÔÛÇ]{1,3}[.,]/.test(after)) continue;
     if(DECIMAL.test(candidate) && /^\d/.test(nextCh)) continue;
 
-    /* garde 2 - une nouvelle phrase commence par une majuscule, un chiffre
-       ou un guillemet ouvrant. Un guillemet FERMET se glisse entre le point
-       et la majuscule suivante, comme dans « Bonjour. » Ensuite il partit. */
-    /* un guillemet fermant appartient a la phrase qu'il termine :
-       « Bonjour. » donne la phrase « Bonjour. », pas « Bonjour »
-       On n'avance que sur un guillemet FERMET, jamais sur « ou ", et
-       l'avance s'arrete au premier espace significant. */
-    let end = i + 1;
-    if(clean[end] === " " && /["'”’»)\]]/.test(clean[end + 1] || "")){
-      let q = end + 1;
+    /* Un guillemet fermant appartient a la phrase qu'il termine :
+       « Bonjour. » donne la phrase « Bonjour. », pas « Bonjour ».
+       On ne l'avale que s'il suit immediatement un guillemet fermant
+       puis un espace ; « et " ne sont jamais avales. */
+    let k = j;
+    if(/["'”’»)\]]/.test(nextCh)){
+      let q = j;
       while(q < clean.length && /["'”’»)\]]/.test(clean[q])) q++;
-      if(q < clean.length && clean[q] === " ") end = q;   // le guillemet ferme ici
+      if(q < clean.length && clean[q] === " ") k = q + 1;
+      while(k < clean.length && clean[k] === " ") k++;
     }
-    let k = end;
-    while(k < clean.length && clean[k] === " ") k++;
     const realNext = clean[k] || "";
     const looksNew = !realNext || /[«“‘(\-–]?[A-ZÉÈÊÀÎÔÛÇ0-9]/.test(realNext);
+
     if(looksNew && candidate.length > 1){
-      out.push(clean.slice(0, end).trim());
+      out.push(buf.trim());   /* la phrase s'arrete au point */
       buf = "";
-      i = end - 1;
+      i = j - 1;              /* reprend apres les espaces, avant le guillemet */
     }
   }
   const rest = buf.trim();
@@ -376,7 +346,6 @@ const SYSTEM = [
   "Return exactly one English sentence for each numbered input, in the same order.",
   "Keep the count identical to the input. Do not merge, split, reorder or skip any sentence.",
   "If a French sentence is a fragment, still give a matching English fragment.",
-  "Keep French elisions and register natural in English: \"de le\" becomes \"of the\" style, and \"je ne sais pas\" is \"I do not know\".",
   "Return only the array of English sentences, no numbering, no commentary."
 ].join(" ");
 
