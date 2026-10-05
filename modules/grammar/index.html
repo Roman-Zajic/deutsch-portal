@@ -128,6 +128,9 @@ details.sources .cav strong{color:#7A5000}
 footer{text-align:center;padding:18px 16px;border-top:1px solid var(--border);
   font-size:.8rem;color:var(--muted)}
 footer strong{color:var(--teal-700)}
+.controls2{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px}
+.released-toggle[aria-pressed="true"]{background:var(--teal-900);color:#fff;border-color:var(--teal-900)}
+.released-toggle[aria-pressed="true"] .cnt{background:rgba(255,255,255,.20);color:#fff}
 </style>
 </head>
 <body>
@@ -341,9 +344,11 @@ footer strong{color:var(--teal-700)}
 
   function renderHint(){
     var h = document.getElementById("hint");
-    if(query) h.textContent = 'Matching “' + query + '” in ' + (activeLevel === "ALL" ? "all levels" : activeLevel) + ".";
-    else if(activeLevel === "ALL") h.textContent = "Showing all levels, in teaching order.";
-    else h.textContent = "Showing " + activeLevel + ", in teaching order.";
+    var parts = [];
+    parts.push(activeLevel === "ALL" ? "all levels" : activeLevel);
+    if(onlyReleased) parts.push("released only (" + countReleased() + ")");
+    if(query) parts.push('matching "' + query + '"');
+    h.textContent = "Showing " + parts.join(" · ") + ", in teaching order.";
   }
 
   function render(){
@@ -369,6 +374,7 @@ footer strong{color:var(--teal-700)}
       .then(function(d){
         data = d;
         document.getElementById("tagTotal").textContent = countAll() + " topics";
+        document.getElementById("relCnt").textContent = countReleased();
         renderSources();
         render();
       })
@@ -386,6 +392,12 @@ footer strong{color:var(--teal-700)}
     query = e.target.value.trim();
     renderHint();
     renderTopics();
+  });
+
+  document.getElementById("onlyReleased").addEventListener("click", function(){
+    onlyReleased = !onlyReleased;
+    this.setAttribute("aria-pressed", onlyReleased ? "true" : "false");
+    render();
   });
 })();
 </script>
