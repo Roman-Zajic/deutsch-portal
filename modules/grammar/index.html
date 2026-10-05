@@ -321,11 +321,7 @@ footer strong{color:var(--teal-700)}
         var hasPage = !!t.page;
         html += '<div class="foot"><button class="markbtn" data-k="' + esc(k) + '">' +
                 (isDone ? "✓ Done" : "Mark done") + '</button>';
-        if(t.superseded_by){
-          html += '<div class="split"><b>Merged:</b> taught at <a href="' +
-                  esc(t.superseded_by) + '">' + esc(t.superseded_by.replace(/\.html$/, '')) +
-                  '</a> &mdash; no separate page.</div>';
-        } else if(hasPage){
+        if(hasPage){
           html += '<span class="pill live">Lesson</span>';
           html += '<a class="topiclink" href="' + esc(t.page) + '">Open lesson →</a>';
         } else {
