@@ -447,10 +447,25 @@ if(synth){
 
 function stopSpeech(){ if(synth){ try{ synth.cancel(); }catch(e){} } }
 
+/* getVoices() is empty until the engine reports its list, so this is the
+   only honest test that audio can actually play. */
+function hasVoice(){
+  if(!synth) return false;
+  if(!voice) pickVoice();
+  return !!(synth.getVoices() || []).length;
+}
+
 function speakIndex(i){
   if(i < 0 || i >= pairs.length) return finish();
   current = i; highlight();
-  if(!synth){ finish(); return; }
+  if(!synth || !hasVoice()){
+    /* nothing can actually be spoken: say so instead of ending silently,
+       and keep the highlight where the learner put it */
+    playing = false;
+    showMsg("warnMsg", "No speech voice is available in this browser, so nothing was read aloud. " +
+                       "Open the page on a phone or a desktop browser with system voices installed.");
+    return;
+  }
   const u = new SpeechSynthesisUtterance(pairs[i].de);
   if(voice) u.voice = voice;
   u.lang = "de-DE";
@@ -531,7 +546,10 @@ $("speakDe").addEventListener("click", function(){ startFrom(0); });
 $("speakEn").addEventListener("click", function(){ readEnglish(); });
 
 function readEnglish(){
-  if(!synth){ showMsg("warnMsg","This browser has no speech engine."); return; }
+  if(!hasVoice()){
+    showMsg("warnMsg", "No speech voice is available in this browser, so nothing was read aloud.");
+    return;
+  }
   stopSpeech();
   current = -1; playing = true; paused = false;
   let i = 0;
