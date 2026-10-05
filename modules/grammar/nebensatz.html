@@ -471,12 +471,25 @@ footer strong{color:var(--teal-700)}
     return {n:n,done:done,right:right};
   }
 
+  var ALL_EX = null;   // every exercise, so totals stay stable while filtering
+
   function renderStat(ex){
-    var s=stats(ex);
-    document.getElementById("barFill").style.width = s.n ? Math.round(s.done/s.n*100)+"%" : "0%";
-    var txt = s.done===0 ? "Not started · "+s.n+" exercises"
-      : s.done+" of "+s.n+" checked · <b>"+s.right+"</b> correct ("+Math.round(s.right/s.done*100)+"%)";
-    if(filter!=="ALL") txt += " · showing "+s.n;
+    var s = stats(ex);
+    var tot = ALL_EX ? stats(ALL_EX) : s;
+    // Progress bar and totals always describe the whole set, never the filter,
+    // so the numbers do not jump when a skill filter is applied.
+    document.getElementById("barFill").style.width = tot.n ? Math.round(tot.done/tot.n*100)+"%" : "0%";
+    var txt;
+    if(tot.done===0){
+      txt = "Not started · "+tot.n+" exercises";
+    } else {
+      txt = tot.done+" of "+tot.n+" checked · <b>"+tot.right+"</b> correct ("+
+            Math.round(tot.right/tot.done*100)+"%)";
+    }
+    if(filter!=="ALL"){
+      var sh = s.n, sd = s.done;
+      txt += " · filter: "+(sd===0 ? sh+" shown, none checked" : sd+" of "+sh+" checked");
+    }
     document.getElementById("pstat").innerHTML = txt;
   }
 
@@ -538,6 +551,7 @@ footer strong{color:var(--teal-700)}
     .then(function(r){ if(!r.ok) throw new Error("HTTP "+r.status); return r.json(); })
     .then(function(d){
       var ex=d.exercises;
+      ALL_EX=ex;
       document.getElementById("tagCount").textContent = ex.length+" exercises";
       renderFilters(ex);
       renderQuiz(ex);
