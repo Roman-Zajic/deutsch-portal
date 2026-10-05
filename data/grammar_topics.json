@@ -1033,7 +1033,8 @@
           "topic_en": "Two-part connectors",
           "term_de": "zweigliedrige Konjunktionen",
           "covers": "the full set of correlative forms: entweder … oder, nicht nur … sondern auch, sowohl … als auch, weder … noch.",
-          "provider_split": false
+          "provider_split": false,
+          "page": "zweigliedrige-konjunktionen.html"
         },
         {
           "n": 27,

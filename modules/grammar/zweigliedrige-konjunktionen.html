@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Two-part connectors — zweigliedrige Konjunktionen | Deutsch Lernen</title>
+<style>
+:root{
+  --font:"Segoe UI",system-ui,-apple-system,sans-serif;
+  --teal-900:#005A5A; --teal-700:#008282; --teal-400:#50C1C1; --teal-100:#95DFDB;
+  --amber:#E1A01E; --red:#C41E3A; --green:#1D7A4C;
+  --ink:#012D2C; --muted:#008282;
+  --page:#F0FAFA; --card:#FFF; --in:#F0FAFA; --border:#D0ECEB;
+  --shadow:0 1px 4px rgba(1,45,44,.10); --shadow-md:0 4px 14px rgba(1,45,44,.12);
+  --r:8px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font);font-size:16px;color:var(--teal-900);background:var(--page);
+  line-height:1.65;-webkit-font-smoothing:antialiased;
+  display:flex;flex-direction:column;min-height:100vh}
+
+.navbar{display:flex;align-items:center;gap:12px;height:48px;padding:0 14px;
+  background:var(--teal-900);border-bottom:1px solid rgba(149,223,219,.15);
+  position:sticky;top:0;z-index:100;flex-shrink:0}
+.brand-icon{display:flex;align-items:center;flex-shrink:0}
+.nav-pipe{width:1px;height:16px;background:rgba(149,223,219,.30);flex-shrink:0;margin:0 12px}
+.nav-brand-text{font-size:.95rem;font-weight:600;color:var(--teal-100);text-decoration:none;white-space:nowrap}
+.nav-actions{margin-left:auto;display:flex;align-items:center;gap:8px}
+.icon-btn{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;padding:0;
+  color:var(--teal-100);background:rgba(149,223,219,.12);border:1px solid rgba(149,223,219,.22);
+  border-radius:4px;cursor:pointer;transition:130ms;text-decoration:none;flex-shrink:0}
+.icon-btn:hover{background:rgba(149,223,219,.24);border-color:rgba(149,223,219,.45)}
+.btn-nav{display:inline-flex;align-items:center;justify-content:center;height:32px;padding:0 12px;
+  font-size:.78rem;font-weight:600;font-family:var(--font);color:var(--teal-100);text-decoration:none;
+  background:rgba(149,223,219,.12);border:1px solid rgba(149,223,219,.22);border-radius:4px;
+  transition:130ms;white-space:nowrap;flex-shrink:0}
+.btn-nav:hover{background:rgba(149,223,219,.24);border-color:rgba(149,223,219,.45)}
+@media (max-width:400px){.btn-nav{padding:0 9px;font-size:.74px;font-size:.74rem}}
+.icon-btn svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:2;
+  stroke-linecap:round;stroke-linejoin:round}
+@media (max-width:560px){.nav-brand-text{font-size:.85rem}}
+
+.wrap{max-width:860px;width:100%;margin:0 auto;padding:20px 16px 0;flex:1 0 auto}
+
+h1{font-size:1.5rem;line-height:1.3;margin:0 0 4px}
+h1 .de{display:block;font-size:1rem;color:var(--teal-700);font-weight:600;margin-top:2px}
+
+section{margin-bottom:30px}
+h2{font-size:1.05rem;margin-bottom:10px;padding-bottom:6px;border-bottom:2px solid var(--teal-400)}
+h3{font-size:.85rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;
+  color:var(--teal-700);margin:16px 0 8px}
+p{margin-bottom:10px}
+.lead{color:var(--ink)}
+small{color:var(--muted)}
+
+.rulebox{background:var(--in);border:1px solid var(--border);border-left:4px solid var(--teal-400);
+  border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.rulebox strong{color:var(--teal-700)}
+.warnbox{background:rgba(196,30,58,.05);border:1px solid rgba(196,30,58,.25);
+  border-left:4px solid var(--red);border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.warnbox strong{color:var(--red)}
+.tipbox{background:rgba(29,122,76,.06);border:1px solid rgba(29,122,76,.22);
+  border-left:4px solid var(--green);border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.tipbox strong{color:var(--green)}
+
+table{width:100%;border-collapse:collapse;margin:12px 0;font-size:.88rem}
+th,td{text-align:left;padding:7px 9px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--in);font-weight:700;font-size:.76rem;text-transform:uppercase;
+  letter-spacing:.04em;color:var(--teal-700)}
+td.de{color:var(--ink)}
+tr:last-child td{border-bottom:none}
+
+.mic{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;
+  padding:0;flex-shrink:0;vertical-align:middle;border-radius:50%;cursor:pointer;
+  color:var(--teal-700);background:rgba(80,193,193,.16);border:1px solid rgba(80,193,193,.45);
+  transition:130ms}
+.mic:hover{background:rgba(80,193,193,.34)}
+.mic:focus-visible{outline:2px solid var(--teal-700);outline-offset:2px}
+.mic svg{width:13px;height:13px;fill:none;stroke:currentColor;stroke-width:2;
+  stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.mic[aria-pressed="true"]{background:var(--teal-700);color:#fff;border-color:var(--teal-700)}
+.mic[aria-pressed="true"] .pulse{animation:pulse 1s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+.mic[disabled]{opacity:.45;cursor:not-allowed}
+.microw{display:flex;align-items:flex-start;gap:8px}
+.microw > .mtext{flex:1;min-width:0}
+.ex{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:12px 13px;
+  margin-bottom:9px;box-shadow:var(--shadow)}
+.ex .de{font-size:.98rem;color:var(--ink);margin-bottom:4px}
+.ex .de em{color:var(--teal-700);font-style:normal;font-weight:700;background:rgba(80,193,193,.20);
+  padding:0 3px;border-radius:2px}
+.ex .en{font-size:.84rem;color:var(--muted)}
+.ex .why{font-size:.82rem;color:var(--teal-700);margin-top:6px;padding-top:6px;
+  border-top:1px dotted var(--border)}
+.ex .why b{font-weight:700}
+
+/* ── EXERCISES ── */
+.btn{font-family:var(--font);font-size:.78rem;font-weight:600;cursor:pointer;
+  padding:6px 12px;border-radius:4px;border:1px solid var(--teal-400);
+  background:rgba(80,193,193,.14);color:var(--teal-700);transition:130ms;white-space:nowrap}
+.btn:hover{background:rgba(80,193,193,.28)}
+.btn.ghost{background:transparent;border-color:var(--border);color:var(--muted)}
+.btn.ghost:hover{border-color:var(--teal-400);color:var(--teal-700)}
+.noVoice{display:none;align-items:flex-start;gap:8px;margin-bottom:12px;padding:9px 12px;
+  background:rgba(225,160,30,.12);border:1px solid rgba(225,160,30,.4);border-radius:var(--r);
+  font-size:.83rem;color:#7A5000}
+.noVoice b{color:#7A5000}
+
+.q{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:12px 13px;
+  margin-bottom:10px;box-shadow:var(--shadow)}
+.q.revealed{border-color:var(--teal-400)}
+.q.correct{border-color:rgba(29,122,76,.5);background:rgba(29,122,76,.04)}
+.q.wrong{border-color:rgba(196,30,58,.45);background:rgba(196,30,58,.03)}
+.qtop{display:flex;gap:9px;align-items:flex-start;margin-bottom:9px}
+.qnum{flex-shrink:0;width:23px;height:23px;border-radius:50%;background:rgba(0,130,130,.10);
+  color:var(--teal-7);color:var(--teal-700);font-size:.7rem;font-weight:700;display:flex;
+  align-items:center;justify-content:center;margin-top:1px}
+.q.correct .qnum{background:rgba(29,122,76,.16);color:var(--green)}
+.q.wrong .qnum{background:rgba(196,30,58,.14);color:var(--red)}
+.inputrow{display:flex;align-items:stretch;gap:6px;position:relative}
+.ainput{flex:1;min-width:0;font-family:var(--font);font-size:.92rem;color:var(--ink);
+  background:var(--in);border:1px solid var(--border);border-radius:5px;padding:8px 32px 8px 11px;transition:130ms}
+.ainput:focus{outline:none;border-color:var(--teal-400);background:#fff;box-shadow:0 0 0 3px rgba(80,193,193,.16)}
+/* small keyboard icon, vertically centred at the right edge of the field */
+.keybtn{flex-shrink:0;width:28px;align-self:stretch;display:inline-flex;align-items:center;
+  justify-content:center;padding:0;cursor:pointer;border-radius:5px;
+  color:var(--teal-700);background:rgba(80,193,193,.16);border:1px solid rgba(80,193,193,.45);
+  transition:130ms}
+.keybtn:hover{background:rgba(80,193,193,.32)}
+.keybtn:focus-visible{outline:2px solid var(--teal-700);outline-offset:2px}
+.keybtn svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:1.7;
+  stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.keybtn[aria-expanded="true"]{background:var(--teal-700);color:#fff;border-color:var(--teal-700)}
+/* letter panel lives inside the card so no ancestor can clip it */
+.pad{display:none;flex-wrap:wrap;gap:5px;margin-top:7px;padding:8px;
+  background:var(--in);border:1px solid var(--border);border-radius:5px}
+.pad.open{display:flex}
+.padkey{font-family:var(--font);font-size:.92rem;font-weight:600;color:var(--teal-900);
+  background:var(--card);border:1px solid var(--border);border-radius:4px;
+  min-width:34px;height:32px;cursor:pointer;transition:130ms}
+.padkey:hover{background:var(--teal-400);border-color:var(--teal-400)}
+.padkey:focus-visible{outline:2px solid var(--teal-700);outline-offset:1px}
+.btn.rev{margin-top:8px}
+.btn.rev.on{background:rgba(0,90,90,.10);border-color:var(--teal-700)}
+.ansrow{margin:6px 0;padding:7px 9px;background:rgba(80,193,193,.09);border-radius:5px}
+.ansrow .mtext{font-size:.93rem}
+.qtext{font-size:.95rem;color:var(--ink);margin-bottom:9px;flex:1;min-width:0}
+
+.fb{margin-top:9px;padding-top:9px;border-top:1px dotted var(--border);font-size:.85rem}
+.fb .ans{font-weight:600;color:var(--teal-700);margin-bottom:4px}
+.fb .why{color:var(--muted)}
+
+details.fold{margin-bottom:9px;border:1px solid var(--border);border-radius:6px;background:var(--card)}
+details.fold > summary{padding:9px 12px;font-weight:600;font-size:.88rem;cursor:pointer;
+  color:var(--teal-900);list-style:none}
+details.fold > summary::-webkit-details-marker{display:none}
+details.fold > summary::before{content:"▸";color:var(--teal-700);transition:transform .15s;
+  display:inline-block;margin-right:5px}
+details.fold[open] > summary::before{transform:rotate(90deg)}
+details.fold .foldbody{padding:0 12px 11px;border-top:1px solid var(--border);padding-top:9px;
+  font-size:.9rem}
+
+.footer{position:sticky;bottom:0;z-index:50;width:100%;max-width:var(--wrapw,860px);
+  margin-inline:auto;border-top:1px solid var(--border);padding:10px 16px;background:var(--page);
+  display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:.78rem;color:var(--muted)}
+.footer strong{color:var(--teal-700)}
+.footer-dot{margin:0 10px;color:var(--border)}
+
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+  <a class="brand-icon" href="../../" aria-label="Deutsch Lernen home">
+    <svg width="24" height="17" viewBox="0 0 31 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0"  y="0"  width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="0"  width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="0"  width="9" height="6" rx="1.5" fill="#008282"/>
+      <rect x="0"  y="8"  width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="8"  width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="8"  width="9" height="6" rx="1.5" fill="#008282"/>
+      <rect x="0"  y="16" width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="16" width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="16" width="9" height="6" rx="1.5" fill="#E1A01E"/>
+    </svg>
+  </a>
+  <div class="nav-pipe"></div>
+  <a class="nav-brand-text" href="index.html">Grammar</a>
+  <div class="nav-actions">
+    <a class="btn-nav" href="index.html" title="All grammar topics">All topics</a>
+    <a class="icon-btn" href="../../" title="Back to all modules" aria-label="Back to all modules">
+      <svg viewBox="0 0 24 24"><path d="M3 12l9-9 9 9"></path><path d="M5 10v10h14V10"></path></svg>
+    </a>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <h1>Two-part Connectors<span class="de">Die zweigliedrigen Konjunktionen</span></h1>
+  
+  <!-- ══ 1. CONCEPT ══ -->
+  <section>
+    <h2>1 · The concept</h2>
+
+    <p class="lead">A <strong>zweigliedrige Konjunktion</strong> is a pair of fixed function
+      words that work together. You cannot use one without the other. The first member
+      announces the construction, the second closes it, and everything between them belongs
+      to that one element.</p>
+
+    <div class="rulebox">
+      <strong>The rule in one line.</strong> The opener goes where the connector belongs, the
+      closer goes after its own element — and the conjugated verb of the clause never moves.
+    </div>
+
+    <h3>The four pairs</h3>
+    <table>
+      <thead><tr><th>Pair</th><th>Meaning</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">entweder … oder</td><td class="de">alternatives, one or the other</td>
+            <td>Ich nehme <b>entweder</b> den Zug <b>oder</b> ein Taxi.</td></tr>
+        <tr><td class="de">weder … noch</td><td class="de">negated alternatives, neither</td>
+            <td>Ich habe <b>weder</b> Zeit <b>noch</b> Geld.</td></tr>
+        <tr><td class="de">sowohl … als auch</td><td class="de">addition, both</td>
+            <td>Sie spricht <b>sowohl</b> Englisch <b>als auch</b> Französisch.</td></tr>
+        <tr><td class="de">nicht nur … sondern auch</td><td class="de">addition with emphasis</td>
+            <td>Er ist <b>nicht nur</b> klug, <b>sondern auch</b> fleißig.</td></tr>
+      </tbody>
+    </table>
+
+    <p>These four are the ones you must know as fixed units. They cannot be mixed: you say
+      <em>entweder … oder</em> or <em>weder … noch</em>, never <em>entweder … noch</em>.</p>
+
+    <h3>The verb stays exactly where it is</h3>
+    <p>This is the single most useful thing about these connectors: because they join
+      <em>phrases</em>, not clauses, they have no effect on word order. The conjugated verb
+      keeps its normal position.</p>
+    <table>
+      <thead><tr><th>Position</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">Verb stays in position II</td>
+            <td>Wir nehmen <b>entweder</b> den Zug <b>oder</b> ein Taxi.</td></tr>
+        <tr><td class="de">Verb stays in position II</td>
+            <td>Sie spricht <b>sowohl</b> Englisch <b>als auch</b> Französisch.</td></tr>
+        <tr><td class="de">Verb first in a question</td>
+            <td>Hast du <b>entweder</b> Zeit <b>oder</b> Geld?</td></tr>
+        <tr><td class="de">Verb first in an imperative</td>
+            <td>Nimm <b>entweder</b> den Bus <b>oder</b> ruf mich an.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="tipbox">
+      <strong>Compare with a Nebensatz.</strong> In <em>Weil es regnet, gehen wir</em> the
+      clause verb <em>regnet</em> must go last. In <em>Wir nehmen <strong>entweder</strong>
+      den Zug <strong>oder</strong> ein Taxi</em> nothing moves, because there is only one
+      clause. Two-part connectors never trigger verb-final order.
+    </div>
+
+    <h3>When the two elements need their own verb</h3>
+    <p>If each alternative is a full clause with a different subject or object, the verb is
+      repeated and the second half becomes a clause of its own.</p>
+    <table>
+      <thead><tr><th></th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">shared clause</td>
+            <td>Wir essen <b>entweder</b> im Restaurant <b>oder</b> zu Hause.</td></tr>
+        <tr><td class="de">separate clauses</td>
+            <td>Wir essen <b>entweder</b> im Restaurant <b>oder</b> wir kochen selbst.</td></tr>
+      </tbody>
+    </table>
+
+    <p>The same applies to <em>nicht nur … sondern</em> whenever the second half introduces a
+      new action: <em>Sie kam nicht nur, <strong>sondern</strong> sie blieb auch.</em></p>
+
+    <div class="warnbox">
+      <strong>The classic error.</strong> Do not repeat the verb and split the subject:
+      <br>
+      &nbsp;&nbsp;✗ <em>Wir essen entweder im Restaurant oder zu Hause.</em> — this is
+      <em>correct</em>; the trap is inserting a second verb unnecessarily<br>
+      &nbsp;&nbsp;✗ <em>Wir essen entweder im Restaurant oder kochen wir selbst.</em> — the
+      second clause should have its own subject placed before the verb
+    </div>
+
+    <h3>The comma rule</h3>
+    <p>For <em>entweder … oder</em>, <em>weder … noch</em> and <em>sowohl … als auch</em> there
+      is <strong>no comma</strong> between the elements — they belong to one clause. For
+      <em>nicht nur … sondern auch</em> the comma is <strong>compulsory</strong>, because it
+      separates two clauses or two coordinated parts.</p>
+    <table>
+      <thead><tr><th>Pair</th><th>Comma?</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">entweder … oder</td><td class="de">no</td><td>Er ist <b>entweder</b> krank <b>oder</b> er hat sich verspätet.</td></tr>
+        <tr><td class="de">weder … noch</td><td class="de">no</td><td>Ich habe <b>weder</b> Zeit <b>noch</b> Geld.</td></tr>
+        <tr><td class="de">sowohl … als auch</td><td class="de">no</td><td>Sie ist <b>sowohl</b> freundlich <b>als auch</b> hilfsbereit.</td></tr>
+        <tr><td class="de">nicht nur … sondern auch</td><td class="de">yes, always</td><td>Er ist <b>nicht nur</b> klug, <b>sondern auch</b> fleißig.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="warnbox">
+      <strong>Non-standard variants to avoid in writing.</strong> <em>weder … oder</em>,
+      <em>nicht … oder</em>, <em>sondern … auch</em> and <em>als auch … sondern</em> appear in
+      everyday speech but are not standard German. Use <em>weder … noch</em>,
+      <em>nicht … sondern</em> and <em>nicht nur … sondern auch</em>.
+    </div>
+
+    <h3>Negation: one word does the job</h3>
+    <p><em>weder … noch</em> is already negative, so adding <em>nicht</em> produces a double
+      negative that sounds wrong in standard German.</p>
+    <table>
+      <thead><tr><th></th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">correct</td><td>Ich habe <b>weder</b> Zeit <b>noch</b> Geld.</td></tr>
+        <tr><td class="de">wrong</td><td>Ich habe <b>nicht</b> weder Zeit <b>noch</b> Geld.</td></tr>
+      </tbody>
+    </table>
+
+    <p>The negation then lives in the verb: <em>Er kommt <b>weder</b> am Montag
+      <b>noch</b> am Dienstag.</em> The connector does not need an extra <em>nicht</em>.</p>
+
+    <h3>weder … noch, keine … keine, or kein … und kein?</h3>
+    <table>
+      <thead><tr><th>Situation</th><th>Form</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">two nouns, plural verb allowed</td><td class="de">weder … noch</td>
+            <td>Weder der Chef <b>noch</b> die Mitarbeiter sind gekommen.</td></tr>
+        <tr><td class="de">one thing out of a group, singular verb</td><td class="de">keine … keine</td>
+            <td>Keine der beiden Antworten ist richtig.</td></tr>
+        <tr><td class="de">two separate indefinite articles</td><td class="de">kein … und kein</td>
+            <td>Er hat kein Auto und kein Fahrrad.</td></tr>
+        <tr><td class="de">two pronouns</td><td class="de">weder … noch</td>
+            <td>Ich kenne <b>weder</b> sie <b>noch</b> ihn.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="tipbox">
+      <strong>Subject agreement.</strong> <em>Weder der Chef noch die Mitarbeiter</em> is a
+      compound subject and takes a <strong>plural</strong> verb. But <em>Weder mein Bruder
+      noch meine Schwester</em> normally takes a <strong>singular</strong> verb in careful
+      usage — <em>weiß</em>, not <em>wissen</em>.
+    </div>
+
+    <h3>Adjective endings after the pair</h3>
+    <p>Each element is a separate phrase, so each adjective is declined on its own. With an
+      article, the usual endings apply; after a pronoun such as <em>das</em> the adjective is
+      bare.</p>
+    <table>
+      <thead><tr><th>Pattern</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">with articles</td><td>Wir kaufen <b>weder das rote noch das blaue</b> Auto.</td></tr>
+        <tr><td class="de">with articles</td><td>Weder die <b>erste</b> noch die <b>zweite</b> Antwort war richtig.</td></tr>
+        <tr><td class="de">after das, no ending</td><td>Ich mag <b>weder das rote noch das blaue</b>.</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Negation and contrast: nicht nur … sondern auch</h3>
+    <p>This pair does not negate both elements — it <em>raises the bar</em>: the first element
+      alone is not enough, the second one is added on top.</p>
+    <table>
+      <thead><tr><th></th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">not only … but also</td><td>Es ist <b>nicht nur</b> billig, <b>sondern auch</b> gut.</td></tr>
+        <tr><td class="de">same thing, neutral</td><td>Es ist <b>sowohl</b> billig <b>als auch</b> gut.</td></tr>
+      </tbody>
+    </table>
+
+    <p>Use <em>sowohl … als auch</em> when both items are simply equal. Use
+      <em>nicht nur … sondern auch</em> when the second item is a surprise, an addition that
+      goes further.</p>
+
+    <div class="warnbox">
+      <strong>Do not pair them.</strong> <em>sowohl … aber auch</em>, <em>weder … als auch</em>
+      and <em>nicht nur … als auch</em> are all non-standard. The partners are fixed:
+      <em>entweder/oder</em>, <em>weder/noch</em>, <em>sowohl/als auch</em>,
+      <em>nicht nur/sondern auch</em>.
+    </div>
+
+    <h3>je … desto and je … umso</h3>
+    <p>A different kind of pair: two comparative halves where one degree depends on the
+      other. <em>desto</em> is neutral, <em>umso</em> is slightly more emphatic.</p>
+    <table>
+      <thead><tr><th>Pattern</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">je … , desto …</td><td><b>Je länger</b> du übst, <b>desto besser</b> wirst du.</td></tr>
+        <tr><td class="de">je … , umso …</td><td><b>Je mehr</b> du übst, <b>umso sicherer</b> wirst du.</td></tr>
+      </tbody>
+    </table>
+
+    <p>Both elements take the comparative, and a comma separates each element from its clause.
+      The two halves are full clauses, so their verbs follow the normal order — the second
+      half's verb comes last within that half.</p>
+
+    <h3>Separable verbs in the second element</h3>
+    <p>A separable verb keeps the normal rule in both halves, which can look surprising:
+      <em>Ich rufe dich <strong>entweder</strong> heute <strong>oder</strong> morgen
+      <strong>an</strong></em> — the prefix an- stays at the very end.</p>
+
+    <h3>Elision with a hyphen</h3>
+    <p>When the second element repeats a word, it may be shortened with a hyphen. This is
+      standard in written German.</p>
+    <table>
+      <thead><tr><th>Full</th><th>Shortened</th></tr></thead>
+      <tbody>
+        <tr><td>Beide Möglichkeiten haben sowohl Vor- <b>als auch</b> Nachteile.</td>
+            <td>Beide Möglichkeiten haben sowohl Vor- <b>als</b> Nachteile.</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Quick summary</h3>
+    <table>
+      <thead><tr><th>You want to…</th><th>Use</th></tr></thead>
+      <tbody>
+        <tr><td class="de">offer a choice between two options</td><td class="de">entweder … oder</td></tr>
+        <tr><td class="de">say both are absent / both fail</td><td class="de">weder … noch</td></tr>
+        <tr><td class="de">state two equal additions</td><td class="de">sowohl … als auch</td></tr>
+        <tr><td class="de">emphasise the second, bigger point</td><td class="de">nicht nur … sondern auch</td></tr>
+        <tr><td class="de">show two linked degrees</td><td class="de">je … desto / je … umso</td></tr>
+        <tr><td class="de">negate one item out of a group</td><td class="de">keine … keine</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- ══ 2. EXAMPLES ══ -->
+  <section>
+    <h2>2 · 20 worked examples</h2>
+    <p><small>Each example marks the opener and closer in bold and explains what it does to the sentence.</small></p>
+    <div id="examples"></div>
+  </section>
+
+  <!-- ══ 3. EXERCISES ══ -->
+  <section>
+    <h2>3 · 100 exercises</h2>
+
+    <div class="noVoice" id="noVoice">
+      <b>Pronunciation unavailable.</b> This browser has no German speech voice installed, so the
+      speaker buttons will not play. In Chrome, Edge and Safari on a desktop, German is available by default.
+    </div>
+    <div id="quiz"></div>
+  </section>
+
+</div>
+
+<footer class="footer"><strong>Two-part connectors</strong><span class="footer-dot">·</span><span>Roman Zajic</span></footer>
+
+<script>
+(function(){
+  "use strict";
+
+  var EXAMPLES = [
+    ["Ich nehme <em>entweder</em> den Zug <em>oder</em> ein Taxi. — I will take either the train or a taxi.", "The basic pattern. Both elements are objects of the same verb nehmen, so nehmen stays in position II and no comma is used."],
+    ["Er ist <em>weder</em> müde <em>noch</em> hungrig. — He is neither tired nor hungry.", "weder … noch does the negating itself. Adding nicht would be a double negative."],
+    ["Sie spricht <em>sowohl</em> Englisch <em>als auch</em> Französisch. — She speaks both English and French.", "Two languages added as equal alternatives. The verb spricht is untouched and no comma appears."],
+    ["Er ist <em>nicht nur</em> intelligent, <em>sondern auch</em> fleißig. — He is not only intelligent but also hard-working.", "The second element goes beyond the first, so the pair is nicht nur … sondern auch — and the comma is compulsory."],
+    ["Wir haben <em>weder</em> Zeit <em>noch</em> Geld. — We have neither time nor money.", "The negation lives entirely in the pair; haben stays in position II."],
+    ["<em>Je länger</em> du übst, <em>desto besser</em> wirst du. — The longer you practise, the better you get.", "Both elements are comparatives. Each element stands before its own clause, separated by a comma."],
+    ["Hast du <em>entweder</em> Zeit <em>oder</em> Geld? — Do you have either time or money?", "In a yes-no question the verb comes first, so the pair occupies positions II and III."],
+    ["Nimm <em>entweder</em> den Bus <em>oder</em> ruf mich an. — Either take the bus or call me.", "Imperative with verb first. The separable prefix an- returns to the end of the sentence, as always."],
+    ["Wir essen <em>entweder</em> im Restaurant <em>oder</em> wir kochen selbst. — We'll either eat at the restaurant or cook ourselves.", "When the two alternatives have different subjects, the second half becomes its own clause and repeats the verb."],
+    ["<em>Sowohl</em> die Lehrerin <em>als auch</em> die Schüler waren zu spät. — Both the teacher and the pupils were late.", "Two subjects joined by the pair form a compound subject and take a plural verb, which comes last."],
+    ["Ich habe ihn <em>weder</em> in Berlin <em>noch</em> in München gesehen. — I have seen him neither in Berlin nor in Munich.", "The participle gesehen stays last; the pair sits between the object and the participle."],
+    ["Beide Möglichkeiten haben <em>sowohl</em> Vor- <em>als auch</em> Nachteile. — Both options have advantages and disadvantages.", "Elision: Nachteile is shortened to Nachte- before als auch, with the hyphen marking the cut."],
+    ["<em>Nicht nur</em> will sie es, sie braucht es <em>auch</em>. — Not only does she want it, she needs it too.", "Verb-first order puts will right after the negated element; the second clause simply adds auch."],
+    ["<em>Entweder</em> das Formular ist falsch ausgefüllt, <em>oder</em> der Antrag wurde abgelehnt. — Either the form was filled in incorrectly, or the application was rejected.", "Sentence-initial entweder with two full clauses, each with its own finite verb in position II."],
+    ["Wir kaufen <em>weder das rote</em> <em>noch das blaue</em>. — We are buying neither the red one nor the blue one.", "Each adjective is declined on its own: after the pronoun das both take the bare form."],
+    ["Keine der beiden Antworten ist richtig. — Neither of the two answers is correct.", "When one item out of a group is negated, use keine … keine with a singular verb, not weder … noch."],
+    ["Er kann <em>sowohl</em> schwimmen <em>als auch</em> tauchen. — He can both swim and dive.", "The modal kann keeps position II; both infinitives follow the pair in the same order."],
+    ["Ich vergaß <em>nicht nur</em> meine Schlüssel, <em>sondern</em> schloss <em>auch</em> die Tür ab. — I not only forgot my keys but also locked the door.", "The second element carries its own separable verb, whose prefix ab- goes to the very end."],
+    ["<em>Weder</em> die Kälte <em>noch</em> der Regen hielten uns zu Hause. — Neither the cold nor the rain kept us at home.", "Two subjects with a plural verb: hielten follows the pair and closes the sentence."],
+    ["<em>Je mehr</em> er verdient, <em>desto mehr</em> gibt er aus. — The more he earns, the more he spends.", "The same correlation with umso: je mehr … umso sicherer. desto is neutral, umso slightly stronger."]
+  ];
+
+  var DATA_URL = "../../data/grammar_exercises_zweigliedrig.json";
+  var STORE = "zweigliedrig_progress_v1";
+  // ── pronunciation via the browser speech engine ──
+  var MIC_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5z"></path>'
+    + '<path class="pulse" d="M15.5 8.5a5 5 0 0 1 0 7"></path>'
+    + '<path class="pulse" d="M18.5 5.5a9 9 0 0 1 0 13"></path></svg>';
+  var synth = window.speechSynthesis || null;
+  var germanVoice = null;
+
+  function stripTags(t){ return String(t).replace(/<[^>]*>/g,""); }
+
+  function pickVoice(){
+    if(!synth) return null;
+    var vs = synth.getVoices() || [];
+    germanVoice = vs.filter(function(v){ return /^de(-|_|$)/i.test(v.lang); })[0] || null;
+    return germanVoice;
+  }
+  if(synth){
+    pickVoice();
+    if(synth.addEventListener) synth.addEventListener("voiceschanged", pickVoice);
+  }
+
+  function stopSpeech(){ if(synth) try{ synth.cancel(); }catch(e){} }
+
+  var warned = false;
+  function noVoiceNotice(){
+    if(warned) return; warned = true;
+    var n = document.getElementById("noVoice");
+    if(n) n.style.display = "flex";
+  }
+  function micBtn(text, label){
+    var b = document.createElement("button");
+    b.className = "mic";
+    b.type = "button";
+    b.setAttribute("aria-pressed","false");
+    b.setAttribute("aria-label", (label||"Play") + ": " + stripTags(text));
+    b.title = "Play pronunciation";
+    b.innerHTML = MIC_SVG;
+    b.addEventListener("click", function(ev){
+      ev.stopPropagation();
+      if(!synth){ b.disabled = true; b.title = "Speech is not available in this browser"; noVoiceNotice(); return; }
+      if(b.getAttribute("aria-pressed")==="true"){ stopSpeech(); b.setAttribute("aria-pressed","false"); return; }
+      stopSpeech();
+      if(!germanVoice) pickVoice();
+      var u = new SpeechSynthesisUtterance(stripTags(text));
+      u.lang = "de-DE";
+      if(germanVoice) u.voice = germanVoice;
+      u.rate = 0.92; u.pitch = 1;
+      b.setAttribute("aria-pressed","true");
+      var off = function(){ b.setAttribute("aria-pressed","false"); };
+      u.onend = off;
+      u.onerror = function(){ off(); noVoiceNotice(); };
+      synth.speak(u);
+      // some engines report no voices at all; surface that instead of a dead button
+      if(!synth.getVoices().length) noVoiceNotice();
+    });
+    return b;
+  }
+
+  var state = {revealed:{}, answers:{}};
+
+  function esc(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
+  function load(){ try{ var v=JSON.parse(localStorage.getItem(STORE)); if(v&&typeof v==="object"){state.revealed=v.revealed||{};state.answers=v.answers||{};} }catch(e){} }
+  function save(){ try{ localStorage.setItem(STORE, JSON.stringify(state)); }catch(e){} }
+
+  // ---- examples ----
+  // Each entry is [german_and_english, why]. The first field carries the English
+  // translation after an em dash, so split it out for separate styling.
+  function splitDE(t){
+    var i = t.indexOf("\u2014");
+    if(i < 0) return [t, ""];
+    return [t.slice(0,i).trim(), t.slice(i+1).trim()];
+  }
+  (function renderExamples(){
+    var host = document.getElementById("examples");
+    host.innerHTML = "";
+    EXAMPLES.forEach(function(x){
+      var de = x[0] || "";
+      var why = x[1] || "";
+      var parts = splitDE(de);
+      var card = document.createElement("div");
+      card.className = "ex";
+
+      var row = document.createElement("div");
+      row.className = "microw";
+      var txt = document.createElement("div");
+      txt.className = "mtext";
+      txt.innerHTML = '<div class="de">'+parts[0]+'</div>'+
+                      (parts[1] ? '<div class="en">'+parts[1]+'</div>' : "");
+      row.appendChild(txt);
+      row.appendChild(micBtn(parts[0], "Play this example"));
+      card.appendChild(row);
+
+      if(why){
+        var w = document.createElement("div");
+        w.className = "why";
+        w.innerHTML = "<b>Why:</b> "+why;
+        card.appendChild(w);
+      }
+      host.appendChild(card);
+    });
+  })();
+
+  // German special letters, inserted at the caret in the focused input.
+  var KEYS = ["ä","ö","ü","Ä","Ö","Ü","ß","€"];
+
+  function insertAt(input, ch){
+    var v = input.value;
+    var a = input.selectionStart == null ? v.length : input.selectionStart;
+    var b = input.selectionEnd == null ? v.length : input.selectionEnd;
+    input.value = v.slice(0,a) + ch + v.slice(b);
+    var pos = a + ch.length;
+    try{ input.setSelectionRange(pos,pos); }catch(e){}
+    input.focus();
+  }
+
+  function keypadBtn(id){
+    var b = document.createElement("button");
+    b.type = "button";
+    b.className = "keybtn";
+    b.title = "German letters";
+    b.setAttribute("aria-label","Insert German special characters");
+    b.setAttribute("aria-expanded","false");
+    b.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true">'+
+      '<rect x="2" y="5" width="20" height="14" rx="2"></rect>'+
+      '<path d="M6 9h.01M10 9h.01M14 9h.01M18 9h.01M6 13h.01M10 13h.01M14 13h.01M18 13h.01M8 16h8"></path>'+
+      '</svg>';
+    b.addEventListener("click", function(ev){
+      ev.stopPropagation();
+      var panel = document.getElementById("pad-"+id);
+      if(!panel) return;
+      var open = panel.classList.toggle("open");
+      b.setAttribute("aria-expanded", open ? "true" : "false");
+      closeAllKeypads(panel);
+    });
+    return b;
+  }
+
+  function closeAllKeypads(except){
+    Array.prototype.forEach.call(document.querySelectorAll(".pad.open"), function(p){
+      if(p === except) return;
+      p.classList.remove("open");
+      var btn = p.previousSibling && p.previousSibling.querySelector ? p.previousSibling.querySelector(".keybtn") : null;
+      if(btn) btn.setAttribute("aria-expanded","false");
+    });
+  }
+
+  document.addEventListener("click", function(){ closeAllKeypads(null); });
+  document.addEventListener("keydown", function(e){ if(e.key === "Escape") closeAllKeypads(null); });
+
+  function renderQuiz(ex){
+    var el = document.getElementById("quiz");
+    el.innerHTML = "";
+    ex.forEach(function(e){
+      var rev = !!state.revealed[e.id];
+      var card = document.createElement("article");
+      card.className = "q" + (rev ? " revealed" : "");
+      card.id = "q"+e.id;
+
+      var top = document.createElement("div");
+      top.className = "qtop";
+      top.innerHTML = '<span class="qnum">'+e.id+'</span>';
+      var qt = document.createElement("span");
+      qt.className = "qtext";
+      qt.textContent = e.english;
+      top.appendChild(qt);
+      card.appendChild(top);
+
+      // input with the letter keypad docked inside its right edge
+      var row = document.createElement("div");
+      row.className = "inputrow";
+      var ta = document.createElement("input");
+      ta.type = "text";
+      ta.className = "ainput";
+      ta.placeholder = "Write the German here…";
+      ta.setAttribute("aria-label","Your German answer for exercise "+e.id);
+      ta.value = state.answers[e.id] || "";
+      ta.addEventListener("input", function(){ state.answers[e.id] = ta.value; save(); });
+      row.appendChild(ta);
+      row.appendChild(keypadBtn(e.id));
+      card.appendChild(row);
+
+      // the letter panel sits inside the card so it is never clipped
+      var pad = document.createElement("div");
+      pad.className = "pad";
+      pad.id = "pad-"+e.id;
+      KEYS.forEach(function(k){
+        var kb = document.createElement("button");
+        kb.type = "button";
+        kb.className = "padkey";
+        kb.textContent = k;
+        kb.addEventListener("click", function(ev){
+          ev.stopPropagation();
+          var target = card.querySelector(".ainput");
+          insertAt(target, k);
+          state.answers[e.id] = target.value;
+          save();
+        });
+        pad.appendChild(kb);
+      });
+      card.appendChild(pad);
+
+      // reveal / hide toggle
+      var rb = document.createElement("button");
+      rb.type = "button";
+      rb.className = "btn rev" + (rev ? " on" : "");
+      rb.textContent = rev ? "Hide answer" : "Reveal answer";
+      rb.setAttribute("aria-expanded", rev ? "true" : "false");
+      rb.addEventListener("click", function(){
+        state.revealed[e.id] = !state.revealed[e.id];
+        save();
+        renderQuiz(ex);
+      });
+      card.appendChild(rb);
+
+      if(rev){
+        var fb = document.createElement("div");
+        fb.className = "fb";
+
+        var ansRow = document.createElement("div");
+        ansRow.className = "microw ansrow";
+        var at = document.createElement("div");
+        at.className = "mtext";
+        at.textContent = e.german;
+        ansRow.appendChild(at);
+        ansRow.appendChild(micBtn(e.german, "Play the German answer"));
+        fb.appendChild(ansRow);
+
+        var wy = document.createElement("div");
+        wy.className = "why";
+        wy.textContent = e.why;
+        fb.appendChild(wy);
+
+        card.appendChild(fb);
+      }
+      el.appendChild(card);
+    });
+  }
+
+  load();
+
+  fetch(DATA_URL+"?cb="+Date.now())
+    .then(function(r){ if(!r.ok) throw new Error("HTTP "+r.status); return r.json(); })
+    .then(function(d){
+      var ex=d.exercises;
+      renderQuiz(ex);
+    })
+    .catch(function(e){
+      document.getElementById("quiz").innerHTML =
+        '<div class="q"><b>Could not load the exercises.</b><br>'+esc(e.message)+'</div>';
+    });
+})();
+</script>
+</body>
+</html>

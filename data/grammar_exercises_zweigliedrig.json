@@ -1,0 +1,711 @@
+{
+  "title": "Two-part connectors",
+  "level": "B2",
+  "n": 26,
+  "topic_en": "Two-part connectors",
+  "term_de": "zweigliedrige Konjunktionen",
+  "updated": "2026-10-05",
+  "schema": "english-prompt -> learner types German -> Reveal/Hide answer shows reference + speaker",
+  "exercises": [
+    {
+      "id": 1,
+      "skill": "entweder … oder",
+      "english": "When registering you can either pay online or at the office.",
+      "german": "Bei der Anmeldung kannst du entweder online oder im Büro bezahlen.",
+      "why": "Two alternatives. Both elements are simple, so the verb kannst stays in position II and there is no comma."
+    },
+    {
+      "id": 2,
+      "skill": "entweder … oder",
+      "english": "I will call you either today or tomorrow.",
+      "german": "Ich rufe dich entweder heute oder morgen an.",
+      "why": "entweder … oder with a separable verb: the prefix an- returns to the end because rufe already occupies position II."
+    },
+    {
+      "id": 3,
+      "skill": "entweder … oder",
+      "english": "She speaks either English or French.",
+      "german": "Sie spricht entweder Englisch oder Französisch.",
+      "why": "The verb spricht never moves: the two connector elements are phrases, not clauses."
+    },
+    {
+      "id": 4,
+      "skill": "entweder … oder",
+      "english": "We will take either the train or a taxi.",
+      "german": "Wir nehmen entweder den Zug oder ein Taxi.",
+      "why": "Alternatives after a single verb; the article changes with the noun, not the connector."
+    },
+    {
+      "id": 5,
+      "skill": "entweder … oder",
+      "english": "Would you like either tea or coffee?",
+      "german": "Möchtest du entweder Tee oder Kaffee?",
+      "why": "In a yes-no question the verb comes first; the connector elements follow in positions II and III."
+    },
+    {
+      "id": 6,
+      "skill": "entweder … oder",
+      "english": "He is either at home or he is out.",
+      "german": "Er ist entweder zu Hause oder er ist unterwegs.",
+      "why": "When the alternatives are themselves clauses, the verb is repeated in each one."
+    },
+    {
+      "id": 7,
+      "skill": "entweder … oder",
+      "english": "You can do it either today or tomorrow.",
+      "german": "Du kannst das entweder heute oder morgen machen.",
+      "why": "Only the first element sits after the verb; the second may be followed by a second verb."
+    },
+    {
+      "id": 8,
+      "skill": "entweder … oder",
+      "english": "She is either a doctor or a lawyer.",
+      "german": "Sie ist entweder Ärztin oder Anwältin.",
+      "why": "Two professions as bare nouns, so no further verb is needed."
+    },
+    {
+      "id": 9,
+      "skill": "entweder … oder",
+      "english": "We'll either eat at the restaurant or cook ourselves.",
+      "german": "Wir essen entweder im Restaurant oder wir kochen selbst.",
+      "why": "When the alternatives need their own subject, both clauses are repeated rather than shared."
+    },
+    {
+      "id": 10,
+      "skill": "entweder … oder",
+      "english": "He'll come either by car or by train.",
+      "german": "Er kommt entweder mit dem Auto oder mit der Bahn.",
+      "why": "The verb kommt appears once; both prepositional phrases belong to the same clause."
+    },
+    {
+      "id": 11,
+      "skill": "entweder … oder",
+      "english": "Do you have either time or money?",
+      "german": "Hast du entweder Zeit oder Geld?",
+      "why": "Verb first in the question, then the connector pair."
+    },
+    {
+      "id": 12,
+      "skill": "entweder … oder",
+      "english": "I can come either on Monday or on Tuesday.",
+      "german": "Ich kann entweder am Montag oder am Dienstag kommen.",
+      "why": "The infinitive kommen comes last, after the second element of the pair."
+    },
+    {
+      "id": 13,
+      "skill": "entweder … oder",
+      "english": "We either have to save more money or spend less.",
+      "german": "Wir müssen entweder mehr Geld sparen oder weniger ausgeben.",
+      "why": "Two modal-verb alternatives: müssen is shared, each alternative gets its own infinitive."
+    },
+    {
+      "id": 14,
+      "skill": "entweder … oder",
+      "english": "He lives either in Berlin or in Munich.",
+      "german": "Er wohnt entweder in Berlin oder in München.",
+      "why": "Both elements are prepositional phrases of one clause, so the verb stays in position II."
+    },
+    {
+      "id": 15,
+      "skill": "entweder … oder",
+      "english": "I have time either today or the day after tomorrow.",
+      "german": "Ich habe entweder heute oder übermorgen Zeit.",
+      "why": "The shared noun Zeit follows the whole pair, not just the second element."
+    },
+    {
+      "id": 16,
+      "skill": "entweder … oder",
+      "english": "Either the form was filled in incorrectly, or the application was rejected.",
+      "german": "Entweder das Formular ist falsch ausgefüllt, oder der Antrag wurde abgelehnt.",
+      "why": "Sentence-initial entweder and two full clauses, so each has its own finite verb in position II."
+    },
+    {
+      "id": 17,
+      "skill": "entweder … oder",
+      "english": "She's either tired or simply in a bad mood.",
+      "german": "Sie ist entweder müde oder einfach schlecht gelaunt.",
+      "why": "Two predicative complements after one verb; no second verb appears."
+    },
+    {
+      "id": 18,
+      "skill": "entweder … oder",
+      "english": "We can do it without help, or with it.",
+      "german": "Wir können es entweder ohne Hilfe oder mit Hilfe machen.",
+      "why": "The pair sits between the modal and the infinitive, so the infinitive stays last."
+    },
+    {
+      "id": 19,
+      "skill": "weder … noch",
+      "english": "I have neither time nor money.",
+      "german": "Ich habe weder Zeit noch Geld.",
+      "why": "weder … noch negates both elements, so no extra nicht is needed."
+    },
+    {
+      "id": 20,
+      "skill": "weder … noch",
+      "english": "She has neither said yes nor no.",
+      "german": "Sie hat weder ja noch nein gesagt.",
+      "why": "The verb position stays in the middle; the negated pair comes before the participle."
+    },
+    {
+      "id": 21,
+      "skill": "weder … noch",
+      "english": "He is neither tired nor hungry.",
+      "german": "Er ist weder müde noch hungrig.",
+      "why": "weder … noch after sein, with two predicative adjectives."
+    },
+    {
+      "id": 22,
+      "skill": "weder … noch",
+      "english": "Neither the manager nor the employees came.",
+      "german": "Weder der Chef noch die Mitarbeiter sind gekommen.",
+      "why": "Two subjects joined by weder … noch take a plural verb, which comes last."
+    },
+    {
+      "id": 23,
+      "skill": "weder … noch",
+      "english": "I have never seen him, neither in Berlin nor in Munich.",
+      "german": "Ich habe ihn weder in Berlin noch in München gesehen.",
+      "why": "weder … noch joins two prepositional phrases; the participle seen stays last."
+    },
+    {
+      "id": 24,
+      "skill": "weder … noch",
+      "english": "Neither of the two answers is correct.",
+      "german": "Keine der beiden Antworten ist richtig.",
+      "why": "With keine … eine, the correlative takes a singular verb."
+    },
+    {
+      "id": 25,
+      "skill": "weder … noch",
+      "english": "It neither helped nor hurt.",
+      "german": "Es hat weder geholfen noch geschadet.",
+      "why": "Two infinitives after a shared modal-free Perfekt auxiliary; the verb haben sits in position II."
+    },
+    {
+      "id": 26,
+      "skill": "weder … noch",
+      "english": "We can neither enter nor leave.",
+      "german": "Wir können weder eintreten noch hinausgehen.",
+      "why": "Modal können stays in position II; both infinitives follow the connector pair."
+    },
+    {
+      "id": 27,
+      "skill": "weder … noch",
+      "english": "She is neither a doctor nor a teacher.",
+      "german": "Sie ist weder Ärztin noch Lehrerin.",
+      "why": "Two professions after sein, negated by the pair alone."
+    },
+    {
+      "id": 28,
+      "skill": "weder … noch",
+      "english": "I don't have either the time or the money.",
+      "german": "Ich habe weder die Zeit noch das Geld.",
+      "why": "weder … noch already negates, so adding nicht would be a double negative."
+    },
+    {
+      "id": 29,
+      "skill": "weder … noch",
+      "english": "Neither the bus nor the train was on time.",
+      "german": "Weder der Bus noch die Bahn hatten pünktlich.",
+      "why": "The verb hatte sits in position II even though two subjects follow."
+    },
+    {
+      "id": 30,
+      "skill": "weder … noch",
+      "english": "Neither my brother nor my sister knows.",
+      "german": "Weder mein Bruder noch meine Schwester weiß.",
+      "why": "When the subjects differ in gender, weder … noch still takes a singular verb in this construction."
+    },
+    {
+      "id": 31,
+      "skill": "weder … noch",
+      "english": "He neither apologised nor explained.",
+      "german": "Entschuldigte sich weder noch erklärte er.",
+      "why": "Inverted word order with the verb first puts the finite verb before both elements."
+    },
+    {
+      "id": 32,
+      "skill": "weder … noch",
+      "english": "Neither the cold nor the rain kept us at home.",
+      "german": "Weder die Kälte noch der Regen hielten uns zu Hause.",
+      "why": "Two subjects with a plural verb, which follows the connector pair."
+    },
+    {
+      "id": 33,
+      "skill": "weder … noch",
+      "english": "I can neither agree nor decide.",
+      "german": "Ich kann weder zustimmen noch entscheiden.",
+      "why": "Modal kann in position II, then the pair, then both infinitives."
+    },
+    {
+      "id": 34,
+      "skill": "weder … noch",
+      "english": "Neither of the two answers is any help.",
+      "german": "Keine der beiden Antworten hilft weiter.",
+      "why": "With a singular verb, the correlative form is keine … keine."
+    },
+    {
+      "id": 35,
+      "skill": "weder … noch",
+      "english": "We will not buy either the red one or the blue one.",
+      "german": "Wir kaufen weder das rote noch das blaue.",
+      "why": "weder … noch plus adjective endings without an article after the pronoun das."
+    },
+    {
+      "id": 36,
+      "skill": "weder … noch",
+      "english": "She has neither job offers nor a salary.",
+      "german": "Sie hat weder Jobangebote noch ein Gehalt.",
+      "why": "The two elements may differ in number, which weder … noch tolerates."
+    },
+    {
+      "id": 37,
+      "skill": "sowohl … als auch",
+      "english": "She speaks both English and French.",
+      "german": "Sie spricht sowohl Englisch als auch Französisch.",
+      "why": "sowohl … als auch adds two elements; the verb spricht stays in position II."
+    },
+    {
+      "id": 38,
+      "skill": "sowohl … als auch",
+      "english": "He is both a doctor and a teacher.",
+      "german": "Er ist sowohl Arzt als auch Lehrer.",
+      "why": "Two professions after sein, with the pair in the middle."
+    },
+    {
+      "id": 39,
+      "skill": "sowohl … als auch",
+      "english": "I have both time and money.",
+      "german": "Ich habe sowohl Zeit als auch Geld.",
+      "why": "The shared noun follows the whole pair, not the second element."
+    },
+    {
+      "id": 40,
+      "skill": "sowohl … als auch",
+      "english": "We waited both for the bus and for the train.",
+      "german": "Wir warteten sowohl auf den Bus als auch auf den Zug.",
+      "why": "Both prepositional phrases follow the pair; the verb warteten stays in position II."
+    },
+    {
+      "id": 41,
+      "skill": "sowohl … als auch",
+      "english": "The letter was both confusing and rude.",
+      "german": "Der Brief war sowohl verwirrend als auch unhöflich.",
+      "why": "Two predicative adjectives joined by the pair."
+    },
+    {
+      "id": 42,
+      "skill": "sowohl … als auch",
+      "english": "She is both intelligent and hard-working.",
+      "german": "Sie ist sowohl intelligent als auch fleißig.",
+      "why": "sowohl … als auch works with sein and predicative adjectives."
+    },
+    {
+      "id": 43,
+      "skill": "sowohl … als auch",
+      "english": "I like both coffee and tea.",
+      "german": "Ich trinke sowohl Kaffee als auch Tee gern.",
+      "why": "The verb trinke keeps position II; gern may follow the pair."
+    },
+    {
+      "id": 44,
+      "skill": "sowohl … als auch",
+      "english": "He works both in Berlin and in Vienna.",
+      "german": "Er arbeitet sowohl in Berlin als auch in Wien.",
+      "why": "Two prepositional phrases of one clause; the infinitive-free verb stays in position II."
+    },
+    {
+      "id": 45,
+      "skill": "sowohl … als auch",
+      "english": "We saw both the film and the trailer.",
+      "german": "Wir haben sowohl den Film als auch den Trailer gesehen.",
+      "why": "Two accusative objects; the participle gesehen stays last."
+    },
+    {
+      "id": 46,
+      "skill": "sowohl … als auch",
+      "english": "The problem is both financial and legal.",
+      "german": "Das Problem ist sowohl finanziell als auch rechtlich.",
+      "why": "Adjectives derived from nouns, uninflected after a linking verb."
+    },
+    {
+      "id": 47,
+      "skill": "sowohl … als auch",
+      "english": "She can both swim and dive.",
+      "german": "Sie kann sowohl schwimmen als auch tauchen.",
+      "why": "Modal kann in position II, then the pair, then both infinitives."
+    },
+    {
+      "id": 48,
+      "skill": "sowohl … als auch",
+      "english": "It was both cheap and good quality.",
+      "german": "Es war sowohl billig als auch hochwertig.",
+      "why": "Two predicative adjectives after war."
+    },
+    {
+      "id": 49,
+      "skill": "sowohl … als auch",
+      "english": "He speaks both at home and at work.",
+      "german": "Er spricht sowohl zu Hause als auch bei der Arbeit.",
+      "why": "The preposition is repeated for each location."
+    },
+    {
+      "id": 50,
+      "skill": "sowohl … als auch",
+      "english": "We would like both tea and a cake.",
+      "german": "Wir hätten sowohl Tee als auch einen Kuchen gern.",
+      "why": "Two accusative objects with a modal; the infinitive of haben leads."
+    },
+    {
+      "id": 51,
+      "skill": "sowohl … als auch",
+      "english": "She is both very tall and very slim.",
+      "german": "Sie ist sowohl sehr groß als auch sehr schlank.",
+      "why": "Degree adverbs sit inside each element, not between the pair."
+    },
+    {
+      "id": 52,
+      "skill": "sowohl … als auch",
+      "english": "I know both of them.",
+      "german": "Ich kenne sowohl sie als auch ihn.",
+      "why": "sowohl … als auch can join two pronouns without a repeated preposition."
+    },
+    {
+      "id": 53,
+      "skill": "nicht nur … sondern auch",
+      "english": "Not only is he intelligent, but he is also hard-working.",
+      "german": "Er ist nicht nur intelligent, sondern auch fleißig.",
+      "why": "The comma before sondern is compulsory; the pair spans both halves of the sentence."
+    },
+    {
+      "id": 54,
+      "skill": "nicht nur … sondern auch",
+      "english": "It is not only cheap but also good.",
+      "german": "Es ist nicht nur billig, sondern auch hochwertig.",
+      "why": "Both elements are predicative after the same verb, which stays in position II."
+    },
+    {
+      "id": 55,
+      "skill": "nicht nur … sondern auch",
+      "english": "She speaks not only German but also English.",
+      "german": "Sie spricht nicht nur Deutsch, sondern auch Englisch.",
+      "why": "The verb spricht appears once; two languages are added."
+    },
+    {
+      "id": 56,
+      "skill": "nicht nur … sondern auch",
+      "english": "He is not only a teacher but also a musician.",
+      "german": "Er ist nicht nur Lehrer, sondern auch Musiker.",
+      "why": "Two professions after one verb, linked by the pair."
+    },
+    {
+      "id": 57,
+      "skill": "nicht nur … sondern auch",
+      "english": "I not only know him but also respect him.",
+      "german": "Ich kenne ihn nicht nur, sondern ich respektiere ihn auch.",
+      "why": "When the two halves have different objects, the second clause repeats the verb."
+    },
+    {
+      "id": 58,
+      "skill": "nicht nur … sondern auch",
+      "english": "The course is not only theory but also practice.",
+      "german": "Der Kurs ist nicht nur Theorie, sondern auch Praxis.",
+      "why": "Two nouns as predicative complements after sein."
+    },
+    {
+      "id": 59,
+      "skill": "nicht nur … sondern auch",
+      "english": "She not only came but also stayed.",
+      "german": "Sie kam nicht nur, sondern sie blieb auch.",
+      "why": "The first verb closes the first element; the second element repeats the verb for the new subject."
+    },
+    {
+      "id": 60,
+      "skill": "nicht nur … sondern auch",
+      "english": "It not only rained but also snowed.",
+      "german": "Es regnete nicht nur, sondern es schneite auch.",
+      "why": "When the two weather predicates belong to the same subject, the second can share the subject with a new verb."
+    },
+    {
+      "id": 61,
+      "skill": "nicht nur … sondern auch",
+      "english": "We have not only time but also motivation.",
+      "german": "Wir haben nicht nur Zeit, sondern auch Motivation.",
+      "why": "The verb haben stays in position II and governs both nouns."
+    },
+    {
+      "id": 62,
+      "skill": "nicht nur … sondern auch",
+      "english": "He is not only lazy but also unfriendly.",
+      "german": "Er ist nicht nur faul, sondern auch unfreundlich.",
+      "why": "Two predicative adjectives with the comma before sondern."
+    },
+    {
+      "id": 63,
+      "skill": "nicht nur … sondern auch",
+      "english": "The film was not only boring but also very long.",
+      "german": "Der Film war nicht nur langweilig, sondern auch sehr lang.",
+      "why": "Degree adverbs go inside the second element."
+    },
+    {
+      "id": 64,
+      "skill": "nicht nur … sondern auch",
+      "english": "She writes not only poems but also novels.",
+      "german": "Sie schreibt nicht nur Gedichte, sondern auch Romane.",
+      "why": "The verb schreibt keeps position II across both objects."
+    },
+    {
+      "id": 65,
+      "skill": "nicht nur … sondern auch",
+      "english": "We would like to book not only a table but also a menu.",
+      "german": "Wir möchten sowohl einen Tisch als auch ein Menü buchen.",
+      "why": "sowohl … als auch is the neutral alternative when both elements are simply added."
+    },
+    {
+      "id": 66,
+      "skill": "nicht nur … sondern auch",
+      "english": "It was not only expensive but also disappointing.",
+      "german": "Es war nicht nur teuer, sondern auch enttäuschend.",
+      "why": "Two predicative adjectives after war."
+    },
+    {
+      "id": 67,
+      "skill": "nicht nur … sondern auch",
+      "english": "He can not only drive but also repair cars.",
+      "german": "Er kann nicht nur fahren, sondern auch Autos reparieren.",
+      "why": "Modal kann in position II; each element gets its own infinitive, the second with its object."
+    },
+    {
+      "id": 68,
+      "skill": "nicht nur … sondern auch",
+      "english": "She not only speaks Spanish but also teaches it.",
+      "german": "Sie spricht nicht nur Spanisch, sondern unterrichtet es auch.",
+      "why": "The second clause needs its own verb because the subjects of the two actions differ."
+    },
+    {
+      "id": 69,
+      "skill": "nicht nur … sondern auch",
+      "english": "The results are not only good but also reproducible.",
+      "german": "Die Ergebnisse sind nicht nur gut, sondern auch reproduzierbar.",
+      "why": "Two predicative adjectives after sind."
+    },
+    {
+      "id": 70,
+      "skill": "nicht nur … sondern auch",
+      "english": "I not only forgot my keys but also locked the door.",
+      "german": "Ich vergaß nicht nur meine Schlüssel, sondern schloss auch die Tür ab.",
+      "why": "The second element carries its own separable verb, whose prefix goes last."
+    },
+    {
+      "id": 71,
+      "skill": "Negation and scope",
+      "english": "I don't know either the answer or the question.",
+      "german": "Ich kenne weder die Antwort noch die Frage.",
+      "why": "weder … noch negates by itself; adding nicht would give a double negative."
+    },
+    {
+      "id": 72,
+      "skill": "Negation and scope",
+      "english": "He won't come either on Monday or on Tuesday.",
+      "german": "Er kommt weder am Montag noch am Dienstag.",
+      "why": "The negation sits in the verb, not in the connector pair."
+    },
+    {
+      "id": 73,
+      "skill": "Negation and scope",
+      "english": "Not only does she want it, she needs it too.",
+      "german": "Nicht nur will sie es, sie braucht es auch.",
+      "why": "With the verb first, the negated element nicht nur comes right after it."
+    },
+    {
+      "id": 74,
+      "skill": "Negation and scope",
+      "english": "I have neither the time nor the will.",
+      "german": "Ich habe weder die Zeit noch den Willen.",
+      "why": "weder … noch replaces a repeated nicht; both nouns keep their articles."
+    },
+    {
+      "id": 75,
+      "skill": "Negation and scope",
+      "english": "He is neither right nor entirely wrong.",
+      "german": "Er hat weder ganz recht noch ganz unrecht.",
+      "why": "Degree adverbs sit inside each element."
+    },
+    {
+      "id": 76,
+      "skill": "Negation and scope",
+      "english": "She has neither a car nor a bicycle.",
+      "german": "Sie hat weder ein Auto noch ein Fahrrad.",
+      "why": "Two accusative nouns with articles; kein would need the negated pattern instead."
+    },
+    {
+      "id": 77,
+      "skill": "Negation and scope",
+      "english": "We will not eat both fish and meat.",
+      "german": "Wir werden weder Fisch noch Fleisch essen.",
+      "why": "weder … noch with a future auxiliary in position II and the infinitive last."
+    },
+    {
+      "id": 78,
+      "skill": "Negation and scope",
+      "english": "Neither option is free.",
+      "german": "Keine der beiden Möglichkeiten ist kostenlos.",
+      "why": "With keine, the correlative takes a singular verb, unlike weder … noch."
+    },
+    {
+      "id": 79,
+      "skill": "Negation and scope",
+      "english": "He can neither read nor write.",
+      "german": "Er kann weder lesen noch schreiben.",
+      "why": "The modal kann is shared by both negated infinitives."
+    },
+    {
+      "id": 80,
+      "skill": "Negation and scope",
+      "english": "I don't like either the red or the blue one.",
+      "german": "Ich mag weder das rote noch das blaue.",
+      "why": "Adjective endings after das follow the zero-article pattern."
+    },
+    {
+      "id": 81,
+      "skill": "Negation and scope",
+      "english": "Not only is she late, she is also forgetful.",
+      "german": "Nicht nur ist sie spät, sie ist auch vergesslich.",
+      "why": "The fronted nicht nur takes the verb immediately after it."
+    },
+    {
+      "id": 82,
+      "skill": "Negation and scope",
+      "english": "We have not only enough but also too much.",
+      "german": "Wir haben nicht nur genug, sondern auch zu viel.",
+      "why": "sowohl would not fit here: the second element contrasts rather than adds, so sondern is required."
+    },
+    {
+      "id": 83,
+      "skill": "Word order",
+      "english": "Both the sentence and the punctuation are wrong.",
+      "german": "Sowohl der Satz als auch die Zeichensetzung sind falsch.",
+      "why": "Two subjects joined by the pair take a plural verb, which comes last."
+    },
+    {
+      "id": 84,
+      "skill": "Word order",
+      "english": "He neither admitted it nor denied it.",
+      "german": "Er gab es weder zu, noch leugnete er es.",
+      "why": "Inverted order puts the finite verb first, then the pair, then noch."
+    },
+    {
+      "id": 85,
+      "skill": "Word order",
+      "english": "It is not only cheaper but also faster.",
+      "german": "Es ist nicht nur billiger, sondern auch schneller.",
+      "why": "Comparative adverbs live inside each element; the verb ist stays in position II."
+    },
+    {
+      "id": 86,
+      "skill": "Word order",
+      "english": "Whether it rains or snows, we are going.",
+      "german": "Ob es regnet oder schneit, gehen wir.",
+      "why": "In a verb-first clause the connector pair sits after the subject."
+    },
+    {
+      "id": 87,
+      "skill": "Word order",
+      "english": "Both options have advantages and disadvantages.",
+      "german": "Beide Möglichkeiten haben sowohl Vor- als auch Nachteile.",
+      "why": "sowohl … als auch with a hyphen on the elided second noun."
+    },
+    {
+      "id": 88,
+      "skill": "Word order",
+      "english": "He works either in the morning or in the evening.",
+      "german": "Er arbeitet entweder morgens oder abends.",
+      "why": "The verb bleibt in position II; both time expressions are adverbials of one clause."
+    },
+    {
+      "id": 89,
+      "skill": "Word order",
+      "english": "Neither the first nor the second answer was right.",
+      "german": "Weder die erste noch die zweite Antwort war richtig.",
+      "why": "Ordinal adjectives take normal endings after the articles of each element."
+    },
+    {
+      "id": 90,
+      "skill": "Word order",
+      "english": "Not only the teacher but also the pupils were late.",
+      "german": "Nicht nur die Lehrerin, sondern auch die Schüler waren zu spät.",
+      "why": "The verb war applies to both elements and comes last."
+    },
+    {
+      "id": 91,
+      "skill": "Word order",
+      "english": "Either take the bus or call me.",
+      "german": "Nimm entweder den Bus oder ruf mich an.",
+      "why": "Imperative with the verb first: the pair follows it, and the separable prefix an- goes last."
+    },
+    {
+      "id": 92,
+      "skill": "Word order",
+      "english": "She can both cook and clean.",
+      "german": "Sie kann sowohl kochen als auch putzen.",
+      "why": "Modal kann in position II, then the pair, then both infinitives."
+    },
+    {
+      "id": 93,
+      "skill": "Word order",
+      "english": "I have neither seen it nor heard of it.",
+      "german": "Ich habe es weder gesehen noch davon gehört.",
+      "why": "Two participles after one auxiliary, following the pair in the same order."
+    },
+    {
+      "id": 94,
+      "skill": "Word order",
+      "english": "Not only did he apologise, he also paid.",
+      "german": "Nicht nur entschuldigte er sich, er zahlte auch.",
+      "why": "Inverted order: the finite verb follows the negated element, the second clause adds auch."
+    },
+    {
+      "id": 95,
+      "skill": "je … desto / umso",
+      "english": "The longer you practise, the better you get.",
+      "german": "Je länger du übst, desto besser wirst du.",
+      "why": "je … desto with comparatives; both halves keep a comma between element and main clause."
+    },
+    {
+      "id": 96,
+      "skill": "je … desto / umso",
+      "english": "The earlier you leave, the better it is.",
+      "german": "Je früher du gehst, desto besser ist es.",
+      "why": "The same pattern with a comparative in both elements."
+    },
+    {
+      "id": 97,
+      "skill": "je … desto / umso",
+      "english": "The more you practise, the more confident you become.",
+      "german": "Je mehr du übst, umso sicherer wirst du.",
+      "why": "After je mehr, umso is used instead of desto."
+    },
+    {
+      "id": 98,
+      "skill": "je … desto / umso",
+      "english": "The harder it is, the more necessary it becomes.",
+      "german": "Je schwieriger es ist, umso notwendiger wird es.",
+      "why": "umso after the first je-clause keeps the correlation strict."
+    },
+    {
+      "id": 99,
+      "skill": "je … desto / umso",
+      "english": "The earlier we start, the sooner we finish.",
+      "german": "Je früher wir anfangen, desto früher sind wir fertig.",
+      "why": "Two temporal comparatives, same structure."
+    },
+    {
+      "id": 100,
+      "skill": "je … desto / umso",
+      "english": "The more he earns, the more he spends.",
+      "german": "Je mehr er verdient, desto mehr gibt er aus.",
+      "why": "Two amounts compared against each other."
+    }
+  ]
+}
