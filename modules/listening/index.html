@@ -1,0 +1,572 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Listening &middot; Deutsch Lernen</title>
+<style>
+:root{
+  --font:"Segoe UI",system-ui,-apple-system,sans-serif;
+  --teal-900:#005A5A; --teal-700:#008282; --teal-400:#50C1C1; --teal-100:#95DFDB;
+  --amber:#E1A01E; --red:#C41E3A; --green:#1D7A4C;
+  --ink:#012D2C; --muted:#008282;
+  --page:#F0FAFA; --card:#FFF; --in:#F0FAFA; --border:#D0ECEB;
+  --shadow:0 1px 4px rgba(1,45,44,.10); --shadow-md:0 4px 14px rgba(1,45,44,.12);
+  --r:8px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font);font-size:16px;color:var(--teal-900);background:var(--page);
+  line-height:1.6;-webkit-font-smoothing:antialiased;
+  display:flex;flex-direction:column;min-height:100vh}
+
+.navbar{display:flex;align-items:center;gap:12px;height:48px;padding:0 14px;
+  background:var(--teal-900);border-bottom:1px solid rgba(149,223,219,.15);
+  position:sticky;top:0;z-index:100;flex-shrink:0}
+.brand-icon{display:flex;align-items:center;flex-shrink:0}
+.nav-pipe{width:1px;height:16px;background:rgba(149,223,219,.30);flex-shrink:0;margin:0 12px}
+.nav-brand-text{font-size:.95rem;font-weight:600;color:var(--teal-100);text-decoration:none;white-space:nowrap}
+.nav-actions{margin-left:auto;display:flex;align-items:center;gap:8px}
+.icon-btn{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;
+  color:var(--teal-100);background:rgba(149,223,219,.12);border:1px solid rgba(149,223,219,.22);
+  border-radius:4px;cursor:pointer;transition:130ms;text-decoration:none;flex-shrink:0}
+.icon-btn:hover{background:rgba(149,223,219,.24);border-color:rgba(149,223,219,.45)}
+.icon-btn svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:2;
+  stroke-linecap:round;stroke-linejoin:round}
+@media (max-width:560px){.nav-brand-text{font-size:.85rem}}
+
+.wrap{max-width:1000px;width:100%;margin:0 auto;padding:16px 14px 0;flex:1 0 auto}
+h1{font-size:1.35rem;line-height:1.3;margin:0 0 14px}
+
+/* ── input area ─────────────────────────────────────── */
+.panel{background:var(--card);border:1px solid var(--border);border-radius:var(--r);
+  box-shadow:var(--shadow);padding:14px;margin-bottom:14px}
+#src{width:100%;min-height:150px;padding:11px;border:1px solid var(--border);border-radius:6px;
+  font-family:var(--font);font-size:1rem;line-height:1.6;color:var(--ink);background:var(--in);
+  resize:vertical}
+#src:focus{outline:2px solid var(--teal-400);outline-offset:-1px;border-color:var(--teal-400)}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:7px;height:40px;padding:0 16px;
+  font-size:.88rem;font-weight:600;font-family:var(--font);border-radius:6px;cursor:pointer;
+  border:1px solid transparent;transition:130ms}
+.btn-primary{background:var(--teal-700);color:#fff}
+.btn-primary:hover:not(:disabled){background:var(--teal-900)}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+.btn svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.row{display:flex;gap:9px;flex-wrap:wrap;align-items:center}
+
+/* ── transport ──────────────────────────────────────── */
+.transport{display:flex;gap:9px;flex-wrap:wrap;align-items:center;
+  background:var(--card);border:1px solid var(--border);border-radius:var(--r);
+  box-shadow:var(--shadow);padding:11px;margin-bottom:14px;
+  position:sticky;top:58px;z-index:50}
+.tbtn{display:inline-flex;align-items:center;justify-content:center;gap:6px;height:38px;padding:0 13px;
+  font-size:.84rem;font-weight:600;font-family:var(--font);color:var(--teal-900);
+  background:var(--in);border:1px solid var(--border);border-radius:6px;cursor:pointer;
+  transition:130ms;min-width:44px}
+.tbtn:hover:not(:disabled){background:var(--teal-100);border-color:var(--teal-400)}
+.tbtn:disabled{opacity:.4;cursor:not-allowed}
+.tbtn.play{background:var(--teal-700);color:#fff;border-color:var(--teal-700)}
+.tbtn.play:hover:not(:disabled){background:var(--teal-900)}
+.tbtn svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.tstate{margin-left:auto;font-size:.78rem;color:var(--muted);white-space:nowrap}
+
+/* ── the two panels ─────────────────────────────────── */
+.panels{display:grid;grid-template-columns:1fr 1fr;gap:12px;align-items:start}
+@media (max-width:760px){.panels{grid-template-columns:1fr}}
+.col{background:var(--card);border:1px solid var(--border);border-radius:var(--r);
+  box-shadow:var(--shadow);overflow:hidden}
+.col-head{display:flex;align-items:center;gap:8px;padding:9px 12px;background:var(--teal-900);
+  color:var(--teal-100);font-size:.8rem;font-weight:600;letter-spacing:.02em}
+.col-head .spk{margin-left:auto;width:26px;height:26px;display:inline-flex;align-items:center;
+  justify-content:center;background:rgba(149,223,219,.16);border:1px solid rgba(149,223,219,.28);
+  border-radius:4px;cursor:pointer;color:var(--teal-100)}
+.col-head .spk:hover{background:rgba(149,223,219,.30)}
+.col-head .spk:disabled{opacity:.4;cursor:not-allowed}
+.col-head .spk svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.col-body{padding:12px}
+
+/* sentence rows: clicking one starts playback there */
+.sent{padding:7px 9px;margin-bottom:5px;border-radius:5px;cursor:pointer;
+  border:1px solid transparent;font-size:.95rem;line-height:1.55;transition:background 120ms;
+  display:flex;gap:9px;align-items:flex-start}
+.sent:last-child{margin-bottom:0}
+.sent:hover{background:var(--in);border-color:var(--border)}
+.sent .n{flex-shrink:0;width:19px;height:19px;border-radius:50%;background:var(--in);
+  color:var(--muted);font-size:.68rem;font-weight:700;display:flex;align-items:center;
+  justify-content:center;margin-top:2px;border:1px solid var(--border)}
+.sent.active{background:var(--teal-100);border-color:var(--teal-400)}
+.sent.active .n{background:var(--teal-700);color:#fff;border-color:var(--teal-700)}
+.sent.done{color:var(--muted)}
+.sent.done .n{background:var(--teal-400);color:#fff;border-color:var(--teal-400)}
+.sent.pending-en{color:var(--muted);font-style:italic}
+
+.msg{padding:11px 13px;border-radius:6px;font-size:.85rem;margin-bottom:12px;display:none}
+.msg.show{display:block}
+.msg.err{background:#FDEEF0;color:var(--red);border:1px solid #F3C3CB}
+.msg.warn{background:#FEF6E4;color:#8A5D00;border:1px solid #F5DFA8}
+.msg.info{background:var(--in);color:var(--muted);border:1px solid var(--border)}
+
+.empty{color:var(--muted);font-size:.88rem;padding:16px 4px;text-align:center}
+
+label.rate{font-size:.78rem;color:var(--muted);display:inline-flex;align-items:center;gap:6px}
+label.rate input{width:88px;accent-color:var(--teal-700)}
+
+.footer{margin-top:auto;padding:14px 16px;background:var(--teal-900);color:var(--teal-100);
+  font-size:.8rem;text-align:center;flex-shrink:0}
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+  <a class="brand-icon" href="../../" aria-label="Deutsch Lernen home">
+    <svg width="24" height="17" viewBox="0 0 31 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0"  y="0"  width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="0"  width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="0"  width="9" height="6" rx="1.5" fill="#008282"/>
+      <rect x="0"  y="8"  width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="8"  width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="8"  width="9" height="6" rx="1.5" fill="#008282"/>
+      <rect x="0"  y="16" width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="16" width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="16" width="9" height="6" rx="1.5" fill="#E1A01E"/>
+    </svg>
+  </a>
+  <div class="nav-pipe"></div>
+  <span class="nav-brand-text">Listening</span>
+  <div class="nav-actions">
+    <button class="icon-btn" id="clearBtn" title="Clear" aria-label="Clear text">
+      <svg viewBox="0 0 24 24"><path d="M3 6h18"></path><path d="M8 6V4h8v2"></path><path d="M6 6l1 14h10l1-14"></path></svg>
+    </button>
+    <a class="icon-btn" href="../../" title="Back to all modules" aria-label="Back to all modules">
+      <svg viewBox="0 0 24 24"><path d="M3 12l9-9 9 9"></path><path d="M5 10v10h14V10"></path></svg>
+    </a>
+  </div>
+</nav>
+
+<div class="wrap">
+  <h1>Listening</h1>
+
+  <div class="msg info" id="keyMsg"></div>
+  <div class="msg err" id="errMsg"></div>
+  <div class="msg warn" id="warnMsg"></div>
+
+  <!-- German input -->
+  <div class="panel">
+    <textarea id="src" placeholder="Paste a German text here, then press Translate."></textarea>
+    <div class="row" style="margin-top:10px">
+      <button class="btn btn-primary" id="translateBtn">
+        <svg viewBox="0 0 24 24"><path d="M4 5h10M9 5v2c0 4-2 7-5 8"></path><path d="M6 11c1 2 3 3 5 4"></path><path d="M13 21l4-10 4 10"></path><path d="M14.5 17h5"></path></svg>
+        Translate
+      </button>
+      <button class="btn" id="sampleBtn">Use a sample text</button>
+    </div>
+  </div>
+
+  <!-- transport: appears once a translation exists -->
+  <div class="transport" id="transport" style="display:none">
+    <button class="tbtn play" id="playBtn" title="Play from the first sentence">
+      <svg viewBox="0 0 24 24"><path d="M7 4l13 8-13 8V4z" fill="currentColor" stroke-linejoin="round"></path></svg>
+      <span id="playLabel">Listen</span>
+    </button>
+    <button class="tbtn" id="pauseBtn" title="Pause" disabled>
+      <svg viewBox="0 0 24 24"><path d="M9 4v16M15 4v16"></path></svg>
+    </button>
+    <button class="tbtn" id="stopBtn" title="Stop" disabled>
+      <svg viewBox="0 0 24 24"><path d="M6 6h12v12H6z" fill="currentColor"></path></svg>
+    </button>
+    <button class="tbtn" id="prevBtn" title="Previous sentence" disabled>
+      <svg viewBox="0 0 24 24"><path d="M18 5v14L8 12l10-7z" fill="currentColor" stroke-linejoin="round"></path></svg>
+    </button>
+    <button class="tbtn" id="nextBtn" title="Next sentence" disabled>
+      <svg viewBox="0 0 24 24"><path d="M6 5v14l10-7L6 5z" fill="currentColor" stroke-linejoin="round"></path></svg>
+    </button>
+    <label class="rate">Speed
+      <input type="range" id="rate" min="0.5" max="1.25" step="0.05" value="1">
+      <span id="rateVal">1.00</span>
+    </label>
+    <span class="tstate" id="state">Ready</span>
+  </div>
+
+  <!-- the two panels -->
+  <div class="panels">
+    <div class="col">
+      <div class="col-head">Deutsch
+        <button class="spk" id="speakDe" title="Read the German aloud" aria-label="Read the German aloud" disabled>
+          <svg viewBox="0 0 24 24"><path d="M11 5 6 9H3v6h3l5 4V5z"></path><path d="M15.5 8.5a5 5 0 0 1 0 7"></path><path d="M18.5 5.5a9 9 0 0 1 0 13"></path></svg>
+        </button>
+      </div>
+      <div class="col-body" id="deBody">
+        <div class="empty">The German text appears here, split into sentences.</div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="col-head">English
+        <button class="spk" id="speakEn" title="Read the English aloud" aria-label="Read the English aloud" disabled>
+          <svg viewBox="0 0 24 24"><path d="M11 5 6 9H3v6h3l5 4V5z"></path><path d="M15.5 8.5a5 5 0 0 1 0 7"></path><path d="M18.5 5.5a9 9 0 0 1 0 13"></path></svg>
+        </button>
+      </div>
+      <div class="col-body" id="enBody">
+        <div class="empty">The translation appears here.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="footer"><strong>Listening</strong> &middot; Roman Zajic</footer>
+
+<script>
+/* ── SHARED KEYS ─────────────────────────────────────────
+   Read from vs_cfg, the same key Writing and Speaking use. The
+   Gemini key is entered once on the portal home page; nothing
+   is typed on this page.
+──────────────────────────────────────────────────────── */
+const CFG_KEY = "vs_cfg";
+function getCfg(){ try { return JSON.parse(localStorage.getItem(CFG_KEY) || "{}"); } catch(e){ return {}; } }
+let apiKey = "";
+function syncKeys(){ apiKey = getCfg().geminiKey || ""; }
+syncKeys();
+window.addEventListener("storage", syncKeys);
+document.addEventListener("visibilitychange", function(){ if(!document.hidden) syncKeys(); });
+
+const MODEL    = "gemini-3.1-flash-lite";
+const API_ROOT = "https://generativelanguage.googleapis.com/v1beta/models";
+
+/* ── state ─────────────────────────────────────────── */
+let deSentences = [];   // German sentences
+let enSentences = [];   // English sentences (count may differ)
+let pairs       = [];   // [{de, en}] aligned for highlighting
+let current     = -1;   // index of the sentence being spoken
+let playing     = false;
+let paused      = false;
+let rate        = 1;
+
+const $ = function(id){ return document.getElementById(id); };
+const src = $("src"), deBody = $("deBody"), enBody = $("enBody");
+const transport = $("transport"), playBtn = $("playBtn"), playLabel = $("playLabel");
+const pauseBtn = $("pauseBtn"), stopBtn = $("stopBtn"), prevBtn = $("prevBtn"), nextBtn = $("nextBtn");
+const stateEl = $("state"), translateBtn = $("translateBtn");
+
+function showMsg(id, text){
+  const el = $(id);
+  if(!text){ el.className = el.className.replace(/\s*show/,""); el.textContent = ""; return; }
+  el.textContent = text; el.classList.add("show");
+}
+function clearMsgs(){ ["keyMsg","errMsg","warnMsg"].forEach(function(id){ showMsg(id,""); }); }
+
+/* ── sentence splitting ─────────────────────────────────
+   German abbreviations and initials that must NOT end a sentence:
+   z.B., d.h., u.a., bzw., Dr., Nr., Abb., vs., usw., etc.
+   A decimal or an initial letter before the period is protected.
+──────────────────────────────────────────────────────── */
+const ABBREV = /(?:^|\s)(?:z\.\s?B|d\.\s?h|u\.\s?a|bzw|usw|Dr|Prof|Dr\.?|Nr|Abb|Bsp|S\.|ca|evtl|inkl|z\.\s?T|evtl|bspw|max|min|Nr\.|vgl|Mrd|ca)\.$/i;
+
+function splitSentences(text){
+  const clean = String(text).replace(/\s+/g, " ").trim();
+  if(!clean) return [];
+  const out = [];
+  let buf = "";
+  for(let i = 0; i < clean.length; i++){
+    const ch = clean[i];
+    buf += ch;
+    if(ch === "." || ch === "!" || ch === "?"){
+      // look ahead: is the next non-space char a capital letter / opening quote?
+      let j = i + 1;
+      while(j < clean.length && clean[j] === " ") j++;
+      const nextCh = clean[j] || "";
+      const nextIsNew = !nextCh || /["'„“(\-–]?[A-ZÄÖÜ0-9]/.test(nextCh);
+      if(nextIsNew){
+        // guard against abbreviations and single initials
+        const candidate = buf.trim();
+        const isAbbrev = ABBREV.test(candidate) ||
+                         /(?:^|\s)[A-ZÄÖÜ]\.$/.test(candidate) ||
+                         /\b[A-Za-zÄÖÜäöü]{1,3}\.$/.test(candidate) ||
+                         /\d\.$/.test(candidate);
+        if(!isAbbrev && candidate.length > 1){
+          out.push(candidate);
+          buf = "";
+        }
+      }
+    }
+  }
+  const rest = buf.trim();
+  if(rest) out.push(rest);
+  return out;
+}
+
+/* ── translation: ONE call for the whole text ───────────
+   The model returns one English string per German sentence, so
+   the counts can differ but the order always matches.
+──────────────────────────────────────────────────────── */
+const TRANSLATE_SCHEMA = {
+  type: "object",
+  properties: {
+    sentences: {
+      type: "array",
+      items: { type: "string" },
+      description: "One English sentence per German sentence, in the same order."
+    }
+  },
+  required: ["sentences"]
+};
+
+const SYSTEM = [
+  "You translate German into natural, idiomatic English for a language learner.",
+  "You receive a numbered list of German sentences.",
+  "Return exactly one English sentence for each numbered input, in the same order.",
+  "Keep the count identical to the input. Do not merge, split, reorder or skip any sentence.",
+  "If a German sentence is a fragment, still give a matching English fragment.",
+  "Return only the array of English sentences, no numbering, no commentary."
+].join(" ");
+
+async function translate(text, sentences){
+  const numbered = sentences.map(function(s,i){ return (i+1) + ". " + s; }).join("\n");
+  const body = {
+    systemInstruction: { parts: [{ text: SYSTEM }] },
+    contents: [{ role: "user", parts: [{ text: "German sentences:\n" + numbered }] }],
+    generationConfig: {
+      temperature: 0.2,
+      responseMimeType: "application/json",
+      responseSchema: TRANSLATE_SCHEMA
+    }
+  };
+  const res = await fetch(API_ROOT + "/" + MODEL + ":generateContent?key=" + encodeURIComponent(apiKey), {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(body)
+  });
+  if(!res.ok){
+    const detail = await res.text().catch(function(){ return ""; });
+    let msg = "Translation failed (HTTP " + res.status + ").";
+    if(res.status === 400) msg = "The Gemini API key was rejected. Enter it again on the home page.";
+    if(res.status === 429) msg = "Gemini rate limit reached. Wait a moment and translate again.";
+    if(res.status === 403) msg = "The Gemini API key is not allowed to use this model.";
+    throw new Error(msg + (detail ? " " + detail.slice(0,160) : ""));
+  }
+  const data = await res.json();
+  const raw = data.candidates && data.candidates[0] && data.candidates[0].content &&
+              data.candidates[0].content.parts.map(function(p){ return p.text; }).join("") || "";
+  let parsed;
+  try { parsed = JSON.parse(raw); }
+  catch(e){ throw new Error("The model returned unreadable output."); }
+  const out = parsed.sentences || [];
+  if(!out.length) throw new Error("The model returned no translation.");
+  return out;
+}
+
+/* ── rendering ─────────────────────────────────────── */
+function render(){
+  deBody.innerHTML = "";
+  enBody.innerHTML = "";
+  if(!pairs.length){
+    deBody.innerHTML = '<div class="empty">The German text appears here, split into sentences.</div>';
+    enBody.innerHTML = '<div class="empty">The translation appears here.</div>';
+    return;
+  }
+  pairs.forEach(function(p, i){
+    const de = document.createElement("div");
+    de.className = "sent"; de.dataset.i = i;
+    de.innerHTML = '<span class="n">' + (i+1) + '</span><span class="t"></span>';
+    de.querySelector(".t").textContent = p.de;
+    de.addEventListener("click", function(){ startFrom(i); });
+    deBody.appendChild(de);
+
+    const en = document.createElement("div");
+    en.className = "sent"; en.dataset.i = i;
+    en.innerHTML = '<span class="n">' + (i+1) + '</span><span class="t"></span>';
+    if(p.en){ en.querySelector(".t").textContent = p.en; }
+    else { en.classList.add("pending-en"); en.querySelector(".t").textContent = "…"; }
+    en.addEventListener("click", function(){ startFrom(i); });
+    enBody.appendChild(en);
+  });
+}
+
+function highlight(){
+  const de = deBody.querySelectorAll(".sent");
+  const en = enBody.querySelectorAll(".sent");
+  for(let i = 0; i < pairs.length; i++){
+    [de[i], en[i]].forEach(function(el){
+      if(!el) return;
+      el.classList.toggle("active", i === current);
+      el.classList.toggle("done", i < current);
+    });
+  }
+  if(current >= 0 && de[current]){
+    de[current].scrollIntoView({ block:"nearest", behavior:"smooth" });
+  }
+}
+
+/* ── speech ──────────────────────────────────────────
+   One utterance per sentence, so the highlight follows the
+   audio exactly. Pause keeps the sentence index; Stop resets.
+──────────────────────────────────────────────────────── */
+const synth = window.speechSynthesis || null;
+let voice = null;
+
+function pickVoice(){
+  if(!synth) return null;
+  const vs = synth.getVoices() || [];
+  voice = vs.filter(function(v){ return /^de(-|_|$)/i.test(v.lang); })[0] ||
+         vs.filter(function(v){ return /^en(-|_|$)/i.test(v.lang); })[0] || null;
+  return voice;
+}
+if(synth){
+  pickVoice();
+  if(synth.addEventListener) synth.addEventListener("voiceschanged", pickVoice);
+  else synth.onvoiceschanged = pickVoice;
+}
+
+function stopSpeech(){ if(synth){ try{ synth.cancel(); }catch(e){} } }
+
+function speakIndex(i){
+  if(i < 0 || i >= pairs.length) return finish();
+  current = i; highlight();
+  if(!synth){ finish(); return; }
+  const u = new SpeechSynthesisUtterance(pairs[i].de);
+  if(voice) u.voice = voice;
+  u.lang = "de-DE";
+  u.rate = rate;
+  u.onend = function(){
+    if(!playing || paused) return;
+    speakIndex(i + 1);
+  };
+  u.onerror = function(){
+    if(!playing || paused) return;
+    finish();
+  };
+  try { synth.speak(u); }
+  catch(e){ finish(); }
+}
+
+function startFrom(i){
+  stopSpeech();
+  playing = true; paused = false;
+  playLabel.textContent = "Restart";
+  stateEl.textContent = "Playing sentence " + (i+1) + " of " + pairs.length;
+  enableTransport(true);
+  speakIndex(i);
+}
+function finish(){
+  playing = false; paused = false; current = -1;
+  stopSpeech();
+  highlight();
+  playLabel.textContent = "Listen";
+  stateEl.textContent = pairs.length ? "Finished" : "Ready";
+  enableTransport(false);
+}
+function togglePause(){
+  if(!synth || !playing) return;
+  if(paused){
+    paused = false; synth.resume();
+    stateEl.textContent = "Playing sentence " + (current+1) + " of " + pairs.length;
+  } else {
+    paused = true; synth.pause();
+    stateEl.textContent = "Paused at sentence " + (current+1);
+  }
+}
+function enableTransport(on){
+  pauseBtn.disabled = !on;
+  stopBtn.disabled  = !on;
+  prevBtn.disabled  = !(on || current > 0);
+  nextBtn.disabled  = !(on || current >= 0);
+}
+
+/* ── wiring ────────────────────────────────────────── */
+translateBtn.addEventListener("click", doTranslate);
+$("sampleBtn").addEventListener("click", function(){
+  src.value = "Der Zug nach Hamburg fährt um 14:20 vom Gleis neun ab. " +
+              "Wegen einer Störung im Betriebsablauf verzögert sich die Abfahrt um etwa zwanzig Minuten. " +
+              "Bahnhofsrestaurant und Bäckerei sind bis 15 Uhr geöffnet. " +
+              "Warten Sie bitte unter der großen Anzeigetafel im Erdgeschoss. " +
+              "Sobald die Reisegruppe eingetroffen ist, erfolgt die Abfertigung über Lautsprecher.";
+  src.focus();
+});
+$("clearBtn").addEventListener("click", function(){
+  stopSpeech(); src.value = "";
+  deSentences = []; enSentences = []; pairs = []; current = -1;
+  transport.style.display = "none";
+  $("speakDe").disabled = true; $("speakEn").disabled = true;
+  render(); stateEl.textContent = "Ready";
+  clearMsgs();
+});
+playBtn.addEventListener("click", function(){ startFrom(current >= 0 ? current : 0); });
+pauseBtn.addEventListener("click", togglePause);
+stopBtn.addEventListener("click", finish);
+prevBtn.addEventListener("click", function(){ startFrom(Math.max(0, current - 1)); });
+nextBtn.addEventListener("click", function(){ startFrom(Math.min(pairs.length - 1, current + 1)); });
+$("rate").addEventListener("input", function(){
+  rate = parseFloat(this.value);
+  $("rateVal").textContent = rate.toFixed(2);
+});
+$("speakDe").addEventListener("click", function(){ startFrom(0); });
+$("speakEn").addEventListener("click", function(){ readEnglish(); });
+
+function readEnglish(){
+  if(!synth){ showMsg("warnMsg","This browser has no speech engine."); return; }
+  stopSpeech();
+  current = -1; playing = true; paused = false;
+  let i = 0;
+  const next = function(){
+    if(i >= enSentences.length){
+      finish(); showMsg("warnMsg",""); return;
+    }
+    highlightRow(i, enSentences[i]);
+    i++;
+    const u = new SpeechSynthesisUtterance(pairs[Math.min(i-1, pairs.length-1)].en || "");
+    if(voice) u.voice = voice;
+    u.lang = "en-US"; u.rate = rate;
+    u.onend = function(){ if(playing && !paused) next(); };
+    try { synth.speak(u); } catch(e){ finish(); }
+  };
+  playLabel.textContent = "Listen";
+  stateEl.textContent = "Reading English";
+  enableTransport(true);
+  next();
+}
+function highlightRow(i, text){
+  const en = enBody.querySelectorAll(".sent");
+  for(let k = 0; k < en.length; k++){
+    en[k].classList.toggle("active", k === i);
+    en[k].classList.toggle("done", k < i);
+  }
+  if(en[i]) en[i].scrollIntoView({ block:"nearest", behavior:"smooth" });
+}
+
+async function doTranslate(){
+  clearMsgs();
+  const text = src.value.trim();
+  if(!text){ showMsg("errMsg","Paste a German text first."); return; }
+  if(!apiKey){
+    showMsg("keyMsg","No Gemini API key found. Open the home page and enter it in the settings dialog.");
+    return;
+  }
+  const sents = splitSentences(text);
+  if(!sents.length){ showMsg("errMsg","No readable sentences found in that text."); return; }
+  if(!synth){ showMsg("warnMsg","This browser has no speech engine, so you can read but not listen."); }
+
+  translateBtn.disabled = true;
+  stateEl.textContent = "Translating…";
+  try{
+    const en = await translate(text, sents);
+    deSentences = sents; enSentences = en;
+    pairs = sents.map(function(de, i){ return { de: de, en: en[i] || "" }; });
+    current = -1;
+    render();
+    transport.style.display = "flex";
+    $("speakDe").disabled = false; $("speakEn").disabled = false;
+    playLabel.textContent = "Listen";
+    stateEl.textContent = pairs.length + " sentences ready";
+    enableTransport(false);
+    if(en.length !== sents.length){
+      showMsg("warnMsg","German has " + sents.length + " sentences, English " + en.length +
+              ". Numbers below are German positions.");
+    }
+  } catch(err){
+    showMsg("errMsg", err.message || String(err));
+    stateEl.textContent = "Ready";
+  } finally {
+    translateBtn.disabled = false;
+  }
+}
+</script>
+</body>
+</html>
