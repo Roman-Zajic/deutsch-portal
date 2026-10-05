@@ -1,0 +1,958 @@
+{
+  "title": "German Grammar Review — B1 to C2",
+  "updated": "2026-10-05",
+  "scope": "Grammar only: morphology, syntax, verb forms, case, word order and sentence combining. Vocabulary, idioms and pronunciation are handled elsewhere.",
+  "sources": [
+    "telc Grammatiktraining Deutsch für B2 — official table of contents",
+    "telc Grammatiktraining Deutsch für A1–B1 — official table of contents (Probekapitel)",
+    "Cornelsen Grammatik aktiv B2/C1 — chapter index",
+    "Goethe-Zertifikat C1 Testbeschreibung / Prüfungsziele",
+    "telc Deutsch C1 and C2 Übungstest format tables",
+    "CEFR Companion Volume 2020 — linguistic competence and propositional precision scales"
+  ],
+  "caveats": [
+    "No exam provider publishes a topic-by-topic grammar syllabus for C1 or C2. Goethe explicitly declines to fix a grammar or vocabulary inventory at those levels, so the C1 and C2 lists are inferred from coursebook canons and task formats.",
+    "Providers disagree on level placement. Topics marked provider_split are contested; the note gives the split.",
+    "ÖSD specifications could not be retrieved in usable form, so no ÖSD claims are made."
+  ],
+  "levels": {
+    "B1": {
+      "count": 49,
+      "topics": [
+        {
+          "n": 1,
+          "topic_en": "Present tense and word order",
+          "term_de": "Präsens und Satzbau",
+          "covers": "verbfirst in the main clause, verb-second with the conjugated verb, verb-last in the subordinate clause.",
+          "provider_split": false
+        },
+        {
+          "n": 2,
+          "topic_en": "Irregular verbs in the present tense",
+          "term_de": "unregelmäßige Verben im Präsens",
+          "covers": "nehmen, du nimmst, fahren, du fährst, and stem changes in vowel-consonant verbs.",
+          "provider_split": false
+        },
+        {
+          "n": 3,
+          "topic_en": "Präteritum of weak, strong and mixed verbs",
+          "term_de": "Präteritum der schwachen, starken und gemischten Verben",
+          "covers": "forming the simple past; sein vs. haben with movement and change of state verbs.",
+          "provider_split": false
+        },
+        {
+          "n": 4,
+          "topic_en": "Perfect with sein and haben",
+          "term_de": "Perfekt mit sein und haben",
+          "covers": "the haben/sein split: sein for movement and change of state, haben otherwise.",
+          "provider_split": false
+        },
+        {
+          "n": 5,
+          "topic_en": "Plusquamperfekt",
+          "term_de": "Plusquamperfekt",
+          "covers": "the strictly-earlier layer of the past, and why it marks the earlier of two past events.",
+          "provider_split": false
+        },
+        {
+          "n": 6,
+          "topic_en": "Futur I",
+          "term_de": "Futur I",
+          "covers": "formation and word order of werden + Infinitiv, and reading it as prediction vs. spoken intention.",
+          "provider_split": false
+        },
+        {
+          "n": 7,
+          "topic_en": "Modal verbs: conjugation and sentence pattern",
+          "term_de": "Modalverben",
+          "covers": "the modal + infinitive pattern, and the position of the infinitive when another object follows.",
+          "provider_split": false
+        },
+        {
+          "n": 8,
+          "topic_en": "Modal verbs in the past",
+          "term_de": "Modalverben im Perfekt",
+          "covers": "müssen/können/dürfen shift to können/müssen/dürfen plus the bare infinitive in direct speech.",
+          "provider_split": false
+        },
+        {
+          "n": 9,
+          "topic_en": "Modal verbs of probability",
+          "term_de": "Modalverben zum Ausdruck der Wahrscheinlichkeit",
+          "covers": "sicher, wohl, vielleicht and the modal + inflected infinitive used as an adverb.",
+          "provider_split": false
+        },
+        {
+          "n": 10,
+          "topic_en": "Impersonal verbs",
+          "term_de": "unpersönliche Verben",
+          "covers": "es gibt, es regnet, mir ist kalt: es as a formal placeholder subject.",
+          "provider_split": false
+        },
+        {
+          "n": 11,
+          "topic_en": "Verbs with a fixed prefix",
+          "term_de": "Verben mit festen Vorsilben",
+          "covers": "be-, emp-, ent-, er-, ge-, ver-, zer-: no vowel change, no ge- in the Partizip II.",
+          "provider_split": false
+        },
+        {
+          "n": 12,
+          "topic_en": "Separable verbs",
+          "term_de": "Trennbare Verben",
+          "covers": "the prefix in the final field in main clauses, but inside the verb cluster in subordinate clauses.",
+          "provider_split": false
+        },
+        {
+          "n": 13,
+          "topic_en": "Dative and accusative pronouns",
+          "term_de": "Pronomen im Dativ und Akkusativ",
+          "covers": "mir, dir, ihm, ihnen / mich, dich, ihn, sie, es and their order in two-object sentences.",
+          "provider_split": false
+        },
+        {
+          "n": 14,
+          "topic_en": "Object order: accusative before dative",
+          "term_de": "Objektstellung: Akkusativ vor Dativ",
+          "covers": "Ich gebe ihm das Buch, and why the shorter dative object comes first.",
+          "provider_split": false
+        },
+        {
+          "n": 15,
+          "topic_en": "Reflexive verbs and pronouns",
+          "term_de": "Reflexive Verben, Reflexivpronomen",
+          "covers": "accusative vs. dative reflexive pronouns, and verbs fixed to one or the other.",
+          "provider_split": false
+        },
+        {
+          "n": 16,
+          "topic_en": "Imperative forms",
+          "term_de": "Imperativ",
+          "covers": "du, ihr, Sie and the let-forms, including the position of the pronoun.",
+          "provider_split": false
+        },
+        {
+          "n": 17,
+          "topic_en": "Two-way prepositions",
+          "term_de": "Wechselpräpositionen",
+          "covers": "case decided by location vs. direction: in, an, auf, über, unter, vor, hinter, neben, zwischen.",
+          "provider_split": false
+        },
+        {
+          "n": 18,
+          "topic_en": "Prepositions with the dative",
+          "term_de": "Präpositionen mit Dativ",
+          "covers": "aus, bei, mit, nach, seit, von, zu, gegenüber.",
+          "provider_split": false
+        },
+        {
+          "n": 19,
+          "topic_en": "Prepositions with the accusative",
+          "term_de": "Präpositionen mit Akkusativ",
+          "covers": "durch, für, gegen, ohne, um.",
+          "provider_split": false
+        },
+        {
+          "n": 20,
+          "topic_en": "Genitive as an attribute",
+          "term_de": "Genitivattribut",
+          "covers": "des + noun, and the alternative structure with von + Dativ.",
+          "provider_split": true,
+          "split_note": "Recognised at B1 by schools and VHS; telc treats Genitive as a full four-case topic from B1."
+        },
+        {
+          "n": 21,
+          "topic_en": "n-declension: the complete paradigm",
+          "term_de": "n-Deklination",
+          "covers": "der Name / der Kollege / das Museum: the full masculine and neuter paradigm with the special plurals.",
+          "provider_split": true,
+          "split_note": "Recognition at B1, productive use at B2; telc introduces the full paradigm earlier."
+        },
+        {
+          "n": 22,
+          "topic_en": "Adjective declension after a definite article",
+          "term_de": "Adjektivdeklination nach dem bestimmten Artikel",
+          "covers": "weak endings in -e, and -en in the dative plural.",
+          "provider_split": false
+        },
+        {
+          "n": 23,
+          "topic_en": "Adjective declension after an indefinite or possessive article",
+          "term_de": "Adjektivdeklination nach unbestimmten Artikeln und Possessiva",
+          "covers": "mixed endings: -er, -e, -es, -en, and the ein- irregularity.",
+          "provider_split": false
+        },
+        {
+          "n": 24,
+          "topic_en": "Adjective declension without an article",
+          "term_de": "Adjektivdeklination ohne Artikel",
+          "covers": "strong endings, and attributive vs. predicative use.",
+          "provider_split": false
+        },
+        {
+          "n": 25,
+          "topic_en": "Adjective declension with demonstratives and possessives",
+          "term_de": "Adjektivdeklination mit Demonstrativ- und Possessivartikeln",
+          "covers": "dieser/jener/ein jeder and the pattern they share.",
+          "provider_split": false
+        },
+        {
+          "n": 26,
+          "topic_en": "Comparatives and superlatives",
+          "term_de": "Komparation und Vergleich",
+          "covers": "-er, am -sten, Gleichstand, and ellipsis in the comparison.",
+          "provider_split": false
+        },
+        {
+          "n": 27,
+          "topic_en": "Adverbs and their comparison",
+          "term_de": "Komparation von Adverbien",
+          "covers": "gut → besser → am besten, and where adverb comparison differs from adjective comparison.",
+          "provider_split": false
+        },
+        {
+          "n": 28,
+          "topic_en": "Participles I and II as adjectives",
+          "term_de": "Partizip I und II als Adjektiv",
+          "covers": "das kommende Jahr, das reparierte Auto: participle plus adjective ending.",
+          "provider_split": false
+        },
+        {
+          "n": 29,
+          "topic_en": "Ordinal numbers and dates",
+          "term_de": "Ordinalzahlen",
+          "covers": "1.–31., date word order in spoken and written dates.",
+          "provider_split": false
+        },
+        {
+          "n": 30,
+          "topic_en": "Relative clauses: nominative and accusative",
+          "term_de": "Relativsätze im Nominativ und Akkusativ",
+          "covers": "der/die/das, welcher/welche/welches; case is decided inside the relative clause.",
+          "provider_split": false
+        },
+        {
+          "n": 31,
+          "topic_en": "Relative clauses: dative, genitive and prepositions",
+          "term_de": "Relativsätze im Dativ, Genitiv und mit Präpositionen",
+          "covers": "deren, dessen, and relative pronouns after a preposition.",
+          "provider_split": false
+        },
+        {
+          "n": 32,
+          "topic_en": "Relative clauses with was, wo, wohin, wann",
+          "term_de": "Relativsätze mit w-Wörtern",
+          "covers": "weil sie Dinge und Personen ersetzen; wo vs. wohin vs. wann.",
+          "provider_split": false
+        },
+        {
+          "n": 33,
+          "topic_en": "Subordinate clause word order",
+          "term_de": "Nebensatzstellung",
+          "covers": "verb-final, the comma rule, and position I vs. position III.",
+          "provider_split": false
+        },
+        {
+          "n": 34,
+          "topic_en": "Subordinators of cause and concession",
+          "term_de": "kausale und konzessive Konjunktionen",
+          "covers": "weil, da, denn, obwohl, trotzdem als Konjunktion.",
+          "provider_split": false
+        },
+        {
+          "n": 35,
+          "topic_en": "Subordinators of time",
+          "term_de": "temporale Konjunktionen",
+          "covers": "wenn, als, bevor, nachdem, seit, bis, während.",
+          "provider_split": false
+        },
+        {
+          "n": 36,
+          "topic_en": "Subordinators of purpose and result",
+          "term_de": "finale und konsekutive Konjunktionen",
+          "covers": "damit, um zu, zu, sodass, so dass.",
+          "provider_split": false
+        },
+        {
+          "n": 37,
+          "topic_en": "Infinitive with and without zu",
+          "term_de": "Infinitiv mit und ohne zu",
+          "covers": "which verbs take zu, and the fixed verbs that omit it.",
+          "provider_split": false
+        },
+        {
+          "n": 38,
+          "topic_en": "Main-clause connectors",
+          "term_de": "Konjunktionaladverbien",
+          "covers": "deshalb, trotzdem, außerdem: position zero, then verb in position II.",
+          "provider_split": false
+        },
+        {
+          "n": 39,
+          "topic_en": "Question word order",
+          "term_de": "W-Fragen",
+          "covers": "w-fragen put the verb in position II; yes-no questions put the verb in position I.",
+          "provider_split": false
+        },
+        {
+          "n": 40,
+          "topic_en": "Indirect questions",
+          "term_de": "indirekte Fragesätze",
+          "covers": "ob, wann, wo, wie, warum and the verb-final subordinate clause.",
+          "provider_split": false
+        },
+        {
+          "n": 41,
+          "topic_en": "Direct speech",
+          "term_de": "direkte Rede",
+          "covers": "quotation marks, the colon, and pronoun and tense adjustment.",
+          "provider_split": false
+        },
+        {
+          "n": 42,
+          "topic_en": "Konjunktiv II: formation",
+          "term_de": "Konjunktiv II der Gegenwart",
+          "covers": "the umlaut + -e forms of sein, haben and the modals.",
+          "provider_split": false
+        },
+        {
+          "n": 43,
+          "topic_en": "Konjunktiv II: wishes and polite requests",
+          "term_de": "Konjunktiv II für Wünsche und Höflichkeit",
+          "covers": "ich würde, gern hätte, könnte ich bitte — the everyday wish and request forms.",
+          "provider_split": false
+        },
+        {
+          "n": 44,
+          "topic_en": "Konjunktiv II in the past",
+          "term_de": "Konjunktiv II der Vergangenheit",
+          "covers": "würde + haben/sein + Partizip II.",
+          "provider_split": false
+        },
+        {
+          "n": 45,
+          "topic_en": "Konjunktiv II: advice and proposals",
+          "term_de": "Konjunktiv II für Ratschläge und Vorschläge",
+          "covers": "sollte, müsste and thewürde-form for proposing.",
+          "provider_split": false
+        },
+        {
+          "n": 46,
+          "topic_en": "Irreal conditionals",
+          "term_de": "irreale Bedingungssätze",
+          "covers": "wenn + Konjunktiv II and the verb-final position of the wenn-clause.",
+          "provider_split": false
+        },
+        {
+          "n": 47,
+          "topic_en": "Passive in all tenses",
+          "term_de": "Passiv in allen Zeiten",
+          "covers": "werden + Partizip II across tenses, and the von-phrase agent.",
+          "provider_split": false
+        },
+        {
+          "n": 48,
+          "topic_en": "Passive with modal verbs",
+          "term_de": "Passiv mit Modalverben",
+          "covers": "müssen/sollen/können + werden + Partizip II, and the resulting meanings.",
+          "provider_split": false
+        },
+        {
+          "n": 49,
+          "topic_en": "Zustandspassiv and Vorgangspassiv",
+          "term_de": "sein + Partizip II vs. werden + Partizip II",
+          "covers": "result vs. process, and sein for the resultative reading.",
+          "provider_split": false
+        }
+      ]
+    },
+    "B2": {
+      "count": 43,
+      "topics": [
+        {
+          "n": 1,
+          "topic_en": "Narrating the past: Präteritum vs. Plusquamperfekt",
+          "term_de": "Erzählzeit im Präteritum und Plusquamperfekt",
+          "covers": "which past tense carries the narrative, and using Plusquamperfekt for the earlier event.",
+          "provider_split": false
+        },
+        {
+          "n": 2,
+          "topic_en": "Futur I and Futur II",
+          "term_de": "Futur I und Futur II",
+          "covers": "adding Futur II for a future view of the past, and wird + Infinitiv as a present-tense substitute. Futur I itself was covered at B1.",
+          "provider_split": false
+        },
+        {
+          "n": 3,
+          "topic_en": "Modal verbs with non-infinitival complements",
+          "term_de": "Modalverben mit nicht-infinitivischen Ergänzungen",
+          "covers": "wissen, glauben and modal meaning without an infinitive.",
+          "provider_split": false
+        },
+        {
+          "n": 4,
+          "topic_en": "Two-level modality",
+          "term_de": "doppelte Modalität",
+          "covers": "a modal inside a reported clause: Er sagt, er müsse arbeiten.",
+          "provider_split": false
+        },
+        {
+          "n": 5,
+          "topic_en": "Modal verbs of deduction and hedging",
+          "term_de": "subjektive Modalität",
+          "covers": "müssen, dürfen, können expressing the speaker's degree of certainty.",
+          "provider_split": false
+        },
+        {
+          "n": 6,
+          "topic_en": "Konjunktiv II without würde",
+          "term_de": "Konjunktiv II ohne würde",
+          "covers": "the own forms of sein, haben and the modals, and when they replace würde.",
+          "provider_split": false
+        },
+        {
+          "n": 7,
+          "topic_en": "Konjunktiv II in formal and official requests",
+          "term_de": "Konjunktiv II der Höflichkeit",
+          "covers": "escalating politeness for institutional contexts (Ich würde vorschlagen, Wäre es möglich, …); B1 covered everyday wishes and requests.",
+          "provider_split": false
+        },
+        {
+          "n": 8,
+          "topic_en": "Irreal conditions in the past",
+          "term_de": "irreale Bedingungssätze der Vergangenheit",
+          "covers": "wenn + Konjunktiv II der Vergangenheit, and wenn vs. als.",
+          "provider_split": false
+        },
+        {
+          "n": 9,
+          "topic_en": "Irreal comparison",
+          "term_de": "irreale Vergleichssätze",
+          "covers": "als ob, als wenn, als though: unreal resemblance.",
+          "provider_split": false
+        },
+        {
+          "n": 10,
+          "topic_en": "The unwish",
+          "term_de": "unwünschbarer Wunsch",
+          "covers": "an expression for what you hope will not happen.",
+          "provider_split": false
+        },
+        {
+          "n": 11,
+          "topic_en": "Konjunktiv I: formation",
+          "term_de": "Konjunktiv I der Gegenwart",
+          "covers": "stem from the infinitive, no umlaut: er habe, er sei, er könne.",
+          "provider_split": true,
+          "split_note": "telc's own A1–B1 contents does not list Konjunktiv I, though most B1 coursebooks teach it. Placed at B2 with B1 reported speech as the on-ramp."
+        },
+        {
+          "n": 12,
+          "topic_en": "Konjunktiv I in the past",
+          "term_de": "Konjunktiv I der Vergangenheit",
+          "covers": "er habe gesagt, and the identical 3rd-person-plural form.",
+          "provider_split": true,
+          "split_note": "telc omits Konjunktiv I from A1–B1; most other providers place it at B2."
+        },
+        {
+          "n": 13,
+          "topic_en": "Konjunktiv I in reported speech",
+          "term_de": "indirekte Rede mit Konjunktiv I",
+          "covers": "news register: Er behauptet, er habe nichts gewusst.",
+          "provider_split": true,
+          "split_note": "Most B1 coursebooks teach reported speech in Konjunktiv I; telc defers it."
+        },
+        {
+          "n": 14,
+          "topic_en": "Konjunktiv I or Konjunktiv II?",
+          "term_de": "Konjunktiv I oder Konjunktiv II?",
+          "covers": "the division of labour: distance and official register vs. ordinary report.",
+          "provider_split": true,
+          "split_note": "The division of labour is a style rule that providers present at different levels."
+        },
+        {
+          "n": 15,
+          "topic_en": "Reporting statements",
+          "term_de": "indirekte Rede",
+          "covers": "reporting verbs and their case: Er sagt, dass... / Er sagt mir, ...",
+          "provider_split": true
+        },
+        {
+          "n": 16,
+          "topic_en": "Reporting questions, imperatives and negatives",
+          "term_de": "Wiedergabe von Aufforderungen, Fragen und Gerüchten",
+          "covers": "Er fragt, ob...; Er sagt, ich solle...; Er sagt, er habe es nicht gewusst.",
+          "provider_split": true
+        },
+        {
+          "n": 17,
+          "topic_en": "Reported speech with da- and wo- compounds",
+          "term_de": "indirekte Rede mit da- und wo-",
+          "covers": "dort, dahin, von wo and the da-/wo- elements.",
+          "provider_split": true
+        },
+        {
+          "n": 18,
+          "topic_en": "Reported speech with modal verbs in the past",
+          "term_de": "indirekte Rede mit Modalverben in der Vergangenheit",
+          "covers": "backshifting the modal as well as the tense inside a reported clause: Er sagte, er müsse gearbeitet haben.",
+          "provider_split": true
+        },
+        {
+          "n": 19,
+          "topic_en": "Genitive: full use",
+          "term_de": "Genitiv",
+          "covers": "productive Genitive: des Mannes, of people, places and abstract nouns.",
+          "provider_split": true,
+          "split_note": "Productive Genitive is placed at B2 here; telc treats it as a B1 topic."
+        },
+        {
+          "n": 20,
+          "topic_en": "Genitive prepositions and fixed phrases",
+          "term_de": "Präpositionen mit Genitiv",
+          "covers": "wegen, während, trotz, statt, anhand, hinsichtlich + Genitiv.",
+          "provider_split": false
+        },
+        {
+          "n": 21,
+          "topic_en": "Genitive with pronouns and possessives",
+          "term_de": "Genitiv mit Pronomen",
+          "covers": "sein, deren, dessen and the possessive forms.",
+          "provider_split": false
+        },
+        {
+          "n": 22,
+          "topic_en": "Adjective and participle as a noun",
+          "term_de": "Adjektiv und Partizip als Nomen",
+          "covers": "der Alte, der Deutsche, das Gute, mein Lieber.",
+          "provider_split": false
+        },
+        {
+          "n": 23,
+          "topic_en": "Nominalisation",
+          "term_de": "Nominalisierung",
+          "covers": "turning a verb or adjective into a noun and building genitive chains.",
+          "provider_split": false
+        },
+        {
+          "n": 24,
+          "topic_en": "Comparatives with ellipsis",
+          "term_de": "Komparation mit Auslassung",
+          "covers": "als Vergleich, than-sentences, and je + desto.",
+          "provider_split": false
+        },
+        {
+          "n": 25,
+          "topic_en": "Compounds and word formation",
+          "term_de": "Komposita und Wortbildung",
+          "covers": "determinative and inseparable compounds, and linking elements.",
+          "provider_split": false
+        },
+        {
+          "n": 26,
+          "topic_en": "The sentence bracket and field positions",
+          "term_de": "Satzklammer, Position I–III, Nachfeld",
+          "covers": "position I, II and III, and which constituents can enter the Nachfeld.",
+          "provider_split": false
+        },
+        {
+          "n": 27,
+          "topic_en": "Negation",
+          "term_de": "Negation",
+          "covers": "nicht vs. kein, placement, and negation scope over a whole clause.",
+          "provider_split": false
+        },
+        {
+          "n": 28,
+          "topic_en": "Two-part connectors",
+          "term_de": "zweigliedrige Konjunktionen",
+          "covers": "the full set of correlative forms: entweder … oder, nicht nur … sondern auch, sowohl … als auch, weder … noch.",
+          "provider_split": false
+        },
+        {
+          "n": 29,
+          "topic_en": "Concessive connectors",
+          "term_de": "konzessive Konnektoren",
+          "covers": "zweiteilige Formen: wenn … auch, obwohl … trotzdem, wie … auch.",
+          "provider_split": false
+        },
+        {
+          "n": 30,
+          "topic_en": "Conditional and restrictive connectors",
+          "term_de": "konditionale und restriktive Konnektoren",
+          "covers": "falls, sofern, es sei denn, außer wenn, nur dass.",
+          "provider_split": false
+        },
+        {
+          "n": 31,
+          "topic_en": "Consecutive and modal connectors",
+          "term_de": "konsekutive und modale Konnektoren",
+          "covers": "also, folglich, demzufolge, immerhin, schließlich.",
+          "provider_split": false
+        },
+        {
+          "n": 32,
+          "topic_en": "Causal and final connectors",
+          "term_de": "kausale und finale Konnektoren",
+          "covers": "denn, weil, deshalb, nämlich and damit vs. um zu.",
+          "provider_split": false
+        },
+        {
+          "n": 33,
+          "topic_en": "Temporal connectors",
+          "term_de": "temporale Konnektoren",
+          "covers": "zuerst, dann, daraufhin, schließlich, inzwischen and their position.",
+          "provider_split": false
+        },
+        {
+          "n": 34,
+          "topic_en": "Adversative connectors",
+          "term_de": "adversative Konnektoren",
+          "covers": "trotzdem, dennoch, allerdings, vielmehr, hingegen.",
+          "provider_split": false
+        },
+        {
+          "n": 35,
+          "topic_en": "Subordinate clauses without a conjunction",
+          "term_de": "Nebensätze ohne Konjunktion",
+          "covers": "participle clauses: Ich gehe, ohne mich zu verabschieden.",
+          "provider_split": false
+        },
+        {
+          "n": 36,
+          "topic_en": "Modal particles",
+          "term_de": "Modalpartikeln",
+          "covers": "doch, eben, halt, ja, eben, wohl: position and effect on the mood.",
+          "provider_split": false
+        },
+        {
+          "n": 37,
+          "topic_en": "Infinitive constructions",
+          "term_de": "Infinitivkonstruktionen",
+          "covers": "anstatt, um, ohne, anlässlich + zu + Infinitiv.",
+          "provider_split": false
+        },
+        {
+          "n": 38,
+          "topic_en": "Participle attributes",
+          "term_de": "Partizipialattribut und Partizipialkonstruktion",
+          "covers": "the compressed subordinate clause: die zur Verfügung stehenden Daten.",
+          "provider_split": true,
+          "split_note": "telc and Cornelsen place the Partizipialattribut at B2; Grammatik aktiv marks it B2/C1, so some providers push it to C1."
+        },
+        {
+          "n": 39,
+          "topic_en": "Gerundiv as a passive substitute",
+          "term_de": "Gerundiv als Passiversatz",
+          "covers": "zu + Partizip I + adjective ending, agreeing with the following noun.",
+          "provider_split": false
+        },
+        {
+          "n": 40,
+          "topic_en": "Passive alternatives and the agentless passive",
+          "term_de": "Alternativen zum Passiv, unpersönliches Passiv",
+          "covers": "sich lassen + Infinitiv, bekommen + Partizip II, and Passiv without an agent.",
+          "provider_split": false
+        },
+        {
+          "n": 41,
+          "topic_en": "Funktionsverb constructions",
+          "term_de": "Funktionsverbgefüge",
+          "covers": "eine Entscheidung treffen, in Frage kommen, zur Verfügung stellen.",
+          "provider_split": false
+        },
+        {
+          "n": 42,
+          "topic_en": "Verbs with variable case government",
+          "term_de": "Verben mit Wechselpräpositionen",
+          "covers": "warten auf / helfen bei, and the dependent case that changes.",
+          "provider_split": false
+        },
+        {
+          "n": 43,
+          "topic_en": "Passive in Konjunktiv II",
+          "term_de": "Konjunktiv II im Passiv",
+          "covers": "müsste gemacht werden, and würde + werden + Partizip II.",
+          "provider_split": false
+        }
+      ]
+    },
+    "C1": {
+      "count": 26,
+      "topics": [
+        {
+          "n": 1,
+          "topic_en": "Verbalisation",
+          "term_de": "Verbalisierung",
+          "covers": "turning a nominalised phrase back into a clause — the inverse skill for avoiding dense prose.",
+          "provider_split": false
+        },
+        {
+          "n": 2,
+          "topic_en": "Nominal style in the clause",
+          "term_de": "Nominalstil",
+          "covers": "replacing verbal constructions with nominal ones, the default of written German.",
+          "provider_split": false
+        },
+        {
+          "n": 3,
+          "topic_en": "Nominalisation of verbs",
+          "term_de": "Nominalisierung der Verben",
+          "covers": "verb → noun derivation, including the stem-vowel change in strong verbs (entscheiden → Entscheidung).",
+          "provider_split": false
+        },
+        {
+          "n": 4,
+          "topic_en": "Nominalisation of adjectives and participles",
+          "term_de": "nominalisierte Adjektive und Partizipien",
+          "covers": "möglich → Möglichkeit, and the fixed adjective→noun conversion.",
+          "provider_split": false
+        },
+        {
+          "n": 5,
+          "topic_en": "Nominalisation chains",
+          "term_de": "Ketten von Nominalisierungen",
+          "covers": "stacking several nominalisations to pack information into one clause.",
+          "provider_split": false
+        },
+        {
+          "n": 6,
+          "topic_en": "Extended participial attributes",
+          "term_de": "erweiterte Partizipialattribute",
+          "covers": "long post-nominal participial phrases of the kind that dominate academic German.",
+          "provider_split": false
+        },
+        {
+          "n": 7,
+          "topic_en": "Adverbial participles and participial clauses",
+          "term_de": "Partizipialsätze",
+          "covers": "subjectless -ender clauses replacing full subordinate clauses.",
+          "provider_split": false
+        },
+        {
+          "n": 8,
+          "topic_en": "Partizipialattribut with agency and modality",
+          "term_de": "Partizipialattribut mit Handlungsträger und Modalität",
+          "covers": "when the participle hides the agent, and how to reinsert it.",
+          "provider_split": false
+        },
+        {
+          "n": 9,
+          "topic_en": "Subjectless passive",
+          "term_de": "subjektlose Passivkonstruktionen",
+          "covers": "Vorgangspassiv without an agent and without a von-phrase.",
+          "provider_split": false
+        },
+        {
+          "n": 10,
+          "topic_en": "Aspect shift with modal verbs",
+          "term_de": "Aspektverschiebung mit Modalverben",
+          "covers": "sollen and wollen in active and passive signal obligation, not possibility.",
+          "provider_split": false
+        },
+        {
+          "n": 11,
+          "topic_en": "Modal verbs of speculation in reportage",
+          "term_de": "subjektive Modalverben und Futur I/II in der Berichterstattung",
+          "covers": "dürfte, könnte and expressing degrees of certainty in news language.",
+          "provider_split": false
+        },
+        {
+          "n": 12,
+          "topic_en": "Futur I and Futur II as probability",
+          "term_de": "Futur I und Futur II für Vermutungen",
+          "covers": "using the Futur tenses to express degrees of probability in reportage, not their formation or word order.",
+          "provider_split": false
+        },
+        {
+          "n": 13,
+          "topic_en": "Indirect speech: tense and mood selection",
+          "term_de": "Tempus- und Moduswahl in der indirekten Rede",
+          "covers": "backshifting tenses and keeping Konjunktiv I under control across long reports.",
+          "provider_split": false
+        },
+        {
+          "n": 14,
+          "topic_en": "Ellipsis and verb gapping",
+          "term_de": "Auslassung und Auslassungsformen",
+          "covers": "omitting recoverable elements, and Verbenauslassung in coordinated clauses.",
+          "provider_split": false
+        },
+        {
+          "n": 15,
+          "topic_en": "Extension and extraposition",
+          "term_de": "Erweiterung und Ausklammerung",
+          "covers": "moving heavy constituents to the end field, and splitting a clause around them.",
+          "provider_split": false
+        },
+        {
+          "n": 16,
+          "topic_en": "Word-order variation in complex sentences",
+          "term_de": "Variationen der Satzstellung",
+          "covers": "placing verb, objects and long adverbials in different orders in one clause.",
+          "provider_split": false
+        },
+        {
+          "n": 17,
+          "topic_en": "Contact clauses vs. subordinate chains",
+          "term_de": "Kontaktsätze und Nebensatzketten",
+          "covers": "how information density is achieved: paratactic coordination vs. hypotaxis.",
+          "provider_split": false
+        },
+        {
+          "n": 18,
+          "topic_en": "Complex subordination with subordinators",
+          "term_de": "Satzverbindung mit komplexen Konnektoren",
+          "covers": "selecting among causal, concessive, conditional and final subordinators by meaning.",
+          "provider_split": false
+        },
+        {
+          "n": 19,
+          "topic_en": "Restrictive vs. concessive meaning in two-part connectors",
+          "term_de": "restriktive und konzessive Semantik zweiteiliger Konnektoren",
+          "covers": "deciding whether a construction excludes (nur dass, außer wenn) or concedes (obwohl … trotzdem); B2 introduced the forms.",
+          "provider_split": false
+        },
+        {
+          "n": 20,
+          "topic_en": "Sentence-initial and sentence-final adverbs",
+          "term_de": "Satzinitial- und Satzfinaladverbien",
+          "covers": "position zero vs. position I vs. the end field, and the punctuation rules.",
+          "provider_split": false
+        },
+        {
+          "n": 21,
+          "topic_en": "Genitive chains and nominal reference",
+          "term_de": "Genitivketten und nominale Referenz",
+          "covers": "compact nominal reference built from stacked Genitive attributes.",
+          "provider_split": false
+        },
+        {
+          "n": 22,
+          "topic_en": "Word formation for technical prose",
+          "term_de": "Wortbildung in der Fachsprache",
+          "covers": "affixation, compounding and the suffixes of academic and technical German.",
+          "provider_split": false
+        },
+        {
+          "n": 23,
+          "topic_en": "Adjective endings in attribute and predicative position",
+          "term_de": "Adjektivendungen im attributiven und prädikativen Gebrauch",
+          "covers": "when the adjective declines and when it does not — and predicative forms.",
+          "provider_split": false
+        },
+        {
+          "n": 24,
+          "topic_en": "Comparative structures at full stretch",
+          "term_de": "Komparationsstrukturen",
+          "covers": "so … wie, je … desto, als, and comparison of unequal clauses.",
+          "provider_split": false
+        },
+        {
+          "n": 25,
+          "topic_en": "Noun–verb collocations",
+          "term_de": "Nomen-Verb-Verbindungen",
+          "covers": "fixed noun+verb combinations with active and passive variants of the verb.",
+          "provider_split": false
+        },
+        {
+          "n": 26,
+          "topic_en": "Relative clauses with complex antecedents",
+          "term_de": "Relativsätze mit komplexen Antezedentien",
+          "covers": "a whole preceding clause as the antecedent, and der/die/das/er/sie as pronouns.",
+          "provider_split": false
+        }
+      ]
+    },
+    "C2": {
+      "count": 12,
+      "topics": [
+        {
+          "n": 1,
+          "topic_en": "Rhetorical figures: parallelism and chiasmus",
+          "term_de": "Parallelismus und Chiasmus",
+          "covers": "grammatical parallelism and crossed structure for argumentative effect.",
+          "provider_split": false
+        },
+        {
+          "n": 2,
+          "topic_en": "Inversion and rhetorical inversion",
+          "term_de": "Inversion",
+          "covers": "placing a heavy element first and the verb second to front information.",
+          "provider_split": false
+        },
+        {
+          "n": 3,
+          "topic_en": "Elliptical and agentless formulations",
+          "term_de": "elliptische und agentlose Formulierungen",
+          "covers": "full clause deletion in the condensed registers of journalism and law.",
+          "provider_split": false
+        },
+        {
+          "n": 4,
+          "topic_en": "Subjectless and agentless nominal sentences",
+          "term_de": "subjektlose Passiv- und Nominalsätze",
+          "covers": "instructions and specifications written entirely without a verb.",
+          "provider_split": false
+        },
+        {
+          "n": 5,
+          "topic_en": "Full nominalisation at maximum stretch",
+          "term_de": "Nominalisierungsketten",
+          "covers": "multi-step nominal structures as the core resource of high-register prose.",
+          "provider_split": false
+        },
+        {
+          "n": 6,
+          "topic_en": "Passiversatzformen in formal prose",
+          "term_de": "Passiversatzformen",
+          "covers": "choosing between true passive, man, sich lassen + Infinitiv and bekommen + Partizip II.",
+          "provider_split": false
+        },
+        {
+          "n": 7,
+          "topic_en": "Funktionsverbgefüge in abstract register",
+          "term_de": "Funktionsverbgefüge im abstrakten Stil",
+          "covers": "the fixed verb-noun vocabulary of decision, obligation and provision.",
+          "provider_split": false
+        },
+        {
+          "n": 8,
+          "topic_en": "Precise modality in legal and formal text",
+          "term_de": "Präzisionsmittel der Modalität",
+          "covers": "müsste, dürfte, wäre and choosing the exact degree of commitment.",
+          "provider_split": false
+        },
+        {
+          "n": 9,
+          "topic_en": "Concessive chains",
+          "term_de": "konzessive Satzverkettungen",
+          "covers": "long wenn … doch/allerdings chains, and concessive structure across clauses.",
+          "provider_split": false
+        },
+        {
+          "n": 10,
+          "topic_en": "Complex hypotactic and mixed architectures",
+          "term_de": "komplexe Satzverbindung",
+          "covers": "long hypotactic chains and mixed paratactic-hypotactic structures.",
+          "provider_split": false
+        },
+        {
+          "n": 11,
+          "topic_en": "Precision of connectors at fine semantic level",
+          "term_de": "Konnektoren mit feiner Bedeutungsdifferenzierung",
+          "covers": "separating restrictive from concessive from causal from consecutive in one text.",
+          "provider_split": false
+        },
+        {
+          "n": 12,
+          "topic_en": "Professional and technical text conventions",
+          "term_de": "Textkonventionen in Fachsprache",
+          "covers": "the grammar of instructions, specifications and technical documentation.",
+          "provider_split": false
+        }
+      ]
+    }
+  }
+}

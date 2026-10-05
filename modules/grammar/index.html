@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Grammar — Deutsch Lernen</title>
+<style>
+:root{
+  --font:"Segoe UI",system-ui,-apple-system,sans-serif;
+  --teal-900:#005A5A; --teal-700:#008282; --teal-400:#50C1C1; --teal-100:#95DFDB;
+  --amber:#E1A01E; --red:#C41E3A; --ink:#012D2C; --muted:#008282;
+  --page:#F0FAFA; --card:#FFF; --in:#F0FAFA; --border:#D0ECEB;
+  --shadow:0 1px 4px rgba(1,45,44,.10); --shadow-md:0 4px 14px rgba(1,45,44,.12);
+  --r:8px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font);font-size:16px;color:var(--teal-900);background:var(--page);
+  line-height:1.6;-webkit-font-smoothing:antialiased;padding-bottom:60px}
+
+/* ── NAVBAR (matches the other modules) ── */
+.navbar{display:flex;align-items:center;gap:12px;height:48px;padding:0 14px;
+  background:var(--teal-900);border-bottom:1px solid rgba(149,223,219,.15);
+  position:sticky;top:0;z-index:100;flex-shrink:0}
+.brand-icon{display:flex;align-items:center;flex-shrink:0}
+.nav-pipe{width:1px;height:16px;background:rgba(149,223,219,.30);flex-shrink:0;margin:0 12px}
+.nav-brand-text{font-size:.95rem;font-weight:600;color:var(--teal-100);text-decoration:none;white-space:nowrap}
+.nav-actions{margin-left:auto;display:flex;align-items:center;gap:8px}
+.icon-btn{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;padding:0;
+  color:var(--teal-100);background:rgba(149,223,219,.12);border:1px solid rgba(149,223,219,.22);
+  border-radius:4px;cursor:pointer;transition:130ms;text-decoration:none;flex-shrink:0}
+.icon-btn:hover{background:rgba(149,223,219,.24);border-color:rgba(149,223,219,.45)}
+.icon-btn svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:2;
+  stroke-linecap:round;stroke-linejoin:round}
+@media (max-width:560px){.nav-brand-text{font-size:.85rem}}
+
+.wrap{max-width:1040px;margin:0 auto;padding:16px 16px 0}
+
+h1{font-size:1.5rem;line-height:1.3;margin:6px 0 2px}
+.sub{color:var(--muted);font-size:.92rem;margin-bottom:16px;max-width:70ch}
+
+.meta{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:12px}
+.tag{font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;
+  padding:3px 9px;border-radius:11px;background:rgba(0,130,130,.10);color:var(--teal-700)}
+.tag.amber{background:rgba(225,160,30,.18);color:#7A5000}
+
+/* ── CONTROLS ── */
+.controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:6px}
+.levels{display:flex;gap:6px;flex-wrap:wrap}
+.lvl-btn{font-family:var(--font);font-size:.8rem;font-weight:600;color:var(--teal-700);
+  background:var(--card);border:1px solid var(--border);border-radius:4px;
+  padding:6px 13px;cursor:pointer;transition:130ms;white-space:nowrap}
+.lvl-btn:hover{border-color:var(--teal-400)}
+.lvl-btn[aria-pressed="true"]{background:var(--teal-900);color:#fff;border-color:var(--teal-900)}
+.lvl-btn .cnt{opacity:.65;font-weight:400;margin-left:5px;font-size:.92em}
+.search{flex:1;min-width:180px;font-family:var(--font);font-size:.88rem;color:var(--ink);
+  background:var(--card);border:1px solid var(--border);border-radius:4px;padding:7px 11px}
+.search:focus{outline:none;border-color:var(--teal-400);box-shadow:0 0 0 3px rgba(80,193,193,.16)}
+.hint{font-size:.8rem;color:var(--muted);margin:8px 0 16px}
+
+/* ── PROGRESS ── */
+.progress{background:var(--card);border:1px solid var(--border);border-radius:var(--r);
+  padding:12px 14px;margin-bottom:18px;box-shadow:var(--shadow)}
+.prow{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.bar{flex:1;min-width:160px;height:7px;background:rgba(0,130,130,.10);border-radius:4px;overflow:hidden}
+.bar > span{display:block;height:100%;background:var(--teal-400);width:0;transition:width .2s}
+.pstat{font-size:.82rem;color:var(--muted);white-space:nowrap}
+.pstat b{color:var(--teal-700)}
+
+/* ── LEVEL BLOCK ── */
+.level{margin-bottom:26px}
+.level-head{display:flex;align-items:baseline;gap:10px;padding-bottom:7px;
+  border-bottom:2px solid var(--teal-400);margin-bottom:12px}
+.level-head h2{font-size:1.05rem;letter-spacing:.02em}
+.level-head .n{font-size:.8rem;color:var(--muted);margin-left:auto;white-space:nowrap}
+.level-note{font-size:.82rem;color:var(--muted);margin-bottom:12px}
+
+/* ── TOPIC LIST ── */
+.topics{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:10px}
+.topic{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:12px 13px;
+  box-shadow:var(--shadow);position:relative}
+.topic.done{border-color:rgba(29,122,76,.45);background:rgba(29,122,76,.045)}
+.topic .th{display:flex;gap:9px;align-items:flex-start}
+.num{flex-shrink:0;width:23px;height:23px;border-radius:50%;background:rgba(0,130,130,.10);
+  color:var(--teal-700);font-size:.7rem;font-weight:700;display:flex;align-items:center;
+  justify-content:center;margin-top:1px}
+.topic.done .num{background:rgba(29,122,76,.16);color:var(--green,#1D7A4C)}
+.ename{font-size:.94rem;font-weight:600;color:var(--ink);line-height:1.35}
+.term{display:block;font-size:.82rem;color:var(--teal-700);font-style:italic;margin-top:1px}
+.covers{font-size:.83rem;color:var(--muted);margin-top:6px}
+.foot{display:flex;align-items:center;gap:8px;margin-top:9px}
+.markbtn{font-family:var(--font);font-size:.72rem;font-weight:600;letter-spacing:.02em;
+  color:var(--muted);background:transparent;border:1px solid var(--border);border-radius:4px;
+  padding:3px 9px;cursor:pointer;transition:130ms;white-space:nowrap}
+.markbtn:hover{border-color:var(--teal-400);color:var(--teal-700)}
+.topic.done .markbtn{color:#1D7A4C;border-color:rgba(29,122,76,.4)}
+.split{margin-top:8px;font-size:.76rem;color:#7A5000;background:rgba(225,160,30,.12);
+  border-left:3px solid var(--amber);border-radius:0 4px 4px 0;padding:6px 9px}
+
+.empty{text-align:center;padding:44px 16px;color:var(--muted)}
+.empty h3{font-size:1rem;margin-bottom:5px}
+
+/* ── SOURCES ── */
+details.sources{background:var(--card);border:1px solid var(--border);border-radius:var(--r);
+  padding:12px 14px;margin-bottom:22px;box-shadow:var(--shadow)}
+details.sources summary{font-weight:600;font-size:.88rem;cursor:pointer;color:var(--teal-900)}
+details.sources .body{padding-top:11px;font-size:.83rem;color:var(--muted)}
+details.sources ul{margin:0 0 11px;padding-left:19px}
+details.sources li{margin-bottom:5px}
+details.sources .cav{border-top:1px dotted var(--border);padding-top:11px}
+details.sources .cav strong{color:#7A5000}
+
+footer{text-align:center;padding:18px 16px;border-top:1px solid var(--border);
+  font-size:.8rem;color:var(--muted)}
+footer strong{color:var(--teal-700)}
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+  <a class="brand-icon" href="../../" aria-label="Deutsch Lernen home">
+    <svg width="24" height="17" viewBox="0 0 31 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0"  y="0"  width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="0"  width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="0"  width="9" height="6" rx="1.5" fill="#008282"/>
+      <rect x="0"  y="8"  width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="8"  width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="8"  width="9" height="6" rx="1.5" fill="#008282"/>
+      <rect x="0"  y="16" width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="16" width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="16" width="9" height="6" rx="1.5" fill="#E1A01E"/>
+    </svg>
+  </a>
+  <div class="nav-pipe"></div>
+  <a class="nav-brand-text" href="../../">Grammar</a>
+  <div class="nav-actions">
+    <a class="icon-btn" href="../../" title="Back to all modules" aria-label="Back to all modules">
+      <svg viewBox="0 0 24 24"><path d="M3 12l9-9 9 9"></path><path d="M5 10v10h14V10"></path></svg>
+    </a>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <div class="meta">
+    <span class="tag amber" id="tagTotal">— topics</span>
+    <span class="tag">B1 → B2 → C1 → C2</span>
+    <span class="tag">Grammar only</span>
+  </div>
+
+  <h1>Grammar Review</h1>
+  <p class="sub">A complete reference of German grammar topics from B1 to C2, ordered so
+     each one builds on the last. Mark a topic done as you work through the grammar module.</p>
+
+  <div class="controls">
+    <div class="levels" id="levels" role="group" aria-label="Filter by level"></div>
+    <input class="search" id="search" type="search" placeholder="Search topics or German terms…"
+           aria-label="Search grammar topics">
+  </div>
+  <p class="hint" id="hint">Showing all levels.</p>
+
+  <div class="progress">
+    <div class="prow">
+      <div class="bar"><span id="barFill"></span></div>
+      <span class="pstat" id="pstat">—</span>
+    </div>
+  </div>
+
+  <div id="out"></div>
+
+  <details class="sources">
+    <summary>Sources and level-placement caveats</summary>
+    <div class="body">
+      <strong>Built from</strong>
+      <ul id="srcList"></ul>
+      <div class="cav">
+        <strong>Read this before trusting a level label.</strong>
+        <ul id="cavList"></ul>
+      </div>
+    </div>
+  </details>
+
+</div>
+
+<footer><strong>Deutsch Lernen</strong> · Roman Zajic</footer>
+
+<script>
+(function(){
+  "use strict";
+  var DATA_URL = "../../data/grammar_topics.json";
+  var STORE_KEY = "grammar_done_v1";
+  var LEVELS = ["B1","B2","C1","C2"];
+
+  var data = null, activeLevel = "ALL", query = "", done = {};
+
+  function loadDone(){
+    try { done = JSON.parse(localStorage.getItem(STORE_KEY)) || {}; } catch(e){ done = {}; }
+  }
+  function saveDone(){
+    try { localStorage.setItem(STORE_KEY, JSON.stringify(done)); } catch(e){}
+  }
+  function key(lv,n){ return lv + ":" + n; }
+
+  function esc(s){
+    return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+  }
+
+  function matches(t){
+    if(!query) return true;
+    var q = query.toLowerCase();
+    return (t.topic_en + " " + t.term_de + " " + t.covers).toLowerCase().indexOf(q) !== -1;
+  }
+
+  function countAll(){
+    var n = 0;
+    LEVELS.forEach(function(lv){ n += (data.levels[lv] ? data.levels[lv].count : 0); });
+    return n;
+  }
+
+  function renderLevels(){
+    var el = document.getElementById("levels");
+    var total = countAll();
+    var html = '<button class="lvl-btn" data-lv="ALL" aria-pressed="' + (activeLevel==="ALL") +
+      '">All <span class="cnt">' + total + '</span></button>';
+    LEVELS.forEach(function(lv){
+      var L = data.levels[lv];
+      if(!L) return;
+      html += '<button class="lvl-btn" data-lv="' + lv + '" aria-pressed="' + (activeLevel===lv) +
+        '">' + lv + ' <span class="cnt">' + L.count + '</span></button>';
+    });
+    el.innerHTML = html;
+    Array.prototype.forEach.call(el.querySelectorAll(".lvl-btn"), function(b){
+      b.addEventListener("click", function(){
+        activeLevel = b.getAttribute("data-lv");
+        render();
+      });
+    });
+  }
+
+  function renderProgress(shownTotal){
+    var all = countAll(), doneN = 0;
+    LEVELS.forEach(function(lv){
+      var L = data.levels[lv]; if(!L) return;
+      L.topics.forEach(function(t){ if(done[key(lv,t.n)]) doneN++; });
+    });
+    var pct = all ? Math.round(doneN / all * 100) : 0;
+    document.getElementById("barFill").style.width = pct + "%";
+    var stat = doneN === 0
+      ? "Not started · " + all + " topics"
+      : "<b>" + doneN + "</b> of " + all + " marked done · " + pct + "%";
+    if(shownTotal !== all) stat += " · showing " + shownTotal;
+    document.getElementById("pstat").innerHTML = stat;
+  }
+
+  function renderTopics(){
+    var out = document.getElementById("out");
+    var html = "", shown = 0;
+
+    LEVELS.forEach(function(lv){
+      if(activeLevel !== "ALL" && activeLevel !== lv) return;
+      var L = data.levels[lv]; if(!L) return;
+      var topics = L.topics.filter(matches);
+      if(!topics.length) return;
+      shown += topics.length;
+
+      html += '<section class="level">';
+      html += '<div class="level-head"><h2>' + lv + '</h2><span class="n">' +
+              topics.length + ' of ' + L.count + ' topics</span></div>';
+      html += '<div class="topics">';
+      topics.forEach(function(t){
+        var k = key(lv,t.n), isDone = !!done[k];
+        html += '<article class="topic' + (isDone ? " done" : "") + '" id="t' + esc(k) + '">';
+        html += '<div class="th"><span class="num">' + t.n + '</span><span class="ename">' +
+                esc(t.topic_en) + '<span class="term">' + esc(t.term_de) + '</span></span></div>';
+        html += '<p class="covers">' + esc(t.covers) + '</p>';
+        if(t.split_note){
+          html += '<div class="split"><b>Provider split:</b> ' + esc(t.split_note) + '</div>';
+        }
+        html += '<div class="foot"><button class="markbtn" data-k="' + esc(k) + '">' +
+                (isDone ? "✓ Done" : "Mark done") + '</button></div>';
+        html += '</article>';
+      });
+      html += '</div></section>';
+    });
+
+    if(!shown){
+      html = '<div class="empty"><h3>No topics match “' + esc(query) + '”</h3>' +
+             '<p>Try a German term such as Genitiv, Passiv or Konjunktiv.</p></div>';
+    }
+    out.innerHTML = html;
+
+    Array.prototype.forEach.call(out.querySelectorAll(".markbtn"), function(b){
+      b.addEventListener("click", function(){
+        var k = b.getAttribute("data-k");
+        if(done[k]) delete done[k]; else done[k] = Date.now();
+        saveDone();
+        render();
+      });
+    });
+
+    renderProgress(shown);
+  }
+
+  function renderHint(){
+    var h = document.getElementById("hint");
+    if(query) h.textContent = 'Matching “' + query + '” in ' + (activeLevel === "ALL" ? "all levels" : activeLevel) + ".";
+    else if(activeLevel === "ALL") h.textContent = "Showing all levels, in teaching order.";
+    else h.textContent = "Showing " + activeLevel + ", in teaching order.";
+  }
+
+  function render(){
+    renderLevels();
+    renderHint();
+    renderTopics();
+  }
+
+  function renderSources(){
+    var sl = document.getElementById("srcList"), cl = document.getElementById("cavList");
+    sl.innerHTML = (data.sources || []).map(function(s){
+      return "<li>" + esc(s) + "</li>";
+    }).join("");
+    cl.innerHTML = (data.caveats || []).map(function(c){
+      return "<li>" + esc(c) + "</li>";
+    }).join("");
+  }
+
+  var t;
+  function debouncedFetch(){
+    fetch(DATA_URL + "?cb=" + Date.now())
+      .then(function(r){ if(!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+      .then(function(d){
+        data = d;
+        document.getElementById("tagTotal").textContent = countAll() + " topics";
+        renderSources();
+        render();
+      })
+      .catch(function(e){
+        document.getElementById("out").innerHTML =
+          '<div class="empty"><h3>Could not load the topic list</h3><p>' + esc(e.message) +
+          '</p></div>';
+      });
+  }
+
+  loadDone();
+  debouncedFetch();
+
+  document.getElementById("search").addEventListener("input", function(e){
+    query = e.target.value.trim();
+    renderHint();
+    renderTopics();
+  });
+})();
+</script>
+</body>
+</html>
