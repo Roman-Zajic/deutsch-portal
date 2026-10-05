@@ -81,11 +81,25 @@ function splitSentences(text){
     /* garde 2 - une nouvelle phrase commence par une majuscule, un chiffre
        ou un guillemet ouvrant. Un guillemet FERMET se glisse entre le point
        et la majuscule suivante, comme dans « Bonjour. » Ensuite... */
-    let k = j;
-    while(k < clean.length && (clean[k] === " " || /["'”’»)\]]/.test(clean[k]))) k++;
+    /* un guillemet fermant appartient a la phrase qu'il termine :
+       « Bonjour. » donne la phrase « Bonjour. », pas « Bonjour »
+       On n'avance que sur un guillemet FERMET, jamais sur « ou ", et
+       l'avance s'arrete au premier espace significant. */
+    let end = i + 1;
+    if(clean[end] === " " && /["'”’»)\]]/.test(clean[end + 1] || "")){
+      let q = end + 1;
+      while(q < clean.length && /["'”’»)\]]/.test(clean[q])) q++;
+      if(q < clean.length && clean[q] === " ") end = q;   // le guillemet ferme ici
+    }
+    let k = end;
+    while(k < clean.length && clean[k] === " ") k++;
     const realNext = clean[k] || "";
     const looksNew = !realNext || /[«“‘(\-–]?[A-ZÉÈÊÀÎÔÛÇ0-9]/.test(realNext);
-    if(looksNew && candidate.length > 1){ out.push(candidate); buf = ""; }
+    if(looksNew && candidate.length > 1){
+      out.push(clean.slice(0, end).trim());
+      buf = "";
+      i = end - 1;
+    }
   }
   const rest = buf.trim();
   if(rest) out.push(rest);
@@ -315,11 +329,25 @@ function splitSentences(text){
     /* garde 2 - une nouvelle phrase commence par une majuscule, un chiffre
        ou un guillemet ouvrant. Un guillemet FERMET se glisse entre le point
        et la majuscule suivante, comme dans « Bonjour. » Ensuite il partit. */
-    let k = j;
-    while(k < clean.length && (clean[k] === " " || /["'”’»)\]]/.test(clean[k]))) k++;
+    /* un guillemet fermant appartient a la phrase qu'il termine :
+       « Bonjour. » donne la phrase « Bonjour. », pas « Bonjour »
+       On n'avance que sur un guillemet FERMET, jamais sur « ou ", et
+       l'avance s'arrete au premier espace significant. */
+    let end = i + 1;
+    if(clean[end] === " " && /["'”’»)\]]/.test(clean[end + 1] || "")){
+      let q = end + 1;
+      while(q < clean.length && /["'”’»)\]]/.test(clean[q])) q++;
+      if(q < clean.length && clean[q] === " ") end = q;   // le guillemet ferme ici
+    }
+    let k = end;
+    while(k < clean.length && clean[k] === " ") k++;
     const realNext = clean[k] || "";
     const looksNew = !realNext || /[«“‘(\-–]?[A-ZÉÈÊÀÎÔÛÇ0-9]/.test(realNext);
-    if(looksNew && candidate.length > 1){ out.push(candidate); buf = ""; }
+    if(looksNew && candidate.length > 1){
+      out.push(clean.slice(0, end).trim());
+      buf = "";
+      i = end - 1;
+    }
   }
   const rest = buf.trim();
   if(rest) out.push(rest);
