@@ -93,6 +93,13 @@ def build(spec):
         if anchor not in out:
             raise SystemExit("expected anchor missing: %s" % anchor)
 
+    # Long German example sentences must never push a reference table wider than
+    # the viewport on a phone. table-layout:fixed plus wrapping cells is the fix.
+    if "table-layout:fixed" not in out:
+        raise SystemExit("table overflow guard missing from the template CSS")
+    if "overflow-wrap:anywhere" not in out:
+        raise SystemExit("cell wrapping guard missing from the template CSS")
+
     return out
 
 

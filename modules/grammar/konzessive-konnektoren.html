@@ -63,7 +63,9 @@ small{color:var(--muted)}
   border-left:4px solid var(--green);border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
 .tipbox strong{color:var(--green)}
 
-table{width:100%;border-collapse:collapse;margin:12px 0;font-size:.88rem}
+table{width:100%;border-collapse:collapse;margin:12px 0;font-size:.88rem;
+  table-layout:fixed}
+th,td{overflow-wrap:anywhere;word-break:normal;hyphens:auto}
 th,td{text-align:left;padding:7px 9px;border-bottom:1px solid var(--border);vertical-align:top}
 th{background:var(--in);font-weight:700;font-size:.76rem;text-transform:uppercase;
   letter-spacing:.04em;color:var(--teal-700)}
