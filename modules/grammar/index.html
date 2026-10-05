@@ -175,6 +175,11 @@ footer strong{color:var(--teal-700)}
     <input class="search" id="search" type="search" placeholder="Search topics or German terms…"
            aria-label="Search grammar topics">
   </div>
+  <div class="controls2">
+    <button class="lvl-btn released-toggle" id="onlyReleased" aria-pressed="false">
+      Released only <span class="cnt" id="relCnt">—</span>
+    </button>
+  </div>
   <p class="hint" id="hint">Showing all levels.</p>
 
   <div class="progress">
@@ -223,7 +228,20 @@ footer strong{color:var(--teal-700)}
     return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
   }
 
+  // a topic counts as released when it has a dedicated page to open
+  function isReleased(t){ return !!(t && t.page); }
+
+  function countReleased(){
+    var n = 0;
+    LEVELS.forEach(function(lv){
+      var L = data.levels[lv]; if(!L) return;
+      L.topics.forEach(function(t){ if(isReleased(t)) n++; });
+    });
+    return n;
+  }
+
   function matches(t){
+    if(onlyReleased && !isReleased(t)) return false;
     if(!query) return true;
     var q = query.toLowerCase();
     return (t.topic_en + " " + t.term_de + " " + t.covers).toLowerCase().indexOf(q) !== -1;
