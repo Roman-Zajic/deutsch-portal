@@ -1,0 +1,706 @@
+{
+ "exercises": [
+  {
+   "id": 1,
+   "skill": "sich lassen + infinitive",
+   "english": "The repair can be done in ten minutes.",
+   "german": "Diese Reparatur lässt sich in zehn Minuten erledigen.",
+   "why": "sich lassen expresses possibility; the verb stays an infinitive with no zu, and the subject of sich is the thing itself."
+  },
+  {
+   "id": 2,
+   "skill": "sich lassen + infinitive",
+   "english": "The application form can be filled in online.",
+   "german": "Das Antragsformular lässt sich bequem online ausfüllen.",
+   "why": "The form is the reflexive subject and ausfüllen is a separable infinitive, so the prefix joins it: ausfüllen, not aus zu füllen."
+  },
+  {
+   "id": 3,
+   "skill": "sich lassen + infinitive",
+   "english": "A mistake like that cannot be undone.",
+   "german": "Ein solches Versehen lässt sich leider nicht wiedergutmachen.",
+   "why": "wiedergutmachen is inseparable, so the prefix sits inside the infinitive; leider carries the speaker's assessment."
+  },
+  {
+   "id": 4,
+   "skill": "sich lassen + infinitive",
+   "english": "An appointment can only be made by phone.",
+   "german": "Der Termin lässt sich nur telefonisch vereinbaren.",
+   "why": "Only narrows the possible method; the agent is irrelevant, which is exactly what sich lassen leaves out."
+  },
+  {
+   "id": 5,
+   "skill": "sich lassen + infinitive",
+   "english": "There is no way to avoid the fee.",
+   "german": "Die Gebühr lässt sich nicht umgehen.",
+   "why": "umgehen is inseparable and um- is a stressed prefix, so the word keeps its form inside the infinitive."
+  },
+  {
+   "id": 6,
+   "skill": "sich lassen + infinitive",
+   "english": "The vegetables freeze very well.",
+   "german": "Das Gemüse lässt sich gut einfrieren.",
+   "why": "Object-as-subject plus einfrieren; separable ein- attaches directly to the infinitive."
+  },
+  {
+   "id": 7,
+   "skill": "sich lassen + infinitive",
+   "english": "The car can hardly be sold any more.",
+   "german": "Der Wagen lässt sich kaum noch verkaufen.",
+   "why": "kaum noch doubles the restriction and keeps the focus on the difficulty rather than on a seller."
+  },
+  {
+   "id": 8,
+   "skill": "sich lassen + infinitive",
+   "english": "This task can also be solved without previous knowledge.",
+   "german": "Diese Aufgabe lässt sich auch ohne Vorkenntnisse lösen.",
+   "why": "The bare infinitive lösen follows the reflexive pronoun; a zu would be wrong here."
+  },
+  {
+   "id": 9,
+   "skill": "sich lassen + infinitive",
+   "english": "The new rules can no longer be changed.",
+   "german": "Die neuen Regeln lassen sich nicht mehr ändern.",
+   "why": "nicht mehr marks a change that has already become final, which suits the impersonal evaluation of sich lassen."
+  },
+  {
+   "id": 10,
+   "skill": "sich lassen + infinitive",
+   "english": "The obstacle could only be overcome with great difficulty.",
+   "german": "Das Hindernis ließ sich nur schwer überwinden.",
+   "why": "Präteritum of lassen (ließ) with a bare infinitive; lassen changes its stem vowel in the past."
+  },
+  {
+   "id": 11,
+   "skill": "sich lassen + infinitive",
+   "english": "The fridge is easy to clean.",
+   "german": "Der Kühlschrank lässt sich leicht reinigen.",
+   "why": "reinigen is separable, so the prefix is glued to the infinitive; leicht replaces a free would-expression."
+  },
+  {
+   "id": 12,
+   "skill": "sich lassen + infinitive",
+   "english": "The offer can hardly be beaten.",
+   "german": "Das Angebot lässt sich kaum noch unterbieten.",
+   "why": "unterbieten is inseparable and keeps the prefix ui-; the sense of to beat on price is expressed by the infinitive."
+  },
+  {
+   "id": 13,
+   "skill": "sich lassen + infinitive",
+   "english": "It is not easy to find a car park here.",
+   "german": "Hier lässt sich kaum ein Parkplatz finden.",
+   "why": "With dative objects sich lassen takes zu plus infinitive, and the order is zu before the separable verb."
+  },
+  {
+   "id": 14,
+   "skill": "sich lassen + infinitive",
+   "english": "The software can be downloaded for free.",
+   "german": "Die Software lässt sich kostenlos herunterladen.",
+   "why": "herunterladen is separable, so the prefix attaches to the infinitive; kostenlos names the condition, not an agent."
+  },
+  {
+   "id": 15,
+   "skill": "sich lassen + infinitive",
+   "english": "This material can be recycled easily.",
+   "german": "Das Material lässt sich leicht recyceln.",
+   "why": "recyceln is a bare infinitive with no prefix and no zu, the simplest sich lassen pattern."
+  },
+  {
+   "id": 16,
+   "skill": "sich lassen + infinitive",
+   "english": "The results cannot be clarified by phone.",
+   "german": "Die Ergebnisse lassen sich nicht telefonisch klären.",
+   "why": "klären is a weak separable verb, so the prefix moves to the end of the infinitive phrase: klären."
+  },
+  {
+   "id": 17,
+   "skill": "sich lassen + infinitive",
+   "english": "The contract can be cancelled at any time.",
+   "german": "Der Vertrag lässt sich jederzeit kündigen.",
+   "why": "kündigen is separable with a umlaut; jederzeit makes the possibility unlimited in time."
+  },
+  {
+   "id": 18,
+   "skill": "sich lassen + infinitive",
+   "english": "This rule cannot sensibly be applied to cryptocurrencies.",
+   "german": "Diese Regel lässt sich nicht sinnvoll auf Kryptowährungen anwenden.",
+   "why": "The dative object Kryptowährungen forces the zu-infinitive: anzuwenden, with zu directly on the verb."
+  },
+  {
+   "id": 19,
+   "skill": "sich lassen + infinitive",
+   "english": "The error could be eliminated by restarting.",
+   "german": "Der Fehler ließ sich durch einen Neustart beheben.",
+   "why": "A past sich lassen with a means phrase introduced by durch plus accusative instead of a named agent."
+  },
+  {
+   "id": 20,
+   "skill": "sich lassen + infinitive",
+   "english": "Luckily the situation could be defused.",
+   "german": "Die Situation ließ sich zum Glück entschärfen.",
+   "why": "zum Glück as an adverbial before the infinitive shows the result-oriented, agentless reading."
+  },
+  {
+   "id": 21,
+   "skill": "bekommen + Partizip II",
+   "english": "I got the letter yesterday.",
+   "german": "Ich habe gestern den Brief bekommen.",
+   "why": "In the bekommen-passive the recipient is the subject and keeps the active accusative object."
+  },
+  {
+   "id": 22,
+   "skill": "bekommen + Partizip II",
+   "english": "She got her car back.",
+   "german": "Sie hat ihr Auto zurückbekommen.",
+   "why": "zurück is written as one word with bekommen; the reflexive-looking dative object Auto shows who benefits."
+  },
+  {
+   "id": 23,
+   "skill": "bekommen + Partizip II",
+   "english": "We got the application submitted.",
+   "german": "Wir haben den Antrag eingereicht bekommen.",
+   "why": "Perfect with two participles: the state (eingereicht) plus bekommen, which makes the recipients the grammatical subject."
+  },
+  {
+   "id": 24,
+   "skill": "bekommen + Partizip II",
+   "english": "He got his passport renewed.",
+   "german": "Er hat seinen Pass erneuert bekommen.",
+   "why": "The same double-participle pattern as with Antrag, but the accusative object is a person-related possessive object."
+  },
+  {
+   "id": 25,
+   "skill": "bekommen + Partizip II",
+   "english": "I got two tickets.",
+   "german": "Ich habe zwei Karten bekommen.",
+   "why": "Simple bekommen with an accusative object; nothing here is passive in the strict sense, yet the focus is on receiving."
+  },
+  {
+   "id": 26,
+   "skill": "bekommen + Partizip II",
+   "english": "They had their luggage delivered yesterday.",
+   "german": "Sie haben ihr Gepäck gestern zugestellt bekommen.",
+   "why": "bekommen + Partizip II: the recipient stays the subject, so this is not a passive."
+  },
+  {
+   "id": 27,
+   "skill": "bekommen + Partizip II",
+   "english": "She got an extension from the authority.",
+   "german": "Sie hat von der Behörde einen Aufschub bekommen.",
+   "why": "bekommen + Partizip II with the source expressed as a von-phrase, which would be a dative in the passive."
+  },
+  {
+   "id": 28,
+   "skill": "bekommen + Partizip II",
+   "english": "I got a new job.",
+   "german": "Ich habe eine neue Stelle bekommen.",
+   "why": "Stelle rather than Job, as in standard B2 usage; bekommen highlights the benefit for the subject."
+  },
+  {
+   "id": 29,
+   "skill": "bekommen + Partizip II",
+   "english": "He got a formal warning.",
+   "german": "Er hat eine Abmahnung bekommen.",
+   "why": "An unwelcome result still fits bekommen because the recipient is the subject, not the cause."
+  },
+  {
+   "id": 30,
+   "skill": "bekommen + Partizip II",
+   "english": "My aunt gave me the book.",
+   "german": "Ich habe das Buch von meiner Tante bekommen.",
+   "why": "The giver is expressed as a source with von plus dative after the past participle, not as a subject."
+  },
+  {
+   "id": 31,
+   "skill": "bekommen + Partizip II",
+   "english": "She got the news from her colleague.",
+   "german": "Sie hat die Nachricht von ihrer Kollegin bekommen.",
+   "why": "von plus dative marks the source; the dative ending -in on Kollegin is the standard female form."
+  },
+  {
+   "id": 32,
+   "skill": "bekommen + Partizip II",
+   "english": "We got permission from the landlord.",
+   "german": "Wir haben die Erlaubnis vom Vermieter bekommen.",
+   "why": "Vom is the contracted form of von dem, common with institutional sources in a bekommen-construction."
+  },
+  {
+   "id": 33,
+   "skill": "bekommen + Partizip II",
+   "english": "Did you get an answer?",
+   "german": "Hast du eine Antwort bekommen?",
+   "why": "A yes-no question with the separable prefix of bekommen in the first position of the main clause."
+  },
+  {
+   "id": 34,
+   "skill": "bekommen + Partizip II",
+   "english": "The mechanic gave me an explanation.",
+   "german": "Ich habe von dem Mechaniker eine Erklärung bekommen.",
+   "why": "With a source phrase plus object, the von-phrase can come first; it still leaves the recipient as subject."
+  },
+  {
+   "id": 35,
+   "skill": "bekommen + Partizip II",
+   "english": "Have you received the documents?",
+   "german": "Haben Sie die Unterlagen bekommen?",
+   "why": "Formal Sie as the subject of a bekommen-perfect question, the same form the active werden would require."
+  },
+  {
+   "id": 36,
+   "skill": "bekommen + Partizip II",
+   "english": "She got a lot of gifts for her birthday.",
+   "german": "Sie hat viele Geschenke zu ihrem Geburtstag bekommen.",
+   "why": "zu plus dative gives the occasion; the accusative plural object precedes the past participle."
+  },
+  {
+   "id": 37,
+   "skill": "bekommen + Partizip II",
+   "english": "He got the parcel.",
+   "german": "Er hat die Sendung bekommen.",
+   "why": "Sendung rather than Paket keeps the register neutral; bekommen covers a purely factual receipt."
+  },
+  {
+   "id": 38,
+   "skill": "bekommen + Partizip II",
+   "english": "I got an extension of the deadline.",
+   "german": "Ich habe eine Fristverlängerung bekommen.",
+   "why": "The long compound noun is the accusative object; the benefit-for-the-subject reading motivates bekommen."
+  },
+  {
+   "id": 39,
+   "skill": "bekommen + Partizip II",
+   "english": "He got a parking ticket.",
+   "german": "Er hat ein Knöllchen bekommen.",
+   "why": "A negative result is still expressed with bekommen, because the point is the effect on the subject, not the issuing authority."
+  },
+  {
+   "id": 40,
+   "skill": "bekommen + Partizip II",
+   "english": "We got a discount.",
+   "german": "Wir haben einen Rabatt bekommen.",
+   "why": "A modest benefit where bekäme would be less idiomatic; bekommen is the neutral everyday verb."
+  },
+  {
+   "id": 41,
+   "skill": "Unpersönliches Passiv",
+   "english": "There is no smoking here.",
+   "german": "Hier wird nicht geraucht.",
+   "why": "The agentless passive: wird plus Partizip II with no subject, which is typical of a posted rule."
+  },
+  {
+   "id": 42,
+   "skill": "Unpersönliches Passiv",
+   "english": "You have to park here.",
+   "german": "Hier muss geparkt werden.",
+   "why": "Modal plus passive: the modal is conjugated in the finite slot, geparkt then wird as an infinitive block."
+  },
+  {
+   "id": 43,
+   "skill": "Unpersönliches Passiv",
+   "english": "In Germany you drive on the right.",
+   "german": "In Deutschland wird rechts gefahren.",
+   "why": "A general rule takes agentless passive; fahren keeps its stem change to the participle gefahren."
+  },
+  {
+   "id": 44,
+   "skill": "Unpersönliches Passiv",
+   "english": "No work is done at the weekend.",
+   "german": "Am Wochenende wird nicht gearbeitet.",
+   "why": "Unpersönliches Passiv: no subject and no agent, the missing doer is left to be understood."
+  },
+  {
+   "id": 45,
+   "skill": "Unpersönliches Passiv",
+   "english": "A lot of trees have been planted here.",
+   "german": "Hier wurden viele Bäume gepflanzt.",
+   "why": "Präteritum of the agentless passive, normal in German narrative prose rather than a Perfekt with many trees."
+  },
+  {
+   "id": 46,
+   "skill": "Unpersönliches Passiv",
+   "english": "In that house, baking used to take place every morning.",
+   "german": "In dem Haus wurde früher jeden Morgen gebacken.",
+   "why": "Unpersönliches Passiv in the simple past with a time adverb in position I."
+  },
+  {
+   "id": 47,
+   "skill": "Unpersönliches Passiv",
+   "english": "You can see the castle from here.",
+   "german": "Von hier aus kann man die Burg sehen.",
+   "why": "Here the impersonal passive is replaced by man, which points to any unspecified viewer rather than naming one."
+  },
+  {
+   "id": 48,
+   "skill": "Unpersönliches Passiv",
+   "english": "One has to be patient.",
+   "german": "Man muss Geduld haben.",
+   "why": "A general recommendation with man as subject; the perfect-like idiom haben keeps the impersonal colour."
+  },
+  {
+   "id": 49,
+   "skill": "Unpersönliches Passiv",
+   "english": "The causes are still being argued about.",
+   "german": "Über die Ursachen wird noch gestritten.",
+   "why": "Unpersönliches Passiv with an über-phrase and an agentless participle clause."
+  },
+  {
+   "id": 50,
+   "skill": "Unpersönliches Passiv",
+   "english": "Tomorrow the results will be announced.",
+   "german": "Morgen werden die Ergebnisse bekanntgegeben.",
+   "why": "Future passive with werden in the finite slot; bekanntgeben forms one word with the participle bekanntgegeben."
+  },
+  {
+   "id": 51,
+   "skill": "Unpersönliches Passiv",
+   "english": "From May the new software will be worked with.",
+   "german": "Ab Mai wird mit der neuen Software gearbeitet.",
+   "why": "Unpersönliches Passiv: gearbeitet takes the preposition mit, which governs the dative, so the noun phrase is der neuen Software."
+  },
+  {
+   "id": 52,
+   "skill": "Unpersönliches Passiv",
+   "english": "People often complain about it.",
+   "german": "Es wird oft darüber geklagt.",
+   "why": "An impersonal passive with a prepositional object: the prefix of the participle attaches inside geklagt."
+  },
+  {
+   "id": 53,
+   "skill": "Unpersönliches Passiv",
+   "english": "One should have read the contract.",
+   "german": "Man hätte den Vertrag lesen sollen.",
+   "why": "The Konjunktiv II of sollen with an infinitive at the end, giving a reproach without naming anyone."
+  },
+  {
+   "id": 54,
+   "skill": "Unpersönliches Passiv",
+   "english": "Milk and cheese are sold in this shop.",
+   "german": "In diesem Laden werden Milch und Käse verkauft.",
+   "why": "The agentless passive with two subjects; the shop is only a place, not the doer, so it takes in plus accusative."
+  },
+  {
+   "id": 55,
+   "skill": "Unpersönliches Passiv",
+   "english": "In the past many people were displaced.",
+   "german": "In der Vergangenheit wurden viele Menschen vertrieben.",
+   "why": "Past passive; vertreiben takes no ge- between prefix and stem in the participle."
+  },
+  {
+   "id": 56,
+   "skill": "Unpersönliches Passiv",
+   "english": "That cannot be seen.",
+   "german": "Das kann man nicht sehen.",
+   "why": "man replaces the would-be agent, so the sentence is not a full passive but a man-impersonal one."
+  },
+  {
+   "id": 57,
+   "skill": "Unpersönliches Passiv",
+   "english": "After dinner the table is cleared.",
+   "german": "Nach dem Essen wird der Tisch abgeräumt.",
+   "why": "A routine in the present passive; abräumen is separable, so the participle is abgeräumt."
+  },
+  {
+   "id": 58,
+   "skill": "Unpersönliches Passiv",
+   "english": "It was reported that the accident had caused a jam.",
+   "german": "Es wurde berichtet, dass der Unfall einen Stau verursacht hatte.",
+   "why": "Two tenses in one sentence: reported in the preterite passive, the cause in the plusquamperfekt with verb last."
+  },
+  {
+   "id": 59,
+   "skill": "Unpersönliches Passiv",
+   "english": "Smoking is not allowed in the rooms.",
+   "german": "In den Räumen darf nicht geraucht werden.",
+   "why": "Unpersönliches Passiv with a modal finite verb: modal first, participle, werden last."
+  },
+  {
+   "id": 60,
+   "skill": "Unpersönliches Passiv",
+   "english": "The building is being renovated at the moment.",
+   "german": "Es wird gerade renoviert.",
+   "why": "A progressive passive without a stated agent; the word gerade marks the ongoing action."
+  },
+  {
+   "id": 61,
+   "skill": "es gibt / es muss + zu + infinitive",
+   "english": "What is there to eat?",
+   "german": "Was gibt es zu essen?",
+   "why": "The classic es gibt plus zu-infinitive question, with essen unchanged after zu."
+  },
+  {
+   "id": 62,
+   "skill": "es gibt / es muss + zu + infinitive",
+   "english": "There is a lot to do.",
+   "german": "Es gibt viel zu tun.",
+   "why": "The idiomatic impersonal alternative to a passive; the infinitive tun follows zu directly."
+  },
+  {
+   "id": 63,
+   "skill": "es gibt / es muss + zu + infinitive",
+   "english": "There is a lot of room for improvement in this text.",
+   "german": "In diesem Text gibt es viel zu verbessern.",
+   "why": "Improvement is expressed as a zu-infinitive after es gibt, with no agent at all."
+  },
+  {
+   "id": 64,
+   "skill": "es gibt / es muss + zu + infinitive",
+   "english": "What is there to report?",
+   "german": "Was gibt es zu melden?",
+   "why": "The melden counterpart of essen, showing that the es gibt frame takes many different infinitives."
+  },
+  {
+   "id": 65,
+   "skill": "es gibt / es muss + zu + infinitive",
+   "english": "A lot still needs to be done.",
+   "german": "Es muss noch viel getan werden.",
+   "why": "muss with a passive infinitive in the es muss zu frame, keeping the agent out of view."
+  },
+  {
+   "id": 66,
+   "skill": "es gibt / es muss + zu + infinitive",
+   "english": "The topic still needs to be discussed in more detail.",
+   "german": "Das Thema muss noch ausführlicher besprochen werden.",
+   "why": "Adverbial before the participle; besprechen is inseparable, so the participle is besprochen."
+  },
+  {
+   "id": 67,
+   "skill": "es gibt / es muss + zu + infinitive",
+   "english": "There is nothing to object to.",
+   "german": "Es gibt nichts zu beanstanden.",
+   "why": "Nichts after es gibt plus a zu-infinitive, a fixed pattern in written reviews."
+  },
+  {
+   "id": 68,
+   "skill": "es gibt / es muss + zu + infinitive",
+   "english": "What do we need to take into account?",
+   "german": "Was ist bei der Anmeldung noch zu beachten?",
+   "why": "The frame es ist plus zu plus infinitive turns the passive into a short impersonal question."
+  },
+  {
+   "id": 69,
+   "skill": "es gibt / es muss + zu + infinitive",
+   "english": "There is a lot for which we have to thank her.",
+   "german": "Es gibt viel, wofür man ihr danken muss.",
+   "why": "The frame es ist plus zu plus infinitive replaces a passive with an unnamed person responsible."
+  },
+  {
+   "id": 70,
+   "skill": "es gibt / es muss + zu + infinitive",
+   "english": "There is nothing more to do today.",
+   "german": "Heute gibt es nichts mehr zu tun.",
+   "why": "nichts mehr and nicht mehr both appear; the frame with tun is the everyday neutral wording."
+  },
+  {
+   "id": 71,
+   "skill": "es gibt / es muss + zu + infinitive",
+   "english": "There is something to tidy up in the corridor.",
+   "german": "Im Flur gibt es etwas aufzuräumen.",
+   "why": "A separable verb in the zu-infinitive: the prefix goes inside, aufzuräumen."
+  },
+  {
+   "id": 72,
+   "skill": "es gibt / es muss + zu + infinitive",
+   "english": "There is something to bear in mind here.",
+   "german": "Hier gibt es etwas zu beachten.",
+   "why": "beachten is a plain infinitive, showing that the zu frame accepts non-separable verbs unchanged."
+  },
+  {
+   "id": 73,
+   "skill": "es gibt / es muss + zu + infinitive",
+   "english": "This proposal has to be revised.",
+   "german": "Dieser Vorschlag muss noch überarbeitet werden.",
+   "why": "A modal plus überarbeitet plus werden, the impersonal equivalent of a passive with an unnamed reviser."
+  },
+  {
+   "id": 74,
+   "skill": "es gibt / es muss + zu + infinitive",
+   "english": "There is still a few things to do.",
+   "german": "Da gibt es noch einiges zu erledigen.",
+   "why": "Einiges as a partitive quantity, which cannot stand as the subject of a passive but fits es gibt perfectly."
+  },
+  {
+   "id": 75,
+   "skill": "es gibt / es muss + zu + infinitive",
+   "english": "The decision must be made today.",
+   "german": "Die Entscheidung muss heute getroffen werden.",
+   "why": "treffen is inseparable and takes no ge- in the participle; the decision, not the decider, is the subject."
+  },
+  {
+   "id": 76,
+   "skill": "es gibt / es muss + zu + infinitive",
+   "english": "There is not much to lose.",
+   "german": "Es gibt nicht viel zu verlieren.",
+   "why": "verlieren is inseparable, so the zu-infinitive is zu verlieren with the prefix inside the verb."
+  },
+  {
+   "id": 77,
+   "skill": "es gibt / es muss + zu + infinitive",
+   "english": "This question still has to be clarified.",
+   "german": "Diese Frage muss noch geklärt werden.",
+   "why": "The klären-construction with muss and werden, the counterpart of es gibt etwas zu klären."
+  },
+  {
+   "id": 78,
+   "skill": "es gibt / es muss + zu + infinitive",
+   "english": "There is a lot to improve in the planning.",
+   "german": "Bei der Planung gibt es viel zu verbessern.",
+   "why": "The zu-infinitive after es gibt expresses a deficiency in the planning, not an action by a named person."
+  },
+  {
+   "id": 79,
+   "skill": "es gibt / es muss + zu + infinitive",
+   "english": "Do you have anything to declare?",
+   "german": "Haben Sie etwas zu verzollen?",
+   "why": "The customs formula keeps the same zu-infinitive frame; verzollen has a z-vowel change, not zzolln."
+  },
+  {
+   "id": 80,
+   "skill": "es gibt / es muss + zu + infinitive",
+   "english": "Two points still have to be clarified.",
+   "german": "Zwei Punkte müssen noch geklärt werden.",
+   "why": "A plural subject in a modal passive; Punkte needs no article change beyond the accusative zero ending."
+  },
+  {
+   "id": 81,
+   "skill": "Choosing the construction",
+   "english": "The owner had the broken window replaced.",
+   "german": "Die Eigentümerin ließ das kaputte Fenster ersetzen.",
+   "why": "Because the same person arranges and benefits, the causative lassen plus infinitive is the right choice, not bekommen."
+  },
+  {
+   "id": 82,
+   "skill": "Choosing the construction",
+   "english": "The landlord had the heating fixed.",
+   "german": "Der Vermieter ließ die Heizung reparieren.",
+   "why": "Causative lassen: the subject is the one who commissions, so it stays a subject of the lassen clause."
+  },
+  {
+   "id": 83,
+   "skill": "Choosing the construction",
+   "english": "I had my hair cut.",
+   "german": "Ich habe mir die Haare schneiden lassen.",
+   "why": "The dative of advantage mir with a body part; the perfect is possible here, though the present is more common."
+  },
+  {
+   "id": 84,
+   "skill": "Choosing the construction",
+   "english": "We had the flat renovated.",
+   "german": "Wir haben die Wohnung renovieren lassen.",
+   "why": "An external firm does the work, so lassen rather than bekommen, and the accusative object stays with the commissioning subject."
+  },
+  {
+   "id": 85,
+   "skill": "Choosing the construction",
+   "english": "She had her car serviced.",
+   "german": "Sie hat ihr Auto warten lassen.",
+   "why": "warten lassen is inseparable, so no zu appears even after haben; ihr Auto is the dative object of advantage."
+  },
+  {
+   "id": 86,
+   "skill": "Choosing the construction",
+   "english": "They had the leak repaired.",
+   "german": "Sie haben das Leck reparieren lassen.",
+   "why": "A separable infinitive after lassen: the prefix joins reparieren, and the agent is the plumber, not they."
+  },
+  {
+   "id": 87,
+   "skill": "Choosing the construction",
+   "english": "The city had the road resurfaced.",
+   "german": "Die Stadt hat die Straße neu asphaltieren lassen.",
+   "why": "An institution commissioning work takes the lassen-construction with an infinitive, not a passive with von der Stadt."
+  },
+  {
+   "id": 88,
+   "skill": "Choosing the construction",
+   "english": "The publisher had the manuscript proofread.",
+   "german": "Der Verlag hat das Manuskript lektorieren lassen.",
+   "why": "lektorieren is the industry term, and lassen plus infinitive expresses that the publisher arranged the check."
+  },
+  {
+   "id": 89,
+   "skill": "Choosing the construction",
+   "english": "The office is being renovated at the moment.",
+   "german": "Im Moment wird das Büro renoviert.",
+   "why": "A neutral statement of a current fact: the agentless passive is right, while lassen would wrongly make the office the commissioner."
+  },
+  {
+   "id": 90,
+   "skill": "Choosing the construction",
+   "english": "You are not allowed to smoke in this workshop.",
+   "german": "In dieser Werkstatt darf nicht geraucht werden.",
+   "why": "A prohibition needs the modal passive with werden; a man-clause would soften it into a personal remark."
+  },
+  {
+   "id": 91,
+   "skill": "Choosing the construction",
+   "english": "You can buy the tickets at the counter.",
+   "german": "Man kann die Karten am Schalter kaufen.",
+   "why": "Possibility for any person is expressed with man and a modal, which sounds far better than a passive here."
+  },
+  {
+   "id": 92,
+   "skill": "Choosing the construction",
+   "english": "A lot has been abolished since the reform.",
+   "german": "Seit der Reform wurde vieles abgeschafft.",
+   "why": "Vieles is a partitive subject that cannot become a normal passive subject, so the impersonal preterite passive is used."
+  },
+  {
+   "id": 93,
+   "skill": "Choosing the construction",
+   "english": "What still has to be clarified in the contract?",
+   "german": "Was muss im Vertrag noch geklärt werden?",
+   "why": "The question is about the task, not about who does it, so a modal passive with an implicit es is the natural choice."
+  },
+  {
+   "id": 94,
+   "skill": "Choosing the construction",
+   "english": "The participant was given a certificate.",
+   "german": "Die Teilnehmerin hat ein Zertifikat bekommen.",
+   "why": "bekommen-passive because the point is what the person received; a von-passive would be formal and unnecessary."
+  },
+  {
+   "id": 95,
+   "skill": "Choosing the construction",
+   "english": "I received an unexpected invitation.",
+   "german": "Ich habe eine unerwartete Einladung bekommen.",
+   "why": "A simple receipt with a benefit for the subject, which is exactly the core meaning of bekommen plus Partizip II."
+  },
+  {
+   "id": 96,
+   "skill": "Choosing the construction",
+   "english": "The question of financing still has to be clarified.",
+   "german": "Die Finanzierungsfrage ist noch zu klären.",
+   "why": "The short sein plus zu-infinitive variant, more compact than a modal passive in a written text."
+  },
+  {
+   "id": 97,
+   "skill": "Choosing the construction",
+   "english": "The whole file can be scanned quite easily.",
+   "german": "Die ganze Akte lässt sich gut einscannen.",
+   "why": "A possibility, so sich lassen with the bare infinitive einscannen beats a Vorgangspassiv with a made-up agent."
+  },
+  {
+   "id": 98,
+   "skill": "Choosing the construction",
+   "english": "The flat was cleaned before the viewing.",
+   "german": "Die Wohnung wurde vor der Besichtigung gereinigt.",
+   "why": "A completed past event with a time phrase: the normal Vorgangspassiv is the most natural here, agent dropped."
+  },
+  {
+   "id": 99,
+   "skill": "Choosing the construction",
+   "english": "The package was sent by the student union.",
+   "german": "Das Paket wurde von der Studentenvereinigung geschickt.",
+   "why": "Here the agent matters for the fact, so it is kept as a von-phrase, which is possible in a Vorgangspassiv."
+  },
+  {
+   "id": 100,
+   "skill": "Choosing the construction",
+   "english": "Our application was not accepted.",
+   "german": "Unser Antrag wurde nicht angenommen.",
+   "why": "The outcome is what matters, not who rejected it, so the agentless passive in the preterite is the right option."
+  }
+ ],
+ "topic_en": "Passive alternatives and the agentless passive",
+ "term_de": "Alternativen zum Passiv, unpersönliches Passiv"
+}

@@ -1,0 +1,706 @@
+{
+ "exercises": [
+  {
+   "id": 1,
+   "skill": "Konjunktiv II passive: modal, no würde",
+   "english": "The window should be repaired.",
+   "german": "Das Fenster sollte repariert werden.",
+   "why": "sollte as the Konjunktiv II of sollen, then Partizip II, and werden closes the passive form."
+  },
+  {
+   "id": 2,
+   "skill": "Konjunktiv II passive: modal, no würde",
+   "english": "The application must be submitted by Friday.",
+   "german": "Der Antrag müsste bis Freitag eingereicht werden.",
+   "why": "müsste deductive in the first slot, einreichen as Partizip II, werden last: no würde anywhere."
+  },
+  {
+   "id": 3,
+   "skill": "Konjunktiv II passive: modal, no würde",
+   "english": "The documents ought not to be copied.",
+   "german": "Die Unterlagen dürften nicht kopiert werden.",
+   "why": "dürften is the plural Konjunktiv II form, and the negation sits between modal and Partizip II."
+  },
+  {
+   "id": 4,
+   "skill": "Konjunktiv II passive: modal, no würde",
+   "english": "The problem should be discussed at the meeting.",
+   "german": "Das Problem sollte auf der Sitzung besprochen werden.",
+   "why": "besprechen with a prepositional phrase still gives the plain modal passive order."
+  },
+  {
+   "id": 5,
+   "skill": "Konjunktiv II passive: modal, no würde",
+   "english": "The text must be translated by tomorrow.",
+   "german": "Der Text müsste bis morgen übersetzt werden.",
+   "why": "The time phrase does not disturb the modal, Partizip II, werden sequence."
+  },
+  {
+   "id": 6,
+   "skill": "Konjunktiv II passive: modal, no würde",
+   "english": "The street should be closed earlier than that.",
+   "german": "Die Straße sollte früher gesperrt werden.",
+   "why": "A comparison with als stays outside the passive verb group, which keeps werden final."
+  },
+  {
+   "id": 7,
+   "skill": "Konjunktiv II passive: modal, no würde",
+   "english": "The meeting could be postponed.",
+   "german": "Die Sitzung könnte verschoben werden.",
+   "why": "könnte in Konjunktiv II marks possibility here; the modal is the only conjugated verb."
+  },
+  {
+   "id": 8,
+   "skill": "Konjunktiv II passive: modal, no würde",
+   "english": "The house should be sold soon.",
+   "german": "Das Haus sollte bald verkauft werden.",
+   "why": "The adverb bald sits between subject and verb group and does not reorder werden."
+  },
+  {
+   "id": 9,
+   "skill": "Konjunktiv II passive: modal, no würde",
+   "english": "A new rule should be introduced.",
+   "german": "Eine neue Regel sollte eingeführt werden.",
+   "why": "The subject is itself newly introduced, but it does not affect the passive word order."
+  },
+  {
+   "id": 10,
+   "skill": "Konjunktiv II passive: modal, no würde",
+   "english": "The parcel should be signed for on delivery.",
+   "german": "Die Sendung müsste bei der Annahme quittiert werden.",
+   "why": "quittieren gives quittiert in the middle slot; only werden closes the predicate."
+  },
+  {
+   "id": 11,
+   "skill": "Konjunktiv II passive: modal, no würde",
+   "english": "The data should be deleted after the deadline.",
+   "german": "Die Daten müssten nach der Frist gelöscht werden.",
+   "why": "Plural subject takes the müssten ending, and the temporal phrase stays before the verb group."
+  },
+  {
+   "id": 12,
+   "skill": "Konjunktiv II passive: modal, no würde",
+   "english": "The old bridge should be demolished.",
+   "german": "Die alte Brücke sollte abgerissen werden.",
+   "why": "A separable prefix verb in the passive keeps the prefix glued to the Partizip II."
+  },
+  {
+   "id": 13,
+   "skill": "Konjunktiv II passive: modal, no würde",
+   "english": "The proposal should not be rejected so quickly.",
+   "german": "Der Vorschlag sollte nicht so schnell abgelehnt werden.",
+   "why": "The negation and the intensifier go inside the passive group, but werden stays in final position."
+  },
+  {
+   "id": 14,
+   "skill": "Konjunktiv II passive: modal, no würde",
+   "english": "A new staircase could be built here.",
+   "german": "Hier könnte eine neue Treppe gebaut werden.",
+   "why": "Fronting the adverb before the subject is possible because modal and participle form a bracket."
+  },
+  {
+   "id": 15,
+   "skill": "Konjunktiv II passive: modal, no würde",
+   "english": "The heating system should be serviced every year.",
+   "german": "Die Heizungsanlage müsste jedes Jahr gewartet werden.",
+   "why": "warten has no prefix, so the Partizip II is simply wartet and werden is the last word."
+  },
+  {
+   "id": 16,
+   "skill": "Konjunktiv II passive: modal, no würde",
+   "english": "The letter should be answered today.",
+   "german": "Der Brief sollte heute beantwortet werden.",
+   "why": "The object is in the subject slot, so no accusative object appears in the predicate."
+  },
+  {
+   "id": 17,
+   "skill": "Konjunktiv II passive: modal, no würde",
+   "english": "The results should be checked twice.",
+   "german": "Die Ergebnisse sollten zweimal überprüft werden.",
+   "why": "The frequency adverb sits in the middle of the passive group without breaking the order."
+  },
+  {
+   "id": 18,
+   "skill": "Konjunktiv II passive: modal, no würde",
+   "english": "The rent should be raised slightly.",
+   "german": "Die Miete sollte leicht erhöht werden.",
+   "why": "A separable prefix appears as ge- plus participle, and no zu is added before the Partizip II."
+  },
+  {
+   "id": 19,
+   "skill": "Konjunktiv II passive: modal, no würde",
+   "english": "The waste should be separated.",
+   "german": "Der Müll sollte getrennt werden.",
+   "why": "A short passive clause with only modal, participle and werden in that fixed order."
+  },
+  {
+   "id": 20,
+   "skill": "Konjunktiv II passive: modal, no würde",
+   "english": "A witness should be questioned more carefully.",
+   "german": "Ein Zeuge müsste sorgfältiger befragt werden.",
+   "why": "The degree adverb compares with the base form but does not displace werden from the end."
+  },
+  {
+   "id": 21,
+   "skill": "Konjunktiv II passive: würde",
+   "english": "The form should be filled in online.",
+   "german": "Das Formular würde online ausgefüllt werden.",
+   "why": "würde is the sole Konjunktiv II marker, so werden still ends the predicate as an infinitive."
+  },
+  {
+   "id": 22,
+   "skill": "Konjunktiv II passive: würde",
+   "english": "The car would be repaired next week.",
+   "german": "Das Auto würde nächste Woche repariert werden.",
+   "why": "A modal-verb would not need würde; here würde plus the two infinitives keeps werden last."
+  },
+  {
+   "id": 23,
+   "skill": "Konjunktiv II passive: würde",
+   "english": "The parcel would be delivered on Monday.",
+   "german": "Das Paket würde am Montag zugestellt werden.",
+   "why": "zustellen forms a separable prefix verb, and the passive uses zugestellt plus werden."
+  },
+  {
+   "id": 24,
+   "skill": "Konjunktiv II passive: würde",
+   "english": "The decision would be taken without us.",
+   "german": "Die Entscheidung würde ohne uns getroffen werden.",
+   "why": "The adverbial ohne uns does not create a second accusative object inside the passive."
+  },
+  {
+   "id": 25,
+   "skill": "Konjunktiv II passive: würde",
+   "english": "The website would be revised in autumn.",
+   "german": "Die Webseite würde im Herbst überarbeitet werden.",
+   "why": "würde plus überarbeitet plus werden: three slots, with the auxiliary-like werden at the very end."
+  },
+  {
+   "id": 26,
+   "skill": "Konjunktiv II passive: würde",
+   "english": "The interview would be conducted in English.",
+   "german": "Das Interview würde auf Englisch geführt werden.",
+   "why": "The language phrase is an adverbial, so the passive verb group remains untouched."
+  },
+  {
+   "id": 27,
+   "skill": "Konjunktiv II passive: würde",
+   "english": "The books would be moved to the new shelf.",
+   "german": "Die Bücher würden in das neue Regal umgeräumt werden.",
+   "why": "The dative-like destination phrase can front the verb group without an object in the predicate."
+  },
+  {
+   "id": 28,
+   "skill": "Konjunktiv II passive: würde",
+   "english": "A solution would probably be found quickly.",
+   "german": "Eine Lösung würde vermutlich schnell gefunden werden.",
+   "why": "Single infinitive group: the Partizip II and werden form the group, werden is final, würde is finite."
+  },
+  {
+   "id": 29,
+   "skill": "Konjunktiv II passive: würde",
+   "english": "The work would be finished early.",
+   "german": "Die Arbeit würde früh beendet werden.",
+   "why": "beenden is separable, so beendet fills the participle slot directly before werden."
+  },
+  {
+   "id": 30,
+   "skill": "Konjunktiv II passive: würde",
+   "english": "The account would be closed at the end of the year.",
+   "german": "Das Konto würde am Jahresende geschlossen werden.",
+   "why": "A nominal time phrase counts as one member inside the passive group, not as an extra slot."
+  },
+  {
+   "id": 31,
+   "skill": "Konjunktiv II passive: würde",
+   "english": "Would the room be cleaned?",
+   "german": "Würde das Zimmer geputzt werden?",
+   "why": "In the interrogative the conjugated würde comes first and the two infinitives follow in order."
+  },
+  {
+   "id": 32,
+   "skill": "Konjunktiv II passive: würde",
+   "english": "The results would be presented in public.",
+   "german": "Die Ergebnisse würden öffentlich vorgestellt werden.",
+   "why": "vorstellen is separable, giving the ge- participle in the middle slot and werden last."
+  },
+  {
+   "id": 33,
+   "skill": "Konjunktiv II passive: würde",
+   "english": "Nothing would be changed.",
+   "german": "Nichts würde geändert werden.",
+   "why": "The negated pronoun nothing is the subject, and only the passive worden sense of werden is used."
+  },
+  {
+   "id": 34,
+   "skill": "Konjunktiv II passive: würde",
+   "english": "Would the deadline be extended?",
+   "german": "Würde die Frist verlängert werden?",
+   "why": "Question word order plus two infinitives, verlängert before werden, the opposite of würde before verlängert after werden."
+  },
+  {
+   "id": 35,
+   "skill": "Konjunktiv II passive: würde",
+   "english": "The garden would be redesigned next spring.",
+   "german": "Der Garten würde nächsten Früh umgestaltet werden.",
+   "why": "A prefixed verb keeps its prefix attached to the participle inside the passive group."
+  },
+  {
+   "id": 36,
+   "skill": "Konjunktiv II passive: würde",
+   "english": "A small fee would be charged.",
+   "german": "Eine kleine Gebühr würde erhoben werden.",
+   "why": "The attribute kleine is part of the subject and irrelevant to the passive order."
+  },
+  {
+   "id": 37,
+   "skill": "Konjunktiv II passive: würde",
+   "english": "The documents would be sent to your address.",
+   "german": "Die Unterlagen würden an Ihre Adresse geschickt werden.",
+   "why": "The recipient is expressed adverbially as an an-phrase, so the verb group keeps its slots."
+  },
+  {
+   "id": 38,
+   "skill": "Konjunktiv II passive: würde",
+   "english": "The film would be shown only once.",
+   "german": "Der Film würde nur einmal gezeigt werden.",
+   "why": "The quantity adverb sits after the modal, and gezeigt still precedes werden."
+  },
+  {
+   "id": 39,
+   "skill": "Konjunktiv II passive: würde",
+   "english": "The building would be completed in three years.",
+   "german": "Der Bau würde in drei Jahren fertiggestellt werden.",
+   "why": "fertigstellen is separable, and the temporal phrase occupies one middle slot only."
+  },
+  {
+   "id": 40,
+   "skill": "Konjunktiv II passive: würde",
+   "english": "The letter would be signed by the director.",
+   "german": "Der Brief würde vom Direktor unterschrieben werden.",
+   "why": "Here the von-phrase can stay in the passivische Agens, but the word order is unchanged either way."
+  },
+  {
+   "id": 41,
+   "skill": "Double infinitive: modal last",
+   "english": "The window would have to be repaired.",
+   "german": "Das Fenster würde repariert werden müssen.",
+   "why": "würde plus a modal forces the double infinitive, and the modal is absolutely the last word."
+  },
+  {
+   "id": 42,
+   "skill": "Double infinitive: modal last",
+   "english": "The window should have been repaired long ago.",
+   "german": "Das Fenster hätte längst repariert werden müssen.",
+   "why": "Perfekt of the double infinitive: hätte, participle, werden and then the modal at the very end."
+  },
+  {
+   "id": 43,
+   "skill": "Double infinitive: modal last",
+   "english": "The application would have to be submitted in German.",
+   "german": "Der Antrag würde auf Deutsch eingereicht werden müssen.",
+   "why": "Two stacked infinitives must keep their fixed order, so müssen cannot move in front of eingereicht."
+  },
+  {
+   "id": 44,
+   "skill": "Double infinitive: modal last",
+   "english": "The problem should have been discussed earlier.",
+   "german": "Das Problem hätte früher besprochen werden müssen.",
+   "why": "The adverbial earlier goes inside the bracket, the modal müssen closes the whole predicate."
+  },
+  {
+   "id": 45,
+   "skill": "Double infinitive: modal last",
+   "english": "The mistake could have been avoided.",
+   "german": "Der Fehler hätte vermieden werden können.",
+   "why": "In the Perfekt double infinitive the ability modal können ends the sentence, not the passive werden."
+  },
+  {
+   "id": 46,
+   "skill": "Double infinitive: modal last",
+   "english": "Would the room have to be cleaned?",
+   "german": "Würde das Zimmer geputzt werden müssen?",
+   "why": "Fronted würde plus two infinitives in questions still keeps the modal in final position."
+  },
+  {
+   "id": 47,
+   "skill": "Double infinitive: modal last",
+   "english": "The results should have been checked twice.",
+   "german": "Die Ergebnisse hätten zweimal überprüft werden müssen.",
+   "why": "The numeral adverb occupies the middle slot of the double infinitive in the Perfekt."
+  },
+  {
+   "id": 48,
+   "skill": "Double infinitive: modal last",
+   "english": "The old bridge would have to be demolished.",
+   "german": "Die alte Brücke würde abgerissen werden müssen.",
+   "why": "The separable prefix appears in abgerissen, and the modal müssen follows the passive werden."
+  },
+  {
+   "id": 49,
+   "skill": "Double infinitive: modal last",
+   "english": "The letter should have been answered yesterday.",
+   "german": "Der Brief hätte gestern beantwortet werden müssen.",
+   "why": "A negated blame reading makes müssen natural here, and its final position proves the double infinitive."
+  },
+  {
+   "id": 50,
+   "skill": "Double infinitive: modal last",
+   "english": "The data should have been deleted earlier.",
+   "german": "Die Daten hätten früher gelöscht werden müssen.",
+   "why": "Plural data takes hätten, and löschen contributes no prefix to the participle."
+  },
+  {
+   "id": 51,
+   "skill": "Double infinitive: modal last",
+   "english": "Would the documents have to be copied?",
+   "german": "Würden die Unterlagen kopiert werden müssen?",
+   "why": "The plural form Würden is required by the plural subject, and the modal still ends the clause."
+  },
+  {
+   "id": 52,
+   "skill": "Double infinitive: modal last",
+   "english": "The proposal could have been discussed at the meeting.",
+   "german": "Der Vorschlag hätte auf der Sitzung besprochen werden können.",
+   "why": "The modal können in last position expresses that it was possible, not that it happened."
+  },
+  {
+   "id": 53,
+   "skill": "Double infinitive: modal last",
+   "english": "The heating system would have had to be serviced.",
+   "german": "Die Heizungsanlage hätte gewartet werden müssen.",
+   "why": "A hat plus modal form plus double infinitive: warten has no prefix, so no ge- appears."
+  },
+  {
+   "id": 54,
+   "skill": "Double infinitive: modal last",
+   "english": "The text should have been translated.",
+   "german": "Der Text hätte übersetzt werden sollen.",
+   "why": "sollen in the double infinitive reports an unfulfilled duty, so it stands at the end."
+  },
+  {
+   "id": 55,
+   "skill": "Double infinitive: modal last",
+   "english": "The rent should not have been raised.",
+   "german": "Die Miete hätte nicht erhöht werden dürfen.",
+   "why": "The negation precedes the passive group, and the prohibition modal dürfen is the last word."
+  },
+  {
+   "id": 56,
+   "skill": "Double infinitive: modal last",
+   "english": "The form should have been signed.",
+   "german": "Das Formular hätte unterschrieben werden müssen.",
+   "why": "A modal obligation forces the double infinitive even though only hätte is conjugated."
+  },
+  {
+   "id": 57,
+   "skill": "Double infinitive: modal last",
+   "english": "The meeting might have been cancelled.",
+   "german": "Die Sitzung hätte abgesagt werden können.",
+   "why": "absagen gives a separable prefix, so abgesagt fills the slot right before the passive werden."
+  },
+  {
+   "id": 58,
+   "skill": "Double infinitive: modal last",
+   "english": "The waste should have been separated.",
+   "german": "Der Müll hätte getrennt werden müssen.",
+   "why": "trennen is non-separable, which is why there is no ge- before the Partizip II."
+  },
+  {
+   "id": 59,
+   "skill": "Double infinitive: modal last",
+   "english": "Would the old building have to be demolished?",
+   "german": "Würde das alte Gebäude abgerissen werden müssen?",
+   "why": "A conditional question in the würde form still requires the modal in final position."
+  },
+  {
+   "id": 60,
+   "skill": "Double infinitive: modal last",
+   "english": "The car should have been serviced before the trip.",
+   "german": "Das Auto hätte vor der Reise gründlich gereinigt werden müssen.",
+   "why": "Double infinitive: the participle first, then werden, then the modal müssen absolutely last."
+  },
+  {
+   "id": 61,
+   "skill": "Konjunktiv II Zustandspassiv and unpersönliches Passiv",
+   "english": "The flat should be empty.",
+   "german": "Die Wohnung müsste leer sein.",
+   "why": "Zustandspassiv uses sein, not werden: the state is described, not the action."
+  },
+  {
+   "id": 62,
+   "skill": "Konjunktiv II Zustandspassiv and unpersönliches Passiv",
+   "english": "The window is supposed to be broken.",
+   "german": "Das Fenster müsste kaputt sein.",
+   "why": "A resultant state plus müsste gives Konjunktiv II Zustandspassiv with sein in the final slot."
+  },
+  {
+   "id": 63,
+   "skill": "Konjunktiv II Zustandspassiv and unpersönliches Passiv",
+   "english": "The street should be closed to traffic.",
+   "german": "Die Straße müsste gesperrt sein.",
+   "why": "gesperrt sein describes the resulting condition of the street, so no werden appears."
+  },
+  {
+   "id": 64,
+   "skill": "Konjunktiv II Zustandspassiv and unpersönliches Passiv",
+   "english": "The door is supposed to be open.",
+   "german": "Die Tür müsste offen sein.",
+   "why": "offen sein is a pure state, which is exactly what the Zustandspassiv expresses."
+  },
+  {
+   "id": 65,
+   "skill": "Konjunktiv II Zustandspassiv and unpersönliches Passiv",
+   "english": "The documents should have been stamped.",
+   "german": "Die Unterlagen müssten gestempelt sein.",
+   "why": "Plural subject with müssten, and gestempelt sein reports the state of the documents."
+  },
+  {
+   "id": 66,
+   "skill": "Konjunktiv II Zustandspassiv and unpersönliches Passiv",
+   "english": "The old bridge is supposed to be demolished.",
+   "german": "Die alte Brücke müsste abgerissen sein.",
+   "why": "The expected end state of the demolition is expressed with sein, not with werden."
+  },
+  {
+   "id": 67,
+   "skill": "Konjunktiv II Zustandspassiv and unpersönliches Passiv",
+   "english": "Work should be done on this project.",
+   "german": "An diesem Projekt müsste gearbeitet werden.",
+   "why": "Unpersönliches Passiv: an-project takes the preposition, and gearbeitet werden has no agent."
+  },
+  {
+   "id": 68,
+   "skill": "Konjunktiv II Zustandspassiv and unpersönliches Passiv",
+   "english": "They should not keep building so many new houses.",
+   "german": "Es sollte nicht so viel gebaut werden.",
+   "why": "An impersonal es plus the modal passive reports general activity with the pronoun sie left out."
+  },
+  {
+   "id": 69,
+   "skill": "Konjunktiv II Zustandspassiv and unpersönliches Passiv",
+   "english": "Would it be possible to talk to the manager?",
+   "german": "Mit dem Manager müsste gesprochen werden.",
+   "why": "Unpersönliches Passiv in Konjunktiv II: modal finite, werden final, no agent."
+  },
+  {
+   "id": 70,
+   "skill": "Konjunktiv II Zustandspassiv and unpersönliches Passiv",
+   "english": "It should not be talked about so much.",
+   "german": "Darüber sollte nicht so viel gesprochen werden.",
+   "why": "sprechen takes the preposition about it, which signals the unpersönliches Passiv."
+  },
+  {
+   "id": 71,
+   "skill": "Konjunktiv II Zustandspassiv and unpersönliches Passiv",
+   "english": "The accident was probably caused by carelessness.",
+   "german": "Der Unfall müsste durch Unachtsamkeit verursacht worden sein.",
+   "why": "The Perfekt of the Konjunktiv II passive needs worden, not geworden, before the modal sein."
+  },
+  {
+   "id": 72,
+   "skill": "Konjunktiv II Zustandspassiv and unpersönliches Passiv",
+   "english": "The situation should not have been so tense.",
+   "german": "Die Lage hätte nicht so angespannt sein müssen.",
+   "why": "Here the final modal is a full verb of obligation, so this is a double infinitive with sein."
+  },
+  {
+   "id": 73,
+   "skill": "Konjunktiv II Zustandspassiv and unpersönliches Passiv",
+   "english": "Would it be better to wait?",
+   "german": "Auf die Antwort müsste länger gewartet werden.",
+   "why": "Unpersönliches Passiv with a non-personal subject and no agent."
+  },
+  {
+   "id": 74,
+   "skill": "Konjunktiv II Zustandspassiv and unpersönliches Passiv",
+   "english": "The window should have been open all day.",
+   "german": "Das Fenster müsste den ganzen Tag offen gewesen sein.",
+   "why": "Zustandspassiv in the Konjunktiv II Perfekt: sein as the state auxiliary, ending in gewesen sein."
+  },
+  {
+   "id": 75,
+   "skill": "Konjunktiv II Zustandspassiv and unpersönliches Passiv",
+   "english": "The kitchen is supposed to be renovated next month.",
+   "german": "Die Küche müsste nächsten Monat renoviert sein.",
+   "why": "The time phrase describes when the state will hold, so the state itself is predicated with sein."
+  },
+  {
+   "id": 76,
+   "skill": "Konjunktiv II Zustandspassiv and unpersönliches Passiv",
+   "english": "The children should be spoken to more kindly.",
+   "german": "Mit den Kindern müsste freundlicher gesprochen werden.",
+   "why": "Unpersönliches Passiv with a dative object: mit den Kindern precedes the passive verb group."
+  },
+  {
+   "id": 77,
+   "skill": "Konjunktiv II Zustandspassiv and unpersönliches Passiv",
+   "english": "It should be clarified that this cannot stay like this.",
+   "german": "Es müsste klargestellt werden, dass das nicht so bleiben kann.",
+   "why": "Konjunktiv II Vorgangspassiv with a dass-clause complement after werden."
+  },
+  {
+   "id": 78,
+   "skill": "Konjunktiv II Zustandspassiv and unpersönliches Passiv",
+   "english": "Would it be said if we stayed at home?",
+   "german": "Wäre es gesagt worden, wenn wir zu Hause geblieben wären?",
+   "why": "Vorgangspassiv in the Konjunktiv II Perfekt: worden … gewesen with no modal, and geblieben as the finite verb of the second clause."
+  },
+  {
+   "id": 79,
+   "skill": "Konjunktiv II Zustandspassiv and unpersönliches Passiv",
+   "english": "In the past a lot more was written by hand.",
+   "german": "Früher müsste viel mehr von Hand geschrieben worden sein.",
+   "why": "Modal first, participle, then worden plus sein, and no werden anywhere in the sentence."
+  },
+  {
+   "id": 80,
+   "skill": "Konjunktiv II Zustandspassiv and unpersönliches Passiv",
+   "english": "Such questions are usually asked more directly.",
+   "german": "Solche Fragen müssten direkter gestellt werden.",
+   "why": "stellen with a plural subject takes müssten, and the passive verb group closes the sentence."
+  },
+  {
+   "id": 81,
+   "skill": "Konjunktiv II passive in subordinate clauses and indirect speech",
+   "english": "He says the window must be repaired.",
+   "german": "Er sagt, das Fenster müsse repariert werden.",
+   "why": "In indirect speech the modal drops to müsse and stands before the two passive infinitives."
+  },
+  {
+   "id": 82,
+   "skill": "Konjunktiv II passive in subordinate clauses and indirect speech",
+   "english": "She said that the form should be filled in.",
+   "german": "Sie sagte, das Formular müsse ausgefüllt werden.",
+   "why": "Reported past speech uses the Konjunktiv II müsse, and the clause keeps verb-final order."
+  },
+  {
+   "id": 83,
+   "skill": "Konjunktiv II passive in subordinate clauses and indirect speech",
+   "english": "The teacher said that the homework should be done carefully.",
+   "german": "Die Lehrerin sagte, die Hausaufgaben müssten sorgfältig gemacht werden.",
+   "why": "The plural subject triggers müssten, and the modal stays at the head of the passive group."
+  },
+  {
+   "id": 84,
+   "skill": "Konjunktiv II passive in subordinate clauses and indirect speech",
+   "english": "The boss insists that the report be finished today.",
+   "german": "Der Chef besteht darauf, dass der Bericht heute fertiggestellt werden müsse.",
+   "why": "A final-style dass-clause puts the modal müsse at the very end, after the passive werden."
+  },
+  {
+   "id": 85,
+   "skill": "Konjunktiv II passive in subordinate clauses and indirect speech",
+   "english": "It could be that the meeting has been cancelled.",
+   "german": "Es könnte sein, dass die Sitzung abgesagt worden ist.",
+   "why": "The dass-clause uses the Perfekt of the passive; worden shows the passive of abgesagt."
+  },
+  {
+   "id": 86,
+   "skill": "Konjunktiv II passive in subordinate clauses and indirect speech",
+   "english": "She thinks the picture should be bought.",
+   "german": "Sie meint, das Bild müsse gekauft werden.",
+   "why": "Meinen in the Konjunktiv II, here a modal, frames the passive as unverified reported opinion."
+  },
+  {
+   "id": 87,
+   "skill": "Konjunktiv II passive in subordinate clauses and indirect speech",
+   "english": "Whether it should be printed in colour is not clear.",
+   "german": "Ob es in Farbe gedruckt werden sollte, ist nicht klar.",
+   "why": "An indirect question in the ob-clause puts the modal sollte after the passive werden."
+  },
+  {
+   "id": 88,
+   "skill": "Konjunktiv II passive in subordinate clauses and indirect speech",
+   "english": "The lawyer asked whether the contract should be changed.",
+   "german": "Die Anwältin fragte, ob der Vertrag geändert werden müsste.",
+   "why": "An embedded question needs the Konjunktiv II müsste in final position, not indicative müsste must."
+  },
+  {
+   "id": 89,
+   "skill": "Konjunktiv II passive in subordinate clauses and indirect speech",
+   "english": "We assumed that the tickets would be refunded.",
+   "german": "Wir gingen davon aus, dass die Tickets erstattet würden.",
+   "why": "With würde alone the passive infinitive stays last: erstattet wurden would be wrong word order."
+  },
+  {
+   "id": 90,
+   "skill": "Konjunktiv II passive in subordinate clauses and indirect speech",
+   "english": "It seemed as if the window had to be replaced.",
+   "german": "Es schien, als müsste das Fenster ersetzt werden.",
+   "why": "The comparison müsste before the passive infinitive shows the modal form of the Konjunktiv II."
+  },
+  {
+   "id": 91,
+   "skill": "Konjunktiv II passive in subordinate clauses and indirect speech",
+   "english": "I heard that the road should be widened.",
+   "german": "Ich hörte, dass die Straße verbreitert werden solle.",
+   "why": "In reported speech the form of sollen is solle, standing before verbreitert werden."
+  },
+  {
+   "id": 92,
+   "skill": "Konjunktiv II passive in subordinate clauses and indirect speech",
+   "english": "It matters whether the appointments are kept.",
+   "german": "Es ist entscheidend, ob die Termine eingehalten werden müssten.",
+   "why": "A modal-substitute in Konjunktiv II in the ob-clause needs müssten in the final slot."
+  },
+  {
+   "id": 93,
+   "skill": "Konjunktiv II passive in subordinate clauses and indirect speech",
+   "english": "The manager demanded that the work be stopped.",
+   "german": "Die Chefin verlangte, dass die Arbeit eingestellt werden müsse.",
+   "why": "A demand-style dass-clause ends with the modal, and einstellen keeps its separable prefix."
+  },
+  {
+   "id": 94,
+   "skill": "Konjunktiv II passive in subordinate clauses and indirect speech",
+   "english": "The doctor recommended that the examination be repeated.",
+   "german": "Der Arzt empfahl, dass die Untersuchung noch einmal gemacht werden sollte.",
+   "why": "A recommendation normally takes indicative, but a careful doctor recommends with sollte."
+  },
+  {
+   "id": 95,
+   "skill": "Konjunktiv II passive in subordinate clauses and indirect speech",
+   "english": "Nobody thought that the deadline could be extended.",
+   "german": "Niemand dachte, dass die Frist verlängert werden könnte.",
+   "why": "könnte replaces könnte-indicative in reported speech and stays before the passive werden."
+  },
+  {
+   "id": 96,
+   "skill": "Konjunktiv II passive in subordinate clauses and indirect speech",
+   "english": "Although it was only a small matter, the rule should be applied.",
+   "german": "Obwohl es nur eine Kleinigkeit war, sollte die Regel angewendet werden.",
+   "why": "The obwohl-clause is indicative in the past, while the main clause carries the Konjunktiv II passive."
+  },
+  {
+   "id": 97,
+   "skill": "Konjunktiv II passive in subordinate clauses and indirect speech",
+   "english": "Because the documents were missing, the application must be submitted again.",
+   "german": "Weil die Unterlagen fehlten, müsste der Antrag erneut eingereicht werden.",
+   "why": "The cause clause stays indicative, while müsste in the main clause marks a deduced Konjunktiv II obligation."
+  },
+  {
+   "id": 98,
+   "skill": "Konjunktiv II passive in subordinate clauses and indirect speech",
+   "english": "Since the tickets were cheap, they should be bought early.",
+   "german": "Da die Tickets billig waren, sollten sie früh gekauft werden.",
+   "why": "da as a real reason stays indicative, and the modal passive in the main clause is Konjunktiv II."
+  },
+  {
+   "id": 99,
+   "skill": "Konjunktiv II passive in subordinate clauses and indirect speech",
+   "english": "Although the meeting was short, the decision should have been made.",
+   "german": "Obwohl die Sitzung kurz war, hätte die Entscheidung getroffen werden müssen.",
+   "why": "A concessive clause plus a Perfekt double infinitive: the modal müssen is the last word."
+  },
+  {
+   "id": 100,
+   "skill": "Konjunktiv II passive in subordinate clauses and indirect speech",
+   "english": "As the tenant complained, the flat should have been renovated earlier.",
+   "german": "Da der Mieter sich beschwert hatte, hätte die Wohnung früher renoviert werden müssen.",
+   "why": "The reason clause uses the indicative Perfekt while the main clause keeps the modal passive."
+  }
+ ],
+ "topic_en": "Passive in Konjunktiv II",
+ "term_de": "Konjunktiv II im Passiv"
+}

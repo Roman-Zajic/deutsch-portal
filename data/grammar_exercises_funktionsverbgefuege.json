@@ -1,0 +1,706 @@
+{
+ "exercises": [
+  {
+   "id": 1,
+   "skill": "Funktionsverb + nominal core",
+   "english": "The board made a decision yesterday.",
+   "german": "Der Vorstand hat gestern eine Entscheidung getroffen.",
+   "why": "Tests the core noun Entscheidung with the Funktionsverb treffen; the verb adds no accusative of its own."
+  },
+  {
+   "id": 2,
+   "skill": "Funktionsverb + nominal core",
+   "english": "She made a proposal in the committee.",
+   "german": "Sie hat im Ausschuss einen Vorschlag gemacht.",
+   "why": "machen + Vorschlag is a classic Funktionsverbgefuege, and Vorschlag is the only accusative element."
+  },
+  {
+   "id": 3,
+   "skill": "Funktionsverb + nominal core",
+   "english": "The MPs filed a motion against the budget.",
+   "german": "Die Abgeordneten haben gegen den Haushalt Antrag gestellt.",
+   "why": "Antrag stellen shows the verb with its accusative core and no additional object, plus a gegen-Praeposition."
+  },
+  {
+   "id": 4,
+   "skill": "Funktionsverb + nominal core",
+   "english": "The municipal council passed a resolution yesterday.",
+   "german": "Der Gemeinderat hat gestern einen Beschluss gefasst.",
+   "why": "Tests the idiom einen Beschluss fassen, where fassen cannot take a further object."
+  },
+  {
+   "id": 5,
+   "skill": "Funktionsverb + nominal core",
+   "english": "At the press conference the minister raised a question.",
+   "german": "In der Pressekonferenz hat die Ministerin eine Frage aufgeworfen.",
+   "why": "aufwerfen is separable, so its prefix moves to the end of the clause before the core noun."
+  },
+  {
+   "id": 6,
+   "skill": "Funktionsverb + nominal core",
+   "english": "The company does not owe the customer an answer.",
+   "german": "Die Firma bleibt dem Kunden keine Antwort schuldig.",
+   "why": "Keine Antwort schuldig bleiben uses a dative person and a negated accusative core, a common pattern."
+  },
+  {
+   "id": 7,
+   "skill": "Funktionsverb + nominal core",
+   "english": "The project ran aground in spring.",
+   "german": "Das Projekt hat im Frühjahr Schiffbruch erlitten.",
+   "why": "Schiffbruch erleiden has no object of its own; only the nominal core takes an accusative slot."
+  },
+  {
+   "id": 8,
+   "skill": "Funktionsverb + nominal core",
+   "english": "The mayor plays a major role in this case.",
+   "german": "Der Bürgermeister spielt in diesem Verfahren eine große Rolle.",
+   "why": "Rolle spielen is a Funktionsverbgefuege where the core is preceded by an adjective phrase."
+  },
+  {
+   "id": 9,
+   "skill": "Funktionsverb + nominal core",
+   "english": "The management gave him a commission.",
+   "german": "Die Geschäftsführung hat ihm einen Auftrag erteilt.",
+   "why": "erteilen is a transitive Funktionsverb: dative recipient plus accusative core Auftrag."
+  },
+  {
+   "id": 10,
+   "skill": "Funktionsverb + nominal core",
+   "english": "He gave a very convincing speech.",
+   "german": "Er hat eine sehr überzeugende Rede gehalten.",
+   "why": "Tests adjective placement inside the nominal core rather than a special verb argument structure."
+  },
+  {
+   "id": 11,
+   "skill": "Funktionsverb + nominal core",
+   "english": "The university held an information event yesterday.",
+   "german": "Die Universität hat gestern eine Informationsveranstaltung abgehalten.",
+   "why": "abhalten with a long compound core, separable prefix, and no extra object."
+  },
+  {
+   "id": 12,
+   "skill": "Funktionsverb + nominal core",
+   "english": "The coach gave the players a clear direction.",
+   "german": "Der Trainer hat den Spielern eine klare Richtung gegeben.",
+   "why": "geben + Richtung: dative recipient and accusative core, with the Funktionsverb unable to carry more."
+  },
+  {
+   "id": 13,
+   "skill": "Funktionsverb + nominal core",
+   "english": "The court passed a harsh sentence.",
+   "german": "Das Gericht hat ein hartes Urteil gefällt.",
+   "why": "Urteil faellen is idiomatic; the article and adjective belong to the core, not to a separate object."
+  },
+  {
+   "id": 14,
+   "skill": "Funktionsverb + nominal core",
+   "english": "The police ordered a search.",
+   "german": "Die Polizei hat eine Durchsuchung angeordnet.",
+   "why": "anordnen + accusative core, separable prefix at clause end."
+  },
+  {
+   "id": 15,
+   "skill": "Funktionsverb + nominal core",
+   "english": "The law firm made an exception for you.",
+   "german": "Die Kanzlei hat eine Ausnahme für dich gemacht.",
+   "why": "machen with an accusative core and a fuer-Praeposition that is not the verb complement."
+  },
+  {
+   "id": 16,
+   "skill": "Funktionsverb + nominal core",
+   "english": "The customer lodged an objection against the notice.",
+   "german": "Der Kunde hat gegen den Bescheid Einspruch eingelegt.",
+   "why": "Einspruch einlegen pairs a core noun with a gegen-Praeposition that is not the verb's own complement."
+  },
+  {
+   "id": 17,
+   "skill": "Funktionsverb + nominal core",
+   "english": "The spokesman issued an official statement.",
+   "german": "Der Sprecher hat eine offizielle Erklärung abgegeben.",
+   "why": "abgeben + Erklärung: a straightforward core-noun pattern with a separable prefix."
+  },
+  {
+   "id": 18,
+   "skill": "Funktionsverb + nominal core",
+   "english": "The commission initiated an investigation.",
+   "german": "Die Kommission hat eine Untersuchung eingeleitet.",
+   "why": "einleiten + accusative core; no additional object is allowed after the core noun."
+  },
+  {
+   "id": 19,
+   "skill": "Funktionsverb + nominal core",
+   "english": "The bank gave the customer a guarantee.",
+   "german": "Die Bank hat dem Kunden eine Garantie gegeben.",
+   "why": "geben + Garantie with dative recipient, testing the two-argument pattern of a core Funktionsverb."
+  },
+  {
+   "id": 20,
+   "skill": "Funktionsverb + nominal core",
+   "english": "The government made a concession in the talks.",
+   "german": "Die Regierung hat bei den Verhandlungen ein Zugeständnis gemacht.",
+   "why": "Zugestaendnis machen: a nominal core with an attributive bei-Praeposition, not an object."
+  },
+  {
+   "id": 21,
+   "skill": "Transitive Funktionsverbgefüge",
+   "english": "We are making the current figures available to you.",
+   "german": "Wir stellen Ihnen die aktuellen Zahlen zur Verfügung.",
+   "why": "Transitive pattern: stellen takes the accusative object, zur Verfuegung supplies the Funktionsverb."
+  },
+  {
+   "id": 22,
+   "skill": "Transitive Funktionsverbgefüge",
+   "english": "The university library is providing first-year students with a laptop.",
+   "german": "Die Universitätsbibliothek stellt den Erstsemestern einen Laptop zur Verfügung.",
+   "why": "Same pattern with a dative beneficiary and an accusative object before the Funktionsverb."
+  },
+  {
+   "id": 23,
+   "skill": "Transitive Funktionsverbgefüge",
+   "english": "The employer is providing mobile phones for the staff.",
+   "german": "Der Arbeitgeber stellt den Beschäftigten ein Diensthandy zur Verfügung.",
+   "why": "Tests that the accusative object is obligatory here, unlike bei zur Verfuegung stehen."
+  },
+  {
+   "id": 24,
+   "skill": "Transitive Funktionsverbgefüge",
+   "english": "Can you lend me your charging cable for a moment?",
+   "german": "Stellst du mir dein Ladekabel kurz zur Verfügung?",
+   "why": "The Funktionsverb is transitive here, so the accusative dein Ladekabel must be present."
+  },
+  {
+   "id": 25,
+   "skill": "Transitive Funktionsverbgefüge",
+   "english": "The boss is putting the team's proposal up for discussion at the next meeting.",
+   "german": "Die Chefin stellt den Vorschlag des Teams in der nächsten Sitzung zur Diskussion.",
+   "why": "zur Diskussion stellen: transitive, with the core phrase as its accusative object."
+  },
+  {
+   "id": 26,
+   "skill": "Transitive Funktionsverbgefüge",
+   "english": "The foreign minister has put the reform plans up for discussion on television.",
+   "german": "Der Außenminister hat die Reformpläne im Fernsehen zur Diskussion gestellt.",
+   "why": "Verb second position in the main clause plus a locative adverbial, not an object of stellen."
+  },
+  {
+   "id": 27,
+   "skill": "Transitive Funktionsverbgefüge",
+   "english": "The students are explicitly putting the question of tuition fees up for discussion.",
+   "german": "Die Studierenden stellen die Frage der Studiengebühren ausdrücklich zur Diskussion.",
+   "why": "A genitive modifier inside the accusative object of a transitive Funktionsverb."
+  },
+  {
+   "id": 28,
+   "skill": "Transitive Funktionsverbgefüge",
+   "english": "The authority is informing you of the change to the fee schedule.",
+   "german": "Die Behörde setzt Sie von der Änderung der Gebührenordnung in Kenntnis.",
+   "why": "jemanden in Kenntnis setzen is transitive with a von-Praeposition inside the Funktionsverb."
+  },
+  {
+   "id": 29,
+   "skill": "Transitive Funktionsverbgefüge",
+   "english": "We are informing the works council of that.",
+   "german": "Wir setzen den Betriebsrat davon in Kenntnis.",
+   "why": "Pronoun adverb davon as object; the Funktionsverb in Kenntnis setzen adds no extra case."
+  },
+  {
+   "id": 30,
+   "skill": "Transitive Funktionsverbgefüge",
+   "english": "The fog delayed our flight several times.",
+   "german": "Der Nebel hat unseren Flug mehrfach in Verzug gesetzt.",
+   "why": "Transitive in Verzug setzen: the delayed thing is the accusative object, not a dative."
+  },
+  {
+   "id": 31,
+   "skill": "Transitive Funktionsverbgefüge",
+   "english": "The contradictory information has delayed the review.",
+   "german": "Die widersprüchlichen Angaben haben die Prüfung in Verzug gesetzt.",
+   "why": "Same transitive pattern in a perfect construction, checking case of the delayed process."
+  },
+  {
+   "id": 32,
+   "skill": "Transitive Funktionsverbgefüge",
+   "english": "The HR department has circulated the new rule throughout the group.",
+   "german": "Die Personalabteilung hat die neue Regelung im ganzen Konzern in Umlauf gesetzt.",
+   "why": "in Umlauf setzen is transitive; the locative phrase expands where, not what is circulated."
+  },
+  {
+   "id": 33,
+   "skill": "Transitive Funktionsverbgefüge",
+   "english": "The colleagues circulated the brochure among the participants.",
+   "german": "Die Kolleginnen haben die Broschüre unter den Teilnehmenden in Umlauf gesetzt.",
+   "why": "unter + Dativ marks the recipients of the circulation, while the core stays accusative."
+  },
+  {
+   "id": 34,
+   "skill": "Transitive Funktionsverbgefüge",
+   "english": "The GP is happy to put you in touch with a specialist.",
+   "german": "Der Hausarzt setzt Sie gern mit einem Fachkollegen in Verbindung.",
+   "why": "jemanden mit jemandem in Verbindung setzen: two persons, dative, plus accusative core."
+  },
+  {
+   "id": 35,
+   "skill": "Transitive Funktionsverbgefüge",
+   "english": "We are putting the guests in touch with the congress centre management.",
+   "german": "Wir setzen die Gäste mit der Leitung des Kongresszentrums in Verbindung.",
+   "why": "A genitive compound in the mit-complement, while the Gäste form the accusative object."
+  },
+  {
+   "id": 36,
+   "skill": "Transitive Funktionsverbgefüge",
+   "english": "The service office puts interested parties directly in touch with the landlord.",
+   "german": "Die Servicestelle setzt Interessenten direkt mit dem Vermieter in Kontakt.",
+   "why": "in Kontakt setzen is transitive and needs its accusative object, unlike in Kontakt treten."
+  },
+  {
+   "id": 37,
+   "skill": "Transitive Funktionsverbgefüge",
+   "english": "The advice service puts you in touch with the right department.",
+   "german": "Die Beratung setzt Sie mit der richtigen Stelle in Kontakt.",
+   "why": "Informal pronoun object with the mit-complement in dative."
+  },
+  {
+   "id": 38,
+   "skill": "Transitive Funktionsverbgefüge",
+   "english": "The study calls the previous calculations into question.",
+   "german": "Die Studie stellt die bisherigen Berechnungen infrage.",
+   "why": "infrage stellen is the transitive opposite of the intransitive in Frage kommen."
+  },
+  {
+   "id": 39,
+   "skill": "Transitive Funktionsverbgefüge",
+   "english": "The incident calls the official version of the events into question.",
+   "german": "Der Vorfall stellt die offizielle Version der Ereignisse infrage.",
+   "why": "Infrage is written as one word here, and a genitive clause-like modifier expands the object."
+  },
+  {
+   "id": 40,
+   "skill": "Transitive Funktionsverbgefüge",
+   "english": "Several experts question the effectiveness of this measure.",
+   "german": "Mehrere Fachleute stellen die Wirksamkeit dieser Maßnahme infrage.",
+   "why": "Transitive infinitive construction with an accusative core and a demonstrative genitive modifier."
+  },
+  {
+   "id": 41,
+   "skill": "Intransitive Funktionsverbgefüge",
+   "english": "The complete documents will be available to you from Monday.",
+   "german": "Die vollständigen Unterlagen stehen Ihnen ab Montag zur Verfügung.",
+   "why": "Intransitive pattern: a dative person only, with no accusative object after stehen."
+  },
+  {
+   "id": 42,
+   "skill": "Intransitive Funktionsverbgefüge",
+   "english": "The adviser is happy to be available to you for any questions.",
+   "german": "Der Berater steht Ihnen für Rückfragen gern zur Verfügung.",
+   "why": "Tests the contrast with zur Verfuegung stellen, which would require an accusative object."
+  },
+  {
+   "id": 43,
+   "skill": "Intransitive Funktionsverbgefüge",
+   "english": "The management will be available by phone for the next two weeks.",
+   "german": "In den nächsten zwei Wochen steht die Leitung telefonisch zur Verfügung.",
+   "why": "No dative person here; the time and manner adverbials do not change the verb's transitivity."
+  },
+  {
+   "id": 44,
+   "skill": "Intransitive Funktionsverbgefüge",
+   "english": "All work results are available to the audit committee.",
+   "german": "Alle Arbeitsergebnisse stehen dem Prüfungsausschuss zur Verfügung.",
+   "why": "Dative pronoun in the third person, which learners often miss in this construction."
+  },
+  {
+   "id": 45,
+   "skill": "Intransitive Funktionsverbgefüge",
+   "english": "The draft has been open for discussion since today.",
+   "german": "Der Entwurf steht seit heute zur Diskussion.",
+   "why": "Intransitive zur Diskussion stehen with a seit-tim adverbial and no object."
+  },
+  {
+   "id": 46,
+   "skill": "Intransitive Funktionsverbgefüge",
+   "english": "The ordinance is being debated in Brussels.",
+   "german": "Die Verordnung steht in Brüssel zur Diskussion.",
+   "why": "Locative in-Praeposition before the Funktionsverb, not an accusative object."
+  },
+  {
+   "id": 47,
+   "skill": "Intransitive Funktionsverbgefüge",
+   "english": "As long as the written offer is missing, it is out of the question.",
+   "german": "Solange das Angebot schriftlich fehlt, kommt es nicht in Frage.",
+   "why": "Intransitive in Frage kommen with the pronoun es as subject and no object."
+  },
+  {
+   "id": 48,
+   "skill": "Intransitive Funktionsverbgefüge",
+   "english": "A further appointment is out of the question for organisational reasons.",
+   "german": "Ein weiterer Termin kommt aus organisatorischen Gründen nicht in Frage.",
+   "why": "Prefix kommt in separable position, with the aus-Praeposition giving the reason."
+  },
+  {
+   "id": 49,
+   "skill": "Intransitive Funktionsverbgefüge",
+   "english": "Because of his escape history he was never a candidate for this position anyway.",
+   "german": "Für diese Stelle kommt er wegen seiner Fluchterfahrung ohnehin nicht in Frage.",
+   "why": "Two Praepositionen flank the intransitive Funktionsverb, which still takes no object."
+  },
+  {
+   "id": 50,
+   "skill": "Intransitive Funktionsverbgefüge",
+   "english": "Is this appointment fundamentally possible for you?",
+   "german": "Kommt dieser Termin für Sie grundsätzlich in Frage?",
+   "why": "Yes-no question fronting the separable verb, with fuer marking the person concerned."
+  },
+  {
+   "id": 51,
+   "skill": "Intransitive Funktionsverbgefüge",
+   "english": "A change of provider is not a consideration for financial reasons.",
+   "german": "Ein Wechsel des Anbieters kommt aus finanziellen Gründen nicht in Betracht.",
+   "why": "in Betracht kommen replaces in Frage kommen in formal register and takes zu + Dativ."
+  },
+  {
+   "id": 52,
+   "skill": "Intransitive Funktionsverbgefüge",
+   "english": "A refund is unfortunately not a consideration for this shipment.",
+   "german": "Eine Rückerstattung kommt für diese Sendung leider nicht in Betracht.",
+   "why": "Genitive modifier in the subject; the Funktionsverb governs only in Betracht."
+  },
+  {
+   "id": 53,
+   "skill": "Intransitive Funktionsverbgefüge",
+   "english": "This lawyer is certainly a possibility for your application.",
+   "german": "Für Ihren Antrag kommt dieser Anwalt durchaus in Betracht.",
+   "why": "Fronted fuer-Praeposition with durchaus signalling a positive reading."
+  },
+  {
+   "id": 54,
+   "skill": "Intransitive Funktionsverbgefüge",
+   "english": "As an alternative to a new hire this experienced colleague is certainly an option.",
+   "german": "Als Alternative zu einer Neueinstellung kommt diese erfahrene Kollegin durchaus in Betracht.",
+   "why": "zu + Dativ marks the alternative, a typical complement of in Betracht kommen."
+  },
+  {
+   "id": 55,
+   "skill": "Intransitive Funktionsverbgefüge",
+   "english": "The engine has come back to life.",
+   "german": "Der Motor ist wieder in Gang gekommen.",
+   "why": "Intransitive in Gang kommen in contrast with the transitive in Gang setzen."
+  },
+  {
+   "id": 56,
+   "skill": "Intransitive Funktionsverbgefüge",
+   "english": "The collective bargaining talks got under way early this morning.",
+   "german": "Die Verhandlungen über den Tarifvertrag sind heute früh in Gang gekommen.",
+   "why": "A process, not a person, comes in Gang; the ueber-Praeposition is not the verb complement."
+  },
+  {
+   "id": 57,
+   "skill": "Intransitive Funktionsverbgefüge",
+   "english": "It was debated for a long time whether to relocate the plant.",
+   "german": "Es stand lange in Rede, den Betrieb zu verlagern.",
+   "why": "in Rede stehen is intransitive and normally appears with an indirect question in zu-infinitives."
+  },
+  {
+   "id": 58,
+   "skill": "Intransitive Funktionsverbgefüge",
+   "english": "At the press conference it was repeatedly debated whether to cut the programme.",
+   "german": "In der Pressekonferenz stand wiederholt in Rede, das Programm zu kürzen.",
+   "why": "Fronted locative plus wiederholt; the separable part steht stays before in Rede."
+  },
+  {
+   "id": 59,
+   "skill": "Intransitive Funktionsverbgefüge",
+   "english": "The entire staffing plan is being debated at the management level.",
+   "german": "Die gesamte Personalplanung steht bei der Direktion zur Diskussion.",
+   "why": "bei + Dativ names the body discussing; the Funktionsverb remains intransitive."
+  },
+  {
+   "id": 60,
+   "skill": "Intransitive Funktionsverbgefüge",
+   "english": "As a short-term solution this measure is certainly an option.",
+   "german": "Als kurzfristige Lösung kommt diese Maßnahme durchaus in Frage.",
+   "why": "Contrast with id 54: in Frage kommen with the same durchaus emphasis but no zu-Praeposition."
+  },
+  {
+   "id": 61,
+   "skill": "Funktionsverbgefüge with a preposition",
+   "english": "Participants should be considerate of the neighbours.",
+   "german": "Die Teilnehmenden sollten Rücksicht auf die Nachbarn nehmen.",
+   "why": "Rücksicht nehmen auf + Akkusativ; take the core accusative seriously after auf."
+  },
+  {
+   "id": 62,
+   "skill": "Funktionsverbgefüge with a preposition",
+   "english": "Please be considerate of the customers who are resting.",
+   "german": "Bitte nehmt Rücksicht auf die ruhende Kundschaft.",
+   "why": "Imperative of the separable verb: nehmt … Rücksicht auf, with the prefix in the verb slot."
+  },
+  {
+   "id": 63,
+   "skill": "Funktionsverbgefüge with a preposition",
+   "english": "Out of consideration for our family situation we stayed at home.",
+   "german": "Aus Rücksicht auf die Familiensituation sind wir zu Hause geblieben.",
+   "why": "Rücksicht auf in a prepositional phrase rather than the full Funktionsverbgefuege."
+  },
+  {
+   "id": 64,
+   "skill": "Funktionsverbgefüge with a preposition",
+   "english": "The administration showed little consideration for the workforce.",
+   "german": "Die Verwaltung hat wenig Rücksicht auf die Belegschaft genommen.",
+   "why": "Quantified core with wenig in the accusative slot governed by auf."
+  },
+  {
+   "id": 65,
+   "skill": "Funktionsverbgefüge with a preposition",
+   "english": "We should steer clear of this offer.",
+   "german": "Wir sollten Abstand von diesem Angebot nehmen.",
+   "why": "Abstand nehmen von + Dativ: here the demonstrative is dative, not accusative."
+  },
+  {
+   "id": 66,
+   "skill": "Funktionsverbgefüge with a preposition",
+   "english": "For security reasons she is keeping her distance from the investment.",
+   "german": "Sie nimmt aus Sicherheitsgründen Abstand von dem Investment.",
+   "why": "Fronted aus-Praeposition plus Abstand von, both needing correct case selection."
+  },
+  {
+   "id": 67,
+   "skill": "Funktionsverbgefüge with a preposition",
+   "english": "Please keep your distance from the power lines!",
+   "german": "Nehmt bitte Abstand von den Stromleitungen!",
+   "why": "Imperative and exclamation, with a dative plural complement after von."
+  },
+  {
+   "id": 68,
+   "skill": "Funktionsverbgefüge with a preposition",
+   "english": "He deliberately keeps his distance from public appearances.",
+   "german": "Er hält bewusst Abstand von öffentlichen Auftritten.",
+   "why": "halten rather than nehmen in the perfect, with the same dative complement."
+  },
+  {
+   "id": 69,
+   "skill": "Funktionsverbgefüge with a preposition",
+   "english": "I am taking part in the meeting.",
+   "german": "Ich nehme an der Sitzung teil.",
+   "why": "Separable Teil nehmen an + Dativ: the prefix teil goes to the end of the clause."
+  },
+  {
+   "id": 70,
+   "skill": "Funktionsverbgefüge with a preposition",
+   "english": "Are you taking part in the training?",
+   "german": "Nehmen Sie an der Schulung teil?",
+   "why": "Yes-no question with the separable prefix at the end, still governed by an + Dativ."
+  },
+  {
+   "id": 71,
+   "skill": "Funktionsverbgefüge with a preposition",
+   "english": "The works council is taking part in the negotiations.",
+   "german": "Der Betriebsrat nimmt an den Verhandlungen teil.",
+   "why": "Dative plural after an, a case errors are the typical mistake here."
+  },
+  {
+   "id": 72,
+   "skill": "Funktionsverbgefüge with a preposition",
+   "english": "A large number of guests are taking part in the panel discussion.",
+   "german": "Zahlreiche Gäste nehmen an der Podiumsdiskussion teil.",
+   "why": "Same construction with a quantifier subject, reinforcing the separable word order."
+  },
+  {
+   "id": 73,
+   "skill": "Funktionsverbgefüge with a preposition",
+   "english": "The report refers to the results of the study.",
+   "german": "Der Bericht nimmt Bezug auf die Ergebnisse der Studie.",
+   "why": "Bezug nehmen auf + Akkusativ, here with a genitive modifier in the core."
+  },
+  {
+   "id": 74,
+   "skill": "Funktionsverbgefüge with a preposition",
+   "english": "In your application you should refer to the expert report.",
+   "german": "In Ihrem Antrag sollten Sie Bezug auf das Gutachten nehmen.",
+   "why": "Modal verb plus non-finite Funktionsverb, with the accusative after auf unchanged."
+  },
+  {
+   "id": 75,
+   "skill": "Funktionsverbgefüge with a preposition",
+   "english": "In her speech she referred to the peace treaty several times.",
+   "german": "Sie hat in ihrer Rede mehrfach Bezug auf den Friedensvertrag genommen.",
+   "why": "Perfect form of the inseparable-taking verb nehmen with the auf-complement intact."
+  },
+  {
+   "id": 76,
+   "skill": "Funktionsverbgefüge with a preposition",
+   "english": "Many readers have picked up on our commentary.",
+   "german": "Viele Leser haben Bezug auf unseren Kommentar genommen.",
+   "why": "Accusative possessor unseren Kommentar inside the Bezug-phrase."
+  },
+  {
+   "id": 77,
+   "skill": "Funktionsverbgefüge with a preposition",
+   "english": "He accepts the consequences of his indecisiveness.",
+   "german": "Er nimmt die Folgen seiner Unentschlossenheit in Kauf.",
+   "why": "in Kauf nehmen has no preposition; in is part of the verb, not a Praeposition taking a case."
+  },
+  {
+   "id": 78,
+   "skill": "Funktionsverbgefüge with a preposition",
+   "english": "We have to accept these restrictions.",
+   "german": "Wir müssen diese Einschränkungen in Kauf nehmen.",
+   "why": "Modal construction with separable in Kauf: the prefix stays last, before nehmen."
+  },
+  {
+   "id": 79,
+   "skill": "Funktionsverbgefüge with a preposition",
+   "english": "We are happy to accept that it will take longer.",
+   "german": "Dass es länger dauert, nehmen wir gerne in Kauf.",
+   "why": "A dass-clause fronted before the verb; the subject is the clause, not a noun core."
+  },
+  {
+   "id": 80,
+   "skill": "Funktionsverbgefüge with a preposition",
+   "english": "She deliberately accepts all risks.",
+   "german": "Sie nimmt bewusst alle Risiken in Kauf.",
+   "why": "Alles in this construction is accusative; there is no missing preposition to supply."
+  },
+  {
+   "id": 81,
+   "skill": "Separable Funktionsverben",
+   "english": "The topic is finally coming up now.",
+   "german": "Das Thema kommt jetzt endlich zur Sprache.",
+   "why": "Intransitive zur Sprache kommen, the opposite of transitive zur Sprache bringen."
+  },
+  {
+   "id": 82,
+   "skill": "Separable Funktionsverben",
+   "english": "This delicate point has not come up in the meeting yet.",
+   "german": "In der Sitzung ist dieser heikle Punkt noch nicht zur Sprache gekommen.",
+   "why": "Perfect of a separable verb with the fronted locative in the first field."
+  },
+  {
+   "id": 83,
+   "skill": "Separable Funktionsverben",
+   "english": "The topic of surcharges has come up by now as well.",
+   "german": "Das Thema der Zuschläge ist inzwischen ebenfalls zur Sprache gekommen.",
+   "why": "Genitive modifier in the subject plus ebenfalls to add to a previous mention."
+  },
+  {
+   "id": 84,
+   "skill": "Separable Funktionsverben",
+   "english": "The farmers are under pressure.",
+   "german": "Die Landwirte stehen unter Druck.",
+   "why": "Intransitive unter Druck stehen, with unter as part of the Funktionsverb phrase."
+  },
+  {
+   "id": 85,
+   "skill": "Separable Funktionsverben",
+   "english": "Nobody likes being under so much pressure.",
+   "german": "Niemand steht gern unter so viel Druck.",
+   "why": "Quantifier unter so viel Druck, and gern as a second adverb between subject and verb."
+  },
+  {
+   "id": 86,
+   "skill": "Separable Funktionsverben",
+   "english": "The team is under a lot of pressure before the match.",
+   "german": "Das Team steht vor dem Spiel unter großem Druck.",
+   "why": "under großem Druck with a temporal phrase in front of the Funktionsverb."
+  },
+  {
+   "id": 87,
+   "skill": "Separable Funktionsverben",
+   "english": "The new law comes into force on 1 January.",
+   "german": "Das neue Gesetz tritt am 1. Januar in Kraft.",
+   "why": "in Kraft treten is intransitive; the date is an adverbial, not an object."
+  },
+  {
+   "id": 88,
+   "skill": "Separable Funktionsverben",
+   "english": "The ordinance comes into force in three weeks.",
+   "german": "Die Verordnung tritt in drei Wochen in Kraft.",
+   "why": "Same pattern with a different time expression to check the fixed verb order."
+  },
+  {
+   "id": 89,
+   "skill": "Separable Funktionsverben",
+   "english": "Which regulations come into force with the start of the semester?",
+   "german": "Welche Regelungen treten mit dem Semesterstart in Kraft?",
+   "why": "Interrogative pronoun in subject position; the separable prefix still ends the clause."
+  },
+  {
+   "id": 90,
+   "skill": "Separable Funktionsverben",
+   "english": "The city has set the station renovation under way.",
+   "german": "Die Stadt hat den Umbau des Bahnhofs in Gang gesetzt.",
+   "why": "Transitive in Gang setzen: the accusative object precedes the separable prefix."
+  },
+  {
+   "id": 91,
+   "skill": "Separable Funktionsverben",
+   "english": "The board has initiated an investigation into the incident.",
+   "german": "Der Vorstand hat eine Untersuchung zum Vorfall in Gang gesetzt.",
+   "why": "zum + Dativ gives the topic, while the investigation itself is the accusative object."
+  },
+  {
+   "id": 92,
+   "skill": "Separable Funktionsverben",
+   "english": "Who set this process in motion?",
+   "german": "Wer hat diesen Prozess in Gang gesetzt?",
+   "why": "W-Fragenstellung with perfect tense and accusative demonstrative in the object."
+  },
+  {
+   "id": 93,
+   "skill": "Separable Funktionsverben",
+   "english": "The rule expires at the end of the year.",
+   "german": "Mit Ablauf des Jahres tritt die Regelung außer Kraft.",
+   "why": "außer Kraft treten is the opposite of in Kraft treten, with the same intransitive pattern."
+  },
+  {
+   "id": 94,
+   "skill": "Separable Funktionsverben",
+   "english": "The old statute has long since become invalid.",
+   "german": "Die alte Satzung ist längst außer Kraft getreten.",
+   "why": "Passive meaning without an agent, which the separable form must still express."
+  },
+  {
+   "id": 95,
+   "skill": "Separable Funktionsverben",
+   "english": "The authority has fallen behind schedule again.",
+   "german": "Die Behörde ist wieder in Verzug geraten.",
+   "why": "in Verzug geraten contrasts with the transitive in Verzug setzen; it takes no object."
+  },
+  {
+   "id": 96,
+   "skill": "Separable Funktionsverben",
+   "english": "The suppliers have fallen behind schedule.",
+   "german": "Die Lieferanten sind in Verzug geraten.",
+   "why": "Same intransitive construction with a plural subject."
+  },
+  {
+   "id": 97,
+   "skill": "Separable Funktionsverben",
+   "english": "The state government has put the new ordinance into force.",
+   "german": "Die Landesregierung hat die neue Verordnung in Kraft gesetzt.",
+   "why": "Transitive in Kraft setzen: an accusative object is required, unlike in Kraft treten."
+  },
+  {
+   "id": 98,
+   "skill": "Separable Funktionsverben",
+   "english": "The senate has put the resolution into force as of 1 October.",
+   "german": "Der Senat hat den Beschluss zum 1. Oktober in Kraft gesetzt.",
+   "why": "zum + Dativ gives the starting date, the core stays accusative before the prefix."
+  },
+  {
+   "id": 99,
+   "skill": "Separable Funktionsverben",
+   "english": "The review puts the authority under great pressure.",
+   "german": "Die Prüfung setzt die Behörde stark unter Druck.",
+   "why": "Transitive unter Druck setzen, contrasted with the intransitive unter Druck stehen."
+  },
+  {
+   "id": 100,
+   "skill": "Separable Funktionsverben",
+   "english": "The record puts the whole industry under pressure.",
+   "german": "Der Rekord setzt die gesamte Branche unter Druck.",
+   "why": "Accusative object between the verb and the prefix unter Druck, a hard word-order case."
+  }
+ ],
+ "topic_en": "Funktionsverb constructions",
+ "term_de": "Funktionsverbgefüge"
+}

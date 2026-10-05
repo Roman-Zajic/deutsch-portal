@@ -1,0 +1,706 @@
+{
+ "exercises": [
+  {
+   "id": 1,
+   "skill": "Fixed-case prepositional verbs",
+   "english": "I am waiting for the bus in front of the station.",
+   "german": "Ich warte vor dem Bahnhof auf den Bus.",
+   "why": "warten takes auf plus accusative, so the bus is 'auf den Bus'; vor dem Bahnhof carries its own dative."
+  },
+  {
+   "id": 2,
+   "skill": "Fixed-case prepositional verbs",
+   "english": "We take part in the meeting on Monday morning.",
+   "german": "Wir nehmen am Montagmorgen an der Besprechung teil.",
+   "why": "teilnehmen an is always dative, so the meeting is 'an der Besprechung', not 'an die Besprechung'."
+  },
+  {
+   "id": 3,
+   "skill": "Fixed-case prepositional verbs",
+   "english": "Please pay attention to the notice on the wall.",
+   "german": "Bitte achten Sie auf den Aushang an der Wand.",
+   "why": "achten auf is accusative, so it is 'auf den Aushang'; the second preposition an der Wand stays dative."
+  },
+  {
+   "id": 4,
+   "skill": "Fixed-case prepositional verbs",
+   "english": "I often think about my childhood in the countryside.",
+   "german": "Ich denke oft an meine Kindheit auf dem Land zurück.",
+   "why": "denken an is accusative ('an meine Kindheit'); the verb cluster still finishes with the finite verb, not with zurück."
+  },
+  {
+   "id": 5,
+   "skill": "Fixed-case prepositional verbs",
+   "english": "We rely on your support in this difficult project.",
+   "german": "Wir verlassen uns in diesem schwierigen Projekt auf deine Unterstützung.",
+   "why": "sich verlassen auf is accusative, so it is 'auf deine Unterstützung'; in dem Projekt takes dative."
+  },
+  {
+   "id": 6,
+   "skill": "Fixed-case prepositional verbs",
+   "english": "She is waiting for a reply from her colleague.",
+   "german": "Sie wartet auf eine Antwort ihrer Kollegin.",
+   "why": "warten auf requires the accusative 'auf eine Antwort'; the genitive attribute 'ihrer Kollegin' names the source."
+  },
+  {
+   "id": 7,
+   "skill": "Fixed-case prepositional verbs",
+   "english": "Our department takes part in the trade fair in Leipzig.",
+   "german": "Unsere Abteilung nimmt an der Messe in Leipzig teil.",
+   "why": "The separable verb teilnehmen keeps the fixed dative 'an der Messe'; in Leipzig simply names the place."
+  },
+  {
+   "id": 8,
+   "skill": "Fixed-case prepositional verbs",
+   "english": "Please pay attention to the deadline for applications.",
+   "german": "Bitte achten Sie auf die Frist für die Bewerbungen.",
+   "why": "achten auf is accusative, so the deadline is 'auf die Frist'; für die Bewerbungen is a separate accusative preposition."
+  },
+  {
+   "id": 9,
+   "skill": "Fixed-case prepositional verbs",
+   "english": "She thinks about her decision every single day.",
+   "german": "Sie denkt jeden Tag an ihre Entscheidung.",
+   "why": "denken an never takes dative; the accusative 'an ihre Entscheidung' rules out the common error."
+  },
+  {
+   "id": 10,
+   "skill": "Fixed-case prepositional verbs",
+   "english": "I rely completely on our lawyer in this case.",
+   "german": "In diesem Fall verlasse ich mich vollständig auf unseren Anwalt.",
+   "why": "The adverb completely sits between the subject and the verb, and verlassen auf still demands the accusative 'auf unseren Anwalt'."
+  },
+  {
+   "id": 11,
+   "skill": "Fixed-case prepositional verbs",
+   "english": "They take part in the marathon every year.",
+   "german": "Sie nehmen jedes Jahr am Marathon teil.",
+   "why": "teilnehmen an is dative, and the event in an uninflected form still shows the m./f. article in the dative."
+  },
+  {
+   "id": 12,
+   "skill": "Fixed-case prepositional verbs",
+   "english": "He waits for the train on platform three.",
+   "german": "Er wartet auf dem Gleis drei auf den Zug.",
+   "why": "Two instances of the same fixed-case verb: warten auf governs the accusative, so it takes \"den Zug\", while the dative \"auf dem Gleis\" belongs to a plain Wechselpräposition expressing location."
+  },
+  {
+   "id": 13,
+   "skill": "Fixed-case prepositional verbs",
+   "english": "Do not forget to think about the consequences of the decision.",
+   "german": "Vergiss nicht, an die Folgen der Entscheidung zu denken.",
+   "why": "denken an stays accusative inside the infinitive clause: an die Folgen der Entscheidung, not an den Folgen."
+  },
+  {
+   "id": 14,
+   "skill": "Fixed-case prepositional verbs",
+   "english": "The company relies on imports from Asia.",
+   "german": "Die Firma verlässt sich auf Importe aus Asien.",
+   "why": "verlassen auf is accusative 'auf Importe', while aus Asien names the origin and takes dative."
+  },
+  {
+   "id": 15,
+   "skill": "Fixed-case prepositional verbs",
+   "english": "Children must pay attention to traffic on a rainy day.",
+   "german": "Kinder müssen bei Regen auf den Verkehr achten.",
+   "why": "achten auf is accusative 'auf den Verkehr', and bei Regen is a dative complement of weather."
+  },
+  {
+   "id": 16,
+   "skill": "Fixed-case prepositional verbs",
+   "english": "I am waiting for the results of the examination.",
+   "german": "Ich warte auf die Ergebnisse der Prüfung.",
+   "why": "warten auf takes the accusative even when the wait is impersonal and the subject is not visible."
+  },
+  {
+   "id": 17,
+   "skill": "Fixed-case prepositional verbs",
+   "english": "My colleagues take part in the further training course.",
+   "german": "Meine Kollegen nehmen an der Fortbildungsveranstaltung teil.",
+   "why": "teilnehmen an is dative, and the long noun keeps its article; a learner error would be an die Fortbildungsveranstaltung."
+  },
+  {
+   "id": 18,
+   "skill": "Fixed-case prepositional verbs",
+   "english": "We do not rely on promises but on written contracts.",
+   "german": "Wir verlassen uns nicht auf Versprechen, sondern auf schriftliche Verträge.",
+   "why": "Both instances of verlassen auf take the accusative, even across the nicht … sondern contrast."
+  },
+  {
+   "id": 19,
+   "skill": "Fixed-case prepositional verbs",
+   "english": "Please think about the offer until Friday.",
+   "german": "Bitte denken Sie bis Freitag über das Angebot nach.",
+   "why": "denken über with nach is accusative 'über das Angebot'; the temporal bis Freitag is accusative too and never moves the verb."
+  },
+  {
+   "id": 20,
+   "skill": "Fixed-case prepositional verbs",
+   "english": "The nurse looks after the patient in room twelve.",
+   "german": "Die Pflegekraft achtet in Zimmer zwölf auf den Patienten.",
+   "why": "achten auf is accusative 'auf den Patienten'; in Zimmer zwölf is a dative locative complement."
+  },
+  {
+   "id": 21,
+   "skill": "Case complement plus prepositional complement",
+   "english": "Can you help me with the translation, please?",
+   "german": "Können Sie mir bitte bei der Übersetzung helfen?",
+   "why": "helfen takes dative for the person (mir) and bei plus dative for the task (bei der Übersetzung)."
+  },
+  {
+   "id": 22,
+   "skill": "Case complement plus prepositional complement",
+   "english": "I thank you for your generous advice.",
+   "german": "Ich danke Ihnen für Ihren großzügigen Rat.",
+   "why": "danken takes dative for the person and accusative after für: für Ihren großzügigen Rat."
+  },
+  {
+   "id": 23,
+   "skill": "Case complement plus prepositional complement",
+   "english": "The police warned us about the thief in the car park.",
+   "german": "Die Polizei warnte uns vor dem Dieb auf dem Parkplatz.",
+   "why": "warnen takes accusative for the person (uns) and dative after vor: vor dem Dieb, not vor den Dieb."
+  },
+  {
+   "id": 24,
+   "skill": "Case complement plus prepositional complement",
+   "english": "I ask you for a short break.",
+   "german": "Ich bitte Sie um eine kurze Pause.",
+   "why": "bitten takes accusative for the person (Sie) and accusative after um: um eine kurze Pause."
+  },
+  {
+   "id": 25,
+   "skill": "Case complement plus prepositional complement",
+   "english": "The neighbour helped us with the heavy wardrobe.",
+   "german": "Der Nachbar half uns bei dem schweren Schrank.",
+   "why": "helfen is dative for the person (uns) and bei plus dative for the task, even though the wardrobe itself is accusative."
+  },
+  {
+   "id": 26,
+   "skill": "Case complement plus prepositional complement",
+   "english": "I would like to thank the team for the extra effort.",
+   "german": "Ich möchte dem Team für den zusätzlichen Einsatz danken.",
+   "why": "danken: dative dem Team, accusative für den zusätzlichen Einsatz; the accusative must be visible in the genitive-modified phrase."
+  },
+  {
+   "id": 27,
+   "skill": "Case complement plus prepositional complement",
+   "english": "The teacher warned us about a mistake in the third exercise.",
+   "german": "Die Lehrerin warnte uns vor einem Fehler in der dritten Übung.",
+   "why": "warnen: accusative uns, dative vor einem Fehler; adding an article makes the dative unmistakable."
+  },
+  {
+   "id": 28,
+   "skill": "Case complement plus prepositional complement",
+   "english": "I ask you for five minutes of silence.",
+   "german": "Ich bitte Sie um fünf Minuten Ruhe.",
+   "why": "bitten um is accusative, so um fünf Minuten Ruhe stands in the accusative after the preposition."
+  },
+  {
+   "id": 29,
+   "skill": "Case complement plus prepositional complement",
+   "english": "My sister helped me with the application form.",
+   "german": "Meine Schwester half mir bei dem Antragsformular.",
+   "why": "helfen is dative for mir, bei plus dative for the thing; the prepositional complement does not shift the finite verb."
+  },
+  {
+   "id": 30,
+   "skill": "Case complement plus prepositional complement",
+   "english": "The customer thanked the employee for the quick solution.",
+   "german": "Der Kunde dankte der Mitarbeiterin für die schnelle Lösung.",
+   "why": "danken with a feminine dative noun (der Mitarbeiterin) and accusative für die schnelle Lösung."
+  },
+  {
+   "id": 31,
+   "skill": "Case complement plus prepositional complement",
+   "english": "The doctor warned us against too much screen time.",
+   "german": "Die Ärztin warnte uns vor zu viel Bildschirmzeit.",
+   "why": "vor plus dative even with an uncountable amount: vor zu viel Bildschirmzeit, never vor zu vielen."
+  },
+  {
+   "id": 32,
+   "skill": "Case complement plus prepositional complement",
+   "english": "I ask you for a moment of your attention.",
+   "german": "Ich bitte Sie um einen Moment Ihrer Aufmerksamkeit.",
+   "why": "bitten um is accusative (um einen Moment), and the genitive attribute does not change the case of the um-phrase."
+  },
+  {
+   "id": 33,
+   "skill": "Case complement plus prepositional complement",
+   "english": "Thanks to you, we finished the project on time.",
+   "german": "Ich danke dir dafür, dass wir das Projekt pünktlich abgeschlossen haben.",
+   "why": "dative person plus accusative dafür, and the second dass-clause confirms that dative, not dass, is the harder contrast."
+  },
+  {
+   "id": 34,
+   "skill": "Case complement plus prepositional complement",
+   "english": "The guide helped the tourists with their heavy bags.",
+   "german": "Der Reiseführer half den Touristen bei ihren schweren Taschen.",
+   "why": "helfen: dative den Touristen, bei plus dative bei ihren schweren Taschen; both complements are dative here."
+  },
+  {
+   "id": 35,
+   "skill": "Case complement plus prepositional complement",
+   "english": "My parents warned me about the trick with the contract.",
+   "german": "Meine Eltern warnten mich vor dem Trick mit dem Vertrag.",
+   "why": "warnen: accusative mich, dative vor dem Trick; mit dem Vertrag is a second dative prepositional phrase."
+  },
+  {
+   "id": 36,
+   "skill": "Case complement plus prepositional complement",
+   "english": "The committee asks us for a short statement.",
+   "german": "Das Gremium bittet uns um eine kurze Stellungnahme.",
+   "why": "bitten um plus accusative, with the um-phrase functioning like an object rather than a beneficiary."
+  },
+  {
+   "id": 37,
+   "skill": "Case complement plus prepositional complement",
+   "english": "I helped my neighbour with his leaking pipe.",
+   "german": "Ich half meinem Nachbarn bei seinem undichten Rohr.",
+   "why": "Dative man plus dative bei: meinem Nachbarn and bei seinem undichten Rohr, two dative elements in a row."
+  },
+  {
+   "id": 38,
+   "skill": "Case complement plus prepositional complement",
+   "english": "The bank thanked its customers for their long patience.",
+   "german": "Die Bank dankte ihren Kunden für ihre lange Geduld.",
+   "why": "danken: dative ihren Kunden, accusative für ihre lange Geduld, with parallel genitive attributes."
+  },
+  {
+   "id": 39,
+   "skill": "Case complement plus prepositional complement",
+   "english": "The supervisor warned the interns about the deadline.",
+   "german": "Die Vorgesetzte warnte die Praktikanten vor der Frist.",
+   "why": "A weak plural noun shows the pattern: accusative die Praktikanten, dative vor der Frist."
+  },
+  {
+   "id": 40,
+   "skill": "Case complement plus prepositional complement",
+   "english": "The student asked the professor for an extension.",
+   "german": "Die Studentin bat den Professor um eine Verlängerung.",
+   "why": "bitten: accusative den Professor, accusative um eine Verlängerung, and the finite verb stays second."
+  },
+  {
+   "id": 41,
+   "skill": "Two prepositions, two cases",
+   "english": "I spoke with my boss about the new budget.",
+   "german": "Ich habe mit meinem Chef über das neue Budget gesprochen.",
+   "why": "sprechen mit is dative, sprechen über is accusative, so the two prepositions in one clause demand different cases."
+  },
+  {
+   "id": 42,
+   "skill": "Two prepositions, two cases",
+   "english": "She talked to the lawyer about the case and of the costs.",
+   "german": "Sie hat mit der Anwältin über den Fall und von den Kosten gesprochen.",
+   "why": "mit der Anwältin is dative, von den Kosten is dative again, but über den Fall is accusative."
+  },
+  {
+   "id": 43,
+   "skill": "Two prepositions, two cases",
+   "english": "We thank the teacher for the help and the organiser for the invitation.",
+   "german": "Wir danken der Lehrerin für die Hilfe und dem Organisator für die Einladung.",
+   "why": "Two dative persons and two accusative für-phrases, which makes the contrast visible twice in one sentence."
+  },
+  {
+   "id": 44,
+   "skill": "Two prepositions, two cases",
+   "english": "I apologised to my neighbour for the noise late in the evening.",
+   "german": "Ich habe mich bei meinem Nachbarn wegen des Lärms am späten Abend entschuldigt.",
+   "why": "sich entschuldigen bei takes dative, wegen plus genitive; both complements follow the reflexive verb."
+  },
+  {
+   "id": 45,
+   "skill": "Two prepositions, two cases",
+   "english": "The team thanked the customer for the patience and the agency for the trust.",
+   "german": "Das Team dankte dem Kunden für die Geduld und der Agentur für das Vertrauen.",
+   "why": "bedanken bei is dative, für is accusative; here the two cases even differ in gender between the two clauses."
+  },
+  {
+   "id": 46,
+   "skill": "Two prepositions, two cases",
+   "english": "He spoke with his sister about the holiday and of the costs.",
+   "german": "Er hat mit seiner Schwester über den Urlaub und von den Kosten gesprochen.",
+   "why": "mit datative person, über accusative thing, von dative thing: three prepositions, two cases in one sentence."
+  },
+  {
+   "id": 47,
+   "skill": "Two prepositions, two cases",
+   "english": "I apologised to the client for the delay and to the team for the overtime.",
+   "german": "Ich habe mich beim Kunden für die Verspätung und beim Team für die Überstunden entschuldigt.",
+   "why": "sich entschuldigen bei is dative, but here the reason is introduced by für plus accusative."
+  },
+  {
+   "id": 48,
+   "skill": "Two prepositions, two cases",
+   "english": "The interns thanked the professor for the support and the company for the placement.",
+   "german": "Die Praktikanten dankten dem Professor für die Unterstützung und der Firma für den Praktikumsplatz.",
+   "why": "Dative dem Professor and der Firma beside accusative für die Unterstützung and für den Praktikumsplatz."
+  },
+  {
+   "id": 49,
+   "skill": "Two prepositions, two cases",
+   "english": "We spoke with the landlord about the contract and of the increase.",
+   "german": "Wir haben mit dem Vermieter über den Vertrag und von der Erhöhung gesprochen.",
+   "why": "mit dem Vermieter dative, über den Vertrag accusative, von der Erhöhung dative, feminine here."
+  },
+  {
+   "id": 50,
+   "skill": "Two prepositions, two cases",
+   "english": "She apologised to her flatmate for the mess in the kitchen.",
+   "german": "Sie hat sich bei ihrer Mitbewohnerin für das Chaos in der Küche entschuldigt.",
+   "why": "bei plus dative and für plus accusative after sich entschuldigen, the commonest two-preposition pattern."
+  },
+  {
+   "id": 51,
+   "skill": "Two prepositions, two cases",
+   "english": "The class thanked the cook for the meal and the caretaker for the clean room.",
+   "german": "Die Klasse dankte dem Koch für das Essen und dem Hausmeister für den sauberen Raum.",
+   "why": "Two dative persons after danken and two accusative für-phrases, with adjectives in the accusative inflection."
+  },
+  {
+   "id": 52,
+   "skill": "Two prepositions, two cases",
+   "english": "He spoke to the doctor about the pain and of the treatment.",
+   "german": "Er hat mit dem Arzt über die Schmerzen und von der Behandlung gesprochen.",
+   "why": "mit dem Arzt dative and von der Behandlung dative are both masculine and feminine nouns with clear endings."
+  },
+  {
+   "id": 53,
+   "skill": "Two prepositions, two cases",
+   "english": "I thanked the waiter for the excellent service and the chef for the soup.",
+   "german": "Ich dankte dem Kellner für den ausgezeichneten Service und dem Koch für die Suppe.",
+   "why": "Dative Kellner and Koch, accusative für den ausgezeichneten Service and für die Suppe."
+  },
+  {
+   "id": 54,
+   "skill": "Two prepositions, two cases",
+   "english": "We apologised to the guests for the noise and to the neighbours for the disturbance.",
+   "german": "Wir haben uns bei den Gästen wegen des Lärms und bei den Nachbarn wegen der Belästigung entschuldigt.",
+   "why": "Two dative bei-phrases and two genitive wegen-phrases, a deliberately heavy instance of the pattern."
+  },
+  {
+   "id": 55,
+   "skill": "Two prepositions, two cases",
+   "english": "The manager spoke with the staff about the schedule and of the overtime.",
+   "german": "Die Chefin hat mit den Mitarbeitern über den Dienstplan und von den Überstunden gesprochen.",
+   "why": "mit den Mitarbeitern dative, über den Dienstplan accusative, von den Überstunden dative."
+  },
+  {
+   "id": 56,
+   "skill": "Two prepositions, two cases",
+   "english": "Thank you to the sponsor for the money and to the volunteers for the time.",
+   "german": "Wir danken dem Sponsor für das Geld und den Freiwilligen für die Zeit.",
+   "why": "Weak plural den Freiwilligen is dative after danken, while für die Zeit stays accusative."
+  },
+  {
+   "id": 57,
+   "skill": "Two prepositions, two cases",
+   "english": "He apologised to his sister for the lost keys.",
+   "german": "Er hat sich bei seiner Schwester wegen der verlorenen Schlüssel entschuldigt.",
+   "why": "sich entschuldigen bei + Dativ for the person and wegen + Genitive for the reason; the wegen-phrase here is genitive plural, not dative."
+  },
+  {
+   "id": 58,
+   "skill": "Two prepositions, two cases",
+   "english": "We spoke with the printer about the price and of the delivery time.",
+   "german": "Wir haben mit dem Drucker über den Preis und von der Lieferzeit gesprochen.",
+   "why": "Dative dem Drucker and von der Lieferzeit versus accusative über den Preis, all three in one clause."
+  },
+  {
+   "id": 59,
+   "skill": "Two prepositions, two cases",
+   "english": "The students thanked the librarian for the recommendation and the professor for the topic.",
+   "german": "Die Studenten dankten der Bibliothekarin für die Empfehlung und dem Professor für das Thema.",
+   "why": "Dative der Bibliothekarin and dem Professor with accusative für-phrases, two masculine and feminine pairs."
+  },
+  {
+   "id": 60,
+   "skill": "Two prepositions, two cases",
+   "english": "I apologised to the teacher for the late submission and to my parents for the worry.",
+   "german": "Ich habe mich bei der Lehrerin für die verspätete Abgabe und bei meinen Eltern für die Sorge entschuldigt.",
+   "why": "Two dative bei-phrases, one with an article and one with a possessive determiner in the dative plural."
+  },
+  {
+   "id": 61,
+   "skill": "Reflexive verbs with a fixed-case preposition",
+   "english": "I am interested in medieval history.",
+   "german": "Ich interessiere mich für die mittelalterliche Geschichte.",
+   "why": "sich interessieren für is always accusative, so it is für die mittelalterliche Geschichte."
+  },
+  {
+   "id": 62,
+   "skill": "Reflexive verbs with a fixed-case preposition",
+   "english": "The children look forward to the school trip in September.",
+   "german": "Die Kinder freuen sich auf den Schulausflug im September.",
+   "why": "sich freuen auf is accusative, unlike sich freuen über plus dative, which is the classic trap."
+  },
+  {
+   "id": 63,
+   "skill": "Reflexive verbs with a fixed-case preposition",
+   "english": "She complains about the noise in the courtyard.",
+   "german": "Sie beschwert sich über den Lärm in dem Innenhof.",
+   "why": "sich beschweren über is accusative 'über den Lärm'; in dem Innenhof is dative."
+  },
+  {
+   "id": 64,
+   "skill": "Reflexive verbs with a fixed-case preposition",
+   "english": "He is annoyed about the cancelled train.",
+   "german": "Der Student ärgert sich über den ausgefallenen Zug.",
+   "why": "sich ärgern über takes the accusative, so the cancellation is 'über den ausgefallenen Zug'."
+  },
+  {
+   "id": 65,
+   "skill": "Reflexive verbs with a fixed-case preposition",
+   "english": "You can rely on me in this situation.",
+   "german": "In dieser Situation kannst du dich auf mich verlassen.",
+   "why": "sich verlassen auf is accusative even with a pronoun: auf mich, not auf mir."
+  },
+  {
+   "id": 66,
+   "skill": "Reflexive verbs with a fixed-case preposition",
+   "english": "I am interested in the new exhibition in the old town hall.",
+   "german": "Ich interessiere mich für die neue Ausstellung in dem alten Rathaus.",
+   "why": "sich interessieren für accusative for the exhibition, dative in for the building."
+  },
+  {
+   "id": 67,
+   "skill": "Reflexive verbs with a fixed-case preposition",
+   "english": "We look forward to the results in the spring.",
+   "german": "Wir freuen uns auf die Ergebnisse im Frühling.",
+   "why": "sich freuen auf accusative, and the temporal im Frühling shows that the verb-final order is not affected."
+  },
+  {
+   "id": 68,
+   "skill": "Reflexive verbs with a fixed-case preposition",
+   "english": "The passengers complain about the delay of the flight to Rome.",
+   "german": "Die Passagiere beschweren sich über die Verspätung des Fluges nach Rom.",
+   "why": "sich beschweren über is accusative; the genitive attributes des Fluges and the dative nach Rom follow."
+  },
+  {
+   "id": 69,
+   "skill": "Reflexive verbs with a fixed-case preposition",
+   "english": "The guests were annoyed about the long wait at the entrance.",
+   "german": "Die Gäste ärgerten sich über die lange Wartezeit am Eingang.",
+   "why": "Two accusative prepositional phrases with über, plus dative am Eingang, all after the finite verb."
+  },
+  {
+   "id": 70,
+   "skill": "Reflexive verbs with a fixed-case preposition",
+   "english": "Our department relies on the advice of the specialist.",
+   "german": "Unsere Abteilung verlässt sich auf den Rat des Fachmanns.",
+   "why": "sich verlassen auf accusative, with a genitive attribute that must not be turned into a dative."
+  },
+  {
+   "id": 71,
+   "skill": "Reflexive verbs with a fixed-case preposition",
+   "english": "I am interested in the salary of a company in the automotive sector.",
+   "german": "Mich interessiert das Gehalt eines Unternehmens in der Automobilbranche.",
+   "why": "sich interessieren für in the emphatic variant takes accusative, here das Gehalt eines Unternehmens."
+  },
+  {
+   "id": 72,
+   "skill": "Reflexive verbs with a fixed-case preposition",
+   "english": "The team looks forward to the feedback from the customer.",
+   "german": "Das Team freut sich auf das Feedback des Kunden.",
+   "why": "sich freuen auf accusative 'auf das Feedback', and des Kunden is genitive, not dative."
+  },
+  {
+   "id": 73,
+   "skill": "Reflexive verbs with a fixed-case preposition",
+   "english": "Nobody complains about the new rules in the office.",
+   "german": "Niemand beschwert sich über die neuen Regeln in dem Büro.",
+   "why": "Negative subject with the reflexive pronoun sich; the preposition über still governs the accusative."
+  },
+  {
+   "id": 74,
+   "skill": "Reflexive verbs with a fixed-case preposition",
+   "english": "I rely on the promise of the landlord.",
+   "german": "Ich verlasse mich auf das Versprechen des Vermieters.",
+   "why": "verlassen auf accusative, and the genitive des Vermieters keeps the noun apart from the pronoun idea."
+  },
+  {
+   "id": 75,
+   "skill": "Reflexive verbs with a fixed-case preposition",
+   "english": "The singer was annoyed about the criticism in the press.",
+   "german": "Die Sängerin ärgerte sich über die Kritik in der Presse.",
+   "why": "sich ärgern über accusative, with dative in der Presse showing the source of the criticism."
+  },
+  {
+   "id": 76,
+   "skill": "Reflexive verbs with a fixed-case preposition",
+   "english": "My parents are interested in how I spend my evenings.",
+   "german": "Meine Eltern interessieren sich dafür, wie ich meine Abende verbringe.",
+   "why": "sich interessieren für the impersonal dafür takes accusative here, and the dass-clause carries the question."
+  },
+  {
+   "id": 77,
+   "skill": "Reflexive verbs with a fixed-case preposition",
+   "english": "We are looking forward to seeing you at the conference in Vienna.",
+   "german": "Wir freuen uns darauf, Sie auf der Konferenz in Wien zu sehen.",
+   "why": "sich freuen auf accusative 'darauf', and the final infinitive clause keeps the pronoun accusative."
+  },
+  {
+   "id": 78,
+   "skill": "Reflexive verbs with a fixed-case preposition",
+   "english": "The union complains about the plans of the management.",
+   "german": "Die Gewerkschaft beschwert sich über die Pläne des Managements.",
+   "why": "sich beschweren über accusative, with a genitive attribute whose des must not be confused with a dative."
+  },
+  {
+   "id": 79,
+   "skill": "Reflexive verbs with a fixed-case preposition",
+   "english": "She relies entirely on the support of her family in the city.",
+   "german": "Sie verlässt sich in der Stadt ganz auf die Unterstützung ihrer Familie.",
+   "why": "sich verlassen auf accusative, while in der Stadt is dative and the adverb sits in the verb field."
+  },
+  {
+   "id": 80,
+   "skill": "Reflexive verbs with a fixed-case preposition",
+   "english": "The two colleagues were annoyed about the mistake in the file.",
+   "german": "Die beiden Kollegen ärgerten sich über den Fehler in der Akte.",
+   "why": "Plural subject, reflexive pronoun in the plural sich, and accusative über den Fehler."
+  },
+  {
+   "id": 81,
+   "skill": "Choosing the right case",
+   "english": "I am looking for my keys, they must be in the second drawer.",
+   "german": "Ich suche meine Schlüssel, sie müssen in der zweiten Schublade sein.",
+   "why": "suchen takes a bare accusative object, so the possessive determiner has no preposition at all."
+  },
+  {
+   "id": 82,
+   "skill": "Choosing the right case",
+   "english": "I am looking forward to the appointment with the doctor next Tuesday.",
+   "german": "Ich freue mich auf den Termin mit der Ärztin am Dienstag.",
+   "why": "sich freuen auf requires the accusative even when mit already appears with dative in the same sentence."
+  },
+  {
+   "id": 83,
+   "skill": "Choosing the right case",
+   "english": "Can you help me find the right platform for the express train?",
+   "german": "Können Sie mir helfen, das richtige Gleis für den Express zu finden?",
+   "why": "helfen is dative for mir, and the embedded verb cluster ends with zu finden rather than with the pronoun."
+  },
+  {
+   "id": 84,
+   "skill": "Choosing the right case",
+   "english": "I am interested in the new rules, but my brother is annoyed about them.",
+   "german": "Mich interessieren die neuen Regeln, aber mein Bruder ärgert sich über sie.",
+   "why": "Two different cases for the same object: accusative in the first clause, über plus accusative in the second."
+  },
+  {
+   "id": 85,
+   "skill": "Choosing the right case",
+   "english": "The meeting takes place in the large hall on the third floor.",
+   "german": "Die Besprechung findet im großen Saal im dritten Stock statt.",
+   "why": "Both locative prepositions are dative, which contrasts with the accusative of warten auf in the same family."
+  },
+  {
+   "id": 86,
+   "skill": "Choosing the right case",
+   "english": "She thinks about the offer and speaks with her colleague about it.",
+   "german": "Sie denkt über das Angebot nach und spricht mit ihrer Kollegin darüber.",
+   "why": "denken über is accusative, while darüber is a dative pronoun referring back to the offer."
+  },
+  {
+   "id": 87,
+   "skill": "Choosing the right case",
+   "english": "We take part in the conference and think about the new project.",
+   "german": "Wir nehmen an der Konferenz teil und denken über das neue Projekt nach.",
+   "why": "an der Konferenz dative for teilnehmen, über das neue Projekt accusative for denken, in one sentence."
+  },
+  {
+   "id": 88,
+   "skill": "Choosing the right case",
+   "english": "The guest thanks the host for the invitation to the garden party.",
+   "german": "Der Gast dankt dem Gastgeber für die Einladung zur Gartenparty.",
+   "why": "dative dem Gastgeber, accusative für die Einladung, and zu plus dative for the party."
+  },
+  {
+   "id": 89,
+   "skill": "Choosing the right case",
+   "english": "I need the key to the cellar, it is in the drawer downstairs.",
+   "german": "Ich brauche den Schlüssel zum Keller, er liegt in der Schublage unten.",
+   "why": "zu plus dative for the cellar (zu dem Keller, zum Keller) beside the accusative object den Schlüssel."
+  },
+  {
+   "id": 90,
+   "skill": "Choosing the right case",
+   "english": "He relies on his colleague and helps her with the presentation.",
+   "german": "Er verlässt sich auf seine Kollegin und hilft ihr bei dem Vortrag.",
+   "why": "auf plus accusative and ihr plus dative: the same person in two different cases in one sentence."
+  },
+  {
+   "id": 91,
+   "skill": "Choosing the right case",
+   "english": "Please answer the question of the client and warn him about the deadline.",
+   "german": "Bitte beantworten Sie die Frage des Kunden und warnen Sie ihn vor der Frist.",
+   "why": "Beantworten is accusative, while warnen takes accusative person plus dative vor der Frist."
+  },
+  {
+   "id": 92,
+   "skill": "Choosing the right case",
+   "english": "The pupil asks the teacher for advice and thanks her afterwards.",
+   "german": "Die Schülerin bittet die Lehrerin um Rat und dankt ihr danach.",
+   "why": "bitten um plus accusative contrasts with danken plus dative pronoun, both referring to the same person."
+  },
+  {
+   "id": 93,
+   "skill": "Choosing the right case",
+   "english": "We wait for the train and take part in the discussion afterwards.",
+   "german": "Wir warten auf den Zug und nehmen danach an der Diskussion teil.",
+   "why": "warten auf accusative, teilnehmen an dative, and danach shows the second clause coming later."
+  },
+  {
+   "id": 94,
+   "skill": "Choosing the right case",
+   "english": "I speak with the doctor about the pain in my back.",
+   "german": "Ich spreche mit dem Arzt über die Schmerzen in meinem Rücken.",
+   "why": "mit dative for the person, über accusative for the complaint, dative in for the body part."
+  },
+  {
+   "id": 95,
+   "skill": "Choosing the right case",
+   "english": "The company apologises to the customer and compensates him for the damage.",
+   "german": "Die Firma entschuldigt sich beim Kunden und entschädigt ihn für den Schaden.",
+   "why": "beim Kunden dative, while entschädigen takes accusative ihn and accusative für den Schaden."
+  },
+  {
+   "id": 96,
+   "skill": "Choosing the right case",
+   "english": "She is pleased about the gift and complains about the packaging.",
+   "german": "Sie freut sich über das Geschenk und beschwert sich über die Verpackung.",
+   "why": "sich freuen über is dative, sich beschweren über is accusative, a minimal pair in one sentence."
+  },
+  {
+   "id": 97,
+   "skill": "Choosing the right case",
+   "english": "I did not think about the deadline and apologise now.",
+   "german": "Ich habe nicht an die Frist gedacht und entschuldige mich dafür jetzt.",
+   "why": "denken an accusative in the perfect participle, then dative mich dafür in the present clause."
+  },
+  {
+   "id": 98,
+   "skill": "Choosing the right case",
+   "english": "The children are looking forward to the excursion and take part in the preparation.",
+   "german": "Die Kinder freuen sich auf den Ausflug und nehmen an der Vorbereitung teil.",
+   "why": "freuen auf accusative and teilnehmen an dative, with the separable verb at the end in the second coordinate clause."
+  },
+  {
+   "id": 99,
+   "skill": "Choosing the right case",
+   "english": "I help my brother with his application and thank him for the photo.",
+   "german": "Ich helfe meinem Bruder bei seiner Bewerbung und danke ihm für das Foto.",
+   "why": "helfen plus dative person and bei plus dative, then danken plus dative person and accusative für."
+  },
+  {
+   "id": 100,
+   "skill": "Choosing the right case",
+   "english": "The lawyer talks with the client about the contract and pays attention to the deadlines.",
+   "german": "Der Anwalt spricht mit dem Mandanten über den Vertrag und achtet auf die Fristen.",
+   "why": "mit plus dative and über plus accusative, then achten auf plus accusative, three fixed patterns side by side."
+  }
+ ],
+ "topic_en": "Verbs with two prepositions and different cases",
+ "term_de": "Verben mit zwei Präpositionen"
+}
