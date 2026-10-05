@@ -215,6 +215,8 @@ footer strong{color:var(--teal-700)}
   var LEVELS = ["A1","A2","B1","B2","C1","C2"];
 
   var data = null, activeLevel = "ALL", query = "", done = {}, open = {};
+  // show only topics that have a dedicated page
+  var onlyReleased = false;
 
   function loadDone(){
     try { done = JSON.parse(localStorage.getItem(STORE_KEY)) || {}; } catch(e){ done = {}; }
