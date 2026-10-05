@@ -321,5 +321,36 @@
       "Ich habe den Ellbogen verletzt. — I injured my elbow.",
       "Er stützte sich auf die Ellbogen. — He leaned on his elbows."
     ]
+  },
+  {
+    "id": "1791177553805",
+    "word": "antreffen",
+    "translation": "to meet, to encounter (a person)",
+    "partOfSpeech": "Verb",
+    "article": "",
+    "level": "B1",
+    "plural": "",
+    "notes": "Separable prefix verb: an·treffen. Past: traf an. Perfekt: hat angetroffen. Takes a person or a place as its object.",
+    "examples": [
+      "Ich treffe dich morgen am Bahnhof an. — I'll meet you at the station tomorrow.",
+      "Wir haben den Chef zufällig im Lift angetroffen. — We happened to run into the boss in the lift.",
+      "Die Polizei hat den Verdächtigen am Flughafen angetroffen. — The police met the suspect at the airport.",
+      "Ihr habt euch ja ewig nicht angetroffen! — You haven't seen each other for ages!"
+    ]
+  },
+  {
+    "id": "1791177553806",
+    "word": "Dude",
+    "translation": "dude, guy",
+    "partOfSpeech": "Noun",
+    "article": "der",
+    "level": "B1",
+    "plural": "die Dudes",
+    "notes": "Casual English loanword, common among younger speakers. The standard German words are der Typ, der Kerl or der Mann. Not for formal contexts.",
+    "examples": [
+      "Der Dude am Nebentisch hat die Rechnung bezahlt. — The guy at the next table paid the bill.",
+      "Ich habe mit einem Dude aus England gesprochen. — I spoke to a guy from England.",
+      "Dudes, das Festival war krass! — Guys, the festival was awesome!"
+    ]
   }
 ]
