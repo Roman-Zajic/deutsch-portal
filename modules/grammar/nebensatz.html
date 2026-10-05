@@ -113,6 +113,10 @@ tr:last-child td{border-bottom:none}
 .btn:hover{background:rgba(80,193,193,.28)}
 .btn.ghost{background:transparent;border-color:var(--border);color:var(--muted)}
 .btn.ghost:hover{border-color:var(--teal-400);color:var(--teal-700)}
+.noVoice{display:none;align-items:flex-start;gap:8px;margin-bottom:12px;padding:9px 12px;
+  background:rgba(225,160,30,.12);border:1px solid rgba(225,160,30,.4);border-radius:var(--r);
+  font-size:.83rem;color:#7A5000}
+.noVoice b{color:#7A5000}
 .filters{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
 .fbtn{font-family:var(--font);font-size:.76rem;font-weight:600;color:var(--teal-700);
   background:var(--card);border:1px solid var(--border);border-radius:11px;
@@ -417,6 +421,10 @@ details.fold .foldbody{padding:0 12px 11px;border-top:1px solid var(--border);pa
       <button class="btn ghost" id="resetAll">Reset</button>
     </div>
 
+    <div class="noVoice" id="noVoice">
+      <b>Pronunciation unavailable.</b> This browser has no German speech voice installed, so the
+      mic buttons will not play. In Chrome, Edge and Safari on a desktop, German is available by default.
+    </div>
     <div class="filters" id="filters"></div>
     <div id="quiz"></div>
   </section>
@@ -470,11 +478,17 @@ details.fold .foldbody{padding:0 12px 11px;border-top:1px solid var(--border);pa
   }
   if(synth){
     pickVoice();
-    if(synth.onvoiceschanged === null) synth.onvoiceschanged = pickVoice;
+    if(synth.addEventListener) synth.addEventListener("voiceschanged", pickVoice);
   }
 
   function stopSpeech(){ if(synth) try{ synth.cancel(); }catch(e){} }
 
+  var warned = false;
+  function noVoiceNotice(){
+    if(warned) return; warned = true;
+    var n = document.getElementById("noVoice");
+    if(n) n.style.display = "flex";
+  }
   function micBtn(text, label){
     var b = document.createElement("button");
     b.className = "mic";
@@ -485,7 +499,7 @@ details.fold .foldbody{padding:0 12px 11px;border-top:1px solid var(--border);pa
     b.innerHTML = MIC_SVG;
     b.addEventListener("click", function(ev){
       ev.stopPropagation();
-      if(!synth){ b.disabled = true; b.title = "Speech is not available in this browser"; return; }
+      if(!synth){ b.disabled = true; b.title = "Speech is not available in this browser"; noVoiceNotice(); return; }
       if(b.getAttribute("aria-pressed")==="true"){ stopSpeech(); b.setAttribute("aria-pressed","false"); return; }
       stopSpeech();
       if(!germanVoice) pickVoice();
@@ -495,8 +509,11 @@ details.fold .foldbody{padding:0 12px 11px;border-top:1px solid var(--border);pa
       u.rate = 0.92; u.pitch = 1;
       b.setAttribute("aria-pressed","true");
       var off = function(){ b.setAttribute("aria-pressed","false"); };
-      u.onend = off; u.onerror = off;
+      u.onend = off;
+      u.onerror = function(){ off(); noVoiceNotice(); };
       synth.speak(u);
+      // some engines report no voices at all; surface that instead of a dead button
+      if(!synth.getVoices().length) noVoiceNotice();
     });
     return b;
   }
