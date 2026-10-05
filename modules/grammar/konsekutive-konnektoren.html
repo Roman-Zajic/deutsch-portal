@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Consecutive and modal connectors — Die konsekutiven und modalen Konnektoren | Deutsch Lernen</title>
+<style>
+:root{
+  --font:"Segoe UI",system-ui,-apple-system,sans-serif;
+  --teal-900:#005A5A; --teal-700:#008282; --teal-400:#50C1C1; --teal-100:#95DFDB;
+  --amber:#E1A01E; --red:#C41E3A; --green:#1D7A4C;
+  --ink:#012D2C; --muted:#008282;
+  --page:#F0FAFA; --card:#FFF; --in:#F0FAFA; --border:#D0ECEB;
+  --shadow:0 1px 4px rgba(1,45,44,.10); --shadow-md:0 4px 14px rgba(1,45,44,.12);
+  --r:8px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font);font-size:16px;color:var(--teal-900);background:var(--page);
+  line-height:1.65;-webkit-font-smoothing:antialiased;
+  display:flex;flex-direction:column;min-height:100vh}
+
+.navbar{display:flex;align-items:center;gap:12px;height:48px;padding:0 14px;
+  background:var(--teal-900);border-bottom:1px solid rgba(149,223,219,.15);
+  position:sticky;top:0;z-index:100;flex-shrink:0}
+.brand-icon{display:flex;align-items:center;flex-shrink:0}
+.nav-pipe{width:1px;height:16px;background:rgba(149,223,219,.30);flex-shrink:0;margin:0 12px}
+.nav-brand-text{font-size:.95rem;font-weight:600;color:var(--teal-100);text-decoration:none;white-space:nowrap}
+.nav-actions{margin-left:auto;display:flex;align-items:center;gap:8px}
+.icon-btn{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;padding:0;
+  color:var(--teal-100);background:rgba(149,223,219,.12);border:1px solid rgba(149,223,219,.22);
+  border-radius:4px;cursor:pointer;transition:130ms;text-decoration:none;flex-shrink:0}
+.icon-btn:hover{background:rgba(149,223,219,.24);border-color:rgba(149,223,219,.45)}
+.btn-nav{display:inline-flex;align-items:center;justify-content:center;height:32px;padding:0 12px;
+  font-size:.78rem;font-weight:600;font-family:var(--font);color:var(--teal-100);text-decoration:none;
+  background:rgba(149,223,219,.12);border:1px solid rgba(149,223,219,.22);border-radius:4px;
+  transition:130ms;white-space:nowrap;flex-shrink:0}
+.btn-nav:hover{background:rgba(149,223,219,.24);border-color:rgba(149,223,219,.45)}
+@media (max-width:400px){.btn-nav{padding:0 9px;font-size:.74px;font-size:.74rem}}
+.icon-btn svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:2;
+  stroke-linecap:round;stroke-linejoin:round}
+@media (max-width:560px){.nav-brand-text{font-size:.85rem}}
+
+.wrap{max-width:860px;width:100%;margin:0 auto;padding:20px 16px 0;flex:1 0 auto}
+
+h1{font-size:1.5rem;line-height:1.3;margin:0 0 4px}
+h1 .de{display:block;font-size:1rem;color:var(--teal-700);font-weight:600;margin-top:2px}
+
+section{margin-bottom:30px}
+h2{font-size:1.05rem;margin-bottom:10px;padding-bottom:6px;border-bottom:2px solid var(--teal-400)}
+h3{font-size:.85rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;
+  color:var(--teal-700);margin:16px 0 8px}
+p{margin-bottom:10px}
+.lead{color:var(--ink)}
+small{color:var(--muted)}
+
+.rulebox{background:var(--in);border:1px solid var(--border);border-left:4px solid var(--teal-400);
+  border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.rulebox strong{color:var(--teal-700)}
+.warnbox{background:rgba(196,30,58,.05);border:1px solid rgba(196,30,58,.25);
+  border-left:4px solid var(--red);border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.warnbox strong{color:var(--red)}
+.tipbox{background:rgba(29,122,76,.06);border:1px solid rgba(29,122,76,.22);
+  border-left:4px solid var(--green);border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.tipbox strong{color:var(--green)}
+
+table{width:100%;border-collapse:collapse;margin:12px 0;font-size:.88rem}
+th,td{text-align:left;padding:7px 9px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--in);font-weight:700;font-size:.76rem;text-transform:uppercase;
+  letter-spacing:.04em;color:var(--teal-700)}
+td.de{color:var(--ink)}
+tr:last-child td{border-bottom:none}
+
+.mic{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;
+  padding:0;flex-shrink:0;vertical-align:middle;border-radius:50%;cursor:pointer;
+  color:var(--teal-700);background:rgba(80,193,193,.16);border:1px solid rgba(80,193,193,.45);
+  transition:130ms}
+.mic:hover{background:rgba(80,193,193,.34)}
+.mic:focus-visible{outline:2px solid var(--teal-700);outline-offset:2px}
+.mic svg{width:13px;height:13px;fill:none;stroke:currentColor;stroke-width:2;
+  stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.mic[aria-pressed="true"]{background:var(--teal-700);color:#fff;border-color:var(--teal-700)}
+.mic[aria-pressed="true"] .pulse{animation:pulse 1s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+.mic[disabled]{opacity:.45;cursor:not-allowed}
+.microw{display:flex;align-items:flex-start;gap:8px}
+.microw > .mtext{flex:1;min-width:0}
+.ex{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:12px 13px;
+  margin-bottom:9px;box-shadow:var(--shadow)}
+.ex .de{font-size:.98rem;color:var(--ink);margin-bottom:4px}
+.ex .de em{color:var(--teal-700);font-style:normal;font-weight:700;background:rgba(80,193,193,.20);
+  padding:0 3px;border-radius:2px}
+.ex .en{font-size:.84rem;color:var(--muted)}
+.ex .why{font-size:.82rem;color:var(--teal-700);margin-top:6px;padding-top:6px;
+  border-top:1px dotted var(--border)}
+.ex .why b{font-weight:700}
+
+/* ── EXERCISES ── */
+.btn{font-family:var(--font);font-size:.78rem;font-weight:600;cursor:pointer;
+  padding:6px 12px;border-radius:4px;border:1px solid var(--teal-400);
+  background:rgba(80,193,193,.14);color:var(--teal-700);transition:130ms;white-space:nowrap}
+.btn:hover{background:rgba(80,193,193,.28)}
+.btn.ghost{background:transparent;border-color:var(--border);color:var(--muted)}
+.btn.ghost:hover{border-color:var(--teal-400);color:var(--teal-700)}
+.noVoice{display:none;align-items:flex-start;gap:8px;margin-bottom:12px;padding:9px 12px;
+  background:rgba(225,160,30,.12);border:1px solid rgba(225,160,30,.4);border-radius:var(--r);
+  font-size:.83rem;color:#7A5000}
+.noVoice b{color:#7A5000}
+
+.q{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:12px 13px;
+  margin-bottom:10px;box-shadow:var(--shadow)}
+.q.revealed{border-color:var(--teal-400)}
+.q.correct{border-color:rgba(29,122,76,.5);background:rgba(29,122,76,.04)}
+.q.wrong{border-color:rgba(196,30,58,.45);background:rgba(196,30,58,.03)}
+.qtop{display:flex;gap:9px;align-items:flex-start;margin-bottom:9px}
+.qnum{flex-shrink:0;width:23px;height:23px;border-radius:50%;background:rgba(0,130,130,.10);
+  color:var(--teal-7);color:var(--teal-700);font-size:.7rem;font-weight:700;display:flex;
+  align-items:center;justify-content:center;margin-top:1px}
+.q.correct .qnum{background:rgba(29,122,76,.16);color:var(--green)}
+.q.wrong .qnum{background:rgba(196,30,58,.14);color:var(--red)}
+.inputrow{display:flex;align-items:stretch;gap:6px;position:relative}
+.ainput{flex:1;min-width:0;font-family:var(--font);font-size:.92rem;color:var(--ink);
+  background:var(--in);border:1px solid var(--border);border-radius:5px;padding:8px 32px 8px 11px;transition:130ms}
+.ainput:focus{outline:none;border-color:var(--teal-400);background:#fff;box-shadow:0 0 0 3px rgba(80,193,193,.16)}
+/* small keyboard icon, vertically centred at the right edge of the field */
+.keybtn{flex-shrink:0;width:28px;align-self:stretch;display:inline-flex;align-items:center;
+  justify-content:center;padding:0;cursor:pointer;border-radius:5px;
+  color:var(--teal-700);background:rgba(80,193,193,.16);border:1px solid rgba(80,193,193,.45);
+  transition:130ms}
+.keybtn:hover{background:rgba(80,193,193,.32)}
+.keybtn:focus-visible{outline:2px solid var(--teal-700);outline-offset:2px}
+.keybtn svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:1.7;
+  stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.keybtn[aria-expanded="true"]{background:var(--teal-700);color:#fff;border-color:var(--teal-700)}
+/* letter panel lives inside the card so no ancestor can clip it */
+.pad{display:none;flex-wrap:wrap;gap:5px;margin-top:7px;padding:8px;
+  background:var(--in);border:1px solid var(--border);border-radius:5px}
+.pad.open{display:flex}
+.padkey{font-family:var(--font);font-size:.92rem;font-weight:600;color:var(--teal-900);
+  background:var(--card);border:1px solid var(--border);border-radius:4px;
+  min-width:34px;height:32px;cursor:pointer;transition:130ms}
+.padkey:hover{background:var(--teal-400);border-color:var(--teal-400)}
+.padkey:focus-visible{outline:2px solid var(--teal-700);outline-offset:1px}
+.btn.rev{margin-top:8px}
+.btn.rev.on{background:rgba(0,90,90,.10);border-color:var(--teal-700)}
+.ansrow{margin:6px 0;padding:7px 9px;background:rgba(80,193,193,.09);border-radius:5px}
+.ansrow .mtext{font-size:.93rem}
+.qtext{font-size:.95rem;color:var(--ink);margin-bottom:9px;flex:1;min-width:0}
+
+.fb{margin-top:9px;padding-top:9px;border-top:1px dotted var(--border);font-size:.85rem}
+.fb .ans{font-weight:600;color:var(--teal-700);margin-bottom:4px}
+.fb .why{color:var(--muted)}
+
+details.fold{margin-bottom:9px;border:1px solid var(--border);border-radius:6px;background:var(--card)}
+details.fold > summary{padding:9px 12px;font-weight:600;font-size:.88rem;cursor:pointer;
+  color:var(--teal-900);list-style:none}
+details.fold > summary::-webkit-details-marker{display:none}
+details.fold > summary::before{content:"▸";color:var(--teal-700);transition:transform .15s;
+  display:inline-block;margin-right:5px}
+details.fold[open] > summary::before{transform:rotate(90deg)}
+details.fold .foldbody{padding:0 12px 11px;border-top:1px solid var(--border);padding-top:9px;
+  font-size:.9rem}
+
+.footer{position:sticky;bottom:0;z-index:50;width:100%;max-width:var(--wrapw,860px);
+  margin-inline:auto;border-top:1px solid var(--border);padding:10px 16px;background:var(--page);
+  display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:.78rem;color:var(--muted)}
+.footer strong{color:var(--teal-700)}
+.footer-dot{margin:0 10px;color:var(--border)}
+
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+  <a class="brand-icon" href="../../" aria-label="Deutsch Lernen home">
+    <svg width="24" height="17" viewBox="0 0 31 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0"  y="0"  width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="0"  width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="0"  width="9" height="6" rx="1.5" fill="#008282"/>
+      <rect x="0"  y="8"  width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="8"  width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="8"  width="9" height="6" rx="1.5" fill="#008282"/>
+      <rect x="0"  y="16" width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="16" width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="16" width="9" height="6" rx="1.5" fill="#E1A01E"/>
+    </svg>
+  </a>
+  <div class="nav-pipe"></div>
+  <a class="nav-brand-text" href="index.html">Grammar</a>
+  <div class="nav-actions">
+    <a class="btn-nav" href="index.html" title="All grammar topics">All topics</a>
+    <a class="icon-btn" href="../../" title="Back to all modules" aria-label="Back to all modules">
+      <svg viewBox="0 0 24 24"><path d="M3 12l9-9 9 9"></path><path d="M5 10v10h14V10"></path></svg>
+    </a>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <h1>Consecutive and modal connectors<span class="de">Die konsekutiven und modalen Konnektoren</span></h1>
+  
+  <!-- ══ 1. CONCEPT ══ -->
+  <section>
+    <h2>1 · The concept</h2>
+
+    <p class="lead">A connector is only a word &ndash; but in German it also <em>decides the word order</em> of the
+      sentence it stands in. This section covers two families that are constantly mixed up by
+      learners: <strong>Konsekutivs&auml;tze</strong> (consequence &ndash; <em>deshalb, dadurch, so &hellip; dass</em>)
+      and <strong>modale bzw. instrumentale Konnektoren</strong>
+      (<em>indem, w&auml;hrend, womit, wozu</em>). Each of them has a fixed position, a fixed
+      comma rule and a fixed logical meaning.</p>
+
+    <div class="rulebox">
+      <strong>The rule in one line.</strong> A consequence connector either stands in a
+      <em>slot of the main clause</em> (deshalb, daher, so &hellip;, thereby word order stays
+      normal) or it opens a <em>subordinate clause</em> (so &hellip; <em>dass</em>, sodass &ndash;
+      and then the finite verb goes <strong>last</strong>).
+    </div>
+
+    <h3>1.1 The two logics at a glance</h3>
+    <p>Before you choose a word, decide what the second part of your sentence <em>does</em>.</p>
+    <table>
+      <thead><tr><th>Question</th><th>Logic</th><th>Typical connectors</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">What follows FROM something?</td><td class="de">consequence</td><td class="de">deshalb, daher, deswegen, also, folglich, somit, demnach, drum, so &hellip; dass, sodass, dadurch</td>
+            <td>Der <strong>Zug</strong> hatte <strong>Versp&auml;tung</strong>, <strong>deshalb</strong> <strong>kommen</strong> wir <strong>zu</strong> sp&auml;t.</td></tr>
+        <tr><td class="de">What is the REASON for something?</td><td class="de">reason</td><td class="de">weil, da, denn, daf&uuml;r, daf&uuml;r, dass &hellip;</td>
+            <td>Der <strong>Zug</strong> hatte <strong>Versp&auml;tung</strong>, <strong>weil</strong> es <strong>st&uuml;rmisch</strong> war.</td></tr>
+        <tr><td class="de">What is something DONE FOR?</td><td class="de">finality</td><td class="de">damit, um &hellip; zu, wozu, zu</td>
+            <td>Ich <strong>rufe</strong> dich <strong>an</strong>, <strong>damit</strong> du <strong>die</strong> Zahlung <strong>pr&uuml;fst</strong>.</td></tr>
+        <tr><td class="de">WHAT is done WHILE something happens?</td><td class="de">temporal / modal</td><td class="de">w&auml;hrend, w&auml;hrenddessen, indem</td>
+            <td>Ich <strong>rufe</strong> dich <strong>an</strong>, <strong>w&auml;hrend</strong> du <strong>unterwegs</strong> bist.</td></tr>
+      </tbody>
+    </table>
+
+    <h3>1.2 The Konsekutivadverbien and their position</h3>
+    <p>All eight words in the next table mean the same thing. What differs is register, and above all
+      <em>how freely they may move</em> inside the clause.</p>
+    <table>
+      <thead><tr><th>Word</th><th>Register</th><th>Free position?</th><th>Example sentence</th></tr></thead>
+      <tbody>
+        <tr><td class="de">deshalb</td><td class="de">neutral, spoken &amp; written</td><td class="de">yes, any slot</td>
+            <td>Das Meeting <strong>verschob</strong> sich, <strong>deshalb</strong> <strong>konnten</strong> wir <strong>rechtzeitig</strong> <strong>essen</strong>.</td></tr>
+        <tr><td class="de">daher</td><td class="de">formal written</td><td class="de">yes, any slot</td>
+            <td>Die Preise <strong>stiegen</strong>; <strong>daher</strong> <strong>mussten</strong> wir <strong>umplanen</strong>.</td></tr>
+        <tr><td class="de">deswegen</td><td class="de">neutral, slightly emphatic</td><td class="de">yes, any slot</td>
+            <td><strong>Deswegen</strong> <strong>nehme</strong> ich <strong>den</strong> fr&uuml;heren <strong>Zug</strong>.</td></tr>
+        <tr><td class="de">also</td><td class="de">neutral, very frequent in speech</td><td class="de">yes; also = in other senses: accordingly / in other words</td>
+            <td>Die <strong>Antr&auml;ge</strong> <strong>sind</strong> <strong>zu</strong> sp&auml;t; <strong>also</strong> <strong>stellen</strong> wir sie <strong>nur</strong> <strong>n&auml;chsten</strong> Woche.</td></tr>
+        <tr><td class="de">folglich / somit</td><td class="de">formal, written, science</td><td class="de">yes, any slot</td>
+            <td>Die <strong>Antr&auml;ge</strong> <strong>waren</strong> unvollst&auml;ndig, <strong>somit</strong> <strong>konnten</strong> wir <strong>nicht</strong> <strong>entscheiden</strong>.</td></tr>
+        <tr><td class="de">demnach</td><td class="de">formal, official</td><td class="de">yes, any slot</td>
+            <td>Die <strong>Pr&uuml;fung</strong> <strong>wurde</strong> <strong>abgesagt</strong>, <strong>demnach</strong> <strong>gilt</strong> <strong>der</strong> alte Termin.</td></tr>
+        <tr><td class="de">drum</td><td class="de">colloquial (&bdquo;deshalb&ldquo;)</td><td class="de">yes, any slot</td>
+            <td>Es <strong>regnet</strong>, <strong>drum</strong> <strong>nehmen</strong> wir <strong>die</strong> Stra&szlig;e.</td></tr>
+        <tr><td class="de">dadurch</td><td class="de">points back to a MEANS just named</td><td class="de">yes, but see the object rule below</td>
+            <td>Wir <strong>fahren</strong> <strong>mit</strong> dem Rad; <strong>dadurch</strong> <strong>vermeiden</strong> wir den Stau.</td></tr>
+      </tbody>
+    </table>
+
+    <h3>1.3 Word order and commas with a Konsekutivadverb</h3>
+    <p>The connector counts as a normal adverbial: the finite verb stays in <strong>position II</strong> and
+      there is <em>no</em> comma. A comma is only possible when the connector follows a complete
+      clause &ndash; and even then it is optional.</p>
+    <table>
+      <thead><tr><th>Position</th><th>Sentence</th><th>Comma</th><th>Verdict</th></tr></thead>
+      <tbody>
+        <tr><td class="de">0 (front)</td><td><strong>Deshalb</strong> <strong>nehmen</strong> wir <strong>den</strong> fr&uuml;heren <strong>Zug</strong>.</td><td class="de">no</td><td class="de">&#10003;</td></tr>
+        <tr><td class="de">I (after subject)</td><td>Wir <strong>nehmen</strong> <strong>deshalb</strong> den fr&uuml;heren <strong>Zug</strong>.</td><td class="de">no</td><td class="de">&#10003;</td></tr>
+        <tr><td class="de">after a fronted adverb</td><td><strong>Heute</strong> <strong>nehmen</strong> wir <strong>deshalb</strong> den fr&uuml;heren <strong>Zug</strong>.</td><td class="de">no</td><td class="de">&#10003;</td></tr>
+        <tr><td class="de">end</td><td>Wir <strong>nehmen</strong> den fr&uuml;heren <strong>Zug</strong>, <strong>deshalb</strong>.</td><td class="de">optional</td><td class="de">&#10003; emphatic only</td></tr>
+        <tr><td class="de">after subject, strong verb displaced</td><td>Wir <strong>deshalb</strong> nehmen den fr&uuml;heren Zug.</td><td class="de">&ndash;</td><td class="de">&#10007; <em>deshalb</em> is not the verb</td></tr>
+        <tr><td class="de">after subject with modal</td><td>Wir <strong>deshalb</strong> <strong>m&uuml;ssen</strong> umplanen.</td><td class="de">no</td><td class="de">&#10003; modal part of the verb in position II</td></tr>
+      </tbody>
+    </table>
+
+    <div class="warnbox">
+      <strong>Never invent a new finite verb for the connector.</strong> A learner sentence like
+      <em>Ich deshalb gehe, weil&hellip;</em> treats <em>deshalb</em> like a modal. The pattern is
+      <em>deshalb + personal pronoun + verb</em>, or <em>verb + deshalb</em> &ndash; nothing else.
+    </div>
+
+    <h3>1.4 dadurch and dadurch, dass</h3>
+    <p><em>Dadurch</em> can stand alone &ndash; it simply replaces the whole mentioned means or action.
+      <em>Dadurch, dass</em> names the <em>feature</em> of the means that causes the result, and it takes
+      a subordinate clause with the verb last.</p>
+    <table>
+      <thead><tr><th>Form</th><th>Clause structure</th><th>Example</th><th>Meaning</th></tr></thead>
+      <tbody>
+        <tr><td class="de">dadurch + main clause</td><td class="de">no second clause</td>
+            <td>Wir <strong>haben</strong> das Formular <strong>online</strong> <strong>ausgef&uuml;llt</strong>; <strong>dadurch</strong> <strong>sparen</strong> wir <strong>Portokosten</strong>.</td>
+            <td class="de">we did X, and X is the cause</td></tr>
+        <tr><td class="de">dadurch, dass + clause</td><td class="de">verb last</td>
+            <td>Wir <strong>sparen</strong> Portokosten, <strong>dadurch</strong>, <strong>dass</strong> wir das Formular <strong>online</strong> <strong>ausf&uuml;llen</strong>.</td>
+            <td class="de">the <em>that</em>-clause names the means more precisely</td></tr>
+        <tr><td class="de">dadurch, dass + passive meaning</td><td class="de">verb last</td>
+            <td><strong>Dadurch</strong>, <strong>dass</strong> die Antr&auml;ge <strong>zu</strong> sp&auml;t <strong>eintrafen</strong>, <strong>konnten</strong> wir <strong>nicht</strong> <strong>entscheiden</strong>.</td>
+            <td class="de">often passive and more formal; the result can then stand first</td></tr>
+        <tr><td class="de">daf&uuml;r, dass + clause</td><td class="de">verb last</td>
+            <td>Es <strong>ist</strong> <strong>schade</strong>, <strong>dass</strong> du <strong>so</strong> <strong>wenig</strong> <strong>schl&auml;fst</strong>.</td>
+            <td class="de">evaluation &ndash; NOT a cause</td></tr>
+      </tbody>
+    </table>
+
+    <div class="warnbox">
+      <strong>Object rule.</strong> In the simple form, <em>dadurch</em> is an <strong>adverb</strong> and may
+      not follow another accusative object &ndash; two accusative-ish elements in a row are ungrammatical.
+      Rephrase instead of juggling pronouns:<br>
+      &#10007; <em>Wir sparen durch den Verzicht auf den Umweg Zeit.</em> (two accusatives: <em>Zeit</em> and
+      <em>den Umweg</em>)<br>
+      &#10003; <em><strong>Durch</strong> den Verzicht auf den Umweg haben wir Zeit gespart.</em> (the
+      <em>durch</em>-phrase is a circumstantial adjunct, so the object <em>Zeit</em> is free)<br>
+      &#10003; <em>Wir sparen Zeit, indem wir auf den Umweg verzichten.</em> (instrumental <em>indem</em>)
+    </div>
+
+    <div class="tipbox">
+      <strong>dadurch or deshalb?</strong> <em>Dadurch</em> points back to a <em>means or action just
+      named</em> in the sentence. <em>Deshalb</em> states a <em>general reason</em> that could apply
+      outside this text. <em>Wir sparen uns den Umweg, deshalb sind wir p&uuml;nktlich.</em> = the punctuality
+      generally follows from avoiding the detour; <em>dadurch sind wir p&uuml;nktlich</em> = only from the
+      detour just mentioned. If in doubt, ask whether the previous sentence contains a
+      <strong>verfahren</strong> (procedure): procedure &rarr; <em>dadurch</em>, otherwise &rarr;
+      <em>deshalb</em>.
+    </div>
+
+    <h3>1.5 so + degree with normal verb order</h3>
+    <p>If you want to express a degree but no explicit result, <em>so</em> stays in the main clause
+      and the word order is completely normal: <strong>subject &ndash; so &ndash; degree &ndash; verb</strong>.</p>
+    <table>
+      <thead><tr><th>Function</th><th>Pattern</th><th>Example</th><th>Note</th></tr></thead>
+      <tbody>
+        <tr><td class="de">result that is left open</td><td class="de">so + degree + verb</td>
+            <td>Der Film <strong>war</strong> <strong>so</strong> langweilig, <strong>dass</strong> wir <strong>eingeschlafen</strong> sind.</td>
+            <td class="de">the result must be there in some form</td></tr>
+        <tr><td class="de">pure degree, no result clause</td><td class="de">so + degree + verb</td>
+            <td>Die <strong>Aufgabe</strong> <strong>war</strong> <strong>so</strong> schwierig, <strong>dass</strong> &hellip;</td>
+            <td class="de">&hellip; that is not a degree without result</td></tr>
+        <tr><td class="de">pure degree, no result clause</td><td class="de">so + adjective</td>
+            <td>Die <strong>Aufgabe</strong> <strong>ist</strong> <strong>so</strong> schwierig.</td>
+            <td class="de">no <em>dass</em> at all</td></tr>
+        <tr><td class="de">intensifier before adjective</td><td class="de">so + adjective + noun piece</td>
+            <td>Er <strong>hat</strong> <strong>so</strong> <strong>viele</strong> <strong>B&uuml;cher</strong> <strong>gelesen</strong>.</td>
+            <td class="de"><em>so</em> replaces <em>sehr</em> in the attributive slot</td></tr>
+        <tr><td class="de">comparison</td><td class="de">so + adjective/adverb + <strong>wie</strong></td>
+            <td>Er <strong>arbeitet</strong> <strong>so</strong> schnell <strong>wie</strong> ich.</td>
+            <td class="de"><em>wie</em> = comparison, never a result</td></tr>
+      </tbody>
+    </table>
+
+    <h3>1.6 so &hellip; dass / sodass &ndash; verb order is the whole story</h3>
+    <div class="rulebox">
+      <strong>so &hellip; , dass</strong> separates the degree from the clause, and the
+      <strong>finite verb of the <em>dass</em>-clause goes last</strong> &ndash; after the subject, the
+      objects, all of them. <em>Niemand mehr vertraut ihm</em> is wrong; <em>ihm niemand mehr
+      vertraute</em> is right.
+    </div>
+    <table>
+      <thead><tr><th>Structure</th><th>Main clause</th><th><em>dass</em>-clause</th><th>Verdict</th></tr></thead>
+      <tbody>
+        <tr><td class="de">so + degree + verb (2nd), then dass-clause</td>
+            <td>Er <strong>hat</strong> <strong>so</strong> <strong>sehr</strong> gelogen,</td>
+            <td class="de">dass <strong>ihm</strong> niemand mehr <strong>vertraute</strong>.</td>
+            <td class="de">&#10003; verb last</td></tr>
+        <tr><td class="de">same, but verb placed too early</td>
+            <td>Er <strong>hat</strong> <strong>so</strong> <strong>sehr</strong> gelogen,</td>
+            <td class="de">dass <strong>ihm</strong> niemand mehr <strong>vertraut</strong>.</td>
+            <td class="de">&#10007; second position inside the clause</td></tr>
+        <tr><td class="de">same, object before subject is impossible</td>
+            <td>Er <strong>hat</strong> <strong>so</strong> <strong>sehr</strong> gelogen,</td>
+            <td class="de">dass niemand mehr <strong>ihm</strong> <strong>vertraute</strong>.</td>
+            <td class="de">&#10003; verb last, pronoun before it</td></tr>
+        <tr><td class="de">same, object before subject is impossible</td>
+            <td>Er <strong>hat</strong> <strong>so</strong> <strong>sehr</strong> gelogen,</td>
+            <td class="de">dass niemand mehr <strong>vertraut</strong> ihm.</td>
+            <td class="de">&#10007; unstressed pronoun would have to stand before the subject</td></tr>
+        <tr><td class="de">sodass (one word)</td>
+            <td>Er <strong>hat</strong> <strong>so</strong> <strong>sehr</strong> gelogen,</td>
+            <td class="de">sodass <strong>ihm</strong> niemand mehr <strong>vertraute</strong>.</td>
+            <td class="de">&#10003; the degree sits in the main clause</td></tr>
+        <tr><td class="de">so, dass (comma variant)</td>
+            <td>Die Preise <strong>stiegen</strong> stark,</td>
+            <td class="de">so, <strong>dass</strong> wir <strong>das</strong> Budget <strong>k&uuml;rzen</strong> <strong>mussten</strong>.</td>
+            <td class="de">&#10003; the degree stands in front of <em>dass</em> as a result adverb</td></tr>
+        <tr><td class="de">so, dass with so before the verb</td>
+            <td>Die Preise <strong>stiegen</strong> so stark,</td>
+            <td class="de">dass wir <strong>das</strong> Budget <strong>k&uuml;rzen</strong> <strong>mussten</strong>.</td>
+            <td class="de">&#10003; the normal B2 variant</td></tr>
+        <tr><td class="de">dass-clause first, no so at all</td>
+            <td>Ich <strong>habe</strong> dich <strong>so</strong> <strong>sehr</strong> vermisst,</td>
+            <td class="de">dass ich <strong>kaum</strong> <strong>wusste</strong>, <strong>was</strong> <strong>ich</strong> sagen <strong>soll</strong>.</td>
+            <td class="de">&#10003; <em>kaum</em> already carries the degree</td></tr>
+      </tbody>
+    </table>
+
+    <div class="tipbox">
+      <strong>so &hellip; dass or sodass?</strong> Use <em>so &hellip; , dass</em> when the degree belongs
+      <em>inside</em> the main clause and the main clause has more content
+      (<em>Er hat so sehr gelogen, dass&hellip;</em>). Use <em>sodass</em> after a short main clause, and
+      in the passive (<em>Es wurde so &hellip;, dass&hellip;</em> &rarr; <em>Es wurde sodass&hellip;</em> is
+      unusual &ndash; keep <em>so &hellip; dass</em> there). The two forms are fully interchangeable in
+      meaning; only the comma and the information structure differ.
+    </div>
+
+    <h3>1.7 Degree adverbs in Konsekutivs&auml;tze</h3>
+    <p>Not every <em>so</em> + word means intensity. Some combinations carry a
+      <strong>frequency, a point in time or a duration</strong> &ndash; and then the result in the
+      <em>dass</em>-clause must be a consequence that makes sense with that word.</p>
+    <table>
+      <thead><tr><th>Degree adverb</th><th>Meaning</th><th>Result must be&hellip;</th><th>Correct example</th><th>Illogical version</th></tr></thead>
+      <tbody>
+        <tr><td class="de">so sehr</td><td class="de">intensity</td><td class="de">a strong effect</td>
+            <td>Er <strong>hat</strong> <strong>so</strong> <strong>sehr</strong> gelogen, <strong>dass</strong> <strong>ihm</strong> niemand mehr <strong>vertraute</strong>.</td>
+            <td class="de">&ndash;</td></tr>
+        <tr><td class="de">so oft</td><td class="de">frequency</td><td class="de">a cumulative effect</td>
+            <td>Er <strong>hat</strong> <strong>so</strong> <strong>oft</strong> <strong>das</strong> Gleiche <strong>gefragt</strong>, <strong>dass</strong> <strong>wir</strong> <strong>keine</strong> Lust <strong>hatten</strong>.</td>
+            <td class="de">&ndash;</td></tr>
+        <tr><td class="de">so fr&uuml;h / so sp&auml;t</td><td class="de">point in time</td><td class="de">useful only if being early or late <em>helps</em></td>
+            <td>Wir <strong>sind</strong> <strong>so</strong> <strong>fr&uuml;h</strong> <strong>gekommen</strong>, <strong>dass</strong> wir <strong>noch</strong> einen Kaffee <strong>trinken</strong> <strong>konnten</strong>.</td>
+            <td class="de">&#10007; <em>Wir waren so fr&uuml;h da, dass der Kaffee ausverkauft war.</em></td></tr>
+        <tr><td class="de">so lange</td><td class="de">duration</td><td class="de">only if the time <em>runs out</em> or creates a limit</td>
+            <td>Wir <strong>haben</strong> <strong>so</strong> <strong>lange</strong> <strong>diskutiert</strong>, <strong>dass</strong> die <strong>Sitzung</strong> <strong>schon</strong> <strong>begonnen</strong> <strong>hatte</strong>.</td>
+            <td class="de">&#10007; <em>Wir haben so lange gewartet, dass der Kaffee gut war.</em></td></tr>
+        <tr><td class="de">so weit</td><td class="de">extent</td><td class="de">only if the extent is a loss or a boundary</td>
+            <td>Die <strong>Sch&auml;den</strong> <strong>waren</strong> <strong>so</strong> <strong>weit</strong> <strong>verbreitet</strong>, <strong>dass</strong> <strong>mehrere</strong> <strong>Abteilungen</strong> <strong>gesperrt</strong> <strong>wurden</strong>.</td>
+            <td class="de">&#10007; <em>Der Weg war so weit, dass er kurz war.</em></td></tr>
+      </tbody>
+    </table>
+
+    <h3>1.8 The <em>so bald wie</em> comparison trap</h3>
+    <p><em>so + degree + wie</em> is a <strong>comparison</strong>; <em>so + degree + dass</em> is a
+      <strong>conclusion</strong>. The two must not be mixed, and the fixed phrase
+      <em>so bald wie m&ouml;glich</em> is a comparison, not a result.</p>
+    <table>
+      <thead><tr><th>Case</th><th>Sentence</th><th>Verdict</th><th>Why</th></tr></thead>
+      <tbody>
+        <tr><td class="de">fixed phrase</td><td>Wir <strong>schicken</strong> die Unterlagen <strong>so</strong> <strong>bald</strong> <strong>wie</strong> m&ouml;glich.</td><td class="de">&#10003;</td><td class="de"><em>wie</em> = as early as &ndash; a comparison, no result needed</td></tr>
+        <tr><td class="de">result, not comparison</td><td>Wir <strong>schickten</strong> die Unterlagen <strong>so</strong> <strong>fr&uuml;h</strong>, <strong>dass</strong> sie <strong>noch</strong> <strong>in</strong> der <strong>Frist</strong> <strong>lagen</strong>.</td><td class="de">&#10003;</td><td class="de"><em>dass</em> = consequence of the earliness</td></tr>
+        <tr><td class="de">mixed &ndash; comparison result</td><td>Wir <strong>sind</strong> <strong>so</strong> <strong>fr&uuml;h</strong> <strong>gekommen</strong>, <strong>dass</strong> wir <strong>noch</strong> Kaffee <strong>trinken</strong> <strong>konnten</strong>.</td><td class="de">&#10003;</td><td class="de">time degree + positive, useful result &ndash; coherent</td></tr>
+        <tr><td class="de">mixed &ndash; <em>wie</em> with a result clause</td><td>Wir <strong>waren</strong> <strong>so</strong> <strong>fr&uuml;h</strong> <strong>wie</strong> m&ouml;glich, <strong>dass</strong> &hellip;</td><td class="de">&#10007;</td><td class="de"><em>wie</em> already closes the comparison; adding <em>dass</em> is double work</td></tr>
+        <tr><td class="de">result that contradicts the degree</td><td>Wir <strong>waren</strong> <strong>so</strong> <strong>fr&uuml;h</strong> <strong>da</strong>, <strong>dass</strong> <strong>noch</strong> niemand <strong>da</strong> war.</td><td class="de">&#10007;</td><td class="de">arriving <em>early</em> is a disadvantage only with <em>zu</em> fr&uuml;h</td></tr>
+        <tr><td class="de">the right word for &ldquo;too early&rdquo;</td><td>Wir <strong>waren</strong> <strong>zu</strong> fr&uuml;h <strong>da</strong>, <strong>dass</strong> &hellip;</td><td class="de">&#10003;</td><td class="de">use <em>zu</em> instead of <em>so</em> for a negative evaluation</td></tr>
+      </tbody>
+    </table>
+
+    <h3>1.9 Modal and instrumental connectors</h3>
+    <p><em>Indem</em> and <em>womit</em> describe a means or an accompanying action. <em>W&auml;hrend</em> is
+      the trap: the same word is a temporal conjunction in everyday German and a modal (concessive) one
+      in fixed formulas.</p>
+    <table>
+      <thead><tr><th>Connector</th><th>Meaning</th><th>Clause structure</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">indem</td><td class="de">by doing X (instrumental, with emphasis on the action)</td>
+            <td class="de">subordinate clause, verb last, past tense</td>
+            <td>Er <strong>gewann</strong> die <strong>Sympathie</strong> des Publikums, <strong>indem</strong> er <strong>sich</strong> <strong>ehrlich</strong> <strong>entschuldigte</strong>.</td></tr>
+        <tr><td class="de">indem &hellip; (one-clause variant)</td><td class="de">while X (temporal, in the past)</td>
+            <td class="de">both verbs in position II</td>
+            <td>Er <strong>entschuldigte</strong> sich, <strong>indem</strong> er <strong>das</strong> <strong>eingestand</strong>.</td></tr>
+        <tr><td class="de">w&auml;hrend (temporal)</td><td class="de">during X, same period</td>
+            <td class="de">subordinate clause, verb last</td>
+            <td>Ich <strong>h&ouml;rte</strong> <strong>die</strong> <strong>Musik</strong>, <strong>w&auml;hrend</strong> <strong>ich</strong> <strong>abwusch</strong>.</td></tr>
+        <tr><td class="de">w&auml;hrend (modal, concessive)</td><td class="de">although X &ndash; only in general statements</td>
+            <td class="de">subordinate clause, verb last, no concrete time</td>
+            <td><strong>W&auml;hrend</strong> man <strong>nichts</strong> <strong>vorbereitet</strong>, <strong>gelingt</strong> <strong>ein</strong> <strong>Vorhaben</strong> selten.</td></tr>
+        <tr><td class="de">w&auml;hrend + bereits / schon / noch</td><td class="de">the same time, but the time is irrelevant</td>
+            <td class="de">subordinate clause, verb last</td>
+            <td><strong>W&auml;hrend</strong> er <strong>schon</strong> <strong>ging</strong>, <strong>rief</strong> <strong>das</strong> Handy.</td></tr>
+        <tr><td class="de">w&auml;hrenddessen</td><td class="de">during that time, as an adverb</td>
+            <td class="de">no clause, position I or front</td>
+            <td>Er <strong>schlief</strong>; <strong>w&auml;hrenddessen</strong> <strong>rief</strong> <strong>jemand</strong> an.</td></tr>
+        <tr><td class="de">womit</td><td class="de">with which means &ndash; question or reference</td>
+            <td class="de">can introduce a full clause, verb last</td>
+            <td>Ich <strong>wei&szlig;</strong> nicht, <strong>womit</strong> wir <strong>Zeit</strong> <strong>sparen</strong> k&ouml;nnen.</td></tr>
+        <tr><td class="de">womit … (relative)</td><td class="de">the means itself, as a relative adverb</td>
+            <td class="de">relative clause, verb last</td>
+            <td>Das <strong>war</strong> das <strong>Werkzeug</strong>, <strong>womit</strong> wir den <strong>Umweg</strong> <strong>vermieden</strong> <strong>haben</strong>.</td></tr>
+        <tr><td class="de">wozu</td><td class="de">for what purpose &ndash; question or reference</td>
+            <td class="de">can introduce a full clause, verb last</td>
+            <td>Ich <strong>frage</strong> <strong>mich</strong>, <strong>wozu</strong> wir die <strong>Software</strong> <strong>brauchen</strong>.</td></tr>
+        <tr><td class="de">wozu + infinitive</td><td class="de">purpose of a thing, the <em>zu</em> stays in the clause</td>
+            <td class="de">verb-last or infinitive end</td>
+            <td>Das <strong>ist</strong> ein <strong>Werkzeug</strong>, <strong>Wozu</strong> <strong>brauchst</strong> du <strong>diesen</strong> Bohrer?</td></tr>
+      </tbody>
+    </table>
+
+    <div class="rulebox">
+      <strong>Modal or temporal &ndash; say which one you mean.</strong> <em>W&auml;hrend</em> is temporal
+      when the clause reports a concrete event, and modal-concessive when it states a general
+      experience. The marker is the <strong>present tense with <em>man</em></strong> and an
+      <strong>abstract subject</strong>. A concrete past event in the subordinate clause means temporal,
+      and the translation into English is &ldquo;while&ldquo;, not &ldquo;although&ldquo;.
+    </div>
+
+    <h3>1.10 Do not confuse these</h3>
+    <table>
+      <thead><tr><th>Pair</th><th>Difference</th><th>Minimal pair</th></tr></thead>
+      <tbody>
+        <tr><td class="de">so &hellip; <strong>dass</strong> &nbsp;vs.&nbsp; <strong>damit</strong></td>
+            <td class="de">consequence vs. purpose</td>
+            <td>Es <strong>war</strong> <strong>so</strong> <strong>heiß</strong>, <strong>dass</strong> wir <strong>das</strong> Fenster <strong>aufmachten</strong>. / Wir <strong>machten</strong> das Fenster <strong>auf</strong>, <strong>damit</strong> es <strong>k&uuml;hler</strong> <strong>wurde</strong>.</td></tr>
+        <tr><td class="de">so &hellip; <strong>dass</strong> &nbsp;vs.&nbsp; <strong>weil</strong></td>
+            <td class="de">effect vs. cause &ndash; the same fact, opposite direction</td>
+            <td>Der <strong>Boden</strong> <strong>war</strong> <strong>so</strong> nass, <strong>dass</strong> wir <strong>ausrutschten</strong>. / Wir <strong>rutschten</strong> aus, <strong>weil</strong> der Boden nass war.</td></tr>
+        <tr><td class="de"><strong>dadurch</strong> &nbsp;vs.&nbsp; <strong>deshalb</strong></td>
+            <td class="de">means just named vs. general reason</td>
+            <td>Wir <strong>nahmen</strong> den <strong>Bus</strong>; <strong>dadurch</strong> <strong>vermeideten</strong> wir den Stau. / &hellip; <strong>deshalb</strong> kamen wir p&uuml;nktlich an.</td></tr>
+        <tr><td class="de"><strong>daf&uuml;r</strong> &nbsp;vs.&nbsp; <strong>dadurch</strong></td>
+            <td class="de">reference to a thing vs. reference to an action or means</td>
+            <td>Der Bericht ist gut. <strong>Daf&uuml;r</strong> danke ich dir. / Er hat abgesagt, <strong>dadurch</strong> mussten wir umplanen.</td></tr>
+        <tr><td class="de"><strong>daf&uuml;r, dass</strong> &nbsp;vs.&nbsp; <strong>dadurch, dass</strong></td>
+            <td class="de">evaluation vs. causation</td>
+            <td>Es <strong>ist</strong> <strong>gut</strong>, <strong>daf&uuml;r</strong>, <strong>dass</strong> du <strong>kommst</strong>. / <strong>Dadurch</strong>, <strong>dass</strong> du <strong>kamst</strong>, war die Sitzung kurz.</td></tr>
+        <tr><td class="de"><strong>so</strong> &nbsp;vs.&nbsp; <strong>so</strong> (with <em>wie</em>)</td>
+            <td class="de">conclusion vs. comparison</td>
+            <td>Er <strong>ist</strong> <strong>so</strong> krank, <strong>dass</strong> er <strong>ausf&auml;llt</strong>. / Er <strong>ist</strong> <strong>so</strong> krank <strong>wie</strong> <strong>sein</strong> Bruder.</td></tr>
+        <tr><td class="de"><strong>zu</strong> &nbsp;vs.&nbsp; <strong>so</strong></td>
+            <td class="de">exceeding a measure vs. reaching a degree</td>
+            <td>Du <strong>isst</strong> <strong>zu</strong> schnell. / Du <strong>isst</strong> <strong>so</strong> schnell, <strong>dass</strong> <strong>dir</strong> <strong>schlecht</strong> <strong>wird</strong>.</td></tr>
+        <tr><td class="de"><strong>zu</strong> + Adj. &nbsp;vs.&nbsp; <strong>genau</strong> + so + Adj.</td>
+            <td class="de">too much vs. exactly this much</td>
+            <td>Das Zimmer ist <strong>zu</strong> klein. / Das Zimmer ist <strong>genau</strong> <strong>so</strong> klein, <strong>dass</strong> der Schrank nicht hineinpasst.</td></tr>
+        <tr><td class="de"><strong>w&auml;hrend</strong> (temporal) &nbsp;vs.&nbsp; <strong>w&auml;hrend</strong> (modal)</td>
+            <td class="de">concrete event vs. general concession</td>
+            <td><strong>W&auml;hrend</strong> er <strong>schlief</strong>, <strong>rief</strong> das Handy. / <strong>W&auml;hrend</strong> man <strong>schl&auml;ft</strong>, <strong>klingelt</strong> das Handy nie.</td></tr>
+        <tr><td class="de"><strong>indem</strong> &nbsp;vs.&nbsp; <strong>w&auml;hrend</strong></td>
+            <td class="de">by doing X vs. while X happens</td>
+            <td>Er <strong>gewann</strong>, <strong>indem</strong> er <strong>stand</strong>. / Er <strong>gewann</strong>, <strong>w&auml;hrend</strong> er <strong>stand</strong> &ndash; the second sentence is odd, use <em>w&auml;hrenddessen</em> only for a parallel event.</td></tr>
+        <tr><td class="de"><strong>wozu</strong> &nbsp;vs.&nbsp; <strong>damit</strong></td>
+            <td class="de">question about a purpose vs. a purpose clause</td>
+            <td><strong>Wozu</strong> brauchst du den Bohrer? / Ich brauche den Bohrer, <strong>damit</strong> ich das Regal <strong>montiere</strong>.</td></tr>
+        <tr><td class="de"><strong>womit</strong> &nbsp;vs.&nbsp; <strong>wodurch</strong></td>
+            <td class="de">instrument vs. path/cause through which</td>
+            <td><strong>Womit</strong> schneidest du das Brot? / <strong>Wodurch</strong> kam das Wasser in den Keller?</td></tr>
+        <tr><td class="de"><strong>sodass</strong> &nbsp;vs.&nbsp; <strong>so, dass</strong></td>
+            <td class="de">one word with the degree inside the main clause vs. comma with a result adverb</td>
+            <td>Er war <strong>so</strong> krank, <strong>sodass</strong> er blieb. / Er war krank, <strong>so, dass</strong> er blieb.</td></tr>
+      </tbody>
+    </table>
+
+    <h3>1.11 Word-order effects</h3>
+    <p>Every connector in this chapter changes exactly one of three things: the position of the finite
+      verb, the position of the connector, or the availability of a comma.</p>
+    <table>
+      <thead><tr><th>Connector type</th><th>Verb position</th><th>Connector position</th><th>Comma</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">deshalb, daher, deswegen, also, folglich, somit, demnach, drum</td>
+            <td class="de">position II &ndash; unchanged</td><td class="de">any slot (0, I, end)</td><td class="de">no comma</td>
+            <td>Die <strong>Leitung</strong> <strong>war</strong> <strong>defekt</strong>, <strong>deshalb</strong> <strong>kamen</strong> wir <strong>zu</strong> sp&auml;t.</td></tr>
+        <tr><td class="de">dadurch</td><td class="de">position II &ndash; unchanged</td><td class="de">any slot, but never directly after an accusative object</td><td class="de">no comma</td>
+            <td>Wir <strong>fuhren</strong> Rad; <strong>dadurch</strong> <strong>sparten</strong> wir <strong>Zeit</strong>.</td></tr>
+        <tr><td class="de">dadurch, dass / daf&uuml;r, dass / so, dass</td>
+            <td class="de">main clause position II, that-clause verb last</td><td class="de">behind the whole main clause</td><td class="de">comma before dass</td>
+            <td><strong>Dadurch</strong>, <strong>dass</strong> wir fr&uuml;h <strong>kamen</strong>, <strong>konnten</strong> wir <strong>fr&uuml;her</strong> <strong>starten</strong>.</td></tr>
+        <tr><td class="de">so + degree + dass / sodass</td>
+            <td class="de">main clause position II, that-clause verb last</td><td class="de"><em>so</em> fixed in the main clause</td><td class="de">comma before dass</td>
+            <td>Der <strong>Zug</strong> <strong>war</strong> <strong>so</strong> &uuml;berf&uuml;llt, <strong>dass</strong> wir <strong>stehen</strong> <strong>mussten</strong>.</td></tr>
+        <tr><td class="de">weil, da, w&auml;hrend, obwohl</td>
+            <td class="de">that-clause verb last</td><td class="de"><em>weil</em> free, <em>da</em> front only, <em>w&auml;hrend</em> front or after a fronted time phrase</td><td class="de">comma except in final position with <em>weil</em></td>
+            <td><strong>Weil</strong> er <strong>krank</strong> war, <strong>fiel</strong> der Termin aus.</td></tr>
+        <tr><td class="de">denn, sondern</td><td class="de">both clauses position II</td><td class="de">position I only</td><td class="de">no comma</td>
+            <td>Er <strong>blieb</strong>, <strong>denn</strong> er war krank.</td></tr>
+        <tr><td class="de">damit</td><td class="de">purpose clause verb last, modal stays first</td><td class="de">end of the sentence</td><td class="de">comma</td>
+            <td>Ich <strong>schicke</strong> es, <strong>damit</strong> du es <strong>pr&uuml;fen</strong> <strong>kannst</strong>.</td></tr>
+        <tr><td class="de">um &hellip; zu</td><td class="de">no finite verb &ndash; infinitive at the end</td><td class="de">around the infinitive clause</td><td class="de">usually none</td>
+            <td>Ich <strong>schicke</strong> es, <strong>um</strong> du es <strong>pr&uuml;fen</strong> <strong>kannst</strong>.</td></tr>
+        <tr><td class="de">indem</td><td class="de">that clause verb last</td><td class="de">end of the sentence</td><td class="de">comma</td>
+            <td>Er <strong>gewann</strong>, <strong>indem</strong> er <strong>sich</strong> <strong>entschuldigte</strong>.</td></tr>
+        <tr><td class="de">womit / wozu (question form)</td><td class="de">if a full clause follows, verb last</td><td class="de">standalone or clause-initial</td><td class="de">comma before the clause</td>
+            <td>Ich <strong>frage</strong>, <strong>wozu</strong> er das <strong>Geld</strong> <strong>braucht</strong>.</td></tr>
+        <tr><td class="de">so + degree, no that-clause</td><td class="de">position II &ndash; unchanged</td><td class="de">before the adjective or adverb</td><td class="de">no comma</td>
+            <td>Die <strong>Aufgabe</strong> <strong>ist</strong> <strong>wirklich</strong> <strong>so</strong> schwierig.</td></tr>
+      </tbody>
+    </table>
+
+    <h3>1.12 Intent &rarr; connector</h3>
+    <table>
+      <thead><tr><th>You want to&hellip;</th><th>Use</th><th>One example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">state a general consequence in one clause</td><td class="de">deshalb, daher, deswegen, also, folglich, somit, demnach, drum</td><td>Die Antr&auml;ge waren unvollst&auml;ndig, <strong>somit</strong> <strong>vertagten</strong> wir die Sitzung.</td></tr>
+        <tr><td class="de">name the means that produced the result</td><td class="de">dadurch</td><td>Wir nahmen den Bus; <strong>dadurch</strong> <strong>vermeideten</strong> wir den Stau.</td></tr>
+        <tr><td class="de">name the feature of the means</td><td class="de">dadurch, dass …</td><td>Wir sparen Zeit, <strong>dadurch</strong>, <strong>dass</strong> wir <strong>online</strong> <strong>buchen</strong>.</td></tr>
+        <tr><td class="de">state the degree of a property</td><td class="de">so + adjective/adverb</td><td>Die Sitzung <strong>war</strong> <strong>so</strong> anstrengend.</td></tr>
+        <tr><td class="de">state degree and spell out the result</td><td class="de">so + degree, <strong>dass</strong> + clause</td><td>Die Sitzung <strong>war</strong> <strong>so</strong> anstrengend, <strong>dass</strong> ich <strong>eingeschlafen</strong> bin.</td></tr>
+        <tr><td class="de">same, after a short main clause</td><td class="de">sodass</td><td>Er <strong>war</strong> krank, <strong>sodass</strong> er <strong>blieb</strong>.</td></tr>
+        <tr><td class="de">express frequency as the cause of a cumulative result</td><td class="de">so oft, dass</td><td>Er <strong>fragte</strong> <strong>so</strong> oft <strong>nach</strong>, <strong>dass</strong> <strong>wir</strong> <strong>abbrachen</strong>.</td></tr>
+        <tr><td class="de">express duration as the cause of an exhausted time</td><td class="de">so lange, dass</td><td>Wir <strong>warteten</strong> <strong>so</strong> lange, <strong>dass</strong> der Film <strong>schon</strong> <strong>begonnen</strong> <strong>hatte</strong>.</td></tr>
+        <tr><td class="de">express that something is too much</td><td class="de">zu + adjective</td><td>Der Weg war <strong>zu</strong> lang.</td></tr>
+        <tr><td class="de">compare two things</td><td class="de">so + adj./adv. + wie</td><td>Der Weg ist <strong>so</strong> lang <strong>wie</strong> der alte.</td></tr>
+        <tr><td class="de">say exactly this much, with a result</td><td class="de">genau so + adj., dass</td><td>Der Weg ist <strong>genau</strong> <strong>so</strong> lang, <strong>dass</strong> wir knapp ankommen.</td></tr>
+        <tr><td class="de">describe the means of an achievement, foregrounding the action</td><td class="de">indem</td><td>Er <strong>fand</strong> die L&ouml;sung, <strong>indem</strong> er das Problem <strong>umkehrte</strong>.</td></tr>
+        <tr><td class="de">say what happens at the same time</td><td class="de">w&auml;hrend, w&auml;hrenddessen</td><td>Er <strong>schlief</strong>, <strong>w&auml;hrenddessen</strong> <strong>rief</strong> das Handy.</td></tr>
+        <tr><td class="de">concede in a general statement</td><td class="de">w&auml;hrend + general clause</td><td><strong>W&auml;hrend</strong> man <strong>nichts</strong> <strong>plant</strong>, <strong>gelingt</strong> wenig.</td></tr>
+        <tr><td class="de">ask about a means</td><td class="de">womit</td><td><strong>Womit</strong> <strong>sparen</strong> wir <strong>Zeit</strong>?</td></tr>
+        <tr><td class="de">ask about a purpose</td><td class="de">wozu</td><td><strong>Wozu</strong> <strong>brauchen</strong> wir <strong>diese</strong> Liste?</td></tr>
+        <tr><td class="de">state a purpose, same subject</td><td class="de">um &hellip; zu</td><td>Ich <strong>rufe</strong> an, <strong>um</strong> ich <strong>den</strong> Termin <strong>verschiebe</strong>.</td></tr>
+        <tr><td class="de">state a purpose, different subject or modal</td><td class="de">damit</td><td>Ich <strong>rufe</strong> an, <strong>damit</strong> du <strong>den</strong> Termin <strong>verschiebst</strong>.</td></tr>
+        <tr><td class="de">give the reason, clause anywhere</td><td class="de">weil</td><td>Wir <strong>kamen</strong> zu sp&auml;t, <strong>weil</strong> der Zug <strong> stehen</strong> blieb.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="warnbox">
+      <strong>Three checks before you write the sentence.</strong> (1) <em>Result or reason?</em>
+      &ndash; if you can reverse the two halves and the sentence still makes sense, you have a reason
+      (<em>weil</em>), not a consequence. (2) <em>Where is the finite verb?</em> &ndash; last inside every
+      <em>dass</em>-clause. (3) <em>Does the degree fit the result?</em> &ndash; <em>so fr&uuml;h</em> needs an
+      advantage or a disadvantage, <em>so lange</em> needs an exhausted time, <em>so oft</em> needs a
+      cumulative effect.
+    </div>
+  </section>
+
+  <!-- ══ 2. EXAMPLES ══ -->
+  <section>
+    <h2>2 · 20 worked examples</h2>
+    <p><small>Each example marks the opener and closer in bold and explains what it does to the sentence.</small></p>
+    <div id="examples"></div>
+  </section>
+
+  <!-- ══ 3. EXERCISES ══ -->
+  <section>
+    <h2>3 · 100 exercises</h2>
+
+    <div class="noVoice" id="noVoice">
+      <b>Pronunciation unavailable.</b> This browser has no German speech voice installed, so the
+      speaker buttons will not play. In Chrome, Edge and Safari on a desktop, German is available by default.
+    </div>
+    <div id="quiz"></div>
+  </section>
+
+</div>
+
+<footer class="footer"><strong>Consecutive and modal connectors</strong><span class="footer-dot">·</span><span>Roman Zajic</span></footer>
+
+<script>
+(function(){
+  "use strict";
+
+  var EXAMPLES = [
+    ["Im Restaurant war es <em>so</em> laut, <em>dass</em> wir <em>nichts</em> verstehen <em>konnten</em>. — In the restaurant it was so loud that we could not understand anything.", "<em>dass</em> opens the result clause: the finite verb <em>konnten</em> stands last, after the separable part of <em>verstehen</em>."],
+    ["Die Kiste war <em>so</em> schwer, <em>dass</em> er sie <em>nicht allein tragen konnte</em>. — The box was so heavy that he could not carry it alone.", "The <em>so</em> states the degree, <em>dass</em> the consequence; in the clause the negated infinitive precedes the final <em>konnten</em>."],
+    ["Wir waren nach der Wanderung <em>so</em> müde, <em>dass</em> ich am Tisch <em>einschlief</em>. — After the hike we were so tired that I fell asleep at the table.", "<em>dass</em> gives a subject of its own (<em>ich</em>) and puts the whole predicate <em>einschlief</em> at the end."],
+    ["Der Fahrer hat <em>so</em> stark <em>gebremst</em>, <em>dass</em> der Reifen <em>einen Meter</em> <em>breiter</em> wurde. — The driver braked so hard that the tyre became a metre wider.", "The first clause keeps its verb <em>gebremst</em> in position II; only the <em>dass</em>-clause ends with its finite verb <em>wurde</em>."],
+    ["Er argumentierte <em>so</em> überzeugend, <em>dass</em> selbst die Kritiker <em>nachgaben</em>. — He argued so convincingly that even the critics gave in.", "<em>dass</em> is followed by <em>selbst</em> as the subject, and the clause closes with the finite <em>nachgaben</em>."],
+    ["Die Bremse am Anhänger <em>löste</em> sich, <em>sodass</em> er <em>zur Seite kippte</em>. — The trailer brake released, so that it tipped to the side.", "In writing <em>sodass</em> replaces <em>so … dass</em>; it still produces a full clause, so the verb <em>kippte</em> goes last."],
+    ["Die Zeitpläne der beiden Busse <em>widersprachen</em> sich, <em>sodass</em> niemand <em>wusste</em>, <em>welcher</em> zuerst <em>fährt</em>. — The two bus timetables contradicted each other, so that nobody knew which one goes first.", "<em>sodass</em> here reports a consequence, and everything after it is one verb-final clause — including the indirect question <em>welcher zuerst fährt</em>."],
+    ["Der Server war <em>überlastet</em>, <em>deshalb</em> <em>brachen</em> die Verbindungen <em>ab</em>. — The server was overloaded, which is why the connections dropped.", "<em>deshalb</em> stands in position II of the main clause: <em>brachen</em> leads, and the separable prefix <em>ab</em> goes to the very end."],
+    ["<em>Deshalb</em> bleibt <em>der Betrieb</em> <em>geschlossen</em>. — That is why the plant stays closed.", "As a fronted element <em>Deshalb</em> takes position I; the finite verb <em>bleibt</em> comes second and the subject follows it."],
+    ["Die Ticketpreise <em>waren</em> gestiegen, <em>daher</em> <em>kamen</em> viele Pendler <em>wieder</em> <em>mit dem Rad</em>. — Ticket prices had gone up, which is why many commuters came by bike again.", "<em>daher</em> is a neutral resultative connector in position II; the main clause itself stays in normal subject-verb order after the connective."],
+    ["Du hast die Datei <em>nicht gespeichert</em>, <em>also</em> <em>ist</em> sie <em>verloren</em>. — You did not save the file, so it is lost.", "<em>also</em> links two main clauses: the second one is a new main clause with verb <em>ist</em> in position II, not a verb-final <em>dass</em>-clause."],
+    ["<em>Dadurch</em>, <em>dass</em> wir die Heizung <em>abends</em> <em>nur</em> <em>kurz</em> <em>heizen</em>, <em>sparen</em> wir <em>Gas</em>. — The fact that we only heat briefly in the evening saves us gas.", "<em>dadurch, dass</em> gives the cause of <em>sparen</em>; the clause is verb-final and closes with the infinitive group <em>nur kurz heizen</em>."],
+    ["Die Kinder <em>lernten</em> schneller, <em>dadurch, dass</em> die neue Lehrerin <em>mehr Zeit</em> <em>für</em> <em>jeden</em> <em>hatte</em>. — The children learned faster, the reason being that the new teacher had more time for each of them.", "<em>dadurch, dass</em> plus a clause with its own subject; the finite verb <em>hatte</em> stands last, exactly as after a plain <em>dass</em>."],
+    ["<em>Indem</em> er <em>die Überstunden</em> <em>strich</em>, senkte er <em>die Kosten</em>. — By cutting overtime, he reduced the costs.", "<em>indem</em> names the means, so the clause that follows it is verb-final (<em>strich</em>), while the main clause keeps <em>senkte</em> in position II."],
+    ["Die Firma <em>verdient</em> gut, <em>während</em> die Personalkosten <em>weit</em> unter <em>dem Branchenschnitt</em> <em>liegen</em>. — The company earns well while its staff costs lie far below the industry average.", "Here <em>während</em> is modal: it contrasts two facts instead of placing two events in time, and the clause still ends with <em>liegen</em>."],
+    ["<em>Während</em> mein Vater im Ausland <em>war</em>, <em>mussten</em> wir <em>den Garten</em> <em>allein</em> <em>pflegen</em>. — While my father was abroad, we had to tend the garden alone.", "The same word in its temporal reading: <em>war</em> is finite and last, and the two states are simultaneous, not contrasted."],
+    ["Wozu <em>brauchst</em> du den <em>Stromzähler</em>? — What do you need the electricity meter for?", "<em>Wozu</em> asks about a purpose, so the answer is a <em>dazu</em> plus infinitive or a <em>damit</em>-clause — never a plain object."],
+    ["<em>Wozu</em> <em>ich</em> das <em>Formular</em> <em>unterschrieben</em> <em>habe</em>, <em>weiß</em> ich <em>nicht</em>. — Why I signed the form is something I do not know.", "<em>wozu</em> plus a verb-final clause in subject position; the main clause <em>weiß ich nicht</em> keeps verb <em>weiß</em> in position II."],
+    ["Womit <em>reparierst</em> du den Fahrradreifen? — What are you repairing the bicycle tyre with?", "<em>Womit</em> asks about a tool or means and therefore expects a noun for the instrument, not a purpose."],
+    ["Es ist ein <em>Werkzeug</em>, <em>womit</em> man <em>Fliesen</em> <em>schneiden kann</em>. — It is a tool with which one can cut tiles.", "The relative clause inside the noun phrase keeps verb-last: the modal <em>kann</em> stands at the end, while the verb <em>schneiden</em> comes before it."]
+  ];
+
+  var DATA_URL = "../../data/grammar_exercises_konsekutive_konnektoren.json";
+  var STORE = "konsekutive_konnektoren_progress_v1";
+  // ── pronunciation via the browser speech engine ──
+  var MIC_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5z"></path>'
+    + '<path class="pulse" d="M15.5 8.5a5 5 0 0 1 0 7"></path>'
+    + '<path class="pulse" d="M18.5 5.5a9 9 0 0 1 0 13"></path></svg>';
+  var synth = window.speechSynthesis || null;
+  var germanVoice = null;
+
+  function stripTags(t){ return String(t).replace(/<[^>]*>/g,""); }
+
+  function pickVoice(){
+    if(!synth) return null;
+    var vs = synth.getVoices() || [];
+    germanVoice = vs.filter(function(v){ return /^de(-|_|$)/i.test(v.lang); })[0] || null;
+    return germanVoice;
+  }
+  if(synth){
+    pickVoice();
+    if(synth.addEventListener) synth.addEventListener("voiceschanged", pickVoice);
+  }
+
+  function stopSpeech(){ if(synth) try{ synth.cancel(); }catch(e){} }
+
+  var warned = false;
+  function noVoiceNotice(){
+    if(warned) return; warned = true;
+    var n = document.getElementById("noVoice");
+    if(n) n.style.display = "flex";
+  }
+  function micBtn(text, label){
+    var b = document.createElement("button");
+    b.className = "mic";
+    b.type = "button";
+    b.setAttribute("aria-pressed","false");
+    b.setAttribute("aria-label", (label||"Play") + ": " + stripTags(text));
+    b.title = "Play pronunciation";
+    b.innerHTML = MIC_SVG;
+    b.addEventListener("click", function(ev){
+      ev.stopPropagation();
+      if(!synth){ b.disabled = true; b.title = "Speech is not available in this browser"; noVoiceNotice(); return; }
+      if(b.getAttribute("aria-pressed")==="true"){ stopSpeech(); b.setAttribute("aria-pressed","false"); return; }
+      stopSpeech();
+      if(!germanVoice) pickVoice();
+      var u = new SpeechSynthesisUtterance(stripTags(text));
+      u.lang = "de-DE";
+      if(germanVoice) u.voice = germanVoice;
+      u.rate = 0.92; u.pitch = 1;
+      b.setAttribute("aria-pressed","true");
+      var off = function(){ b.setAttribute("aria-pressed","false"); };
+      u.onend = off;
+      u.onerror = function(){ off(); noVoiceNotice(); };
+      synth.speak(u);
+      // some engines report no voices at all; surface that instead of a dead button
+      if(!synth.getVoices().length) noVoiceNotice();
+    });
+    return b;
+  }
+
+  var state = {revealed:{}, answers:{}};
+
+  function esc(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
+  function load(){ try{ var v=JSON.parse(localStorage.getItem(STORE)); if(v&&typeof v==="object"){state.revealed=v.revealed||{};state.answers=v.answers||{};} }catch(e){} }
+  function save(){ try{ localStorage.setItem(STORE, JSON.stringify(state)); }catch(e){} }
+
+  // ---- examples ----
+  // Each entry is [german_and_english, why]. The first field carries the English
+  // translation after an em dash, so split it out for separate styling.
+  function splitDE(t){
+    var i = t.indexOf("\u2014");
+    if(i < 0) return [t, ""];
+    return [t.slice(0,i).trim(), t.slice(i+1).trim()];
+  }
+  (function renderExamples(){
+    var host = document.getElementById("examples");
+    host.innerHTML = "";
+    EXAMPLES.forEach(function(x){
+      var de = x[0] || "";
+      var why = x[1] || "";
+      var parts = splitDE(de);
+      var card = document.createElement("div");
+      card.className = "ex";
+
+      var row = document.createElement("div");
+      row.className = "microw";
+      var txt = document.createElement("div");
+      txt.className = "mtext";
+      txt.innerHTML = '<div class="de">'+parts[0]+'</div>'+
+                      (parts[1] ? '<div class="en">'+parts[1]+'</div>' : "");
+      row.appendChild(txt);
+      row.appendChild(micBtn(parts[0], "Play this example"));
+      card.appendChild(row);
+
+      if(why){
+        var w = document.createElement("div");
+        w.className = "why";
+        w.innerHTML = "<b>Why:</b> "+why;
+        card.appendChild(w);
+      }
+      host.appendChild(card);
+    });
+  })();
+
+  // German special letters, inserted at the caret in the focused input.
+  var KEYS = ["ä","ö","ü","Ä","Ö","Ü","ß","€"];
+
+  function insertAt(input, ch){
+    var v = input.value;
+    var a = input.selectionStart == null ? v.length : input.selectionStart;
+    var b = input.selectionEnd == null ? v.length : input.selectionEnd;
+    input.value = v.slice(0,a) + ch + v.slice(b);
+    var pos = a + ch.length;
+    try{ input.setSelectionRange(pos,pos); }catch(e){}
+    input.focus();
+  }
+
+  function keypadBtn(id){
+    var b = document.createElement("button");
+    b.type = "button";
+    b.className = "keybtn";
+    b.title = "German letters";
+    b.setAttribute("aria-label","Insert German special characters");
+    b.setAttribute("aria-expanded","false");
+    b.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true">'+
+      '<rect x="2" y="5" width="20" height="14" rx="2"></rect>'+
+      '<path d="M6 9h.01M10 9h.01M14 9h.01M18 9h.01M6 13h.01M10 13h.01M14 13h.01M18 13h.01M8 16h8"></path>'+
+      '</svg>';
+    b.addEventListener("click", function(ev){
+      ev.stopPropagation();
+      var panel = document.getElementById("pad-"+id);
+      if(!panel) return;
+      var open = panel.classList.toggle("open");
+      b.setAttribute("aria-expanded", open ? "true" : "false");
+      closeAllKeypads(panel);
+    });
+    return b;
+  }
+
+  function closeAllKeypads(except){
+    Array.prototype.forEach.call(document.querySelectorAll(".pad.open"), function(p){
+      if(p === except) return;
+      p.classList.remove("open");
+      var btn = p.previousSibling && p.previousSibling.querySelector ? p.previousSibling.querySelector(".keybtn") : null;
+      if(btn) btn.setAttribute("aria-expanded","false");
+    });
+  }
+
+  document.addEventListener("click", function(){ closeAllKeypads(null); });
+  document.addEventListener("keydown", function(e){ if(e.key === "Escape") closeAllKeypads(null); });
+
+  function renderQuiz(ex){
+    var el = document.getElementById("quiz");
+    el.innerHTML = "";
+    ex.forEach(function(e){
+      var rev = !!state.revealed[e.id];
+      var card = document.createElement("article");
+      card.className = "q" + (rev ? " revealed" : "");
+      card.id = "q"+e.id;
+
+      var top = document.createElement("div");
+      top.className = "qtop";
+      top.innerHTML = '<span class="qnum">'+e.id+'</span>';
+      var qt = document.createElement("span");
+      qt.className = "qtext";
+      qt.textContent = e.english;
+      top.appendChild(qt);
+      card.appendChild(top);
+
+      // input with the letter keypad docked inside its right edge
+      var row = document.createElement("div");
+      row.className = "inputrow";
+      var ta = document.createElement("input");
+      ta.type = "text";
+      ta.className = "ainput";
+      ta.placeholder = "Write the German here…";
+      ta.setAttribute("aria-label","Your German answer for exercise "+e.id);
+      ta.value = state.answers[e.id] || "";
+      ta.addEventListener("input", function(){ state.answers[e.id] = ta.value; save(); });
+      row.appendChild(ta);
+      row.appendChild(keypadBtn(e.id));
+      card.appendChild(row);
+
+      // the letter panel sits inside the card so it is never clipped
+      var pad = document.createElement("div");
+      pad.className = "pad";
+      pad.id = "pad-"+e.id;
+      KEYS.forEach(function(k){
+        var kb = document.createElement("button");
+        kb.type = "button";
+        kb.className = "padkey";
+        kb.textContent = k;
+        kb.addEventListener("click", function(ev){
+          ev.stopPropagation();
+          var target = card.querySelector(".ainput");
+          insertAt(target, k);
+          state.answers[e.id] = target.value;
+          save();
+        });
+        pad.appendChild(kb);
+      });
+      card.appendChild(pad);
+
+      // reveal / hide toggle
+      var rb = document.createElement("button");
+      rb.type = "button";
+      rb.className = "btn rev" + (rev ? " on" : "");
+      rb.textContent = rev ? "Hide answer" : "Reveal answer";
+      rb.setAttribute("aria-expanded", rev ? "true" : "false");
+      rb.addEventListener("click", function(){
+        state.revealed[e.id] = !state.revealed[e.id];
+        save();
+        renderQuiz(ex);
+      });
+      card.appendChild(rb);
+
+      if(rev){
+        var fb = document.createElement("div");
+        fb.className = "fb";
+
+        var ansRow = document.createElement("div");
+        ansRow.className = "microw ansrow";
+        var at = document.createElement("div");
+        at.className = "mtext";
+        at.textContent = e.german;
+        ansRow.appendChild(at);
+        ansRow.appendChild(micBtn(e.german, "Play the German answer"));
+        fb.appendChild(ansRow);
+
+        var wy = document.createElement("div");
+        wy.className = "why";
+        wy.textContent = e.why;
+        fb.appendChild(wy);
+
+        card.appendChild(fb);
+      }
+      el.appendChild(card);
+    });
+  }
+
+  load();
+
+  fetch(DATA_URL+"?cb="+Date.now())
+    .then(function(r){ if(!r.ok) throw new Error("HTTP "+r.status); return r.json(); })
+    .then(function(d){
+      var ex=d.exercises;
+      renderQuiz(ex);
+    })
+    .catch(function(e){
+      document.getElementById("quiz").innerHTML =
+        '<div class="q"><b>Could not load the exercises.</b><br>'+esc(e.message)+'</div>';
+    });
+})();
+</script>
+</body>
+</html>

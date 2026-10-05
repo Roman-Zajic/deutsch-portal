@@ -1,0 +1,711 @@
+{
+  "title": "Temporal connectors",
+  "level": "B2",
+  "n": 31,
+  "topic_en": "Temporal connectors",
+  "term_de": "Die temporalen Konnektoren",
+  "updated": "2026-10-05",
+  "schema": "english-prompt -> learner types German -> Reveal/Hide answer shows reference + speaker",
+  "exercises": [
+    {
+      "id": 1,
+      "skill": "Temporal: als vs. wenn",
+      "english": "When I was twenty, I lived in Prague for a year.",
+      "german": "Als ich zwanzig war, lebte ich ein Jahr lang in Prag.",
+      "why": "A single, completed stretch of the past, so it takes als in the Präteritum; the parallel English 'when' would require wenn in German."
+    },
+    {
+      "id": 2,
+      "skill": "Temporal: als vs. wenn",
+      "english": "Whenever I am tired, I take a short break.",
+      "german": "Wenn ich müde bin, mache ich eine kurze Pause.",
+      "why": "A repeated present-time condition, which is exactly what wenn expresses; als is impossible here because the situation recurs."
+    },
+    {
+      "id": 3,
+      "skill": "Temporal: als vs. wenn",
+      "english": "When my grandmother died, we inherited her house.",
+      "german": "Als meine Großmutter starb, erbten wir ihr Haus.",
+      "why": "One completed event in the past, so als, with the narrative Präteritum in both clauses."
+    },
+    {
+      "id": 4,
+      "skill": "Temporal: als vs. wenn",
+      "english": "If the weather is good tomorrow, we will go hiking.",
+      "german": "Wenn das Wetter morgen schön ist, gehen wir wandern.",
+      "why": "A future condition, which needs wenn plus Präsens in both clauses; a Perfekt 'wenn es schön sein wird' would be unidiomatic."
+    },
+    {
+      "id": 5,
+      "skill": "Temporal: als vs. wenn",
+      "english": "When we were children, we visited our grandparents every summer.",
+      "german": "Wenn wir Kinder waren, besuchten wir jeden Sommer unsere Großeltern.",
+      "why": "A regularly recurring situation within a past period, so the present-type wenn, not the one-off als."
+    },
+    {
+      "id": 6,
+      "skill": "Temporal: als vs. wenn",
+      "english": "When the war ended in 1945, the country began to rebuild.",
+      "german": "Als der Krieg 1945 endete, begann das Land, sich wieder aufzubauen.",
+      "why": "A single historical moment, so als; the clause-final finite verb plus the comma matches German order after als."
+    },
+    {
+      "id": 7,
+      "skill": "Temporal: als vs. wenn",
+      "english": "When the bell rings, everyone must leave the room.",
+      "german": "Wenn die Klingel läutet, müssen alle den Raum verlassen.",
+      "why": "A general rule for any future ring, so wenn in Präsens with modal müssen in the main clause."
+    },
+    {
+      "id": 8,
+      "skill": "Temporal: als vs. wenn",
+      "english": "Whenever she gets bad news, she calls her mother immediately.",
+      "german": "Wenn sie schlechte Nachrichten bekommt, ruft sie sofort ihre Mutter an.",
+      "why": "The repeated reaction to a recurring trigger is the classic general-conditional use of wenn, not als."
+    },
+    {
+      "id": 9,
+      "skill": "Temporal: als vs. wenn",
+      "english": "When I opened the letter, my heart began to beat faster.",
+      "german": "Als ich den Brief öffnete, begann mein Herz schneller zu schlagen.",
+      "why": "Two narrative events framed as one past episode, so als; Perfekt 'geöffnet hatte' would be possible but Präteritum fits the story better."
+    },
+    {
+      "id": 10,
+      "skill": "Temporal: als vs. wenn",
+      "english": "If you are tired, take a taxi instead.",
+      "german": "Wenn du müde bist, nimm stattdessen ein Taxi.",
+      "why": "An instruction valid for any state of tiredness, so the generic wenn with du and an imperative main clause."
+    },
+    {
+      "id": 11,
+      "skill": "Temporal: als vs. wenn",
+      "english": "When we were small, our grandmother told us fairy tales every night.",
+      "german": "Als wir klein waren, erzählte uns unsere Großmutter jeden Abend Märchen.",
+      "why": "A phase of the past narrated as a unit, which als covers; the frequentative jeden Abend does not turn it into a general condition."
+    },
+    {
+      "id": 12,
+      "skill": "Temporal: als vs. wenn",
+      "english": "When I apply next month, I will include this certificate.",
+      "german": "Wenn ich mich nächsten Monat bewerbe, lege ich dieses Zeugnis bei.",
+      "why": "A single future occurrence, so wenn in Präsens; the main clause keeps Präsens rather than a future tense, as German normally does."
+    },
+    {
+      "id": 13,
+      "skill": "Temporal: als vs. wenn",
+      "english": "When the train finally arrived, we had already left the station.",
+      "german": "Als der Zug endlich ankam, hatten wir den Bahnhof schon verlassen.",
+      "why": "One past arrival, so als, and the main clause uses the Perfekt plus schon to show the earlier action."
+    },
+    {
+      "id": 14,
+      "skill": "Temporal: als vs. wenn",
+      "english": "If I have time tomorrow, I will call you.",
+      "german": "Wenn ich morgen Zeit habe, rufe ich dich an.",
+      "why": "A future possibility, so wenn with Präsens; a Perfekt in the if-clause would be wrong for an unrealised plan."
+    },
+    {
+      "id": 15,
+      "skill": "Temporal: als vs. wenn",
+      "english": "Whenever the phone rings, my dog starts barking.",
+      "german": "Immer wenn das Telefon klingelt, bellt mein Hund.",
+      "why": "The fronted temporal adverb Immer highlights that the event repeats, which rules out als and requires wenn."
+    },
+    {
+      "id": 16,
+      "skill": "Temporal: als vs. wenn",
+      "english": "When the museum closed for renovation, the collection was moved elsewhere.",
+      "german": "Als das Museum wegen einer Renovierung geschlossen wurde, wurde die Sammlung ausgelagert.",
+      "why": "A single completed past event, so als, and wegen marks the reason inside the als-clause rather than starting a second clause."
+    },
+    {
+      "id": 17,
+      "skill": "Temporal: als vs. wenn",
+      "english": "If you tell her about it, she will be angry.",
+      "german": "Wenn du es ihr sagst, wird sie ärgerlich sein.",
+      "why": "A future condition, so wenn plus Präsens; werden as the future auxiliary of sein is the correct form here."
+    },
+    {
+      "id": 18,
+      "skill": "Temporal: als vs. wenn",
+      "english": "When the snow finally melted, we hiked up the mountain.",
+      "german": "Als der Schnee endlich taute, machten wir eine Wanderung auf den Berg.",
+      "why": "One completed event in the past, so als in Präteritum; a repeated seasonal melting would need wenn."
+    },
+    {
+      "id": 19,
+      "skill": "Temporal: als vs. wenn",
+      "english": "Whenever I hear this song, I think of my grandmother.",
+      "german": "Wenn ich dieses Lied höre, denke ich an meine Großmutter.",
+      "why": "The English 'whenever' signals a general rule, so wenn; als would wrongly claim a single past occasion."
+    },
+    {
+      "id": 20,
+      "skill": "Temporal: als vs. wenn",
+      "english": "When he was a teenager, he played the guitar every day.",
+      "german": "Als er ein Teenager war, spielte er jeden Tag Gitarre.",
+      "why": "A period of his past narrated as a block, so als; the English 'when' here is a one-time frame, not a general one."
+    },
+    {
+      "id": 21,
+      "skill": "Temporal: position II time adverbs",
+      "english": "Yesterday I ran into an old school friend at the bakery.",
+      "german": "Gestern bin ich einer alten Schulfreundin in der Bäckerei begegnet.",
+      "why": "Gestern occupies position II, so the finite verb bin is the second element and the Perfekt follows the participle."
+    },
+    {
+      "id": 22,
+      "skill": "Temporal: position II time adverbs",
+      "english": "This morning the train to Munich was completely full.",
+      "german": "Heute Morgen war der Zug nach München völlig überfüllt.",
+      "why": "The compound time adverb Heute Morgen takes position II, pushing war into second position without a preposition."
+    },
+    {
+      "id": 23,
+      "skill": "Temporal: position II time adverbs",
+      "english": "Tomorrow I will send you the documents you need.",
+      "german": "Morgen schicke ich dir die Unterlagen, die du brauchst.",
+      "why": "Morgen in position II is why the verb is finite (schicke) instead of the Perfekt form schicken werde, which would be wrong here."
+    },
+    {
+      "id": 24,
+      "skill": "Temporal: position II time adverbs",
+      "english": "Yesterday evening we sat on the balcony for hours.",
+      "german": "Gestern Abend saßen wir stundenlang auf dem Balkon.",
+      "why": "The two-word time adverb Gestern Abend stands in position II and the Präteritum saßen matches the finished evening."
+    },
+    {
+      "id": 25,
+      "skill": "Temporal: position II time adverbs",
+      "english": "Recently I have noticed that the prices have gone up again.",
+      "german": "Neulich habe ich bemerkt, dass die Preise wieder gestiegen sind.",
+      "why": "Neulich in position II is followed by the Perfekt of the position I verb, and the dass-clause carries its own Perfekt."
+    },
+    {
+      "id": 26,
+      "skill": "Temporal: position II time adverbs",
+      "english": "At the time, nobody believed him.",
+      "german": "Damals glaubte ihm niemand.",
+      "why": "Damals is a prepositionless time adverb that can stand in position II, so the finite glaubte comes second and niemand follows the dative."
+    },
+    {
+      "id": 27,
+      "skill": "Temporal: position II time adverbs",
+      "english": "Next Monday the new manager will introduce himself to the team.",
+      "german": "Nächsten Montag stellt der neue Manager sich dem Team vor.",
+      "why": "Nächsten Montag takes position II, so stellt is the second element and the following subject is not forced into subject position."
+    },
+    {
+      "id": 28,
+      "skill": "Temporal: position II time adverbs",
+      "english": "A moment ago the phone rang twice.",
+      "german": "Vorhin klingelte das Telefon zweimal.",
+      "why": "Vorhin is a point-in-the-past adverb used in position II, and the Präteritum matches its completed, bounded meaning."
+    },
+    {
+      "id": 29,
+      "skill": "Temporal: position II time adverbs",
+      "english": "Last summer we drove through the whole of Switzerland.",
+      "german": "Letzten Sommer fuhren wir durch die ganze Schweiz.",
+      "why": "Letzten Sommer in position II explains why fuhren, not the Perfekt, is used: the period is over and closed."
+    },
+    {
+      "id": 30,
+      "skill": "Temporal: position II time adverbs",
+      "english": "Tomorrow morning I will call the doctor at eight.",
+      "german": "Morgen früh rufe ich den Arzt um acht an.",
+      "why": "Morgen früh in position II puts the separable verb an rufe at the end of the clause, correctly separated."
+    },
+    {
+      "id": 31,
+      "skill": "Temporal: position II time adverbs",
+      "english": "The day before yesterday I lost my wallet somewhere in the city centre.",
+      "german": "Vorgestern habe ich irgendwo im Stadtzentrum meine Geldbörse verloren.",
+      "why": "Vorgestern is the long form of the position II time adverb vor zwei Tagen and takes the Perfekt here."
+    },
+    {
+      "id": 32,
+      "skill": "Temporal: position II time adverbs",
+      "english": "Nowadays many people work from home at least three days a week.",
+      "german": "Heutzutage arbeiten viele Menschen mindestens drei Tage pro Woche von zu Hause.",
+      "why": "Heutzutage in position II leaves arbeiten as the second element and correctly keeps the general Präsens for a current generalisation."
+    },
+    {
+      "id": 33,
+      "skill": "Temporal: position II time adverbs",
+      "english": "In the past this neighbourhood was much quieter.",
+      "german": "Früher war diese Nachbarschaft viel ruhiger.",
+      "why": "Früher is a temporal adverb in position II, so war is second; the comparative ruhiger needs the usual viel intensifier."
+    },
+    {
+      "id": 34,
+      "skill": "Temporal: position II time adverbs",
+      "english": "The day after tomorrow I will have my final exam.",
+      "german": "Übermorgen habe ich meine Abschlussprüfung.",
+      "why": "Übermorgen stands in position II and the Präsens habe is used because German expresses the future with the present tense."
+    },
+    {
+      "id": 35,
+      "skill": "Temporal: position II time adverbs",
+      "english": "Just now she asked me about the contract.",
+      "german": "Gerade eben hat sie mich nach dem Vertrag gefragt.",
+      "why": "Gerade eben in position II is followed by the Perfekt, which is the default for a completed action a moment ago."
+    },
+    {
+      "id": 36,
+      "skill": "Temporal: position II time adverbs",
+      "english": "This afternoon I have a meeting with the supplier.",
+      "german": "Heute Nachmittag habe ich ein Meeting mit dem Lieferanten.",
+      "why": "Heute Nachmittag marks an upcoming appointment today, so Präsens habe rather than a future tense is correct."
+    },
+    {
+      "id": 37,
+      "skill": "Temporal: position II time adverbs",
+      "english": "Two years ago my sister moved to Switzerland.",
+      "german": "Vor zwei Jahren ist meine Schwester in die Schweiz gezogen.",
+      "why": "The fronted quantity phrase Vor zwei Jahren occupies position II, so ist is the second element of the Perfekt."
+    },
+    {
+      "id": 38,
+      "skill": "Temporal: position II time adverbs",
+      "english": "Next week the results will be published.",
+      "german": "Nächste Woche werden die Ergebnisse veröffentlicht.",
+      "why": "Nächste Woche in position II puts the auxiliary werden second and the full verb last, as required for a separable verb."
+    },
+    {
+      "id": 39,
+      "skill": "Temporal: position II time adverbs",
+      "english": "Every evening after work I listen to a podcast.",
+      "german": "Jeden Abend nach der Arbeit höre ich einen Podcast.",
+      "why": "The time phrase Jeden Abend opens in position II, so höre is the finite second element; the clause states a repeated present fact."
+    },
+    {
+      "id": 40,
+      "skill": "Temporal: position II time adverbs",
+      "english": "Yesterday afternoon I finally returned the borrowed book.",
+      "german": "Gestern Nachmittag habe ich das geliehene Buch endlich zurückgegeben.",
+      "why": "Gestern Nachmittag in position II is followed by a Perfekt whose participle correctly ends in -en for a verb with prefix ge-."
+    },
+    {
+      "id": 41,
+      "skill": "Temporal: seit vs. vor",
+      "english": "I have lived in Vienna since 2019.",
+      "german": "Ich wohne seit 2019 in Wien.",
+      "why": "seit with a starting point still in force takes Präsens wohne; the Präteritum wohnte would wrongly claim the period is over."
+    },
+    {
+      "id": 42,
+      "skill": "Temporal: seit vs. vor",
+      "english": "Before 2019 I lived in a small town in Bavaria.",
+      "german": "Vor 2019 wohnte ich in einer kleinen Stadt in Bayern.",
+      "why": "vor with a past point marks a finished stretch, so the Präteritum is right here and no seit may be used with it."
+    },
+    {
+      "id": 43,
+      "skill": "Temporal: seit vs. vor",
+      "english": "She has been learning German for eight months.",
+      "german": "Sie lernt seit acht Monaten Deutsch.",
+      "why": "seit plus Dativ (Monaten) with a still-ongoing activity requires Präsens lernt, not lernte."
+    },
+    {
+      "id": 44,
+      "skill": "Temporal: seit vs. vor",
+      "english": "Before his accident he drove a taxi for six years.",
+      "german": "Vor seinem Unfall fuhr er sechs Jahre lang Taxi.",
+      "why": "Sechs Jahre lang states the duration and the fronted vor seinem Unfall dative-names the endpoint, so both parts are past and closed."
+    },
+    {
+      "id": 45,
+      "skill": "Temporal: seit vs. vor",
+      "english": "We have not seen each other since the summer of 2021.",
+      "german": "Wir sehen uns seit dem Sommer 2021 nicht mehr.",
+      "why": "seit dem Sommer 2021 is a dative starting point with an ongoing situation, so the negated Präsens sehen is used, reinforced by nicht mehr."
+    },
+    {
+      "id": 46,
+      "skill": "Temporal: seit vs. vor",
+      "english": "Before the Reformation this town belonged to the Habsburgs.",
+      "german": "Vor der Reformation gehörte diese Stadt den Habsburgern.",
+      "why": "vor der Reformation plus the dative belongs in the Präteritum describes a state that ended at that point."
+    },
+    {
+      "id": 47,
+      "skill": "Temporal: seit vs. vor",
+      "english": "He has worked in this company since April.",
+      "german": "Er arbeitet seit April in diesem Unternehmen.",
+      "why": "seit April opens a period that is still running, so the Präsens arbeitet is mandatory."
+    },
+    {
+      "id": 48,
+      "skill": "Temporal: seit vs. vor",
+      "english": "Two weeks before the exam, she started to panic.",
+      "german": "Zwei Wochen vor der Prüfung fing sie an, in Panik zu geraten.",
+      "why": "vor der Prüfung marks a point before which the panic began, and the separable an-fing clause is correctly split."
+    },
+    {
+      "id": 49,
+      "skill": "Temporal: seit vs. vor",
+      "english": "Since you left, the garden has become overgrown.",
+      "german": "Seit deinem Abschied ist der Garten zugewachsen.",
+      "why": "seit deinem Abschied is dative and the result is expressed as a state, so the Perfekt of zugewachsen fits."
+    },
+    {
+      "id": 50,
+      "skill": "Temporal: seit vs. vor",
+      "english": "Before the war they lived in a house with a large garden.",
+      "german": "Vor dem Krieg wohnten sie in einem Haus mit einem großen Garten.",
+      "why": "vor dem Krieg ends the period, so the Präteritum wohnten is used instead of a present that would suggest they still live there."
+    },
+    {
+      "id": 51,
+      "skill": "Temporal: seit vs. vor",
+      "english": "I have not eaten meat since January.",
+      "german": "Ich esse seit Januar kein Fleisch.",
+      "why": "seit Januar with an ongoing abstinence takes the Präsens esse, which is idiomatic alongside kein without seit."
+    },
+    {
+      "id": 52,
+      "skill": "Temporal: seit vs. vor",
+      "english": "Half an hour before departure we were still on the platform.",
+      "german": "Eine halbe Stunde vor der Abfahrt waren wir noch auf dem Bahnsteig.",
+      "why": "vor der Abfahrt dative-marks a past deadline, and the Präteritum waren plus noch shows the situation ended at that point."
+    },
+    {
+      "id": 53,
+      "skill": "Temporal: seit vs. vor",
+      "english": "Since the new law came into force, the fine has doubled.",
+      "german": "Seit das neue Gesetz gilt, ist die Geldstrafe doppelt so hoch.",
+      "why": "seit das neue Gesetz gilt names a still-running period in the Präsens, and ist … doppelt so hoch states the resulting state."
+    },
+    {
+      "id": 54,
+      "skill": "Temporal: seit vs. vor",
+      "english": "Before 1990 there were no mobile phones in this country.",
+      "german": "Vor 1990 gab es in diesem Land keine Mobiltelefone.",
+      "why": "vor 1990 closes the period, so the Präteritum gab es is right; seit 1990 would wrongly imply phones existed from then on."
+    },
+    {
+      "id": 55,
+      "skill": "Temporal: seit vs. vor",
+      "english": "The two of them have been apart since their divorce.",
+      "german": "Die beiden sind seit ihrer Scheidung getrennt.",
+      "why": "seit ihrer Scheidung is dative with a state that still holds, so the Präsens form of sein with getrennt is used."
+    },
+    {
+      "id": 56,
+      "skill": "Temporal: seit vs. vor",
+      "english": "Before my grandfather's generation nobody in the family had a car.",
+      "german": "Vor der Generation meines Großvaters hatte niemand in der Familie ein Auto.",
+      "why": "vor with a dative generation names a point long past, so the Präteritum hatte and the absolute niemand ... ein Auto are correct."
+    },
+    {
+      "id": 57,
+      "skill": "Temporal: seit vs. vor",
+      "english": "Since the summer I have been learning to play the piano.",
+      "german": "Seit dem Sommer lerne ich Klavier spielen.",
+      "why": "seit dem Sommer with a still-continuing process demands the Präsens lerne and the zu-infinitive spielen zu."
+    },
+    {
+      "id": 58,
+      "skill": "Temporal: seit vs. vor",
+      "english": "Six months before the wedding she cancelled all her plans.",
+      "german": "Sechs Monate vor der Hochzeit sagte sie alle ihre Pläne ab.",
+      "why": "vor der Hochzeit sets a finished point in the past and the separable verb ab-sagen is correctly split as sagte ... ab."
+    },
+    {
+      "id": 59,
+      "skill": "Temporal: seit vs. vor",
+      "english": "I have been renting this flat since October.",
+      "german": "Ich miete diese Wohnung seit Oktober.",
+      "why": "seit Oktober is a dative start of an ongoing arrangement, so the Präsens miete replaces the Präteritum mietete."
+    },
+    {
+      "id": 60,
+      "skill": "Temporal: seit vs. vor",
+      "english": "Before the war his family owned a brewery in Pilsen.",
+      "german": "Vor dem Krieg besaß seine Familie eine Brauerei in Pilsen.",
+      "why": "The ownership ended with the war, so vor dem Krieg plus the Präteritum besaß is the right pairing."
+    },
+    {
+      "id": 61,
+      "skill": "Temporal: bis and bis zu",
+      "english": "Wait for me until I come back.",
+      "german": "Warte auf mich, bis ich zurückkomme.",
+      "why": "bis names the end point of the waiting, and because the clause stands last there is no comma before bis."
+    },
+    {
+      "id": 62,
+      "skill": "Temporal: bis and bis zu",
+      "english": "The ticket costs up to 30 euros.",
+      "german": "Das Ticket kostet bis zu 30 Euro.",
+      "why": "Here bis zu + accusative expresses an upper limit rather than a real end point, which plain bis could not do."
+    },
+    {
+      "id": 63,
+      "skill": "Temporal: bis and bis zu",
+      "english": "I will stay here until Friday.",
+      "german": "Ich bleibe bis Freitag hier.",
+      "why": "bis with a calendar day is an end point with no article, and the clause-final position leaves no comma."
+    },
+    {
+      "id": 64,
+      "skill": "Temporal: bis and bis zu",
+      "english": "Children up to six years old may come in free of charge.",
+      "german": "Kinder bis zu sechs Jahren alt kommen gratis mit.",
+      "why": "The age limit is a maximum, so bis zu sechs Jahren takes the dative plural of Jahren after the bis zu."
+    },
+    {
+      "id": 65,
+      "skill": "Temporal: bis and bis zu",
+      "english": "I worked there until my contract ended.",
+      "german": "Ich arbeitete dort, bis mein Vertrag endete.",
+      "why": "bis marks the terminal event; the comma is required because the bis-clause is a clause, unlike the preposition use in id 63."
+    },
+    {
+      "id": 66,
+      "skill": "Temporal: bis and bis zu",
+      "english": "In August the temperature can reach up to 35 degrees.",
+      "german": "Die Temperatur kann im August bis zu 35 Grad erreichen.",
+      "why": "bis zu expresses the highest possible value, and kann signals that the limit may not actually be reached."
+    },
+    {
+      "id": 67,
+      "skill": "Temporal: bis and bis zu",
+      "english": "We waited until the rain stopped.",
+      "german": "Wir warteten, bis der Regen aufhörte.",
+      "why": "bis points to the moment the waiting ended; with the clause in final position the Präteritum aufhörte is neutral, not Perfekt."
+    },
+    {
+      "id": 68,
+      "skill": "Temporal: bis and bis zu",
+      "english": "Please fill in the form up to page four.",
+      "german": "Bitte füllen Sie das Formular bis Seite vier aus.",
+      "why": "bis Seite vier is an endpoint of the action, so plain bis is correct and the separable aus fills the end of the clause."
+    },
+    {
+      "id": 69,
+      "skill": "Temporal: bis and bis zu",
+      "english": "You may park here until six o'clock.",
+      "german": "Sie können hier bis sechs Uhr parken.",
+      "why": "bis sechs Uhr is a genuine end point, and the modal können allows the infinitive parken to stay at the clause end."
+    },
+    {
+      "id": 70,
+      "skill": "Temporal: bis and bis zu",
+      "english": "Expect delays of up to two hours.",
+      "german": "Rechnen Sie mit Verspätungen von bis zu zwei Stunden.",
+      "why": "von bis zu sets a maximum on the quantified noun, so bis zu rather than bis is required for a limit, not an end point."
+    },
+    {
+      "id": 71,
+      "skill": "Temporal: bis and bis zu",
+      "english": "She read the letter until she could not hold back her tears.",
+      "german": "Sie las den Brief, bis sie die Tränen nicht zurückhalten konnte.",
+      "why": "bis marks the limit reached by an ongoing action, and the modal-like nicht ... konnte keeps the Perfekt unidiomatic in that clause."
+    },
+    {
+      "id": 72,
+      "skill": "Temporal: bis and bis zu",
+      "english": "Savings of up to 30 percent are possible.",
+      "german": "Ersparnisse von bis zu 30 Prozent sind möglich.",
+      "why": "The figure is a ceiling, so von bis zu with the dative plural Prozent distinguishes a limit from a genuine end point."
+    },
+    {
+      "id": 73,
+      "skill": "Temporal: bis and bis zu",
+      "english": "I will not rest until the whole flat is clean.",
+      "german": "Ich ruhe mich nicht aus, bis die ganze Wohnung sauber ist.",
+      "why": "The negated main clause plus bis forms the nicht … bis idiom meaning 'not until', and the separable aus is split off correctly."
+    },
+    {
+      "id": 74,
+      "skill": "Temporal: bis and bis zu",
+      "english": "The library stays open until ten in the evening.",
+      "german": "Die Bibliothek bleibt bis zehn Uhr abends geöffnet.",
+      "why": "bis ten o'clock is the closing time, an end point, so no bis zu; the state is expressed with bleiben + Partizip."
+    },
+    {
+      "id": 75,
+      "skill": "Temporal: bis and bis zu",
+      "english": "I waited in the queue until my turn came.",
+      "german": "Ich wartete in der Schlange, bis ich an der Reihe war.",
+      "why": "bis names the event that ended the wait, and an der Reihe sein is a fixed phrase that keeps the Präteritum idiomatic."
+    },
+    {
+      "id": 76,
+      "skill": "Temporal: bis and bis zu",
+      "english": "The deadline has been extended until the end of the month.",
+      "german": "Die Frist wurde bis Ende des Monats verlängert.",
+      "why": "bis Ende des Monats is a new end point, not a maximum, so plain bis with the genitive follows."
+    },
+    {
+      "id": 77,
+      "skill": "Temporal: bis and bis zu",
+      "english": "The daily allowance covers meals of up to 25 euros.",
+      "german": "Das Tagegeld deckt Mahlzeiten von bis zu 25 Euro.",
+      "why": "von bis zu caps the amount per meal, which is a limit rather than an end point, so the bis zu form is required."
+    },
+    {
+      "id": 78,
+      "skill": "Temporal: bis and bis zu",
+      "english": "He lived in Prague until he was expelled.",
+      "german": "Er lebte in Prag, bis er ausgewiesen wurde.",
+      "why": "bis points to the terminating event, and the passive wurde ausgewiesen matches the formal register of being expelled."
+    },
+    {
+      "id": 79,
+      "skill": "Temporal: bis and bis zu",
+      "english": "You can try it on until it fits properly.",
+      "german": "Du kannst es anprobieren, bis es richtig passt.",
+      "why": "bis marks the point at which trying stops; the modal können keeps anprobieren as an infinitive at the end."
+    },
+    {
+      "id": 80,
+      "skill": "Temporal: bis and bis zu",
+      "english": "Please wait until the announcement is over.",
+      "german": "Bitte warte, bis die Durchsage vorbei ist.",
+      "why": "bis vorbei is idiomatic for 'until something is over', and the Präsens ist fits a state that will still be in force then."
+    },
+    {
+      "id": 81,
+      "skill": "Temporal: während, nachdem, bevor, solange, seitdem",
+      "english": "While she was cooking, I set the table.",
+      "german": "Während sie kochte, deckte ich den Tisch.",
+      "why": "With während and two different subjects the tenses may differ, so the Präteritum in both clauses is natural."
+    },
+    {
+      "id": 82,
+      "skill": "Temporal: während, nachdem, bevor, solange, seitdem",
+      "english": "While the children were playing, a storm broke out.",
+      "german": "Während die Kinder spielten, brach ein Sturm aus.",
+      "why": "während marks an interruption during a running past situation; the different subjects let the main clause use its own Präteritum."
+    },
+    {
+      "id": 83,
+      "skill": "Temporal: während, nachdem, bevor, solange, seitdem",
+      "english": "I burned my finger while I was making soup.",
+      "german": "Ich habe mir den Finger verbrannt, während ich Suppe gekocht habe.",
+      "why": "Same subject in both clauses, so während requires the same tense; two Perfekts show both actions belong to one completed episode."
+    },
+    {
+      "id": 84,
+      "skill": "Temporal: während, nachdem, bevor, solange, seitdem",
+      "english": "While he was abroad, the company restructured.",
+      "german": "Während er im Ausland war, hat die Firma sich umstrukturiert.",
+      "why": "Different subjects allow a Präteritum clause for his absence and a Perfekt for the company event, which is the standard asymmetry."
+    },
+    {
+      "id": 85,
+      "skill": "Temporal: während, nachdem, bevor, solange, seitdem",
+      "english": "After I had left the room, everyone started talking.",
+      "german": "Nachdem ich den Raum verlassen hatte, fingen alle an zu reden.",
+      "why": "nachdem puts the clause first and the subordinate uses the Plusquamperfekt-like Perfekt with hatte; the main clause follows in Präteritum."
+    },
+    {
+      "id": 86,
+      "skill": "Temporal: während, nachdem, bevor, solange, seitdem",
+      "english": "After she had finished her degree, she moved to Hamburg.",
+      "german": "Nachdem sie ihr Studium beendet hatte, zog sie nach Hamburg.",
+      "why": "Nachdem here needs the Perfekt with hatte to show the earlier of two completed events, and it correctly leads the sentence."
+    },
+    {
+      "id": 87,
+      "skill": "Temporal: während, nachdem, bevor, solange, seitdem",
+      "english": "After the meeting had ended, we went for a walk.",
+      "german": "Nachdem die Besprechung geendet hatte, gingen wir spazieren.",
+      "why": "The had-Part of geendet hatte marks the meeting as prior, and the fronted nachdem-clause explains the sequence for gingen."
+    },
+    {
+      "id": 88,
+      "skill": "Temporal: während, nachdem, bevor, solange, seitdem",
+      "english": "After the children had gone to bed, we tidied up.",
+      "german": "Nachdem die Kinder zu Bett gegangen waren, machten wir Ordnung.",
+      "why": "gegangen waren is the past participle plus sein auxiliary, and the separation of zu Bett matters for correct word order."
+    },
+    {
+      "id": 89,
+      "skill": "Temporal: während, nachdem, bevor, solange, seitdem",
+      "english": "Before you sign the contract, read it carefully.",
+      "german": "Bevor du den Vertrag unterschreibst, lies ihn sorgfältig.",
+      "why": "bevor prefers clause-initial position, and the Präsens unterschreibst describes a future step rather than a past habit."
+    },
+    {
+      "id": 90,
+      "skill": "Temporal: während, nachdem, bevor, solange, seitdem",
+      "english": "Before the concert began, everyone had to take their seat.",
+      "german": "Bevor das Konzert begann, mussten alle Platz nehmen.",
+      "why": "bevor in first position plus the Präteritum subjunctive mussten expresses an obligation that held before the concert started."
+    },
+    {
+      "id": 91,
+      "skill": "Temporal: während, nachdem, bevor, solange, seitdem",
+      "english": "Before I moved to Berlin, I had never lived in a big city.",
+      "german": "Bevor ich nach Berlin umzog, hatte ich noch nie in einer Großstadt gelebt.",
+      "why": "The negated noch nie with the Perfekt in the main clause expresses something never true up to the time named by the bevor-clause."
+    },
+    {
+      "id": 92,
+      "skill": "Temporal: während, nachdem, bevor, solange, seitdem",
+      "english": "Before we decide, we should ask the expert.",
+      "german": "Bevor wir entscheiden, sollten wir den Experten fragen.",
+      "why": "bevor introduces an action that is still pending, and sollten as a modal in second position is the correct formal form."
+    },
+    {
+      "id": 93,
+      "skill": "Temporal: während, nachdem, bevor, solange, seitdem",
+      "english": "I will stay as long as you need me.",
+      "german": "Ich bleibe, solange du mich brauchst.",
+      "why": "solange expresses equal duration, so the main clause uses the Präsens bleibe, not a future tense."
+    },
+    {
+      "id": 94,
+      "skill": "Temporal: während, nachdem, bevor, solange, seitdem",
+      "english": "You can borrow the bike as long as you need it.",
+      "german": "Du kannst das Fahrrad ausleihen, solange du es brauchst.",
+      "why": "Two present-tense clauses with solange express the condition of the permission, and the clause-final position takes no comma."
+    },
+    {
+      "id": 95,
+      "skill": "Temporal: während, nachdem, bevor, solange, seitdem",
+      "english": "As long as I live here, the restaurant is always full.",
+      "german": "Solange ich hier wohne, ist das Restaurant immer voll.",
+      "why": "A fronted solange-clause works in position I; the Präsens in both clauses signals a situation that is true now."
+    },
+    {
+      "id": 96,
+      "skill": "Temporal: während, nachdem, bevor, solange, seitdem",
+      "english": "As long as he was sick, he stayed in bed.",
+      "german": "Solange er krank war, blieb er im Bett.",
+      "why": "Same subject in both clauses, so solange requires matching tenses; two Präteritum forms make the parallel structure obvious."
+    },
+    {
+      "id": 97,
+      "skill": "Temporal: während, nachdem, bevor, solange, seitdem",
+      "english": "As long as you have questions, ask her.",
+      "german": "Solange ihr Fragen habt, beantwortet sie sie.",
+      "why": "A fronted solange-clause allows the main clause to keep its normal word order, with beantwortet in finite position."
+    },
+    {
+      "id": 98,
+      "skill": "Temporal: während, nachdem, bevor, solange, seitdem",
+      "english": "Since then I have completely lost interest in it.",
+      "german": "Seitdem habe ich jedes Interesse daran verloren.",
+      "why": "Seitdem stands as the subject of a Perfekt main clause, which is why habe occupies the second position here."
+    },
+    {
+      "id": 99,
+      "skill": "Temporal: während, nachdem, bevor, solange, seitdem",
+      "english": "Since then the two countries have never spoken to each other again.",
+      "german": "Seitdem haben die beiden Länder nie wieder miteinander gesprochen.",
+      "why": "The Perfekt plus nie wieder expresses that a state has held unchanged up to the present since that point in time."
+    },
+    {
+      "id": 100,
+      "skill": "Temporal: während, nachdem, bevor, solange, seitdem",
+      "english": "Since then he has written to me every week.",
+      "german": "Seitdem schreibt er mir jede Woche.",
+      "why": "A repeated action continuing from that point to now takes the Präsens, so schreibt rather than hat geschrieben."
+    }
+  ]
+}

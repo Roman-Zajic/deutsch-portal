@@ -1,0 +1,711 @@
+{
+  "title": "Consecutive and modal connectors",
+  "level": "B2",
+  "n": 29,
+  "topic_en": "Consecutive and modal connectors",
+  "term_de": "Die konsekutiven und modalen Konnektoren",
+  "updated": "2026-10-05",
+  "schema": "english-prompt -> learner types German -> Reveal/Hide answer shows reference + speaker",
+  "exercises": [
+    {
+      "id": 1,
+      "skill": "Consequence: deshalb / daher / also",
+      "english": "The train was late, so we missed the bus.",
+      "german": "Der Zug hatte Verspätung, deshalb verpassten wir den Bus.",
+      "why": "deshalb in position I simply links two independent main clauses without a conjunction, and the main-clause verb keeps its position II form verpassten."
+    },
+    {
+      "id": 2,
+      "skill": "Consequence: deshalb / daher / also",
+      "english": "The window is broken, so I will close the door instead.",
+      "german": "Das Fenster ist kaputt, daher mache ich stattdessen die Tür zu.",
+      "why": "daher signals a consequence that follows logically from the broken window, and stattdessen contrasts the substituted action."
+    },
+    {
+      "id": 3,
+      "skill": "Consequence: deshalb / daher / also",
+      "english": "She studied a lot, so she passed the exam with distinction.",
+      "german": "Sie hat viel gelernt, also bestand sie die Prüfung mit Auszeichnung.",
+      "why": "Die Bahnverbindung also closes the two main clauses formally; the perfect tense of the first clause and the simple past of the second are normal narrative."
+    },
+    {
+      "id": 4,
+      "skill": "Consequence: deshalb / daher / also",
+      "english": "It is very cold outside, so the radiator is switched on again.",
+      "german": "Es ist draußen sehr kalt, deshalb wird die Heizung wieder eingeschaltet.",
+      "why": "With a passive main clause, the conjugated form of werden sits in position II while the participle einschaltet closes the clause."
+    },
+    {
+      "id": 5,
+      "skill": "Consequence: deshalb / daher / also",
+      "english": "The meeting has been moved, so the team cannot attend today.",
+      "german": "Die Besprechung wurde verschoben, daher kann das Team heute nicht teilnehmen.",
+      "why": "Two passive-ish statements are chained: the modal verb kann sits in position II after daher and the verb stem nehmen goes to the end of the clause."
+    },
+    {
+      "id": 6,
+      "skill": "Consequence: deshalb / daher / also",
+      "english": "The battery is empty, so I cannot take photos.",
+      "german": "Der Akku ist leer, also kann ich keine Fotos machen.",
+      "why": "A modal verb in position II after also makes the consequence read as a consequence of the empty battery, not as a new fact."
+    },
+    {
+      "id": 7,
+      "skill": "Consequence: deshalb / daher / also",
+      "english": "There is no paper left, so I will write it on the board.",
+      "german": "Es ist kein Papier mehr da, deshalb schreibe ich es an die Tafel.",
+      "why": "The pronoun es in the main clause is the subject, and deshalb pushes schreibe to position II while es moves behind the connective."
+    },
+    {
+      "id": 8,
+      "skill": "Consequence: deshalb / daher / also",
+      "english": "My colleague is ill, so I will present the results.",
+      "german": "Meine Kollegin ist krank, daher stelle ich die Ergebnisse vor.",
+      "why": "vorstellen separates in this sentence, and with therefore the separable prefix vor- and the verb stem stell- bracket the second position."
+    },
+    {
+      "id": 9,
+      "skill": "Consequence: deshalb / daher / also",
+      "english": "The software update failed, so nothing has changed.",
+      "german": "Das Softwareupdate ist fehlgeschlagen, also hat sich nichts geändert.",
+      "why": "Perfect with haben and an accusative object: hat sits in position II, geändert closes the main clause."
+    },
+    {
+      "id": 10,
+      "skill": "Consequence: deshalb / daher / also",
+      "english": "Nobody answered the phone, so I sent an email.",
+      "german": "Niemand hat ans Telefon gegangen, deshalb habe ich eine E-Mail geschickt.",
+      "why": "Two perfect clauses in sequence: each has its own position-II auxiliary (hat, habe) and the past participle ends the clause."
+    },
+    {
+      "id": 11,
+      "skill": "Consequence: deshalb / daher / also",
+      "english": "The hotel was fully booked, so we slept at a friend's place.",
+      "german": "Das Hotel war ausgebucht, daher haben wir bei einer Freundin geschlafen.",
+      "why": "haben as the position-II auxiliary of the perfect, and the preposition bei takes a dative object with a feminine noun."
+    },
+    {
+      "id": 12,
+      "skill": "Consequence: deshalb / daher / also",
+      "english": "You forgot your umbrella, so your shirt is soaked.",
+      "german": "Du hast deinen Schirm vergessen, also ist dein Hemd durchnässt.",
+      "why": "Vergessen is the participle of a perfect with haben, and the copula ist in position II introduces the adjective predicate durchnässt."
+    },
+    {
+      "id": 13,
+      "skill": "Consequence: deshalb / daher / also",
+      "english": "The road is blocked, so we have to take a detour.",
+      "german": "Die Straße ist gesperrt, deswegen müssen wir einen Umweg fahren.",
+      "why": "The modal müssen in position II expresses the forced consequence, and einen Umweg is the accusative object of the separable fahren."
+    },
+    {
+      "id": 14,
+      "skill": "Consequence: deshalb / daher / also",
+      "english": "The receipt has not arrived, so I cannot claim the expenses.",
+      "german": "Die Rechnung ist noch nicht gekommen, deshalb kann ich die Spesen nicht abrechnen.",
+      "why": "Two modal-present clauses: kann sits in position II and the verb stem rechnen moves to the end after the object."
+    },
+    {
+      "id": 15,
+      "skill": "Consequence: deshalb / daher / also",
+      "english": "The signal is very weak, so the connection keeps dropping.",
+      "german": "Der Empfang ist sehr schwach, also bricht die Verbindung ständig ab.",
+      "why": "A separable verb after a consequence adverb: abbricht is split, the prefix ab- closes the clause after the subject."
+    },
+    {
+      "id": 16,
+      "skill": "Consequence: deshalb / daher / also",
+      "english": "Nobody answered the door, so I left my name on the list.",
+      "german": "Niemand hat an der Tür aufgemacht, deshalb habe ich meinen Namen auf die Liste geschrieben.",
+      "why": "an der Tür is a prepositional object with the article standing in the dative; the position-II auxiliary habe carries the perfect."
+    },
+    {
+      "id": 17,
+      "skill": "Consequence: deshalb / daher / also",
+      "english": "The train leaves early tomorrow, so we should set an alarm.",
+      "german": "Der Zug fährt morgen früh ab, also sollten wir einen Wecker stellen.",
+      "why": "The modal sollten in position II states the necessary consequence, and abfahren is split into ab and fährt."
+    },
+    {
+      "id": 18,
+      "skill": "Consequence: deshalb / daher / also",
+      "english": "Prices have gone up again, so the trip costs more than planned.",
+      "german": "Die Preise sind wieder gestiegen, daher kostet die Reise mehr als geplant.",
+      "why": "Two present clauses with different subjects; the adjective predicate kostet stands in position II after daher."
+    },
+    {
+      "id": 19,
+      "skill": "Consequence: deshalb / daher / also",
+      "english": "The kettle is broken, so we drink coffee from the machine.",
+      "german": "Der Wasserkocher ist kaputt, deswegen trinken wir Kaffee aus dem Automaten.",
+      "why": "The preposition aus takes a dative object here, and the position-II verb trinken follows the subject wir."
+    },
+    {
+      "id": 20,
+      "skill": "Consequence: deshalb / daher / also",
+      "english": "The children were hungry after the excursion, so we stopped at a bakery.",
+      "german": "Die Kinder hatten nach dem Ausflug Hunger, also sind wir bei einer Bäckerei stehen geblieben.",
+      "why": "The separable verb stehen bleiben forms a past participle that is placed as a block at the end of the main clause."
+    },
+    {
+      "id": 21,
+      "skill": "Consequence: so + degree",
+      "english": "He is so tired that he can hardly stay awake.",
+      "german": "Er ist so müde, er kann kaum wach bleiben.",
+      "why": "Without a that-clause, so intensifies the degree directly: the main clause reaches the limit in its own way, kann is in position II and the infinitive closes the clause."
+    },
+    {
+      "id": 22,
+      "skill": "Consequence: so + degree",
+      "english": "The dog is so obedient that it never barks now.",
+      "german": "Der Hund ist so brav, er bellt überhaupt nicht mehr.",
+      "why": "Two main clauses: the degree stands in the first one and the consequence in the second, with bellt in position II."
+    },
+    {
+      "id": 23,
+      "skill": "Consequence: so + degree",
+      "english": "The water is so clear that we can see the bottom.",
+      "german": "Das Wasser ist so klar, wir sehen den Grund bis hinunter.",
+      "why": "so modifies the degree of klar, and the result is expressed in the following main clause, where sehen sits in position II."
+    },
+    {
+      "id": 24,
+      "skill": "Consequence: so + degree",
+      "english": "She talks so quickly that nobody understands her.",
+      "german": "Sie redet so schnell, niemand versteht sie.",
+      "why": "The degree adverb so schnell in the first main clause is answered by the negative result clause, with versteht in position II."
+    },
+    {
+      "id": 25,
+      "skill": "Consequence: so + degree",
+      "english": "The book is so interesting that I could not put it down.",
+      "german": "Das Buch ist so spannend, ich habe es nicht aus der Hand gelassen.",
+      "why": "The degree of spannend is stated first, the result follows in a perfect clause whose auxiliary hat occupies position II."
+    },
+    {
+      "id": 26,
+      "skill": "Consequence: so + degree",
+      "english": "It is so hot here that nobody can concentrate.",
+      "german": "Es ist hier so heiß, keiner kann sich konzentrieren.",
+      "why": "The impersonal es stands in position I, and in the second main clause the personal subject keiner comes after the connective."
+    },
+    {
+      "id": 27,
+      "skill": "Consequence: so + degree",
+      "english": "The trail was so steep that we had to rest often.",
+      "german": "Der Weg war so steil, wir mussten oft Pause machen.",
+      "why": "A modal in position II with the position-II verb müssen, and the separable verb makes a block Pause machen at the end."
+    },
+    {
+      "id": 28,
+      "skill": "Consequence: so + degree",
+      "english": "She is so honest that everyone trusts her.",
+      "german": "Sie ist so ehrlich, ihr vertraut jeder.",
+      "why": "so plus adjective intensifies ehrlich, and the result clause uses a pronoun object with the verb vertraut in position II."
+    },
+    {
+      "id": 29,
+      "skill": "Consequence: so + degree",
+      "english": "The music was so loud that we could only talk by shouting.",
+      "german": "Die Musik war so laut, wir konnten nur schreien.",
+      "why": "A modal verb in position II expresses the limited possibility, and a verb-less second clause could not carry the result."
+    },
+    {
+      "id": 30,
+      "skill": "Consequence: so + degree",
+      "english": "His room is so messy that no one can find anything.",
+      "german": "Sein Zimmer ist so unordentlich, dort findet niemand etwas.",
+      "why": "The second main clause uses a directional adverb as the subject slot and the verb findet in position II."
+    },
+    {
+      "id": 31,
+      "skill": "Consequence: so + degree",
+      "english": "The neighbours are so noisy that we cannot sleep.",
+      "german": "Die Nachbarn sind so laut, wir können nicht schlafen.",
+      "why": "The negated infinitive closes the clause, and the modal können in position II expresses the blocked result."
+    },
+    {
+      "id": 32,
+      "skill": "Consequence: so + degree",
+      "english": "The children were so excited that they shouted the whole way.",
+      "german": "Die Kinder waren so aufgeregt, sie schrien den ganzen Weg über.",
+      "why": "A degree adjective plus a following main clause: the subject sie comes after the connective and schrien is the finite verb in position II."
+    },
+    {
+      "id": 33,
+      "skill": "Consequence: so + degree",
+      "english": "The lift is so slow that I take the stairs.",
+      "german": "Der Aufzug ist so langsam, ich nehme die Treppe.",
+      "why": "The second main clause contrasts two means of transport, with nimmt in position II and the preposition nehemen taking an accusative object."
+    },
+    {
+      "id": 34,
+      "skill": "Consequence: so + degree",
+      "english": "The coffee is so bitter that I always add milk.",
+      "german": "Der Kaffee ist so bitter, ich trinke ihn immer mit Milch.",
+      "why": "The degree of bitter is followed by a compensating action; the accusative pronoun ihn is the object of trinke in position II."
+    },
+    {
+      "id": 35,
+      "skill": "Consequence: so + degree",
+      "english": "The lecture was so boring that half the room fell asleep.",
+      "german": "Die Vorlesung war so langweilig, die halbe Aula schlief ein.",
+      "why": "A fronted quantifier die halbe Aula comes before the position-II verb schlief, and the separable verb closes the clause as ein."
+    },
+    {
+      "id": 36,
+      "skill": "Consequence: so + degree",
+      "english": "The car is so old that it barely starts in winter.",
+      "german": "Der Wagen ist so alt, er startet im Winter kaum noch.",
+      "why": "A degree statement plus a result clause with a concessive negation: startet stands in position II and the negation kaum noch stays with the verb."
+    },
+    {
+      "id": 37,
+      "skill": "Consequence: so + degree",
+      "english": "The soup smells so good that everyone wants some.",
+      "german": "Die Suppe riecht so gut, jeder will davon haben.",
+      "why": "so intensifies the degree of the verb riecht, and the result clause has the subject jeder in position I with will in position II."
+    },
+    {
+      "id": 38,
+      "skill": "Consequence: so + degree",
+      "english": "Her replies are so short that nobody can tell what she means.",
+      "german": "Ihre Antworten sind so kurz, man versteht nicht, was sie meint.",
+      "why": "so modifies the degree of kurz, and the result clause contains a dass-clause inside which the verb meint comes last."
+    },
+    {
+      "id": 39,
+      "skill": "Consequence: so + degree",
+      "english": "The rain was so heavy that the cellar flooded.",
+      "german": "Der Regen war so stark, die Kellerräume wurden überflutet.",
+      "why": "A degree clause and a passive result clause: the auxiliary wurde is in position II and the participle überflutet stands at the end."
+    },
+    {
+      "id": 40,
+      "skill": "Consequence: so + degree",
+      "english": "The bread is so stale that nobody wants to buy it.",
+      "german": "Das Brot ist so alt, niemand will es kaufen.",
+      "why": "The modal will in position II expresses the refusal-like result, and the accusative pronoun es follows it as the object of kaufen."
+    },
+    {
+      "id": 41,
+      "skill": "Consequence: so ... dass / sodass",
+      "english": "It was so cold that we stayed indoors.",
+      "german": "Es war so kalt, dass wir drinnen geblieben sind.",
+      "why": "so plus the degree word kalt in the main clause, and the dass-clause closes with the perfect auxiliary hat replaced by sind and the participle at the very end."
+    },
+    {
+      "id": 42,
+      "skill": "Consequence: so ... dass / sodass",
+      "english": "The music was so loud that the neighbours complained.",
+      "german": "Die Musik war so laut, dass sich die Nachbarn beschwert haben.",
+      "why": "The verb of the dass-clause must be last; here the reflexive sich stands after the subject and haben with the participle beschwert ends the sentence."
+    },
+    {
+      "id": 43,
+      "skill": "Consequence: so ... dass / sodass",
+      "english": "I repeat, the deadline has been moved.",
+      "german": "Sodass alle mich verstehen, wiederhole ich: Die Frist wurde verschoben.",
+      "why": "Sodass can open the sentence; the dass-clause comes first with the verb verstehen last, and the main clause keeps its normal order with ich in position III."
+    },
+    {
+      "id": 44,
+      "skill": "Consequence: so ... dass / sodass",
+      "english": "She spoke so quietly that nobody heard her.",
+      "german": "Sie hat so leise gesprochen, dass niemand sie gehört hat.",
+      "why": "The degree is built with so plus an adverb after the auxiliary hat, and the dass-clause ends in a perfect with the participle gehört."
+    },
+    {
+      "id": 45,
+      "skill": "Consequence: so ... dass / sodass",
+      "english": "He is so punctual that everyone can rely on him.",
+      "german": "Er ist so pünktlich, dass sich alle auf ihn verlassen können.",
+      "why": "A modal verb closes the dass-clause: the conjugated können stands last after the object, which is the decisive position-II rule here."
+    },
+    {
+      "id": 46,
+      "skill": "Consequence: so ... dass / sodass",
+      "english": "So that costs are not overrun, we are meeting only online.",
+      "german": "Sodass die Kosten nicht überschritten werden, treffen wir uns nur online.",
+      "why": "A fronted sodass-clause with a passive verb: the auxiliary wird stands last, while the main clause keeps treffen in position II."
+    },
+    {
+      "id": 47,
+      "skill": "Consequence: so ... dass / sodass",
+      "english": "The file was so large that it could not be sent by email.",
+      "german": "Die Datei war so groß, dass sie nicht per E-Mail verschickt werden konnte.",
+      "why": "A passive inside the dass-clause: the modal konnte comes last, and the long participle attribute per E-Mail precedes it."
+    },
+    {
+      "id": 48,
+      "skill": "Consequence: so ... dass / sodass",
+      "english": "The child was so tired that it fell asleep in the car seat.",
+      "german": "Das Kind war so müde, dass es auf dem Kindersitz einschlief.",
+      "why": "The simple past subordinate clause is a common narrative choice, and the verb einschlief stands last after the prepositional phrase."
+    },
+    {
+      "id": 49,
+      "skill": "Consequence: so ... dass / sodass",
+      "english": "So that nobody is disturbed, please switch off your phone.",
+      "german": "Sodass niemand gestört wird, schalten Sie bitte Ihr Handy aus.",
+      "why": "The sodass-clause comes first with the passive auxiliary wird last, and the main clause inverts the pronoun to Ihr after schalten."
+    },
+    {
+      "id": 50,
+      "skill": "Consequence: so ... dass / sodass",
+      "english": "The prices are so high that we eat out less often.",
+      "german": "Die Preise sind so hoch, dass wir seltener essen gehen.",
+      "why": "The dass-clause ends with the separable verb gehen after its prefix ge-, while the main-clause subject is simply das Preise."
+    },
+    {
+      "id": 51,
+      "skill": "Consequence: so ... dass / sodass",
+      "english": "His application was so incomplete that it was rejected.",
+      "german": "Sein Antrag war so unvollständig, dass er abgelehnt wurde.",
+      "why": "A passive result clause where the auxiliary wurde occupies position II and the participle abgelehnt closes the dass-clause."
+    },
+    {
+      "id": 52,
+      "skill": "Consequence: so ... dass / sodass",
+      "english": "The road was so icy that everybody drove slowly.",
+      "german": "Die Straße war so vereist, dass alle langsam gefahren sind.",
+      "why": "The subject alle comes first inside the dass-clause, and the perfect verb gefahren sind must stand at the end as the final element."
+    },
+    {
+      "id": 53,
+      "skill": "Consequence: so ... dass / sodass",
+      "english": "It was so hot that we cancelled the meeting.",
+      "german": "Es war so heiß, dass wir die Besprechung abgesagt haben.",
+      "why": "The dass-clause stands first inside the subordinate, and the separable verb abgesagt haben is placed as a block at the end."
+    },
+    {
+      "id": 54,
+      "skill": "Consequence: so ... dass / sodass",
+      "english": "So that your application is accepted, you need the original certificate.",
+      "german": "Sodass Ihr Antrag angenommen wird, brauchen Sie das Originalzertifikat.",
+      "why": "A modal verb in the main clause: brauchen stands in position II, while the passive of the sodass-clause ends with wird."
+    },
+    {
+      "id": 55,
+      "skill": "Consequence: so ... dass / sodass",
+      "english": "The lecture was so long that two people fell asleep.",
+      "german": "Der Vortrag war so lang, dass zwei Leute eingeschlafen sind.",
+      "why": "The indefinite quantifier zwei Leute heads the dass-clause, and the perfect verb eingeschlafen sind closes it."
+    },
+    {
+      "id": 56,
+      "skill": "Consequence: so ... dass / sodass",
+      "english": "So that the plants do not dry out, we water them twice a day.",
+      "german": "Sodass die Pflanzen nicht austrocknen, gießen wir sie zweimal am Tag.",
+      "why": "The negated subordinate verb austrocknen is the last word of the fronted clause, and gießen is the position-II verb of the main clause."
+    },
+    {
+      "id": 57,
+      "skill": "Consequence: so ... dass / sodass",
+      "english": "The colours are so bright that you can see them from far away.",
+      "german": "Die Farben sind so hell, dass man sie von weit her sieht.",
+      "why": "The impersonal man is the subject of the dass-clause and the simple present sieht is the last element, as required."
+    },
+    {
+      "id": 58,
+      "skill": "Consequence: so ... dass / sodass",
+      "english": "The queue was so long that we only got tickets an hour before the start.",
+      "german": "Die Schlange war so lang, dass wir erst eine Stunde vor Beginn Karten bekommen haben.",
+      "why": "The perfect bekommen haben stands last; the time phrase is embedded in the subordinate clause before the subject and the verb."
+    },
+    {
+      "id": 59,
+      "skill": "Consequence: so ... dass / sodass",
+      "english": "He is so absent-minded that he always forgets his keys.",
+      "german": "Er ist so zerstreut, dass er seine Schlüssel immer vergisst.",
+      "why": "A repeated present subordinate clause; vergisst must be last, so the object seine Schlüssel and the temporal adverb immer come first."
+    },
+    {
+      "id": 60,
+      "skill": "Consequence: so ... dass / sodass",
+      "english": "The instructions were so unclear that nobody could follow them.",
+      "german": "Die Anleitung war so unklar, dass niemand sie befolgen konnte.",
+      "why": "The accusative pronoun sie stands after the subject, and the modal konnte is the last word of the dass-clause."
+    },
+    {
+      "id": 61,
+      "skill": "Modal connectors: indem / während",
+      "english": "You improve fastest by speaking every day.",
+      "german": "Du wirst am schnellsten besser, indem du jeden Tag sprichst.",
+      "why": "indem expresses the means: the means is a full finite clause whose verb sprichst must stand last."
+    },
+    {
+      "id": 62,
+      "skill": "Modal connectors: indem / während",
+      "english": "You save time by cooking once a week.",
+      "german": "Du sparst Zeit, indem du einmal pro Woche kochst.",
+      "why": "indem is a means-conjunction, and because its clause is finite the verb kochst must go last."
+    },
+    {
+      "id": 63,
+      "skill": "Modal connectors: indem / während",
+      "english": "I found the flat by reading the ads every day.",
+      "german": "Ich habe die Wohnung gefunden, indem ich jeden Tag Anzeigen gelesen habe.",
+      "why": "A perfect clause after indem: the subordinate auxiliary habe is in position III and the participle gelesen closes the clause."
+    },
+    {
+      "id": 64,
+      "skill": "Modal connectors: indem / während",
+      "english": "She kept quiet while I was speaking.",
+      "german": "Sie schwieg, während ich sprach.",
+      "why": "während here is modal in the sense of while and not, both verbs sit at the ends of their clauses: schwieg and sprach."
+    },
+    {
+      "id": 65,
+      "skill": "Modal connectors: indem / während",
+      "english": "You cannot relax while you are still working.",
+      "german": "Du kannst dich nicht entspannen, während du noch arbeitest.",
+      "why": "A modal cannot as the main-clause verb: kannst is in position II, and the subordinate verb arbeitest comes last."
+    },
+    {
+      "id": 66,
+      "skill": "Modal connectors: indem / während",
+      "english": "He earned the position by always being reliable.",
+      "german": "Er hat die Stelle bekommen, indem er immer zuverlässig war.",
+      "why": "indem states the means that led to the result, and the subordinate clause was stays in its position before the end."
+    },
+    {
+      "id": 67,
+      "skill": "Modal connectors: indem / während",
+      "english": "You learn most when you make mistakes.",
+      "german": "Du lernst am meisten, indem du Fehler machst.",
+      "why": "The comparative am meisten frames the means clause, and machst is the last word of the indem-clause."
+    },
+    {
+      "id": 68,
+      "skill": "Modal connectors: indem / während",
+      "english": "We heard strange noises while we were packing.",
+      "german": "Wir haben seltsame Geräusche gehört, während wir die Koffer packten.",
+      "why": "während introduces a simultaneous action; in the subordinate clause the subject wir comes first and packten is last."
+    },
+    {
+      "id": 69,
+      "skill": "Modal connectors: indem / während",
+      "english": "You catch a cold by never airing the room.",
+      "german": "Du holst dir einen Schnupfen, indem du bei jedem Bad lüftest.",
+      "why": "indem names the means of catching a cold, and the subordinate clause is a full finite clause with the verb lüftest in the last position."
+    },
+    {
+      "id": 70,
+      "skill": "Modal connectors: indem / während",
+      "english": "She finished the report by working late every evening.",
+      "german": "Sie hat den Bericht fertiggestellt, indem sie jeden Abend länger arbeitete.",
+      "why": "A perfect of the report with the participle placed before the connector, and the subordinate clause ends with arbeitete."
+    },
+    {
+      "id": 71,
+      "skill": "Modal connectors: indem / während",
+      "english": "You spend much less if you book in early December.",
+      "german": "Während du im Dezember buchst, zahlst du deutlich weniger.",
+      "why": "während sets a contrast between the booking date and the price: the subordinate verb buchst is last, and zahlst stands in position II in the main clause."
+    },
+    {
+      "id": 72,
+      "skill": "Modal connectors: indem / während",
+      "english": "He kept typing while the meeting was already over.",
+      "german": "Er tippte weiter, während die Besprechung längst vorbei war.",
+      "why": "während with two past clauses: the subordinate verb war stands last after the adverbial phrase."
+    },
+    {
+      "id": 73,
+      "skill": "Modal connectors: indem / während",
+      "english": "You stay informed by reading the newspaper.",
+      "german": "Du bleibst informiert, indem du die Zeitung liest.",
+      "why": "indem plus a present clause; the pronoun du comes right after the connector and liest closes the clause."
+    },
+    {
+      "id": 74,
+      "skill": "Modal connectors: indem / während",
+      "english": "The infant slept through the whole concert.",
+      "german": "Das Baby schlief durch das ganze Konzert, während es von niemandem geweckt wurde.",
+      "why": "während marks a simultaneous action that should have interrupted the situation: the passive subordinate verb wurde stands last."
+    },
+    {
+      "id": 75,
+      "skill": "Modal connectors: indem / während",
+      "english": "He calmed down after drinking a glass of water.",
+      "german": "Er beruhigte sich, indem er ein Glas Wasser trank.",
+      "why": "A means-clause in the simple past; both trank and the preceding subject er follow the position-II rule for ihre finite verb."
+    },
+    {
+      "id": 76,
+      "skill": "Modal connectors: indem / während",
+      "english": "Nobody noticed the error while the invoice was being checked.",
+      "german": "Niemand bemerkte den Fehler, während die Rechnung geprüft wurde.",
+      "why": "während with a passive clause: the subordinate verb wurde stands last after the participle attribute."
+    },
+    {
+      "id": 77,
+      "skill": "Modal connectors: indem / während",
+      "english": "You reduce daily strain by taking short breaks.",
+      "german": "Du baust jeden Tag Stress ab, indem du kurze Pausen machst.",
+      "why": "The separable verb abbauen is split around the subject, and the means clause after indem ends with the conjugated verb machst."
+    },
+    {
+      "id": 78,
+      "skill": "Modal connectors: indem / während",
+      "english": "She translated the letter although she should really have answered it.",
+      "german": "Sie übersetzte den Brief, während sie ihn eigentlich hätte beantworten sollen.",
+      "why": "während introduces a modal contrast: the main-clause verb steht in position II, and inside the subordinate clause the modal hätte and the infinitive sollen close it."
+    },
+    {
+      "id": 79,
+      "skill": "Modal connectors: indem / während",
+      "english": "We heated up while the train was delayed.",
+      "german": "Wir haben uns aufgewärmt, während der Zug Verspätung hatte.",
+      "why": "während with a perfect in the main clause and a simple clause in the subordinate, where hatte comes last."
+    },
+    {
+      "id": 80,
+      "skill": "Modal connectors: indem / während",
+      "english": "He mastered the language by watching films every day.",
+      "german": "Er hat die Sprache beherrscht, indem er jeden Tag Filme schaute.",
+      "why": "The perfect of the main verb is completed with beherrscht, and the means clause keeps its finite verb schaute in the final slot."
+    },
+    {
+      "id": 81,
+      "skill": "Modal connectors: womit / wozu, and während contrast",
+      "english": "This is the sponge with which you should clean the stove.",
+      "german": "Das ist der Schwamm, womit du den Herd putzen solltest.",
+      "why": "womit is a relative clause in the dative case after das, and the modal solltest is the last word of the clause."
+    },
+    {
+      "id": 82,
+      "skill": "Modal connectors: womit / wozu, and während contrast",
+      "english": "Do you have a pen with which I can sign the contract?",
+      "german": "Hast du einen Stift, womit ich den Vertrag unterschreiben kann?",
+      "why": "womit with a modal clause: kann comes last, and the case of the relative pronoun is determined by mit, i.e. dative."
+    },
+    {
+      "id": 83,
+      "skill": "Modal connectors: womit / wozu, and während contrast",
+      "english": "The kit is for repairing punctures on the road.",
+      "german": "Das Set ist dafür da, wozu man Reifenpannen unterwegs reparieren kann.",
+      "why": "wozu plus a modal clause answers the purpose question, and the modal kann is the last word of the subordinate clause."
+    },
+    {
+      "id": 84,
+      "skill": "Modal connectors: womit / wozu, and während contrast",
+      "english": "I am looking for a folder in which to keep the receipts.",
+      "german": "Ich suche einen Ordner, wozu ich die Belege aufbewahre.",
+      "why": "wozu is a purpose relative with zu plus an infinitive; the subject of the subordinate clause follows the connector."
+    },
+    {
+      "id": 85,
+      "skill": "Modal connectors: womit / wozu, and während contrast",
+      "english": "He is the neighbour whom I called at two in the morning.",
+      "german": "Das ist der Nachbar, wozu ich um zwei Uhr geklingelt habe.",
+      "why": "wozu-clause with a perfect: the preposition zu plus dem means for what, and habe plus the participle geklingelt is the closing block."
+    },
+    {
+      "id": 86,
+      "skill": "Modal connectors: womit / wozu, and während contrast",
+      "english": "This is the room in which we keep the receipts.",
+      "german": "Das ist der Raum, wozu wir die Belege legen.",
+      "why": "A wozu relative clause states the purpose of the room, and legen is the last word of the clause after the subject wir."
+    },
+    {
+      "id": 87,
+      "skill": "Modal connectors: womit / wozu, and während contrast",
+      "english": "This is the tool with which I tightened the screw.",
+      "german": "Das ist das Werkzeug, womit ich die Schraube angezogen habe.",
+      "why": "A womit-clause with a perfect: habe is in position III and the participle angezogen stands last."
+    },
+    {
+      "id": 88,
+      "skill": "Modal connectors: womit / wozu, and während contrast",
+      "english": "I need a tool we can use to avoid the traffic jam.",
+      "german": "Ich brauche ein Werkzeug, womit wir den Stau umgehen können.",
+      "why": "womit introduces the means of avoiding the jam, and the modal können is the last element of the relative clause."
+    },
+    {
+      "id": 89,
+      "skill": "Modal connectors: womit / wozu, and während contrast",
+      "english": "Why do you take two umbrellas?",
+      "german": "Wozu brauchst du zwei Schirme?",
+      "why": "wozu asks for a purpose and is answered with an infinitive, not with a prepositional phrase, so the verb brauchst keeps position II."
+    },
+    {
+      "id": 90,
+      "skill": "Modal connectors: womit / wozu, and während contrast",
+      "english": "What are you taking all these boxes for?",
+      "german": "Wozu nimmst du all diese Kisten mit?",
+      "why": "wozu expresses the purpose of a mitnehmen action, and the separable prefix mit- stands in position II before the verb stem nimmst."
+    },
+    {
+      "id": 91,
+      "skill": "Modal connectors: womit / wozu, and während contrast",
+      "english": "While his brother earns well, he barely gets by.",
+      "german": "Während sein Bruder gut verdient, kommt er kaum über die Runden.",
+      "why": "A concessive contrast: while the two states are simultaneous, the clause order is verb-final with kommt, and über die Runden is separable."
+    },
+    {
+      "id": 92,
+      "skill": "Modal connectors: womit / wozu, and während contrast",
+      "english": "While the company is growing, our department is shrinking.",
+      "german": "Während die Firma wächst, schrumpft unsere Abteilung.",
+      "why": "während contrasts two simultaneous developments; in the subordinate clause the verb wächst is last and in the main clause schrumpft holds position II."
+    },
+    {
+      "id": 93,
+      "skill": "Modal connectors: womit / wozu, and während contrast",
+      "english": "Although he is very rich, he lives modestly.",
+      "german": "Während er sehr reich ist, lebt er bescheiden.",
+      "why": "A clear modal contrast with während: the wealth and the modest lifestyle are held apart by the finite verb ist in the clause-final position."
+    },
+    {
+      "id": 94,
+      "skill": "Modal connectors: womit / wozu, and während contrast",
+      "english": "He talks big while he has achieved nothing.",
+      "german": "Er prahlt viel, während er nichts erreicht hat.",
+      "why": "während sets a lasting contrast against a perfect clause, whose participle erreicht hat is the closing block of the sentence."
+    },
+    {
+      "id": 95,
+      "skill": "Modal connectors: womit / wozu, and während contrast",
+      "english": "While the others were worried, she stayed calm.",
+      "german": "Während die anderen besorgt waren, blieb sie ruhig.",
+      "why": "A past-tense contrast with während: both clauses follow the verb-final rule, waren ends the first and blieb is in position II in the second."
+    },
+    {
+      "id": 96,
+      "skill": "Modal connectors: womit / wozu, and während contrast",
+      "english": "She claims she has no idea what she is doing, yet she finishes the course.",
+      "german": "Während sie behauptet, keine Ahnung zu haben, schließt sie den Kurs ab.",
+      "why": "A modal contrast built with während plus a nominalised infinitive: no idea zu haben is the compact nominal, and schließt is in position II."
+    },
+    {
+      "id": 97,
+      "skill": "Modal connectors: womit / wozu, and während contrast",
+      "english": "While the flats are getting more expensive, wages are hardly rising.",
+      "german": "Während die Wohnungen teurer werden, steigen die Löhne kaum.",
+      "why": "während presents a parallel development with an opposing tendency, and the subordinate verb werden comes last."
+    },
+    {
+      "id": 98,
+      "skill": "Modal connectors: womit / wozu, and während contrast",
+      "english": "The teacher explained the rule with a few clear examples.",
+      "german": "Ich brauche ein Werkzeug, womit ich die alte Farbe entfernen kann.",
+      "why": "womit-clause in the dative with the modal kann last; it names the instrument with which the paint can be removed."
+    },
+    {
+      "id": 99,
+      "skill": "Modal connectors: womit / wozu, and während contrast",
+      "english": "While we were waiting, a colleague came by with the missing file.",
+      "german": "Während wir warteten, kam eine Kollegin mit der fehlenden Datei vorbei.",
+      "why": "während is temporal here, not modal: the two past actions run in parallel, with kam in position II and vorbei closing the separable verb."
+    },
+    {
+      "id": 100,
+      "skill": "Modal connectors: womit / wozu, and während contrast",
+      "english": "He showed us the app with which he plans his trips.",
+      "german": "Er zeigte uns die App, womit er seine Reisen plant.",
+      "why": "A womit-clause in the dative after die App; in the subordinate clause the subject er follows the connector and the verb plant is last."
+    }
+  ]
+}

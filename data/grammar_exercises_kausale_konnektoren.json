@@ -1,0 +1,711 @@
+{
+  "title": "Causal and final connectors",
+  "level": "B2",
+  "n": 30,
+  "topic_en": "Causal and final connectors",
+  "term_de": "Die kausalen und finalen Konnektoren",
+  "updated": "2026-10-05",
+  "schema": "english-prompt -> learner types German -> Reveal/Hide answer shows reference + speaker",
+  "exercises": [
+    {
+      "id": 1,
+      "skill": "Causal: weil",
+      "english": "I stayed at home because my daughter is ill.",
+      "german": "Ich blieb zu Hause, weil meine Tochter krank ist.",
+      "why": "weil-clause in second position after the main clause; conjugated ist goes to the very end, which also marks it as the subordinate clause."
+    },
+    {
+      "id": 2,
+      "skill": "Causal: weil",
+      "english": "We could not enter because the door was locked.",
+      "german": "Wir konnten nicht eintreten, weil die Tür verschlossen war.",
+      "why": "war is a conjugated auxiliary and therefore joins the verb cluster at the clause end after verschlossen."
+    },
+    {
+      "id": 3,
+      "skill": "Causal: weil",
+      "english": "Because the meeting was cancelled, I am working from home today.",
+      "german": "Weil die Besprechung abgesagt wurde, arbeite ich heute von zu Hause.",
+      "why": "weil may also open the sentence; only the verb of the main clause (arbeite) then takes position II."
+    },
+    {
+      "id": 4,
+      "skill": "Causal: weil",
+      "english": "She was late because she missed the last bus.",
+      "german": "Sie kam zu spät, weil sie den letzten Bus verpasst hatte.",
+      "why": "Perfect-plus in the weil-clause: hatte at the end carries the main clause tense (kam → hatte verpasst)."
+    },
+    {
+      "id": 5,
+      "skill": "Causal: weil",
+      "english": "I don't trust the report because the figures contradict each other.",
+      "german": "Ich vertraue dem Bericht nicht, weil die Zahlen einander widersprechen.",
+      "why": "widersprechen is a strong verb, so the separated prefix widersprechen lands last after its object."
+    },
+    {
+      "id": 6,
+      "skill": "Causal: weil",
+      "english": "The project failed because nobody took responsibility.",
+      "german": "Das Projekt scheiterte, weil niemand die Verantwortung übernommen hat.",
+      "why": "Separable prefix übernommen stays in the verb cluster at the end; negation sits in the main clause before the verb."
+    },
+    {
+      "id": 7,
+      "skill": "Causal: weil",
+      "english": "I like this city less because rents have doubled.",
+      "german": "Ich mag diese Stadt weniger, weil die Mieten sich verdoppelt haben.",
+      "why": "Reflexive sich plus separable prefix verdoppelt: the reflexive pronoun precedes the prefix, haben closes the clause."
+    },
+    {
+      "id": 8,
+      "skill": "Causal: weil",
+      "english": "I can't sleep tonight because the neighbours are making noise again.",
+      "german": "Ich kann heute Nacht nicht schlafen, weil die Nachbarn schon wieder Lärm machen.",
+      "why": "The weil-clause carries a present tense that refers to the same now as the main clause."
+    },
+    {
+      "id": 9,
+      "skill": "Causal: weil",
+      "english": "He apologised because he had not noticed the sign.",
+      "german": "Er entschuldigte sich, weil er das Schild nicht bemerkt hatte.",
+      "why": "modal-like perfect with bemerkt: negation and the participle precede the final had."
+    },
+    {
+      "id": 10,
+      "skill": "Causal: weil",
+      "english": "We changed our plans because the weather forecast was bad.",
+      "german": "Wir haben unsere Pläne geändert, weil die Wetterprognose schlecht war.",
+      "why": "Main clause in perfect with a separable prefix (geändert), weil-clause in preterite with war."
+    },
+    {
+      "id": 11,
+      "skill": "Causal: weil",
+      "english": "I was surprised because she knew my new address.",
+      "german": "Ich war überrascht, weil sie meine neue Adresse kannte.",
+      "why": "kannte is the preterite of kennen (weak verb), so it sits last in the clause as a finite form."
+    },
+    {
+      "id": 12,
+      "skill": "Causal: weil",
+      "english": "The app keeps crashing because the memory is full.",
+      "german": "Die App stürzt ständig ab, weil der Speicher voll ist.",
+      "why": "Two separable verbs: abstürzen in the main clause in position II, and the weil-clause keeps the finite verb last."
+    },
+    {
+      "id": 13,
+      "skill": "Causal: weil",
+      "english": "She didn't get the job because her CV was too short.",
+      "german": "Sie bekam die Stelle nicht, weil ihr Lebenslauf zu kurz war.",
+      "why": "zu + adjective (zu kurz) inside the subordinate clause; the whole predicate war is finite and goes last."
+    },
+    {
+      "id": 14,
+      "skill": "Causal: weil",
+      "english": "We eat out a lot because the kitchen is being renovated.",
+      "german": "Wir essen oft aus, weil die Küche renoviert wird.",
+      "why": "Passive in the weil-clause: wird is the finite auxiliary and moves in front of the participle, which is the last element."
+    },
+    {
+      "id": 15,
+      "skill": "Causal: weil",
+      "english": "He didn't answer because he had already left the meeting.",
+      "german": "Er antwortete nicht, weil er die Besprechung schon verlassen hatte.",
+      "why": "Verbs of motion with a prefix (verlassen) form the perfect with haben and put the participle before the final hatte."
+    },
+    {
+      "id": 16,
+      "skill": "Causal: weil",
+      "english": "I rarely cook because I spend a lot of time travelling.",
+      "german": "Ich koche selten, weil ich viel unterwegs bin.",
+      "why": "A non-standard-sounding but idiomatic contrast of two habits; the weil-clause verb bin is the last word."
+    },
+    {
+      "id": 17,
+      "skill": "Causal: weil",
+      "english": "The medicine helps because it reduces the inflammation.",
+      "german": "Das Medikament hilft, weil es die Entzündung hemmt.",
+      "why": "Strong verb hemmt with prefix object hemm-en: the prefixed stem goes last in the subordinate clause."
+    },
+    {
+      "id": 18,
+      "skill": "Causal: weil",
+      "english": "We had to cancel because nobody was available on Sunday.",
+      "german": "Wir mussten absagen, weil am Sonntag niemand Zeit hatte.",
+      "why": "mussten is the inflected form of müssen in the main clause; am Sonntag is the accusative time phrase."
+    },
+    {
+      "id": 19,
+      "skill": "Causal: weil",
+      "english": "I can't decide because both options have serious advantages.",
+      "german": "Ich kann mich nicht entscheiden, weil beide Optionen große Vorteile haben.",
+      "why": "Reflexive sich plus modal-like kann: the infinitive entscheiden follows immediately, the reflexive pronoun sits before it."
+    },
+    {
+      "id": 20,
+      "skill": "Causal: weil",
+      "english": "He left the company because he had been offered a better position.",
+      "german": "Er verließ die Firma, weil man ihm eine bessere Stelle angeboten hatte.",
+      "why": "Double accusative in the weil-clause (ihm … eine Stelle); the participle precedes the final finite hatte."
+    },
+    {
+      "id": 21,
+      "skill": "Causal: da and denn",
+      "english": "Since you are back, let's have dinner together.",
+      "german": "Da du wieder da bist, lass uns zusammen essen.",
+      "why": "da as a temporal causal at the start of the sentence; the imperative clause uses the position-II verb (lass)."
+    },
+    {
+      "id": 22,
+      "skill": "Causal: da and denn",
+      "english": "I am tired because the shift was very long.",
+      "german": "Ich bin müde, denn die Schicht war sehr lang.",
+      "why": "denn stays in position II and is followed by the full verb cluster, which is the most frequent option in writing."
+    },
+    {
+      "id": 23,
+      "skill": "Causal: da and denn",
+      "english": "The office is closed because the owner is on holiday.",
+      "german": "Das Büro ist geschlossen, da der Besitzer im Urlaub ist.",
+      "why": "da as a causal connector in first position, explained by an ist-statement about the Besitzer."
+    },
+    {
+      "id": 24,
+      "skill": "Causal: da and denn",
+      "english": "The museum is closed, because the entrance is being rebuilt.",
+      "german": "Das Museum ist geschlossen, da der Eingang umgebaut wird.",
+      "why": "da with a passive subordinate clause; wird is the finite verb and the participle umgebaut follows it."
+    },
+    {
+      "id": 25,
+      "skill": "Causal: da and denn",
+      "english": "The prices have gone up, as suppliers have become more expensive.",
+      "german": "Die Preise sind gestiegen, denn die Lieferanten sind teurer geworden.",
+      "why": "Both clauses are main clauses, so the second one repeats the subject and its verb in position II."
+    },
+    {
+      "id": 26,
+      "skill": "Causal: da and denn",
+      "english": "Since the tickets are sold out, we'll watch it at home.",
+      "german": "Da die Karten ausverkauft sind, sehen wir uns den Film zu Hause an.",
+      "why": "separable verb ansehen: the prefix an goes to the end of the main clause, but the conjugated sehen stays in position II."
+    },
+    {
+      "id": 27,
+      "skill": "Causal: da and denn",
+      "english": "Nobody came, for nobody had been informed.",
+      "german": "Niemand kam, denn niemand war informiert worden.",
+      "why": "Participle construction with worden instead of geworden shows the passive (informiert worden)."
+    },
+    {
+      "id": 28,
+      "skill": "Causal: da and denn",
+      "english": "Take a jacket, because it will be cold this evening.",
+      "german": "Nimm eine Jacke mit, denn es wird heute Abend kalt.",
+      "why": "The separable prefix mit leaves the verb stem in position II, with mit as the last element of the sentence."
+    },
+    {
+      "id": 29,
+      "skill": "Causal: da and denn",
+      "english": "She knows a lot about it, because she wrote her thesis on the topic.",
+      "german": "Sie weiß viel darüber, denn sie hat ihre Abschlussarbeit dazu geschrieben.",
+      "why": "dazu is the local adverb; the causal denn in position II plus the verb cluster follows the comma."
+    },
+    {
+      "id": 30,
+      "skill": "Causal: da and denn",
+      "english": "Since I still have time, I'll wait for you.",
+      "german": "Da ich noch Zeit habe, warte ich auf dich.",
+      "why": "The um-clause could also be a weil-clause; da presents the reason as a neutral circumstance."
+    },
+    {
+      "id": 31,
+      "skill": "Causal: da and denn",
+      "english": "I don't think he'll come, because he has to work late.",
+      "german": "Ich glaube nicht, dass er kommt, denn er muss spät arbeiten.",
+      "why": "A hybrid: the main content is a dass-clause, and the actual reason is added in position I with denn."
+    },
+    {
+      "id": 32,
+      "skill": "Causal: da and denn",
+      "english": "I don't think he'll come, for he has to work late.",
+      "german": "Ich glaube nicht, dass er kommt, da er spät arbeiten muss.",
+      "why": "Here da takes a modal clause; the modal verb with its infinitive goes to the end of the subordinate clause."
+    },
+    {
+      "id": 33,
+      "skill": "Causal: da and denn",
+      "english": "Since the road is blocked, we take the train.",
+      "german": "Da die Straße gesperrt ist, nehmen wir den Zug.",
+      "why": "unmittelbarer temporaler Kausalzusammenhang: the blocked road causes the current decision, which is what da typically signals."
+    },
+    {
+      "id": 34,
+      "skill": "Causal: da and denn",
+      "english": "I was surprised, for nobody had mentioned it.",
+      "german": "Ich war überrascht, denn niemand hatte es erwähnt.",
+      "why": "Perfect plus with a strong verb: erwähnen has no prefix, so the finite hatte is simply the last word."
+    },
+    {
+      "id": 35,
+      "skill": "Causal: da and denn",
+      "english": "Since I'm already here, I'll show you around.",
+      "german": "Da ich schon hier bin, zeige ich dir alles.",
+      "why": "The main-clause verb has to change to the present after the da-clause, because the situation is still ongoing."
+    },
+    {
+      "id": 36,
+      "skill": "Causal: da and denn",
+      "english": "The file is corrupt, probably because it was not saved properly.",
+      "german": "Die Datei ist beschädigt, vermutlich weil sie nicht richtig gespeichert wurde.",
+      "why": "The verb likely belongs to the main clause, so the real reason after weil is given as a parenthetical clause."
+    },
+    {
+      "id": 37,
+      "skill": "Causal: da and denn",
+      "english": "I'd rather stay in tonight, for I'm simply exhausted.",
+      "german": "Ich bleibe heute lieber zu Hause, denn ich bin einfach völlig erschöpft.",
+      "why": "Two main clauses; den replaces weil to keep the register of spoken German simple."
+    },
+    {
+      "id": 38,
+      "skill": "Causal: da and denn",
+      "english": "The train is cheaper, so we should take the train.",
+      "german": "Der Zug ist billiger, da sollten wir den Zug nehmen.",
+      "why": "da is very frequent after a statement as a reformulation; shoulden is a modal and keeps position II in the second clause."
+    },
+    {
+      "id": 39,
+      "skill": "Causal: da and denn",
+      "english": "I didn't go out, because I had to look after the dog.",
+      "german": "Da ich auf den Hund aufpassen musste, bin ich nicht ausgegangen.",
+      "why": "Modal past musste in the da-clause with the perfect; the main clause keeps the perfect aus-gegangen."
+    },
+    {
+      "id": 40,
+      "skill": "Causal: da and denn",
+      "english": "The teacher repeated the rule, for several students had not understood it.",
+      "german": "Die Lehrerin wiederholte die Regel, denn mehrere Schüler hatten sie nicht verstanden.",
+      "why": "denn in position I links the two main clauses; the perfect cluster had … verstanden stays intact in the second clause."
+    },
+    {
+      "id": 41,
+      "skill": "Final: um ... zu",
+      "english": "I get up early to be on time for work.",
+      "german": "Ich stehe früh auf, um pünktlich zur Arbeit zu sein.",
+      "why": "same subject (ich) in both parts, and the um-clause is a zu-infinitive without a conjugated verb."
+    },
+    {
+      "id": 42,
+      "skill": "Final: um ... zu",
+      "english": "She saved money to buy a bicycle.",
+      "german": "Sie sparte Geld, um ein Fahrrad zu kaufen.",
+      "why": "The zu-infinitive keeps its separable verb (kaufen) at the end; the subject is not repeated."
+    },
+    {
+      "id": 43,
+      "skill": "Final: um ... zu",
+      "english": "We booked early to get cheaper flights.",
+      "german": "Wir haben früh gebucht, um günstigere Flüge zu bekommen.",
+      "why": "Main clause in perfect (haben … gebucht), purpose clause with a zu-infinitive and no modal verb."
+    },
+    {
+      "id": 44,
+      "skill": "Final: um ... zu",
+      "english": "I called him in order to ask about the date.",
+      "german": "Ich rief ihn an, um das Datum zu erfragen.",
+      "why": "The separable verb anrufen in the main clause puts its prefix an at the end; the purpose is a zu-infinitive with the same subject."
+    },
+    {
+      "id": 45,
+      "skill": "Final: um ... zu",
+      "english": "Write it down in order not to forget it.",
+      "german": "Schreib es auf, um es nicht zu vergessen.",
+      "why": "The verb of purpose is negated with nicht before the zu-infinitive; the subject of both clauses is du."
+    },
+    {
+      "id": 46,
+      "skill": "Final: um ... zu",
+      "english": "The app asks for your location to show nearby restaurants.",
+      "german": "Die App fragt nach deinem Standort, um Restaurants in der Nähe anzuzeigen.",
+      "why": "Technically a subjectless purpose clause, which is why the zu-infinitive is the only verb form in it."
+    },
+    {
+      "id": 47,
+      "skill": "Final: um ... zu",
+      "english": "He moved abroad to learn a new language.",
+      "german": "Er zog ins Ausland, um eine neue Sprache zu lernen.",
+      "why": "A verb of motion towards a place of residence is allowed with um ... zu; only the direction away would need damit."
+    },
+    {
+      "id": 48,
+      "skill": "Final: um ... zu",
+      "english": "I repeat myself to make sure you understand.",
+      "german": "Ich wiederhole mich, um sicherzugehen, dass du mich verstehst.",
+      "why": "A dass-clause with position II verb (verstehst) can follow inside an um ... zu clause."
+    },
+    {
+      "id": 49,
+      "skill": "Final: um ... zu",
+      "english": "She practises every day to improve her pronunciation.",
+      "german": "Sie übt jeden Tag, um ihre Aussprache zu verbessern.",
+      "why": "The purpose infinitive with a separable prefix verb; verbessern is the last word of the sentence."
+    },
+    {
+      "id": 50,
+      "skill": "Final: um ... zu",
+      "english": "I set my alarm early to catch the morning flight.",
+      "german": "Ich stelle den Wecker früh, um den Frühflug zu erwischen.",
+      "why": "Both clauses have the subject ich, which is why um ... zu is possible here and damit would be wrong."
+    },
+    {
+      "id": 51,
+      "skill": "Final: um ... zu",
+      "english": "I take the stairs to save money.",
+      "german": "Ich nehme die Treppe, um Geld zu sparen.",
+      "why": "sparen is an infinitive with zu, and the zu-infinitive block comes after the comma."
+    },
+    {
+      "id": 52,
+      "skill": "Final: um ... zu",
+      "english": "We ate early to be hungry enough for the concert.",
+      "german": "Wir haben früh gegessen, um für das Konzert satt genug zu sein.",
+      "why": "A purpose clause with a prefixed separable verb: sein is the last element, no finite verb anywhere."
+    },
+    {
+      "id": 53,
+      "skill": "Final: um ... zu",
+      "english": "He works part-time to finance his studies.",
+      "german": "Er arbeitet nebenbei, um sein Studium zu finanzieren.",
+      "why": "A modal verb is not allowed in an um ... zu clause, which is why the main clause is in the present indicative here."
+    },
+    {
+      "id": 54,
+      "skill": "Final: um ... zu",
+      "english": "I bought a second pair of glasses in order to have a spare.",
+      "german": "Ich habe eine zweite Brille gekauft, um eine Reserve zu haben.",
+      "why": "The infinitive-having construction zu haben expresses purpose; both parts share the subject ich."
+    },
+    {
+      "id": 55,
+      "skill": "Final: um ... zu",
+      "english": "He moved to a smaller flat in order to reduce the rent.",
+      "german": "Er zog in eine kleinere Wohnung, um die Miete zu senken.",
+      "why": "The verb of motion is fine here because it states a change of residence, not a movement away from the speaker; the purpose is a zu-infinitive with senken."
+    },
+    {
+      "id": 56,
+      "skill": "Final: um ... zu",
+      "english": "We invited them in order to discuss the plan in person.",
+      "german": "Wir haben sie eingeladen, um den Plan persönlich zu besprechen.",
+      "why": "The purpose clause names no new subject, so zu plus the infinitive besprechen closes the sentence."
+    },
+    {
+      "id": 57,
+      "skill": "Final: um ... zu",
+      "english": "She drinks coffee in order to stay awake.",
+      "german": "Sie trinkt Kaffee, um wach zu bleiben.",
+      "why": "The infinitive with zu is attached to a prefixed adjective; bleiben is the last word of the sentence."
+    },
+    {
+      "id": 58,
+      "skill": "Final: um ... zu",
+      "english": "I check my mailbox every morning in order to see new messages.",
+      "german": "Ich sehe jeden Morgen in mein Postfach, um neue Nachrichten zu sehen.",
+      "why": "Purpose again with a zu-infinitive; sehen is the last word of the sentence and no conjugated verb appears in the purpose clause."
+    },
+    {
+      "id": 59,
+      "skill": "Final: um ... zu",
+      "english": "He is learning Italian in order to travel in Italy without a translator.",
+      "german": "Er lernt Italienisch, um ohne Dolmetscher durch Italien zu reisen.",
+      "why": "A longer purpose clause with separable prefix reisen; zu reisen is the last element."
+    },
+    {
+      "id": 60,
+      "skill": "Final: um ... zu",
+      "english": "I speak slowly so that the students can follow along.",
+      "german": "Ich spreche langsam, um den Lernenden das Mitschreiben zu erleichtern.",
+      "why": "Here the purpose has a different object, but the subject stays ich, so um ... zu is still correct."
+    },
+    {
+      "id": 61,
+      "skill": "Final: damit",
+      "english": "I'll call you so that you know the new address.",
+      "german": "Ich rufe dich an, damit du die neue Adresse weißt.",
+      "why": "damit introduces a clause with a new subject (du) and verb-last weißt, so the main subject ich is not repeated."
+    },
+    {
+      "id": 62,
+      "skill": "Final: damit",
+      "english": "I'll send you the document so that you can print it out.",
+      "german": "Ich schicke dir das Dokument, damit du es ausdrucken kannst.",
+      "why": "Modal kannst with the infinitive goes to the end of the damit-clause, which damit allows and um ... zu does not."
+    },
+    {
+      "id": 63,
+      "skill": "Final: damit",
+      "english": "I will leave early so that we don't miss the start.",
+      "german": "Wir fahren früh ab, damit wir nicht den Anfang verpassen.",
+      "why": "Negative purpose with damit uses nicht inside the clause; verpassen is the prefixed verb at the end."
+    },
+    {
+      "id": 64,
+      "skill": "Final: damit",
+      "english": "She repeats the words so that the children remember them.",
+      "german": "Sie wiederholt die Wörter, damit die Kinder sie behalten.",
+      "why": "Different subjects (sie / die Kinder) make damit mandatory; um ... zu would wrongly imply one subject."
+    },
+    {
+      "id": 65,
+      "skill": "Final: damit",
+      "english": "I shut the window so that the noise doesn't get in.",
+      "german": "Ich mache das Fenster zu, damit der Lärm nicht reinkommt.",
+      "why": "Separable verb zumachen in the main clause with the prefix at the end; the damit-clause uses the simple present reinkommt."
+    },
+    {
+      "id": 66,
+      "skill": "Final: damit",
+      "english": "We booked a table so that we wouldn't have to wait.",
+      "german": "Wir haben einen Tisch reserviert, damit wir nicht warten mussten.",
+      "why": "A modal in the damit-clause goes last as a cluster: warten mussten."
+    },
+    {
+      "id": 67,
+      "skill": "Final: damit",
+      "english": "The hotel is building a wall so that the guests feel safer.",
+      "german": "Das Hotel baut eine Wand, damit sich die Gäste sicherer fühlen.",
+      "why": "Reflexive sich inside the damit-clause stands after the subject, and the reflexive verb closes the clause."
+    },
+    {
+      "id": 68,
+      "skill": "Final: damit",
+      "english": "He spoke slowly so that I could understand every word.",
+      "german": "Er sprach langsam, damit ich jedes Wort verstehen konnte.",
+      "why": "konnte is the preterite of können and stands last, the subject of the clause (ich) differs from er."
+    },
+    {
+      "id": 69,
+      "skill": "Final: damit",
+      "english": "She locked the door so that nobody could get in.",
+      "german": "Sie schloss die Tür ab, damit niemand hereinkommen konnte.",
+      "why": "Separable abschließen in the main clause; the damit-clause expresses consequence-free purpose with a modal."
+    },
+    {
+      "id": 70,
+      "skill": "Final: damit",
+      "english": "We set the alarm so that we don't miss the bus.",
+      "german": "Wir stellen den Wecker, damit wir den Bus nicht verpassen.",
+      "why": "A negative purpose: negation inside the damit-clause applies to verpassen, not to the whole sentence."
+    },
+    {
+      "id": 71,
+      "skill": "Final: damit",
+      "english": "The teacher explained the rule again so that we would remember it.",
+      "german": "Die Lehrerin erklärte die Regel noch einmal, damit wir sie uns merken würden.",
+      "why": "Konjunktiv II (würden) is a soft purpose form typical of damit-clauses in formal German."
+    },
+    {
+      "id": 72,
+      "skill": "Final: damit",
+      "english": "Take a pen so that you can write it down.",
+      "german": "Nimm einen Stift, damit du es aufschreiben kannst.",
+      "why": "Imperative main clause plus a damit-clause with a modal verb; separable aufschreiben keeps its prefix in place."
+    },
+    {
+      "id": 73,
+      "skill": "Final: damit",
+      "english": "I'll give you a pen so that you can sign the form.",
+      "german": "Ich gebe dir einen Stift, damit du das Formular unterschreiben kannst.",
+      "why": "Two different subjects (ich / du) and a modal verb in the clause, both typical reasons for using damit."
+    },
+    {
+      "id": 74,
+      "skill": "Final: damit",
+      "english": "The city closed the road so that the event could take place safely.",
+      "german": "Die Stadt sperrte die Straße, damit die Veranstaltung sicher stattfinden konnte.",
+      "why": "Passive sense with a modal; konnte is the last element of the damit-clause."
+    },
+    {
+      "id": 75,
+      "skill": "Final: damit",
+      "english": "I'll explain it once more so that there are no doubts.",
+      "german": "Ich erkläre es noch einmal, damit keine Zweifel bleiben.",
+      "why": "A damit-clause with a negated subject (keine Zweifel) — um ... zu is impossible with a new subject."
+    },
+    {
+      "id": 76,
+      "skill": "Final: damit",
+      "english": "We agreed on a date so that the trip can be planned.",
+      "german": "Wir haben ein Datum vereinbart, damit die Reise geplant werden kann.",
+      "why": "A damit-clause with a passive and a modal; this construction would be impossible with um ... zu."
+    },
+    {
+      "id": 77,
+      "skill": "Final: damit",
+      "english": "He arrived early so that he could find a seat.",
+      "german": "Er kam früh, damit er einen Platz finden konnte.",
+      "why": "The subordinate clause expresses a purpose directed at a past event, hence preterite konnte."
+    },
+    {
+      "id": 78,
+      "skill": "Final: damit",
+      "english": "I put the key on the table so that you find it easily.",
+      "german": "Ich lege den Schlüssel auf den Tisch, damit du ihn leicht findest.",
+      "why": "Present-subjunctive-style purpose with a present indicative, referring to a still valid arrangement."
+    },
+    {
+      "id": 79,
+      "skill": "Final: damit",
+      "english": "The company hired a coach so that everyone could attend the fair.",
+      "german": "Die Firma stellte einen Bus, damit alle die Messe besuchen konnten.",
+      "why": "Both verbs are strong and separable; in the clause the finite konnte follows the prefixed infinitive."
+    },
+    {
+      "id": 80,
+      "skill": "Final: damit",
+      "english": "I'll explain the reason so that you can decide afterwards.",
+      "german": "Ich erkläre den Grund, damit du danach entscheiden kannst.",
+      "why": "A temporal adverb danach inside the clause; modal verb last, subject du instead of ich."
+    },
+    {
+      "id": 81,
+      "skill": "Purpose extras: um nicht ... zu, dazu um ... zu, warum / wieso / weshalb questions",
+      "english": "Be careful so that you don't slip.",
+      "german": "Pass auf, um nicht auszurutschen.",
+      "why": "A warning: um nicht ... zu prevents something undesirable; ausrutschen is the zu-infinitive at the end."
+    },
+    {
+      "id": 82,
+      "skill": "Purpose extras: um nicht ... zu, dazu um ... zu, warum / wieso / weshalb questions",
+      "english": "Lock the door so that no one comes in unnoticed.",
+      "german": "Schließ die Tür ab, um nicht unbemerkt hereinzukommen.",
+      "why": "Negative purpose with nicht placed directly in front of the zu-infinitive; the subject du is not repeated."
+    },
+    {
+      "id": 83,
+      "skill": "Purpose extras: um nicht ... zu, dazu um ... zu, warum / wieso / weshalb questions",
+      "english": "Why did you switch off the computer? So that it can cool down.",
+      "german": "Warum hast du den Computer ausgeschaltet? Damit er abkühlen kann.",
+      "why": "Nachfrage plus Antwort mit damit: der Infinitiv steht im Nebensatz am Ende und der Artikel bleibt im Vorfeld."
+    },
+    {
+      "id": 84,
+      "skill": "Purpose extras: um nicht ... zu, dazu um ... zu, warum / wieso / weshalb questions",
+      "english": "Put the milk back in the fridge so that it doesn't spoil.",
+      "german": "Stell die Milch zurück in den Kühlschrank, um nicht zu verderben.",
+      "why": "A negative purpose with a zu-infinitive of verderben; the subject is the same, so um ... zu fits."
+    },
+    {
+      "id": 85,
+      "skill": "Purpose extras: um nicht ... zu, dazu um ... zu, warum / wieso / weshalb questions",
+      "english": "Why are you taking a taxi? To avoid waiting for the bus.",
+      "german": "Wieso nimmst du ein Taxi? Um nicht auf den Bus warten zu müssen.",
+      "why": "In this elliptical answer the modal appears in the um nicht ... zu form, which is the normal colloquial pattern."
+    },
+    {
+      "id": 86,
+      "skill": "Purpose extras: um nicht ... zu, dazu um ... zu, warum / wieso / weshalb questions",
+      "english": "She learned the vocabulary twice, and in addition she recorded it, in order to pass the test.",
+      "german": "Sie lernte den Wortschatz zweimal, dazu um den Test zu bestehen, und nahm ihn auf.",
+      "why": "dazu um ... zu adds a second purpose to the action already mentioned; um cannot stand alone here."
+    },
+    {
+      "id": 87,
+      "skill": "Purpose extras: um nicht ... zu, dazu um ... zu, warum / wieso / weshalb questions",
+      "english": "He writes down every unknown word, and additionally he looks it up, in order to expand his vocabulary.",
+      "german": "Er notiert jedes unbekannte Wort, dazu schlägt er es nach, um seinen Wortschatz zu erweitern.",
+      "why": "dazu introduces an additional action, and the final purpose clause is an um ... zu with the same subject."
+    },
+    {
+      "id": 88,
+      "skill": "Purpose extras: um nicht ... zu, dazu um ... zu, warum / wieso / weshalb questions",
+      "english": "Why has the tram been rerouted? Because the rails are being repaired.",
+      "german": "Weshalb wurde die Straßenbahn umgeleitet? Weil die Schienen repariert werden.",
+      "why": "A weshalb-question expects a weil-answer; the passive in the answer keeps the finite verb were-werden with the participle last."
+    },
+    {
+      "id": 89,
+      "skill": "Purpose extras: um nicht ... zu, dazu um ... zu, warum / wieso / weshalb questions",
+      "english": "Save the file regularly so that you don't lose your work.",
+      "german": "Speichere die Datei regelmäßig, um deine Arbeit nicht zu verlieren.",
+      "why": "A negative purpose in which the negated object stands inside the um ... zu clause before the infinitive."
+    },
+    {
+      "id": 90,
+      "skill": "Purpose extras: um nicht ... zu, dazu um ... zu, warum / wieso / weshalb questions",
+      "english": "Leave a note so that nobody worries unnecessarily.",
+      "german": "Lass einen Zettel da, damit sich niemand unnötig Sorgen macht.",
+      "why": "A damit-clause with a reflexive verb and a negated subject, an idiom for final reassurance."
+    },
+    {
+      "id": 91,
+      "skill": "Purpose extras: um nicht ... zu, dazu um ... zu, warum / wieso / weshalb questions",
+      "english": "Why did you hurry? Because I didn't want to miss my flight.",
+      "german": "Warum bist du geeilt? Weil ich meinen Flug nicht verpassen wollte.",
+      "why": "The weil-answer uses a modal in position II, which is what makes it formally a main clause and not a zu-clause."
+    },
+    {
+      "id": 92,
+      "skill": "Purpose extras: um nicht ... zu, dazu um ... zu, warum / wieso / weshalb questions",
+      "english": "He signed up for the course in order not to lose his job.",
+      "german": "Er hat sich für den Kurs angemeldet, um seinen Job nicht zu verlieren.",
+      "why": "Separable verb anmelden in the perfect main clause; negative purpose with nicht inside the purpose clause."
+    },
+    {
+      "id": 93,
+      "skill": "Purpose extras: um nicht ... zu, dazu um ... zu, warum / wieso / weshalb questions",
+      "english": "They are renovating the flat, and in addition they are installing new windows, in order to reduce the heating costs.",
+      "german": "Sie renovieren die Wohnung, dazu bauen sie neue Fenster ein, um die Heizkosten zu senken.",
+      "why": "dazu plus a second main clause before the um ... zu purpose clause; the subject sie governs all three parts."
+    },
+    {
+      "id": 94,
+      "skill": "Purpose extras: um nicht ... zu, dazu um ... zu, warum / wieso / weshalb questions",
+      "english": "Why did you turn off the light? To save energy.",
+      "german": "Warum hast du das Licht ausgemacht? Um Energie zu sparen.",
+      "why": "A warum-question answered by a bare um ... zu infinitive without a conjugated verb or subject."
+    },
+    {
+      "id": 95,
+      "skill": "Purpose extras: um nicht ... zu, dazu um ... zu, warum / wieso / weshalb questions",
+      "english": "Hold on to the railing so that you don't fall.",
+      "german": "Halte dich am Geländer fest, um nicht zu stürzen.",
+      "why": "Negative purpose with the reflexive sich; the zu-infinitive of stürzen is the final word."
+    },
+    {
+      "id": 96,
+      "skill": "Purpose extras: um nicht ... zu, dazu um ... zu, warum / wieso / weshalb questions",
+      "english": "Why are you copying the text? In order to study it later.",
+      "german": "Wieso kopierst du den Text? Dazu, um ihn später zu lernen.",
+      "why": "dazu, um ... zu expands a previously mentioned action with its purpose; that fixed phrase has no um alone."
+    },
+    {
+      "id": 97,
+      "skill": "Purpose extras: um nicht ... zu, dazu um ... zu, warum / wieso / weshalb questions",
+      "english": "I watch the display board in order not to miss my stop.",
+      "german": "Ich schaue auf die Anzeigetafel, um meine Haltestelle nicht zu verpassen.",
+      "why": "The negated purpose is expressed with um nicht ... zu; verpassen is the zu-infinitive at the end of the sentence."
+    },
+    {
+      "id": 98,
+      "skill": "Purpose extras: um nicht ... zu, dazu um ... zu, warum / wieso / weshalb questions",
+      "english": "Why has the deadline been moved? Because the data were incomplete.",
+      "german": "Weshalb wurde die Frist verschoben? Weil die Daten unvollständig waren.",
+      "why": "The passive in the question (wurde) is answered by a weil-clause whose preterite war goes last."
+    },
+    {
+      "id": 99,
+      "skill": "Purpose extras: um nicht ... zu, dazu um ... zu, warum / wieso / weshalb questions",
+      "english": "I wear a scarf in order not to catch a cold.",
+      "german": "Ich trage einen Schal, um keine Erkältung zu bekommen.",
+      "why": "Negative purpose with a nominalised object (keine Erkältung); the same subject justifies um ... zu."
+    },
+    {
+      "id": 100,
+      "skill": "Purpose extras: um nicht ... zu, dazu um ... zu, warum / wieso / weshalb questions",
+      "english": "Why is the meeting being moved to Friday? To give the team more time to prepare.",
+      "german": "Warum wird die Besprechung auf Freitag verlegt? Damit das Team mehr Zeit zur Vorbereitung hat.",
+      "why": "A warum-question about a passive event is answered with damit, because the new subject is das Team."
+    }
+  ]
+}

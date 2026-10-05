@@ -1049,28 +1049,32 @@
           "topic_en": "Conditional and restrictive connectors",
           "term_de": "konditionale und restriktive Konnektoren",
           "covers": "falls, sofern, es sei denn, außer wenn, nur dass.",
-          "provider_split": false
+          "provider_split": false,
+          "page": "konditionale-konnektoren.html"
         },
         {
           "n": 29,
           "topic_en": "Consecutive and modal connectors",
           "term_de": "konsekutive und modale Konnektoren",
           "covers": "also, folglich, demzufolge, immerhin, schließlich.",
-          "provider_split": false
+          "provider_split": false,
+          "page": "konsekutive-konnektoren.html"
         },
         {
           "n": 30,
           "topic_en": "Causal and final connectors",
           "term_de": "kausale und finale Konnektoren",
           "covers": "denn, weil, deshalb, nämlich and damit vs. um zu.",
-          "provider_split": false
+          "provider_split": false,
+          "page": "kausale-konnektoren.html"
         },
         {
           "n": 31,
           "topic_en": "Temporal connectors",
           "term_de": "temporale Konnektoren",
           "covers": "zuerst, dann, daraufhin, schließlich, inzwischen and their position.",
-          "provider_split": false
+          "provider_split": false,
+          "page": "temporale-konnektoren.html"
         },
         {
           "n": 32,

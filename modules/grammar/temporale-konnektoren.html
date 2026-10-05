@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Temporal connectors — Die temporalen Konnektoren | Deutsch Lernen</title>
+<style>
+:root{
+  --font:"Segoe UI",system-ui,-apple-system,sans-serif;
+  --teal-900:#005A5A; --teal-700:#008282; --teal-400:#50C1C1; --teal-100:#95DFDB;
+  --amber:#E1A01E; --red:#C41E3A; --green:#1D7A4C;
+  --ink:#012D2C; --muted:#008282;
+  --page:#F0FAFA; --card:#FFF; --in:#F0FAFA; --border:#D0ECEB;
+  --shadow:0 1px 4px rgba(1,45,44,.10); --shadow-md:0 4px 14px rgba(1,45,44,.12);
+  --r:8px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font);font-size:16px;color:var(--teal-900);background:var(--page);
+  line-height:1.65;-webkit-font-smoothing:antialiased;
+  display:flex;flex-direction:column;min-height:100vh}
+
+.navbar{display:flex;align-items:center;gap:12px;height:48px;padding:0 14px;
+  background:var(--teal-900);border-bottom:1px solid rgba(149,223,219,.15);
+  position:sticky;top:0;z-index:100;flex-shrink:0}
+.brand-icon{display:flex;align-items:center;flex-shrink:0}
+.nav-pipe{width:1px;height:16px;background:rgba(149,223,219,.30);flex-shrink:0;margin:0 12px}
+.nav-brand-text{font-size:.95rem;font-weight:600;color:var(--teal-100);text-decoration:none;white-space:nowrap}
+.nav-actions{margin-left:auto;display:flex;align-items:center;gap:8px}
+.icon-btn{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;padding:0;
+  color:var(--teal-100);background:rgba(149,223,219,.12);border:1px solid rgba(149,223,219,.22);
+  border-radius:4px;cursor:pointer;transition:130ms;text-decoration:none;flex-shrink:0}
+.icon-btn:hover{background:rgba(149,223,219,.24);border-color:rgba(149,223,219,.45)}
+.btn-nav{display:inline-flex;align-items:center;justify-content:center;height:32px;padding:0 12px;
+  font-size:.78rem;font-weight:600;font-family:var(--font);color:var(--teal-100);text-decoration:none;
+  background:rgba(149,223,219,.12);border:1px solid rgba(149,223,219,.22);border-radius:4px;
+  transition:130ms;white-space:nowrap;flex-shrink:0}
+.btn-nav:hover{background:rgba(149,223,219,.24);border-color:rgba(149,223,219,.45)}
+@media (max-width:400px){.btn-nav{padding:0 9px;font-size:.74px;font-size:.74rem}}
+.icon-btn svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:2;
+  stroke-linecap:round;stroke-linejoin:round}
+@media (max-width:560px){.nav-brand-text{font-size:.85rem}}
+
+.wrap{max-width:860px;width:100%;margin:0 auto;padding:20px 16px 0;flex:1 0 auto}
+
+h1{font-size:1.5rem;line-height:1.3;margin:0 0 4px}
+h1 .de{display:block;font-size:1rem;color:var(--teal-700);font-weight:600;margin-top:2px}
+
+section{margin-bottom:30px}
+h2{font-size:1.05rem;margin-bottom:10px;padding-bottom:6px;border-bottom:2px solid var(--teal-400)}
+h3{font-size:.85rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;
+  color:var(--teal-700);margin:16px 0 8px}
+p{margin-bottom:10px}
+.lead{color:var(--ink)}
+small{color:var(--muted)}
+
+.rulebox{background:var(--in);border:1px solid var(--border);border-left:4px solid var(--teal-400);
+  border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.rulebox strong{color:var(--teal-700)}
+.warnbox{background:rgba(196,30,58,.05);border:1px solid rgba(196,30,58,.25);
+  border-left:4px solid var(--red);border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.warnbox strong{color:var(--red)}
+.tipbox{background:rgba(29,122,76,.06);border:1px solid rgba(29,122,76,.22);
+  border-left:4px solid var(--green);border-radius:0 var(--r) var(--r) 0;padding:12px 14px;margin:12px 0}
+.tipbox strong{color:var(--green)}
+
+table{width:100%;border-collapse:collapse;margin:12px 0;font-size:.88rem}
+th,td{text-align:left;padding:7px 9px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--in);font-weight:700;font-size:.76rem;text-transform:uppercase;
+  letter-spacing:.04em;color:var(--teal-700)}
+td.de{color:var(--ink)}
+tr:last-child td{border-bottom:none}
+
+.mic{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;
+  padding:0;flex-shrink:0;vertical-align:middle;border-radius:50%;cursor:pointer;
+  color:var(--teal-700);background:rgba(80,193,193,.16);border:1px solid rgba(80,193,193,.45);
+  transition:130ms}
+.mic:hover{background:rgba(80,193,193,.34)}
+.mic:focus-visible{outline:2px solid var(--teal-700);outline-offset:2px}
+.mic svg{width:13px;height:13px;fill:none;stroke:currentColor;stroke-width:2;
+  stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.mic[aria-pressed="true"]{background:var(--teal-700);color:#fff;border-color:var(--teal-700)}
+.mic[aria-pressed="true"] .pulse{animation:pulse 1s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+.mic[disabled]{opacity:.45;cursor:not-allowed}
+.microw{display:flex;align-items:flex-start;gap:8px}
+.microw > .mtext{flex:1;min-width:0}
+.ex{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:12px 13px;
+  margin-bottom:9px;box-shadow:var(--shadow)}
+.ex .de{font-size:.98rem;color:var(--ink);margin-bottom:4px}
+.ex .de em{color:var(--teal-700);font-style:normal;font-weight:700;background:rgba(80,193,193,.20);
+  padding:0 3px;border-radius:2px}
+.ex .en{font-size:.84rem;color:var(--muted)}
+.ex .why{font-size:.82rem;color:var(--teal-700);margin-top:6px;padding-top:6px;
+  border-top:1px dotted var(--border)}
+.ex .why b{font-weight:700}
+
+/* ── EXERCISES ── */
+.btn{font-family:var(--font);font-size:.78rem;font-weight:600;cursor:pointer;
+  padding:6px 12px;border-radius:4px;border:1px solid var(--teal-400);
+  background:rgba(80,193,193,.14);color:var(--teal-700);transition:130ms;white-space:nowrap}
+.btn:hover{background:rgba(80,193,193,.28)}
+.btn.ghost{background:transparent;border-color:var(--border);color:var(--muted)}
+.btn.ghost:hover{border-color:var(--teal-400);color:var(--teal-700)}
+.noVoice{display:none;align-items:flex-start;gap:8px;margin-bottom:12px;padding:9px 12px;
+  background:rgba(225,160,30,.12);border:1px solid rgba(225,160,30,.4);border-radius:var(--r);
+  font-size:.83rem;color:#7A5000}
+.noVoice b{color:#7A5000}
+
+.q{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:12px 13px;
+  margin-bottom:10px;box-shadow:var(--shadow)}
+.q.revealed{border-color:var(--teal-400)}
+.q.correct{border-color:rgba(29,122,76,.5);background:rgba(29,122,76,.04)}
+.q.wrong{border-color:rgba(196,30,58,.45);background:rgba(196,30,58,.03)}
+.qtop{display:flex;gap:9px;align-items:flex-start;margin-bottom:9px}
+.qnum{flex-shrink:0;width:23px;height:23px;border-radius:50%;background:rgba(0,130,130,.10);
+  color:var(--teal-7);color:var(--teal-700);font-size:.7rem;font-weight:700;display:flex;
+  align-items:center;justify-content:center;margin-top:1px}
+.q.correct .qnum{background:rgba(29,122,76,.16);color:var(--green)}
+.q.wrong .qnum{background:rgba(196,30,58,.14);color:var(--red)}
+.inputrow{display:flex;align-items:stretch;gap:6px;position:relative}
+.ainput{flex:1;min-width:0;font-family:var(--font);font-size:.92rem;color:var(--ink);
+  background:var(--in);border:1px solid var(--border);border-radius:5px;padding:8px 32px 8px 11px;transition:130ms}
+.ainput:focus{outline:none;border-color:var(--teal-400);background:#fff;box-shadow:0 0 0 3px rgba(80,193,193,.16)}
+/* small keyboard icon, vertically centred at the right edge of the field */
+.keybtn{flex-shrink:0;width:28px;align-self:stretch;display:inline-flex;align-items:center;
+  justify-content:center;padding:0;cursor:pointer;border-radius:5px;
+  color:var(--teal-700);background:rgba(80,193,193,.16);border:1px solid rgba(80,193,193,.45);
+  transition:130ms}
+.keybtn:hover{background:rgba(80,193,193,.32)}
+.keybtn:focus-visible{outline:2px solid var(--teal-700);outline-offset:2px}
+.keybtn svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:1.7;
+  stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.keybtn[aria-expanded="true"]{background:var(--teal-700);color:#fff;border-color:var(--teal-700)}
+/* letter panel lives inside the card so no ancestor can clip it */
+.pad{display:none;flex-wrap:wrap;gap:5px;margin-top:7px;padding:8px;
+  background:var(--in);border:1px solid var(--border);border-radius:5px}
+.pad.open{display:flex}
+.padkey{font-family:var(--font);font-size:.92rem;font-weight:600;color:var(--teal-900);
+  background:var(--card);border:1px solid var(--border);border-radius:4px;
+  min-width:34px;height:32px;cursor:pointer;transition:130ms}
+.padkey:hover{background:var(--teal-400);border-color:var(--teal-400)}
+.padkey:focus-visible{outline:2px solid var(--teal-700);outline-offset:1px}
+.btn.rev{margin-top:8px}
+.btn.rev.on{background:rgba(0,90,90,.10);border-color:var(--teal-700)}
+.ansrow{margin:6px 0;padding:7px 9px;background:rgba(80,193,193,.09);border-radius:5px}
+.ansrow .mtext{font-size:.93rem}
+.qtext{font-size:.95rem;color:var(--ink);margin-bottom:9px;flex:1;min-width:0}
+
+.fb{margin-top:9px;padding-top:9px;border-top:1px dotted var(--border);font-size:.85rem}
+.fb .ans{font-weight:600;color:var(--teal-700);margin-bottom:4px}
+.fb .why{color:var(--muted)}
+
+details.fold{margin-bottom:9px;border:1px solid var(--border);border-radius:6px;background:var(--card)}
+details.fold > summary{padding:9px 12px;font-weight:600;font-size:.88rem;cursor:pointer;
+  color:var(--teal-900);list-style:none}
+details.fold > summary::-webkit-details-marker{display:none}
+details.fold > summary::before{content:"▸";color:var(--teal-700);transition:transform .15s;
+  display:inline-block;margin-right:5px}
+details.fold[open] > summary::before{transform:rotate(90deg)}
+details.fold .foldbody{padding:0 12px 11px;border-top:1px solid var(--border);padding-top:9px;
+  font-size:.9rem}
+
+.footer{position:sticky;bottom:0;z-index:50;width:100%;max-width:var(--wrapw,860px);
+  margin-inline:auto;border-top:1px solid var(--border);padding:10px 16px;background:var(--page);
+  display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:.78rem;color:var(--muted)}
+.footer strong{color:var(--teal-700)}
+.footer-dot{margin:0 10px;color:var(--border)}
+
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+  <a class="brand-icon" href="../../" aria-label="Deutsch Lernen home">
+    <svg width="24" height="17" viewBox="0 0 31 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0"  y="0"  width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="0"  width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="0"  width="9" height="6" rx="1.5" fill="#008282"/>
+      <rect x="0"  y="8"  width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="8"  width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="8"  width="9" height="6" rx="1.5" fill="#008282"/>
+      <rect x="0"  y="16" width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="16" width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="16" width="9" height="6" rx="1.5" fill="#E1A01E"/>
+    </svg>
+  </a>
+  <div class="nav-pipe"></div>
+  <a class="nav-brand-text" href="index.html">Grammar</a>
+  <div class="nav-actions">
+    <a class="btn-nav" href="index.html" title="All grammar topics">All topics</a>
+    <a class="icon-btn" href="../../" title="Back to all modules" aria-label="Back to all modules">
+      <svg viewBox="0 0 24 24"><path d="M3 12l9-9 9 9"></path><path d="M5 10v10h14V10"></path></svg>
+    </a>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <h1>Temporal connectors<span class="de">Die temporalen Konnektoren</span></h1>
+  
+  <!-- ══ 1. CONCEPT ══ -->
+  <section>
+    <h2>1 · The concept</h2>
+
+    <p class="lead">German marks time on <strong>three separate levels</strong>: the tense of
+      the verb, the case after a preposition, and a set of adverbs and conjunctions that decide
+      <em>when</em> a clause is anchored. Almost every error with temporal connectors comes from
+      mixing those levels &ndash; using <em>seit</em> with a past tense, or <em>als</em> where a
+      repeated event needs <em>wenn</em>.</p>
+
+    <div class="rulebox">
+      <strong>The rule in one line.</strong> <em>als</em> = one completed point in the past,
+      <em>wenn</em> = everything else; <em>seit</em> + Dativ takes the present tense for
+      something still running; <em>vor</em> + Dativ only ever names a finished point.
+    </div>
+
+    <div class="tipbox">
+      <strong>Three levels, three different tools.</strong> The <strong>tense</strong> gives the view
+      from the moment of speaking (<em>Ich <b>bin</b> seit drei Jahren in Wien.</em>); a
+      <strong>preposition plus case</strong> names a point or a stretch
+      (<em>seit drei Jahren, vor drei Jahren, in zwei Wochen</em>); a <strong>connector</strong>
+      states the relation between two clauses (<em><b>Als</b> ich 2020 nach Wien kam, <b>wusste</b>
+      ich niemanden.</em>). Keep the levels apart and most errors disappear.
+    </div>
+
+    <h3>als vs. wenn: the past-time rule</h3>
+    <p><em>Als</em> and <em>wenn</em> are both temporal clauses and both push the verb to the
+      end. Only the meaning separates them: <strong><em>als</em> is used for a single completed
+      event in the past</strong>, once, not repeated, and not standing in the present. Everything
+      else is <em>wenn</em>.</p>
+    <table>
+      <thead><tr><th>Situation</th><th>Connector</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">one past event</td><td class="de">als</td><td><b>Als</b> ich klein war, <b>wohnten</b> wir in K&ouml;ln.</td></tr>
+        <tr><td class="de">repeated past</td><td class="de">wenn</td><td><b>Wenn</b> ich als Kind traurig war, <b>ging</b> ich zu meinem Opa.</td></tr>
+        <tr><td class="de">present or future</td><td class="de">wenn</td><td><b>Wenn</b> es morgen regnet, <b>bleiben</b> wir zu Hause.</td></tr>
+        <tr><td class="de">past and present at once</td><td class="de">wenn</td><td><b>Wenn</b> man etwas einmal wei&szlig;, <b>vergisst</b> man es nicht mehr.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="warnbox">
+      <strong>The repeated-past trap.</strong> A past action that happened more than once takes
+      <em>wenn</em>, never <em>als</em>.<br>
+      ✗ <em>Als ich in Berlin war, besuchte ich sie jedes Mal.</em><br>
+      ✓ <em>Wenn</em> ich in Berlin war, <b>besuchte</b> ich sie jedes Mal.
+    </div>
+
+    <p>Two further traps sit next to this rule. <em>Wenn</em> plus <em>man</em> in the past
+      means <strong>whenever</strong>, and the clause verb stays in the past: <em>Wenn man
+      in Deutschland lebte, musste man viel mieten.</em> And <em>als</em> does not appear in a
+      comparison of two past states, where <em>wenn</em> governs both: <em>Wenn ich klein
+      war, schlief ich mehr als heute.</em></p>
+
+    <h3>temporal adverbs in position II</h3>
+    <p>These are not conjunctions. They are adverbs, and they take position II &ndash; after the
+      subject if there is one, otherwise as the first element. The verb stays in
+      <strong>second position</strong>; nothing moves to the end.</p>
+    <table>
+      <thead><tr><th>Adverb</th><th>Meaning</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">damals</td><td class="de">back then, at that time (points away from now)</td><td><b>Damals</b> <b>gaben</b> wir kein Geld f&uuml;r die Miete aus.</td></tr>
+        <tr><td class="de">vorher</td><td class="de">before that, earlier</td><td>Ich habe <b>vorher</b> <b>angerufen</b>, nicht danach.</td></tr>
+        <tr><td class="de">danach</td><td class="de">after that, then</td><td>Wir haben <b>danach</b> <b>gefeiert</b>.</td></tr>
+        <tr><td class="de">heute</td><td class="de">today (relative to the utterance)</td><td><b>Heute</b> <b>schreibe</b> ich den Bericht.</td></tr>
+        <tr><td class="de">morgen</td><td class="de">tomorrow (relative to the utterance)</td><td><b>Morgen</b> <b>fahre</b> ich nach Prag.</td></tr>
+        <tr><td class="de">&uuml;bermorgen / vorgestern</td><td class="de">the day after / the day before</td><td><b>&Uuml;bermorgen</b> <b>ist</b> die Pr&uuml;fung.</td></tr>
+        <tr><td class="de">jetzt / gerade / nun</td><td class="de">now, at this moment</td><td><b>Jetzt</b> <b>kann</b> ich nicht sprechen.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="rulebox">
+      <strong>Position II means one slot, not two.</strong> Only one of these adverbs per clause,
+      and it counts as the conjugated element: <em>Heute Abend <b>kommen</b> die Kollegen.</em>
+      A time expression with a preposition (<em>am Montag, im Sommer, um acht</em>) is not an
+      adverb and competes for the same slot &ndash; so you cannot simply add <em>heute</em>
+      in front of it. Say <em>Heute Abend</em> or <em>Am Montagabend</em>.
+    </div>
+
+    <h3>gestern, heute, morgen: the moving reference point</h3>
+    <p>These three words are deictic: they point at a day counted from <strong>the moment of
+      speaking</strong>, not from the moment of writing and not from another clause. Reported
+      speech keeps this shift, and a shifted <em>heute</em> is often a sign that a past-time
+      connector is missing.</p>
+    <table>
+      <thead><tr><th>Utterance</th><th>Meaning</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">said yesterday</td><td class="de">the day after that utterance</td><td>Er sagte: &bdquo;<b>Morgen</b> <b>komme</b> ich.&ldquo; &rarr; the day after he spoke</td></tr>
+        <tr><td class="de">said today</td><td class="de">the same day</td><td>Er sagte: &bdquo;<b>Heute</b> <b>bin</b> ich zu Hause.&ldquo; &rarr; still that day</td></tr>
+        <tr><td class="de">said long ago</td><td class="de">the then-current day</td><td>Er sagte: &bdquo;<b>Damals</b> <b>war</b> alles anders.&ldquo; &rarr; use <em>damals</em>, not <em>heute</em></td></tr>
+      </tbody>
+    </table>
+
+    <h3>seit vs. vor</h3>
+    <p>Both take the Dativ, and they are exact opposites: <em>seit</em> counts back from now and
+      requires a stretch that reaches into the present, <em>vor</em> counts back from now to a
+      point that is already closed.</p>
+    <table>
+      <thead><tr><th></th><th>Form</th><th>Tense</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">ongoing</td><td class="de">seit + Dativ</td><td class="de">present, because it is not over</td><td>Ich <b>wohne</b> <b>seit</b> 2021 <b>in</b> Hamburg.</td></tr>
+        <tr><td class="de">completed</td><td class="de">vor + Dativ</td><td class="de">any past tense</td><td>Ich <b>wohnte</b> <b>vor</b> 2021 <b>in</b> M&uuml;nchen.</td></tr>
+        <tr><td class="de">result still visible</td><td class="de">seit + Dativ</td><td class="de">present common</td><td>Wir <b>warten</b> <b>seit</b> zwei Stunden <b>auf</b> den Zug.</td></tr>
+        <tr><td class="de">single past event</td><td class="de">vor + Dativ</td><td class="de">simple past</td><td>Er <b>rief</b> <b>vor</b> drei Tagen seine Mutter.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="warnbox">
+      <strong>The classic error.</strong> <em>Seit</em> describes something that started in the past
+      and <em>still holds now</em>, so the German verb is in the present tense.<br>
+      ✗ <em>Ich wohnte seit zwei Jahren in Berlin.</em><br>
+      ✓ <em>Ich <b>wohne</b> seit zwei Jahren in Berlin.</em><br>
+      If the state has ended, switch to <em>vor</em> or to <em>lang</em> with a past tense:
+      <em>Ich <b>wohnte</b> zwei Jahre lang in Berlin.</em>
+    </div>
+
+    <p>A length of time with <em>seit</em> answers <em>wie lange?</em> and needs a present tense;
+      the same length as a finished period takes <em>lang</em>, not <em>seit</em>.</p>
+
+    <h3>bis and bis zu</h3>
+    <p><em>Bis</em> is a preposition and takes the Dativ; <em>bis zu</em> adds <em>zu</em> and is
+      the version used before a noun phrase with an article. Both answer
+      <strong><em>bis wann?</em></strong> &ndash; an end point, never a start.</p>
+    <table>
+      <thead><tr><th>Form</th><th>Case</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">bis + Dativ, no article</td><td class="de">Dativ</td><td>Die Vorlesung geht <b>bis</b> <b>17 Uhr</b>.</td></tr>
+        <tr><td class="de">bis + Dativ, with article</td><td class="de">Dativ</td><td>Ich bleibe <b>bis</b> <b>zum</b> Ende.</td></tr>
+        <tr><td class="de">bis zu + Dativ, with article</td><td class="de">Dativ</td><td>Er f&auml;hrt <b>bis zu</b> <b>dem</b> n&auml;chsten Dorf.</td></tr>
+        <tr><td class="de">bis auf + Akkusativ (exception)</td><td class="de">Akkusativ</td><td>Ich habe <b>bis auf</b> <b>zwei</b> Euro <b>bezahlt</b>.</td></tr>
+        <tr><td class="de">bis + clause</td><td class="de">no case</td><td>Warten Sie, <b>bis</b> ich <b>zur&uuml;ck</b>bin.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="tipbox">
+      <strong>Same word, two jobs.</strong> <em>Bis</em> can be an adverb (<em>Ich arbeite bis
+      20 Uhr.</em>) or a preposition in front of a noun (<em>bis Montag</em>,
+      <em>bis zum Feierabend</em>). Only the preposition form governs a case.
+    </div>
+
+    <h3>w&auml;hrend: one subject, one tense</h3>
+    <p><em>W&auml;hrend</em> introduces a clause and takes the Dativ when it refers to a person or a
+      thing (<em>w&auml;hrend des Unterrichts, w&auml;hrend der Sitzung</em>). Before a clause its
+      word order is verb-final, exactly like <em>als</em> and <em>wenn</em>.</p>
+    <table>
+      <thead><tr><th>Situation</th><th>What happens to the verb</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">different subjects</td><td class="de">two independent verbs, own tenses</td><td>Ich <b>las</b> ein Buch, <b>w&auml;hrend</b> meine Schwester <b>musste</b> arbeiten.</td></tr>
+        <tr><td class="de">same subject, one shared verb</td><td class="de">the main clause loses its verb</td><td>Er <b>las</b> ein Buch, <b>w&auml;hrend</b> <b>er</b> a&szlig;.</td></tr>
+        <tr><td class="de">same subject, two full verbs</td><td class="de">both clauses keep a verb, tenses parallel</td><td>Wir <b>haben</b> <b>gearbeitet</b>, <b>w&auml;hrend</b> er <b>hat</b> <b>geschlafen</b>.</td></tr>
+        <tr><td class="de">same subject, present</td><td class="de">present in both halves</td><td><b>W&auml;hrend</b> ich <b>warte</b>, <b>schreibt</b> er mir.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="rulebox">
+      <strong>The same-subject rule.</strong> When the subject of the <em>w&auml;hrend</em> clause is
+      the same as in the main clause, German normally drops the repeated subject and the main clause
+      carries <strong>no second finite verb</strong>: <em>W&auml;hrend er <b>arbeitete</b>,
+      <b>rief</b> er an.</em> If you repeat the subject, you must also give the main clause its own
+      verb and keep the tense of both clauses the same.
+    </div>
+
+    <h3>wenn, nachdem, bevor, solange, seitdem, bis</h3>
+    <p>These six all introduce a clause with the verb last. What separates them is the temporal
+      relation they express and the tense they normally carry.</p>
+    <table>
+      <thead><tr><th>Connector</th><th>Relation</th><th>Typical tense</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">nachdem</td><td class="de">after; clause first, main clause reports the result</td><td class="de">Perfekt in the clause, main clause often Perfekt</td><td><b>Nachdem</b> er <b>gegangen</b> war, <b>haben</b> wir <b>geschlossen</b>.</td></tr>
+        <tr><td class="de">bevor</td><td class="de">before; clause usually first</td><td class="de">Pr&auml;sens in the clause, future in the main clause</td><td><b>Bevor</b> ich <b>gehe</b>, <b>rufe</b> ich an.</td></tr>
+        <tr><td class="de">wenn</td><td class="de">whenever, at whatever moment</td><td class="de">matches the main clause</td><td><b>Wenn</b> der Zug <b>kommt</b>, <b>steigen</b> wir ein.</td></tr>
+        <tr><td class="de">solange</td><td class="de">as long as; condition holds</td><td class="de">same tense in both clauses</td><td><b>Solange</b> es <b>regnet</b>, <b>bleiben</b> wir drinnen.</td></tr>
+        <tr><td class="de">seitdem</td><td class="de">since then; consequence holds now</td><td class="de">past in the clause, present for the result</td><td>Er ist umgezogen; <b>seitdem</b> <b>wohnt</b> er in Bonn.</td></tr>
+        <tr><td class="de">bis</td><td class="de">until; end point</td><td class="de">present until the end, Perfekt at the end</td><td><b>Bis</b> er <b>fertig</b> ist, <b>hilfst</b> du mir.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="tipbox">
+      <strong>After <em>nachdem</em> the main clause usually stands in Perfekt</strong> when the
+      completed past event matters. With <em>bevor</em> and <em>bis</em> the present is enough,
+      because the situation is still open: <em>Nachdem ich gegessen hatte, ging ich los.</em> /
+      <em>Bevor ich gehe, rufe ich an.</em>
+    </div>
+
+    <h3>inmitten, inzwischen, w&auml;hrenddessen</h3>
+    <p>These three name a stretch of time that someone else or something else fills. They are
+      adverbs, not clauses, so the following main clause keeps its normal order and the adverb
+      itself occupies position II.</p>
+    <table>
+      <thead><tr><th>Word</th><th>Built on</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">inmitten</td><td class="de">mitten + in + Dativ</td><td><b>Inmitten</b> der Feier <b>wurde</b> der Strom abgeschaltet.</td></tr>
+        <tr><td class="de">inzwischen</td><td class="de">in + zwischen</td><td><b>Inzwischen</b> <b>war</b> die Suppe kalt.</td></tr>
+        <tr><td class="de">w&auml;hrenddessen</td><td class="de">w&auml;hrend + dessen</td><td><b>W&auml;hrenddessen</b> <b>kamen</b> die G&auml;ste an.</td></tr>
+        <tr><td class="de">mittlerweile</td><td class="de">meanwhile</td><td><b>Mittlerweile</b> <b>kenne</b> ich die Antwort.</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Present tense for the future</h3>
+    <p>German has no future tense. An arranged future is expressed with the present plus a temporal
+      adverb; <em>werden</em> + Infinitiv is reserved for a prediction, a promise or a guess about
+      something outside the speaker's plan.</p>
+    <table>
+      <thead><tr><th>Type</th><th>Form</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">arranged future</td><td class="de">Pr&auml;sens + time adverb</td><td><b>Morgen</b> <b>fahre</b> ich nach Basel.</td></tr>
+        <tr><td class="de">future inside a clause</td><td class="de">Pr&auml;sens in both halves</td><td><b>Wenn</b> ich Zeit <b>habe</b>, <b>komme</b> ich mit.</td></tr>
+        <tr><td class="de">future with a preposition</td><td class="de">Pr&auml;sens, which looks like a past form</td><td>Der Kurs <b>beginnt</b> n&auml;chsten Monat.</td></tr>
+        <tr><td class="de">prediction or promise</td><td class="de">werden + Infinitiv</td><td>Das <b>wird</b> <b>schwierig</b> werden.</td></tr>
+        <tr><td class="de">assumption about today</td><td class="de">Pr&auml;sens or Futur I</td><td>Er <b>ist</b> noch im B&uuml;ro. / Er <b>wird</b> noch im B&uuml;ro <b>sein</b>.</td></tr>
+      </tbody>
+    </table>
+
+    <div class="rulebox">
+      <strong>Tense logic in time clauses.</strong> A clause naming a future time takes the present,
+      not a separate future form: <em>Wenn es morgen regnet, bleiben wir zu Hause.</em> A clause
+      naming a past situation that is still relevant to the present takes Perfekt:
+      <em>Wenn ich so nachdenke, muss ich dir etwas sagen.</em>
+    </div>
+
+    <h3>seit &hellip; her: the distance reading</h3>
+    <p>With a point in the past, German can put the emphasis on <strong>how long the stretch has
+      lasted so far</strong>. The preposition <em>seit</em> then answers <em>Seit wann?</em> and is
+      regularly reinforced by <em>her</em>; the verb follows the <em>seit</em> rule and stays in
+      the present.</p>
+    <table>
+      <thead><tr><th>Form</th><th>Question</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td class="de">seit + Dativ + Pr&auml;sens</td><td class="de">Wie lange schon?</td><td>Wir sind <b>seit</b> zwei Jahren <b>verheiratet</b>.</td></tr>
+        <tr><td class="de">seit + Dativ + her</td><td class="de">Seit wann?</td><td>Ich <b>warte</b> <b>seit</b> einer Stunde <b>auf</b> dich.</td></tr>
+        <tr><td class="de">vor + Dativ + her</td><td class="de">a duration lying entirely in the past</td><td>Er ist <b>vor</b> drei Monaten <b>zur&uuml;ckgekommen</b> und bleibt seitdem hier.</td></tr>
+        <tr><td class="de">es ist + seit + Dativ</td><td class="de">the length of a state</td><td>Es ist <b>seit</b> Wochen <b>hei&szlig;</b>.</td></tr>
+        <tr><td class="de">seitdem</td><td class="de">the new starting point</td><td>Er ist abgereist; <b>seitdem</b> <b>schreiben</b> wir uns seltener.</td></tr>
+      </tbody>
+    </table>
+
+    <p><em>Seit &hellip; her</em> and <em>vor &hellip; her</em> are not interchangeable: <em>seit</em>
+      counts from a point up to now, <em>vor</em> counts a stretch that lies entirely in the past.</p>
+
+    <h3>Do not confuse these</h3>
+    <table>
+      <thead><tr><th>Pair</th><th>Difference</th></tr></thead>
+      <tbody>
+        <tr><td class="de">als vs. wann</td><td class="de"><em>als</em> = one completed past event; <em>wann</em> = question word in direct and indirect questions, and it takes normal word order: <em>Wann kommst du?</em> / <em>Ich wei&szlig; nicht, wann er kommt.</em></td></tr>
+        <tr><td class="de">als vs. wenn</td><td class="de">Identical word order, different frequency. <em>als</em> once and over, <em>wenn</em> repeatedly or outside a single completed past event.</td></tr>
+        <tr><td class="de">seit vs. vor</td><td class="de"><em>seit</em> = start in the past, still running, present tense; <em>vor</em> = completed point in the past, past tense.</td></tr>
+        <tr><td class="de">seit vs. seitdem</td><td class="de"><em>seit</em> + Dativ is a preposition before a noun (<em>seit Montag</em>); <em>seitdem</em> is a conjunction before a clause (<em>Seitdem er kam, &hellip;</em>) and stands in position I.</td></tr>
+        <tr><td class="de">bis vs. f&uuml;r</td><td class="de">In time, <em>bis</em> marks an end point (<em>bis 18 Uhr</em>), <em>f&uuml;r</em> marks a duration (<em>zwei Wochen f&uuml;r</em>).</td></tr>
+        <tr><td class="de">bevor vs. nachdem</td><td class="de">Opposite order. <em>bevor</em> almost always takes the clause first (<em>Bevor ich gehe, &hellip;</em>); <em>nachdem</em> also prefers the clause first, and the event order in the text follows the event order in time.</td></tr>
+        <tr><td class="de">wenn vs. als in the future</td><td class="de">There is no <em>als</em> in the future or the present. <em>Wenn</em> covers all of it: <em>Wenn du morgen kommst, bring Suppe mit.</em></td></tr>
+      </tbody>
+    </table>
+
+    <h3>Word order: what changes and what does not</h3>
+    <p>Only conjunctions, and prepositions that introduce a clause, have any effect on word order.
+      Adverbs and prepositions with a noun change only which element fills position I or II &ndash;
+      the verb never moves to the end.</p>
+    <table>
+      <thead><tr><th>Construction</th><th>Effect on word order</th></tr></thead>
+      <tbody>
+        <tr><td class="de">als / w&auml;hrend / w&auml;hrend + Genitiv</td><td class="de">clause verb goes last</td></tr>
+        <tr><td class="de">wenn / nachdem / bevor / solange / seitdem / bis + clause</td><td class="de">clause verb goes last</td></tr>
+        <tr><td class="de">damals / danach / vorher / inzwischen / w&auml;hrenddessen</td><td class="de">position II, main clause unchanged</td></tr>
+        <tr><td class="de">heute / morgen / gestern as a bare adverb</td><td class="de">position II, main clause unchanged</td></tr>
+        <tr><td class="de">seit / vor / bis / in + Dativ + noun</td><td class="de">none; a preposition, not a clause</td></tr>
+        <tr><td class="de">inmitten + Dativ</td><td class="de">none; the verb stays in position II</td></tr>
+      </tbody>
+    </table>
+
+    <div class="tipbox">
+      <strong>Clause last means no final comma.</strong> If the temporal clause closes the sentence,
+      German drops the comma: <em>Ich rufe an, <b>wenn</b> ich Zeit <b>habe</b></em> &ndash; no comma
+      before the end. With a relative clause in front of it, the comma after the relative clause
+      stays, and no new one is added before <em>wenn</em>.
+    </div>
+
+    <h3>Summary</h3>
+    <table>
+      <thead><tr><th>You want to&hellip;</th><th>Use</th></tr></thead>
+      <tbody>
+        <tr><td class="de">name one single past event</td><td class="de">als + past tense, verb last</td></tr>
+        <tr><td class="de">name a repeated or non-past moment</td><td class="de">wenn</td></tr>
+        <tr><td class="de">place a past or future event in the narrative</td><td class="de">damals / danach / vorher in position II</td></tr>
+        <tr><td class="de">say a state began in the past and still holds</td><td class="de">seit + Dativ + Pr&auml;sens</td></tr>
+        <tr><td class="de">say a past state is over</td><td class="de">vor + Dativ + past tense, or <em>lang</em></td></tr>
+        <tr><td class="de">name an end point</td><td class="de">bis / bis zu + Dativ</td></tr>
+        <tr><td class="de">say what happened in parallel, different subjects</td><td class="de">w&auml;hrend + Dativ, independent tenses</td></tr>
+        <tr><td class="de">say what happened in parallel, same subject</td><td class="de">w&auml;hrend with one shared verb</td></tr>
+        <tr><td class="de">fix the order of two past events</td><td class="de">nachdem (first) / bevor (second)</td></tr>
+        <tr><td class="de">say how long a condition lasts</td><td class="de">solange</td></tr>
+        <tr><td class="de">point at a new starting point</td><td class="de">seitdem</td></tr>
+        <tr><td class="de">mark a stretch that someone else fills</td><td class="de">inzwischen / inmitten + Dativ / w&auml;hrenddessen</td></tr>
+        <tr><td class="de">speak about the future</td><td class="de">Pr&auml;sens + morgen / n&auml;chste Woche</td></tr>
+        <tr><td class="de">emphasise how long things have been going on</td><td class="de">seit + Dativ + her</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- ══ 2. EXAMPLES ══ -->
+  <section>
+    <h2>2 · 20 worked examples</h2>
+    <p><small>Each example marks the opener and closer in bold and explains what it does to the sentence.</small></p>
+    <div id="examples"></div>
+  </section>
+
+  <!-- ══ 3. EXERCISES ══ -->
+  <section>
+    <h2>3 · 100 exercises</h2>
+
+    <div class="noVoice" id="noVoice">
+      <b>Pronunciation unavailable.</b> This browser has no German speech voice installed, so the
+      speaker buttons will not play. In Chrome, Edge and Safari on a desktop, German is available by default.
+    </div>
+    <div id="quiz"></div>
+  </section>
+
+</div>
+
+<footer class="footer"><strong>Temporal connectors</strong><span class="footer-dot">·</span><span>Roman Zajic</span></footer>
+
+<script>
+(function(){
+  "use strict";
+
+  var EXAMPLES = [
+    ["<em>Als</em> ich 2019 nach Hamburg <em>zog</em>, <em>kannte</em> ich dort <em>niemanden</em>. — When I moved to Hamburg in 2019, I knew nobody there.", "<em>Als</em> reports one completed event in the past, so the clause verb <em>zog</em> goes last; the main clause follows in normal order with subject <em>ich</em> before <em>kannte</em>."],
+    ["<em>Wenn</em> meine Schwester <em>zu Besuch</em> <em>kommt</em>, <em>kochen</em> wir <em>zusammen</em>. — Whenever my sister visits, we cook together.", "<em>Wenn</em> here means ‘whenever’, a repeated thing, which is why the clause takes <em>kommt</em> — present tense even for future visits — at the end and the main clause keeps its normal order."],
+    ["Meine Eltern <em>leben</em> <em>seit</em> 1998 <em>in</em> Bremen. — My parents have been living in Bremen since 1998.", "<em>Seit</em> needs the dative (1998 has no case ending here) and the state is still true, so the verb stays in the present: <em>leben</em>, never <em>gelebt</em>."],
+    ["<em>Vor</em> meiner Ankunft in Deutschland <em>wohnte</em> ich drei Jahre <em>in</em> Genf. — Before I came to Germany I lived in Geneva for three years.", "<em>Vor</em> marks a finished point in the past and takes the dative; the clause comes first with <em>wohnte</em> final, and the main clause reverts to subject-verb order."],
+    ["<em>Seit</em> ich <em>nach</em> Köln <em>gezogen</em> <em>bin</em>, <em>sehe</em> ich meine alten Freunde kaum noch. — Since I moved to Cologne, I hardly ever see my old friends.", "<em>Seit</em> here opens a clause, so the perfect <em>gezogen bin</em> is verb-final and <em>sehe</em> in the main clause is present for a situation that still holds."],
+    ["Die Vorlesung <em>dauert</em> <em>bis</em> <em>16 Uhr</em>. — The lecture lasts until 4 p.m.", "<em>Bis</em> names the end point only; with a clock time it takes the accusative without an article, and no comma is needed because the preposition opens no clause."],
+    ["<em>Bis</em> zum Freitag <em>soll</em> alles <em>fertig</em> <em>sein</em>. — By Friday everything is supposed to be finished.", "<em>Bis</em> plus an article takes the dative (<em>zum</em> = bis zu dem); the modal <em>soll</em> leads the main clause and the predicate <em>fertig sein</em> closes the sentence."],
+    ["Der Aufzug <em>fährt</em> <em>bis zu</em> <em>dem</em> dritten Stock. — The lift goes up as far as the third floor.", "<em>Bis zu</em> marks a limit rather than a definite endpoint; with an article the dative follows, and the order is subject – <em>fährt</em> – prepositional phrase."],
+    ["Ich <em>bleibe</em> <em>von</em> Freitag <em>bis</em> Sonntag <em>da</em>. — I am staying from Friday until Sunday.", "A <em>von … bis</em> pair brackets the whole stretch in the accusative; the main clause keeps the normal subject-verb sequence and the separable <em>da</em> sits at the end."],
+    ["<em>Nachdem</em> wir <em>gefunden</em> <em>hatten</em>, was wir <em>suchten</em>, <em>machten</em> wir <em>Feierabend</em>. — After we had found what we were looking for, we called it a day.", "<em>Nachdem</em> prefers the front position, so the perfect auxiliary pair <em>gefunden hatten</em> closes that clause; the main clause then starts again with <em>machten</em>."],
+    ["<em>Bevor</em> die Gäste <em>kamen</em>, <em>räumten</em> wir das Wohnzimmer <em>auf</em>. — Before the guests arrived, we tidied the living room.", "<em>Bevor</em> puts the earlier event first, with <em>kamen</em> last; in the main clause the separable prefix <em>auf</em> detaches and follows the object <em>Wohnzimmer</em>."],
+    ["<em>Bevor</em> ich <em>eingeschlafen</em> <em>war</em>, <em>habe</em> ich noch <em>eine</em> Nachricht <em>geschrieben</em>. — Before I had fallen asleep, I still wrote a message.", "The clause is <em>war</em> with the verb at the very end; the main clause is a perfect sentence, so the auxiliary <em>habe</em> takes position II and the participle closes it."],
+    ["Ich <em>räume</em> <em>noch</em> das Bad <em>auf</em>, <em>bevor</em> der <em>Gast</em> <em>kommt</em>. — I am still cleaning the bathroom before the guest arrives.", "<em>Bevor</em> may also stand last; <em>noch</em> sits after the finite verb <em>räume</em> to mean ‘not yet’, and a sentence-final clause gets no comma after it."],
+    ["<em>Während</em> meine Mutter <em>arbeitet</em>, <em>lernt</em> ihr Sohn Chinesisch. — While my mother works, her son learns Chinese.", "Same subject family, so both clauses stay in the present; <em>während</em> fronts the first clause with <em>arbeitet</em> last and the main clause reverts to <em>lernt</em> first."],
+    ["<em>Während</em> meine Eltern <em>in</em> Italien <em>waren</em>, <em>arbeiteten</em> wir <em>in</em> Berlin. — While my parents were in Italy, we worked in Berlin.", "With two different subjects the tenses may differ: <em>waren</em> is past for the parents’ stay, <em>arbeiteten</em> narrates our parallel past in the main clause."],
+    ["<em>Während</em> der Pandemie <em>haben</em> wir <em>zu Hause</em> <em>gearbeitet</em>. — During the pandemic we worked from home.", "As a preposition with the genitive <em>Während der Pandemie</em> needs no verb of its own, so the clause verb <em>gearbeitet</em> belongs to the main clause and stands last."],
+    ["<em>Sobald</em> die Vorlesung <em>endet</em>, <em>gehen</em> wir <em>gemeinsam</em> <em>essen</em>. — As soon as the lecture ends, we go and eat together.", "<em>Sobald</em> is a one-word conjunction and takes the same front-placed clause as <em>bevor</em>: <em>endet</em> last, and the main clause keeps subject-verb order."],
+    ["<em>Solange</em> er <em>im Krankenhaus</em> <em>liegt</em>, <em>übernehme</em> ich <em>seine</em> Post. — As long as he is in hospital, I take over his mail.", "<em>Solange</em> marks duration, not a single point, and the clause still ends on <em>liegt</em>; the main clause verb <em>übernehme</em> sits in position II."],
+    ["<em>Wenn</em> ich diese Stelle <em>bekomme</em>, <em>ziehe</em> ich <em>um</em>. — If I get this job, I will move.", "<em>Wenn</em> can open a future condition, and German uses the present <em>bekomme</em> instead of a future form; the main clause follows in its normal order."],
+    ["Ich <em>warte</em>, <em>bis</em> du <em>kommst</em>. — I will wait until you come.", "<em>Bis</em> as a conjunction introduces a clause, so <em>kommst</em> goes last and a comma is placed before the clause; because that clause ends the sentence, no closing comma follows it."]
+  ];
+
+  var DATA_URL = "../../data/grammar_exercises_temporale_konnektoren.json";
+  var STORE = "temporale_konnektoren_progress_v1";
+  // ── pronunciation via the browser speech engine ──
+  var MIC_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5z"></path>'
+    + '<path class="pulse" d="M15.5 8.5a5 5 0 0 1 0 7"></path>'
+    + '<path class="pulse" d="M18.5 5.5a9 9 0 0 1 0 13"></path></svg>';
+  var synth = window.speechSynthesis || null;
+  var germanVoice = null;
+
+  function stripTags(t){ return String(t).replace(/<[^>]*>/g,""); }
+
+  function pickVoice(){
+    if(!synth) return null;
+    var vs = synth.getVoices() || [];
+    germanVoice = vs.filter(function(v){ return /^de(-|_|$)/i.test(v.lang); })[0] || null;
+    return germanVoice;
+  }
+  if(synth){
+    pickVoice();
+    if(synth.addEventListener) synth.addEventListener("voiceschanged", pickVoice);
+  }
+
+  function stopSpeech(){ if(synth) try{ synth.cancel(); }catch(e){} }
+
+  var warned = false;
+  function noVoiceNotice(){
+    if(warned) return; warned = true;
+    var n = document.getElementById("noVoice");
+    if(n) n.style.display = "flex";
+  }
+  function micBtn(text, label){
+    var b = document.createElement("button");
+    b.className = "mic";
+    b.type = "button";
+    b.setAttribute("aria-pressed","false");
+    b.setAttribute("aria-label", (label||"Play") + ": " + stripTags(text));
+    b.title = "Play pronunciation";
+    b.innerHTML = MIC_SVG;
+    b.addEventListener("click", function(ev){
+      ev.stopPropagation();
+      if(!synth){ b.disabled = true; b.title = "Speech is not available in this browser"; noVoiceNotice(); return; }
+      if(b.getAttribute("aria-pressed")==="true"){ stopSpeech(); b.setAttribute("aria-pressed","false"); return; }
+      stopSpeech();
+      if(!germanVoice) pickVoice();
+      var u = new SpeechSynthesisUtterance(stripTags(text));
+      u.lang = "de-DE";
+      if(germanVoice) u.voice = germanVoice;
+      u.rate = 0.92; u.pitch = 1;
+      b.setAttribute("aria-pressed","true");
+      var off = function(){ b.setAttribute("aria-pressed","false"); };
+      u.onend = off;
+      u.onerror = function(){ off(); noVoiceNotice(); };
+      synth.speak(u);
+      // some engines report no voices at all; surface that instead of a dead button
+      if(!synth.getVoices().length) noVoiceNotice();
+    });
+    return b;
+  }
+
+  var state = {revealed:{}, answers:{}};
+
+  function esc(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
+  function load(){ try{ var v=JSON.parse(localStorage.getItem(STORE)); if(v&&typeof v==="object"){state.revealed=v.revealed||{};state.answers=v.answers||{};} }catch(e){} }
+  function save(){ try{ localStorage.setItem(STORE, JSON.stringify(state)); }catch(e){} }
+
+  // ---- examples ----
+  // Each entry is [german_and_english, why]. The first field carries the English
+  // translation after an em dash, so split it out for separate styling.
+  function splitDE(t){
+    var i = t.indexOf("\u2014");
+    if(i < 0) return [t, ""];
+    return [t.slice(0,i).trim(), t.slice(i+1).trim()];
+  }
+  (function renderExamples(){
+    var host = document.getElementById("examples");
+    host.innerHTML = "";
+    EXAMPLES.forEach(function(x){
+      var de = x[0] || "";
+      var why = x[1] || "";
+      var parts = splitDE(de);
+      var card = document.createElement("div");
+      card.className = "ex";
+
+      var row = document.createElement("div");
+      row.className = "microw";
+      var txt = document.createElement("div");
+      txt.className = "mtext";
+      txt.innerHTML = '<div class="de">'+parts[0]+'</div>'+
+                      (parts[1] ? '<div class="en">'+parts[1]+'</div>' : "");
+      row.appendChild(txt);
+      row.appendChild(micBtn(parts[0], "Play this example"));
+      card.appendChild(row);
+
+      if(why){
+        var w = document.createElement("div");
+        w.className = "why";
+        w.innerHTML = "<b>Why:</b> "+why;
+        card.appendChild(w);
+      }
+      host.appendChild(card);
+    });
+  })();
+
+  // German special letters, inserted at the caret in the focused input.
+  var KEYS = ["ä","ö","ü","Ä","Ö","Ü","ß","€"];
+
+  function insertAt(input, ch){
+    var v = input.value;
+    var a = input.selectionStart == null ? v.length : input.selectionStart;
+    var b = input.selectionEnd == null ? v.length : input.selectionEnd;
+    input.value = v.slice(0,a) + ch + v.slice(b);
+    var pos = a + ch.length;
+    try{ input.setSelectionRange(pos,pos); }catch(e){}
+    input.focus();
+  }
+
+  function keypadBtn(id){
+    var b = document.createElement("button");
+    b.type = "button";
+    b.className = "keybtn";
+    b.title = "German letters";
+    b.setAttribute("aria-label","Insert German special characters");
+    b.setAttribute("aria-expanded","false");
+    b.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true">'+
+      '<rect x="2" y="5" width="20" height="14" rx="2"></rect>'+
+      '<path d="M6 9h.01M10 9h.01M14 9h.01M18 9h.01M6 13h.01M10 13h.01M14 13h.01M18 13h.01M8 16h8"></path>'+
+      '</svg>';
+    b.addEventListener("click", function(ev){
+      ev.stopPropagation();
+      var panel = document.getElementById("pad-"+id);
+      if(!panel) return;
+      var open = panel.classList.toggle("open");
+      b.setAttribute("aria-expanded", open ? "true" : "false");
+      closeAllKeypads(panel);
+    });
+    return b;
+  }
+
+  function closeAllKeypads(except){
+    Array.prototype.forEach.call(document.querySelectorAll(".pad.open"), function(p){
+      if(p === except) return;
+      p.classList.remove("open");
+      var btn = p.previousSibling && p.previousSibling.querySelector ? p.previousSibling.querySelector(".keybtn") : null;
+      if(btn) btn.setAttribute("aria-expanded","false");
+    });
+  }
+
+  document.addEventListener("click", function(){ closeAllKeypads(null); });
+  document.addEventListener("keydown", function(e){ if(e.key === "Escape") closeAllKeypads(null); });
+
+  function renderQuiz(ex){
+    var el = document.getElementById("quiz");
+    el.innerHTML = "";
+    ex.forEach(function(e){
+      var rev = !!state.revealed[e.id];
+      var card = document.createElement("article");
+      card.className = "q" + (rev ? " revealed" : "");
+      card.id = "q"+e.id;
+
+      var top = document.createElement("div");
+      top.className = "qtop";
+      top.innerHTML = '<span class="qnum">'+e.id+'</span>';
+      var qt = document.createElement("span");
+      qt.className = "qtext";
+      qt.textContent = e.english;
+      top.appendChild(qt);
+      card.appendChild(top);
+
+      // input with the letter keypad docked inside its right edge
+      var row = document.createElement("div");
+      row.className = "inputrow";
+      var ta = document.createElement("input");
+      ta.type = "text";
+      ta.className = "ainput";
+      ta.placeholder = "Write the German here…";
+      ta.setAttribute("aria-label","Your German answer for exercise "+e.id);
+      ta.value = state.answers[e.id] || "";
+      ta.addEventListener("input", function(){ state.answers[e.id] = ta.value; save(); });
+      row.appendChild(ta);
+      row.appendChild(keypadBtn(e.id));
+      card.appendChild(row);
+
+      // the letter panel sits inside the card so it is never clipped
+      var pad = document.createElement("div");
+      pad.className = "pad";
+      pad.id = "pad-"+e.id;
+      KEYS.forEach(function(k){
+        var kb = document.createElement("button");
+        kb.type = "button";
+        kb.className = "padkey";
+        kb.textContent = k;
+        kb.addEventListener("click", function(ev){
+          ev.stopPropagation();
+          var target = card.querySelector(".ainput");
+          insertAt(target, k);
+          state.answers[e.id] = target.value;
+          save();
+        });
+        pad.appendChild(kb);
+      });
+      card.appendChild(pad);
+
+      // reveal / hide toggle
+      var rb = document.createElement("button");
+      rb.type = "button";
+      rb.className = "btn rev" + (rev ? " on" : "");
+      rb.textContent = rev ? "Hide answer" : "Reveal answer";
+      rb.setAttribute("aria-expanded", rev ? "true" : "false");
+      rb.addEventListener("click", function(){
+        state.revealed[e.id] = !state.revealed[e.id];
+        save();
+        renderQuiz(ex);
+      });
+      card.appendChild(rb);
+
+      if(rev){
+        var fb = document.createElement("div");
+        fb.className = "fb";
+
+        var ansRow = document.createElement("div");
+        ansRow.className = "microw ansrow";
+        var at = document.createElement("div");
+        at.className = "mtext";
+        at.textContent = e.german;
+        ansRow.appendChild(at);
+        ansRow.appendChild(micBtn(e.german, "Play the German answer"));
+        fb.appendChild(ansRow);
+
+        var wy = document.createElement("div");
+        wy.className = "why";
+        wy.textContent = e.why;
+        fb.appendChild(wy);
+
+        card.appendChild(fb);
+      }
+      el.appendChild(card);
+    });
+  }
+
+  load();
+
+  fetch(DATA_URL+"?cb="+Date.now())
+    .then(function(r){ if(!r.ok) throw new Error("HTTP "+r.status); return r.json(); })
+    .then(function(d){
+      var ex=d.exercises;
+      renderQuiz(ex);
+    })
+    .catch(function(e){
+      document.getElementById("quiz").innerHTML =
+        '<div class="q"><b>Could not load the exercises.</b><br>'+esc(e.message)+'</div>';
+    });
+})();
+</script>
+</body>
+</html>

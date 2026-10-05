@@ -1,0 +1,711 @@
+{
+  "title": "Conditional and restrictive connectors",
+  "level": "B2",
+  "n": 28,
+  "topic_en": "Conditional and restrictive connectors",
+  "term_de": "Die konditionalen und restriktiven Konnektoren",
+  "updated": "2026-10-05",
+  "schema": "english-prompt -> learner types German -> Reveal/Hide answer shows reference + speaker",
+  "exercises": [
+    {
+      "id": 1,
+      "skill": "Conditional: wenn / als / falls",
+      "english": "If it rains tomorrow, we will stay at home.",
+      "german": "Wenn es morgen regnet, bleiben wir zu Hause.",
+      "why": "Real future condition: the wenn-clause is verb-final (regnet) and the main clause verb follows in position II."
+    },
+    {
+      "id": 2,
+      "skill": "Conditional: wenn / als / falls",
+      "english": "When I moved to Berlin in 2019, I knew nobody there.",
+      "german": "Als ich 2019 nach Berlin zog, kannte ich dort niemanden.",
+      "why": "als marks a single completed event in the past, so it is the correct connector and not wenn."
+    },
+    {
+      "id": 3,
+      "skill": "Conditional: wenn / als / falls",
+      "english": "If the train is cancelled, I will take the bus.",
+      "german": "Falls der Zug ausfällt, nehme ich den Bus.",
+      "why": "falls is a formal variant of wenn and signals a contingency rather than an expectation."
+    },
+    {
+      "id": 4,
+      "skill": "Conditional: wenn / als / falls",
+      "english": "Whenever my sister calls, the phone stays on silent.",
+      "german": "Immer wenn meine Schwester anruft, läuft das Handy stumm.",
+      "why": "Immer wenn expresses recurrence; the clause closes with the separable verb anruft."
+    },
+    {
+      "id": 5,
+      "skill": "Conditional: wenn / als / falls",
+      "english": "If you have questions, please contact the management.",
+      "german": "Wenn Sie Fragen haben, wenden Sie sich bitte an die Leitung.",
+      "why": "Formal Sie plus the verb-first imperative in the main clause; wenn-clause stays verb-final."
+    },
+    {
+      "id": 6,
+      "skill": "Conditional: wenn / als / falls",
+      "english": "When the theatre was sold out, we watched a film instead.",
+      "german": "Als das Theater ausverkauft war, sahen wir uns stattdessen einen Film an.",
+      "why": "als for a one-off past situation; a separable verb closes the clause, its prefix rejoins the main clause."
+    },
+    {
+      "id": 7,
+      "skill": "Conditional: wenn / als / falls",
+      "english": "If you would like an appointment, feel free to call me back.",
+      "german": "Falls Sie einen Termin wünschen, rufen Sie mich gern zurück.",
+      "why": "wünschen is a formal main-clause verb in position II, the clause verb wünschen is repeated as the condition itself."
+    },
+    {
+      "id": 8,
+      "skill": "Conditional: wenn / als / falls",
+      "english": "Once you live in Berlin, you get to know the city quickly.",
+      "german": "Wenn man einmal in Berlin wohnt, lernt man die Stadt schnell kennen.",
+      "why": "einmal … then generalises; the two clauses share the impersonal subject man and a separable verb in the clause."
+    },
+    {
+      "id": 9,
+      "skill": "Conditional: wenn / als / falls",
+      "english": "When I had finished the book, I wanted to recommend it right away.",
+      "german": "Als ich das Buch zu Ende gelesen hatte, wollte ich es sofort weiterempfehlen.",
+      "why": "Plusquamperfekt gelesen hatte closes the als-clause, marking the earlier of two past moments."
+    },
+    {
+      "id": 10,
+      "skill": "Conditional: wenn / als / falls",
+      "english": "If he comes next time, he pays the bill.",
+      "german": "Wenn er das nächste Mal kommt, zahlt er die Rechnung.",
+      "why": "Simple present in the clause stands for a future event; the main clause uses Präteritum for the consequence."
+    },
+    {
+      "id": 11,
+      "skill": "Conditional: wenn / als / falls",
+      "english": "If you do not like it, we will exchange it.",
+      "german": "Falls es dir nicht gefällt, tauschen wir es um.",
+      "why": "Negated clause verb gefällt plus a separable verb in the main clause whose prefix um- goes to the end."
+    },
+    {
+      "id": 12,
+      "skill": "Conditional: wenn / als / falls",
+      "english": "When I was small, I was allowed to stay up later.",
+      "german": "Als ich klein war, durfte ich abends länger wach bleiben.",
+      "why": "Modal durfte with an infinitive in the main clause; the state clause war is the short closing verb."
+    },
+    {
+      "id": 13,
+      "skill": "Conditional: wenn / als / falls",
+      "english": "If you write to me, I will reply immediately.",
+      "german": "Wenn Sie mir schreiben, antworte ich sofort.",
+      "why": "A dative object in the clause sits before the final verb; the main clause has its verb in position II."
+    },
+    {
+      "id": 14,
+      "skill": "Conditional: wenn / als / falls",
+      "english": "If it rains, we will have a picnic in the garden.",
+      "german": "Falls es regnet, machen wir ein Picknick im Garten.",
+      "why": "Akkusativ ein Picknick as the accusative object; nehmen/machen keeps the prefix in position III."
+    },
+    {
+      "id": 15,
+      "skill": "Conditional: wenn / als / falls",
+      "english": "When my grandmother turned 90, all the neighbours came.",
+      "german": "Als meine Großmutter 90 Jahre alt wurde, kamen alle aus der Nachbarschaft.",
+      "why": "als plus a temporal main clause; the elliptical alle aus der Nachbarschaft omits a verb on purpose."
+    },
+    {
+      "id": 16,
+      "skill": "Conditional: wenn / als / falls",
+      "english": "If you read the instructions twice, you understand the steps.",
+      "german": "Wenn man die Anleitung zweimal liest, versteht man die Schritte.",
+      "why": "Non-finite liest is the clause verb; the main clause repeats man so the impersonal reading stays clear."
+    },
+    {
+      "id": 17,
+      "skill": "Conditional: wenn / als / falls",
+      "english": "If you fill in the form incorrectly, the application will be rejected.",
+      "german": "Falls ihr das Formular falsch ausfüllt, wird der Antrag abgelehnt.",
+      "why": "Passiv in the main clause (wird … abgelehnt) with the finite wird in position II and the prefix at the end."
+    },
+    {
+      "id": 18,
+      "skill": "Conditional: wenn / als / falls",
+      "english": "When we were last in the city, everything was much quieter.",
+      "german": "Als wir das letzte Mal in der Stadt waren, war alles viel ruhiger.",
+      "why": "das letzte Mal als stands for the last occurrence; war is a short state verb that stays last in the clause."
+    },
+    {
+      "id": 19,
+      "skill": "Conditional: wenn / als / falls",
+      "english": "If the weather holds, we will go on a bike tour.",
+      "german": "Wenn das Wetter hält, machen wir eine Radtour.",
+      "why": "A condition in the present with a planned main clause; hält is the finite clause verb."
+    },
+    {
+      "id": 20,
+      "skill": "Conditional: wenn / als / falls",
+      "english": "If you have questions, just ask me!",
+      "german": "Falls du Fragen hast, frag mich einfach!",
+      "why": "Informal imperative in the main clause; the exclamation mark and the enclitic mich follow the imperative word."
+    },
+    {
+      "id": 21,
+      "skill": "Conditional: Konjunktiv II unreal",
+      "english": "If I had more time, I would take a course.",
+      "german": "Wenn ich mehr Zeit hätte, würde ich einen Kurs belegen.",
+      "why": "Unreal condition: hätte in the clause, würde plus infinitive in the main clause."
+    },
+    {
+      "id": 22,
+      "skill": "Conditional: Konjunktiv II unreal",
+      "english": "In your place I would accept the offer immediately.",
+      "german": "An deiner Stelle würde ich das Angebot sofort annehmen.",
+      "why": "würde in position II with a separable verb: the prefix annahm- returns as annehmen at the end."
+    },
+    {
+      "id": 23,
+      "skill": "Conditional: Konjunktiv II unreal",
+      "english": "Had I known, I would have come.",
+      "german": "Hätte ich davon gewusst, wäre ich gekommen.",
+      "why": "Wäre plus a participle clause replaces wenn; the Konjunktiv II condition stands first without wenn."
+    },
+    {
+      "id": 24,
+      "skill": "Conditional: Konjunktiv II unreal",
+      "english": "If it were not raining, we could eat outside.",
+      "german": "Wenn es nicht regnete, könnten wir draußen essen.",
+      "why": "regnete is Konjunktiv II of regnen for the unreal present; the negated regnete inverts nothing in the clause."
+    },
+    {
+      "id": 25,
+      "skill": "Conditional: Konjunktiv II unreal",
+      "english": "I would read longer in the evenings if I were not so tired.",
+      "german": "Ich würde abends länger lesen, wenn ich nicht so müde wäre.",
+      "why": "The unreal condition follows the main clause here, and the clause closes with wäre."
+    },
+    {
+      "id": 26,
+      "skill": "Conditional: Konjunktiv II unreal",
+      "english": "If I had no visa, I would cancel the trip.",
+      "german": "Wenn ich kein Visum hätte, würde ich die Reise absagen.",
+      "why": "Negated condition mit kein Visum; hätte closes the clause, absagen follows würde in the main clause."
+    },
+    {
+      "id": 27,
+      "skill": "Conditional: Konjunktiv II unreal",
+      "english": "If you were right, I would apologise.",
+      "german": "Wenn du recht hättest, würde ich mich entschuldigen.",
+      "why": "hättest in the informal second person; the main clause uses a reflexive pronoun before the infinitive."
+    },
+    {
+      "id": 28,
+      "skill": "Conditional: Konjunktiv II unreal",
+      "english": "If my sister came today, I would go out to eat with her.",
+      "german": "Käme meine Schwester heute, ginge ich mit ihr essen.",
+      "why": "Two different Konjunktiv II forms, käme and ginge, with keine inversion after the fronted condition."
+    },
+    {
+      "id": 29,
+      "skill": "Conditional: Konjunktiv II unreal",
+      "english": "If we had known, we would have reacted differently.",
+      "german": "Hätten wir das gewusst, hätten wir anders reagiert.",
+      "why": "Konjunktiv II plus Perfect (hätten … gewusst) for an unreal past condition, with würde deliberately avoided."
+    },
+    {
+      "id": 30,
+      "skill": "Conditional: Konjunktiv II unreal",
+      "english": "I would have to sleep more if I wanted to pass the exam.",
+      "german": "Ich müsste mehr schlafen, wenn ich die Prüfung schaffen wollte.",
+      "why": "Two modal Konjunktiv II forms, müsste and wollte, with the infinitives at the end of each clause."
+    },
+    {
+      "id": 31,
+      "skill": "Conditional: Konjunktiv II unreal",
+      "english": "If you had asked me, I would have helped you.",
+      "german": "Wenn du mich gefragt hättest, hätte ich dir geholfen.",
+      "why": "Plusquamperfekt in the clause and a modal-style hätte in the main clause; the object dir sits before geholfen."
+    },
+    {
+      "id": 32,
+      "skill": "Conditional: Konjunktiv II unreal",
+      "english": "If I had time, I would love to come along.",
+      "german": "Wenn ich Zeit hätte, würde ich zu gern mitkommen.",
+      "why": "The degree adverb zu gern modifies the whole main clause; the clause still ends with hätte."
+    },
+    {
+      "id": 33,
+      "skill": "Conditional: Konjunktiv II unreal",
+      "english": "Without a driving licence I would not be allowed to drive the vehicle.",
+      "german": "Ohne einen Führerschein dürfte ich das Fahrzeug nicht fahren.",
+      "why": "dürfte is the Konjunktiv II of dürfen and expresses hypothetical permission here, not real authorisation."
+    },
+    {
+      "id": 34,
+      "skill": "Conditional: Konjunktiv II unreal",
+      "english": "If I were rich, I would travel around the world.",
+      "german": "Wäre ich reich, würde ich um die Welt reisen.",
+      "why": "Fronted wären-clause with the finite verb first; the main clause has a prepositional object um die Welt."
+    },
+    {
+      "id": 35,
+      "skill": "Conditional: Konjunktiv II unreal",
+      "english": "If we had started earlier, everything would be finished.",
+      "german": "Würden wir früher angefangen haben, wäre alles fertig.",
+      "why": "Mixed unreal condition: Konjunktiv II Perfect in the clause against a result in the Konjunktiv II of sein."
+    },
+    {
+      "id": 36,
+      "skill": "Conditional: Konjunktiv II unreal",
+      "english": "He would help me if I asked him to.",
+      "german": "Er würde mir helfen, wenn ich ihn darum bäte.",
+      "why": "bäte is the Konjunktiv II of bitten, a strong verb, and closes the clause without an auxiliary."
+    },
+    {
+      "id": 37,
+      "skill": "Conditional: Konjunktiv II unreal",
+      "english": "What would happen if the power went out?",
+      "german": "Was würde passieren, wenn der Strom ausfiele?",
+      "why": "A w-question in position I plus an indirect question with the Konjunktiv II form ausfiele at the end."
+    },
+    {
+      "id": 38,
+      "skill": "Conditional: Konjunktiv II unreal",
+      "english": "Without her promise I would not have taken on the project.",
+      "german": "Ohne ihr Zusage hätte ich das Projekt nicht übernommen.",
+      "why": "A prepositional phrase replaces the wenn-clause; the main clause uses the Konjunktiv II of the perfect."
+    },
+    {
+      "id": 39,
+      "skill": "Conditional: Konjunktiv II unreal",
+      "english": "If I had not passed the exam, I would change the subject.",
+      "german": "Wenn ich die Prüfung nicht bestanden hätte, würde ich das Fach wechseln.",
+      "why": "A negated Konjunktiv II perfect in the clause; the negated main clause still keeps würde in position II."
+    },
+    {
+      "id": 40,
+      "skill": "Conditional: Konjunktiv II unreal",
+      "english": "If the offer had been higher, I would have accepted it.",
+      "german": "Wäre das Angebot höher gewesen, hätte ich es angenommen.",
+      "why": "Konjunktiv II of sein as the auxiliary for a past state, plus a modal hätte with a participle in the main clause."
+    },
+    {
+      "id": 41,
+      "skill": "Conditional: Konjunktiv I indirect",
+      "english": "He says that he is in Berlin right now.",
+      "german": "Er sagt, er sei gerade in Berlin.",
+      "why": "Reported present: indicative bin becomes Konjunktiv I sei, and the reported clause goes verb-final."
+    },
+    {
+      "id": 42,
+      "skill": "Conditional: Konjunktiv I indirect",
+      "english": "She claims that she never received the email.",
+      "german": "Sie behauptet, sie habe die E-Mail nie bekommen.",
+      "why": "Reported past: habe instead of hat, with the participle bekommen standing behind the object."
+    },
+    {
+      "id": 43,
+      "skill": "Conditional: Konjunktiv I indirect",
+      "english": "The colleague says that he will be punctual today.",
+      "german": "Der Kollege meint, er komme heute pünktlich.",
+      "why": "komme is the Konjunktiv I of kommen, used to report a future statement without adding a frame verb."
+    },
+    {
+      "id": 44,
+      "skill": "Conditional: Konjunktiv I indirect",
+      "english": "I have heard that the meeting has been cancelled.",
+      "german": "Ich habe gehört, das Meeting sei abgesagt worden.",
+      "why": "Reported passive in the perfect: sei plus a double participle, with worden as the finite-verb slot."
+    },
+    {
+      "id": 45,
+      "skill": "Conditional: Konjunktiv I indirect",
+      "english": "She says that she has a cold.",
+      "german": "Sie sagt, sie sei erkältet.",
+      "why": "A state rather than an action, so the Konjunktiv I of sein carries the report; no tense shift needed."
+    },
+    {
+      "id": 46,
+      "skill": "Conditional: Konjunktiv I indirect",
+      "english": "The doctor says that he will operate on the patient tomorrow.",
+      "german": "Der Arzt sagt, er werde die Patientin morgen operieren.",
+      "why": "werde reports the doctor as the subject of the future clause; operieren is the accusative infinitive at the end."
+    },
+    {
+      "id": 47,
+      "skill": "Conditional: Konjunktiv I indirect",
+      "english": "The newspaper reports that the minister has announced his resignation.",
+      "german": "Die Zeitung berichtet, der Minister habe den Rücktritt angekündigt.",
+      "why": "Perfect in the reported clause: habe plus angekündigt, with the accusative object in front of the verb."
+    },
+    {
+      "id": 48,
+      "skill": "Conditional: Konjunktiv I indirect",
+      "english": "He means that this is his only chance.",
+      "german": "Er meint, das sei seine einzige Möglichkeit.",
+      "why": "The demonstrative das is left at the front and sei closes the clause; a possesive pronoun follows it."
+    },
+    {
+      "id": 49,
+      "skill": "Conditional: Konjunktiv I indirect",
+      "english": "She says that she did not know.",
+      "german": "Sie sagt, sie habe es nicht gewusst.",
+      "why": "Reported past: the negated Konjunktiv I perfect habe … gewusst is not replaced by the Konjunktiv II."
+    },
+    {
+      "id": 50,
+      "skill": "Conditional: Konjunktiv I indirect",
+      "english": "The customer claims that he did not order anything.",
+      "german": "Der Kunde behauptet, er habe nichts bestellt.",
+      "why": "habe plus a negated accusative object, with the personal pronoun er as the reported subject."
+    },
+    {
+      "id": 51,
+      "skill": "Conditional: Konjunktiv I indirect",
+      "english": "The author explains that the book appeared in 1998.",
+      "german": "Die Autorin erklärt, das Buch sei 1998 erschienen.",
+      "why": "Reported past as a Konjunktiv I perfect of appear; the date interrupts between subject and participle."
+    },
+    {
+      "id": 52,
+      "skill": "Conditional: Konjunktiv I indirect",
+      "english": "He asks whether I have time.",
+      "german": "Er fragt, ob ich Zeit habe.",
+      "why": "Konjunktiv I in an ob-clause: habe takes the place of the original habe, keeping verb-final order."
+    },
+    {
+      "id": 53,
+      "skill": "Conditional: indirect ob-question with Konjunktiv I",
+      "english": "The doctor asks whether she tolerates the medicine.",
+      "german": "Der Arzt fragt, ob sie das Medikament vertrage.",
+      "why": "vertrage is the Konjunktiv I of vertragen and closes the indirect question after the subject."
+    },
+    {
+      "id": 54,
+      "skill": "Conditional: Konjunktiv I indirect",
+      "english": "The coach says that the team is playing better.",
+      "german": "Der Trainer sagt, die Mannschaft spiele besser.",
+      "why": "spiele shows the e-change of the Konjunktiv I, while the comparative besser is the second part of the predicate."
+    },
+    {
+      "id": 55,
+      "skill": "Conditional: Konjunktiv I indirect",
+      "english": "She writes that she is stuck in traffic.",
+      "german": "Sie schreibt, sie sei im Stau.",
+      "why": "Konjunktiv I sei in a report triggered by schreiben; the prepositional phrase stays before the verb."
+    },
+    {
+      "id": 56,
+      "skill": "Conditional: Konjunktiv I indirect",
+      "english": "He claims that he did not accept the order.",
+      "german": "Er behauptet, er habe den Auftrag nicht angenommen.",
+      "why": "A separable verb in the reported perfect: angenommen ends the clause, the prefix is split off."
+    },
+    {
+      "id": 57,
+      "skill": "Conditional: Konjunktiv I indirect",
+      "english": "My sister thinks that the film is boring.",
+      "german": "Meine Schwester meint, der Film sei langweilig.",
+      "why": "A predicative adjective takes the Konjunktiv I of sein, so the reported clause ends in sei."
+    },
+    {
+      "id": 58,
+      "skill": "Conditional: Konjunktiv I indirect",
+      "english": "The boss says that he will inform us tomorrow.",
+      "german": "Der Chef sagt, er werde uns morgen informieren.",
+      "why": "werde plus accusative uns; the date sits between the subject and the infinitive inside the clause."
+    },
+    {
+      "id": 59,
+      "skill": "Conditional: Konjunktiv I indirect",
+      "english": "She wrote that the train was delayed.",
+      "german": "Sie schrieb, der Zug habe sich verspätet.",
+      "why": "Konjunktiv I perfect with a reflexive verb: habe plus a participle whose prefix sitz- is in the middle."
+    },
+    {
+      "id": 60,
+      "skill": "Conditional: Konjunktiv I indirect",
+      "english": "He says that the price will not change.",
+      "german": "Er sagt, der Preis werde sich nicht ändern.",
+      "why": "A reported future: werde plus a reflexive verb, with the negation in front of the final infinitive."
+    },
+    {
+      "id": 61,
+      "skill": "Purpose and result: damit / um zu / sodass",
+      "english": "I get up early in order to catch the train.",
+      "german": "Ich stehe früh auf, um den Zug zu erreichen.",
+      "why": "um … zu with the same subject in both parts; the main-clause verb is finite, not a modal, as um … zu requires."
+    },
+    {
+      "id": 62,
+      "skill": "Purpose and result: damit / um zu / sodass",
+      "english": "She phoned in order to arrange an appointment.",
+      "german": "Sie telefonierte, um einen Termin zu vereinbaren.",
+      "why": "Präteritum main-clause verb plus an accusative-infinitive purpose clause in um … zu."
+    },
+    {
+      "id": 63,
+      "skill": "Purpose and result: damit / um zu / sodass",
+      "english": "He often calculates in order to check the sum.",
+      "german": "Er rechnet oft, um die Summe zu prüfen.",
+      "why": "The purpose infinitive zu prüfen follows um, and rechnen stays finite in position II."
+    },
+    {
+      "id": 64,
+      "skill": "Purpose and result: damit / um zu / sodass",
+      "english": "We save money in order to be able to travel in summer.",
+      "german": "Wir sparen, um im Sommer verreisen zu können.",
+      "why": "The modal-like können sits inside the zu-infinitive; the main clause verb sparen is still finite, which um … zu allows."
+    },
+    {
+      "id": 65,
+      "skill": "Purpose and result: damit / um zu / sodass",
+      "english": "I write it on the board in order that everyone can read it.",
+      "german": "Ich schreibe es an die Tafel, damit alle es lesen können.",
+      "why": "damit introduces a purpose clause with a modal, which rules out um … zu with the same subject."
+    },
+    {
+      "id": 66,
+      "skill": "Purpose and result: damit / um zu / sodass",
+      "english": "The trainer explains the exercises so that the students understand them.",
+      "german": "Der Trainer erklärt die Übungen, damit die Schüler sie verstehen.",
+      "why": "damit with a different subject in each clause; the pronoun sie in the purpose clause points back to die Übungen."
+    },
+    {
+      "id": 67,
+      "skill": "Purpose and result: damit / um zu / sodass",
+      "english": "I am sending you the file so that you can check it.",
+      "german": "Ich schicke dir die Datei, damit du sie prüfen kannst.",
+      "why": "Modal kannst in the purpose clause goes after the infinitive at the very end, unlike Konjunktiv I word order."
+    },
+    {
+      "id": 68,
+      "skill": "Purpose and result: damit / um zu / sodass",
+      "english": "Please speak more slowly so that I understand you.",
+      "german": "Sprich bitte langsamer, damit ich dich verstehe.",
+      "why": "An imperative main clause followed by damit, where the Konjunktiv I verstehe is the normal reported form."
+    },
+    {
+      "id": 69,
+      "skill": "Purpose and result: damit / um zu / sodass",
+      "english": "She sets an alarm so that you do not miss the departure.",
+      "german": "Sie stellt einen Wecker, damit ihr die Abfahrt nicht entgeht.",
+      "why": "A dative object in the purpose clause and a reflexive verb whose prefix ent- is split off at the end."
+    },
+    {
+      "id": 70,
+      "skill": "Purpose and result: damit / um zu / sodass",
+      "english": "The interpreter switches language so that all the guests can follow.",
+      "german": "Der Dolmetscher wechselt die Sprache, damit alle Gäste folgen können.",
+      "why": "A separable verb in both halves: wechselt closes nothing, the prefix stays in position III, and folgen können closes the clause."
+    },
+    {
+      "id": 71,
+      "skill": "Purpose and result: damit / um zu / sodass",
+      "english": "We practise every day so that the grade at the end is better.",
+      "german": "Wir üben jeden Tag, damit die Note am Ende besser ist.",
+      "why": "damit states a goal, so a Konjunktiv I ist is used rather than a bare indicative."
+    },
+    {
+      "id": 72,
+      "skill": "Purpose and result: damit / um zu / sodass",
+      "english": "It rained so hard that the streets were flooded.",
+      "german": "Es regnete so stark, dass die Straßen überflutet waren.",
+      "why": "so + degree + dass states a result; waren is Präteritum of sein, and überflutet is the participle in the clause."
+    },
+    {
+      "id": 73,
+      "skill": "Purpose and result: damit / um zu / sodass",
+      "english": "He spoke so quietly that I could barely understand him.",
+      "german": "Er sprach so leise, dass ich ihn kaum verstehen konnte.",
+      "why": "so leise plus dass and a Präteritum modal in the result clause, which follows the main clause."
+    },
+    {
+      "id": 74,
+      "skill": "Purpose and result: damit / um zu / sodass",
+      "english": "The child was so tired that she fell asleep immediately.",
+      "german": "Das Kind war so müde, dass es sofort einschlief.",
+      "why": "A result clause with a separable verb: the prefix ein- is in the middle and the verb schlief ends the clause."
+    },
+    {
+      "id": 75,
+      "skill": "Purpose and result: damit / um zu / sodass",
+      "english": "The meeting lasted so long that everybody got hungry.",
+      "german": "Die Besprechung dauerte so lange, dass alle hungrig wurden.",
+      "why": "so + adjective-like lange introduces the degree; wurden is the simple past of werden in the result clause."
+    },
+    {
+      "id": 76,
+      "skill": "Purpose and result: damit / um zu / sodass",
+      "english": "She talked so fast that nobody could follow.",
+      "german": "Sie redete so schnell, dass niemand mitkam.",
+      "why": "The result clause uses a simple past verb rather than a modal, and mit- stays attached to kam."
+    },
+    {
+      "id": 77,
+      "skill": "Purpose and result: damit / um zu / sodass",
+      "english": "It was so cold that we stayed indoors.",
+      "german": "Es war so kalt, dass wir drinnen blieben.",
+      "why": "war is the Konjunktiv II of sein but reads as simple past; so kalt plus dass makes the degree explicit."
+    },
+    {
+      "id": 78,
+      "skill": "Purpose and result: damit / um zu / sodass",
+      "english": "The mountain was so steep that we had to turn back.",
+      "german": "Der Berg war so steil, dass wir umkehren mussten.",
+      "why": "A modal in the result clause plus an accusative-infinitive (umkehren), which dass-clauses can contain."
+    },
+    {
+      "id": 79,
+      "skill": "Purpose and result: damit / um zu / sodass",
+      "english": "The music was so loud that I could not concentrate.",
+      "german": "Die Musik war so laut, dass ich mich nicht konzentrieren konnte.",
+      "why": "A reflexive pronoun in the result clause before the negative particle and the final modal."
+    },
+    {
+      "id": 80,
+      "skill": "Purpose and result: damit / um zu / sodass",
+      "english": "He translated so badly that the meaning was lost.",
+      "german": "Er übersetzte so schlecht, dass der Sinn verloren ging.",
+      "why": "So schlecht plus dass expresses a negative degree; the result clause is passive in meaning without a modal."
+    },
+    {
+      "id": 81,
+      "skill": "Restrictive: nur, bloß, restrictive relatives",
+      "english": "Only whoever knows the deadline can judge the date.",
+      "german": "Nur wer die Frist kennt, kann den Termin beurteilen.",
+      "why": "Nur before a free relative clause restricts the group; the free relative keeps verb-final order (kennt)."
+    },
+    {
+      "id": 82,
+      "skill": "Restrictive: nur, bloß, restrictive relatives",
+      "english": "I have only read half of the article.",
+      "german": "Ich habe nur die Hälfte des Artikels gelesen.",
+      "why": "nur modifies the quantity, and the negated implicit alternative is what makes the sentence restrictive."
+    },
+    {
+      "id": 83,
+      "skill": "Restrictive: nur, bloß, restrictive relatives",
+      "english": "Only the neighbours heard the noise.",
+      "german": "Bloß die Nachbarn haben den Lärm gehört.",
+      "why": "bloß is the colloquial equivalent of nur and stands in position I before the subject."
+    },
+    {
+      "id": 84,
+      "skill": "Restrictive: nur, bloß, restrictive relatives",
+      "english": "Employees who arrive late lose their bonus.",
+      "german": "Mitarbeiter, die zu spät kommen, verlieren ihren Bonus.",
+      "why": "A defining relative clause without a comma: it identifies which employees are meant, so the sentence is restrictive."
+    },
+    {
+      "id": 85,
+      "skill": "Restrictive: nur, bloß, restrictive relatives",
+      "english": "Only if you hurry will we catch the train.",
+      "german": "Nur wenn du dich beeilst, schaffen wir den Zug.",
+      "why": "Nur wenn restricts the condition itself; the main clause is positive, which is required after this restrictive form."
+    },
+    {
+      "id": 86,
+      "skill": "Restrictive: nur, bloß, restrictive relatives",
+      "english": "Only a few listeners were sitting in the hall.",
+      "german": "Im Saal saßen nur wenige Zuhörer.",
+      "why": "A fronted prepositional phrase puts the verb in position III, and nur restricts wenige to a small number."
+    },
+    {
+      "id": 87,
+      "skill": "Restrictive: nur, bloß, restrictive relatives",
+      "english": "The town where I grew up lies in the south of the country.",
+      "german": "Die Stadt, in der ich aufwuchs, liegt im Süden des Landes.",
+      "why": "A prepositional relative clause in der ich aufwuchs; aufwuchs is the Konjunktiv I of aufwachsen and ends the clause."
+    },
+    {
+      "id": 88,
+      "skill": "Restrictive: nur, bloß, restrictive relatives",
+      "english": "The book that my brother lent me is still here.",
+      "german": "Das Buch, das mir mein Bruder geliehen hat, liegt noch hier.",
+      "why": "A dative relative pronoun das because the book is the recipient's object; geliehen hat closes the relative clause."
+    },
+    {
+      "id": 89,
+      "skill": "Restrictive: nur, bloß, restrictive relatives",
+      "english": "Just do not take the seven o'clock train!",
+      "german": "Nimm bloß nicht den Zug um sieben!",
+      "why": "bloß before a negative imperative intensifies the warning; the accusative article follows negated nicht."
+    },
+    {
+      "id": 90,
+      "skill": "Restrictive: nur, bloß, restrictive relatives",
+      "english": "Only one single candidate passed the exam.",
+      "german": "Nur ein einziger Kandidat hat die Prüfung bestanden.",
+      "why": "Nur and ein einziger both restrict the number; the relative position of the subject is not needed here."
+    },
+    {
+      "id": 91,
+      "skill": "Restrictive: nur, bloß, restrictive relatives",
+      "english": "Everyone who applied will receive a written reply.",
+      "german": "Alle, die sich beworben haben, bekommen eine schriftliche Antwort.",
+      "why": "A free relative clause after plural-alle restricts them to the applicants; the Perfect closes the clause."
+    },
+    {
+      "id": 92,
+      "skill": "Restrictive: nur, bloß, restrictive relatives",
+      "english": "The colleague with whom I lead the project is on holiday this week.",
+      "german": "Der Kollege, mit dem ich das Projekt leite, ist diese Woche im Urlaub.",
+      "why": "A prepositional relative clause with dem, which stands for the colleague; the defining relative takes no second comma."
+    },
+    {
+      "id": 93,
+      "skill": "Restrictive: nur, bloß, restrictive relatives",
+      "english": "I only called briefly.",
+      "german": "Ich habe bloß kurz angerufen.",
+      "why": "bloß restricts the manner (kurz) and rules out every other degree of effort, not just the time."
+    },
+    {
+      "id": 94,
+      "skill": "Restrictive: nur, bloß, restrictive relatives",
+      "english": "Part-time staff who have worked for more than two years get a bonus.",
+      "german": "Teilzeitkräfte, die länger als zwei Jahre arbeiten, erhalten einen Zuschlag.",
+      "why": "The relative clause selects exactly those employees who qualify; länger als needs no comma after the relative pronoun."
+    },
+    {
+      "id": 95,
+      "skill": "Restrictive: nur, bloß, restrictive relatives",
+      "english": "Only for that reason did we reject the offer.",
+      "german": "Nur deshalb haben wir das Angebot abgelehnt.",
+      "why": "Nur deshalb as the focus at the front; the Perfect uses the prefixed form of abgelehnt after the subject."
+    },
+    {
+      "id": 96,
+      "skill": "Restrictive: nur, bloß, restrictive relatives",
+      "english": "That was just a harmless mistake.",
+      "german": "Das war bloß ein harmloser Irrtum.",
+      "why": "bloß dismisses the significance, and war is the finite verb in position II of a very short main clause."
+    },
+    {
+      "id": 97,
+      "skill": "Restrictive: nur, bloß, restrictive relatives",
+      "english": "Children whose parents both work get a hot meal with us.",
+      "german": "Kinder, deren Eltern beide arbeiten, bekommen bei uns ein warmes Essen.",
+      "why": "A genitive relative clause with deren; the defining relative clause is the reason for the benefit described."
+    },
+    {
+      "id": 98,
+      "skill": "Restrictive: nur, bloß, restrictive relatives",
+      "english": "I simply cannot find a suitable flat.",
+      "german": "Ich finde bloß keine passende Wohnung.",
+      "why": "bloß plus a negated accusative object, expressing that no suitable flat at all can be found."
+    },
+    {
+      "id": 99,
+      "skill": "Restrictive: nur, bloß, restrictive relatives",
+      "english": "You will only get an appointment with a referral.",
+      "german": "Nur mit einer Empfehlung bekommen Sie einen Termin.",
+      "why": "Nur mit plus a formal Sie main clause; mit einer Empfehlung is the restricted condition for the appointment."
+    },
+    {
+      "id": 100,
+      "skill": "Restrictive: nur, bloß, restrictive relatives",
+      "english": "Whoever applies early has clearly better chances.",
+      "german": "Wer sich früh bewirbt, hat deutlich bessere Chancen.",
+      "why": "A free relative clause as the subject in nominative; the whole sentence generalises, so there is no antecedent to restrict."
+    }
+  ]
+}
