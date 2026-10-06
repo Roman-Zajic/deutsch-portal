@@ -450,5 +450,155 @@
       "Man kann diese Situation nicht lange dulden. — You cannot put up with this situation for long.",
       "Sie hat ihr Unrecht geduldet, ohne zu protestieren. — She tolerated the injustice without protesting."
     ]
+  },
+  {
+    "id": "1791280000001",
+    "word": "Umfrage",
+    "translation": "survey",
+    "partOfSpeech": "Noun",
+    "article": "die",
+    "level": "B1",
+    "plural": "die Umfragen",
+    "notes": "Often used in political and market research contexts.",
+    "examples": [
+      "Aktuellen Umfragen zufolge liegt die Partei weit vorne.",
+      "Das Institut hat eine repräsentative Umfrage durchgeführt.",
+      "Die Ergebnisse der Umfrage wurden gestern veröffentlicht."
+    ]
+  },
+  {
+    "id": "1791280000002",
+    "word": "verdächtigen",
+    "translation": "to suspect",
+    "partOfSpeech": "Verb",
+    "article": "",
+    "level": "B2",
+    "plural": "",
+    "notes": "Takes the genitive case for the accusation in formal language (jemanden einer Tat verdächtigen), but 'unter Verdacht stehen' or using 'verdächtigen' with 'dass' or 'wegen' is also common.",
+    "examples": [
+      "Die Polizei verdächtigt ihn, das Auto gestohlen zu haben.",
+      "Niemand in der Firma verdächtigte sie des Betrugs.",
+      "Warum verdächtigst du mich immer sofort?"
+    ]
+  },
+  {
+    "id": "1791280000003",
+    "word": "Angriff",
+    "translation": "attack",
+    "partOfSpeech": "Noun",
+    "article": "der",
+    "level": "B1",
+    "plural": "die Angriffe",
+    "notes": "Can refer to a physical assault, a military attack, or a cyber attack.",
+    "examples": [
+      "Der Angriff kam völlig unerwartet in der Nacht.",
+      "Cyber-Angriffe auf Unternehmen nehmen stark zu.",
+      "Die Truppen bereiten sich auf einen neuen Angriff vor."
+    ]
+  },
+  {
+    "id": "1791280000004",
+    "word": "Hinweis",
+    "translation": "hint / clue / reference",
+    "partOfSpeech": "Noun",
+    "article": "der",
+    "level": "B1",
+    "plural": "die Hinweise",
+    "notes": "Often used in investigations or to give useful information.",
+    "examples": [
+      "Die Polizei bittet die Bevölkerung um Hinweise.",
+      "Gibt es neue Hinweise auf den Täter?",
+      "Beachten Sie bitte die Hinweise auf der Verpackung."
+    ]
+  },
+  {
+    "id": "1791280000005",
+    "word": "Vorwurf",
+    "translation": "accusation / reproach",
+    "partOfSpeech": "Noun",
+    "article": "der",
+    "level": "B2",
+    "plural": "die Vorwürfe",
+    "notes": "Often used with verbs like 'machen' (Vorwürfe machen) or 'erheben' (Vorwürfe erheben).",
+    "examples": [
+      "Er weist die Vorwürfe entschieden zurück.",
+      "Sie macht sich selbst Vorwürfe wegen des Fehlers.",
+      "Gegen den Politiker wurden schwere Vorwürfe erhoben."
+    ]
+  },
+  {
+    "id": "1791280000006",
+    "word": "notwendig",
+    "translation": "necessary",
+    "partOfSpeech": "Adjective",
+    "article": "",
+    "level": "A2",
+    "plural": "",
+    "notes": "Can be used with 'zu + infinitive' clauses.",
+    "examples": [
+      "Wasser ist für alle Lebewesen notwendig.",
+      "Ist es wirklich notwendig, dass wir heute noch arbeiten?",
+      "Wir haben die notwendigen Maßnahmen ergriffen."
+    ]
+  },
+  {
+    "id": "1791280000007",
+    "word": "Sieg",
+    "translation": "victory / win",
+    "partOfSpeech": "Noun",
+    "article": "der",
+    "level": "B1",
+    "plural": "die Siege",
+    "notes": "Used in sports, politics, and competitions.",
+    "examples": [
+      "Die Mannschaft feierte einen wichtigen Sieg.",
+      "Es war ein hart erkämpfter Sieg für den Kandidaten.",
+      "Dieser Erfolg bedeutet einen großen Sieg für die Wissenschaft."
+    ]
+  },
+  {
+    "id": "1791280000008",
+    "word": "verkünden",
+    "translation": "to announce / to proclaim",
+    "partOfSpeech": "Verb",
+    "article": "",
+    "level": "B2",
+    "plural": "",
+    "notes": "Often used for official or formal announcements.",
+    "examples": [
+      "Das Gericht wird das Urteil morgen verkünden.",
+      "Der Sprecher verkündete den Wahlsieg im Fernsehen.",
+      "Sie haben ihre Verlobung auf einer Party verkündet."
+    ]
+  },
+  {
+    "id": "1791280000009",
+    "word": "Forschung",
+    "translation": "research",
+    "partOfSpeech": "Noun",
+    "article": "die",
+    "level": "B2",
+    "plural": "die Forschungen",
+    "notes": "Often used in academic or scientific contexts.",
+    "examples": [
+      "Die medizinische Forschung hat große Fortschritte gemacht.",
+      "Er arbeitet an der Universität im Bereich der Genetik-Forschung.",
+      "Neue Forschungen zeigen überraschende Ergebnisse."
+    ]
+  },
+  {
+    "id": "1791280000010",
+    "word": "Auszeichnung",
+    "translation": "award / distinction",
+    "partOfSpeech": "Noun",
+    "article": "die",
+    "level": "B2",
+    "plural": "die Auszeichnungen",
+    "notes": "Given for special achievements or honors.",
+    "examples": [
+      "Für sein Lebenswerk erhielt er eine besondere Auszeichnung.",
+      "Der Film hat zahlreiche internationale Auszeichnungen gewonnen.",
+      "Diese Auszeichnung ist eine große Ehre für unsere Agentur."
+    ]
   }
 ]
