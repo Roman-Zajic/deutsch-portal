@@ -600,5 +600,95 @@
       "Der Film hat zahlreiche internationale Auszeichnungen gewonnen.",
       "Diese Auszeichnung ist eine große Ehre für unsere Agentur."
     ]
+  },
+  {
+    "id": "1791281000001",
+    "word": "vorschlagen",
+    "translation": "to suggest / to propose",
+    "partOfSpeech": "Verb",
+    "article": "",
+    "level": "A2",
+    "plural": "",
+    "notes": "Separable verb (vor·schlagen). Past: schlug vor. Perfekt: hat vorgeschlagen.",
+    "examples": [
+      "Was möchtest du vorschlagen?",
+      "Er hat vorgeschlagen, uns morgen im Park zu treffen.",
+      "Kannst du ein gutes Restaurant vorschlagen?"
+    ]
+  },
+  {
+    "id": "1791281000002",
+    "word": "Gehirn",
+    "translation": "brain",
+    "partOfSpeech": "Noun",
+    "article": "das",
+    "level": "B1",
+    "plural": "die Gehirne",
+    "notes": "Refers to the organ inside the head.",
+    "examples": [
+      "Das menschliche Gehirn ist sehr komplex.",
+      "Sport ist gut für die Durchblutung des Gehirns.",
+      "Bei dem Unfall hat er sich leider am Gehirn verletzt."
+    ]
+  },
+  {
+    "id": "1791281000003",
+    "word": "Es fällt mir sehr schwer",
+    "translation": "I find it very hard / difficult",
+    "partOfSpeech": "Phrase",
+    "article": "",
+    "level": "B1",
+    "plural": "",
+    "notes": "Fixed expression structure: 'jemandem fällt etwas schwer' + zu + infinitive.",
+    "examples": [
+      "Es fällt mir sehr schwer, morgens früh aufzustehen.",
+      "Es fällt ihm schwer, seine Gefühle zu zeigen.",
+      "Es fiel ihr sehr schwer, sich von ihrem Auto zu trennen."
+    ]
+  },
+  {
+    "id": "1791281000004",
+    "word": "Schlagzeug",
+    "translation": "drum kit / drums",
+    "partOfSpeech": "Noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "die Schlagzeuge",
+    "notes": "Musical instrument.",
+    "examples": [
+      "Er spielt seit drei Jahren in einer Band Schlagzeug.",
+      "Mein Nachbar übt jeden Nachmittag auf dem Schlagzeug.",
+      "Das Schlagzeug steht im Proberaum."
+    ]
+  },
+  {
+    "id": "1791281000005",
+    "word": "großzügig",
+    "translation": "generous",
+    "partOfSpeech": "Adjective",
+    "article": "",
+    "level": "B2",
+    "plural": "",
+    "notes": "Can describe a person who shares or gives a lot, or a space that is roomy/spacious.",
+    "examples": [
+      "Er war sehr großzügig und hat die Rechnung für alle bezahlt.",
+      "Die Wohnung ist schön hell und großzügig geschnitten.",
+      "Vielen Dank für Ihre großzügige Spende!"
+    ]
+  },
+  {
+    "id": "1791281000006",
+    "word": "günstig",
+    "translation": "favorable / cheap / affordable",
+    "partOfSpeech": "Adjective",
+    "article": "",
+    "level": "A2",
+    "plural": "",
+    "notes": "Used both for prices (inexpensive) and conditions/timing (advantageous).",
+    "examples": [
+      "Ich habe im Supermarkt ein sehr günstiges Angebot gefunden.",
+      "Das ist ein günstiger Zeitpunkt, um ein Haus zu kaufen.",
+      "Der Wind war für unsere Segeltour sehr günstig."
+    ]
   }
 ]
