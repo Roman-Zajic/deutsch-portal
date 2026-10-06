@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tägliche Grammatik - 2026-10-06</title>
+  <style>
+    :root{{--teal:#005A5D;--bg:#0d1117;--card:#161b22;--text:#e6e6e6;--keypad:#238635}}}
+    body{{margin:0;background:var(--bg);color:var(--text);font:system-ui, sans-serif;overflow-x:horizontal}}}
+    .panel{{padding:1rem;min-height:420px}}}
+    .keypad{{display:grid;grid-template-columns:repeat(8,1fr);gap:4px;margin-top:1rem}}}
+    .pad{{background:#238635;color:#fff;border:none;padding:4px 6px;font-size:1rem;cursor:pointer}}}
+    .pad:focus{{outline:2px solid var(--teal)}}}
+    .nav{{display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem}}}
+    .footer{{position:sticky;bottom:0;background:var(--card);padding:0.5rem;text-align:center;font-size:0.8rem}}}
+    .reveal{{display:none}}}
+    .hide{{display:none}}}
+    @media(max-width:480px){{.keypad{{grid-template-columns:repeat(4,1fr)}}}}}
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <span>Grammatik - B1</span>
+    <a href="/">Home</a>
+  </div>
+  <div class="panel" id="left">
+    <strong>Deutsche Grammatik</strong><br>
+    <p>Wandle den Satz in Konjunktiv II um:</p>
+    <p><em>Er könnte nach Berlin reisen, wenn er Zeit hätte. (Thema 14)</em></p>
+    <textarea id="answer" rows="2" placeholder="Deine Antwort"></textarea>
+  </div>
+  <div class="panel" id="right">
+    <strong>Lösung</strong><br>
+    <p>Musterlösung (Beispiel):</p>
+    <p>Ich würde gehen, wenn ich Zeit hätte.</p>
+    <button class="reveal">Text zeigen</button>
+    <button class="hide">Verstecken</button>
+  </div>
+  <div class="keypad" id="keypad"></div>
+  <div class="footer">
+    <small>Tägliche Lektion - Mehr auf <a href="/">Deutsch Lernen</a> | DW-News: Analysen & Nachrichten: global, regional, unabhängig</small>
+  </div>
+  <script>
+    const keys = ['Ä','Ö','Ü','ä','ö','ü','ß','€','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z',' ','.',',',';',':','!','?','/','(',')'];
+    const kp = document.getElementById('keypad');
+    keys.forEach(k=>{{const b=document.createElement('button');b.className='pad';b.textContent=k;b.onclick=_=>{{const ta=document.getElementById('answer');ta.focus();ta.value+=k;}};kp.appendChild(b);}});
+    const rev=document.querySelector('.reveal'), hide=document.querySelector('.hide'), ans=document.getElementById('answer');
+    rev.onclick=()=>{{ans.classList.remove('hide');rev.classList.add('reveal');hide.classList.remove('reveal');}};
+    hide.onclick=()=>{{ans.classList.add('hide');rev.classList.remove('reveal');hide.classList.add('reveal');}};
+  </script>
+</body>
+</html>
