@@ -1,5 +1,20 @@
 [
   {
+    "id": "1791266494694",
+    "word": "Stichwahl",
+    "translation": "Run-off election",
+    "partOfSpeech": "Noun",
+    "article": "die",
+    "level": "B2",
+    "plural": "die Stichwahlen",
+    "notes": "It is a compound German noun made of Stich (which in this political context refers to a deciding round or tie-breaker) and Wahl (election). It describes a decisive second round of voting held when no candidate wins an absolute majority in the first round.",
+    "examples": [
+      "Weil keiner der Kandidaten die absolute Mehrheit erreicht hat, kommt es nächsten Sonntag zur Stichwahl.",
+      "Die beiden treten nächste Woche erneut in der nötig gewordenen Stichwahl gegeneinander an.",
+      "Wenn es eine Stichwahl gibt, wird das eine Herausforderung für unsere Sicherheitskräfte."
+    ]
+  },
+  {
     "id": "1790777184462",
     "word": "narbe",
     "translation": "scar",
