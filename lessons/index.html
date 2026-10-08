@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
@@ -23,15 +23,15 @@
 <nav class="navbar">
   <a class="brand-icon" href="../" aria-label="Deutsch Lernen home">
     <svg width="24" height="17" viewBox="0 0 31 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <rect x="0" y="0" width="9" height="6" rx="1.5" fill="#95DFDB"/>
-      <rect x="11" y="0" width="9" height="6" rx="1.5" fill="#50C1C1"/>
-      <rect x="22" y="0" width="9" height="6" rx="1.5" fill="#008282"/>
-      <rect x="0" y="8" width="9" height="6" rx="1.5" fill="#95DFDB"/>
-      <rect x="11" y="8" width="9" height="6" rx="1.5" fill="#50C1C1"/>
-      <rect x="22" y="8" width="9" height="6" rx="1.5" fill="#008282"/>
-      <rect x="0" y="16" width="9" height="6" rx="1.5" fill="#95DFDB"/>
-      <rect x="11" y="16" width="9" height="6" rx="1.5" fill="#50C1C1"/>
-      <rect x="22" y="16" width="9" height="6" rx="1.5" fill="#E1A01E"/>
+      <rect x="0" y="0" width="9" height="6" rx="1.5" fill="#95DFDB"></rect>
+      <rect x="11" y="0" width="9" height="6" rx="1.5" fill="#50C1C1"></rect>
+      <rect x="22" y="0" width="9" height="6" rx="1.5" fill="#008282"></rect>
+      <rect x="0" y="8" width="9" height="6" rx="1.5" fill="#95DFDB"></rect>
+      <rect x="11" y="8" width="9" height="6" rx="1.5" fill="#50C1C1"></rect>
+      <rect x="22" y="8" width="9" height="6" rx="1.5" fill="#008282"></rect>
+      <rect x="0" y="16" width="9" height="6" rx="1.5" fill="#95DFDB"></rect>
+      <rect x="11" y="16" width="9" height="6" rx="1.5" fill="#50C1C1"></rect>
+      <rect x="22" y="16" width="9" height="6" rx="1.5" fill="#E1A01E"></rect>
     </svg>
   </a>
   <div class="nav-pipe"></div>
@@ -45,7 +45,7 @@
 
 <div class="wrap">
   <div class="meta">
-    <span class="tag amber">98 lessons</span>
+    <span class="tag amber" id="lesson-count">Lektionen</span>
     <span class="tag">B1 → B2 → C1 → C2 → A2 → A1</span>
   </div>
   <h1>German Lessons</h1>
@@ -53,33 +53,70 @@
      many examples, and exercises with answers.</p>
   <section>
     <div class="lessons" id="lessons">
-          <a class="lcard" href="2026-10-08-b1-4-passive-in-the-past.html">
-            <div class="ld">Lesson 4 · B1 · 8 Okt 2026</div>
-            <h3>Passiv Präteritum</h3>
-            <p>Passive in the past: bilden und verwenden</p>
-          </a>
-          <a class="lcard" href="2026-10-07-b1-3-indirect-speech-in-reported-speech.html">
-            <div class="ld">Lesson 3 · B1 · 7 Okt 2026</div>
-            <h3>Indirekte Rede in der Berichterstattung</h3>
-            <p>Aussagesätze in der indirekten Rede: Konjunktiv II</p>
-          </a>
-          <a class="lcard" href="2026-10-06-b1-2-subordinate-clauses-with-wenn-bevor-nachdem-seit.html">
-            <div class="ld">Lesson 2 · B1 · 6 Okt 2026</div>
-            <h3>Subordinate clauses with wenn, bevor, nachdem, seit</h3>
-            <p>Konjugierte Nebensätze mit wenn, bevor, nachdem und seit</p>
-          </a>
-          <a class="lcard" href="2026-10-05-b1-1-konjunktiv-ii-of-all-common-verbs.html">
-            <div class="ld">Lesson 1 · B1 · 5 Okt 2026</div>
-            <h3>Der Konjunktiv II — würde oder echte Konjunktivform?</h3>
-            <p>Irreal conditions, wishes and polite requests: the würden form and the verbs' own forms.</p>
-          </a>
-        </div>
+      <div class="empty">Lektionen werden geladen...</div>
+    </div>
   </section>
-  <p class="lead" style="color:var(--muted);font-size:.86rem">
+  <p class="lead" style="color:var(--muted);font-size:.86rem;margin-top:20px;">
     A new lesson is published each night and sent at 05:00 Poland time.
   </p>
 </div>
 
 <footer><strong>Deutsch Lernen</strong> · Roman Zajic</footer>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    // Determine path to lessons.json dynamically
+    const jsonPath = window.location.href.substring(0, window.location.href.lastIndexOf('/') + 1) + "lessons.json";
+
+    fetch(jsonPath)
+        .then(response => {
+            if (!response.ok) throw new Error("Manifest nicht gefunden");
+            return response.json();
+        })
+        .then(lessons => {
+            const container = document.getElementById("lessons");
+            const countTag = document.getElementById("lesson-count");
+            
+            container.innerHTML = "";
+            
+            if (!lessons || lessons.length === 0) {
+                container.innerHTML = '<div class="empty">Noch keine Lektionen verfügbar.</div>';
+                return;
+            }
+
+            countTag.textContent = `${lessons.length} lessons`;
+
+            // Sort lessons descending by date (newest first) just in case
+            lessons.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+            lessons.forEach((lesson, index) => {
+                // Calculate lesson number (assuming array sorted descending, first is highest number)
+                const lessonNum = lessons.length - index;
+                
+                // Format date nicely (e.g., 2026-10-08 -> 8 Okt 2026)
+                let formattedDate = lesson.date;
+                try {
+                    const [year, month, day] = lesson.date.split('-');
+                    const months = ["", "Jan", "Feb", "Mär", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dez"];
+                    formattedDate = `${parseInt(day)} ${months[parseInt(month)]} ${year}`;
+                } catch (e) {}
+
+                const card = document.createElement("a");
+                card.className = "lcard";
+                card.href = lesson.filename;
+                card.innerHTML = `
+                    <div class="ld">Lesson ${lessonNum} · B1/B2 · ${formattedDate}</div>
+                    <h3>${lesson.title}</h3>
+                    <p>Aktuelle Nachrichten und Vokabeln von der Deutschen Welle</p>
+                `;
+                container.appendChild(card);
+            });
+        })
+        .catch(error => {
+            console.error("Error loading lessons:", error);
+            document.getElementById("lessons").innerHTML = '<div class="empty">Fehler beim Laden der Lektionen.</div>';
+        });
+});
+</script>
 </body>
 </html>
