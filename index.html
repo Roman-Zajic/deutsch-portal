@@ -1,109 +1,323 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
-    <meta charset="utf-8"/>
-    <meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name="viewport"/>
-    <title>Deutsch Lernen | Alle Lektionen</title>
-    <!-- Use your existing CSS file -->
-    <link href="https://roman-zajic.github.io/deutsch-portal/lessons/lesson.css" rel="stylesheet"/>
-    <style>
-        .lesson-list {
-            list-style: none;
-            padding: 0;
-            margin-top: 20px;
-        }
-        .lesson-list li {
-            background: #f8fafc;
-            margin-bottom: 12px;
-            border-radius: 8px;
-            border: 1px solid #e2e8f0;
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
-        .lesson-list li:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-        }
-        .lesson-list a {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 16px 20px;
-            text-decoration: none;
-            color: #0f172a;
-            font-weight: 600;
-        }
-        .lesson-date {
-            font-size: 0.85rem;
-            color: #64748b;
-            font-weight: 400;
-        }
-        .loading {
-            color: #64748b;
-            font-style: italic;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Deutsch Lernen — Portal</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --font:      "Segoe UI", system-ui, -apple-system, sans-serif;
+  --teal-900:  #005A5A;
+  --teal-700:  #008282;
+  --teal-400:  #50C1C1;
+  --teal-100:  #95DFDB;
+  --amber:     #E1A01E;
+  --muted:     #008282;
+  --page:      #F0FAFA;
+  --card:      #FFFFFF;
+  --in:        #F0FAFA;
+  --border:    #D0ECEB;
+  --shadow:    0 1px 4px rgba(1,45,44,.10);
+  --shadow-md: 0 4px 14px rgba(1,45,44,.12);
+  --r:         8px;
+  --wrap:      1040px;
+}
+
+html { font-size: 16px; -webkit-text-size-adjust: 100%; }
+body {
+  font-family: var(--font); color: var(--text, #005A5A); background: var(--page);
+  min-height: 100vh; min-height: 100dvh;
+  display: flex; flex-direction: column;
+  -webkit-font-smoothing: antialiased;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+/* ── NAVBAR ─────────────────────────────────────────── */
+.navbar {
+  display: flex; align-items: center; height: 48px; padding: 0 16px;
+  background: var(--teal-900); border-bottom: 1px solid rgba(149,223,219,.15);
+  position: sticky; top: 0; z-index: 100; flex-shrink: 0;
+}
+.brand-icon { display: flex; align-items: center; text-decoration: none; flex-shrink: 0; }
+.nav-pipe { width: 1px; height: 16px; background: rgba(149,223,219,.30); margin: 0 12px; flex-shrink: 0; }
+.nav-brand-text { font-size: 0.95rem; font-weight: 600; color: var(--teal-100); text-decoration: none; white-space: nowrap; }
+@media (max-width: 480px) { .nav-brand-text { font-size: 0.85rem; } .nav-pipe { margin: 0 8px; } }
+
+/* ── GITHUB SYNC ────────────────────────────────────────
+   One token for the whole portal. Repo, branch and file path are
+   fixed constants — only the token is user-configurable.
+──────────────────────────────────────────────────────── */
+.nav-actions { margin-left: auto; display: flex; align-items: center; gap: 8px; }
+.icon-btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 32px; height: 32px; padding: 0;
+  color: var(--teal-100); background: rgba(149,223,219,.12);
+  border: 1px solid rgba(149,223,219,.22); border-radius: 4px;
+  cursor: pointer; transition: 130ms;
+}
+.icon-btn:hover { background: rgba(149,223,219,.24); border-color: rgba(149,223,219,.45); }
+.icon-btn svg { width: 15px; height: 15px; fill: currentColor; }
+
+.modal-overlay {
+  position: fixed; inset: 0; z-index: 1000;
+  background: rgba(1,45,44,.55);
+  display: flex; align-items: center; justify-content: center;
+  opacity: 0; pointer-events: none; transition: opacity 180ms;
+  padding: 16px;
+}
+.modal-overlay.open { opacity: 1; pointer-events: all; }
+.modal-card {
+  background: var(--card); border: 1px solid var(--border); border-radius: var(--r);
+  box-shadow: var(--shadow-md); width: 100%; max-width: 360px;
+  padding: 20px; transform: translateY(6px); transition: transform 180ms;
+}
+.modal-overlay.open .modal-card { transform: translateY(0); }
+.modal-card label {
+  display: block; font-size: 0.72rem; font-weight: 700;
+  text-transform: uppercase; letter-spacing: .05em;
+  color: var(--teal-700); margin-bottom: 6px;
+}
+.modal-card input[type="password"], .modal-card input[type="text"] {
+  font-family: var(--font); font-size: 0.875rem; color: #012D2C;
+  background: var(--in); border: 1px solid var(--border); border-radius: 4px;
+  padding: 8px 10px; outline: none; width: 100%;
+}
+.modal-card input:focus { border-color: var(--teal-700); box-shadow: 0 0 0 3px rgba(0,130,130,.15); }
+.modal-actions { display: flex; gap: 8px; justify-content: flex-end; margin-top: 14px; }
+.btn {
+  font-family: var(--font); font-size: 0.82rem; font-weight: 600;
+  padding: 8px 14px; border-radius: 4px; cursor: pointer; transition: 130ms;
+  border: 1px solid transparent; white-space: nowrap;
+}
+.btn-primary { background: var(--teal-700); color: #fff; }
+.btn-primary:hover { background: var(--teal-900); }
+.btn-ghost { background: transparent; color: var(--muted); }
+.btn-ghost:hover { color: var(--teal-700); }
+.btn-danger { background: transparent; color: #C41E3A; }
+.btn-danger:hover { background: rgba(196,30,58,.08); }
+
+/* ── MODULE GRID ────────────────────────────────────── */
+.wrap { max-width: var(--wrap); margin: 0 auto; padding: 24px 16px 40px; width: 100%; flex: 1; }
+.module-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; }
+@media (max-width: 560px) { .module-grid { grid-template-columns: 1fr; } }
+
+.module-card {
+  display: block; text-decoration: none; color: inherit;
+  background: var(--card); border: 1px solid var(--border); border-radius: var(--r);
+  padding: 16px 18px; box-shadow: var(--shadow);
+  transition: border-color 130ms, box-shadow 130ms;
+}
+.module-card:hover { border-color: var(--teal-400); box-shadow: var(--shadow-md); }
+.module-card.locked { opacity: .6; cursor: default; }
+.module-card.locked:hover { border-color: var(--border); box-shadow: var(--shadow); }
+
+.module-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; margin-bottom: 10px; }
+.module-icon {
+  width: 36px; height: 36px; border-radius: var(--r); flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center;
+  background: var(--in); border: 1px solid var(--border); color: var(--teal-700);
+}
+.module-icon svg { width: 19px; height: 19px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.module-status {
+  font-size: 0.6rem; font-weight: 700; text-transform: uppercase; letter-spacing: .5px;
+  padding: 3px 8px; border-radius: 12px; white-space: nowrap;
+}
+.module-status.live { background: rgba(0,130,130,.10); color: var(--teal-700); }
+.module-status.soon { background: rgba(225,160,30,.15); color: var(--amber); }
+.module-card h2 { font-size: 1.02rem; font-weight: 700; color: var(--teal-900); margin-bottom: 5px; }
+.module-card p { font-size: 0.875rem; color: var(--muted); line-height: 1.5; }
+.module-go {
+  display: inline-flex; align-items: center; gap: 5px; margin-top: 12px;
+  font-size: 0.72rem; font-weight: 700; color: var(--teal-700);
+  text-transform: uppercase; letter-spacing: .05em;
+}
+.module-card.locked .module-go { color: var(--muted); }
+.module-go svg { width: 12px; height: 12px; fill: currentColor; }
+
+/* ── FOOTER ─────────────────────────────────────────── */
+.footer {
+  max-width: var(--wrap); margin: 0 auto; width: 100%;
+  border-top: 1px solid var(--border); padding: 12px 16px;
+  display: flex; align-items: center; justify-content: center; flex-wrap: wrap;
+  font-size: 0.8rem; color: var(--muted); flex-shrink: 0;
+}
+.footer strong { color: var(--teal-900); font-weight: 600; }
+.footer-dot { margin: 0 10px; color: var(--border); }
+</style>
 </head>
 <body>
+
 <nav class="navbar">
-    <a aria-label="Deutsch Lernen home" class="brand-icon" href="../">
-        <!-- SVG Logo -->
-        <svg fill="none" height="17" viewBox="0 0 31 22" width="24" xmlns="http://www.w3.org/2000/svg">
-            <rect fill="#95DFDB" height="6" rx="1.5" width="9" x="0" y="0"></rect>
-            <rect fill="#50C1C1" height="6" rx="1.5" width="9" x="11" y="0"></rect>
-            <rect fill="#008282" height="6" rx="1.5" width="9" x="22" y="0"></rect>
-            <rect fill="#95DFDB" height="6" rx="1.5" width="9" x="0" y="8"></rect>
-            <rect fill="#50C1C1" height="6" rx="1.5" width="9" x="11" y="8"></rect>
-            <rect fill="#008282" height="6" rx="1.5" width="9" x="22" y="8"></rect>
-            <rect fill="#95DFDB" height="6" rx="1.5" width="9" x="0" y="16"></rect>
-            <rect fill="#50C1C1" height="6" rx="1.5" width="9" x="11" y="16"></rect>
-            <rect fill="#E1A01E" height="6" rx="1.5" width="9" x="22" y="16"></rect>
-        </svg>
-    </a>
-    <div class="nav-pipe"></div>
-    <span class="nav-brand-text">Lessons</span>
+  <a class="brand-icon" href="./" aria-label="Deutsch Lernen home">
+    <svg width="22" height="16" viewBox="0 0 31 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0"  y="0"  width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="0"  width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="0"  width="9" height="6" rx="1.5" fill="#008282"/>
+      <rect x="0"  y="8"  width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="8"  width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="8"  width="9" height="6" rx="1.5" fill="#008282"/>
+      <rect x="0"  y="16" width="9" height="6" rx="1.5" fill="#95DFDB"/>
+      <rect x="11" y="16" width="9" height="6" rx="1.5" fill="#50C1C1"/>
+      <rect x="22" y="16" width="9" height="6" rx="1.5" fill="#E1A01E"/>
+    </svg>
+  </a>
+  <div class="nav-pipe"></div>
+  <a class="nav-brand-text" href="./">Deutsch Lernen</a>
+  <div class="nav-actions">
+    <button class="icon-btn" onclick="window.openToken()" title="GitHub token">
+      <svg viewBox="0 0 24 24"><path d="M12.65 10C11.83 7.67 9.61 6 7 6c-3.31 0-6 2.69-6 6s2.69 6 6 6c2.61 0 4.83-1.67 5.65-4H17v4h4v-4h2v-4H12.65zM7 14c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"/></svg>
+    </button>
+  </div>
 </nav>
 
 <div class="wrap">
-    <h1>Alle Lektionen</h1>
-    <p>Wähle eine Lektion aus, um den Podcast zu hören und das Vokabular zu lernen.</p>
-    
-    <div id="loader" class="loading">Lektionen werden geladen...</div>
-    <ul class="lesson-list" id="lesson-list"></ul>
+  <div class="module-grid" id="moduleGrid"></div>
 </div>
 
+<div class="modal-overlay" id="tokenModal" onclick="if(event.target === this) window.closeToken()">
+  <div class="modal-card">
+    <label for="ghToken">GitHub token</label>
+    <input type="password" id="ghToken" autocomplete="off" placeholder="github_pat_…">
+    <label for="geminiKey" style="margin-top:14px;">Gemini API key</label>
+    <input type="password" id="geminiKey" autocomplete="off" placeholder="AIza…">
+    <div class="modal-actions">
+      <button class="btn btn-ghost" onclick="window.closeToken()">Cancel</button>
+      <button class="btn btn-primary" onclick="window.saveToken()">Save</button>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <span><strong>Deutsch Lernen</strong></span>
+  <span class="footer-dot">·</span>
+  <span>Roman Zajic</span>
+</footer>
+
 <script>
-    document.addEventListener("DOMContentLoaded", () => {
-        fetch("lessons.json")
-            .then(response => {
-                if (!response.ok) throw new Error("JSON not found");
-                return response.json();
-            })
-            .then(lessons => {
-                const list = document.getElementById("lesson-list");
-                const loader = document.getElementById("loader");
-                loader.style.display = "none";
+/* ── MODULE REGISTRY ─────────────────────────────────────
+   Add an entry to publish a new module. status "live" makes
+   the card clickable; "soon" renders it locked. `path` is
+   relative to this file.
+────────────────────────────────────────────────────────── */
+const MODULES = [
+  {
+    id: 'vocabulary',
+    title: 'Vocabulary',
+    blurb: 'Build and drill your word list. Review mode, two-way self-testing, dictionary lookup, and GitHub-backed storage.',
+    status: 'live',
+    path: 'modules/vocabulary/',
+    icon: `<svg viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>`
+  },
+  {
+    id: 'speaking',
+    title: 'Speaking',
+    blurb: 'Talk to a tutor in German, French, English, Spanish or Polish. Live voice conversation with gentle corrections.',
+    status: 'live',
+    path: 'modules/speaking/',
+    icon: `<svg viewBox="0 0 24 24"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path><path d="M19 10v2a7 7 0 0 1-14 0v-2"></path><path d="M12 19v4"></path></svg>`
+  },
+  {
+    id: 'listening',
+    title: 'Listening',
+    blurb: 'Paste a German text, read the English translation beside it, and listen sentence by sentence with the current line highlighted.',
+    status: 'live',
+    path: 'modules/listening/index.html',
+    icon: `<svg viewBox="0 0 24 24"><path d="M3 12a9 9 0 0 1 18 0"></path><path d="M3 12v5h5"></path><path d="M21 12v5h-5"></path><circle cx="12" cy="12" r="2.5"></circle></svg>`
+  },
+  {
+    id: 'listening-fr',
+    title: 'Listening French',
+    blurb: 'Paste a French text, read the English translation beside it, and listen sentence by sentence with the current line highlighted.',
+    status: 'live',
+    path: 'modules/listening-fr/index.html',
+    icon: `<svg viewBox="0 0 24 24"><path d="M3 12a9 9 0 0 1 18 0"></path><path d="M3 12v5h5"></path><path d="M21 12v5h-5"></path><circle cx="12" cy="12" r="2.5"></circle></svg>`
+  },
+  {
+    id: 'writing',
+    title: 'Writing',
+    blurb: 'Write a German text for a real exam task at your level, then get it corrected and graded the way an examiner would.',
+    status: 'live',
+    path: 'modules/writing/index.html',
+    icon: `<svg viewBox="0 0 24 24"><path d="M12 20h9"></path><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z"></path></svg>`
+  },
+  {
+    id: 'lessons',
+    title: 'Lessons',
+    blurb: 'A new grammar lesson every morning: the rule, many examples, DW news listening and exercises with answers.',
+    status: 'live',
+    path: 'lessons/',
+    icon: `<svg viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path><path d="M9 7h7"></path><path d="M9 11h5"></path></svg>`
+  },
+  {
+    id: 'grammar',
+    title: 'Grammar',
+    blurb: 'A complete A1 to C2 grammar reference — 193 topics ordered so each builds on the last.',
+    status: 'live',
+    path: 'modules/grammar/',
+    icon: `<svg viewBox="0 0 24 24"><path d="M4 7V4h16v3"></path><path d="M9 20h6"></path><path d="M12 4v16"></path></svg>`
+  },
+];
 
-                if (lessons.length === 0) {
-                    list.innerHTML = "<li>No lessons available yet.</li>";
-                    return;
-                }
+const ARROW = `<svg viewBox="0 0 24 24"><path d="M5 13h11.86l-5.43 5.43 1.42 1.42L21.71 12l-7.86-7.86-1.42 1.42L16.86 11H5v2z"/></svg>`;
 
-                lessons.forEach(lesson => {
-                    const li = document.createElement("li");
-                    li.innerHTML = `
-                        <a href="${lesson.filename}">
-                            <span>${lesson.title}</span>
-                            <span class="lesson-date">${lesson.date}</span>
-                        </a>
-                    `;
-                    list.appendChild(li);
-                });
-            })
-            .catch(error => {
-                document.getElementById("loader").textContent = "Fehler beim Laden der Lektionen.";
-                console.error("Error fetching lessons:", error);
-            });
-    });
+function renderModules() {
+  const grid = document.getElementById('moduleGrid');
+  grid.innerHTML = '';
+  MODULES.forEach(m => {
+    const live = m.status === 'live';
+    const el = document.createElement(live ? 'a' : 'div');
+    el.className = 'module-card' + (live ? '' : ' locked');
+    if (live) el.href = m.path;
+    el.innerHTML =
+      '<div class="module-top">' +
+        `<span class="module-icon">${m.icon}</span>` +
+        `<span class="module-status ${live ? 'live' : 'soon'}">${live ? 'Ready' : 'Soon'}</span>` +
+      '</div>' +
+      `<h2>${m.title}</h2><p>${m.blurb}</p>` +
+      `<span class="module-go">${live ? 'Open module' : 'In development'}${live ? ARROW : ''}</span>`;
+    grid.appendChild(el);
+  });
+}
+
+renderModules();
+
+/* ── KEYS ─────────────────────────────────────────────────
+   One store for the whole portal. Every module reads it, so the
+   GitHub token and the Gemini key are each entered once here.
+──────────────────────────────────────────────────────── */
+const CFG_KEY = 'vs_cfg';
+const REPO = 'Roman-Zajic/deutsch-portal';
+const BRANCH = 'main';
+const PATH = 'data/vocabulary.json';
+
+function getCfg() {
+  try { return JSON.parse(localStorage.getItem(CFG_KEY) || '{}'); }
+  catch (e) { return {}; }
+}
+function setCfg(c) { localStorage.setItem(CFG_KEY, JSON.stringify(c)); }
+
+window.openToken = function() {
+  const c = getCfg();
+  document.getElementById('ghToken').value   = c.token || '';
+  document.getElementById('geminiKey').value = c.geminiKey || '';
+  document.getElementById('tokenModal').classList.add('open');
+  setTimeout(() => document.getElementById('ghToken').focus(), 60);
+};
+window.closeToken = function() { document.getElementById('tokenModal').classList.remove('open'); };
+
+window.saveToken = function() {
+  setCfg(Object.assign(getCfg(), {
+    token:     document.getElementById('ghToken').value.trim(),
+    geminiKey: document.getElementById('geminiKey').value.trim()
+  }));
+  window.closeToken();
+};
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') window.closeToken();
+});
 </script>
 </body>
 </html>
