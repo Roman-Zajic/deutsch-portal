@@ -2,8 +2,8 @@ name: Generate Daily German Lesson
 
 on:
   schedule:
-    # Runs at 07:00 UTC every day. Adjust the cron time if DW updates at a specific time.
-    - cron: '0 7 * * *' 
+    # 2:00 AM UTC = 4:00 AM Poland Time (Summer) / 3:00 AM Poland Time (Winter)
+    - cron: '0 2 * * *'
   workflow_dispatch: # This allows you to click a "Run Workflow" button manually in GitHub
 
 permissions:
