@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<title>German Lessons — Deutsch Lernen</title>
+<title>Daily lesson — Deutsch Lernen</title>
 <link rel="stylesheet" href="lesson.css">
 <style>
 .lessons{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
@@ -44,20 +44,14 @@
 </nav>
 
 <div class="wrap">
-  <div class="meta">
-    <span class="tag amber" id="lesson-count">Lektionen</span>
-    <span class="tag">B1 → B2 → C1 → C2 → A2 → A1</span>
-  </div>
-  <h1>German Lessons</h1>
-  <p class="sub">One grammar topic per day. Each lesson has a full grammar explanation,
-     many examples, and exercises with answers.</p>
-  <section>
+  <h1>Daily lesson</h1>
+  <section style="margin-top: 20px;">
     <div class="lessons" id="lessons">
       <div class="empty">Lektionen werden geladen...</div>
     </div>
   </section>
-  <p class="lead" style="color:var(--muted);font-size:.86rem;margin-top:20px;">
-    A new lesson is published each night and sent at 05:00 Poland time.
+  <p class="lead" style="color:var(--muted);font-size:.86rem;margin-top:25px;">
+    A new lesson is published each night and sent at 04:00 Poland time.
   </p>
 </div>
 
@@ -75,7 +69,6 @@ document.addEventListener("DOMContentLoaded", () => {
         })
         .then(lessons => {
             const container = document.getElementById("lessons");
-            const countTag = document.getElementById("lesson-count");
             
             container.innerHTML = "";
             
@@ -83,8 +76,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 container.innerHTML = '<div class="empty">Noch keine Lektionen verfügbar.</div>';
                 return;
             }
-
-            countTag.textContent = `${lessons.length} lessons`;
 
             // Sort lessons descending by date (newest first) just in case
             lessons.sort((a, b) => new Date(b.date) - new Date(a.date));
