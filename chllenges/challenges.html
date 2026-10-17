@@ -1,0 +1,1070 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Deutsch Lernen — Challenges</title>
+<style>
+/* ============================================================
+   Deutsch Lernen — lesson page
+   Brand tokens: teal scale + amber accent, Segoe UI, light mode,
+   square corners everywhere. Do not edit when filling a lesson.
+   ============================================================ */
+:root{
+  --font:"Segoe UI",system-ui,-apple-system,sans-serif;
+  --teal-900:#005A5A; --teal-700:#008282; --teal-400:#50C1C1; --teal-100:#95DFDB;
+  --amber:#E1A01E; --red:#C41E3A; --green:#1D7A4C;
+  --ink:#012D2C; --muted:#3F6B6A;
+  --page:#F0FAFA; --card:#FFFFFF; --tint:#F0FAFA; --border:#D0ECEB;
+  --nav-h:48px; --jump-h:42px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;border-radius:0}
+[hidden]{display:none !important}
+html{scroll-behavior:smooth}
+body{font-family:var(--font);font-size:16px;line-height:1.65;color:var(--ink);background:var(--page);
+  -webkit-font-smoothing:antialiased;display:flex;flex-direction:column;min-height:100vh}
+a{color:var(--teal-700)}
+:focus-visible{outline:2px solid var(--teal-700);outline-offset:2px}
+
+/* ---------- navbar (portal) ---------- */
+.navbar{display:flex;align-items:center;gap:12px;height:var(--nav-h);padding:0 14px;
+  background:var(--teal-900);border-bottom:1px solid rgba(149,223,219,.15);
+  position:sticky;top:0;z-index:100;flex-shrink:0}
+.brand-icon{display:flex;align-items:center;flex-shrink:0}
+.nav-pipe{width:1px;height:16px;background:rgba(149,223,219,.30);flex-shrink:0;margin:0 12px}
+.nav-brand-text{font-size:.95rem;font-weight:600;color:var(--teal-100);text-decoration:none;white-space:nowrap}
+.nav-actions{margin-left:auto;display:flex;align-items:center;gap:8px}
+.icon-btn{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;
+  color:var(--teal-100);background:rgba(149,223,219,.12);border:1px solid rgba(149,223,219,.22);
+  transition:background-color 130ms,border-color 130ms;text-decoration:none}
+.icon-btn:hover{background:rgba(149,223,219,.24);border-color:rgba(149,223,219,.45)}
+.icon-btn:focus-visible{outline-color:var(--teal-100)}
+.icon-btn svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter}
+
+.lang-btn{font-family:var(--font);font-size:.8rem;font-weight:700;min-width:36px;height:32px;padding:0 8px;cursor:pointer;
+  color:var(--teal-100);background:rgba(149,223,219,.12);border:1px solid rgba(149,223,219,.22);transition:background-color 130ms}
+.lang-btn:hover{background:rgba(149,223,219,.24)}
+.lang-btn[aria-pressed="true"]{background:var(--teal-100);color:var(--teal-900);border-color:var(--teal-100)}
+.lang-btn:focus-visible{outline-color:var(--teal-100)}
+.picker{display:flex;gap:8px;align-items:stretch;margin-bottom:20px}
+.picker select{flex:1;min-width:0;font-family:var(--font);font-size:.9rem;color:var(--ink);background:var(--card);border:1px solid var(--border);padding:0 10px;text-overflow:ellipsis}
+.picker .btn[disabled]{opacity:.4;cursor:not-allowed}
+
+/* ---------- page frame ---------- */
+.wrap{max-width:860px;width:100%;margin:0 auto;padding:28px 16px 56px;flex:1 0 auto}
+.lesson-meta{display:flex;flex-wrap:wrap;font-size:.84rem;color:var(--muted);margin-bottom:8px}
+.lesson-meta span{padding:0 12px;border-left:1px solid var(--border)}
+.lesson-meta span:first-child{padding-left:0;border-left:0}
+h1{font-size:clamp(1.55rem,3.4vw,2.1rem);line-height:1.2;color:var(--teal-900);font-weight:700}
+.subtitle{font-size:1.05rem;font-weight:600;color:var(--teal-700);margin-top:6px}
+
+.jump{position:sticky;top:var(--nav-h);z-index:90;display:grid;grid-template-columns:repeat(5,1fr);
+  margin:22px 0 0;background:var(--card);border:1px solid var(--border)}
+.jump a{display:block;text-align:center;padding:10px 4px;font-size:.88rem;font-weight:600;
+  color:var(--teal-900);text-decoration:none;border-right:1px solid var(--border);
+  transition:background-color 130ms}
+.jump a:last-child{border-right:0}
+.jump a:hover{background:var(--tint);color:var(--teal-700)}
+
+section{margin-top:40px;scroll-margin-top:calc(var(--nav-h) + var(--jump-h) + 12px)}
+.sec-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;
+  padding-bottom:6px;margin-bottom:12px;border-bottom:2px solid var(--teal-400)}
+h2{font-size:1.2rem;line-height:1.3;color:var(--teal-900)}
+.count{font-size:.82rem;color:var(--muted);white-space:nowrap}
+.sec-intro{font-size:.9rem;color:var(--muted);margin-bottom:14px;max-width:72ch}
+
+.notice{display:flex;gap:8px;margin-top:16px;padding:10px 12px;font-size:.85rem;
+  background:rgba(225,160,30,.12);border:1px solid rgba(225,160,30,.45);border-left:4px solid var(--amber);color:#6B4700}
+.data-error{margin-top:16px;padding:10px 14px;font-size:.88rem;
+  background:rgba(196,30,58,.05);border:1px solid rgba(196,30,58,.3);border-left:4px solid var(--red)}
+.data-error strong{color:var(--red)}
+.data-error ul{margin:6px 0 0 20px}
+.status{font-size:.82rem;color:var(--muted);min-height:1.2em;margin-top:8px}
+
+/* ---------- 1 · Grammar (the only flexible section) ---------- */
+.grammar{background:var(--card);border:1px solid var(--border);padding:20px clamp(14px,3vw,24px)}
+.grammar > :first-child{margin-top:0}
+.grammar p{margin:0 0 10px;max-width:72ch}
+.grammar h3{font-size:1.02rem;line-height:1.35;font-weight:700;color:var(--teal-900);margin:26px 0 8px}
+.grammar h4{font-size:.95rem;font-weight:700;color:var(--teal-700);margin:18px 0 6px}
+.grammar ul,.grammar ol{margin:0 0 12px 22px;max-width:72ch}
+.grammar li{margin-bottom:6px}
+.grammar small{color:var(--muted)}
+.tablewrap{overflow-x:auto;margin:12px 0}
+.grammar table{width:100%;border-collapse:collapse;font-size:.9rem}
+.grammar th,.grammar td{text-align:left;vertical-align:top;padding:8px 10px;border-bottom:1px solid var(--border)}
+.grammar th{background:var(--tint);font-weight:700;color:var(--teal-900);border-bottom:2px solid var(--teal-400)}
+.grammar tr:last-child td{border-bottom:0}
+.grammar td.de{color:var(--ink);font-weight:600}
+.box{margin:14px 0;padding:12px 14px;border:1px solid var(--border);border-left:4px solid var(--teal-400);background:var(--tint)}
+.box.rule strong:first-child{color:var(--teal-700)}
+.box.warn{background:rgba(196,30,58,.05);border-color:rgba(196,30,58,.25);border-left-color:var(--red)}
+.box.warn strong:first-child{color:var(--red)}
+.box.tip{background:rgba(29,122,76,.06);border-color:rgba(29,122,76,.22);border-left-color:var(--green)}
+.box.tip strong:first-child{color:var(--green)}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:10px;margin:14px 0}
+.tile{padding:12px 14px;border:1px solid var(--border);border-top:3px solid var(--teal-400);background:var(--card)}
+.tile strong{display:block;color:var(--teal-900);margin-bottom:2px}
+.tile p{margin:0;font-size:.9rem}
+
+/* ---------- speaker button + cards (examples, exercises) ---------- */
+.mic{display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px;padding:0;flex-shrink:0;
+  cursor:pointer;color:var(--teal-900);background:rgba(80,193,193,.16);border:1px solid rgba(80,193,193,.55);
+  transition:background-color 130ms}
+.mic:hover{background:rgba(80,193,193,.34)}
+.mic svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;pointer-events:none}
+.mic[aria-pressed="true"]{background:var(--teal-700);color:#fff;border-color:var(--teal-700)}
+.mic[aria-pressed="true"] .pulse{animation:pulse 1s ease-in-out infinite}
+.mic[disabled]{opacity:.45;cursor:not-allowed}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+.microw{display:flex;align-items:flex-start;gap:10px}
+.microw > .mtext{flex:1;min-width:0}
+
+.ex,.q{background:var(--card);border:1px solid var(--border);padding:12px 14px;margin-bottom:8px}
+.ex .de{font-size:1rem;color:var(--ink);margin-bottom:2px}
+.ex .de em{font-style:normal;font-weight:700;color:var(--teal-900);background:rgba(80,193,193,.24);padding:0 3px}
+.ex .en{font-size:.86rem;color:var(--muted)}
+
+.btn{display:inline-flex;align-items:center;gap:8px;font-family:var(--font);font-size:.82rem;font-weight:600;
+  line-height:1.2;cursor:pointer;padding:8px 14px;color:var(--teal-900);text-decoration:none;white-space:nowrap;
+  background:rgba(80,193,193,.14);border:1px solid var(--teal-400);transition:background-color 130ms}
+.btn:hover{background:rgba(80,193,193,.30)}
+.btn.primary{background:var(--teal-700);border-color:var(--teal-700);color:#fff}
+.btn.primary:hover{background:var(--teal-900);border-color:var(--teal-900)}
+.btn svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter}
+
+.qtop{display:flex;gap:10px;align-items:flex-start;margin-bottom:10px}
+.qnum{flex-shrink:0;min-width:26px;height:24px;padding:0 6px;margin-top:1px;display:flex;align-items:center;justify-content:center;
+  background:rgba(0,130,130,.10);color:var(--teal-900);font-size:.74rem;font-weight:700}
+.qtext{flex:1;min-width:0;font-size:.97rem}
+.q.revealed{border-color:var(--teal-400)}
+.inputrow{display:flex;gap:6px}
+.ainput{flex:1;min-width:0;font-family:var(--font);font-size:.95rem;color:var(--ink);background:var(--tint);
+  border:1px solid var(--border);padding:8px 11px;transition:border-color 130ms}
+.ainput:focus{outline:none;border-color:var(--teal-700);background:#fff;box-shadow:0 0 0 2px rgba(80,193,193,.35)}
+.keybtn{flex-shrink:0;width:34px;display:inline-flex;align-items:center;justify-content:center;padding:0;cursor:pointer;
+  color:var(--teal-900);background:rgba(80,193,193,.16);border:1px solid rgba(80,193,193,.55)}
+.keybtn:hover{background:rgba(80,193,193,.32)}
+.keybtn svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:square;stroke-linejoin:miter;pointer-events:none}
+.keybtn[aria-expanded="true"]{background:var(--teal-700);color:#fff;border-color:var(--teal-700)}
+.pad{display:none;flex-wrap:wrap;gap:5px;margin-top:8px;padding:8px;background:var(--tint);border:1px solid var(--border)}
+.pad.open{display:flex}
+.padkey{font-family:var(--font);font-size:.95rem;font-weight:600;color:var(--teal-900);background:var(--card);
+  border:1px solid var(--border);min-width:36px;height:34px;cursor:pointer}
+.padkey:hover{background:var(--teal-400);border-color:var(--teal-400)}
+.btn.rev{margin-top:10px}
+.btn.rev.on{background:rgba(0,90,90,.10);border-color:var(--teal-700)}
+.fb{margin-top:10px;padding-top:10px;border-top:1px solid var(--border)}
+.ansrow{padding:8px 10px;background:rgba(80,193,193,.10);border-left:4px solid var(--teal-400)}
+.ansrow .mtext{font-size:.95rem;font-weight:600}
+
+/* ---------- 4 · Listening ---------- */
+.audio-wrap{margin-bottom:22px}
+.audio-wrap audio{width:100%}
+.story{margin-bottom:26px}
+.story h3{font-size:1.1rem;line-height:1.4;color:var(--teal-900);margin-bottom:6px}
+.story p{line-height:1.9;margin-bottom:10px;max-width:72ch}
+.vocab-word{cursor:pointer;color:var(--ink);font-weight:600;background:rgba(225,160,30,.16);
+  border-bottom:2px solid var(--amber);transition:background-color 130ms}
+.vocab-word:hover{background:rgba(225,160,30,.34)}
+.source{margin-top:6px;font-size:.9rem}
+.source a{display:inline-flex;align-items:center;gap:6px;font-weight:600}
+.source svg{width:13px;height:13px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter}
+
+.modal-overlay{position:fixed;inset:0;z-index:9999;display:flex;align-items:center;justify-content:center;
+  padding:16px;background:rgba(1,45,44,.5)}
+.modal{position:relative;width:100%;max-width:520px;max-height:calc(100vh - 32px);overflow:auto;
+  padding:24px;background:var(--card);border:1px solid var(--teal-700);border-top:4px solid var(--teal-700)}
+.modal-close{position:absolute;top:10px;right:10px;width:32px;height:32px;display:flex;align-items:center;justify-content:center;
+  font-size:1.5rem;line-height:1;cursor:pointer;color:var(--muted);background:transparent;border:1px solid transparent}
+.modal-close:hover{color:var(--ink);border-color:var(--border)}
+.m-title{font-size:1.45rem;line-height:1.25;color:var(--teal-900);margin:0 36px 6px 0}
+.m-meta{display:flex;flex-wrap:wrap;font-size:.88rem;color:var(--muted);margin-bottom:14px}
+.m-meta span{padding:0 10px;border-left:1px solid var(--border)}
+.m-meta span:first-child{padding-left:0;border-left:0}
+.m-trans{font-size:1.12rem;font-weight:600;margin-bottom:10px}
+.m-notes{font-size:.93rem;color:var(--muted);margin-bottom:14px}
+.m-examples{margin-bottom:18px;padding:12px 14px;background:var(--tint);border-left:4px solid var(--teal-400)}
+.m-examples ul{margin:0 0 0 18px}
+.m-examples li{margin-bottom:6px}
+.m-examples li:last-child{margin-bottom:0}
+
+/* ---------- 5 · Speaking ---------- */
+.prompt{font-family:var(--font);font-size:.9rem;line-height:1.6;white-space:pre-wrap;overflow-wrap:anywhere;
+  max-height:340px;overflow:auto;padding:14px 16px;background:var(--card);border:1px solid var(--border)}
+.actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+
+/* ---------- footer ---------- */
+.footer{display:flex;justify-content:center;align-items:center;padding:14px 16px;font-size:.8rem;color:var(--muted);
+  border-top:1px solid var(--border);background:var(--page)}
+.footer span{padding:0 12px;border-left:1px solid var(--border)}
+.footer span:first-child{padding-left:0;border-left:0}
+.footer strong{color:var(--teal-700)}
+
+@media (max-width:560px){
+  .wrap{padding:20px 12px 40px}
+  .nav-brand-text{font-size:.85rem}
+  .jump a{font-size:.78rem;padding:10px 2px}
+}
+@media (max-width:420px){
+  .jump a{font-size:.73rem}
+  .modal{padding:20px 16px}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *{transition:none !important;animation:none !important}
+}
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+  <span class="brand-icon"><svg width="24" height="17" viewBox="0 0 31 22" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <rect x="0" y="0" width="9" height="6" fill="#95DFDB"></rect>
+      <rect x="11" y="0" width="9" height="6" fill="#50C1C1"></rect>
+      <rect x="22" y="0" width="9" height="6" fill="#008282"></rect>
+      <rect x="0" y="8" width="9" height="6" fill="#95DFDB"></rect>
+      <rect x="11" y="8" width="9" height="6" fill="#50C1C1"></rect>
+      <rect x="22" y="8" width="9" height="6" fill="#008282"></rect>
+      <rect x="0" y="16" width="9" height="6" fill="#95DFDB"></rect>
+      <rect x="11" y="16" width="9" height="6" fill="#50C1C1"></rect>
+      <rect x="22" y="16" width="9" height="6" fill="#E1A01E"></rect>
+    </svg></span>
+  <div class="nav-pipe"></div>
+  <span class="nav-brand-text">Deutsch Lernen</span>
+  <div class="nav-actions" role="group" aria-label="Language">
+    <button type="button" class="lang-btn" data-lang="en" aria-pressed="true">EN</button>
+    <button type="button" class="lang-btn" data-lang="pl" aria-pressed="false">PL</button>
+  </div>
+</nav>
+
+<main class="wrap">
+  <div class="picker" id="picker" hidden>
+    <button type="button" class="btn" id="prev-lesson" data-i18n="prev">&lsaquo; Previous</button>
+    <select id="lesson-select" aria-label="Lesson"></select>
+    <button type="button" class="btn" id="next-lesson" data-i18n="next">Next &rsaquo;</button>
+  </div>
+  <header>
+    <div class="lesson-meta" id="lesson-meta"></div>
+    <h1 id="lesson-title"></h1>
+    <p class="subtitle" id="lesson-subtitle" hidden></p>
+  </header>
+
+  <nav class="jump" aria-label="Lesson sections">
+    <a href="#grammar" data-i18n="grammar">Grammar</a>
+    <a href="#examples" data-i18n="examples">Examples</a>
+    <a href="#exercises" data-i18n="exercises">Exercises</a>
+    <a href="#listening" data-i18n="listening">Listening</a>
+    <a href="#speaking" data-i18n="speaking">Speaking</a>
+  </nav>
+
+  <noscript><div class="data-error"><strong>JavaScript is off.</strong> This lesson needs JavaScript to display its content.</div></noscript>
+  <div class="data-error" id="data-error" role="alert" hidden></div>
+  <div class="notice" id="noVoice" hidden>
+    <span data-i18n="noVoice"></span>
+  </div>
+
+  <section id="grammar">
+    <div class="sec-head"><h2 data-i18n="grammar">Grammar</h2></div>
+    <div class="grammar" id="grammar-body"></div>
+  </section>
+
+  <section id="examples">
+    <div class="sec-head"><h2 data-i18n="examples">Examples</h2><span class="count" id="examples-count"></span></div>
+    <p class="sec-intro" data-i18n="exIntro">Highlighted words show today's rule at work. Select the speaker to hear a sentence.</p>
+    <div id="examples-list"></div>
+  </section>
+
+  <section id="exercises">
+    <div class="sec-head"><h2 data-i18n="exercises">Exercises</h2><span class="count" id="exercises-count"></span></div>
+    <p class="sec-intro" data-i18n="qIntro">Translate each sentence into German. Type your answer, then reveal the model answer.</p>
+    <div id="quiz"></div>
+  </section>
+
+  <section id="listening">
+    <div class="sec-head"><h2 data-i18n="listening">Listening</h2><span class="count" id="listening-count"></span></div>
+    <p class="sec-intro" data-i18n="lsIntro">Play the audio, then read along. Select a highlighted word to see its translation and examples.</p>
+    <div class="audio-wrap" id="audio-wrap">
+      <audio controls preload="metadata" id="audio" style="width: 100%;">
+        <source id="audio-src" type="audio/mpeg">
+        <span data-i18n="noAudio">Your browser does not support the audio player.</span> <a data-i18n="openAudio" id="audio-fallback" href="#" target="_blank" rel="noopener noreferrer">Open the audio file</a>
+      </audio>
+    </div>
+    <div id="articles"></div>
+    <p class="source" id="source" hidden>
+      <a id="source-link" href="#" target="_blank" rel="noopener noreferrer"><span id="source-label"></span>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 13v6H5V8h6"></path><path d="M15 3h6v6"></path><path d="M10 14L21 3"></path></svg>
+      </a>
+    </p>
+  </section>
+
+  <section id="speaking">
+    <div class="sec-head"><h2 data-i18n="speaking">Speaking</h2></div>
+    <p class="sec-intro" data-i18n="spIntro">Copy the prompt, paste it into ChatGPT, and turn on Voice mode to talk through today's news.</p>
+    <pre class="prompt" id="prompt" tabindex="0" aria-label="ChatGPT Voice prompt"></pre>
+    <div class="actions">
+      <button type="button" class="btn primary" id="copy-prompt">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="9" width="13" height="13"></rect><path d="M5 15H2V2h13v3"></path></svg>
+        <span data-i18n="copyPrompt">Copy prompt</span>
+      </button>
+      <a class="btn" href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer" data-i18n="openChat">Open ChatGPT</a>
+    </div>
+    <p class="status" id="copy-status" role="status" aria-live="polite"></p>
+  </section>
+</main>
+
+<footer class="footer"><span><strong>Deutsch Lernen</strong></span><span>Roman Zajic</span></footer>
+
+<div class="modal-overlay" id="vocab-modal" hidden>
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="m-title">
+    <button type="button" class="modal-close" id="modal-close" aria-label="Close">&times;</button>
+    <h3 class="m-title" id="m-title"></h3>
+    <div class="m-meta" id="m-meta"></div>
+    <div class="m-trans" id="m-trans"></div>
+    <div class="m-notes" id="m-notes"></div>
+    <div class="m-examples" id="m-examples-wrap"><ul id="m-examples"></ul></div>
+    <button type="button" class="btn" id="copy-json-btn" data-i18n="copyJson">Copy JSON</button>
+  </div>
+</div>
+
+<!--
+================================================================
+ LESSONS: HOW TO ADD A LESSON
+================================================================
+ All lessons live in ONE array. The page first tries to load "challenges.json" from the
+ same folder as this page (silently; if it is missing or invalid it uses the array
+ below). Keep both in sync, or keep only challenges.json and leave this one as backup.
+ To add a lesson: append one lesson object (with a comma before it) to the array.
+ Never change the HTML, CSS or JavaScript.
+
+ Text shown to the learner is bilingual: { "en": "...", "pl": "..." }.
+ If a "pl" value is empty or missing, the page silently shows the English one.
+ Plain strings are also accepted and shown in both languages.
+
+ lesson.id (YYYY-MM-DD, unique), date (DD.MM.YYYY), day, totalDays, level,
+ title {en,pl}, subtitle (German)
+ grammar.html {en:[html blocks], pl:[html blocks]}   (same limits as before)
+ examples[]   { de (with **highlights**), en, pl }
+ exercises[]  { en, pl, de }
+ listening    { audioUrl, source?{label,url}, articles[{heading,text}],
+                vocab[{id, word, translation{en,pl}, partOfSpeech, level, plural,
+                       notes{en,pl}, examples[2 German sentences]}] }
+ speaking.prompt {en, pl}
+================================================================
+-->
+<script type="application/json" id="lessons-data">
+[
+ {
+  "lesson": {
+   "id": "2026-10-17",
+   "date": "17.10.2026",
+   "day": 1,
+   "totalDays": 300,
+   "level": "B1",
+   "title": {
+    "en": "Daily Challenge: Reasons with weil",
+    "pl": "Wyzwanie dnia: uzasadnienia ze spójnikiem weil"
+   },
+   "subtitle": "Nebensatz mit weil: das Verb steht am Ende"
+  },
+  "grammar": {
+   "html": {
+    "en": [
+     "<h3>The challenge</h3><p>Give a reason for everything you do today. In a clause with <strong>weil</strong> (because) the conjugated verb moves to the <strong>end</strong> of the clause.</p>",
+     "<div class='box rule'><strong>Core rule:</strong> Main clause, <em>weil</em> + subject + rest + <strong>conjugated verb</strong>.</div>",
+     "<table><thead><tr><th>Main clause</th><th>weil-clause</th></tr></thead><tbody><tr><td class='de'>Ich bleibe zu Hause,</td><td class='de'>weil ich müde <strong>bin</strong>.</td></tr><tr><td class='de'>Er lernt Deutsch,</td><td class='de'>weil er in Berlin <strong>arbeitet</strong>.</td></tr><tr><td class='de'>Wir fahren mit dem Zug,</td><td class='de'>weil es schneller <strong>ist</strong>.</td></tr></tbody></table>",
+     "<div class='box warn'><strong>Common mistake:</strong><p>✗ Ich bleibe zu Hause, weil ich bin müde.</p><p>✓ Ich bleibe zu Hause, weil ich müde bin.</p></div>"
+    ],
+    "pl": [
+     "<h3>Wyzwanie</h3><p>Podaj powód dla wszystkiego, co dziś robisz. W zdaniu ze spójnikiem <strong>weil</strong> (ponieważ) odmieniony czasownik idzie na <strong>koniec</strong> zdania podrzędnego.</p>",
+     "<div class='box rule'><strong>Główna zasada:</strong> Zdanie główne, <em>weil</em> + podmiot + reszta + <strong>czasownik odmieniony</strong>.</div>",
+     "<table><thead><tr><th>Zdanie główne</th><th>Zdanie z weil</th></tr></thead><tbody><tr><td class='de'>Ich bleibe zu Hause,</td><td class='de'>weil ich müde <strong>bin</strong>.</td></tr><tr><td class='de'>Er lernt Deutsch,</td><td class='de'>weil er in Berlin <strong>arbeitet</strong>.</td></tr><tr><td class='de'>Wir fahren mit dem Zug,</td><td class='de'>weil es schneller <strong>ist</strong>.</td></tr></tbody></table>",
+     "<div class='box warn'><strong>Częsty błąd:</strong><p>✗ Ich bleibe zu Hause, weil ich bin müde.</p><p>✓ Ich bleibe zu Hause, weil ich müde bin.</p></div>"
+    ]
+   }
+  },
+  "examples": [
+   {
+    "de": "Ich bleibe zu Hause, weil ich müde **bin**.",
+    "en": "I am staying at home because I am tired.",
+    "pl": "Zostaję w domu, bo jestem zmęczony."
+   },
+   {
+    "de": "Er lernt Deutsch, weil er in Berlin **arbeitet**.",
+    "en": "He is learning German because he works in Berlin.",
+    "pl": "Uczy się niemieckiego, bo pracuje w Berlinie."
+   },
+   {
+    "de": "Wir fahren mit dem Zug, weil es schneller **ist**.",
+    "en": "We are taking the train because it is faster.",
+    "pl": "Jedziemy pociągiem, bo jest szybciej."
+   },
+   {
+    "de": "Sie trinkt Tee, weil sie keinen Kaffee **mag**.",
+    "en": "She drinks tea because she does not like coffee.",
+    "pl": "Pije herbatę, bo nie lubi kawy."
+   },
+   {
+    "de": "Ich rufe dich an, weil ich eine Frage **habe**.",
+    "en": "I am calling you because I have a question.",
+    "pl": "Dzwonię do ciebie, bo mam pytanie."
+   },
+   {
+    "de": "Das Büro ist heute zu, weil alle **streiken**.",
+    "en": "The office is closed today because everyone is on strike.",
+    "pl": "Biuro jest dziś zamknięte, bo wszyscy strajkują."
+   }
+  ],
+  "exercises": [
+   {
+    "en": "I am staying home because I am ill.",
+    "pl": "Zostaję w domu, bo jestem chory.",
+    "de": "Ich bleibe zu Hause, weil ich krank bin."
+   },
+   {
+    "en": "He is learning German because he lives in Berlin.",
+    "pl": "Uczy się niemieckiego, bo mieszka w Berlinie.",
+    "de": "Er lernt Deutsch, weil er in Berlin wohnt."
+   },
+   {
+    "en": "We are taking the train because it is cheap.",
+    "pl": "Jedziemy pociągiem, bo jest tanio.",
+    "de": "Wir fahren mit dem Zug, weil es billig ist."
+   },
+   {
+    "en": "She is not coming because she has no time.",
+    "pl": "Nie przyjdzie, bo nie ma czasu.",
+    "de": "Sie kommt nicht, weil sie keine Zeit hat."
+   },
+   {
+    "en": "I am calling you because I need help.",
+    "pl": "Dzwonię do ciebie, bo potrzebuję pomocy.",
+    "de": "Ich rufe dich an, weil ich Hilfe brauche."
+   },
+   {
+    "en": "The shop is closed because it is Sunday.",
+    "pl": "Sklep jest zamknięty, bo jest niedziela.",
+    "de": "Das Geschäft ist geschlossen, weil Sonntag ist."
+   }
+  ],
+  "listening": {
+   "audioUrl": "https://radiodownloaddw-a.akamaihd.net/downloads/Events/dwelle/dira/mp3/deutschkurse/nachrichten_live/DB75050E_2.mp3",
+   "articles": [
+    {
+     "heading": "Placeholder: replace with your own text",
+     "text": "Viele Firmen testen die [[Vier-Tage-Woche|1]], weil sie ihre Mitarbeiter länger im Unternehmen halten wollen. Die [[Arbeitszeit|2]] sinkt, aber die Arbeit muss trotzdem fertig werden."
+    }
+   ],
+   "vocab": [
+    {
+     "id": 1,
+     "word": "die Vier-Tage-Woche",
+     "translation": {
+      "en": "four-day week",
+      "pl": "czterodniowy tydzień pracy"
+     },
+     "partOfSpeech": "Noun",
+     "level": "B2",
+     "plural": "die Vier-Tage-Wochen",
+     "notes": {
+      "en": "A working model with four working days.",
+      "pl": "Model pracy z czterema dniami roboczymi."
+     },
+     "examples": [
+      "Die Vier-Tage-Woche wird immer beliebter.",
+      "Viele Beschäftigte wünschen sich die Vier-Tage-Woche."
+     ]
+    },
+    {
+     "id": 2,
+     "word": "die Arbeitszeit",
+     "translation": {
+      "en": "working time",
+      "pl": "czas pracy"
+     },
+     "partOfSpeech": "Noun",
+     "level": "B1",
+     "plural": "die Arbeitszeiten",
+     "notes": {
+      "en": "The hours someone works.",
+      "pl": "Godziny, które ktoś przepracowuje."
+     },
+     "examples": [
+      "Meine Arbeitszeit beginnt um acht Uhr.",
+      "Die Arbeitszeit ist flexibel."
+     ]
+    }
+   ]
+  },
+  "speaking": {
+   "prompt": {
+    "en": "You are my German tutor. Ask me, one question at a time, why I do things in my day. I must answer every time with a full sentence using weil, with the verb at the end. If I put the verb in the wrong place, quote my sentence, give the correct one, explain the rule in one sentence and ask me to repeat it aloud.",
+    "pl": "Jesteś moim nauczycielem niemieckiego. Zadawaj mi pojedynczo pytania o to, dlaczego robię różne rzeczy w ciągu dnia. Za każdym razem muszę odpowiedzieć pełnym zdaniem ze spójnikiem weil i czasownikiem na końcu. Jeśli postawię czasownik w złym miejscu, zacytuj moje zdanie, podaj poprawne, wyjaśnij zasadę w jednym zdaniu i poproś o głośne powtórzenie."
+   }
+  }
+ }
+]
+</script>
+
+<script>
+(function () {
+  "use strict";
+
+  var $ = function (id) { return document.getElementById(id); };
+  var problems = [], data = {}, lesson = {}, STORE = "", state = { revealed: {}, answers: {} };
+  var lang = "en", lessons = [], cur = 0;
+  try { if (localStorage.getItem("deutsch_lang") === "pl") lang = "pl"; } catch (e) {}
+  function loadState() {
+    state = { revealed: {}, answers: {} };
+    try {
+      var s = JSON.parse(localStorage.getItem(STORE));
+      if (s && typeof s === "object") { state.revealed = s.revealed || {}; state.answers = s.answers || {}; }
+    } catch (e) {}
+  }
+  function save() { try { localStorage.setItem(STORE, JSON.stringify(state)); } catch (e) {} }
+
+  /* ---------- interface text ---------- */
+  var I18N = {
+    en: {
+      grammar: "Grammar", examples: "Examples", exercises: "Exercises", listening: "Listening", speaking: "Speaking",
+      exIntro: "Highlighted words show today's rule at work. Select the speaker to hear a sentence.",
+      qIntro: "Translate each sentence into German. Type your answer, then reveal the model answer.",
+      lsIntro: "Play the audio, then read along. Select a highlighted word to see its translation and examples.",
+      spIntro: "Copy the prompt, paste it into ChatGPT, and turn on Voice mode to talk through today's news.",
+      copyPrompt: "Copy prompt", openChat: "Open ChatGPT", pcopied: "Prompt copied.",
+      pfail: "Copy failed. Select the text above and copy it manually.",
+      reveal: "Reveal answer", hide: "Hide answer", ph: "Write the German here\u2026", ans: "Your German answer for exercise",
+      day: "Day", level: "Level", plural: "Plural:", copyJson: "Copy JSON", jsonCopied: "JSON copied", copyFailed: "Copy failed",
+      src: "Original source", play: "Play pronunciation", playEx: "Play this example", playAns: "Play the German answer",
+      noVoice: "<strong>Pronunciation unavailable.</strong> This browser has no German speech voice installed, so the speaker buttons will not play. Chrome, Edge and Safari on desktop include German by default.",
+      noAudio: "Your browser does not support the audio player.", openAudio: "Open the audio file",
+      prev: "\u2039 Previous", next: "Next \u203a",
+      none: "No lesson data was found. Add lessons to challenges.json or to the embedded lessons-data block."
+    },
+    pl: {
+      grammar: "Gramatyka", examples: "Przyk\u0142ady", exercises: "\u0106wiczenia", listening: "S\u0142uchanie", speaking: "M\u00f3wienie",
+      exIntro: "Pod\u015bwietlone s\u0142owa pokazuj\u0105 dzisiejsz\u0105 regu\u0142\u0119 w dzia\u0142aniu. Kliknij g\u0142o\u015bnik, aby us\u0142ysze\u0107 zdanie.",
+      qIntro: "Przet\u0142umacz ka\u017cde zdanie na niemiecki. Wpisz odpowied\u017a, a potem poka\u017c wzorcow\u0105.",
+      lsIntro: "Odtw\u00f3rz nagranie, a potem czytaj razem z lektorem. Kliknij pod\u015bwietlone s\u0142owo, aby zobaczy\u0107 t\u0142umaczenie i przyk\u0142ady.",
+      spIntro: "Skopiuj prompt, wklej go do ChatGPT i w\u0142\u0105cz tryb g\u0142osowy, aby porozmawia\u0107 o dzisiejszych wiadomo\u015bciach.",
+      copyPrompt: "Kopiuj prompt", openChat: "Otw\u00f3rz ChatGPT", pcopied: "Prompt skopiowany.",
+      pfail: "Nie uda\u0142o si\u0119 skopiowa\u0107. Zaznacz tekst powy\u017cej i skopiuj go r\u0119cznie.",
+      reveal: "Poka\u017c odpowied\u017a", hide: "Ukryj odpowied\u017a", ph: "Wpisz tutaj niemieckie t\u0142umaczenie\u2026", ans: "Twoja odpowied\u017a po niemiecku do \u0107wiczenia",
+      day: "Dzie\u0144", level: "Poziom", plural: "Liczba mnoga:", copyJson: "Kopiuj JSON", jsonCopied: "JSON skopiowany", copyFailed: "Kopiowanie nie powiod\u0142o si\u0119",
+      src: "\u0179r\u00f3d\u0142o oryginalne", play: "Odtw\u00f3rz wymow\u0119", playEx: "Odtw\u00f3rz ten przyk\u0142ad", playAns: "Odtw\u00f3rz niemiecka odpowied\u017a",
+      noVoice: "<strong>Wymowa niedost\u0119pna.</strong> W tej przegl\u0105darce nie ma zainstalowanego niemieckiego g\u0142osu, wi\u0119c przyciski g\u0142o\u015bnika nie zadzia\u0142aj\u0105. Chrome, Edge i Safari na komputerach maj\u0105 niemiecki domy\u015blnie.",
+      noAudio: "Twoja przegl\u0105darka nie obs\u0142uguje odtwarzacza audio.", openAudio: "Otw\u00f3rz plik audio",
+      prev: "\u2039 Poprzednia", next: "Nast\u0119pna \u203a",
+      none: "Nie znaleziono danych lekcji. Dodaj lekcje do challenges.json lub do osadzonego bloku lessons-data."
+    }
+  };
+  var POS_PL = { Noun: "Rzeczownik", Verb: "Czasownik", Adjective: "Przymiotnik", Adverb: "Przys\u0142\u00f3wek", Expression: "Wyra\u017cenie" };
+  var UNITS = { sentence: [["sentence", "sentences"], ["zdanie", "zdania", "zdań"]],
+                exercise: [["exercise", "exercises"], ["\u0107wiczenie", "\u0107wiczenia", "\u0107wicze\u0144"]],
+                word: [["word", "words"], ["s\u0142owo", "s\u0142owa", "s\u0142\u00f3w"]] };
+  function T(k) { return I18N[lang][k] != null ? I18N[lang][k] : I18N.en[k] || ""; }
+  function POS(p) { return lang === "pl" && POS_PL[p] ? POS_PL[p] : p; }
+  function empty(x) { return x == null || x === "" || (Array.isArray(x) && !x.length); }
+  /* {en, pl} object -> the active language, falling back to English silently; plain values pass through. */
+  function tr(v) {
+    if (v && typeof v === "object" && !Array.isArray(v)) {
+      var o = (lang === "pl" && !empty(v.pl)) ? v.pl : v.en;
+      return o == null ? "" : o;
+    }
+    return v == null ? "" : v;
+  }
+  /* an item with en and pl fields (examples, exercises) */
+  function pick(x) { return (lang === "pl" && !empty(x.pl)) ? x.pl : x.en; }
+  function cnt(n, kind) {
+    var u = UNITS[kind][lang === "pl" ? 1 : 0], i;
+    if (lang === "pl") { i = n === 1 ? 0 : (n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2; }
+    else { i = n === 1 ? 0 : 1; }
+    return n + " " + u[i];
+  }
+
+  /* ---------- helpers ---------- */
+  function node(tag, cls, text) {
+    var n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (text != null) n.textContent = text;
+    return n;
+  }
+  function str(v) { return v == null ? "" : String(v); }
+  function plain(t) {
+    return str(t).replace(/\*\*(.+?)\*\*/g, "$1").replace(/\[\[([^\]|]+)\|[^\]]+\]\]/g, "$1");
+  }
+  function pad3(n) { n = String(n); while (n.length < 3) n = "0" + n; return n; }
+  function list(v) { return Array.isArray(v) ? v : []; }
+
+  var TOKEN = /\*\*(.+?)\*\*|\[\[([^\]|]+)\|([^\]]+)\]\]/g;
+  /* **text** becomes a highlight; [[surface|id]] becomes a vocabulary word. */
+  function inline(host, text, vocabIndex, used) {
+    var s = str(text), last = 0, m;
+    TOKEN.lastIndex = 0;
+    while ((m = TOKEN.exec(s))) {
+      if (m.index > last) host.appendChild(document.createTextNode(s.slice(last, m.index)));
+      if (m[1] !== undefined) {
+        host.appendChild(node("em", null, m[1]));
+      } else if (vocabIndex === undefined) {
+        host.appendChild(document.createTextNode(m[2]));
+      } else {
+        var id = m[3].trim();
+        if (vocabIndex[id]) { host.appendChild(vocabWord(m[2], id)); if (used) used[id] = true; }
+        else {
+          host.appendChild(document.createTextNode(m[2]));
+          problems.push('Vocabulary id "' + id + '" is used in the text but missing from listening.vocab.');
+        }
+      }
+      last = TOKEN.lastIndex;
+    }
+    if (last < s.length) host.appendChild(document.createTextNode(s.slice(last)));
+  }
+
+  function copyText(text, done) {
+    function fallback() {
+      var ta = document.createElement("textarea");
+      ta.value = text; ta.setAttribute("readonly", "");
+      ta.style.position = "fixed"; ta.style.opacity = "0";
+      document.body.appendChild(ta); ta.select();
+      var ok = false;
+      try { ok = document.execCommand("copy"); } catch (e) {}
+      document.body.removeChild(ta);
+      return ok;
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(function () { done(true); }, function () { done(fallback()); });
+    } else { done(fallback()); }
+  }
+
+  /* ---------- pronunciation (browser speech engine) ---------- */
+  var MIC_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5z"></path>' +
+    '<path class="pulse" d="M15.5 8.5a5 5 0 0 1 0 7"></path><path class="pulse" d="M18.5 5.5a9 9 0 0 1 0 13"></path></svg>';
+  var synth = window.speechSynthesis || null;
+  var germanVoice = null;
+  function pickVoice() {
+    if (!synth) return null;
+    var vs = synth.getVoices() || [];
+    germanVoice = vs.filter(function (v) { return /^de(-|_|$)/i.test(v.lang); })[0] || null;
+    return germanVoice;
+  }
+  if (synth) { pickVoice(); if (synth.addEventListener) synth.addEventListener("voiceschanged", pickVoice); }
+  function stopSpeech() { if (synth) { try { synth.cancel(); } catch (e) {} } }
+  function noVoiceNotice() { $("noVoice").hidden = false; }
+  function micBtn(text, label) {
+    var b = node("button", "mic");
+    b.type = "button";
+    b.setAttribute("aria-pressed", "false");
+    b.setAttribute("aria-label", label + ": " + plain(text));
+    b.title = T("play");
+    b.innerHTML = MIC_SVG;
+    b.addEventListener("click", function (ev) {
+      ev.stopPropagation();
+      if (!synth) { b.disabled = true; b.title = "Speech is not available in this browser"; noVoiceNotice(); return; }
+      if (b.getAttribute("aria-pressed") === "true") { stopSpeech(); b.setAttribute("aria-pressed", "false"); return; }
+      stopSpeech();
+      if (!germanVoice) pickVoice();
+      var u = new SpeechSynthesisUtterance(plain(text));
+      u.lang = "de-DE";
+      if (germanVoice) u.voice = germanVoice;
+      u.rate = 0.92; u.pitch = 1;
+      b.setAttribute("aria-pressed", "true");
+      var off = function () { b.setAttribute("aria-pressed", "false"); };
+      u.onend = off;
+      u.onerror = function () { off(); noVoiceNotice(); };
+      synth.speak(u);
+      if (!synth.getVoices().length) noVoiceNotice();
+    });
+    return b;
+  }
+
+  /* ---------- header ---------- */
+  function renderHeader() {
+    var meta = $("lesson-meta");
+    if (lesson.date) meta.appendChild(node("span", null, lesson.date));
+    if (lesson.day) meta.appendChild(node("span", null, T("day") + " " + pad3(lesson.day) + (lesson.totalDays ? " / " + pad3(lesson.totalDays) : "")));
+    if (lesson.level) meta.appendChild(node("span", null, T("level") + " " + lesson.level));
+    $("lesson-title").textContent = tr(lesson.title);
+    if (lesson.subtitle) { var st = $("lesson-subtitle"); st.textContent = lesson.subtitle; st.hidden = false; }
+    document.title = [lesson.date, tr(lesson.title)].filter(Boolean).join(" \u2014 ") + " | Deutsch Lernen";
+    ["id", "date", "title"].forEach(function (k) { if (!lesson[k]) problems.push('lesson.' + k + ' is missing.'); });
+  }
+
+  /* ---------- 1 · Grammar: whitelist sanitiser ---------- */
+  var ALLOWED = { H3:1, H4:1, P:1, STRONG:1, B:1, EM:1, I:1, UL:1, OL:1, LI:1, TABLE:1, THEAD:1, TBODY:1,
+                  TR:1, TH:1, TD:1, DIV:1, SPAN:1, BR:1, SMALL:1 };
+  var DROP = { SCRIPT:1, STYLE:1, IFRAME:1, OBJECT:1, EMBED:1, LINK:1, META:1, FORM:1, INPUT:1, BUTTON:1,
+               TEXTAREA:1, SELECT:1, SVG:1, IMG:1, VIDEO:1, AUDIO:1, CANVAS:1 };
+  var CLASSES = { box:1, rule:1, warn:1, tip:1, tiles:1, tile:1, de:1 };
+  var removed = {};
+  function note(what) { removed[what] = true; }
+
+  function clean(parent) {
+    Array.prototype.slice.call(parent.childNodes).forEach(function (ch) {
+      if (ch.nodeType === 3) return;
+      if (ch.nodeType !== 1) { parent.removeChild(ch); return; }
+      var tag = ch.tagName;
+      if (DROP[tag]) { parent.removeChild(ch); note("<" + tag.toLowerCase() + ">"); return; }
+      if (tag === "H1" || tag === "H2") {
+        var h = document.createElement("h3");
+        while (ch.firstChild) h.appendChild(ch.firstChild);
+        parent.replaceChild(h, ch); ch = h; tag = "H3"; note("<h1>/<h2> (converted to <h3>)");
+      }
+      if (!ALLOWED[tag]) {
+        clean(ch);
+        while (ch.firstChild) parent.insertBefore(ch.firstChild, ch);
+        parent.removeChild(ch); note("<" + tag.toLowerCase() + ">");
+        return;
+      }
+      Array.prototype.slice.call(ch.attributes).forEach(function (a) {
+        var n = a.name.toLowerCase();
+        if (n === "class") {
+          var orig = a.value.split(/\s+/).filter(Boolean);
+          var keep = orig.filter(function (c) { return CLASSES[c]; });
+          if (keep.length) ch.setAttribute("class", keep.join(" ")); else ch.removeAttribute("class");
+          if (keep.length !== orig.length) note("unknown class names");
+        } else if ((n === "colspan" || n === "rowspan") && (tag === "TD" || tag === "TH") && /^\d{1,2}$/.test(a.value)) {
+          /* allowed */
+        } else { ch.removeAttribute(a.name); note(n + " attribute"); }
+      });
+      clean(ch);
+    });
+  }
+
+  function renderGrammar() {
+    var g = data.grammar && tr(data.grammar.html);
+    var html = Array.isArray(g) ? g.join("\n") : str(g);
+    if (!html.trim()) { problems.push("grammar.html is empty."); return; }
+    var doc = new DOMParser().parseFromString("<body>" + html + "</body>", "text/html");
+    clean(doc.body);
+    Array.prototype.forEach.call(doc.body.querySelectorAll("table"), function (t) {
+      var w = doc.createElement("div"); w.className = "tablewrap";
+      t.parentNode.insertBefore(w, t); w.appendChild(t);
+    });
+    $("grammar-body").innerHTML = doc.body.innerHTML;
+    var r = Object.keys(removed);
+    if (r.length) problems.push("Grammar HTML used elements outside the allowed set and they were removed: " + r.join(", ") + ".");
+  }
+
+  /* ---------- 2 · Examples ---------- */
+  function renderExamples() {
+    var host = $("examples-list"), items = list(data.examples);
+    if (!items.length) problems.push("examples is empty.");
+    var n = 0;
+    items.forEach(function (x, i) {
+      if (!x || typeof x.de !== "string" || typeof x.en !== "string") { problems.push("examples[" + i + "] needs \"de\" and \"en\"."); return; }
+      n++;
+      var card = node("div", "ex"), row = node("div", "microw"), txt = node("div", "mtext"), de = node("div", "de");
+      inline(de, x.de);
+      txt.appendChild(de); txt.appendChild(node("div", "en", pick(x)));
+      row.appendChild(txt); row.appendChild(micBtn(x.de, T("playEx")));
+      card.appendChild(row); host.appendChild(card);
+    });
+    $("examples-count").textContent = cnt(n, "sentence");
+  }
+
+  /* ---------- 3 · Exercises ---------- */
+  var KEYS = ["\u00e4", "\u00f6", "\u00fc", "\u00c4", "\u00d6", "\u00dc", "\u00df", "\u20ac"];
+  var KEY_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="5" width="20" height="14"></rect>' +
+    '<path d="M6 9h.01M10 9h.01M14 9h.01M18 9h.01M6 13h.01M10 13h.01M14 13h.01M18 13h.01M8 16h8"></path></svg>';
+  function insertAt(input, ch) {
+    var v = input.value;
+    var a = input.selectionStart == null ? v.length : input.selectionStart;
+    var b = input.selectionEnd == null ? v.length : input.selectionEnd;
+    input.value = v.slice(0, a) + ch + v.slice(b);
+    var pos = a + ch.length;
+    try { input.setSelectionRange(pos, pos); } catch (e) {}
+    input.focus();
+  }
+
+  function renderExercises() {
+    var host = $("quiz"), items = list(data.exercises), pads = [], n = 0;
+    if (!items.length) problems.push("exercises is empty.");
+    function closePads(except) {
+      pads.forEach(function (p) {
+        if (p.panel === except) return;
+        p.panel.classList.remove("open"); p.btn.setAttribute("aria-expanded", "false");
+      });
+    }
+    closePadsFn = closePads;
+
+    items.forEach(function (e, i) {
+      if (!e || typeof e.en !== "string" || typeof e.de !== "string") { problems.push("exercises[" + i + "] needs \"en\" and \"de\"."); return; }
+      n++;
+      var id = n;
+      var card = node("article", "q");
+      card.id = "q" + id;
+
+      var top = node("div", "qtop");
+      top.appendChild(node("span", "qnum", String(id)));
+      top.appendChild(node("span", "qtext", pick(e)));
+      card.appendChild(top);
+
+      var row = node("div", "inputrow");
+      var input = document.createElement("input");
+      input.type = "text"; input.className = "ainput"; input.lang = "de";
+      input.placeholder = T("ph");
+      input.setAttribute("aria-label", T("ans") + " " + id);
+      input.setAttribute("autocomplete", "off");
+      input.setAttribute("autocapitalize", "off");
+      input.spellcheck = false;
+      input.value = state.answers[id] || "";
+      input.addEventListener("input", function () { state.answers[id] = input.value; save(); });
+      row.appendChild(input);
+
+      var kb = node("button", "keybtn");
+      kb.type = "button"; kb.title = "German letters";
+      kb.setAttribute("aria-label", "Insert German special characters");
+      kb.setAttribute("aria-expanded", "false");
+      kb.innerHTML = KEY_SVG;
+      row.appendChild(kb);
+      card.appendChild(row);
+
+      var pad = node("div", "pad");
+      KEYS.forEach(function (k) {
+        var key = node("button", "padkey", k);
+        key.type = "button";
+        key.addEventListener("click", function (ev) {
+          ev.stopPropagation();
+          insertAt(input, k);
+          state.answers[id] = input.value; save();
+        });
+        pad.appendChild(key);
+      });
+      card.appendChild(pad);
+      pads.push({ panel: pad, btn: kb });
+      kb.addEventListener("click", function (ev) {
+        ev.stopPropagation();
+        var open = pad.classList.toggle("open");
+        kb.setAttribute("aria-expanded", open ? "true" : "false");
+        closePads(pad);
+      });
+
+      var rb = node("button", "btn rev");
+      rb.type = "button";
+      card.appendChild(rb);
+
+      var fb = node("div", "fb");
+      var ans = node("div", "microw ansrow"), at = node("div", "mtext", e.de);
+      ans.appendChild(at); ans.appendChild(micBtn(e.de, T("playAns")));
+      fb.appendChild(ans);
+      card.appendChild(fb);
+
+      function sync() {
+        var on = !!state.revealed[id];
+        fb.hidden = !on;
+        rb.textContent = on ? T("hide") : T("reveal");
+        rb.setAttribute("aria-expanded", on ? "true" : "false");
+        rb.classList.toggle("on", on);
+        card.classList.toggle("revealed", on);
+      }
+      rb.addEventListener("click", function () { state.revealed[id] = !state.revealed[id]; save(); sync(); });
+      sync();
+      host.appendChild(card);
+    });
+    $("exercises-count").textContent = cnt(n, "exercise");
+  }
+
+  /* ---------- 4 · Listening ---------- */
+  var vocabIndex = {}, closePadsFn = null;
+  var currentVocab = null, lastFocus = null;
+  var modal = $("vocab-modal");
+
+  function vocabWord(surface, id) {
+    var s = node("span", "vocab-word", surface);
+    s.tabIndex = 0;
+    s.setAttribute("role", "button");
+    s.setAttribute("data-id", id);
+    s.addEventListener("click", function () { openVocab(id, s); });
+    s.addEventListener("keydown", function (e) {
+      if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openVocab(id, s); }
+    });
+    return s;
+  }
+  function openVocab(id, trigger) {
+    var v = vocabIndex[id];
+    if (!v) return;
+    currentVocab = v; lastFocus = trigger || document.activeElement;
+    $("m-title").textContent = str(v.word);
+    var meta = $("m-meta"); meta.textContent = "";
+    [POS(v.partOfSpeech), v.level, v.plural ? T("plural") + " " + v.plural : ""].filter(Boolean).forEach(function (t) {
+      meta.appendChild(node("span", null, t));
+    });
+    meta.hidden = !meta.firstChild;
+    $("m-trans").textContent = str(tr(v.translation));
+    var notes = $("m-notes"); var nt = str(tr(v.notes)); notes.textContent = nt; notes.hidden = !nt;
+    var ul = $("m-examples"); ul.textContent = "";
+    list(v.examples).forEach(function (t) { ul.appendChild(node("li", null, t)); });
+    $("m-examples-wrap").hidden = !list(v.examples).length;
+    modal.hidden = false;
+    $("modal-close").focus();
+  }
+  function closeVocab() {
+    modal.hidden = true;
+    if (lastFocus && lastFocus.focus) lastFocus.focus();
+  }
+  $("modal-close").addEventListener("click", closeVocab);
+  modal.addEventListener("click", function (e) { if (e.target === modal) closeVocab(); });
+  document.addEventListener("keydown", function (e) {
+    if (modal.hidden) return;
+    if (e.key === "Escape") { closeVocab(); return; }
+    if (e.key === "Tab") {
+      var a = $("modal-close"), b = $("copy-json-btn");
+      if (e.shiftKey && document.activeElement === a) { e.preventDefault(); b.focus(); }
+      else if (!e.shiftKey && document.activeElement === b) { e.preventDefault(); a.focus(); }
+    }
+  });
+  $("copy-json-btn").addEventListener("click", function () {
+    var btn = $("copy-json-btn"), old = T("copyJson");
+    copyText(JSON.stringify(currentVocab, null, 2), function (ok) {
+      btn.textContent = ok ? T("jsonCopied") : T("copyFailed");
+      setTimeout(function () { btn.textContent = old; }, 2000);
+    });
+  });
+
+  function renderListening() {
+    var L = data.listening || {};
+    var audio = $("audio");
+    if (L.audioUrl) {
+      $("audio-fallback").setAttribute("href", L.audioUrl);
+      if ($("audio-src").getAttribute("src") !== L.audioUrl) { $("audio-src").setAttribute("src", L.audioUrl); audio.load(); }
+    } else {
+      $("audio-wrap").hidden = true;
+      problems.push("listening.audioUrl is empty.");
+    }
+
+    list(L.vocab).forEach(function (v, i) {
+      if (!v || v.id == null || !v.word || !v.translation) { problems.push("listening.vocab[" + i + "] needs id, word and translation."); return; }
+      var key = String(v.id);
+      if (vocabIndex[key]) problems.push('Vocabulary id "' + key + '" is defined twice.');
+      vocabIndex[key] = v;
+    });
+
+    var used = {}, host = $("articles"), arts = list(L.articles);
+    if (!arts.length) problems.push("listening.articles is empty.");
+    arts.forEach(function (a, i) {
+      if (!a || typeof a.text !== "string") { problems.push("listening.articles[" + i + "] needs \"text\"."); return; }
+      var art = node("article", "story");
+      if (a.heading) { var h = node("h3"); inline(h, a.heading, vocabIndex, used); art.appendChild(h); }
+      a.text.split(/\n\s*\n/).forEach(function (para) {
+        if (!para.trim()) return;
+        var p = node("p"); inline(p, para.trim(), vocabIndex, used); art.appendChild(p);
+      });
+      host.appendChild(art);
+    });
+    Object.keys(vocabIndex).forEach(function (k) {
+      if (!used[k]) problems.push('Vocabulary id "' + k + '" is defined but never used in the text.');
+    });
+    var count = Object.keys(vocabIndex).length;
+    $("listening-count").textContent = cnt(count, "word");
+
+    if (L.source && L.source.url) {
+      $("source-link").setAttribute("href", L.source.url);
+      $("source-label").textContent = L.source.label || T("src");
+      $("source").hidden = false;
+    }
+  }
+
+  /* ---------- 5 · Speaking ---------- */
+  function renderSpeaking() {
+    var p = data.speaking && tr(data.speaking.prompt);
+    if (!p || !String(p).trim()) { problems.push("speaking.prompt is empty."); return; }
+    $("prompt").textContent = p;
+    $("copy-status").textContent = "";
+    $("copy-prompt").onclick = function () {
+      copyText(p, function (ok) { $("copy-status").textContent = ok ? T("pcopied") : T("pfail"); });
+    };
+  }
+
+  /* ---------- render, language, lessons ---------- */
+  var RENDERERS = [renderHeader, renderGrammar, renderExamples, renderExercises, renderListening, renderSpeaking];
+  function renderAll() {
+    problems = []; removed = {}; vocabIndex = {};
+    ["lesson-meta", "grammar-body", "examples-list", "quiz", "articles", "prompt"].forEach(function (id) { $(id).textContent = ""; });
+    $("lesson-title").textContent = ""; $("lesson-subtitle").hidden = true;
+    $("source").hidden = true; $("audio-wrap").hidden = false;
+    RENDERERS.forEach(function (fn) {
+      try { fn(); } catch (e) { problems.push(fn.name + " failed: " + e.message); }
+    });
+    showProblems();
+  }
+  function showProblems() {
+    var box = $("data-error"); box.textContent = "";
+    if (!problems.length) { box.hidden = true; return; }
+    box.appendChild(node("strong", null, "This lesson's data needs attention."));
+    var ul = node("ul");
+    problems.forEach(function (t) { ul.appendChild(node("li", null, t)); });
+    box.appendChild(ul); box.hidden = false;
+  }
+  function applyStatic() {
+    document.documentElement.lang = lang;
+    Array.prototype.forEach.call(document.querySelectorAll("[data-i18n]"), function (el) { el.innerHTML = T(el.getAttribute("data-i18n")); });
+    Array.prototype.forEach.call(document.querySelectorAll(".lang-btn"), function (b) {
+      b.setAttribute("aria-pressed", b.getAttribute("data-lang") === lang ? "true" : "false");
+    });
+  }
+  function buildPicker() {
+    var sel = $("lesson-select"); sel.textContent = "";
+    lessons.forEach(function (d, i) {
+      var l = d.lesson || {}, o = document.createElement("option");
+      o.value = String(i);
+      o.textContent = (l.day ? pad3(l.day) + " \u00b7 " : "") + str(tr(l.title));
+      sel.appendChild(o);
+    });
+    sel.value = String(cur);
+    $("prev-lesson").disabled = cur <= 0;
+    $("next-lesson").disabled = cur >= lessons.length - 1;
+    $("picker").hidden = lessons.length < 2;
+  }
+  function setLesson(i) {
+    cur = i; data = lessons[i]; lesson = data.lesson || {};
+    STORE = "deutsch_challenge_" + (lesson.id || "draft");
+    loadState(); stopSpeech();
+    try { $("audio").pause(); } catch (e) {}
+    buildPicker(); renderAll(); window.scrollTo(0, 0);
+  }
+  $("lesson-select").addEventListener("change", function () { setLesson(parseInt(this.value, 10) || 0); });
+  $("prev-lesson").addEventListener("click", function () { if (cur > 0) setLesson(cur - 1); });
+  $("next-lesson").addEventListener("click", function () { if (cur < lessons.length - 1) setLesson(cur + 1); });
+  document.addEventListener("click", function () { if (closePadsFn) closePadsFn(null); });
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape" && closePadsFn) closePadsFn(null); });
+  Array.prototype.forEach.call(document.querySelectorAll(".lang-btn"), function (b) {
+    b.addEventListener("click", function () {
+      var nl = b.getAttribute("data-lang");
+      if (nl === lang) return;
+      lang = nl;
+      try { localStorage.setItem("deutsch_lang", lang); } catch (e) {}
+      modal.hidden = true; stopSpeech();
+      var y = window.scrollY;
+      applyStatic();
+      if (lessons.length) { buildPicker(); renderAll(); window.scrollTo({ top: y, behavior: "instant" }); }
+    });
+  });
+
+  /* ---------- loading: challenges.json first, embedded copy as a silent fallback ---------- */
+  function usable(a) {
+    if (a && !Array.isArray(a) && Array.isArray(a.lessons)) a = a.lessons;
+    if (!Array.isArray(a) || !a.length) return null;
+    a = a.filter(function (x) { return x && x.lesson && x.lesson.id; });
+    return a.length ? a : null;
+  }
+  function embedded() {
+    try { return usable(JSON.parse($("lessons-data").textContent)); } catch (e) { return null; }
+  }
+  function fetchLessons() {
+    if (!window.fetch) return Promise.resolve(null);
+    return fetch("challenges.json", { cache: "no-store" })
+      .then(function (r) { if (!r.ok) throw new Error("http"); return r.json(); })
+      .then(usable)
+      .catch(function () { return null; });
+  }
+  applyStatic();
+  fetchLessons().then(function (a) {
+    a = a || embedded();
+    if (!a) { problems.push(T("none")); showProblems(); return; }
+    lessons = a.slice().sort(function (x, y) { return str(x.lesson.id) < str(y.lesson.id) ? -1 : str(x.lesson.id) > str(y.lesson.id) ? 1 : 0; });
+    setLesson(lessons.length - 1);
+  });
+})();
+</script>
+</body>
+</html>
