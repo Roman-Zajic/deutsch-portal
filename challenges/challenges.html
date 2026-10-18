@@ -158,6 +158,14 @@ h2{font-size:1.2rem;line-height:1.3;color:var(--teal-900)}
 .ansrow{padding:8px 10px;background:rgba(80,193,193,.10);border-left:4px solid var(--teal-400)}
 .ansrow .mtext{font-size:.95rem;font-weight:600}
 
+/* check-with-AI row (exercises) */
+.chk{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin-top:10px}
+.chk-label{font-size:.8rem;font-weight:600;color:var(--muted);margin-right:2px}
+.btn.sm{padding:6px 10px;font-size:.78rem;gap:6px}
+.btn.sm svg{width:13px;height:13px}
+.chk-status{margin-top:6px;font-size:.8rem;color:var(--muted)}
+.chk-status:empty{display:none}
+
 /* ---------- 4 · Listening ---------- */
 .audio-wrap{margin-bottom:22px}
 .audio-wrap audio{width:100%}
@@ -250,11 +258,11 @@ h2{font-size:1.2rem;line-height:1.3;color:var(--teal-900)}
     <p class="subtitle" id="lesson-subtitle" hidden></p>
   </header>
 
-  <nav class="jump" aria-label="Lesson sections">
+  <nav class="jump" id="jump" aria-label="Lesson sections">
     <a href="#grammar" data-i18n="grammar">Grammar</a>
     <a href="#examples" data-i18n="examples">Examples</a>
     <a href="#exercises" data-i18n="exercises">Exercises</a>
-    <a href="#listening" data-i18n="listening">Listening</a>
+    <a href="#listening" id="jump-listening" data-i18n="listening">Listening</a>
     <a href="#speaking" data-i18n="speaking">Speaking</a>
   </nav>
 
@@ -349,6 +357,11 @@ h2{font-size:1.2rem;line-height:1.3;color:var(--teal-900)}
  listening    { audioUrl, source?{label,url}, articles[{heading,text}],
                 vocab[{id, word, translation{en,pl}, partOfSpeech, level, plural,
                        notes{en,pl}, examples[2 German sentences]}] }
+              OPTIONAL: on a week without audio, leave audioUrl empty and articles
+              empty (or drop "listening" entirely). The whole Listening section and
+              its menu link are then hidden silently, with no error. If only one of
+              the two is missing, only that part is hidden. An audioUrl that fails to
+              load is treated as missing.
  speaking.prompt {en, pl}
 ================================================================
 -->
@@ -534,6 +547,13 @@ h2{font-size:1.2rem;line-height:1.3;color:var(--teal-900)}
       copyPrompt: "Copy prompt", openChat: "Open ChatGPT", pcopied: "Prompt copied.",
       pfail: "Copy failed. Select the text above and copy it manually.",
       reveal: "Reveal answer", hide: "Hide answer", ph: "Write the German here\u2026", ans: "Your German answer for exercise",
+      chkLabel: "Check with AI", chkCopy: "Copy prompt", btnGpt: "ChatGPT", btnGem: "Gemini",
+      chkEmpty: "Type your answer first.",
+      chkCopied: "Prompt copied. Paste it into any AI chat.",
+      chkGptOpen: "Opening ChatGPT with your prompt. A copy is also in your clipboard in case it does not fill in.",
+      chkGptPaste: "Prompt copied. Paste it into ChatGPT (Ctrl+V).",
+      chkGemOpen: "Prompt copied. Paste it into Gemini (Ctrl+V).",
+      chkFail: "Copy failed. Try again.",
       day: "Day", level: "Level", plural: "Plural:", copyJson: "Copy JSON", jsonCopied: "JSON copied", copyFailed: "Copy failed",
       src: "Original source", play: "Play pronunciation", playEx: "Play this example", playAns: "Play the German answer",
       noVoice: "<strong>Pronunciation unavailable.</strong> This browser has no German speech voice installed, so the speaker buttons will not play. Chrome, Edge and Safari on desktop include German by default.",
@@ -550,6 +570,13 @@ h2{font-size:1.2rem;line-height:1.3;color:var(--teal-900)}
       copyPrompt: "Kopiuj prompt", openChat: "Otw\u00f3rz ChatGPT", pcopied: "Prompt skopiowany.",
       pfail: "Nie uda\u0142o si\u0119 skopiowa\u0107. Zaznacz tekst powy\u017cej i skopiuj go r\u0119cznie.",
       reveal: "Poka\u017c odpowied\u017a", hide: "Ukryj odpowied\u017a", ph: "Wpisz tutaj niemieckie t\u0142umaczenie\u2026", ans: "Twoja odpowied\u017a po niemiecku do \u0107wiczenia",
+      chkLabel: "Sprawd\u017a z AI", chkCopy: "Kopiuj prompt", btnGpt: "ChatGPT", btnGem: "Gemini",
+      chkEmpty: "Najpierw wpisz odpowied\u017a.",
+      chkCopied: "Prompt skopiowany. Wklej go w dowolnym czacie AI.",
+      chkGptOpen: "Otwieram ChatGPT z gotowym promptem. Kopia jest te\u017c w schowku, gdyby si\u0119 nie wpisa\u0142.",
+      chkGptPaste: "Prompt skopiowany. Wklej go w ChatGPT (Ctrl+V).",
+      chkGemOpen: "Prompt skopiowany. Wklej go w Gemini (Ctrl+V).",
+      chkFail: "Nie uda\u0142o si\u0119 skopiowa\u0107. Spr\u00f3buj ponownie.",
       day: "Dzie\u0144", level: "Poziom", plural: "Liczba mnoga:", copyJson: "Kopiuj JSON", jsonCopied: "JSON skopiowany", copyFailed: "Kopiowanie nie powiod\u0142o si\u0119",
       src: "\u0179r\u00f3d\u0142o oryginalne", play: "Odtw\u00f3rz wymow\u0119", playEx: "Odtw\u00f3rz ten przyk\u0142ad", playAns: "Odtw\u00f3rz niemiecka odpowied\u017a",
       noVoice: "<strong>Wymowa niedost\u0119pna.</strong> W tej przegl\u0105darce nie ma zainstalowanego niemieckiego g\u0142osu, wi\u0119c przyciski g\u0142o\u015bnika nie zadzia\u0142aj\u0105. Chrome, Edge i Safari na komputerach maj\u0105 niemiecki domy\u015blnie.",
@@ -634,6 +661,14 @@ h2{font-size:1.2rem;line-height:1.3;color:var(--teal-900)}
     if (navigator.clipboard && navigator.clipboard.writeText) {
       navigator.clipboard.writeText(text).then(function () { done(true); }, function () { done(fallback()); });
     } else { done(fallback()); }
+  }
+
+  /* open a link in a new tab from inside a click handler (not blocked by pop-up blockers) */
+  function openExternal(url) {
+    var a = document.createElement("a");
+    a.href = url; a.target = "_blank"; a.rel = "noopener noreferrer";
+    a.style.display = "none";
+    document.body.appendChild(a); a.click(); document.body.removeChild(a);
   }
 
   /* ---------- pronunciation (browser speech engine) ---------- */
@@ -766,6 +801,8 @@ h2{font-size:1.2rem;line-height:1.3;color:var(--teal-900)}
   var KEYS = ["\u00e4", "\u00f6", "\u00fc", "\u00c4", "\u00d6", "\u00dc", "\u00df", "\u20ac"];
   var KEY_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="5" width="20" height="14"></rect>' +
     '<path d="M6 9h.01M10 9h.01M14 9h.01M18 9h.01M6 13h.01M10 13h.01M14 13h.01M18 13h.01M8 16h8"></path></svg>';
+  var COPY_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="9" width="13" height="13"></rect><path d="M5 15H2V2h13v3"></path></svg>';
+  var EXT_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 13v6H5V8h6"></path><path d="M15 3h6v6"></path><path d="M10 14L21 3"></path></svg>';
   function insertAt(input, ch) {
     var v = input.value;
     var a = input.selectionStart == null ? v.length : input.selectionStart;
@@ -774,6 +811,33 @@ h2{font-size:1.2rem;line-height:1.3;color:var(--teal-900)}
     var pos = a + ch.length;
     try { input.setSelectionRange(pos, pos); } catch (e) {}
     input.focus();
+  }
+
+  /* prompt sent to ChatGPT / Gemini to correct the learner's answer */
+  function buildCheckPrompt(source, answer, model) {
+    var L = lang === "pl" ? "Polish" : "English";
+    return [
+      "You are a friendly, precise German teacher. A learner translated a sentence into German.",
+      "",
+      "Original sentence (" + L + "): " + source,
+      "Learner's German answer: " + answer,
+      "Reference translation (one possible correct version): " + model,
+      "",
+      "Please reply with:",
+      "1. Corrected sentence: the learner's answer with as few changes as possible. If it is already correct, say so. A different wording is fine if it is correct German and keeps the meaning.",
+      "2. Level: the CEFR level (A1, A2, B1, B2, C1 or C2) of the learner's sentence, with one short reason.",
+      "3. Errors: every mistake, one per line. Quote the wrong part, give the fix and explain the rule briefly. Include spelling, capitalisation, umlauts and punctuation. If there are no errors, write \"No errors\".",
+      "",
+      "Write your explanations in " + L + ". Keep the German sentences in German. Be concise."
+    ].join("\n");
+  }
+  function chkBtn(label, svg, onClick) {
+    var b = node("button", "btn sm");
+    b.type = "button";
+    b.innerHTML = svg;
+    b.appendChild(node("span", null, label));
+    b.addEventListener("click", function (ev) { ev.stopPropagation(); onClick(); });
+    return b;
   }
 
   function renderExercises() {
@@ -839,6 +903,42 @@ h2{font-size:1.2rem;line-height:1.3;color:var(--teal-900)}
         closePads(pad);
       });
 
+      /* check with AI: copy a ready-made prompt, or open ChatGPT / Gemini with it */
+      var chk = node("div", "chk");
+      chk.appendChild(node("span", "chk-label", T("chkLabel")));
+      var cst = node("p", "chk-status");
+      cst.setAttribute("role", "status"); cst.setAttribute("aria-live", "polite");
+      var cTimer = 0;
+      function say(msg) {
+        cst.textContent = msg;
+        clearTimeout(cTimer);
+        cTimer = setTimeout(function () { cst.textContent = ""; }, 6000);
+      }
+      function promptNow() {
+        var a = input.value.trim();
+        if (!a) { say(T("chkEmpty")); input.focus(); return null; }
+        return buildCheckPrompt(pick(e), a, e.de);
+      }
+      chk.appendChild(chkBtn(T("chkCopy"), COPY_SVG, function () {
+        var p = promptNow(); if (!p) return;
+        copyText(p, function (ok) { say(ok ? T("chkCopied") : T("chkFail")); });
+      }));
+      chk.appendChild(chkBtn(T("btnGpt"), EXT_SVG, function () {
+        var p = promptNow(); if (!p) return;
+        var url = "https://chatgpt.com/?q=" + encodeURIComponent(p), tooLong = url.length > 6000;
+        copyText(p, function (ok) { if (!ok) say(T("chkFail")); });
+        openExternal(tooLong ? "https://chatgpt.com/" : url);
+        say(tooLong ? T("chkGptPaste") : T("chkGptOpen"));
+      }));
+      chk.appendChild(chkBtn(T("btnGem"), EXT_SVG, function () {
+        var p = promptNow(); if (!p) return;
+        copyText(p, function (ok) { if (!ok) say(T("chkFail")); });
+        openExternal("https://gemini.google.com/app");
+        say(T("chkGemOpen"));
+      }));
+      card.appendChild(chk);
+      card.appendChild(cst);
+
       var rb = node("button", "btn rev");
       rb.type = "button";
       card.appendChild(rb);
@@ -868,6 +968,21 @@ h2{font-size:1.2rem;line-height:1.3;color:var(--teal-900)}
   var vocabIndex = {}, closePadsFn = null;
   var currentVocab = null, lastFocus = null;
   var modal = $("vocab-modal");
+  /* Listening is optional: hidden silently when there is neither playable audio nor text. */
+  var hasAudio = false, hasText = false, audioFailedUrl = "";
+
+  function syncListening() {
+    var show = hasAudio || hasText;
+    $("listening").hidden = !show;
+    $("jump-listening").hidden = !show;
+    $("audio-wrap").hidden = !hasAudio;
+    $("jump").style.gridTemplateColumns = "repeat(" + (show ? 5 : 4) + ",1fr)";
+  }
+  $("audio-src").addEventListener("error", function () {
+    audioFailedUrl = $("audio-src").getAttribute("src") || "";
+    hasAudio = false;
+    syncListening();
+  });
 
   function vocabWord(surface, id) {
     var s = node("span", "vocab-word", surface);
@@ -923,45 +1038,52 @@ h2{font-size:1.2rem;line-height:1.3;color:var(--teal-900)}
 
   function renderListening() {
     var L = data.listening || {};
-    var audio = $("audio");
-    if (L.audioUrl) {
-      $("audio-fallback").setAttribute("href", L.audioUrl);
-      if ($("audio-src").getAttribute("src") !== L.audioUrl) { $("audio-src").setAttribute("src", L.audioUrl); audio.load(); }
-    } else {
-      $("audio-wrap").hidden = true;
-      problems.push("listening.audioUrl is empty.");
+    var audio = $("audio"), url = str(L.audioUrl).trim();
+    var arts = list(L.articles).filter(function (a) { return a && typeof a.text === "string" && a.text.trim(); });
+
+    hasText = arts.length > 0;
+    hasAudio = !!url && url !== audioFailedUrl;
+
+    if (url) {
+      $("audio-fallback").setAttribute("href", url);
+      if ($("audio-src").getAttribute("src") !== url) { $("audio-src").setAttribute("src", url); audio.load(); }
+    } else if ($("audio-src").getAttribute("src")) {
+      $("audio-src").removeAttribute("src");
+      try { audio.load(); } catch (e) {}
     }
 
-    list(L.vocab).forEach(function (v, i) {
-      if (!v || v.id == null || !v.word || !v.translation) { problems.push("listening.vocab[" + i + "] needs id, word and translation."); return; }
-      var key = String(v.id);
-      if (vocabIndex[key]) problems.push('Vocabulary id "' + key + '" is defined twice.');
-      vocabIndex[key] = v;
-    });
-
-    var used = {}, host = $("articles"), arts = list(L.articles);
-    if (!arts.length) problems.push("listening.articles is empty.");
-    arts.forEach(function (a, i) {
-      if (!a || typeof a.text !== "string") { problems.push("listening.articles[" + i + "] needs \"text\"."); return; }
-      var art = node("article", "story");
-      if (a.heading) { var h = node("h3"); inline(h, a.heading, vocabIndex, used); art.appendChild(h); }
-      a.text.split(/\n\s*\n/).forEach(function (para) {
-        if (!para.trim()) return;
-        var p = node("p"); inline(p, para.trim(), vocabIndex, used); art.appendChild(p);
+    var count = 0;
+    if (hasText) {
+      list(L.vocab).forEach(function (v, i) {
+        if (!v || v.id == null || !v.word || !v.translation) { problems.push("listening.vocab[" + i + "] needs id, word and translation."); return; }
+        var key = String(v.id);
+        if (vocabIndex[key]) problems.push('Vocabulary id "' + key + '" is defined twice.');
+        vocabIndex[key] = v;
       });
-      host.appendChild(art);
-    });
-    Object.keys(vocabIndex).forEach(function (k) {
-      if (!used[k]) problems.push('Vocabulary id "' + k + '" is defined but never used in the text.');
-    });
-    var count = Object.keys(vocabIndex).length;
-    $("listening-count").textContent = cnt(count, "word");
 
-    if (L.source && L.source.url) {
+      var used = {}, host = $("articles");
+      arts.forEach(function (a) {
+        var art = node("article", "story");
+        if (a.heading) { var h = node("h3"); inline(h, a.heading, vocabIndex, used); art.appendChild(h); }
+        a.text.split(/\n\s*\n/).forEach(function (para) {
+          if (!para.trim()) return;
+          var p = node("p"); inline(p, para.trim(), vocabIndex, used); art.appendChild(p);
+        });
+        host.appendChild(art);
+      });
+      Object.keys(vocabIndex).forEach(function (k) {
+        if (!used[k]) problems.push('Vocabulary id "' + k + '" is defined but never used in the text.');
+      });
+      count = Object.keys(vocabIndex).length;
+    }
+    $("listening-count").textContent = count ? cnt(count, "word") : "";
+
+    if (L.source && L.source.url && (hasAudio || hasText)) {
       $("source-link").setAttribute("href", L.source.url);
       $("source-label").textContent = L.source.label || T("src");
       $("source").hidden = false;
     }
+    syncListening();
   }
 
   /* ---------- 5 · Speaking ---------- */
@@ -981,7 +1103,8 @@ h2{font-size:1.2rem;line-height:1.3;color:var(--teal-900)}
     problems = []; removed = {}; vocabIndex = {};
     ["lesson-meta", "grammar-body", "examples-list", "quiz", "articles", "prompt"].forEach(function (id) { $(id).textContent = ""; });
     $("lesson-title").textContent = ""; $("lesson-subtitle").hidden = true;
-    $("source").hidden = true; $("audio-wrap").hidden = false;
+    $("source").hidden = true;
+    $("listening").hidden = false; $("jump-listening").hidden = false; $("audio-wrap").hidden = false;
     RENDERERS.forEach(function (fn) {
       try { fn(); } catch (e) { problems.push(fn.name + " failed: " + e.message); }
     });
