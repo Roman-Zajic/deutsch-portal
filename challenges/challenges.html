@@ -139,10 +139,11 @@ h2{font-size:1.2rem;line-height:1.3;color:var(--teal-900)}
 .qtext{flex:1;min-width:0;font-size:.97rem}
 .q.revealed{border-color:var(--teal-400)}
 .inputrow{display:flex;gap:6px}
-.ainput{flex:1;min-width:0;font-family:var(--font);font-size:.95rem;color:var(--ink);background:var(--tint);
-  border:1px solid var(--border);padding:8px 11px;transition:border-color 130ms}
+.ainput{flex:1;min-width:0;display:block;min-height:38px;resize:none;overflow:hidden;font-family:var(--font);font-size:.95rem;
+  line-height:1.35;color:var(--ink);background:var(--tint);border:1px solid var(--border);padding:8px 11px;
+  overflow-wrap:anywhere;transition:border-color 130ms}
 .ainput:focus{outline:none;border-color:var(--teal-700);background:#fff;box-shadow:0 0 0 2px rgba(80,193,193,.35)}
-.keybtn{flex-shrink:0;width:34px;display:inline-flex;align-items:center;justify-content:center;padding:0;cursor:pointer;
+.keybtn{flex-shrink:0;width:34px;height:38px;align-self:flex-start;display:inline-flex;align-items:center;justify-content:center;padding:0;cursor:pointer;
   color:var(--teal-900);background:rgba(80,193,193,.16);border:1px solid rgba(80,193,193,.55)}
 .keybtn:hover{background:rgba(80,193,193,.32)}
 .keybtn svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:square;stroke-linejoin:miter;pointer-events:none}
@@ -152,17 +153,15 @@ h2{font-size:1.2rem;line-height:1.3;color:var(--teal-900)}
 .padkey{font-family:var(--font);font-size:.95rem;font-weight:600;color:var(--teal-900);background:var(--card);
   border:1px solid var(--border);min-width:36px;height:34px;cursor:pointer}
 .padkey:hover{background:var(--teal-400);border-color:var(--teal-400)}
-.btn.rev{margin-top:10px}
+.qbtns{display:flex;flex-wrap:wrap;align-items:stretch;gap:6px;margin-top:10px}
+.btn.ico{padding:8px 10px}
+.btn.ico svg{pointer-events:none}
 .btn.rev.on{background:rgba(0,90,90,.10);border-color:var(--teal-700)}
 .fb{margin-top:10px;padding-top:10px;border-top:1px solid var(--border)}
 .ansrow{padding:8px 10px;background:rgba(80,193,193,.10);border-left:4px solid var(--teal-400)}
 .ansrow .mtext{font-size:.95rem;font-weight:600}
 
-/* check-with-AI row (exercises) */
-.chk{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin-top:10px}
-.chk-label{font-size:.8rem;font-weight:600;color:var(--muted);margin-right:2px}
-.btn.sm{padding:6px 10px;font-size:.78rem;gap:6px}
-.btn.sm svg{width:13px;height:13px}
+/* feedback line under the reveal row (exercises) */
 .chk-status{margin-top:6px;font-size:.8rem;color:var(--muted)}
 .chk-status:empty{display:none}
 
@@ -547,12 +546,11 @@ h2{font-size:1.2rem;line-height:1.3;color:var(--teal-900)}
       copyPrompt: "Copy prompt", openChat: "Open ChatGPT", pcopied: "Prompt copied.",
       pfail: "Copy failed. Select the text above and copy it manually.",
       reveal: "Reveal answer", hide: "Hide answer", ph: "Write the German here\u2026", ans: "Your German answer for exercise",
-      chkLabel: "Check with AI", chkCopy: "Copy prompt", btnGpt: "ChatGPT", btnGem: "Gemini",
+      chkCopy: "Copy prompt to check with AI", btnGpt: "Check in ChatGPT",
       chkEmpty: "Type your answer first.",
       chkCopied: "Prompt copied. Paste it into any AI chat.",
       chkGptOpen: "Opening ChatGPT with your prompt. A copy is also in your clipboard in case it does not fill in.",
       chkGptPaste: "Prompt copied. Paste it into ChatGPT (Ctrl+V).",
-      chkGemOpen: "Prompt copied. Paste it into Gemini (Ctrl+V).",
       chkFail: "Copy failed. Try again.",
       day: "Day", level: "Level", plural: "Plural:", copyJson: "Copy JSON", jsonCopied: "JSON copied", copyFailed: "Copy failed",
       src: "Original source", play: "Play pronunciation", playEx: "Play this example", playAns: "Play the German answer",
@@ -570,12 +568,11 @@ h2{font-size:1.2rem;line-height:1.3;color:var(--teal-900)}
       copyPrompt: "Kopiuj prompt", openChat: "Otw\u00f3rz ChatGPT", pcopied: "Prompt skopiowany.",
       pfail: "Nie uda\u0142o si\u0119 skopiowa\u0107. Zaznacz tekst powy\u017cej i skopiuj go r\u0119cznie.",
       reveal: "Poka\u017c odpowied\u017a", hide: "Ukryj odpowied\u017a", ph: "Wpisz tutaj niemieckie t\u0142umaczenie\u2026", ans: "Twoja odpowied\u017a po niemiecku do \u0107wiczenia",
-      chkLabel: "Sprawd\u017a z AI", chkCopy: "Kopiuj prompt", btnGpt: "ChatGPT", btnGem: "Gemini",
+      chkCopy: "Kopiuj prompt do sprawdzenia z AI", btnGpt: "Sprawd\u017a w ChatGPT",
       chkEmpty: "Najpierw wpisz odpowied\u017a.",
       chkCopied: "Prompt skopiowany. Wklej go w dowolnym czacie AI.",
       chkGptOpen: "Otwieram ChatGPT z gotowym promptem. Kopia jest te\u017c w schowku, gdyby si\u0119 nie wpisa\u0142.",
       chkGptPaste: "Prompt skopiowany. Wklej go w ChatGPT (Ctrl+V).",
-      chkGemOpen: "Prompt skopiowany. Wklej go w Gemini (Ctrl+V).",
       chkFail: "Nie uda\u0142o si\u0119 skopiowa\u0107. Spr\u00f3buj ponownie.",
       day: "Dzie\u0144", level: "Poziom", plural: "Liczba mnoga:", copyJson: "Kopiuj JSON", jsonCopied: "JSON skopiowany", copyFailed: "Kopiowanie nie powiod\u0142o si\u0119",
       src: "\u0179r\u00f3d\u0142o oryginalne", play: "Odtw\u00f3rz wymow\u0119", playEx: "Odtw\u00f3rz ten przyk\u0142ad", playAns: "Odtw\u00f3rz niemiecka odpowied\u017a",
@@ -802,7 +799,15 @@ h2{font-size:1.2rem;line-height:1.3;color:var(--teal-900)}
   var KEY_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="5" width="20" height="14"></rect>' +
     '<path d="M6 9h.01M10 9h.01M14 9h.01M18 9h.01M6 13h.01M10 13h.01M14 13h.01M18 13h.01M8 16h8"></path></svg>';
   var COPY_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="9" width="13" height="13"></rect><path d="M5 15H2V2h13v3"></path></svg>';
-  var EXT_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 13v6H5V8h6"></path><path d="M15 3h6v6"></path><path d="M10 14L21 3"></path></svg>';
+  var CHAT_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>';
+  /* the answer box is a textarea that grows with its text, so long sentences stay readable on a phone */
+  function autoGrow(t) {
+    t.style.height = "auto";
+    t.style.height = (t.scrollHeight + (t.offsetHeight - t.clientHeight)) + "px";
+  }
+  function growAll() { Array.prototype.forEach.call(document.querySelectorAll(".ainput"), autoGrow); }
+  window.addEventListener("resize", growAll);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(growAll);
   function insertAt(input, ch) {
     var v = input.value;
     var a = input.selectionStart == null ? v.length : input.selectionStart;
@@ -811,9 +816,10 @@ h2{font-size:1.2rem;line-height:1.3;color:var(--teal-900)}
     var pos = a + ch.length;
     try { input.setSelectionRange(pos, pos); } catch (e) {}
     input.focus();
+    autoGrow(input);
   }
 
-  /* prompt sent to ChatGPT / Gemini to correct the learner's answer */
+  /* prompt used to have an AI correct the learner's answer */
   function buildCheckPrompt(source, answer, model) {
     var L = lang === "pl" ? "Polish" : "English";
     return [
@@ -832,10 +838,11 @@ h2{font-size:1.2rem;line-height:1.3;color:var(--teal-900)}
     ].join("\n");
   }
   function chkBtn(label, svg, onClick) {
-    var b = node("button", "btn sm");
+    var b = node("button", "btn ico");
     b.type = "button";
+    b.title = label;
+    b.setAttribute("aria-label", label);
     b.innerHTML = svg;
-    b.appendChild(node("span", null, label));
     b.addEventListener("click", function (ev) { ev.stopPropagation(); onClick(); });
     return b;
   }
@@ -864,15 +871,20 @@ h2{font-size:1.2rem;line-height:1.3;color:var(--teal-900)}
       card.appendChild(top);
 
       var row = node("div", "inputrow");
-      var input = document.createElement("input");
-      input.type = "text"; input.className = "ainput"; input.lang = "de";
+      var input = document.createElement("textarea");
+      input.rows = 1; input.className = "ainput"; input.lang = "de";
+      input.wrap = "soft";
       input.placeholder = T("ph");
       input.setAttribute("aria-label", T("ans") + " " + id);
       input.setAttribute("autocomplete", "off");
       input.setAttribute("autocapitalize", "off");
       input.spellcheck = false;
       input.value = state.answers[id] || "";
-      input.addEventListener("input", function () { state.answers[id] = input.value; save(); });
+      input.addEventListener("input", function () {
+        if (/[\r\n]/.test(input.value)) input.value = input.value.replace(/[\r\n]+/g, " ");
+        state.answers[id] = input.value; save(); autoGrow(input);
+      });
+      input.addEventListener("keydown", function (ev) { if (ev.key === "Enter") ev.preventDefault(); });
       row.appendChild(input);
 
       var kb = node("button", "keybtn");
@@ -903,9 +915,12 @@ h2{font-size:1.2rem;line-height:1.3;color:var(--teal-900)}
         closePads(pad);
       });
 
-      /* check with AI: copy a ready-made prompt, or open ChatGPT / Gemini with it */
-      var chk = node("div", "chk");
-      chk.appendChild(node("span", "chk-label", T("chkLabel")));
+      /* Reveal answer + two icon buttons (copy AI prompt, open ChatGPT with it) in one row */
+      var btns = node("div", "qbtns");
+      var rb = node("button", "btn rev");
+      rb.type = "button";
+      btns.appendChild(rb);
+
       var cst = node("p", "chk-status");
       cst.setAttribute("role", "status"); cst.setAttribute("aria-live", "polite");
       var cTimer = 0;
@@ -919,29 +934,19 @@ h2{font-size:1.2rem;line-height:1.3;color:var(--teal-900)}
         if (!a) { say(T("chkEmpty")); input.focus(); return null; }
         return buildCheckPrompt(pick(e), a, e.de);
       }
-      chk.appendChild(chkBtn(T("chkCopy"), COPY_SVG, function () {
+      btns.appendChild(chkBtn(T("chkCopy"), COPY_SVG, function () {
         var p = promptNow(); if (!p) return;
         copyText(p, function (ok) { say(ok ? T("chkCopied") : T("chkFail")); });
       }));
-      chk.appendChild(chkBtn(T("btnGpt"), EXT_SVG, function () {
+      btns.appendChild(chkBtn(T("btnGpt"), CHAT_SVG, function () {
         var p = promptNow(); if (!p) return;
         var url = "https://chatgpt.com/?q=" + encodeURIComponent(p), tooLong = url.length > 6000;
         copyText(p, function (ok) { if (!ok) say(T("chkFail")); });
         openExternal(tooLong ? "https://chatgpt.com/" : url);
         say(tooLong ? T("chkGptPaste") : T("chkGptOpen"));
       }));
-      chk.appendChild(chkBtn(T("btnGem"), EXT_SVG, function () {
-        var p = promptNow(); if (!p) return;
-        copyText(p, function (ok) { if (!ok) say(T("chkFail")); });
-        openExternal("https://gemini.google.com/app");
-        say(T("chkGemOpen"));
-      }));
-      card.appendChild(chk);
+      card.appendChild(btns);
       card.appendChild(cst);
-
-      var rb = node("button", "btn rev");
-      rb.type = "button";
-      card.appendChild(rb);
 
       var fb = node("div", "fb");
       var ans = node("div", "microw ansrow"), at = node("div", "mtext", e.de);
@@ -960,6 +965,7 @@ h2{font-size:1.2rem;line-height:1.3;color:var(--teal-900)}
       rb.addEventListener("click", function () { state.revealed[id] = !state.revealed[id]; save(); sync(); });
       sync();
       host.appendChild(card);
+      autoGrow(input);
     });
     $("exercises-count").textContent = cnt(n, "exercise");
   }
