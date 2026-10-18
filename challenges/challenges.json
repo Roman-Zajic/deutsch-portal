@@ -5993,5 +5993,673 @@
     "pl": "Jesteś moim nauczycielem języka niemieckiego i prowadzisz 20-minutową rozmowę na poziomie B1–C1 na podstawie niemieckich wiadomości z 17 października 2026 roku.\n\nNajważniejsze tematy tego odcinka:\n1. Prezydent USA Donald Trump wstrzymał pakiet sankcji zatwierdzony przez obie izby Kongresu USA.\n2. Prezydent Ukrainy Wołodymyr Zełenski zażądał od UE dodatkowych 70 miliardów euro na nadchodzący rok.\n3. Według relacji atak dronowy na targ bydła w Darfurze zabił co najmniej 30 osób i ranił 47 kolejnych.\n4. We Francji spodziewano się kolejnych demonstracji dotyczących kosztów utrzymania, cen paliw, wynagrodzeń i wyposażenia szkół.\n5. Eurowings rozważało wprowadzenie pracy w skróconym wymiarze czasu z powodu wysokich cen nafty lotniczej i odwołało już część lotów.\n6. Bawarski sąd oddalił skargę dotyczącą procedury przydzielania namiotów na Oktoberfest, dzięki czemu dotychczasowa praktyka może być kontynuowana.\n\nZagadnienie gramatyczne do ćwiczenia: czasowniki z przedrostkami rozdzielnymi i nierozdzielnymi w formach osobowych oraz imiesłowach.\n\nInstrukcje dla ChatGPT:\n1. Na początku ciepło zapytaj, czy wysłuchałem wiadomości.\n2. Zadawaj pytania pojedynczo. Nigdy nie zadawaj kilku pytań jednocześnie.\n3. Najpierw omów fakty, a następnie przyczyny i skutki, alternatywne perspektywy oraz moją własną ocenę.\n4. Zachęcaj mnie do używania czasowników z przedrostkami rozdzielnymi i nierozdzielnymi w czasie teraźniejszym, w zdaniach podrzędnych oraz w czasie Perfekt, zwracając szczególną uwagę na pozycję przedrostka i tworzenie imiesłowu czasu przeszłego.\n5. Procedura natychmiastowej korekty: jeśli popełnię błąd związany z dzisiejszą zasadą, na przykład *Die Airline absagt mehrere Flüge.* zamiast *Die Airline sagt mehrere Flüge ab.*, na chwilę przerwij rozmowę, aby:\n   - Zacytować błąd.\n   - Podać poprawne zdanie po niemiecku.\n   - Wyjaśnić zasadę w jednym zdaniu po polsku.\n   - Poprosić mnie o głośne powtórzenie poprawnego zdania przed zadaniem kolejnego pytania.\n6. Zachowuj angażujący, profesjonalny i naturalny ton, sprzyjający immersyjnej rozmowie po niemiecku."
    }
   }
- }
+ },
+ {
+  "lesson": {
+    "id": "2026-10-18",
+    "date": "18.10.2026",
+    "day": 6,
+    "totalDays": 300,
+    "level": "B2",
+    "title": {
+      "en": "Reflexive Pronouns: Accusative vs Dative",
+      "pl": "Zaimek zwrotny: biernik czy celownik?"
+    },
+    "subtitle": "Reflexivpronomen im Akkusativ und Dativ"
+  },
+  "grammar": {
+    "html": {
+      "en": [
+        "<p>German reflexive verbs use a reflexive pronoun that refers back to the subject. The central question is whether the pronoun is in the accusative (Akkusativ) or dative (Dativ). The choice depends mainly on the verb's construction and whether the sentence contains another accusative object. English and Polish translations can help, but they do not always predict the German case.</p>",
+        "<div class='box rule'><strong>Core rule</strong><p>Use the accusative reflexive pronoun when it is the direct object: Ich wasche mich. Use the dative reflexive pronoun when another accusative object is present: Ich wasche mir die Hände.</p></div>",
+        "<h3>Accusative reflexive pronouns</h3><p>Many common reflexive verbs normally take the accusative. The reflexive pronoun is the direct object of the verb, and there is no separate accusative object in the sentence.</p><table><thead><tr><th>Subject</th><th>Accusative</th><th>Example</th></tr></thead><tbody><tr><td>ich</td><td class='de'>mich</td><td>Ich beeile mich.</td></tr><tr><td>du</td><td class='de'>dich</td><td>Du erinnerst dich.</td></tr><tr><td>er/sie/es</td><td class='de'>sich</td><td>Sie entspannt sich.</td></tr><tr><td>wir</td><td class='de'>uns</td><td>Wir treffen uns.</td></tr><tr><td>ihr</td><td class='de'>euch</td><td>Ihr setzt euch.</td></tr><tr><td>sie/Sie</td><td class='de'>sich</td><td>Sie interessieren sich dafür.</td></tr></tbody></table><p>Common accusative reflexive verbs include <em>sich beeilen</em>, <em>sich erinnern an</em>, <em>sich interessieren für</em>, <em>sich fühlen</em>, <em>sich entscheiden für</em>, and <em>sich vorbereiten auf</em>. Learn the reflexive pronoun and any required preposition together with each verb.</p>",
+        "<h3>Dative reflexive pronouns</h3><p>Use the dative when the reflexive pronoun is an indirect object, especially when another accusative object identifies what the subject acts on. This is common with body parts, clothing, and personal items.</p><table><thead><tr><th>Subject</th><th>Dative</th><th>Example</th></tr></thead><tbody><tr><td>ich</td><td class='de'>mir</td><td>Ich putze mir die Zähne.</td></tr><tr><td>du</td><td class='de'>dir</td><td>Du wäschst dir das Gesicht.</td></tr><tr><td>er/sie/es</td><td class='de'>sich</td><td>Er zieht sich die Jacke an.</td></tr><tr><td>wir</td><td class='de'>uns</td><td>Wir kaufen uns einen Kaffee.</td></tr><tr><td>ihr</td><td class='de'>euch</td><td>Ihr stellt euch Fragen.</td></tr><tr><td>sie/Sie</td><td class='de'>sich</td><td>Sie machen sich Notizen.</td></tr></tbody></table><p>Notice that <em>sich</em> looks the same in the third-person accusative and dative. The distinction becomes visible with <em>ich</em>, <em>du</em>, and <em>wir</em>, for example <em>mich/mir</em>, <em>dich/dir</em>, and <em>uns/uns</em>.</p>",
+        "<h3>How to choose the case</h3><p>First, identify the verb and its usual construction. Then look for another accusative object. Compare <em>Ich stelle mich vor</em> (I introduce myself) with <em>Ich stelle mir eine schwierige Frage</em> (I ask myself a difficult question). In the second sentence, <em>eine schwierige Frage</em> is the accusative object, so the reflexive pronoun is dative.</p><p>Some verbs allow different meanings or constructions. For example, <em>sich etwas vorstellen</em> means to imagine something, while <em>sich vorstellen</em> can mean to introduce oneself. Prepositions also matter: learn combinations such as <em>sich auf etwas freuen</em> and <em>sich über etwas freuen</em> as complete patterns.</p>",
+        "<div class='box warn'><strong>Typical mistake</strong><p>Incorrect: Ich wasche mich die Hände.</p><p>Correct: Ich wasche mir die Hände.</p><p><em>Die Hände</em> is the accusative object. The reflexive pronoun therefore takes the dative. However, without a separate object, say: <em>Ich wasche mich.</em></p></div>",
+        "<div class='box tip'><strong>Memory aid</strong><p>Ask yourself: “What is being washed, brushed, put on, bought, or written?” If that thing is an accusative object, the reflexive pronoun is often dative: <em>Ich putze mir die Zähne</em>, <em>Ich kaufe mir ein Buch</em>. If the reflexive pronoun itself is the direct object, use the accusative: <em>Ich beeile mich</em>.</p></div>",
+        "<h3>Quick reference</h3><div class='tiles'><div class='tile'><strong>Accusative</strong><p>Ich ziehe mich an. The reflexive pronoun is the direct object.</p></div><div class='tile'><strong>Dative</strong><p>Ich ziehe mir den Mantel an. The coat is the accusative object.</p></div><div class='tile'><strong>Same form</strong><p><em>Sich</em> can be accusative or dative; check the construction.</p></div><div class='tile'><strong>Learn patterns</strong><p>Memorise reflexive verbs with their case and required prepositions.</p></div></div>"
+      ],
+      "pl": [
+        "<p>Niemieckie czasowniki zwrotne używają zaimka zwrotnego, który odnosi się do podmiotu. Najważniejsze pytanie brzmi, czy zaimek występuje w bierniku (Akkusativ), czy w celowniku (Dativ). Wybór zależy przede wszystkim od konstrukcji czasownika oraz od tego, czy w zdaniu występuje inny dopełniacz w bierniku. Tłumaczenie na angielski lub polski może pomóc, ale nie zawsze pozwala przewidzieć przypadek w języku niemieckim.</p>",
+        "<div class='box rule'><strong>Podstawowa zasada</strong><p>Użyj zaimka zwrotnego w bierniku, gdy jest on dopełnieniem bliższym: Ich wasche mich. Użyj celownika, gdy występuje inne dopełnienie w bierniku: Ich wasche mir die Hände.</p></div>",
+        "<h3>Zaimki zwrotne w bierniku</h3><p>Wiele popularnych czasowników zwrotnych łączy się zwykle z biernikiem. Zaimkiem zwrotnym wyrażamy dopełnienie bliższe, a w zdaniu nie ma osobnego dopełnienia w bierniku.</p><table><thead><tr><th>Podmiot</th><th>Biernik</th><th>Przykład</th></tr></thead><tbody><tr><td>ich</td><td class='de'>mich</td><td>Ich beeile mich.</td></tr><tr><td>du</td><td class='de'>dich</td><td>Du erinnerst dich.</td></tr><tr><td>er/sie/es</td><td class='de'>sich</td><td>Sie entspannt sich.</td></tr><tr><td>wir</td><td class='de'>uns</td><td>Wir treffen uns.</td></tr><tr><td>ihr</td><td class='de'>euch</td><td>Ihr setzt euch.</td></tr><tr><td>sie/Sie</td><td class='de'>sich</td><td>Sie interessieren sich dafür.</td></tr></tbody></table><p>Do częstych czasowników zwrotnych w bierniku należą <em>sich beeilen</em>, <em>sich erinnern an</em>, <em>sich interessieren für</em>, <em>sich fühlen</em>, <em>sich entscheiden für</em> oraz <em>sich vorbereiten auf</em>. Warto zapamiętywać zaimek i wymagany przyimek razem z czasownikiem.</p>",
+        "<h3>Zaimki zwrotne w celowniku</h3><p>Użyj celownika, gdy zaimek zwrotny jest dopełnieniem dalszym, szczególnie jeśli w zdaniu występuje inne dopełnienie w bierniku, określające przedmiot czynności. Często dotyczy to części ciała, ubrań i rzeczy osobistych.</p><table><thead><tr><th>Podmiot</th><th>Celownik</th><th>Przykład</th></tr></thead><tbody><tr><td>ich</td><td class='de'>mir</td><td>Ich putze mir die Zähne.</td></tr><tr><td>du</td><td class='de'>dir</td><td>Du wäschst dir das Gesicht.</td></tr><tr><td>er/sie/es</td><td class='de'>sich</td><td>Er zieht sich die Jacke an.</td></tr><tr><td>wir</td><td class='de'>uns</td><td>Wir kaufen uns einen Kaffee.</td></tr><tr><td>ihr</td><td class='de'>euch</td><td>Ihr stellt euch Fragen.</td></tr><tr><td>sie/Sie</td><td class='de'>sich</td><td>Sie machen sich Notizen.</td></tr></tbody></table><p>Zwróć uwagę, że <em>sich</em> ma taką samą formę w trzeciej osobie zarówno w bierniku, jak i w celowniku. Różnica jest widoczna przy <em>ich</em>, <em>du</em> i <em>wir</em>, na przykład <em>mich/mir</em>, <em>dich/dir</em> oraz <em>uns/uns</em>.</p>",
+        "<h3>Jak wybrać przypadek</h3><p>Najpierw ustal, jakiej konstrukcji wymaga czasownik. Następnie sprawdź, czy w zdaniu występuje inne dopełnienie w bierniku. Porównaj <em>Ich stelle mich vor</em> (Przedstawiam się) z <em>Ich stelle mir eine schwierige Frage</em> (Zadaję sobie trudne pytanie). W drugim zdaniu <em>eine schwierige Frage</em> jest dopełnieniem w bierniku, dlatego zaimek zwrotny występuje w celowniku.</p><p>Niektóre czasowniki mogą mieć różne znaczenia lub konstrukcje. Na przykład <em>sich etwas vorstellen</em> oznacza wyobrażać sobie coś, a <em>sich vorstellen</em> może oznaczać przedstawiać się. Ważne są również przyimki: zapamiętuj całe wzorce, takie jak <em>sich auf etwas freuen</em> i <em>sich über etwas freuen</em>.</p>",
+        "<div class='box warn'><strong>Typowy błąd</strong><p>Niepoprawnie: Ich wasche mich die Hände.</p><p>Poprawnie: Ich wasche mir die Hände.</p><p><em>Die Hände</em> jest dopełnieniem w bierniku. Dlatego zaimek zwrotny musi wystąpić w celowniku. Jeśli jednak nie ma osobnego dopełnienia, powiedz: <em>Ich wasche mich.</em></p></div>",
+        "<div class='box tip'><strong>Jak to zapamiętać</strong><p>Zadaj sobie pytanie: „Co jest myte, szczotkowane, zakładane, kupowane lub zapisywane?”. Jeśli ta rzecz jest dopełnieniem w bierniku, zaimek zwrotny często występuje w celowniku: <em>Ich putze mir die Zähne</em>, <em>Ich kaufe mir ein Buch</em>. Jeśli sam zaimek zwrotny jest dopełnieniem bliższym, użyj biernika: <em>Ich beeile mich</em>.</p></div>",
+        "<h3>Szybkie podsumowanie</h3><div class='tiles'><div class='tile'><strong>Biernik</strong><p>Ich ziehe mich an. Zaimek zwrotny jest dopełnieniem bliższym.</p></div><div class='tile'><strong>Celownik</strong><p>Ich ziehe mir den Mantel an. Płaszcz jest dopełnieniem w bierniku.</p></div><div class='tile'><strong>Ta sama forma</strong><p><em>Sich</em> może występować w bierniku lub celowniku; sprawdź konstrukcję.</p></div><div class='tile'><strong>Zapamiętuj wzorce</strong><p>Ucz się czasowników zwrotnych razem z przypadkiem i wymaganymi przyimkami.</p></div></div>"
+      ]
+    }
+  },
+  "examples": [
+    {
+      "de": "Ich beeile **mich**, weil der Zug gleich abfährt.",
+      "en": "I am hurrying because the train is leaving soon.",
+      "pl": "Spieszę się, ponieważ pociąg zaraz odjeżdża."
+    },
+    {
+      "de": "Du solltest **dich** vor dem Vorstellungsgespräch gut vorbereiten.",
+      "en": "You should prepare yourself well before the job interview.",
+      "pl": "Powinieneś dobrze przygotować się przed rozmową kwalifikacyjną."
+    },
+    {
+      "de": "Sie interessiert **sich** besonders für nachhaltige Finanzmodelle.",
+      "en": "She is particularly interested in sustainable financial models.",
+      "pl": "Szczególnie interesuje się zrównoważonymi modelami finansowymi."
+    },
+    {
+      "de": "Wir treffen **uns** nach der Arbeit vor dem Bahnhof.",
+      "en": "We are meeting in front of the station after work.",
+      "pl": "Spotykamy się przed dworcem po pracy."
+    },
+    {
+      "de": "Er erinnert **sich** nicht mehr an den Namen des Kunden.",
+      "en": "He no longer remembers the client's name.",
+      "pl": "Nie pamięta już nazwiska klienta."
+    },
+    {
+      "de": "Ich wasche **mir** jeden Morgen das Gesicht.",
+      "en": "I wash my face every morning.",
+      "pl": "Każdego ranka myję sobie twarz."
+    },
+    {
+      "de": "Du solltest **dir** die wichtigsten Termine notieren.",
+      "en": "You should write down the most important appointments for yourself.",
+      "pl": "Powinieneś zapisać sobie najważniejsze terminy."
+    },
+    {
+      "de": "Sie hat **sich** vor dem Termin die Haare schneiden lassen.",
+      "en": "She had her hair cut before the appointment.",
+      "pl": "Przed spotkaniem kazała sobie obciąć włosy."
+    },
+    {
+      "de": "Wir kaufen **uns** für die Reise neue Rucksäcke.",
+      "en": "We are buying ourselves new backpacks for the trip.",
+      "pl": "Kupujemy sobie nowe plecaki na podróż."
+    },
+    {
+      "de": "Nach der langen Besprechung gönne ich **mir** eine kurze Pause.",
+      "en": "After the long meeting, I treat myself to a short break.",
+      "pl": "Po długim spotkaniu pozwalam sobie na krótką przerwę."
+    },
+    {
+      "de": "Die Kolleginnen haben **sich** über die unerwartete Nachricht gefreut.",
+      "en": "The colleagues were pleased about the unexpected news.",
+      "pl": "Koleżanki ucieszyły się z nieoczekiwanej wiadomości."
+    },
+    {
+      "de": "Ich kann **mir** diese Entscheidung unter den gegebenen Umständen gut erklären.",
+      "en": "I can easily explain this decision to myself under the circumstances.",
+      "pl": "W tych okolicznościach potrafię sobie łatwo wyjaśnić tę decyzję."
+    },
+    {
+      "de": "Bevor sie den Bericht abschickt, liest sie **ihn** noch einmal durch und macht **sich** Notizen.",
+      "en": "Before sending the report, she reads it through once more and makes notes for herself.",
+      "pl": "Zanim wyśle raport, jeszcze raz go czyta i robi sobie notatki."
+    },
+    {
+      "de": "Wenn du **dir** die Unterlagen frühzeitig besorgst, vermeidest du unnötigen Stress.",
+      "en": "If you obtain the documents early, you avoid unnecessary stress.",
+      "pl": "Jeśli odpowiednio wcześnie zdobędziesz dokumenty, unikniesz niepotrzebnego stresu."
+    },
+    {
+      "de": "Der Manager hat **sich** für eine transparentere Vorgehensweise entschieden.",
+      "en": "The manager decided on a more transparent approach.",
+      "pl": "Menedżer zdecydował się na bardziej przejrzyste podejście."
+    },
+    {
+      "de": "Wir müssen **uns** die möglichen Folgen dieser Änderung genauer ansehen.",
+      "en": "We need to examine the possible consequences of this change more closely.",
+      "pl": "Musimy dokładniej przyjrzeć się możliwym konsekwencjom tej zmiany."
+    },
+    {
+      "de": "Obwohl er **sich** auf die Präsentation vorbereitet hatte, war er nervös.",
+      "en": "Although he had prepared for the presentation, he was nervous.",
+      "pl": "Chociaż przygotował się do prezentacji, denerwował się."
+    },
+    {
+      "de": "Die Mitarbeitenden sollten **sich** rechtzeitig über die neuen Richtlinien informieren.",
+      "en": "The employees should inform themselves about the new guidelines in good time.",
+      "pl": "Pracownicy powinni odpowiednio wcześnie zapoznać się z nowymi wytycznymi."
+    },
+    {
+      "de": "Ich habe **mir** vorgenommen, mich bei schwierigen Gesprächen besser zu beherrschen.",
+      "en": "I have resolved to control myself better during difficult conversations.",
+      "pl": "Postanowiłem lepiej panować nad sobą podczas trudnych rozmów."
+    },
+    {
+      "de": "Wer **sich** regelmäßig Zeit für die Weiterbildung nimmt, verbessert langfristig seine beruflichen Chancen.",
+      "en": "Anyone who regularly makes time for professional development improves their career prospects in the long term.",
+      "pl": "Osoba, która regularnie znajduje czas na rozwój zawodowy, długoterminowo zwiększa swoje szanse na karierę."
+    }
+  ],
+  "exercises": [
+    {
+      "en": "I am getting dressed.",
+      "pl": "Ubieram się.",
+      "de": "Ich ziehe mich an."
+    },
+    {
+      "en": "You (informal) are washing your hands.",
+      "pl": "Myjesz sobie ręce.",
+      "de": "Du wäschst dir die Hände."
+    },
+    {
+      "en": "He is sitting down.",
+      "pl": "On siada.",
+      "de": "Er setzt sich."
+    },
+    {
+      "en": "We are brushing our teeth.",
+      "pl": "Myjemy sobie zęby.",
+      "de": "Wir putzen uns die Zähne."
+    },
+    {
+      "en": "You (informal) are hurrying.",
+      "pl": "Spieszysz się.",
+      "de": "Du beeilst dich."
+    },
+    {
+      "en": "She is putting on her coat.",
+      "pl": "Ona zakłada sobie płaszcz.",
+      "de": "Sie zieht sich den Mantel an."
+    },
+    {
+      "en": "I am combing my hair.",
+      "pl": "Czeszę sobie włosy.",
+      "de": "Ich kämme mir die Haare."
+    },
+    {
+      "en": "They are meeting at the café.",
+      "pl": "Spotykają się w kawiarni.",
+      "de": "Sie treffen sich im Café."
+    },
+    {
+      "en": "You (formal) are making notes.",
+      "pl": "Robi sobie Pan/Pani notatki.",
+      "de": "Sie machen sich Notizen."
+    },
+    {
+      "en": "I am preparing for the exam.",
+      "pl": "Przygotowuję się do egzaminu.",
+      "de": "Ich bereite mich auf die Prüfung vor."
+    },
+    {
+      "en": "You (informal) are imagining a quiet weekend.",
+      "pl": "Wyobrażasz sobie spokojny weekend.",
+      "de": "Du stellst dir ein ruhiges Wochenende vor."
+    },
+    {
+      "en": "She remembers the conversation.",
+      "pl": "Ona pamięta tę rozmowę.",
+      "de": "Sie erinnert sich an das Gespräch."
+    },
+    {
+      "en": "We are interested in the proposal.",
+      "pl": "Interesujemy się tą propozycją.",
+      "de": "Wir interessieren uns für den Vorschlag."
+    },
+    {
+      "en": "He is looking forward to his holiday.",
+      "pl": "On cieszy się na urlop.",
+      "de": "Er freut sich auf seinen Urlaub."
+    },
+    {
+      "en": "I am treating myself to a coffee.",
+      "pl": "Sprawiam sobie przyjemność, kupując kawę.",
+      "de": "Ich gönne mir einen Kaffee."
+    },
+    {
+      "en": "You (informal) are looking at the figures.",
+      "pl": "Przyglądasz się tym liczbom.",
+      "de": "Du siehst dir die Zahlen an."
+    },
+    {
+      "en": "She is washing her face.",
+      "pl": "Ona myje sobie twarz.",
+      "de": "Sie wäscht sich das Gesicht."
+    },
+    {
+      "en": "We are buying ourselves a new table.",
+      "pl": "Kupujemy sobie nowy stół.",
+      "de": "Wir kaufen uns einen neuen Tisch."
+    },
+    {
+      "en": "He is introducing himself to the new team.",
+      "pl": "Przedstawia się nowemu zespołowi.",
+      "de": "Er stellt sich dem neuen Team vor."
+    },
+    {
+      "en": "I am deciding on a different strategy.",
+      "pl": "Decyduję się na inną strategię.",
+      "de": "Ich entscheide mich für eine andere Strategie."
+    },
+    {
+      "en": "You (informal) should remember the deadline.",
+      "pl": "Powinieneś pamiętać o terminie.",
+      "de": "Du solltest dich an die Frist erinnern."
+    },
+    {
+      "en": "She is putting on her shoes.",
+      "pl": "Ona zakłada sobie buty.",
+      "de": "Sie zieht sich die Schuhe an."
+    },
+    {
+      "en": "We are asking ourselves an important question.",
+      "pl": "Zadajemy sobie ważne pytanie.",
+      "de": "Wir stellen uns eine wichtige Frage."
+    },
+    {
+      "en": "They are discussing the matter among themselves.",
+      "pl": "Omawiają tę sprawę między sobą.",
+      "de": "Sie besprechen die Angelegenheit unter sich."
+    },
+    {
+      "en": "I have hurt my knee.",
+      "pl": "Zraniłem sobie kolano.",
+      "de": "Ich habe mir das Knie verletzt."
+    },
+    {
+      "en": "You (formal) should inform yourself about the changes.",
+      "pl": "Powinien się Pan/Powinna się Pani poinformować o zmianach.",
+      "de": "Sie sollten sich über die Änderungen informieren."
+    },
+    {
+      "en": "He can easily imagine living abroad.",
+      "pl": "Potrafi sobie łatwo wyobrazić życie za granicą.",
+      "de": "Er kann sich das Leben im Ausland gut vorstellen."
+    },
+    {
+      "en": "I am protecting myself against unnecessary risks.",
+      "pl": "Chronię się przed niepotrzebnym ryzykiem.",
+      "de": "Ich schütze mich vor unnötigen Risiken."
+    },
+    {
+      "en": "She is taking time to think about the offer.",
+      "pl": "Ona daje sobie czas na przemyślenie oferty.",
+      "de": "Sie nimmt sich Zeit, um über das Angebot nachzudenken."
+    },
+    {
+      "en": "We are getting used to the new system.",
+      "pl": "Przyzwyczajamy się do nowego systemu.",
+      "de": "Wir gewöhnen uns an das neue System."
+    },
+    {
+      "en": "I am having a new suit made.",
+      "pl": "Zlecam sobie uszycie nowego garnituru.",
+      "de": "Ich lasse mir einen neuen Anzug anfertigen."
+    },
+    {
+      "en": "You (informal) should write down the address.",
+      "pl": "Powinieneś zapisać sobie adres.",
+      "de": "Du solltest dir die Adresse aufschreiben."
+    },
+    {
+      "en": "He is apologising for the delay.",
+      "pl": "Przeprasza za opóźnienie.",
+      "de": "Er entschuldigt sich für die Verspätung."
+    },
+    {
+      "en": "They are preparing themselves for difficult negotiations.",
+      "pl": "Przygotowują się do trudnych negocjacji.",
+      "de": "Sie bereiten sich auf schwierige Verhandlungen vor."
+    },
+    {
+      "en": "I can remember the figures clearly.",
+      "pl": "Dobrze pamiętam te liczby.",
+      "de": "Ich kann mich gut an die Zahlen erinnern."
+    },
+    {
+      "en": "She is asking herself whether the plan is realistic.",
+      "pl": "Zadaje sobie pytanie, czy plan jest realistyczny.",
+      "de": "Sie fragt sich, ob der Plan realistisch ist."
+    },
+    {
+      "en": "We are imagining a more efficient process.",
+      "pl": "Wyobrażamy sobie bardziej efektywny proces.",
+      "de": "Wir stellen uns einen effizienteren Prozess vor."
+    },
+    {
+      "en": "You (informal) should allow yourself a break.",
+      "pl": "Powinieneś pozwolić sobie na przerwę.",
+      "de": "Du solltest dir eine Pause gönnen."
+    },
+    {
+      "en": "He is concentrating on the main issue.",
+      "pl": "Koncentruje się na głównym problemie.",
+      "de": "Er konzentriert sich auf das Hauptproblem."
+    },
+    {
+      "en": "I am making myself a sandwich before the meeting.",
+      "pl": "Robię sobie kanapkę przed spotkaniem.",
+      "de": "Ich mache mir vor der Besprechung ein Sandwich."
+    },
+    {
+      "en": "She has bought herself a professional reference book.",
+      "pl": "Kupiła sobie fachową książkę.",
+      "de": "Sie hat sich ein Fachbuch gekauft."
+    },
+    {
+      "en": "We are looking forward to the results.",
+      "pl": "Cieszymy się na wyniki.",
+      "de": "Wir freuen uns auf die Ergebnisse."
+    },
+    {
+      "en": "You (formal) should make yourself familiar with the procedure.",
+      "pl": "Powinien się Pan/Powinna się Pani zapoznać z procedurą.",
+      "de": "Sie sollten sich mit dem Verfahren vertraut machen."
+    },
+    {
+      "en": "I am concerned about the consequences.",
+      "pl": "Martwię się konsekwencjami.",
+      "de": "Ich mache mir Sorgen um die Folgen."
+    },
+    {
+      "en": "He is checking the contract carefully.",
+      "pl": "Dokładnie sprawdza sobie umowę.",
+      "de": "Er sieht sich den Vertrag genau an."
+    },
+    {
+      "en": "They have arranged a meeting among themselves.",
+      "pl": "Uzgodnili między sobą spotkanie.",
+      "de": "Sie haben sich untereinander auf ein Treffen verständigt."
+    },
+    {
+      "en": "I am wondering why the costs have increased.",
+      "pl": "Zastanawiam się, dlaczego koszty wzrosły.",
+      "de": "Ich frage mich, warum die Kosten gestiegen sind."
+    },
+    {
+      "en": "You (informal) are putting too much pressure on yourself.",
+      "pl": "Wywierasz na siebie zbyt dużą presję.",
+      "de": "Du setzt dich zu sehr unter Druck."
+    },
+    {
+      "en": "She is taking the criticism seriously.",
+      "pl": "Traktuje krytykę poważnie.",
+      "de": "Sie nimmt sich die Kritik zu Herzen."
+    },
+    {
+      "en": "We are giving ourselves enough time to assess the options.",
+      "pl": "Dajemy sobie wystarczająco dużo czasu na ocenę możliwości.",
+      "de": "Wir nehmen uns genug Zeit, um die Optionen zu bewerten."
+    },
+    {
+      "en": "I am getting ready for an important presentation.",
+      "pl": "Przygotowuję się do ważnej prezentacji.",
+      "de": "Ich mache mich für eine wichtige Präsentation fertig."
+    },
+    {
+      "en": "He is asking himself whether he should accept the offer.",
+      "pl": "Zadaje sobie pytanie, czy powinien przyjąć ofertę.",
+      "de": "Er fragt sich, ob er das Angebot annehmen sollte."
+    },
+    {
+      "en": "You (informal) are taking notes about the discussion.",
+      "pl": "Robisz sobie notatki z dyskusji.",
+      "de": "Du machst dir Notizen zu der Diskussion."
+    },
+    {
+      "en": "The team is preparing itself for a demanding quarter.",
+      "pl": "Zespół przygotowuje się do wymagającego kwartału.",
+      "de": "Das Team bereitet sich auf ein anspruchsvolles Quartal vor."
+    },
+    {
+      "en": "I have booked myself an appointment with the adviser.",
+      "pl": "Umówiłem sobie spotkanie z doradcą.",
+      "de": "Ich habe mir einen Termin bei der Beraterin gebucht."
+    },
+    {
+      "en": "She is protecting her interests.",
+      "pl": "Chroni swoje interesy.",
+      "de": "Sie schützt sich und ihre Interessen."
+    },
+    {
+      "en": "We need to familiarise ourselves with the reporting requirements.",
+      "pl": "Musimy zapoznać się z wymogami sprawozdawczymi.",
+      "de": "Wir müssen uns mit den Berichtsanforderungen vertraut machen."
+    },
+    {
+      "en": "You (formal) can imagine the scale of the challenge.",
+      "pl": "Może Pan/Może Pani wyobrazić sobie skalę wyzwania.",
+      "de": "Sie können sich das Ausmaß der Herausforderung vorstellen."
+    },
+    {
+      "en": "He is treating himself to a day without meetings.",
+      "pl": "Pozwala sobie na dzień bez spotkań.",
+      "de": "Er gönnt sich einen Tag ohne Besprechungen."
+    },
+    {
+      "en": "I am trying to remember where I saved the file.",
+      "pl": "Próbuję sobie przypomnieć, gdzie zapisałem plik.",
+      "de": "Ich versuche mich daran zu erinnern, wo ich die Datei gespeichert habe."
+    },
+    {
+      "en": "She is making herself a list of priorities.",
+      "pl": "Sporządza sobie listę priorytetów.",
+      "de": "Sie erstellt sich eine Prioritätenliste."
+    },
+    {
+      "en": "We have decided to focus on the long-term effects.",
+      "pl": "Postanowiliśmy skupić się na długoterminowych skutkach.",
+      "de": "Wir haben uns entschieden, uns auf die langfristigen Auswirkungen zu konzentrieren."
+    },
+    {
+      "en": "I can no longer imagine working without this tool.",
+      "pl": "Nie potrafię już wyobrazić sobie pracy bez tego narzędzia.",
+      "de": "Ich kann mir die Arbeit ohne dieses Werkzeug nicht mehr vorstellen."
+    },
+    {
+      "en": "You (informal) should ask yourself whether the evidence is sufficient.",
+      "pl": "Powinieneś zadać sobie pytanie, czy dowody są wystarczające.",
+      "de": "Du solltest dich fragen, ob die Belege ausreichend sind."
+    },
+    {
+      "en": "The directors are preparing themselves for questions from investors.",
+      "pl": "Dyrektorzy przygotowują się na pytania inwestorów.",
+      "de": "Die Direktoren bereiten sich auf Fragen der Investoren vor."
+    },
+    {
+      "en": "I have made myself a detailed checklist.",
+      "pl": "Przygotowałem sobie szczegółową listę kontrolną.",
+      "de": "Ich habe mir eine detaillierte Checkliste erstellt."
+    },
+    {
+      "en": "She is still deciding whether to accept the promotion.",
+      "pl": "Nadal zastanawia się, czy przyjąć awans.",
+      "de": "Sie überlegt sich noch, ob sie die Beförderung annehmen soll."
+    },
+    {
+      "en": "We should remind ourselves of the original objective.",
+      "pl": "Powinniśmy przypomnieć sobie pierwotny cel.",
+      "de": "Wir sollten uns das ursprüngliche Ziel vor Augen führen."
+    },
+    {
+      "en": "He has injured his shoulder while training.",
+      "pl": "Nadwyrężył sobie bark podczas treningu.",
+      "de": "Er hat sich beim Training die Schulter verletzt."
+    },
+    {
+      "en": "I am informing myself about the legal implications before responding.",
+      "pl": "Przed odpowiedzią zapoznaję się z konsekwencjami prawnymi.",
+      "de": "Ich informiere mich vor meiner Antwort über die rechtlichen Auswirkungen."
+    },
+    {
+      "en": "You (formal) should not blame yourself for the entire failure.",
+      "pl": "Nie powinien się Pan/Pani obwiniać za całe niepowodzenie.",
+      "de": "Sie sollten sich nicht die gesamte Schuld am Scheitern geben."
+    },
+    {
+      "en": "She is asking herself how the team could have missed the warning signs.",
+      "pl": "Zadaje sobie pytanie, jak zespół mógł przeoczyć sygnały ostrzegawcze.",
+      "de": "Sie fragt sich, wie dem Team die Warnsignale entgehen konnten."
+    },
+    {
+      "en": "We are making ourselves aware of the assumptions behind the forecast.",
+      "pl": "Uświadamiamy sobie założenia leżące u podstaw prognozy.",
+      "de": "Wir machen uns die Annahmen hinter der Prognose bewusst."
+    },
+    {
+      "en": "I have set myself the goal of improving my German every day.",
+      "pl": "Wyznaczyłem sobie cel codziennego doskonalenia niemieckiego.",
+      "de": "Ich habe mir das Ziel gesetzt, mein Deutsch jeden Tag zu verbessern."
+    },
+    {
+      "en": "He is questioning whether the proposed measures will be effective.",
+      "pl": "Zastanawia się, czy proponowane działania będą skuteczne.",
+      "de": "Er fragt sich, ob die vorgeschlagenen Maßnahmen wirksam sein werden."
+    },
+    {
+      "en": "You (informal) should give yourself time to evaluate the alternatives.",
+      "pl": "Powinieneś dać sobie czas na ocenę alternatyw.",
+      "de": "Du solltest dir Zeit geben, die Alternativen zu bewerten."
+    },
+    {
+      "en": "The organisation is preparing itself for a fundamental restructuring.",
+      "pl": "Organizacja przygotowuje się do gruntownej restrukturyzacji.",
+      "de": "Die Organisation bereitet sich auf eine grundlegende Umstrukturierung vor."
+    },
+    {
+      "en": "I cannot explain to myself why the results differ so significantly.",
+      "pl": "Nie potrafię sobie wyjaśnić, dlaczego wyniki tak bardzo się różnią.",
+      "de": "Ich kann mir nicht erklären, warum die Ergebnisse so stark voneinander abweichen."
+    },
+    {
+      "en": "She has acquired the skills needed to manage the transition.",
+      "pl": "Zdobyła umiejętności potrzebne do zarządzania zmianą.",
+      "de": "Sie hat sich die Fähigkeiten angeeignet, die sie für die Steuerung des Übergangs benötigt."
+    },
+    {
+      "en": "We should ask ourselves which risks have not yet been quantified.",
+      "pl": "Powinniśmy zadać sobie pytanie, które ryzyka nie zostały jeszcze oszacowane.",
+      "de": "Wir sollten uns fragen, welche Risiken noch nicht quantifiziert worden sind."
+    },
+    {
+      "en": "He has promised himself that he will remain calm during the negotiations.",
+      "pl": "Obiecał sobie, że zachowa spokój podczas negocjacji.",
+      "de": "Er hat sich versprochen, während der Verhandlungen ruhig zu bleiben."
+    },
+    {
+      "en": "I am trying to make clear to myself which assumptions are defensible.",
+      "pl": "Próbuję ustalić, które założenia można uzasadnić.",
+      "de": "Ich versuche mir klarzumachen, welche Annahmen vertretbar sind."
+    },
+    {
+      "en": "You (formal) should prepare yourself for the possibility of further delays.",
+      "pl": "Powinien się Pan/Powinna się Pani przygotować na możliwość dalszych opóźnień.",
+      "de": "Sie sollten sich auf die Möglichkeit weiterer Verzögerungen einstellen."
+    },
+    {
+      "en": "The committee is reserving the right to reconsider its decision.",
+      "pl": "Komisja zastrzega sobie prawo do ponownego rozważenia decyzji.",
+      "de": "Der Ausschuss behält sich das Recht vor, seine Entscheidung erneut zu prüfen."
+    },
+    {
+      "en": "She has made a point of explaining the reasoning to herself before presenting it.",
+      "pl": "Zadbała o to, by przed prezentacją wyjaśnić sobie tok rozumowania.",
+      "de": "Sie hat es sich zur Gewohnheit gemacht, sich die Argumentation vor der Präsentation zu erklären."
+    },
+    {
+      "en": "We need to remind ourselves that correlation does not prove causation.",
+      "pl": "Musimy przypomnieć sobie, że korelacja nie dowodzi związku przyczynowego.",
+      "de": "Wir müssen uns vor Augen halten, dass Korrelation keine Kausalität beweist."
+    },
+    {
+      "en": "I am asking myself whether the proposed solution addresses the root cause.",
+      "pl": "Zastanawiam się, czy proponowane rozwiązanie usuwa przyczynę źródłową.",
+      "de": "Ich frage mich, ob die vorgeschlagene Lösung die eigentliche Ursache beseitigt."
+    },
+    {
+      "en": "He has acquired a reputation for remaining composed under pressure.",
+      "pl": "Wyrobił sobie opinię osoby zachowującej spokój pod presją.",
+      "de": "Er hat sich den Ruf erworben, auch unter Druck gelassen zu bleiben."
+    },
+    {
+      "en": "You (informal) should consider whether your conclusion follows from the available evidence.",
+      "pl": "Powinieneś rozważyć, czy Twój wniosek wynika z dostępnych dowodów.",
+      "de": "Du solltest dir überlegen, ob deine Schlussfolgerung aus den verfügbaren Belegen folgt."
+    },
+    {
+      "en": "The board is preparing itself for a scenario in which financing becomes more expensive.",
+      "pl": "Zarząd przygotowuje się na scenariusz, w którym finansowanie stanie się droższe.",
+      "de": "Der Vorstand wappnet sich für ein Szenario, in dem die Finanzierung teurer wird."
+    },
+    {
+      "en": "I have made myself fully aware of the consequences before signing the agreement.",
+      "pl": "Przed podpisaniem umowy w pełni uświadomiłem sobie konsekwencje.",
+      "de": "Ich habe mir die Folgen vor der Unterzeichnung der Vereinbarung vollständig bewusst gemacht."
+    },
+    {
+      "en": "She is trying to imagine how the recommendation would affect smaller entities.",
+      "pl": "Próbuje sobie wyobrazić, jak rekomendacja wpłynęłaby na mniejsze jednostki.",
+      "de": "Sie versucht sich vorzustellen, wie sich die Empfehlung auf kleinere Unternehmen auswirken würde."
+    },
+    {
+      "en": "We must ask ourselves whether the savings justify the additional operational risk.",
+      "pl": "Musimy zadać sobie pytanie, czy oszczędności uzasadniają dodatkowe ryzyko operacyjne.",
+      "de": "Wir müssen uns fragen, ob die Einsparungen das zusätzliche operationelle Risiko rechtfertigen."
+    },
+    {
+      "en": "I have set myself the task of identifying the assumptions that drive the valuation.",
+      "pl": "Postawiłem sobie za zadanie zidentyfikowanie założeń wpływających na wycenę.",
+      "de": "Ich habe mir die Aufgabe gestellt, die wertbestimmenden Annahmen zu identifizieren."
+    },
+    {
+      "en": "You (formal) should consider whether the evidence supports the conclusion you have drawn.",
+      "pl": "Powinien się Pan/Powinna się Pani zastanowić, czy dowody potwierdzają wyciągnięty wniosek.",
+      "de": "Sie sollten sich überlegen, ob die Belege die von Ihnen gezogene Schlussfolgerung stützen."
+    },
+    {
+      "en": "The negotiators have agreed to keep the option of extending the deadline open.",
+      "pl": "Negocjatorzy uzgodnili, że pozostawią sobie możliwość przedłużenia terminu.",
+      "de": "Die Verhandlungspartner haben sich vorbehalten, die Frist gegebenenfalls zu verlängern."
+    },
+    {
+      "en": "He cannot reconcile the reported improvement with the underlying performance indicators.",
+      "pl": "Nie potrafi pogodzić raportowanej poprawy z podstawowymi wskaźnikami wyników.",
+      "de": "Er kann sich die gemeldete Verbesserung nicht mit den zugrunde liegenden Leistungskennzahlen erklären."
+    },
+    {
+      "en": "We should make ourselves aware of the limitations before relying on the model.",
+      "pl": "Powinniśmy uświadomić sobie ograniczenia, zanim oprzemy się na modelu.",
+      "de": "Wir sollten uns die Einschränkungen bewusst machen, bevor wir uns auf das Modell verlassen."
+    },
+    {
+      "en": "I have promised myself that I will challenge unsupported assumptions more consistently.",
+      "pl": "Obiecałem sobie, że będę konsekwentniej kwestionować nieuzasadnione założenia.",
+      "de": "Ich habe mir vorgenommen, unbelegte Annahmen konsequenter zu hinterfragen."
+    },
+    {
+      "en": "She is considering whether the proposed controls adequately address the identified risks.",
+      "pl": "Rozważa, czy proponowane mechanizmy kontrolne odpowiednio uwzględniają zidentyfikowane ryzyka.",
+      "de": "Sie überlegt sich, ob die vorgeschlagenen Kontrollen den identifizierten Risiken angemessen Rechnung tragen."
+    },
+    {
+      "en": "The project team has made it its priority to keep stakeholders informed throughout the transition.",
+      "pl": "Zespół projektowy uznał za priorytet informowanie interesariuszy przez cały okres zmiany.",
+      "de": "Das Projektteam hat es sich zur Priorität gemacht, die Interessengruppen während des gesamten Übergangs auf dem Laufenden zu halten."
+    },
+    {
+      "en": "I need to clarify to myself which elements of the forecast are based on judgement rather than observable data.",
+      "pl": "Muszę sobie wyjaśnić, które elementy prognozy opierają się na osądzie, a nie na obserwowalnych danych.",
+      "de": "Ich muss mir klarmachen, welche Bestandteile der Prognose auf Einschätzungen statt auf beobachtbaren Daten beruhen."
+    },
+    {
+      "en": "You (formal) should ask yourself whether the proposed timetable is compatible with the required review procedures.",
+      "pl": "Powinien się Pan/Powinna się Pani zastanowić, czy proponowany harmonogram jest zgodny z wymaganymi procedurami przeglądu.",
+      "de": "Sie sollten sich fragen, ob der vorgeschlagene Zeitplan mit den erforderlichen Prüfverfahren vereinbar ist."
+    },
+    {
+      "en": "The organisation has committed itself to reviewing the policy whenever material circumstances change.",
+      "pl": "Organizacja zobowiązała się do przeglądu polityki za każdym razem, gdy istotnie zmienią się okoliczności.",
+      "de": "Die Organisation hat sich verpflichtet, die Richtlinie immer dann zu überprüfen, wenn sich die wesentlichen Umstände ändern."
+    }
+  ],
+  "speaking": {
+    "prompt": {
+      "en": "You are my German language tutor conducting a 20-minute B1-to-C1 speaking conversation based on today's grammar topic, Reflexive pronouns: accusative vs dative reflexive verbs, on 18 October 2026.\n\nGrammar focus to elicit: Reflexivpronomen im Akkusativ und Dativ.\n\nInstructions for ChatGPT:\n1. First, warmly introduce the topic and ask me what I already know about German reflexive pronouns.\n2. Ask me questions one by one. Never provide multiple questions at once.\n3. Start with everyday routines and personal experiences, then move to workplace situations, explanations, comparisons, and more complex opinions.\n4. Encourage me to distinguish accusative reflexive pronouns such as mich and dich from dative forms such as mir and dir. Prompt me to use constructions with body parts and other accusative objects, such as Ich wasche mir die Hände, and to explain why the case changes.\n5. Immediate correction protocol: If I break today's rule (e.g. *Ich wasche mich die Hände.* instead of *Ich wasche mir die Hände.*), stop briefly to:\n   - Quote the error.\n   - Provide the correct German sentence.\n   - Give a 1-sentence English explanation of the rule.\n   - Ask me to repeat the correct German sentence aloud before proceeding to the next conversational question.\n6. Also correct other significant German errors and briefly explain more natural phrasing when useful, without interrupting every sentence for minor stylistic preferences.\n7. Keep the tone engaging, professional, and natural for an immersive German voice dialogue.",
+      "pl": "Jesteś moim nauczycielem języka niemieckiego i prowadzisz 20-minutową rozmowę ustną na poziomie od B1 do C1, opartą na dzisiejszym zagadnieniu gramatycznym: zaimki zwrotne w bierniku i celowniku, 18 października 2026 roku.\n\nZagadnienie gramatyczne do ćwiczenia: Reflexivpronomen im Akkusativ und Dativ.\n\nInstrukcje dla ChatGPT:\n1. Na początku przywitaj się serdecznie i zapytaj, co już wiem o niemieckich zaimkach zwrotnych.\n2. Zadawaj mi pytania pojedynczo. Nigdy nie zadawaj kilku pytań naraz.\n3. Zacznij od codziennych czynności i osobistych doświadczeń, a następnie przejdź do sytuacji zawodowych, wyjaśnień, porównań i bardziej złożonych opinii.\n4. Zachęcaj mnie do rozróżniania zaimków zwrotnych w bierniku, takich jak mich i dich, od form celownika, takich jak mir i dir. Proś mnie o używanie konstrukcji z częściami ciała i innymi dopełnieniami w bierniku, na przykład Ich wasche mir die Hände, oraz o wyjaśnianie, dlaczego zmienia się przypadek.\n5. Zasady natychmiastowej korekty: Jeśli popełnię błąd związany z dzisiejszym zagadnieniem, na przykład *Ich wasche mich die Hände.* zamiast *Ich wasche mir die Hände.*, na chwilę przerwij rozmowę, aby:\n   - Zacytować błąd.\n   - Podać poprawne zdanie po niemiecku.\n   - Wyjaśnić w jednym zdaniu po polsku zasadę gramatyczną.\n   - Poprosić mnie o głośne powtórzenie poprawnego zdania, zanim przejdziesz do kolejnego pytania.\n6. Poprawiaj również inne istotne błędy językowe i krótko wyjaśniaj naturalniejsze sformułowania, gdy jest to przydatne, ale nie przerywaj każdej wypowiedzi z powodu drobnych różnic stylistycznych.\n7. Zachowuj angażujący, profesjonalny i naturalny ton, odpowiedni dla immersyjnej rozmowy głosowej po niemiecku."
+    }
+  }
+}
 ]
