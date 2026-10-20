@@ -6927,5 +6927,301 @@
       "pl": "Jesteś moim nauczycielem języka niemieckiego i prowadzisz 20-minutową rozmowę na poziomie od B1 do C1 na podstawie niemieckich wiadomości z 19 października 2026 roku.\n\nNajważniejsze tematy tego odcinka:\n1. Według prezydenta Wołodymyra Zełenskiego Ukraina ponownie otrzymuje od Stanów Zjednoczonych ważne informacje wywiadowcze po krótkiej przerwie.\n2. Prezydent Francji Emmanuel Macron potępił gwałtowne starcia podczas protestów i stwierdził, że w razie potrzeby demonstracje mogą zostać zakazane.\n3. Samolot Austrian Airlines lecący z Tel Awiwu do Wiednia wylądował nieplanowo w Sofii po otrzymaniu groźby podłożenia bomby; pasażerów wyprowadzono w bezpieczne miejsce.\n4. Pożar w kanadyjskiej bazie wojskowej zabił cztery osoby i poważnie ranił kolejne; przyczyna zdarzenia jest badana.\n5. Wyborcy w Albercie mają głosować w referendum dotyczącym możliwego rozpoczęcia procesu prowadzącego do odłączenia prowincji od Kanady.\n6. Japonia planuje wysłać sondę na księżyc Marsa, Fobosa, aby zebrać próbki i zbadać pochodzenie księżyców.\n\nZagadnienie gramatyczne do ćwiczenia: wybór czasownika posiłkowego w czasie Perfekt: haben czy sein.\n\nInstrukcje dla ChatGPT:\n1. Na początku serdecznie zapytaj, czy wysłuchałem wiadomości.\n2. Zadawaj pytania pojedynczo. Nigdy nie zadawaj kilku pytań naraz.\n3. Najpierw omów fakty, a następnie przyczyny i konsekwencje, alternatywne perspektywy oraz moją własną ocenę.\n4. Zachęcaj mnie do opisywania wydarzeń z przeszłości w czasie Perfekt i świadomego wybierania haben lub sein. W razie potrzeby poproś mnie o wyjaśnienie wyboru, szczególnie w przypadku czasowników ruchu, zmiany stanu, czasowników przechodnich i zwrotnych.\n5. Zasady natychmiastowej korekty: Jeśli popełnię błąd dotyczący dzisiejszej zasady, na przykład *Ich habe nach Sofia geflogen.* zamiast *Ich bin nach Sofia geflogen.*, na chwilę przerwij rozmowę, aby:\n   - Zacytować błąd.\n   - Podać poprawne zdanie po niemiecku.\n   - Wyjaśnić w jednym zdaniu po polsku zasadę gramatyczną.\n   - Poprosić mnie o głośne powtórzenie poprawnego zdania, zanim przejdziesz do kolejnego pytania.\n6. Zachowuj angażujący, profesjonalny i naturalny ton, odpowiedni dla immersyjnej rozmowy głosowej po niemiecku."
     }
   }
+},
+ 
+{
+  "lesson": {
+    "id": "2026-10-20",
+    "date": "20.10.2026",
+    "day": 8,
+    "totalDays": 300,
+    "level": "B1",
+    "title": {
+      "en": "Forming Partizip II: Regular, Irregular and Mixed Verbs",
+      "pl": "Tworzenie Partizip II: czasowniki regularne, nieregularne i mieszane"
+    },
+    "subtitle": "Das Partizip II: regelmäßige, unregelmäßige und gemischte Verben"
+  },
+  "grammar": {
+    "html": {
+      "en": [
+        "<p>The <strong>Partizip II</strong> is used to form the <em>Perfekt</em>, the <em>Plusquamperfekt</em>, the passive voice and some adjective constructions. Regular, irregular and mixed verbs form it differently. To use it correctly, learn the verb's pattern and remember that separable prefixes and the endings of verbs in <em>-ieren</em> affect the form.</p>",
+        "<div class='box rule'><strong>Core rule:</strong> Regular verbs usually form Partizip II with <strong>ge- + stem + -t</strong>; irregular verbs often use <strong>ge- + changed stem + -en</strong>; mixed verbs combine a stem change with <strong>-t</strong>.</div>",
+        "<h3>Regular verbs</h3>",
+        "<p>Most regular verbs use <strong>ge-</strong> before the stem and <strong>-t</strong> at the end. For example, machen becomes gemacht, lernen becomes gelernt and fragen becomes gefragt. If the stem ends in <em>-d</em> or <em>-t</em>, an extra <em>-e-</em> is often added before the participle ending to make pronunciation easier: arbeiten becomes gearbeitet and reden becomes geredet.</p>",
+        "<p>Verbs ending in <em>-ieren</em> do not take <em>ge-</em>. Their Partizip II ends in <em>-t</em>: studieren becomes studiert, informieren becomes informiert and organisieren becomes organisiert.</p>",
+        "<table><thead><tr><th>Infinitive</th><th>Partizip II</th><th>Pattern</th></tr></thead><tbody><tr><td>machen</td><td class='de'>gemacht</td><td>ge- + stem + -t</td></tr><tr><td>arbeiten</td><td class='de'>gearbeitet</td><td>ge- + stem + -et</td></tr><tr><td>studieren</td><td class='de'>studiert</td><td>no ge-, ending -t</td></tr></tbody></table>",
+        "<h3>Irregular verbs</h3>",
+        "<p>Many irregular verbs change their stem vowel or another part of the stem and end in <strong>-en</strong>. Common examples include gehen – gegangen, schreiben – geschrieben, sehen – gesehen, trinken – getrunken and finden – gefunden. The exact change is not fully predictable, so learn the infinitive and Partizip II together.</p>",
+        "<p>Not every irregular participle follows the same visible pattern. Some forms have a vowel change without looking obviously related to the infinitive, and some verbs have more than one accepted form. For everyday use, practise common forms in complete sentences rather than relying only on a rule.</p>",
+        "<table><thead><tr><th>Infinitive</th><th>Partizip II</th></tr></thead><tbody><tr><td>gehen</td><td class='de'>gegangen</td></tr><tr><td>schreiben</td><td class='de'>geschrieben</td></tr><tr><td>trinken</td><td class='de'>getrunken</td></tr><tr><td>finden</td><td class='de'>gefunden</td></tr></tbody></table>",
+        "<h3>Mixed verbs and prefixes</h3>",
+        "<p>Mixed verbs combine a stem change with the regular ending <strong>-t</strong>. Important examples are bringen – gebracht, denken – gedacht, kennen – gekannt, nennen – genannt and wissen – gewusst. Treat these as forms to memorize because the stem changes are not predictable from the regular pattern.</p>",
+        "<p>For separable verbs, <em>ge-</em> usually goes between the prefix and the stem: einkaufen – eingekauft, aufmachen – aufgemacht, anrufen – angerufen. With inseparable prefixes such as <em>be-</em>, <em>ent-</em>, <em>er-</em>, <em>ver-</em> and <em>zer-</em>, there is normally no <em>ge-</em>: besuchen – besucht, erklären – erklärt, verkaufen – verkauft. Verbs ending in <em>-ieren</em> also have no <em>ge-</em>.</p>",
+        "<div class='box warn'><strong>Typical mistake:</strong> Do not add <em>ge-</em> to every verb. Incorrect: Ich habe gestern <em>gebesucht</em>. Correct: Ich habe gestern <em>besucht</em>. Also distinguish the mixed form: denken – gedacht, not <em>gedenkt</em>.</div>",
+        "<div class='box tip'><strong>Memory aid:</strong> Ask three questions: Is the verb regular, irregular or mixed? Does it have a prefix or end in <em>-ieren</em>? Then memorize any stem change together with the complete participle.</div>",
+        "<h3>Quick reference</h3>",
+        "<div class='tiles'><div class='tile'><strong>Regular</strong><p>machen → gemacht</p></div><div class='tile'><strong>Irregular</strong><p>schreiben → geschrieben</p></div><div class='tile'><strong>Mixed</strong><p>denken → gedacht</p></div><div class='tile'><strong>Special pattern</strong><p>studieren → studiert</p></div></div>"
+      ],
+      "pl": [
+        "<p><strong>Partizip II</strong> służy do tworzenia czasu <em>Perfekt</em>, czasu <em>Plusquamperfekt</em>, strony biernej oraz niektórych konstrukcji przymiotnikowych. Czasowniki regularne, nieregularne i mieszane tworzą tę formę na różne sposoby. Aby używać jej poprawnie, trzeba znać wzorzec danego czasownika oraz pamiętać, że przedrostki rozdzielne i końcówki czasowników na <em>-ieren</em> wpływają na formę.</p>",
+        "<div class='box rule'><strong>Główna zasada:</strong> Czasowniki regularne zwykle tworzą Partizip II według wzoru <strong>ge- + temat + -t</strong>; nieregularne często mają wzór <strong>ge- + zmieniony temat + -en</strong>; mieszane łączą zmianę tematu z końcówką <strong>-t</strong>.</div>",
+        "<h3>Czasowniki regularne</h3>",
+        "<p>Większość czasowników regularnych przyjmuje <strong>ge-</strong> przed tematem i <strong>-t</strong> na końcu. Na przykład machen zmienia się w gemacht, lernen w gelernt, a fragen w gefragt. Jeśli temat kończy się na <em>-d</em> lub <em>-t</em>, często dodaje się dodatkowe <em>-e-</em> przed końcówką, aby ułatwić wymowę: arbeiten zmienia się w gearbeitet, a reden w geredet.</p>",
+        "<p>Czasowniki zakończone na <em>-ieren</em> nie przyjmują <em>ge-</em>. Ich Partizip II kończy się na <em>-t</em>: studieren → studiert, informieren → informiert, organisieren → organisiert.</p>",
+        "<table><thead><tr><th>Bezokolicznik</th><th>Partizip II</th><th>Wzór</th></tr></thead><tbody><tr><td>machen</td><td class='de'>gemacht</td><td>ge- + temat + -t</td></tr><tr><td>arbeiten</td><td class='de'>gearbeitet</td><td>ge- + temat + -et</td></tr><tr><td>studieren</td><td class='de'>studiert</td><td>bez ge-, końcówka -t</td></tr></tbody></table>",
+        "<h3>Czasowniki nieregularne</h3>",
+        "<p>Wiele czasowników nieregularnych zmienia samogłoskę lub inną część tematu i kończy się na <strong>-en</strong>. Częste przykłady to gehen – gegangen, schreiben – geschrieben, sehen – gesehen, trinken – getrunken oraz finden – gefunden. Dokładnej zmiany nie da się w pełni przewidzieć, dlatego warto uczyć się bezokolicznika i Partizip II razem.</p>",
+        "<p>Nie wszystkie nieregularne imiesłowy mają taki sam widoczny wzór. W niektórych formach zmienia się samogłoska, choć forma nie wygląda na oczywiście powiązaną z bezokolicznikiem; niektóre czasowniki mają też więcej niż jedną akceptowaną formę. W codziennym użyciu ćwicz częste formy w pełnych zdaniach, zamiast polegać wyłącznie na regule.</p>",
+        "<table><thead><tr><th>Bezokolicznik</th><th>Partizip II</th></tr></thead><tbody><tr><td>gehen</td><td class='de'>gegangen</td></tr><tr><td>schreiben</td><td class='de'>geschrieben</td></tr><tr><td>trinken</td><td class='de'>getrunken</td></tr><tr><td>finden</td><td class='de'>gefunden</td></tr></tbody></table>",
+        "<h3>Czasowniki mieszane i przedrostki</h3>",
+        "<p>Czasowniki mieszane łączą zmianę tematu z regularną końcówką <strong>-t</strong>. Ważne przykłady to bringen – gebracht, denken – gedacht, kennen – gekannt, nennen – genannt oraz wissen – gewusst. Warto zapamiętać je jako osobne formy, ponieważ zmian nie da się przewidzieć na podstawie wzoru regularnego.</p>",
+        "<p>W czasownikach z przedrostkiem rozdzielnym <em>ge-</em> zwykle pojawia się między przedrostkiem a tematem: einkaufen – eingekauft, aufmachen – aufgemacht, anrufen – angerufen. Przy przedrostkach nierozdzielnych, takich jak <em>be-</em>, <em>ent-</em>, <em>er-</em>, <em>ver-</em> i <em>zer-</em>, zazwyczaj nie ma <em>ge-</em>: besuchen – besucht, erklären – erklärt, verkaufen – verkauft. Czasowniki zakończone na <em>-ieren</em> również nie mają <em>ge-</em>.</p>",
+        "<div class='box warn'><strong>Typowy błąd:</strong> Nie dodawaj <em>ge-</em> do każdego czasownika. Niepoprawnie: Ich habe gestern <em>gebesucht</em>. Poprawnie: Ich habe gestern <em>besucht</em>. Zwróć też uwagę na formę mieszaną: denken – gedacht, a nie <em>gedenkt</em>.</div>",
+        "<div class='box tip'><strong>Sposób na zapamiętanie:</strong> Zadaj sobie trzy pytania: Czy czasownik jest regularny, nieregularny czy mieszany? Czy ma przedrostek albo końcówkę <em>-ieren</em>? Następnie zapamiętaj każdą zmianę tematu razem z pełną formą imiesłowu.</div>",
+        "<h3>Szybka ściąga</h3>",
+        "<div class='tiles'><div class='tile'><strong>Regularne</strong><p>machen → gemacht</p></div><div class='tile'><strong>Nieregularne</strong><p>schreiben → geschrieben</p></div><div class='tile'><strong>Mieszane</strong><p>denken → gedacht</p></div><div class='tile'><strong>Wzór specjalny</strong><p>studieren → studiert</p></div></div>"
+      ]
+    }
+  },
+  "examples": [
+    {
+      "de": "Ich habe gestern lange **gearbeitet**.",
+      "en": "I worked for a long time yesterday.",
+      "pl": "Wczoraj długo pracowałem."
+    },
+    {
+      "de": "Sie hat eine interessante Frage **gestellt**.",
+      "en": "She asked an interesting question.",
+      "pl": "Zadała interesujące pytanie."
+    },
+    {
+      "de": "Wir haben den ganzen Abend **gekocht**.",
+      "en": "We cooked all evening.",
+      "pl": "Gotowaliśmy przez cały wieczór."
+    },
+    {
+      "de": "Er hat die E-Mail sofort **beantwortet**.",
+      "en": "He answered the email immediately.",
+      "pl": "Od razu odpowiedział na e-mail."
+    },
+    {
+      "de": "Ich habe an der Universität **studiert**.",
+      "en": "I studied at university.",
+      "pl": "Studiowałem na uniwersytecie."
+    },
+    {
+      "de": "Die Kinder haben im Garten **gespielt**.",
+      "en": "The children played in the garden.",
+      "pl": "Dzieci bawiły się w ogrodzie."
+    },
+    {
+      "de": "Sie hat den Bericht sorgfältig **geschrieben**.",
+      "en": "She wrote the report carefully.",
+      "pl": "Starannie napisała raport."
+    },
+    {
+      "de": "Wir haben den Fehler sofort **gefunden**.",
+      "en": "We found the mistake immediately.",
+      "pl": "Od razu znaleźliśmy błąd."
+    },
+    {
+      "de": "Er hat das Glas **zerbrochen**.",
+      "en": "He broke the glass.",
+      "pl": "Stłukł szklankę."
+    },
+    {
+      "de": "Ich habe die ganze Nacht schlecht **geschlafen**.",
+      "en": "I slept badly all night.",
+      "pl": "Przez całą noc źle spałem."
+    },
+    {
+      "de": "Sie hat die Einladung **angenommen**.",
+      "en": "She accepted the invitation.",
+      "pl": "Przyjęła zaproszenie."
+    },
+    {
+      "de": "Wir haben die Unterlagen **vergessen**.",
+      "en": "We forgot the documents.",
+      "pl": "Zapomnieliśmy dokumentów."
+    },
+    {
+      "de": "Der Techniker hat das Problem **gelöst**.",
+      "en": "The technician solved the problem.",
+      "pl": "Technik rozwiązał problem."
+    },
+    {
+      "de": "Ich habe ihn gestern **angerufen**.",
+      "en": "I called him yesterday.",
+      "pl": "Wczoraj do niego zadzwoniłem."
+    },
+    {
+      "de": "Die Firma hat einen neuen Standort **eröffnet**.",
+      "en": "The company opened a new location.",
+      "pl": "Firma otworzyła nową lokalizację."
+    },
+    {
+      "de": "Sie hat den Vertrag gründlich **geprüft**.",
+      "en": "She examined the contract thoroughly.",
+      "pl": "Dokładnie sprawdziła umowę."
+    },
+    {
+      "de": "Wir haben die Kosten falsch **eingeschätzt**.",
+      "en": "We estimated the costs incorrectly.",
+      "pl": "Błędnie oszacowaliśmy koszty."
+    },
+    {
+      "de": "Er hat seine Entscheidung gut **begründet**.",
+      "en": "He justified his decision well.",
+      "pl": "Dobrze uzasadnił swoją decyzję."
+    },
+    {
+      "de": "Die Regierung hat neue Maßnahmen **beschlossen**.",
+      "en": "The government decided on new measures.",
+      "pl": "Rząd podjął decyzję o nowych środkach."
+    },
+    {
+      "de": "Das Team hat die Erwartungen **übertroffen**.",
+      "en": "The team exceeded expectations.",
+      "pl": "Zespół przekroczył oczekiwania."
+    }
+  ],
+  "exercises": [
+    {"en":"I played football yesterday.","pl":"Wczoraj grałem w piłkę nożną.","de":"Ich habe gestern Fußball gespielt."},
+    {"en":"She cooked dinner.","pl":"Ona ugotowała kolację.","de":"Sie hat das Abendessen gekocht."},
+    {"en":"We learned German.","pl":"Uczyliśmy się niemieckiego.","de":"Wir haben Deutsch gelernt."},
+    {"en":"He bought bread.","pl":"On kupił chleb.","de":"Er hat Brot gekauft."},
+    {"en":"I cleaned my room.","pl":"Posprzątałem swój pokój.","de":"Ich habe mein Zimmer aufgeräumt."},
+    {"en":"They opened the window.","pl":"Oni otworzyli okno.","de":"Sie haben das Fenster geöffnet."},
+    {"en":"She listened to music.","pl":"Ona słuchała muzyki.","de":"Sie hat Musik gehört."},
+    {"en":"We asked the teacher.","pl":"Zapytaliśmy nauczyciela.","de":"Wir haben den Lehrer gefragt."},
+    {"en":"He worked on Monday.","pl":"On pracował w poniedziałek.","de":"Er hat am Montag gearbeitet."},
+    {"en":"I studied economics.","pl":"Studiowałem ekonomię.","de":"Ich habe Wirtschaft studiert."},
+    {"en":"She visited her grandmother.","pl":"Odwiedziła swoją babcię.","de":"Sie hat ihre Großmutter besucht."},
+    {"en":"We made a decision.","pl":"Podjęliśmy decyzję.","de":"Wir haben eine Entscheidung getroffen."},
+    {"en":"He drove to the office.","pl":"Pojechał samochodem do biura.","de":"Er ist mit dem Auto ins Büro gefahren."},
+    {"en":"I read the newspaper.","pl":"Przeczytałem gazetę.","de":"Ich habe die Zeitung gelesen."},
+    {"en":"They drank coffee.","pl":"Oni wypili kawę.","de":"Sie haben Kaffee getrunken."},
+    {"en":"She wrote a letter.","pl":"Napisała list.","de":"Sie hat einen Brief geschrieben."},
+    {"en":"We found the address.","pl":"Znaleźliśmy adres.","de":"Wir haben die Adresse gefunden."},
+    {"en":"He took the train.","pl":"Pojechał pociągiem.","de":"Er ist mit dem Zug gefahren."},
+    {"en":"I brought my laptop.","pl":"Przyniosłem laptopa.","de":"Ich habe meinen Laptop mitgebracht."},
+    {"en":"She thought about the offer.","pl":"Zastanowiła się nad ofertą.","de":"Sie hat über das Angebot nachgedacht."},
+    {"en":"We met our colleagues.","pl":"Spotkaliśmy naszych współpracowników.","de":"Wir haben unsere Kollegen getroffen."},
+    {"en":"He stayed at home.","pl":"Został w domu.","de":"Er ist zu Hause geblieben."},
+    {"en":"I forgot the password.","pl":"Zapomniałem hasła.","de":"Ich habe das Passwort vergessen."},
+    {"en":"They helped their neighbors.","pl":"Pomogli sąsiadom.","de":"Sie haben ihren Nachbarn geholfen."},
+    {"en":"She spoke to the manager.","pl":"Rozmawiała z kierownikiem.","de":"Sie hat mit dem Manager gesprochen."},
+    {"en":"We chose the cheaper option.","pl":"Wybraliśmy tańszą opcję.","de":"Wir haben die günstigere Option gewählt."},
+    {"en":"He slept for eight hours.","pl":"Spał przez osiem godzin.","de":"Er hat acht Stunden geschlafen."},
+    {"en":"I wore a warm coat.","pl":"Miałem na sobie ciepły płaszcz.","de":"Ich habe einen warmen Mantel getragen."},
+    {"en":"They sold the old house.","pl":"Sprzedali stary dom.","de":"Sie haben das alte Haus verkauft."},
+    {"en":"She understood the instructions.","pl":"Zrozumiała instrukcje.","de":"Sie hat die Anweisungen verstanden."},
+    {"en":"We arrived late.","pl":"Przyjechaliśmy późno.","de":"Wir sind spät angekommen."},
+    {"en":"He called the customer back.","pl":"Oddzwonił do klienta.","de":"Er hat den Kunden zurückgerufen."},
+    {"en":"I sent the documents yesterday.","pl":"Wczoraj wysłałem dokumenty.","de":"Ich habe die Unterlagen gestern geschickt."},
+    {"en":"She closed the account.","pl":"Zamknęła konto.","de":"Sie hat das Konto geschlossen."},
+    {"en":"We discussed the proposal in detail.","pl":"Omówiliśmy szczegółowo propozycję.","de":"Wir haben den Vorschlag ausführlich besprochen."},
+    {"en":"He apologized for the delay.","pl":"Przeprosił za opóźnienie.","de":"Er hat sich für die Verzögerung entschuldigt."},
+    {"en":"I compared the two reports.","pl":"Porównałem oba raporty.","de":"Ich habe die beiden Berichte verglichen."},
+    {"en":"They decided to postpone the meeting.","pl":"Postanowili przełożyć spotkanie.","de":"Sie haben beschlossen, die Besprechung zu verschieben."},
+    {"en":"She recommended a different approach.","pl":"Zaleciła inne podejście.","de":"Sie hat einen anderen Ansatz empfohlen."},
+    {"en":"We avoided unnecessary costs.","pl":"Uniknęliśmy niepotrzebnych kosztów.","de":"Wir haben unnötige Kosten vermieden."},
+    {"en":"He explained the situation clearly.","pl":"Jasno wyjaśnił sytuację.","de":"Er hat die Situation klar erklärt."},
+    {"en":"I submitted the application online.","pl":"Złożyłem wniosek przez internet.","de":"Ich habe den Antrag online eingereicht."},
+    {"en":"She translated the contract into German.","pl":"Przetłumaczyła umowę na niemiecki.","de":"Sie hat den Vertrag ins Deutsche übersetzt."},
+    {"en":"We recognized the risks too late.","pl":"Zbyt późno rozpoznaliśmy ryzyko.","de":"Wir haben die Risiken zu spät erkannt."},
+    {"en":"He forgot to attach the file.","pl":"Zapomniał załączyć plik.","de":"Er hat vergessen, die Datei anzuhängen."},
+    {"en":"I received the revised version.","pl":"Otrzymałem poprawioną wersję.","de":"Ich habe die überarbeitete Version erhalten."},
+    {"en":"They rejected the first proposal.","pl":"Odrzucili pierwszą propozycję.","de":"Sie haben den ersten Vorschlag abgelehnt."},
+    {"en":"She developed a practical solution.","pl":"Opracowała praktyczne rozwiązanie.","de":"Sie hat eine praktische Lösung entwickelt."},
+    {"en":"We increased the budget slightly.","pl":"Nieznacznie zwiększyliśmy budżet.","de":"Wir haben das Budget leicht erhöht."},
+    {"en":"He lost confidence in the plan.","pl":"Stracił zaufanie do planu.","de":"Er hat das Vertrauen in den Plan verloren."},
+    {"en":"I took responsibility for the mistake.","pl":"Wziąłem odpowiedzialność za błąd.","de":"Ich habe die Verantwortung für den Fehler übernommen."},
+    {"en":"She completed the project ahead of schedule.","pl":"Ukończyła projekt przed terminem.","de":"Sie hat das Projekt vor dem Zeitplan abgeschlossen."},
+    {"en":"We considered several alternatives.","pl":"Rozważyliśmy kilka alternatyw.","de":"Wir haben mehrere Alternativen in Betracht gezogen."},
+    {"en":"He described the incident accurately.","pl":"Dokładnie opisał incydent.","de":"Er hat den Vorfall genau beschrieben."},
+    {"en":"I misunderstood the original request.","pl":"Źle zrozumiałem pierwotną prośbę.","de":"Ich habe die ursprüngliche Anfrage missverstanden."},
+    {"en":"They expanded their operations abroad.","pl":"Rozszerzyli działalność za granicą.","de":"Sie haben ihre Geschäftstätigkeit im Ausland ausgeweitet."},
+    {"en":"She kept the team informed.","pl":"Na bieżąco informowała zespół.","de":"Sie hat das Team auf dem Laufenden gehalten."},
+    {"en":"We agreed on a realistic deadline.","pl":"Uzgodniliśmy realistyczny termin.","de":"Wir haben uns auf eine realistische Frist geeinigt."},
+    {"en":"He proved that the figures were incorrect.","pl":"Udowodnił, że dane były nieprawidłowe.","de":"Er hat bewiesen, dass die Zahlen falsch waren."},
+    {"en":"I took the discrepancy into account.","pl":"Uwzględniłem rozbieżność.","de":"Ich habe die Abweichung berücksichtigt."},
+    {"en":"She questioned the reliability of the data.","pl":"Zakwestionowała wiarygodność danych.","de":"Sie hat die Zuverlässigkeit der Daten infrage gestellt."},
+    {"en":"We underestimated the implementation effort.","pl":"Nie doceniliśmy nakładu pracy potrzebnego do wdrożenia.","de":"Wir haben den Implementierungsaufwand unterschätzt."},
+    {"en":"He negotiated better terms with the supplier.","pl":"Wynegocjował lepsze warunki z dostawcą.","de":"Er hat bessere Konditionen mit dem Lieferanten ausgehandelt."},
+    {"en":"I documented every material change.","pl":"Udokumentowałem każdą istotną zmianę.","de":"Ich habe jede wesentliche Änderung dokumentiert."},
+    {"en":"They strengthened the internal controls.","pl":"Wzmocnili kontrole wewnętrzne.","de":"Sie haben die internen Kontrollen verstärkt."},
+    {"en":"She challenged the assumptions behind the forecast.","pl":"Podważyła założenia leżące u podstaw prognozy.","de":"Sie hat die Annahmen hinter der Prognose infrage gestellt."},
+    {"en":"We obtained approval from the regional director.","pl":"Uzyskaliśmy zgodę dyrektora regionalnego.","de":"Wir haben die Genehmigung des Regionaldirektors erhalten."},
+    {"en":"He overlooked a significant inconsistency.","pl":"Przeoczył istotną niespójność.","de":"Er hat eine erhebliche Unstimmigkeit übersehen."},
+    {"en":"I clarified the scope before signing the agreement.","pl":"Wyjaśniłem zakres przed podpisaniem umowy.","de":"Ich habe den Umfang vor der Unterzeichnung der Vereinbarung geklärt."},
+    {"en":"They withdrew the statement after new evidence emerged.","pl":"Wycofali oświadczenie po pojawieniu się nowych dowodów.","de":"Sie haben die Erklärung zurückgezogen, nachdem neue Beweise aufgetaucht waren."},
+    {"en":"She summarized the findings for senior management.","pl":"Podsumowała ustalenia dla kierownictwa wyższego szczebla.","de":"Sie hat die Ergebnisse für die Geschäftsleitung zusammengefasst."},
+    {"en":"We resolved the conflict without escalating it.","pl":"Rozwiązaliśmy konflikt bez jego eskalowania.","de":"Wir haben den Konflikt gelöst, ohne ihn eskalieren zu lassen."},
+    {"en":"He distinguished between an estimate and a confirmed result.","pl":"Rozróżnił szacunek od potwierdzonego wyniku.","de":"Er hat zwischen einer Schätzung und einem bestätigten Ergebnis unterschieden."},
+    {"en":"I reconstructed the timeline from the available records.","pl":"Odtworzyłem chronologię na podstawie dostępnych zapisów.","de":"Ich habe den zeitlichen Ablauf anhand der verfügbaren Unterlagen rekonstruiert."},
+    {"en":"They disclosed the limitation in the final report.","pl":"Ujawnili ograniczenie w raporcie końcowym.","de":"Sie haben die Einschränkung im Abschlussbericht offengelegt."},
+    {"en":"She established a clear link between the two developments.","pl":"Ustaliła wyraźny związek między tymi dwoma wydarzeniami.","de":"Sie hat einen klaren Zusammenhang zwischen den beiden Entwicklungen hergestellt."},
+    {"en":"We reassessed the risks after the regulatory change.","pl":"Ponownie oceniliśmy ryzyko po zmianie przepisów.","de":"Wir haben die Risiken nach der regulatorischen Änderung neu bewertet."},
+    {"en":"He contradicted his earlier explanation.","pl":"Zaprzeczył swojej wcześniejszej wersji wyjaśnień.","de":"Er hat seiner früheren Erklärung widersprochen."},
+    {"en":"I preserved the original records for audit purposes.","pl":"Zachowałem oryginalne dokumenty na potrzeby audytu.","de":"Ich habe die Originalunterlagen zu Prüfungszwecken aufbewahrt."},
+    {"en":"They consolidated the evidence into a coherent account.","pl":"Zebrali dowody w spójną relację.","de":"Sie haben die Beweise zu einer schlüssigen Darstellung zusammengeführt."},
+    {"en":"She inferred the likely cause from several independent indicators.","pl":"Wywnioskowała prawdopodobną przyczynę na podstawie kilku niezależnych wskaźników.","de":"Sie hat die wahrscheinliche Ursache aus mehreren unabhängigen Indikatoren abgeleitet."},
+    {"en":"We mitigated the exposure before final approval.","pl":"Ograniczyliśmy ekspozycję przed ostatecznym zatwierdzeniem.","de":"Wir haben das Risiko vor der endgültigen Freigabe gemindert."},
+    {"en":"He substantiated the conclusion with additional documentation.","pl":"Poparł wniosek dodatkową dokumentacją.","de":"Er hat die Schlussfolgerung mit zusätzlichen Unterlagen untermauert."},
+    {"en":"I distinguished the underlying cause from its visible effects.","pl":"Odróżniłem przyczynę źródłową od jej widocznych skutków.","de":"Ich habe die zugrunde liegende Ursache von ihren sichtbaren Auswirkungen unterschieden."},
+    {"en":"They reconsidered the proposal after consulting external experts.","pl":"Ponownie rozważyli propozycję po konsultacji z ekspertami zewnętrznymi.","de":"Sie haben den Vorschlag nach der Konsultation externer Experten überdacht."},
+    {"en":"She acknowledged that the initial assessment had been incomplete.","pl":"Przyznała, że wstępna ocena była niepełna.","de":"Sie hat eingeräumt, dass die erste Bewertung unvollständig gewesen ist."},
+    {"en":"We documented how the decision had affected the subsequent analysis.","pl":"Udokumentowaliśmy, jak decyzja wpłynęła na późniejszą analizę.","de":"Wir haben dokumentiert, wie sich die Entscheidung auf die anschließende Analyse ausgewirkt hat."},
+    {"en":"He derived a more robust approach from the lessons learned.","pl":"Na podstawie zdobytych doświadczeń wypracował solidniejsze podejście.","de":"Er hat aus den gewonnenen Erkenntnissen einen robusteren Ansatz abgeleitet."},
+    {"en":"I had already sent the revised figures before the meeting began.","pl":"Wysłałem już poprawione dane, zanim rozpoczęło się spotkanie.","de":"Ich hatte die überarbeiteten Zahlen bereits geschickt, bevor die Besprechung begann."},
+    {"en":"They had completed the review before the deadline was brought forward.","pl":"Zakończyli przegląd, zanim przyspieszono termin.","de":"Sie hatten die Prüfung abgeschlossen, bevor die Frist vorverlegt worden war."},
+    {"en":"She had misunderstood the requirement because it had been poorly formulated.","pl":"Źle zrozumiała wymóg, ponieważ został nieprecyzyjnie sformułowany.","de":"Sie hatte die Anforderung missverstanden, weil sie unklar formuliert worden war."},
+    {"en":"We had not anticipated the consequences that later emerged.","pl":"Nie przewidzieliśmy konsekwencji, które ujawniły się później.","de":"Wir hatten die später eingetretenen Folgen nicht vorausgesehen."},
+    {"en":"He had taken the evidence into account before reaching his conclusion.","pl":"Uwzględnił dowody przed wyciągnięciem wniosku.","de":"Er hatte die Beweise berücksichtigt, bevor er zu seiner Schlussfolgerung gekommen war."},
+    {"en":"I had recorded the exception, but the reviewer had overlooked it.","pl":"Zarejestrowałem wyjątek, ale recenzent go przeoczył.","de":"Ich hatte die Ausnahme dokumentiert, aber der Prüfer hatte sie übersehen."},
+    {"en":"They had agreed on the methodology before the new data arrived.","pl":"Uzgodnili metodologię, zanim nadeszły nowe dane.","de":"Sie hatten sich auf die Methodik geeinigt, bevor die neuen Daten eingetroffen waren."},
+    {"en":"She had raised the concern repeatedly before management responded.","pl":"Wielokrotnie zgłaszała obawę, zanim kierownictwo zareagowało.","de":"Sie hatte die Bedenken wiederholt geäußert, bevor die Geschäftsleitung reagiert hatte."},
+    {"en":"We had underestimated how much the assumptions influenced the outcome.","pl":"Nie doceniliśmy, jak bardzo założenia wpływały na wynik.","de":"Wir hatten unterschätzt, wie stark die Annahmen das Ergebnis beeinflusst hatten."},
+    {"en":"He had defended the original estimate until contrary evidence emerged.","pl":"Bronił pierwotnego szacunku, dopóki nie pojawiły się sprzeczne dowody.","de":"Er hatte die ursprüngliche Schätzung verteidigt, bis gegenteilige Beweise aufgetaucht waren."}
+  ],
+  "listening": {
+    "audioUrl": "https://radiodownloaddw-a.akamaihd.net/downloads/Events/dwelle/dira/mp3/deutschkurse/nachrichten_live/00B62AD3_2.mp3",
+    "articles": [
+      {
+        "heading": "Spannungen zwischen Trump und Selenskyj verschärfen sich weiter",
+        "text": "US-Präsident Donald Trump hat der Ukraine fehlende Gegenleistungen für die Unterstützung der USA vorgeworfen. „Wir haben der Ukraine viel gegeben – sie hat uns nichts gegeben. Vergessen Sie das nicht“, sagte er in Washington. Der ukrainische Präsident Wolodymyr Selenskyj wirft den USA Verzögerungen bei Waffenlieferungen und Einschränkungen beim Austausch von Geheimdienstinformationen vor. Demnach genehmige Verteidigungsminister Pete Hegseth die Lieferung von Patriot- und weiteren Luftabwehr-Raketen nicht, obwohl NATO-Staaten diese bereits bezahlt hätten. Dies sei „unter Freunden schwer zu erklären“, sagte Selenskyj bei einem Treffen mit einer US-Kongressdelegation."
+      },
+      {
+        "heading": "Nvidia-Chef wirbt in Deutschland für KI",
+        "text": "Die Bundesregierung und der weltgrößte Chipkonzern Nvidia haben eine engere Zusammenarbeit vereinbart, um die industrielle Nutzung von Künstlicher Intelligenz in Deutschland massiv voranzutreiben. Die deutsche Wirtschaft hat nach Einschätzung von Nvidia-Chef Jensen Huang gute Voraussetzungen für den erfolgreichen Einsatz Künstlicher Intelligenz. Die Unternehmen verfügten über ausgezeichnetes Fachwissen und einen wertvollen industriellen Datenschatz, sagte Huang bei der Konferenz „Invest in Germany“ am Montag in Berlin. Bundeskanzler Friedrich Merz äußerte sich bei der Podiumsdiskussion mit Huang ähnlich. Er appellierte an den deutschen Mittelstand, KI zu nutzen."
+      },
+      {
+        "heading": "VW plant Einfrieren der Gehälter bis 2030",
+        "text": "VW-Beschäftigten drohen nach Darstellung der Industriegewerkschaft Metall jahrelange Nullrunden beim Gehalt. Es gebe Pläne, die Gehälter der weltweit mehr als 660.000 Beschäftigten bis 2030 einzufrieren, schreibt die IG Metall in einer Mitteilung auf ihrer Website. Der VW-Konzern breche damit mit der bisherigen Praxis, stets einen Inflationsausgleich zu leisten und tarifliche Lohnerhöhungen einzukalkulieren, kritisierte die IG Metall. Volkswagen wollte die Angaben der Gewerkschaft nicht kommentieren."
+      },
+      {
+        "heading": "Deutschtests für Zuwanderer sollen verschärft werden",
+        "text": "Ein Ministeriumssprecher in Berlin hat einen Bericht der „Bild“-Zeitung bestätigt, wonach es vermehrt Betrugsfälle bei Deutschtests für Zuwanderer gibt. Aus diesem Grund will Bundesinnenminister Alexander Dobrindt die Prüfungsregeln verschärfen. Die strengere Neuregelung solle ab November in Deutschland gelten, heißt es aus dem Ministerium. Offenbar hatten sich Prüflinge die richtigen Lösungen illegal im Internet besorgt und den Teil des Tests einfach ausgelassen, bei dem der Betrug aufgeflogen wäre. In wie vielen Fällen Menschen bei den Prüfungen betrogen haben, konnte der Ministeriumssprecher nicht angeben."
+      },
+      {
+        "heading": "Mongolischer Staatschef kommt zu Dschingis-Khan-Ausstellung nach Berlin",
+        "text": "Der Präsident der Mongolei, Ukhnaa Khurelsukh, besucht für zwei Tage Deutschland. Er wird an diesem Dienstag von Bundespräsident Frank-Walter Steinmeier empfangen. Im Anschluss werden die beiden Staatsoberhäupter die Ausstellung „Dschingis Khan und die Welt der Mongolen“ im Berliner Museum für Vor- und Frühgeschichte eröffnen. Anlass der großangelegten Sonderausstellung ist der 800. Todestag des berühmt-berüchtigten mongolischen Herrschers im kommenden Jahr. In Europa gilt Dschingis Khan bis heute als brutaler Eroberer, in der Mongolei wird er als Staatsgründer verehrt. Die meisten der nun in Berlin gezeigten mongolischen Objekte sind erstmals außerhalb des Landes zu sehen."
+      },
+      {
+        "heading": "Japanische Rakete bringt Mars-Mission auf den Weg",
+        "text": "Vom Weltraumbahnhof Tanegashima in Japan aus ist am frühen Morgen (Ortszeit) eine H3-Trägerrakete in Richtung Mars gestartet. An Bord ist die Raumsonde „MMX“. Die Abkürzung steht für Martian Moons eXploration. Sie wird voraussichtlich im kommenden Sommer den Mars erreichen. Geplant ist eine Landung auf dem Mond Phobos. Den Marstrabanten soll ein deutsch-französischer Rover erkunden. Das Fahrzeug heißt „Idefix“ und ist nach dem kleinen Hund des Comic-Helden Obelix benannt. Die gesammelten Bodenproben sollen für weitere Untersuchungen zur Erde gebracht werden. Die Rückkehr ist für das Jahr 2031 geplant."
+      }
+    ],
+    "vocab": []
+  },
+  "speaking": {
+    "prompt": {
+      "en": "You are my German language tutor conducting a 20-minute B1-to-C1 speaking conversation based on the German news from 20 October 2026.\n\nKey stories covered in this episode:\n1. Donald Trump accused Ukraine of failing to provide anything in return for US support, while Volodymyr Zelenskyy criticized delays in weapons deliveries and restrictions on intelligence sharing.\n2. The German government and Nvidia agreed to closer cooperation to promote industrial use of artificial intelligence.\n3. IG Metall said Volkswagen employees could face years without wage increases because the company is considering freezing salaries until 2030.\n4. Germany plans stricter rules for German-language tests for immigrants following reports of increased fraud.\n5. Mongolia's president is visiting Germany for an exhibition about Genghis Khan and the Mongol world.\n6. A Japanese rocket carrying the MMX Mars probe has launched; the mission is expected to explore Phobos and collect soil samples.\n\nGrammar focus to elicit: Forming Partizip II: regular, irregular and mixed verbs.\n\nInstructions for ChatGPT:\n1. First, warmly verify if I have listened to the broadcast.\n2. Ask me questions one by one. Never provide multiple questions at once.\n3. Discuss the factual details first, then explore causes and consequences, alternative perspectives, and my personal evaluation.\n4. Encourage me to produce Partizip II accurately, distinguishing regular forms ending in -t, irregular forms often ending in -en, mixed forms, separable prefixes, inseparable prefixes, and verbs ending in -ieren.\n5. Immediate correction protocol: If I break today's rule (e.g. *Ich habe die Bericht geschreiben.* instead of *Ich habe den Bericht geschrieben.*), stop briefly to:\n   - Quote the error.\n   - Provide the correct German sentence.\n   - Give a 1-sentence English explanation of the rule.\n   - Ask me to repeat the correct German sentence aloud before proceeding to the next conversational question.\n6. Keep the tone engaging, professional, and natural for an immersive German voice dialogue.",
+      "pl": "Jesteś moim nauczycielem języka niemieckiego i prowadzisz 20-minutową rozmowę na poziomie B1–C1 na podstawie niemieckich wiadomości z 20 października 2026 roku.\n\nNajważniejsze tematy tego odcinka:\n1. Donald Trump zarzucił Ukrainie, że nie zapewnia niczego w zamian za wsparcie USA, a Wołodymyr Zełenski skrytykował opóźnienia w dostawach broni i ograniczenia w wymianie informacji wywiadowczych.\n2. Niemiecki rząd i Nvidia uzgodniły ściślejszą współpracę w celu promowania przemysłowego wykorzystania sztucznej inteligencji.\n3. IG Metall poinformował, że pracownikom Volkswagena mogą grozić wieloletnie okresy bez podwyżek, ponieważ firma rozważa zamrożenie wynagrodzeń do 2030 roku.\n4. Niemcy planują zaostrzyć zasady testów z języka niemieckiego dla imigrantów po doniesieniach o częstszych przypadkach oszustw.\n5. Prezydent Mongolii odwiedza Niemcy w związku z wystawą poświęconą Czyngis-chanowi i światu Mongołów.\n6. Japońska rakieta z sondą MMX przeznaczoną do misji marsjańskiej wystartowała; misja ma zbadać Fobosa i zebrać próbki gruntu.\n\nĆwiczone zagadnienie gramatyczne: Tworzenie Partizip II: czasowniki regularne, nieregularne i mieszane.\n\nInstrukcje dla ChatGPT:\n1. Na początku serdecznie upewnij się, czy wysłuchałem audycji.\n2. Zadawaj pytania pojedynczo. Nigdy nie zadawaj kilku pytań naraz.\n3. Najpierw omów fakty, a następnie przejdź do przyczyn i konsekwencji, alternatywnych perspektyw oraz mojej osobistej oceny.\n4. Zachęcaj mnie do poprawnego tworzenia Partizip II, z rozróżnieniem form regularnych zakończonych na -t, form nieregularnych często zakończonych na -en, form mieszanych, przedrostków rozdzielnych i nierozdzielnych oraz czasowników zakończonych na -ieren.\n5. Procedura natychmiastowej korekty: jeśli popełnię błąd związany z dzisiejszą regułą (np. *Ich habe die Bericht geschreiben.* zamiast *Ich habe den Bericht geschrieben.*), na chwilę przerwij rozmowę i:\n   - Zacytuj błąd.\n   - Podaj poprawne zdanie po niemiecku.\n   - Wyjaśnij regułę jednym zdaniem po polsku.\n   - Poproś mnie o głośne powtórzenie poprawnego zdania przed przejściem do następnego pytania.\n6. Zachowuj angażujący, profesjonalny i naturalny ton, sprzyjający immersyjnej rozmowie głosowej po niemiecku."
+    }
+  }
 }
+
 ]
