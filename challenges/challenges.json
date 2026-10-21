@@ -7279,186 +7279,1226 @@
     }
   },
   "examples": [
-    {"de":"Ich habe dich gestern **angerufen**.","en":"I called you yesterday.","pl":"Wczoraj do ciebie zadzwoniłem."},
-    {"de":"Sie hat die Tür **aufgemacht**.","en":"She opened the door.","pl":"Otworzyła drzwi."},
-    {"de":"Wir haben am Samstag **eingekauft**.","en":"We went shopping on Saturday.","pl":"W sobotę zrobiliśmy zakupy."},
-    {"de":"Er hat an der Besprechung **teilgenommen**.","en":"He took part in the meeting.","pl":"Wziął udział w spotkaniu."},
-    {"de":"Ich habe den Bericht **vorbereitet**.","en":"I prepared the report.","pl":"Przygotowałem raport."},
-    {"de":"Sie hat ihre Großeltern **besucht**.","en":"She visited her grandparents.","pl":"Odwiedziła swoich dziadków."},
-    {"de":"Wir haben den Vertrag **unterschrieben**.","en":"We signed the contract.","pl":"Podpisaliśmy umowę."},
-    {"de":"Er hat die Ergebnisse **erklärt**.","en":"He explained the results.","pl":"Wyjaśnił wyniki."},
-    {"de":"Ich habe die Nachricht **verstanden**.","en":"I understood the message.","pl":"Zrozumiałem wiadomość."},
-    {"de":"Sie hat die Maschine **ausgeschaltet**.","en":"She switched off the machine.","pl":"Wyłączyła maszynę."},
-    {"de":"Wir haben die Daten **überprüft**.","en":"We checked the data.","pl":"Sprawdziliśmy dane."},
-    {"de":"Er hat den Fehler **entdeckt**.","en":"He discovered the error.","pl":"Odkrył błąd."},
-    {"de":"Ich habe die Kollegen **eingeladen**.","en":"I invited the colleagues.","pl":"Zaprosiłem współpracowników."},
-    {"de":"Sie hat das Problem **gelöst**.","en":"She solved the problem.","pl":"Rozwiązała problem."},
-    {"de":"Wir haben das neue System **installiert**.","en":"We installed the new system.","pl":"Zainstalowaliśmy nowy system."},
-    {"de":"Er hat den Kunden **informiert**.","en":"He informed the customer.","pl":"Poinformował klienta."},
-    {"de":"Ich habe die Unterlagen **mitgebracht**.","en":"I brought the documents along.","pl":"Przyniosłem ze sobą dokumenty."},
-    {"de":"Sie hat den Vorschlag **abgelehnt**.","en":"She rejected the proposal.","pl":"Odrzuciła propozycję."},
-    {"de":"Wir haben die Präsentation **abgeschlossen**.","en":"We completed the presentation.","pl":"Zakończyliśmy prezentację."},
-    {"de":"Er hat den Zeitplan **eingehalten**.","en":"He kept to the schedule.","pl":"Dotrzymał harmonogramu."}
+    {
+      "de": "Ich habe dich gestern **angerufen**.",
+      "en": "I called you yesterday.",
+      "pl": "Wczoraj do ciebie zadzwoniłem."
+    },
+    {
+      "de": "Sie hat die Tür **aufgemacht**.",
+      "en": "She opened the door.",
+      "pl": "Otworzyła drzwi."
+    },
+    {
+      "de": "Wir haben am Samstag **eingekauft**.",
+      "en": "We went shopping on Saturday.",
+      "pl": "W sobotę zrobiliśmy zakupy."
+    },
+    {
+      "de": "Er hat an der Besprechung **teilgenommen**.",
+      "en": "He took part in the meeting.",
+      "pl": "Wziął udział w spotkaniu."
+    },
+    {
+      "de": "Ich habe den Bericht **vorbereitet**.",
+      "en": "I prepared the report.",
+      "pl": "Przygotowałem raport."
+    },
+    {
+      "de": "Sie hat ihre Großeltern **besucht**.",
+      "en": "She visited her grandparents.",
+      "pl": "Odwiedziła swoich dziadków."
+    },
+    {
+      "de": "Wir haben den Vertrag **unterschrieben**.",
+      "en": "We signed the contract.",
+      "pl": "Podpisaliśmy umowę."
+    },
+    {
+      "de": "Er hat die Ergebnisse **erklärt**.",
+      "en": "He explained the results.",
+      "pl": "Wyjaśnił wyniki."
+    },
+    {
+      "de": "Ich habe die Nachricht **verstanden**.",
+      "en": "I understood the message.",
+      "pl": "Zrozumiałem wiadomość."
+    },
+    {
+      "de": "Sie hat die Maschine **ausgeschaltet**.",
+      "en": "She switched off the machine.",
+      "pl": "Wyłączyła maszynę."
+    },
+    {
+      "de": "Wir haben die Daten **überprüft**.",
+      "en": "We checked the data.",
+      "pl": "Sprawdziliśmy dane."
+    },
+    {
+      "de": "Er hat den Fehler **entdeckt**.",
+      "en": "He discovered the error.",
+      "pl": "Odkrył błąd."
+    },
+    {
+      "de": "Ich habe die Kollegen **eingeladen**.",
+      "en": "I invited the colleagues.",
+      "pl": "Zaprosiłem współpracowników."
+    },
+    {
+      "de": "Sie hat das Problem **gelöst**.",
+      "en": "She solved the problem.",
+      "pl": "Rozwiązała problem."
+    },
+    {
+      "de": "Wir haben das neue System **installiert**.",
+      "en": "We installed the new system.",
+      "pl": "Zainstalowaliśmy nowy system."
+    },
+    {
+      "de": "Er hat den Kunden **informiert**.",
+      "en": "He informed the customer.",
+      "pl": "Poinformował klienta."
+    },
+    {
+      "de": "Ich habe die Unterlagen **mitgebracht**.",
+      "en": "I brought the documents along.",
+      "pl": "Przyniosłem ze sobą dokumenty."
+    },
+    {
+      "de": "Sie hat den Vorschlag **abgelehnt**.",
+      "en": "She rejected the proposal.",
+      "pl": "Odrzuciła propozycję."
+    },
+    {
+      "de": "Wir haben die Präsentation **abgeschlossen**.",
+      "en": "We completed the presentation.",
+      "pl": "Zakończyliśmy prezentację."
+    },
+    {
+      "de": "Er hat den Zeitplan **eingehalten**.",
+      "en": "He kept to the schedule.",
+      "pl": "Dotrzymał harmonogramu."
+    }
   ],
   "exercises": [
-    {"en":"I called my brother yesterday.","pl":"Wczoraj zadzwoniłem do brata.","de":"Ich habe meinen Bruder gestern angerufen."},
-    {"en":"She opened the window.","pl":"Ona otworzyła okno.","de":"Sie hat das Fenster aufgemacht."},
-    {"en":"We went shopping on Monday.","pl":"W poniedziałek zrobiliśmy zakupy.","de":"Wir haben am Montag eingekauft."},
-    {"en":"He switched off the light.","pl":"On zgasił światło.","de":"Er hat das Licht ausgeschaltet."},
-    {"en":"I invited my friend.","pl":"Zaprosiłem przyjaciela.","de":"Ich habe meinen Freund eingeladen."},
-    {"en":"They picked up the children.","pl":"Odebrali dzieci.","de":"Sie haben die Kinder abgeholt."},
-    {"en":"She tidied up her room.","pl":"Posprzątała swój pokój.","de":"Sie hat ihr Zimmer aufgeräumt."},
-    {"en":"We filled in the form.","pl":"Wypełniliśmy formularz.","de":"Wir haben das Formular ausgefüllt."},
-    {"en":"He put on his jacket.","pl":"Założył kurtkę.","de":"Er hat seine Jacke angezogen."},
-    {"en":"I prepared breakfast.","pl":"Przygotowałem śniadanie.","de":"Ich habe das Frühstück vorbereitet."},
-    {"en":"She visited the museum.","pl":"Odwiedziła muzeum.","de":"Sie hat das Museum besucht."},
-    {"en":"We explained the rule.","pl":"Wyjaśniliśmy zasadę.","de":"Wir haben die Regel erklärt."},
-    {"en":"He understood the question.","pl":"Zrozumiał pytanie.","de":"Er hat die Frage verstanden."},
-    {"en":"I paid the bill.","pl":"Zapłaciłem rachunek.","de":"Ich habe die Rechnung bezahlt."},
-    {"en":"They sold the old car.","pl":"Sprzedali stary samochód.","de":"Sie haben das alte Auto verkauft."},
-    {"en":"She discovered a mistake.","pl":"Odkryła błąd.","de":"Sie hat einen Fehler entdeckt."},
-    {"en":"We destroyed the damaged files.","pl":"Zniszczyliśmy uszkodzone pliki.","de":"Wir haben die beschädigten Dateien zerstört."},
-    {"en":"He forgot the appointment.","pl":"Zapomniał o spotkaniu.","de":"Er hat den Termin vergessen."},
-    {"en":"I informed the manager.","pl":"Poinformowałem kierownika.","de":"Ich habe den Manager informiert."},
-    {"en":"They organized a conference.","pl":"Zorganizowali konferencję.","de":"Sie haben eine Konferenz organisiert."},
-    {"en":"She took part in the workshop.","pl":"Wzięła udział w warsztatach.","de":"Sie hat am Workshop teilgenommen."},
-    {"en":"We called the supplier back.","pl":"Oddzwoniliśmy do dostawcy.","de":"Wir haben den Lieferanten zurückgerufen."},
-    {"en":"He brought the documents along.","pl":"Przyniósł ze sobą dokumenty.","de":"Er hat die Unterlagen mitgebracht."},
-    {"en":"I translated the letter.","pl":"Przetłumaczyłem list.","de":"Ich habe den Brief übersetzt."},
-    {"en":"She closed the account.","pl":"Zamknęła konto.","de":"Sie hat das Konto abgeschlossen."},
-    {"en":"We set up a new office.","pl":"Urządziliśmy nowe biuro.","de":"Wir haben ein neues Büro eingerichtet."},
-    {"en":"He postponed the meeting.","pl":"Przełożył spotkanie.","de":"Er hat die Besprechung verschoben."},
-    {"en":"I put the documents away.","pl":"Odłożyłem dokumenty na miejsce.","de":"Ich habe die Unterlagen weggelegt."},
-    {"en":"They prepared the presentation.","pl":"Przygotowali prezentację.","de":"Sie haben die Präsentation vorbereitet."},
-    {"en":"She tried on the coat.","pl":"Przymierzyła płaszcz.","de":"Sie hat den Mantel anprobiert."},
-    {"en":"We switched on the computer.","pl":"Włączyliśmy komputer.","de":"Wir haben den Computer eingeschaltet."},
-    {"en":"He rejected the offer.","pl":"Odrzucił ofertę.","de":"Er hat das Angebot abgelehnt."},
-    {"en":"I completed the application.","pl":"Ukończyłem wypełnianie wniosku.","de":"Ich habe den Antrag ausgefüllt."},
-    {"en":"She described the situation.","pl":"Opisała sytuację.","de":"Sie hat die Situation beschrieben."},
-    {"en":"We agreed on the conditions.","pl":"Uzgodniliśmy warunki.","de":"Wir haben die Bedingungen vereinbart."},
-    {"en":"He introduced the new colleague.","pl":"Przedstawił nowego współpracownika.","de":"Er hat den neuen Kollegen vorgestellt."},
-    {"en":"I handed in the report.","pl":"Oddałem raport.","de":"Ich habe den Bericht abgegeben."},
-    {"en":"They continued the discussion.","pl":"Kontynuowali dyskusję.","de":"Sie haben die Diskussion fortgesetzt."},
-    {"en":"She looked at the figures carefully.","pl":"Dokładnie przyjrzała się danym.","de":"Sie hat die Zahlen sorgfältig angesehen."},
-    {"en":"We established a new department.","pl":"Utworzyliśmy nowy dział.","de":"Wir haben eine neue Abteilung eingerichtet."},
-    {"en":"He questioned the result.","pl":"Zakwestionował wynik.","de":"Er hat das Ergebnis infrage gestellt."},
-    {"en":"I handed the keys over to the receptionist.","pl":"Przekazałem klucze recepcjoniście.","de":"Ich habe die Schlüssel an der Rezeption abgegeben."},
-    {"en":"She turned down the volume.","pl":"Ściszyła dźwięk.","de":"Sie hat die Lautstärke heruntergedreht."},
-    {"en":"We arranged the chairs in a circle.","pl":"Ustawiliśmy krzesła w kręgu.","de":"Wir haben die Stühle im Kreis aufgestellt."},
-    {"en":"He found out the truth.","pl":"Dowiedział się prawdy.","de":"Er hat die Wahrheit herausgefunden."},
-    {"en":"I put the meeting on the calendar.","pl":"Wpisałem spotkanie do kalendarza.","de":"Ich habe die Besprechung in den Kalender eingetragen."},
-    {"en":"They cancelled the reservation.","pl":"Odwołali rezerwację.","de":"Sie haben die Reservierung abgesagt."},
-    {"en":"She filled the bottle with water.","pl":"Napełniła butelkę wodą.","de":"Sie hat die Flasche mit Wasser aufgefüllt."},
-    {"en":"We reviewed the proposal.","pl":"Przeanalizowaliśmy propozycję.","de":"Wir haben den Vorschlag durchgesehen."},
-    {"en":"He set the alarm for six.","pl":"Ustawił alarm na szóstą.","de":"Er hat den Wecker auf sechs Uhr eingestellt."},
-    {"en":"I explained the consequences to the team.","pl":"Wyjaśniłem zespołowi konsekwencje.","de":"Ich habe dem Team die Folgen erklärt."},
-    {"en":"She treated the complaint seriously.","pl":"Poważnie potraktowała skargę.","de":"Sie hat die Beschwerde ernst genommen."},
-    {"en":"We reconsidered the original plan.","pl":"Ponownie rozważyliśmy pierwotny plan.","de":"Wir haben den ursprünglichen Plan überdacht."},
-    {"en":"He secured the necessary approval.","pl":"Uzyskał niezbędną zgodę.","de":"Er hat die notwendige Genehmigung eingeholt."},
-    {"en":"I postponed the decision until Friday.","pl":"Odłożyłem decyzję do piątku.","de":"Ich habe die Entscheidung auf Freitag verschoben."},
-    {"en":"They misunderstood the instructions.","pl":"Źle zrozumieli instrukcje.","de":"Sie haben die Anweisungen missverstanden."},
-    {"en":"She documented the entire process.","pl":"Udokumentowała cały proces.","de":"Sie hat den gesamten Prozess dokumentiert."},
-    {"en":"We removed the outdated information.","pl":"Usunęliśmy nieaktualne informacje.","de":"Wir haben die veralteten Informationen entfernt."},
-    {"en":"He arranged a meeting with the client.","pl":"Zorganizował spotkanie z klientem.","de":"Er hat ein Treffen mit dem Kunden vereinbart."},
-    {"en":"I completed the training successfully.","pl":"Pomyślnie ukończyłem szkolenie.","de":"Ich habe die Schulung erfolgreich abgeschlossen."},
-    {"en":"She passed on the message to her colleague.","pl":"Przekazała wiadomość współpracownikowi.","de":"Sie hat die Nachricht an ihre Kollegin weitergegeben."},
-    {"en":"We identified the source of the discrepancy.","pl":"Zidentyfikowaliśmy źródło rozbieżności.","de":"Wir haben die Ursache der Abweichung festgestellt."},
-    {"en":"He took the changing requirements into account.","pl":"Uwzględnił zmieniające się wymagania.","de":"Er hat die veränderten Anforderungen berücksichtigt."},
-    {"en":"I recorded the outcome in the database.","pl":"Zapisałem wynik w bazie danych.","de":"Ich habe das Ergebnis in der Datenbank erfasst."},
-    {"en":"They made the relevant documents available.","pl":"Udostępnili odpowiednie dokumenty.","de":"Sie haben die relevanten Unterlagen bereitgestellt."},
-    {"en":"She questioned the assumptions underlying the forecast.","pl":"Zakwestionowała założenia leżące u podstaw prognozy.","de":"Sie hat die Annahmen hinter der Prognose infrage gestellt."},
-    {"en":"We implemented the agreed changes.","pl":"Wdrożyliśmy uzgodnione zmiany.","de":"Wir haben die vereinbarten Änderungen umgesetzt."},
-    {"en":"He reported the incident to the authorities.","pl":"Zgłosił incydent odpowiednim władzom.","de":"Er hat den Vorfall den Behörden gemeldet."},
-    {"en":"I had the documents translated before the meeting.","pl":"Zleciłem przetłumaczenie dokumentów przed spotkaniem.","de":"Ich habe die Unterlagen vor der Besprechung übersetzen lassen."},
-    {"en":"They thoroughly examined the contract before signing it.","pl":"Dokładnie zbadali umowę przed jej podpisaniem.","de":"Sie haben den Vertrag vor der Unterzeichnung gründlich geprüft."},
-    {"en":"She submitted the revised figures to the regional office.","pl":"Przekazała poprawione dane do biura regionalnego.","de":"Sie hat die überarbeiteten Zahlen bei der Regionalstelle eingereicht."},
-    {"en":"We reconstructed the sequence of events from the records.","pl":"Odtworzyliśmy kolejność wydarzeń na podstawie dokumentacji.","de":"Wir haben die Abfolge der Ereignisse anhand der Unterlagen rekonstruiert."},
-    {"en":"He established that the original assumption was incorrect.","pl":"Ustalił, że pierwotne założenie było błędne.","de":"Er hat festgestellt, dass die ursprüngliche Annahme falsch war."},
-    {"en":"I informed the stakeholders about the revised deadline.","pl":"Poinformowałem interesariuszy o zmienionym terminie.","de":"Ich habe die Beteiligten über die geänderte Frist informiert."},
-    {"en":"They discontinued the procedure after identifying a legal risk.","pl":"Przerwali procedurę po zidentyfikowaniu ryzyka prawnego.","de":"Sie haben das Verfahren eingestellt, nachdem sie ein rechtliches Risiko erkannt hatten."},
-    {"en":"She prepared the documentation so that the auditors could verify the result.","pl":"Przygotowała dokumentację, aby audytorzy mogli zweryfikować wynik.","de":"Sie hat die Dokumentation vorbereitet, damit die Prüfer das Ergebnis verifizieren konnten."},
-    {"en":"We communicated the consequences before the proposal was approved.","pl":"Przekazaliśmy informacje o konsekwencjach, zanim zatwierdzono propozycję.","de":"Wir haben die Folgen erläutert, bevor der Vorschlag genehmigt wurde."},
-    {"en":"He rejected the interpretation because it contradicted the available evidence.","pl":"Odrzucił interpretację, ponieważ była sprzeczna z dostępnymi dowodami.","de":"Er hat die Auslegung zurückgewiesen, weil sie den verfügbaren Beweisen widersprochen hat."},
-    {"en":"I had the final version checked before distributing it.","pl":"Zleciłem sprawdzenie ostatecznej wersji przed jej rozesłaniem.","de":"Ich habe die endgültige Version vor dem Versand überprüfen lassen."},
-    {"en":"They agreed to implement the controls after evaluating the potential impact.","pl":"Zgodzili się wdrożyć kontrole po ocenie potencjalnego wpływu.","de":"Sie haben sich darauf geeinigt, die Kontrollen nach der Bewertung der möglichen Auswirkungen umzusetzen."},
-    {"en":"She demonstrated that the proposed solution did not address the underlying cause.","pl":"Wykazała, że proponowane rozwiązanie nie usuwało przyczyny źródłowej.","de":"Sie hat nachgewiesen, dass die vorgeschlagene Lösung die zugrunde liegende Ursache nicht beseitigt hat."},
-    {"en":"We passed the unresolved questions on to the legal department.","pl":"Przekazaliśmy nierozstrzygnięte kwestie do działu prawnego.","de":"Wir haben die offenen Fragen an die Rechtsabteilung weitergeleitet."},
-    {"en":"He documented every exception so that the review could be reproduced.","pl":"Udokumentował każdy wyjątek, aby można było odtworzyć przegląd.","de":"Er hat jede Ausnahme dokumentiert, damit die Prüfung nachvollzogen werden konnte."},
-    {"en":"I had the revised procedure approved before introducing it across the team.","pl":"Uzyskałem zatwierdzenie zmienionej procedury przed wdrożeniem jej w całym zespole.","de":"Ich habe das überarbeitete Verfahren genehmigen lassen, bevor ich es im gesamten Team eingeführt habe."},
-    {"en":"They ruled out the initial explanation after examining the additional evidence.","pl":"Wykluczyli początkowe wyjaśnienie po zbadaniu dodatkowych dowodów.","de":"Sie haben die ursprüngliche Erklärung ausgeschlossen, nachdem sie die zusätzlichen Beweise untersucht hatten."},
-    {"en":"She brought the conflicting statements to the committee's attention.","pl":"Zwróciła komisji uwagę na sprzeczne oświadczenia.","de":"Sie hat den Ausschuss auf die widersprüchlichen Aussagen aufmerksam gemacht."},
-    {"en":"We reconsidered the decision after the regulator had clarified the requirements.","pl":"Ponownie rozważyliśmy decyzję, gdy regulator wyjaśnił wymagania.","de":"Wir haben die Entscheidung überdacht, nachdem die Aufsichtsbehörde die Anforderungen klargestellt hatte."},
-    {"en":"He prepared a detailed response to the allegations before the hearing.","pl":"Przygotował szczegółową odpowiedź na zarzuty przed przesłuchaniem.","de":"Er hat vor der Anhörung eine ausführliche Stellungnahme zu den Vorwürfen vorbereitet."},
-    {"en":"I had the original records preserved because the dispute might be reviewed later.","pl":"Zleciłem zabezpieczenie oryginalnych dokumentów, ponieważ spór mógł zostać później ponownie rozpatrzony.","de":"Ich habe die Originalunterlagen aufbewahren lassen, weil der Streit später erneut geprüft werden könnte."},
-    {"en":"They followed up on the recommendation after the steering committee had endorsed it.","pl":"Podjęli dalsze działania w związku z zaleceniem po jego zatwierdzeniu przez komitet sterujący.","de":"Sie haben die Empfehlung weiterverfolgt, nachdem der Lenkungsausschuss sie befürwortet hatte."},
-    {"en":"She clarified the scope of the assignment before the external specialists were brought in.","pl":"Wyjaśniła zakres zadania, zanim zaangażowano zewnętrznych specjalistów.","de":"Sie hat den Umfang des Auftrags geklärt, bevor die externen Spezialisten hinzugezogen wurden."},
-    {"en":"We made the revised methodology available after the validation process had been completed.","pl":"Udostępniliśmy zmienioną metodologię po zakończeniu procesu walidacji.","de":"Wir haben die überarbeitete Methodik bereitgestellt, nachdem der Validierungsprozess abgeschlossen worden war."},
-    {"en":"He pointed out the inconsistency that had previously been overlooked.","pl":"Wskazał niespójność, która wcześniej została przeoczona.","de":"Er hat auf die Unstimmigkeit hingewiesen, die zuvor übersehen worden war."},
-    {"en":"I had the recommendation independently assessed before communicating it to senior management.","pl":"Zleciłem niezależną ocenę zalecenia przed przekazaniem go kierownictwu wyższego szczebla.","de":"Ich habe die Empfehlung unabhängig bewerten lassen, bevor ich sie der Geschäftsleitung mitgeteilt habe."},
-    {"en":"They ruled out a technical failure after the system had been thoroughly examined.","pl":"Wykluczyli awarię techniczną po dokładnym zbadaniu systemu.","de":"Sie haben einen technischen Ausfall ausgeschlossen, nachdem das System gründlich untersucht worden war."},
-    {"en":"She handed over the complete audit trail so that the conclusion could be independently verified.","pl":"Przekazała pełną ścieżkę audytową, aby można było niezależnie zweryfikować wniosek.","de":"Sie hat die vollständige Prüfspur übergeben, damit die Schlussfolgerung unabhängig überprüft werden konnte."}
+    {
+      "en": "I called my brother yesterday.",
+      "pl": "Wczoraj zadzwoniłem do brata.",
+      "de": "Ich habe meinen Bruder gestern angerufen."
+    },
+    {
+      "en": "She opened the window.",
+      "pl": "Ona otworzyła okno.",
+      "de": "Sie hat das Fenster aufgemacht."
+    },
+    {
+      "en": "We went shopping on Monday.",
+      "pl": "W poniedziałek zrobiliśmy zakupy.",
+      "de": "Wir haben am Montag eingekauft."
+    },
+    {
+      "en": "He switched off the light.",
+      "pl": "On zgasił światło.",
+      "de": "Er hat das Licht ausgeschaltet."
+    },
+    {
+      "en": "I invited my friend.",
+      "pl": "Zaprosiłem przyjaciela.",
+      "de": "Ich habe meinen Freund eingeladen."
+    },
+    {
+      "en": "They picked up the children.",
+      "pl": "Odebrali dzieci.",
+      "de": "Sie haben die Kinder abgeholt."
+    },
+    {
+      "en": "She tidied up her room.",
+      "pl": "Posprzątała swój pokój.",
+      "de": "Sie hat ihr Zimmer aufgeräumt."
+    },
+    {
+      "en": "We filled in the form.",
+      "pl": "Wypełniliśmy formularz.",
+      "de": "Wir haben das Formular ausgefüllt."
+    },
+    {
+      "en": "He put on his jacket.",
+      "pl": "Założył kurtkę.",
+      "de": "Er hat seine Jacke angezogen."
+    },
+    {
+      "en": "I prepared breakfast.",
+      "pl": "Przygotowałem śniadanie.",
+      "de": "Ich habe das Frühstück vorbereitet."
+    },
+    {
+      "en": "She visited the museum.",
+      "pl": "Odwiedziła muzeum.",
+      "de": "Sie hat das Museum besucht."
+    },
+    {
+      "en": "We explained the rule.",
+      "pl": "Wyjaśniliśmy zasadę.",
+      "de": "Wir haben die Regel erklärt."
+    },
+    {
+      "en": "He understood the question.",
+      "pl": "Zrozumiał pytanie.",
+      "de": "Er hat die Frage verstanden."
+    },
+    {
+      "en": "I paid the bill.",
+      "pl": "Zapłaciłem rachunek.",
+      "de": "Ich habe die Rechnung bezahlt."
+    },
+    {
+      "en": "They sold the old car.",
+      "pl": "Sprzedali stary samochód.",
+      "de": "Sie haben das alte Auto verkauft."
+    },
+    {
+      "en": "She discovered a mistake.",
+      "pl": "Odkryła błąd.",
+      "de": "Sie hat einen Fehler entdeckt."
+    },
+    {
+      "en": "We destroyed the damaged files.",
+      "pl": "Zniszczyliśmy uszkodzone pliki.",
+      "de": "Wir haben die beschädigten Dateien zerstört."
+    },
+    {
+      "en": "He forgot the appointment.",
+      "pl": "Zapomniał o spotkaniu.",
+      "de": "Er hat den Termin vergessen."
+    },
+    {
+      "en": "I informed the manager.",
+      "pl": "Poinformowałem kierownika.",
+      "de": "Ich habe den Manager informiert."
+    },
+    {
+      "en": "They organized a conference.",
+      "pl": "Zorganizowali konferencję.",
+      "de": "Sie haben eine Konferenz organisiert."
+    },
+    {
+      "en": "She took part in the workshop.",
+      "pl": "Wzięła udział w warsztatach.",
+      "de": "Sie hat am Workshop teilgenommen."
+    },
+    {
+      "en": "We called the supplier back.",
+      "pl": "Oddzwoniliśmy do dostawcy.",
+      "de": "Wir haben den Lieferanten zurückgerufen."
+    },
+    {
+      "en": "He brought the documents along.",
+      "pl": "Przyniósł ze sobą dokumenty.",
+      "de": "Er hat die Unterlagen mitgebracht."
+    },
+    {
+      "en": "I translated the letter.",
+      "pl": "Przetłumaczyłem list.",
+      "de": "Ich habe den Brief übersetzt."
+    },
+    {
+      "en": "She closed the account.",
+      "pl": "Zamknęła konto.",
+      "de": "Sie hat das Konto abgeschlossen."
+    },
+    {
+      "en": "We set up a new office.",
+      "pl": "Urządziliśmy nowe biuro.",
+      "de": "Wir haben ein neues Büro eingerichtet."
+    },
+    {
+      "en": "He postponed the meeting.",
+      "pl": "Przełożył spotkanie.",
+      "de": "Er hat die Besprechung verschoben."
+    },
+    {
+      "en": "I put the documents away.",
+      "pl": "Odłożyłem dokumenty na miejsce.",
+      "de": "Ich habe die Unterlagen weggelegt."
+    },
+    {
+      "en": "They prepared the presentation.",
+      "pl": "Przygotowali prezentację.",
+      "de": "Sie haben die Präsentation vorbereitet."
+    },
+    {
+      "en": "She tried on the coat.",
+      "pl": "Przymierzyła płaszcz.",
+      "de": "Sie hat den Mantel anprobiert."
+    },
+    {
+      "en": "We switched on the computer.",
+      "pl": "Włączyliśmy komputer.",
+      "de": "Wir haben den Computer eingeschaltet."
+    },
+    {
+      "en": "He rejected the offer.",
+      "pl": "Odrzucił ofertę.",
+      "de": "Er hat das Angebot abgelehnt."
+    },
+    {
+      "en": "I completed the application.",
+      "pl": "Ukończyłem wypełnianie wniosku.",
+      "de": "Ich habe den Antrag ausgefüllt."
+    },
+    {
+      "en": "She described the situation.",
+      "pl": "Opisała sytuację.",
+      "de": "Sie hat die Situation beschrieben."
+    },
+    {
+      "en": "We agreed on the conditions.",
+      "pl": "Uzgodniliśmy warunki.",
+      "de": "Wir haben die Bedingungen vereinbart."
+    },
+    {
+      "en": "He introduced the new colleague.",
+      "pl": "Przedstawił nowego współpracownika.",
+      "de": "Er hat den neuen Kollegen vorgestellt."
+    },
+    {
+      "en": "I handed in the report.",
+      "pl": "Oddałem raport.",
+      "de": "Ich habe den Bericht abgegeben."
+    },
+    {
+      "en": "They continued the discussion.",
+      "pl": "Kontynuowali dyskusję.",
+      "de": "Sie haben die Diskussion fortgesetzt."
+    },
+    {
+      "en": "She looked at the figures carefully.",
+      "pl": "Dokładnie przyjrzała się danym.",
+      "de": "Sie hat die Zahlen sorgfältig angesehen."
+    },
+    {
+      "en": "We established a new department.",
+      "pl": "Utworzyliśmy nowy dział.",
+      "de": "Wir haben eine neue Abteilung eingerichtet."
+    },
+    {
+      "en": "He questioned the result.",
+      "pl": "Zakwestionował wynik.",
+      "de": "Er hat das Ergebnis infrage gestellt."
+    },
+    {
+      "en": "I handed the keys over to the receptionist.",
+      "pl": "Przekazałem klucze recepcjoniście.",
+      "de": "Ich habe die Schlüssel an der Rezeption abgegeben."
+    },
+    {
+      "en": "She turned down the volume.",
+      "pl": "Ściszyła dźwięk.",
+      "de": "Sie hat die Lautstärke heruntergedreht."
+    },
+    {
+      "en": "We arranged the chairs in a circle.",
+      "pl": "Ustawiliśmy krzesła w kręgu.",
+      "de": "Wir haben die Stühle im Kreis aufgestellt."
+    },
+    {
+      "en": "He found out the truth.",
+      "pl": "Dowiedział się prawdy.",
+      "de": "Er hat die Wahrheit herausgefunden."
+    },
+    {
+      "en": "I put the meeting on the calendar.",
+      "pl": "Wpisałem spotkanie do kalendarza.",
+      "de": "Ich habe die Besprechung in den Kalender eingetragen."
+    },
+    {
+      "en": "They cancelled the reservation.",
+      "pl": "Odwołali rezerwację.",
+      "de": "Sie haben die Reservierung abgesagt."
+    },
+    {
+      "en": "She filled the bottle with water.",
+      "pl": "Napełniła butelkę wodą.",
+      "de": "Sie hat die Flasche mit Wasser aufgefüllt."
+    },
+    {
+      "en": "We reviewed the proposal.",
+      "pl": "Przeanalizowaliśmy propozycję.",
+      "de": "Wir haben den Vorschlag durchgesehen."
+    },
+    {
+      "en": "He set the alarm for six.",
+      "pl": "Ustawił alarm na szóstą.",
+      "de": "Er hat den Wecker auf sechs Uhr eingestellt."
+    },
+    {
+      "en": "I explained the consequences to the team.",
+      "pl": "Wyjaśniłem zespołowi konsekwencje.",
+      "de": "Ich habe dem Team die Folgen erklärt."
+    },
+    {
+      "en": "She treated the complaint seriously.",
+      "pl": "Poważnie potraktowała skargę.",
+      "de": "Sie hat die Beschwerde ernst genommen."
+    },
+    {
+      "en": "We reconsidered the original plan.",
+      "pl": "Ponownie rozważyliśmy pierwotny plan.",
+      "de": "Wir haben den ursprünglichen Plan überdacht."
+    },
+    {
+      "en": "He secured the necessary approval.",
+      "pl": "Uzyskał niezbędną zgodę.",
+      "de": "Er hat die notwendige Genehmigung eingeholt."
+    },
+    {
+      "en": "I postponed the decision until Friday.",
+      "pl": "Odłożyłem decyzję do piątku.",
+      "de": "Ich habe die Entscheidung auf Freitag verschoben."
+    },
+    {
+      "en": "They misunderstood the instructions.",
+      "pl": "Źle zrozumieli instrukcje.",
+      "de": "Sie haben die Anweisungen missverstanden."
+    },
+    {
+      "en": "She documented the entire process.",
+      "pl": "Udokumentowała cały proces.",
+      "de": "Sie hat den gesamten Prozess dokumentiert."
+    },
+    {
+      "en": "We removed the outdated information.",
+      "pl": "Usunęliśmy nieaktualne informacje.",
+      "de": "Wir haben die veralteten Informationen entfernt."
+    },
+    {
+      "en": "He arranged a meeting with the client.",
+      "pl": "Zorganizował spotkanie z klientem.",
+      "de": "Er hat ein Treffen mit dem Kunden vereinbart."
+    },
+    {
+      "en": "I completed the training successfully.",
+      "pl": "Pomyślnie ukończyłem szkolenie.",
+      "de": "Ich habe die Schulung erfolgreich abgeschlossen."
+    },
+    {
+      "en": "She passed on the message to her colleague.",
+      "pl": "Przekazała wiadomość współpracownikowi.",
+      "de": "Sie hat die Nachricht an ihre Kollegin weitergegeben."
+    },
+    {
+      "en": "We identified the source of the discrepancy.",
+      "pl": "Zidentyfikowaliśmy źródło rozbieżności.",
+      "de": "Wir haben die Ursache der Abweichung festgestellt."
+    },
+    {
+      "en": "He took the changing requirements into account.",
+      "pl": "Uwzględnił zmieniające się wymagania.",
+      "de": "Er hat die veränderten Anforderungen berücksichtigt."
+    },
+    {
+      "en": "I recorded the outcome in the database.",
+      "pl": "Zapisałem wynik w bazie danych.",
+      "de": "Ich habe das Ergebnis in der Datenbank erfasst."
+    },
+    {
+      "en": "They made the relevant documents available.",
+      "pl": "Udostępnili odpowiednie dokumenty.",
+      "de": "Sie haben die relevanten Unterlagen bereitgestellt."
+    },
+    {
+      "en": "She questioned the assumptions underlying the forecast.",
+      "pl": "Zakwestionowała założenia leżące u podstaw prognozy.",
+      "de": "Sie hat die Annahmen hinter der Prognose infrage gestellt."
+    },
+    {
+      "en": "We implemented the agreed changes.",
+      "pl": "Wdrożyliśmy uzgodnione zmiany.",
+      "de": "Wir haben die vereinbarten Änderungen umgesetzt."
+    },
+    {
+      "en": "He reported the incident to the authorities.",
+      "pl": "Zgłosił incydent odpowiednim władzom.",
+      "de": "Er hat den Vorfall den Behörden gemeldet."
+    },
+    {
+      "en": "I had the documents translated before the meeting.",
+      "pl": "Zleciłem przetłumaczenie dokumentów przed spotkaniem.",
+      "de": "Ich habe die Unterlagen vor der Besprechung übersetzen lassen."
+    },
+    {
+      "en": "They thoroughly examined the contract before signing it.",
+      "pl": "Dokładnie zbadali umowę przed jej podpisaniem.",
+      "de": "Sie haben den Vertrag vor der Unterzeichnung gründlich geprüft."
+    },
+    {
+      "en": "She submitted the revised figures to the regional office.",
+      "pl": "Przekazała poprawione dane do biura regionalnego.",
+      "de": "Sie hat die überarbeiteten Zahlen bei der Regionalstelle eingereicht."
+    },
+    {
+      "en": "We reconstructed the sequence of events from the records.",
+      "pl": "Odtworzyliśmy kolejność wydarzeń na podstawie dokumentacji.",
+      "de": "Wir haben die Abfolge der Ereignisse anhand der Unterlagen rekonstruiert."
+    },
+    {
+      "en": "He established that the original assumption was incorrect.",
+      "pl": "Ustalił, że pierwotne założenie było błędne.",
+      "de": "Er hat festgestellt, dass die ursprüngliche Annahme falsch war."
+    },
+    {
+      "en": "I informed the stakeholders about the revised deadline.",
+      "pl": "Poinformowałem interesariuszy o zmienionym terminie.",
+      "de": "Ich habe die Beteiligten über die geänderte Frist informiert."
+    },
+    {
+      "en": "They discontinued the procedure after identifying a legal risk.",
+      "pl": "Przerwali procedurę po zidentyfikowaniu ryzyka prawnego.",
+      "de": "Sie haben das Verfahren eingestellt, nachdem sie ein rechtliches Risiko erkannt hatten."
+    },
+    {
+      "en": "She prepared the documentation so that the auditors could verify the result.",
+      "pl": "Przygotowała dokumentację, aby audytorzy mogli zweryfikować wynik.",
+      "de": "Sie hat die Dokumentation vorbereitet, damit die Prüfer das Ergebnis verifizieren konnten."
+    },
+    {
+      "en": "We communicated the consequences before the proposal was approved.",
+      "pl": "Przekazaliśmy informacje o konsekwencjach, zanim zatwierdzono propozycję.",
+      "de": "Wir haben die Folgen erläutert, bevor der Vorschlag genehmigt wurde."
+    },
+    {
+      "en": "He rejected the interpretation because it contradicted the available evidence.",
+      "pl": "Odrzucił interpretację, ponieważ była sprzeczna z dostępnymi dowodami.",
+      "de": "Er hat die Auslegung zurückgewiesen, weil sie den verfügbaren Beweisen widersprochen hat."
+    },
+    {
+      "en": "I had the final version checked before distributing it.",
+      "pl": "Zleciłem sprawdzenie ostatecznej wersji przed jej rozesłaniem.",
+      "de": "Ich habe die endgültige Version vor dem Versand überprüfen lassen."
+    },
+    {
+      "en": "They agreed to implement the controls after evaluating the potential impact.",
+      "pl": "Zgodzili się wdrożyć kontrole po ocenie potencjalnego wpływu.",
+      "de": "Sie haben sich darauf geeinigt, die Kontrollen nach der Bewertung der möglichen Auswirkungen umzusetzen."
+    },
+    {
+      "en": "She demonstrated that the proposed solution did not address the underlying cause.",
+      "pl": "Wykazała, że proponowane rozwiązanie nie usuwało przyczyny źródłowej.",
+      "de": "Sie hat nachgewiesen, dass die vorgeschlagene Lösung die zugrunde liegende Ursache nicht beseitigt hat."
+    },
+    {
+      "en": "We passed the unresolved questions on to the legal department.",
+      "pl": "Przekazaliśmy nierozstrzygnięte kwestie do działu prawnego.",
+      "de": "Wir haben die offenen Fragen an die Rechtsabteilung weitergeleitet."
+    },
+    {
+      "en": "He documented every exception so that the review could be reproduced.",
+      "pl": "Udokumentował każdy wyjątek, aby można było odtworzyć przegląd.",
+      "de": "Er hat jede Ausnahme dokumentiert, damit die Prüfung nachvollzogen werden konnte."
+    },
+    {
+      "en": "I had the revised procedure approved before introducing it across the team.",
+      "pl": "Uzyskałem zatwierdzenie zmienionej procedury przed wdrożeniem jej w całym zespole.",
+      "de": "Ich habe das überarbeitete Verfahren genehmigen lassen, bevor ich es im gesamten Team eingeführt habe."
+    },
+    {
+      "en": "They ruled out the initial explanation after examining the additional evidence.",
+      "pl": "Wykluczyli początkowe wyjaśnienie po zbadaniu dodatkowych dowodów.",
+      "de": "Sie haben die ursprüngliche Erklärung ausgeschlossen, nachdem sie die zusätzlichen Beweise untersucht hatten."
+    },
+    {
+      "en": "She brought the conflicting statements to the committee's attention.",
+      "pl": "Zwróciła komisji uwagę na sprzeczne oświadczenia.",
+      "de": "Sie hat den Ausschuss auf die widersprüchlichen Aussagen aufmerksam gemacht."
+    },
+    {
+      "en": "We reconsidered the decision after the regulator had clarified the requirements.",
+      "pl": "Ponownie rozważyliśmy decyzję, gdy regulator wyjaśnił wymagania.",
+      "de": "Wir haben die Entscheidung überdacht, nachdem die Aufsichtsbehörde die Anforderungen klargestellt hatte."
+    },
+    {
+      "en": "He prepared a detailed response to the allegations before the hearing.",
+      "pl": "Przygotował szczegółową odpowiedź na zarzuty przed przesłuchaniem.",
+      "de": "Er hat vor der Anhörung eine ausführliche Stellungnahme zu den Vorwürfen vorbereitet."
+    },
+    {
+      "en": "I had the original records preserved because the dispute might be reviewed later.",
+      "pl": "Zleciłem zabezpieczenie oryginalnych dokumentów, ponieważ spór mógł zostać później ponownie rozpatrzony.",
+      "de": "Ich habe die Originalunterlagen aufbewahren lassen, weil der Streit später erneut geprüft werden könnte."
+    },
+    {
+      "en": "They followed up on the recommendation after the steering committee had endorsed it.",
+      "pl": "Podjęli dalsze działania w związku z zaleceniem po jego zatwierdzeniu przez komitet sterujący.",
+      "de": "Sie haben die Empfehlung weiterverfolgt, nachdem der Lenkungsausschuss sie befürwortet hatte."
+    },
+    {
+      "en": "She clarified the scope of the assignment before the external specialists were brought in.",
+      "pl": "Wyjaśniła zakres zadania, zanim zaangażowano zewnętrznych specjalistów.",
+      "de": "Sie hat den Umfang des Auftrags geklärt, bevor die externen Spezialisten hinzugezogen wurden."
+    },
+    {
+      "en": "We made the revised methodology available after the validation process had been completed.",
+      "pl": "Udostępniliśmy zmienioną metodologię po zakończeniu procesu walidacji.",
+      "de": "Wir haben die überarbeitete Methodik bereitgestellt, nachdem der Validierungsprozess abgeschlossen worden war."
+    },
+    {
+      "en": "He pointed out the inconsistency that had previously been overlooked.",
+      "pl": "Wskazał niespójność, która wcześniej została przeoczona.",
+      "de": "Er hat auf die Unstimmigkeit hingewiesen, die zuvor übersehen worden war."
+    },
+    {
+      "en": "I had the recommendation independently assessed before communicating it to senior management.",
+      "pl": "Zleciłem niezależną ocenę zalecenia przed przekazaniem go kierownictwu wyższego szczebla.",
+      "de": "Ich habe die Empfehlung unabhängig bewerten lassen, bevor ich sie der Geschäftsleitung mitgeteilt habe."
+    },
+    {
+      "en": "They ruled out a technical failure after the system had been thoroughly examined.",
+      "pl": "Wykluczyli awarię techniczną po dokładnym zbadaniu systemu.",
+      "de": "Sie haben einen technischen Ausfall ausgeschlossen, nachdem das System gründlich untersucht worden war."
+    },
+    {
+      "en": "She handed over the complete audit trail so that the conclusion could be independently verified.",
+      "pl": "Przekazała pełną ścieżkę audytową, aby można było niezależnie zweryfikować wniosek.",
+      "de": "Sie hat die vollständige Prüfspur übergeben, damit die Schlussfolgerung unabhängig überprüft werden konnte."
+    }
   ],
   "listening": {
     "audioUrl": "https://radiodownloaddw-a.akamaihd.net/downloads/Events/dwelle/dira/mp3/deutschkurse/nachrichten_live/0BD33763_2.mp3",
     "articles": [
       {
         "heading": "USA starten neue diplomatische Initiative im Ukraine-Krieg",
-        "text": "Der US-Gesandte Steve Witkoff will nach als „konstruktiv“ bezeichneten Gesprächen mit dem ukrainischen Präsidenten Wolodymyr Selenskyj an diesem Mittwoch den russischen Präsidenten Wladimir Putin treffen, um einen Weg für Friedensverhandlungen zu ebnen. Einem US-Regierungsvertreter zufolge brachte die Ukraine bei dem Treffen in Oslo am Dienstag, an dem auch die Staats- und Regierungschefs von Norwegen und Finnland sowie Vertreter der EU und der NATO teilnahmen, neue Vorschläge ein. Dabei sei es unter anderem um Sicherheitsgarantien und einen Wirtschaftsplan für die Zeit nach dem Krieg gegangen."
+        "text": "Der US-[[Gesandte|1]] Steve Witkoff will nach als „[[konstruktiv|2]]“ bezeichneten Gesprächen mit dem ukrainischen Präsidenten Wolodymyr Selenskyj an diesem Mittwoch den russischen Präsidenten Wladimir Putin treffen, um einen Weg für Friedensverhandlungen zu [[ebnen|3]]. Einem US-[[Regierungsvertreter|4]] zufolge brachte die Ukraine bei dem Treffen in Oslo am Dienstag, an dem auch die Staats- und Regierungschefs von Norwegen und Finnland sowie Vertreter der EU und der NATO [[teilnahmen|5]], neue Vorschläge ein. Dabei sei es unter anderem um [[Sicherheitsgarantien|6]] und einen Wirtschaftsplan für die Zeit nach dem Krieg gegangen."
       },
       {
         "heading": "EU präsentiert Arktis-Strategie",
-        "text": "Die EU-Kommission hat ihre neue Arktis-Strategie vorgestellt. Ziel ist es, besser für Konflikte in der Region gewappnet zu sein. So soll es in Zukunft eine Koordinierungsstelle für den Schutz von Unterseekabeln sowie die Beobachtung der russischen Schattenflotte und der illegalen Fischerei geben. Außerdem sind mehr Eisbrecher und der Ausbau ziviler Verkehrswege für die militärische Nutzung geplant. Geografisch liegen vor allem die nördlichen Teile der EU-Länder Finnland und Schweden in der Arktis. Strategisch wichtig ist auch Grönland. Die größte Insel der Welt gehört als autonomes Gebiet zu Dänemark, ist aber selbst kein Teil der EU."
+        "text": "Die EU-Kommission hat ihre neue Arktis-Strategie vorgestellt. Ziel ist es, besser für Konflikte in der Region [[gewappnet|7]] zu sein. So soll es in Zukunft eine [[Koordinierungsstelle|8]] für den [[Schutz|9]] von Unterseekabeln sowie die Beobachtung der russischen Schattenflotte und der illegalen Fischerei geben. Außerdem sind mehr Eisbrecher und der [[Ausbau|10]] [[ziviler|11]] [[Verkehrswege|12]] für die militärische Nutzung geplant. Geografisch liegen vor allem die nördlichen Teile der EU-Länder Finnland und Schweden in der Arktis. Strategisch wichtig ist auch Grönland. Die größte Insel der Welt gehört als [[autonomes|13]] Gebiet zu Dänemark, ist aber selbst kein Teil der EU."
       },
       {
         "heading": "Merz kündigt nach Gipfeltreffen Schub für Deutschland an",
-        "text": "Bundeskanzler Friedrich Merz hat nach dem Investorengipfel in Berlin eine positive Bilanz gezogen. Von den beteiligten Unternehmen seien bislang Investitionen in Höhe von rund 230 Milliarden Euro zugesagt worden, sagte der CDU-Politiker. Allein vom Online-Versandhändler Amazon kämen 16 Milliarden Euro. Weitere Zusagen gebe es unter anderem von den US-Technologiefirmen Nvidia und Microsoft, dem Energieversorger RWE und dem Pharmaunternehmen Sanofi. Merz erklärte, man sei entschlossen, Deutschland einen „Schub“ zu geben. Die Investorenkonferenz sei nur der Anfang. Nach Regierungsangaben nahmen rund 200 internationale und deutsche Vorstandschefs an der Veranstaltung in Berlin teil."
+        "text": "Bundeskanzler Friedrich Merz hat nach dem Investorengipfel in Berlin eine positive [[Bilanz gezogen|14]]. Von den beteiligten Unternehmen seien bislang Investitionen in Höhe von rund 230 Milliarden Euro [[zugesagt|15]] worden, sagte der CDU-Politiker. Allein vom Online-Versandhändler Amazon kämen 16 Milliarden Euro. Weitere Zusagen gebe es unter anderem von den US-Technologiefirmen Nvidia und Microsoft, dem Energieversorger RWE und dem Pharmaunternehmen Sanofi. Merz erklärte, man sei [[entschlossen|16]], Deutschland einen „Schub“ zu geben. Die Investorenkonferenz sei nur der Anfang. Nach Regierungsangaben nahmen rund 200 internationale und deutsche [[Vorstandschefs|17]] an der Veranstaltung in Berlin teil."
       },
       {
         "heading": "Mongolischer Präsident lobt Verhältnis zu Deutschland",
-        "text": "Deutschland und die Mongolei wollen ihre Beziehungen weiter ausbauen. Das vereinbarten beide Seiten bei einem Staatsbesuch des mongolischen Präsidenten Ukhnaagiin Khurelsukh in der Bundesrepublik. Die Mongolei betrachte Deutschland als einen „engen, verlässlichen Partner und Freund in Europa“, sagte Khurelsukh nach einem Treffen mit Bundespräsident Frank-Walter Steinmeier. Zur Vertiefung der Zusammenarbeit werde sein Land ein Generalkonsulat in Frankfurt am Main eröffnen. Steinmeier erinnerte bei einer Ausstellungseröffnung in Berlin an die Bedeutung des Mongolen-Führers Dschingis Khan für die Entwicklung der Weltgeschichte."
+        "text": "Deutschland und die Mongolei wollen ihre Beziehungen weiter [[ausbauen|18]]. Das vereinbarten beide Seiten bei einem Staatsbesuch des mongolischen Präsidenten Ukhnaagiin Khurelsukh in der Bundesrepublik. Die Mongolei betrachte Deutschland als einen „engen, [[verlässlichen|19]] Partner und Freund in Europa“, sagte Khurelsukh nach einem Treffen mit Bundespräsident Frank-Walter Steinmeier. Zur [[Vertiefung|20]] der Zusammenarbeit werde sein Land ein Generalkonsulat in Frankfurt am Main eröffnen. Steinmeier erinnerte bei einer Ausstellungseröffnung in Berlin an die Bedeutung des Mongolen-Führers Dschingis Khan für die Entwicklung der Weltgeschichte."
       },
       {
         "heading": "Nigeria bestätigt ersten Ebola-Fall",
-        "text": "Aus Afrikas bevölkerungsreichstem Land Nigeria wird eine Infektion mit dem lebensbedrohlichen Ebola-Virus gemeldet. Die Patientin sei kürzlich per Flugzeug aus Uganda eingereist und für mehrere Tage in einem Privatkrankenhaus im Gebiet der Hauptstadt Abuja behandelt worden, teilte das Gesundheitsministerium des westafrikanischen Landes mit. Laborergebnisse hätten nun ergeben, dass die Frau mit dem Ebola-Virus des Bundibugyo-Stammes infiziert sei. Sie befinde sich nach Angaben des Ministeriums in Isolation und werde medizinisch versorgt. Die Regierung forderte alle Gesundheitseinrichtungen des Landes zu höchster Alarmbereitschaft auf. Es ist der erste festgestellte Ebola-Fall in Nigeria seit 2014."
+        "text": "Aus Afrikas bevölkerungsreichstem Land Nigeria wird eine Infektion mit dem [[lebensbedrohlichen|21]] Ebola-Virus gemeldet. Die Patientin sei kürzlich per Flugzeug aus Uganda [[eingereist|22]] und für mehrere Tage in einem Privatkrankenhaus im Gebiet der Hauptstadt Abuja [[behandelt|23]] worden, teilte das Gesundheitsministerium des westafrikanischen Landes mit. Laborergebnisse hätten nun ergeben, dass die Frau mit dem Ebola-Virus des Bundibugyo-Stammes infiziert sei. Sie befinde sich nach Angaben des Ministeriums in [[Isolation|24]] und werde medizinisch versorgt. Die Regierung forderte alle Gesundheitseinrichtungen des Landes zu höchster [[Alarmbereitschaft|25]] auf. Es ist der erste [[festgestellte|26]] Ebola-Fall in Nigeria seit 2014."
       },
       {
         "heading": "UN-Bericht sieht Welt auf gefährlichem Klimakurs",
-        "text": "Die internationale Gemeinschaft ist laut dem jüngsten Emissions Gap Report des UN-Umweltprogramms (UNEP) „gefährlich weit“ davon entfernt, ihre Klimaziele zu erreichen. Die bisherigen nationalen Maßnahmen reichten nicht aus, um den Ausstoß von Treibhausgasen wirksam zu senken, so UN-Generalsekretär António Guterres. Die Emissionen lägen weiterhin auf Rekordniveau. Selbst wenn alle Staaten ihre aktuellen Klimazusagen vollständig umsetzen, würde sich die Erde bis 2100 voraussichtlich um 2,6 Grad gegenüber dem vorindustriellen Zeitalter erwärmen. Der Bericht erscheint wenige Wochen vor der Weltklimakonferenz COP31 in der türkischen Stadt Antalya und gilt als wichtiger Gradmesser für die globale Klimapolitik."
+        "text": "Die internationale [[Gemeinschaft|27]] ist laut dem jüngsten Emissions Gap Report des UN-Umweltprogramms (UNEP) „gefährlich weit“ davon entfernt, ihre Klimaziele zu erreichen. Die bisherigen nationalen Maßnahmen reichten nicht aus, um den [[Ausstoß|28]] von Treibhausgasen [[wirksam|29]] zu senken, so UN-Generalsekretär António Guterres. Die [[Emissionen|30]] lägen weiterhin auf Rekordniveau. Selbst wenn alle Staaten ihre aktuellen Klimazusagen vollständig [[umsetzen|31]], würde sich die Erde bis 2100 voraussichtlich um 2,6 Grad gegenüber dem vorindustriellen Zeitalter erwärmen. Der Bericht erscheint wenige Wochen vor der Weltklimakonferenz COP31 in der türkischen Stadt Antalya und gilt als wichtiger [[Gradmesser|32]] für die globale Klimapolitik."
       }
     ],
     "vocab": [
-      {"id":1,"word":"der Gesandte","translation":{"en":"envoy, representative","pl":"wysłannik, przedstawiciel"},"partOfSpeech":"Noun","level":"B2","plural":"die Gesandten","notes":{"en":"Often used in diplomatic reporting.","pl":"Często używane w relacjach dyplomatycznych."},"examples":["Der Gesandte traf am Morgen mit den Ministern zusammen.","Die Gesandten verhandelten über mögliche Sicherheitsgarantien."]},
-      {"id":2,"word":"konstruktiv","translation":{"en":"constructive","pl":"konstruktywny"},"partOfSpeech":"Adjective","level":"B2","plural":"","notes":{"en":"Common collocation: konstruktive Gespräche führen.","pl":"Częsta kolokacja: konstruktive Gespräche führen."},"examples":["Die beiden Seiten führten konstruktive Gespräche.","Wir brauchen einen konstruktiven Vorschlag für die Verhandlungen."]},
-      {"id":3,"word":"ebnen","translation":{"en":"to pave, clear the way","pl":"torować drogę"},"partOfSpeech":"Verb","level":"C1","plural":"","notes":{"en":"Often used figuratively in ebnen den Weg für + accusative.","pl":"Często używane przenośnie: ebnen den Weg für + biernik."},"examples":["Die Einigung könnte den Weg für weitere Gespräche ebnen.","Die Reform ebnet kleineren Unternehmen den Zugang zum Markt."]},
-      {"id":4,"word":"der Regierungsvertreter","translation":{"en":"government representative","pl":"przedstawiciel rządu"},"partOfSpeech":"Noun","level":"B2","plural":"die Regierungsvertreter","notes":{"en":"A compound noun; the plural form is unchanged.","pl":"Rzeczownik złożony; forma liczby mnogiej pozostaje taka sama."},"examples":["Ein Regierungsvertreter bestätigte die geplante Reise.","Die Regierungsvertreter diskutierten die nächsten Schritte."]},
-      {"id":5,"word":"teilnehmen","translation":{"en":"to participate, take part","pl":"uczestniczyć"},"partOfSpeech":"Verb","level":"B1","plural":"","notes":{"en":"Separable verb: nahm teil, hat teilgenommen; takes an.","pl":"Czasownik rozdzielny: nahm teil, hat teilgenommen; łączy się z an."},"examples":["Mehrere Experten nehmen an der Konferenz teil.","Sie hat an der Abstimmung teilgenommen."]},
-      {"id":6,"word":"die Sicherheitsgarantie","translation":{"en":"security guarantee","pl":"gwarancja bezpieczeństwa"},"partOfSpeech":"Noun","level":"B2","plural":"die Sicherheitsgarantien","notes":{"en":"Often appears in diplomatic and defence contexts.","pl":"Często występuje w kontekście dyplomacji i obronności."},"examples":["Die Regierung fordert verbindliche Sicherheitsgarantien.","Ohne Sicherheitsgarantien bleibt die Lage unsicher."]},
-      {"id":7,"word":"gewappnet sein","translation":{"en":"to be prepared, be equipped","pl":"być przygotowanym"},"partOfSpeech":"Expression","level":"C1","plural":"","notes":{"en":"Usually used with für + accusative.","pl":"Zwykle łączy się z für + biernik."},"examples":["Die Behörden müssen für mögliche Krisen gewappnet sein.","Das Unternehmen ist für Veränderungen gut gewappnet."]},
-      {"id":8,"word":"die Koordinierungsstelle","translation":{"en":"coordination office","pl":"jednostka koordynująca"},"partOfSpeech":"Noun","level":"C1","plural":"die Koordinierungsstellen","notes":{"en":"An office responsible for coordinating different actors.","pl":"Jednostka odpowiedzialna za koordynowanie działań różnych podmiotów."},"examples":["Eine zentrale Koordinierungsstelle bündelt die Informationen.","Die Koordinierungsstelle arbeitet mit mehreren Behörden zusammen."]},
-      {"id":9,"word":"der Schutz","translation":{"en":"protection","pl":"ochrona"},"partOfSpeech":"Noun","level":"B1","plural":"die Schutze","notes":{"en":"Common collocation: der Schutz vor etwas.","pl":"Częsta kolokacja: der Schutz vor etwas."},"examples":["Der Schutz der Daten hat höchste Priorität.","Neue Regeln verbessern den Schutz vor Betrug."]},
-      {"id":10,"word":"der Ausbau","translation":{"en":"expansion, development","pl":"rozbudowa, rozwój"},"partOfSpeech":"Noun","level":"B2","plural":"die Ausbauten","notes":{"en":"Often used with infrastructure, capacity or networks.","pl":"Często dotyczy infrastruktury, zdolności lub sieci."},"examples":["Der Ausbau des Schienennetzes dauert mehrere Jahre.","Die Regierung unterstützt den Ausbau erneuerbarer Energien."]},
-      {"id":11,"word":"zivil","translation":{"en":"civil, civilian","pl":"cywilny"},"partOfSpeech":"Adjective","level":"B2","plural":"","notes":{"en":"Contrast with militärisch in security contexts.","pl":"W kontekście bezpieczeństwa przeciwstawiane słowu militärisch."},"examples":["Die Region benötigt zivile Infrastruktur.","Zivile Einrichtungen müssen im Konflikt geschützt werden."]},
-      {"id":12,"word":"der Verkehrsweg","translation":{"en":"transport route","pl":"szlak komunikacyjny"},"partOfSpeech":"Noun","level":"B2","plural":"die Verkehrswege","notes":{"en":"Includes roads, railways and other transport connections.","pl":"Obejmuje drogi, linie kolejowe i inne połączenia transportowe."},"examples":["Der neue Verkehrsweg verkürzt die Lieferzeiten.","Wichtige Verkehrswege wurden nach dem Sturm gesperrt."]},
-      {"id":13,"word":"autonom","translation":{"en":"autonomous, self-governing","pl":"autonomiczny, samorządny"},"partOfSpeech":"Adjective","level":"C1","plural":"","notes":{"en":"Used for regions or institutions with self-government.","pl":"Używane wobec regionów lub instytucji posiadających autonomię."},"examples":["Die Insel ist ein autonomes Gebiet.","Die Region verfügt über autonome Entscheidungsbefugnisse."]},
-      {"id":14,"word":"die Bilanz ziehen","translation":{"en":"to take stock, assess results","pl":"podsumować wyniki"},"partOfSpeech":"Expression","level":"B2","plural":"","notes":{"en":"Often used with a positive or negative assessment.","pl":"Często używane z oceną pozytywną lub negatywną."},"examples":["Nach dem Projekt zog die Leitung eine positive Bilanz.","Die Experten zogen eine ernüchternde Bilanz der Reform."]},
-      {"id":15,"word":"zusagen","translation":{"en":"to pledge, promise, commit","pl":"zadeklarować, obiecać"},"partOfSpeech":"Verb","level":"B2","plural":"","notes":{"en":"Separable verb: sagte zu, hat zugesagt.","pl":"Czasownik rozdzielny: sagte zu, hat zugesagt."},"examples":["Mehrere Firmen haben zusätzliche Investitionen zugesagt.","Der Minister sagte Unterstützung für das Vorhaben zu."]},
-      {"id":16,"word":"entschlossen","translation":{"en":"determined","pl":"zdecydowany"},"partOfSpeech":"Adjective","level":"B2","plural":"","notes":{"en":"Common pattern: entschlossen sein, etwas zu tun.","pl":"Częsta konstrukcja: entschlossen sein, etwas zu tun."},"examples":["Die Geschäftsleitung ist entschlossen, Kosten zu senken.","Sie blieb entschlossen, die Reform fortzusetzen."]},
-      {"id":17,"word":"der Vorstandschef","translation":{"en":"chief executive, board chair","pl":"prezes zarządu"},"partOfSpeech":"Noun","level":"B2","plural":"die Vorstandschefs","notes":{"en":"A senior executive heading a company's management board.","pl":"Osoba kierująca zarządem przedsiębiorstwa."},"examples":["Der Vorstandschef stellte die neue Strategie vor.","Mehrere Vorstandschefs nahmen an dem Gipfel teil."]},
-      {"id":18,"word":"ausbauen","translation":{"en":"to expand, develop further","pl":"rozbudować, rozwijać"},"partOfSpeech":"Verb","level":"B2","plural":"","notes":{"en":"Separable verb; often used with Beziehungen or Zusammenarbeit.","pl":"Czasownik rozdzielny; często łączy się z Beziehungen lub Zusammenarbeit."},"examples":["Beide Länder wollen ihre wirtschaftlichen Beziehungen ausbauen.","Das Unternehmen baut seine Forschungsaktivitäten aus."]},
-      {"id":19,"word":"verlässlich","translation":{"en":"reliable, dependable","pl":"wiarygodny, niezawodny"},"partOfSpeech":"Adjective","level":"B2","plural":"","notes":{"en":"Describes people, partners, information or systems.","pl":"Określa osoby, partnerów, informacje lub systemy."},"examples":["Wir benötigen einen verlässlichen Partner vor Ort.","Die Behörde veröffentlichte verlässliche Daten."]},
-      {"id":20,"word":"die Vertiefung","translation":{"en":"deepening, strengthening","pl":"pogłębienie"},"partOfSpeech":"Noun","level":"C1","plural":"die Vertiefungen","notes":{"en":"Often used for cooperation, relations or knowledge.","pl":"Często dotyczy współpracy, relacji lub wiedzy."},"examples":["Die Vertiefung der Zusammenarbeit steht im Mittelpunkt.","Eine Vertiefung der Gespräche ist für nächste Woche geplant."]},
-      {"id":21,"word":"lebensbedrohlich","translation":{"en":"life-threatening","pl":"zagrażający życiu"},"partOfSpeech":"Adjective","level":"B2","plural":"","notes":{"en":"Commonly used for diseases, injuries and conditions.","pl":"Najczęściej określa choroby, obrażenia i stany zagrożenia."},"examples":["Die Verletzung war nicht lebensbedrohlich.","Eine lebensbedrohliche Infektion erfordert schnelle Behandlung."]},
-      {"id":22,"word":"einreisen","translation":{"en":"to enter a country","pl":"wjechać do kraju"},"partOfSpeech":"Verb","level":"B2","plural":"","notes":{"en":"Separable verb; often used in immigration and travel contexts.","pl":"Czasownik rozdzielny; często używany w kontekście migracji i podróży."},"examples":["Die Reisenden sind am Morgen eingereist.","Wer ohne gültige Dokumente einreist, muss mit Kontrollen rechnen."]},
-      {"id":23,"word":"behandeln","translation":{"en":"to treat","pl":"leczyć, traktować"},"partOfSpeech":"Verb","level":"B1","plural":"","notes":{"en":"In medical contexts, takes the patient as the object.","pl":"W kontekście medycznym pacjent występuje jako dopełnienie."},"examples":["Die Ärztin behandelt den Patienten seit gestern.","Mehrere Menschen wurden im Krankenhaus behandelt."]},
-      {"id":24,"word":"die Isolation","translation":{"en":"isolation","pl":"izolacja"},"partOfSpeech":"Noun","level":"B2","plural":"die Isolationen","notes":{"en":"In medical reporting, separation to limit possible transmission.","pl":"W medycynie oddzielenie w celu ograniczenia możliwego przenoszenia zakażenia."},"examples":["Die Patientin bleibt vorerst in Isolation.","Eine frühzeitige Isolation kann weitere Infektionen verhindern."]},
-      {"id":25,"word":"die Alarmbereitschaft","translation":{"en":"state of alert","pl":"stan gotowości alarmowej"},"partOfSpeech":"Noun","level":"C1","plural":"","notes":{"en":"Common collocation: in Alarmbereitschaft versetzen.","pl":"Częsta kolokacja: in Alarmbereitschaft versetzen."},"examples":["Die Behörden versetzten die Kliniken in Alarmbereitschaft.","Während der Übung blieb das Team in Alarmbereitschaft."]},
-      {"id":26,"word":"feststellen","translation":{"en":"to establish, determine, detect","pl":"stwierdzić, ustalić"},"partOfSpeech":"Verb","level":"B2","plural":"","notes":{"en":"Separable verb: stellte fest, hat festgestellt.","pl":"Czasownik rozdzielny: stellte fest, hat festgestellt."},"examples":["Die Untersuchung stellte mehrere Mängel fest.","Der Arzt hat keine weiteren Symptome festgestellt."]},
-      {"id":27,"word":"die Gemeinschaft","translation":{"en":"community","pl":"wspólnota, społeczność"},"partOfSpeech":"Noun","level":"B2","plural":"die Gemeinschaften","notes":{"en":"Often used in political expressions such as internationale Gemeinschaft.","pl":"Często występuje w wyrażeniu internationale Gemeinschaft."},"examples":["Die internationale Gemeinschaft forderte weitere Maßnahmen.","Eine starke Gemeinschaft kann Krisen besser bewältigen."]},
-      {"id":28,"word":"der Ausstoß","translation":{"en":"emission, output","pl":"emisja, wydzielanie"},"partOfSpeech":"Noun","level":"C1","plural":"die Ausstöße","notes":{"en":"Common collocation: der Ausstoß von Treibhausgasen.","pl":"Częsta kolokacja: der Ausstoß von Treibhausgasen."},"examples":["Der Ausstoß von Schadstoffen muss reduziert werden.","Die Studie untersucht den Ausstoß industrieller Emissionen."]},
-      {"id":29,"word":"wirksam","translation":{"en":"effective","pl":"skuteczny"},"partOfSpeech":"Adjective","level":"B2","plural":"","notes":{"en":"Often used with Maßnahmen, Mittel or reduzieren.","pl":"Często łączy się z Maßnahmen, Mittel lub reduzieren."},"examples":["Die neuen Maßnahmen sollen wirksam sein.","Wir brauchen eine wirksame Strategie gegen Betrug."]},
-      {"id":30,"word":"die Emission","translation":{"en":"emission","pl":"emisja"},"partOfSpeech":"Noun","level":"B2","plural":"die Emissionen","notes":{"en":"Frequently used in environmental and climate-policy reporting.","pl":"Często używane w relacjach dotyczących środowiska i polityki klimatycznej."},"examples":["Die Emissionen sind in diesem Jahr gestiegen.","Das Unternehmen veröffentlicht Daten zu seinen Emissionen."]},
-      {"id":31,"word":"umsetzen","translation":{"en":"to implement, put into practice","pl":"wdrażać, realizować"},"partOfSpeech":"Verb","level":"B2","plural":"","notes":{"en":"Separable verb: setzte um, hat umgesetzt.","pl":"Czasownik rozdzielny: setzte um, hat umgesetzt."},"examples":["Die Regierung muss ihre Zusagen umsetzen.","Das Team hat die vereinbarten Änderungen umgesetzt."]},
-      {"id":32,"word":"der Gradmesser","translation":{"en":"indicator, benchmark","pl":"wskaźnik, miernik"},"partOfSpeech":"Noun","level":"C1","plural":"die Gradmesser","notes":{"en":"Figuratively describes something used to assess progress or success.","pl":"Przenośnie: coś, co służy do oceny postępów lub sukcesu."},"examples":["Die Wahl gilt als Gradmesser für die Stimmung im Land.","Die Zahlen sind ein wichtiger Gradmesser des Fortschritts."]}
+      {
+        "id": 1,
+        "word": "der Gesandte",
+        "translation": {
+          "en": "envoy, representative",
+          "pl": "wysłannik, przedstawiciel"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Gesandten",
+        "notes": {
+          "en": "Often used in diplomatic reporting.",
+          "pl": "Często używane w relacjach dyplomatycznych."
+        },
+        "examples": [
+          "Der Gesandte traf am Morgen mit den Ministern zusammen.",
+          "Die Gesandten verhandelten über mögliche Sicherheitsgarantien."
+        ]
+      },
+      {
+        "id": 2,
+        "word": "konstruktiv",
+        "translation": {
+          "en": "constructive",
+          "pl": "konstruktywny"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Common collocation: konstruktive Gespräche führen.",
+          "pl": "Częsta kolokacja: konstruktive Gespräche führen."
+        },
+        "examples": [
+          "Die beiden Seiten führten konstruktive Gespräche.",
+          "Wir brauchen einen konstruktiven Vorschlag für die Verhandlungen."
+        ]
+      },
+      {
+        "id": 3,
+        "word": "ebnen",
+        "translation": {
+          "en": "to pave, clear the way",
+          "pl": "torować drogę"
+        },
+        "partOfSpeech": "Verb",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Often used figuratively in ebnen den Weg für + accusative.",
+          "pl": "Często używane przenośnie: ebnen den Weg für + biernik."
+        },
+        "examples": [
+          "Die Einigung könnte den Weg für weitere Gespräche ebnen.",
+          "Die Reform ebnet kleineren Unternehmen den Zugang zum Markt."
+        ]
+      },
+      {
+        "id": 4,
+        "word": "der Regierungsvertreter",
+        "translation": {
+          "en": "government representative",
+          "pl": "przedstawiciel rządu"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Regierungsvertreter",
+        "notes": {
+          "en": "A compound noun; the plural form is unchanged.",
+          "pl": "Rzeczownik złożony; forma liczby mnogiej pozostaje taka sama."
+        },
+        "examples": [
+          "Ein Regierungsvertreter bestätigte die geplante Reise.",
+          "Die Regierungsvertreter diskutierten die nächsten Schritte."
+        ]
+      },
+      {
+        "id": 5,
+        "word": "teilnehmen",
+        "translation": {
+          "en": "to participate, take part",
+          "pl": "uczestniczyć"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B1",
+        "plural": "",
+        "notes": {
+          "en": "Separable verb: nahm teil, hat teilgenommen; takes an.",
+          "pl": "Czasownik rozdzielny: nahm teil, hat teilgenommen; łączy się z an."
+        },
+        "examples": [
+          "Mehrere Experten nehmen an der Konferenz teil.",
+          "Sie hat an der Abstimmung teilgenommen."
+        ]
+      },
+      {
+        "id": 6,
+        "word": "die Sicherheitsgarantie",
+        "translation": {
+          "en": "security guarantee",
+          "pl": "gwarancja bezpieczeństwa"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Sicherheitsgarantien",
+        "notes": {
+          "en": "Often appears in diplomatic and defence contexts.",
+          "pl": "Często występuje w kontekście dyplomacji i obronności."
+        },
+        "examples": [
+          "Die Regierung fordert verbindliche Sicherheitsgarantien.",
+          "Ohne Sicherheitsgarantien bleibt die Lage unsicher."
+        ]
+      },
+      {
+        "id": 7,
+        "word": "gewappnet sein",
+        "translation": {
+          "en": "to be prepared, be equipped",
+          "pl": "być przygotowanym"
+        },
+        "partOfSpeech": "Expression",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Usually used with für + accusative.",
+          "pl": "Zwykle łączy się z für + biernik."
+        },
+        "examples": [
+          "Die Behörden müssen für mögliche Krisen gewappnet sein.",
+          "Das Unternehmen ist für Veränderungen gut gewappnet."
+        ]
+      },
+      {
+        "id": 8,
+        "word": "die Koordinierungsstelle",
+        "translation": {
+          "en": "coordination office",
+          "pl": "jednostka koordynująca"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Koordinierungsstellen",
+        "notes": {
+          "en": "An office responsible for coordinating different actors.",
+          "pl": "Jednostka odpowiedzialna za koordynowanie działań różnych podmiotów."
+        },
+        "examples": [
+          "Eine zentrale Koordinierungsstelle bündelt die Informationen.",
+          "Die Koordinierungsstelle arbeitet mit mehreren Behörden zusammen."
+        ]
+      },
+      {
+        "id": 9,
+        "word": "der Schutz",
+        "translation": {
+          "en": "protection",
+          "pl": "ochrona"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "die Schutze",
+        "notes": {
+          "en": "Common collocation: der Schutz vor etwas.",
+          "pl": "Częsta kolokacja: der Schutz vor etwas."
+        },
+        "examples": [
+          "Der Schutz der Daten hat höchste Priorität.",
+          "Neue Regeln verbessern den Schutz vor Betrug."
+        ]
+      },
+      {
+        "id": 10,
+        "word": "der Ausbau",
+        "translation": {
+          "en": "expansion, development",
+          "pl": "rozbudowa, rozwój"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Ausbauten",
+        "notes": {
+          "en": "Often used with infrastructure, capacity or networks.",
+          "pl": "Często dotyczy infrastruktury, zdolności lub sieci."
+        },
+        "examples": [
+          "Der Ausbau des Schienennetzes dauert mehrere Jahre.",
+          "Die Regierung unterstützt den Ausbau erneuerbarer Energien."
+        ]
+      },
+      {
+        "id": 11,
+        "word": "zivil",
+        "translation": {
+          "en": "civil, civilian",
+          "pl": "cywilny"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Contrast with militärisch in security contexts.",
+          "pl": "W kontekście bezpieczeństwa przeciwstawiane słowu militärisch."
+        },
+        "examples": [
+          "Die Region benötigt zivile Infrastruktur.",
+          "Zivile Einrichtungen müssen im Konflikt geschützt werden."
+        ]
+      },
+      {
+        "id": 12,
+        "word": "der Verkehrsweg",
+        "translation": {
+          "en": "transport route",
+          "pl": "szlak komunikacyjny"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Verkehrswege",
+        "notes": {
+          "en": "Includes roads, railways and other transport connections.",
+          "pl": "Obejmuje drogi, linie kolejowe i inne połączenia transportowe."
+        },
+        "examples": [
+          "Der neue Verkehrsweg verkürzt die Lieferzeiten.",
+          "Wichtige Verkehrswege wurden nach dem Sturm gesperrt."
+        ]
+      },
+      {
+        "id": 13,
+        "word": "autonom",
+        "translation": {
+          "en": "autonomous, self-governing",
+          "pl": "autonomiczny, samorządny"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Used for regions or institutions with self-government.",
+          "pl": "Używane wobec regionów lub instytucji posiadających autonomię."
+        },
+        "examples": [
+          "Die Insel ist ein autonomes Gebiet.",
+          "Die Region verfügt über autonome Entscheidungsbefugnisse."
+        ]
+      },
+      {
+        "id": 14,
+        "word": "die Bilanz ziehen",
+        "translation": {
+          "en": "to take stock, assess results",
+          "pl": "podsumować wyniki"
+        },
+        "partOfSpeech": "Expression",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Often used with a positive or negative assessment.",
+          "pl": "Często używane z oceną pozytywną lub negatywną."
+        },
+        "examples": [
+          "Nach dem Projekt zog die Leitung eine positive Bilanz.",
+          "Die Experten zogen eine ernüchternde Bilanz der Reform."
+        ]
+      },
+      {
+        "id": 15,
+        "word": "zusagen",
+        "translation": {
+          "en": "to pledge, promise, commit",
+          "pl": "zadeklarować, obiecać"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Separable verb: sagte zu, hat zugesagt.",
+          "pl": "Czasownik rozdzielny: sagte zu, hat zugesagt."
+        },
+        "examples": [
+          "Mehrere Firmen haben zusätzliche Investitionen zugesagt.",
+          "Der Minister sagte Unterstützung für das Vorhaben zu."
+        ]
+      },
+      {
+        "id": 16,
+        "word": "entschlossen",
+        "translation": {
+          "en": "determined",
+          "pl": "zdecydowany"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Common pattern: entschlossen sein, etwas zu tun.",
+          "pl": "Częsta konstrukcja: entschlossen sein, etwas zu tun."
+        },
+        "examples": [
+          "Die Geschäftsleitung ist entschlossen, Kosten zu senken.",
+          "Sie blieb entschlossen, die Reform fortzusetzen."
+        ]
+      },
+      {
+        "id": 17,
+        "word": "der Vorstandschef",
+        "translation": {
+          "en": "chief executive, board chair",
+          "pl": "prezes zarządu"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Vorstandschefs",
+        "notes": {
+          "en": "A senior executive heading a company's management board.",
+          "pl": "Osoba kierująca zarządem przedsiębiorstwa."
+        },
+        "examples": [
+          "Der Vorstandschef stellte die neue Strategie vor.",
+          "Mehrere Vorstandschefs nahmen an dem Gipfel teil."
+        ]
+      },
+      {
+        "id": 18,
+        "word": "ausbauen",
+        "translation": {
+          "en": "to expand, develop further",
+          "pl": "rozbudować, rozwijać"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Separable verb; often used with Beziehungen or Zusammenarbeit.",
+          "pl": "Czasownik rozdzielny; często łączy się z Beziehungen lub Zusammenarbeit."
+        },
+        "examples": [
+          "Beide Länder wollen ihre wirtschaftlichen Beziehungen ausbauen.",
+          "Das Unternehmen baut seine Forschungsaktivitäten aus."
+        ]
+      },
+      {
+        "id": 19,
+        "word": "verlässlich",
+        "translation": {
+          "en": "reliable, dependable",
+          "pl": "wiarygodny, niezawodny"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Describes people, partners, information or systems.",
+          "pl": "Określa osoby, partnerów, informacje lub systemy."
+        },
+        "examples": [
+          "Wir benötigen einen verlässlichen Partner vor Ort.",
+          "Die Behörde veröffentlichte verlässliche Daten."
+        ]
+      },
+      {
+        "id": 20,
+        "word": "die Vertiefung",
+        "translation": {
+          "en": "deepening, strengthening",
+          "pl": "pogłębienie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Vertiefungen",
+        "notes": {
+          "en": "Often used for cooperation, relations or knowledge.",
+          "pl": "Często dotyczy współpracy, relacji lub wiedzy."
+        },
+        "examples": [
+          "Die Vertiefung der Zusammenarbeit steht im Mittelpunkt.",
+          "Eine Vertiefung der Gespräche ist für nächste Woche geplant."
+        ]
+      },
+      {
+        "id": 21,
+        "word": "lebensbedrohlich",
+        "translation": {
+          "en": "life-threatening",
+          "pl": "zagrażający życiu"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Commonly used for diseases, injuries and conditions.",
+          "pl": "Najczęściej określa choroby, obrażenia i stany zagrożenia."
+        },
+        "examples": [
+          "Die Verletzung war nicht lebensbedrohlich.",
+          "Eine lebensbedrohliche Infektion erfordert schnelle Behandlung."
+        ]
+      },
+      {
+        "id": 22,
+        "word": "einreisen",
+        "translation": {
+          "en": "to enter a country",
+          "pl": "wjechać do kraju"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Separable verb; often used in immigration and travel contexts.",
+          "pl": "Czasownik rozdzielny; często używany w kontekście migracji i podróży."
+        },
+        "examples": [
+          "Die Reisenden sind am Morgen eingereist.",
+          "Wer ohne gültige Dokumente einreist, muss mit Kontrollen rechnen."
+        ]
+      },
+      {
+        "id": 23,
+        "word": "behandeln",
+        "translation": {
+          "en": "to treat",
+          "pl": "leczyć, traktować"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B1",
+        "plural": "",
+        "notes": {
+          "en": "In medical contexts, takes the patient as the object.",
+          "pl": "W kontekście medycznym pacjent występuje jako dopełnienie."
+        },
+        "examples": [
+          "Die Ärztin behandelt den Patienten seit gestern.",
+          "Mehrere Menschen wurden im Krankenhaus behandelt."
+        ]
+      },
+      {
+        "id": 24,
+        "word": "die Isolation",
+        "translation": {
+          "en": "isolation",
+          "pl": "izolacja"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Isolationen",
+        "notes": {
+          "en": "In medical reporting, separation to limit possible transmission.",
+          "pl": "W medycynie oddzielenie w celu ograniczenia możliwego przenoszenia zakażenia."
+        },
+        "examples": [
+          "Die Patientin bleibt vorerst in Isolation.",
+          "Eine frühzeitige Isolation kann weitere Infektionen verhindern."
+        ]
+      },
+      {
+        "id": 25,
+        "word": "die Alarmbereitschaft",
+        "translation": {
+          "en": "state of alert",
+          "pl": "stan gotowości alarmowej"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Common collocation: in Alarmbereitschaft versetzen.",
+          "pl": "Częsta kolokacja: in Alarmbereitschaft versetzen."
+        },
+        "examples": [
+          "Die Behörden versetzten die Kliniken in Alarmbereitschaft.",
+          "Während der Übung blieb das Team in Alarmbereitschaft."
+        ]
+      },
+      {
+        "id": 26,
+        "word": "feststellen",
+        "translation": {
+          "en": "to establish, determine, detect",
+          "pl": "stwierdzić, ustalić"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Separable verb: stellte fest, hat festgestellt.",
+          "pl": "Czasownik rozdzielny: stellte fest, hat festgestellt."
+        },
+        "examples": [
+          "Die Untersuchung stellte mehrere Mängel fest.",
+          "Der Arzt hat keine weiteren Symptome festgestellt."
+        ]
+      },
+      {
+        "id": 27,
+        "word": "die Gemeinschaft",
+        "translation": {
+          "en": "community",
+          "pl": "wspólnota, społeczność"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Gemeinschaften",
+        "notes": {
+          "en": "Often used in political expressions such as internationale Gemeinschaft.",
+          "pl": "Często występuje w wyrażeniu internationale Gemeinschaft."
+        },
+        "examples": [
+          "Die internationale Gemeinschaft forderte weitere Maßnahmen.",
+          "Eine starke Gemeinschaft kann Krisen besser bewältigen."
+        ]
+      },
+      {
+        "id": 28,
+        "word": "der Ausstoß",
+        "translation": {
+          "en": "emission, output",
+          "pl": "emisja, wydzielanie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Ausstöße",
+        "notes": {
+          "en": "Common collocation: der Ausstoß von Treibhausgasen.",
+          "pl": "Częsta kolokacja: der Ausstoß von Treibhausgasen."
+        },
+        "examples": [
+          "Der Ausstoß von Schadstoffen muss reduziert werden.",
+          "Die Studie untersucht den Ausstoß industrieller Emissionen."
+        ]
+      },
+      {
+        "id": 29,
+        "word": "wirksam",
+        "translation": {
+          "en": "effective",
+          "pl": "skuteczny"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Often used with Maßnahmen, Mittel or reduzieren.",
+          "pl": "Często łączy się z Maßnahmen, Mittel lub reduzieren."
+        },
+        "examples": [
+          "Die neuen Maßnahmen sollen wirksam sein.",
+          "Wir brauchen eine wirksame Strategie gegen Betrug."
+        ]
+      },
+      {
+        "id": 30,
+        "word": "die Emission",
+        "translation": {
+          "en": "emission",
+          "pl": "emisja"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Emissionen",
+        "notes": {
+          "en": "Frequently used in environmental and climate-policy reporting.",
+          "pl": "Często używane w relacjach dotyczących środowiska i polityki klimatycznej."
+        },
+        "examples": [
+          "Die Emissionen sind in diesem Jahr gestiegen.",
+          "Das Unternehmen veröffentlicht Daten zu seinen Emissionen."
+        ]
+      },
+      {
+        "id": 31,
+        "word": "umsetzen",
+        "translation": {
+          "en": "to implement, put into practice",
+          "pl": "wdrażać, realizować"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Separable verb: setzte um, hat umgesetzt.",
+          "pl": "Czasownik rozdzielny: setzte um, hat umgesetzt."
+        },
+        "examples": [
+          "Die Regierung muss ihre Zusagen umsetzen.",
+          "Das Team hat die vereinbarten Änderungen umgesetzt."
+        ]
+      },
+      {
+        "id": 32,
+        "word": "der Gradmesser",
+        "translation": {
+          "en": "indicator, benchmark",
+          "pl": "wskaźnik, miernik"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Gradmesser",
+        "notes": {
+          "en": "Figuratively describes something used to assess progress or success.",
+          "pl": "Przenośnie: coś, co służy do oceny postępów lub sukcesu."
+        },
+        "examples": [
+          "Die Wahl gilt als Gradmesser für die Stimmung im Land.",
+          "Die Zahlen sind ein wichtiger Gradmesser des Fortschritts."
+        ]
+      }
     ]
   },
   "speaking": {
