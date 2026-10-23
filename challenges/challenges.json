@@ -8744,6 +8744,1734 @@
       "pl": "Jesteś moim nauczycielem języka niemieckiego i prowadzisz 20-minutową rozmowę na poziomie B1–C1 na podstawie niemieckich wiadomości z 22 października 2026 roku.\n\nNajważniejsze wiadomości w tym odcinku:\n1. Poważna luka w programowaniu PHP skłoniła dostawców do tymczasowego ograniczenia dostępu do stron internetowych; zalecana jest aktualizacja.\n2. Francuscy przywódcy polityczni spotykają się po gwałtownych protestach i spodziewają się kolejnych demonstracji.\n3. Kanclerz Niemiec Friedrich Merz uczestniczy w szczycie Procesu Berlińskiego w Czarnogórze, aby omówić drogę państw Bałkanów Zachodnich do członkostwa w UE.\n4. Po spotkaniu ze Steve’em Witkoffem rosyjscy urzędnicy skrytykowali propozycje europejskie i ukraińskie, ale zasygnalizowali możliwość wznowienia rozmów w połowie listopada.\n5. Watykan poinformował, że usunięty nowotwór płuca papieża Leona XIV nie dał przerzutów i dalsze leczenie nie jest potrzebne.\n6. Rozpoczęły się targi Spiel Essen, na których pojawiło się prawie 1000 wystawców z 53 krajów oraz około 1800 nowych gier.\n\nZagadnienie gramatyczne do ćwiczenia: formy Präteritum czasowników sein, haben i czasowników modalnych.\n\nInstrukcje dla ChatGPT:\n1. Na początku życzliwie upewnij się, czy wysłuchałem audycji.\n2. Zadawaj pytania pojedynczo. Nigdy nie zadawaj kilku pytań naraz.\n3. Najpierw omów fakty, a następnie przejdź do przyczyn i konsekwencji, alternatywnych perspektyw oraz mojej osobistej oceny.\n4. Zachęcaj mnie do aktywnego używania form Präteritum czasowników sein, haben i czasowników modalnych, zwłaszcza war, hatte, konnte, musste, durfte, sollte i wollte, aby opisywać sytuacje z przeszłości.\n5. Natychmiastowa korekta: jeśli popełnię błąd dotyczący dzisiejszej zasady, na przykład *Ich könnte nicht kommen, weil ich krank war.* zamiast *Ich konnte nicht kommen, weil ich krank war.*, przerwij na chwilę, aby:\n   - Zacytować błąd.\n   - Podać poprawne zdanie po niemiecku.\n   - Wyjaśnić zasadę w jednym zdaniu po polsku.\n   - Poprosić mnie o głośne powtórzenie poprawnego zdania przed przejściem do następnego pytania.\n6. Zachowuj angażujący, profesjonalny i naturalny ton, odpowiedni do immersyjnej rozmowy głosowej po niemiecku."
     }
   }
+},
+ {
+  "lesson": {
+    "id": "2026-10-23",
+    "date": "23.10.2026",
+    "day": 11,
+    "totalDays": 300,
+    "level": "B1",
+    "title": {
+      "en": "Perfekt vs Präteritum in Everyday Spoken Narration",
+      "pl": "Perfekt a Präteritum w codziennych opowieściach"
+    },
+    "subtitle": "Perfekt und Präteritum im mündlichen Sprachgebrauch"
+  },
+  "grammar": {
+    "html": {
+      "en": [
+        "<p>When you tell someone what happened, German offers two main past tenses: <strong>Perfekt</strong> and <strong>Präteritum</strong>. In everyday conversation, Perfekt is generally the default for describing completed events, experiences, and actions. Präteritum is common with <em>sein</em>, <em>haben</em>, and modal verbs, and it is also frequent in written narratives and news reports. The choice depends on the verb, the context, and the style of narration.</p>",
+        "<div class='box rule'><strong>Core rule:</strong> In everyday spoken German, usually use Perfekt for past actions, but often use Präteritum with <em>war</em>, <em>hatte</em>, and modal verbs such as <em>konnte</em>, <em>musste</em>, and <em>wollte</em>.</div>",
+        "<h3>Forming the Perfekt</h3><p>Perfekt consists of a present-tense form of <em>haben</em> or <em>sein</em> and a past participle. Most verbs use <em>haben</em>. Many verbs describing movement from one place to another or a change of state use <em>sein</em>. The participle usually appears at the end of a main clause.</p><table><thead><tr><th>Pattern</th><th>Example</th></tr></thead><tbody><tr><td>haben + participle</td><td class='de'>Ich <strong>habe</strong> lange <strong>gearbeitet</strong>.</td></tr><tr><td>sein + participle</td><td class='de'>Wir <strong>sind</strong> spät <strong>angekommen</strong>.</td></tr><tr><td>separable verb</td><td class='de'>Sie <strong>hat</strong> mich <strong>angerufen</strong>.</td></tr></tbody></table><p>Use Perfekt for ordinary conversational narration: <em>Gestern habe ich meine Kollegin getroffen. Wir haben zusammen zu Mittag gegessen.</em></p>",
+        "<h3>When Präteritum sounds natural</h3><p>In conversation, the Präteritum forms of <em>sein</em> and <em>haben</em> are especially common because they are short and natural. Compare <em>Ich war müde</em> with <em>Ich bin müde gewesen</em>, or <em>Wir hatten keine Zeit</em> with <em>Wir haben keine Zeit gehabt</em>. Both versions can be correct, but the first is often more idiomatic in everyday speech.</p><p>Modal verbs also frequently appear in Präteritum: <em>Ich musste arbeiten</em>, <em>Sie konnte nicht kommen</em>, and <em>Wir wollten früher gehen</em>. These forms are often preferred to conversational Perfekt constructions such as <em>Ich habe arbeiten müssen</em>. The latter is correct, but it can sound heavier.</p>",
+        "<h3>Choosing the tense in a story</h3><p>A natural spoken story often combines both tenses. Use Präteritum for background states or circumstances and Perfekt for the sequence of events. For example: <em>Ich war sehr müde, aber ich habe trotzdem meine Freunde besucht.</em> The state is expressed with <em>war</em>; the completed visit is expressed with <em>habe besucht</em>.</p><p>In news reports and written narratives, Präteritum is much more widespread: <em>Die Regierung erteilte die Genehmigung.</em> When telling a friend the same information, you might say: <em>Die Regierung hat die Genehmigung erteilt.</em> This is a tendency, not an absolute rule: spoken German varies by region, speaker, and situation.</p>",
+        "<table><thead><tr><th>Infinitive</th><th>Präteritum</th><th>Typical spoken Perfekt</th></tr></thead><tbody><tr><td>sein</td><td class='de'>war</td><td class='de'>ist gewesen</td></tr><tr><td>haben</td><td class='de'>hatte</td><td class='de'>hat gehabt</td></tr><tr><td>können</td><td class='de'>konnte</td><td class='de'>hat gekonnt</td></tr><tr><td>müssen</td><td class='de'>musste</td><td class='de'>hat gemusst</td></tr><tr><td>wollen</td><td class='de'>wollte</td><td class='de'>hat gewollt</td></tr><tr><td>gehen</td><td class='de'>ging</td><td class='de'>ist gegangen</td></tr><tr><td>machen</td><td class='de'>machte</td><td class='de'>hat gemacht</td></tr></tbody></table>",
+        "<div class='box warn'><strong>Typical mistake:</strong> Do not assume that every past-tense sentence in conversation must use Perfekt. Both <em>Ich bin gestern krank gewesen</em> and <em>Ich war gestern krank</em> are grammatically correct, but <em>Ich war gestern krank</em> is usually the more natural everyday choice. Similarly, <em>Ich habe früher gehen müssen</em> is correct, but <em>Ich musste früher gehen</em> is often simpler and more idiomatic.</div>",
+        "<div class='box tip'><strong>Memory aid:</strong> For a conversational story, start with Perfekt for actions, then choose <em>war</em>, <em>hatte</em>, or a Präteritum modal verb when that sounds more natural. Ask yourself whether you are describing an event or explaining the situation around it.</div>",
+        "<h3>Quick reference</h3><div class='tiles'><div class='tile'><strong>Completed action</strong><p>Ich habe gestern lange gearbeitet.</p></div><div class='tile'><strong>Past state</strong><p>Ich war sehr müde.</p></div><div class='tile'><strong>Past possession</strong><p>Wir hatten keine Zeit.</p></div><div class='tile'><strong>Past necessity</strong><p>Ich musste früh aufstehen.</p></div></div>"
+      ],
+      "pl": [
+        "<p>Opowiadając komuś o tym, co się wydarzyło, możesz użyć dwóch podstawowych niemieckich czasów przeszłych: <strong>Perfekt</strong> i <strong>Präteritum</strong>. W codziennej rozmowie Perfekt jest zazwyczaj domyślnym czasem do opisywania zakończonych wydarzeń, doświadczeń i czynności. Präteritum jest częste z czasownikami <em>sein</em>, <em>haben</em> i czasownikami modalnymi, a także w narracji pisanej i wiadomościach. Wybór zależy od czasownika, kontekstu i stylu wypowiedzi.</p>",
+        "<div class='box rule'><strong>Podstawowa zasada:</strong> W codziennej mowie po niemiecku zazwyczaj używaj Perfekt do opisywania przeszłych czynności, ale często stosuj Präteritum w formach <em>war</em>, <em>hatte</em> oraz z czasownikami modalnymi, takimi jak <em>konnte</em>, <em>musste</em> i <em>wollte</em>.</div>",
+        "<h3>Tworzenie Perfekt</h3><p>Perfekt składa się z odmienionej w czasie teraźniejszym formy <em>haben</em> lub <em>sein</em> oraz imiesłowu czasu przeszłego. Większość czasowników łączy się z <em>haben</em>. Wiele czasowników opisujących przemieszczanie się z jednego miejsca do drugiego lub zmianę stanu łączy się z <em>sein</em>. Imiesłów zazwyczaj znajduje się na końcu zdania głównego.</p><table><thead><tr><th>Schemat</th><th>Przykład</th></tr></thead><tbody><tr><td>haben + imiesłów</td><td class='de'>Ich <strong>habe</strong> lange <strong>gearbeitet</strong>.</td></tr><tr><td>sein + imiesłów</td><td class='de'>Wir <strong>sind</strong> spät <strong>angekommen</strong>.</td></tr><tr><td>czasownik rozdzielnie złożony</td><td class='de'>Sie <strong>hat</strong> mich <strong>angerufen</strong>.</td></tr></tbody></table><p>Używaj Perfekt w typowych codziennych opowieściach: <em>Gestern habe ich meine Kollegin getroffen. Wir haben zusammen zu Mittag gegessen.</em></p>",
+        "<h3>Kiedy Präteritum brzmi naturalnie</h3><p>W rozmowach szczególnie często występują formy Präteritum czasowników <em>sein</em> i <em>haben</em>, ponieważ są krótkie i brzmią naturalnie. Porównaj <em>Ich war müde</em> z <em>Ich bin müde gewesen</em> albo <em>Wir hatten keine Zeit</em> z <em>Wir haben keine Zeit gehabt</em>. Obie wersje mogą być poprawne, ale pierwsza jest zwykle bardziej idiomatyczna w codziennej mowie.</p><p>Czasowniki modalne również często występują w Präteritum: <em>Ich musste arbeiten</em>, <em>Sie konnte nicht kommen</em> i <em>Wir wollten früher gehen</em>. Te formy są często preferowane zamiast konstrukcji Perfekt używanych w rozmowie, takich jak <em>Ich habe arbeiten müssen</em>. Ta druga forma jest poprawna, ale może brzmieć ciężej.</p>",
+        "<h3>Wybór czasu podczas opowiadania</h3><p>Naturalna opowieść ustna często łączy oba czasy. Używaj Präteritum do opisywania stanów w tle lub okoliczności, a Perfekt do przedstawiania kolejnych wydarzeń. Na przykład: <em>Ich war sehr müde, aber ich habe trotzdem meine Freunde besucht.</em> Stan wyraża forma <em>war</em>, a zakończoną wizytę — <em>habe besucht</em>.</p><p>W wiadomościach i narracji pisanej Präteritum występuje znacznie częściej: <em>Die Regierung erteilte die Genehmigung.</em> Opowiadając o tym znajomemu, możesz powiedzieć: <em>Die Regierung hat die Genehmigung erteilt.</em> To tendencja, a nie bezwzględna reguła: niemiecki język mówiony różni się w zależności od regionu, rozmówcy i sytuacji.</p>",
+        "<table><thead><tr><th>Bezokolicznik</th><th>Präteritum</th><th>Typowa forma Perfekt w mowie</th></tr></thead><tbody><tr><td>sein</td><td class='de'>war</td><td class='de'>ist gewesen</td></tr><tr><td>haben</td><td class='de'>hatte</td><td class='de'>hat gehabt</td></tr><tr><td>können</td><td class='de'>konnte</td><td class='de'>hat gekonnt</td></tr><tr><td>müssen</td><td class='de'>musste</td><td class='de'>hat gemusst</td></tr><tr><td>wollen</td><td class='de'>wollte</td><td class='de'>hat gewollt</td></tr><tr><td>gehen</td><td class='de'>ging</td><td class='de'>ist gegangen</td></tr><tr><td>machen</td><td class='de'>machte</td><td class='de'>hat gemacht</td></tr></tbody></table>",
+        "<div class='box warn'><strong>Typowy błąd:</strong> Nie zakładaj, że każde zdanie o przeszłości w rozmowie musi być w Perfekt. Zarówno <em>Ich bin gestern krank gewesen</em>, jak i <em>Ich war gestern krank</em> są poprawne gramatycznie, ale <em>Ich war gestern krank</em> jest zwykle bardziej naturalne w codziennej rozmowie. Podobnie <em>Ich habe früher gehen müssen</em> jest poprawne, lecz <em>Ich musste früher gehen</em> jest często prostsze i bardziej idiomatyczne.</div>",
+        "<div class='box tip'><strong>Wskazówka do zapamiętania:</strong> W opowieści prowadzonej w rozmowie zacznij od Perfekt dla czynności, a następnie wybierz <em>war</em>, <em>hatte</em> lub czasownik modalny w Präteritum, jeśli brzmi to naturalniej. Zastanów się, czy opisujesz wydarzenie, czy wyjaśniasz okoliczności, w których do niego doszło.</div>",
+        "<h3>Szybka ściąga</h3><div class='tiles'><div class='tile'><strong>Zakończona czynność</strong><p>Ich habe gestern lange gearbeitet.</p></div><div class='tile'><strong>Stan w przeszłości</strong><p>Ich war sehr müde.</p></div><div class='tile'><strong>Posiadanie w przeszłości</strong><p>Wir hatten keine Zeit.</p></div><div class='tile'><strong>Konieczność w przeszłości</strong><p>Ich musste früh aufstehen.</p></div></div>"
+      ]
+    }
+  },
+  "examples": [
+    {
+      "de": "Ich **habe** gestern lange **gearbeitet**.",
+      "en": "I worked for a long time yesterday.",
+      "pl": "Wczoraj długo pracowałem."
+    },
+    {
+      "de": "Wir **haben** am Samstag unsere Freunde **besucht**.",
+      "en": "We visited our friends on Saturday.",
+      "pl": "W sobotę odwiedziliśmy naszych przyjaciół."
+    },
+    {
+      "de": "Sie **ist** erst um zehn Uhr **aufgestanden**.",
+      "en": "She got up only at ten o'clock.",
+      "pl": "Wstała dopiero o dziesiątej."
+    },
+    {
+      "de": "Er **hat** seinen Schlüssel zu Hause **vergessen**.",
+      "en": "He forgot his key at home.",
+      "pl": "Zapomniał klucza w domu."
+    },
+    {
+      "de": "Ich **war** gestern ziemlich müde.",
+      "en": "I was quite tired yesterday.",
+      "pl": "Wczoraj byłem dość zmęczony."
+    },
+    {
+      "de": "Wir **hatten** leider keine Zeit.",
+      "en": "Unfortunately, we didn't have any time.",
+      "pl": "Niestety nie mieliśmy czasu."
+    },
+    {
+      "de": "Sie **musste** länger im Büro bleiben.",
+      "en": "She had to stay at the office longer.",
+      "pl": "Musiała zostać dłużej w biurze."
+    },
+    {
+      "de": "Ich **konnte** dich gestern nicht erreichen.",
+      "en": "I couldn't reach you yesterday.",
+      "pl": "Wczoraj nie mogłem się z tobą skontaktować."
+    },
+    {
+      "de": "Wir **wollten** eigentlich früher losfahren.",
+      "en": "We actually wanted to leave earlier.",
+      "pl": "Właściwie chcieliśmy wyjechać wcześniej."
+    },
+    {
+      "de": "Er **hat** mir die ganze Geschichte **erzählt**.",
+      "en": "He told me the whole story.",
+      "pl": "Opowiedział mi całą historię."
+    },
+    {
+      "de": "Obwohl ich müde **war**, **habe** ich noch das Abendessen **gekocht**.",
+      "en": "Although I was tired, I still cooked dinner.",
+      "pl": "Chociaż byłem zmęczony, przygotowałem jeszcze kolację."
+    },
+    {
+      "de": "Wir **sind** zu spät **gekommen**, weil der Zug Verspätung **hatte**.",
+      "en": "We arrived late because the train was delayed.",
+      "pl": "Przyjechaliśmy za późno, ponieważ pociąg był opóźniony."
+    },
+    {
+      "de": "Ich **musste** einen Termin verschieben, weil ich krank **war**.",
+      "en": "I had to reschedule an appointment because I was ill.",
+      "pl": "Musiałem przełożyć spotkanie, ponieważ byłem chory."
+    },
+    {
+      "de": "Sie **hat** den Bericht **geschrieben**, obwohl sie kaum Zeit **hatte**.",
+      "en": "She wrote the report although she had hardly any time.",
+      "pl": "Napisała raport, chociaż miała bardzo mało czasu."
+    },
+    {
+      "de": "Als wir im Hotel **ankamen**, **war** die Rezeption bereits geschlossen.",
+      "en": "When we arrived at the hotel, reception was already closed.",
+      "pl": "Kiedy dotarliśmy do hotelu, recepcja była już zamknięta."
+    },
+    {
+      "de": "Er **wollte** uns helfen, aber er **hatte** selbst ein dringendes Problem.",
+      "en": "He wanted to help us, but he had an urgent problem of his own.",
+      "pl": "Chciał nam pomóc, ale sam miał pilny problem."
+    },
+    {
+      "de": "Ich **habe** den Kunden **angerufen**, nachdem ich alle Unterlagen **geprüft hatte**.",
+      "en": "I called the client after I had checked all the documents.",
+      "pl": "Zadzwoniłem do klienta po sprawdzeniu wszystkich dokumentów."
+    },
+    {
+      "de": "Wir **konnten** nicht teilnehmen, weil die Besprechung länger **dauerte** als geplant.",
+      "en": "We couldn't participate because the meeting lasted longer than planned.",
+      "pl": "Nie mogliśmy uczestniczyć, ponieważ spotkanie trwało dłużej, niż planowano."
+    },
+    {
+      "de": "Sie **hat** den Zug **verpasst**, obwohl sie früh genug am Bahnhof **war**.",
+      "en": "She missed the train even though she was at the station early enough.",
+      "pl": "Spóźniła się na pociąg, chociaż była na dworcu odpowiednio wcześnie."
+    },
+    {
+      "de": "Nachdem wir die Entscheidung **besprochen hatten**, **haben** wir dem Team die Ergebnisse **mitgeteilt**.",
+      "en": "After we had discussed the decision, we informed the team of the results.",
+      "pl": "Po omówieniu decyzji przekazaliśmy zespołowi wyniki."
+    }
+  ],
+  "exercises": [
+    {
+      "en": "I worked yesterday.",
+      "pl": "Wczoraj pracowałem.",
+      "de": "Ich habe gestern gearbeitet."
+    },
+    {
+      "en": "She was tired.",
+      "pl": "Ona była zmęczona.",
+      "de": "Sie war müde."
+    },
+    {
+      "en": "We had time.",
+      "pl": "Mieliśmy czas.",
+      "de": "Wir hatten Zeit."
+    },
+    {
+      "en": "He bought a new phone.",
+      "pl": "Kupił nowy telefon.",
+      "de": "Er hat ein neues Handy gekauft."
+    },
+    {
+      "en": "I had to leave early.",
+      "pl": "Musiałem wyjść wcześnie.",
+      "de": "Ich musste früh gehen."
+    },
+    {
+      "en": "They arrived late.",
+      "pl": "Przyjechali późno.",
+      "de": "Sie sind spät angekommen."
+    },
+    {
+      "en": "She couldn't come.",
+      "pl": "Nie mogła przyjść.",
+      "de": "Sie konnte nicht kommen."
+    },
+    {
+      "en": "We watched a film.",
+      "pl": "Obejrzeliśmy film.",
+      "de": "Wir haben einen Film gesehen."
+    },
+    {
+      "en": "He wanted to help.",
+      "pl": "Chciał pomóc.",
+      "de": "Er wollte helfen."
+    },
+    {
+      "en": "I was at home.",
+      "pl": "Byłem w domu.",
+      "de": "Ich war zu Hause."
+    },
+    {
+      "en": "Yesterday I called my brother.",
+      "pl": "Wczoraj zadzwoniłem do brata.",
+      "de": "Gestern habe ich meinen Bruder angerufen."
+    },
+    {
+      "en": "We didn't have enough money.",
+      "pl": "Nie mieliśmy wystarczająco dużo pieniędzy.",
+      "de": "Wir hatten nicht genug Geld."
+    },
+    {
+      "en": "He had to work on Sunday.",
+      "pl": "Musiał pracować w niedzielę.",
+      "de": "Er musste am Sonntag arbeiten."
+    },
+    {
+      "en": "She has already eaten.",
+      "pl": "Ona już zjadła.",
+      "de": "Sie hat schon gegessen."
+    },
+    {
+      "en": "I couldn't sleep last night.",
+      "pl": "Nie mogłem spać zeszłej nocy.",
+      "de": "Ich konnte letzte Nacht nicht schlafen."
+    },
+    {
+      "en": "They stayed at a hotel.",
+      "pl": "Zatrzymali się w hotelu.",
+      "de": "Sie haben in einem Hotel übernachtet."
+    },
+    {
+      "en": "We were very busy.",
+      "pl": "Byliśmy bardzo zajęci.",
+      "de": "Wir waren sehr beschäftigt."
+    },
+    {
+      "en": "He forgot his appointment.",
+      "pl": "Zapomniał o swoim spotkaniu.",
+      "de": "Er hat seinen Termin vergessen."
+    },
+    {
+      "en": "I wanted to ask you something.",
+      "pl": "Chciałem cię o coś zapytać.",
+      "de": "Ich wollte dich etwas fragen."
+    },
+    {
+      "en": "She came home at midnight.",
+      "pl": "Wróciła do domu o północy.",
+      "de": "Sie ist um Mitternacht nach Hause gekommen."
+    },
+    {
+      "en": "We had a difficult conversation yesterday.",
+      "pl": "Wczoraj odbyliśmy trudną rozmowę.",
+      "de": "Wir haben gestern ein schwieriges Gespräch geführt."
+    },
+    {
+      "en": "He was ill, so he stayed at home.",
+      "pl": "Był chory, więc został w domu.",
+      "de": "Er war krank, deshalb ist er zu Hause geblieben."
+    },
+    {
+      "en": "I had to cancel the meeting.",
+      "pl": "Musiałem odwołać spotkanie.",
+      "de": "Ich musste das Meeting absagen."
+    },
+    {
+      "en": "She has already sent the email.",
+      "pl": "Ona już wysłała e-mail.",
+      "de": "Sie hat die E-Mail schon geschickt."
+    },
+    {
+      "en": "They couldn't find the address.",
+      "pl": "Nie mogli znaleźć adresu.",
+      "de": "Sie konnten die Adresse nicht finden."
+    },
+    {
+      "en": "We wanted to take the earlier train.",
+      "pl": "Chcieliśmy pojechać wcześniejszym pociągiem.",
+      "de": "Wir wollten den früheren Zug nehmen."
+    },
+    {
+      "en": "I met an old colleague in town.",
+      "pl": "Spotkałem w mieście dawnego kolegę z pracy.",
+      "de": "Ich habe in der Stadt einen ehemaligen Kollegen getroffen."
+    },
+    {
+      "en": "He had no idea what happened.",
+      "pl": "Nie miał pojęcia, co się wydarzyło.",
+      "de": "Er hatte keine Ahnung, was passiert ist."
+    },
+    {
+      "en": "She had to wait for an hour.",
+      "pl": "Musiałа czekać godzinę.",
+      "de": "Sie musste eine Stunde warten."
+    },
+    {
+      "en": "We arrived before the restaurant closed.",
+      "pl": "Przyjechaliśmy, zanim restauracja została zamknięta.",
+      "de": "Wir sind angekommen, bevor das Restaurant geschlossen hat."
+    },
+    {
+      "en": "I was nervous before the interview.",
+      "pl": "Byłem zdenerwowany przed rozmową kwalifikacyjną.",
+      "de": "Ich war vor dem Vorstellungsgespräch nervös."
+    },
+    {
+      "en": "He didn't want to discuss the problem.",
+      "pl": "Nie chciał omawiać problemu.",
+      "de": "Er wollte das Problem nicht besprechen."
+    },
+    {
+      "en": "They bought tickets online.",
+      "pl": "Kupili bilety przez internet.",
+      "de": "Sie haben die Tickets online gekauft."
+    },
+    {
+      "en": "I couldn't answer because I was driving.",
+      "pl": "Nie mogłem odpowiedzieć, ponieważ prowadziłem samochód.",
+      "de": "Ich konnte nicht antworten, weil ich Auto gefahren bin."
+    },
+    {
+      "en": "We had lunch together after the meeting.",
+      "pl": "Zjedliśmy razem lunch po spotkaniu.",
+      "de": "Wir haben nach dem Meeting zusammen zu Mittag gegessen."
+    },
+    {
+      "en": "She was disappointed with the result.",
+      "pl": "Była rozczarowana wynikiem.",
+      "de": "Sie war vom Ergebnis enttäuscht."
+    },
+    {
+      "en": "He has lost his wallet.",
+      "pl": "Zgubił portfel.",
+      "de": "Er hat seine Geldbörse verloren."
+    },
+    {
+      "en": "I had to explain the situation again.",
+      "pl": "Musiałem ponownie wyjaśnić sytuację.",
+      "de": "Ich musste die Situation noch einmal erklären."
+    },
+    {
+      "en": "They stayed longer than they had planned.",
+      "pl": "Zostali dłużej, niż planowali.",
+      "de": "Sie sind länger geblieben, als sie geplant hatten."
+    },
+    {
+      "en": "We couldn't open the door.",
+      "pl": "Nie mogliśmy otworzyć drzwi.",
+      "de": "Wir konnten die Tür nicht öffnen."
+    },
+    {
+      "en": "When I arrived, my manager was already there.",
+      "pl": "Kiedy przyjechałem, mój przełożony już tam był.",
+      "de": "Als ich ankam, war mein Vorgesetzter schon da."
+    },
+    {
+      "en": "Although it was raining, we went for a walk.",
+      "pl": "Chociaż padał deszcz, poszliśmy na spacer.",
+      "de": "Obwohl es regnete, sind wir spazieren gegangen."
+    },
+    {
+      "en": "I wanted to book a table, but the restaurant was full.",
+      "pl": "Chciałem zarezerwować stolik, ale restauracja była pełna.",
+      "de": "Ich wollte einen Tisch reservieren, aber das Restaurant war voll."
+    },
+    {
+      "en": "She has changed her mind about the offer.",
+      "pl": "Zmieniła zdanie na temat oferty.",
+      "de": "Sie hat ihre Meinung über das Angebot geändert."
+    },
+    {
+      "en": "We had to wait because the train was delayed.",
+      "pl": "Musieliśmy czekać, ponieważ pociąg był opóźniony.",
+      "de": "Wir mussten warten, weil der Zug Verspätung hatte."
+    },
+    {
+      "en": "He didn't know that the office was closed.",
+      "pl": "Nie wiedział, że biuro było zamknięte.",
+      "de": "Er wusste nicht, dass das Büro geschlossen war."
+    },
+    {
+      "en": "I have never tried that restaurant.",
+      "pl": "Nigdy nie próbowałem jedzenia w tej restauracji.",
+      "de": "Ich habe dieses Restaurant noch nie ausprobiert."
+    },
+    {
+      "en": "They wanted to leave, but they couldn't find a taxi.",
+      "pl": "Chcieli wyjść, ale nie mogli znaleźć taksówki.",
+      "de": "Sie wollten gehen, aber sie konnten kein Taxi finden."
+    },
+    {
+      "en": "We were exhausted after the long journey.",
+      "pl": "Byliśmy wyczerpani po długiej podróży.",
+      "de": "Wir waren nach der langen Reise erschöpft."
+    },
+    {
+      "en": "She explained why she had missed the appointment.",
+      "pl": "Wyjaśniła, dlaczego opuściła spotkanie.",
+      "de": "Sie hat erklärt, warum sie den Termin verpasst hatte."
+    },
+    {
+      "en": "When the meeting ended, everyone went home.",
+      "pl": "Kiedy spotkanie się skończyło, wszyscy poszli do domu.",
+      "de": "Als das Meeting endete, sind alle nach Hause gegangen."
+    },
+    {
+      "en": "I was about to leave when my colleague called.",
+      "pl": "Właśnie miałem wychodzić, kiedy zadzwonił mój kolega z pracy.",
+      "de": "Ich wollte gerade gehen, als mein Kollege anrief."
+    },
+    {
+      "en": "He couldn't attend because he had an urgent deadline.",
+      "pl": "Nie mógł uczestniczyć, ponieważ miał pilny termin.",
+      "de": "Er konnte nicht teilnehmen, weil er eine dringende Frist hatte."
+    },
+    {
+      "en": "We have discussed the issue several times.",
+      "pl": "Omawialiśmy tę kwestię kilka razy.",
+      "de": "Wir haben das Thema mehrmals besprochen."
+    },
+    {
+      "en": "She was surprised that nobody had informed her.",
+      "pl": "Była zaskoczona, że nikt jej nie poinformował.",
+      "de": "Sie war überrascht, dass sie niemand informiert hatte."
+    },
+    {
+      "en": "I had to check the figures before I sent the report.",
+      "pl": "Musiałem sprawdzić dane, zanim wysłałem raport.",
+      "de": "Ich musste die Zahlen prüfen, bevor ich den Bericht geschickt habe."
+    },
+    {
+      "en": "They arrived late because they had taken the wrong exit.",
+      "pl": "Przyjechali późno, ponieważ zjechali niewłaściwym zjazdem.",
+      "de": "Sie sind spät angekommen, weil sie die falsche Ausfahrt genommen hatten."
+    },
+    {
+      "en": "Although he wanted to help, he didn't have enough information.",
+      "pl": "Chociaż chciał pomóc, nie miał wystarczających informacji.",
+      "de": "Obwohl er helfen wollte, hatte er nicht genug Informationen."
+    },
+    {
+      "en": "I was relieved when I finally received the confirmation.",
+      "pl": "Odetchnąłem z ulgą, kiedy w końcu otrzymałem potwierdzenie.",
+      "de": "Ich war erleichtert, als ich endlich die Bestätigung erhalten habe."
+    },
+    {
+      "en": "She couldn't remember where she had parked the car.",
+      "pl": "Nie pamiętała, gdzie zaparkowała samochód.",
+      "de": "Sie konnte sich nicht erinnern, wo sie das Auto geparkt hatte."
+    },
+    {
+      "en": "We wanted to discuss the budget, but the director had to leave.",
+      "pl": "Chcieliśmy omówić budżet, ale dyrektor musiał wyjść.",
+      "de": "Wir wollten das Budget besprechen, aber der Direktor musste gehen."
+    },
+    {
+      "en": "He has already told us how the accident happened.",
+      "pl": "Już nam powiedział, jak doszło do wypadku.",
+      "de": "Er hat uns schon erzählt, wie der Unfall passiert ist."
+    },
+    {
+      "en": "I didn't understand the instructions because they were unclear.",
+      "pl": "Nie zrozumiałem instrukcji, ponieważ były niejasne.",
+      "de": "Ich habe die Anweisungen nicht verstanden, weil sie unklar waren."
+    },
+    {
+      "en": "After we had finished dinner, we went for a short walk.",
+      "pl": "Kiedy skończyliśmy kolację, poszliśmy na krótki spacer.",
+      "de": "Nachdem wir zu Abend gegessen hatten, sind wir kurz spazieren gegangen."
+    },
+    {
+      "en": "She was unable to join us because she had an important call.",
+      "pl": "Nie mogła do nas dołączyć, ponieważ miała ważną rozmowę telefoniczną.",
+      "de": "Sie konnte nicht zu uns kommen, weil sie ein wichtiges Telefonat hatte."
+    },
+    {
+      "en": "We had expected the process to take less time.",
+      "pl": "Spodziewaliśmy się, że proces zajmie mniej czasu.",
+      "de": "Wir hatten erwartet, dass der Prozess weniger Zeit in Anspruch nehmen würde."
+    },
+    {
+      "en": "He had to apologise because he had misunderstood the request.",
+      "pl": "Musiał przeprosić, ponieważ źle zrozumiał prośbę.",
+      "de": "Er musste sich entschuldigen, weil er die Anfrage missverstanden hatte."
+    },
+    {
+      "en": "When I checked the figures, I noticed that one entry was missing.",
+      "pl": "Kiedy sprawdziłem dane, zauważyłem, że brakowało jednego wpisu.",
+      "de": "Als ich die Zahlen überprüfte, bemerkte ich, dass ein Eintrag fehlte."
+    },
+    {
+      "en": "Although the team was tired, it completed the task on time.",
+      "pl": "Chociaż zespół był zmęczony, ukończył zadanie na czas.",
+      "de": "Obwohl das Team müde war, hat es die Aufgabe rechtzeitig erledigt."
+    },
+    {
+      "en": "I couldn't make a decision because I hadn't received all the documents.",
+      "pl": "Nie mogłem podjąć decyzji, ponieważ nie otrzymałem wszystkich dokumentów.",
+      "de": "Ich konnte keine Entscheidung treffen, weil ich noch nicht alle Unterlagen erhalten hatte."
+    },
+    {
+      "en": "She said that she was busy and couldn't attend the workshop.",
+      "pl": "Powiedziała, że jest zajęta i nie może uczestniczyć w warsztatach.",
+      "de": "Sie sagte, dass sie beschäftigt war und nicht am Workshop teilnehmen konnte."
+    },
+    {
+      "en": "We had planned to leave early, but the weather changed.",
+      "pl": "Planowaliśmy wyjechać wcześnie, ale pogoda się zmieniła.",
+      "de": "Wir hatten geplant, früh loszufahren, aber das Wetter hat sich geändert."
+    },
+    {
+      "en": "He didn't realise how serious the problem was until he read the report.",
+      "pl": "Nie zdawał sobie sprawy z powagi problemu, dopóki nie przeczytał raportu.",
+      "de": "Er erkannte erst, wie ernst das Problem war, als er den Bericht las."
+    },
+    {
+      "en": "I was disappointed because the company had promised a different result.",
+      "pl": "Byłem rozczarowany, ponieważ firma obiecała inny rezultat.",
+      "de": "Ich war enttäuscht, weil das Unternehmen ein anderes Ergebnis versprochen hatte."
+    },
+    {
+      "en": "After the client had approved the proposal, we started the next phase.",
+      "pl": "Po zatwierdzeniu propozycji przez klienta rozpoczęliśmy kolejny etap.",
+      "de": "Nachdem der Kunde den Vorschlag genehmigt hatte, haben wir die nächste Phase begonnen."
+    },
+    {
+      "en": "She had to explain why the delivery had been delayed.",
+      "pl": "Musiałа wyjaśnić, dlaczego dostawa się opóźniła.",
+      "de": "Sie musste erklären, warum sich die Lieferung verzögert hatte."
+    },
+    {
+      "en": "We were surprised that the negotiations had ended so quickly.",
+      "pl": "Byliśmy zaskoczeni, że negocjacje zakończyły się tak szybko.",
+      "de": "Wir waren überrascht, dass die Verhandlungen so schnell geendet hatten."
+    },
+    {
+      "en": "He wanted to accept the offer, but he needed more time to consider it.",
+      "pl": "Chciał przyjąć ofertę, ale potrzebował więcej czasu do namysłu.",
+      "de": "Er wollte das Angebot annehmen, aber er brauchte mehr Zeit, um darüber nachzudenken."
+    },
+    {
+      "en": "I had already left the building when I realised that I had forgotten my laptop.",
+      "pl": "Już opuściłem budynek, kiedy zdałem sobie sprawę, że zapomniałem laptopa.",
+      "de": "Ich hatte das Gebäude bereits verlassen, als ich bemerkte, dass ich meinen Laptop vergessen hatte."
+    },
+    {
+      "en": "Although the figures looked correct, we checked them again before submitting the report.",
+      "pl": "Chociaż dane wyglądały poprawnie, sprawdziliśmy je ponownie przed wysłaniem raportu.",
+      "de": "Obwohl die Zahlen richtig aussahen, haben wir sie vor der Abgabe des Berichts noch einmal geprüft."
+    },
+    {
+      "en": "She explained that she had been unable to respond because she was travelling.",
+      "pl": "Wyjaśniła, że nie mogła odpowiedzieć, ponieważ podróżowała.",
+      "de": "Sie erklärte, dass sie nicht antworten konnte, weil sie unterwegs war."
+    },
+    {
+      "en": "We had assumed that everyone knew about the change, but that was not the case.",
+      "pl": "Zakładaliśmy, że wszyscy wiedzą o zmianie, ale tak nie było.",
+      "de": "Wir hatten angenommen, dass alle von der Änderung wussten, aber das war nicht der Fall."
+    },
+    {
+      "en": "When the discussion became difficult, the chairperson suggested taking a short break.",
+      "pl": "Kiedy dyskusja stała się trudna, przewodniczący zaproponował krótką przerwę.",
+      "de": "Als die Diskussion schwierig wurde, schlug der Vorsitzende eine kurze Pause vor."
+    },
+    {
+      "en": "He had wanted to explain the decision personally, but the meeting was cancelled.",
+      "pl": "Chciał osobiście wyjaśnić decyzję, ale spotkanie zostało odwołane.",
+      "de": "Er hatte die Entscheidung persönlich erklären wollen, aber das Meeting wurde abgesagt."
+    },
+    {
+      "en": "I was relieved that we had resolved the issue before the deadline.",
+      "pl": "Odetchnąłem z ulgą, że rozwiązaliśmy problem przed terminem.",
+      "de": "Ich war erleichtert, dass wir das Problem vor Ablauf der Frist gelöst hatten."
+    },
+    {
+      "en": "Although the proposal had been rejected initially, the team eventually found a workable solution.",
+      "pl": "Chociaż początkowo odrzucono propozycję, zespół ostatecznie znalazł praktyczne rozwiązanie.",
+      "de": "Obwohl der Vorschlag zunächst abgelehnt worden war, hat das Team schließlich eine praktikable Lösung gefunden."
+    },
+    {
+      "en": "She said she had wanted to contact us earlier but had not had our updated details.",
+      "pl": "Powiedziała, że chciała skontaktować się z nami wcześniej, ale nie miała naszych aktualnych danych.",
+      "de": "Sie sagte, sie hätte uns früher kontaktieren wollen, hatte aber unsere aktualisierten Kontaktdaten nicht."
+    },
+    {
+      "en": "We could have finished earlier if the necessary information had arrived on time.",
+      "pl": "Moglibyśmy skończyć wcześniej, gdyby niezbędne informacje dotarły na czas.",
+      "de": "Wir hätten früher fertig werden können, wenn die notwendigen Informationen rechtzeitig eingetroffen wären."
+    },
+    {
+      "en": "He was concerned that the delay might affect the final result.",
+      "pl": "Obawiał się, że opóźnienie może wpłynąć na końcowy wynik.",
+      "de": "Er befürchtete, dass die Verzögerung das Endergebnis beeinflussen könnte."
+    },
+    {
+      "en": "After we had reviewed the evidence, we understood why the original estimate had been inaccurate.",
+      "pl": "Po przeanalizowaniu dowodów zrozumieliśmy, dlaczego pierwotne oszacowanie było niedokładne.",
+      "de": "Nachdem wir die Belege geprüft hatten, verstanden wir, warum die ursprüngliche Schätzung ungenau gewesen war."
+    },
+    {
+      "en": "She had no choice but to postpone the launch because several critical tests were still incomplete.",
+      "pl": "Nie miała wyboru i musiała przełożyć uruchomienie, ponieważ kilka kluczowych testów nie było jeszcze zakończonych.",
+      "de": "Sie hatte keine andere Wahl, als den Start zu verschieben, weil mehrere wichtige Tests noch nicht abgeschlossen waren."
+    },
+    {
+      "en": "I initially thought that the email had been sent, but later discovered that it was still in my drafts.",
+      "pl": "Początkowo sądziłem, że e-mail został wysłany, ale później odkryłem, że nadal znajdował się w wersjach roboczych.",
+      "de": "Zunächst dachte ich, dass die E-Mail verschickt worden war, entdeckte später aber, dass sie noch in meinen Entwürfen lag."
+    },
+    {
+      "en": "The manager explained that the team had underestimated the workload and therefore needed additional support.",
+      "pl": "Menedżer wyjaśnił, że zespół nie doszacował nakładu pracy i dlatego potrzebował dodatkowego wsparcia.",
+      "de": "Der Manager erklärte, dass das Team den Arbeitsaufwand unterschätzt hatte und deshalb zusätzliche Unterstützung brauchte."
+    },
+    {
+      "en": "Even though we had discussed the risks in advance, the unexpected change created difficulties.",
+      "pl": "Mimo że wcześniej omówiliśmy ryzyko, nieoczekiwana zmiana spowodowała trudności.",
+      "de": "Obwohl wir die Risiken im Voraus besprochen hatten, hat die unerwartete Änderung Schwierigkeiten verursacht."
+    },
+    {
+      "en": "He admitted that he had not considered how the decision would affect the other departments.",
+      "pl": "Przyznał, że nie wziął pod uwagę, jak decyzja wpłynie na pozostałe działy.",
+      "de": "Er gab zu, dass er nicht berücksichtigt hatte, wie sich die Entscheidung auf die anderen Abteilungen auswirken würde."
+    },
+    {
+      "en": "We were disappointed because the final version did not reflect the changes that had been agreed upon.",
+      "pl": "Byliśmy rozczarowani, ponieważ wersja końcowa nie uwzględniała uzgodnionych zmian.",
+      "de": "Wir waren enttäuscht, weil die endgültige Version die vereinbarten Änderungen nicht widerspiegelte."
+    },
+    {
+      "en": "Had I known that the deadline was so close, I would have prioritised the task differently.",
+      "pl": "Gdybym wiedział, że termin jest tak bliski, ustaliłbym inne priorytety.",
+      "de": "Hätte ich gewusst, dass die Frist so nahe war, hätte ich die Aufgabe anders priorisiert."
+    },
+    {
+      "en": "Although the negotiations had taken longer than expected, both parties eventually reached an agreement.",
+      "pl": "Chociaż negocjacje trwały dłużej, niż oczekiwano, obie strony ostatecznie doszły do porozumienia.",
+      "de": "Obwohl die Verhandlungen länger gedauert hatten als erwartet, haben beide Seiten schließlich eine Einigung erzielt."
+    },
+    {
+      "en": "She explained that she had wanted to raise the issue earlier but had feared that it would be misunderstood.",
+      "pl": "Wyjaśniła, że chciała wcześniej poruszyć tę kwestię, ale obawiała się, że zostanie ona źle zrozumiana.",
+      "de": "Sie erklärte, dass sie das Thema früher hatte ansprechen wollen, aber befürchtet hatte, dass es missverstanden werden würde."
+    },
+    {
+      "en": "The report revealed that the company had not met its targets, despite having invested considerable resources.",
+      "pl": "Raport wykazał, że firma nie osiągnęła celów mimo zainwestowania znacznych zasobów.",
+      "de": "Der Bericht zeigte, dass das Unternehmen seine Ziele trotz erheblicher Investitionen nicht erreicht hatte."
+    },
+    {
+      "en": "I had assumed that the issue was minor, but the subsequent review showed that it required immediate attention.",
+      "pl": "Zakładałem, że problem jest niewielki, ale późniejszy przegląd wykazał, że wymaga natychmiastowej uwagi.",
+      "de": "Ich hatte angenommen, dass das Problem geringfügig war, aber die anschließende Prüfung zeigte, dass es sofortige Aufmerksamkeit erforderte."
+    },
+    {
+      "en": "By the time we received the revised figures, the team had already completed the analysis using the previous version.",
+      "pl": "Zanim otrzymaliśmy poprawione dane, zespół zdążył już zakończyć analizę na podstawie poprzedniej wersji.",
+      "de": "Als wir die überarbeiteten Zahlen erhielten, hatte das Team die Analyse auf Grundlage der vorherigen Version bereits abgeschlossen."
+    },
+    {
+      "en": "He insisted that he had followed the agreed procedure, although the documentation suggested otherwise.",
+      "pl": "Upierał się, że postępował zgodnie z uzgodnioną procedurą, chociaż dokumentacja wskazywała na coś innego.",
+      "de": "Er bestand darauf, dass er das vereinbarte Verfahren eingehalten hatte, obwohl die Dokumentation auf etwas anderes hindeutete."
+    },
+    {
+      "en": "The director was dissatisfied because the team had failed to communicate the risks before the decision was made.",
+      "pl": "Dyrektor był niezadowolony, ponieważ zespół nie poinformował o ryzyku przed podjęciem decyzji.",
+      "de": "Der Direktor war unzufrieden, weil das Team es versäumt hatte, vor der Entscheidung über die Risiken zu informieren."
+    },
+    {
+      "en": "If we had identified the discrepancy earlier, we could have avoided the lengthy reconciliation process.",
+      "pl": "Gdybyśmy wcześniej wykryli rozbieżność, moglibyśmy uniknąć długotrwałego procesu uzgadniania.",
+      "de": "Wenn wir die Abweichung früher erkannt hätten, hätten wir den langwierigen Abstimmungsprozess vermeiden können."
+    },
+    {
+      "en": "She acknowledged that the original plan had been unrealistic, given the resources that were available at the time.",
+      "pl": "Przyznała, że pierwotny plan był nierealistyczny, biorąc pod uwagę dostępne wówczas zasoby.",
+      "de": "Sie räumte ein, dass der ursprüngliche Plan angesichts der damals verfügbaren Ressourcen unrealistisch gewesen war."
+    },
+    {
+      "en": "Although the client had initially opposed the proposal, he later accepted it after we had clarified the implications.",
+      "pl": "Chociaż klient początkowo sprzeciwiał się propozycji, później ją zaakceptował, gdy wyjaśniliśmy jej konsekwencje.",
+      "de": "Obwohl der Kunde den Vorschlag zunächst abgelehnt hatte, akzeptierte er ihn später, nachdem wir die Auswirkungen erläutert hatten."
+    },
+    {
+      "en": "We would have reached a different conclusion if the missing information had been available during the initial review.",
+      "pl": "Doszlibyśmy do innego wniosku, gdyby brakujące informacje były dostępne podczas wstępnego przeglądu.",
+      "de": "Wir wären zu einem anderen Schluss gekommen, wenn die fehlenden Informationen bei der ersten Prüfung verfügbar gewesen wären."
+    },
+    {
+      "en": "He regretted that he had allowed the discussion to become personal instead of focusing on the underlying issue.",
+      "pl": "Żałował, że pozwolił, aby dyskusja stała się osobista, zamiast skupić się na istocie problemu.",
+      "de": "Er bedauerte, dass er zugelassen hatte, dass die Diskussion persönlich wurde, anstatt sich auf das eigentliche Problem zu konzentrieren."
+    },
+    {
+      "en": "The investigation established that several warning signs had been overlooked before the incident occurred.",
+      "pl": "Dochodzenie ustaliło, że przed incydentem przeoczono kilka sygnałów ostrzegawczych.",
+      "de": "Die Untersuchung stellte fest, dass mehrere Warnsignale übersehen worden waren, bevor sich der Vorfall ereignete."
+    },
+    {
+      "en": "Had the team communicated more openly, the misunderstanding might have been resolved before it affected the project.",
+      "pl": "Gdyby zespół komunikował się bardziej otwarcie, nieporozumienie można by rozwiązać, zanim wpłynęło na projekt.",
+      "de": "Hätte das Team offener kommuniziert, hätte das Missverständnis geklärt werden können, bevor es das Projekt beeinträchtigte."
+    },
+    {
+      "en": "She explained that the decision had not been taken lightly, since the alternatives had all carried significant risks.",
+      "pl": "Wyjaśniła, że decyzja nie została podjęta pochopnie, ponieważ każda z alternatyw wiązała się ze znacznym ryzykiem.",
+      "de": "Sie erklärte, dass die Entscheidung nicht leichtfertig getroffen worden war, da alle Alternativen erhebliche Risiken mit sich gebracht hatten."
+    },
+    {
+      "en": "The team had expected the system to perform reliably, but repeated failures forced them to reconsider their assumptions.",
+      "pl": "Zespół oczekiwał niezawodnego działania systemu, ale powtarzające się awarie zmusiły go do ponownego przemyślenia założeń.",
+      "de": "Das Team hatte erwartet, dass das System zuverlässig funktionieren würde, aber wiederholte Ausfälle zwangen es, seine Annahmen zu überdenken."
+    },
+    {
+      "en": "Although the proposal had been carefully prepared, it was rejected because its financial implications had not been sufficiently explained.",
+      "pl": "Chociaż propozycja została starannie przygotowana, odrzucono ją, ponieważ nie wyjaśniono wystarczająco jej konsekwencji finansowych.",
+      "de": "Obwohl der Vorschlag sorgfältig vorbereitet worden war, wurde er abgelehnt, weil seine finanziellen Auswirkungen nicht ausreichend erklärt worden waren."
+    },
+    {
+      "en": "Looking back, I realised that I had underestimated how much time the coordination between the different teams would require.",
+      "pl": "Z perspektywy czasu zdałem sobie sprawę, że nie doceniłem czasu potrzebnego na koordynację między poszczególnymi zespołami.",
+      "de": "Rückblickend wurde mir klar, dass ich unterschätzt hatte, wie viel Zeit die Koordination zwischen den verschiedenen Teams erfordern würde."
+    },
+    {
+      "en": "The manager maintained that the delay had been unavoidable, although the review suggested that earlier intervention could have limited its impact.",
+      "pl": "Menedżer utrzymywał, że opóźnienie było nieuniknione, chociaż przegląd wskazywał, że wcześniejsza interwencja mogłaby ograniczyć jego skutki.",
+      "de": "Der Manager vertrat die Auffassung, dass die Verzögerung unvermeidbar gewesen war, obwohl die Prüfung darauf hindeutete, dass ein früheres Eingreifen ihre Auswirkungen hätte begrenzen können."
+    },
+    {
+      "en": "By the time the underlying cause had been identified, several teams had already implemented changes that were no longer necessary.",
+      "pl": "Zanim zidentyfikowano przyczynę źródłową, kilka zespołów wdrożyło już zmiany, które nie były już potrzebne.",
+      "de": "Als die eigentliche Ursache identifiziert worden war, hatten mehrere Teams bereits Änderungen umgesetzt, die nicht mehr erforderlich waren."
+    },
+    {
+      "en": "She admitted that she had been reluctant to challenge the assumption because it had previously been accepted without question.",
+      "pl": "Przyznała, że niechętnie kwestionowała to założenie, ponieważ wcześniej akceptowano je bez zastrzeżeń.",
+      "de": "Sie gab zu, dass sie gezögert hatte, die Annahme infrage zu stellen, weil sie zuvor nie hinterfragt worden war."
+    },
+    {
+      "en": "The negotiations might have progressed more quickly if both sides had clarified their priorities before the first meeting.",
+      "pl": "Negocjacje mogłyby przebiegać szybciej, gdyby obie strony wyjaśniły swoje priorytety przed pierwszym spotkaniem.",
+      "de": "Die Verhandlungen hätten schneller vorankommen können, wenn beide Seiten ihre Prioritäten vor dem ersten Treffen geklärt hätten."
+    },
+    {
+      "en": "He later acknowledged that the measures he had considered sufficient were inadequate to address the scale of the problem.",
+      "pl": "Później przyznał, że środki, które uważał za wystarczające, nie odpowiadały skali problemu.",
+      "de": "Später räumte er ein, dass die Maßnahmen, die er für ausreichend gehalten hatte, dem Ausmaß des Problems nicht gerecht wurden."
+    },
+    {
+      "en": "Had we relied solely on the initial figures, we would have overlooked the discrepancy that ultimately changed our assessment.",
+      "pl": "Gdybyśmy oparli się wyłącznie na początkowych danych, przeoczylibyśmy rozbieżność, która ostatecznie zmieniła naszą ocenę.",
+      "de": "Hätten wir uns ausschließlich auf die ursprünglichen Zahlen verlassen, hätten wir die Abweichung übersehen, die letztlich unsere Einschätzung veränderte."
+    },
+    {
+      "en": "Although the evidence had initially appeared inconclusive, a subsequent review revealed that the assumption was fundamentally flawed.",
+      "pl": "Chociaż początkowo dowody wydawały się niejednoznaczne, późniejsza analiza wykazała, że założenie było zasadniczo błędne.",
+      "de": "Obwohl die Beweise zunächst nicht eindeutig erschienen waren, zeigte eine spätere Prüfung, dass die Annahme grundlegend fehlerhaft war."
+    },
+    {
+      "en": "She explained that the team had proceeded cautiously because previous attempts to resolve similar issues had produced unexpected consequences.",
+      "pl": "Wyjaśniła, że zespół działał ostrożnie, ponieważ wcześniejsze próby rozwiązania podobnych problemów przyniosły nieoczekiwane konsekwencje.",
+      "de": "Sie erklärte, dass das Team vorsichtig vorgegangen war, weil frühere Versuche, ähnliche Probleme zu lösen, unerwartete Folgen gehabt hatten."
+    },
+    {
+      "en": "The director conceded that the organisation had reacted too slowly, despite having received several warnings about the emerging risks.",
+      "pl": "Dyrektor przyznał, że organizacja zareagowała zbyt późno, mimo że otrzymała kilka ostrzeżeń o pojawiających się zagrożeniach.",
+      "de": "Der Direktor räumte ein, dass die Organisation zu langsam reagiert hatte, obwohl sie mehrere Warnungen vor den aufkommenden Risiken erhalten hatte."
+    },
+    {
+      "en": "We had assumed that the revised approach would reduce complexity, only to discover that it had introduced additional dependencies.",
+      "pl": "Zakładaliśmy, że zmienione podejście ograniczy złożoność, lecz odkryliśmy, że wprowadziło dodatkowe zależności.",
+      "de": "Wir hatten angenommen, dass der überarbeitete Ansatz die Komplexität verringern würde, mussten jedoch feststellen, dass er zusätzliche Abhängigkeiten geschaffen hatte."
+    },
+    {
+      "en": "The review would have been more effective if the relevant stakeholders had been consulted before the final decision was made.",
+      "pl": "Przegląd byłby skuteczniejszy, gdyby skonsultowano się z odpowiednimi interesariuszami przed podjęciem ostatecznej decyzji.",
+      "de": "Die Prüfung wäre effektiver gewesen, wenn die relevanten Interessengruppen vor der endgültigen Entscheidung konsultiert worden wären."
+    },
+    {
+      "en": "He insisted that he had acted in good faith, while acknowledging that the information available to him had been incomplete.",
+      "pl": "Upierał się, że działał w dobrej wierze, przyznając jednocześnie, że dostępne mu informacje były niepełne.",
+      "de": "Er bestand darauf, in gutem Glauben gehandelt zu haben, räumte jedoch ein, dass die ihm verfügbaren Informationen unvollständig gewesen waren."
+    }
+  ],
+  "listening": {
+    "audioUrl": "https://radiodownloaddw-a.akamaihd.net/downloads/Events/dwelle/dira/mp3/deutschkurse/nachrichten_live/C9F20A8C_2.mp3",
+    "articles": [
+      {
+        "heading": "[[Tote|1]] bei starkem [[Beben|2]] in Tibet",
+        "text": "Mindestens 16 [[Tote|1]] bei starkem [[Beben|2]] in Tibet\nIn der autonomen Region Tibet im Westen Chinas laufen nach einem schweren Erdbeben Such- und [[Rettungseinsätze|3]]. Bislang wurden nach Angaben chinesischer Staatsmedien 16 Tote [[geborgen|4]]. Die Zahl der Verletzten [[stieg|5]] demzufolge auf 54. Im Kreis Baqing hatte in der Nacht zum Freitag (Ortszeit) die Erde mit einer Stärke von 7,0 [[gebebt|2]]. Das teilte die chinesische Erdbebenwarte mit. Es sind die bisher stärksten [[Erdstöße|6]] in diesem Jahr in China. In der Region Tibet kommt es häufig zu Erdbeben. Sie werden durch die [[Kollision|7]] der indischen und der eurasischen [[Kontinentalplatte|8]] verursacht."
+      },
+      {
+        "heading": "[[Venezolaner|9]] fordern Rückkehr von Oppositionspolitikerin Machado",
+        "text": "Tausende [[Venezolaner|9]] fordern Rückkehr von Oppositionspolitikerin Machado\nErstmals seit fast zwei Jahren sind in Venezuela [[Anhänger|10]] der Opposition landesweit auf die Straße gegangen. Tausende forderten freie Wahlen und politische [[Veränderungen|11]]. Zu den [[Kundgebungen|12]] in der Hauptstadt Caracas und mehreren anderen Städten hatte die Bewegung Vente Venezuela der im Exil lebenden Oppositionsführerin und Friedensnobelpreisträgerin María Corina Machado aufgerufen. Die Demonstranten forderten unter anderem deren Rückkehr in das südamerikanische Land. Ohne Machados Beteiligung waren vor gut einer Woche [[Verhandlungen|13]] zwischen Vertretern der Regierung von Übergangspräsidentin Delcy Rodríguez und der Opposition gestartet. Dabei [[bekräftigten|14]] beide Seiten ihren [[Willen|15]], Präsidentschaftswahlen in Venezuela abzuhalten."
+      },
+      {
+        "heading": "In Ostdeutschland festgenommener mutmaßlicher [[Spion|17]] kommt vor den [[Ermittlungsrichter|18]]",
+        "text": "In Ostdeutschland festgenommener mutmaßlicher [[Spion|17]] kommt vor den [[Ermittlungsrichter|18]]\nEin am Donnerstag im Bundesland Brandenburg unter [[Spionageverdacht|19]] gefasster Ukrainer wird an diesem Freitag einem Ermittlungsrichter am Bundesgerichtshof in Karlsruhe [[vorgeführt|20]]. Der Richter entscheidet, ob der Verdächtige in [[Untersuchungshaft|21]] kommt. Die Bundesanwaltschaft wirft dem Mann vor, für einen russischen Nachrichtendienst militärisch relevante Informationen [[gesammelt|22]] zu haben. Dazu habe er unter anderem Kontakte in die europäische [[Rüstungsindustrie|23]] genutzt, so der Verdacht. Laut deutschem Strafgesetzbuch [[drohen|24]] dem Ukrainer bis zu zehn Jahre Freiheitsstrafe."
+      },
+      {
+        "heading": "IStGH sieht [[Auszeichnung|25]] mit Sacharow-Preis als wichtiges [[Signal|26]]",
+        "text": "IStGH sieht [[Auszeichnung|25]] mit Sacharow-Preis als wichtiges [[Signal|26]]\nDer Internationale Strafgerichtshof (IStGH) in Den Haag hat dem Europa-Parlament für den Sacharow-Preis [[gedankt|27]]. Die Auszeichnung habe gerade in dieser Zeit eine besondere Bedeutung. Das Gericht und seine Mitarbeiter seien derzeit mit [[beispiellosen|28]] Herausforderungen konfrontiert wie etwa [[Sanktionen|29]]. Der IStGH steht vor allem vonseiten der USA unter [[Druck|30]]. Die Entscheidung für den diesjährigen Preisträger war am Donnerstag von EU-Parlamentspräsidentin Roberta Metsola verkündet worden. Mit dem Sacharow-Preis soll der [[Einsatz|31]] für Demokratie und Menschenrechte [[gewürdigt|32]] werden."
+      },
+      {
+        "heading": "Finnische Regierung erteilt [[Betriebsgenehmigung|33]] für [[Atommülldeponie|34]]",
+        "text": "Finnische Regierung erteilt [[Betriebsgenehmigung|33]] für [[Atommülldeponie|34]]\nIn Finnland kann das weltweit erste [[Endlager|35]] für hochradioaktive nukleare Abfälle in Betrieb gehen. Die finnische Regierung erteilte die entsprechende Genehmigung. Wann in der unterirdischen Anlage der erste Atommüll [[eingelagert|36]] wird, steht noch nicht fest. Nach Angaben des [[Entsorgungsunternehmens|37]] Posiva sind zunächst weitere Tests und [[Inspektionen|38]] nötig. Der Betrieb solle aber bald aufgenommen werden. Die Bauarbeiten für das Endlager in Eurajoki im Südwesten des nordeuropäischen Landes hatten vor 22 Jahren begonnen. Es bietet [[Kapazität|39]] für 6500 Tonnen strahlenden Abfall. In der Anlage sollen abgebrannte Brennelemente gelagert werden, die noch Jahrtausende lang hochradioaktiv sind."
+      },
+      {
+        "heading": "Klimawandel [[gefährdet|41]] Großteil der [[Korallenriffe|42]]",
+        "text": "Klimawandel [[gefährdet|41]] Großteil der [[Korallenriffe|42]]\nWeltweit sind laut einer [[Prognose|43]] der Weltnaturschutzunion (IUCN) fast alle Korallenriffe vom [[Aussterben|44]] bedroht. Grund ist der fortschreitende Klimawandel. In den kommenden 50 Jahren bestehe für 96 Prozent der Korallenriffe in flachem Wasser ein extrem erhöhtes [[Risiko|45]], heißt es in der Analyse. Es war die erste weltweite [[Untersuchung|46]] dieser Art. Die IUCN schätzte für ihre Prognose den Zustand und die Entwicklung von Korallenriffen vor den Küsten von mehr als 80 Ländern und Gebieten ein. Korallen sind besonders [[anfällig|47]] für die Auswirkungen der globalen Erwärmung. In wärmeren Ozeanen sterben die [[Mikroorganismen|48]], die ihnen ihre leuchtenden Farben verleihen und sie mit Nahrung versorgen."
+      }
+    ],
+    "vocab": [
+      {
+        "id": 1,
+        "word": "der Tote",
+        "translation": {
+          "en": "dead person, fatality",
+          "pl": "osoba zmarła, ofiara śmiertelna"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "die Toten",
+        "notes": {
+          "en": "The adjective is nominalised and capitalised: ein Toter, eine Tote.",
+          "pl": "Przymiotnik użyty jako rzeczownik zapisuje się wielką literą: ein Toter, eine Tote."
+        },
+        "examples": [
+          "Bei dem Unfall gab es zwei Tote.",
+          "Die Zahl der Toten wurde später korrigiert."
+        ]
+      },
+      {
+        "id": 2,
+        "word": "das Beben",
+        "translation": {
+          "en": "quake, tremor",
+          "pl": "wstrząs, trzęsienie ziemi"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "die Beben",
+        "notes": {
+          "en": "Often appears in news compounds such as Erdbeben.",
+          "pl": "Często występuje w złożeniach, np. Erdbeben."
+        },
+        "examples": [
+          "Das Beben war noch in der Nachbarstadt zu spüren.",
+          "Nach dem Beben wurden mehrere Straßen gesperrt."
+        ]
+      },
+      {
+        "id": 3,
+        "word": "der Rettungseinsatz",
+        "translation": {
+          "en": "rescue operation",
+          "pl": "akcja ratunkowa"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Rettungseinsätze",
+        "notes": {
+          "en": "Common compound in emergency and disaster reporting.",
+          "pl": "Typowe złożenie używane w relacjach o wypadkach i katastrofach."
+        },
+        "examples": [
+          "Der Rettungseinsatz dauerte mehrere Stunden.",
+          "Wegen des Unwetters waren zahlreiche Rettungseinsätze nötig."
+        ]
+      },
+      {
+        "id": 4,
+        "word": "bergen",
+        "translation": {
+          "en": "to recover, retrieve, rescue",
+          "pl": "wydobywać, odnajdywać, ratować"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Strong verb: barg, hat geborgen; often used for recovering bodies or objects.",
+          "pl": "Czasownik nieregularny: barg, hat geborgen; często używany przy wydobywaniu ciał lub przedmiotów."
+        },
+        "examples": [
+          "Die Feuerwehr konnte die eingeschlossene Person bergen.",
+          "Die Helfer haben wichtige Dokumente aus den Trümmern geborgen."
+        ]
+      },
+      {
+        "id": 5,
+        "word": "steigen",
+        "translation": {
+          "en": "to rise, increase",
+          "pl": "wzrastać, rosnąć"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B1",
+        "plural": "",
+        "notes": {
+          "en": "Strong verb: stieg, ist gestiegen; the auxiliary is sein.",
+          "pl": "Czasownik nieregularny: stieg, ist gestiegen; łączy się z sein."
+        },
+        "examples": [
+          "Die Kosten sind in diesem Jahr deutlich gestiegen.",
+          "Nach der Meldung stieg die Nachfrage plötzlich."
+        ]
+      },
+      {
+        "id": 6,
+        "word": "der Erdstoß",
+        "translation": {
+          "en": "earth tremor",
+          "pl": "wstrząs sejsmiczny"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Erdstöße",
+        "notes": {
+          "en": "A news-style word for a seismic tremor.",
+          "pl": "Słowo typowe dla wiadomości o wstrząsach sejsmicznych."
+        },
+        "examples": [
+          "Mehrere Erdstöße waren in der Nacht zu spüren.",
+          "Der stärkste Erdstoß beschädigte alte Gebäude."
+        ]
+      },
+      {
+        "id": 7,
+        "word": "die Kollision",
+        "translation": {
+          "en": "collision",
+          "pl": "zderzenie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Kollisionen",
+        "notes": {
+          "en": "Used literally and figuratively; often with mit + dative.",
+          "pl": "Używane dosłownie i przenośnie; często z przyimkiem mit i celownikiem."
+        },
+        "examples": [
+          "Die Kollision zweier Platten verändert die Erdoberfläche.",
+          "Nach der Kollision musste die Straße gesperrt werden."
+        ]
+      },
+      {
+        "id": 8,
+        "word": "die Kontinentalplatte",
+        "translation": {
+          "en": "continental plate",
+          "pl": "płyta kontynentalna"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Kontinentalplatten",
+        "notes": {
+          "en": "A technical term in geology and tectonics.",
+          "pl": "Termin specjalistyczny z geologii i tektoniki."
+        },
+        "examples": [
+          "Die Kontinentalplatten bewegen sich nur langsam.",
+          "Die Grenze zwischen zwei Kontinentalplatten ist geologisch aktiv."
+        ]
+      },
+      {
+        "id": 9,
+        "word": "der Venezolaner",
+        "translation": {
+          "en": "Venezuelan man",
+          "pl": "Wenezuelczyk"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "die Venezolaner",
+        "notes": {
+          "en": "The feminine form is die Venezolanerin.",
+          "pl": "Forma żeńska to die Venezolanerin."
+        },
+        "examples": [
+          "Ein Venezolaner erzählte von seinem Leben im Ausland.",
+          "Viele Venezolaner hoffen auf politische Veränderungen."
+        ]
+      },
+      {
+        "id": 10,
+        "word": "der Anhänger",
+        "translation": {
+          "en": "supporter, follower",
+          "pl": "zwolennik, sympatyk"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "die Anhänger",
+        "notes": {
+          "en": "Can refer to political supporters or followers of a movement.",
+          "pl": "Może oznaczać zwolenników politycznych lub sympatyków ruchu."
+        },
+        "examples": [
+          "Die Anhänger der Partei versammelten sich vor dem Gebäude.",
+          "Er ist seit Jahren ein Anhänger dieser Bewegung."
+        ]
+      },
+      {
+        "id": 11,
+        "word": "die Veränderung",
+        "translation": {
+          "en": "change",
+          "pl": "zmiana"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "die Veränderungen",
+        "notes": {
+          "en": "Often used with politische, gesellschaftliche, or wirtschaftliche.",
+          "pl": "Często łączy się z określeniami politische, gesellschaftliche lub wirtschaftliche."
+        },
+        "examples": [
+          "Die Veränderung trat schneller ein als erwartet.",
+          "Viele Menschen wünschen sich eine Veränderung der Politik."
+        ]
+      },
+      {
+        "id": 12,
+        "word": "die Kundgebung",
+        "translation": {
+          "en": "rally, public demonstration",
+          "pl": "wiec, demonstracja"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Kundgebungen",
+        "notes": {
+          "en": "A public gathering to express political or social views.",
+          "pl": "Publiczne zgromadzenie służące wyrażaniu poglądów politycznych lub społecznych."
+        },
+        "examples": [
+          "Die Kundgebung verlief friedlich.",
+          "Am Wochenende ist eine weitere Kundgebung geplant."
+        ]
+      },
+      {
+        "id": 13,
+        "word": "die Verhandlung",
+        "translation": {
+          "en": "negotiation, hearing, proceedings",
+          "pl": "negocjacje, rozprawa"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Verhandlungen",
+        "notes": {
+          "en": "Meaning depends on context: negotiations or legal proceedings.",
+          "pl": "Znaczenie zależy od kontekstu: negocjacje albo postępowanie sądowe."
+        },
+        "examples": [
+          "Die Verhandlungen wurden am Montag fortgesetzt.",
+          "Nach langen Verhandlungen fanden beide Seiten einen Kompromiss."
+        ]
+      },
+      {
+        "id": 14,
+        "word": "bekräftigen",
+        "translation": {
+          "en": "to reaffirm, emphasise",
+          "pl": "potwierdzać, podkreślać"
+        },
+        "partOfSpeech": "Verb",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Often takes a noun such as Wille, Absicht, or Unterstützung as its object.",
+          "pl": "Często łączy się z rzeczownikami Wille, Absicht lub Unterstützung."
+        },
+        "examples": [
+          "Die Ministerin bekräftigte ihre Unterstützung für den Plan.",
+          "Beide Seiten haben ihren Willen zur Zusammenarbeit bekräftigt."
+        ]
+      },
+      {
+        "id": 15,
+        "word": "der Wille",
+        "translation": {
+          "en": "will, intention, determination",
+          "pl": "wola, zamiar, determinacja"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Willen",
+        "notes": {
+          "en": "Common phrase: der Wille, etwas zu tun.",
+          "pl": "Częsta konstrukcja: der Wille, etwas zu tun."
+        },
+        "examples": [
+          "Der politische Wille zur Reform ist vorhanden.",
+          "Sie zeigte den Willen, die schwierige Aufgabe zu bewältigen."
+        ]
+      },
+      {
+        "id": 16,
+        "word": "im Exil",
+        "translation": {
+          "en": "in exile",
+          "pl": "na wygnaniu"
+        },
+        "partOfSpeech": "Expression",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "A fixed expression used for people living outside their homeland.",
+          "pl": "Stałe wyrażenie opisujące życie poza ojczyzną."
+        },
+        "examples": [
+          "Der Schriftsteller lebte viele Jahre im Exil.",
+          "Die Politikerin setzte ihre Arbeit im Exil fort."
+        ]
+      },
+      {
+        "id": 17,
+        "word": "der Spion",
+        "translation": {
+          "en": "spy",
+          "pl": "szpieg"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Spione",
+        "notes": {
+          "en": "The feminine form is die Spionin.",
+          "pl": "Forma żeńska to die Spionin."
+        },
+        "examples": [
+          "Der Spion wurde nach einer langen Untersuchung festgenommen.",
+          "Der Film erzählt die Geschichte eines Spions."
+        ]
+      },
+      {
+        "id": 18,
+        "word": "der Ermittlungsrichter",
+        "translation": {
+          "en": "investigating judge",
+          "pl": "sędzia śledczy"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Ermittlungsrichter",
+        "notes": {
+          "en": "A legal term for a judge involved in the investigative stage.",
+          "pl": "Termin prawny oznaczający sędziego uczestniczącego w etapie śledztwa."
+        },
+        "examples": [
+          "Der Ermittlungsrichter prüfte den Antrag der Staatsanwaltschaft.",
+          "Der Verdächtige wurde dem Ermittlungsrichter vorgeführt."
+        ]
+      },
+      {
+        "id": 19,
+        "word": "der Spionageverdacht",
+        "translation": {
+          "en": "suspicion of espionage",
+          "pl": "podejrzenie szpiegostwa"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Spionageverdachte",
+        "notes": {
+          "en": "A formal compound common in legal and security reporting.",
+          "pl": "Formalne złożenie często spotykane w wiadomościach prawnych i dotyczących bezpieczeństwa."
+        },
+        "examples": [
+          "Der Spionageverdacht führte zu einer umfassenden Untersuchung.",
+          "Wegen des Spionageverdachts wurden mehrere Wohnungen durchsucht."
+        ]
+      },
+      {
+        "id": 20,
+        "word": "vorführen",
+        "translation": {
+          "en": "to bring before, present",
+          "pl": "doprowadzać, stawiać przed"
+        },
+        "partOfSpeech": "Verb",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Separable verb: führte vor, hat vorgeführt; legal use means bringing someone before a judge.",
+          "pl": "Czasownik rozdzielnie złożony: führte vor, hat vorgeführt; w języku prawnym oznacza doprowadzenie przed sędziego."
+        },
+        "examples": [
+          "Die Polizei führte den Beschuldigten dem Richter vor.",
+          "Der Zeuge wurde am Morgen vorgeführt."
+        ]
+      },
+      {
+        "id": 21,
+        "word": "die Untersuchungshaft",
+        "translation": {
+          "en": "pre-trial detention",
+          "pl": "tymczasowe aresztowanie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "A legal term for detention before a final judgment.",
+          "pl": "Termin prawny oznaczający pozbawienie wolności przed prawomocnym wyrokiem."
+        },
+        "examples": [
+          "Das Gericht ordnete Untersuchungshaft an.",
+          "Der Beschuldigte blieb zunächst in Untersuchungshaft."
+        ]
+      },
+      {
+        "id": 22,
+        "word": "sammeln",
+        "translation": {
+          "en": "to collect, gather",
+          "pl": "zbierać, gromadzić"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B1",
+        "plural": "",
+        "notes": {
+          "en": "In news contexts, Informationen sammeln means to gather information.",
+          "pl": "W wiadomościach wyrażenie Informationen sammeln oznacza gromadzenie informacji."
+        },
+        "examples": [
+          "Die Journalistin sammelte Informationen aus mehreren Quellen.",
+          "Das Team hat alle notwendigen Daten gesammelt."
+        ]
+      },
+      {
+        "id": 23,
+        "word": "die Rüstungsindustrie",
+        "translation": {
+          "en": "arms industry, defence industry",
+          "pl": "przemysł zbrojeniowy"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Rüstungsindustrien",
+        "notes": {
+          "en": "Refers to companies producing military equipment and systems.",
+          "pl": "Odnosi się do firm produkujących sprzęt i systemy wojskowe."
+        },
+        "examples": [
+          "Die Rüstungsindustrie investiert in neue Technologien.",
+          "Die Rüstungsindustrie spielt in der Debatte eine wichtige Rolle."
+        ]
+      },
+      {
+        "id": 24,
+        "word": "drohen",
+        "translation": {
+          "en": "to threaten, face the prospect of",
+          "pl": "grozić, być zagrożonym"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Often used with a dative person: jemandem drohen; a penalty can also be the subject.",
+          "pl": "Często łączy się z celownikiem: jemandem drohen; podmiotem może być też kara."
+        },
+        "examples": [
+          "Dem Unternehmen drohen hohe Kosten.",
+          "Bei einem schweren Verstoß kann eine Geldstrafe drohen."
+        ]
+      },
+      {
+        "id": 25,
+        "word": "die Auszeichnung",
+        "translation": {
+          "en": "award, distinction",
+          "pl": "nagroda, wyróżnienie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "die Auszeichnungen",
+        "notes": {
+          "en": "Common collocations include eine Auszeichnung erhalten and verleihen.",
+          "pl": "Typowe połączenia to eine Auszeichnung erhalten i verleihen."
+        },
+        "examples": [
+          "Sie erhielt eine Auszeichnung für ihre Forschung.",
+          "Die Auszeichnung wurde bei einer feierlichen Veranstaltung verliehen."
+        ]
+      },
+      {
+        "id": 26,
+        "word": "das Signal",
+        "translation": {
+          "en": "signal, sign",
+          "pl": "sygnał, znak"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "die Signale",
+        "notes": {
+          "en": "Often used figuratively: ein wichtiges Signal senden.",
+          "pl": "Często używane przenośnie: ein wichtiges Signal senden."
+        },
+        "examples": [
+          "Die Entscheidung sendet ein wichtiges Signal.",
+          "Die Rede war ein klares Signal für weitere Gespräche."
+        ]
+      },
+      {
+        "id": 27,
+        "word": "danken",
+        "translation": {
+          "en": "to thank",
+          "pl": "dziękować"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B1",
+        "plural": "",
+        "notes": {
+          "en": "Takes the dative: jemandem für etwas danken.",
+          "pl": "Łączy się z celownikiem: jemandem für etwas danken."
+        },
+        "examples": [
+          "Die Vorsitzende dankte allen Beteiligten für ihre Unterstützung.",
+          "Wir haben dem Team für seine Hilfe gedankt."
+        ]
+      },
+      {
+        "id": 28,
+        "word": "beispiellos",
+        "translation": {
+          "en": "unprecedented",
+          "pl": "bezprecedensowy"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Describes something without a comparable precedent.",
+          "pl": "Określa coś, co nie ma porównywalnego precedensu."
+        },
+        "examples": [
+          "Die Krise stellte das Land vor beispiellose Herausforderungen.",
+          "Die Entscheidung löste eine beispiellose Reaktion aus."
+        ]
+      },
+      {
+        "id": 29,
+        "word": "die Sanktion",
+        "translation": {
+          "en": "sanction",
+          "pl": "sankcja"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Sanktionen",
+        "notes": {
+          "en": "Often used in the plural in international politics.",
+          "pl": "W polityce międzynarodowej często używane w liczbie mnogiej."
+        },
+        "examples": [
+          "Die Regierung verhängte neue Sanktionen.",
+          "Die Sanktionen hatten erhebliche wirtschaftliche Folgen."
+        ]
+      },
+      {
+        "id": 30,
+        "word": "unter Druck stehen",
+        "translation": {
+          "en": "to be under pressure",
+          "pl": "być pod presją"
+        },
+        "partOfSpeech": "Expression",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Fixed expression: unter Druck stehen; the opposite is unter Druck setzen, to put under pressure.",
+          "pl": "Stałe wyrażenie: unter Druck stehen; unter Druck setzen oznacza wywierać presję."
+        },
+        "examples": [
+          "Die Regierung steht wegen der Entscheidung unter Druck.",
+          "Das Unternehmen stand nach dem Vorfall stark unter Druck."
+        ]
+      },
+      {
+        "id": 31,
+        "word": "der Einsatz",
+        "translation": {
+          "en": "commitment, effort, deployment",
+          "pl": "zaangażowanie, wysiłek, użycie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Einsätze",
+        "notes": {
+          "en": "Meaning depends on context; Einsatz für etwas means commitment to something.",
+          "pl": "Znaczenie zależy od kontekstu; Einsatz für etwas oznacza zaangażowanie na rzecz czegoś."
+        },
+        "examples": [
+          "Ihr Einsatz für die Menschenrechte wurde ausgezeichnet.",
+          "Der Einsatz der freiwilligen Helfer war beeindruckend."
+        ]
+      },
+      {
+        "id": 32,
+        "word": "würdigen",
+        "translation": {
+          "en": "to recognise, honour, acknowledge",
+          "pl": "doceniać, uhonorować"
+        },
+        "partOfSpeech": "Verb",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Formal verb often used in award announcements.",
+          "pl": "Formalny czasownik często używany w komunikatach o nagrodach."
+        },
+        "examples": [
+          "Der Preis würdigt ihren langjährigen Einsatz.",
+          "Die Jury würdigte die Arbeit des gesamten Teams."
+        ]
+      },
+      {
+        "id": 33,
+        "word": "die Betriebsgenehmigung",
+        "translation": {
+          "en": "operating licence, operating permit",
+          "pl": "zezwolenie na eksploatację"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Betriebsgenehmigungen",
+        "notes": {
+          "en": "A formal approval allowing a facility or system to operate.",
+          "pl": "Formalna zgoda na rozpoczęcie działania obiektu lub systemu."
+        },
+        "examples": [
+          "Die Behörde erteilte die Betriebsgenehmigung nach einer Prüfung.",
+          "Ohne Betriebsgenehmigung darf die Anlage nicht genutzt werden."
+        ]
+      },
+      {
+        "id": 34,
+        "word": "die Atommülldeponie",
+        "translation": {
+          "en": "nuclear waste repository",
+          "pl": "składowisko odpadów radioaktywnych"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Atommülldeponien",
+        "notes": {
+          "en": "News term for a site used to store nuclear waste.",
+          "pl": "Określenie stosowane w wiadomościach na miejsce składowania odpadów jądrowych."
+        },
+        "examples": [
+          "Die Atommülldeponie muss langfristig überwacht werden.",
+          "Die Diskussion über die Atommülldeponie dauerte mehrere Jahre."
+        ]
+      },
+      {
+        "id": 35,
+        "word": "das Endlager",
+        "translation": {
+          "en": "permanent repository",
+          "pl": "składowisko docelowe"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Endlager",
+        "notes": {
+          "en": "Often refers to a facility for the long-term storage of radioactive waste.",
+          "pl": "Często oznacza obiekt przeznaczony do długoterminowego składowania odpadów radioaktywnych."
+        },
+        "examples": [
+          "Das Endlager soll über lange Zeiträume sicher bleiben.",
+          "Die Suche nach einem geeigneten Endlager ist kompliziert."
+        ]
+      },
+      {
+        "id": 36,
+        "word": "einlagern",
+        "translation": {
+          "en": "to store, place in storage",
+          "pl": "składować, umieszczać w magazynie"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Separable verb: lagerte ein, hat eingelagert.",
+          "pl": "Czasownik rozdzielnie złożony: lagerte ein, hat eingelagert."
+        },
+        "examples": [
+          "Die Firma lagert empfindliche Materialien sicher ein.",
+          "Die Dokumente wurden in einem gesicherten Raum eingelagert."
+        ]
+      },
+      {
+        "id": 37,
+        "word": "das Entsorgungsunternehmen",
+        "translation": {
+          "en": "waste management company",
+          "pl": "przedsiębiorstwo zajmujące się utylizacją odpadów"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Entsorgungsunternehmen",
+        "notes": {
+          "en": "Compound referring to a company responsible for disposal or waste management.",
+          "pl": "Złożenie oznaczające firmę odpowiedzialną za usuwanie lub gospodarowanie odpadami."
+        },
+        "examples": [
+          "Das Entsorgungsunternehmen prüft die Sicherheit der Anlage.",
+          "Ein Entsorgungsunternehmen übernahm die Behandlung der Abfälle."
+        ]
+      },
+      {
+        "id": 38,
+        "word": "die Inspektion",
+        "translation": {
+          "en": "inspection",
+          "pl": "inspekcja, kontrola"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Inspektionen",
+        "notes": {
+          "en": "Often used with durchführen or bestehen.",
+          "pl": "Często łączy się z czasownikami durchführen lub bestehen."
+        },
+        "examples": [
+          "Vor der Eröffnung ist eine weitere Inspektion nötig.",
+          "Die Anlage wurde bei der letzten Inspektion überprüft."
+        ]
+      },
+      {
+        "id": 39,
+        "word": "die Kapazität",
+        "translation": {
+          "en": "capacity",
+          "pl": "pojemność, zdolność"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Kapazitäten",
+        "notes": {
+          "en": "Can refer to physical capacity or available resources.",
+          "pl": "Może oznaczać pojemność fizyczną albo dostępne zasoby."
+        },
+        "examples": [
+          "Das Lager hat eine begrenzte Kapazität.",
+          "Das Unternehmen muss seine Kapazitäten erweitern."
+        ]
+      },
+      {
+        "id": 40,
+        "word": "hochradioaktiv",
+        "translation": {
+          "en": "highly radioactive",
+          "pl": "wysoce radioaktywny"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Technical adjective commonly used for nuclear materials.",
+          "pl": "Termin techniczny często używany w odniesieniu do materiałów jądrowych."
+        },
+        "examples": [
+          "Hochradioaktive Stoffe müssen besonders sicher gelagert werden.",
+          "Die Anlage ist für hochradioaktive Abfälle vorgesehen."
+        ]
+      },
+      {
+        "id": 41,
+        "word": "gefährden",
+        "translation": {
+          "en": "to endanger, threaten",
+          "pl": "zagrażać"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Takes a direct object: etwas gefährdet jemanden or etwas.",
+          "pl": "Łączy się z biernikiem: coś zagraża komuś lub czemuś."
+        },
+        "examples": [
+          "Die Verschmutzung gefährdet zahlreiche Tierarten.",
+          "Unzureichende Maßnahmen haben die Sicherheit gefährdet."
+        ]
+      },
+      {
+        "id": 42,
+        "word": "das Korallenriff",
+        "translation": {
+          "en": "coral reef",
+          "pl": "rafa koralowa"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Korallenriffe",
+        "notes": {
+          "en": "A marine ecosystem formed largely by coral colonies.",
+          "pl": "Ekosystem morski tworzony w dużej mierze przez kolonie koralowców."
+        },
+        "examples": [
+          "Das Korallenriff bietet vielen Arten Lebensraum.",
+          "Die Forscher untersuchten mehrere Korallenriffe im Pazifik."
+        ]
+      },
+      {
+        "id": 43,
+        "word": "die Prognose",
+        "translation": {
+          "en": "forecast, projection",
+          "pl": "prognoza"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Prognosen",
+        "notes": {
+          "en": "Common collocations include eine Prognose erstellen and laut einer Prognose.",
+          "pl": "Typowe połączenia to eine Prognose erstellen oraz laut einer Prognose."
+        },
+        "examples": [
+          "Die Prognose deutet auf steigende Temperaturen hin.",
+          "Laut der neuen Prognose wird sich die Lage verschärfen."
+        ]
+      },
+      {
+        "id": 44,
+        "word": "das Aussterben",
+        "translation": {
+          "en": "extinction",
+          "pl": "wymieranie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Usually appears in the phrase vom Aussterben bedroht sein.",
+          "pl": "Zwykle występuje w wyrażeniu vom Aussterben bedroht sein."
+        },
+        "examples": [
+          "Viele Tierarten sind vom Aussterben bedroht.",
+          "Der Schutz ihres Lebensraums kann das Aussterben verhindern."
+        ]
+      },
+      {
+        "id": 45,
+        "word": "das Risiko",
+        "translation": {
+          "en": "risk",
+          "pl": "ryzyko"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "die Risiken",
+        "notes": {
+          "en": "Common collocations include ein Risiko eingehen and ein Risiko darstellen.",
+          "pl": "Typowe połączenia to ein Risiko eingehen i ein Risiko darstellen."
+        },
+        "examples": [
+          "Das Risiko eines weiteren Rückgangs ist hoch.",
+          "Wir müssen die Risiken sorgfältig bewerten."
+        ]
+      },
+      {
+        "id": 46,
+        "word": "die Untersuchung",
+        "translation": {
+          "en": "investigation, study, examination",
+          "pl": "badanie, analiza, dochodzenie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Untersuchungen",
+        "notes": {
+          "en": "Meaning depends on context: scientific study, medical examination, or formal investigation.",
+          "pl": "Znaczenie zależy od kontekstu: badanie naukowe, lekarskie lub formalne dochodzenie."
+        },
+        "examples": [
+          "Die Untersuchung liefert neue Erkenntnisse über das Klima.",
+          "Eine weitere Untersuchung soll die Ergebnisse bestätigen."
+        ]
+      },
+      {
+        "id": 47,
+        "word": "anfällig",
+        "translation": {
+          "en": "susceptible, vulnerable",
+          "pl": "podatny, wrażliwy"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Often used with für + accusative: anfällig für Krankheiten or Schäden.",
+          "pl": "Często łączy się z für i biernikiem: anfällig für Krankheiten lub Schäden."
+        },
+        "examples": [
+          "Junge Pflanzen sind besonders anfällig für Trockenheit.",
+          "Das System ist anfällig für technische Störungen."
+        ]
+      },
+      {
+        "id": 48,
+        "word": "der Mikroorganismus",
+        "translation": {
+          "en": "microorganism",
+          "pl": "mikroorganizm"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Mikroorganismen",
+        "notes": {
+          "en": "A scientific term for a microscopic organism.",
+          "pl": "Termin naukowy oznaczający organizm mikroskopijnych rozmiarów."
+        },
+        "examples": [
+          "Mikroorganismen spielen eine wichtige Rolle im Ökosystem.",
+          "Einige Mikroorganismen reagieren empfindlich auf Temperaturveränderungen."
+        ]
+      }
+    ]
+  },
+  "speaking": {
+    "prompt": {
+      "en": "You are my German language tutor conducting a 20-minute B1-to-C1 speaking conversation based on the German news from 23 October 2026.\n\nKey stories covered in this episode:\n1. An earthquake in Tibet has left at least 16 people dead and 54 injured, while rescue operations continue. The region frequently experiences earthquakes caused by the collision of the Indian and Eurasian continental plates.\n2. Thousands of opposition supporters in Venezuela have demanded free elections, political change, and the return of opposition leader María Corina Machado. Representatives of the government and opposition have begun negotiations about holding presidential elections.\n3. A Ukrainian man arrested in Brandenburg on suspicion of espionage is due to appear before an investigating judge. Prosecutors suspect that he collected military-relevant information for a Russian intelligence service.\n4. The International Criminal Court has thanked the European Parliament for the Sakharov Prize, describing the award as an important signal amid unprecedented challenges and pressure.\n5. Finland has granted an operating permit for the world's first permanent repository for highly radioactive nuclear waste. Further tests and inspections are needed before operations begin.\n6. A global assessment warns that nearly all coral reefs are threatened with extinction, with 96 percent of shallow-water reefs facing an extremely elevated risk over the coming 50 years.\n\nGrammar focus to elicit: Perfekt vs Präteritum in everyday spoken narration.\n\nInstructions for ChatGPT:\n1. First, warmly verify if I have listened to the broadcast.\n2. Ask me questions one by one. Never provide multiple questions at once.\n3. Discuss the factual details first, then explore causes and consequences, alternative perspectives, and my personal evaluation.\n4. Encourage me to narrate completed events in Perfekt and naturally use Präteritum with sein, haben, and modal verbs such as war, hatte, musste, konnte, and wollte. Help me combine background circumstances with the sequence of events in a coherent spoken story.\n5. Immediate correction protocol: If I break today's rule (e.g. *Gestern bin ich sehr müde gewesen und habe keine Zeit gehabt.* instead of *Gestern war ich sehr müde und hatte keine Zeit.*), stop briefly to:\n   - Quote the error.\n   - Provide the correct German sentence.\n   - Give a 1-sentence English explanation of the rule.\n   - Ask me to repeat the correct German sentence aloud before proceeding to the next conversational question.\n6. Keep the tone engaging, professional, and natural for an immersive German voice dialogue.",
+      "pl": "Jesteś moim nauczycielem języka niemieckiego i prowadzisz 20-minutową rozmowę na poziomie od B1 do C1 na podstawie wiadomości po niemiecku z 23 października 2026 roku.\n\nNajważniejsze wiadomości z tego odcinka:\n1. Trzęsienie ziemi w Tybecie spowodowało śmierć co najmniej 16 osób i obrażenia u 54 osób. Trwają akcje poszukiwawcze i ratunkowe. W regionie często dochodzi do trzęsień ziemi spowodowanych zderzeniem indyjskiej i eurazjatyckiej płyty kontynentalnej.\n2. Tysiące zwolenników opozycji w Wenezueli domagały się wolnych wyborów, zmian politycznych i powrotu liderki opozycji Maríi Coriny Machado. Przedstawiciele rządu i opozycji rozpoczęli negocjacje dotyczące przeprowadzenia wyborów prezydenckich.\n3. Ukrainiec zatrzymany w Brandenburgii pod zarzutem szpiegostwa ma stanąć przed sędzią śledczym. Prokuratura podejrzewa go o gromadzenie istotnych informacji wojskowych na rzecz rosyjskiego wywiadu.\n4. Międzynarodowy Trybunał Karny podziękował Parlamentowi Europejskiemu za Nagrodę im. Sacharowa, określając ją jako ważny sygnał w obliczu bezprecedensowych wyzwań i presji.\n5. Finlandia wydała zezwolenie na eksploatację pierwszego na świecie docelowego składowiska wysoce radioaktywnych odpadów jądrowych. Przed rozpoczęciem działalności konieczne są dalsze testy i inspekcje.\n6. Światowa analiza ostrzega, że niemal wszystkie rafy koralowe są zagrożone wyginięciem, a ryzyko dla 96 procent raf w płytkich wodach będzie w ciągu najbliższych 50 lat skrajnie podwyższone.\n\nTemat gramatyczny do ćwiczenia: Perfekt a Präteritum w codziennych opowieściach.\n\nInstrukcje dla ChatGPT:\n1. Na początku zapytaj mnie w ciepły, naturalny sposób, czy wysłuchałem audycji.\n2. Zadawaj pytania pojedynczo. Nigdy nie zadawaj kilku pytań jednocześnie.\n3. Najpierw omów fakty, a następnie przejdź do przyczyn i konsekwencji, alternatywnych punktów widzenia oraz mojej osobistej oceny.\n4. Zachęcaj mnie do opisywania zakończonych wydarzeń w Perfekt oraz do naturalnego używania Präteritum z czasownikami sein, haben i modalnymi, takimi jak war, hatte, musste, konnte i wollte. Pomóż mi łączyć okoliczności stanowiące tło z kolejnymi wydarzeniami w spójnej opowieści ustnej.\n5. Procedura natychmiastowej korekty: jeśli popełnię błąd dotyczący dzisiejszej zasady, na przykład *Gestern bin ich sehr müde gewesen und habe keine Zeit gehabt.* zamiast *Gestern war ich sehr müde und hatte keine Zeit.*, na chwilę przerwij rozmowę, aby:\n   - Zacytować błąd.\n   - Podać poprawne zdanie po niemiecku.\n   - Wyjaśnić zasadę w jednym zdaniu po polsku.\n   - Poprosić mnie o głośne powtórzenie poprawnego zdania, zanim przejdziesz do kolejnego pytania.\n6. Zachowuj angażujący, profesjonalny i naturalny ton, odpowiedni do immersyjnej rozmowy głosowej."
+    }
+  }
 }
 
 ]
