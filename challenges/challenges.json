@@ -14203,6 +14203,7 @@
     }
   }
 },
+
 {
   "lesson": {
     "id": "2026-10-24",
@@ -14211,756 +14212,716 @@
     "totalDays": 300,
     "level": "B1",
     "title": {
-      "en": "The Plusquamperfekt: Events Before Another Past Event",
-      "pl": "Plusquamperfekt: wydarzenia poprzedzające inne wydarzenie w przeszłości"
+      "en": "The Past Perfect: An Event Before Another Past Event",
+      "pl": "Czas zaprzeszły: wydarzenie wcześniejsze od innego wydarzenia w przeszłości"
     },
-    "subtitle": "Plusquamperfekt"
+    "subtitle": "Plusquamperfekt: Vorzeitigkeit in der Vergangenheit"
   },
   "grammar": {
     "html": {
       "en": [
-        "<p>The German Plusquamperfekt, or past perfect, describes an event that had already happened before another event or reference point in the past. It helps establish the chronological order of events in reports, conversations and narratives. Compare <em>Als die Polizei eintraf, flohen die Täter.</em> (The perpetrators fled when the police arrived.) with <em>Als die Polizei eintraf, waren die Täter bereits geflohen.</em> (When the police arrived, the perpetrators had already fled.) The second sentence explicitly establishes that the escape happened first.</p>",
-        "<div class='box rule'><strong>Core rule:</strong> Form the Plusquamperfekt with the Präteritum of <em>haben</em> or <em>sein</em> + Partizip II: <em>hatte/war + Partizip II</em>. The auxiliary is finite; the participle normally goes at the end of the clause.</div>",
-        "<h3>Forming the Plusquamperfekt</h3><p>Choose the appropriate auxiliary in the Präteritum. The forms of <em>haben</em> are <em>hatte, hattest, hatte, hatten, hattet, hatten</em>. The forms of <em>sein</em> are <em>war, warst, war, waren, wart, waren</em>. The choice generally follows the same pattern as in the Perfekt: most verbs use <em>haben</em>, while many verbs expressing movement from one place to another or a change of state use <em>sein</em>. The participle remains unchanged across persons.</p><table><thead><tr><th>Infinitive</th><th>Plusquamperfekt</th><th>English</th></tr></thead><tbody><tr><td class='de'>berichten</td><td class='de'>hatte berichtet</td><td>had reported</td></tr><tr><td class='de'>verletzen</td><td class='de'>hatte verletzt</td><td>had injured</td></tr><tr><td class='de'>fliehen</td><td class='de'>war geflohen</td><td>had fled</td></tr><tr><td class='de'>eintreffen</td><td class='de'>war eingetroffen</td><td>had arrived</td></tr><tr><td class='de'>geschehen</td><td class='de'>war geschehen</td><td>had happened</td></tr></tbody></table><p>For example: <em>Die Behörden hatten die Warnung veröffentlicht.</em> <em>Der König war bereits eingetroffen.</em> <em>Die Zahl der Verletzten war gestiegen.</em> Remember that the correct auxiliary depends on the verb and its use, not simply on whether the sentence refers to a distant past.</p>",
-        "<h3>Showing the order of past events</h3><p>The Plusquamperfekt is especially useful when a sentence mentions two past events and the reader needs to know which came first. The earlier event takes the Plusquamperfekt; the later event often takes the Präteritum in written reports or the Perfekt in conversation.</p><ul><li><em>Als die Einsatzkräfte ankamen, hatte der Sturm bereits zahlreiche Bäume entwurzelt.</em></li><li><em>Nachdem die Regierung eine Waffenruhe angekündigt hatte, reagierten beide Seiten.</em></li><li><em>Die Polizei stellte fest, dass mehrere Demonstrationen bereits begonnen hatten.</em></li></ul><p>Temporal expressions such as <em>bereits</em>, <em>schon</em>, <em>zuvor</em> and <em>bis dahin</em> often clarify the sequence, but they do not replace the grammatical tense. The Plusquamperfekt is not required every time two past events are mentioned. Use it when the earlier-than-past relationship needs to be expressed clearly.</p>",
-        "<h3>Word order in main and subordinate clauses</h3><p>In a main clause, the finite auxiliary occupies the second position, while the participle goes to the end: <em>Die Behörden <strong>hatten</strong> die Warnungen rechtzeitig <strong>veröffentlicht</strong>.</em> If a time expression comes first, the auxiliary still occupies the second position: <em>Bereits am Donnerstag <strong>hatten</strong> die Behörden erste Warnungen <strong>ausgegeben</strong>.</em></p><p>In a subordinate clause introduced by <em>weil</em>, <em>dass</em>, <em>als</em> or <em>nachdem</em>, the finite auxiliary moves to the end, after the participle: <em>Die Behörden handelten, nachdem sie die Warnungen <strong>veröffentlicht hatten</strong>.</em> With a subordinate clause placed first, the following main clause still follows the verb-second rule: <em>Nachdem die Behörden die Warnungen veröffentlicht hatten, bereiteten sich die Bewohner vor.</em></p><table><thead><tr><th>Clause type</th><th>Pattern</th><th>Example</th></tr></thead><tbody><tr><td>Main clause</td><td>Auxiliary in position two; participle at the end</td><td class='de'>Die Polizei hatte den Ort abgesperrt.</td></tr><tr><td>Subordinate clause</td><td>Participle + auxiliary at the end</td><td class='de'>..., weil die Polizei den Ort abgesperrt hatte.</td></tr><tr><td>Subordinate clause first</td><td>Subordinate clause, then main-clause inversion</td><td class='de'>Nachdem die Polizei den Ort abgesperrt hatte, begann die Untersuchung.</td></tr></tbody></table>",
-        "<div class='box warn'><strong>Common mistake: using the present auxiliary or putting the auxiliary in the wrong place</strong><p>✗ Als die Polizei eintraf, haben die Täter bereits geflohen.</p><p>✓ Als die Polizei eintraf, waren die Täter bereits geflohen.</p><p>✗ ..., nachdem die Behörden hatten die Warnung veröffentlicht.</p><p>✓ ..., nachdem die Behörden die Warnung veröffentlicht hatten.</p><p>Use the Präteritum form of the correct auxiliary. In a subordinate clause, place the complete verbal ending at the end.</p></div>",
-        "<div class='box tip'><strong>Memory aid: past before past</strong><p>First identify the two past events. Ask which one happened earlier. Put that event in the Plusquamperfekt, then use the appropriate past tense for the later event. Remember the formula: <em>hatte/war + Partizip II</em>.</p></div>",
-        "<h3>Quick reference</h3><div class='tiles'><div class='tile'><strong>Earlier event</strong><p><em>Die Täter waren geflohen.</em></p></div><div class='tile'><strong>With haben</strong><p><em>Die Behörden hatten berichtet.</em></p></div><div class='tile'><strong>With sein</strong><p><em>Der König war eingetroffen.</em></p></div><div class='tile'><strong>Subordinate clause</strong><p><em>..., nachdem der Sturm nachgelassen hatte.</em></p></div></div>"
+        "<p>The German Plusquamperfekt describes an event or situation that had already happened before another point in the past. It is especially useful when narrating news, explaining causes, reconstructing events and making the order of past events clear. In English, it often corresponds to the past perfect with had; in Polish, it is usually expressed through context, word order or expressions such as wcześniej and już.</p>",
+        "<div class='box rule'><strong>Core rule:</strong> Plusquamperfekt = the Präteritum of <em>haben</em> or <em>sein</em> + Partizip II at the end of the clause: <em>hatte/waren + gemacht/gegangen</em>.</div>",
+        "<h3>Forming the Plusquamperfekt</h3><p>Choose the appropriate auxiliary in the Präteritum and add the past participle. The auxiliary is conjugated according to the subject; the participle normally remains unchanged. Verbs that use <em>haben</em> in the Perfekt normally use <em>hatte</em> in the Plusquamperfekt. Verbs that use <em>sein</em> normally use <em>war</em>.</p><table><thead><tr><th>Subject</th><th>haben</th><th>sein</th></tr></thead><tbody><tr><td class='de'>ich</td><td class='de'>hatte gearbeitet</td><td class='de'>war gegangen</td></tr><tr><td class='de'>du</td><td class='de'>hattest gearbeitet</td><td class='de'>warst gegangen</td></tr><tr><td class='de'>er/sie/es</td><td class='de'>hatte gearbeitet</td><td class='de'>war gegangen</td></tr><tr><td class='de'>wir</td><td class='de'>hatten gearbeitet</td><td class='de'>waren gegangen</td></tr><tr><td class='de'>ihr</td><td class='de'>hattet gearbeitet</td><td class='de'>wart gegangen</td></tr><tr><td class='de'>sie/Sie</td><td class='de'>hatten gearbeitet</td><td class='de'>waren gegangen</td></tr></tbody></table><p>Examples: <em>Die Behörden <strong>hatten</strong> die Warnungen <strong>veröffentlicht</strong>.</em> <em>Die Einsatzkräfte <strong>waren</strong> bereits <strong>eingetroffen</strong>.</em></p>",
+        "<h3>Showing which event happened first</h3><p>When two past events are mentioned, the Plusquamperfekt commonly marks the earlier event, while the Präteritum or Perfekt describes the later event. The tense does not mean that an event happened a very long time ago; it expresses its relationship to another past point.</p><p><em>Als der König Karak besuchte, <strong>hatten</strong> die Behörden den Angriff bereits <strong>gemeldet</strong>.</em></p><p>The report had happened before the visit. Compare: <em>Die Behörden meldeten den Angriff. Danach besuchte der König die Stadt.</em> Here, the chronological order is made clear by the adverb <em>danach</em>, so the Plusquamperfekt is not essential.</p><table><thead><tr><th>Earlier event</th><th>Later past event</th></tr></thead><tbody><tr><td class='de'>Die Polizei hatte den Einsatz vorbereitet.</td><td class='de'>Dann begann die Demonstration.</td></tr><tr><td class='de'>Der Sturm war abgezogen.</td><td class='de'>Die Helfer erreichten das Dorf.</td></tr><tr><td class='de'>Die Regierung hatte zugestimmt.</td><td class='de'>Die Waffenruhe trat in Kraft.</td></tr></tbody></table>",
+        "<h3>Word order in main and subordinate clauses</h3><p>In a main clause, the finite auxiliary occupies the second position and the past participle goes to the end: <em>Die Regierung <strong>hatte</strong> den Vorschlag bereits <strong>angenommen</strong>.</em> If a time phrase comes first, the auxiliary still occupies the second position: <em>Schon am Morgen <strong>hatte</strong> die Polizei die Straße <strong>gesperrt</strong>.</em></p><p>In a subordinate clause introduced by <em>als</em>, <em>nachdem</em>, <em>weil</em> or <em>bevor</em>, the conjugated auxiliary goes to the end, after the participle: <em>Nachdem die Polizei den Bereich <strong>gesperrt hatte</strong>, begann die Untersuchung.</em> With <em>nachdem</em>, the Plusquamperfekt often appears in the subordinate clause to show that its event preceded the main-clause event. The main clause may use the Präteritum or Perfekt.</p>",
+        "<h3>When is it necessary?</h3><p>Use the Plusquamperfekt when the earlier timing matters, especially when the narrative would otherwise be unclear. It often appears with <em>schon</em>, <em>bereits</em>, <em>vorher</em>, <em>zuvor</em> and <em>nachdem</em>. These words support the chronology but do not replace the tense itself. If events are listed in an obvious sequence, the Präteritum or Perfekt can also be natural.</p><p>Verbs with separable prefixes keep their normal participle formation: <em>Die Behörden hatten die Sicherheitsmaßnahmen <strong>vorbereitet</strong>.</em> The auxiliary is the only conjugated verb in the Plusquamperfekt.</p>",
+        "<div class='box warn'><strong>Typical mistake:</strong> Do not use the present auxiliary to form the Plusquamperfekt. Incorrect: <em>Als der König ankam, haben die Behörden den Angriff schon gemeldet.</em> Correct: <em>Als der König ankam, hatten die Behörden den Angriff schon gemeldet.</em> The earlier event needs <em>hatten</em>, not <em>haben</em>, when the narrative is in the past.</div>",
+        "<div class='box tip'><strong>Memory aid:</strong> Find the two past events. Ask which happened first. Put <em>hatte/war</em> plus Partizip II on that earlier event, and keep the later event in the narrative tense.</div>",
+        "<h3>Quick reference</h3><div class='tiles'><div class='tile'><strong>haben</strong><p>Die Polizei hatte gewarnt.</p></div><div class='tile'><strong>sein</strong><p>Die Helfer waren angekommen.</p></div><div class='tile'><strong>Main clause</strong><p>Sie hatte die Meldung gelesen.</p></div><div class='tile'><strong>Subordinate clause</strong><p>Nachdem sie die Meldung gelesen hatte, rief sie an.</p></div></div>"
       ],
       "pl": [
-        "<p>Niemiecki czas Plusquamperfekt, nazywany czasem zaprzeszłym, opisuje wydarzenie, które nastąpiło przed innym wydarzeniem lub punktem odniesienia w przeszłości. Pomaga ustalić chronologię wydarzeń w relacjach, rozmowach i opowiadaniach. Porównaj: <em>Als die Polizei eintraf, flohen die Täter.</em> (Gdy przybyła policja, sprawcy uciekli.) oraz <em>Als die Polizei eintraf, waren die Täter bereits geflohen.</em> (Gdy przybyła policja, sprawcy zdążyli już uciec.) Drugie zdanie wyraźnie wskazuje, że ucieczka nastąpiła wcześniej.</p>",
-        "<div class='box rule'><strong>Główna zasada:</strong> Utwórz Plusquamperfekt z formy Präteritum czasownika <em>haben</em> lub <em>sein</em> + Partizip II: <em>hatte/war + Partizip II</em>. Czasownik posiłkowy jest odmieniony, a imiesłów zwykle znajduje się na końcu zdania podrzędnego lub na końcu ramy czasownikowej zdania głównego.</div>",
-        "<h3>Tworzenie czasu Plusquamperfekt</h3><p>Wybierz odpowiedni czasownik posiłkowy w czasie Präteritum. Formy <em>haben</em> to <em>hatte, hattest, hatte, hatten, hattet, hatten</em>. Formy <em>sein</em> to <em>war, warst, war, waren, wart, waren</em>. Wybór na ogół przebiega tak samo jak w czasie Perfekt: większość czasowników łączy się z <em>haben</em>, natomiast wiele czasowników wyrażających przemieszczanie się z jednego miejsca do drugiego lub zmianę stanu łączy się z <em>sein</em>. Imiesłów pozostaje niezmienny we wszystkich osobach.</p><table><thead><tr><th>Bezokolicznik</th><th>Plusquamperfekt</th><th>Polski odpowiednik</th></tr></thead><tbody><tr><td class='de'>berichten</td><td class='de'>hatte berichtet</td><td>poinformował wcześniej</td></tr><tr><td class='de'>verletzen</td><td class='de'>hatte verletzt</td><td>zranił wcześniej</td></tr><tr><td class='de'>fliehen</td><td class='de'>war geflohen</td><td>uciekł wcześniej</td></tr><tr><td class='de'>eintreffen</td><td class='de'>war eingetroffen</td><td>przybył wcześniej</td></tr><tr><td class='de'>geschehen</td><td class='de'>war geschehen</td><td>wydarzył się wcześniej</td></tr></tbody></table><p>Na przykład: <em>Die Behörden hatten die Warnung veröffentlicht.</em> <em>Der König war bereits eingetroffen.</em> <em>Die Zahl der Verletzten war gestiegen.</em> Pamiętaj, że wybór czasownika posiłkowego zależy od czasownika i jego użycia, a nie tylko od tego, jak odległa jest opisywana przeszłość.</p>",
-        "<h3>Określanie kolejności wydarzeń w przeszłości</h3><p>Plusquamperfekt jest szczególnie przydatny, gdy zdanie opisuje dwa wydarzenia z przeszłości i trzeba ustalić, które nastąpiło wcześniej. Wcześniejsze wydarzenie przyjmuje formę Plusquamperfekt, a późniejsze często występuje w czasie Präteritum w tekstach pisanych lub Perfekt w rozmowie.</p><ul><li><em>Als die Einsatzkräfte ankamen, hatte der Sturm bereits zahlreiche Bäume entwurzelt.</em></li><li><em>Nachdem die Regierung eine Waffenruhe angekündigt hatte, reagierten beide Seiten.</em></li><li><em>Die Polizei stellte fest, dass mehrere Demonstrationen bereits begonnen hatten.</em></li></ul><p>Określenia czasu, takie jak <em>bereits</em>, <em>schon</em>, <em>zuvor</em> i <em>bis dahin</em>, często ułatwiają zrozumienie kolejności zdarzeń, ale nie zastępują czasu gramatycznego. Nie trzeba używać Plusquamperfekt za każdym razem, gdy wspomina się dwa wydarzenia z przeszłości. Używaj go, gdy trzeba wyraźnie zaznaczyć, że jedno wydarzenie poprzedzało drugie.</p>",
-        "<h3>Szyk w zdaniu głównym i podrzędnym</h3><p>W zdaniu głównym odmieniony czasownik posiłkowy zajmuje drugą pozycję, a imiesłów znajduje się na końcu: <em>Die Behörden <strong>hatten</strong> die Warnungen rechtzeitig <strong>veröffentlicht</strong>.</em> Jeśli zdanie zaczyna się od określenia czasu, czasownik posiłkowy nadal zajmuje drugą pozycję: <em>Bereits am Donnerstag <strong>hatten</strong> die Behörden erste Warnungen <strong>ausgegeben</strong>.</em></p><p>W zdaniu podrzędnym wprowadzonym przez <em>weil</em>, <em>dass</em>, <em>als</em> lub <em>nachdem</em> odmieniony czasownik posiłkowy przechodzi na koniec, za imiesłów: <em>Die Behörden handelten, nachdem sie die Warnungen <strong>veröffentlicht hatten</strong>.</em> Gdy zdanie podrzędne znajduje się na początku, następujące po nim zdanie główne nadal zachowuje zasadę V2: <em>Nachdem die Behörden die Warnungen veröffentlicht hatten, bereiteten sich die Bewohner vor.</em></p><table><thead><tr><th>Rodzaj zdania</th><th>Szyk</th><th>Przykład</th></tr></thead><tbody><tr><td>Zdanie główne</td><td>Czasownik posiłkowy na drugim miejscu; imiesłów na końcu</td><td class='de'>Die Polizei hatte den Ort abgesperrt.</td></tr><tr><td>Zdanie podrzędne</td><td>Imiesłów + czasownik posiłkowy na końcu</td><td class='de'>..., weil die Polizei den Ort abgesperrt hatte.</td></tr><tr><td>Zdanie podrzędne na początku</td><td>Zdanie podrzędne, a następnie inwersja w zdaniu głównym</td><td class='de'>Nachdem die Polizei den Ort abgesperrt hatte, begann die Untersuchung.</td></tr></tbody></table>",
-        "<div class='box warn'><strong>Typowy błąd: użycie niewłaściwego czasu czasownika posiłkowego lub jego złe umiejscowienie</strong><p>✗ Als die Polizei eintraf, haben die Täter bereits geflohen.</p><p>✓ Als die Polizei eintraf, waren die Täter bereits geflohen.</p><p>✗ ..., nachdem die Behörden hatten die Warnung veröffentlicht.</p><p>✓ ..., nachdem die Behörden die Warnung veröffentlicht hatten.</p><p>Używaj odpowiedniej formy czasownika posiłkowego w Präteritum. W zdaniu podrzędnym umieść całą końcową część orzeczenia na końcu.</p></div>",
-        "<div class='box tip'><strong>Pomoc w zapamiętaniu: przeszłość przed przeszłością</strong><p>Najpierw wskaż dwa wydarzenia z przeszłości. Zastanów się, które nastąpiło wcześniej. To wcześniejsze opisz w Plusquamperfekt, a do późniejszego zastosuj odpowiedni czas przeszły. Zapamiętaj wzór: <em>hatte/war + Partizip II</em>.</p></div>",
-        "<h3>Szybka ściąga</h3><div class='tiles'><div class='tile'><strong>Wcześniejsze wydarzenie</strong><p><em>Die Täter waren geflohen.</em></p></div><div class='tile'><strong>Z haben</strong><p><em>Die Behörden hatten berichtet.</em></p></div><div class='tile'><strong>Z sein</strong><p><em>Der König war eingetroffen.</em></p></div><div class='tile'><strong>Zdanie podrzędne</strong><p><em>..., nachdem der Sturm nachgelassen hatte.</em></p></div></div>"
+        "<p>Niemiecki czas Plusquamperfekt opisuje wydarzenie lub sytuację, które nastąpiły już przed innym momentem w przeszłości. Jest szczególnie przydatny podczas relacjonowania wiadomości, wyjaśniania przyczyn, odtwarzania przebiegu zdarzeń i precyzyjnego wskazywania kolejności wydarzeń. W języku angielskim często odpowiada czasowi past perfect z had; po polsku jego znaczenie zwykle oddajemy za pomocą kontekstu, szyku zdania lub określeń takich jak wcześniej i już.</p>",
+        "<div class='box rule'><strong>Główna zasada:</strong> Plusquamperfekt = czasownik posiłkowy <em>haben</em> lub <em>sein</em> w Präteritum + Partizip II na końcu zdania: <em>hatte/waren + gemacht/gegangen</em>.</div>",
+        "<h3>Tworzenie czasu Plusquamperfekt</h3><p>Wybierz odpowiedni czasownik posiłkowy w Präteritum i dodaj imiesłów czasu przeszłego. Czasownik posiłkowy odmienia się zgodnie z podmiotem, natomiast imiesłów zazwyczaj pozostaje niezmieniony. Czasowniki, które w Perfekt łączą się z <em>haben</em>, zwykle używają w Plusquamperfekt formy <em>hatte</em>. Czasowniki, które w Perfekt łączą się z <em>sein</em>, zwykle używają formy <em>war</em>.</p><table><thead><tr><th>Podmiot</th><th>haben</th><th>sein</th></tr></thead><tbody><tr><td class='de'>ich</td><td class='de'>hatte gearbeitet</td><td class='de'>war gegangen</td></tr><tr><td class='de'>du</td><td class='de'>hattest gearbeitet</td><td class='de'>warst gegangen</td></tr><tr><td class='de'>er/sie/es</td><td class='de'>hatte gearbeitet</td><td class='de'>war gegangen</td></tr><tr><td class='de'>wir</td><td class='de'>hatten gearbeitet</td><td class='de'>waren gegangen</td></tr><tr><td class='de'>ihr</td><td class='de'>hattet gearbeitet</td><td class='de'>wart gegangen</td></tr><tr><td class='de'>sie/Sie</td><td class='de'>hatten gearbeitet</td><td class='de'>waren gegangen</td></tr></tbody></table><p>Przykłady: <em>Die Behörden <strong>hatten</strong> die Warnungen <strong>veröffentlicht</strong>.</em> <em>Die Einsatzkräfte <strong>waren</strong> bereits <strong>eingetroffen</strong>.</em></p>",
+        "<h3>Wskazywanie, które wydarzenie nastąpiło wcześniej</h3><p>Gdy wspominamy o dwóch wydarzeniach z przeszłości, Plusquamperfekt zazwyczaj oznacza wydarzenie wcześniejsze, a Präteritum lub Perfekt opisuje wydarzenie późniejsze. Czas ten nie oznacza, że coś wydarzyło się bardzo dawno temu; wskazuje relację między tym wydarzeniem a innym momentem w przeszłości.</p><p><em>Als der König Karak besuchte, <strong>hatten</strong> die Behörden den Angriff bereits <strong>gemeldet</strong>.</em></p><p>Zgłoszenie nastąpiło przed wizytą. Porównaj: <em>Die Behörden meldeten den Angriff. Danach besuchte der König die Stadt.</em> Tutaj kolejność wydarzeń wyraźnie wskazuje przysłówek <em>danach</em>, dlatego Plusquamperfekt nie jest niezbędny.</p><table><thead><tr><th>Wydarzenie wcześniejsze</th><th>Wydarzenie późniejsze w przeszłości</th></tr></thead><tbody><tr><td class='de'>Die Polizei hatte den Einsatz vorbereitet.</td><td class='de'>Dann begann die Demonstration.</td></tr><tr><td class='de'>Der Sturm war abgezogen.</td><td class='de'>Die Helfer erreichten das Dorf.</td></tr><tr><td class='de'>Die Regierung hatte zugestimmt.</td><td class='de'>Die Waffenruhe trat in Kraft.</td></tr></tbody></table>",
+        "<h3>Szyk zdania głównego i podrzędnego</h3><p>W zdaniu głównym odmieniony czasownik posiłkowy zajmuje drugą pozycję, a imiesłów znajduje się na końcu: <em>Die Regierung <strong>hatte</strong> den Vorschlag bereits <strong>angenommen</strong>.</em> Jeśli na początku występuje określenie czasu, czasownik posiłkowy nadal zajmuje drugą pozycję: <em>Schon am Morgen <strong>hatte</strong> die Polizei die Straße <strong>gesperrt</strong>.</em></p><p>W zdaniu podrzędnym wprowadzonym przez <em>als</em>, <em>nachdem</em>, <em>weil</em> lub <em>bevor</em> odmieniony czasownik posiłkowy stoi na końcu, za imiesłowem: <em>Nachdem die Polizei den Bereich <strong>gesperrt hatte</strong>, begann die Untersuchung.</em> Po <em>nachdem</em> Plusquamperfekt często występuje w zdaniu podrzędnym, aby pokazać, że opisane w nim wydarzenie poprzedziło wydarzenie ze zdania głównego. Zdanie główne może używać Präteritum lub Perfekt.</p>",
+        "<h3>Kiedy ten czas jest potrzebny?</h3><p>Używaj Plusquamperfekt, gdy wcześniejsza kolejność wydarzeń ma znaczenie, szczególnie jeśli bez tego relacja byłaby niejasna. Czas ten często występuje z wyrazami <em>schon</em>, <em>bereits</em>, <em>vorher</em>, <em>zuvor</em> i <em>nachdem</em>. Wyrazy te pomagają ustalić chronologię, ale nie zastępują samego czasu gramatycznego. Jeśli kolejność wydarzeń jest oczywista, naturalne może być również użycie Präteritum lub Perfekt.</p><p>Czasowniki z przedrostkami rozdzielnymi zachowują zwykły sposób tworzenia imiesłowu: <em>Die Behörden hatten die Sicherheitsmaßnahmen <strong>vorbereitet</strong>.</em> W Plusquamperfekt jedyną odmienianą częścią czasownika jest czasownik posiłkowy.</p>",
+        "<div class='box warn'><strong>Typowy błąd:</strong> Nie używaj czasu teraźniejszego czasownika posiłkowego do tworzenia Plusquamperfekt. Błędnie: <em>Als der König ankam, haben die Behörden den Angriff schon gemeldet.</em> Poprawnie: <em>Als der König ankam, hatten die Behörden den Angriff schon gemeldet.</em> Jeśli narracja dotyczy przeszłości, wcześniejsze wydarzenie wymaga formy <em>hatten</em>, a nie <em>haben</em>.</div>",
+        "<div class='box tip'><strong>Wskazówka do zapamiętania:</strong> Znajdź dwa wydarzenia z przeszłości. Ustal, które nastąpiło pierwsze. Przy tym wcześniejszym użyj <em>hatte/war</em> + Partizip II, a późniejsze pozostaw w czasie narracji.</div>",
+        "<h3>Szybka powtórka</h3><div class='tiles'><div class='tile'><strong>haben</strong><p>Die Polizei hatte gewarnt.</p></div><div class='tile'><strong>sein</strong><p>Die Helfer waren angekommen.</p></div><div class='tile'><strong>Zdanie główne</strong><p>Sie hatte die Meldung gelesen.</p></div><div class='tile'><strong>Zdanie podrzędne</strong><p>Nachdem sie die Meldung gelesen hatte, rief sie an.</p></div></div>"
       ]
     }
   },
   "examples": [
     {
-      "de": "Als die Polizei eintraf, **waren** die Täter bereits **geflohen**.",
-      "en": "When the police arrived, the perpetrators had already fled.",
-      "pl": "Gdy przybyła policja, sprawcy zdążyli już uciec.",
+      "de": "Als der König eintraf, **hatten** die Behörden den Angriff bereits **gemeldet**.",
+      "en": "When the king arrived, the authorities had already reported the attack.",
+      "pl": "Gdy król przybył, władze zdążyły już zgłosić atak.",
       "level": "B1"
     },
     {
-      "de": "Sie **hatte** den Bericht schon **gelesen**, bevor die Sitzung begann.",
-      "en": "She had already read the report before the meeting began.",
-      "pl": "Przeczytała już raport, zanim rozpoczęło się spotkanie.",
+      "de": "Die Polizei **hatte** die Straße **gesperrt**, bevor die Demonstranten eintrafen.",
+      "en": "The police had closed the street before the demonstrators arrived.",
+      "pl": "Policja zamknęła ulicę, zanim przybyli demonstranci.",
       "level": "B1"
     },
     {
-      "de": "Wir **hatten** die Tickets online **gebucht**, bevor die Preise stiegen.",
-      "en": "We had booked the tickets online before the prices increased.",
-      "pl": "Zarezerwowaliśmy bilety przez internet, zanim wzrosły ceny.",
+      "de": "Nachdem der Sturm **abgezogen war**, begannen die Helfer mit den Aufräumarbeiten.",
+      "en": "After the storm had passed, the rescue workers began clearing up.",
+      "pl": "Gdy burza już przeszła, ratownicy rozpoczęli sprzątanie.",
       "level": "B1"
     },
     {
-      "de": "Nachdem der Sturm **nachgelassen hatte**, kehrten die Bewohner zurück.",
-      "en": "After the storm had subsided, the residents returned.",
-      "pl": "Gdy burza osłabła, mieszkańcy wrócili.",
+      "de": "Die Regierung **hatte** der Vereinbarung **zugestimmt**, bevor die Waffenruhe in Kraft trat.",
+      "en": "The government had agreed to the agreement before the ceasefire came into effect.",
+      "pl": "Rząd zaakceptował porozumienie, zanim weszło w życie zawieszenie broni.",
       "level": "B1"
     },
     {
-      "de": "Er **hatte** die Warnung nicht **gesehen**, als er das Haus verließ.",
-      "en": "He had not seen the warning when he left the house.",
-      "pl": "Nie zauważył ostrzeżenia, gdy wychodził z domu.",
+      "de": "Als die Feuerwehr ankam, **hatte** sich das Feuer bereits auf das Nachbargebäude **ausgebreitet**.",
+      "en": "When the fire brigade arrived, the fire had already spread to the neighbouring building.",
+      "pl": "Gdy przyjechała straż pożarna, ogień zdążył już rozprzestrzenić się na sąsiedni budynek.",
       "level": "B1"
     },
     {
-      "de": "Die Ministerin **war** bereits **eingetroffen**, als die Presse ankam.",
-      "en": "The minister had already arrived when the press arrived.",
-      "pl": "Ministra przybyła już na miejsce, gdy dotarli dziennikarze.",
+      "de": "Die Einsatzkräfte **hatten** die Bewohner **gewarnt**, bevor der Taifun die Küste erreichte.",
+      "en": "The emergency services had warned the residents before the typhoon reached the coast.",
+      "pl": "Służby ratunkowe ostrzegły mieszkańców, zanim tajfun dotarł do wybrzeża.",
       "level": "B1"
     },
     {
-      "de": "Die Techniker **hatten** das System **repariert**, bevor der Betrieb wieder begann.",
-      "en": "The technicians had repaired the system before operations resumed.",
-      "pl": "Technicy naprawili system, zanim wznowiono działalność.",
+      "de": "Nachdem der Minister eine Erklärung **abgegeben hatte**, beantwortete er die Fragen der Journalisten.",
+      "en": "After the minister had issued a statement, he answered the journalists' questions.",
+      "pl": "Po wygłoszeniu oświadczenia minister odpowiedział na pytania dziennikarzy.",
       "level": "B1"
     },
     {
-      "de": "Als der Zug abfuhr, **hatten** wir unsere Plätze bereits **gefunden**.",
-      "en": "When the train departed, we had already found our seats.",
-      "pl": "Gdy pociąg odjeżdżał, zdążyliśmy już znaleźć swoje miejsca.",
+      "de": "Die Techniker **hatten** den Fehler **behoben**, bevor der Strom wieder ausfiel.",
+      "en": "The technicians had fixed the fault before the power failed again.",
+      "pl": "Technicy usunęli usterkę, zanim ponownie zabrakło prądu.",
       "level": "B1"
     },
     {
-      "de": "Die Polizei stellte fest, dass der Verdächtige die Stadt schon **verlassen hatte**.",
-      "en": "The police discovered that the suspect had already left the city.",
-      "pl": "Policja ustaliła, że podejrzany opuścił już miasto.",
+      "de": "Als die Verhandlungen begannen, **hatten** beide Seiten ihre Forderungen bereits **formuliert**.",
+      "en": "When the negotiations began, both sides had already formulated their demands.",
+      "pl": "Gdy rozpoczęły się negocjacje, obie strony zdążyły już sformułować swoje żądania.",
       "level": "B1"
     },
     {
-      "de": "Nachdem die Behörden die Daten **überprüft hatten**, veröffentlichten sie ihre Ergebnisse.",
-      "en": "After the authorities had checked the data, they published their findings.",
-      "pl": "Po sprawdzeniu danych władze opublikowały wyniki.",
+      "de": "Die Reisenden **waren** bereits **abgereist**, als die neue Warnung veröffentlicht wurde.",
+      "en": "The travellers had already departed when the new warning was published.",
+      "pl": "Podróżni zdążyli już wyjechać, gdy opublikowano nowe ostrzeżenie.",
       "level": "B1"
     },
     {
-      "de": "Der Patient **hatte** das Medikament bereits **eingenommen**, bevor der Arzt eintraf.",
-      "en": "The patient had already taken the medication before the doctor arrived.",
-      "pl": "Pacjent przyjął już lek, zanim przybył lekarz.",
+      "de": "Weil die Behörden die Gefahr unterschätzt **hatten**, waren sie auf die Schäden nicht vorbereitet.",
+      "en": "Because the authorities had underestimated the danger, they were not prepared for the damage.",
+      "pl": "Ponieważ władze nie doceniły zagrożenia, nie były przygotowane na szkody.",
+      "level": "B1"
+    },
+    {
+      "de": "Der Bürgermeister erklärte, die Stadt **habe** bereits zusätzliche Sicherheitskräfte **angefordert**.",
+      "en": "The mayor explained that the city had already requested additional security personnel.",
+      "pl": "Burmistrz wyjaśnił, że miasto zwróciło się już o dodatkowe siły bezpieczeństwa.",
       "level": "B2"
     },
     {
-      "de": "Bis zum Abend **hatten** die Einsatzkräfte mehrere Verletzte **gerettet**.",
-      "en": "By evening, the emergency services had rescued several injured people.",
-      "pl": "Do wieczora służby ratunkowe uratowały kilka rannych osób.",
+      "de": "Nachdem die Ermittler mehrere Zeugen **befragt hatten**, veröffentlichten sie erste Ergebnisse.",
+      "en": "After the investigators had questioned several witnesses, they published initial findings.",
+      "pl": "Po przesłuchaniu kilku świadków śledczy opublikowali pierwsze ustalenia.",
       "level": "B2"
     },
     {
-      "de": "Die Verhandlungen scheiterten, weil beide Seiten ihre Positionen nicht **geändert hatten**.",
-      "en": "The negotiations failed because neither side had changed its positions.",
-      "pl": "Negocjacje zakończyły się niepowodzeniem, ponieważ żadna ze stron nie zmieniła swojego stanowiska.",
+      "de": "Die Behörden **hatten** die Versammlung **verboten**, bevor die Organisatoren davon erfuhren.",
+      "en": "The authorities had banned the gathering before the organisers learned about it.",
+      "pl": "Władze zakazały zgromadzenia, zanim dowiedzieli się o tym organizatorzy.",
       "level": "B2"
     },
     {
-      "de": "Als die Regierung reagierte, **hatten** sich die Proteste bereits **ausgebreitet**.",
-      "en": "By the time the government responded, the protests had already spread.",
-      "pl": "Zanim rząd zareagował, protesty zdążyły się już rozprzestrzenić.",
+      "de": "Als der Bericht erschien, **hatten** unabhängige Experten die Angaben bereits **überprüft**.",
+      "en": "When the report appeared, independent experts had already checked the information.",
+      "pl": "Gdy ukazał się raport, niezależni eksperci zdążyli już zweryfikować te informacje.",
       "level": "B2"
     },
     {
-      "de": "Die Forschenden **hatten** mehrere Szenarien **entwickelt**, bevor sie ihre Empfehlung vorlegten.",
-      "en": "The researchers had developed several scenarios before presenting their recommendation.",
-      "pl": "Badacze opracowali kilka scenariuszy, zanim przedstawili swoje zalecenie.",
+      "de": "Die Stadt **hatte** mehrere Notunterkünfte **eingerichtet**, ehe die ersten Familien eintrafen.",
+      "en": "The city had established several emergency shelters before the first families arrived.",
+      "pl": "Miasto przygotowało kilka tymczasowych schronień, zanim przybyły pierwsze rodziny.",
       "level": "B2"
     },
     {
-      "de": "Obwohl die Behörden die Gefahr **unterschätzt hatten**, konnten sie weitere Schäden verhindern.",
-      "en": "Although the authorities had underestimated the danger, they managed to prevent further damage.",
-      "pl": "Chociaż władze nie doceniły zagrożenia, udało im się zapobiec dalszym szkodom.",
+      "de": "Obwohl die Verhandlungen lange gedauert **hatten**, erzielten die Delegationen eine Einigung.",
+      "en": "Although the negotiations had taken a long time, the delegations reached an agreement.",
+      "pl": "Chociaż negocjacje trwały długo, delegacje osiągnęły porozumienie.",
       "level": "B2"
     },
     {
-      "de": "Nachdem die Delegation **abgereist war**, wurden weitere Einzelheiten bekannt.",
-      "en": "After the delegation had departed, further details became known.",
-      "pl": "Po wyjeździe delegacji ujawniono kolejne szczegóły.",
+      "de": "Der Zug **war** schon **abgefahren**, als die verspäteten Fahrgäste den Bahnsteig erreichten.",
+      "en": "The train had already departed when the delayed passengers reached the platform.",
+      "pl": "Pociąg już odjechał, gdy spóźnieni pasażerowie dotarli na peron.",
       "level": "B2"
     },
     {
-      "de": "Sie **hatte** den Vertrag sorgfältig **geprüft**, bevor sie ihn unterzeichnete.",
-      "en": "She had carefully examined the contract before signing it.",
-      "pl": "Dokładnie sprawdziła umowę, zanim ją podpisała.",
+      "de": "Die Forschenden **hatten** die Messwerte **gesammelt**, bevor sie die Ergebnisse veröffentlichten.",
+      "en": "The researchers had collected the measurements before publishing the results.",
+      "pl": "Badacze zebrali pomiary, zanim opublikowali wyniki.",
       "level": "B2"
     },
     {
-      "de": "Die Firma **hatte** ihre Lieferkette diversifiziert, bevor die Krise einsetzte.",
-      "en": "The company had diversified its supply chain before the crisis began.",
-      "pl": "Firma zdywersyfikowała łańcuch dostaw, zanim rozpoczął się kryzys.",
-      "level": "B2"
-    },
-    {
-      "de": "Bis die Feuerwehr eintraf, **hatte** sich das Feuer auf zwei weitere Gebäude **ausgebreitet**.",
-      "en": "By the time the fire brigade arrived, the fire had spread to two more buildings.",
-      "pl": "Zanim przybyła straż pożarna, ogień rozprzestrzenił się na dwa kolejne budynki.",
+      "de": "Nachdem die Behörden den Zugang **freigegeben hatten**, kehrten die Anwohner in ihre Häuser zurück.",
+      "en": "After the authorities had reopened access, residents returned to their homes.",
+      "pl": "Po ponownym otwarciu dostępu przez władze mieszkańcy wrócili do swoich domów.",
       "level": "B2"
     }
   ],
   "exercises": [
     {
-      "en": "Complete the sentence: When Anna arrived, the meeting had already started. (beginnen)",
-      "pl": "Uzupełnij zdanie: Gdy Anna przybyła, spotkanie już się rozpoczęło. (beginnen)",
-      "de": "Als Anna ankam, hatte das Meeting bereits begonnen.",
+      "en": "When the meeting began, she had already read the report.",
+      "pl": "Gdy rozpoczęło się spotkanie, ona zdążyła już przeczytać raport.",
+      "de": "Als die Besprechung begann, hatte sie den Bericht bereits gelesen.",
       "level": "A2"
     },
     {
-      "en": "Translate: He had already eaten before he went to work.",
-      "pl": "Przetłumacz: On zjadł już posiłek, zanim poszedł do pracy.",
-      "de": "Er hatte schon gegessen, bevor er zur Arbeit ging.",
+      "en": "Before the storm arrived, we had closed the windows.",
+      "pl": "Zanim nadeszła burza, zamknęliśmy okna.",
+      "de": "Bevor der Sturm eintraf, hatten wir die Fenster geschlossen.",
       "level": "A2"
     },
     {
-      "en": "Complete: Before the train departed, we had bought the tickets. (kaufen)",
-      "pl": "Uzupełnij: Zanim pociąg odjechał, kupiliśmy bilety. (kaufen)",
-      "de": "Bevor der Zug abfuhr, hatten wir die Fahrkarten gekauft.",
+      "en": "When he arrived, the train had already left.",
+      "pl": "Gdy on przyjechał, pociąg już odjechał.",
+      "de": "Als er ankam, war der Zug bereits abgefahren.",
       "level": "A2"
     },
     {
-      "en": "Translate: She had already finished her work when her boss called.",
-      "pl": "Przetłumacz: Ona skończyła już pracę, gdy zadzwonił jej szef.",
-      "de": "Sie hatte ihre Arbeit schon beendet, als ihr Chef anrief.",
+      "en": "After she had finished work, she went home.",
+      "pl": "Gdy skończyła pracę, poszła do domu.",
+      "de": "Nachdem sie die Arbeit beendet hatte, ging sie nach Hause.",
       "level": "A2"
     },
     {
-      "en": "Complete: When I arrived, my friends had already left. (weggehen)",
-      "pl": "Uzupełnij: Gdy przybyłem, moi przyjaciele już wyszli. (weggehen)",
-      "de": "Als ich ankam, waren meine Freunde schon weggegangen.",
+      "en": "They had prepared dinner before their guests arrived.",
+      "pl": "Przygotowali kolację, zanim przybyli ich goście.",
+      "de": "Sie hatten das Abendessen vorbereitet, bevor ihre Gäste ankamen.",
       "level": "A2"
     },
     {
-      "en": "Translate: They had cleaned the kitchen before the guests arrived.",
-      "pl": "Przetłumacz: Posprzątali kuchnię, zanim przybyli goście.",
-      "de": "Sie hatten die Küche geputzt, bevor die Gäste ankamen.",
+      "en": "When the teacher entered, the students had opened their books.",
+      "pl": "Gdy nauczyciel wszedł, uczniowie otworzyli już książki.",
+      "de": "Als der Lehrer eintrat, hatten die Schüler ihre Bücher geöffnet.",
       "level": "A2"
     },
     {
-      "en": "Complete: The film had already begun when Paul entered the cinema. (beginnen)",
-      "pl": "Uzupełnij: Film już się rozpoczął, gdy Paul wszedł do kina. (beginnen)",
-      "de": "Der Film hatte schon begonnen, als Paul das Kino betrat.",
+      "en": "The bus had left before we reached the stop.",
+      "pl": "Autobus odjechał, zanim dotarliśmy na przystanek.",
+      "de": "Der Bus war abgefahren, bevor wir die Haltestelle erreichten.",
       "level": "A2"
     },
     {
-      "en": "Translate: We had never visited Berlin before that trip.",
-      "pl": "Przetłumacz: Przed tą podróżą nigdy nie odwiedziliśmy Berlina.",
-      "de": "Wir hatten Berlin vor dieser Reise noch nie besucht.",
+      "en": "She had locked the door before she went out.",
+      "pl": "Zamknęła drzwi na klucz, zanim wyszła.",
+      "de": "Sie hatte die Tür abgeschlossen, bevor sie hinausging.",
       "level": "A2"
     },
     {
-      "en": "Complete: After the rain had stopped, the children went outside. (aufhören)",
-      "pl": "Uzupełnij: Gdy deszcz przestał padać, dzieci wyszły na zewnątrz. (aufhören)",
-      "de": "Nachdem der Regen aufgehört hatte, gingen die Kinder nach draußen.",
+      "en": "When I called him, he had already eaten.",
+      "pl": "Gdy do niego zadzwoniłem, on już zjadł.",
+      "de": "Als ich ihn anrief, hatte er bereits gegessen.",
       "level": "A2"
     },
     {
-      "en": "Translate: The bus had already departed when we reached the stop.",
-      "pl": "Przetłumacz: Autobus odjechał już, gdy dotarliśmy na przystanek.",
-      "de": "Der Bus war schon abgefahren, als wir die Haltestelle erreichten.",
+      "en": "After the rain had stopped, the children played outside.",
+      "pl": "Gdy deszcz przestał padać, dzieci bawiły się na zewnątrz.",
+      "de": "Nachdem der Regen aufgehört hatte, spielten die Kinder draußen.",
       "level": "A2"
     },
     {
-      "en": "Translate: After she had checked her emails, she started the meeting.",
-      "pl": "Przetłumacz: Po sprawdzeniu e-maili rozpoczęła spotkanie.",
-      "de": "Nachdem sie ihre E-Mails geprüft hatte, begann sie die Besprechung.",
+      "en": "When the police arrived, the suspect had escaped.",
+      "pl": "Gdy przyjechała policja, podejrzany zdążył uciec.",
+      "de": "Als die Polizei eintraf, war der Verdächtige geflohen.",
       "level": "B1"
     },
     {
-      "en": "Complete: When the manager arrived, the employees had already prepared the documents. (vorbereiten)",
-      "pl": "Uzupełnij: Gdy kierownik przybył, pracownicy mieli już przygotowane dokumenty. (vorbereiten)",
-      "de": "Als der Manager eintraf, hatten die Mitarbeiter die Dokumente bereits vorbereitet.",
+      "en": "Before the demonstration started, the organisers had informed the authorities.",
+      "pl": "Zanim rozpoczęła się demonstracja, organizatorzy poinformowali władze.",
+      "de": "Bevor die Demonstration begann, hatten die Organisatoren die Behörden informiert.",
       "level": "B1"
     },
     {
-      "en": "Translate: The guests had left before the restaurant closed.",
-      "pl": "Przetłumacz: Goście wyszli, zanim restauracja została zamknięta.",
-      "de": "Die Gäste waren gegangen, bevor das Restaurant schloss.",
+      "en": "The minister spoke after he had received the latest figures.",
+      "pl": "Minister przemówił po otrzymaniu najnowszych danych.",
+      "de": "Der Minister sprach, nachdem er die neuesten Zahlen erhalten hatte.",
       "level": "B1"
     },
     {
-      "en": "Complete: He could not enter because he had forgotten his key. (vergessen)",
-      "pl": "Uzupełnij: Nie mógł wejść, ponieważ zapomniał klucza. (vergessen)",
-      "de": "Er konnte nicht hineingehen, weil er seinen Schlüssel vergessen hatte.",
+      "en": "When the firefighters arrived, the residents had left the building.",
+      "pl": "Gdy przyjechali strażacy, mieszkańcy opuścili budynek.",
+      "de": "Als die Feuerwehr eintraf, hatten die Bewohner das Gebäude verlassen.",
       "level": "B1"
     },
     {
-      "en": "Translate: By the time the doctor arrived, the patient had regained consciousness.",
-      "pl": "Przetłumacz: Zanim przybył lekarz, pacjent odzyskał przytomność.",
-      "de": "Als der Arzt eintraf, hatte der Patient das Bewusstsein wiedererlangt.",
+      "en": "The company had repaired the system before the next inspection.",
+      "pl": "Firma naprawiła system przed następną kontrolą.",
+      "de": "Das Unternehmen hatte das System vor der nächsten Kontrolle repariert.",
       "level": "B1"
     },
     {
-      "en": "Complete: After the train had arrived, the passengers left the platform. (ankommen)",
-      "pl": "Uzupełnij: Gdy pociąg przyjechał, pasażerowie opuścili peron. (ankommen)",
-      "de": "Nachdem der Zug angekommen war, verließen die Fahrgäste den Bahnsteig.",
+      "en": "After the storm had passed, electricity returned to the village.",
+      "pl": "Po przejściu burzy w wiosce przywrócono prąd.",
+      "de": "Nachdem der Sturm vorübergezogen war, kehrte der Strom ins Dorf zurück.",
       "level": "B1"
     },
     {
-      "en": "Translate: The team had discussed the proposal before the director made a decision.",
-      "pl": "Przetłumacz: Zespół omówił propozycję, zanim dyrektor podjął decyzję.",
-      "de": "Das Team hatte den Vorschlag besprochen, bevor der Direktor eine Entscheidung traf.",
+      "en": "When the interview began, the journalist had prepared several questions.",
+      "pl": "Gdy rozpoczął się wywiad, dziennikarz przygotował już kilka pytań.",
+      "de": "Als das Interview begann, hatte der Journalist mehrere Fragen vorbereitet.",
       "level": "B1"
     },
     {
-      "en": "Complete: She discovered that someone had opened the window. (öffnen)",
-      "pl": "Uzupełnij: Odkryła, że ktoś otworzył okno. (öffnen)",
-      "de": "Sie entdeckte, dass jemand das Fenster geöffnet hatte.",
+      "en": "They had booked the hotel before they bought the tickets.",
+      "pl": "Zarezerwowali hotel, zanim kupili bilety.",
+      "de": "Sie hatten das Hotel gebucht, bevor sie die Fahrkarten kauften.",
       "level": "B1"
     },
     {
-      "en": "Translate: The storm had weakened before the rescue team arrived.",
-      "pl": "Przetłumacz: Burza osłabła, zanim przybyła ekipa ratunkowa.",
-      "de": "Der Sturm hatte nachgelassen, bevor das Rettungsteam eintraf.",
+      "en": "The delegation had reached an agreement before the press conference.",
+      "pl": "Delegacja osiągnęła porozumienie przed konferencją prasową.",
+      "de": "Die Delegation hatte vor der Pressekonferenz eine Einigung erzielt.",
       "level": "B1"
     },
     {
-      "en": "Complete: Because the company had lost its largest client, it reduced its expenses. (verlieren)",
-      "pl": "Uzupełnij: Ponieważ firma straciła największego klienta, ograniczyła wydatki. (verlieren)",
-      "de": "Weil das Unternehmen seinen größten Kunden verloren hatte, senkte es seine Ausgaben.",
+      "en": "After the police had secured the area, investigators entered the building.",
+      "pl": "Gdy policja zabezpieczyła teren, śledczy weszli do budynku.",
+      "de": "Nachdem die Polizei das Gebiet gesichert hatte, betraten die Ermittler das Gebäude.",
       "level": "B1"
     },
     {
-      "en": "Translate: When the journalist arrived, the press conference had already ended.",
-      "pl": "Przetłumacz: Gdy dziennikarz przybył, konferencja prasowa już się zakończyła.",
-      "de": "Als der Journalist eintraf, hatte die Pressekonferenz bereits geendet.",
+      "en": "The residents had received warnings before the river flooded.",
+      "pl": "Mieszkańcy otrzymali ostrzeżenia, zanim rzeka wystąpiła z brzegów.",
+      "de": "Die Bewohner hatten Warnungen erhalten, bevor der Fluss über die Ufer trat.",
       "level": "B1"
     },
     {
-      "en": "Complete: After the authorities had received the report, they began an investigation. (erhalten)",
-      "pl": "Uzupełnij: Po otrzymaniu raportu władze rozpoczęły dochodzenie. (erhalten)",
-      "de": "Nachdem die Behörden den Bericht erhalten hatten, begannen sie eine Untersuchung.",
+      "en": "When the president arrived, the guests had already taken their seats.",
+      "pl": "Gdy przybył prezydent, goście zajęli już miejsca.",
+      "de": "Als der Präsident eintraf, hatten die Gäste bereits ihre Plätze eingenommen.",
       "level": "B1"
     },
     {
-      "en": "Translate: He realised that he had misunderstood the instructions.",
-      "pl": "Przetłumacz: Zdał sobie sprawę, że źle zrozumiał instrukcje.",
-      "de": "Er erkannte, dass er die Anweisungen missverstanden hatte.",
+      "en": "The engineer had tested the equipment before the demonstration.",
+      "pl": "Inżynier przetestował sprzęt przed demonstracją.",
+      "de": "Der Ingenieur hatte die Geräte vor der Vorführung getestet.",
       "level": "B1"
     },
     {
-      "en": "Complete: The plane had landed before the passengers were informed. (landen)",
-      "pl": "Uzupełnij: Samolot wylądował, zanim poinformowano pasażerów. (landen)",
-      "de": "Das Flugzeug war gelandet, bevor die Passagiere informiert wurden.",
+      "en": "After the visitors had left, the staff closed the museum.",
+      "pl": "Gdy zwiedzający wyszli, personel zamknął muzeum.",
+      "de": "Nachdem die Besucher gegangen waren, schloss das Personal das Museum.",
       "level": "B1"
     },
     {
-      "en": "Translate: By the time we reached the hotel, the reception desk had closed.",
-      "pl": "Przetłumacz: Zanim dotarliśmy do hotelu, recepcja była już zamknięta.",
-      "de": "Als wir das Hotel erreichten, hatte die Rezeption bereits geschlossen.",
+      "en": "The journalist had checked the information before publishing the article.",
+      "pl": "Dziennikarz sprawdził informacje przed opublikowaniem artykułu.",
+      "de": "Der Journalist hatte die Informationen überprüft, bevor er den Artikel veröffentlichte.",
       "level": "B1"
     },
     {
-      "en": "Complete: The police found evidence that the suspect had entered the building earlier. (betreten)",
-      "pl": "Uzupełnij: Policja znalazła dowody, że podejrzany wcześniej wszedł do budynku. (betreten)",
-      "de": "Die Polizei fand Beweise dafür, dass der Verdächtige das Gebäude früher betreten hatte.",
+      "en": "When the meeting ended, the participants had agreed on the next steps.",
+      "pl": "Gdy spotkanie się zakończyło, uczestnicy uzgodnili kolejne kroki.",
+      "de": "Als die Besprechung endete, hatten sich die Teilnehmenden auf die nächsten Schritte geeinigt.",
       "level": "B1"
     },
     {
-      "en": "Translate: Before the negotiations began, both delegations had agreed on the agenda.",
-      "pl": "Przetłumacz: Zanim rozpoczęły się negocjacje, obie delegacje uzgodniły porządek obrad.",
-      "de": "Bevor die Verhandlungen begannen, hatten beide Delegationen die Tagesordnung vereinbart.",
+      "en": "The rescue team had found the missing hikers before nightfall.",
+      "pl": "Zespół ratunkowy odnalazł zaginionych turystów przed zmrokiem.",
+      "de": "Das Rettungsteam hatte die vermissten Wanderer vor Einbruch der Dunkelheit gefunden.",
       "level": "B1"
     },
     {
-      "en": "Complete: Although the council had approved the plan, implementation was delayed. (genehmigen)",
-      "pl": "Uzupełnij: Chociaż rada zatwierdziła plan, wdrożenie zostało opóźnione. (genehmigen)",
-      "de": "Obwohl der Rat den Plan genehmigt hatte, verzögerte sich die Umsetzung.",
+      "en": "After the government had announced the measures, the markets reacted.",
+      "pl": "Po ogłoszeniu przez rząd środków rynek zareagował.",
+      "de": "Nachdem die Regierung die Maßnahmen angekündigt hatte, reagierten die Märkte.",
       "level": "B1"
     },
     {
-      "en": "Translate: The researchers had collected sufficient data before they published their findings.",
-      "pl": "Przetłumacz: Badacze zebrali wystarczające dane, zanim opublikowali wyniki.",
-      "de": "Die Forschenden hatten genügend Daten gesammelt, bevor sie ihre Ergebnisse veröffentlichten.",
+      "en": "The workers had finished the repairs before the factory reopened.",
+      "pl": "Pracownicy zakończyli naprawy, zanim fabryka ponownie otworzyła działalność.",
+      "de": "Die Beschäftigten hatten die Reparaturen abgeschlossen, bevor das Werk wieder öffnete.",
       "level": "B1"
     },
     {
-      "en": "Complete: She noticed that the figures had changed since the previous report. (sich ändern)",
-      "pl": "Uzupełnij: Zauważyła, że wartości zmieniły się od poprzedniego raportu. (sich ändern)",
-      "de": "Sie bemerkte, dass sich die Zahlen seit dem vorherigen Bericht geändert hatten.",
+      "en": "When the alarm sounded, the staff had already evacuated the building.",
+      "pl": "Gdy rozległ się alarm, personel zdążył już ewakuować budynek.",
+      "de": "Als der Alarm ertönte, hatte das Personal das Gebäude bereits evakuiert.",
       "level": "B1"
     },
     {
-      "en": "Translate: The government had announced the measures before the markets reacted.",
-      "pl": "Przetłumacz: Rząd ogłosił środki, zanim zareagowały rynki.",
-      "de": "Die Regierung hatte die Maßnahmen angekündigt, bevor die Märkte reagierten.",
+      "en": "The court had examined the evidence before it announced its decision.",
+      "pl": "Sąd zbadał dowody, zanim ogłosił decyzję.",
+      "de": "Das Gericht hatte die Beweise geprüft, bevor es seine Entscheidung bekannt gab.",
       "level": "B2"
     },
     {
-      "en": "Complete: By the time the inquiry started, the evidence had already been destroyed. (vernichten)",
-      "pl": "Uzupełnij: Zanim rozpoczęło się dochodzenie, dowody zostały już zniszczone. (vernichten)",
-      "de": "Als die Untersuchung begann, hatte man die Beweise bereits vernichtet.",
+      "en": "When the ceasefire took effect, both parties had withdrawn their heavy weapons.",
+      "pl": "Gdy zawieszenie broni weszło w życie, obie strony wycofały ciężką broń.",
+      "de": "Als die Waffenruhe in Kraft trat, hatten beide Parteien ihre schweren Waffen abgezogen.",
       "level": "B2"
     },
     {
-      "en": "Translate: The company revised its strategy because demand had fallen sharply.",
-      "pl": "Przetłumacz: Firma zmieniła strategię, ponieważ popyt gwałtownie spadł.",
-      "de": "Das Unternehmen überarbeitete seine Strategie, weil die Nachfrage stark gesunken war.",
+      "en": "The committee had revised the proposal before the final vote took place.",
+      "pl": "Komisja poprawiła projekt przed przeprowadzeniem ostatecznego głosowania.",
+      "de": "Der Ausschuss hatte den Vorschlag überarbeitet, bevor die Schlussabstimmung stattfand.",
       "level": "B2"
     },
     {
-      "en": "Complete: The negotiators discovered that the two sides had interpreted the agreement differently. (interpretieren)",
-      "pl": "Uzupełnij: Negocjatorzy odkryli, że obie strony inaczej zinterpretowały porozumienie. (interpretieren)",
-      "de": "Die Verhandlungsführer stellten fest, dass beide Seiten die Vereinbarung unterschiedlich interpretiert hatten.",
+      "en": "After the investigators had reconstructed the sequence of events, they issued a statement.",
+      "pl": "Po odtworzeniu przebiegu wydarzeń śledczy wydali oświadczenie.",
+      "de": "Nachdem die Ermittler den Ablauf rekonstruiert hatten, gaben sie eine Erklärung ab.",
       "level": "B2"
     },
     {
-      "en": "Translate: The city introduced new restrictions after the demonstrations had escalated.",
-      "pl": "Przetłumacz: Miasto wprowadziło nowe ograniczenia po tym, jak demonstracje przybrały na sile.",
-      "de": "Die Stadt führte neue Einschränkungen ein, nachdem die Demonstrationen eskaliert waren.",
+      "en": "The authorities had underestimated the damage before the full assessment became available.",
+      "pl": "Władze nie doszacowały szkód, zanim udostępniono pełną ocenę.",
+      "de": "Die Behörden hatten die Schäden unterschätzt, bevor die vollständige Bewertung vorlag.",
       "level": "B2"
     },
     {
-      "en": "Complete: The agency had issued several warnings before the storm reached the coast. (ausgeben)",
-      "pl": "Uzupełnij: Agencja wydała kilka ostrzeżeń, zanim burza dotarła do wybrzeża. (ausgeben)",
-      "de": "Die Behörde hatte mehrere Warnungen ausgegeben, bevor der Sturm die Küste erreichte.",
+      "en": "By the time the conference began, several delegates had withdrawn their objections.",
+      "pl": "Do rozpoczęcia konferencji kilku delegatów wycofało swoje zastrzeżenia.",
+      "de": "Als die Konferenz begann, hatten mehrere Delegierte ihre Einwände zurückgezogen.",
       "level": "B2"
     },
     {
-      "en": "Translate: He had underestimated the costs, which later caused serious difficulties.",
-      "pl": "Przetłumacz: Nie docenił kosztów, co później spowodowało poważne trudności.",
-      "de": "Er hatte die Kosten unterschätzt, was später erhebliche Schwierigkeiten verursachte.",
+      "en": "The organisation had issued an updated statement before the allegations spread.",
+      "pl": "Organizacja wydała zaktualizowane oświadczenie, zanim rozeszły się zarzuty.",
+      "de": "Die Organisation hatte eine aktualisierte Erklärung veröffentlicht, bevor sich die Vorwürfe verbreiteten.",
       "level": "B2"
     },
     {
-      "en": "Complete: After the committee had evaluated the applications, it selected three candidates. (bewerten)",
-      "pl": "Uzupełnij: Po ocenieniu wniosków komisja wybrała trzech kandydatów. (bewerten)",
-      "de": "Nachdem der Ausschuss die Bewerbungen bewertet hatte, wählte er drei Kandidaten aus.",
+      "en": "When the new regulations came into force, many businesses had already adapted their procedures.",
+      "pl": "Gdy nowe przepisy weszły w życie, wiele firm dostosowało już swoje procedury.",
+      "de": "Als die neuen Vorschriften in Kraft traten, hatten viele Unternehmen ihre Verfahren bereits angepasst.",
       "level": "B2"
     },
     {
-      "en": "Translate: The minister denied that the administration had ignored the warnings.",
-      "pl": "Przetłumacz: Minister zaprzeczył, że administracja zignorowała ostrzeżenia.",
-      "de": "Der Minister bestritt, dass die Verwaltung die Warnungen ignoriert hatte.",
+      "en": "The mediators had held several consultations before the two sides resumed negotiations.",
+      "pl": "Mediatorzy przeprowadzili kilka konsultacji, zanim obie strony wznowiły negocjacje.",
+      "de": "Die Vermittler hatten mehrere Gespräche geführt, bevor beide Seiten die Verhandlungen wiederaufnahmen.",
       "level": "B2"
     },
     {
-      "en": "Complete: The infrastructure was already damaged because maintenance had been postponed repeatedly. (verschieben)",
-      "pl": "Uzupełnij: Infrastruktura była już uszkodzona, ponieważ konserwację wielokrotnie odkładano. (verschieben)",
-      "de": "Die Infrastruktur war bereits beschädigt, weil die Wartung wiederholt verschoben worden war.",
+      "en": "After the monitoring team had documented the violations, it submitted its findings.",
+      "pl": "Po udokumentowaniu naruszeń zespół monitorujący przedłożył swoje ustalenia.",
+      "de": "Nachdem das Beobachtungsteam die Verstöße dokumentiert hatte, legte es seine Ergebnisse vor.",
       "level": "B2"
     },
     {
-      "en": "Translate: When the agreement came into force, both governments had completed the necessary procedures.",
-      "pl": "Przetłumacz: Gdy porozumienie weszło w życie, oba rządy zakończyły niezbędne procedury.",
-      "de": "Als das Abkommen in Kraft trat, hatten beide Regierungen die notwendigen Verfahren abgeschlossen.",
+      "en": "The researchers had identified a pattern before they formulated their hypothesis.",
+      "pl": "Badacze rozpoznali pewien wzorzec, zanim sformułowali hipotezę.",
+      "de": "Die Forschenden hatten ein Muster erkannt, bevor sie ihre Hypothese formulierten.",
       "level": "B2"
     },
     {
-      "en": "Complete: The company discovered that its competitor had already entered the market. (eintreten)",
-      "pl": "Uzupełnij: Firma odkryła, że jej konkurent zdążył już wejść na rynek. (eintreten)",
-      "de": "Das Unternehmen stellte fest, dass sein Konkurrent bereits in den Markt eingetreten war.",
+      "en": "When the network failed, technicians had already isolated the affected server.",
+      "pl": "Gdy sieć przestała działać, technicy zdążyli już odizolować serwer, którego dotyczył problem.",
+      "de": "Als das Netzwerk ausfiel, hatten die Techniker den betroffenen Server bereits isoliert.",
       "level": "B2"
     },
     {
-      "en": "Translate: The investigators established that the suspect had changed his account several times.",
-      "pl": "Przetłumacz: Śledczy ustalili, że podejrzany kilkakrotnie zmieniał swoją wersję wydarzeń.",
-      "de": "Die Ermittler stellten fest, dass der Verdächtige seine Aussage mehrmals geändert hatte.",
+      "en": "The city had expanded its emergency capacity before the severe weather arrived.",
+      "pl": "Miasto zwiększyło możliwości reagowania kryzysowego, zanim nadeszła gwałtowna pogoda.",
+      "de": "Die Stadt hatte ihre Notfallkapazitäten erweitert, bevor das Unwetter eintraf.",
       "level": "B2"
     },
     {
-      "en": "Complete: Before the policy was adopted, experts had raised several objections. (erheben)",
-      "pl": "Uzupełnij: Zanim przyjęto tę politykę, eksperci zgłosili kilka zastrzeżeń. (erheben)",
-      "de": "Bevor die Richtlinie verabschiedet wurde, hatten Experten mehrere Einwände erhoben.",
+      "en": "After the agency had verified the documents, it approved the application.",
+      "pl": "Po zweryfikowaniu dokumentów agencja zatwierdziła wniosek.",
+      "de": "Nachdem die Behörde die Unterlagen überprüft hatte, genehmigte sie den Antrag.",
       "level": "B2"
     },
     {
-      "en": "Translate: The rescue operation was difficult because the roads had been blocked by fallen trees.",
-      "pl": "Przetłumacz: Akcja ratunkowa była trudna, ponieważ powalone drzewa zablokowały drogi.",
-      "de": "Der Rettungseinsatz war schwierig, weil umgestürzte Bäume die Straßen blockiert hatten.",
+      "en": "The spokesperson had clarified the wording before the interview was broadcast.",
+      "pl": "Rzecznik doprecyzował sformułowanie, zanim wyemitowano wywiad.",
+      "de": "Der Sprecher hatte die Formulierung präzisiert, bevor das Interview ausgestrahlt wurde.",
       "level": "B2"
     },
     {
-      "en": "Complete: The spokesperson clarified that the authorities had not received the information in time. (erhalten)",
-      "pl": "Uzupełnij: Rzecznik wyjaśnił, że władze nie otrzymały informacji na czas. (erhalten)",
-      "de": "Der Sprecher stellte klar, dass die Behörden die Information nicht rechtzeitig erhalten hatten.",
+      "en": "By the time the investigators arrived, witnesses had left the immediate area.",
+      "pl": "Do czasu przybycia śledczych świadkowie opuścili bezpośrednie miejsce zdarzenia.",
+      "de": "Als die Ermittler eintrafen, hatten die Zeugen den unmittelbaren Tatort verlassen.",
       "level": "B2"
     },
     {
-      "en": "Translate: After the tribunal had examined the evidence, it announced its decision.",
-      "pl": "Przetłumacz: Po zbadaniu dowodów trybunał ogłosił decyzję.",
-      "de": "Nachdem das Gericht die Beweise geprüft hatte, verkündete es seine Entscheidung.",
+      "en": "The authorities had introduced additional checks before the security breach was discovered.",
+      "pl": "Władze wprowadziły dodatkowe kontrole, zanim odkryto naruszenie bezpieczeństwa.",
+      "de": "Die Behörden hatten zusätzliche Kontrollen eingeführt, bevor die Sicherheitslücke entdeckt wurde.",
       "level": "B2"
     },
     {
-      "en": "Complete: The negotiations resumed once both parties had clarified their demands. (klären)",
-      "pl": "Uzupełnij: Negocjacje wznowiono, gdy obie strony wyjaśniły swoje żądania. (klären)",
-      "de": "Die Verhandlungen wurden wieder aufgenommen, nachdem beide Parteien ihre Forderungen geklärt hatten.",
+      "en": "The panel had reviewed the objections before it issued its recommendation.",
+      "pl": "Zespół przeanalizował zastrzeżenia, zanim wydał zalecenie.",
+      "de": "Das Gremium hatte die Einwände geprüft, bevor es seine Empfehlung aussprach.",
       "level": "B2"
     },
     {
-      "en": "Translate: The data revealed that the population had declined more rapidly than expected.",
-      "pl": "Przetłumacz: Dane wykazały, że liczba ludności spadła szybciej, niż oczekiwano.",
-      "de": "Die Daten zeigten, dass die Bevölkerung schneller zurückgegangen war als erwartet.",
+      "en": "After the parties had exchanged written proposals, they arranged a meeting.",
+      "pl": "Po wymianie pisemnych propozycji strony zorganizowały spotkanie.",
+      "de": "Nachdem die Parteien schriftliche Vorschläge ausgetauscht hatten, vereinbarten sie ein Treffen.",
       "level": "B2"
     },
     {
-      "en": "Complete: The authorities reacted only after several residents had reported the damage. (melden)",
-      "pl": "Uzupełnij: Władze zareagowały dopiero po tym, jak kilku mieszkańców zgłosiło szkody. (melden)",
-      "de": "Die Behörden reagierten erst, nachdem mehrere Einwohner die Schäden gemeldet hatten.",
+      "en": "The department had allocated funds before the revised budget was approved.",
+      "pl": "Departament przydzielił środki, zanim zatwierdzono zmieniony budżet.",
+      "de": "Das Ministerium hatte Mittel bereitgestellt, bevor der überarbeitete Haushalt genehmigt wurde.",
       "level": "B2"
     },
     {
-      "en": "Translate: The proposal was rejected because its authors had failed to explain the financial implications.",
-      "pl": "Przetłumacz: Propozycja została odrzucona, ponieważ jej autorzy nie wyjaśnili konsekwencji finansowych.",
-      "de": "Der Vorschlag wurde abgelehnt, weil seine Verfasser die finanziellen Folgen nicht erklärt hatten.",
+      "en": "When the report was released, the commission had already consulted external experts.",
+      "pl": "Gdy opublikowano raport, komisja skonsultowała się już z zewnętrznymi ekspertami.",
+      "de": "Als der Bericht veröffentlicht wurde, hatte die Kommission bereits externe Fachleute konsultiert.",
       "level": "B2"
     },
     {
-      "en": "Complete: By the time the conference opened, the organisers had resolved most technical problems. (beheben)",
-      "pl": "Uzupełnij: Zanim rozpoczęła się konferencja, organizatorzy rozwiązali większość problemów technicznych. (beheben)",
-      "de": "Als die Konferenz eröffnet wurde, hatten die Organisatoren die meisten technischen Probleme behoben.",
+      "en": "The organisation had established a clear protocol before the crisis escalated.",
+      "pl": "Organizacja ustanowiła jasny protokół, zanim kryzys się zaostrzył.",
+      "de": "Die Organisation hatte ein klares Verfahren festgelegt, bevor die Krise eskalierte.",
       "level": "B2"
     },
     {
-      "en": "Translate: The authorities acknowledged that they had overlooked an important warning.",
-      "pl": "Przetłumacz: Władze przyznały, że przeoczyły ważne ostrzeżenie.",
-      "de": "Die Behörden räumten ein, dass sie eine wichtige Warnung übersehen hatten.",
+      "en": "The team had completed the risk analysis before presenting its conclusions.",
+      "pl": "Zespół zakończył analizę ryzyka przed przedstawieniem wniosków.",
+      "de": "Das Team hatte die Risikoanalyse abgeschlossen, bevor es seine Schlussfolgerungen vorstellte.",
       "level": "B2"
     },
     {
-      "en": "Complete: The journalist corrected the article after the editor had identified the error. (feststellen)",
-      "pl": "Uzupełnij: Dziennikarz poprawił artykuł po tym, jak redaktor wykrył błąd. (feststellen)",
-      "de": "Der Journalist korrigierte den Artikel, nachdem der Redakteur den Fehler festgestellt hatte.",
+      "en": "By the time the authorities responded, the rumour had spread across several platforms.",
+      "pl": "Do czasu reakcji władz pogłoska rozeszła się na kilku platformach.",
+      "de": "Als die Behörden reagierten, hatte sich das Gerücht bereits auf mehreren Plattformen verbreitet.",
       "level": "B2"
     },
     {
-      "en": "Translate: The government faced criticism because it had failed to consult local communities.",
-      "pl": "Przetłumacz: Rząd spotkał się z krytyką, ponieważ nie skonsultował się z lokalnymi społecznościami.",
-      "de": "Die Regierung geriet in die Kritik, weil sie die lokalen Gemeinschaften nicht konsultiert hatte.",
+      "en": "The negotiators had settled the technical questions before the political discussions resumed.",
+      "pl": "Negocjatorzy rozstrzygnęli kwestie techniczne, zanim wznowiono rozmowy polityczne.",
+      "de": "Die Verhandler hatten die technischen Fragen geklärt, bevor die politischen Gespräche wiederaufgenommen wurden.",
       "level": "B2"
     },
     {
-      "en": "Complete: After the researchers had accounted for seasonal differences, the results became clearer. (berücksichtigen)",
-      "pl": "Uzupełnij: Po uwzględnieniu różnic sezonowych wyniki stały się bardziej przejrzyste. (berücksichtigen)",
-      "de": "Nachdem die Forschenden saisonale Unterschiede berücksichtigt hatten, wurden die Ergebnisse deutlicher.",
+      "en": "The institution had changed its procedures after it had identified recurring weaknesses.",
+      "pl": "Instytucja zmieniła procedury po zidentyfikowaniu powtarzających się słabości.",
+      "de": "Die Institution hatte ihre Verfahren geändert, nachdem sie wiederkehrende Schwachstellen identifiziert hatte.",
       "level": "B2"
     },
     {
-      "en": "Translate: The project was delayed because several suppliers had withdrawn their offers.",
-      "pl": "Przetłumacz: Projekt został opóźniony, ponieważ kilku dostawców wycofało swoje oferty.",
-      "de": "Das Projekt verzögerte sich, weil mehrere Lieferanten ihre Angebote zurückgezogen hatten.",
+      "en": "The investigation revealed that the contractor had ignored several warnings.",
+      "pl": "Dochodzenie wykazało, że wykonawca zignorował kilka ostrzeżeń.",
+      "de": "Die Untersuchung ergab, dass der Auftragnehmer mehrere Warnungen ignoriert hatte.",
       "level": "B2"
     },
     {
-      "en": "Complete: The board reconsidered its decision after new evidence had emerged. (auftauchen)",
-      "pl": "Uzupełnij: Zarząd ponownie rozważył decyzję po pojawieniu się nowych dowodów. (auftauchen)",
-      "de": "Der Vorstand überdachte seine Entscheidung, nachdem neue Beweise aufgetaucht waren.",
+      "en": "The board had approved the revised strategy before the unexpected resignation.",
+      "pl": "Zarząd zatwierdził zmienioną strategię przed niespodziewaną rezygnacją.",
+      "de": "Der Vorstand hatte die überarbeitete Strategie vor dem unerwarteten Rücktritt genehmigt.",
       "level": "B2"
     },
     {
-      "en": "Translate: The report showed that earlier estimates had underestimated the scale of the problem.",
-      "pl": "Przetłumacz: Raport wykazał, że wcześniejsze szacunki nie oddawały skali problemu.",
-      "de": "Der Bericht zeigte, dass frühere Schätzungen das Ausmaß des Problems unterschätzt hatten.",
-      "level": "B2"
-    },
-    {
-      "en": "Complete: The agency intervened after it had received credible evidence of misconduct. (erhalten)",
-      "pl": "Uzupełnij: Agencja interweniowała po otrzymaniu wiarygodnych dowodów niewłaściwego postępowania. (erhalten)",
-      "de": "Die Behörde griff ein, nachdem sie glaubwürdige Beweise für Fehlverhalten erhalten hatte.",
-      "level": "B2"
-    },
-    {
-      "en": "Translate: The initiative gained support because its organisers had demonstrated measurable benefits.",
-      "pl": "Przetłumacz: Inicjatywa zyskała poparcie, ponieważ jej organizatorzy wykazali wymierne korzyści.",
-      "de": "Die Initiative gewann Unterstützung, weil ihre Organisatoren messbare Vorteile nachgewiesen hatten.",
-      "level": "B2"
-    },
-    {
-      "en": "Complete: The investigation revealed that the documents had been altered before publication. (verändern)",
-      "pl": "Uzupełnij: Dochodzenie wykazało, że dokumenty zmieniono przed publikacją. (verändern)",
-      "de": "Die Untersuchung ergab, dass die Dokumente vor der Veröffentlichung verändert worden waren.",
-      "level": "B2"
-    },
-    {
-      "en": "Translate: The negotiations stalled after both sides had hardened their positions.",
-      "pl": "Przetłumacz: Negocjacje utknęły w martwym punkcie, gdy obie strony usztywniły swoje stanowiska.",
-      "de": "Die Verhandlungen gerieten ins Stocken, nachdem beide Seiten ihre Positionen verhärtet hatten.",
-      "level": "B2"
-    },
-    {
-      "en": "Complete: The organisation changed its procedures because it had identified a recurring risk. (erkennen)",
-      "pl": "Uzupełnij: Organizacja zmieniła procedury, ponieważ rozpoznała powtarzające się zagrożenie. (erkennen)",
-      "de": "Die Organisation änderte ihre Verfahren, weil sie ein wiederkehrendes Risiko erkannt hatte.",
-      "level": "B2"
-    },
-    {
-      "en": "Translate: The court ruled that the defendant had acted after receiving explicit instructions.",
-      "pl": "Przetłumacz: Sąd orzekł, że oskarżony działał po otrzymaniu wyraźnych instrukcji.",
-      "de": "Das Gericht entschied, dass der Angeklagte gehandelt hatte, nachdem er ausdrückliche Anweisungen erhalten hatte.",
-      "level": "B2"
-    },
-    {
-      "en": "Complete: By the time the authorities published their findings, public confidence had already declined. (sinken)",
-      "pl": "Uzupełnij: Zanim władze opublikowały wyniki, zaufanie społeczne już spadło. (sinken)",
-      "de": "Als die Behörden ihre Ergebnisse veröffentlichten, war das öffentliche Vertrauen bereits gesunken.",
-      "level": "B2"
-    },
-    {
-      "en": "Translate: The review concluded that previous policies had aggravated existing inequalities.",
-      "pl": "Przetłumacz: Przegląd wykazał, że wcześniejsze polityki pogłębiły istniejące nierówności.",
-      "de": "Die Überprüfung kam zu dem Schluss, dass frühere Maßnahmen bestehende Ungleichheiten verschärft hatten.",
-      "level": "B2"
-    },
-    {
-      "en": "Complete: The committee postponed the vote because several members had requested further clarification. (anfordern)",
-      "pl": "Uzupełnij: Komisja odroczyła głosowanie, ponieważ kilku członków zażądało dodatkowych wyjaśnień. (anfordern)",
-      "de": "Der Ausschuss verschob die Abstimmung, weil mehrere Mitglieder weitere Erläuterungen angefordert hatten.",
-      "level": "B2"
-    },
-    {
-      "en": "Translate: The final assessment differed substantially from what the analysts had predicted.",
-      "pl": "Przetłumacz: Ostateczna ocena znacznie różniła się od tego, co przewidywali analitycy.",
-      "de": "Die abschließende Bewertung unterschied sich erheblich von dem, was die Analysten vorhergesagt hatten.",
-      "level": "B2"
-    },
-    {
-      "en": "Complete: The authorities reopened the case after additional witnesses had come forward. (sich melden)",
-      "pl": "Uzupełnij: Władze ponownie otworzyły sprawę po zgłoszeniu się dodatkowych świadków. (sich melden)",
-      "de": "Die Behörden nahmen den Fall wieder auf, nachdem sich weitere Zeugen gemeldet hatten.",
-      "level": "B2"
-    },
-    {
-      "en": "Complete: The policy was revised after an independent review had exposed serious weaknesses. (aufdecken)",
-      "pl": "Uzupełnij: Politykę zmieniono po tym, jak niezależna analiza ujawniła poważne słabości. (aufdecken)",
-      "de": "Die Richtlinie wurde überarbeitet, nachdem eine unabhängige Prüfung erhebliche Schwächen aufgedeckt hatte.",
+      "en": "After the agency had compared the competing assessments, it published a consolidated report.",
+      "pl": "Po porównaniu rozbieżnych ocen agencja opublikowała zbiorczy raport.",
+      "de": "Nachdem die Behörde die unterschiedlichen Bewertungen verglichen hatte, veröffentlichte sie einen zusammengefassten Bericht.",
       "level": "C1"
     },
     {
-      "en": "Translate: The minister's statement contradicted information that the administration had previously released.",
-      "pl": "Przetłumacz: Wypowiedź ministra była sprzeczna z informacjami, które administracja opublikowała wcześniej.",
-      "de": "Die Erklärung des Ministers widersprach Informationen, welche die Verwaltung zuvor veröffentlicht hatte.",
+      "en": "The inquiry established that the officials had withheld information before the decision was made.",
+      "pl": "Postępowanie wykazało, że urzędnicy zataili informacje przed podjęciem decyzji.",
+      "de": "Die Untersuchung stellte fest, dass die Beamten Informationen zurückgehalten hatten, bevor die Entscheidung getroffen wurde.",
       "level": "C1"
     },
     {
-      "en": "Complete: The negotiations had reached a critical stage before either delegation acknowledged the remaining differences. (erreichen)",
-      "pl": "Uzupełnij: Negocjacje osiągnęły krytyczny etap, zanim którakolwiek delegacja przyznała, że pozostały różnice. (erreichen)",
-      "de": "Die Verhandlungen hatten eine kritische Phase erreicht, bevor eine der beiden Delegationen die verbleibenden Differenzen anerkannte.",
+      "en": "By the time the revised forecast appeared, analysts had already adjusted their expectations.",
+      "pl": "Do czasu opublikowania skorygowanej prognozy analitycy zdążyli już zmienić swoje oczekiwania.",
+      "de": "Als die überarbeitete Prognose erschien, hatten die Analysten ihre Erwartungen bereits angepasst.",
       "level": "C1"
     },
     {
-      "en": "Translate: The inquiry established that officials had disregarded procedures despite having been repeatedly reminded of them.",
-      "pl": "Przetłumacz: Dochodzenie ustaliło, że urzędnicy lekceważyli procedury, mimo że wielokrotnie im o nich przypominano.",
-      "de": "Die Untersuchung ergab, dass die Beamten die Verfahren missachtet hatten, obwohl man sie wiederholt daran erinnert hatte.",
+      "en": "The mediator recognised that both parties had misunderstood the scope of the agreement.",
+      "pl": "Mediator zrozumiał, że obie strony błędnie zinterpretowały zakres porozumienia.",
+      "de": "Der Vermittler erkannte, dass beide Parteien den Umfang der Vereinbarung missverstanden hatten.",
       "level": "C1"
     },
     {
-      "en": "Complete: The programme failed to achieve its objectives because its designers had overlooked structural barriers. (übersehen)",
-      "pl": "Uzupełnij: Program nie osiągnął celów, ponieważ jego twórcy przeoczyli bariery strukturalne. (übersehen)",
-      "de": "Das Programm verfehlte seine Ziele, weil seine Entwickler strukturelle Hindernisse übersehen hatten.",
+      "en": "Although the committee had acknowledged the shortcomings, it had not proposed an effective remedy.",
+      "pl": "Chociaż komisja uznała niedociągnięcia, nie zaproponowała skutecznego rozwiązania.",
+      "de": "Obwohl der Ausschuss die Mängel anerkannt hatte, hatte er keine wirksame Abhilfe vorgeschlagen.",
       "level": "C1"
     },
     {
-      "en": "Translate: By the time the compromise was announced, both parties had already made substantial concessions.",
-      "pl": "Przetłumacz: Zanim ogłoszono kompromis, obie strony poczyniły już znaczne ustępstwa.",
-      "de": "Als der Kompromiss bekannt gegeben wurde, hatten beide Parteien bereits erhebliche Zugeständnisse gemacht.",
+      "en": "The auditors discovered that the department had misclassified the expenditure in earlier reports.",
+      "pl": "Audytorzy odkryli, że departament błędnie zaklasyfikował wydatki we wcześniejszych raportach.",
+      "de": "Die Prüfer entdeckten, dass das Referat die Ausgaben in früheren Berichten falsch eingeordnet hatte.",
       "level": "C1"
     },
     {
-      "en": "Complete: The report demonstrated that the apparent improvement had resulted from a change in measurement rather than actual progress. (resultieren)",
-      "pl": "Uzupełnij: Raport wykazał, że pozorna poprawa wynikała ze zmiany sposobu pomiaru, a nie z rzeczywistego postępu. (resultieren)",
-      "de": "Der Bericht zeigte, dass die scheinbare Verbesserung aus einer veränderten Messmethode resultiert hatte und nicht aus tatsächlichen Fortschritten.",
+      "en": "Once the researchers had accounted for seasonal variation, the apparent contradiction disappeared.",
+      "pl": "Gdy badacze uwzględnili zmienność sezonową, pozorna sprzeczność zniknęła.",
+      "de": "Nachdem die Forschenden saisonale Schwankungen berücksichtigt hatten, verschwand der scheinbare Widerspruch.",
       "level": "C1"
     },
     {
-      "en": "Translate: The board reconsidered its position after auditors had uncovered inconsistencies in the financial records.",
-      "pl": "Przetłumacz: Zarząd ponownie rozważył swoje stanowisko po tym, jak audytorzy wykryli niezgodności w dokumentacji finansowej.",
-      "de": "Der Vorstand überdachte seine Position, nachdem die Prüfer Unstimmigkeiten in den Finanzunterlagen aufgedeckt hatten.",
+      "en": "The report showed that the policy had produced unintended consequences before corrective measures were introduced.",
+      "pl": "Raport wykazał, że polityka przyniosła niezamierzone skutki, zanim wprowadzono działania naprawcze.",
+      "de": "Der Bericht zeigte, dass die Maßnahme unbeabsichtigte Folgen hervorgerufen hatte, bevor Korrekturmaßnahmen eingeführt wurden.",
       "level": "C1"
     },
     {
-      "en": "Complete: The diplomatic initiative lost credibility because its sponsors had failed to secure regional support. (sichern)",
-      "pl": "Uzupełnij: Inicjatywa dyplomatyczna straciła wiarygodność, ponieważ jej sponsorzy nie zdobyli poparcia regionalnego. (sichern)",
-      "de": "Die diplomatische Initiative verlor an Glaubwürdigkeit, weil ihre Träger die regionale Unterstützung nicht gesichert hatten.",
+      "en": "The spokesperson admitted that the institution had failed to communicate the risks adequately.",
+      "pl": "Rzecznik przyznał, że instytucja nie poinformowała odpowiednio o zagrożeniach.",
+      "de": "Der Sprecher räumte ein, dass die Institution die Risiken nicht ausreichend kommuniziert hatte.",
       "level": "C1"
     },
     {
-      "en": "Translate: The findings were difficult to interpret because the researchers had not controlled for several relevant variables.",
-      "pl": "Przetłumacz: Wyniki trudno było zinterpretować, ponieważ badacze nie kontrolowali kilku istotnych zmiennych.",
-      "de": "Die Ergebnisse waren schwer zu interpretieren, weil die Forschenden mehrere relevante Variablen nicht kontrolliert hatten.",
+      "en": "The panel concluded that the earlier estimates had overstated the likely economic impact.",
+      "pl": "Zespół uznał, że wcześniejsze szacunki zawyżały prawdopodobny wpływ gospodarczy.",
+      "de": "Das Gremium kam zu dem Schluss, dass die früheren Schätzungen die wahrscheinlichen wirtschaftlichen Auswirkungen übertrieben hatten.",
       "level": "C1"
     },
     {
-      "en": "Complete: The court rejected the argument after it had established that the evidence was inadmissible. (feststellen)",
-      "pl": "Uzupełnij: Sąd odrzucił argument po ustaleniu, że dowód jest niedopuszczalny. (feststellen)",
-      "de": "Das Gericht wies das Argument zurück, nachdem es festgestellt hatte, dass das Beweismittel unzulässig war.",
+      "en": "By the time the negotiations resumed, the original conditions had changed substantially.",
+      "pl": "Do czasu wznowienia negocjacji pierwotne warunki znacznie się zmieniły.",
+      "de": "Als die Verhandlungen wiederaufgenommen wurden, hatten sich die ursprünglichen Bedingungen erheblich verändert.",
       "level": "C1"
     },
     {
-      "en": "Translate: The administration had underestimated how rapidly public expectations would change.",
-      "pl": "Przetłumacz: Administracja nie doceniła, jak szybko zmienią się oczekiwania społeczne.",
-      "de": "Die Verwaltung hatte unterschätzt, wie rasch sich die Erwartungen der Öffentlichkeit verändern würden.",
+      "en": "The inquiry established that the warnings had been circulated but not properly acknowledged.",
+      "pl": "Postępowanie wykazało, że ostrzeżenia rozesłano, ale nie potwierdzono ich prawidłowo.",
+      "de": "Die Untersuchung stellte fest, dass die Warnungen weitergeleitet, aber nicht ordnungsgemäß bestätigt worden waren.",
       "level": "C1"
     },
     {
-      "en": "Complete: The proposal was withdrawn after internal discussions had revealed irreconcilable disagreements. (offenlegen)",
-      "pl": "Uzupełnij: Propozycję wycofano po tym, jak wewnętrzne rozmowy ujawniły niemożliwe do pogodzenia rozbieżności. (offenlegen)",
-      "de": "Der Vorschlag wurde zurückgezogen, nachdem interne Gespräche unvereinbare Meinungsverschiedenheiten offengelegt hatten.",
+      "en": "The analysts had revised the model before the new evidence undermined its central assumption.",
+      "pl": "Analitycy zaktualizowali model, zanim nowe dowody podważyły jego podstawowe założenie.",
+      "de": "Die Analysten hatten das Modell überarbeitet, bevor die neuen Belege seine zentrale Annahme infrage stellten.",
       "level": "C1"
     },
     {
-      "en": "Translate: The organisation's reputation had suffered before the allegations were formally investigated.",
-      "pl": "Przetłumacz: Reputacja organizacji ucierpiała, zanim formalnie zbadano zarzuty.",
-      "de": "Der Ruf der Organisation hatte gelitten, bevor die Vorwürfe offiziell untersucht wurden.",
+      "en": "The agency had established a monitoring mechanism before the agreement entered its implementation phase.",
+      "pl": "Agencja ustanowiła mechanizm monitorowania, zanim porozumienie weszło w fazę wdrażania.",
+      "de": "Die Behörde hatte einen Überwachungsmechanismus eingerichtet, bevor die Vereinbarung in die Umsetzungsphase eintrat.",
       "level": "C1"
     },
     {
-      "en": "Complete: The researchers concluded that the intervention had produced unintended consequences that subsequent evaluations had failed to detect. (hervorbringen)",
-      "pl": "Uzupełnij: Badacze doszli do wniosku, że interwencja wywołała niezamierzone skutki, których późniejsze oceny nie wykryły. (hervorbringen)",
-      "de": "Die Forschenden kamen zu dem Schluss, dass die Intervention unbeabsichtigte Folgen hervorgebracht hatte, die spätere Bewertungen nicht erkannt hatten.",
+      "en": "The investigation revealed that several safeguards had been bypassed without authorisation.",
+      "pl": "Dochodzenie ujawniło, że kilka zabezpieczeń ominięto bez upoważnienia.",
+      "de": "Die Untersuchung ergab, dass mehrere Schutzmaßnahmen ohne Genehmigung umgangen worden waren.",
       "level": "C1"
     },
     {
-      "en": "Translate: The settlement became possible only after both sides had abandoned their initial demands.",
-      "pl": "Przetłumacz: Porozumienie stało się możliwe dopiero po tym, jak obie strony porzuciły swoje początkowe żądania.",
-      "de": "Die Einigung wurde erst möglich, nachdem beide Seiten ihre ursprünglichen Forderungen aufgegeben hatten.",
+      "en": "The institution had documented the discrepancies before the external review commenced.",
+      "pl": "Instytucja udokumentowała rozbieżności, zanim rozpoczął się zewnętrzny przegląd.",
+      "de": "Die Institution hatte die Abweichungen dokumentiert, bevor die externe Prüfung begann.",
       "level": "C1"
     },
     {
-      "en": "Complete: The inquiry exposed a pattern of negligence that earlier inspections had neither identified nor adequately documented. (dokumentieren)",
-      "pl": "Uzupełnij: Dochodzenie ujawniło wzorzec zaniedbań, którego wcześniejsze kontrole ani nie zidentyfikowały, ani odpowiednio nie udokumentowały. (dokumentieren)",
-      "de": "Die Untersuchung deckte ein Muster der Fahrlässigkeit auf, das frühere Kontrollen weder erkannt noch angemessen dokumentiert hatten.",
+      "en": "The negotiators discovered that the draft had omitted a provision essential to enforcement.",
+      "pl": "Negocjatorzy odkryli, że w projekcie pominięto zapis niezbędny do egzekwowania porozumienia.",
+      "de": "Die Verhandler stellten fest, dass der Entwurf eine für die Durchsetzung wesentliche Bestimmung ausgelassen hatte.",
       "level": "C1"
     },
     {
-      "en": "Translate: The authorities had acted on preliminary information before the reliability of the source was established.",
-      "pl": "Przetłumacz: Władze podjęły działania na podstawie wstępnych informacji, zanim potwierdzono wiarygodność źródła.",
-      "de": "Die Behörden hatten auf Grundlage vorläufiger Informationen gehandelt, bevor die Zuverlässigkeit der Quelle festgestellt worden war.",
+      "en": "Although the team had anticipated logistical difficulties, the delays proved more extensive than expected.",
+      "pl": "Chociaż zespół przewidział trudności logistyczne, opóźnienia okazały się większe, niż oczekiwano.",
+      "de": "Obwohl das Team logistische Schwierigkeiten vorausgesehen hatte, fielen die Verzögerungen umfangreicher aus als erwartet.",
       "level": "C1"
     },
     {
-      "en": "Complete: The agreement remained fragile because the negotiators had addressed the immediate dispute without resolving its underlying causes. (beheben)",
-      "pl": "Uzupełnij: Porozumienie pozostało kruche, ponieważ negocjatorzy rozwiązali bieżący spór, nie usuwając jego podstawowych przyczyn. (beheben)",
-      "de": "Die Vereinbarung blieb fragil, weil die Verhandlungsführer den unmittelbaren Streit beigelegt hatten, ohne dessen Ursachen behoben zu haben.",
+      "en": "The review found that the authorities had interpreted the provision too narrowly.",
+      "pl": "Przegląd wykazał, że władze zbyt wąsko zinterpretowały ten przepis.",
+      "de": "Die Überprüfung ergab, dass die Behörden die Bestimmung zu eng ausgelegt hatten.",
       "level": "C1"
     },
     {
-      "en": "Translate: The final decision reflected concerns that policymakers had previously treated as marginal.",
-      "pl": "Przetłumacz: Ostateczna decyzja odzwierciedlała obawy, które decydenci wcześniej uznawali za marginalne.",
-      "de": "Die endgültige Entscheidung spiegelte Bedenken wider, die politische Entscheidungsträger zuvor als nebensächlich betrachtet hatten.",
+      "en": "The commission had gathered sufficient evidence before it formulated its final assessment.",
+      "pl": "Komisja zgromadziła wystarczające dowody, zanim sformułowała ostateczną ocenę.",
+      "de": "Die Kommission hatte ausreichende Beweise gesammelt, bevor sie ihre abschließende Bewertung formulierte.",
       "level": "C1"
     },
     {
-      "en": "Complete: The negotiations might have progressed differently had the parties recognised how fundamentally their objectives diverged. (erkennen)",
-      "pl": "Uzupełnij: Negocjacje mogłyby przebiec inaczej, gdyby strony rozpoznały, jak zasadniczo różnią się ich cele. (erkennen)",
-      "de": "Die Verhandlungen hätten anders verlaufen können, wenn die Parteien erkannt hätten, wie grundlegend ihre Ziele voneinander abwichen.",
+      "en": "The minister's explanation contradicted what the department had previously communicated.",
+      "pl": "Wyjaśnienie ministra było sprzeczne z tym, co departament wcześniej przekazał.",
+      "de": "Die Erklärung des Ministers widersprach dem, was das Ministerium zuvor mitgeteilt hatte.",
+      "level": "C1"
+    },
+    {
+      "en": "The auditors determined that the organisation had not retained the records required for verification.",
+      "pl": "Audytorzy ustalili, że organizacja nie zachowała dokumentacji wymaganej do weryfikacji.",
+      "de": "Die Prüfer stellten fest, dass die Organisation die zur Überprüfung erforderlichen Unterlagen nicht aufbewahrt hatte.",
+      "level": "C1"
+    },
+    {
+      "en": "The revised assessment suggested that the original analysis had overlooked a significant external factor.",
+      "pl": "Zmieniona ocena wskazywała, że pierwotna analiza pominęła istotny czynnik zewnętrzny.",
+      "de": "Die überarbeitete Bewertung deutete darauf hin, dass die ursprüngliche Analyse einen bedeutenden externen Faktor übersehen hatte.",
+      "level": "C1"
+    },
+    {
+      "en": "The committee had reached a provisional consensus before the final evidence complicated the issue.",
+      "pl": "Komisja osiągnęła wstępny konsensus, zanim ostateczne dowody skomplikowały sprawę.",
+      "de": "Der Ausschuss hatte einen vorläufigen Konsens erzielt, bevor die abschließenden Belege die Angelegenheit erschwerten.",
+      "level": "C1"
+    },
+    {
+      "en": "The organisation had already exhausted its contingency budget when the additional costs emerged.",
+      "pl": "Organizacja wyczerpała już budżet rezerwowy, gdy pojawiły się dodatkowe koszty.",
+      "de": "Die Organisation hatte ihr Notfallbudget bereits ausgeschöpft, als die zusätzlichen Kosten sichtbar wurden.",
       "level": "C2"
     },
     {
-      "en": "Translate: The apparent contradiction disappeared once analysts had distinguished between the immediate trigger and the underlying cause.",
-      "pl": "Przetłumacz: Pozorna sprzeczność zniknęła, gdy analitycy odróżnili bezpośredni impuls od podstawowej przyczyny.",
-      "de": "Der scheinbare Widerspruch verschwand, nachdem die Analysten zwischen dem unmittelbaren Auslöser und der zugrunde liegenden Ursache unterschieden hatten.",
+      "en": "Had the authorities acted on the initial warning, the disruption might have been less severe.",
+      "pl": "Gdyby władze zareagowały na pierwsze ostrzeżenie, zakłócenia mogłyby być mniej poważne.",
+      "de": "Hätten die Behörden auf die erste Warnung reagiert, wäre die Störung möglicherweise weniger schwerwiegend gewesen.",
       "level": "C2"
     },
     {
-      "en": "Complete: The inquiry established that the failure was not attributable to a single decision but to a sequence of assumptions that had gone unchallenged. (hinterfragen)",
-      "pl": "Uzupełnij: Dochodzenie ustaliło, że porażki nie można przypisać jednej decyzji, lecz sekwencji założeń, których nikt nie podważał. (hinterfragen)",
-      "de": "Die Untersuchung ergab, dass das Scheitern nicht auf eine einzelne Entscheidung, sondern auf eine Reihe von Annahmen zurückzuführen war, die niemand hinterfragt hatte.",
+      "en": "The inquiry established that the apparent consensus had rested on assumptions that no one had independently verified.",
+      "pl": "Postępowanie wykazało, że pozorny konsensus opierał się na założeniach, których nikt niezależnie nie zweryfikował.",
+      "de": "Die Untersuchung stellte fest, dass der scheinbare Konsens auf Annahmen beruht hatte, die niemand unabhängig überprüft hatte.",
       "level": "C2"
     },
     {
-      "en": "Translate: The reform addressed shortcomings that successive administrations had acknowledged but had never systematically remedied.",
-      "pl": "Przetłumacz: Reforma dotyczyła niedociągnięć, które kolejne administracje uznawały, ale nigdy nie naprawiły ich systematycznie.",
-      "de": "Die Reform betraf Defizite, die aufeinanderfolgende Verwaltungen eingeräumt, aber nie systematisch behoben hatten.",
+      "en": "By the time the implications became apparent, the institution had committed itself to an irreversible course of action.",
+      "pl": "Gdy konsekwencje stały się oczywiste, instytucja zobowiązała się już do nieodwracalnego działania.",
+      "de": "Als die Konsequenzen deutlich wurden, hatte sich die Institution bereits auf einen unumkehrbaren Handlungsweg festgelegt.",
       "level": "C2"
     },
     {
-      "en": "Complete: The evidence was inconclusive because the investigators had not accounted for the possibility that the records had been altered retrospectively. (verfälschen)",
-      "pl": "Uzupełnij: Dowody nie były rozstrzygające, ponieważ śledczy nie uwzględnili możliwości, że dokumentację sfałszowano z mocą wsteczną. (verfälschen)",
-      "de": "Die Beweislage war nicht eindeutig, weil die Ermittler nicht berücksichtigt hatten, dass die Unterlagen nachträglich verfälscht worden waren.",
+      "en": "The review demonstrated that the policy had inadvertently reinforced the very disparities it was intended to reduce.",
+      "pl": "Przegląd wykazał, że polityka nieumyślnie pogłębiła właśnie te nierówności, które miała ograniczyć.",
+      "de": "Die Überprüfung zeigte, dass die Maßnahme unbeabsichtigt genau jene Ungleichheiten verstärkt hatte, die sie verringern sollte.",
       "level": "C2"
     },
     {
-      "en": "Translate: The administration had underestimated the extent to which earlier commitments had constrained its subsequent choices.",
-      "pl": "Przetłumacz: Administracja nie doceniła stopnia, w jakim wcześniejsze zobowiązania ograniczyły jej późniejsze możliwości wyboru.",
-      "de": "Die Verwaltung hatte unterschätzt, in welchem Maß frühere Verpflichtungen ihre späteren Handlungsmöglichkeiten eingeschränkt hatten.",
+      "en": "The negotiators had underestimated how profoundly the earlier decision had altered the balance of incentives.",
+      "pl": "Negocjatorzy nie docenili, jak głęboko wcześniejsza decyzja zmieniła układ bodźców.",
+      "de": "Die Verhandler hatten unterschätzt, wie grundlegend die frühere Entscheidung das Anreizgefüge verändert hatte.",
       "level": "C2"
     },
     {
-      "en": "Complete: The settlement proved unstable because the parties had negotiated around the visible symptoms without having addressed the structural conflict. (angehen)",
-      "pl": "Uzupełnij: Porozumanie okazało się niestabilne, ponieważ strony negocjowały wokół widocznych objawów, nie zajmując się konfliktem strukturalnym. (angehen)",
-      "de": "Die Einigung erwies sich als instabil, weil die Parteien die sichtbaren Symptome umgangen hatten, ohne den strukturellen Konflikt angegangen zu sein.",
+      "en": "The evidence suggested that the apparent failure had resulted from several interacting factors rather than a single mistake.",
+      "pl": "Dowody sugerowały, że pozorna porażka wynikała z kilku współdziałających czynników, a nie z jednego błędu.",
+      "de": "Die Belege deuteten darauf hin, dass das scheinbare Scheitern aus mehreren zusammenwirkenden Faktoren und nicht aus einem einzelnen Fehler resultiert hatte.",
       "level": "C2"
     },
     {
-      "en": "Translate: The report distinguished between risks that had materialised and those that earlier assessments had merely anticipated.",
-      "pl": "Przetłumacz: Raport rozróżnił zagrożenia, które się urzeczywistniły, i te, które wcześniejsze oceny jedynie przewidywały.",
-      "de": "Der Bericht unterschied zwischen Risiken, die eingetreten waren, und solchen, die frühere Bewertungen lediglich vorhergesehen hatten.",
+      "en": "The organisation had failed to anticipate that the measures it had introduced would undermine public confidence.",
+      "pl": "Organizacja nie przewidziała, że wprowadzone przez nią środki podważą zaufanie społeczne.",
+      "de": "Die Organisation hatte nicht vorausgesehen, dass die von ihr eingeführten Maßnahmen das öffentliche Vertrauen untergraben würden.",
       "level": "C2"
     },
     {
-      "en": "Complete: The committee's conclusion was more cautious than expected because several assumptions on which the original proposal had rested had proved untenable. (beruhen)",
-      "pl": "Uzupełnij: Wniosek komisji był ostrożniejszy, niż oczekiwano, ponieważ kilka założeń, na których oparto pierwotną propozycję, okazało się nie do utrzymania. (beruhen)",
-      "de": "Die Schlussfolgerung des Ausschusses fiel vorsichtiger aus als erwartet, weil sich mehrere Annahmen, auf denen der ursprüngliche Vorschlag beruht hatte, als unhaltbar erwiesen hatten.",
+      "en": "Only after the independent review had exposed the inconsistencies did the board acknowledge the scale of the problem.",
+      "pl": "Dopiero gdy niezależny przegląd ujawnił niespójności, zarząd uznał skalę problemu.",
+      "de": "Erst nachdem die unabhängige Prüfung die Widersprüche aufgedeckt hatte, erkannte der Vorstand das Ausmaß des Problems an.",
       "level": "C2"
     },
     {
-      "en": "Translate: The retrospective analysis revealed that the organisation had normalised practices that it had initially regarded as exceptional.",
-      "pl": "Przetłumacz: Analiza retrospektywna wykazała, że organizacja uznała za normalne praktyki, które początkowo uważała za wyjątkowe.",
-      "de": "Die rückblickende Analyse zeigte, dass die Organisation Praktiken normalisiert hatte, die sie anfangs als außergewöhnlich betrachtet hatte.",
+      "en": "The findings implied that decision-makers had proceeded on the basis of information that had already become obsolete.",
+      "pl": "Ustalenia sugerowały, że decydenci działali na podstawie informacji, które zdążyły się już zdezaktualizować.",
+      "de": "Die Ergebnisse deuteten darauf hin, dass die Entscheidungsträger auf Grundlage von Informationen gehandelt hatten, die bereits veraltet waren.",
+      "level": "C2"
+    },
+    {
+      "en": "The commission concluded that the authorities had confused procedural compliance with substantive effectiveness.",
+      "pl": "Komisja stwierdziła, że władze pomyliły zgodność proceduralną ze skutecznością merytoryczną.",
+      "de": "Die Kommission kam zu dem Schluss, dass die Behörden die Einhaltung von Verfahren mit inhaltlicher Wirksamkeit verwechselt hatten.",
       "level": "C2"
     }
   ],
@@ -14968,28 +14929,28 @@
     "audioUrl": "https://radiodownloaddw-a.akamaihd.net/downloads/Events/dwelle/dira/mp3/deutschkurse/nachrichten_live/EF65735C_2.mp3",
     "articles": [
       {
-        "heading": "Mehrere Tote bei [[Attacke|1]] auf Kirche in Jordanien",
-        "text": "Bei einem [[Angriff|2]] auf eine Kirche in der Provinz Karak in Jordanien sind mindestens sieben Menschen getötet worden. Mehr als 30 wurden [[verletzt|3]], als Schützen das Feuer auf eine Trauerprozession eröffneten, wie die Sicherheitsbehörden in dem arabischen Land mitteilten. Die Täter seien auf der Flucht, berichtet die staatliche Nachrichtenagentur Petra. Augenzeugenberichten zufolge sollen sich während der Trauerfeier zwischen 150 und 200 Menschen im Bereich der Kirche aufgehalten haben. Angriffe ​dieser Art sind in dem Land im Nahen Osten äußerst selten. ​Die jordanischen Behörden haben nach eigenen Angaben in den vergangenen Jahren jedoch wiederholt Anschlagsversuche islamistischer Extremisten [[vereitelt|4]]. Der jordanische König Abdullah besuchte Karak wenige Stunden nach dem Angriff und [[kündigte|5]] an, die Täter würden „mit eiserner Faust“ bestraft."
+        "heading": "Mehrere Tote bei [[Attacke|1]] auf [[Kirche|2]] in Jordanien",
+        "text": "Bei einem [[Angriff|3]] auf eine Kirche in der Provinz Karak in Jordanien sind mindestens sieben Menschen getötet worden. Mehr als 30 wurden verletzt, als Schützen das Feuer auf eine [[Trauerprozession|4]] eröffneten, wie die [[Sicherheitsbehörden|5]] in dem arabischen Land mitteilten. Die Täter seien auf der Flucht, berichtet die staatliche Nachrichtenagentur Petra. [[Augenzeugenberichten|6]] zufolge sollen sich während der Trauerfeier zwischen 150 und 200 Menschen im Bereich der Kirche aufgehalten haben. Angriffe dieser Art sind in dem Land im Nahen Osten äußerst selten. Die jordanischen Behörden haben nach eigenen Angaben in den vergangenen Jahren jedoch wiederholt [[Anschlagsversuche|7]] islamistischer Extremisten [[vereitelt|8]]. Der jordanische König Abdullah besuchte Karak wenige Stunden nach dem Angriff und kündigte an, die Täter würden „mit eiserner Faust“ bestraft."
       },
       {
-        "heading": "Ein Toter bei mutmaßlich rassistischem [[Anschlag|6]] nahe Paris",
-        "text": "Bei einem mutmaßlich rassistisch motivierten Angriff auf offener Straße in einer Vorstadt von Paris hat ein Mann einen Menschen erschossen und fünf weitere verletzt. Die Attacke sei „objektiv ein Anschlag mit rassistischer, wahrscheinlich islamfeindlicher Konnotation“ gewesen, sagte der Bürgermeister der betroffenen Stadt Trappes, Ali Rabeh. Innenminister Laurent Nuñez sagte, es handele sich „eindeutig um ein terroristisches Verbrechen“. Unter den Verletzten ist auch ein zwölfjähriges Mädchen. Die französische Anti-Terror-Staatsanwaltschaft leitete ein [[Ermittlungsverfahren|7]] wegen „Mordes im Zusammenhang mit einer terroristischen Vereinigung“ ein. Die Tat sei „aufgrund der tatsächlichen oder vermeintlichen Zugehörigkeit zu einer angeblichen Rasse, Ethnie, Nation oder bestimmten Religion begangen“ worden."
+        "heading": "Ein Toter bei mutmaßlich rassistischem [[Anschlag|9]] nahe Paris",
+        "text": "Bei einem mutmaßlich rassistisch [[motivierten|10]] Angriff auf offener Straße in einer Vorstadt von Paris hat ein Mann einen Menschen erschossen und fünf weitere verletzt. Die Attacke sei „objektiv ein Anschlag mit rassistischer, wahrscheinlich islamfeindlicher Konnotation“ gewesen, sagte der Bürgermeister der betroffenen Stadt Trappes, Ali Rabeh. Innenminister Laurent Nuñez sagte, es handele sich „eindeutig um ein terroristisches Verbrechen“. Unter den Verletzten ist auch ein zwölfjähriges Mädchen. Die französische Anti-Terror-Staatsanwaltschaft [[leitete|11]] ein [[Ermittlungsverfahren|12]] wegen „Mordes im Zusammenhang mit einer terroristischen Vereinigung“ ein. Die Tat sei „aufgrund der tatsächlichen oder vermeintlichen Zugehörigkeit zu einer angeblichen Rasse, Ethnie, Nation oder bestimmten Religion begangen“ worden."
       },
       {
-        "heading": "Massive [[Mobilisierung|8]] von Polizei vor neuen Demonstrationen in Frankreich",
-        "text": "Bei den erwarteten neuen Protesten in Frankreich an diesem Samstag sollen nach Regierungsangaben 70.000 Sicherheitskräfte im Einsatz sein. Der Einsatz werde Eliteeinheiten der Polizei, „etwa 20“ gepanzerte Fahrzeuge und 15 Wasserwerfer umfassen, sagte Innenminister Laurent Nuñez. Er warnte, dass in Online-Netzwerken bereits Aufrufe zu Gewalt und [[Plünderungen|9]] kursierten. Behörden, Geschäfte und Kultureinrichtungen [[rüsten|10]] sich deshalb für ein weiteres unruhiges Wochenende. Neben einer Reihe anderer Organisationen in Frankreich rief die studentische Gewerkschaft UNEF zu Kundgebungen auf. Außerdem plant die „Gelbwesten“-Bewegung einen Marsch durch das Zentrum ‌von Paris. Eine Reihe von Demonstrationen ist laut Innenminister Nuñez vorab verboten worden. Erlaubt würden Kundgebungen, bei denen Ordner zur Stelle seien."
+        "heading": "Massive [[Mobilisierung|13]] von Polizei vor neuen Demonstrationen in Frankreich",
+        "text": "Bei den erwarteten neuen [[Protesten|14]] in Frankreich an diesem Samstag sollen nach Regierungsangaben 70.000 Sicherheitskräfte im Einsatz sein. Der Einsatz werde [[Eliteeinheiten|15]] der Polizei, „etwa 20“ gepanzerte Fahrzeuge und 15 Wasserwerfer umfassen, sagte Innenminister Laurent Nuñez. Er warnte, dass in Online-Netzwerken bereits Aufrufe zu Gewalt und [[Plünderungen|16]] kursierten. Behörden, Geschäfte und Kultureinrichtungen [[rüsten sich|17]] deshalb für ein weiteres unruhiges Wochenende. Neben einer Reihe anderer Organisationen in Frankreich rief die studentische Gewerkschaft UNEF zu Kundgebungen auf. Außerdem plant die „Gelbwesten“-Bewegung einen Marsch durch das Zentrum von Paris. Eine Reihe von Demonstrationen ist laut Innenminister Nuñez vorab verboten worden. Erlaubt würden Kundgebungen, bei denen Ordner zur Stelle seien."
       },
       {
-        "heading": "Russland und Ukraine vereinbaren Waffenruhe rund um Frontstadt Oleschky",
-        "text": "Nach der Pendeldiplomatie von US-Unterhändler Steve Witkoff kommt wieder etwas Bewegung in die Friedensbemühungen im Ukraine-Krieg. Russland und die Ukraine bestätigten nach einer entsprechenden US-Ankündigung eine lokal begrenzte [[Waffenruhe|11]] in der seit Monaten [[abgeriegelten|12]] Frontstadt Oleschky ab Dienstag. Der russische Generalstabschef Waleri Gerassimow sagte, im Rahmen einer humanitären Operation für Oleschky würden seine Streitkräfte das Feuer einstellen. Auch die Regierung in Kyjiw stimmte einer Waffenruhe zu. Die seit Monaten abgeriegelte Kleinstadt liegt auf russischem Besatzungsgebiet im Süden der Ukraine am Ufer des Dnipro. Nach ukrainischen Angaben hält Russland dort etwa 2000 Menschen fest."
+        "heading": "Russland und Ukraine vereinbaren [[Waffenruhe|18]] rund um Frontstadt Oleschky",
+        "text": "Nach der [[Pendeldiplomatie|19]] von US-Unterhändler Steve Witkoff kommt wieder etwas Bewegung in die Friedensbemühungen im Ukraine-Krieg. Russland und die Ukraine bestätigten nach einer entsprechenden US-Ankündigung eine lokal begrenzte Waffenruhe in der seit Monaten [[abgeriegelten|20]] Frontstadt Oleschky ab Dienstag. Der russische Generalstabschef Waleri Gerassimow sagte, im Rahmen einer humanitären Operation für Oleschky würden seine Streitkräfte das Feuer einstellen. Auch die Regierung in Kyjiw stimmte einer Waffenruhe zu. Die seit Monaten abgeriegelte Kleinstadt liegt auf russischem Besatzungsgebiet im Süden der Ukraine am Ufer des Dnipro. Nach ukrainischen Angaben hält Russland dort etwa 2000 Menschen fest."
       },
       {
-        "heading": "Schäden und Stromausfälle nach Durchzug von Taifun „Champi“ in Taiwan",
-        "text": "Hunderte Verletzte, entwurzelte Bäume, zehntausende Haushalte ohne Strom: Der Taifun „Champi“ ist über Taiwan hinweggefegt und hat dabei erhebliche [[Schäden|13]] in dem Inselstaat angerichtet. Einsatzkräfte arbeiten nach Angaben der Behörden daran, die Stromversorgung für rund 56.000 Haushalte wiederherzustellen. Seit Donnerstag, als die ersten Warnungen vor dem Taifun ausgegeben wurden, kam ein Mensch ums Leben. Etwa 500 Personen wurden verletzt. Die Stürme im Pazifik fallen dieses Jahr infolge des Klimaphänomens El Niño heftig aus. Der Höhepunkt des gegenwärtigen El Niño wird für Dezember erwartet. Seine Folgen werden aber voraussichtlich noch bis weit ins kommende Jahr reichen."
+        "heading": "[[Schäden|21]] und Stromausfälle nach Durchzug von Taifun „Champi“ in Taiwan",
+        "text": "Hunderte Verletzte, [[entwurzelte|22]] Bäume, zehntausende Haushalte ohne Strom: Der Taifun „Champi“ ist über Taiwan hinweggefegt und hat dabei erhebliche Schäden in dem Inselstaat angerichtet. Einsatzkräfte arbeiten nach Angaben der Behörden daran, die Stromversorgung für rund 56.000 Haushalte wiederherzustellen. Seit Donnerstag, als die ersten [[Warnungen|23]] vor dem Taifun ausgegeben wurden, kam ein Mensch ums Leben. Etwa 500 Personen wurden verletzt. Die Stürme im Pazifik fallen dieses Jahr infolge des Klimaphänomens El Niño heftig aus. Der Höhepunkt des gegenwärtigen El Niño wird für Dezember erwartet. Seine Folgen werden aber voraussichtlich noch bis weit ins kommende Jahr reichen."
       },
       {
         "heading": "Sommerzeit in Europa endet an diesem Wochenende",
-        "text": "In der Nacht zum Sonntag wird in der Europäischen Union wieder an der Uhr gedreht: Um drei Uhr morgens werden die Uhren um eine Stunde von der Sommerzeit auf die mitteleuropäische Zeit zurückgestellt. Dann ist es morgens wieder früher hell und dafür nachmittags eher dunkel. Kritiker der Zeitumstellung führen gesundheitliche [[Belastungen|14]] ins Feld und betonen, dass Energiespareffekte kaum [[nachweisbar|15]] seien. Rein technisch ist der Zeitwechsel aber unproblematisch. Taktgeber für präzise Zeitangaben sind in Deutschland die Atomuhren der Physikalisch-Technischen Bundesanstalt in Braunschweig. Über Sender werden die Signale übertragen, durch die sich die Funkuhren an die Zeitumstellung anpassen."
+        "text": "In der Nacht zum Sonntag wird in der Europäischen Union wieder an der Uhr gedreht: Um drei Uhr morgens werden die Uhren um eine Stunde von der Sommerzeit auf die mitteleuropäische Zeit [[zurückgestellt|24]]. Dann ist es morgens wieder früher hell und dafür nachmittags eher dunkel. [[Kritiker|25]] der Zeitumstellung führen gesundheitliche [[Belastungen|26]] ins Feld und betonen, dass Energiespareffekte kaum [[nachweisbar|27]] seien. Rein technisch ist der Zeitwechsel aber unproblematisch. Taktgeber für präzise Zeitangaben sind in Deutschland die Atomuhren der Physikalisch-Technischen Bundesanstalt in Braunschweig. Über Sender werden die Signale übertragen, durch die sich die Funkuhren an die Zeitumstellung anpassen."
       }
     ],
     "vocab": [
@@ -14998,22 +14959,41 @@
         "word": "die Attacke",
         "translation": {
           "en": "attack, assault",
-          "pl": "atak, napaść"
+          "pl": "atak"
         },
         "partOfSpeech": "Noun",
         "level": "B1",
         "plural": "die Attacken",
         "notes": {
-          "en": "Often used in news reports for a sudden violent attack.",
-          "pl": "Często używane w wiadomościach na określenie nagłego brutalnego ataku."
+          "en": "Often used in news reports about a violent or sudden assault.",
+          "pl": "Często używane w relacjach medialnych o gwałtownym ataku."
         },
         "examples": [
           "Die Attacke ereignete sich am frühen Morgen.",
-          "Die Regierung verurteilte die Attacke öffentlich."
+          "Die Behörden untersuchen die Attacke."
         ]
       },
       {
         "id": 2,
+        "word": "die Kirche",
+        "translation": {
+          "en": "church",
+          "pl": "kościół"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "die Kirchen",
+        "notes": {
+          "en": "The building; Kirche can also mean the church as an institution.",
+          "pl": "Oznacza budynek, ale także Kościół jako instytucję."
+        },
+        "examples": [
+          "Die Kirche wurde nach dem Brand restauriert.",
+          "Viele Menschen versammelten sich vor der Kirche."
+        ]
+      },
+      {
+        "id": 3,
         "word": "der Angriff",
         "translation": {
           "en": "attack, assault",
@@ -15023,73 +15003,111 @@
         "level": "B1",
         "plural": "die Angriffe",
         "notes": {
-          "en": "Common collocations include einen Angriff verüben and bei einem Angriff.",
-          "pl": "Typowe połączenia to einen Angriff verüben i bei einem Angriff."
+          "en": "Common collocations include einen Angriff verüben and einen Angriff abwehren.",
+          "pl": "Typowe połączenia: einen Angriff verüben i einen Angriff abwehren."
         },
         "examples": [
-          "Die Behörden untersuchen den Angriff.",
-          "Bei dem Angriff wurden mehrere Menschen verletzt."
-        ]
-      },
-      {
-        "id": 3,
-        "word": "verletzen",
-        "translation": {
-          "en": "to injure, hurt",
-          "pl": "ranić, zranić"
-        },
-        "partOfSpeech": "Verb",
-        "level": "B1",
-        "plural": "",
-        "notes": {
-          "en": "Partizip II: verletzt; the passive is common in news reports.",
-          "pl": "Partizip II: verletzt; strona bierna jest częsta w wiadomościach."
-        },
-        "examples": [
-          "Bei dem Unfall wurden zwei Personen verletzt.",
-          "Der Sturz hatte ihn am Bein verletzt."
+          "Die Regierung verurteilte den Angriff.",
+          "Die Polizei prüft die Hintergründe des Angriffs."
         ]
       },
       {
         "id": 4,
-        "word": "vereiteln",
+        "word": "die Trauerprozession",
         "translation": {
-          "en": "to thwart, foil",
-          "pl": "udaremniać, udaremnić"
+          "en": "funeral procession",
+          "pl": "kondukt żałobny"
         },
-        "partOfSpeech": "Verb",
+        "partOfSpeech": "Noun",
         "level": "B2",
-        "plural": "",
+        "plural": "die Trauerprozessionen",
         "notes": {
-          "en": "Often used with Anschlagsversuche or Pläne.",
-          "pl": "Często łączy się z Anschlagsversuche lub Pläne."
+          "en": "A formal procession held in connection with mourning or a funeral.",
+          "pl": "Uroczysty pochód związany z żałobą lub pogrzebem."
         },
         "examples": [
-          "Die Polizei vereitelte einen geplanten Anschlag.",
-          "Die Sicherheitskräfte hatten den Fluchtversuch vereitelt."
+          "Die Trauerprozession zog langsam durch die Altstadt.",
+          "Viele Anwohner standen schweigend an der Straße."
         ]
       },
       {
         "id": 5,
-        "word": "ankündigen",
+        "word": "die Sicherheitsbehörde",
         "translation": {
-          "en": "to announce",
-          "pl": "zapowiadać, ogłaszać"
+          "en": "security authority",
+          "pl": "organ bezpieczeństwa"
         },
-        "partOfSpeech": "Verb",
-        "level": "B1",
-        "plural": "",
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Sicherheitsbehörden",
         "notes": {
-          "en": "Separable verb: kündigt an; Partizip II: angekündigt.",
-          "pl": "Czasownik rozdzielnie złożony: kündigt an; Partizip II: angekündigt."
+          "en": "Often used collectively in official statements and news reporting.",
+          "pl": "Często występuje w komunikatach urzędowych i wiadomościach."
         },
         "examples": [
-          "Die Ministerin kündigte weitere Gespräche an.",
-          "Die Behörden hatten neue Maßnahmen angekündigt."
+          "Die Sicherheitsbehörden veröffentlichten eine gemeinsame Erklärung.",
+          "Die Sicherheitsbehörde überprüfte die eingegangenen Hinweise."
         ]
       },
       {
         "id": 6,
+        "word": "der Augenzeugenbericht",
+        "translation": {
+          "en": "eyewitness account",
+          "pl": "relacja naocznego świadka"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Augenzeugenberichte",
+        "notes": {
+          "en": "Often combined with zufolge: Augenzeugenberichten zufolge.",
+          "pl": "Często występuje z zufolge: Augenzeugenberichten zufolge."
+        },
+        "examples": [
+          "Der Augenzeugenbericht widersprach der ersten Meldung.",
+          "Die Journalistin verglich mehrere Augenzeugenberichte."
+        ]
+      },
+      {
+        "id": 7,
+        "word": "der Anschlagsversuch",
+        "translation": {
+          "en": "attempted attack",
+          "pl": "próba zamachu"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Anschlagsversuche",
+        "notes": {
+          "en": "Often used with vereiteln when an attempt is thwarted.",
+          "pl": "Często łączy się z vereiteln, czyli udaremnić."
+        },
+        "examples": [
+          "Die Behörden vereitelten einen Anschlagsversuch.",
+          "Der Anschlagsversuch wurde frühzeitig entdeckt."
+        ]
+      },
+      {
+        "id": 8,
+        "word": "vereiteln",
+        "translation": {
+          "en": "to thwart, prevent",
+          "pl": "udaremnić, zapobiec"
+        },
+        "partOfSpeech": "Verb",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "A formal verb often used for preventing plans or attacks.",
+          "pl": "Formalny czasownik używany m.in. w odniesieniu do udaremniania planów."
+        },
+        "examples": [
+          "Die Polizei konnte den geplanten Betrug vereiteln.",
+          "Die Sicherheitskräfte vereitelten den Fluchtversuch."
+        ]
+      },
+      {
+        "id": 9,
         "word": "der Anschlag",
         "translation": {
           "en": "attack, terrorist attack",
@@ -15099,79 +15117,155 @@
         "level": "B2",
         "plural": "die Anschläge",
         "notes": {
-          "en": "In news contexts, it can refer to a politically or ideologically motivated attack.",
-          "pl": "W wiadomościach może oznaczać atak motywowany politycznie lub ideologicznie."
+          "en": "In news contexts, often refers to a deliberate violent attack.",
+          "pl": "W wiadomościach często oznacza celowy atak z użyciem przemocy."
         },
         "examples": [
-          "Die Ermittler prüfen ein mögliches terroristisches Motiv.",
-          "Die Stadt hatte nach dem Anschlag zusätzliche Sicherheitsmaßnahmen eingeführt."
+          "Nach dem Anschlag wurde die Gegend abgesperrt.",
+          "Die Ermittler untersuchen einen möglichen Anschlag."
         ]
       },
       {
-        "id": 7,
+        "id": 10,
+        "word": "motivieren",
+        "translation": {
+          "en": "to motivate",
+          "pl": "motywować"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "The adjective motiviert often describes the suspected motive of an act.",
+          "pl": "Imiesłów motiviert może określać przypuszczalny motyw działania."
+        },
+        "examples": [
+          "Die Ermittler prüfen, ob das Verbrechen politisch motiviert war.",
+          "Der Angriff könnte rassistisch motiviert gewesen sein."
+        ]
+      },
+      {
+        "id": 11,
+        "word": "einleiten",
+        "translation": {
+          "en": "to initiate, commence",
+          "pl": "wszcząć, rozpocząć"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Separable verb: einleiten, leitete ein, hat eingeleitet.",
+          "pl": "Czasownik rozdzielnie złożony: einleiten, leitete ein, hat eingeleitet."
+        },
+        "examples": [
+          "Die Staatsanwaltschaft leitete ein Ermittlungsverfahren ein.",
+          "Die Behörde leitete eine umfassende Prüfung ein."
+        ]
+      },
+      {
+        "id": 12,
         "word": "das Ermittlungsverfahren",
         "translation": {
-          "en": "investigation, criminal investigation",
-          "pl": "postępowanie przygotowawcze, dochodzenie"
+          "en": "criminal investigation, investigative proceedings",
+          "pl": "postępowanie przygotowawcze, śledztwo"
         },
         "partOfSpeech": "Noun",
         "level": "C1",
         "plural": "die Ermittlungsverfahren",
         "notes": {
-          "en": "A formal legal term for an official criminal investigation.",
-          "pl": "Formalny termin prawny oznaczający oficjalne dochodzenie karne."
+          "en": "Common collocation: ein Ermittlungsverfahren einleiten.",
+          "pl": "Typowe połączenie: ein Ermittlungsverfahren einleiten."
         },
         "examples": [
-          "Die Staatsanwaltschaft leitete ein Ermittlungsverfahren ein.",
-          "Das Ermittlungsverfahren war bereits eingeleitet worden."
+          "Das Ermittlungsverfahren dauert bereits mehrere Monate.",
+          "Die Staatsanwaltschaft weitete das Ermittlungsverfahren aus."
         ]
       },
       {
-        "id": 8,
+        "id": 13,
         "word": "die Mobilisierung",
         "translation": {
           "en": "mobilisation, deployment",
-          "pl": "mobilizacja, skierowanie sił"
+          "pl": "mobilizacja"
         },
         "partOfSpeech": "Noun",
-        "level": "B2",
+        "level": "C1",
         "plural": "die Mobilisierungen",
         "notes": {
-          "en": "Can refer to organising people or deploying resources.",
-          "pl": "Może oznaczać organizowanie ludzi lub kierowanie zasobów."
+          "en": "In political and security reporting, it can refer to deploying personnel.",
+          "pl": "W relacjach politycznych i dotyczących bezpieczeństwa może oznaczać skierowanie sił do działania."
         },
         "examples": [
-          "Die Mobilisierung zusätzlicher Kräfte begann am Morgen.",
-          "Die Behörden hatten eine umfassende Mobilisierung vorbereitet."
+          "Die Mobilisierung zusätzlicher Kräfte wurde angekündigt.",
+          "Eine rasche Mobilisierung der Helfer war notwendig."
         ]
       },
       {
-        "id": 9,
+        "id": 14,
+        "word": "der Protest",
+        "translation": {
+          "en": "protest",
+          "pl": "protest"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "die Proteste",
+        "notes": {
+          "en": "Common collocations include Proteste organisieren and gegen etwas protestieren.",
+          "pl": "Typowe połączenia: Proteste organisieren i gegen etwas protestieren."
+        },
+        "examples": [
+          "Die Proteste verliefen zunächst friedlich.",
+          "Viele Beschäftigte protestierten gegen die Entscheidung."
+        ]
+      },
+      {
+        "id": 15,
+        "word": "die Eliteeinheit",
+        "translation": {
+          "en": "elite unit",
+          "pl": "jednostka specjalna"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Eliteeinheiten",
+        "notes": {
+          "en": "Refers to a specially trained unit within a security or military organisation.",
+          "pl": "Specjalnie wyszkolona jednostka służb bezpieczeństwa lub wojska."
+        },
+        "examples": [
+          "Eine Eliteeinheit unterstützte den Polizeieinsatz.",
+          "Die Eliteeinheiten wurden in Alarmbereitschaft versetzt."
+        ]
+      },
+      {
+        "id": 16,
         "word": "die Plünderung",
         "translation": {
           "en": "looting",
-          "pl": "plądrowanie"
+          "pl": "grabież, plądrowanie"
         },
         "partOfSpeech": "Noun",
-        "level": "B2",
+        "level": "C1",
         "plural": "die Plünderungen",
         "notes": {
-          "en": "Frequently appears in reports about unrest or disasters.",
-          "pl": "Często pojawia się w relacjach o zamieszkach lub katastrofach."
+          "en": "Often used in reports about unrest, violence or natural disasters.",
+          "pl": "Często używane w relacjach o zamieszkach, przemocy i katastrofach."
         },
         "examples": [
           "Die Polizei verhinderte mehrere Plünderungen.",
-          "Nach den Protesten hatten Plünderungen in einigen Geschäften stattgefunden."
+          "Nach dem Sturm wurden Geschäfte vor Plünderungen geschützt."
         ]
       },
       {
-        "id": 10,
+        "id": 17,
         "word": "sich rüsten",
         "translation": {
-          "en": "to prepare, get ready",
-          "pl": "przygotowywać się, szykować się"
+          "en": "to prepare, make preparations",
+          "pl": "przygotowywać się"
         },
-        "partOfSpeech": "Verb",
+        "partOfSpeech": "Expression",
         "level": "B2",
         "plural": "",
         "notes": {
@@ -15180,87 +15274,182 @@
         },
         "examples": [
           "Die Stadt rüstet sich für den Winter.",
-          "Die Unternehmen hatten sich auf schwierige Verhandlungen gerüstet."
+          "Die Behörden rüsteten sich für einen schwierigen Einsatz."
         ]
       },
       {
-        "id": 11,
+        "id": 18,
         "word": "die Waffenruhe",
         "translation": {
           "en": "ceasefire, truce",
-          "pl": "zawieszenie broni, rozejm"
+          "pl": "zawieszenie broni"
         },
         "partOfSpeech": "Noun",
         "level": "B2",
         "plural": "die Waffenruhen",
         "notes": {
-          "en": "Common collocations include eine Waffenruhe vereinbaren and einhalten.",
-          "pl": "Typowe połączenia to eine Waffenruhe vereinbaren i einhalten."
+          "en": "Common collocation: eine Waffenruhe vereinbaren or einhalten.",
+          "pl": "Typowe połączenia: eine Waffenruhe vereinbaren lub einhalten."
         },
         "examples": [
           "Beide Seiten vereinbarten eine vorübergehende Waffenruhe.",
-          "Die Waffenruhe war bereits mehrfach verletzt worden."
+          "Die Beobachter meldeten mehrere Verstöße gegen die Waffenruhe."
         ]
       },
       {
-        "id": 12,
+        "id": 19,
+        "word": "die Pendeldiplomatie",
+        "translation": {
+          "en": "shuttle diplomacy",
+          "pl": "dyplomacja wahadłowa"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Pendeldiplomatien",
+        "notes": {
+          "en": "Diplomatic mediation involving repeated visits between parties.",
+          "pl": "Mediacja dyplomatyczna polegająca na kolejnych wizytach u stron sporu."
+        },
+        "examples": [
+          "Die Pendeldiplomatie brachte die Verhandlungen wieder in Gang.",
+          "Der Sondergesandte setzte seine Pendeldiplomatie fort."
+        ]
+      },
+      {
+        "id": 20,
         "word": "abriegeln",
         "translation": {
           "en": "to seal off, cordon off",
-          "pl": "odcinać, odgradzać, zamykać dostęp"
+          "pl": "odciąć, odgrodzić"
         },
         "partOfSpeech": "Verb",
         "level": "C1",
         "plural": "",
         "notes": {
-          "en": "Separable verb: riegelt ab; Partizip II: abgeriegelt.",
-          "pl": "Czasownik rozdzielnie złożony: riegelt ab; Partizip II: abgeriegelt."
+          "en": "Separable verb: riegelte ab, hat abgeriegelt.",
+          "pl": "Czasownik rozdzielnie złożony: riegelte ab, hat abgeriegelt."
         },
         "examples": [
-          "Die Polizei riegelte die Straße ab.",
-          "Die Behörden hatten das Gebiet bereits abgeriegelt."
+          "Die Polizei riegelte das Gebiet ab.",
+          "Die Zufahrtsstraßen wurden vollständig abgeriegelt."
         ]
       },
       {
-        "id": 13,
+        "id": 21,
         "word": "der Schaden",
         "translation": {
-          "en": "damage, loss",
+          "en": "damage, harm",
           "pl": "szkoda, uszkodzenie"
         },
         "partOfSpeech": "Noun",
         "level": "B1",
         "plural": "die Schäden",
         "notes": {
-          "en": "Common expressions include Schäden anrichten and Schäden beheben.",
-          "pl": "Typowe wyrażenia to Schäden anrichten i Schäden beheben."
+          "en": "Common collocations: Schäden verursachen and Schäden beheben.",
+          "pl": "Typowe połączenia: Schäden verursachen i Schäden beheben."
         },
         "examples": [
-          "Der Sturm richtete erhebliche Schäden an.",
-          "Die Einsatzkräfte hatten die größten Schäden dokumentiert."
+          "Der Sturm verursachte erhebliche Schäden.",
+          "Die Stadt arbeitet daran, die Schäden zu beheben."
         ]
       },
       {
-        "id": 14,
+        "id": 22,
+        "word": "entwurzelt",
+        "translation": {
+          "en": "uprooted",
+          "pl": "wyrwany z korzeniami"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Often describes trees after storms or strong winds.",
+          "pl": "Często opisuje drzewa po burzach lub silnym wietrze."
+        },
+        "examples": [
+          "Entwurzelte Bäume blockierten die Zufahrtsstraße.",
+          "Nach dem Sturm lagen mehrere entwurzelte Bäume auf den Gleisen."
+        ]
+      },
+      {
+        "id": 23,
+        "word": "die Warnung",
+        "translation": {
+          "en": "warning",
+          "pl": "ostrzeżenie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "die Warnungen",
+        "notes": {
+          "en": "Common collocations: eine Warnung ausgeben and vor etwas warnen.",
+          "pl": "Typowe połączenia: eine Warnung ausgeben i vor etwas warnen."
+        },
+        "examples": [
+          "Die Behörden gaben eine neue Warnung aus.",
+          "Die Warnung vor starkem Wind wurde am Abend veröffentlicht."
+        ]
+      },
+      {
+        "id": 24,
+        "word": "zurückstellen",
+        "translation": {
+          "en": "to set back, turn back",
+          "pl": "przestawić do tyłu"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Separable verb; for clocks, the phrase is die Uhr zurückstellen.",
+          "pl": "Czasownik rozdzielnie złożony; w odniesieniu do zegara: die Uhr zurückstellen."
+        },
+        "examples": [
+          "Am Sonntag müssen wir die Uhren zurückstellen.",
+          "Die Uhr wurde automatisch um eine Stunde zurückgestellt."
+        ]
+      },
+      {
+        "id": 25,
+        "word": "der Kritiker",
+        "translation": {
+          "en": "critic, opponent",
+          "pl": "krytyk, przeciwnik"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Kritiker",
+        "notes": {
+          "en": "Can refer to people who publicly question a policy or practice.",
+          "pl": "Może oznaczać osoby publicznie kwestionujące politykę lub praktykę."
+        },
+        "examples": [
+          "Kritiker fordern eine unabhängige Untersuchung.",
+          "Die Kritiker der Reform äußerten erhebliche Zweifel."
+        ]
+      },
+      {
+        "id": 26,
         "word": "die Belastung",
         "translation": {
-          "en": "strain, burden, stress",
-          "pl": "obciążenie, stres"
+          "en": "strain, burden",
+          "pl": "obciążenie"
         },
         "partOfSpeech": "Noun",
         "level": "B2",
         "plural": "die Belastungen",
         "notes": {
-          "en": "Can refer to physical, psychological or financial strain.",
-          "pl": "Może oznaczać obciążenie fizyczne, psychiczne lub finansowe."
+          "en": "Used for physical, psychological or financial strain.",
+          "pl": "Oznacza obciążenie fizyczne, psychiczne lub finansowe."
         },
         "examples": [
-          "Die zusätzliche Arbeit bedeutete eine erhebliche Belastung.",
-          "Die Beschäftigten hatten über gesundheitliche Belastungen berichtet."
+          "Die zusätzliche Arbeit stellte eine erhebliche Belastung dar.",
+          "Viele Beschäftigte berichteten von gesundheitlichen Belastungen."
         ]
       },
       {
-        "id": 15,
+        "id": 27,
         "word": "nachweisbar",
         "translation": {
           "en": "demonstrable, verifiable",
@@ -15270,21 +15459,22 @@
         "level": "C1",
         "plural": "",
         "notes": {
-          "en": "Often used in formal discussions of evidence or measurable effects.",
-          "pl": "Często używane w formalnych dyskusjach o dowodach lub mierzalnych skutkach."
+          "en": "Common collocations include nachweisbare Folgen and kaum nachweisbar.",
+          "pl": "Typowe połączenia: nachweisbare Folgen i kaum nachweisbar."
         },
         "examples": [
-          "Ein positiver Effekt war bislang nicht nachweisbar.",
-          "Die Forschenden hatten keinen eindeutigen Zusammenhang nachweisen können."
+          "Ein positiver Effekt war wissenschaftlich nicht nachweisbar.",
+          "Die Studie zeigte nachweisbare Veränderungen."
         ]
       }
     ]
   },
   "speaking": {
     "prompt": {
-      "en": "You are my German language tutor conducting a 20-minute B1-to-C1 speaking conversation based on the Listening section of today's lesson (German news from 24 October 2026).\n\nListening reference – the 6 news stories from today's Listening section, in the same order as the articles:\n1. An attack on a church in Jordan killed at least seven people and injured more than 30; King Abdullah visited the area and promised punishment for the perpetrators.\n2. A suspected racially motivated attack near Paris killed one person and injured five others; French officials described it as a possible terrorist crime.\n3. France planned to deploy 70,000 security personnel for anticipated demonstrations, while authorities warned of online calls for violence and looting.\n4. Russia and Ukraine confirmed a locally limited ceasefire in Oleschky after a US announcement; the town was described as being under Russian occupation.\n5. Typhoon Champi caused damage and power outages in Taiwan, leaving hundreds injured and tens of thousands of households without electricity.\n6. European Union countries returned to standard time on Sunday; critics questioned the health effects and the limited evidence of energy savings.\n\nGrammar focus to elicit: Plusquamperfekt for an event that happened before another past event.\n\nUseful words from today's Listening articles (invite me to use them): die Attacke, der Angriff, verletzen, vereiteln, ankündigen, der Anschlag, das Ermittlungsverfahren, die Mobilisierung, die Plünderung, sich rüsten, die Waffenruhe, abriegeln, der Schaden, die Belastung, nachweisbar.\n\nInstructions for the AI tutor:\n1. Start the conversation: greet me and ask whether I have listened to today's broadcast. If not, summarise story 1 in two simple German sentences and continue.\n2. You ask, I speak: one question per turn, one or two short sentences, never answer your own questions. German at B1-C1 level; English only if I am really stuck.\n3. Questions refer to the stories above, in order, covering at least four: facts first, then causes, consequences, other perspectives, my evaluation. Near the end, ask me to connect two stories.\n4. Encourage me to use Plusquamperfekt to describe which event had happened first. Ask me to use hatte or war with Partizip II when explaining the sequence of events.\n5. Question ideas (adapt to my answers): (story 1) Was hatten die Täter bereits getan, als die Polizei eintraf?; (story 2) Was hatte die Staatsanwaltschaft eingeleitet, bevor weitere Einzelheiten bekannt wurden?; (story 3) Was hatten die Behörden bereits angekündigt, bevor die Demonstrationen begannen?; (story 4) Was war geschehen, bevor Russland und die Ukraine die Waffenruhe bestätigten?; (story 5) Welche Schäden hatte der Taifun angerichtet, bevor die Einsatzkräfte mit den Reparaturen begannen?; (story 6) Was hatten Kritiker bereits bemängelt, bevor die Uhren umgestellt wurden?\n6. Immediate correction: if I break today's rule, stop briefly: quote the error, give the correct sentence, explain the rule in 1 English sentence, ask me to repeat the correct sentence aloud before the next question. For example, correct *Als die Polizei eintraf, haben die Täter bereits geflohen* to *Als die Polizei eintraf, waren die Täter bereits geflohen*. Explain that the Plusquamperfekt uses the Präteritum of haben or sein plus Partizip II.\n7. Also correct other significant errors briefly; note recurring mistakes for the final feedback. If my answer is very short, ask one follow-up („Warum?“).\n8. Wrap-up after ~20 minutes or when I say \"stop\": two things I did well, three key mistakes with corrections, five words to review, one German sentence to repeat aloud.\n9. Keep the tone engaging, professional, natural for an immersive German voice dialogue. Address me as „du“.",
-      "pl": "Jesteś moim nauczycielem języka niemieckiego i prowadzisz 20-minutową rozmowę na poziomie B1–C1 na podstawie sekcji Listening z dzisiejszej lekcji (niemieckie wiadomości z 24 października 2026 roku).\n\nMateriały do słuchania – 6 wiadomości z dzisiejszej sekcji Listening, w tej samej kolejności co artykuły:\n1. Atak na kościół w Jordanii spowodował śmierć co najmniej siedmiu osób i obrażenia u ponad 30 osób; król Abdullah odwiedził ten obszar i zapowiedział ukaranie sprawców.\n2. W podejrzewanym ataku na tle rasistowskim pod Paryżem zginęła jedna osoba, a pięć innych zostało rannych; francuscy urzędnicy określili zdarzenie jako możliwe przestępstwo terrorystyczne.\n3. Francja planowała skierować 70 000 funkcjonariuszy służb bezpieczeństwa do zabezpieczenia przewidywanych demonstracji; władze ostrzegały przed internetowymi wezwaniami do przemocy i plądrowania.\n4. Rosja i Ukraina potwierdziły lokalne zawieszenie broni w Oleszkach po amerykańskim komunikacie; miasto opisano jako znajdujące się pod rosyjską okupacją.\n5. Tajfun Champi spowodował na Tajwanie zniszczenia i przerwy w dostawie prądu; setki osób zostały ranne, a dziesiątki tysięcy gospodarstw domowych pozostały bez elektryczności.\n6. W krajach Unii Europejskiej w niedzielę powrócono do czasu standardowego; krytycy podważali wpływ zmiany czasu na zdrowie oraz ograniczone dowody na oszczędność energii.\n\nZagadnienie gramatyczne: Plusquamperfekt do opisywania wydarzenia, które nastąpiło przed innym wydarzeniem w przeszłości.\n\nPrzydatne słownictwo z dzisiejszych artykułów (zachęcaj mnie do jego używania): die Attacke, der Angriff, verletzen, vereiteln, ankündigen, der Anschlag, das Ermittlungsverfahren, die Mobilisierung, die Plünderung, sich rüsten, die Waffenruhe, abriegeln, der Schaden, die Belastung, nachweisbar.\n\nInstrukcje dla nauczyciela AI:\n1. Rozpocznij rozmowę: przywitaj się i zapytaj, czy wysłuchałem dzisiejszych wiadomości. Jeśli nie, streść pierwszą wiadomość w dwóch prostych zdaniach po niemiecku i kontynuuj.\n2. Ty pytasz, ja mówię: jedno pytanie na turę, jedna lub dwie krótkie odpowiedzi, nigdy nie odpowiadaj na własne pytania. Używaj niemieckiego na poziomie B1–C1; przejdź na angielski tylko wtedy, gdy naprawdę nie mogę sobie poradzić.\n3. Pytania powinny dotyczyć kolejno powyższych wiadomości i obejmować co najmniej cztery z nich: najpierw fakty, potem przyczyny, konsekwencje, inne perspektywy i moją ocenę. Pod koniec poproś mnie o powiązanie dwóch wiadomości.\n4. Zachęcaj mnie do używania Plusquamperfekt, aby opisywać, które wydarzenie nastąpiło wcześniej. Proś, abym używał hatte lub war z Partizip II, gdy wyjaśniam kolejność wydarzeń.\n5. Przykładowe pytania (dostosuj je do moich odpowiedzi): (wiadomość 1) Was hatten die Täter bereits getan, als die Polizei eintraf?; (wiadomość 2) Was hatte die Staatsanwaltschaft eingeleitet, bevor weitere Einzelheiten bekannt wurden?; (wiadomość 3) Was hatten die Behörden bereits angekündigt, bevor die Demonstrationen begannen?; (wiadomość 4) Was war geschehen, bevor Russland und die Ukraine die Waffenruhe bestätigten?; (wiadomość 5) Welche Schäden hatte der Taifun angerichtet, bevor die Einsatzkräfte mit den Reparaturen begannen?; (wiadomość 6) Was hatten Kritiker bereits bemängelt, bevor die Uhren umgestellt wurden?\n6. Natychmiast poprawiaj błędy: jeśli naruszę dzisiejszą zasadę, zatrzymaj się na chwilę, zacytuj błąd, podaj poprawne zdanie, wyjaśnij regułę w jednym zdaniu po angielsku i poproś mnie o głośne powtórzenie poprawnej wersji przed następnym pytaniem. Na przykład popraw *Als die Polizei eintraf, haben die Täter bereits geflohen* na *Als die Polizei eintraf, waren die Täter bereits geflohen*. Wyjaśnij, że Plusquamperfekt tworzy się za pomocą formy Präteritum czasownika haben lub sein oraz Partizip II.\n7. Krótko poprawiaj także inne istotne błędy i zapamiętuj powtarzające się pomyłki na potrzeby końcowej informacji zwrotnej. Jeśli moja odpowiedź jest bardzo krótka, zadaj jedno dodatkowe pytanie („Warum?”).\n8. Po około 20 minutach lub gdy powiem „stop”, zakończ rozmowę: wskaż dwie rzeczy, które zrobiłem dobrze, trzy najważniejsze błędy wraz z poprawkami, pięć słów do powtórzenia i jedno niemieckie zdanie do głośnego powtórzenia.\n9. Zachowuj angażujący, profesjonalny i naturalny ton, odpowiedni do immersyjnej rozmowy po niemiecku. Zwracaj się do mnie per „du”."
+      "en": "You are my German language tutor conducting a 20-minute B1-to-C1 speaking conversation based on the Listening section of today's lesson (German news from 24 October 2026).\n\nListening reference – the 6 news stories from today's Listening section, in the same order as the articles:\n1. An attack on a church in Jordan killed at least seven people and injured more than 30; the king visited the area afterwards.\n2. A suspected racially motivated attack in a Paris suburb killed one person and injured five others; French authorities opened an investigation.\n3. French authorities planned to deploy 70,000 security personnel for expected protests, while organisers prepared demonstrations and some gatherings were banned.\n4. Russia and Ukraine confirmed a locally limited ceasefire around Oleschky after a US announcement, with the stated aim of supporting a humanitarian operation.\n5. Typhoon Champi caused injuries, uprooted trees and power cuts in Taiwan; crews worked to restore electricity.\n6. European clocks were due to move back one hour as daylight saving time ended, a change criticised by some for possible health burdens and limited energy savings.\n\nGrammar focus to elicit: Plusquamperfekt for an event that happened before another past event.\n\nUseful words from today's Listening articles (invite me to use them): der Angriff, die Sicherheitsbehörden, das Ermittlungsverfahren, die Mobilisierung, die Waffenruhe, die Schäden, die Warnung, die Belastung.\n\nInstructions for the AI tutor:\n1. Start the conversation: greet me and ask whether I have listened to today's broadcast. If not, summarise story 1 in two simple German sentences and continue.\n2. You ask, I speak: one question per turn, one or two short sentences, never answer your own questions. German at B1-C1 level; English only if I am really stuck.\n3. Questions refer to the stories above, in order, covering at least four: facts first, then causes, consequences, other perspectives, my evaluation. Near the end, ask me to connect two stories.\n4. Encourage me to use Plusquamperfekt to show which event happened first. Prompt me with Als, nachdem, bevor, bereits and schon when useful.\n5. Question ideas (adapt to my answers): (story 1) Was hatten die Behörden gemeldet, bevor der König Karak besuchte? (story 2) Was hatte die Staatsanwaltschaft eingeleitet, als die Öffentlichkeit von dem Angriff erfuhr? (story 3) Welche Maßnahmen hatten die Behörden vorbereitet, bevor die Demonstrationen begannen? (story 4) Was hatten Russland und die Ukraine bestätigt, bevor die Waffenruhe in Kraft trat? (story 5) Welche Warnungen hatten die Behörden ausgegeben, bevor der Taifun Taiwan erreichte? (story 6) Was hatten die Kritiker bereits bemängelt, bevor die Uhren umgestellt wurden? How could you connect the emergency preparations in stories 3 and 5 using Plusquamperfekt?\n6. Immediate correction: if I break today's rule (e.g. *Als der König ankam, haben die Behörden den Angriff schon gemeldet.* instead of *Als der König ankam, hatten die Behörden den Angriff schon gemeldet.*), stop briefly: quote the error, give the correct sentence, explain the rule in 1 English sentence, ask me to repeat the correct sentence aloud before the next question.\n7. Also correct other significant errors briefly; note recurring mistakes for the final feedback. If my answer is very short, ask one follow-up („Warum?“).\n8. Wrap-up after about 20 minutes or when I say „stop“: two things I did well, three key mistakes with corrections, five words to review, one German sentence to repeat aloud.\n9. Keep the tone engaging, professional, natural for an immersive German voice dialogue. Address me as „du“.",
+      "pl": "Jesteś moim nauczycielem języka niemieckiego i prowadzisz 20-minutową rozmowę na poziomie od B1 do C1 na podstawie części Listening z dzisiejszej lekcji (wiadomości po niemiecku z 24 października 2026 roku).\n\nOdniesienie do materiału Listening – 6 wiadomości z dzisiejszej lekcji, w tej samej kolejności co artykuły:\n1. W ataku na kościół w Jordanii zginęło co najmniej siedem osób, a ponad 30 zostało rannych; król odwiedził ten obszar później.\n2. W podejrzewanym ataku na tle rasistowskim na przedmieściach Paryża zginęła jedna osoba, a pięć innych zostało rannych; francuskie władze wszczęły śledztwo.\n3. Francuskie władze planowały skierować 70 000 funkcjonariuszy do zabezpieczenia spodziewanych protestów; organizatorzy przygotowywali demonstracje, a część zgromadzeń zakazano.\n4. Rosja i Ukraina potwierdziły lokalne zawieszenie broni w okolicach Oleszek po amerykańskim komunikacie; deklarowanym celem było wsparcie operacji humanitarnej.\n5. Tajfun Champi spowodował obrażenia, powalił drzewa i doprowadził do przerw w dostawie prądu na Tajwanie; ekipy pracowały nad przywróceniem zasilania.\n6. Zgodnie z zapowiedzią zegary w Europie miały zostać cofnięte o godzinę z powodu końca czasu letniego; niektórzy krytykowali tę zmianę ze względu na możliwe obciążenia zdrowotne i niewielkie oszczędności energii.\n\nCel gramatyczny: Plusquamperfekt do opisywania wydarzenia, które nastąpiło przed innym wydarzeniem w przeszłości.\n\nPrzydatne słownictwo z dzisiejszych artykułów (zachęcaj mnie do używania tych słów): der Angriff, die Sicherheitsbehörden, das Ermittlungsverfahren, die Mobilisierung, die Waffenruhe, die Schäden, die Warnung, die Belastung.\n\nInstrukcje dla nauczyciela AI:\n1. Rozpocznij rozmowę: przywitaj się i zapytaj, czy wysłuchałem/wysłuchałam dzisiejszych wiadomości. Jeśli nie, streść pierwszą wiadomość w dwóch prostych zdaniach po niemiecku i kontynuuj.\n2. Ty pytasz, ja mówię: jedno pytanie na turę, jedna lub dwie krótkie odpowiedzi, nigdy samodzielnie nie odpowiadaj na własne pytania. Niemiecki na poziomie B1–C1; angielski tylko wtedy, gdy naprawdę sobie nie radzę.\n3. Pytania dotyczą powyższych wiadomości w podanej kolejności; omów co najmniej cztery: najpierw fakty, potem przyczyny, konsekwencje, inne perspektywy i moja ocena. Pod koniec poproś mnie o połączenie dwóch wiadomości.\n4. Zachęcaj mnie do używania Plusquamperfekt, aby pokazać, które wydarzenie nastąpiło wcześniej. W razie potrzeby podpowiadaj Als, nachdem, bevor, bereits i schon.\n5. Przykładowe pytania (dostosuj je do moich odpowiedzi): (wiadomość 1) Was hatten die Behörden gemeldet, bevor der König Karak besuchte? (wiadomość 2) Was hatte die Staatsanwaltschaft eingeleitet, als die Öffentlichkeit von dem Angriff erfuhr? (wiadomość 3) Welche Maßnahmen hatten die Behörden vorbereitet, bevor die Demonstrationen begannen? (wiadomość 4) Was hatten Russland und die Ukraine bestätigt, bevor die Waffenruhe in Kraft trat? (wiadomość 5) Welche Warnungen hatten die Behörden ausgegeben, bevor der Taifun Taiwan erreichte? (wiadomość 6) Was hatten die Kritiker bereits bemängelt, bevor die Uhren umgestellt wurden? How could you connect the emergency preparations in stories 3 and 5 using Plusquamperfekt?\n6. Natychmiastowa korekta: jeśli popełnię błąd dotyczący dzisiejszej zasady, na przykład *Als der König ankam, haben die Behörden den Angriff schon gemeldet.* zamiast *Als der König ankam, hatten die Behörden den Angriff schon gemeldet.*, przerwij na chwilę: zacytuj błąd, podaj poprawne zdanie, wyjaśnij zasadę w jednym zdaniu po angielsku i poproś mnie o głośne powtórzenie poprawnego zdania przed kolejnym pytaniem.\n7. Koryguj też inne istotne błędy; zapamiętuj powtarzające się problemy na potrzeby końcowej informacji zwrotnej. Jeśli moja odpowiedź jest bardzo krótka, zadaj jedno pytanie uzupełniające („Warum?“).\n8. Podsumowanie po około 20 minutach lub gdy powiem „stop”: dwie rzeczy, które zrobiłem/zrobiłam dobrze, trzy najważniejsze błędy z poprawkami, pięć słów do powtórki i jedno niemieckie zdanie do głośnego powtórzenia.\n9. Zachowuj angażujący, profesjonalny i naturalny ton, sprzyjający rozmowie po niemiecku. Zwracaj się do mnie per „du”."
     }
   }
 }
+
 ]
