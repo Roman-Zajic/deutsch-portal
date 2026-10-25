@@ -14784,12 +14784,6 @@
       "level": "B2"
     },
     {
-      "en": "Translate: The company could not meet its obligations because it had miscalculated the available resources.",
-      "pl": "Przetłumacz: Firma nie mogła wywiązać się ze zobowiązań, ponieważ błędnie obliczyła dostępne zasoby.",
-      "de": "Das Unternehmen konnte seine Verpflichtungen nicht erfüllen, weil es die verfügbaren Ressourcen falsch berechnet hatte.",
-      "level": "B2"
-    },
-    {
       "en": "Complete: The policy was revised after an independent review had exposed serious weaknesses. (aufdecken)",
       "pl": "Uzupełnij: Politykę zmieniono po tym, jak niezależna analiza ujawniła poważne słabości. (aufdecken)",
       "de": "Die Richtlinie wurde überarbeitet, nachdem eine unabhängige Prüfung erhebliche Schwächen aufgedeckt hatte.",
@@ -14910,54 +14904,6 @@
       "level": "C1"
     },
     {
-      "en": "Complete: The company had committed itself to ambitious targets before its management had assessed the associated risks. (bewerten)",
-      "pl": "Uzupełnij: Firma zobowiązała się do realizacji ambitnych celów, zanim kierownictwo oceniło związane z nimi ryzyko. (bewerten)",
-      "de": "Das Unternehmen hatte sich ehrgeizigen Zielen verpflichtet, bevor seine Führung die damit verbundenen Risiken bewertet hatte.",
-      "level": "C1"
-    },
-    {
-      "en": "Translate: The evidence suggested that the crisis had exposed vulnerabilities that had accumulated over decades.",
-      "pl": "Przetłumacz: Dowody wskazywały, że kryzys ujawnił słabości narastające przez dziesięciolecia.",
-      "de": "Die Belege deuteten darauf hin, dass die Krise Schwachstellen offengelegt hatte, die sich über Jahrzehnte angesammelt hatten.",
-      "level": "C1"
-    },
-    {
-      "en": "Complete: The initiative had lost momentum by the time its supporters recognised that the political circumstances had changed. (erkennen)",
-      "pl": "Uzupełnij: Inicjatywa straciła impet, zanim jej zwolennicy zrozumieli, że sytuacja polityczna się zmieniła. (erkennen)",
-      "de": "Die Initiative hatte an Schwung verloren, als ihre Unterstützer erkannten, dass sich die politischen Umstände verändert hatten.",
-      "level": "C1"
-    },
-    {
-      "en": "Translate: The review concluded that the apparent consensus had concealed fundamental disagreements.",
-      "pl": "Przetłumacz: Przegląd wykazał, że pozorny konsensus ukrywał zasadnicze rozbieżności.",
-      "de": "Die Überprüfung kam zu dem Schluss, dass der scheinbare Konsens grundlegende Meinungsverschiedenheiten verdeckt hatte.",
-      "level": "C1"
-    },
-    {
-      "en": "Complete: The investigation could not establish whether the officials had deliberately withheld information or had simply misunderstood their obligations. (zurückhalten)",
-      "pl": "Uzupełnij: Dochodzenie nie ustaliło, czy urzędnicy celowo zataili informacje, czy po prostu źle zrozumieli swoje obowiązki. (zurückhalten)",
-      "de": "Die Untersuchung konnte nicht feststellen, ob die Beamten Informationen bewusst zurückgehalten oder ihre Pflichten lediglich missverstanden hatten.",
-      "level": "C1"
-    },
-    {
-      "en": "Translate: The strategy had become untenable long before the leadership publicly acknowledged its limitations.",
-      "pl": "Przetłumacz: Strategia stała się nie do utrzymania na długo przed tym, jak kierownictwo publicznie przyznało się do jej ograniczeń.",
-      "de": "Die Strategie war längst unhaltbar geworden, bevor die Führung ihre Grenzen öffentlich eingeräumt hatte.",
-      "level": "C1"
-    },
-    {
-      "en": "Complete: The commission determined that the safeguards had been inadequate because the designers had relied on assumptions that subsequent events disproved. (widerlegen)",
-      "pl": "Uzupełnij: Komisja ustaliła, że zabezpieczenia były niewystarczające, ponieważ ich twórcy oparli się na założeniach, które późniejsze wydarzenia obaliły. (widerlegen)",
-      "de": "Die Kommission stellte fest, dass die Schutzmaßnahmen unzureichend gewesen waren, weil ihre Entwickler sich auf Annahmen verlassen hatten, die spätere Ereignisse widerlegt hatten.",
-      "level": "C1"
-    },
-    {
-      "en": "Translate: The institution's response was shaped by lessons that it had learned from earlier failures.",
-      "pl": "Przetłumacz: Reakcję instytucji ukształtowały wnioski wyciągnięte z wcześniejszych niepowodzeń.",
-      "de": "Die Reaktion der Institution wurde durch Lehren geprägt, die sie aus früheren Fehlschlägen gezogen hatte.",
-      "level": "C1"
-    },
-    {
       "en": "Complete: The negotiations might have progressed differently had the parties recognised how fundamentally their objectives diverged. (erkennen)",
       "pl": "Uzupełnij: Negocjacje mogłyby przebiec inaczej, gdyby strony rozpoznały, jak zasadniczo różnią się ich cele. (erkennen)",
       "de": "Die Verhandlungen hätten anders verlaufen können, wenn die Parteien erkannt hätten, wie grundlegend ihre Ziele voneinander abwichen.",
@@ -15015,12 +14961,6 @@
       "en": "Translate: The retrospective analysis revealed that the organisation had normalised practices that it had initially regarded as exceptional.",
       "pl": "Przetłumacz: Analiza retrospektywna wykazała, że organizacja uznała za normalne praktyki, które początkowo uważała za wyjątkowe.",
       "de": "Die rückblickende Analyse zeigte, dass die Organisation Praktiken normalisiert hatte, die sie anfangs als außergewöhnlich betrachtet hatte.",
-      "level": "C2"
-    },
-    {
-      "en": "Complete: The initiative failed to deliver lasting change because its architects had mistaken formal compliance for a transformation of institutional behaviour. (verwechseln)",
-      "pl": "Uzupełnij: Inicjatywa nie przyniosła trwałej zmiany, ponieważ jej twórcy pomylili formalne przestrzeganie zasad z przemianą zachowań instytucjonalnych. (verwechseln)",
-      "de": "Die Initiative bewirkte keinen dauerhaften Wandel, weil ihre Urheber formale Regelkonformität mit einer Veränderung des institutionellen Verhaltens verwechselt hatten.",
       "level": "C2"
     }
   ],
