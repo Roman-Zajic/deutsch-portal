@@ -6594,7 +6594,7 @@
     }
   }
 },
- {
+{
   "lesson": {
     "id": "2026-10-18",
     "date": "18.10.2026",
@@ -6635,624 +6635,724 @@
     {
       "de": "Ich beeile **mich**, weil der Zug gleich abfährt.",
       "en": "I am hurrying because the train is leaving soon.",
-      "pl": "Spieszę się, ponieważ pociąg zaraz odjeżdża."
-    },
-    {
-      "de": "Du solltest **dich** vor dem Vorstellungsgespräch gut vorbereiten.",
-      "en": "You should prepare yourself well before the job interview.",
-      "pl": "Powinieneś dobrze przygotować się przed rozmową kwalifikacyjną."
-    },
-    {
-      "de": "Sie interessiert **sich** besonders für nachhaltige Finanzmodelle.",
-      "en": "She is particularly interested in sustainable financial models.",
-      "pl": "Szczególnie interesuje się zrównoważonymi modelami finansowymi."
-    },
-    {
-      "de": "Wir treffen **uns** nach der Arbeit vor dem Bahnhof.",
-      "en": "We are meeting in front of the station after work.",
-      "pl": "Spotykamy się przed dworcem po pracy."
-    },
-    {
-      "de": "Er erinnert **sich** nicht mehr an den Namen des Kunden.",
-      "en": "He no longer remembers the client's name.",
-      "pl": "Nie pamięta już nazwiska klienta."
+      "pl": "Spieszę się, ponieważ pociąg zaraz odjeżdża.",
+      "level": "A2"
     },
     {
       "de": "Ich wasche **mir** jeden Morgen das Gesicht.",
       "en": "I wash my face every morning.",
-      "pl": "Każdego ranka myję sobie twarz."
+      "pl": "Każdego ranka myję sobie twarz.",
+      "level": "A2"
     },
     {
-      "de": "Du solltest **dir** die wichtigsten Termine notieren.",
-      "en": "You should write down the most important appointments for yourself.",
-      "pl": "Powinieneś zapisać sobie najważniejsze terminy."
+      "de": "Wir treffen **uns** nach der Arbeit vor dem Bahnhof.",
+      "en": "We are meeting in front of the station after work.",
+      "pl": "Spotykamy się przed dworcem po pracy.",
+      "level": "A2"
     },
     {
-      "de": "Sie hat **sich** vor dem Termin die Haare schneiden lassen.",
-      "en": "She had her hair cut before the appointment.",
-      "pl": "Przed spotkaniem kazała sobie obciąć włosy."
+      "de": "Er setzt **sich** auf den Stuhl.",
+      "en": "He sits down on the chair.",
+      "pl": "On siada na krześle.",
+      "level": "A2"
+    },
+    {
+      "de": "Sie interessiert **sich** besonders für dieses Thema.",
+      "en": "She is particularly interested in this topic.",
+      "pl": "Szczególnie interesuje się tym tematem.",
+      "level": "B1"
+    },
+    {
+      "de": "Er erinnert **sich** nicht mehr an den Namen des Kunden.",
+      "en": "He no longer remembers the client's name.",
+      "pl": "Nie pamięta już nazwiska klienta.",
+      "level": "B1"
     },
     {
       "de": "Wir kaufen **uns** für die Reise neue Rucksäcke.",
       "en": "We are buying ourselves new backpacks for the trip.",
-      "pl": "Kupujemy sobie nowe plecaki na podróż."
+      "pl": "Kupujemy sobie nowe plecaki na podróż.",
+      "level": "B1"
+    },
+    {
+      "de": "Du solltest **dir** die wichtigsten Termine notieren.",
+      "en": "You should write down the most important appointments for yourself.",
+      "pl": "Powinieneś zapisać sobie najważniejsze terminy.",
+      "level": "B1"
     },
     {
       "de": "Nach der langen Besprechung gönne ich **mir** eine kurze Pause.",
       "en": "After the long meeting, I treat myself to a short break.",
-      "pl": "Po długim spotkaniu pozwalam sobie na krótką przerwę."
+      "pl": "Po długim spotkaniu pozwalam sobie na krótką przerwę.",
+      "level": "B2"
     },
     {
       "de": "Die Kolleginnen haben **sich** über die unerwartete Nachricht gefreut.",
       "en": "The colleagues were pleased about the unexpected news.",
-      "pl": "Koleżanki ucieszyły się z nieoczekiwanej wiadomości."
+      "pl": "Koleżanki ucieszyły się z nieoczekiwanej wiadomości.",
+      "level": "B2"
     },
     {
-      "de": "Ich kann **mir** diese Entscheidung unter den gegebenen Umständen gut erklären.",
-      "en": "I can easily explain this decision to myself under the circumstances.",
-      "pl": "W tych okolicznościach potrafię sobie łatwo wyjaśnić tę decyzję."
+      "de": "Bevor sie den Bericht abschickt, macht sie **sich** Notizen.",
+      "en": "Before sending the report, she makes notes for herself.",
+      "pl": "Zanim wyśle raport, robi sobie notatki.",
+      "level": "B2"
     },
     {
-      "de": "Bevor sie den Bericht abschickt, liest sie **ihn** noch einmal durch und macht **sich** Notizen.",
-      "en": "Before sending the report, she reads it through once more and makes notes for herself.",
-      "pl": "Zanim wyśle raport, jeszcze raz go czyta i robi sobie notatki."
-    },
-    {
-      "de": "Wenn du **dir** die Unterlagen frühzeitig besorgst, vermeidest du unnötigen Stress.",
-      "en": "If you obtain the documents early, you avoid unnecessary stress.",
-      "pl": "Jeśli odpowiednio wcześnie zdobędziesz dokumenty, unikniesz niepotrzebnego stresu."
+      "de": "Wenn du **dir** die Unterlagen frühzeitig besorgst, vermeidest du Stress.",
+      "en": "If you obtain the documents early, you avoid stress.",
+      "pl": "Jeśli odpowiednio wcześnie zdobędziesz dokumenty, unikniesz stresu.",
+      "level": "B2"
     },
     {
       "de": "Der Manager hat **sich** für eine transparentere Vorgehensweise entschieden.",
       "en": "The manager decided on a more transparent approach.",
-      "pl": "Menedżer zdecydował się na bardziej przejrzyste podejście."
+      "pl": "Menedżer zdecydował się na bardziej przejrzyste podejście.",
+      "level": "C1"
     },
     {
       "de": "Wir müssen **uns** die möglichen Folgen dieser Änderung genauer ansehen.",
       "en": "We need to examine the possible consequences of this change more closely.",
-      "pl": "Musimy dokładniej przyjrzeć się możliwym konsekwencjom tej zmiany."
+      "pl": "Musimy dokładniej przyjrzeć się możliwym konsekwencjom tej zmiany.",
+      "level": "C1"
     },
     {
-      "de": "Obwohl er **sich** auf die Präsentation vorbereitet hatte, war er nervös.",
-      "en": "Although he had prepared for the presentation, he was nervous.",
-      "pl": "Chociaż przygotował się do prezentacji, denerwował się."
+      "de": "Obwohl er **sich** gründlich auf die Präsentation vorbereitet hatte, war er nervös.",
+      "en": "Although he had prepared thoroughly for the presentation, he was nervous.",
+      "pl": "Chociaż gruntownie przygotował się do prezentacji, denerwował się.",
+      "level": "C1"
     },
     {
       "de": "Die Mitarbeitenden sollten **sich** rechtzeitig über die neuen Richtlinien informieren.",
       "en": "The employees should inform themselves about the new guidelines in good time.",
-      "pl": "Pracownicy powinni odpowiednio wcześnie zapoznać się z nowymi wytycznymi."
+      "pl": "Pracownicy powinni odpowiednio wcześnie zapoznać się z nowymi wytycznymi.",
+      "level": "C1"
     },
     {
-      "de": "Ich habe **mir** vorgenommen, mich bei schwierigen Gesprächen besser zu beherrschen.",
+      "de": "Ich habe **mir** vorgenommen, **mich** bei schwierigen Gesprächen besser zu beherrschen.",
       "en": "I have resolved to control myself better during difficult conversations.",
-      "pl": "Postanowiłem lepiej panować nad sobą podczas trudnych rozmów."
+      "pl": "Postanowiłem lepiej panować nad sobą podczas trudnych rozmów.",
+      "level": "C2"
     },
     {
       "de": "Wer **sich** regelmäßig Zeit für die Weiterbildung nimmt, verbessert langfristig seine beruflichen Chancen.",
       "en": "Anyone who regularly makes time for professional development improves their career prospects in the long term.",
-      "pl": "Osoba, która regularnie znajduje czas na rozwój zawodowy, długoterminowo zwiększa swoje szanse na karierę."
+      "pl": "Osoba, która regularnie znajduje czas na rozwój zawodowy, długoterminowo zwiększa swoje szanse na karierę.",
+      "level": "C2"
+    },
+    {
+      "de": "Ich kann **mir** diese komplexe Entscheidung unter den gegebenen Umständen gut erklären.",
+      "en": "I can easily explain this complex decision to myself under the circumstances.",
+      "pl": "W tych okolicznościach potrafię sobie łatwo wyjaśnić tę złożoną decyzję.",
+      "level": "C2"
+    },
+    {
+      "de": "Der Ausschuss behält **sich** das Recht vor, die eingereichten Unterlagen einer genauen Prüfung zu unterziehen.",
+      "en": "The committee reserves the right to subject the submitted documents to a close examination.",
+      "pl": "Komisja zastrzega sobie prawo do poddania złożonych dokumentów dokładnej weryfikacji.",
+      "level": "C2"
     }
   ],
   "exercises": [
     {
       "en": "I am getting dressed.",
       "pl": "Ubieram się.",
-      "de": "Ich ziehe mich an."
+      "de": "Ich ziehe mich an.",
+      "level": "A2"
     },
     {
       "en": "You (informal) are washing your hands.",
       "pl": "Myjesz sobie ręce.",
-      "de": "Du wäschst dir die Hände."
+      "de": "Du wäschst dir die Hände.",
+      "level": "A2"
     },
     {
       "en": "He is sitting down.",
       "pl": "On siada.",
-      "de": "Er setzt sich."
+      "de": "Er setzt sich.",
+      "level": "A2"
     },
     {
       "en": "We are brushing our teeth.",
       "pl": "Myjemy sobie zęby.",
-      "de": "Wir putzen uns die Zähne."
+      "de": "Wir putzen uns die Zähne.",
+      "level": "A2"
     },
     {
       "en": "You (informal) are hurrying.",
       "pl": "Spieszysz się.",
-      "de": "Du beeilst dich."
+      "de": "Du beeilst dich.",
+      "level": "A2"
     },
     {
       "en": "She is putting on her coat.",
       "pl": "Ona zakłada sobie płaszcz.",
-      "de": "Sie zieht sich den Mantel an."
+      "de": "Sie zieht sich den Mantel an.",
+      "level": "A2"
     },
     {
       "en": "I am combing my hair.",
       "pl": "Czeszę sobie włosy.",
-      "de": "Ich kämme mir die Haare."
+      "de": "Ich kämme mir die Haare.",
+      "level": "A2"
     },
     {
       "en": "They are meeting at the café.",
       "pl": "Spotykają się w kawiarni.",
-      "de": "Sie treffen sich im Café."
+      "de": "Sie treffen sich im Café.",
+      "level": "A2"
+    },
+    {
+      "en": "I am washing myself.",
+      "pl": "Myję się.",
+      "de": "Ich wasche mich.",
+      "level": "A2"
+    },
+    {
+      "en": "We are buying ourselves a table.",
+      "pl": "Kupujemy sobie stół.",
+      "de": "Wir kaufen uns einen Tisch.",
+      "level": "A2"
     },
     {
       "en": "You (formal) are making notes.",
       "pl": "Robi sobie Pan/Pani notatki.",
-      "de": "Sie machen sich Notizen."
+      "de": "Sie machen sich Notizen.",
+      "level": "B1"
     },
     {
       "en": "I am preparing for the exam.",
       "pl": "Przygotowuję się do egzaminu.",
-      "de": "Ich bereite mich auf die Prüfung vor."
+      "de": "Ich bereite mich auf die Prüfung vor.",
+      "level": "B1"
     },
     {
       "en": "You (informal) are imagining a quiet weekend.",
       "pl": "Wyobrażasz sobie spokojny weekend.",
-      "de": "Du stellst dir ein ruhiges Wochenende vor."
+      "de": "Du stellst dir ein ruhiges Wochenende vor.",
+      "level": "B1"
     },
     {
       "en": "She remembers the conversation.",
       "pl": "Ona pamięta tę rozmowę.",
-      "de": "Sie erinnert sich an das Gespräch."
+      "de": "Sie erinnert sich an das Gespräch.",
+      "level": "B1"
     },
     {
       "en": "We are interested in the proposal.",
       "pl": "Interesujemy się tą propozycją.",
-      "de": "Wir interessieren uns für den Vorschlag."
+      "de": "Wir interessieren uns für den Vorschlag.",
+      "level": "B1"
     },
     {
       "en": "He is looking forward to his holiday.",
       "pl": "On cieszy się na urlop.",
-      "de": "Er freut sich auf seinen Urlaub."
+      "de": "Er freut sich auf seinen Urlaub.",
+      "level": "B1"
     },
     {
       "en": "I am treating myself to a coffee.",
       "pl": "Sprawiam sobie przyjemność, kupując kawę.",
-      "de": "Ich gönne mir einen Kaffee."
+      "de": "Ich gönne mir einen Kaffee.",
+      "level": "B1"
     },
     {
       "en": "You (informal) are looking at the figures.",
       "pl": "Przyglądasz się tym liczbom.",
-      "de": "Du siehst dir die Zahlen an."
+      "de": "Du siehst dir die Zahlen an.",
+      "level": "B1"
     },
     {
       "en": "She is washing her face.",
       "pl": "Ona myje sobie twarz.",
-      "de": "Sie wäscht sich das Gesicht."
-    },
-    {
-      "en": "We are buying ourselves a new table.",
-      "pl": "Kupujemy sobie nowy stół.",
-      "de": "Wir kaufen uns einen neuen Tisch."
+      "de": "Sie wäscht sich das Gesicht.",
+      "level": "B1"
     },
     {
       "en": "He is introducing himself to the new team.",
       "pl": "Przedstawia się nowemu zespołowi.",
-      "de": "Er stellt sich dem neuen Team vor."
+      "de": "Er stellt sich dem neuen Team vor.",
+      "level": "B1"
     },
     {
       "en": "I am deciding on a different strategy.",
       "pl": "Decyduję się na inną strategię.",
-      "de": "Ich entscheide mich für eine andere Strategie."
+      "de": "Ich entscheide mich für eine andere Strategie.",
+      "level": "B1"
     },
     {
       "en": "You (informal) should remember the deadline.",
       "pl": "Powinieneś pamiętać o terminie.",
-      "de": "Du solltest dich an die Frist erinnern."
+      "de": "Du solltest dich an die Frist erinnern.",
+      "level": "B1"
     },
     {
       "en": "She is putting on her shoes.",
       "pl": "Ona zakłada sobie buty.",
-      "de": "Sie zieht sich die Schuhe an."
+      "de": "Sie zieht sich die Schuhe an.",
+      "level": "B1"
     },
     {
       "en": "We are asking ourselves an important question.",
       "pl": "Zadajemy sobie ważne pytanie.",
-      "de": "Wir stellen uns eine wichtige Frage."
+      "de": "Wir stellen uns eine wichtige Frage.",
+      "level": "B1"
     },
     {
       "en": "They are discussing the matter among themselves.",
       "pl": "Omawiają tę sprawę między sobą.",
-      "de": "Sie besprechen die Angelegenheit unter sich."
+      "de": "Sie besprechen die Angelegenheit unter sich.",
+      "level": "B1"
     },
     {
       "en": "I have hurt my knee.",
       "pl": "Zraniłem sobie kolano.",
-      "de": "Ich habe mir das Knie verletzt."
+      "de": "Ich habe mir das Knie verletzt.",
+      "level": "B1"
     },
     {
       "en": "You (formal) should inform yourself about the changes.",
       "pl": "Powinien się Pan/Powinna się Pani poinformować o zmianach.",
-      "de": "Sie sollten sich über die Änderungen informieren."
+      "de": "Sie sollten sich über die Änderungen informieren.",
+      "level": "B1"
     },
     {
       "en": "He can easily imagine living abroad.",
       "pl": "Potrafi sobie łatwo wyobrazić życie za granicą.",
-      "de": "Er kann sich das Leben im Ausland gut vorstellen."
+      "de": "Er kann sich das Leben im Ausland gut vorstellen.",
+      "level": "B1"
     },
     {
       "en": "I am protecting myself against unnecessary risks.",
       "pl": "Chronię się przed niepotrzebnym ryzykiem.",
-      "de": "Ich schütze mich vor unnötigen Risiken."
+      "de": "Ich schütze mich vor unnötigen Risiken.",
+      "level": "B1"
     },
     {
       "en": "She is taking time to think about the offer.",
       "pl": "Ona daje sobie czas na przemyślenie oferty.",
-      "de": "Sie nimmt sich Zeit, um über das Angebot nachzudenken."
+      "de": "Sie nimmt sich Zeit, um über das Angebot nachzudenken.",
+      "level": "B1"
     },
     {
       "en": "We are getting used to the new system.",
       "pl": "Przyzwyczajamy się do nowego systemu.",
-      "de": "Wir gewöhnen uns an das neue System."
+      "de": "Wir gewöhnen uns an das neue System.",
+      "level": "B2"
     },
     {
       "en": "I am having a new suit made.",
       "pl": "Zlecam sobie uszycie nowego garnituru.",
-      "de": "Ich lasse mir einen neuen Anzug anfertigen."
+      "de": "Ich lasse mir einen neuen Anzug anfertigen.",
+      "level": "B2"
     },
     {
       "en": "You (informal) should write down the address.",
       "pl": "Powinieneś zapisać sobie adres.",
-      "de": "Du solltest dir die Adresse aufschreiben."
+      "de": "Du solltest dir die Adresse aufschreiben.",
+      "level": "B2"
     },
     {
       "en": "He is apologising for the delay.",
       "pl": "Przeprasza za opóźnienie.",
-      "de": "Er entschuldigt sich für die Verspätung."
+      "de": "Er entschuldigt sich für die Verspätung.",
+      "level": "B2"
     },
     {
       "en": "They are preparing themselves for difficult negotiations.",
       "pl": "Przygotowują się do trudnych negocjacji.",
-      "de": "Sie bereiten sich auf schwierige Verhandlungen vor."
+      "de": "Sie bereiten sich auf schwierige Verhandlungen vor.",
+      "level": "B2"
     },
     {
       "en": "I can remember the figures clearly.",
       "pl": "Dobrze pamiętam te liczby.",
-      "de": "Ich kann mich gut an die Zahlen erinnern."
+      "de": "Ich kann mich gut an die Zahlen erinnern.",
+      "level": "B2"
     },
     {
       "en": "She is asking herself whether the plan is realistic.",
       "pl": "Zadaje sobie pytanie, czy plan jest realistyczny.",
-      "de": "Sie fragt sich, ob der Plan realistisch ist."
+      "de": "Sie fragt sich, ob der Plan realistisch ist.",
+      "level": "B2"
     },
     {
       "en": "We are imagining a more efficient process.",
       "pl": "Wyobrażamy sobie bardziej efektywny proces.",
-      "de": "Wir stellen uns einen effizienteren Prozess vor."
+      "de": "Wir stellen uns einen effizienteren Prozess vor.",
+      "level": "B2"
     },
     {
       "en": "You (informal) should allow yourself a break.",
       "pl": "Powinieneś pozwolić sobie na przerwę.",
-      "de": "Du solltest dir eine Pause gönnen."
+      "de": "Du solltest dir eine Pause gönnen.",
+      "level": "B2"
     },
     {
       "en": "He is concentrating on the main issue.",
       "pl": "Koncentruje się na głównym problemie.",
-      "de": "Er konzentriert sich auf das Hauptproblem."
+      "de": "Er konzentriert sich auf das Hauptproblem.",
+      "level": "B2"
     },
     {
       "en": "I am making myself a sandwich before the meeting.",
       "pl": "Robię sobie kanapkę przed spotkaniem.",
-      "de": "Ich mache mir vor der Besprechung ein Sandwich."
+      "de": "Ich mache mir vor der Besprechung ein Sandwich.",
+      "level": "B2"
     },
     {
       "en": "She has bought herself a professional reference book.",
       "pl": "Kupiła sobie fachową książkę.",
-      "de": "Sie hat sich ein Fachbuch gekauft."
+      "de": "Sie hat sich ein Fachbuch gekauft.",
+      "level": "B2"
     },
     {
       "en": "We are looking forward to the results.",
       "pl": "Cieszymy się na wyniki.",
-      "de": "Wir freuen uns auf die Ergebnisse."
+      "de": "Wir freuen uns auf die Ergebnisse.",
+      "level": "B2"
     },
     {
       "en": "You (formal) should make yourself familiar with the procedure.",
       "pl": "Powinien się Pan/Powinna się Pani zapoznać z procedurą.",
-      "de": "Sie sollten sich mit dem Verfahren vertraut machen."
+      "de": "Sie sollten sich mit dem Verfahren vertraut machen.",
+      "level": "B2"
     },
     {
       "en": "I am concerned about the consequences.",
       "pl": "Martwię się konsekwencjami.",
-      "de": "Ich mache mir Sorgen um die Folgen."
+      "de": "Ich mache mir Sorgen um die Folgen.",
+      "level": "B2"
     },
     {
       "en": "He is checking the contract carefully.",
       "pl": "Dokładnie sprawdza sobie umowę.",
-      "de": "Er sieht sich den Vertrag genau an."
+      "de": "Er sieht sich den Vertrag genau an.",
+      "level": "B2"
     },
     {
       "en": "They have arranged a meeting among themselves.",
       "pl": "Uzgodnili między sobą spotkanie.",
-      "de": "Sie haben sich untereinander auf ein Treffen verständigt."
+      "de": "Sie haben sich untereinander auf ein Treffen verständigt.",
+      "level": "B2"
     },
     {
       "en": "I am wondering why the costs have increased.",
       "pl": "Zastanawiam się, dlaczego koszty wzrosły.",
-      "de": "Ich frage mich, warum die Kosten gestiegen sind."
+      "de": "Ich frage mich, warum die Kosten gestiegen sind.",
+      "level": "B2"
     },
     {
       "en": "You (informal) are putting too much pressure on yourself.",
       "pl": "Wywierasz na siebie zbyt dużą presję.",
-      "de": "Du setzt dich zu sehr unter Druck."
+      "de": "Du setzt dich zu sehr unter Druck.",
+      "level": "B2"
     },
     {
       "en": "She is taking the criticism seriously.",
       "pl": "Traktuje krytykę poważnie.",
-      "de": "Sie nimmt sich die Kritik zu Herzen."
+      "de": "Sie nimmt sich die Kritik zu Herzen.",
+      "level": "B2"
     },
     {
       "en": "We are giving ourselves enough time to assess the options.",
       "pl": "Dajemy sobie wystarczająco dużo czasu na ocenę możliwości.",
-      "de": "Wir nehmen uns genug Zeit, um die Optionen zu bewerten."
+      "de": "Wir nehmen uns genug Zeit, um die Optionen zu bewerten.",
+      "level": "B2"
     },
     {
       "en": "I am getting ready for an important presentation.",
       "pl": "Przygotowuję się do ważnej prezentacji.",
-      "de": "Ich mache mich für eine wichtige Präsentation fertig."
+      "de": "Ich mache mich für eine wichtige Präsentation fertig.",
+      "level": "B2"
     },
     {
       "en": "He is asking himself whether he should accept the offer.",
       "pl": "Zadaje sobie pytanie, czy powinien przyjąć ofertę.",
-      "de": "Er fragt sich, ob er das Angebot annehmen sollte."
+      "de": "Er fragt sich, ob er das Angebot annehmen sollte.",
+      "level": "B2"
     },
     {
       "en": "You (informal) are taking notes about the discussion.",
       "pl": "Robisz sobie notatki z dyskusji.",
-      "de": "Du machst dir Notizen zu der Diskussion."
+      "de": "Du machst dir Notizen zu der Diskussion.",
+      "level": "B2"
     },
     {
       "en": "The team is preparing itself for a demanding quarter.",
       "pl": "Zespół przygotowuje się do wymagającego kwartału.",
-      "de": "Das Team bereitet sich auf ein anspruchsvolles Quartal vor."
+      "de": "Das Team bereitet sich auf ein anspruchsvolles Quartal vor.",
+      "level": "B2"
     },
     {
       "en": "I have booked myself an appointment with the adviser.",
       "pl": "Umówiłem sobie spotkanie z doradcą.",
-      "de": "Ich habe mir einen Termin bei der Beraterin gebucht."
+      "de": "Ich habe mir einen Termin bei der Beraterin gebucht.",
+      "level": "B2"
     },
     {
       "en": "She is protecting her interests.",
       "pl": "Chroni swoje interesy.",
-      "de": "Sie schützt sich und ihre Interessen."
+      "de": "Sie schützt sich und ihre Interessen.",
+      "level": "B2"
     },
     {
       "en": "We need to familiarise ourselves with the reporting requirements.",
       "pl": "Musimy zapoznać się z wymogami sprawozdawczymi.",
-      "de": "Wir müssen uns mit den Berichtsanforderungen vertraut machen."
+      "de": "Wir müssen uns mit den Berichtsanforderungen vertraut machen.",
+      "level": "B2"
     },
     {
       "en": "You (formal) can imagine the scale of the challenge.",
       "pl": "Może Pan/Może Pani wyobrazić sobie skalę wyzwania.",
-      "de": "Sie können sich das Ausmaß der Herausforderung vorstellen."
+      "de": "Sie können sich das Ausmaß der Herausforderung vorstellen.",
+      "level": "B2"
     },
     {
       "en": "He is treating himself to a day without meetings.",
       "pl": "Pozwala sobie na dzień bez spotkań.",
-      "de": "Er gönnt sich einen Tag ohne Besprechungen."
+      "de": "Er gönnt sich einen Tag ohne Besprechungen.",
+      "level": "B2"
     },
     {
       "en": "I am trying to remember where I saved the file.",
       "pl": "Próbuję sobie przypomnieć, gdzie zapisałem plik.",
-      "de": "Ich versuche mich daran zu erinnern, wo ich die Datei gespeichert habe."
+      "de": "Ich versuche mich daran zu erinnern, wo ich die Datei gespeichert habe.",
+      "level": "B2"
     },
     {
       "en": "She is making herself a list of priorities.",
       "pl": "Sporządza sobie listę priorytetów.",
-      "de": "Sie erstellt sich eine Prioritätenliste."
+      "de": "Sie erstellt sich eine Prioritätenliste.",
+      "level": "B2"
     },
     {
       "en": "We have decided to focus on the long-term effects.",
       "pl": "Postanowiliśmy skupić się na długoterminowych skutkach.",
-      "de": "Wir haben uns entschieden, uns auf die langfristigen Auswirkungen zu konzentrieren."
+      "de": "Wir haben uns entschieden, uns auf die langfristigen Auswirkungen zu konzentrieren.",
+      "level": "B2"
     },
     {
       "en": "I can no longer imagine working without this tool.",
       "pl": "Nie potrafię już wyobrazić sobie pracy bez tego narzędzia.",
-      "de": "Ich kann mir die Arbeit ohne dieses Werkzeug nicht mehr vorstellen."
+      "de": "Ich kann mir die Arbeit ohne dieses Werkzeug nicht mehr vorstellen.",
+      "level": "B2"
     },
     {
       "en": "You (informal) should ask yourself whether the evidence is sufficient.",
       "pl": "Powinieneś zadać sobie pytanie, czy dowody są wystarczające.",
-      "de": "Du solltest dich fragen, ob die Belege ausreichend sind."
+      "de": "Du solltest dich fragen, ob die Belege ausreichend sind.",
+      "level": "B2"
     },
     {
       "en": "The directors are preparing themselves for questions from investors.",
       "pl": "Dyrektorzy przygotowują się na pytania inwestorów.",
-      "de": "Die Direktoren bereiten sich auf Fragen der Investoren vor."
+      "de": "Die Direktoren bereiten sich auf Fragen der Investoren vor.",
+      "level": "B2"
     },
     {
       "en": "I have made myself a detailed checklist.",
       "pl": "Przygotowałem sobie szczegółową listę kontrolną.",
-      "de": "Ich habe mir eine detaillierte Checkliste erstellt."
+      "de": "Ich habe mir eine detaillierte Checkliste erstellt.",
+      "level": "B2"
     },
     {
       "en": "She is still deciding whether to accept the promotion.",
       "pl": "Nadal zastanawia się, czy przyjąć awans.",
-      "de": "Sie überlegt sich noch, ob sie die Beförderung annehmen soll."
+      "de": "Sie überlegt sich noch, ob sie die Beförderung annehmen soll.",
+      "level": "B2"
     },
     {
       "en": "We should remind ourselves of the original objective.",
       "pl": "Powinniśmy przypomnieć sobie pierwotny cel.",
-      "de": "Wir sollten uns das ursprüngliche Ziel vor Augen führen."
+      "de": "Wir sollten uns das ursprüngliche Ziel vor Augen führen.",
+      "level": "B2"
     },
     {
       "en": "He has injured his shoulder while training.",
       "pl": "Nadwyrężył sobie bark podczas treningu.",
-      "de": "Er hat sich beim Training die Schulter verletzt."
+      "de": "Er hat sich beim Training die Schulter verletzt.",
+      "level": "B2"
     },
     {
       "en": "I am informing myself about the legal implications before responding.",
       "pl": "Przed odpowiedzią zapoznaję się z konsekwencjami prawnymi.",
-      "de": "Ich informiere mich vor meiner Antwort über die rechtlichen Auswirkungen."
+      "de": "Ich informiere mich vor meiner Antwort über die rechtlichen Auswirkungen.",
+      "level": "C1"
     },
     {
       "en": "You (formal) should not blame yourself for the entire failure.",
       "pl": "Nie powinien się Pan/Pani obwiniać za całe niepowodzenie.",
-      "de": "Sie sollten sich nicht die gesamte Schuld am Scheitern geben."
+      "de": "Sie sollten sich nicht die gesamte Schuld am Scheitern geben.",
+      "level": "C1"
     },
     {
       "en": "She is asking herself how the team could have missed the warning signs.",
       "pl": "Zadaje sobie pytanie, jak zespół mógł przeoczyć sygnały ostrzegawcze.",
-      "de": "Sie fragt sich, wie dem Team die Warnsignale entgehen konnten."
+      "de": "Sie fragt sich, wie dem Team die Warnsignale entgehen konnten.",
+      "level": "C1"
     },
     {
       "en": "We are making ourselves aware of the assumptions behind the forecast.",
       "pl": "Uświadamiamy sobie założenia leżące u podstaw prognozy.",
-      "de": "Wir machen uns die Annahmen hinter der Prognose bewusst."
+      "de": "Wir machen uns die Annahmen hinter der Prognose bewusst.",
+      "level": "C1"
     },
     {
       "en": "I have set myself the goal of improving my German every day.",
       "pl": "Wyznaczyłem sobie cel codziennego doskonalenia niemieckiego.",
-      "de": "Ich habe mir das Ziel gesetzt, mein Deutsch jeden Tag zu verbessern."
+      "de": "Ich habe mir das Ziel gesetzt, mein Deutsch jeden Tag zu verbessern.",
+      "level": "C1"
     },
     {
       "en": "He is questioning whether the proposed measures will be effective.",
       "pl": "Zastanawia się, czy proponowane działania będą skuteczne.",
-      "de": "Er fragt sich, ob die vorgeschlagenen Maßnahmen wirksam sein werden."
+      "de": "Er fragt sich, ob die vorgeschlagenen Maßnahmen wirksam sein werden.",
+      "level": "C1"
     },
     {
       "en": "You (informal) should give yourself time to evaluate the alternatives.",
       "pl": "Powinieneś dać sobie czas na ocenę alternatyw.",
-      "de": "Du solltest dir Zeit geben, die Alternativen zu bewerten."
+      "de": "Du solltest dir Zeit geben, die Alternativen zu bewerten.",
+      "level": "C1"
     },
     {
       "en": "The organisation is preparing itself for a fundamental restructuring.",
       "pl": "Organizacja przygotowuje się do gruntownej restrukturyzacji.",
-      "de": "Die Organisation bereitet sich auf eine grundlegende Umstrukturierung vor."
+      "de": "Die Organisation bereitet sich auf eine grundlegende Umstrukturierung vor.",
+      "level": "C1"
     },
     {
       "en": "I cannot explain to myself why the results differ so significantly.",
       "pl": "Nie potrafię sobie wyjaśnić, dlaczego wyniki tak bardzo się różnią.",
-      "de": "Ich kann mir nicht erklären, warum die Ergebnisse so stark voneinander abweichen."
+      "de": "Ich kann mir nicht erklären, warum die Ergebnisse so stark voneinander abweichen.",
+      "level": "C1"
     },
     {
       "en": "She has acquired the skills needed to manage the transition.",
       "pl": "Zdobyła umiejętności potrzebne do zarządzania zmianą.",
-      "de": "Sie hat sich die Fähigkeiten angeeignet, die sie für die Steuerung des Übergangs benötigt."
+      "de": "Sie hat sich die Fähigkeiten angeeignet, die sie für die Steuerung des Übergangs benötigt.",
+      "level": "C1"
     },
     {
       "en": "We should ask ourselves which risks have not yet been quantified.",
       "pl": "Powinniśmy zadać sobie pytanie, które ryzyka nie zostały jeszcze oszacowane.",
-      "de": "Wir sollten uns fragen, welche Risiken noch nicht quantifiziert worden sind."
+      "de": "Wir sollten uns fragen, welche Risiken noch nicht quantifiziert worden sind.",
+      "level": "C1"
     },
     {
       "en": "He has promised himself that he will remain calm during the negotiations.",
       "pl": "Obiecał sobie, że zachowa spokój podczas negocjacji.",
-      "de": "Er hat sich versprochen, während der Verhandlungen ruhig zu bleiben."
+      "de": "Er hat sich versprochen, während der Verhandlungen ruhig zu bleiben.",
+      "level": "C1"
     },
     {
       "en": "I am trying to make clear to myself which assumptions are defensible.",
       "pl": "Próbuję ustalić, które założenia można uzasadnić.",
-      "de": "Ich versuche mir klarzumachen, welche Annahmen vertretbar sind."
+      "de": "Ich versuche mir klarzumachen, welche Annahmen vertretbar sind.",
+      "level": "C1"
     },
     {
       "en": "You (formal) should prepare yourself for the possibility of further delays.",
       "pl": "Powinien się Pan/Powinna się Pani przygotować na możliwość dalszych opóźnień.",
-      "de": "Sie sollten sich auf die Möglichkeit weiterer Verzögerungen einstellen."
+      "de": "Sie sollten sich auf die Möglichkeit weiterer Verzögerungen einstellen.",
+      "level": "C1"
     },
     {
       "en": "The committee is reserving the right to reconsider its decision.",
       "pl": "Komisja zastrzega sobie prawo do ponownego rozważenia decyzji.",
-      "de": "Der Ausschuss behält sich das Recht vor, seine Entscheidung erneut zu prüfen."
+      "de": "Der Ausschuss behält sich das Recht vor, seine Entscheidung erneut zu prüfen.",
+      "level": "C1"
     },
     {
       "en": "She has made a point of explaining the reasoning to herself before presenting it.",
       "pl": "Zadbała o to, by przed prezentacją wyjaśnić sobie tok rozumowania.",
-      "de": "Sie hat es sich zur Gewohnheit gemacht, sich die Argumentation vor der Präsentation zu erklären."
+      "de": "Sie hat es sich zur Gewohnheit gemacht, sich die Argumentation vor der Präsentation zu erklären.",
+      "level": "C1"
     },
     {
       "en": "We need to remind ourselves that correlation does not prove causation.",
       "pl": "Musimy przypomnieć sobie, że korelacja nie dowodzi związku przyczynowego.",
-      "de": "Wir müssen uns vor Augen halten, dass Korrelation keine Kausalität beweist."
+      "de": "Wir müssen uns vor Augen halten, dass Korrelation keine Kausalität beweist.",
+      "level": "C1"
     },
     {
       "en": "I am asking myself whether the proposed solution addresses the root cause.",
       "pl": "Zastanawiam się, czy proponowane rozwiązanie usuwa przyczynę źródłową.",
-      "de": "Ich frage mich, ob die vorgeschlagene Lösung die eigentliche Ursache beseitigt."
+      "de": "Ich frage mich, ob die vorgeschlagene Lösung die eigentliche Ursache beseitigt.",
+      "level": "C1"
     },
     {
       "en": "He has acquired a reputation for remaining composed under pressure.",
       "pl": "Wyrobił sobie opinię osoby zachowującej spokój pod presją.",
-      "de": "Er hat sich den Ruf erworben, auch unter Druck gelassen zu bleiben."
+      "de": "Er hat sich den Ruf erworben, auch unter Druck gelassen zu bleiben.",
+      "level": "C1"
     },
     {
       "en": "You (informal) should consider whether your conclusion follows from the available evidence.",
       "pl": "Powinieneś rozważyć, czy Twój wniosek wynika z dostępnych dowodów.",
-      "de": "Du solltest dir überlegen, ob deine Schlussfolgerung aus den verfügbaren Belegen folgt."
+      "de": "Du solltest dir überlegen, ob deine Schlussfolgerung aus den verfügbaren Belegen folgt.",
+      "level": "C1"
     },
     {
       "en": "The board is preparing itself for a scenario in which financing becomes more expensive.",
       "pl": "Zarząd przygotowuje się na scenariusz, w którym finansowanie stanie się droższe.",
-      "de": "Der Vorstand wappnet sich für ein Szenario, in dem die Finanzierung teurer wird."
+      "de": "Der Vorstand wappnet sich für ein Szenario, in dem die Finanzierung teurer wird.",
+      "level": "C2"
     },
     {
       "en": "I have made myself fully aware of the consequences before signing the agreement.",
       "pl": "Przed podpisaniem umowy w pełni uświadomiłem sobie konsekwencje.",
-      "de": "Ich habe mir die Folgen vor der Unterzeichnung der Vereinbarung vollständig bewusst gemacht."
+      "de": "Ich habe mir die Folgen vor der Unterzeichnung der Vereinbarung vollständig bewusst gemacht.",
+      "level": "C2"
     },
     {
       "en": "She is trying to imagine how the recommendation would affect smaller entities.",
       "pl": "Próbuje sobie wyobrazić, jak rekomendacja wpłynęłaby na mniejsze jednostki.",
-      "de": "Sie versucht sich vorzustellen, wie sich die Empfehlung auf kleinere Unternehmen auswirken würde."
+      "de": "Sie versucht sich vorzustellen, wie sich die Empfehlung auf kleinere Unternehmen auswirken würde.",
+      "level": "C2"
     },
     {
       "en": "We must ask ourselves whether the savings justify the additional operational risk.",
       "pl": "Musimy zadać sobie pytanie, czy oszczędności uzasadniają dodatkowe ryzyko operacyjne.",
-      "de": "Wir müssen uns fragen, ob die Einsparungen das zusätzliche operationelle Risiko rechtfertigen."
+      "de": "Wir müssen uns fragen, ob die Einsparungen das zusätzliche operationelle Risiko rechtfertigen.",
+      "level": "C2"
     },
     {
       "en": "I have set myself the task of identifying the assumptions that drive the valuation.",
       "pl": "Postawiłem sobie za zadanie zidentyfikowanie założeń wpływających na wycenę.",
-      "de": "Ich habe mir die Aufgabe gestellt, die wertbestimmenden Annahmen zu identifizieren."
+      "de": "Ich habe mir die Aufgabe gestellt, die wertbestimmenden Annahmen zu identifizieren.",
+      "level": "C2"
     },
     {
       "en": "You (formal) should consider whether the evidence supports the conclusion you have drawn.",
       "pl": "Powinien się Pan/Powinna się Pani zastanowić, czy dowody potwierdzają wyciągnięty wniosek.",
-      "de": "Sie sollten sich überlegen, ob die Belege die von Ihnen gezogene Schlussfolgerung stützen."
+      "de": "Sie sollten sich überlegen, ob die Belege die von Ihnen gezogene Schlussfolgerung stützen.",
+      "level": "C2"
     },
     {
       "en": "The negotiators have agreed to keep the option of extending the deadline open.",
       "pl": "Negocjatorzy uzgodnili, że pozostawią sobie możliwość przedłużenia terminu.",
-      "de": "Die Verhandlungspartner haben sich vorbehalten, die Frist gegebenenfalls zu verlängern."
+      "de": "Die Verhandlungspartner haben sich vorbehalten, die Frist gegebenenfalls zu verlängern.",
+      "level": "C2"
     },
     {
       "en": "He cannot reconcile the reported improvement with the underlying performance indicators.",
       "pl": "Nie potrafi pogodzić raportowanej poprawy z podstawowymi wskaźnikami wyników.",
-      "de": "Er kann sich die gemeldete Verbesserung nicht mit den zugrunde liegenden Leistungskennzahlen erklären."
+      "de": "Er kann sich die gemeldete Verbesserung nicht mit den zugrunde liegenden Leistungskennzahlen erklären.",
+      "level": "C2"
     },
     {
       "en": "We should make ourselves aware of the limitations before relying on the model.",
       "pl": "Powinniśmy uświadomić sobie ograniczenia, zanim oprzemy się na modelu.",
-      "de": "Wir sollten uns die Einschränkungen bewusst machen, bevor wir uns auf das Modell verlassen."
+      "de": "Wir sollten uns die Einschränkungen bewusst machen, bevor wir uns auf das Modell verlassen.",
+      "level": "C2"
     },
     {
       "en": "I have promised myself that I will challenge unsupported assumptions more consistently.",
       "pl": "Obiecałem sobie, że będę konsekwentniej kwestionować nieuzasadnione założenia.",
-      "de": "Ich habe mir vorgenommen, unbelegte Annahmen konsequenter zu hinterfragen."
-    },
-    {
-      "en": "She is considering whether the proposed controls adequately address the identified risks.",
-      "pl": "Rozważa, czy proponowane mechanizmy kontrolne odpowiednio uwzględniają zidentyfikowane ryzyka.",
-      "de": "Sie überlegt sich, ob die vorgeschlagenen Kontrollen den identifizierten Risiken angemessen Rechnung tragen."
-    },
-    {
-      "en": "The project team has made it its priority to keep stakeholders informed throughout the transition.",
-      "pl": "Zespół projektowy uznał za priorytet informowanie interesariuszy przez cały okres zmiany.",
-      "de": "Das Projektteam hat es sich zur Priorität gemacht, die Interessengruppen während des gesamten Übergangs auf dem Laufenden zu halten."
-    },
-    {
-      "en": "I need to clarify to myself which elements of the forecast are based on judgement rather than observable data.",
-      "pl": "Muszę sobie wyjaśnić, które elementy prognozy opierają się na osądzie, a nie na obserwowalnych danych.",
-      "de": "Ich muss mir klarmachen, welche Bestandteile der Prognose auf Einschätzungen statt auf beobachtbaren Daten beruhen."
-    },
-    {
-      "en": "You (formal) should ask yourself whether the proposed timetable is compatible with the required review procedures.",
-      "pl": "Powinien się Pan/Powinna się Pani zastanowić, czy proponowany harmonogram jest zgodny z wymaganymi procedurami przeglądu.",
-      "de": "Sie sollten sich fragen, ob der vorgeschlagene Zeitplan mit den erforderlichen Prüfverfahren vereinbar ist."
-    },
-    {
-      "en": "The organisation has committed itself to reviewing the policy whenever material circumstances change.",
-      "pl": "Organizacja zobowiązała się do przeglądu polityki za każdym razem, gdy istotnie zmienią się okoliczności.",
-      "de": "Die Organisation hat sich verpflichtet, die Richtlinie immer dann zu überprüfen, wenn sich die wesentlichen Umstände ändern."
+      "de": "Ich habe mir vorgenommen, unbelegte Annahmen konsequenter zu hinterfragen.",
+      "level": "C2"
     }
   ],
   "speaking": {
