@@ -7362,7 +7362,7 @@
     }
   }
 },
- {
+{
   "lesson": {
     "id": "2026-10-19",
     "date": "19.10.2026",
@@ -7400,156 +7400,726 @@
     }
   },
   "examples": [
-    {"de":"Ich **habe** die Nachrichten am Morgen **gehört**.","en":"I listened to the news in the morning.","pl":"Rano słuchałem wiadomości."},
-    {"de":"Der Zug **ist** pünktlich **abgefahren**.","en":"The train departed on time.","pl":"Pociąg odjechał punktualnie."},
-    {"de":"Wir **haben** die wichtigsten Daten **gesammelt**.","en":"We collected the most important data.","pl":"Zebraliśmy najważniejsze dane."},
-    {"de":"Meine Kollegin **ist** gestern nach Wien **geflogen**.","en":"My colleague flew to Vienna yesterday.","pl":"Moja koleżanka poleciała wczoraj do Wiednia."},
-    {"de":"Die Regierung **hat** eine neue Erklärung **veröffentlicht**.","en":"The government published a new statement.","pl":"Rząd opublikował nowe oświadczenie."},
-    {"de":"Nach dem langen Gespräch **ist** er ruhig **geblieben**.","en":"He remained calm after the long conversation.","pl":"Po długiej rozmowie zachował spokój."},
-    {"de":"Ich **habe** mich auf die Besprechung **vorbereitet**.","en":"I prepared for the meeting.","pl":"Przygotowałem się do spotkania."},
-    {"de":"Die Temperatur **ist** über Nacht deutlich **gesunken**.","en":"The temperature fell significantly overnight.","pl":"Temperatura znacznie spadła w nocy."},
-    {"de":"Sie **hat** den Vertrag sorgfältig **geprüft**.","en":"She checked the contract carefully.","pl":"Dokładnie sprawdziła umowę."},
-    {"de":"Die Passagiere **sind** sicher am Flughafen **angekommen**.","en":"The passengers arrived safely at the airport.","pl":"Pasażerowie bezpiecznie dotarli na lotnisko."},
-    {"de":"Das Unternehmen **hat** seine Prognose **geändert**.","en":"The company changed its forecast.","pl":"Firma zmieniła swoją prognozę."},
-    {"de":"Das Kind **ist** nach wenigen Minuten **eingeschlafen**.","en":"The child fell asleep after a few minutes.","pl":"Dziecko zasnęło po kilku minutach."},
-    {"de":"Die Fachleute **haben** mehrere mögliche Ursachen **untersucht**.","en":"The specialists investigated several possible causes.","pl":"Specjaliści zbadali kilka możliwych przyczyn."},
-    {"de":"Der Minister **ist** am Abend vor die Presse **getreten**.","en":"The minister appeared before the press in the evening.","pl":"Wieczorem minister wystąpił przed prasą."},
-    {"de":"Wir **haben** die Risiken ausführlich **besprochen**.","en":"We discussed the risks in detail.","pl":"Szczegółowo omówiliśmy ryzyka."},
-    {"de":"Das Feuer **hat** sich innerhalb weniger Minuten **ausgebreitet**.","en":"The fire spread within a few minutes.","pl":"Ogień rozprzestrzenił się w ciągu kilku minut."},
-    {"de":"Die Delegation **ist** gestern aus dem Ausland **zurückgekehrt**.","en":"The delegation returned from abroad yesterday.","pl":"Delegacja wróciła wczoraj z zagranicy."},
-    {"de":"Ich **habe** mir die Einzelheiten genau **notiert**.","en":"I noted the details carefully.","pl":"Dokładnie zanotowałem sobie szczegóły."},
-    {"de":"Die Verhandlungen **sind** nach einer kurzen Pause **weitergegangen**.","en":"The negotiations continued after a short break.","pl":"Negocjacje były kontynuowane po krótkiej przerwie."},
-    {"de":"Obwohl wir früh **aufgestanden sind**, **haben** wir den Anschlusszug **verpasst**.","en":"Although we got up early, we missed the connecting train.","pl":"Chociaż wcześnie wstaliśmy, spóźniliśmy się na pociąg przesiadkowy."}
+    {
+      "de": "Ich **habe** die Nachrichten am Morgen **gehört**.",
+      "en": "I listened to the news in the morning.",
+      "pl": "Rano słuchałem wiadomości.",
+      "level": "A1"
+    },
+    {
+      "de": "Der Zug **ist** pünktlich **abgefahren**.",
+      "en": "The train departed on time.",
+      "pl": "Pociąg odjechał punktualnie.",
+      "level": "A1"
+    },
+    {
+      "de": "Wir **haben** die wichtigsten Daten **gesammelt**.",
+      "en": "We collected the most important data.",
+      "pl": "Zebraliśmy najważniejsze dane.",
+      "level": "A2"
+    },
+    {
+      "de": "Meine Kollegin **ist** gestern nach Wien **geflogen**.",
+      "en": "My colleague flew to Vienna yesterday.",
+      "pl": "Moja koleżanka poleciała wczoraj do Wiednia.",
+      "level": "A2"
+    },
+    {
+      "de": "Das Kind **ist** nach wenigen Minuten **eingeschlafen**.",
+      "en": "The child fell asleep after a few minutes.",
+      "pl": "Dziecko zasnęło po kilku minutach.",
+      "level": "A2"
+    },
+    {
+      "de": "Die Regierung **hat** eine neue Erklärung **veröffentlicht**.",
+      "en": "The government published a new statement.",
+      "pl": "Rząd opublikował nowe oświadczenie.",
+      "level": "B1"
+    },
+    {
+      "de": "Nach dem langen Gespräch **ist** er ruhig **geblieben**.",
+      "en": "He remained calm after the long conversation.",
+      "pl": "Po długiej rozmowie zachował spokój.",
+      "level": "B1"
+    },
+    {
+      "de": "Ich **habe** mich auf die Besprechung **vorbereitet**.",
+      "en": "I prepared for the meeting.",
+      "pl": "Przygotowałem się do spotkania.",
+      "level": "B1"
+    },
+    {
+      "de": "Die Temperatur **ist** über Nacht deutlich **gesunken**.",
+      "en": "The temperature fell significantly overnight.",
+      "pl": "Temperatura znacznie spadła w nocy.",
+      "level": "B1"
+    },
+    {
+      "de": "Sie **hat** den Vertrag sorgfältig **geprüft**.",
+      "en": "She checked the contract carefully.",
+      "pl": "Dokładnie sprawdziła umowę.",
+      "level": "B1"
+    },
+    {
+      "de": "Die Passagiere **sind** sicher am Flughafen **angekommen**.",
+      "en": "The passengers arrived safely at the airport.",
+      "pl": "Pasażerowie bezpiecznie dotarli na lotnisko.",
+      "level": "B2"
+    },
+    {
+      "de": "Das Unternehmen **hat** seine Prognose **geändert**.",
+      "en": "The company changed its forecast.",
+      "pl": "Firma zmieniła swoją prognozę.",
+      "level": "B2"
+    },
+    {
+      "de": "Die Fachleute **haben** mehrere mögliche Ursachen **untersucht**.",
+      "en": "The specialists investigated several possible causes.",
+      "pl": "Specjaliści zbadali kilka możliwych przyczyn.",
+      "level": "B2"
+    },
+    {
+      "de": "Der Minister **ist** am Abend vor die Presse **getreten**.",
+      "en": "The minister appeared before the press in the evening.",
+      "pl": "Wieczorem minister wystąpił przed prasą.",
+      "level": "B2"
+    },
+    {
+      "de": "Wir **haben** die Risiken ausführlich **besprochen**.",
+      "en": "We discussed the risks in detail.",
+      "pl": "Szczegółowo omówiliśmy ryzyka.",
+      "level": "B2"
+    },
+    {
+      "de": "Das Feuer **hat** sich innerhalb weniger Minuten **ausgebreitet**.",
+      "en": "The fire spread within a few minutes.",
+      "pl": "Ogień rozprzestrzenił się w ciągu kilku minut.",
+      "level": "C1"
+    },
+    {
+      "de": "Die Delegation **ist** gestern aus dem Ausland **zurückgekehrt**.",
+      "en": "The delegation returned from abroad yesterday.",
+      "pl": "Delegacja wróciła wczoraj z zagranicy.",
+      "level": "C1"
+    },
+    {
+      "de": "Ich **habe** mir die Einzelheiten genau **notiert**.",
+      "en": "I noted the details carefully.",
+      "pl": "Dokładnie zanotowałem sobie szczegóły.",
+      "level": "C1"
+    },
+    {
+      "de": "Trotz intensiver Vermittlungsbemühungen **sind** die Verhandlungen letztlich an unüberbrückbaren Differenzen **gescheitert**.",
+      "en": "Despite intensive mediation efforts, the negotiations ultimately failed due to irreconcilable differences.",
+      "pl": "Mimo intensywnych prób mediacji negocjacje ostatecznie zakończyły się fiaskiem z powodu różnic nie do pogodzenia.",
+      "level": "C2"
+    },
+    {
+      "de": "Obwohl die Geschäftsleitung frühzeitig Gegenmaßnahmen **eingeleitet hat**, **ist** das Unternehmen in erhebliche Liquiditätsengpässe **geraten**.",
+      "en": "Although the management initiated countermeasures early on, the company got into considerable liquidity bottlenecks.",
+      "pl": "Chociaż dyrekcja wcześnie wdrożyła środki zaradcze, firma popadła w znaczne trudności z płynnością finansową.",
+      "level": "C2"
+    }
   ],
   "exercises": [
-    {"en":"I worked yesterday.","pl":"Wczoraj pracowałem.","de":"Ich habe gestern gearbeitet."},
-    {"en":"She arrived late.","pl":"Ona przyjechała późno.","de":"Sie ist spät angekommen."},
-    {"en":"We watched a film.","pl":"Obejrzeliśmy film.","de":"Wir haben einen Film gesehen."},
-    {"en":"He went home.","pl":"Poszedł do domu.","de":"Er ist nach Hause gegangen."},
-    {"en":"You (informal) bought bread.","pl":"Kupiłeś chleb.","de":"Du hast Brot gekauft."},
-    {"en":"The children fell asleep.","pl":"Dzieci zasnęły.","de":"Die Kinder sind eingeschlafen."},
-    {"en":"I read the email.","pl":"Przeczytałem e-mail.","de":"Ich habe die E-Mail gelesen."},
-    {"en":"They stayed here.","pl":"Zostali tutaj.","de":"Sie sind hier geblieben."},
-    {"en":"You (formal) came early.","pl":"Przyszedł Pan/Pani wcześnie.","de":"Sie sind früh gekommen."},
-    {"en":"We learned German.","pl":"Uczyliśmy się niemieckiego.","de":"Wir haben Deutsch gelernt."},
-    {"en":"I travelled to Hamburg by train.","pl":"Pojechałem pociągiem do Hamburga.","de":"Ich bin mit dem Zug nach Hamburg gefahren."},
-    {"en":"She called her manager.","pl":"Zadzwoniła do swojego menedżera.","de":"Sie hat ihren Manager angerufen."},
-    {"en":"The meeting began at nine.","pl":"Spotkanie rozpoczęło się o dziewiątej.","de":"Die Besprechung hat um neun begonnen."},
-    {"en":"The plane landed safely.","pl":"Samolot bezpiecznie wylądował.","de":"Das Flugzeug ist sicher gelandet."},
-    {"en":"He forgot the appointment.","pl":"Zapomniał o spotkaniu.","de":"Er hat den Termin vergessen."},
-    {"en":"We moved to a new flat.","pl":"Przeprowadziliśmy się do nowego mieszkania.","de":"Wir sind in eine neue Wohnung gezogen."},
-    {"en":"I prepared for the interview.","pl":"Przygotowałem się do rozmowy kwalifikacyjnej.","de":"Ich habe mich auf das Vorstellungsgespräch vorbereitet."},
-    {"en":"The price increased last month.","pl":"Cena wzrosła w zeszłym miesiącu.","de":"Der Preis ist letzten Monat gestiegen."},
-    {"en":"They discussed the proposal.","pl":"Omówili propozycję.","de":"Sie haben den Vorschlag besprochen."},
-    {"en":"The situation changed quickly.","pl":"Sytuacja szybko się zmieniła.","de":"Die Situation hat sich schnell geändert."},
-    {"en":"My colleague returned from Berlin.","pl":"Mój kolega wrócił z Berlina.","de":"Mein Kollege ist aus Berlin zurückgekommen."},
-    {"en":"I wrote a short report.","pl":"Napisałem krótki raport.","de":"Ich habe einen kurzen Bericht geschrieben."},
-    {"en":"The guests left at midnight.","pl":"Goście wyszli o północy.","de":"Die Gäste sind um Mitternacht gegangen."},
-    {"en":"She explained the problem clearly.","pl":"Jasno wyjaśniła problem.","de":"Sie hat das Problem klar erklärt."},
-    {"en":"The baby woke up early.","pl":"Dziecko wcześnie się obudziło.","de":"Das Baby ist früh aufgewacht."},
-    {"en":"We booked a hotel room.","pl":"Zarezerwowaliśmy pokój hotelowy.","de":"Wir haben ein Hotelzimmer gebucht."},
-    {"en":"He became a team leader.","pl":"Został liderem zespołu.","de":"Er ist Teamleiter geworden."},
-    {"en":"I took the documents to the office.","pl":"Zabrałem dokumenty do biura.","de":"Ich habe die Unterlagen ins Büro gebracht."},
-    {"en":"The train stopped suddenly.","pl":"Pociąg nagle się zatrzymał.","de":"Der Zug ist plötzlich stehen geblieben."},
-    {"en":"They visited their relatives.","pl":"Odwiedzili swoich krewnych.","de":"Sie haben ihre Verwandten besucht."},
-    {"en":"The passengers got off at the next station.","pl":"Pasażerowie wysiedli na następnej stacji.","de":"Die Passagiere sind an der nächsten Station ausgestiegen."},
-    {"en":"I checked the figures twice.","pl":"Sprawdziłem liczby dwa razy.","de":"Ich habe die Zahlen zweimal überprüft."},
-    {"en":"The company grew rapidly.","pl":"Firma szybko się rozwinęła.","de":"Das Unternehmen ist schnell gewachsen."},
-    {"en":"She put the keys on the table.","pl":"Położyła klucze na stole.","de":"Sie hat die Schlüssel auf den Tisch gelegt."},
-    {"en":"We drove across the border.","pl":"Przejechaliśmy przez granicę.","de":"Wir sind über die Grenze gefahren."},
-    {"en":"He sent the invoice yesterday.","pl":"Wysłał fakturę wczoraj.","de":"Er hat die Rechnung gestern geschickt."},
-    {"en":"The guests remained in the garden.","pl":"Goście pozostali w ogrodzie.","de":"Die Gäste sind im Garten geblieben."},
-    {"en":"I forgot to attach the file.","pl":"Zapomniałem załączyć plik.","de":"Ich habe vergessen, die Datei anzuhängen."},
-    {"en":"The weather improved in the afternoon.","pl":"Pogoda poprawiła się po południu.","de":"Das Wetter ist am Nachmittag besser geworden."},
-    {"en":"They celebrated the successful launch.","pl":"Świętowali udane uruchomienie.","de":"Sie haben den erfolgreichen Start gefeiert."},
-    {"en":"The delegates arrived before the discussion started.","pl":"Delegaci przybyli, zanim rozpoczęła się dyskusja.","de":"Die Delegierten sind angekommen, bevor die Diskussion begonnen hat."},
-    {"en":"I have already completed the analysis.","pl":"Już zakończyłem analizę.","de":"Ich habe die Analyse bereits abgeschlossen."},
-    {"en":"The situation has deteriorated since Monday.","pl":"Sytuacja pogorszyła się od poniedziałku.","de":"Die Situation hat sich seit Montag verschlechtert."},
-    {"en":"She flew to Madrid for a conference.","pl":"Poleciała do Madrytu na konferencję.","de":"Sie ist für eine Konferenz nach Madrid geflogen."},
-    {"en":"We have never experienced such a delay.","pl":"Nigdy nie doświadczyliśmy takiego opóźnienia.","de":"Wir haben noch nie eine solche Verzögerung erlebt."},
-    {"en":"The director entered the room without speaking.","pl":"Dyrektor wszedł do pokoju bez słowa.","de":"Der Direktor ist schweigend in den Raum gekommen."},
-    {"en":"He has changed his opinion several times.","pl":"Kilka razy zmienił zdanie.","de":"Er hat seine Meinung mehrmals geändert."},
-    {"en":"The workers went outside after the alarm sounded.","pl":"Pracownicy wyszli na zewnątrz, gdy zabrzmiał alarm.","de":"Die Beschäftigten sind nach draußen gegangen, nachdem der Alarm ertönt ist."},
-    {"en":"I have understood the instructions now.","pl":"Teraz zrozumiałem instrukcje.","de":"Ich habe die Anweisungen jetzt verstanden."},
-    {"en":"The water froze during the night.","pl":"Woda zamarzła w nocy.","de":"Das Wasser ist in der Nacht gefroren."},
-    {"en":"She has learned a great deal from the project.","pl":"Wiele nauczyła się dzięki projektowi.","de":"Sie hat viel aus dem Projekt gelernt."},
-    {"en":"We arrived at the venue after the doors had opened.","pl":"Dotarliśmy na miejsce po otwarciu drzwi.","de":"Wir sind am Veranstaltungsort angekommen, nachdem sich die Türen geöffnet hatten."},
-    {"en":"The team has made several improvements.","pl":"Zespół wprowadził kilka ulepszeń.","de":"Das Team hat mehrere Verbesserungen vorgenommen."},
-    {"en":"The old bridge collapsed during the storm.","pl":"Stary most zawalił się podczas burzy.","de":"Die alte Brücke ist während des Sturms eingestürzt."},
-    {"en":"He has recovered quickly from the illness.","pl":"Szybko wyzdrowiał po chorobie.","de":"Er ist schnell von der Krankheit genesen."},
-    {"en":"I have spent the entire afternoon reviewing the figures.","pl":"Spędziłem całe popołudnie na analizie liczb.","de":"Ich habe den ganzen Nachmittag damit verbracht, die Zahlen zu überprüfen."},
-    {"en":"The discussion continued after the chairperson returned.","pl":"Dyskusja była kontynuowana po powrocie przewodniczącego.","de":"Die Diskussion ist weitergegangen, nachdem die Vorsitzende zurückgekehrt ist."},
-    {"en":"They have achieved the target ahead of schedule.","pl":"Osiągnęli cel przed terminem.","de":"Sie haben das Ziel vor dem Zeitplan erreicht."},
-    {"en":"The temperature has dropped below zero.","pl":"Temperatura spadła poniżej zera.","de":"Die Temperatur ist unter null Grad gesunken."},
-    {"en":"She has taken responsibility for the mistake.","pl":"Wzięła odpowiedzialność za błąd.","de":"Sie hat die Verantwortung für den Fehler übernommen."},
-    {"en":"The guests have departed, but the organisers are still here.","pl":"Goście wyjechali, ale organizatorzy nadal tu są.","de":"Die Gäste sind abgereist, aber die Organisatoren sind noch hier."},
-    {"en":"I have given the matter careful consideration.","pl":"Dokładnie rozważyłem tę sprawę.","de":"Ich habe die Angelegenheit sorgfältig bedacht."},
-    {"en":"The negotiations have failed despite several attempts.","pl":"Negocjacje zakończyły się niepowodzeniem mimo kilku prób.","de":"Die Verhandlungen sind trotz mehrerer Versuche gescheitert."},
-    {"en":"He has been responsible for the department for two years.","pl":"Od dwóch lat odpowiada za dział.","de":"Er ist seit zwei Jahren für die Abteilung verantwortlich gewesen."},
-    {"en":"We have reached the conclusion that the forecast is unreliable.","pl":"Doszliśmy do wniosku, że prognoza jest niewiarygodna.","de":"Wir sind zu dem Schluss gekommen, dass die Prognose unzuverlässig ist."},
-    {"en":"The river has risen significantly after the rainfall.","pl":"Po opadach poziom rzeki znacznie wzrósł.","de":"Der Fluss ist nach den Niederschlägen deutlich gestiegen."},
-    {"en":"She has kept the original documents in a secure place.","pl":"Przechowała oryginalne dokumenty w bezpiecznym miejscu.","de":"Sie hat die Originaldokumente an einem sicheren Ort aufbewahrt."},
-    {"en":"The company has remained profitable despite higher costs.","pl":"Firma pozostała rentowna mimo wyższych kosztów.","de":"Das Unternehmen ist trotz höherer Kosten profitabel geblieben."},
-    {"en":"I have spent three hours trying to resolve the issue.","pl":"Spędziłem trzy godziny, próbując rozwiązać problem.","de":"Ich habe drei Stunden damit verbracht, das Problem zu lösen."},
-    {"en":"The committee has reached no agreement so far.","pl":"Komisja jak dotąd nie osiągnęła porozumienia.","de":"Der Ausschuss hat bisher keine Einigung erzielt."},
-    {"en":"The patient has regained consciousness after the operation.","pl":"Pacjent odzyskał przytomność po operacji.","de":"Der Patient ist nach der Operation wieder zu Bewusstsein gekommen."},
-    {"en":"We have considered every reasonable alternative.","pl":"Rozważyliśmy każdą rozsądną alternatywę.","de":"Wir haben jede vernünftige Alternative in Betracht gezogen."},
-    {"en":"The organisation has developed considerably since its founding.","pl":"Organizacja znacznie się rozwinęła od momentu powstania.","de":"Die Organisation hat sich seit ihrer Gründung erheblich entwickelt."},
-    {"en":"The proposal has become more convincing after the revisions.","pl":"Po poprawkach propozycja stała się bardziej przekonująca.","de":"Der Vorschlag ist nach den Überarbeitungen überzeugender geworden."},
-    {"en":"I have recorded the assumptions so that others can review them.","pl":"Zapisałem założenia, aby inni mogli je sprawdzić.","de":"Ich habe die Annahmen dokumentiert, damit andere sie überprüfen können."},
-    {"en":"The delegation has returned earlier than expected because the talks ended.","pl":"Delegacja wróciła wcześniej, niż oczekiwano, ponieważ rozmowy się zakończyły.","de":"Die Delegation ist früher als erwartet zurückgekehrt, weil die Gespräche beendet waren."},
-    {"en":"The costs have risen even though demand has weakened.","pl":"Koszty wzrosły, mimo że popyt osłabł.","de":"Die Kosten sind gestiegen, obwohl die Nachfrage nachgelassen hat."},
-    {"en":"She has taken the time to verify the source before publishing the findings.","pl":"Poświęciła czas na sprawdzenie źródła przed opublikowaniem wyników.","de":"Sie hat sich die Zeit genommen, die Quelle zu überprüfen, bevor sie die Ergebnisse veröffentlicht hat."},
-    {"en":"The team has become more effective since responsibilities were clarified.","pl":"Zespół stał się skuteczniejszy od czasu doprecyzowania zakresów odpowiedzialności.","de":"Das Team ist effektiver geworden, seit die Zuständigkeiten geklärt worden sind."},
-    {"en":"We have not reached a decision because the evidence remains incomplete.","pl":"Nie podjęliśmy decyzji, ponieważ dowody nadal są niekompletne.","de":"Wir haben keine Entscheidung getroffen, weil die Belege unvollständig geblieben sind."},
-    {"en":"The witness has disappeared before the investigators could question him.","pl":"Świadek zniknął, zanim śledczy mogli go przesłuchać.","de":"Der Zeuge ist verschwunden, bevor die Ermittler ihn befragen konnten."},
-    {"en":"I have included the adjustment because the underlying assumption has changed.","pl":"Uwzględniłem korektę, ponieważ zmieniło się założenie leżące u jej podstaw.","de":"Ich habe die Anpassung berücksichtigt, weil sich die zugrunde liegende Annahme geändert hat."},
-    {"en":"The report has become obsolete since the regulation came into force.","pl":"Raport stał się nieaktualny, odkąd weszło w życie rozporządzenie.","de":"Der Bericht ist veraltet, seit die Verordnung in Kraft getreten ist."},
-    {"en":"The negotiations have resumed after both parties accepted the revised terms.","pl":"Negocjacje wznowiono po zaakceptowaniu zmienionych warunków przez obie strony.","de":"Die Verhandlungen sind wieder aufgenommen worden, nachdem beide Parteien die überarbeiteten Bedingungen akzeptiert haben."},
-    {"en":"She has documented the decision so that its rationale remains transparent.","pl":"Udokumentowała decyzję, aby jej uzasadnienie pozostało przejrzyste.","de":"Sie hat die Entscheidung dokumentiert, damit ihre Begründung transparent geblieben ist."},
-    {"en":"The project has run over budget because the scope expanded unexpectedly.","pl":"Projekt przekroczył budżet, ponieważ zakres nieoczekiwanie się rozszerzył.","de":"Das Projekt ist über das Budget hinausgelaufen, weil sich der Umfang unerwartet erweitert hat."},
-    {"en":"We have retained the original methodology, although the data quality has improved.","pl":"Zachowaliśmy pierwotną metodologię, chociaż jakość danych się poprawiła.","de":"Wir haben die ursprüngliche Methodik beibehalten, obwohl sich die Datenqualität verbessert hat."},
-    {"en":"The disagreement has intensified since the parties exchanged public statements.","pl":"Spór nasilił się od czasu wymiany publicznych oświadczeń przez strony.","de":"Der Streit ist eskaliert, seit die Parteien öffentliche Erklärungen ausgetauscht haben."},
-    {"en":"I have concluded that the apparent improvement has resulted from a change in scope.","pl":"Doszedłem do wniosku, że pozorna poprawa wynikała ze zmiany zakresu.","de":"Ich bin zu dem Schluss gekommen, dass die scheinbare Verbesserung aus einer Änderung des Umfangs resultiert hat."},
-    {"en":"The team has remained cautious because the external conditions have not stabilised.","pl":"Zespół zachował ostrożność, ponieważ warunki zewnętrzne się nie ustabilizowały.","de":"Das Team ist vorsichtig geblieben, weil sich die externen Bedingungen nicht stabilisiert haben."},
-    {"en":"The board has approved the plan after the unresolved issues were addressed.","pl":"Zarząd zatwierdził plan po rozwiązaniu nierozstrzygniętych kwestii.","de":"Der Vorstand hat den Plan genehmigt, nachdem die offenen Fragen geklärt worden sind."},
-    {"en":"The situation has changed so substantially that the previous recommendation no longer applies.","pl":"Sytuacja zmieniła się na tyle istotnie, że poprzednia rekomendacja nie ma już zastosowania.","de":"Die Situation hat sich so grundlegend verändert, dass die frühere Empfehlung nicht mehr gilt."},
-    {"en":"The experts have identified the source of the discrepancy, but the cause of the error remains unclear.","pl":"Eksperci zidentyfikowali źródło rozbieżności, ale przyczyna błędu pozostaje niejasna.","de":"Die Fachleute haben die Ursache der Abweichung identifiziert, aber der Grund für den Fehler ist unklar geblieben."},
-    {"en":"The organisation has become more resilient after it diversified its suppliers.","pl":"Organizacja stała się bardziej odporna po zdywersyfikowaniu dostawców.","de":"Die Organisation ist widerstandsfähiger geworden, nachdem sie ihre Lieferanten diversifiziert hat."},
-    {"en":"The witnesses have contradicted one another, so the investigators have postponed their conclusion.","pl":"Świadkowie zaprzeczyli sobie nawzajem, więc śledczy odłożyli sformułowanie wniosku.","de":"Die Zeugen haben sich widersprochen, weshalb die Ermittler ihre Schlussfolgerung zurückgestellt haben."},
-    {"en":"The proposal has gained support since the projected benefits became clearer.","pl":"Propozycja zyskała poparcie, odkąd przewidywane korzyści stały się jaśniejsze.","de":"Der Vorschlag hat an Unterstützung gewonnen, seit die erwarteten Vorteile deutlicher geworden sind."},
-    {"en":"We have documented the limitations so that the results are not misinterpreted.","pl":"Udokumentowaliśmy ograniczenia, aby wyniki nie zostały błędnie zinterpretowane.","de":"Wir haben die Einschränkungen dokumentiert, damit die Ergebnisse nicht missverstanden werden."},
-    {"en":"The costs have exceeded the original estimate, although several planned activities have been cancelled.","pl":"Koszty przekroczyły pierwotny szacunek, mimo że odwołano kilka zaplanowanych działań.","de":"Die Kosten sind über die ursprüngliche Schätzung hinausgegangen, obwohl mehrere geplante Aktivitäten abgesagt worden sind."},
-    {"en":"The committee has postponed its decision until the outstanding evidence has been reviewed.","pl":"Komisja odłożyła decyzję do czasu przeanalizowania brakujących dowodów.","de":"Der Ausschuss hat seine Entscheidung vertagt, bis die noch ausstehenden Belege geprüft worden sind."},
-    {"en":"The new evidence has undermined the explanation that the investigators initially considered plausible.","pl":"Nowe dowody podważyły wyjaśnienie, które śledczy początkowo uznali za wiarygodne.","de":"Die neuen Belege haben die Erklärung entkräftet, die die Ermittler zunächst für plausibel gehalten haben."},
-    {"en":"The department has become more efficient, while the workload has continued to increase.","pl":"Dział stał się wydajniejszy, podczas gdy obciążenie pracą nadal rosło.","de":"Die Abteilung ist effizienter geworden, während die Arbeitsbelastung weiter zugenommen hat."},
-    {"en":"The parties have reached a compromise after the original proposal proved unacceptable to both sides.","pl":"Strony osiągnęły kompromis po tym, jak pierwotna propozycja okazała się nie do przyjęcia dla obu stron.","de":"Die Parteien haben einen Kompromiss erzielt, nachdem sich der ursprüngliche Vorschlag für beide Seiten als unannehmbar erwiesen hat."},
-    {"en":"The report has remained incomplete because the relevant authority has not supplied the missing information.","pl":"Raport pozostał niekompletny, ponieważ właściwy organ nie dostarczył brakujących informacji.","de":"Der Bericht ist unvollständig geblieben, weil die zuständige Behörde die fehlenden Informationen nicht geliefert hat."},
-    {"en":"The project has progressed more slowly than expected, although the team has resolved several technical obstacles.","pl":"Projekt postępował wolniej, niż oczekiwano, chociaż zespół rozwiązał kilka przeszkód technicznych.","de":"Das Projekt ist langsamer als erwartet vorangekommen, obwohl das Team mehrere technische Hindernisse beseitigt hat."},
-    {"en":"The conclusion has become difficult to defend after the underlying data have been re-examined.","pl":"Wniosek stał się trudny do obrony po ponownym zbadaniu danych źródłowych.","de":"Die Schlussfolgerung ist schwer zu verteidigen geworden, nachdem die zugrunde liegenden Daten erneut untersucht worden sind."},
-    {"en":"The board has committed itself to reconsidering the strategy if the market deteriorates further.","pl":"Zarząd zobowiązał się ponownie rozważyć strategię, jeśli sytuacja rynkowa jeszcze się pogorszy.","de":"Der Vorstand hat sich verpflichtet, die Strategie neu zu überdenken, falls sich der Markt weiter verschlechtert."},
-    {"en":"The revised estimate has proved more reliable because the team has corrected the inconsistent assumptions.","pl":"Zmieniony szacunek okazał się bardziej wiarygodny, ponieważ zespół skorygował niespójne założenia.","de":"Die überarbeitete Schätzung hat sich als zuverlässiger erwiesen, weil das Team die widersprüchlichen Annahmen korrigiert hat."},
-    {"en":"The negotiations have resumed only after both sides have acknowledged the risks that they previously dismissed.","pl":"Negocjacje wznowiono dopiero po tym, jak obie strony uznały ryzyka, które wcześniej odrzucały.","de":"Die Verhandlungen sind erst wieder aufgenommen worden, nachdem beide Seiten die Risiken anerkannt haben, die sie zuvor zurückgewiesen hatten."},
-    {"en":"The organisation has remained operational despite the fact that several critical systems have failed.","pl":"Organizacja nadal działała mimo awarii kilku kluczowych systemów.","de":"Die Organisation ist betriebsfähig geblieben, obwohl mehrere kritische Systeme ausgefallen sind."},
-    {"en":"The analysts have revised their forecast after the currency has weakened more sharply than anticipated.","pl":"Analitycy zaktualizowali prognozę po tym, jak waluta osłabła bardziej, niż przewidywano.","de":"Die Analysten haben ihre Prognose überarbeitet, nachdem die Währung stärker als erwartet gefallen ist."},
-    {"en":"The proposal has gained credibility because its authors have openly acknowledged the limitations of their approach.","pl":"Propozycja zyskała wiarygodność, ponieważ jej autorzy otwarcie uznali ograniczenia swojego podejścia.","de":"Der Vorschlag hat an Glaubwürdigkeit gewonnen, weil seine Verfasser die Grenzen ihres Ansatzes offen eingeräumt haben."},
-    {"en":"The final decision has been delayed until the committee has established whether the revised figures are consistent.","pl":"Ostateczną decyzję opóźniono do czasu ustalenia przez komisję, czy zmienione liczby są spójne.","de":"Die endgültige Entscheidung ist verschoben worden, bis der Ausschuss festgestellt hat, ob die überarbeiteten Zahlen konsistent sind."},
-    {"en":"The team has made substantial progress, but the deadline has become less realistic as new requirements have emerged.","pl":"Zespół poczynił znaczne postępy, ale termin stał się mniej realny, gdy pojawiły się nowe wymagania.","de":"Das Team hat erhebliche Fortschritte erzielt, aber die Frist ist weniger realistisch geworden, als neue Anforderungen aufgetaucht sind."},
-    {"en":"The authority has withdrawn its initial assessment after further evidence has come to light.","pl":"Organ wycofał swoją wstępną ocenę po ujawnieniu kolejnych dowodów.","de":"Die Behörde hat ihre erste Einschätzung zurückgezogen, nachdem weitere Belege ans Licht gekommen sind."},
-    {"en":"The company has stayed solvent even though its operating margin has declined for three consecutive quarters.","pl":"Firma pozostała wypłacalna, mimo że jej marża operacyjna spadała przez trzy kolejne kwartały.","de":"Das Unternehmen ist zahlungsfähig geblieben, obwohl seine operative Marge drei Quartale in Folge gesunken ist."},
-    {"en":"The review has identified weaknesses that had remained unnoticed because earlier checks focused on different risks.","pl":"Przegląd wykazał słabości, które pozostały niezauważone, ponieważ wcześniejsze kontrole koncentrowały się na innych ryzykach.","de":"Die Überprüfung hat Schwachstellen identifiziert, die unbemerkt geblieben waren, weil sich frühere Kontrollen auf andere Risiken konzentriert haben."},
-    {"en":"The negotiations have reached a turning point now that both parties have accepted the need for a compromise.","pl":"Negocjacje osiągnęły punkt zwrotny, ponieważ obie strony zaakceptowały potrzebę kompromisu.","de":"Die Verhandlungen sind an einen Wendepunkt gelangt, nachdem beide Parteien die Notwendigkeit eines Kompromisses akzeptiert haben."},
-    {"en":"The recommendation has remained unchanged, although the assumptions on which it was based have been revised.","pl":"Rekomendacja pozostała bez zmian, mimo że zaktualizowano założenia, na których się opierała.","de":"Die Empfehlung ist unverändert geblieben, obwohl die Annahmen, auf denen sie beruhte, überarbeitet worden sind."},
-    {"en":"The investigators have not reached a final conclusion because the sequence of events has not yet been established.","pl":"Śledczy nie doszli do ostatecznego wniosku, ponieważ kolejność wydarzeń nie została jeszcze ustalona.","de":"Die Ermittler sind zu keiner endgültigen Schlussfolgerung gelangt, weil die Abfolge der Ereignisse noch nicht geklärt worden ist."},
-    {"en":"The reform has become politically contentious after its anticipated costs have exceeded the initial projections.","pl":"Reforma stała się politycznie kontrowersyjna po tym, jak przewidywane koszty przekroczyły początkowe prognozy.","de":"Die Reform ist politisch umstritten geworden, nachdem ihre erwarteten Kosten die ursprünglichen Prognosen überstiegen haben."},
-    {"en":"The team has retained the original deadline, although several dependencies have changed and the available resources have diminished.","pl":"Zespół utrzymał pierwotny termin, mimo że zmieniło się kilka zależności, a dostępne zasoby się zmniejszyły.","de":"Das Team hat die ursprüngliche Frist beibehalten, obwohl sich mehrere Abhängigkeiten verändert haben und die verfügbaren Ressourcen geschrumpft sind."},
-    {"en":"The decision has become more difficult to justify since the evidence that initially supported it has been challenged.","pl":"Decyzja stała się trudniejsza do uzasadnienia, odkąd zakwestionowano dowody, które początkowo ją wspierały.","de":"Die Entscheidung ist schwerer zu rechtfertigen geworden, seit die Belege angezweifelt worden sind, die sie ursprünglich gestützt haben."},
-    {"en":"The organisation has improved its controls without claiming that every risk has been eliminated.","pl":"Organizacja ulepszyła mechanizmy kontrolne, nie twierdząc, że wyeliminowano każde ryzyko.","de":"Die Organisation hat ihre Kontrollen verbessert, ohne zu behaupten, dass jedes Risiko beseitigt worden ist."},
-    {"en":"The project has reached completion later than planned because key approvals have arrived only after repeated escalation.","pl":"Projekt zakończono później, niż planowano, ponieważ kluczowe zgody nadeszły dopiero po wielokrotnej eskalacji.","de":"Das Projekt ist später als geplant zum Abschluss gekommen, weil wichtige Genehmigungen erst nach wiederholter Eskalation eingetroffen sind."},
-    {"en":"The evidence has grown stronger as independent sources have confirmed details that were initially disputed.","pl":"Dowody stały się mocniejsze, gdy niezależne źródła potwierdziły szczegóły początkowo kwestionowane.","de":"Die Beweislage ist stärker geworden, als unabhängige Quellen zunächst umstrittene Einzelheiten bestätigt haben."},
-    {"en":"The board has not altered its position, even though the circumstances have changed considerably since the first assessment.","pl":"Zarząd nie zmienił stanowiska, mimo że okoliczności znacznie się zmieniły od pierwszej oceny.","de":"Der Vorstand hat seine Position nicht geändert, obwohl sich die Umstände seit der ersten Einschätzung erheblich verändert haben."},
-    {"en":"The report has become more balanced after the authors have incorporated evidence that contradicted their initial hypothesis.","pl":"Raport stał się bardziej wyważony po uwzględnieniu przez autorów dowodów sprzecznych z ich początkową hipotezą.","de":"Der Bericht ist ausgewogener geworden, nachdem die Verfasser Belege berücksichtigt haben, die ihrer ursprünglichen Hypothese widersprochen haben."},
-    {"en":"The final outcome has remained uncertain because neither side has accepted the conditions that the mediator proposed.","pl":"Ostateczny wynik pozostał niepewny, ponieważ żadna ze stron nie zaakceptowała warunków zaproponowanych przez mediatora.","de":"Der endgültige Ausgang ist ungewiss geblieben, weil keine Seite die Bedingungen akzeptiert hat, die der Vermittler vorgeschlagen hat."}
+    {
+      "en": "I worked yesterday.",
+      "pl": "Wczoraj pracowałem.",
+      "de": "Ich habe gestern gearbeitet.",
+      "level": "A2"
+    },
+    {
+      "en": "She arrived late.",
+      "pl": "Ona przyjechała późno.",
+      "de": "Sie ist spät angekommen.",
+      "level": "A2"
+    },
+    {
+      "en": "We watched a film.",
+      "pl": "Obejrzeliśmy film.",
+      "de": "Wir haben einen Film gesehen.",
+      "level": "A2"
+    },
+    {
+      "en": "He went home.",
+      "pl": "Poszedł do domu.",
+      "de": "Er ist nach Hause gegangen.",
+      "level": "A2"
+    },
+    {
+      "en": "You (informal) bought bread.",
+      "pl": "Kupiłeś chleb.",
+      "de": "Du hast Brot gekauft.",
+      "level": "A2"
+    },
+    {
+      "en": "The children fell asleep.",
+      "pl": "Dzieci zasnęły.",
+      "de": "Die Kinder sind eingeschlafen.",
+      "level": "A2"
+    },
+    {
+      "en": "I read the email.",
+      "pl": "Przeczytałem e-mail.",
+      "de": "Ich habe die E-Mail gelesen.",
+      "level": "A2"
+    },
+    {
+      "en": "They stayed here.",
+      "pl": "Zostali tutaj.",
+      "de": "Sie sind hier geblieben.",
+      "level": "A2"
+    },
+    {
+      "en": "You (formal) came early.",
+      "pl": "Przyszedł Pan/Pani wcześnie.",
+      "de": "Sie sind früh gekommen.",
+      "level": "A2"
+    },
+    {
+      "en": "We learned German.",
+      "pl": "Uczyliśmy się niemieckiego.",
+      "de": "Wir haben Deutsch gelernt.",
+      "level": "A2"
+    },
+    {
+      "en": "I travelled to Hamburg by train.",
+      "pl": "Pojechałem pociągiem do Hamburga.",
+      "de": "Ich bin mit dem Zug nach Hamburg gefahren.",
+      "level": "B1"
+    },
+    {
+      "en": "She called her manager.",
+      "pl": "Zadzwoniła do swojego menedżera.",
+      "de": "Sie hat ihren Manager angerufen.",
+      "level": "B1"
+    },
+    {
+      "en": "The meeting began at nine.",
+      "pl": "Spotkanie rozpoczęło się o dziewiątej.",
+      "de": "Die Besprechung hat um neun begonnen.",
+      "level": "B1"
+    },
+    {
+      "en": "The plane landed safely.",
+      "pl": "Samolot bezpiecznie wylądował.",
+      "de": "Das Flugzeug ist sicher gelandet.",
+      "level": "B1"
+    },
+    {
+      "en": "He forgot the appointment.",
+      "pl": "Zapomniał o spotkaniu.",
+      "de": "Er hat den Termin vergessen.",
+      "level": "B1"
+    },
+    {
+      "en": "We moved to a new flat.",
+      "pl": "Przeprowadziliśmy się do nowego mieszkania.",
+      "de": "Wir sind in eine neue Wohnung gezogen.",
+      "level": "B1"
+    },
+    {
+      "en": "I prepared for the interview.",
+      "pl": "Przygotowałem się do rozmowy kwalifikacyjnej.",
+      "de": "Ich habe mich auf das Vorstellungsgespräch vorbereitet.",
+      "level": "B1"
+    },
+    {
+      "en": "The price increased last month.",
+      "pl": "Cena wzrosła w zeszłym miesiącu.",
+      "de": "Der Preis ist letzten Monat gestiegen.",
+      "level": "B1"
+    },
+    {
+      "en": "They discussed the proposal.",
+      "pl": "Omówili propozycję.",
+      "de": "Sie haben den Vorschlag besprochen.",
+      "level": "B1"
+    },
+    {
+      "en": "The situation changed quickly.",
+      "pl": "Sytuacja szybko się zmieniła.",
+      "de": "Die Situation hat sich schnell geändert.",
+      "level": "B1"
+    },
+    {
+      "en": "My colleague returned from Berlin.",
+      "pl": "Mój kolega wrócił z Berlina.",
+      "de": "Mein Kollege ist aus Berlin zurückgekommen.",
+      "level": "B1"
+    },
+    {
+      "en": "I wrote a short report.",
+      "pl": "Napisałem krótki raport.",
+      "de": "Ich habe einen kurzen Bericht geschrieben.",
+      "level": "B1"
+    },
+    {
+      "en": "The guests left at midnight.",
+      "pl": "Goście wyszli o północy.",
+      "de": "Die Gäste sind um Mitternacht gegangen.",
+      "level": "B1"
+    },
+    {
+      "en": "She explained the problem clearly.",
+      "pl": "Jasno wyjaśniła problem.",
+      "de": "Sie hat das Problem klar erklärt.",
+      "level": "B1"
+    },
+    {
+      "en": "The baby woke up early.",
+      "pl": "Dziecko wcześnie się obudziło.",
+      "de": "Das Baby ist früh aufgewacht.",
+      "level": "B1"
+    },
+    {
+      "en": "We booked a hotel room.",
+      "pl": "Zarezerwowaliśmy pokój hotelowy.",
+      "de": "Wir haben ein Hotelzimmer gebucht.",
+      "level": "B1"
+    },
+    {
+      "en": "He became a team leader.",
+      "pl": "Został liderem zespołu.",
+      "de": "Er ist Teamleiter geworden.",
+      "level": "B1"
+    },
+    {
+      "en": "I took the documents to the office.",
+      "pl": "Zabrałem dokumenty do biura.",
+      "de": "Ich habe die Unterlagen ins Büro gebracht.",
+      "level": "B1"
+    },
+    {
+      "en": "The train stopped suddenly.",
+      "pl": "Pociąg nagle się zatrzymał.",
+      "de": "Der Zug ist plötzlich stehen geblieben.",
+      "level": "B1"
+    },
+    {
+      "en": "They visited their relatives.",
+      "pl": "Odwiedzili swoich krewnych.",
+      "de": "Sie haben ihre Verwandten besucht.",
+      "level": "B1"
+    },
+    {
+      "en": "The passengers got off at the next station.",
+      "pl": "Pasażerowie wysiedli na następnej stacji.",
+      "de": "Die Passagiere sind an der nächsten Station ausgestiegen.",
+      "level": "B2"
+    },
+    {
+      "en": "I checked the figures twice.",
+      "pl": "Sprawdziłem liczby dwa razy.",
+      "de": "Ich habe die Zahlen zweimal überprüft.",
+      "level": "B2"
+    },
+    {
+      "en": "The company grew rapidly.",
+      "pl": "Firma szybko się rozwinęła.",
+      "de": "Das Unternehmen ist schnell gewachsen.",
+      "level": "B2"
+    },
+    {
+      "en": "She put the keys on the table.",
+      "pl": "Położyła klucze na stole.",
+      "de": "Sie hat die Schlüssel auf den Tisch gelegt.",
+      "level": "B2"
+    },
+    {
+      "en": "We drove across the border.",
+      "pl": "Przejechaliśmy przez granicę.",
+      "de": "Wir sind über die Grenze gefahren.",
+      "level": "B2"
+    },
+    {
+      "en": "He sent the invoice yesterday.",
+      "pl": "Wysłał fakturę wczoraj.",
+      "de": "Er hat die Rechnung gestern geschickt.",
+      "level": "B2"
+    },
+    {
+      "en": "The guests remained in the garden.",
+      "pl": "Goście pozostali w ogrodzie.",
+      "de": "Die Gäste sind im Garten geblieben.",
+      "level": "B2"
+    },
+    {
+      "en": "I forgot to attach the file.",
+      "pl": "Zapomniałem załączyć plik.",
+      "de": "Ich habe vergessen, die Datei anzuhängen.",
+      "level": "B2"
+    },
+    {
+      "en": "The weather improved in the afternoon.",
+      "pl": "Pogoda poprawiła się po południu.",
+      "de": "Das Wetter ist am Nachmittag besser geworden.",
+      "level": "B2"
+    },
+    {
+      "en": "They celebrated the successful launch.",
+      "pl": "Świętowali udane uruchomienie.",
+      "de": "Sie haben den erfolgreichen Start gefeiert.",
+      "level": "B2"
+    },
+    {
+      "en": "The delegates arrived before the discussion started.",
+      "pl": "Delegaci przybyli, zanim rozpoczęła się dyskusja.",
+      "de": "Die Delegierten sind angekommen, bevor die Diskussion begonnen hat.",
+      "level": "B2"
+    },
+    {
+      "en": "I have already completed the analysis.",
+      "pl": "Już zakończyłem analizę.",
+      "de": "Ich habe die Analyse bereits abgeschlossen.",
+      "level": "B2"
+    },
+    {
+      "en": "The situation has deteriorated since Monday.",
+      "pl": "Sytuacja pogorszyła się od poniedziałku.",
+      "de": "Die Situation hat sich seit Montag verschlechtert.",
+      "level": "B2"
+    },
+    {
+      "en": "She flew to Madrid for a conference.",
+      "pl": "Poleciała do Madrytu na konferencję.",
+      "de": "Sie ist für eine Konferenz nach Madrid geflogen.",
+      "level": "B2"
+    },
+    {
+      "en": "We have never experienced such a delay.",
+      "pl": "Nigdy nie doświadczyliśmy takiego opóźnienia.",
+      "de": "Wir haben noch nie eine solche Verzögerung erlebt.",
+      "level": "B2"
+    },
+    {
+      "en": "The director entered the room without speaking.",
+      "pl": "Dyrektor wszedł do pokoju bez słowa.",
+      "de": "Der Direktor ist schweigend in den Raum gekommen.",
+      "level": "B2"
+    },
+    {
+      "en": "He has changed his opinion several times.",
+      "pl": "Kilka razy zmienił zdanie.",
+      "de": "Er hat seine Meinung mehrmals geändert.",
+      "level": "B2"
+    },
+    {
+      "en": "The workers went outside after the alarm sounded.",
+      "pl": "Pracownicy wyszli na zewnątrz, gdy zabrzmiał alarm.",
+      "de": "Die Beschäftigten sind nach draußen gegangen, nachdem der Alarm ertönt ist.",
+      "level": "B2"
+    },
+    {
+      "en": "I have understood the instructions now.",
+      "pl": "Teraz zrozumiałem instrukcje.",
+      "de": "Ich habe die Anweisungen jetzt verstanden.",
+      "level": "B2"
+    },
+    {
+      "en": "The water froze during the night.",
+      "pl": "Woda zamarzła w nocy.",
+      "de": "Das Wasser ist in der Nacht gefroren.",
+      "level": "B2"
+    },
+    {
+      "en": "She has learned a great deal from the project.",
+      "pl": "Wiele nauczyła się dzięki projektowi.",
+      "de": "Sie hat viel aus dem Projekt gelernt.",
+      "level": "B2"
+    },
+    {
+      "en": "We arrived at the venue after the doors had opened.",
+      "pl": "Dotarliśmy na miejsce po otwarciu drzwi.",
+      "de": "Wir sind am Veranstaltungsort angekommen, nachdem sich die Türen geöffnet hatten.",
+      "level": "B2"
+    },
+    {
+      "en": "The team has made several improvements.",
+      "pl": "Zespół wprowadził kilka ulepszeń.",
+      "de": "Das Team hat mehrere Verbesserungen vorgenommen.",
+      "level": "B2"
+    },
+    {
+      "en": "The old bridge collapsed during the storm.",
+      "pl": "Stary most zawalił się podczas burzy.",
+      "de": "Die alte Brücke ist während des Sturms eingestürzt.",
+      "level": "B2"
+    },
+    {
+      "en": "He has recovered quickly from the illness.",
+      "pl": "Szybko wyzdrowiał po chorobie.",
+      "de": "Er ist schnell von der Krankheit genesen.",
+      "level": "B2"
+    },
+    {
+      "en": "I have spent the entire afternoon reviewing the figures.",
+      "pl": "Spędziłem całe popołudnie na analizie liczb.",
+      "de": "Ich habe den ganzen Nachmittag damit verbracht, die Zahlen zu überprüfen.",
+      "level": "B2"
+    },
+    {
+      "en": "The discussion continued after the chairperson returned.",
+      "pl": "Dyskusja była kontynuowana po powrocie przewodniczącego.",
+      "de": "Die Diskussion ist weitergegangen, nachdem die Vorsitzende zurückgekehrt ist.",
+      "level": "B2"
+    },
+    {
+      "en": "They have achieved the target ahead of schedule.",
+      "pl": "Osiągnęli cel przed terminem.",
+      "de": "Sie haben das Ziel vor dem Zeitplan erreicht.",
+      "level": "B2"
+    },
+    {
+      "en": "The temperature has dropped below zero.",
+      "pl": "Temperatura spadła poniżej zera.",
+      "de": "Die Temperatur ist unter null Grad gesunken.",
+      "level": "B2"
+    },
+    {
+      "en": "She has taken responsibility for the mistake.",
+      "pl": "Wzięła odpowiedzialność za błąd.",
+      "de": "Sie hat die Verantwortung für den Fehler übernommen.",
+      "level": "B2"
+    },
+    {
+      "en": "The guests have departed, but the organisers are still here.",
+      "pl": "Goście wyjechali, ale organizatorzy nadal tu są.",
+      "de": "Die Gäste sind abgereist, aber die Organisatoren sind noch hier.",
+      "level": "B2"
+    },
+    {
+      "en": "I have given the matter careful consideration.",
+      "pl": "Dokładnie rozważyłem tę sprawę.",
+      "de": "Ich habe die Angelegenheit sorgfältig bedacht.",
+      "level": "B2"
+    },
+    {
+      "en": "The negotiations have failed despite several attempts.",
+      "pl": "Negocjacje zakończyły się niepowodzeniem mimo kilku prób.",
+      "de": "Die Verhandlungen sind trotz mehrerer Versuche gescheitert.",
+      "level": "B2"
+    },
+    {
+      "en": "He has been responsible for the department for two years.",
+      "pl": "Od dwóch lat odpowiada za dział.",
+      "de": "Er ist seit zwei Jahren für die Abteilung verantwortlich gewesen.",
+      "level": "B2"
+    },
+    {
+      "en": "We have reached the conclusion that the forecast is unreliable.",
+      "pl": "Doszliśmy do wniosku, że prognoza jest niewiarygodna.",
+      "de": "Wir sind zu dem Schluss gekommen, dass die Prognose unzuverlässig ist.",
+      "level": "B2"
+    },
+    {
+      "en": "The river has risen significantly after the rainfall.",
+      "pl": "Po opadach poziom rzeki znacznie wzrósł.","de": "Der Fluss ist nach den Niederschlägen deutlich gestiegen.",
+      "level": "B2"
+    },
+    {
+      "en": "She has kept the original documents in a secure place.",
+      "pl": "Przechowała oryginalne dokumenty w bezpiecznym miejscu.",
+      "de": "Sie hat die Originaldokumente an einem sicheren Ort aufbewahrt.",
+      "level": "B2"
+    },
+    {
+      "en": "The company has remained profitable despite higher costs.",
+      "pl": "Firma pozostała rentowna mimo wyższych kosztów.",
+      "de": "Das Unternehmen ist trotz höherer Kosten profitabel geblieben.",
+      "level": "B2"
+    },
+    {
+      "en": "I have spent three hours trying to resolve the issue.",
+      "pl": "Spędziłem trzy godziny, próbując rozwiązać problem.",
+      "de": "Ich habe drei Stunden damit verbracht, das Problem zu lösen.",
+      "level": "B2"
+    },
+    {
+      "en": "The committee has reached no agreement so far.",
+      "pl": "Komisja jak dotąd nie osiągnęła porozumienia.",
+      "de": "Der Ausschuss hat bisher keine Einigung erzielt.",
+      "level": "B2"
+    },
+    {
+      "en": "The patient has regained consciousness after the operation.",
+      "pl": "Pacjent odzyskał przytomność po operacji.",
+      "de": "Der Patient ist nach der Operation wieder zu Bewusstsein gekommen.",
+      "level": "C1"
+    },
+    {
+      "en": "We have considered every reasonable alternative.",
+      "pl": "Rozważyliśmy każdą rozsądną alternatywę.",
+      "de": "Wir haben jede vernünftige Alternative in Betracht gezogen.",
+      "level": "C1"
+    },
+    {
+      "en": "The organisation has developed considerably since its founding.",
+      "pl": "Organizacja znacznie się rozwinęła od momentu powstania.",
+      "de": "Die Organisation hat sich seit ihrer Gründung erheblich entwickelt.",
+      "level": "C1"
+    },
+    {
+      "en": "The proposal has become more convincing after the revisions.",
+      "pl": "Po poprawkach propozycja stała się bardziej przekonująca.",
+      "de": "Der Vorschlag ist nach den Überarbeitungen überzeugender geworden.",
+      "level": "C1"
+    },
+    {
+      "en": "I have recorded the assumptions so that others can review them.",
+      "pl": "Zapisałem założenia, aby inni mogli je sprawdzić.",
+      "de": "Ich habe die Annahmen dokumentiert, damit andere sie überprüfen können.",
+      "level": "C1"
+    },
+    {
+      "en": "The delegation has returned earlier than expected because the talks ended.",
+      "pl": "Delegacja wróciła wcześniej, niż oczekiwano, ponieważ rozmowy się zakończyły.",
+      "de": "Die Delegation ist früher als erwartet zurückgekehrt, weil die Gespräche beendet waren.",
+      "level": "C1"
+    },
+    {
+      "en": "The costs have risen even though demand has weakened.",
+      "pl": "Koszty wzrosły, mimo że popyt osłabł.",
+      "de": "Die Kosten sind gestiegen, obwohl die Nachfrage nachgelassen hat.",
+      "level": "C1"
+    },
+    {
+      "en": "She has taken the time to verify the source before publishing the findings.",
+      "pl": "Poświęciła czas na sprawdzenie źródła przed opublikowaniem wyników.",
+      "de": "Sie hat sich die Zeit genommen, die Quelle zu überprüfen, bevor sie die Ergebnisse veröffentlicht hat.",
+      "level": "C1"
+    },
+    {
+      "en": "The team has become more effective since responsibilities were clarified.",
+      "pl": "Zespół stał się skuteczniejszy od czasu doprecyzowania zakresów odpowiedzialności.",
+      "de": "Das Team ist effektiver geworden, seit die Zuständigkeiten geklärt worden sind.",
+      "level": "C1"
+    },
+    {
+      "en": "We have not reached a decision because the evidence remains incomplete.",
+      "pl": "Nie podjęliśmy decyzji, ponieważ dowody nadal są niekompletne.",
+      "de": "Wir haben keine Entscheidung getroffen, weil die Belege unvollständig geblieben sind.",
+      "level": "C1"
+    },
+    {
+      "en": "The witness has disappeared before the investigators could question him.",
+      "pl": "Świadek zniknął, zanim śledczy mogli go przesłuchać.",
+      "de": "Der Zeuge ist verschwunden, bevor die Ermittler ihn befragen konnten.",
+      "level": "C1"
+    },
+    {
+      "en": "I have included the adjustment because the underlying assumption has changed.",
+      "pl": "Uwzględniłem korektę, ponieważ zmieniło się założenie leżące u jej podstaw.",
+      "de": "Ich habe die Anpassung berücksichtigt, weil sich die zugrunde liegende Annahme geändert hat.",
+      "level": "C1"
+    },
+    {
+      "en": "The report has become obsolete since the regulation came into force.",
+      "pl": "Raport stał się nieaktualny, odkąd weszło w życie rozporządzenie.",
+      "de": "Der Bericht ist veraltet, seit die Verordnung in Kraft getreten ist.",
+      "level": "C1"
+    },
+    {
+      "en": "The negotiations have resumed after both parties accepted the revised terms.",
+      "pl": "Negocjacje wznowiono po zaakceptowaniu zmienionych warunków przez obie strony.",
+      "de": "Die Verhandlungen sind wieder aufgenommen worden, nachdem beide Parteien die überarbeiteten Bedingungen akzeptiert haben.",
+      "level": "C1"
+    },
+    {
+      "en": "She has documented the decision so that its rationale remains transparent.",
+      "pl": "Udokumentowała decyzję, aby jej uzasadnienie pozostało przejrzyste.",
+      "de": "Sie hat die Entscheidung dokumentiert, damit ihre Begründung transparent geblieben ist.",
+      "level": "C1"
+    },
+    {
+      "en": "The project has run over budget because the scope expanded unexpectedly.",
+      "pl": "Projekt przekroczył budżet, ponieważ zakres nieoczekiwanie się rozszerzył.",
+      "de": "Das Projekt ist über das Budget hinausgelaufen, weil sich der Umfang unerwartet erweitert hat.",
+      "level": "C1"
+    },
+    {
+      "en": "We have retained the original methodology, although the data quality has improved.",
+      "pl": "Zachowaliśmy pierwotną metodologię, chociaż jakość danych się poprawiła.",
+      "de": "Wir haben die ursprüngliche Methodik beibehalten, obwohl sich die Datenqualität verbessert hat.",
+      "level": "C1"
+    },
+    {
+      "en": "The disagreement has intensified since the parties exchanged public statements.",
+      "pl": "Spór nasilił się od czasu wymiany publicznych oświadczeń przez strony.","de": "Der Streit ist eskaliert, seit die Parteien öffentliche Erklärungen ausgetauscht haben.",
+      "level": "C1"
+    },
+    {
+      "en": "I have concluded that the apparent improvement has resulted from a change in scope.",
+      "pl": "Doszedłem do wniosku, że pozorna poprawa wynikała ze zmiany zakresu.",
+      "de": "Ich bin zu dem Schluss gekommen, dass die scheinbare Verbesserung aus einer Änderung des Umfangs resultiert hat.",
+      "level": "C1"
+    },
+    {
+      "en": "The team has remained cautious because the external conditions have not stabilised.",
+      "pl": "Zespół zachował ostrożność, ponieważ warunki zewnętrzne się nie ustabilizowały.",
+      "de": "Das Team ist vorsichtig geblieben, weil sich die externen Bedingungen nicht stabilisiert haben.",
+      "level": "C1"
+    },
+    {
+      "en": "The costs have exceeded the original estimate, although several planned activities have been cancelled.",
+      "pl": "Koszty przekroczyły pierwotny szacunek, mimo że odwołano kilka zaplanowanych działań.",
+      "de": "Die Kosten sind über die ursprüngliche Schätzung hinausgegangen, obwohl mehrere geplante Aktivitäten abgesagt worden sind.",
+      "level": "C2"
+    },
+    {
+      "en": "The negotiations have resumed only after both sides have acknowledged the risks that they previously dismissed.",
+      "pl": "Negocjacje wznowiono dopiero po tym, jak obie strony uznały ryzyka, które wcześniej odrzucały.",
+      "de": "Die Verhandlungen sind erst wieder aufgenommen worden, nachdem beide Seiten die Risiken anerkannt haben, die sie zuvor zurückgewiesen hatten.",
+      "level": "C2"
+    },
+    {
+      "en": "The analysts have revised their forecast after the currency has weakened more sharply than anticipated.",
+      "pl": "Analitycy zaktualizowali prognozę po tym, jak waluta osłabła bardziej, niż przewidywano.",
+      "de": "Die Analysten haben ihre Prognose überarbeitet, nachdem die Währung stärker als erwartet gefallen ist.",
+      "level": "C2"
+    },
+    {
+      "en": "The company has stayed solvent even though its operating margin has declined for three consecutive quarters.",
+      "pl": "Firma pozostała wypłacalna, mimo że jej marża operacyjna spadała przez trzy kolejne kwartały.",
+      "de": "Das Unternehmen ist zahlungsfähig geblieben, obwohl seine operative Marge drei Quartale in Folge gesunken ist.",
+      "level": "C2"
+    },
+    {
+      "en": "The negotiations have reached a turning point now that both parties have accepted the need for a compromise.",
+      "pl": "Negocjacje osiągnęły punkt zwrotny, ponieważ obie strony zaakceptowały potrzebę kompromisu.",
+      "de": "Die Verhandlungen sind an einen Wendepunkt gelangt, nachdem beide Parteien die Notwendigkeit eines Kompromisses akzeptiert haben.",
+      "level": "C2"
+    },
+    {
+      "en": "The team has retained the original deadline, although several dependencies have changed and the available resources have diminished.",
+      "pl": "Zespół utrzymał pierwotny termin, mimo że zmieniło się kilka zależności, a dostępne zasoby się zmniejszyły.",
+      "de": "Das Team hat die ursprüngliche Frist beibehalten, obwohl sich mehrere Abhängigkeiten verändert haben und die verfügbaren Ressourcen geschrumpft sind.",
+      "level": "C2"
+    },
+    {
+      "en": "The decision has become more difficult to justify since the evidence that initially supported it has been challenged.",
+      "pl": "Decyzja stała się trudniejsza do uzasadnienia, odkąd zakwestionowano dowody, które początkowo ją wspierały.",
+      "de": "Die Entscheidung ist schwerer zu rechtfertigen geworden, seit die Belege angezweifelt worden sind, die sie ursprünglich gestützt haben.",
+      "level": "C2"
+    },
+    {
+      "en": "The project has reached completion later than planned because key approvals have arrived only after repeated escalation.",
+      "pl": "Projekt zakończono później, niż planowano, ponieważ kluczowe zgody nadeszły dopiero po wielokrotnej eskalacji.",
+      "de": "Das Projekt ist später als geplant zum Abschluss gekommen, weil wichtige Genehmigungen erst nach wiederholter Eskalation eingetroffen sind.",
+      "level": "C2"
+    },
+    {
+      "en": "The report has become more balanced after the authors have incorporated evidence that contradicted their initial hypothesis.",
+      "pl": "Raport stał się bardziej wyważony po uwzględnieniu przez autorów dowodów sprzecznych z ich początkową hipotezą.",
+      "de": "Der Bericht ist ausgewogener geworden, nachdem die Verfasser Belege berücksichtigt haben, die ihrer ursprünglichen Hypothese widersprochen haben.",
+      "level": "C2"
+    },
+    {
+      "en": "The final outcome has remained uncertain because neither side has accepted the conditions that the mediator proposed.",
+      "pl": "Ostateczny wynik pozostał niepewny, ponieważ żadna ze stron nie zaakceptowała warunków zaproponowanych przez mediatora.",
+      "de": "Der endgültige Ausgang ist ungewiss geblieben, weil keine Seite die Bedingungen akzeptiert hat, die der Vermittler vorgeschlagen hat.",
+      "level": "C2"
+    }
   ],
   "listening": {
     "audioUrl": "https://radiodownloaddw-a.akamaihd.net/downloads/Events/dwelle/dira/mp3/deutschkurse/nachrichten_live/057AF010_2.mp3",
@@ -7580,45 +8150,747 @@
       }
     ],
     "vocab": [
-      {"id":1,"word":"die Geheimdienstinformation","translation":{"en":"intelligence information","pl":"informacja wywiadowcza"},"partOfSpeech":"Noun","level":"B2","plural":"die Geheimdienstinformationen","notes":{"en":"Often used with liefern, teilen or austauschen.","pl":"Często łączy się z czasownikami liefern, teilen lub austauschen."},"examples":["Die Geheimdienstinformationen wurden sorgfältig geprüft.","Beide Länder tauschen regelmäßig Geheimdienstinformationen aus."]},
-      {"id":2,"word":"die Abwehr","translation":{"en":"defence, repelling","pl":"obrona, odpieranie"},"partOfSpeech":"Noun","level":"B2","plural":"","notes":{"en":"Common collocation: zur Abwehr eines Angriffs.","pl":"Typowe połączenie: zur Abwehr eines Angriffs."},"examples":["Die Abwehr weiterer Angriffe hat höchste Priorität.","Das System dient der Abwehr feindlicher Raketen."]},
-      {"id":3,"word":"der Austausch","translation":{"en":"exchange","pl":"wymiana"},"partOfSpeech":"Noun","level":"B2","plural":"die Austausche","notes":{"en":"Often followed by von plus a noun.","pl":"Często występuje z von i rzeczownikiem."},"examples":["Der Austausch von Daten erfolgt verschlüsselt.","Ein regelmäßiger Austausch verbessert die Zusammenarbeit."]},
-      {"id":4,"word":"freigeben","translation":{"en":"to release, authorize","pl":"udostępnić, zatwierdzić"},"partOfSpeech":"Verb","level":"B2","plural":"","notes":{"en":"Separable verb: gibt frei; Partizip II: freigegeben.","pl":"Czasownik rozdzielnie złożony: gibt frei; imiesłów: freigegeben."},"examples":["Die Behörde hat die Dokumente freigegeben.","Der Zugang wird nach der Prüfung freigegeben."]},
-      {"id":5,"word":"angewiesen sein auf","translation":{"en":"to depend on, rely on","pl":"być uzależnionym od, polegać na"},"partOfSpeech":"Expression","level":"B2","plural":"","notes":{"en":"Takes auf plus accusative.","pl":"Łączy się z auf i biernikiem."},"examples":["Viele Betriebe sind auf zuverlässige Lieferungen angewiesen.","Das Team ist auf zusätzliche Informationen angewiesen."]},
-      {"id":6,"word":"orten","translation":{"en":"to locate, detect","pl":"zlokalizować, namierzyć"},"partOfSpeech":"Verb","level":"B2","plural":"","notes":{"en":"Often used for locating signals, devices or objects.","pl":"Często oznacza lokalizowanie sygnałów, urządzeń lub obiektów."},"examples":["Die Techniker konnten das Signal orten.","Das Radar ortet ein unbekanntes Flugobjekt."]},
-      {"id":7,"word":"erfolgen","translation":{"en":"to take place, occur","pl":"nastąpić, odbyć się"},"partOfSpeech":"Verb","level":"B2","plural":"","notes":{"en":"Formal verb, often used in reports and official language.","pl":"Czasownik formalny, częsty w raportach i języku urzędowym."},"examples":["Die Zahlung erfolgt am Monatsende.","Die Bekanntgabe ist gestern erfolgt."]},
-      {"id":8,"word":"die Ausschreitung","translation":{"en":"riot, violent disorder","pl":"zamieszki, gwałtowne rozruchy"},"partOfSpeech":"Noun","level":"C1","plural":"die Ausschreitungen","notes":{"en":"Usually plural when referring to public disorder.","pl":"W odniesieniu do zamieszek często używa się liczby mnogiej."},"examples":["Nach dem Spiel kam es zu Ausschreitungen.","Die Polizei untersucht die Ausschreitungen vom Wochenende."]},
-      {"id":9,"word":"aneinandergeraten","translation":{"en":"to clash, come into conflict","pl":"zetrzeć się, wejść w konflikt"},"partOfSpeech":"Verb","level":"C1","plural":"","notes":{"en":"Separable verb; often used with mit: mit jemandem aneinandergeraten.","pl":"Czasownik rozdzielnie złożony; często z mit: mit jemandem aneinandergeraten."},"examples":["Die beiden Gruppen sind vor dem Gebäude aneinandergeraten.","Politiker gerieten wegen des Vorschlags aneinander."]},
-      {"id":10,"word":"unangemeldet","translation":{"en":"unregistered, unannounced","pl":"niezgłoszony, niezapowiedziany"},"partOfSpeech":"Adjective","level":"B2","plural":"","notes":{"en":"Often describes demonstrations, visits or events.","pl":"Często określa demonstracje, wizyty lub wydarzenia."},"examples":["Die Gruppe organisierte eine unangemeldete Kundgebung.","Ein unangemeldeter Besuch überraschte die Leitung."]},
-      {"id":11,"word":"errichten","translation":{"en":"to erect, construct","pl":"wznosić, budować"},"partOfSpeech":"Verb","level":"B2","plural":"","notes":{"en":"Formal alternative to bauen in many contexts.","pl":"W wielu kontekstach formalny odpowiednik czasownika bauen."},"examples":["Die Einsatzkräfte errichteten eine Absperrung.","Das Unternehmen hat ein neues Gebäude errichtet."]},
-      {"id":12,"word":"der Umfang","translation":{"en":"extent, scale, scope","pl":"zakres, skala"},"partOfSpeech":"Noun","level":"B2","plural":"die Umfänge","notes":{"en":"Common patterns: in diesem Umfang; der Umfang von etwas.","pl":"Typowe wzorce: in diesem Umfang; der Umfang von etwas."},"examples":["Der Umfang der Schäden ist noch unklar.","Die Maßnahme hat einen größeren Umfang als erwartet."]},
-      {"id":13,"word":"verurteilen","translation":{"en":"to condemn","pl":"potępić"},"partOfSpeech":"Verb","level":"B2","plural":"","notes":{"en":"Can take an action or behaviour as its direct object.","pl":"Może łączyć się z nazwą działania lub zachowania jako dopełnieniem."},"examples":["Die Regierung verurteilte den Angriff scharf.","Mehrere Organisationen haben die Gewalt verurteilt."]},
-      {"id":14,"word":"rechtfertigen","translation":{"en":"to justify","pl":"uzasadnić, usprawiedliwić"},"partOfSpeech":"Verb","level":"B2","plural":"","notes":{"en":"Often used in the passive: etwas ist nicht zu rechtfertigen.","pl":"Często używany w stronie biernej: etwas ist nicht zu rechtfertigen."},"examples":["Nichts kann diese Entscheidung rechtfertigen.","Die hohen Kosten lassen sich kaum rechtfertigen."]},
-      {"id":15,"word":"der Prüfstand","translation":{"en":"test bench, scrutiny","pl":"stanowisko testowe, weryfikacja"},"partOfSpeech":"Noun","level":"C1","plural":"die Prüfstände","notes":{"en":"In the expression auf den Prüfstand kommen: to be reviewed critically.","pl":"W wyrażeniu auf den Prüfstand kommen oznacza poddanie krytycznej ocenie."},"examples":["Die bisherigen Regeln kommen auf den Prüfstand.","Nach dem Vorfall steht das Sicherheitskonzept auf dem Prüfstand."]},
-      {"id":16,"word":"die Bombendrohung","translation":{"en":"bomb threat","pl":"groźba podłożenia bomby"},"partOfSpeech":"Noun","level":"B2","plural":"die Bombendrohungen","notes":{"en":"Common collocation: nach einer Bombendrohung.","pl":"Typowe połączenie: nach einer Bombendrohung."},"examples":["Nach einer Bombendrohung wurde das Gebäude evakuiert.","Die Polizei prüft den Ursprung der Bombendrohung."]},
-      {"id":17,"word":"außerplanmäßig","translation":{"en":"unscheduled, outside the plan","pl":"nieplanowany, poza harmonogramem"},"partOfSpeech":"Adverb","level":"B2","plural":"","notes":{"en":"Often used for landings, stops or meetings.","pl":"Często używane w odniesieniu do lądowań, postojów lub spotkań."},"examples":["Der Zug hielt außerplanmäßig in einer Kleinstadt.","Das Flugzeug musste außerplanmäßig landen."]},
-      {"id":18,"word":"die Besatzung","translation":{"en":"crew","pl":"załoga"},"partOfSpeech":"Noun","level":"B2","plural":"die Besatzungen","notes":{"en":"Used for aircraft, ships and other vehicles.","pl":"Używane w odniesieniu do samolotów, statków i innych pojazdów."},"examples":["Die Besatzung blieb während des Vorfalls ruhig.","Die gesamte Besatzung wurde befragt."]},
-      {"id":19,"word":"der Krisenstab","translation":{"en":"crisis management team","pl":"sztab kryzysowy"},"partOfSpeech":"Noun","level":"C1","plural":"die Krisenstäbe","notes":{"en":"A compound of Krise and Stab.","pl":"Złożenie słów Krise i Stab."},"examples":["Ein Krisenstab koordinierte die Hilfsmaßnahmen.","Der Krisenstab trat noch in derselben Nacht zusammen."]},
-      {"id":20,"word":"einleiten","translation":{"en":"to initiate, launch","pl":"wszcząć, rozpocząć"},"partOfSpeech":"Verb","level":"B2","plural":"","notes":{"en":"Separable verb; Partizip II: eingeleitet.","pl":"Czasownik rozdzielnie złożony; imiesłów: eingeleitet."},"examples":["Die Behörden leiteten eine Untersuchung ein.","Das Unternehmen hat ein internes Verfahren eingeleitet."]},
-      {"id":21,"word":"die Verbrennung","translation":{"en":"burn, combustion","pl":"oparzenie, spalanie"},"partOfSpeech":"Noun","level":"B2","plural":"die Verbrennungen","notes":{"en":"In medical contexts, usually means a burn injury.","pl":"W kontekście medycznym oznacza zwykle oparzenie."},"examples":["Der Patient erlitt schwere Verbrennungen.","Die Verbrennungen wurden sofort behandelt."]},
-      {"id":22,"word":"bekanntgeben","translation":{"en":"to announce, make known","pl":"ogłosić, podać do wiadomości"},"partOfSpeech":"Verb","level":"B2","plural":"","notes":{"en":"Separable verb; Partizip II: bekanntgegeben.","pl":"Czasownik rozdzielnie złożony; imiesłów: bekanntgegeben."},"examples":["Die Behörde gab das Ergebnis am Abend bekannt.","Die Geschäftsleitung hat die Änderungen bekanntgegeben."]},
-      {"id":23,"word":"antreiben","translation":{"en":"to drive, propel","pl":"napędzać, popychać"},"partOfSpeech":"Verb","level":"B2","plural":"","notes":{"en":"Can describe forces that make something move or spread.","pl":"Może opisywać siły, które wprawiają coś w ruch lub powodują rozprzestrzenianie."},"examples":["Starke Winde trieben die Flammen an.","Der Wunsch nach Veränderung hat ihn angetrieben."]},
-      {"id":24,"word":"sich ausbreiten","translation":{"en":"to spread","pl":"rozprzestrzeniać się"},"partOfSpeech":"Verb","level":"B2","plural":"","notes":{"en":"Separable verb; Perfekt: hat sich ausgebreitet.","pl":"Czasownik rozdzielnie złożony; Perfekt: hat sich ausgebreitet."},"examples":["Der Rauch breitete sich im Gebäude aus.","Die Nachricht hat sich schnell ausgebreitet."]},
-      {"id":25,"word":"die Ursache","translation":{"en":"cause, reason","pl":"przyczyna"},"partOfSpeech":"Noun","level":"B1","plural":"die Ursachen","notes":{"en":"Common pattern: die Ursache für etwas.","pl":"Typowy wzorzec: die Ursache für etwas."},"examples":["Die Ursache des Fehlers ist noch unbekannt.","Die Ermittler suchen nach der Ursache des Brandes."]},
-      {"id":26,"word":"der Wähler","translation":{"en":"voter","pl":"wyborca"},"partOfSpeech":"Noun","level":"B2","plural":"die Wähler","notes":{"en":"Feminine form: die Wählerin.","pl":"Forma żeńska: die Wählerin."},"examples":["Viele Wähler verlangen klare Antworten.","Die Wähler haben über den Vorschlag entschieden."]},
-      {"id":27,"word":"das Referendum","translation":{"en":"referendum","pl":"referendum"},"partOfSpeech":"Noun","level":"B2","plural":"die Referenden","notes":{"en":"A public vote on a specific question.","pl":"Głosowanie powszechne w konkretnej sprawie."},"examples":["Das Referendum findet im Frühjahr statt.","Die Regierung kündigte ein Referendum an."]},
-      {"id":28,"word":"die Abspaltung","translation":{"en":"secession, separation","pl":"secesja, odłączenie"},"partOfSpeech":"Noun","level":"C1","plural":"die Abspaltungen","notes":{"en":"Often used in political or organisational contexts.","pl":"Często używane w kontekście politycznym lub organizacyjnym."},"examples":["Die Abspaltung der Region bleibt umstritten.","Viele Bürger lehnen eine Abspaltung ab."]},
-      {"id":29,"word":"einleiten","translation":{"en":"to initiate","pl":"rozpocząć, wszcząć"},"partOfSpeech":"Verb","level":"B2","plural":"","notes":{"en":"Here it describes starting a formal process.","pl":"Tutaj oznacza rozpoczęcie formalnego procesu."},"examples":["Das Parlament leitete ein neues Verfahren ein.","Der erste Schritt hat die Reform eingeleitet."]},
-      {"id":30,"word":"der Verbleib","translation":{"en":"remaining, continued presence","pl":"pozostanie, dalsza przynależność"},"partOfSpeech":"Noun","level":"C1","plural":"die Verbleibe","notes":{"en":"Common phrase: der Verbleib in einer Organisation or einem Land.","pl":"Typowe połączenie: der Verbleib in einer Organisation lub einem Land."},"examples":["Eine Mehrheit sprach sich für den Verbleib aus.","Der Verbleib in der Union wird weiter diskutiert."]},
-      {"id":31,"word":"die Unterstützung","translation":{"en":"support","pl":"wsparcie, poparcie"},"partOfSpeech":"Noun","level":"B1","plural":"die Unterstützungen","notes":{"en":"Often used with für or von, depending on the construction.","pl":"Zależnie od konstrukcji występuje m.in. z für lub von."},"examples":["Die Initiative erhielt breite Unterstützung.","Sie hat ihre Unterstützung für den Plan zugesagt."]},
-      {"id":32,"word":"das Gepäck","translation":{"en":"luggage, baggage","pl":"bagaż"},"partOfSpeech":"Noun","level":"B1","plural":"","notes":{"en":"Usually an uncountable noun in everyday usage.","pl":"W codziennym użyciu jest zwykle rzeczownikiem niepoliczalnym."},"examples":["Das Gepäck wurde direkt zum Hotel gebracht.","Wir dürfen nur kleines Gepäck mitnehmen."]},
-      {"id":33,"word":"umkreisen","translation":{"en":"to orbit, circle","pl":"okrążać, krążyć wokół"},"partOfSpeech":"Verb","level":"B2","plural":"","notes":{"en":"Used for planets, moons and objects moving around a centre.","pl":"Używane w odniesieniu do planet, księżyców i obiektów krążących wokół centrum."},"examples":["Die Sonde soll den Mond umkreisen.","Ein Satellit umkreist die Erde in kurzer Zeit."]},
-      {"id":34,"word":"sammeln","translation":{"en":"to collect, gather","pl":"zbierać, gromadzić"},"partOfSpeech":"Verb","level":"B1","plural":"","notes":{"en":"Can refer to objects, samples, information or experience.","pl":"Może odnosić się do przedmiotów, próbek, informacji lub doświadczenia."},"examples":["Die Forschenden sammeln neue Daten.","Wir haben über Jahre wertvolle Erfahrungen gesammelt."]},
-      {"id":35,"word":"die Erkenntnis","translation":{"en":"finding, insight","pl":"ustalenie, wniosek, spostrzeżenie"},"partOfSpeech":"Noun","level":"B2","plural":"die Erkenntnisse","notes":{"en":"Often used with gewinnen: Erkenntnisse gewinnen.","pl":"Często występuje z gewinnen: Erkenntnisse gewinnen."},"examples":["Die Studie liefert wichtige Erkenntnisse.","Aus dem Versuch haben wir neue Erkenntnisse gewonnen."]},
-      {"id":36,"word":"die Entstehung","translation":{"en":"origin, formation","pl":"powstanie, geneza"},"partOfSpeech":"Noun","level":"B2","plural":"die Entstehungen","notes":{"en":"Often followed by von or a genitive construction.","pl":"Często łączy się z von lub dopełniaczem."},"examples":["Die Entstehung des Universums beschäftigt Forschende.","Das Buch erklärt die Entstehung der Bewegung."]},
-      {"id":37,"word":"prüfen","translation":{"en":"to examine, check","pl":"sprawdzać, badać"},"partOfSpeech":"Verb","level":"B1","plural":"","notes":{"en":"Partizip II: geprüft; often used in formal reports.","pl":"Imiesłów: geprüft; często używany w raportach formalnych."},"examples":["Die Fachleute prüfen die technischen Voraussetzungen.","Die Behörde hat alle Angaben geprüft."]},
-      {"id":38,"word":"der Standort","translation":{"en":"location, site","pl":"lokalizacja, miejsce"},"partOfSpeech":"Noun","level":"B2","plural":"die Standorte","notes":{"en":"Used for a facility, business, station or planned installation.","pl":"Używane w odniesieniu do obiektu, firmy, stacji lub planowanej instalacji."},"examples":["Der Standort wurde sorgfältig ausgewählt.","Die Firma betreibt mehrere Standorte im Ausland."]},
-      {"id":39,"word":"sich eignen","translation":{"en":"to be suitable","pl":"nadawać się"},"partOfSpeech":"Verb","level":"B2","plural":"","notes":{"en":"Often used with für plus accusative.","pl":"Często łączy się z für i biernikiem."},"examples":["Der Raum eignet sich für kleine Besprechungen.","Nicht jede Lösung hat sich für diesen Zweck geeignet."]}
+      {
+        "id": 1,
+        "word": "die Geheimdienstinformation",
+        "translation": {
+          "en": "intelligence information",
+          "pl": "informacja wywiadowcza"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Geheimdienstinformationen",
+        "notes": {
+          "en": "Often used with liefern, teilen or austauschen.",
+          "pl": "Często łączy się z czasownikami liefern, teilen lub austauschen."
+        },
+        "examples": [
+          "Die Geheimdienstinformationen wurden sorgfältig geprüft.",
+          "Beide Länder tauschen regelmäßig Geheimdienstinformationen aus."
+        ]
+      },
+      {
+        "id": 2,
+        "word": "die Abwehr",
+        "translation": {
+          "en": "defence, repelling",
+          "pl": "obrona, odpieranie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Common collocation: zur Abwehr eines Angriffs.",
+          "pl": "Typowe połączenie: zur Abwehr eines Angriffs."
+        },
+        "examples": [
+          "Die Abwehr weiterer Angriffe hat höchste Priorität.",
+          "Das System dient der Abwehr feindlicher Raketen."
+        ]
+      },
+      {
+        "id": 3,
+        "word": "der Austausch",
+        "translation": {
+          "en": "exchange",
+          "pl": "wymiana"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Austausche",
+        "notes": {
+          "en": "Often followed by von plus a noun.",
+          "pl": "Często występuje z von i rzeczownikiem."
+        },
+        "examples": [
+          "Der Austausch von Daten erfolgt verschlüsselt.",
+          "Ein regelmäßiger Austausch verbessert die Zusammenarbeit."
+        ]
+      },
+      {
+        "id": 4,
+        "word": "freigeben",
+        "translation": {
+          "en": "to release, authorize",
+          "pl": "udostępnić, zatwierdzić"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Separable verb: gibt frei; Partizip II: freigegeben.",
+          "pl": "Czasownik rozdzielnie złożony: gibt frei; imiesłów: freigegeben."
+        },
+        "examples": [
+          "Die Behörde hat die Dokumente freigegeben.",
+          "Der Zugang wird nach der Prüfung freigegeben."
+        ]
+      },
+      {
+        "id": 5,
+        "word": "angewiesen sein auf",
+        "translation": {
+          "en": "to depend on, rely on",
+          "pl": "być uzależnionym od, polegać na"
+        },
+        "partOfSpeech": "Expression",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Takes auf plus accusative.",
+          "pl": "Łączy się z auf i biernikiem."
+        },
+        "examples": [
+          "Viele Betriebe sind auf zuverlässige Lieferungen angewiesen.",
+          "Das Team ist auf zusätzliche Informationen angewiesen."
+        ]
+      },
+      {
+        "id": 6,
+        "word": "orten",
+        "translation": {
+          "en": "to locate, detect",
+          "pl": "zlokalizować, namierzyć"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Often used for locating signals, devices or objects.",
+          "pl": "Często oznacza lokalizowanie sygnałów, urządzeń lub obiektów."
+        },
+        "examples": [
+          "Die Techniker konnten das Signal orten.",
+          "Das Radar ortet ein unbekanntes Flugobjekt."
+        ]
+      },
+      {
+        "id": 7,
+        "word": "erfolgen",
+        "translation": {
+          "en": "to take place, occur",
+          "pl": "nastąpić, odbyć się"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Formal verb, often used in reports and official language.",
+          "pl": "Czasownik formalny, częsty w raportach i języku urzędowym."
+        },
+        "examples": [
+          "Die Zahlung erfolgt am Monatsende.",
+          "Die Bekanntgabe ist gestern erfolgt."
+        ]
+      },
+      {
+        "id": 8,
+        "word": "die Ausschreitung",
+        "translation": {
+          "en": "riot, violent disorder",
+          "pl": "zamieszki, gwałtowne rozruchy"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Ausschreitungen",
+        "notes": {
+          "en": "Usually plural when referring to public disorder.",
+          "pl": "W odniesieniu do zamieszek często używa się liczby mnogiej."
+        },
+        "examples": [
+          "Nach dem Spiel kam es zu Ausschreitungen.",
+          "Die Polizei untersucht die Ausschreitungen vom Wochenende."
+        ]
+      },
+      {
+        "id": 9,
+        "word": "aneinandergeraten",
+        "translation": {
+          "en": "to clash, come into conflict",
+          "pl": "zetrzeć się, wejść w konflikt"
+        },
+        "partOfSpeech": "Verb",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Separable verb; often used with mit: mit jemandem aneinandergeraten.",
+          "pl": "Czasownik rozdzielnie złożony; często z mit: mit jemandem aneinandergeraten."
+        },
+        "examples": [
+          "Die beiden Gruppen sind vor dem Gebäude aneinandergeraten.",
+          "Politiker gerieten wegen des Vorschlags aneinander."
+        ]
+      },
+      {
+        "id": 10,
+        "word": "unangemeldet",
+        "translation": {
+          "en": "unregistered, unannounced",
+          "pl": "niezgłoszony, niezapowiedziany"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Often describes demonstrations, visits or events.",
+          "pl": "Często określa demonstracje, wizyty lub wydarzenia."
+        },
+        "examples": [
+          "Die Gruppe organisierte eine unangemeldete Kundgebung.",
+          "Ein unangemeldeter Besuch überraschte die Leitung."
+        ]
+      },
+      {
+        "id": 11,
+        "word": "errichten",
+        "translation": {
+          "en": "to erect, construct",
+          "pl": "wznosić, budować"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Formal alternative to bauen in many contexts.",
+          "pl": "W wielu kontekstach formalny odpowiednik czasownika bauen."
+        },
+        "examples": [
+          "Die Einsatzkräfte errichteten eine Absperrung.",
+          "Das Unternehmen hat ein neues Gebäude errichtet."
+        ]
+      },
+      {
+        "id": 12,
+        "word": "der Umfang",
+        "translation": {
+          "en": "extent, scale, scope",
+          "pl": "zakres, skala"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Umfänge",
+        "notes": {
+          "en": "Common patterns: in diesem Umfang; der Umfang von etwas.",
+          "pl": "Typowe wzorce: in diesem Umfang; der Umfang von etwas."
+        },
+        "examples": [
+          "Der Umfang der Schäden ist noch unklar.",
+          "Die Maßnahme hat einen größeren Umfang als erwartet."
+        ]
+      },
+      {
+        "id": 13,
+        "word": "verurteilen",
+        "translation": {
+          "en": "to condemn",
+          "pl": "potępić"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Can take an action or behaviour as its direct object.",
+          "pl": "Może łączyć się z nazwą działania lub zachowania jako dopełnieniem."
+        },
+        "examples": [
+          "Die Regierung verurteilte den Angriff scharf.",
+          "Mehrere Organisationen haben die Gewalt verurteilt."
+        ]
+      },
+      {
+        "id": 14,
+        "word": "rechtfertigen",
+        "translation": {
+          "en": "to justify",
+          "pl": "uzasadnić, usprawiedliwić"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Often used in the passive: etwas ist nicht zu rechtfertigen.",
+          "pl": "Często używany w stronie biernej: etwas ist nicht zu rechtfertigen."
+        },
+        "examples": [
+          "Nichts kann diese Entscheidung rechtfertigen.",
+          "Die hohen Kosten lassen sich kaum rechtfertigen."
+        ]
+      },
+      {
+        "id": 15,
+        "word": "der Prüfstand",
+        "translation": {
+          "en": "test bench, scrutiny",
+          "pl": "stanowisko testowe, weryfikacja"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Prüfstände",
+        "notes": {
+          "en": "In the expression auf den Prüfstand kommen: to be reviewed critically.",
+          "pl": "W wyrażeniu auf den Prüfstand kommen oznacza poddanie krytycznej ocenie."
+        },
+        "examples": [
+          "Die bisherigen Regeln kommen auf den Prüfstand.",
+          "Nach dem Vorfall steht das Sicherheitskonzept auf dem Prüfstand."
+        ]
+      },
+      {
+        "id": 16,
+        "word": "die Bombendrohung",
+        "translation": {
+          "en": "bomb threat",
+          "pl": "groźba podłożenia bomby"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Bombendrohungen",
+        "notes": {
+          "en": "Common collocation: nach einer Bombendrohung.",
+          "pl": "Typowe połączenie: nach einer Bombendrohung."
+        },
+        "examples": [
+          "Nach einer Bombendrohung wurde das Gebäude evakuiert.",
+          "Die Polizei prüft den Ursprung der Bombendrohung."
+        ]
+      },
+      {
+        "id": 17,
+        "word": "außerplanmäßig",
+        "translation": {
+          "en": "unscheduled, outside the plan",
+          "pl": "nieplanowany, poza harmonogramem"
+        },
+        "partOfSpeech": "Adverb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Often used for landings, stops or meetings.",
+          "pl": "Często używane w odniesieniu do lądowań, postojów lub spotkań."
+        },
+        "examples": [
+          "Der Zug hielt außerplanmäßig in einer Kleinstadt.",
+          "Das Flugzeug musste außerplanmäßig landen."
+        ]
+      },
+      {
+        "id": 18,
+        "word": "die Besatzung",
+        "translation": {
+          "en": "crew",
+          "pl": "załoga"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Besatzungen",
+        "notes": {
+          "en": "Used for aircraft, ships and other vehicles.",
+          "pl": "Używane w odniesieniu do samolotów, statków i innych pojazdów."
+        },
+        "examples": [
+          "Die Besatzung blieb während des Vorfalls ruhig.",
+          "Die gesamte Besatzung wurde befragt."
+        ]
+      },
+      {
+        "id": 19,
+        "word": "der Krisenstab",
+        "translation": {
+          "en": "crisis management team",
+          "pl": "sztab kryzysowy"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Krisenstäbe",
+        "notes": {
+          "en": "A compound of Krise and Stab.",
+          "pl": "Złożenie słów Krise i Stab."
+        },
+        "examples": [
+          "Ein Krisenstab koordinierte die Hilfsmaßnahmen.",
+          "Der Krisenstab trat noch in derselben Nacht zusammen."
+        ]
+      },
+      {
+        "id": 20,
+        "word": "einleiten",
+        "translation": {
+          "en": "to initiate, launch",
+          "pl": "wszcząć, rozpocząć"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Separable verb; Partizip II: eingeleitet.",
+          "pl": "Czasownik rozdzielnie złożony; imiesłów: eingeleitet."
+        },
+        "examples": [
+          "Die Behörden leiteten eine Untersuchung ein.",
+          "Das Unternehmen hat ein internes Verfahren eingeleitet."
+        ]
+      },
+      {
+        "id": 21,
+        "word": "die Verbrennung",
+        "translation": {
+          "en": "burn, combustion",
+          "pl": "oparzenie, spalanie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Verbrennungen",
+        "notes": {
+          "en": "In medical contexts, usually means a burn injury.",
+          "pl": "W kontekście medycznym oznacza zwykle oparzenie."
+        },
+        "examples": [
+          "Der Patient erlitt schwere Verbrennungen.",
+          "Die Verbrennungen wurden sofort behandelt."
+        ]
+      },
+      {
+        "id": 22,
+        "word": "bekanntgeben",
+        "translation": {
+          "en": "to announce, make known",
+          "pl": "ogłosić, podać do wiadomości"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Separable verb; Partizip II: bekanntgegeben.",
+          "pl": "Czasownik rozdzielnie złożony; imiesłów: bekanntgegeben."
+        },
+        "examples": [
+          "Die Behörde gab das Ergebnis am Abend bekannt.",
+          "Die Geschäftsleitung hat die Änderungen bekanntgegeben."
+        ]
+      },
+      {
+        "id": 23,
+        "word": "antreiben",
+        "translation": {
+          "en": "to drive, propel",
+          "pl": "napędzać, popychać"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Can describe forces that make something move or spread.",
+          "pl": "Może opisywać siły, które wprawiają coś w ruch lub powodują rozprzestrzenianie."
+        },
+        "examples": [
+          "Starke Winde trieben die Flammen an.",
+          "Der Wunsch nach Veränderung hat ihn angetrieben."
+        ]
+      },
+      {
+        "id": 24,
+        "word": "sich ausbreiten",
+        "translation": {
+          "en": "to spread",
+          "pl": "rozprzestrzeniać się"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Separable verb; Perfekt: hat sich ausgebreitet.",
+          "pl": "Czasownik rozdzielnie złożony; Perfekt: hat sich ausgebreitet."
+        },
+        "examples": [
+          "Der Rauch breitete sich im Gebäude aus.",
+          "Die Nachricht hat sich schnell ausgebreitet."
+        ]
+      },
+      {
+        "id": 25,
+        "word": "die Ursache",
+        "translation": {
+          "en": "cause, reason",
+          "pl": "przyczyna"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "die Ursachen",
+        "notes": {
+          "en": "Common pattern: die Ursache für etwas.",
+          "pl": "Typowy wzorzec: die Ursache für etwas."
+        },
+        "examples": [
+          "Die Ursache des Fehlers ist noch unbekannt.",
+          "Die Ermittler suchen nach der Ursache des Brandes."
+        ]
+      },
+      {
+        "id": 26,
+        "word": "der Wähler",
+        "translation": {
+          "en": "voter",
+          "pl": "wyborca"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Wähler",
+        "notes": {
+          "en": "Feminine form: die Wählerin.",
+          "pl": "Forma żeńska: die Wählerin."
+        },
+        "examples": [
+          "Viele Wähler verlangen klare Antworten.",
+          "Die Wähler haben über den Vorschlag entschieden."
+        ]
+      },
+      {
+        "id": 27,
+        "word": "das Referendum",
+        "translation": {
+          "en": "referendum",
+          "pl": "referendum"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Referenden",
+        "notes": {
+          "en": "A public vote on a specific question.",
+          "pl": "Głosowanie powszechne w konkretnej sprawie."
+        },
+        "examples": [
+          "Das Referendum findet im Frühjahr statt.",
+          "Die Regierung kündigte ein Referendum an."
+        ]
+      },
+      {
+        "id": 28,
+        "word": "die Abspaltung",
+        "translation": {
+          "en": "secession, separation",
+          "pl": "secesja, odłączenie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Abspaltungen",
+        "notes": {
+          "en": "Often used in political or organisational contexts.",
+          "pl": "Często używane w kontekście politycznym lub organizacyjnym."
+        },
+        "examples": [
+          "Die Abspaltung der Region bleibt umstritten.",
+          "Viele Bürger lehnen eine Abspaltung ab."
+        ]
+      },
+      {
+        "id": 29,
+        "word": "einleiten",
+        "translation": {
+          "en": "to initiate",
+          "pl": "rozpocząć, wszcząć"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Here it describes starting a formal process.",
+          "pl": "Tutaj oznacza rozpoczęcie formalnego procesu."
+        },
+        "examples": [
+          "Das Parlament leitete ein neues Verfahren ein.",
+          "Der erste Schritt hat die Reform eingeleitet."
+        ]
+      },
+      {
+        "id": 30,
+        "word": "der Verbleib",
+        "translation": {
+          "en": "remaining, continued presence",
+          "pl": "pozostanie, dalsza przynależność"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Verbleibe",
+        "notes": {
+          "en": "Common phrase: der Verbleib in einer Organisation or einem Land.",
+          "pl": "Typowe połączenie: der Verbleib in einer Organisation lub einem Land."
+        },
+        "examples": [
+          "Eine Mehrheit sprach sich für den Verbleib aus.",
+          "Der Verbleib in der Union wird weiter diskutiert."
+        ]
+      },
+      {
+        "id": 31,
+        "word": "die Unterstützung",
+        "translation": {
+          "en": "support",
+          "pl": "wsparcie, poparcie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "die Unterstützungen",
+        "notes": {
+          "en": "Often used with für or von, depending on the construction.",
+          "pl": "Zależnie od konstrukcji występuje m.in. z für lub von."
+        },
+        "examples": [
+          "Die Initiative erhielt breite Unterstützung.",
+          "Sie hat ihre Unterstützung für den Plan zugesagt."
+        ]
+      },
+      {
+        "id": 32,
+        "word": "das Gepäck",
+        "translation": {
+          "en": "luggage, baggage",
+          "pl": "bagaż"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "",
+        "notes": {
+          "en": "Usually an uncountable noun in everyday usage.",
+          "pl": "W codziennym użyciu jest zwykle rzeczownikiem niepoliczalnym."
+        },
+        "examples": [
+          "Das Gepäck wurde direkt zum Hotel gebracht.",
+          "Wir dürfen nur kleines Gepäck mitnehmen."
+        ]
+      },
+      {
+        "id": 33,
+        "word": "umkreisen",
+        "translation": {
+          "en": "to orbit, circle",
+          "pl": "okrążać, krążyć wokół"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Used for planets, moons and objects moving around a centre.",
+          "pl": "Używane w odniesieniu do planet, księżyców i obiektów krążących wokół centrum."
+        },
+        "examples": [
+          "Die Sonde soll den Mond umkreisen.",
+          "Ein Satellit umkreist die Erde in kurzer Zeit."
+        ]
+      },
+      {
+        "id": 34,
+        "word": "sammeln",
+        "translation": {
+          "en": "to collect, gather",
+          "pl": "zbierać, gromadzić"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B1",
+        "plural": "",
+        "notes": {
+          "en": "Can refer to objects, samples, information or experience.",
+          "pl": "Może odnosić się do przedmiotów, próbek, informacji lub doświadczenia."
+        },
+        "examples": [
+          "Die Forschenden sammeln neue Daten.",
+          "Wir haben über Jahre wertvolle Erfahrungen gesammelt."
+        ]
+      },
+      {
+        "id": 35,
+        "word": "die Erkenntnis",
+        "translation": {
+          "en": "finding, insight",
+          "pl": "ustalenie, wniosek, spostrzeżenie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Erkenntnisse",
+        "notes": {
+          "en": "Often used with gewinnen: Erkenntnisse gewinnen.",
+          "pl": "Często występuje z gewinnen: Erkenntnisse gewinnen."
+        },
+        "examples": [
+          "Die Studie liefert wichtige Erkenntnisse.",
+          "Aus dem Versuch haben wir neue Erkenntnisse gewonnen."
+        ]
+      },
+      {
+        "id": 36,
+        "word": "die Entstehung",
+        "translation": {
+          "en": "origin, formation",
+          "pl": "powstanie, geneza"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Entstehungen",
+        "notes": {
+          "en": "Often followed by von or a genitive construction.",
+          "pl": "Często łączy się z von lub dopełniaczem."
+        },
+        "examples": [
+          "Die Entstehung des Universums beschäftigt Forschende.",
+          "Das Buch erklärt die Entstehung der Bewegung."
+        ]
+      },
+      {
+        "id": 37,
+        "word": "prüfen",
+        "translation": {
+          "en": "to examine, check",
+          "pl": "sprawdzać, badać"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B1",
+        "plural": "",
+        "notes": {
+          "en": "Partizip II: geprüft; often used in formal reports.",
+          "pl": "Imiesłów: geprüft; często używany w raportach formalnych."
+        },
+        "examples": [
+          "Die Fachleute prüfen die technischen Voraussetzungen.",
+          "Die Behörde hat alle Angaben geprüft."
+        ]
+      },
+      {
+        "id": 38,
+        "word": "der Standort",
+        "translation": {
+          "en": "location, site",
+          "pl": "lokalizacja, miejsce"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Standorte",
+        "notes": {
+          "en": "Used for a facility, business, station or planned installation.",
+          "pl": "Używane w odniesieniu do obiektu, firmy, stacji lub planowanej instalacji."
+        },
+        "examples": [
+          "Der Standort wurde sorgfältig ausgewählt.",
+          "Die Firma betreibt mehrere Standorte im Ausland."
+        ]
+      },
+      {
+        "id": 39,
+        "word": "sich eignen",
+        "translation": {
+          "en": "to be suitable",
+          "pl": "nadawać się"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Often used with für plus accusative.",
+          "pl": "Często łączy się z für i biernikiem."
+        },
+        "examples": [
+          "Der Raum eignet sich für kleine Besprechungen.",
+          "Nicht jede Lösung hat sich für diesen Zweck geeignet."
+        ]
+      }
     ]
   },
   "speaking": {
