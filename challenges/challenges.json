@@ -8900,7 +8900,6 @@
     }
   }
 },
- 
 {
   "lesson": {
     "id": "2026-10-20",
@@ -8960,203 +8959,725 @@
     {
       "de": "Ich habe gestern lange **gearbeitet**.",
       "en": "I worked for a long time yesterday.",
-      "pl": "Wczoraj długo pracowałem."
+      "pl": "Wczoraj długo pracowałem.",
+      "level": "A1"
     },
     {
       "de": "Sie hat eine interessante Frage **gestellt**.",
       "en": "She asked an interesting question.",
-      "pl": "Zadała interesujące pytanie."
+      "pl": "Zadała interesujące pytanie.",
+      "level": "A1"
     },
     {
       "de": "Wir haben den ganzen Abend **gekocht**.",
       "en": "We cooked all evening.",
-      "pl": "Gotowaliśmy przez cały wieczór."
-    },
-    {
-      "de": "Er hat die E-Mail sofort **beantwortet**.",
-      "en": "He answered the email immediately.",
-      "pl": "Od razu odpowiedział na e-mail."
-    },
-    {
-      "de": "Ich habe an der Universität **studiert**.",
-      "en": "I studied at university.",
-      "pl": "Studiowałem na uniwersytecie."
+      "pl": "Gotowaliśmy przez cały wieczór.",
+      "level": "A2"
     },
     {
       "de": "Die Kinder haben im Garten **gespielt**.",
       "en": "The children played in the garden.",
-      "pl": "Dzieci bawiły się w ogrodzie."
+      "pl": "Dzieci bawiły się w ogrodzie.",
+      "level": "A2"
+    },
+    {
+      "de": "Ich habe an der Universität **studiert**.",
+      "en": "I studied at university.",
+      "pl": "Studiowałem na uniwersytecie.",
+      "level": "A2"
+    },
+    {
+      "de": "Er hat die E-Mail sofort **beantwortet**.",
+      "en": "He answered the email immediately.",
+      "pl": "Od razu odpowiedział na e-mail.",
+      "level": "B1"
     },
     {
       "de": "Sie hat den Bericht sorgfältig **geschrieben**.",
       "en": "She wrote the report carefully.",
-      "pl": "Starannie napisała raport."
+      "pl": "Starannie napisała raport.",
+      "level": "B1"
     },
     {
       "de": "Wir haben den Fehler sofort **gefunden**.",
       "en": "We found the mistake immediately.",
-      "pl": "Od razu znaleźliśmy błąd."
-    },
-    {
-      "de": "Er hat das Glas **zerbrochen**.",
-      "en": "He broke the glass.",
-      "pl": "Stłukł szklankę."
+      "pl": "Od razu znaleźliśmy błąd.",
+      "level": "B1"
     },
     {
       "de": "Ich habe die ganze Nacht schlecht **geschlafen**.",
       "en": "I slept badly all night.",
-      "pl": "Przez całą noc źle spałem."
-    },
-    {
-      "de": "Sie hat die Einladung **angenommen**.",
-      "en": "She accepted the invitation.",
-      "pl": "Przyjęła zaproszenie."
+      "pl": "Przez całą noc źle spałem.",
+      "level": "B1"
     },
     {
       "de": "Wir haben die Unterlagen **vergessen**.",
       "en": "We forgot the documents.",
-      "pl": "Zapomnieliśmy dokumentów."
+      "pl": "Zapomnieliśmy dokumentów.",
+      "level": "B1"
     },
     {
-      "de": "Der Techniker hat das Problem **gelöst**.",
-      "en": "The technician solved the problem.",
-      "pl": "Technik rozwiązał problem."
+      "de": "Sie hat die Einladung dankend **angenommen**.",
+      "en": "She gratefully accepted the invitation.",
+      "pl": "Z wdzięcznością przyjęła zaproszenie.",
+      "level": "B2"
     },
     {
-      "de": "Ich habe ihn gestern **angerufen**.",
-      "en": "I called him yesterday.",
-      "pl": "Wczoraj do niego zadzwoniłem."
+      "de": "Der Techniker hat das Problem kompetent **gelöst**.",
+      "en": "The technician solved the problem competently.",
+      "pl": "Technik kompetentnie rozwiązał problem.",
+      "level": "B2"
     },
     {
       "de": "Die Firma hat einen neuen Standort **eröffnet**.",
       "en": "The company opened a new location.",
-      "pl": "Firma otworzyła nową lokalizację."
+      "pl": "Firma otworzyła nową lokalizację.",
+      "level": "B2"
     },
     {
-      "de": "Sie hat den Vertrag gründlich **geprüft**.",
+      "de": "Sie hat den vorliegenden Vertrag gründlich **geprüft**.",
       "en": "She examined the contract thoroughly.",
-      "pl": "Dokładnie sprawdziła umowę."
+      "pl": "Dokładnie sprawdziła przedłożoną umowę.",
+      "level": "B2"
     },
     {
-      "de": "Wir haben die Kosten falsch **eingeschätzt**.",
-      "en": "We estimated the costs incorrectly.",
-      "pl": "Błędnie oszacowaliśmy koszty."
+      "de": "Er hat seine überraschende Entscheidung nachvollziehbar **begründet**.",
+      "en": "He justified his surprising decision plausibly.",
+      "pl": "Zrozumiale uzasadnił swoją zaskakującą decyzję.",
+      "level": "B2"
     },
     {
-      "de": "Er hat seine Entscheidung gut **begründet**.",
-      "en": "He justified his decision well.",
-      "pl": "Dobrze uzasadnił swoją decyzję."
+      "de": "Wir haben die finanziellen Risiken von Anfang an falsch **eingeschätzt**.",
+      "en": "We estimated the financial risks incorrectly from the outset.",
+      "pl": "Od początku błędnie oszacowaliśmy ryzyko finansowe.",
+      "level": "C1"
     },
     {
-      "de": "Die Regierung hat neue Maßnahmen **beschlossen**.",
-      "en": "The government decided on new measures.",
-      "pl": "Rząd podjął decyzję o nowych środkach."
+      "de": "Die Regierung hat weitreichende wirtschaftliche Maßnahmen **beschlossen**.",
+      "en": "The government decided on far-reaching economic measures.",
+      "pl": "Rząd podjął decyzję o daleko idących środkach gospodarczych.",
+      "level": "C1"
     },
     {
-      "de": "Das Team hat die Erwartungen **übertroffen**.",
-      "en": "The team exceeded expectations.",
-      "pl": "Zespół przekroczył oczekiwania."
+      "de": "Das engagierte Team hat die hochgesteckten Erwartungen bei Weitem **übertroffen**.",
+      "en": "The dedicated team far exceeded expectations.",
+      "pl": "Zaangażowany zespół zdecydowanie przekroczył wysokie oczekiwania.",
+      "level": "C1"
+    },
+    {
+      "de": "Nach eingehender Konsultation haben die Sachverständigen den ursprünglichen Entwurf grundlegend **überarbeitet**.",
+      "en": "After thorough consultation, the experts fundamentally revised the original draft.",
+      "pl": "Po szczegółowych konsultacjach eksperci gruntownie zmienili pierwotny projekt.",
+      "level": "C2"
+    },
+    {
+      "de": "Die Unternehmensleitung hat sich nach zähen Verhandlungen auf einen tragfähigen Kompromiss **geeinigt**.",
+      "en": "After tough negotiations, the corporate management agreed on a viable compromise.",
+      "pl": "Po trudnych negocjacjach dyrekcja przedsiębiorstwa porozumiała się co do trwałego kompromisu.",
+      "level": "C2"
     }
   ],
   "exercises": [
-    {"en":"I played football yesterday.","pl":"Wczoraj grałem w piłkę nożną.","de":"Ich habe gestern Fußball gespielt."},
-    {"en":"She cooked dinner.","pl":"Ona ugotowała kolację.","de":"Sie hat das Abendessen gekocht."},
-    {"en":"We learned German.","pl":"Uczyliśmy się niemieckiego.","de":"Wir haben Deutsch gelernt."},
-    {"en":"He bought bread.","pl":"On kupił chleb.","de":"Er hat Brot gekauft."},
-    {"en":"I cleaned my room.","pl":"Posprzątałem swój pokój.","de":"Ich habe mein Zimmer aufgeräumt."},
-    {"en":"They opened the window.","pl":"Oni otworzyli okno.","de":"Sie haben das Fenster geöffnet."},
-    {"en":"She listened to music.","pl":"Ona słuchała muzyki.","de":"Sie hat Musik gehört."},
-    {"en":"We asked the teacher.","pl":"Zapytaliśmy nauczyciela.","de":"Wir haben den Lehrer gefragt."},
-    {"en":"He worked on Monday.","pl":"On pracował w poniedziałek.","de":"Er hat am Montag gearbeitet."},
-    {"en":"I studied economics.","pl":"Studiowałem ekonomię.","de":"Ich habe Wirtschaft studiert."},
-    {"en":"She visited her grandmother.","pl":"Odwiedziła swoją babcię.","de":"Sie hat ihre Großmutter besucht."},
-    {"en":"We made a decision.","pl":"Podjęliśmy decyzję.","de":"Wir haben eine Entscheidung getroffen."},
-    {"en":"He drove to the office.","pl":"Pojechał samochodem do biura.","de":"Er ist mit dem Auto ins Büro gefahren."},
-    {"en":"I read the newspaper.","pl":"Przeczytałem gazetę.","de":"Ich habe die Zeitung gelesen."},
-    {"en":"They drank coffee.","pl":"Oni wypili kawę.","de":"Sie haben Kaffee getrunken."},
-    {"en":"She wrote a letter.","pl":"Napisała list.","de":"Sie hat einen Brief geschrieben."},
-    {"en":"We found the address.","pl":"Znaleźliśmy adres.","de":"Wir haben die Adresse gefunden."},
-    {"en":"He took the train.","pl":"Pojechał pociągiem.","de":"Er ist mit dem Zug gefahren."},
-    {"en":"I brought my laptop.","pl":"Przyniosłem laptopa.","de":"Ich habe meinen Laptop mitgebracht."},
-    {"en":"She thought about the offer.","pl":"Zastanowiła się nad ofertą.","de":"Sie hat über das Angebot nachgedacht."},
-    {"en":"We met our colleagues.","pl":"Spotkaliśmy naszych współpracowników.","de":"Wir haben unsere Kollegen getroffen."},
-    {"en":"He stayed at home.","pl":"Został w domu.","de":"Er ist zu Hause geblieben."},
-    {"en":"I forgot the password.","pl":"Zapomniałem hasła.","de":"Ich habe das Passwort vergessen."},
-    {"en":"They helped their neighbors.","pl":"Pomogli sąsiadom.","de":"Sie haben ihren Nachbarn geholfen."},
-    {"en":"She spoke to the manager.","pl":"Rozmawiała z kierownikiem.","de":"Sie hat mit dem Manager gesprochen."},
-    {"en":"We chose the cheaper option.","pl":"Wybraliśmy tańszą opcję.","de":"Wir haben die günstigere Option gewählt."},
-    {"en":"He slept for eight hours.","pl":"Spał przez osiem godzin.","de":"Er hat acht Stunden geschlafen."},
-    {"en":"I wore a warm coat.","pl":"Miałem na sobie ciepły płaszcz.","de":"Ich habe einen warmen Mantel getragen."},
-    {"en":"They sold the old house.","pl":"Sprzedali stary dom.","de":"Sie haben das alte Haus verkauft."},
-    {"en":"She understood the instructions.","pl":"Zrozumiała instrukcje.","de":"Sie hat die Anweisungen verstanden."},
-    {"en":"We arrived late.","pl":"Przyjechaliśmy późno.","de":"Wir sind spät angekommen."},
-    {"en":"He called the customer back.","pl":"Oddzwonił do klienta.","de":"Er hat den Kunden zurückgerufen."},
-    {"en":"I sent the documents yesterday.","pl":"Wczoraj wysłałem dokumenty.","de":"Ich habe die Unterlagen gestern geschickt."},
-    {"en":"She closed the account.","pl":"Zamknęła konto.","de":"Sie hat das Konto geschlossen."},
-    {"en":"We discussed the proposal in detail.","pl":"Omówiliśmy szczegółowo propozycję.","de":"Wir haben den Vorschlag ausführlich besprochen."},
-    {"en":"He apologized for the delay.","pl":"Przeprosił za opóźnienie.","de":"Er hat sich für die Verzögerung entschuldigt."},
-    {"en":"I compared the two reports.","pl":"Porównałem oba raporty.","de":"Ich habe die beiden Berichte verglichen."},
-    {"en":"They decided to postpone the meeting.","pl":"Postanowili przełożyć spotkanie.","de":"Sie haben beschlossen, die Besprechung zu verschieben."},
-    {"en":"She recommended a different approach.","pl":"Zaleciła inne podejście.","de":"Sie hat einen anderen Ansatz empfohlen."},
-    {"en":"We avoided unnecessary costs.","pl":"Uniknęliśmy niepotrzebnych kosztów.","de":"Wir haben unnötige Kosten vermieden."},
-    {"en":"He explained the situation clearly.","pl":"Jasno wyjaśnił sytuację.","de":"Er hat die Situation klar erklärt."},
-    {"en":"I submitted the application online.","pl":"Złożyłem wniosek przez internet.","de":"Ich habe den Antrag online eingereicht."},
-    {"en":"She translated the contract into German.","pl":"Przetłumaczyła umowę na niemiecki.","de":"Sie hat den Vertrag ins Deutsche übersetzt."},
-    {"en":"We recognized the risks too late.","pl":"Zbyt późno rozpoznaliśmy ryzyko.","de":"Wir haben die Risiken zu spät erkannt."},
-    {"en":"He forgot to attach the file.","pl":"Zapomniał załączyć plik.","de":"Er hat vergessen, die Datei anzuhängen."},
-    {"en":"I received the revised version.","pl":"Otrzymałem poprawioną wersję.","de":"Ich habe die überarbeitete Version erhalten."},
-    {"en":"They rejected the first proposal.","pl":"Odrzucili pierwszą propozycję.","de":"Sie haben den ersten Vorschlag abgelehnt."},
-    {"en":"She developed a practical solution.","pl":"Opracowała praktyczne rozwiązanie.","de":"Sie hat eine praktische Lösung entwickelt."},
-    {"en":"We increased the budget slightly.","pl":"Nieznacznie zwiększyliśmy budżet.","de":"Wir haben das Budget leicht erhöht."},
-    {"en":"He lost confidence in the plan.","pl":"Stracił zaufanie do planu.","de":"Er hat das Vertrauen in den Plan verloren."},
-    {"en":"I took responsibility for the mistake.","pl":"Wziąłem odpowiedzialność za błąd.","de":"Ich habe die Verantwortung für den Fehler übernommen."},
-    {"en":"She completed the project ahead of schedule.","pl":"Ukończyła projekt przed terminem.","de":"Sie hat das Projekt vor dem Zeitplan abgeschlossen."},
-    {"en":"We considered several alternatives.","pl":"Rozważyliśmy kilka alternatyw.","de":"Wir haben mehrere Alternativen in Betracht gezogen."},
-    {"en":"He described the incident accurately.","pl":"Dokładnie opisał incydent.","de":"Er hat den Vorfall genau beschrieben."},
-    {"en":"I misunderstood the original request.","pl":"Źle zrozumiałem pierwotną prośbę.","de":"Ich habe die ursprüngliche Anfrage missverstanden."},
-    {"en":"They expanded their operations abroad.","pl":"Rozszerzyli działalność za granicą.","de":"Sie haben ihre Geschäftstätigkeit im Ausland ausgeweitet."},
-    {"en":"She kept the team informed.","pl":"Na bieżąco informowała zespół.","de":"Sie hat das Team auf dem Laufenden gehalten."},
-    {"en":"We agreed on a realistic deadline.","pl":"Uzgodniliśmy realistyczny termin.","de":"Wir haben uns auf eine realistische Frist geeinigt."},
-    {"en":"He proved that the figures were incorrect.","pl":"Udowodnił, że dane były nieprawidłowe.","de":"Er hat bewiesen, dass die Zahlen falsch waren."},
-    {"en":"I took the discrepancy into account.","pl":"Uwzględniłem rozbieżność.","de":"Ich habe die Abweichung berücksichtigt."},
-    {"en":"She questioned the reliability of the data.","pl":"Zakwestionowała wiarygodność danych.","de":"Sie hat die Zuverlässigkeit der Daten infrage gestellt."},
-    {"en":"We underestimated the implementation effort.","pl":"Nie doceniliśmy nakładu pracy potrzebnego do wdrożenia.","de":"Wir haben den Implementierungsaufwand unterschätzt."},
-    {"en":"He negotiated better terms with the supplier.","pl":"Wynegocjował lepsze warunki z dostawcą.","de":"Er hat bessere Konditionen mit dem Lieferanten ausgehandelt."},
-    {"en":"I documented every material change.","pl":"Udokumentowałem każdą istotną zmianę.","de":"Ich habe jede wesentliche Änderung dokumentiert."},
-    {"en":"They strengthened the internal controls.","pl":"Wzmocnili kontrole wewnętrzne.","de":"Sie haben die internen Kontrollen verstärkt."},
-    {"en":"She challenged the assumptions behind the forecast.","pl":"Podważyła założenia leżące u podstaw prognozy.","de":"Sie hat die Annahmen hinter der Prognose infrage gestellt."},
-    {"en":"We obtained approval from the regional director.","pl":"Uzyskaliśmy zgodę dyrektora regionalnego.","de":"Wir haben die Genehmigung des Regionaldirektors erhalten."},
-    {"en":"He overlooked a significant inconsistency.","pl":"Przeoczył istotną niespójność.","de":"Er hat eine erhebliche Unstimmigkeit übersehen."},
-    {"en":"I clarified the scope before signing the agreement.","pl":"Wyjaśniłem zakres przed podpisaniem umowy.","de":"Ich habe den Umfang vor der Unterzeichnung der Vereinbarung geklärt."},
-    {"en":"They withdrew the statement after new evidence emerged.","pl":"Wycofali oświadczenie po pojawieniu się nowych dowodów.","de":"Sie haben die Erklärung zurückgezogen, nachdem neue Beweise aufgetaucht waren."},
-    {"en":"She summarized the findings for senior management.","pl":"Podsumowała ustalenia dla kierownictwa wyższego szczebla.","de":"Sie hat die Ergebnisse für die Geschäftsleitung zusammengefasst."},
-    {"en":"We resolved the conflict without escalating it.","pl":"Rozwiązaliśmy konflikt bez jego eskalowania.","de":"Wir haben den Konflikt gelöst, ohne ihn eskalieren zu lassen."},
-    {"en":"He distinguished between an estimate and a confirmed result.","pl":"Rozróżnił szacunek od potwierdzonego wyniku.","de":"Er hat zwischen einer Schätzung und einem bestätigten Ergebnis unterschieden."},
-    {"en":"I reconstructed the timeline from the available records.","pl":"Odtworzyłem chronologię na podstawie dostępnych zapisów.","de":"Ich habe den zeitlichen Ablauf anhand der verfügbaren Unterlagen rekonstruiert."},
-    {"en":"They disclosed the limitation in the final report.","pl":"Ujawnili ograniczenie w raporcie końcowym.","de":"Sie haben die Einschränkung im Abschlussbericht offengelegt."},
-    {"en":"She established a clear link between the two developments.","pl":"Ustaliła wyraźny związek między tymi dwoma wydarzeniami.","de":"Sie hat einen klaren Zusammenhang zwischen den beiden Entwicklungen hergestellt."},
-    {"en":"We reassessed the risks after the regulatory change.","pl":"Ponownie oceniliśmy ryzyko po zmianie przepisów.","de":"Wir haben die Risiken nach der regulatorischen Änderung neu bewertet."},
-    {"en":"He contradicted his earlier explanation.","pl":"Zaprzeczył swojej wcześniejszej wersji wyjaśnień.","de":"Er hat seiner früheren Erklärung widersprochen."},
-    {"en":"I preserved the original records for audit purposes.","pl":"Zachowałem oryginalne dokumenty na potrzeby audytu.","de":"Ich habe die Originalunterlagen zu Prüfungszwecken aufbewahrt."},
-    {"en":"They consolidated the evidence into a coherent account.","pl":"Zebrali dowody w spójną relację.","de":"Sie haben die Beweise zu einer schlüssigen Darstellung zusammengeführt."},
-    {"en":"She inferred the likely cause from several independent indicators.","pl":"Wywnioskowała prawdopodobną przyczynę na podstawie kilku niezależnych wskaźników.","de":"Sie hat die wahrscheinliche Ursache aus mehreren unabhängigen Indikatoren abgeleitet."},
-    {"en":"We mitigated the exposure before final approval.","pl":"Ograniczyliśmy ekspozycję przed ostatecznym zatwierdzeniem.","de":"Wir haben das Risiko vor der endgültigen Freigabe gemindert."},
-    {"en":"He substantiated the conclusion with additional documentation.","pl":"Poparł wniosek dodatkową dokumentacją.","de":"Er hat die Schlussfolgerung mit zusätzlichen Unterlagen untermauert."},
-    {"en":"I distinguished the underlying cause from its visible effects.","pl":"Odróżniłem przyczynę źródłową od jej widocznych skutków.","de":"Ich habe die zugrunde liegende Ursache von ihren sichtbaren Auswirkungen unterschieden."},
-    {"en":"They reconsidered the proposal after consulting external experts.","pl":"Ponownie rozważyli propozycję po konsultacji z ekspertami zewnętrznymi.","de":"Sie haben den Vorschlag nach der Konsultation externer Experten überdacht."},
-    {"en":"She acknowledged that the initial assessment had been incomplete.","pl":"Przyznała, że wstępna ocena była niepełna.","de":"Sie hat eingeräumt, dass die erste Bewertung unvollständig gewesen ist."},
-    {"en":"We documented how the decision had affected the subsequent analysis.","pl":"Udokumentowaliśmy, jak decyzja wpłynęła na późniejszą analizę.","de":"Wir haben dokumentiert, wie sich die Entscheidung auf die anschließende Analyse ausgewirkt hat."},
-    {"en":"He derived a more robust approach from the lessons learned.","pl":"Na podstawie zdobytych doświadczeń wypracował solidniejsze podejście.","de":"Er hat aus den gewonnenen Erkenntnissen einen robusteren Ansatz abgeleitet."},
-    {"en":"I had already sent the revised figures before the meeting began.","pl":"Wysłałem już poprawione dane, zanim rozpoczęło się spotkanie.","de":"Ich hatte die überarbeiteten Zahlen bereits geschickt, bevor die Besprechung begann."},
-    {"en":"They had completed the review before the deadline was brought forward.","pl":"Zakończyli przegląd, zanim przyspieszono termin.","de":"Sie hatten die Prüfung abgeschlossen, bevor die Frist vorverlegt worden war."},
-    {"en":"She had misunderstood the requirement because it had been poorly formulated.","pl":"Źle zrozumiała wymóg, ponieważ został nieprecyzyjnie sformułowany.","de":"Sie hatte die Anforderung missverstanden, weil sie unklar formuliert worden war."},
-    {"en":"We had not anticipated the consequences that later emerged.","pl":"Nie przewidzieliśmy konsekwencji, które ujawniły się później.","de":"Wir hatten die später eingetretenen Folgen nicht vorausgesehen."},
-    {"en":"He had taken the evidence into account before reaching his conclusion.","pl":"Uwzględnił dowody przed wyciągnięciem wniosku.","de":"Er hatte die Beweise berücksichtigt, bevor er zu seiner Schlussfolgerung gekommen war."},
-    {"en":"I had recorded the exception, but the reviewer had overlooked it.","pl":"Zarejestrowałem wyjątek, ale recenzent go przeoczył.","de":"Ich hatte die Ausnahme dokumentiert, aber der Prüfer hatte sie übersehen."},
-    {"en":"They had agreed on the methodology before the new data arrived.","pl":"Uzgodnili metodologię, zanim nadeszły nowe dane.","de":"Sie hatten sich auf die Methodik geeinigt, bevor die neuen Daten eingetroffen waren."},
-    {"en":"She had raised the concern repeatedly before management responded.","pl":"Wielokrotnie zgłaszała obawę, zanim kierownictwo zareagowało.","de":"Sie hatte die Bedenken wiederholt geäußert, bevor die Geschäftsleitung reagiert hatte."},
-    {"en":"We had underestimated how much the assumptions influenced the outcome.","pl":"Nie doceniliśmy, jak bardzo założenia wpływały na wynik.","de":"Wir hatten unterschätzt, wie stark die Annahmen das Ergebnis beeinflusst hatten."},
-    {"en":"He had defended the original estimate until contrary evidence emerged.","pl":"Bronił pierwotnego szacunku, dopóki nie pojawiły się sprzeczne dowody.","de":"Er hatte die ursprüngliche Schätzung verteidigt, bis gegenteilige Beweise aufgetaucht waren."}
+    {
+      "en": "I played football yesterday.",
+      "pl": "Wczoraj grałem w piłkę nożną.",
+      "de": "Ich habe gestern Fußball gespielt.",
+      "level": "A2"
+    },
+    {
+      "en": "She cooked dinner.",
+      "pl": "Ona ugotowała kolację.",
+      "de": "Sie hat das Abendessen gekocht.",
+      "level": "A2"
+    },
+    {
+      "en": "We learned German.",
+      "pl": "Uczyliśmy się niemieckiego.",
+      "de": "Wir haben Deutsch gelernt.",
+      "level": "A2"
+    },
+    {
+      "en": "He bought bread.",
+      "pl": "On kupił chleb.",
+      "de": "Er hat Brot gekauft.",
+      "level": "A2"
+    },
+    {
+      "en": "I cleaned my room.",
+      "pl": "Posprzątałem swój pokój.",
+      "de": "Ich habe mein Zimmer aufgeräumt.",
+      "level": "A2"
+    },
+    {
+      "en": "They opened the window.",
+      "pl": "Oni otworzyli okno.",
+      "de": "Sie haben das Fenster geöffnet.",
+      "level": "A2"
+    },
+    {
+      "en": "She listened to music.",
+      "pl": "Ona słuchała muzyki.",
+      "de": "Sie hat Musik gehört.",
+      "level": "A2"
+    },
+    {
+      "en": "We asked the teacher.",
+      "pl": "Zapytaliśmy nauczyciela.",
+      "de": "Wir haben den Lehrer gefragt.",
+      "level": "A2"
+    },
+    {
+      "en": "He worked on Monday.",
+      "pl": "On pracował w poniedziałek.",
+      "de": "Er hat am Montag gearbeitet.",
+      "level": "A2"
+    },
+    {
+      "en": "I studied economics.",
+      "pl": "Studiowałem ekonomię.",
+      "de": "Ich habe Wirtschaft studiert.",
+      "level": "A2"
+    },
+    {
+      "en": "She visited her grandmother.",
+      "pl": "Odwiedziła swoją babcię.",
+      "de": "Sie hat ihre Großmutter besucht.",
+      "level": "B1"
+    },
+    {
+      "en": "We made a decision.",
+      "pl": "Podjęliśmy decyzję.",
+      "de": "Wir haben eine Entscheidung getroffen.",
+      "level": "B1"
+    },
+    {
+      "en": "He drove to the office.",
+      "pl": "Pojechał samochodem do biura.",
+      "de": "Er ist mit dem Auto ins Büro gefahren.",
+      "level": "B1"
+    },
+    {
+      "en": "I read the newspaper.",
+      "pl": "Przeczytałem gazetę.",
+      "de": "Ich habe die Zeitung gelesen.",
+      "level": "B1"
+    },
+    {
+      "en": "They drank coffee.",
+      "pl": "Oni wypili kawę.",
+      "de": "Sie haben Kaffee getrunken.",
+      "level": "B1"
+    },
+    {
+      "en": "She wrote a letter.",
+      "pl": "Napisała list.",
+      "de": "Sie hat einen Brief geschrieben.",
+      "level": "B1"
+    },
+    {
+      "en": "We found the address.",
+      "pl": "Znaleźliśmy adres.",
+      "de": "Wir haben die Adresse gefunden.",
+      "level": "B1"
+    },
+    {
+      "en": "He took the train.",
+      "pl": "Pojechał pociągiem.",
+      "de": "Er ist mit dem Zug gefahren.",
+      "level": "B1"
+    },
+    {
+      "en": "I brought my laptop.",
+      "pl": "Przyniosłem laptopa.",
+      "de": "Ich habe meinen Laptop mitgebracht.",
+      "level": "B1"
+    },
+    {
+      "en": "She thought about the offer.",
+      "pl": "Zastanowiła się nad ofertą.",
+      "de": "Sie hat über das Angebot nachgedacht.",
+      "level": "B1"
+    },
+    {
+      "en": "We met our colleagues.",
+      "pl": "Spotkaliśmy naszych współpracowników.",
+      "de": "Wir haben unsere Kollegen getroffen.",
+      "level": "B1"
+    },
+    {
+      "en": "He stayed at home.",
+      "pl": "Został w domu.",
+      "de": "Er ist zu Hause geblieben.",
+      "level": "B1"
+    },
+    {
+      "en": "I forgot the password.",
+      "pl": "Zapomniałem hasła.",
+      "de": "Ich habe das Passwort vergessen.",
+      "level": "B1"
+    },
+    {
+      "en": "They helped their neighbors.",
+      "pl": "Pomogli sąsiadom.",
+      "de": "Sie haben ihren Nachbarn geholfen.",
+      "level": "B1"
+    },
+    {
+      "en": "She spoke to the manager.",
+      "pl": "Rozmawiała z kierownikiem.",
+      "de": "Sie hat mit dem Manager gesprochen.",
+      "level": "B1"
+    },
+    {
+      "en": "We chose the cheaper option.",
+      "pl": "Wybraliśmy tańszą opcję.",
+      "de": "Wir haben die günstigere Option gewählt.",
+      "level": "B1"
+    },
+    {
+      "en": "He slept for eight hours.",
+      "pl": "Spał przez osiem godzin.",
+      "de": "Er hat acht Stunden geschlafen.",
+      "level": "B1"
+    },
+    {
+      "en": "I wore a warm coat.",
+      "pl": "Miałem na sobie ciepły płaszcz.",
+      "de": "Ich habe einen warmen Mantel getragen.",
+      "level": "B1"
+    },
+    {
+      "en": "They sold the old house.",
+      "pl": "Sprzedali stary dom.",
+      "de": "Sie haben das alte Haus verkauft.",
+      "level": "B1"
+    },
+    {
+      "en": "She understood the instructions.",
+      "pl": "Zrozumiała instrukcje.",
+      "de": "Sie hat die Anweisungen verstanden.",
+      "level": "B1"
+    },
+    {
+      "en": "We arrived late.",
+      "pl": "Przyjechaliśmy późno.",
+      "de": "Wir sind spät angekommen.",
+      "level": "B2"
+    },
+    {
+      "en": "He called the customer back.",
+      "pl": "Oddzwonił do klienta.",
+      "de": "Er hat den Kunden zurückgerufen.",
+      "level": "B2"
+    },
+    {
+      "en": "I sent the documents yesterday.",
+      "pl": "Wczoraj wysłałem dokumenty.",
+      "de": "Ich habe die Unterlagen gestern geschickt.",
+      "level": "B2"
+    },
+    {
+      "en": "She closed the account.",
+      "pl": "Zamknęła konto.",
+      "de": "Sie hat das Konto geschlossen.",
+      "level": "B2"
+    },
+    {
+      "en": "We discussed the proposal in detail.",
+      "pl": "Omówiliśmy szczegółowo propozycję.",
+      "de": "Wir haben den Vorschlag ausführlich besprochen.",
+      "level": "B2"
+    },
+    {
+      "en": "He apologized for the delay.",
+      "pl": "Przeprosił za opóźnienie.",
+      "de": "Er hat sich für die Verzögerung entschuldigt.",
+      "level": "B2"
+    },
+    {
+      "en": "I compared the two reports.",
+      "pl": "Porównałem oba raporty.",
+      "de": "Ich habe die beiden Berichte verglichen.",
+      "level": "B2"
+    },
+    {
+      "en": "They decided to postpone the meeting.",
+      "pl": "Postanowili przełożyć spotkanie.",
+      "de": "Sie haben beschlossen, die Besprechung zu verschieben.",
+      "level": "B2"
+    },
+    {
+      "en": "She recommended a different approach.",
+      "pl": "Zaleciła inne podejście.",
+      "de": "Sie hat einen anderen Ansatz empfohlen.",
+      "level": "B2"
+    },
+    {
+      "en": "We avoided unnecessary costs.",
+      "pl": "Uniknęliśmy niepotrzebnych kosztów.",
+      "de": "Wir haben unnötige Kosten vermieden.",
+      "level": "B2"
+    },
+    {
+      "en": "He explained the situation clearly.",
+      "pl": "Jasno wyjaśnił sytuację.",
+      "de": "Er hat die Situation klar erklärt.",
+      "level": "B2"
+    },
+    {
+      "en": "I submitted the application online.",
+      "pl": "Złożyłem wniosek przez internet.",
+      "de": "Ich habe den Antrag online eingereicht.",
+      "level": "B2"
+    },
+    {
+      "en": "She translated the contract into German.",
+      "pl": "Przetłumaczyła umowę na niemiecki.",
+      "de": "Sie hat den Vertrag ins Deutsche übersetzt.",
+      "level": "B2"
+    },
+    {
+      "en": "We recognized the risks too late.",
+      "pl": "Zbyt późno rozpoznaliśmy ryzyko.",
+      "de": "Wir haben die Risiken zu spät erkannt.",
+      "level": "B2"
+    },
+    {
+      "en": "He forgot to attach the file.",
+      "pl": "Zapomniał załączyć plik.",
+      "de": "Er hat vergessen, die Datei anzuhängen.",
+      "level": "B2"
+    },
+    {
+      "en": "I received the revised version.",
+      "pl": "Otrzymałem poprawioną wersję.",
+      "de": "Ich habe die überarbeitete Version erhalten.",
+      "level": "B2"
+    },
+    {
+      "en": "They rejected the first proposal.",
+      "pl": "Odrzucili pierwszą propozycję.",
+      "de": "Sie haben den ersten Vorschlag abgelehnt.",
+      "level": "B2"
+    },
+    {
+      "en": "She developed a practical solution.",
+      "pl": "Opracowała praktyczne rozwiązanie.",
+      "de": "Sie hat eine praktische Lösung entwickelt.",
+      "level": "B2"
+    },
+    {
+      "en": "We increased the budget slightly.",
+      "pl": "Nieznacznie zwiększyliśmy budżet.",
+      "de": "Wir haben das Budget leicht erhöht.",
+      "level": "B2"
+    },
+    {
+      "en": "He lost confidence in the plan.",
+      "pl": "Stracił zaufanie do planu.",
+      "de": "Er hat das Vertrauen in den Plan verloren.",
+      "level": "B2"
+    },
+    {
+      "en": "I took responsibility for the mistake.",
+      "pl": "Wziąłem odpowiedzialność za błąd.",
+      "de": "Ich habe die Verantwortung für den Fehler übernommen.",
+      "level": "B2"
+    },
+    {
+      "en": "She completed the project ahead of schedule.",
+      "pl": "Ukończyła projekt przed terminem.",
+      "de": "Sie hat das Projekt vor dem Zeitplan abgeschlossen.",
+      "level": "B2"
+    },
+    {
+      "en": "We considered several alternatives.",
+      "pl": "Rozważyliśmy kilka alternatyw.",
+      "de": "Wir haben mehrere Alternativen in Betracht gezogen.",
+      "level": "B2"
+    },
+    {
+      "en": "He described the incident accurately.",
+      "pl": "Dokładnie opisał incydent.",
+      "de": "Er hat den Vorfall genau beschrieben.",
+      "level": "B2"
+    },
+    {
+      "en": "I misunderstood the original request.",
+      "pl": "Źle zrozumiałem pierwotną prośbę.",
+      "de": "Ich habe die ursprüngliche Anfrage missverstanden.",
+      "level": "B2"
+    },
+    {
+      "en": "They expanded their operations abroad.",
+      "pl": "Rozszerzyli działalność za granicą.",
+      "de": "Sie haben ihre Geschäftstätigkeit im Ausland ausgeweitet.",
+      "level": "B2"
+    },
+    {
+      "en": "She kept the team informed.",
+      "pl": "Na bieżąco informowała zespół.",
+      "de": "Sie hat das Team auf dem Laufenden gehalten.",
+      "level": "B2"
+    },
+    {
+      "en": "We agreed on a realistic deadline.",
+      "pl": "Uzgodniliśmy realistyczny termin.",
+      "de": "Wir haben uns auf eine realistische Frist geeinigt.",
+      "level": "B2"
+    },
+    {
+      "en": "He proved that the figures were incorrect.",
+      "pl": "Udowodnił, że dane były nieprawidłowe.",
+      "de": "Er hat bewiesen, dass die Zahlen falsch waren.",
+      "level": "B2"
+    },
+    {
+      "en": "I took the discrepancy into account.",
+      "pl": "Uwzględniłem rozbieżność.",
+      "de": "Ich habe die Abweichung berücksichtigt.",
+      "level": "B2"
+    },
+    {
+      "en": "She questioned the reliability of the data.",
+      "pl": "Zakwestionowała wiarygodność danych.",
+      "de": "Sie hat die Zuverlässigkeit der Daten infrage gestellt.",
+      "level": "B2"
+    },
+    {
+      "en": "We underestimated the implementation effort.",
+      "pl": "Nie doceniliśmy nakładu pracy potrzebnego do wdrożenia.",
+      "de": "Wir haben den Implementierungsaufwand unterschätzt.",
+      "level": "B2"
+    },
+    {
+      "en": "He negotiated better terms with the supplier.",
+      "pl": "Wynegocjował lepsze warunki z dostawcą.",
+      "de": "Er hat bessere Konditionen mit dem Lieferanten ausgehandelt.",
+      "level": "B2"
+    },
+    {
+      "en": "I documented every material change.",
+      "pl": "Udokumentowałem każdą istotną zmianę.",
+      "de": "Ich habe jede wesentliche Änderung dokumentiert.",
+      "level": "B2"
+    },
+    {
+      "en": "They strengthened the internal controls.",
+      "pl": "Wzmocnili kontrole wewnętrzne.",
+      "de": "Sie haben die internen Kontrollen verstärkt.",
+      "level": "B2"
+    },
+    {
+      "en": "She challenged the assumptions behind the forecast.",
+      "pl": "Podważyła założenia leżące u podstaw prognozy.",
+      "de": "Sie hat die Annahmen hinter der Prognose infrage gestellt.",
+      "level": "B2"
+    },
+    {
+      "en": "We obtained approval from the regional director.",
+      "pl": "Uzyskaliśmy zgodę dyrektora regionalnego.",
+      "de": "Wir haben die Genehmigung des Regionaldirektors erhalten.",
+      "level": "B2"
+    },
+    {
+      "en": "He overlooked a significant inconsistency.",
+      "pl": "Przeoczył istotną niespójność.",
+      "de": "Er hat eine erhebliche Unstimmigkeit übersehen.",
+      "level": "B2"
+    },
+    {
+      "en": "I clarified the scope before signing the agreement.",
+      "pl": "Wyjaśniłem zakres przed podpisaniem umowy.",
+      "de": "Ich habe den Umfang vor der Unterzeichnung der Vereinbarung geklärt.",
+      "level": "B2"
+    },
+    {
+      "en": "They withdrew the statement after new evidence emerged.",
+      "pl": "Wycofali oświadczenie po pojawieniu się nowych dowodów.",
+      "de": "Sie haben die Erklärung zurückgezogen, nachdem neue Beweise aufgetaucht waren.",
+      "level": "B2"
+    },
+    {
+      "en": "She summarized the findings for senior management.",
+      "pl": "Podsumowała ustalenia dla kierownictwa wyższego szczebla.",
+      "de": "Sie hat die Ergebnisse für die Geschäftsleitung zusammengefasst.",
+      "level": "C1"
+    },
+    {
+      "en": "We resolved the conflict without escalating it.",
+      "pl": "Rozwiązaliśmy konflikt bez jego eskalowania.",
+      "de": "Wir haben den Konflikt gelöst, ohne ihn eskalieren zu lassen.",
+      "level": "C1"
+    },
+    {
+      "en": "He distinguished between an estimate and a confirmed result.",
+      "pl": "Rozróżnił szacunek od potwierdzonego wyniku.",
+      "de": "Er hat zwischen einer Schätzung und einem bestätigten Ergebnis unterschieden.",
+      "level": "C1"
+    },
+    {
+      "en": "I reconstructed the timeline from the available records.",
+      "pl": "Odtworzyłem chronologię na podstawie dostępnych zapisów.",
+      "de": "Ich habe den zeitlichen Ablauf anhand der verfügbaren Unterlagen rekonstruiert.",
+      "level": "C1"
+    },
+    {
+      "en": "They disclosed the limitation in the final report.",
+      "pl": "Ujawnili ograniczenie w raporcie końcowym.",
+      "de": "Sie haben die Einschränkung im Abschlussbericht offengelegt.",
+      "level": "C1"
+    },
+    {
+      "en": "She established a clear link between the two developments.",
+      "pl": "Ustaliła wyraźny związek między tymi dwoma wydarzeniami.",
+      "de": "Sie hat einen klaren Zusammenhang zwischen den beiden Entwicklungen hergestellt.",
+      "level": "C1"
+    },
+    {
+      "en": "We reassessed the risks after the regulatory change.",
+      "pl": "Ponownie oceniliśmy ryzyko po zmianie przepisów.",
+      "de": "Wir haben die Risiken nach der regulatorischen Änderung neu bewertet.",
+      "level": "C1"
+    },
+    {
+      "en": "He contradicted his earlier explanation.",
+      "pl": "Zaprzeczył swojej wcześniejszej wersji wyjaśnień.",
+      "de": "Er hat seiner früheren Erklärung widersprochen.",
+      "level": "C1"
+    },
+    {
+      "en": "I preserved the original records for audit purposes.",
+      "pl": "Zachowałem oryginalne dokumenty na potrzeby audytu.",
+      "de": "Ich habe die Originalunterlagen zu Prüfungszwecken aufbewahrt.",
+      "level": "C1"
+    },
+    {
+      "en": "They consolidated the evidence into a coherent account.",
+      "pl": "Zebrali dowody w spójną relację.",
+      "de": "Sie haben die Beweise zu einer schlüssigen Darstellung zusammengeführt.",
+      "level": "C1"
+    },
+    {
+      "en": "She inferred the likely cause from several independent indicators.",
+      "pl": "Wywnioskowała prawdopodobną przyczynę na podstawie kilku niezależnych wskaźników.",
+      "de": "Sie hat die wahrscheinliche Ursache aus mehreren unabhängigen Indikatoren abgeleitet.",
+      "level": "C1"
+    },
+    {
+      "en": "We mitigated the exposure before final approval.",
+      "pl": "Ograniczyliśmy ekspozycję przed ostatecznym zatwierdzeniem.",
+      "de": "Wir haben das Risiko vor der endgültigen Freigabe gemindert.",
+      "level": "C1"
+    },
+    {
+      "en": "He substantiated the conclusion with additional documentation.",
+      "pl": "Poparł wniosek dodatkową dokumentacją.",
+      "de": "Er hat die Schlussfolgerung mit zusätzlichen Unterlagen untermauert.",
+      "level": "C1"
+    },
+    {
+      "en": "I distinguished the underlying cause from its visible effects.",
+      "pl": "Odróżniłem przyczynę źródłową od jej widocznych skutków.",
+      "de": "Ich habe die zugrunde liegende Ursache von ihren sichtbaren Auswirkungen unterschieden.",
+      "level": "C1"
+    },
+    {
+      "en": "They reconsidered the proposal after consulting external experts.",
+      "pl": "Ponownie rozważyli propozycję po konsultacji z ekspertami zewnętrznymi.",
+      "de": "Sie haben den Vorschlag nach der Konsultation externer Experten überdacht.",
+      "level": "C1"
+    },
+    {
+      "en": "She acknowledged that the initial assessment had been incomplete.",
+      "pl": "Przyznała, że wstępna ocena była niepełna.",
+      "de": "Sie hat eingeräumt, dass die erste Bewertung unvollständig gewesen ist.",
+      "level": "C1"
+    },
+    {
+      "en": "We documented how the decision had affected the subsequent analysis.",
+      "pl": "Udokumentowaliśmy, jak decyzja wpłynęła na późniejszą analizę.",
+      "de": "Wir haben dokumentiert, wie sich die Entscheidung auf die anschließende Analyse ausgewirkt hat.",
+      "level": "C1"
+    },
+    {
+      "en": "He derived a more robust approach from the lessons learned.",
+      "pl": "Na podstawie zdobytych doświadczeń wypracował solidniejsze podejście.",
+      "de": "Er hat aus den gewonnenen Erkenntnissen einen robusteren Ansatz abgeleitet.",
+      "level": "C1"
+    },
+    {
+      "en": "I had already sent the revised figures before the meeting began.",
+      "pl": "Wysłałem już poprawione dane, zanim rozpoczęło się spotkanie.",
+      "de": "Ich hatte die überarbeiteten Zahlen bereits geschickt, bevor die Besprechung begann.",
+      "level": "C1"
+    },
+    {
+      "en": "They had completed the review before the deadline was brought forward.",
+      "pl": "Zakończyli przegląd, zanim przyspieszono termin.",
+      "de": "Sie hatten die Prüfung abgeschlossen, bevor die Frist vorverlegt worden war.",
+      "level": "C1"
+    },
+    {
+      "en": "She had misunderstood the requirement because it had been poorly formulated.",
+      "pl": "Źle zrozumiała wymóg, ponieważ został nieprecyzyjnie sformułowany.",
+      "de": "Sie hatte die Anforderung missverstanden, weil sie unklar formuliert worden war.",
+      "level": "C2"
+    },
+    {
+      "en": "We had not anticipated the consequences that later emerged.",
+      "pl": "Nie przewidzieliśmy konsekwencji, które ujawniły się później.",
+      "de": "Wir hatten die später eingetretenen Folgen nicht vorausgesehen.",
+      "level": "C2"
+    },
+    {
+      "en": "He had taken the evidence into account before reaching his conclusion.",
+      "pl": "Uwzględnił dowody przed wyciągnięciem wniosku.",
+      "de": "Er hatte die Beweise berücksichtigt, bevor er zu seiner Schlussfolgerung gekommen war.",
+      "level": "C2"
+    },
+    {
+      "en": "I had recorded the exception, but the reviewer had overlooked it.",
+      "pl": "Zarejestrowałem wyjątek, ale recenzent go przeoczył.",
+      "de": "Ich hatte die Ausnahme dokumentiert, aber der Prüfer hatte sie übersehen.",
+      "level": "C2"
+    },
+    {
+      "en": "They had agreed on the methodology before the new data arrived.",
+      "pl": "Uzgodnili metodologię, zanim nadeszły nowe dane.",
+      "de": "Sie hatten sich auf die Methodik geeinigt, bevor die neuen Daten eingetroffen waren.",
+      "level": "C2"
+    },
+    {
+      "en": "She had raised the concern repeatedly before management responded.",
+      "pl": "Wielokrotnie zgłaszała obawę, zanim kierownictwo zareagowało.",
+      "de": "Sie hatte die Bedenken wiederholt geäußert, bevor die Geschäftsleitung reagiert hatte.",
+      "level": "C2"
+    },
+    {
+      "en": "We had underestimated how much the assumptions influenced the outcome.",
+      "pl": "Nie doceniliśmy, jak bardzo założenia wpływały na wynik.",
+      "de": "Wir hatten unterschätzt, wie stark die Annahmen das Ergebnis beeinflusst hatten.",
+      "level": "C2"
+    },
+    {
+      "en": "He had defended the original estimate until contrary evidence emerged.",
+      "pl": "Bronił pierwotnego szacunku, dopóki nie pojawiły się sprzeczne dowody.",
+      "de": "Er hatte die ursprüngliche Schätzung verteidigt, bis gegenteilige Beweise aufgetaucht waren.",
+      "level": "C2"
+    },
+    {
+      "en": "The supervisory board had thoroughly scrutinized the compliance reports before approving the transaction.",
+      "pl": "Rada nadzorcza dokładnie zbadała raporty dotyczące zgodności przed zatwierdzeniem transakcji.",
+      "de": "Der Aufsichtsrat hatte die Compliance-Berichte gründlich hinterfragt, bevor er die Transaktion genehmigte.",
+      "level": "C2"
+    },
+    {
+      "en": "The auditors had already identified the systematic discrepancies before the external investigation was initiated.",
+      "pl": "Audytorzy zidentyfikowali już systematyczne rozbieżności, zanim wszczęto dochodzenie zewnętrzne.",
+      "de": "Die Wirtschaftsprüfer hatten die systematischen Unstimmigkeiten bereits aufgedeckt, bevor die externe Untersuchung eingeleitet wurde.",
+      "level": "C2"
+    }
   ],
   "listening": {
     "audioUrl": "https://radiodownloaddw-a.akamaihd.net/downloads/Events/dwelle/dira/mp3/deutschkurse/nachrichten_live/00B62AD3_2.mp3",
