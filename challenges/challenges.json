@@ -16134,5 +16134,787 @@
       "pl": "Jesteś moim lektorem języka niemieckiego prowadzącym 20-minutową rozmowę na poziomie B1–C1 na podstawie sekcji Listening z dzisiejszej lekcji (niemieckie wiadomości z 24 października 2026).\n\nOdniesienie do nagrania – 6 wiadomości z dzisiejszej sekcji Listening, w tej samej kolejności co artykuły:\n1. Co najmniej siedem osób zginęło, a ponad 30 zostało rannych, gdy napastnicy otworzyli ogień do konduktu żałobnego przy kościele w prowincji Karak w Jordanii; sprawcy zbiegli, a król Abdullah zapowiedział surową karę.\n2. Jedna osoba została zastrzelona, a pięć kolejnych, w tym dwunastoletnia dziewczynka, odniosło obrażenia w domniemanym rasistowskim i antymuzułmańskim zamachu terrorystycznym na przedmieściu Paryża w Trappes.\n3. Francja mobilizuje 70 000 funkcjonariuszy sił bezpieczeństwa, pojazdy opancerzone i armatki wodne przed oczekiwanymi weekendowymi protestami związków studenckich oraz ruchu „Żółtych Kamizelek” wobec krążących w sieci wezwań do przemocy i grabieży.\n4. Po amerykańskiej dyplomacji wahadłowej Rosja i Ukraina potwierdziły lokalne humanitarne zawieszenie broni od wtorku wokół odciętego od miesięcy miasta Oleszki na okupowanym przez Rosję południu Ukrainy.\n5. Tajfun „Champi” przetoczył się przez Tajwan, powodując śmierć jednej osoby, raniąc około 500 ludzi i pozbawiając prądu około 56 000 gospodarstw domowych podczas gwałtownych burz na Pacyfiku związanych ze zjawiskiem El Niño.\n6. W niedzielę nad ranem w Unii Europejskiej kończy się czas letni i zegary zostają cofnięte o godzinę, podczas gdy krytycy kwestionują efekty oszczędności energii i wskazują na obciążenia zdrowotne.\n\nZagadnienie gramatyczne do wywołania w rozmowie: czas zaprzeszły Plusquamperfekt dla wydarzenia, które nastąpiło przed innym wydarzeniem w przeszłości.\n\nPrzydatne słowa z dzisiejszych artykułów (zachęcaj mnie do ich używania): vereiteln, das Ermittlungsverfahren, im Einsatz sein, die Waffenruhe, das Feuer einstellen, anrichten, wiederherstellen, die Zeitumstellung.\n\nInstrukcje dla lektora AI:\n1. Rozpocznij rozmowę: przywitaj mnie i zapytaj, czy wysłuchałem dzisiejszego nagrania. Jeśli nie, streść wiadomość 1 w dwóch prostych zdaniach po niemiecku i kontynuuj.\n2. Ty pytasz, ja mówię: jedno pytanie na kolejkę, jedno lub dwa krótkie zdania, nigdy nie odpowiadaj na własne pytania. Niemiecki na poziomie B1–C1; polski tylko wtedy, gdy naprawdę utknę.\n3. Pytania odnoszą się do powyższych wiadomości po kolei i obejmują co najmniej cztery z nich: najpierw fakty, potem przyczyny, skutki, inne perspektywy i moja ocena. Pod koniec poproś mnie o powiązanie dwóch wiadomości.\n4. Zachęcaj mnie do używania czasu Plusquamperfekt ze spójnikami takimi jak „nachdem”, „bevor” i „als” lub przysłówkami jak „zuvor”, aby opisywać to, co wydarzyło się przed innym momentem w przeszłości i ćwiczyć dzisiejszą gramatykę.\n5. Pomysły na pytania (dopasuj do moich odpowiedzi): (story 1) Was hatten die jordanischen Sicherheitsbehörden in den vergangenen Jahren bereits getan, bevor es zu diesem Angriff in Karak kam? (story 2) Welche Schritte leitete die Staatsanwaltschaft ein, nachdem der Täter in Trappes auf offener Straße geschossen hatte? (story 3) Was hatte in Online-Netzwerken kursiert, bevor die französische Regierung 70.000 Sicherheitskräfte mobilisierte? (story 4) Welche diplomatischen Gespräche hatten stattgefunden, bevor Russland und die Ukraine der Waffenruhe in Oleschky zustimmten? (story 5) Welche Schäden hatte der Taifun „Champi“ bereits angerichtet, als die Einsatzkräfte mit der Arbeit begannen?\n6. Natychmiastowa korekta: jeśli złamię dzisiejszą zasadę (np. *Nachdem der Taifun über Taiwan fegte, fiel der Strom aus* zamiast *Nachdem der Taifun über Taiwan hinweggefegt war, fiel der Strom aus*), zatrzymaj się na chwilę: zacytuj błąd, podaj poprawne zdanie, wyjaśnij zasadę w 1 zdaniu po polsku i poproś mnie o powtórzenie poprawnego zdania na głos przed kolejnym pytaniem.\n7. Krótko poprawiaj także inne istotne błędy; notuj powtarzające się błędy do podsumowania końcowego. Jeśli moja odpowiedź jest bardzo krótka, zadaj jedno pytanie dopytujące („Warum?”).\n8. Podsumowanie po ok. 20 minutach lub gdy powiem „stop”: dwie rzeczy, które poszły mi dobrze, trzy kluczowe błędy z poprawkami, pięć słów do powtórki, jedno niemieckie zdanie do powtórzenia na głos.\n9. Utrzymuj angażujący, profesjonalny i naturalny ton sprzyjający immersyjnej rozmowie głosowej po niemiecku. Zwracaj się do mnie na „du”."
     }
   }
+},
+ {
+  "lesson": {
+    "id": "2026-10-25",
+    "date": "25.10.2026",
+    "day": 13,
+    "totalDays": 300,
+    "level": "B1",
+    "title": {
+      "en": "Present Tense vs werden-Futur for Plans and Predictions",
+      "pl": "Czas teraźniejszy a konstrukcja z werden (Futur I) przy planach i prognozach"
+    },
+    "subtitle": "Präsens vs. Futur I: Pläne, Absichten und Prognosen"
+  },
+  "grammar": {
+    "html": {
+      "en": [
+        "<p>In German, future events are most commonly expressed using the <strong>Präsens</strong> (present tense) combined with a temporal adverb or time expression. The construction with <em>werden</em> (<strong>Futur I</strong>: <em>werden</em> + infinitive) is reserved primarily for predictions, assumptions, promises, warnings, or formal statements where futurity or modality must be explicitly marked.</p>",
+        "<div class='box rule'><strong>Core rule:</strong> Use the <em>Präsens</em> with a time indicator for scheduled plans and arrangements; use <em>werden + Infinitiv</em> for predictions, assumptions, promises, and intentions without a time adverb.</div>",
+        "<h3>1. Present Tense for Concrete Future Plans</h3>",
+        "<p>When an appointment, schedule, or planned action is already fixed, native speakers almost always use the present tense. A time expression (such as <em>morgen</em>, <em>nächste Woche</em>, <em>am Montag</em>, <em>bald</em>, <em>in zwei Jahren</em>) makes the future reference unmistakable. Using <em>werden</em> here often sounds overly dramatic, stiff, or unnatural in everyday speech.</p>",
+        "<p><em>Ich <strong>fliege morgen</strong> nach Rom.</em> (Concrete plan with time adverb: natural Präsens)<br><em>Wir <strong>ziehen nächsten Monat um</strong>.</em> (Fixed schedule: Präsens)<br><em>Der Zug <strong>fährt</strong> um 18:30 Uhr <strong>ab</strong>.</em> (Timetable: Präsens)</p>",
+        "<h3>2. Futur I for Predictions and Forecasts</h3>",
+        "<p>When you cannot guarantee an outcome and are making a forecast, estimate, or prediction about future events, German uses <strong>werden + Infinitiv</strong>. This structure frequently combines with modal particles and adverbs that signal degrees of probability: <em>wohl</em> (probably), <em>vermutlich</em> (presumably), <em>sicher</em> / <em>bestimmt</em> (certainly), or <em>wahrscheinlich</em> (likely).</p>",
+        "<p><em>Morgen <strong>wird es</strong> vermutlich <strong>regnen</strong>.</em> (Weather forecast: prediction)<br><em>Die Zinsen <strong>werden</strong> im nächsten Quartal weiter <strong>steigen</strong>.</em> (Economic forecast)<br><em>Künstliche Intelligenz <strong>wird</strong> viele Arbeitsplätze <strong>verändern</strong>.</em> (Long-term prediction)</p>",
+        "<h3>3. Promises, Warnings, and Assumptions</h3>",
+        "<p>Aside from predictions, <em>werden</em> adds modal force. It expresses solemn promises (<em>Ich <strong>werde</strong> dich nie <strong>vergessen</strong></em>), firm resolutions (<em>Ab morgen <strong>werde</strong> ich regelmäßig <strong>Sport treiben</strong></em>), authoritative warnings (<em>Du <strong>wirst</strong> das sofort <strong>aufräumen</strong>!</em>), and assumptions about present states (<em>Er antwortet nicht; er <strong>wird wohl schlafen</strong></em>).</p>",
+        "<table><thead><tr><th>Usage</th><th>Preferred tense</th><th>Key indicators</th><th>Example</th></tr></thead><tbody><tr><td>Fixed appointments &amp; schedules</td><td><strong>Präsens</strong></td><td><em>morgen, am Freitag, um 10 Uhr</em></td><td class='de'>Wir <strong>treffen</strong> uns morgen um zehn.</td></tr><tr><td>Firm personal plans</td><td><strong>Präsens</strong></td><td><em>nächsten Monat, bald, im Sommer</em></td><td class='de'>Sie <strong>beginnt</strong> im Juli ihre neue Stelle.</td></tr><tr><td>Predictions &amp; forecasts</td><td><strong>Futur I</strong></td><td><em>vermutlich, wahrscheinlich, wohl</em></td><td class='de'>Die Inflation <strong>wird</strong> wohl <strong>sinken</strong>.</td></tr><tr><td>Solemn promises &amp; resolutions</td><td><strong>Futur I</strong></td><td><em>immer, nie, auf jeden Fall</em></td><td class='de'>Ich <strong>werde</strong> dir immer <strong>helfen</strong>.</td></tr><tr><td>Assumptions about the present</td><td><strong>Futur I</strong></td><td><em>wohl, schon, wahrscheinlich</em></td><td class='de'>Er <strong>wird wohl</strong> im Stau <strong>stehen</strong>.</td></tr></tbody></table>",
+        "<div class='box warn'><strong>Typical mistake:</strong> Do not translate English 'will' or 'going to' literally into <em>werden</em> when talking about daily plans.<br>✗ <em>Morgen werde ich meine Oma besuchen.</em> (Stilted and unnatural in casual German)<br>✓ <em>Morgen <strong>besuche</strong> ich meine Oma.</em></div>",
+        "<div class='box tip'><strong>Memory aid:</strong> If a calendar date or clock time is in the sentence, default to <em>Präsens</em>. Reach for <em>werden</em> only when you predict, promise, or guess.</div>",
+        "<h3>Quick reference</h3>",
+        "<div class='tiles'><div class='tile'><strong>Präsens + time phrase</strong><p>Standard way to express personal plans, fixed dates, and timetables.</p></div><div class='tile'><strong>Futur I + probability</strong><p>Used for forecasts and hypotheses with <em>wohl</em>, <em>vermutlich</em>, or <em>sicher</em>.</p></div><div class='tile'><strong>Futur I for promises</strong><p>Gives weight and solemn commitment to an intention without a time frame.</p></div><div class='tile'><strong>Present assumption</strong><p><em>Werden</em> + present infinitive can also express a deduction about what is happening right now.</p></div></div>"
+      ],
+      "pl": [
+        "<p>W języku niemieckim przyszłe wydarzenia najczęściej wyraża się za pomocą czasu teraźniejszego <strong>Präsens</strong> połączonego z przysłówkiem czasu lub określeniem czasowym. Konstrukcja z czasownikiem <em>werden</em> (<strong>Futur I</strong>: <em>werden</em> + bezokolicznik) jest zarezerwowana przede wszystkim dla prognoz, przypuszczeń, obietnic, ostrzeżeń lub formalnych oświadczeń, w których przyszłość lub modalność wymaga wyraźnego zaznaczenia.</p>",
+        "<div class='box rule'><strong>Zasada główna:</strong> Używaj <em>Präsens</em> z określeniem czasu dla zaplanowanych spotkań i ustaleń; używaj <em>werden + Infinitiv</em> dla prognoz, przypuszczeń, uroczystych obietnic oraz intencji bez określenia czasowego.</div>",
+        "<h3>1. Czas teraźniejszy dla konkretnych planów na przyszłość</h3>",
+        "<p>Gdy termin, harmonogram lub planowana czynność są już ustalone, rodzimi użytkownicy języka niemieckiego niemal zawsze stosują czas teraźniejszy. Określenie czasu (np. <em>morgen</em>, <em>nächste Woche</em>, <em>am Montag</em>, <em>bald</em>, <em>in zwei Jahren</em>) jednoznacznie wskazuje na przyszłość. Zastosowanie formy z <em>werden</em> brzmi w takich sytuacjach sztucznie, zbyt uroczyście lub nienaturalnie w mowie potocznej.</p>",
+        "<p><em>Ich <strong>fliege morgen</strong> nach Rom.</em> (Konkretny plan z określeniem czasu: naturalny Präsens)<br><em>Wir <strong>ziehen nächsten Monat um</strong>.</em> (Ustalony termin: Präsens)<br><em>Der Zug <strong>fährt</strong> um 18:30 Uhr <strong>ab</strong>.</em> (Rozkład jazdy: Präsens)</p>",
+        "<h3>2. Futur I dla prognoz i przewidywań</h3>",
+        "<p>Gdy nie możesz zagwarantować rezultatu i formułujesz prognozę, szacunek lub przewidywanie dotyczące przyszłości, język niemiecki stosuje konstrukcję <strong>werden + Infinitiv</strong>. Struktura ta bardzo często łączy się z partykułami modalnymi i przysłówkami wyrażającymi stopień prawdopodobieństwa: <em>wohl</em> (zapewne), <em>vermutlich</em> (przypuszczalnie), <em>sicher</em> / <em>bestimmt</em> (na pewno) lub <em>wahrscheinlich</em> (prawdopodobnie).</p>",
+        "<p><em>Morgen <strong>wird es</strong> vermutlich <strong>regnen</strong>.</em> (Prognoza pogody: przewidywanie)<br><em>Die Zinsen <strong>werden</strong> im nächsten Quartal weiter <strong>steigen</strong>.</em> (Prognoza gospodarcza)<br><em>Künstliche Intelligenz <strong>wird</strong> viele Arbeitsplätze <strong>verändern</strong>.</em> (Długoterminowa prognoza)</p>",
+        "<h3>3. Obietnice, ostrzeżenia i przypuszczenia</h3>",
+        "<p>Poza prognozami czasownik <em>werden</em> wnosi ładunek modalny. Wyraża uroczyste obietnice (<em>Ich <strong>werde</strong> dich nie <strong>vergessen</strong></em>), mocne postanowienia (<em>Ab morgen <strong>werde</strong> ich regelmäßig <strong>Sport treiben</strong></em>), kategoryczne polecenia i ostrzeżenia (<em>Du <strong>wirst</strong> das sofort <strong>aufräumen</strong>!</em>) oraz przypuszczenia dotyczące teraźniejszości (<em>Er antwortet nicht; er <strong>wird wohl schlafen</strong></em>).</p>",
+        "<table><thead><tr><th>Zastosowanie</th><th>Preferowany czas</th><th>Kluczowe wskaźniki</th><th>Przykład</th></tr></thead><tbody><tr><td>Ustalone terminy i rozkłady</td><td><strong>Präsens</strong></td><td><em>morgen, am Freitag, um 10 Uhr</em></td><td class='de'>Wir <strong>treffen</strong> uns morgen um zehn.</td></tr><tr><td>Zdecydowane plany osobiste</td><td><strong>Präsens</strong></td><td><em>nächsten Monat, bald, im Sommer</em></td><td class='de'>Sie <strong>beginnt</strong> im Juli ihre neue Stelle.</td></tr><tr><td>Prognozy i przewidywania</td><td><strong>Futur I</strong></td><td><em>vermutlich, wahrscheinlich, wohl</em></td><td class='de'>Die Inflation <strong>wird</strong> wohl <strong>sinken</strong>.</td></tr><tr><td>Uroczyste obietnice i postanowienia</td><td><strong>Futur I</strong></td><td><em>immer, nie, auf jeden Fall</em></td><td class='de'>Ich <strong>werde</strong> dir immer <strong>helfen</strong>.</td></tr><tr><td>Przypuszczenia o teraźniejszości</td><td><strong>Futur I</strong></td><td><em>wohl, schon, wahrscheinlich</em></td><td class='de'>Er <strong>wird wohl</strong> im Stau <strong>stehen</strong>.</td></tr></tbody></table>",
+        "<div class='box warn'><strong>Typowy błąd:</strong> Nie tłumacz angielskiego 'will' ani polskiego czasu przyszłego złożonego dosłownie za pomocą <em>werden</em>, gdy mówisz o codziennych planach.<br>✗ <em>Morgen werde ich meine Oma besuchen.</em> (Nienaturalne i zbyt pompatyczne w codziennej niemczyźnie)<br>✓ <em>Morgen <strong>besuche</strong> ich meine Oma.</em></div>",
+        "<div class='box tip'><strong>Wskazówka:</strong> Jeśli w zdaniu pojawia się data z kalendarza lub godzina z zegarka, domyślnie wybierz <em>Präsens</em>. Po <em>werden</em> sięgaj wtedy, gdy prognozujesz, obiecujesz lub snujesz domysły.</div>",
+        "<h3>Szybka powtórka</h3>",
+        "<div class='tiles'><div class='tile'><strong>Präsens + określenie czasu</strong><p>Standardowy sposób wyrażania planów osobistych, ustalonych terminów i rozkładów.</p></div><div class='tile'><strong>Futur I + prawdopodobieństwo</strong><p>Służy do prognoz i hipotez z użyciem <em>wohl</em>, <em>vermutlich</em> lub <em>sicher</em>.</p></div><div class='tile'><strong>Futur I przy obietnicach</strong><p>Nadaje powagę i zobowiązujący ton deklaracjom bez określonych ram czasowych.</p></div><div class='tile'><strong>Domysł o teraźniejszości</strong><p>Konstrukcja <em>werden</em> + bezokolicznik teraźniejszy może wyrażać także wniosek o tym, co dzieje się teraz.</p></div></div>"
+      ]
+    }
+  },
+  "examples": [
+    {
+      "de": "Morgen **fahre** ich mit dem Zug nach Köln.",
+      "en": "Tomorrow I am travelling to Cologne by train.",
+      "pl": "Jutro jadę pociągiem do Kolonii.",
+      "level": "A1"
+    },
+    {
+      "de": "Am Freitag **gehen** wir ins Kino.",
+      "en": "On Friday we are going to the cinema.",
+      "pl": "W piątek idziemy do kina.",
+      "level": "A1"
+    },
+    {
+      "de": "Es **wird** morgen bestimmt **regnen**.",
+      "en": "It will definitely rain tomorrow.",
+      "pl": "Jutro na pewno będzie padać deszcz.",
+      "level": "A2"
+    },
+    {
+      "de": "Nächste Woche **schreibe** ich die Prüfung.",
+      "en": "Next week I am taking the exam.",
+      "pl": "W przyszłym tygodniu piszę egzamin.",
+      "level": "A2"
+    },
+    {
+      "de": "Ich **werde** dich morgen pünktlich **anrufen**, versprochen!",
+      "en": "I will call you on time tomorrow, promised!",
+      "pl": "Zadzwonię do ciebie jutro punktualnie, obiecuję!",
+      "level": "B1"
+    },
+    {
+      "de": "Im Sommer **fliegen** wir für zwei Wochen nach Spanien.",
+      "en": "In summer we are flying to Spain for two weeks.",
+      "pl": "Latem lecimy na dwa tygodnie do Hiszpanii.",
+      "level": "B1"
+    },
+    {
+      "de": "Er antwortet nicht; er **wird wohl** noch **schlafen**.",
+      "en": "He isn't answering; he is probably still asleep.",
+      "pl": "Nie odpowiada; zapewne jeszcze śpi.",
+      "level": "B1"
+    },
+    {
+      "de": "Übermorgen **treffe** ich meinen Chef zum Mittagessen.",
+      "en": "The day after tomorrow I am meeting my boss for lunch.",
+      "pl": "Pojutrze spotykam się z szefem na obiedzie.",
+      "level": "B1"
+    },
+    {
+      "de": "Die neue Software **wird** unseren Arbeitsalltag spürbar **erleichtern**.",
+      "en": "The new software will noticeably ease our daily work.",
+      "pl": "Nowe oprogramowanie odczuwalnie ułatwi naszą codzienną pracę.",
+      "level": "B2"
+    },
+    {
+      "de": "Ab Januar **übernehme** ich die Leitung der Marketingabteilung.",
+      "en": "Starting in January, I am taking over the management of the marketing department.",
+      "pl": "Od stycznia przejmuję kierownictwo działu marketingu.",
+      "level": "B2"
+    },
+    {
+      "de": "Experten befürchten, dass die Energiepreise im Winter wieder **steigen werden**.",
+      "en": "Experts fear that energy prices will rise again in winter.",
+      "pl": "Eksperci obawiają się, że ceny energii zimą znowu wzrosną.",
+      "level": "B2"
+    },
+    {
+      "de": "Am Donnerstag **stellen** wir den überarbeiteten Entwurf dem Kunden **vor**.",
+      "en": "On Thursday we are presenting the revised draft to the client.",
+      "pl": "W czwartek przedstawiamy klientowi poprawiony projekt.",
+      "level": "B2"
+    },
+    {
+      "de": "Die Verhandlungen **werden** vermutlich mehrere Tage **andauern**.",
+      "en": "The negotiations will presumably last several days.",
+      "pl": "Negocjacje przypuszczalnie potrwają kilka dni.",
+      "level": "B2"
+    },
+    {
+      "de": "Nächstes Jahr **bauen** wir eine Solaranlage auf das Dach unseres Hauses.",
+      "en": "Next year we are installing a solar system on our house roof.",
+      "pl": "W przyszłym roku montujemy instalację solarną na dachu naszego domu.",
+      "level": "B2"
+    },
+    {
+      "de": "Der Minister **wird** heute Nachmittag eine Erklärung vor der Presse **abgeben**.",
+      "en": "The minister will deliver a statement to the press this afternoon.",
+      "pl": "Minister złoży dziś po południu oświadczenie przed prasą.",
+      "level": "C1"
+    },
+    {
+      "de": "In zehn Jahren **wird** die Technologie unsere Mobilität grundlegend **verändert haben**.",
+      "en": "In ten years, technology will have fundamentally transformed our mobility.",
+      "pl": "Za dziesięć lat technologia gruntownie zmieni naszą mobilność.",
+      "level": "C1"
+    },
+    {
+      "de": "Wir **unterzeichnen** die Kooperationsvereinbarung kommenden Montag im Rathaus.",
+      "en": "We are signing the cooperation agreement next Monday at the city hall.",
+      "pl": "W najbliższy poniedziałek podpisujemy umowę o współpracy w ratuszu.",
+      "level": "C1"
+    },
+    {
+      "de": "Die geopolitischen Spannungen **werden** den globalen Handel auch künftig **belasten**.",
+      "en": "Geopolitical tensions will continue to weigh on global trade in the future.",
+      "pl": "Napięcia geopolityczne będą również w przyszłości obciążać globalny handel.",
+      "level": "C1"
+    },
+    {
+      "de": "Ob dieser Reformkurs erfolgreich sein **wird**, **lässt** sich zum jetzigen Zeitpunkt kaum absehen.",
+      "en": "Whether this reform path will be successful can hardly be foreseen at this stage.",
+      "pl": "To, czy ten kurs reform okaże się sukcesem, trudno na obecnym etapie przewidzieć.",
+      "level": "C2"
+    },
+    {
+      "de": "Ungeachtet aller Proteste **wird** die Regulierungsbehörde die neuen Auflagen rigoros **durchsetzen**.",
+      "en": "Notwithstanding all protests, the regulatory authority will rigorously enforce the new mandates.",
+      "pl": "Niezależnie od wszelkich protestów organ regulacyjny rygorystycznie wyegzekwuje nowe wymogi.",
+      "level": "C2"
+    }
+  ],
+  "exercises": [
+    {
+      "en": "Tomorrow I am visiting my grandmother.",
+      "pl": "Jutro odwiedzam moją babcię.",
+      "de": "Morgen besuche ich meine Großmutter.",
+      "level": "A2"
+    },
+    {
+      "en": "On Saturday we are playing football in the park.",
+      "pl": "W sobotę gramy w piłkę nożną w parku.",
+      "de": "Am Samstag spielen wir Fußball im Park.",
+      "level": "A2"
+    },
+    {
+      "en": "The train arrives at nine o'clock.",
+      "pl": "Pociąg przyjeżdża o dziewiątej.",
+      "de": "Der Zug kommt um neun Uhr an.",
+      "level": "A2"
+    },
+    {
+      "en": "It will probably rain tomorrow.",
+      "pl": "Jutro prawdopodobnie będzie padać deszcz.",
+      "de": "Morgen wird es wahrscheinlich regnen.",
+      "level": "A2"
+    },
+    {
+      "en": "Tonight I am cooking dinner for my friends.",
+      "pl": "Dziś wieczorem gotuję kolację dla przyjaciół.",
+      "de": "Heute Abend koche ich das Abendessen für meine Freunde.",
+      "level": "A2"
+    },
+    {
+      "en": "Next week Anna is flying to Vienna.",
+      "pl": "W przyszłym tygodniu Anna leci do Wiednia.",
+      "de": "Nächste Woche fliegt Anna nach Wien.",
+      "level": "A2"
+    },
+    {
+      "en": "He will certainly pass the driving test.",
+      "pl": "On na pewno zda egzamin na prawo jazdy.",
+      "de": "Er wird die Fahrprüfung sicher bestehen.",
+      "level": "A2"
+    },
+    {
+      "en": "Tomorrow morning we have a team meeting.",
+      "pl": "Jutro rano mamy spotkanie zespołu.",
+      "de": "Morgen früh haben wir eine Teambesprechung.",
+      "level": "A2"
+    },
+    {
+      "en": "In the afternoon I am going shopping.",
+      "pl": "Po południu idę na zakupy.",
+      "de": "Am Nachmittag gehe ich einkaufen.",
+      "level": "A2"
+    },
+    {
+      "en": "Next month my brother is moving to Hamburg.",
+      "pl": "W przyszłym miesiącu mój brat przeprowadza się do Hamburga.",
+      "de": "Nächsten Monat zieht mein Bruder nach Hamburg.",
+      "level": "A2"
+    },
+    {
+      "en": "I will definitely help you with the move, I promise!",
+      "pl": "Na pewno pomogę ci przy przeprowadzce, obiecuję!",
+      "de": "Ich werde dir auf jeden Fall beim Umzug helfen, versprochen!",
+      "level": "B1"
+    },
+    {
+      "en": "On Friday afternoon our department presents the new strategy.",
+      "pl": "W piątek po południu nasz dział prezentuje nową strategię.",
+      "de": "Am Freitagnachmittag präsentiert unsere Abteilung die neue Strategie.",
+      "level": "B1"
+    },
+    {
+      "en": "The prices will probably continue to rise next year.",
+      "pl": "Ceny w przyszłym roku zapewne będą nadal rosły.",
+      "de": "Die Preise werden im nächsten Jahr wohl weiter steigen.",
+      "level": "B1"
+    },
+    {
+      "en": "Tomorrow at ten o'clock I have an appointment with the doctor.",
+      "pl": "Jutro o dziesiątej mam wizytę u lekarza.",
+      "de": "Morgen um zehn Uhr habe ich einen Termin beim Arzt.",
+      "level": "B1"
+    },
+    {
+      "en": "Lukas isn't picking up his phone; he is probably already sleeping.",
+      "pl": "Lukas nie odbiera telefonu; zapewne już śpi.",
+      "de": "Lukas geht nicht ans Telefon; er wird wohl schon schlafen.",
+      "level": "B1"
+    },
+    {
+      "en": "Next year we are spending our summer holiday in Norway.",
+      "pl": "W przyszłym roku spędzamy letni urlop w Norwegii.",
+      "de": "Nächstes Jahr verbringen wir unseren Sommerurlaub in Norwegen.",
+      "level": "B1"
+    },
+    {
+      "en": "The concert begins punctually at eight o'clock tomorrow evening.",
+      "pl": "Koncert rozpoczyna się jutro wieczorem punktualnie o dwudziestej.",
+      "de": "Das Konzert beginnt morgen Abend pünktlich um zwanzig Uhr.",
+      "level": "B1"
+    },
+    {
+      "en": "I will never forget your valuable support.",
+      "pl": "Nigdy nie zapomnę twojego cennego wsparcia.",
+      "de": "Ich werde deine wertvolle Unterstützung nie vergessen.",
+      "level": "B1"
+    },
+    {
+      "en": "On Wednesday morning we are discussing the contract details with the lawyer.",
+      "pl": "W środę rano omawiamy szczegóły umowy z prawnikiem.",
+      "de": "Am Mittwochmorgen besprechen wir die Vertragsdetails mit dem Anwalt.",
+      "level": "B1"
+    },
+    {
+      "en": "This decision will certainly have consequences for the team.",
+      "pl": "Ta decyzja na pewno będzie miała konsekwencje dla zespołu.",
+      "de": "Diese Entscheidung wird bestimmt Konsequenzen für das Team haben.",
+      "level": "B1"
+    },
+    {
+      "en": "Over the weekend I am visiting my parents in Munich.",
+      "pl": "W weekend odwiedzam moich rodziców w Monachium.",
+      "de": "Am Wochenende besuche ich meine Eltern in München.",
+      "level": "B1"
+    },
+    {
+      "en": "He will probably be stuck in traffic right now.",
+      "pl": "On zapewne stoi teraz w korku.",
+      "de": "Er wird jetzt wohl im Stau stehen.",
+      "level": "B1"
+    },
+    {
+      "en": "In two weeks our company introduces the new time tracking system.",
+      "pl": "Za dwa tygodnie nasza firma wprowadza nowy system rejestracji czasu pracy.",
+      "de": "In zwei Wochen führt unser Unternehmen das neue Zeiterfassungssystem ein.",
+      "level": "B1"
+    },
+    {
+      "en": "Don't worry, the package will arrive tomorrow afternoon.",
+      "pl": "Nie martw się, paczka dotrze jutro po południu.",
+      "de": "Keine Sorge, das Paket wird morgen Nachmittag ankommen.",
+      "level": "B1"
+    },
+    {
+      "en": "Next Monday she starts her new job at the bank.",
+      "pl": "W najbliższy poniedziałek ona rozpoczyna nową pracę w banku.",
+      "de": "Nächsten Montag fängt sie ihre neue Stelle bei der Bank an.",
+      "level": "B1"
+    },
+    {
+      "en": "You will clean up your room right now, understood?",
+      "pl": "Posprzątasz swój pokój natychmiast, zrozumiano?",
+      "de": "Du wirst dein Zimmer sofort aufräumen, verstanden?",
+      "level": "B1"
+    },
+    {
+      "en": "Tomorrow after work we are having a drink together in the city centre.",
+      "pl": "Jutro po pracy idziemy razem na drinka do centrum miasta.",
+      "de": "Morgen nach der Arbeit trinken wir gemeinsam etwas in der Innenstadt.",
+      "level": "B1"
+    },
+    {
+      "en": "Artificial intelligence will change many professions in the coming years.",
+      "pl": "Sztuczna inteligencja zmieni wiele zawodów w nadchodzących latach.",
+      "de": "Künstliche Intelligenz wird in den kommenden Jahren viele Berufe verändern.",
+      "level": "B1"
+    },
+    {
+      "en": "On Thursday morning our director signs the purchase contract.",
+      "pl": "W czwartek rano nasz dyrektor podpisuje umowę kupna.",
+      "de": "Am Donnerstagmorgen unterschreibt unser Direktor den Kaufvertrag.",
+      "level": "B1"
+    },
+    {
+      "en": "I will always support you in this difficult situation.",
+      "pl": "Zawsze będę cię wspierać w tej trudnej sytuacji.",
+      "de": "Ich werde dich in dieser schwierigen Situation immer unterstützen.",
+      "level": "B1"
+    },
+    {
+      "en": "Next month the city council decides on the expansion of the tram network.",
+      "pl": "W przyszłym miesiącu rada miasta decyduje o rozbudowie sieci tramwajowej.",
+      "de": "Nächsten Monat entscheidet der Stadtrat über den Ausbau des Straßenbahnnetzes.",
+      "level": "B2"
+    },
+    {
+      "en": "The upcoming interest rate hike will noticeably slow down investment in the housing sector.",
+      "pl": "Nadchodząca podwyżka stóp procentowych odczuwalnie spowolni inwestycje w sektorze mieszkaniowym.",
+      "de": "Die bevorstehende Zinserhöhung wird die Investitionen im Wohnungssektor spürbar bremsen.",
+      "level": "B2"
+    },
+    {
+      "en": "On Tuesday morning we are conducting the final interviews with the applicants.",
+      "pl": "We wtorek rano przeprowadzamy ostatnie rozmowy kwalifikacyjne z kandydatami.",
+      "de": "Am Dienstagmorgen führen wir die abschließenden Vorstellungsgespräche mit den Bewerbern.",
+      "level": "B2"
+    },
+    {
+      "en": "The inflation rate will probably stabilize around two percent by the end of the year.",
+      "pl": "Wskaźnik inflacji prawdopodobnie ustabilizuje się wokół dwóch procent do końca roku.",
+      "de": "Die Inflationsrate wird sich bis zum Jahresende wahrscheinlich um zwei Prozent einpendeln.",
+      "level": "B2"
+    },
+    {
+      "en": "Starting next semester, Professor Weber is teaching the lecture on corporate governance.",
+      "pl": "Od przyszłego semestru profesor Weber prowadzi wykład z ładu korporacyjnego.",
+      "de": "Ab dem nächsten Semester hält Professor Weber die Vorlesung über Corporate Governance.",
+      "level": "B2"
+    },
+    {
+      "en": "Economists predict that the restructuring will cost thousands of jobs in manufacturing.",
+      "pl": "Ekonomiści prognozują, że restrukturyzacja będzie kosztować tysiące miejsc pracy w przemyśle wytwórczym.",
+      "de": "Ökonomen prognostizieren, dass die Umstrukturierung Tausende Arbeitsplätze in der Fertigung kosten wird.",
+      "level": "B2"
+    },
+    {
+      "en": "Tomorrow afternoon the project team submits the revised budget plan to management.",
+      "pl": "Jutro po południu zespół projektowy przedkłada kierownictwu zrewidowany plan budżetowy.",
+      "de": "Morgen Nachmittag legt das Projektteam der Geschäftsleitung den überarbeiteten Haushaltsplan vor.",
+      "level": "B2"
+    },
+    {
+      "en": "This innovative technology will substantially reduce energy consumption in data centres.",
+      "pl": "Ta innowacyjna technologia znacznie obniży zużycie energii w centrach danych.",
+      "de": "Diese innovative Technologie wird den Energieverbrauch in Rechenzentren erheblich senken.",
+      "level": "B2"
+    },
+    {
+      "en": "On Friday at 11:00 AM we are presenting the quarterly figures to our investors.",
+      "pl": "W piątek o godzinie 11:00 prezentujemy wyniki kwartalne naszym inwestorom.",
+      "de": "Am Freitag um 11:00 Uhr präsentieren wir unseren Investoren die Quartalszahlen.",
+      "level": "B2"
+    },
+    {
+      "en": "The negotiations will probably prove extremely difficult due to differing stances.",
+      "pl": "Negocjacje zapewne okażą się niezwykle trudne ze względu na odmienne stanowiska.",
+      "de": "Die Verhandlungen werden sich aufgrund der unterschiedlichen Positionen wohl als äußerst schwierig erweisen.",
+      "level": "B2"
+    },
+    {
+      "en": "Next quarter our startup opens its first international office in Amsterdam.",
+      "pl": "W przyszłym kwartale nasz startup otwiera swoje pierwsze międzynarodowe biuro w Amsterdamie.",
+      "de": "Im nächsten Quartal eröffnet unser Startup sein erstes internationales Büro in Amsterdam.",
+      "level": "B2"
+    },
+    {
+      "en": "Demographic change will permanently exacerbate the shortage of skilled workers in healthcare.",
+      "pl": "Zmiany demograficzne trwale zaostrzą niedobór wykwalifikowanej siły roboczej w opiece zdrowotnej.",
+      "de": "Der demografische Wandel wird den Fachkräftemangel im Gesundheitswesen dauerhaft verschärfen.",
+      "level": "B2"
+    },
+    {
+      "en": "On Wednesday afternoon the supervisory board reviews the proposed takeover.",
+      "pl": "W środę po południu rada nadzorcza bada proponowane przejęcie.",
+      "de": "Am Mittwochnachmittag prüft der Aufsichtsrat die vorgeschlagene Übernahme.",
+      "level": "B2"
+    },
+    {
+      "en": "Without substantial investments the public railway infrastructure will continue to deteriorate.",
+      "pl": "Bez znaczących inwestycji publiczna infrastruktura kolejowa będzie nadal niszczeć.",
+      "de": "Ohne erhebliche Investitionen wird die öffentliche Bahninfrastruktur weiter verfallen.",
+      "level": "B2"
+    },
+    {
+      "en": "Next week our IT department migrates all customer databases to the new cloud servers.",
+      "pl": "W przyszłym tygodniu nasz dział IT przenosi wszystkie bazy danych klientów na nowe serwery w chmurze.",
+      "de": "Nächste Woche migriert unsere IT-Abteilung alle Kundendatenbanken auf die neuen Cloud-Server.",
+      "level": "B2"
+    },
+    {
+      "en": "The upcoming trade dispute will inevitably impair bilateral economic relations.",
+      "pl": "Nadchodzący spór handlowy nieuchronnie osłabi dwustronne stosunki gospodarcze.",
+      "de": "Der drohende Handelsstreit wird die bilateralen Wirtschaftsbeziehungen unweigerlich belasten.",
+      "level": "B2"
+    },
+    {
+      "en": "On Monday at 9:00 AM our delegation travels to Brussels for the EU summit.",
+      "pl": "W poniedziałek o 9:00 nasza delegacja udaje się do Brukseli na szczyt UE.",
+      "de": "Am Montag um 9:00 Uhr reist unsere Delegation zum EU-Gipfel nach Brüssel.",
+      "level": "B2"
+    },
+    {
+      "en": "Automation will eliminate many routine tasks in administrative departments.",
+      "pl": "Automatyzacja wyeliminuje wiele rutynowych zadań w działach administracyjnych.",
+      "de": "Die Automatisierung wird viele Routineaufgaben in den Verwaltungsabteilungen überflüssig machen.",
+      "level": "B2"
+    },
+    {
+      "en": "Tomorrow morning we are evaluating the feedback from the initial market trial.",
+      "pl": "Jutro rano oceniamy informacje zwrotne z pierwszego testu rynkowego.",
+      "de": "Morgen früh werten wir das Feedback aus dem ersten Markttest aus.",
+      "level": "B2"
+    },
+    {
+      "en": "The ongoing drought will lead to lower crop yields in southern Europe.",
+      "pl": "Trwająca susza doprowadzi do niższych plonów w Europie Południowej.",
+      "de": "Die anhaltende Dürre wird zu geringeren Ernteerträgen in Südeuropa führen.",
+      "level": "B2"
+    },
+    {
+      "en": "In November the finance committee releases the revised budget allocations.",
+      "pl": "W listopadzie komisja budżetowa publikuje zrewidowane podziały środków.",
+      "de": "Im November gibt der Finanzausschuss die überarbeiteten Budgetzuweisungen bekannt.",
+      "level": "B2"
+    },
+    {
+      "en": "The new environmental regulations will place heavy financial burdens on small businesses.",
+      "pl": "Nowe przepisy środowiskowe obciążą małe przedsiębiorstwa znacznymi kosztami finansowymi.",
+      "de": "Die neuen Umweltauflagen werden kleine Unternehmen mit erheblichen Kosten belasten.",
+      "level": "B2"
+    },
+    {
+      "en": "On Thursday afternoon the architects present the final design for the city library.",
+      "pl": "W czwartek po południu architekci przedstawiają ostateczny projekt biblioteki miejskiej.",
+      "de": "Am Donnerstagnachmittag stellen die Architekten den endgültigen Entwurf für die Stadtbibliothek vor.",
+      "level": "B2"
+    },
+    {
+      "en": "Global demand for renewable energy will grow rapidly throughout the next decade.",
+      "pl": "Globalny popyt na energię odnawialną będzie szybko rósł przez całą następną dekadę.",
+      "de": "Die weltweite Nachfrage nach erneuerbaren Energien wird im nächsten Jahrzehnt rasant wachsen.",
+      "level": "B2"
+    },
+    {
+      "en": "Next month our company conducts an extensive internal audit across all branches.",
+      "pl": "W przyszłym miesiącu nasza firma przeprowadza kompleksowy audyt wewnętrzny we wszystkich oddziałach.",
+      "de": "Nächsten Monat führt unser Unternehmen ein umfassendes internes Audit in allen Filialen durch.",
+      "level": "B2"
+    },
+    {
+      "en": "The proposed legal reform will provoke heated controversy in parliament.",
+      "pl": "Proponowana reforma prawna wywoła burzliwe spory w parlamencie.",
+      "de": "Die geplante Gesetzesreform wird heftige Kontroversen im Parlament auslösen.",
+      "level": "B2"
+    },
+    {
+      "en": "Tomorrow at 2:00 PM the management board announces the annual bonus structure.",
+      "pl": "Jutro o 14:00 zarząd ogłasza strukturę premii rocznych.",
+      "de": "Morgen um 14:00 Uhr gibt der Vorstand die jährliche Bonusstruktur bekannt.",
+      "level": "B2"
+    },
+    {
+      "en": "Rising transport costs will inevitably push consumer prices higher.",
+      "pl": "Rosnące koszty transportu nieuchronnie podniosą ceny konsumpcyjne.",
+      "de": "Steigende Transportkosten werden die Verbraucherpreise unweigerlich in die Höhe treiben.",
+      "level": "B2"
+    },
+    {
+      "en": "On Friday morning we are concluding the contract negotiations with our supplier.",
+      "pl": "W piątek rano kończymy negocjacje umowy z naszym dostawcą.",
+      "de": "Am Freitagmorgen schließen wir die Vertragsverhandlungen mit unserem Lieferanten ab.",
+      "level": "B2"
+    },
+    {
+      "en": "This ambitious space mission will deliver revolutionary scientific insights.",
+      "pl": "Ta ambitna misja kosmiczna dostarczy rewolucyjnych odkryć naukowych.",
+      "de": "Diese ehrgeizige Raumfahrtmission wird revolutionäre wissenschaftliche Erkenntnisse liefern.",
+      "level": "B2"
+    },
+    {
+      "en": "In two weeks our research institute publishes the full study on renewable heating.",
+      "pl": "Za dwa tygodnie nasz instytut badawczy publikuje pełne badanie dotyczące ogrzewania odnawialnego.",
+      "de": "In zwei Wochen veröffentlicht unser Forschungsinstitut die vollständige Studie über erneuerbare Wärme.",
+      "level": "B2"
+    },
+    {
+      "en": "Urbanisation will confront municipal administrations with tremendous infrastructural challenges.",
+      "pl": "Urbanizacja postawi administracje miejskie przed ogromnymi wyzwaniami infrastrukturalnymi.",
+      "de": "Die Urbanisierung wird kommunale Verwaltungen vor enorme infrastrukturelle Herausforderungen stellen.",
+      "level": "B2"
+    },
+    {
+      "en": "Tomorrow morning we are reviewing the technical specifications with the engineering team.",
+      "pl": "Jutro rano przeglądamy specyfikacje techniczne z zespołem inżynierów.",
+      "de": "Morgen früh gehen wir die technischen Spezifikationen mit dem Ingenieurteam durch.",
+      "level": "B2"
+    },
+    {
+      "en": "Advancements in battery technology will significantly extend the range of electric vehicles.",
+      "pl": "Postępy w technologii akumulatorów znacząco wydłużą zasięg pojazdów elektrycznych.",
+      "de": "Fortschritte in der Batterietechnologie werden die Reichweite von Elektrofahrzeugen deutlich erhöhen.",
+      "level": "B2"
+    },
+    {
+      "en": "On Wednesday at noon our company launches the updated customer portal.",
+      "pl": "W środę w południe nasza firma uruchamia zaktualizowany portal klienta.",
+      "de": "Am Mittwochmittag schaltet unser Unternehmen das aktualisierte Kundenportal frei.",
+      "level": "B2"
+    },
+    {
+      "en": "The transition to electric mobility will transform supply chains across the continent.",
+      "pl": "Przejście na elektromobilność przekształci łańcuchy dostaw na całym kontynencie.",
+      "de": "Der Übergang zur Elektromobilität wird die Lieferketten auf dem gesamten Kontinent verändern.",
+      "level": "B2"
+    },
+    {
+      "en": "Next month the hospital begins construction of the new paediatric clinic.",
+      "pl": "W przyszłym miesiącu szpital rozpoczyna budowę nowej kliniki pediatrycznej.",
+      "de": "Nächsten Monat beginnt das Krankenhaus mit dem Bau der neuen Kinderklinik.",
+      "level": "B2"
+    },
+    {
+      "en": "The geopolitical crisis will continue to disrupt international shipping routes.",
+      "pl": "Kryzys geopolityczny będzie nadal zakłócał międzynarodowe szlaki żeglugowe.",
+      "de": "Die geopolitische Krise wird die internationalen Schifffahrtsrouten weiterhin empfindlich stören.",
+      "level": "B2"
+    },
+    {
+      "en": "On Thursday morning our team attends the compliance seminar in Frankfurt.",
+      "pl": "W czwartek rano nasz zespół bierze udział w seminarium dotyczącym zgodności we Frankfurcie.",
+      "de": "Am Donnerstagmorgen nimmt unser Team am Compliance-Seminar in Frankfurt teil.",
+      "level": "B2"
+    },
+    {
+      "en": "The new privacy regulations will fundamentally alter digital marketing practices.",
+      "pl": "Nowe przepisy o ochronie prywatności gruntownie zmienią praktyki marketingu cyfrowego.",
+      "de": "Die neuen Datenschutzbestimmungen werden die Praktiken im digitalen Marketing grundlegend verändern.",
+      "level": "B2"
+    },
+    {
+      "en": "The federal minister will deliver a keynote address on energy transition tomorrow morning.",
+      "pl": "Minister federalny wygłosi jutro rano przemówienie programowe na temat transformacji energetycznej.",
+      "de": "Der Bundesminister wird morgen Vormittag eine Grundsatzrede zur Energiewende halten.",
+      "level": "C1"
+    },
+    {
+      "en": "Tomorrow at 10:00 AM the arbitration board convenes to settle the wage dispute.",
+      "pl": "Jutro o 10:00 zbiera się komisja rozjemcza, aby rozstrzygnąć spór płacowy.",
+      "de": "Morgen um 10:00 Uhr tritt die Schlichtungskommission zusammen, um den Tarifkonflikt beizulegen.",
+      "level": "C1"
+    },
+    {
+      "en": "Quantum computing will render conventional encryption mechanisms obsolete within two decades.",
+      "pl": "Obliczenia kwantowe uczynią konwencjonalne mechanizmy szyfrowania przestarzałymi w ciągu dwóch dekad.",
+      "de": "Quantencomputer werden herkömmliche Verschlüsselungsmechanismen innerhalb von zwei Jahrzehnten überflüssig machen.",
+      "level": "C1"
+    },
+    {
+      "en": "On Monday morning the executive committee reviews the restructuring proposal behind closed doors.",
+      "pl": "W poniedziałek rano komitet wykonawczy analizuje propozycję restrukturyzacji za zamkniętymi drzwiami.",
+      "de": "Am Montagmorgen prüft der Exekutivausschuss den Umstrukturierungsvorschlag hinter verschlossenen Türen.",
+      "level": "C1"
+    },
+    {
+      "en": "Persistent fiscal deficits will force the treasury to issue substantial volumes of sovereign bonds.",
+      "pl": "Uporczywe deficyty budżetowe zmuszą skarb państwa do emisji znacznych wolumenów obligacji skarbowych.",
+      "de": "Anhaltende Haushaltsdefizite werden das Finanzministerium zwingen, erhebliche Mengen an Staatsanleihen auszugeben.",
+      "level": "C1"
+    },
+    {
+      "en": "Next Wednesday the central bank publishes its comprehensive quarterly financial stability report.",
+      "pl": "W przyszłą środę bank centralny publikuje swój kompleksowy kwartalny raport o stabilności finansowej.",
+      "de": "Am kommenden Mittwoch veröffentlicht die Zentralbank ihren umfassenden vierteljährlichen Finanzstabilitätsbericht.",
+      "level": "C1"
+    },
+    {
+      "en": "Decarbonising heavy industry will require unprecedented capital expenditure throughout the region.",
+      "pl": "Dekarbonizacja przemysłu ciężkiego będzie wymagać bezprecedensowych nakładów kapitałowych w całym regionie.",
+      "de": "Die Dekarbonisierung der Schwerindustrie wird beispiellose Investitionsausgaben in der gesamten Region erfordern.",
+      "level": "C1"
+    },
+    {
+      "en": "On Friday afternoon the consortium formally tenders its bid for the infrastructure concession.",
+      "pl": "W piątek po południu konsorcjum formalnie składa ofertę na koncesję infrastrukturalną.",
+      "de": "Am Freitagnachmittag reicht das Konsortium offiziell sein Angebot für die Infrastrukturkonzession ein.",
+      "level": "C1"
+    },
+    {
+      "en": "Without strict governance, generative algorithms will amplify systemic bias in automated hiring.",
+      "pl": "Bez ścisłego nadzoru algorytmy generatywne pogłębią systemowe uprzedzenia w zautomatyzowanej rekrutacji.",
+      "de": "Ohne strenge Kontrolle werden generative Algorithmen systematische Verzerrungen bei der automatisierten Personalauswahl verstärken.",
+      "level": "C1"
+    },
+    {
+      "en": "Next month the state court opens the main trial concerning transnational tax avoidance.",
+      "pl": "W przyszłym miesiącu sąd krajowy otwiera proces główny dotyczący transnarodowego unikania opodatkowania.",
+      "de": "Nächsten Monat eröffnet das Landgericht die Hauptverhandlung wegen grenzüberschreitender Steuervermeidung.",
+      "level": "C1"
+    },
+    {
+      "en": "Demographic contraction will precipitate an acute contraction of rural public services.",
+      "pl": "Kurczenie się demograficzne wywoła dotkliwe ograniczenie wiejskich usług publicznych.",
+      "de": "Der demografische Rückgang wird zu einem akuten Abbau ländlicher öffentlicher Dienstleistungen führen.",
+      "level": "C1"
+    },
+    {
+      "en": "On Thursday at 3:00 PM the diplomatic mission signs the bilateral cultural exchange treaty.",
+      "pl": "W czwartek o 15:00 misja dyplomatyczna podpisuje dwustronny traktat o wymianie kulturalnej.",
+      "de": "Am Donnerstag um 15:00 Uhr unterzeichnet die diplomatische Mission den bilateralen Vertrag über kulturellen Austausch.",
+      "level": "C1"
+    },
+    {
+      "en": "Rising protectionism will fragment multilateral supply networks into vulnerable regional clusters.",
+      "pl": "Rosnący protekcjonizm podzieli wielostronne sieci dostaw na podatne na zagrożenia klastry regionalne.",
+      "de": "Zunehmender Protektionismus wird multilaterale Liefernetzwerke in verwundbare regionale Cluster zersplittern.",
+      "level": "C1"
+    },
+    {
+      "en": "Next Tuesday morning the antitrust authority announces its decision regarding the proposed merger.",
+      "pl": "W najbliższy wtorek rano urząd antymonopolowy ogłasza swoją decyzję dotyczącą planowanej fuzji.",
+      "de": "Am kommenden Dienstagmorgen gibt das Bundeskartellamt seine Entscheidung zur geplanten Fusion bekannt.",
+      "level": "C1"
+    },
+    {
+      "en": "The transition to sustainable agriculture will inevitably entail significant structural adjustments for farmers.",
+      "pl": "Przejście na zrównoważone rolnictwo nieuchronnie pociągnie za sobą znaczne dostosowania strukturalne dla rolników.",
+      "de": "Der Übergang zu einer nachhaltigen Landwirtschaft wird unweigerlich erhebliche strukturelle Anpassungen für Landwirte mit sich bringen.",
+      "level": "C1"
+    },
+    {
+      "en": "In two weeks the parliamentary committee questions key witnesses regarding the banking collapse.",
+      "pl": "Za dwa tygodnie komisja parlamentarna przesłuchuje kluczowych świadków w sprawie upadku banku.",
+      "de": "In zwei Wochen befragt der parlamentarische Ausschuss wichtige Zeugen zum Bankenzusammenbruch.",
+      "level": "C1"
+    },
+    {
+      "en": "Accelerating climate volatility will subject agricultural commodity prices to severe fluctuations.",
+      "pl": "Przyspieszająca niestabilność klimatyczna narazi ceny surowców rolnych na gwałtowne wahania.",
+      "de": "Zunehmende Klimaschwankungen werden die Preise für Agrarrohstoffe heftigen Turbulenzen aussetzen.",
+      "level": "C1"
+    },
+    {
+      "en": "Tomorrow evening the supervisory board formally ratifies the appointment of the new chief financial officer.",
+      "pl": "Jutro wieczorem rada nadzorcza formalnie ratyfikuje powołanie nowego dyrektora finansowego.",
+      "de": "Morgen Abend bestätigt der Aufsichtsrat offiziell die Ernennung des neuen Finanzvorstands.",
+      "level": "C1"
+    },
+    {
+      "en": "The adoption of circular economy models will stimulate secondary raw material markets sustainably.",
+      "pl": "Wdrożenie modeli gospodarki o obiegu zamkniętym trwale pobudzi rynki surowców wtórnych.",
+      "de": "Die Einführung von Modellen der Kreislaufwirtschaft wird die Märkte für Sekundärrohstoffe nachhaltig beleben.",
+      "level": "C1"
+    },
+    {
+      "en": "On Monday at noon the university opens the newly equipped semiconductor research facility.",
+      "pl": "W poniedziałek w południe uniwersytet otwiera nowo wyposażony ośrodek badań nad półprzewodnikami.",
+      "de": "Am Montagmittag eröffnet die Universität das neu ausgestattete Zentrum für Halbleiterforschung.",
+      "level": "C1"
+    },
+    {
+      "en": "Whether the monetary policy tightening will stifle economic growth remains hotly debated among macroeconomists.",
+      "pl": "To, czy zacieśnienie polityki pieniężnej zdusi wzrost gospodarczy, pozostaje przedmiotem gorących sporów wśród makroekonomistów.",
+      "de": "Ob die geldpolitische Straffung das Wirtschaftswachstum abwürgen wird, bleibt unter Makroökonomen heftig umstritten.",
+      "level": "C2"
+    },
+    {
+      "en": "Tomorrow at 9:00 AM the constitutional court delivers its judgment on sovereign debt emergency exceptions.",
+      "pl": "Jutro o 9:00 Federalny Trybunał Konstytucyjny ogłasza wyrok w sprawie wyjątków nadzwyczajnych od długu publicznego.",
+      "de": "Morgen um 9:00 Uhr verkündet das Bundesverfassungsgericht sein Urteil über die Notfallausnahmen der Schuldenbremse.",
+      "level": "C2"
+    },
+    {
+      "en": "Unchecked speculative dynamics will precipitate catastrophic liquidity bottlenecks in shadow banking markets.",
+      "pl": "Niekontrolowana dynamika spekulacyjna wywoła katastrofalne zatory płynnościowe na rynkach bankowości cienia.",
+      "de": "Ungebremste spekulative Dynamiken werden katastrophale Liquiditätsengpässe an den Schattenbankmärkten auslösen.",
+      "level": "C2"
+    },
+    {
+      "en": "Next month the government presents its overarching legislative package on critical infrastructure resilience.",
+      "pl": "W przyszłym miesiącu rząd przedstawia swój nadrzędny pakiet ustawowy dotyczący odporności infrastruktury krytycznej.",
+      "de": "Nächsten Monat legt die Bundesregierung ihr umfassendes Gesetzespaket zur Resilienz kritischer Infrastrukturen vor.",
+      "level": "C2"
+    },
+    {
+      "en": "Technological decoupling between major powers will dismantle interoperable telecommunications standards globally.",
+      "pl": "Technologiczny decoupling między mocarstwami doprowadzi do demontażu interoperacyjnych standardów telekomunikacyjnych na całym świecie.",
+      "de": "Die technologische Entkopplung der Großmächte wird interoperable Telekommunikationsstandards weltweit demontieren.",
+      "level": "C2"
+    },
+    {
+      "en": "On Friday morning the supervisory authority revokes the banking licence of the non-compliant financial institution.",
+      "pl": "W piątek rano organ nadzoru cofa licencję bankową niespełniającej wymogów instytucji finansowej.",
+      "de": "Am Freitagmorgen entzieht die Aufsichtsbehörde dem säumigen Finanzinstitut die Banklizenz.",
+      "level": "C2"
+    },
+    {
+      "en": "The unmitigated proliferation of autonomous weapon systems will fundamentally destabilise strategic deterrence doctrines.",
+      "pl": "Niekontrolowane rozprzestrzenianie autonomicznych systemów uzbrojenia fundamentalnie zdestabilizuje doktryny strategicznego odstraszania.",
+      "de": "Die unkontrollierte Verbreitung autonomer Waffensysteme wird strategische Abschreckungsdoktrinen grundlegend destabilisieren.",
+      "level": "C2"
+    },
+    {
+      "en": "Next week the investigative tribunal examines the classified minutes regarding covert procurement anomalies.",
+      "pl": "W przyszłym tygodniu trybunał śledczy bada niejawne protokoły dotyczące anomalii w tajnych zamówieniach publicznych.",
+      "de": "Nächste Woche sichtet das Untersuchungsgremium die Verschlusssachen-Protokolle zu Unregelmäßigkeiten bei verdeckten Beschaffungen.",
+      "level": "C2"
+    },
+    {
+      "en": "Such sweeping geopolitical sanctions will inevitably trigger unpredictable macroeconomic reverberations.",
+      "pl": "Tak daleko idące sankcje geopolityczne nieuchronnie wywołają nieprzewidywalne reperkusje makroekonomiczne.",
+      "de": "Derart weitreichende geopolitische Sanktionen werden unweigerlich unvorhersehbare makroökonomische Folgewirkungen nach sich ziehen.",
+      "level": "C2"
+    },
+    {
+      "en": "On Thursday at 10:00 AM the parliamentary investigative committee convenes to hear the chancellor's testimony under oath.",
+      "pl": "W czwartek o 10:00 zbiera się parlamentarna komisja śledcza, aby odebrać zeznania kanclerza pod przysięgą.",
+      "de": "Am Donnerstag um 10:00 Uhr tritt der parlamentarische Untersuchungsausschuss zusammen, um die Zeugenaussage des Kanzlers unter Eid zu vernehmen.",
+      "level": "C2"
+    }
+  ],
+  "speaking": {
+    "prompt": {
+      "en": "You are my German language tutor conducting a 20-minute B1-to-C1 speaking conversation focusing on future plans and predictions (German lesson from 25 October 2026).\n\nDiscussion focus – 5 thematic areas concerning the future:\n1. Personal and professional plans: scheduled appointments, job aspirations, travel arrangements, and educational goals for the coming months.\n2. Technology and artificial intelligence: predictions on how AI, automation, and digital communication will transform daily work and society over the next decade.\n3. Climate and environmental transitions: expectations regarding renewable energy, urban mobility, and sustainable consumption.\n4. Economy and global developments: predictions and assumptions about cost-of-living trends, interest rates, and the evolution of modern labour markets.\n5. Personal pledges and resolutions: firm commitments, lifestyle promises, and how you distinguish concrete plans from hypothetical wishes.\n\nGrammar focus to elicit: Present tense vs werden-Futur for future plans and predictions (use Präsens with time adverbs for fixed plans and timetables; use werden + Infinitiv for predictions, forecasts, assumptions with „wohl/wahrscheinlich“, and solemn promises).\n\nUseful words to elicit and practise: prognostizieren, die Vorhersage, der Zeitplan, voraussichtlich, vermutlich, sich vornehmen, die Absicht, die Auswirkung.\n\nInstructions for the AI tutor:\n1. Start the conversation: warmly greet me and ask what concrete plans I have for next week or next month to prompt an immediate present-tense sentence.\n2. You ask, I speak: one question per turn, one or two short sentences, never answer your own questions. German at B1-C1 level; English only if I am really stuck.\n3. Questions should progress through the 5 topics above: start with personal schedules (Präsens), move to technological/societal forecasts (Futur I), explore economic and ecological trends, and conclude with personal commitments.\n4. Encourage me to use the Präsens whenever a specific time expression is present (e.g. „Nächste Woche fliege ich...“) and to deliberately switch to Futur I when formulating predictions (e.g. „Künstliche Intelligenz wird vermutlich...“) or firm resolutions.\n5. Question ideas (adapt to my answers):\n   - Was machst du am kommenden Wochenende? (Beginne mit „Am Wochenende …“)\n   - Welche beruflichen oder privaten Termine hast du im nächsten Monat fest eingeplant?\n   - Wie wird die künstliche Intelligenz deiner Ansicht nach unseren Arbeitsalltag in zehn Jahren verändern? (Verwende „wird … verändern“)\n   - Welche Entwicklung prognostizierst du für die Energiekosten im kommenden Winter?\n   - Welchen festen Vorsatz nimmst du dir für das kommende Jahr vor, und wie lautet dein Versprechen an dich selbst?\n6. Immediate correction: if I break today's rule (e.g. *Morgen werde ich meine Freunde treffen* instead of *Morgen treffe ich meine Freunde*, or using present tense without a time marker when making a sheer speculation), stop briefly: quote the error, give the correct sentence, explain the rule in 1 English sentence, and ask me to repeat the correct sentence aloud before moving on.\n7. Also correct other significant grammatical errors briefly; note recurring mistakes for the final feedback. If my answer is very short, ask one follow-up („Warum denkst du das?“).\n8. Wrap-up after ~20 minutes or when I say \"stop\": two things I did well, three key mistakes with corrections, five words to review, and one German sentence to repeat aloud.\n9. Keep the tone engaging, professional, natural for an immersive German voice dialogue. Address me as „du“.",
+      "pl": "Jesteś moim nauczycielem języka niemieckiego i prowadzisz 20-minutową rozmowę na poziomie B1–C1 skupioną na planach na przyszłość i przewidywaniach (lekcja niemieckiego z 25 października 2026 roku).\n\nObszary tematyczne do dyskusji – 5 tematów dotyczących przyszłości:\n1. Plany osobiste i zawodowe: ustalone spotkania, cele zawodowe, plany podróży i cele edukacyjne na nadchodzące miesiące.\n2. Technologia i sztuczna inteligencja: prognozy dotyczące tego, jak AI, automatyzacja i komunikacja cyfrowa przekształcą pracę i społeczeństwo w ciągu następnej dekady.\n3. Transformacja klimatyczna i środowiskowa: przewidywania dotyczące energii odnawialnej, mobilności miejskiej i zrównoważonej konsumpcji.\n4. Gospodarka i trendy globalne: prognozy i przypuszczenia na temat kosztów życia, stóp procentowych oraz ewolucji rynków pracy.\n5. Osobiste postanowienia i obietnice: wiążące deklaracje, obietnice zmian nawyków oraz rozróżnianie konkretnych planów od hipotetycznych życzeń.\n\nZagadnienie gramatyczne do ćwiczenia: Czas teraźniejszy (Präsens) a konstrukcja z werden (Futur I) przy planach i prognozach (używaj Präsens z określeniami czasu dla ustalonych planów i terminów; używaj werden + Infinitiv dla prognoz, przewidywań, przypuszczeń z „wohl/wahrscheinlich” oraz uroczystych obietnic).\n\nPrzydatne słowa do użycia i przećwiczenia: prognostizieren, die Vorhersage, der Zeitplan, voraussichtlich, vermutlich, sich vornehmen, die Absicht, die Auswirkung.\n\nInstrukcje dla tutora AI:\n1. Rozpocznij rozmowę: przywitaj się ciepło i zapytaj, jakie konkretne plany mam na przyszły tydzień lub przyszły miesiąc, aby sprowokować natychmiastowe użycie czasu teraźniejszego.\n2. Ty pytasz, ja mówię: jedno pytanie na wypowiedź, jedno lub dwa krótkie zdania, nigdy nie odpowiadaj na własne pytania. Język niemiecki na poziomie B1–C1; polski tylko wtedy, gdy naprawdę utknę.\n3. Pytania powinny przechodzić przez 5 powyższych obszarów: zacznij od osobistych planów (Präsens), przejdź do prognoz technologicznych/społecznych (Futur I), zbadaj trendy gospodarcze i ekologiczne, a zakończ osobistymi postanowieniami.\n4. Zachęcaj mnie do stosowania czasu Präsens zawsze wtedy, gdy w zdaniu pojawia się określenie czasu (np. „Nächste Woche fliege ich...”) oraz do świadomego przechodzenia na Futur I przy formułowaniu prognoz (np. „Künstliche Intelligenz wird vermutlich...”) lub mocnych postanowień.\n5. Pomysły na pytania (dostosuj do moich odpowiedzi):\n   - Was machst du am kommenden Wochenende? (Beginne mit „Am Wochenende …“)\n   - Welche beruflichen oder privaten Termine hast du im nächsten Monat fest eingeplant?\n   - Wie wird die künstliche Intelligenz deiner Ansicht nach unseren Arbeitsalltag in zehn Jahren verändern? (Verwende „wird … verändern“)\n   - Welche Entwicklung prognostizierst du für die Energiekosten im kommenden Winter?\n   - Welchen festen Vorsatz nimmst du dir für das kommende Jahr vor, und wie lautet dein Versprechen an dich selbst?\n6. Natychmiastowa korekta: jeśli złamię dzisiejszą zasadę (np. *Morgen werde ich meine Freunde treffen* zamiast *Morgen treffe ich meine Freunde* lub użyję czasu teraźniejszego bez określenia czasu przy czystej spekulacji), przerwij na chwilę: zacytuj błąd, podaj poprawne zdanie, wyjaśnij regułę w jednym zdaniu po polsku i poproś mnie o powtórzenie poprawnego zdania na głos przed kolejnym pytaniem.\n7. Krótko poprawiaj także inne istotne błędy gramatyczne; notuj powtarzające się potknięcia do końcowego podsumowania. Jeśli moja odpowiedź będzie bardzo krótka, zadaj pytanie uzupełniające („Warum denkst du das?“).\n8. Podsumowanie po ok. 20 minutach lub gdy powiem „stop”: dwie rzeczy, które poszły dobrze, trzy kluczowe błędy z poprawkami, pięć słów do powtórki i jedno niemieckie zdanie do powtórzenia na głos.\n9. Utrzymuj profesjonalny, naturalny i angażujący ton sprzyjający immersyjnemu dialogowi głosowemu po niemiecku. Zwracaj się do mnie na „du”."
+    }
+  }
 }
 ]
