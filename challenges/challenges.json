@@ -1,1409 +1,1529 @@
 [
  {
   "lesson": {
-   "id": "2026-10-13",
-   "date": "13.10.2026",
-   "day": 1,
-   "totalDays": 300,
-   "level": "B1",
-   "title": {
-    "en": "Verb-Second (V2) in Main Clauses and Identifying the Finite Verb",
-    "pl": "Szyk czasownika na drugim miejscu (V2) w zdaniu głównym i rozpoznawanie czasownika finitnego"
-   },
-   "subtitle": "Verbzweitstellung im Hauptsatz und das finite Verb"
+    "id": "2026-10-13",
+    "date": "13.10.2026",
+    "day": 1,
+    "totalDays": 300,
+    "level": "B1",
+    "title": {
+      "en": "Verb-Second (V2) in Main Clauses and Identifying the Finite Verb",
+      "pl": "Szyk czasownika na drugim miejscu (V2) w zdaniu głównym i rozpoznawanie czasownika finitnego"
+    },
+    "subtitle": "Verbzweitstellung im Hauptsatz und das finite Verb"
   },
   "grammar": {
-   "html": {
-    "en": [
-     "<h3>The basic V2 rule<\/h3><p>In a standard German main clause, the <strong>finite verb<\/strong> occupies the second position. The finite verb is the verb form that carries grammatical information such as person, number, tense, or mood. Position two means the second sentence element, not necessarily the second word. A sentence element can consist of several words.<\/p>",
-     "<div class='box rule'><strong>Core rule:<\/strong> In a German main clause, put the finite verb in position two. The first position can contain the subject, a time expression, a place, or another sentence element.<\/div>",
-     "<h3>Identifying the finite verb<\/h3><p>First, find the verb that changes according to the subject or tense. In <em>Ich arbeite heute im Büro.<\/em>, <strong>arbeite<\/strong> is finite because it agrees with <em>ich<\/em>. In <em>Wir haben gestern lange gearbeitet.<\/em>, <strong>haben<\/strong> is finite, while <em>gearbeitet<\/em> is the past participle. In <em>Sie muss morgen früh aufstehen.<\/em>, <strong>muss<\/strong> is finite, while <em>aufstehen<\/em> is the infinitive.<\/p><p>German often places other verb parts at the end of the main clause. This creates a sentence frame: the finite verb appears in position two, and an infinitive, participle, or separable prefix appears later.<\/p>",
-     "<table><thead><tr><th>Sentence<\/th><th>Finite verb<\/th><th>Other verb part<\/th><\/tr><\/thead><tbody><tr><td class='de'>Ich <strong>habe<\/strong> die E-Mail geschrieben.<\/td><td class='de'>habe<\/td><td class='de'>geschrieben<\/td><\/tr><tr><td class='de'>Er <strong>wird<\/strong> morgen anrufen.<\/td><td class='de'>wird<\/td><td class='de'>anrufen<\/td><\/tr><tr><td class='de'>Sie <strong>steht<\/strong> um sechs Uhr auf.<\/td><td class='de'>steht<\/td><td class='de'>auf<\/td><\/tr><tr><td class='de'>Wir <strong>können<\/strong> heute länger bleiben.<\/td><td class='de'>können<\/td><td class='de'>bleiben<\/td><\/tr><\/tbody><\/table>",
-     "<h3>The first position can change<\/h3><p>The subject does not have to come first. You can begin with a time expression, a place, or another element. The finite verb still stays in position two, and the subject usually follows it when another element occupies the first position.<\/p><ul><li><em><strong>Ich<\/strong> arbeite heute von zu Hause.<\/em><\/li><li><em><strong>Heute<\/strong> arbeite ich von zu Hause.<\/em><\/li><li><em><strong>Von zu Hause<\/strong> arbeite ich heute.<\/em><\/li><li><em><strong>Nach dem Meeting<\/strong> schreibe ich den Bericht.<\/em><\/li><\/ul><p>Count sentence elements rather than individual words. In <em>Nach dem langen Meeting schreibe ich den Bericht<\/em>, the complete phrase <em>Nach dem langen Meeting<\/em> occupies the first position. The finite verb <strong>schreibe<\/strong> is therefore in the second position, even though several words come before it.<\/p>",
-     "<h3>Questions, negation, and separable verbs<\/h3><p>In a yes-or-no question, the finite verb normally comes first: <em><strong>Hast<\/strong> du heute Zeit?<\/em> This is not the usual V2 order of a statement. A question beginning with a question word normally keeps the finite verb in position two: <em>Wann <strong>beginnt<\/strong> die Besprechung?<\/em><\/p><p>Negation does not normally change the V2 rule: <em>Heute <strong>arbeite<\/strong> ich nicht im Büro.<\/em> With a separable verb, the finite part stays in position two while the prefix moves to the end: <em>Der Zug <strong>kommt<\/strong> um acht Uhr <strong>an<\/strong>.<\/p>",
-     "<table><thead><tr><th>Pattern<\/th><th>Example<\/th><\/tr><\/thead><tbody><tr><td>Subject first<\/td><td class='de'>Der Zug <strong>kommt<\/strong> heute pünktlich an.<\/td><\/tr><tr><td>Time first<\/td><td class='de'>Heute <strong>kommt<\/strong> der Zug pünktlich an.<\/td><\/tr><tr><td>Question word first<\/td><td class='de'>Wann <strong>kommt<\/strong> der Zug an?<\/td><\/tr><tr><td>Yes-or-no question<\/td><td class='de'><strong>Kommt<\/strong> der Zug heute pünktlich an?<\/td><\/tr><\/tbody><\/table>",
-     "<div class='box warn'><strong>Common mistake: confusing the first word with the first position<\/strong><p>✗ Heute ich <strong>arbeite<\/strong> im Büro.<\/p><p>✓ Heute <strong>arbeite<\/strong> ich im Büro.<\/p><p>The time expression occupies the first position, so the finite verb must come next. Do not put the subject between the first element and the finite verb.<\/p><\/div>",
-     "<div class='box tip'><strong>Memory aid: find it, count it, place it<\/strong><p>First identify the finite verb. Next, identify the complete first sentence element. Then put the finite verb immediately after that element. If the sentence contains two or more verb parts, remember that the finite part normally comes in position two and the other part often goes to the end.<\/p><\/div>",
-     "<h3>Quick reference<\/h3><div class='tiles'><div class='tile'><strong>Subject first<\/strong><p><em>Ich <strong>lese<\/strong> die Nachrichten.<\/em><\/p><\/div><div class='tile'><strong>Time first<\/strong><p><em>Heute <strong>lese<\/strong> ich die Nachrichten.<\/em><\/p><\/div><div class='tile'><strong>Verb frame<\/strong><p><em>Ich <strong>habe<\/strong> die Nachrichten <strong>gelesen<\/strong>.<\/em><\/p><\/div><div class='tile'><strong>Question word<\/strong><p><em>Wann <strong>liest<\/strong> du die Nachrichten?<\/em><\/p><\/div><\/div>"
-    ],
-    "pl": [
-     "<h3>Podstawowa zasada V2<\/h3><p>W standardowym niemieckim zdaniu głównym <strong>czasownik finitny<\/strong> zajmuje drugie miejsce. Czasownik finitny to forma czasownika, która niesie informacje gramatyczne, takie jak osoba, liczba, czas lub tryb. Drugie miejsce oznacza drugi element zdania, a niekoniecznie drugie słowo. Jeden element zdania może składać się z kilku słów.<\/p>",
-     "<div class='box rule'><strong>Główna zasada:<\/strong> W niemieckim zdaniu głównym czasownik finitny stoi na drugim miejscu. Na pierwszym miejscu może stać podmiot, okolicznik czasu, miejsca lub inny element zdania.<\/div>",
-     "<h3>Rozpoznawanie czasownika finitnego<\/h3><p>Najpierw znajdź czasownik, który zmienia formę w zależności od podmiotu lub czasu. W zdaniu <em>Ich arbeite heute im Büro.<\/em> czasownik <strong>arbeite<\/strong> jest finitny, ponieważ zgadza się z <em>ich<\/em>. W zdaniu <em>Wir haben gestern lange gearbeitet.<\/em> finitny jest <strong>haben<\/strong>, a <em>gearbeitet<\/em> to imiesłów czasu przeszłego. W zdaniu <em>Sie muss morgen früh aufstehen.<\/em> finitny jest <strong>muss<\/strong>, a <em>aufstehen<\/em> to bezokolicznik.<\/p><p>Niemiecki często umieszcza pozostałe części czasownika na końcu zdania głównego. Powstaje w ten sposób rama zdaniowa: czasownik finitny stoi na drugim miejscu, a bezokolicznik, imiesłów lub oddzielny przedrostek pojawia się dalej.<\/p>",
-     "<table><thead><tr><th>Zdanie<\/th><th>Czasownik finitny<\/th><th>Pozostała część czasownika<\/th><\/tr><\/thead><tbody><tr><td class='de'>Ich <strong>habe<\/strong> die E-Mail geschrieben.<\/td><td class='de'>habe<\/td><td class='de'>geschrieben<\/td><\/tr><tr><td class='de'>Er <strong>wird<\/strong> morgen anrufen.<\/td><td class='de'>wird<\/td><td class='de'>anrufen<\/td><\/tr><tr><td class='de'>Sie <strong>steht<\/strong> um sechs Uhr auf.<\/td><td class='de'>steht<\/td><td class='de'>auf<\/td><\/tr><tr><td class='de'>Wir <strong>können<\/strong> heute länger bleiben.<\/td><td class='de'>können<\/td><td class='de'>bleiben<\/td><\/tr><\/tbody><\/table>",
-     "<h3>Pierwsze miejsce może się zmieniać<\/h3><p>Podmiot nie musi stać na początku. Zdanie można zacząć od okolicznika czasu, miejsca lub innego elementu. Czasownik finitny nadal stoi na drugim miejscu, a podmiot zwykle następuje po nim, gdy pierwsze miejsce zajmuje inny element.<\/p><ul><li><em><strong>Ich<\/strong> arbeite heute von zu Hause.<\/em><\/li><li><em><strong>Heute<\/strong> arbeite ich von zu Hause.<\/em><\/li><li><em><strong>Von zu Hause<\/strong> arbeite ich heute.<\/em><\/li><li><em><strong>Nach dem Meeting<\/strong> schreibe ich den Bericht.<\/em><\/li><\/ul><p>Licz elementy zdania, a nie pojedyncze słowa. W zdaniu <em>Nach dem langen Meeting schreibe ich den Bericht<\/em> cała fraza <em>Nach dem langen Meeting<\/em> zajmuje pierwsze miejsce. Czasownik finitny <strong>schreibe<\/strong> stoi więc na drugim miejscu, chociaż przed nim jest kilka słów.<\/p>",
-     "<h3>Pytania, przeczenie i czasowniki rozdzielnie złożone<\/h3><p>W pytaniu rozstrzygnięcia (tak/nie) czasownik finitny zwykle stoi na pierwszym miejscu: <em><strong>Hast<\/strong> du heute Zeit?<\/em> To nie jest zwykły szyk V2 zdania oznajmującego. Pytanie zaczynające się od zaimka pytajnego zwykle zachowuje czasownik finitny na drugim miejscu: <em>Wann <strong>beginnt<\/strong> die Besprechung?<\/em><\/p><p>Przeczenie zwykle nie zmienia zasady V2: <em>Heute <strong>arbeite<\/strong> ich nicht im Büro.<\/em> W czasowniku rozdzielnie złożonym część finitna zostaje na drugim miejscu, a przedrostek przechodzi na koniec: <em>Der Zug <strong>kommt<\/strong> um acht Uhr <strong>an<\/strong>.<\/em><\/p>",
-     "<table><thead><tr><th>Wzorzec<\/th><th>Przykład<\/th><\/tr><\/thead><tbody><tr><td>Podmiot na początku<\/td><td class='de'>Der Zug <strong>kommt<\/strong> heute pünktlich an.<\/td><\/tr><tr><td>Czas na początku<\/td><td class='de'>Heute <strong>kommt<\/strong> der Zug pünktlich an.<\/td><\/tr><tr><td>Zaimek pytajny na początku<\/td><td class='de'>Wann <strong>kommt<\/strong> der Zug an?<\/td><\/tr><tr><td>Pytanie rozstrzygnięcia<\/td><td class='de'><strong>Kommt<\/strong> der Zug heute pünktlich an?<\/td><\/tr><\/tbody><\/table>",
-     "<div class='box warn'><strong>Typowy błąd: mylenie pierwszego słowa z pierwszym miejscem<\/strong><p>✗ Heute ich <strong>arbeite<\/strong> im Büro.<\/p><p>✓ Heute <strong>arbeite<\/strong> ich im Büro.<\/p><p>Okolicznik czasu zajmuje pierwsze miejsce, więc zaraz po nim musi stać czasownik finitny. Nie wstawiaj podmiotu między pierwszy element a czasownik finitny.<\/p><\/div>",
-     "<div class='box tip'><strong>Pomoc w zapamiętaniu: znajdź, policz, umieść<\/strong><p>Najpierw wskaż czasownik finitny. Potem wskaż cały pierwszy element zdania. Następnie ustaw czasownik finitny zaraz po tym elemencie. Jeśli zdanie ma dwie lub więcej części czasownika, pamiętaj, że część finitna zwykle stoi na drugim miejscu, a pozostała część często trafia na koniec.<\/p><\/div>",
-     "<h3>Szybki przegląd<\/h3><div class='tiles'><div class='tile'><strong>Podmiot na początku<\/strong><p><em>Ich <strong>lese<\/strong> die Nachrichten.<\/em><\/p><\/div><div class='tile'><strong>Czas na początku<\/strong><p><em>Heute <strong>lese<\/strong> ich die Nachrichten.<\/em><\/p><\/div><div class='tile'><strong>Rama czasownikowa<\/strong><p><em>Ich <strong>habe<\/strong> die Nachrichten <strong>gelesen<\/strong>.<\/em><\/p><\/div><div class='tile'><strong>Zaimek pytajny<\/strong><p><em>Wann <strong>liest<\/strong> du die Nachrichten?<\/em><\/p><\/div><\/div>"
-    ]
-   }
+    "html": {
+      "en": [
+        "<h3>The basic V2 rule</h3><p>In a standard German main clause, the <strong>finite verb</strong> occupies the second position. The finite verb is the verb form that carries grammatical information such as person, number, tense, or mood. Position two means the second sentence element, not necessarily the second word. A sentence element can consist of several words.</p>",
+        "<div class='box rule'><strong>Core rule:</strong> In a German main clause, put the finite verb in position two. The first position can contain the subject, a time expression, a place, or another sentence element.</div>",
+        "<h3>Identifying the finite verb</h3><p>First, find the verb that changes according to the subject or tense. In <em>Ich arbeite heute im Büro.</em>, <strong>arbeite</strong> is finite because it agrees with <em>ich</em>. In <em>Wir haben gestern lange gearbeitet.</em>, <strong>haben</strong> is finite, while <em>gearbeitet</em> is the past participle. In <em>Sie muss morgen früh aufstehen.</em>, <strong>muss</strong> is finite, while <em>aufstehen</em> is the infinitive.</p><p>German often places other verb parts at the end of the main clause. This creates a sentence frame: the finite verb appears in position two, and an infinitive, participle, or separable prefix appears later.</p>",
+        "<table><thead><tr><th>Sentence</th><th>Finite verb</th><th>Other verb part</th></tr></thead><tbody><tr><td class='de'>Ich <strong>habe</strong> die E-Mail geschrieben.</td><td class='de'>habe</td><td class='de'>geschrieben</td></tr><tr><td class='de'>Er <strong>wird</strong> morgen anrufen.</td><td class='de'>wird</td><td class='de'>anrufen</td></tr><tr><td class='de'>Sie <strong>steht</strong> um sechs Uhr auf.</td><td class='de'>steht</td><td class='de'>auf</td></tr><tr><td class='de'>Wir <strong>können</strong> heute länger bleiben.</td><td class='de'>können</td><td class='de'>bleiben</td></tr></tbody></table>",
+        "<h3>The first position can change</h3><p>The subject does not have to come first. You can begin with a time expression, a place, or another element. The finite verb still stays in position two, and the subject usually follows it when another element occupies the first position.</p><ul><li><em><strong>Ich</strong> arbeite heute von zu Hause.</em></li><li><em><strong>Heute</strong> arbeite ich von zu Hause.</em></li><li><em><strong>Von zu Hause</strong> arbeite ich heute.</em></li><li><em><strong>Nach dem Meeting</strong> schreibe ich den Bericht.</em></li></ul><p>Count sentence elements rather than individual words. In <em>Nach dem langen Meeting schreibe ich den Bericht</em>, the complete phrase <em>Nach dem langen Meeting</em> occupies the first position. The finite verb <strong>schreibe</strong> is therefore in the second position, even though several words come before it.</p>",
+        "<h3>Questions, negation, and separable verbs</h3><p>In a yes-or-no question, the finite verb normally comes first: <em><strong>Hast</strong> du heute Zeit?</em> This is not the usual V2 order of a statement. A question beginning with a question word normally keeps the finite verb in position two: <em>Wann <strong>beginnt</strong> die Besprechung?</em></p><p>Negation does not normally change the V2 rule: <em>Heute <strong>arbeite</strong> ich nicht im Büro.</em> With a separable verb, the finite part stays in position two while the prefix moves to the end: <em>Der Zug <strong>kommt</strong> um acht Uhr <strong>an</strong>.</em></p>",
+        "<table><thead><tr><th>Pattern</th><th>Example</th></tr></thead><tbody><tr><td>Subject first</td><td class='de'>Der Zug <strong>kommt</strong> heute pünktlich an.</td></tr><tr><td>Time first</td><td class='de'>Heute <strong>kommt</strong> der Zug pünktlich an.</td></tr><tr><td>Question word first</td><td class='de'>Wann <strong>kommt</strong> der Zug an?</td></tr><tr><td>Yes-or-no question</td><td class='de'><strong>Kommt</strong> der Zug heute pünktlich an?</td></tr></tbody></table>",
+        "<div class='box warn'><strong>Common mistake: confusing the first word with the first position</strong><p>✗ Heute ich <strong>arbeite</strong> im Büro.</p><p>✓ Heute <strong>arbeite</strong> ich im Büro.</p><p>The time expression occupies the first position, so the finite verb must come next. Do not put the subject between the first element and the finite verb.</p></div>",
+        "<div class='box tip'><strong>Memory aid: find it, count it, place it</strong><p>First identify the finite verb. Next, identify the complete first sentence element. Then put the finite verb immediately after that element. If the sentence contains two or more verb parts, remember that the finite part normally comes in position two and the other part often goes to the end.</p></div>",
+        "<h3>Quick reference</h3><div class='tiles'><div class='tile'><strong>Subject first</strong><p><em>Ich <strong>lese</strong> die Nachrichten.</em></p></div><div class='tile'><strong>Time first</strong><p><em>Heute <strong>lese</strong> ich die Nachrichten.</em></p></div><div class='tile'><strong>Verb frame</strong><p><em>Ich <strong>habe</strong> die Nachrichten <strong>gelesen</strong>.</em></p></div><div class='tile'><strong>Question word</strong><p><em>Wann <strong>liest</strong> du die Nachrichten?</em></p></div></div>"
+      ],
+      "pl": [
+        "<h3>Podstawowa zasada V2</h3><p>W standardowym niemieckim zdaniu głównym <strong>czasownik finitny</strong> zajmuje drugie miejsce. Czasownik finitny to forma czasownika, która niesie informacje gramatyczne, takie jak osoba, liczba, czas lub tryb. Drugie miejsce oznacza drugi element zdania, a niekoniecznie drugie słowo. Jeden element zdania może składać się z kilku słów.</p>",
+        "<div class='box rule'><strong>Główna zasada:</strong> W niemieckim zdaniu głównym czasownik finitny stoi na drugim miejscu. Na pierwszym miejscu może stać podmiot, okolicznik czasu, miejsca lub inny element zdania.</div>",
+        "<h3>Rozpoznawanie czasownika finitnego</h3><p>Najpierw znajdź czasownik, który zmienia formę w zależności od podmiotu lub czasu. W zdaniu <em>Ich arbeite heute im Büro.</em> czasownik <strong>arbeite</strong> jest finitny, ponieważ zgadza się z <em>ich</em>. W zdaniu <em>Wir haben gestern lange gearbeitet.</em> finitny jest <strong>haben</strong>, a <em>gearbeitet</em> to imiesłów czasu przeszłego. W zdaniu <em>Sie muss morgen früh aufstehen.</em> finitny jest <strong>muss</strong>, a <em>aufstehen</em> to bezokolicznik.</p><p>Niemiecki często umieszcza pozostałe części czasownika na końcu zdania głównego. Powstaje w ten sposób rama zdaniowa: czasownik finitny stoi na drugim miejscu, a bezokolicznik, imiesłów lub oddzielny przedrostek pojawia się dalej.</p>",
+        "<table><thead><tr><th>Zdanie</th><th>Czasownik finitny</th><th>Pozostała część czasownika</th></tr></thead><tbody><tr><td class='de'>Ich <strong>habe</strong> die E-Mail geschrieben.</td><td class='de'>habe</td><td class='de'>geschrieben</td></tr><tr><td class='de'>Er <strong>wird</strong> morgen anrufen.</td><td class='de'>wird</td><td class='de'>anrufen</td></tr><tr><td class='de'>Sie <strong>steht</strong> um sechs Uhr auf.</td><td class='de'>steht</td><td class='de'>auf</td></tr><tr><td class='de'>Wir <strong>können</strong> heute länger bleiben.</td><td class='de'>können</td><td class='de'>bleiben</td></tr></tbody></table>",
+        "<h3>Pierwsze miejsce może się zmieniać</h3><p>Podmiot nie musi stać na początku. Zdanie można zacząć od okolicznika czasu, miejsca lub innego elementu. Czasownik finitny nadal stoi na drugim miejscu, a podmiot zwykle następuje po nim, gdy pierwsze miejsce zajmuje inny element.</p><ul><li><em><strong>Ich</strong> arbeite heute von zu Hause.</em></li><li><em><strong>Heute</strong> arbeite ich von zu Hause.</em></li><li><em><strong>Von zu Hause</strong> arbeite ich heute.</em></li><li><em><strong>Nach dem Meeting</strong> schreibe ich den Bericht.</em></li></ul><p>Licz elementy zdania, a nie pojedyncze słowa. W zdaniu <em>Nach dem langen Meeting schreibe ich den Bericht</em> cała fraza <em>Nach dem langen Meeting</em> zajmuje pierwsze miejsce. Czasownik finitny <strong>schreibe</strong> stoi więc na drugim miejscu, chociaż przed nim jest kilka słów.</p>",
+        "<h3>Pytania, przeczenie i czasowniki rozdzielnie złożone</h3><p>W pytaniu rozstrzygnięcia (tak/nie) czasownik finitny zwykle stoi na pierwszym miejscu: <em><strong>Hast</strong> du heute Zeit?</em> To nie jest zwykły szyk V2 zdania oznajmującego. Pytanie zaczynające się od zaimka pytajnego zwykle zachowuje czasownik finitny na drugim miejscu: <em>Wann <strong>beginnt</strong> die Besprechung?</em></p><p>Przeczenie zwykle nie zmienia zasady V2: <em>Heute <strong>arbeite</strong> ich nicht im Büro.</em> W czasowniku rozdzielnie złożonym część finitna zostaje na drugim miejscu, a przedrostek przechodzi na koniec: <em>Der Zug <strong>kommt</strong> um acht Uhr <strong>an</strong>.</em></p>",
+        "<table><thead><tr><th>Wzorzec</th><th>Przykład</th></tr></thead><tbody><tr><td>Podmiot na początku</td><td class='de'>Der Zug <strong>kommt</strong> heute pünktlich an.</td></tr><tr><td>Czas na początku</td><td class='de'>Heute <strong>kommt</strong> der Zug pünktlich an.</td></tr><tr><td>Zaimek pytajny na początku</td><td class='de'>Wann <strong>kommt</strong> der Zug an?</td></tr><tr><td>Pytanie rozstrzygnięcia</td><td class='de'><strong>Kommt</strong> der Zug heute pünktlich an?</td></tr></tbody></table>",
+        "<div class='box warn'><strong>Typowy błąd: mylenie pierwszego słowa z pierwszym miejscem</strong><p>✗ Heute ich <strong>arbeite</strong> im Büro.</p><p>✓ Heute <strong>arbeite</strong> ich im Büro.</p><p>Okolicznik czasu zajmuje pierwsze miejsce, więc zaraz po nim musi stać czasownik finitny. Nie wstawiaj podmiotu między pierwszy element a czasownik finitny.</p></div>",
+        "<div class='box tip'><strong>Pomoc w zapamiętaniu: znajdź, policz, umieść</strong><p>Najpierw wskaż czasownik finitny. Potem wskaż cały pierwszy element zdania. Następnie ustaw czasownik finitny zaraz po tym elemencie. Jeśli zdanie ma dwie lub więcej części czasownika, pamiętaj, że część finitna zwykle stoi na drugim miejscu, a pozostała część często trafia na koniec.</p></div>",
+        "<h3>Szybki przegląd</h3><div class='tiles'><div class='tile'><strong>Podmiot na początku</strong><p><em>Ich <strong>lese</strong> die Nachrichten.</em></p></div><div class='tile'><strong>Czas na początku</strong><p><em>Heute <strong>lese</strong> ich die Nachrichten.</em></p></div><div class='tile'><strong>Rama czasownikowa</strong><p><em>Ich <strong>habe</strong> die Nachrichten <strong>gelesen</strong>.</em></p></div><div class='tile'><strong>Zaimek pytajny</strong><p><em>Wann <strong>liest</strong> du die Nachrichten?</em></p></div></div>"
+      ]
+    }
   },
   "examples": [
-   {
-    "de": "Ich **arbeite** heute im Büro.",
-    "en": "I am working in the office today.",
-    "pl": "Dziś pracuję w biurze."
-   },
-   {
-    "de": "Heute **arbeite** ich im Büro.",
-    "en": "Today I am working in the office.",
-    "pl": "Dzisiaj pracuję w biurze."
-   },
-   {
-    "de": "Morgen **beginnt** die Konferenz um neun Uhr.",
-    "en": "Tomorrow the conference starts at nine.",
-    "pl": "Jutro konferencja zaczyna się o dziewiątej."
-   },
-   {
-    "de": "Am Nachmittag **besprechen** wir die Ergebnisse.",
-    "en": "In the afternoon, we discuss the results.",
-    "pl": "Po południu omawiamy wyniki."
-   },
-   {
-    "de": "Nach dem Mittagessen **ruft** meine Kollegin den Kunden **an**.",
-    "en": "After lunch, my colleague calls the client.",
-    "pl": "Po obiedzie mój kolega dzwoni do klienta."
-   },
-   {
-    "de": "Im neuen Büro **gibt** es mehr Besprechungsräume.",
-    "en": "There are more meeting rooms in the new office.",
-    "pl": "W nowym biurze jest więcej sal konferencyjnych."
-   },
-   {
-    "de": "Der Geschäftsführer **hat** den Bericht bereits gelesen.",
-    "en": "The managing director has already read the report.",
-    "pl": "Dyrektor zarządzający przeczytał już raport."
-   },
-   {
-    "de": "Gestern **hat** der Geschäftsführer den Bericht gelesen.",
-    "en": "Yesterday, the managing director read the report.",
-    "pl": "Wczoraj dyrektor zarządzający przeczytał raport."
-   },
-   {
-    "de": "Wegen einer technischen Störung **beginnt** die Präsentation später.",
-    "en": "Because of a technical problem, the presentation starts later.",
-    "pl": "Z powodu problemu technicznego prezentacja zaczyna się później."
-   },
-   {
-    "de": "In diesem Quartal **müssen** wir unsere Kosten genauer kontrollieren.",
-    "en": "This quarter, we have to monitor our costs more closely.",
-    "pl": "W tym kwartale musimy dokładniej monitorować nasze koszty."
-   },
-   {
-    "de": "Die neue Kollegin **kann** komplexe Daten schnell analysieren.",
-    "en": "The new colleague can analyse complex data quickly.",
-    "pl": "Nowy kolega potrafi szybko analizować złożone dane."
-   },
-   {
-    "de": "Seit letzter Woche **arbeitet** das Team an einer neuen Lösung.",
-    "en": "The team has been working on a new solution since last week.",
-    "pl": "Zespół pracuje nad nowym rozwiązaniem od zeszłego tygodnia."
-   },
-   {
-    "de": "Im vergangenen Jahr **wurden** mehrere Prozesse automatisiert.",
-    "en": "Several processes were automated last year.",
-    "pl": "W zeszłym roku zautomatyzowano kilka procesów."
-   },
-   {
-    "de": "Nach einer kurzen Prüfung **wird** die Abteilung den Vertrag unterschreiben.",
-    "en": "After a brief review, the department will sign the contract.",
-    "pl": "Po krótkiej weryfikacji dział podpisze umowę."
-   },
-   {
-    "de": "Trotz der Verzögerung **haben** alle Beteiligten den Termin eingehalten.",
-    "en": "Despite the delay, all the parties met the deadline.",
-    "pl": "Mimo opóźnienia wszystkie strony dotrzymały terminu."
-   },
-   {
-    "de": "Aufgrund der höheren Nachfrage **steigt** der Umsatz in diesem Monat.",
-    "en": "Because of higher demand, revenue is increasing this month.",
-    "pl": "Z powodu większego popytu przychody w tym miesiącu rosną."
-   },
-   {
-    "de": "Laut dem aktuellen Bericht **wächst** die deutsche Wirtschaft stärker als erwartet.",
-    "en": "According to the latest report, the German economy is growing more strongly than expected.",
-    "pl": "Według najnowszego raportu niemiecka gospodarka rośnie silniej, niż oczekiwano."
-   },
-   {
-    "de": "In mehreren Städten **wurden** neue Sicherheitsmaßnahmen eingeführt.",
-    "en": "New security measures were introduced in several cities.",
-    "pl": "W kilku miastach wprowadzono nowe środki bezpieczeństwa."
-   },
-   {
-    "de": "Nach intensiven Verhandlungen **einigten** sich beide Seiten auf einen Kompromiss.",
-    "en": "After intensive negotiations, both sides agreed on a compromise.",
-    "pl": "Po intensywnych negocjacjach obie strony zgodziły się na kompromis."
-   },
-   {
-    "de": "Bis zum Ende des Jahres **soll** die Behörde ihre Untersuchung abschließen.",
-    "en": "The authority is expected to complete its investigation by the end of the year.",
-    "pl": "Oczekuje się, że urząd zakończy dochodzenie do końca roku."
-   }
+    {
+      "de": "Ich **arbeite** heute im Büro.",
+      "en": "I am working in the office today.",
+      "pl": "Dziś pracuję w biurze.",
+      "level": "A1"
+    },
+    {
+      "de": "Heute **arbeite** ich im Büro.",
+      "en": "Today I am working in the office.",
+      "pl": "Dzisiaj pracuję w biurze.",
+      "level": "A1"
+    },
+    {
+      "de": "Morgen **beginnt** die Konferenz um neun Uhr.",
+      "en": "Tomorrow the conference starts at nine.",
+      "pl": "Jutro konferencja zaczyna się o dziewiątej.",
+      "level": "A2"
+    },
+    {
+      "de": "Am Nachmittag **besprechen** wir die Ergebnisse.",
+      "en": "In the afternoon, we discuss the results.",
+      "pl": "Po południu omawiamy wyniki.",
+      "level": "A2"
+    },
+    {
+      "de": "Nach dem Mittagessen **ruft** meine Kollegin den Kunden **an**.",
+      "en": "After lunch, my colleague calls the client.",
+      "pl": "Po obiedzie mój kolega dzwoni do klienta.",
+      "level": "A2"
+    },
+    {
+      "de": "Im neuen Büro **gibt** es mehr Besprechungsräume.",
+      "en": "There are more meeting rooms in the new office.",
+      "pl": "W nowym biurze jest więcej sal konferencyjnych.",
+      "level": "B1"
+    },
+    {
+      "de": "Der Geschäftsführer **hat** den Bericht bereits **gelesen**.",
+      "en": "The managing director has already read the report.",
+      "pl": "Dyrektor zarządzający przeczytał już raport.",
+      "level": "B1"
+    },
+    {
+      "de": "Gestern **hat** der Geschäftsführer den Bericht **gelesen**.",
+      "en": "Yesterday, the managing director read the report.",
+      "pl": "Wczoraj dyrektor zarządzający przeczytał raport.",
+      "level": "B1"
+    },
+    {
+      "de": "Wegen einer technischen Störung **beginnt** die Präsentation später.",
+      "en": "Because of a technical problem, the presentation starts later.",
+      "pl": "Z powodu problemu technicznego prezentacja zaczyna się później.",
+      "level": "B1"
+    },
+    {
+      "de": "In diesem Quartal **müssen** wir unsere Kosten genauer **kontrollieren**.",
+      "en": "This quarter, we have to monitor our costs more closely.",
+      "pl": "W tym kwartale musimy dokładniej monitorować nasze koszty.",
+      "level": "B1"
+    },
+    {
+      "de": "Die neue Kollegin **kann** komplexe Daten schnell **analysieren**.",
+      "en": "The new colleague can analyse complex data quickly.",
+      "pl": "Nowy kolega potrafi szybko analizować złożone dane.",
+      "level": "B2"
+    },
+    {
+      "de": "Seit letzter Woche **arbeitet** das Team an einer neuen Lösung.",
+      "en": "The team has been working on a new solution since last week.",
+      "pl": "Zespół pracuje nad nowym rozwiązaniem od zeszłego tygodnia.",
+      "level": "B2"
+    },
+    {
+      "de": "Im vergangenen Jahr **wurden** mehrere Prozesse **automatisiert**.",
+      "en": "Several processes were automated last year.",
+      "pl": "W zeszłym roku zautomatyzowano kilka procesów.",
+      "level": "B2"
+    },
+    {
+      "de": "Nach einer kurzen Prüfung **wird** die Abteilung den Vertrag **unterschreiben**.",
+      "en": "After a brief review, the department will sign the contract.",
+      "pl": "Po krótkiej weryfikacji dział podpisze umowę.",
+      "level": "B2"
+    },
+    {
+      "de": "Trotz der Verzögerung **haben** alle Beteiligten den Termin **eingehalten**.",
+      "en": "Despite the delay, all the parties met the deadline.",
+      "pl": "Mimo opóźnienia wszystkie strony dotrzymały terminu.",
+      "level": "B2"
+    },
+    {
+      "de": "Aufgrund der höheren Nachfrage **steigt** der Umsatz in diesem Monat.",
+      "en": "Because of higher demand, revenue is increasing this month.",
+      "pl": "Z powodu większego popytu przychody w tym miesiącu rosną.",
+      "level": "C1"
+    },
+    {
+      "de": "Laut dem aktuellen Bericht **wächst** die deutsche Wirtschaft stärker als erwartet.",
+      "en": "According to the latest report, the German economy is growing more strongly than expected.",
+      "pl": "Według najnowszego raportu niemiecka gospodarka rośnie silniej, niż oczekiwano.",
+      "level": "C1"
+    },
+    {
+      "de": "In mehreren Städten **wurden** neue Sicherheitsmaßnahmen **eingeführt**.",
+      "en": "New security measures were introduced in several cities.",
+      "pl": "W kilku miastach wprowadzono nowe środki bezpieczeństwa.",
+      "level": "C1"
+    },
+    {
+      "de": "Nach intensiven Verhandlungen **einigten** sich beide Seiten auf einen Kompromiss.",
+      "en": "After intensive negotiations, both sides agreed on a compromise.",
+      "pl": "Po intensywnych negocjacjach obie strony zgodziły się na kompromis.",
+      "level": "C2"
+    },
+    {
+      "de": "Bis zum Ende des Jahres **soll** die Behörde ihre Untersuchung **abschließen**.",
+      "en": "The authority is expected to complete its investigation by the end of the year.",
+      "pl": "Oczekuje się, że urząd zakończy dochodzenie do końca roku.",
+      "level": "C2"
+    }
   ],
   "exercises": [
-   {
-    "en": "Do you have time today?",
-    "pl": "Czy masz dziś czas?",
-    "de": "Hast du heute Zeit?"
-   },
-   {
-    "en": "When does the meeting start?",
-    "pl": "Kiedy zaczyna się spotkanie?",
-    "de": "Wann beginnt die Besprechung?"
-   },
-   {
-    "en": "This week I learn German.",
-    "pl": "W tym tygodniu uczę się niemieckiego.",
-    "de": "Diese Woche lerne ich Deutsch."
-   },
-   {
-    "en": "After lunch, we work.",
-    "pl": "Po obiedzie pracujemy.",
-    "de": "Nach dem Mittagessen arbeiten wir."
-   },
-   {
-    "en": "The shop opens at nine.",
-    "pl": "Sklep otwiera się o dziewiątej.",
-    "de": "Das Geschäft öffnet um neun Uhr."
-   },
-   {
-    "en": "I'm not working in the office today.",
-    "pl": "Dziś nie pracuję w biurze.",
-    "de": "Heute arbeite ich nicht im Büro."
-   },
-   {
-    "en": "My team meets on Monday.",
-    "pl": "Mój zespół spotyka się w poniedziałek.",
-    "de": "Mein Team trifft sich am Montag."
-   },
-   {
-    "en": "After work, I exercise.",
-    "pl": "Po pracy ćwiczę.",
-    "de": "Nach der Arbeit mache ich Sport."
-   },
-   {
-    "en": "We wrote the email yesterday.",
-    "pl": "Wczoraj napisaliśmy e-mail.",
-    "de": "Wir haben gestern die E-Mail geschrieben."
-   },
-   {
-    "en": "The train arrives at eight.",
-    "pl": "Pociąg przyjeżdża o ósmej.",
-    "de": "Der Zug kommt um acht Uhr an."
-   },
-   {
-    "en": "Unfortunately, we can't come on Friday.",
-    "pl": "W piątek niestety nie możemy przyjść.",
-    "de": "Am Freitag können wir leider nicht kommen."
-   },
-   {
-    "en": "Where is the training taking place next week?",
-    "pl": "Gdzie odbędzie się szkolenie w przyszłym tygodniu?",
-    "de": "Wo findet die Schulung nächste Woche statt?"
-   },
-   {
-    "en": "Why didn't the customer call yesterday?",
-    "pl": "Dlaczego klient nie zadzwonił wczoraj?",
-    "de": "Warum hat der Kunde gestern nicht angerufen?"
-   },
-   {
-    "en": "Can you send me the documents tomorrow?",
-    "pl": "Czy możesz mi jutro wysłać dokumenty?",
-    "de": "Kannst du mir morgen die Unterlagen schicken?"
-   },
-   {
-    "en": "At the end of the month, the department reviews its budget.",
-    "pl": "Na koniec miesiąca dział sprawdza swój budżet.",
-    "de": "Am Monatsende überprüft die Abteilung ihr Budget."
-   },
-   {
-    "en": "The director has already approved the proposal.",
-    "pl": "Dyrektor już zatwierdził propozycję.",
-    "de": "Der Direktor hat den Vorschlag bereits genehmigt."
-   },
-   {
-    "en": "On Fridays, my manager often works from home.",
-    "pl": "W piątki mój przełożony często pracuje z domu.",
-    "de": "Freitags arbeitet mein Vorgesetzter oft von zu Hause."
-   },
-   {
-    "en": "Before the deadline, we check every figure carefully.",
-    "pl": "Przed terminem sprawdzamy dokładnie każdą liczbę.",
-    "de": "Vor dem Abgabetermin prüfen wir jede Zahl sorgfältig."
-   },
-   {
-    "en": "After the meeting, we prepare the presentation.",
-    "pl": "Po spotkaniu przygotowujemy prezentację.",
-    "de": "Nach der Besprechung bereiten wir die Präsentation vor."
-   },
-   {
-    "en": "In the conference room, the director explains the new strategy.",
-    "pl": "W sali konferencyjnej dyrektor wyjaśnia nową strategię.",
-    "de": "Im Konferenzraum erklärt der Direktor die neue Strategie."
-   },
-   {
-    "en": "Next week, we will present the revised forecast.",
-    "pl": "W przyszłym tygodniu przedstawimy poprawioną prognozę.",
-    "de": "Nächste Woche werden wir die überarbeitete Prognose vorstellen."
-   },
-   {
-    "en": "This morning the train unfortunately arrived late.",
-    "pl": "Dziś rano pociąg niestety przyjechał z opóźnieniem.",
-    "de": "Heute Morgen ist der Zug leider zu spät angekommen."
-   },
-   {
-    "en": "During the afternoon, our team works on the new system.",
-    "pl": "Po południu nasz zespół pracuje nad nowym systemem.",
-    "de": "Am Nachmittag arbeitet unser Team an dem neuen System."
-   },
-   {
-    "en": "At the moment, the team must resolve several technical problems.",
-    "pl": "W tej chwili zespół musi rozwiązać kilka problemów technicznych.",
-    "de": "Im Moment muss das Team mehrere technische Probleme lösen."
-   },
-   {
-    "en": "The new employee starts work next Monday.",
-    "pl": "Nowy pracownik zaczyna pracę w przyszły poniedziałek.",
-    "de": "Der neue Mitarbeiter beginnt nächsten Montag mit der Arbeit."
-   },
-   {
-    "en": "Because of the delay, the client receives the documents tomorrow.",
-    "pl": "Z powodu opóźnienia klient otrzyma dokumenty jutro.",
-    "de": "Wegen der Verzögerung erhält der Kunde die Unterlagen morgen."
-   },
-   {
-    "en": "Yesterday, I sent the final version to the client.",
-    "pl": "Wczoraj wysłałem klientowi ostateczną wersję.",
-    "de": "Gestern habe ich dem Kunden die endgültige Version geschickt."
-   },
-   {
-    "en": "In the next meeting, we discuss the outstanding issues.",
-    "pl": "Na następnym spotkaniu omawiamy otwarte kwestie.",
-    "de": "In der nächsten Besprechung diskutieren wir die offenen Fragen."
-   },
-   {
-    "en": "We waited a long time, but the customer didn't reply.",
-    "pl": "Długo czekaliśmy, ale klient nie odpowiedział.",
-    "de": "Wir haben lange gewartet, aber der Kunde hat nicht geantwortet."
-   },
-   {
-    "en": "The client called, and I informed my manager immediately.",
-    "pl": "Klient zadzwonił, a ja od razu poinformowałem mojego przełożonego.",
-    "de": "Der Kunde rief an, und ich informierte sofort meinen Vorgesetzten."
-   },
-   {
-    "en": "Why didn't the company correct the forecast earlier?",
-    "pl": "Dlaczego firma nie skorygowała prognozy wcześniej?",
-    "de": "Warum hat das Unternehmen die Prognose nicht früher korrigiert?"
-   },
-   {
-    "en": "At the beginning of each quarter, finance prepares a forecast.",
-    "pl": "Na początku każdego kwartału dział finansów sporządza prognozę.",
-    "de": "Zu Beginn jedes Quartals erstellt die Finanzabteilung eine Prognose."
-   },
-   {
-    "en": "By Friday, the department should have completed the reconciliation.",
-    "pl": "Do piątku dział powinien był zakończyć uzgodnienie.",
-    "de": "Bis Freitag sollte die Abteilung die Abstimmung abgeschlossen haben."
-   },
-   {
-    "en": "The board will reconsider the proposal after the risk assessment.",
-    "pl": "Zarząd ponownie rozważy propozycję po ocenie ryzyka.",
-    "de": "Der Vorstand wird den Vorschlag nach der Risikobewertung überdenken."
-   },
-   {
-    "en": "Despite rising costs, the business has maintained its profit margin.",
-    "pl": "Mimo rosnących kosztów firma utrzymała swoją marżę zysku.",
-    "de": "Trotz steigender Kosten hat das Unternehmen seine Gewinnmarge gehalten."
-   },
-   {
-    "en": "The report shows increased revenue and stable administrative costs.",
-    "pl": "Raport pokazuje wzrost przychodów i stabilne koszty administracyjne.",
-    "de": "Der Bericht zeigt einen gestiegenen Umsatz und stabile Verwaltungskosten."
-   },
-   {
-    "en": "During the audit, the reviewers identified several material errors.",
-    "pl": "Podczas audytu biegli rewidenci zidentyfikowali kilka istotnych błędów.",
-    "de": "Während der Prüfung identifizierten die Prüfer mehrere wesentliche Fehler."
-   },
-   {
-    "en": "After a short break, the participants continue the discussion.",
-    "pl": "Po krótkiej przerwie uczestnicy kontynuują dyskusję.",
-    "de": "Nach einer kurzen Pause setzen die Teilnehmer die Diskussion fort."
-   },
-   {
-    "en": "This year, the company invests more money in technology.",
-    "pl": "W tym roku firma inwestuje więcej pieniędzy w technologię.",
-    "de": "In diesem Jahr investiert das Unternehmen mehr Geld in Technologie."
-   },
-   {
-    "en": "The company reported stronger sales, but its operating margin declined.",
-    "pl": "Firma zgłosiła wyższą sprzedaż, ale jej marża operacyjna spadła.",
-    "de": "Das Unternehmen meldete höhere Umsätze, aber seine operative Marge sank."
-   },
-   {
-    "en": "At the beginning of the year, the board approved a new investment plan.",
-    "pl": "Na początku roku zarząd zatwierdził nowy plan inwestycyjny.",
-    "de": "Zu Beginn des Jahres genehmigte der Vorstand einen neuen Investitionsplan."
-   },
-   {
-    "en": "Following the internal review, the finance team corrected the reported figures.",
-    "pl": "Po wewnętrznej kontroli zespół finansowy skorygował zgłoszone liczby.",
-    "de": "Nach der internen Prüfung korrigierte das Finanzteam die gemeldeten Zahlen."
-   },
-   {
-    "en": "The forecast has improved, but the management team remains cautious.",
-    "pl": "Prognoza się poprawiła, ale zespół zarządzający pozostaje ostrożny.",
-    "de": "Die Prognose hat sich verbessert, aber das Managementteam bleibt vorsichtig."
-   },
-   {
-    "en": "In the next quarter, the company will probably reduce its operating costs.",
-    "pl": "W następnym kwartale firma prawdopodobnie obniży swoje koszty operacyjne.",
-    "de": "Im nächsten Quartal wird das Unternehmen wahrscheinlich seine Betriebskosten senken."
-   },
-   {
-    "en": "How high were the costs, and who approved the budget?",
-    "pl": "Jak wysokie były koszty i kto zatwierdził budżet?",
-    "de": "Wie hoch waren die Kosten, und wer hat das Budget genehmigt?"
-   },
-   {
-    "en": "The deadline was tight, but the team delivered the report on time.",
-    "pl": "Termin był krótki, ale zespół dostarczył raport na czas.",
-    "de": "Die Frist war knapp, aber das Team lieferte den Bericht pünktlich."
-   },
-   {
-    "en": "Despite the tight schedule, the team completes the analysis on time.",
-    "pl": "Mimo napiętego harmonogramu zespół kończy analizę na czas.",
-    "de": "Trotz des engen Zeitplans schließt das Team die Analyse pünktlich ab."
-   },
-   {
-    "en": "In recent weeks, the company has received several new orders.",
-    "pl": "W ostatnich tygodniach firma otrzymała kilka nowych zamówień.",
-    "de": "In den vergangenen Wochen hat das Unternehmen mehrere neue Aufträge erhalten."
-   },
-   {
-    "en": "After reviewing the data, the analyst presents the main findings.",
-    "pl": "Po przeanalizowaniu danych analityk przedstawia najważniejsze wyniki.",
-    "de": "Nach der Prüfung der Daten präsentiert der Analyst die wichtigsten Ergebnisse."
-   },
-   {
-    "en": "Despite the unexpected increase in demand, the supplier delivered the goods as agreed.",
-    "pl": "Mimo nieoczekiwanego wzrostu popytu dostawca dostarczył towar zgodnie z ustaleniami.",
-    "de": "Trotz des unerwarteten Nachfrageanstiegs lieferte der Lieferant die Waren wie vereinbart."
-   },
-   {
-    "en": "The negotiations ended on Friday, and both parties signed the agreement.",
-    "pl": "Negocjacje zakończyły się w piątek, a obie strony podpisały porozumienie.",
-    "de": "Die Verhandlungen endeten am Freitag, und beide Parteien unterzeichneten die Vereinbarung."
-   },
-   {
-    "en": "The company has reduced its emissions while increasing production.",
-    "pl": "Firma zmniejszyła swoje emisje, jednocześnie zwiększając produkcję.",
-    "de": "Das Unternehmen hat seine Emissionen reduziert und gleichzeitig die Produktion gesteigert."
-   },
-   {
-    "en": "Following reports of irregularities, the agency launched a formal investigation.",
-    "pl": "Po doniesieniach o nieprawidłowościach agencja wszczęła formalne dochodzenie.",
-    "de": "Nach Berichten über Unregelmäßigkeiten leitete die Behörde eine formelle Untersuchung ein."
-   },
-   {
-    "en": "The negotiations continued, and the government announced additional support measures.",
-    "pl": "Negocjacje trwały nadal, a rząd ogłosił dodatkowe środki wsparcia.",
-    "de": "Die Verhandlungen liefen weiter, und die Regierung kündigte zusätzliche Unterstützungsmaßnahmen an."
-   },
-   {
-    "en": "Despite the revised guidance, analysts maintained their previous growth estimates.",
-    "pl": "Mimo zmienionych wytycznych analitycy utrzymali swoje dotychczasowe szacunki wzrostu.",
-    "de": "Trotz der überarbeiteten Prognose behielten die Analysten ihre bisherigen Wachstumsschätzungen bei."
-   },
-   {
-    "en": "Since the new process was introduced, the number of errors has decreased.",
-    "pl": "Od wprowadzenia nowego procesu liczba błędów spadła.",
-    "de": "Seit der Einführung des neuen Prozesses ist die Zahl der Fehler gesunken."
-   },
-   {
-    "en": "Neither the costs nor the schedule changed this quarter.",
-    "pl": "W tym kwartale nie zmieniły się ani koszty, ani harmonogram.",
-    "de": "Weder die Kosten noch der Zeitplan haben sich in diesem Quartal verändert."
-   },
-   {
-    "en": "The data is incomplete and we cannot finish the analysis today.",
-    "pl": "Dane są niekompletne i nie możemy dziś zakończyć analizy.",
-    "de": "Die Daten sind unvollständig, und wir können die Analyse heute nicht abschließen."
-   },
-   {
-    "en": "In the coming years, the company could expand into several new markets.",
-    "pl": "W nadchodzących latach firma mogłaby wejść na kilka nowych rynków.",
-    "de": "In den kommenden Jahren könnte das Unternehmen in mehrere neue Märkte expandieren."
-   },
-   {
-    "en": "The system was unavailable and the employees recorded the transactions manually.",
-    "pl": "System był niedostępny, a pracownicy rejestrowali transakcje ręcznie.",
-    "de": "Das System war nicht verfügbar, und die Mitarbeiter erfassten die Transaktionen manuell."
-   },
-   {
-    "en": "The contract has been signed, and the implementation team is starting its work.",
-    "pl": "Umowa została podpisana, a zespół wdrożeniowy rozpoczyna pracę.",
-    "de": "Der Vertrag ist unterzeichnet worden, und das Implementierungsteam beginnt mit seiner Arbeit."
-   },
-   {
-    "en": "The investigation remains ongoing, and officials have not released further details.",
-    "pl": "Dochodzenie trwa nadal, a urzędnicy nie ujawnili dalszych szczegółów.",
-    "de": "Die Ermittlungen dauern an, und die Behörden haben keine weiteren Einzelheiten veröffentlicht."
-   },
-   {
-    "en": "The authorities temporarily suspended the restrictions and assessed the potential consequences.",
-    "pl": "Władze tymczasowo zawiesiły ograniczenia i oceniły możliwe skutki.",
-    "de": "Die Behörden setzten die Beschränkungen vorübergehend aus und bewerteten die möglichen Folgen."
-   },
-   {
-    "en": "The first results were encouraging, but the researchers requested a larger sample.",
-    "pl": "Pierwsze wyniki były obiecujące, ale badacze zażądali większej próby.",
-    "de": "Die ersten Ergebnisse waren vielversprechend, aber die Forscher forderten eine größere Stichprobe."
-   },
-   {
-    "en": "The project can only be continued after the clarification of the outstanding legal issues.",
-    "pl": "Projekt może być kontynuowany dopiero po wyjaśnieniu otwartych kwestii prawnych.",
-    "de": "Das Projekt kann nur nach der Klärung der offenen rechtlichen Fragen fortgesetzt werden."
-   },
-   {
-    "en": "Could the team complete the analysis by Friday if the data arrive on time?",
-    "pl": "Czy zespół mógłby zakończyć analizę do piątku, jeśli dane dotrą na czas?",
-    "de": "Könnte das Team die Analyse bis Freitag abschließen, wenn die Daten rechtzeitig eintreffen?"
-   },
-   {
-    "en": "The client has approved the changes, and tomorrow we can publish the final report.",
-    "pl": "Klient zatwierdził zmiany, a jutro możemy opublikować raport końcowy.",
-    "de": "Der Kunde hat die Änderungen genehmigt, und morgen können wir den Abschlussbericht veröffentlichen."
-   },
-   {
-    "en": "The regulator requested further information and has not yet approved the transaction.",
-    "pl": "Organ nadzoru zażądał dalszych informacji i nie zatwierdził jeszcze transakcji.",
-    "de": "Die Aufsichtsbehörde forderte weitere Informationen an und hat die Transaktion noch nicht genehmigt."
-   },
-   {
-    "en": "The external auditors completed their work, and the company published the annual accounts.",
-    "pl": "Zewnętrzni audytorzy zakończyli pracę, a firma opublikowała sprawozdanie roczne.",
-    "de": "Die externen Prüfer schlossen ihre Arbeit ab, und das Unternehmen veröffentlichte den Jahresabschluss."
-   },
-   {
-    "en": "The meeting began at nine, and the participants had already received all the documents.",
-    "pl": "Spotkanie zaczęło się o dziewiątej, a uczestnicy otrzymali już wszystkie dokumenty.",
-    "de": "Die Besprechung begann um neun Uhr, und die Teilnehmer hatten bereits alle Unterlagen erhalten."
-   },
-   {
-    "en": "The supervisory board has announced that it will fundamentally revise the remuneration rules next year.",
-    "pl": "Rada nadzorcza zapowiedziała, że w przyszłym roku gruntownie zmieni zasady wynagradzania.",
-    "de": "Der Aufsichtsrat hat angekündigt, die Vergütungsregeln im nächsten Jahr grundlegend zu überarbeiten."
-   },
-   {
-    "en": "The programme will begin next year and include civilian and military components.",
-    "pl": "Program rozpocznie się w przyszłym roku i obejmie komponenty cywilne i wojskowe.",
-    "de": "Das Programm wird im kommenden Jahr beginnen und zivile sowie militärische Komponenten umfassen."
-   },
-   {
-    "en": "The authorities have launched an inquiry into the cyberattack on supermarket refrigeration systems.",
-    "pl": "Władze wszczęły dochodzenie w sprawie cyberataku na systemy chłodnicze supermarketów.",
-    "de": "Die Behörden haben Ermittlungen zu dem Cyberangriff auf die Kühlsysteme von Supermärkten aufgenommen."
-   },
-   {
-    "en": "The organisation announced a security mission focused on training local forces.",
-    "pl": "Organizacja ogłosiła misję bezpieczeństwa skoncentrowaną na szkoleniu sił lokalnych.",
-    "de": "Die Organisation kündigte eine Sicherheitsmission mit Schwerpunkt auf der Ausbildung lokaler Kräfte an."
-   },
-   {
-    "en": "The management submitted the evidence demanded by the audit committee only after repeated requests.",
-    "pl": "Dowody, których zażądał komitet audytu, zarząd przedstawił dopiero po wielokrotnych wezwaniach.",
-    "de": "Die vom Prüfungsausschuss geforderten Nachweise hat die Geschäftsführung erst nach mehrfacher Aufforderung vorgelegt."
-   },
-   {
-    "en": "Following the announcement, opposition lawmakers criticised the decision and questioned its legal basis.",
-    "pl": "Po ogłoszeniu posłowie opozycji skrytykowali decyzję i zakwestionowali jej podstawę prawną.",
-    "de": "Nach der Ankündigung kritisierten Oppositionsabgeordnete die Entscheidung und stellten ihre rechtliche Grundlage infrage."
-   },
-   {
-    "en": "Especially in times of crisis, it is crucial that the leadership communicates clearly and transparently.",
-    "pl": "Zwłaszcza w czasach kryzysu kluczowe jest, aby kierownictwo komunikowało się jasno i przejrzyście.",
-    "de": "Gerade in Krisenzeiten kommt es darauf an, dass die Führung klar und transparent kommuniziert."
-   },
-   {
-    "en": "The revised forecast indicates stronger growth, but significant risks remain.",
-    "pl": "Zrewidowana prognoza wskazuje na silniejszy wzrost, ale istotne ryzyka pozostają.",
-    "de": "Die überarbeitete Prognose deutet auf ein stärkeres Wachstum hin, aber erhebliche Risiken bleiben bestehen."
-   },
-   {
-    "en": "Due to unexpectedly high inflation, the central bank will probably have to raise the key interest rate faster.",
-    "pl": "Z powodu niespodziewanie wysokiej inflacji bank centralny prawdopodobnie będzie musiał szybciej podnieść stopę procentową.",
-    "de": "Aufgrund der unerwartet hohen Inflation wird die Zentralbank den Leitzins voraussichtlich schneller anheben müssen."
-   },
-   {
-    "en": "According to the company, the affected systems were taken offline that same evening.",
-    "pl": "Według firmy dotknięte incydentem systemy zostały odłączone od sieci jeszcze tego samego wieczoru.",
-    "de": "Nach Angaben des Unternehmens wurden die betroffenen Systeme noch am selben Abend vom Netz genommen."
-   },
-   {
-    "en": "In this way, it is possible to prevent minor errors from developing unnoticed into bigger problems.",
-    "pl": "W ten sposób można zapobiec temu, by drobne błędy niezauważenie przerodziły się w większe problemy.",
-    "de": "Auf diese Weise lässt sich verhindern, dass sich kleinere Fehler unbemerkt zu größeren Problemen entwickeln."
-   },
-   {
-    "en": "According to the report, the company already quietly revised its forecast downward in the spring.",
-    "pl": "Zgodnie z raportem firma już wiosną po cichu skorygowała swoją prognozę w dół.",
-    "de": "Dem Bericht zufolge hat das Unternehmen seine Prognose bereits im Frühjahr stillschweigend nach unten korrigiert."
-   },
-   {
-    "en": "Only by consistently implementing the recommendations was the company able to regain investors' confidence.",
-    "pl": "Dopiero dzięki konsekwentnemu wdrożeniu zaleceń firma mogła odzyskać zaufanie inwestorów.",
-    "de": "Erst durch die konsequente Umsetzung der Empfehlungen konnte das Unternehmen das Vertrauen der Anleger zurückgewinnen."
-   },
-   {
-    "en": "The regulator published its decision on Monday, and the company issued a public statement.",
-    "pl": "Organ nadzoru opublikował w poniedziałek swoją decyzję, a firma wydała oświadczenie publiczne.",
-    "de": "Die Aufsichtsbehörde veröffentlichte am Montag ihre Entscheidung, und das Unternehmen gab eine öffentliche Erklärung ab."
-   },
-   {
-    "en": "As part of the planned restructuring, several sites are to be merged and around a hundred jobs cut.",
-    "pl": "W ramach planowanej restrukturyzacji ma zostać połączonych kilka lokalizacji i zlikwidowanych około stu stanowisk.",
-    "de": "Im Zuge der geplanten Umstrukturierung sollen mehrere Standorte zusammengelegt und etwa hundert Stellen abgebaut werden."
-   },
-   {
-    "en": "The agency has not yet confirmed the full extent of the damage, but several retailers reported losses.",
-    "pl": "Agencja nie potwierdziła jeszcze pełnego zakresu szkód, ale kilku detalistów zgłosiło straty.",
-    "de": "Die Behörde hat das gesamte Ausmaß des Schadens noch nicht bestätigt, aber mehrere Einzelhändler meldeten Verluste."
-   },
-   {
-    "en": "The revised procedure will take effect next month, and all departments will receive the instructions this week.",
-    "pl": "Zmieniona procedura wejdzie w życie w przyszłym miesiącu, a wszystkie działy otrzymają instrukcje w tym tygodniu.",
-    "de": "Das überarbeitete Verfahren tritt nächsten Monat in Kraft, und alle Abteilungen erhalten die Anweisungen diese Woche."
-   },
-   {
-    "en": "Because of the strained budget situation, the city has put all planned investments on hold until further notice.",
-    "pl": "Z powodu napiętej sytuacji budżetowej miasto wstrzymało wszystkie planowane inwestycje do odwołania.",
-    "de": "Wegen der angespannten Haushaltslage hat die Stadt sämtliche geplanten Investitionen bis auf Weiteres auf Eis gelegt."
-   },
-   {
-    "en": "For this reason, we decided to postpone the introduction of the new system by three months.",
-    "pl": "Z tego powodu zdecydowaliśmy się przesunąć wdrożenie nowego systemu o trzy miesiące.",
-    "de": "Aus diesem Grund haben wir uns entschieden, die Einführung des neuen Systems um drei Monate zu verschieben."
-   },
-   {
-    "en": "Although the figures are still preliminary, the company is sticking to its growth forecast for the current year.",
-    "pl": "Chociaż liczby są jeszcze wstępne, firma podtrzymuje swoją prognozę wzrostu na bieżący rok.",
-    "de": "Obwohl die Zahlen noch vorläufig sind, hält das Unternehmen an seiner Wachstumsprognose für das laufende Jahr fest."
-   },
-   {
-    "en": "Had this development been foreseen in time, the considerable consequential damage could at least partly have been avoided.",
-    "pl": "Gdyby tę tendencję przewidziano na czas, znaczących szkód następczych można by przynajmniej częściowo uniknąć.",
-    "de": "Hätte man diese Entwicklung rechtzeitig vorausgesehen, so hätten sich die erheblichen Folgeschäden zumindest teilweise vermeiden lassen."
-   },
-   {
-    "en": "Rarely before had a regulator made it so unmistakably clear that it would, if necessary, impose severe sanctions.",
-    "pl": "Rzadko kiedy organ nadzoru tak jednoznacznie dał do zrozumienia, że w razie potrzeby nałoży dotkliwe sankcje.",
-    "de": "Selten zuvor hatte eine Aufsichtsbehörde so unmissverständlich klargemacht, dass sie notfalls auch empfindliche Sanktionen verhängen würde."
-   },
-   {
-    "en": "How far-reaching the consequences of the decision will actually be can hardly be assessed reliably at present.",
-    "pl": "Jak daleko idące będą w rzeczywistości skutki tej uchwały, trudno obecnie wiarygodnie ocenić.",
-    "de": "Wie weitreichend die Folgen des Beschlusses tatsächlich sein werden, lässt sich zum jetzigen Zeitpunkt kaum verlässlich beurteilen."
-   },
-   {
-    "en": "It was only under massive pressure from shareholders that the management admitted the forecasts had been too optimistic for years.",
-    "pl": "Zarząd przyznał, że prognozy przez lata były zbyt optymistyczne, dopiero pod silną presją akcjonariuszy.",
-    "de": "Dass die Prognosen über Jahre hinweg zu optimistisch ausgefallen waren, räumte die Geschäftsleitung erst nach massivem Druck der Aktionäre ein."
-   },
-   {
-    "en": "The risks disclosed in the notes to the financial statements, to which the auditor had expressly drawn attention, were hardly noticed by the public.",
-    "pl": "Ryzyka ujawnione w informacji dodatkowej do sprawozdania finansowego, na które biegły rewident wyraźnie zwrócił uwagę, były przez opinię publiczną prawie niezauważone.",
-    "de": "Die im Anhang zum Jahresabschluss offengelegten Risiken, auf die der Abschlussprüfer ausdrücklich hingewiesen hatte, wurden von der Öffentlichkeit kaum wahrgenommen."
-   },
-   {
-    "en": "Under no circumstances must the impression arise that the management deliberately left the regulator in the dark about the true extent of the losses.",
-    "pl": "W żadnym wypadku nie wolno dopuścić do wrażenia, że kierownictwo celowo pozostawiło organ nadzoru w niewiedzy co do rzeczywistej skali strat.",
-    "de": "Keinesfalls darf der Eindruck entstehen, die Unternehmensleitung habe die Aufsichtsbehörde vorsätzlich über das tatsächliche Ausmaß der Verluste im Unklaren gelassen."
-   },
-   {
-    "en": "As internal documents show, several executives recognised the warning signs months before the collapse without drawing any consequences from them.",
-    "pl": "Jak wynika z dokumentów wewnętrznych, kilku menedżerów dostrzegło sygnały ostrzegawcze już na kilka miesięcy przed upadkiem, nie wyciągając z tego żadnych konsekwencji.",
-    "de": "Wie aus internen Unterlagen hervorgeht, haben mehrere Führungskräfte die Warnsignale bereits Monate vor dem Zusammenbruch erkannt, ohne daraus Konsequenzen zu ziehen."
-   },
-   {
-    "en": "However advantageous the new regulation may appear at first glance, the reservations that experts have voiced about its practicability weigh just as heavily.",
-    "pl": "Choć nowa regulacja na pierwszy rzut oka może wydawać się korzystna, równie ciężko ważą zastrzeżenia, które eksperci zgłosili co do możliwości jej praktycznego wdrożenia.",
-    "de": "So vorteilhaft die Neuregelung auf den ersten Blick erscheinen mag, so schwer wiegen die Bedenken, die Fachleute hinsichtlich ihrer praktischen Umsetzbarkeit geäußert haben."
-   },
-   {
-    "en": "Not least for this reason, the group managed to defend its market position despite considerable headwinds in global markets and to increase earnings slightly.",
-    "pl": "Między innymi dlatego koncernowi udało się utrzymać pozycję rynkową mimo znacznych przeciwności na rynkach światowych i nieznacznie poprawić wynik.",
-    "de": "Nicht zuletzt deshalb gelang es dem Konzern, trotz erheblicher Gegenwinde an den globalen Märkten seine Marktposition zu behaupten und das Ergebnis leicht zu steigern."
-   },
-   {
-    "en": "Anyone who has neglected internal controls for years should not be surprised if irregularities pile up unnoticed and only come to light at the next audit.",
-    "pl": "Kto przez lata zaniedbywał kontrolę wewnętrzną, nie powinien się dziwić, jeśli nieprawidłowości będą się niezauważenie kumulować i wyjdą na jaw dopiero przy kolejnym audycie.",
-    "de": "Wer die internen Kontrollen über Jahre vernachlässigt hat, darf sich nicht wundern, wenn sich Unregelmäßigkeiten unbemerkt häufen und erst bei der nächsten Prüfung ans Licht kommen."
-   }
+    {
+      "en": "Today I am working in the office.",
+      "pl": "Dzisiaj pracuję w biurze.",
+      "de": "Heute arbeite ich im Büro.",
+      "level": "A2"
+    },
+    {
+      "en": "Tomorrow we have a meeting.",
+      "pl": "Jutro mamy spotkanie.",
+      "de": "Morgen haben wir eine Besprechung.",
+      "level": "A2"
+    },
+    {
+      "en": "In the morning I drink coffee.",
+      "pl": "Rano piję kawę.",
+      "de": "Am Morgen trinke ich Kaffee.",
+      "level": "A2"
+    },
+    {
+      "en": "Here lives my colleague.",
+      "pl": "Tutaj mieszka mój kolega.",
+      "de": "Hier wohnt mein Kollege.",
+      "level": "A2"
+    },
+    {
+      "en": "When does the train arrive?",
+      "pl": "Kiedy przyjeżdża pociąg?",
+      "de": "Wann kommt der Zug an?",
+      "level": "A2"
+    },
+    {
+      "en": "Do you have time today?",
+      "pl": "Czy masz dziś czas?",
+      "de": "Hast du heute Zeit?",
+      "level": "A2"
+    },
+    {
+      "en": "On Monday we learn German.",
+      "pl": "W poniedziałek uczymy się niemieckiego.",
+      "de": "Am Montag lernen wir Deutsch.",
+      "level": "A2"
+    },
+    {
+      "en": "Later I will call the client.",
+      "pl": "Później zadzwonię do klienta.",
+      "de": "Später rufe ich den Kunden an.",
+      "level": "A2"
+    },
+    {
+      "en": "In Berlin there are many museums.",
+      "pl": "W Berlinie jest wiele muzeów.",
+      "de": "In Berlin gibt es viele Museen.",
+      "level": "A2"
+    },
+    {
+      "en": "Unfortunately he is not coming today.",
+      "pl": "Niestety on dziś nie przyjdzie.",
+      "de": "Leider kommt er heute nicht.",
+      "level": "A2"
+    },
+    {
+      "en": "After lunch we work further.",
+      "pl": "Po obiedzie pracujemy dalej.",
+      "de": "Nach dem Mittagessen arbeiten wir weiter.",
+      "level": "B1"
+    },
+    {
+      "en": "Yesterday we wrote the email.",
+      "pl": "Wczoraj napisaliśmy e-mail.",
+      "de": "Gestern haben wir die E-Mail geschrieben.",
+      "level": "B1"
+    },
+    {
+      "en": "Because of the weather we are staying at home.",
+      "pl": "Z powodu pogody zostajemy w domu.",
+      "de": "Wegen des Wetters bleiben wir zu Hause.",
+      "level": "B1"
+    },
+    {
+      "en": "Next week the training takes place.",
+      "pl": "W przyszłym tygodniu odbywa się szkolenie.",
+      "de": "Nächste Woche findet die Schulung statt.",
+      "level": "B1"
+    },
+    {
+      "en": "Why didn't the customer call yesterday?",
+      "pl": "Dlaczego klient wczoraj nie zadzwonił?",
+      "de": "Warum hat der Kunde gestern nicht angerufen?",
+      "level": "B1"
+    },
+    {
+      "en": "Tomorrow you must send the documents.",
+      "pl": "Jutro musisz wysłać dokumenty.",
+      "de": "Morgen musst du die Unterlagen schicken.",
+      "level": "B1"
+    },
+    {
+      "en": "At the end of the month the department checks the budget.",
+      "pl": "Na koniec miesiąca dział sprawdza budżet.",
+      "de": "Am Monatsende prüft die Abteilung das Budget.",
+      "level": "B1"
+    },
+    {
+      "en": "The director has already approved the proposal.",
+      "pl": "Dyrektor już zatwierdził propozycję.",
+      "de": "Der Direktor hat den Vorschlag bereits genehmigt.",
+      "level": "B1"
+    },
+    {
+      "en": "On Fridays my manager often works from home.",
+      "pl": "W piątki mój przełożony często pracuje z domu.",
+      "de": "Freitags arbeitet mein Vorgesetzter oft von zu Hause.",
+      "level": "B1"
+    },
+    {
+      "en": "Before the deadline we check every number.",
+      "pl": "Przed terminem sprawdzamy każdą liczbę.",
+      "de": "Vor dem Abgabetermin prüfen wir jede Zahl.",
+      "level": "B1"
+    },
+    {
+      "en": "After the meeting we prepare the presentation.",
+      "pl": "Po spotkaniu przygotowujemy prezentację.",
+      "de": "Nach der Besprechung bereiten wir die Präsentation vor.",
+      "level": "B1"
+    },
+    {
+      "en": "In the conference room the director explains the strategy.",
+      "pl": "W sali konferencyjnej dyrektor wyjaśnia strategię.",
+      "de": "Im Konferenzraum erklärt der Direktor die Strategie.",
+      "level": "B1"
+    },
+    {
+      "en": "Next year we will present the new product.",
+      "pl": "W przyszłym roku zaprezentujemy nowy produkt.",
+      "de": "Nächstes Jahr werden wir das neue Produkt vorstellen.",
+      "level": "B1"
+    },
+    {
+      "en": "This morning the train unfortunately arrived late.",
+      "pl": "Dziś rano pociąg niestety przyjechał z opóźnieniem.",
+      "de": "Heute Morgen ist der Zug leider zu spät angekommen.",
+      "level": "B1"
+    },
+    {
+      "en": "In the afternoon our team works on the project.",
+      "pl": "Po południu nasz zespół pracuje nad projektem.",
+      "de": "Am Nachmittag arbeitet unser Team an dem Projekt.",
+      "level": "B1"
+    },
+    {
+      "en": "At the moment the team must solve technical problems.",
+      "pl": "W tej chwili zespół musi rozwiązać problemy techniczne.",
+      "de": "Im Moment muss das Team technische Probleme lösen.",
+      "level": "B1"
+    },
+    {
+      "en": "The new employee starts work next Monday.",
+      "pl": "Nowy pracownik zaczyna pracę w przyszły poniedziałek.",
+      "de": "Der neue Mitarbeiter beginnt nächsten Montag mit der Arbeit.",
+      "level": "B1"
+    },
+    {
+      "en": "Because of the delay the client receives the documents tomorrow.",
+      "pl": "Z powodu opóźnienia klient otrzyma dokumenty jutro.",
+      "de": "Wegen der Verzögerung erhält der Kunde die Unterlagen morgen.",
+      "level": "B1"
+    },
+    {
+      "en": "Yesterday I sent the final version to the client.",
+      "pl": "Wczoraj wysłałem klientowi ostateczną wersję.",
+      "de": "Gestern habe ich dem Kunden die endgültige Version geschickt.",
+      "level": "B1"
+    },
+    {
+      "en": "In the next meeting we discuss the open questions.",
+      "pl": "Na następnym spotkaniu omawiamy otwarte pytania.",
+      "de": "In der nächsten Besprechung diskutieren wir die offenen Fragen.",
+      "level": "B1"
+    },
+    {
+      "en": "We waited a long time, but the customer didn't reply.",
+      "pl": "Długo czekaliśmy, ale klient nie odpowiedział.",
+      "de": "Wir haben lange gewartet, aber der Kunde hat nicht geantwortet.",
+      "level": "B2"
+    },
+    {
+      "en": "The client called, and I informed my manager immediately.",
+      "pl": "Klient zadzwonił, a ja od razu poinformowałem mojego przełożonego.",
+      "de": "Der Kunde rief an, und ich informierte sofort meinen Vorgesetzten.",
+      "level": "B2"
+    },
+    {
+      "en": "Why didn't the company correct the forecast earlier?",
+      "pl": "Dlaczego firma nie skorygowała prognozy wcześniej?",
+      "de": "Warum hat das Unternehmen die Prognose nicht früher korrigiert?",
+      "level": "B2"
+    },
+    {
+      "en": "At the beginning of each quarter, finance prepares a forecast.",
+      "pl": "Na początku każdego kwartału dział finansów sporządza prognozę.",
+      "de": "Zu Beginn jedes Quartals erstellt die Finanzabteilung eine Prognose.",
+      "level": "B2"
+    },
+    {
+      "en": "By Friday, the department should have completed the reconciliation.",
+      "pl": "Do piątku dział powinien był zakończyć uzgodnienie.",
+      "de": "Bis Freitag sollte die Abteilung die Abstimmung abgeschlossen haben.",
+      "level": "B2"
+    },
+    {
+      "en": "The board will reconsider the proposal after the risk assessment.",
+      "pl": "Zarząd ponownie rozważy propozycję po ocenie ryzyka.",
+      "de": "Der Vorstand wird den Vorschlag nach der Risikobewertung überdenken.",
+      "level": "B2"
+    },
+    {
+      "en": "Despite rising costs, the business has maintained its profit margin.",
+      "pl": "Mimo rosnących kosztów firma utrzymała swoją marżę zysku.",
+      "de": "Trotz steigender Kosten hat das Unternehmen seine Gewinnmarge gehalten.",
+      "level": "B2"
+    },
+    {
+      "en": "The report shows increased revenue and stable administrative costs.",
+      "pl": "Raport pokazuje wzrost przychodów i stabilne koszty administracyjne.",
+      "de": "Der Bericht zeigt einen gestiegenen Umsatz und stabile Verwaltungskosten.",
+      "level": "B2"
+    },
+    {
+      "en": "During the audit, the reviewers identified several material errors.",
+      "pl": "Podczas audytu biegli rewidenci zidentyfikowali kilka istotnych błędów.",
+      "de": "Während der Prüfung identifizierten die Prüfer mehrere wesentliche Fehler.",
+      "level": "B2"
+    },
+    {
+      "en": "After a short break, the participants continue the discussion.",
+      "pl": "Po krótkiej przerwie uczestnicy kontynuują dyskusję.",
+      "de": "Nach einer kurzen Pause setzen die Teilnehmer die Diskussion fort.",
+      "level": "B2"
+    },
+    {
+      "en": "This year, the company invests more money in technology.",
+      "pl": "W tym roku firma inwestuje więcej pieniędzy w technologię.",
+      "de": "In diesem Jahr investiert das Unternehmen mehr Geld in Technologie.",
+      "level": "B2"
+    },
+    {
+      "en": "The company reported stronger sales, but its operating margin declined.",
+      "pl": "Firma zgłosiła wyższą sprzedaż, ale jej marża operacyjna spadła.",
+      "de": "Das Unternehmen meldete höhere Umsätze, aber seine operative Marge sank.",
+      "level": "B2"
+    },
+    {
+      "en": "At the beginning of the year, the board approved a new investment plan.",
+      "pl": "Na początku roku zarząd zatwierdził nowy plan inwestycyjny.",
+      "de": "Zu Beginn des Jahres genehmigte der Vorstand einen neuen Investitionsplan.",
+      "level": "B2"
+    },
+    {
+      "en": "Following the internal review, the finance team corrected the reported figures.",
+      "pl": "Po wewnętrznej kontroli zespół finansowy skorygował zgłoszone liczby.",
+      "de": "Nach der internen Prüfung korrigierte das Finanzteam die gemeldeten Zahlen.",
+      "level": "B2"
+    },
+    {
+      "en": "The forecast has improved, but the management team remains cautious.",
+      "pl": "Prognoza się poprawiła, ale zespół zarządzający pozostaje ostrożny.",
+      "de": "Die Prognose hat sich verbessert, aber das Managementteam bleibt vorsichtig.",
+      "level": "B2"
+    },
+    {
+      "en": "In the next quarter, the company will probably reduce its operating costs.",
+      "pl": "W następnym kwartale firma prawdopodobnie obniży swoje koszty operacyjne.",
+      "de": "Im nächsten Quartal wird das Unternehmen wahrscheinlich seine Betriebskosten senken.",
+      "level": "B2"
+    },
+    {
+      "en": "How high were the costs, and who approved the budget?",
+      "pl": "Jak wysokie były koszty i kto zatwierdził budżet?",
+      "de": "Wie hoch waren die Kosten, und wer hat das Budget genehmigt?",
+      "level": "B2"
+    },
+    {
+      "en": "The deadline was tight, but the team delivered the report on time.",
+      "pl": "Termin był krótki, ale zespół dostarczył raport na czas.",
+      "de": "Die Frist war knapp, aber das Team lieferte den Bericht pünktlich.",
+      "level": "B2"
+    },
+    {
+      "en": "Despite the tight schedule, the team completes the analysis on time.",
+      "pl": "Mimo napiętego harmonogramu zespół kończy analizę na czas.",
+      "de": "Trotz des engen Zeitplans schließt das Team die Analyse pünktlich ab.",
+      "level": "B2"
+    },
+    {
+      "en": "In recent weeks, the company has received several new orders.",
+      "pl": "W ostatnich tygodniach firma otrzymała kilka nowych zamówień.",
+      "de": "In den vergangenen Wochen hat das Unternehmen mehrere neue Aufträge erhalten.",
+      "level": "B2"
+    },
+    {
+      "en": "After reviewing the data, the analyst presents the main findings.",
+      "pl": "Po przeanalizowaniu danych analityk przedstawia najważniejsze wyniki.",
+      "de": "Nach der Prüfung der Daten präsentiert der Analyst die wichtigsten Ergebnisse.",
+      "level": "B2"
+    },
+    {
+      "en": "Despite the unexpected increase in demand, the supplier delivered the goods as agreed.",
+      "pl": "Mimo nieoczekiwanego wzrostu popytu dostawca dostarczył towar zgodnie z ustaleniami.",
+      "de": "Trotz des unerwarteten Nachfrageanstiegs lieferte der Lieferant die Waren wie vereinbart.",
+      "level": "B2"
+    },
+    {
+      "en": "The negotiations ended on Friday, and both parties signed the agreement.",
+      "pl": "Negocjacje zakończyły się w piątek, a obie strony podpisały porozumienie.",
+      "de": "Die Verhandlungen endeten am Freitag, und beide Parteien unterzeichneten die Vereinbarung.",
+      "level": "B2"
+    },
+    {
+      "en": "The company has reduced its emissions while increasing production.",
+      "pl": "Firma zmniejszyła swoje emisje, jednocześnie zwiększając produkcję.",
+      "de": "Das Unternehmen hat seine Emissionen reduziert und gleichzeitig die Produktion gesteigert.",
+      "level": "B2"
+    },
+    {
+      "en": "Following reports of irregularities, the agency launched a formal investigation.",
+      "pl": "Po doniesieniach o nieprawidłowościach agencja wszczęła formalne dochodzenie.",
+      "de": "Nach Berichten über Unregelmäßigkeiten leitete die Behörde eine formelle Untersuchung ein.",
+      "level": "B2"
+    },
+    {
+      "en": "The negotiations continued, and the government announced additional support measures.",
+      "pl": "Negocjacje trwały nadal, a rząd ogłosił dodatkowe środki wsparcia.",
+      "de": "Die Verhandlungen liefen weiter, und die Regierung kündigte zusätzliche Unterstützungsmaßnahmen an.",
+      "level": "B2"
+    },
+    {
+      "en": "Despite the revised guidance, analysts maintained their previous growth estimates.",
+      "pl": "Mimo zmienionych wytycznych analitycy utrzymali swoje dotychczasowe szacunki wzrostu.",
+      "de": "Trotz der überarbeiteten Prognose behielten die Analysten ihre bisherigen Wachstumsschätzungen bei.",
+      "level": "B2"
+    },
+    {
+      "en": "Since the new process was introduced, the number of errors has decreased.",
+      "pl": "Od wprowadzenia nowego procesu liczba błędów spadła.",
+      "de": "Seit der Einführung des neuen Prozesses ist die Zahl der Fehler gesunken.",
+      "level": "B2"
+    },
+    {
+      "en": "Neither the costs nor the schedule changed this quarter.",
+      "pl": "W tym kwartale nie zmieniły się ani koszty, ani harmonogram.",
+      "de": "Weder die Kosten noch der Zeitplan haben sich in diesem Quartal verändert.",
+      "level": "B2"
+    },
+    {
+      "en": "The data is incomplete, and we cannot finish the analysis today.",
+      "pl": "Dane są niekompletne i nie możemy dziś zakończyć analizy.",
+      "de": "Die Daten sind unvollständig, und wir können die Analyse heute nicht abschließen.",
+      "level": "B2"
+    },
+    {
+      "en": "In the coming years, the company could expand into several new markets.",
+      "pl": "W nadchodzących latach firma mogłaby wejść na kilka nowych rynków.",
+      "de": "In den kommenden Jahren könnte das Unternehmen in mehrere neue Märkte expandieren.",
+      "level": "B2"
+    },
+    {
+      "en": "The system was unavailable, and the employees recorded the transactions manually.",
+      "pl": "System był niedostępny, a pracownicy rejestrowali transakcje ręcznie.",
+      "de": "Das System war nicht verfügbar, und die Mitarbeiter erfassten die Transaktionen manuell.",
+      "level": "B2"
+    },
+    {
+      "en": "The contract has been signed, and the implementation team is starting its work.",
+      "pl": "Umowa została podpisana, a zespół wdrożeniowy rozpoczyna pracę.",
+      "de": "Der Vertrag ist unterzeichnet worden, und das Implementierungsteam beginnt mit seiner Arbeit.",
+      "level": "B2"
+    },
+    {
+      "en": "The investigation remains ongoing, and officials have not released further details.",
+      "pl": "Dochodzenie trwa nadal, a urzędnicy nie ujawnili dalszych szczegółów.",
+      "de": "Die Ermittlungen dauern an, und die Behörden haben keine weiteren Einzelheiten veröffentlicht.",
+      "level": "B2"
+    },
+    {
+      "en": "The authorities temporarily suspended the restrictions and assessed the potential consequences.",
+      "pl": "Władze tymczasowo zawiesiły ograniczenia i oceniły możliwe skutki.",
+      "de": "Die Behörden setzten die Beschränkungen vorübergehend aus und bewerteten die möglichen Folgen.",
+      "level": "B2"
+    },
+    {
+      "en": "The first results were encouraging, but the researchers requested a larger sample.",
+      "pl": "Pierwsze wyniki były obiecujące, ale badacze zażądali większej próby.",
+      "de": "Die ersten Ergebnisse waren vielversprechend, aber die Forscher forderten eine größere Stichprobe.",
+      "level": "B2"
+    },
+    {
+      "en": "The project can only be continued after the clarification of the outstanding legal issues.",
+      "pl": "Projekt może być kontynuowany dopiero po wyjaśnieniu otwartych kwestii prawnych.",
+      "de": "Das Projekt kann nur nach der Klärung der offenen rechtlichen Fragen fortgesetzt werden.",
+      "level": "B2"
+    },
+    {
+      "en": "Could the team complete the analysis by Friday if the data arrive on time?",
+      "pl": "Czy zespół mógłby zakończyć analizę do piątku, jeśli dane dotrą na czas?",
+      "de": "Könnte das Team die Analyse bis Freitag abschließen, wenn die Daten rechtzeitig eintreffen?",
+      "level": "B2"
+    },
+    {
+      "en": "The client has approved the changes, and tomorrow we can publish the final report.",
+      "pl": "Klient zatwierdził zmiany, a jutro możemy opublikować raport końcowy.",
+      "de": "Der Kunde hat die Änderungen genehmigt, und morgen können wir den Abschlussbericht veröffentlichen.",
+      "level": "B2"
+    },
+    {
+      "en": "The regulator requested further information and has not yet approved the transaction.",
+      "pl": "Organ nadzoru zażądał dalszych informacji i nie zatwierdził jeszcze transakcji.",
+      "de": "Die Aufsichtsbehörde forderte weitere Informationen an und hat die Transaktion noch nicht genehmigt.",
+      "level": "B2"
+    },
+    {
+      "en": "The external auditors completed their work, and the company published the annual accounts.",
+      "pl": "Zewnętrzni audytorzy zakończyli pracę, a firma opublikowała sprawozdanie roczne.",
+      "de": "Die externen Prüfer schlossen ihre Arbeit ab, und das Unternehmen veröffentlichte den Jahresabschluss.",
+      "level": "C1"
+    },
+    {
+      "en": "The meeting began at nine, and the participants had already received all the documents.",
+      "pl": "Spotkanie zaczęło się o dziewiątej, a uczestnicy otrzymali już wszystkie dokumenty.",
+      "de": "Die Besprechung begann um neun Uhr, und die Teilnehmer hatten bereits alle Unterlagen erhalten.",
+      "level": "C1"
+    },
+    {
+      "en": "The supervisory board has announced that it will fundamentally revise the remuneration rules next year.",
+      "pl": "Rada nadzorcza zapowiedziała, że w przyszłym roku gruntownie zmieni zasady wynagradzania.",
+      "de": "Der Aufsichtsrat hat angekündigt, die Vergütungsregeln im nächsten Jahr grundlegend zu überarbeiten.",
+      "level": "C1"
+    },
+    {
+      "en": "The programme will begin next year and include civilian and military components.",
+      "pl": "Program rozpocznie się w przyszłym roku i obejmie komponenty cywilne i wojskowe.",
+      "de": "Das Programm wird im kommenden Jahr beginnen und zivile sowie militärische Komponenten umfassen.",
+      "level": "C1"
+    },
+    {
+      "en": "The authorities have launched an inquiry into the cyberattack on supermarket refrigeration systems.",
+      "pl": "Władze wszczęły dochodzenie w sprawie cyberataku na systemy chłodnicze supermarketów.",
+      "de": "Die Behörden haben Ermittlungen zu dem Cyberangriff auf die Kühlsysteme von Supermärkten aufgenommen.",
+      "level": "C1"
+    },
+    {
+      "en": "The organisation announced a security mission focused on training local forces.",
+      "pl": "Organizacja ogłosiła misję bezpieczeństwa skoncentrowaną na szkoleniu sił lokalnych.",
+      "de": "Die Organisation kündigte eine Sicherheitsmission mit Schwerpunkt auf der Ausbildung lokaler Kräfte an.",
+      "level": "C1"
+    },
+    {
+      "en": "The management submitted the evidence demanded by the audit committee only after repeated requests.",
+      "pl": "Dowody, których zażądał komitet audytu, zarząd przedstawił dopiero po wielokrotnych wezwaniach.",
+      "de": "Die vom Prüfungsausschuss geforderten Nachweise hat die Geschäftsführung erst nach mehrfacher Aufforderung vorgelegt.",
+      "level": "C1"
+    },
+    {
+      "en": "Following the announcement, opposition lawmakers criticised the decision and questioned its legal basis.",
+      "pl": "Po ogłoszeniu posłowie opozycji skrytykowali decyzję i zakwestionowali jej podstawę prawną.",
+      "de": "Nach der Ankündigung kritisierten Oppositionsabgeordnete die Entscheidung und stellten ihre rechtliche Grundlage infrage.",
+      "level": "C1"
+    },
+    {
+      "en": "Especially in times of crisis, it is crucial that the leadership communicates clearly and transparently.",
+      "pl": "Zwłaszcza w czasach kryzysu kluczowe jest, aby kierownictwo komunikowało się jasno i przejrzyście.",
+      "de": "Gerade in Krisenzeiten kommt es darauf an, dass die Führung klar und transparent kommuniziert.",
+      "level": "C1"
+    },
+    {
+      "en": "The revised forecast indicates stronger growth, but significant risks remain.",
+      "pl": "Zrewidowana prognoza wskazuje na silniejszy wzrost, ale istotne ryzyka pozostają.",
+      "de": "Die überarbeitete Prognose deutet auf ein stärkeres Wachstum hin, aber erhebliche Risiken bleiben bestehen.",
+      "level": "C1"
+    },
+    {
+      "en": "Due to unexpectedly high inflation, the central bank will probably have to raise the key interest rate faster.",
+      "pl": "Z powodu niespodziewanie wysokiej inflacji bank centralny prawdopodobnie będzie musiał szybciej podnieść stopę procentową.",
+      "de": "Aufgrund der unerwartet hohen Inflation wird die Zentralbank den Leitzins voraussichtlich schneller anheben müssen.",
+      "level": "C1"
+    },
+    {
+      "en": "According to the company, the affected systems were taken offline that same evening.",
+      "pl": "Według firmy dotknięte incydentem systemy zostały odłączone od sieci jeszcze tego samego wieczoru.",
+      "de": "Nach Angaben des Unternehmens wurden die betroffenen Systeme noch am selben Abend vom Netz genommen.",
+      "level": "C1"
+    },
+    {
+      "en": "In this way, it is possible to prevent minor errors from developing unnoticed into bigger problems.",
+      "pl": "W ten sposób można zapobiec temu, by drobne błędy niezauważenie przerodziły się w większe problemy.",
+      "de": "Auf diese Weise lässt sich verhindern, dass sich kleinere Fehler unbemerkt zu größeren Problemen entwickeln.",
+      "level": "C1"
+    },
+    {
+      "en": "According to the report, the company already quietly revised its forecast downward in the spring.",
+      "pl": "Zgodnie z raportem firma już wiosną po cichu skorygowała swoją prognozę w dół.",
+      "de": "Dem Bericht zufolge hat das Unternehmen seine Prognose bereits im Frühjahr stillschweigend nach unten korrigiert.",
+      "level": "C1"
+    },
+    {
+      "en": "Only by consistently implementing the recommendations was the company able to regain investors' confidence.",
+      "pl": "Dopiero dzięki konsekwentnemu wdrożeniu zaleceń firma mogła odzyskać zaufanie inwestorów.",
+      "de": "Erst durch die konsequente Umsetzung der Empfehlungen konnte das Unternehmen das Vertrauen der Anleger zurückgewinnen.",
+      "level": "C1"
+    },
+    {
+      "en": "The regulator published its decision on Monday, and the company issued a public statement.",
+      "pl": "Organ nadzoru opublikował w poniedziałek swoją decyzję, a firma wydała oświadczenie publiczne.",
+      "de": "Die Aufsichtsbehörde veröffentlichte am Montag ihre Entscheidung, und das Unternehmen gab eine öffentliche Erklärung ab.",
+      "level": "C1"
+    },
+    {
+      "en": "As part of the planned restructuring, several sites are to be merged and around a hundred jobs cut.",
+      "pl": "W ramach planowanej restrukturyzacji ma zostać połączonych kilka lokalizacji i zlikwidowanych około stu stanowisk.",
+      "de": "Im Zuge der geplanten Umstrukturierung sollen mehrere Standorte zusammengelegt und etwa hundert Stellen abgebaut werden.",
+      "level": "C1"
+    },
+    {
+      "en": "The agency has not yet confirmed the full extent of the damage, but several retailers reported losses.",
+      "pl": "Agencja nie potwierdziła jeszcze pełnego zakresu szkód, ale kilku detalistów zgłosiło straty.",
+      "de": "Die Behörde hat das gesamte Ausmaß des Schadens noch nicht bestätigt, aber mehrere Einzelhändler meldeten Verluste.",
+      "level": "C1"
+    },
+    {
+      "en": "The revised procedure will take effect next month, and all departments will receive the instructions this week.",
+      "pl": "Zmieniona procedura wejdzie w życie w przyszłym miesiącu, a wszystkie działy otrzymają instrukcje w tym tygodniu.",
+      "de": "Das überarbeitete Verfahren tritt nächsten Monat in Kraft, und alle Abteilungen erhalten die Anweisungen diese Woche.",
+      "level": "C1"
+    },
+    {
+      "en": "Because of the strained budget situation, the city has put all planned investments on hold until further notice.",
+      "pl": "Z powodu napiętej sytuacji budżetowej miasto wstrzymało wszystkie planowane inwestycje do odwołania.",
+      "de": "Wegen der angespannten Haushaltslage hat die Stadt sämtliche geplanten Investitionen bis auf Weiteres auf Eis gelegt.",
+      "level": "C1"
+    },
+    {
+      "en": "For this reason, we decided to postpone the introduction of the new system by three months.",
+      "pl": "Z tego powodu zdecydowaliśmy się przesunąć wdrożenie nowego systemu o trzy miesiące.",
+      "de": "Aus diesem Grund haben wir uns entschieden, die Einführung des neuen Systems um drei Monate zu verschieben.",
+      "level": "C2"
+    },
+    {
+      "en": "Although the figures are still preliminary, the company is sticking to its growth forecast for the current year.",
+      "pl": "Chociaż liczby są jeszcze wstępne, firma podtrzymuje swoją prognozę wzrostu na bieżący rok.",
+      "de": "Obwohl die Zahlen noch vorläufig sind, hält das Unternehmen an seiner Wachstumsprognose für das laufende Jahr fest.",
+      "level": "C2"
+    },
+    {
+      "en": "Had this development been foreseen in time, the considerable consequential damage could at least partly have been avoided.",
+      "pl": "Gdyby tę tendencję przewidziano na czas, znaczących szkód następczych można by przynajmniej częściowo uniknąć.",
+      "de": "Hätte man diese Entwicklung rechtzeitig vorausgesehen, so hätten sich die erheblichen Folgeschäden zumindest teilweise vermeiden lassen.",
+      "level": "C2"
+    },
+    {
+      "en": "Rarely before had a regulator made it so unmistakably clear that it would, if necessary, impose severe sanctions.",
+      "pl": "Rzadko kiedy organ nadzoru tak jednoznacznie dał do zrozumienia, że w razie potrzeby nałoży dotkliwe sankcje.",
+      "de": "Selten zuvor hatte eine Aufsichtsbehörde so unmissverständlich klargemacht, dass sie notfalls auch empfindliche Sanktionen verhängen würde.",
+      "level": "C2"
+    },
+    {
+      "en": "How far-reaching the consequences of the decision will actually be can hardly be assessed reliably at present.",
+      "pl": "Jak daleko idące będą w rzeczywistości skutki tej uchwały, trudno obecnie wiarygodnie ocenić.",
+      "de": "Wie weitreichend die Folgen des Beschlusses tatsächlich sein werden, lässt sich zum jetzigen Zeitpunkt kaum verlässlich beurteilen.",
+      "level": "C2"
+    },
+    {
+      "en": "It was only under massive pressure from shareholders that the management admitted the forecasts had been too optimistic for years.",
+      "pl": "Zarząd przyznał, że prognozy przez lata były zbyt optymistyczne, dopiero pod silną presją akcjonariuszy.",
+      "de": "Dass die Prognosen über Jahre hinweg zu optimistisch ausgefallen waren, räumte die Geschäftsleitung erst nach massivem Druck der Aktionäre ein.",
+      "level": "C2"
+    },
+    {
+      "en": "The risks disclosed in the notes to the financial statements, to which the auditor had expressly drawn attention, were hardly noticed by the public.",
+      "pl": "Ryzyka ujawnione w informacji dodatkowej do sprawozdania finansowego, na które biegły rewident wyraźnie zwrócił uwagę, były przez opinię publiczną prawie niezauważone.",
+      "de": "Die im Anhang zum Jahresabschluss offengelegten Risiken, auf die der Abschlussprüfer ausdrücklich hingewiesen hatte, wurden von der Öffentlichkeit kaum wahrgenommen.",
+      "level": "C2"
+    },
+    {
+      "en": "Under no circumstances must the impression arise that the management deliberately left the regulator in the dark about the true extent of the losses.",
+      "pl": "W żadnym wypadku nie wolno dopuścić do wrażenia, że kierownictwo celowo pozostawiło organ nadzoru w niewiedzy co do rzeczywistej skali strat.",
+      "de": "Keinesfalls darf der Eindruck entstehen, die Unternehmensleitung habe die Aufsichtsbehörde vorsätzlich über das tatsächliche Ausmaß der Verluste im Unklaren gelassen.",
+      "level": "C2"
+    },
+    {
+      "en": "As internal documents show, several executives recognised the warning signs months before the collapse without drawing any consequences from them.",
+      "pl": "Jak wynika z dokumentów wewnętrznych, kilku menedżerów dostrzegło sygnały ostrzegawcze już na kilka miesięcy przed upadkiem, nie wyciągając z tego żadnych konsekwencji.",
+      "de": "Wie aus internen Unterlagen hervorgeht, haben mehrere Führungskräfte die Warnsignale bereits Monate vor dem Zusammenbruch erkannt, ohne daraus Konsequenzen zu ziehen.",
+      "level": "C2"
+    },
+    {
+      "en": "Anyone who has neglected internal controls for years should not be surprised if irregularities pile up unnoticed and only come to light at the next audit.",
+      "pl": "Kto przez lata zaniedbywał kontrolę wewnętrzną, nie powinien się dziwić, jeśli nieprawidłowości będą się niezauważenie kumulować i wyjdą na jaw dopiero przy kolejnym audycie.",
+      "de": "Wer die internen Kontrollen über Jahre vernachlässigt hat, darf sich nicht wundern, wenn sich Unregelmäßigkeiten unbemerkt häufen und erst bei der nächsten Prüfung ans Licht kommen.",
+      "level": "C2"
+    }
   ],
   "listening": {
-   "audioUrl": "https://radiodownloaddw-a.akamaihd.net/downloads/Events/dwelle/dira/mp3/deutschkurse/nachrichten_live/DB75050E_2.mp3",
-   "articles": [
-    {
-     "heading": "Trumps Diesel-Deal soll Putin an Verhandlungstisch bringen",
-     "text": "US-Präsident Donald Trump hat das umstrittene [[Diesel-Abkommen|1]] mit Russland verteidigt. Es solle die [[Kraftstoffpreise|2]] senken und US-Landwirten helfen. Zugleich will Washington Moskau damit offenbar zu [[Friedensgesprächen|3]] über die Ukraine bewegen. Dafür wurden [[Sanktionen|4]] gegen russische Treibstoffe vorübergehend aufgehoben. Politiker beider US-Parteien kritisieren den Schritt als [[Gesetzesverstoß|5]]. Russlands Präsident Wladimir Putin ist laut US-[[Gesandten|6]] derzeit nicht zu Verhandlungen bereit. Trump erklärte zudem, Russland und die Ukraine hätten sich auf einen Stopp der Angriffe auf [[Energieanlagen|7]] geeinigt. Der ukrainische Präsident Wolodymyr Selenskyj meldete jedoch neue russische Angriffe."
-    },
-    {
-     "heading": "Huthi-Miliz setzt Angriffe auf Riad fort",
-     "text": "Die saudi-arabische Hauptstadt Riad ist erneut von heftigen [[Explosionen|8]] erschüttert worden. Zuvor waren die Bewohner vor einer [[Bedrohung|9]] aus der Luft gewarnt worden. Die Huthi-[[Miliz|10]] aus dem Jemen erklärte, sie habe den internationalen Flughafen mit einer Rakete getroffen. Die von Saudi-Arabien angeführte [[Militärkoalition|11]] teilte dagegen mit, das Geschoss sei [[abgefangen|12]] und zerstört worden. Die Huthis meldeten zudem einen [[Drohnenangriff|13]] auf einen Luftwaffenstützpunkt im Süden des Landes. In den vergangenen Tagen hatte die Miliz ihre Angriffe auf Riad verstärkt. Dabei kamen insgesamt 18 Menschen ums Leben. Allein am Samstag wurden 13 Menschen getötet und mehr als 300 verletzt."
-    },
-    {
-     "heading": "IWF erwartet kräftigeren Aufschwung in Deutschland",
-     "text": "Der Internationale Währungsfonds (IWF) hat seine [[Wachstumsprognose|14]] für Deutschland deutlich angehoben. Die Wirtschaft dürfte 2026 um 1,3 Prozent wachsen. Im Juli hatte der IWF noch 0,7 Prozent erwartet. Für 2027 rechnen die Experten mit einem [[Plus|15]] von 1,1 Prozent. Damit liegen die Prognosen auf dem gleichen Niveau wie die der Bundesregierung. Vor allem staatliche [[Investitionen|16]] in [[Infrastruktur|17]] und Verteidigung sowie höhere Exporte treiben das Wachstum an. Auch für die Eurozone und die Weltwirtschaft ist der IWF optimistischer. Weltweit erwartet er 2026 ein Wachstum von 3,1 Prozent. Die Weltwirtschaft zeigt sich laut IWF trotz der Energiekrise infolge des Iran-Kriegs [[widerstandsfähig|18]]."
-    },
-    {
-     "heading": "US-Justiz ermittelt gegen Trump-Kritikerin Omar",
-     "text": "In den USA haben Ermittler das Haus der demokratischen [[Kongressabgeordneten|19]] Ilhan Omar in Washington durchsucht. Laut Fox News besteht der [[Verdacht|20]], dass ihr inzwischen verstorbener Vater bei Omars [[Einbürgerung|21]] falsche Angaben gemacht haben könnte. Das US-Justizministerium bestätigte eine Durchsuchung im Raum Washington, nannte aber keine Namen. Omar, eine scharfe Kritikerin von Präsident Donald Trump, hatte frühere Ermittlungen gegen sie als politisch [[motiviert|22]] bezeichnet. Zu der [[Razzia|23]] äußerte sie sich zunächst nicht. Die aus Somalia stammende Politikerin kandidiert bei den Kongresswahlen in drei Wochen erneut für einen Sitz im Repräsentantenhaus."
-    },
-    {
-     "heading": "Hacker sabotieren Kühlanlagen in Frankreich",
-     "text": "Ein [[Cyberangriff|24]] hat in zahlreichen französischen Supermärkten Kühl- und Gefrieranlagen [[lahmgelegt|25]]. Hackern gelang es, die Geräte in der Nacht zum Montag in den [[Auftaumodus|26]] zu versetzen. Allein bei den Handelsketten Intermarché und Netto waren rund 150 [[Filialen|27]] betroffen. Auch andere Supermarktketten meldeten [[Störungen|28]]. Der Angriff richtete sich offenbar gegen einen dänischen Software-Dienstleister, dessen Technik mehrere Händler nutzen. Zahlreiche Lebensmittel müssen nun [[entsorgt|29]] werden. Die Höhe des Schadens ist noch unklar. Nach Angaben der Pariser [[Staatsanwaltschaft|30]] wurden auch Brände gemeldet. Die Behörde hat Ermittlungen aufgenommen."
-    },
-    {
-     "heading": "EU will Libanons Sicherheitskräfte stärken",
-     "text": "Die EU-Außenminister haben eine neue [[Unterstützungsmission|31]] für den Libanon beschlossen. Sie soll die Sicherheitskräfte des Landes beraten und ausbilden, damit diese künftig das gesamte [[Staatsgebiet|32]] kontrollieren können. Auch Deutschland will sich beteiligen. Der Einsatz soll im kommenden Jahr beginnen und einen militärischen sowie einen zivilen Teil umfassen. Neben der Ausbildung der Armee ist Unterstützung bei der [[Bekämpfung|33]] von [[Cyberkriminalität|34]] und [[Schmuggel|35]] geplant. Bislang verfügt auch die proiranische Hisbollah-Miliz über erheblichen [[Einfluss|36]] im Libanon. Sie lehnt ihre [[Entwaffnung|37]] ab. Der neue EU-Einsatz soll auf die UN-[[Blauhelmmission|38]] UNIFIL folgen, die Ende des Jahres ausläuft."
-    }
-   ],
-   "vocab": [
-    {
-     "id": 1,
-     "word": "das Diesel-Abkommen",
-     "translation": {
-      "en": "diesel agreement",
-      "pl": "umowa dotycząca oleju napędowego"
-     },
-     "partOfSpeech": "noun",
-     "level": "B2",
-     "plural": "die Diesel-Abkommen",
-     "notes": {
-      "en": "A formal agreement concerning diesel fuel or related policy.",
-      "pl": "Formalne porozumienie dotyczące oleju napędowego lub związanej z nim polityki."
-     },
-     "examples": [
-      "Das Diesel-Abkommen wurde gestern öffentlich vorgestellt.",
-      "Viele Politiker diskutieren über das neue Diesel-Abkommen."
-     ]
-    },
-    {
-     "id": 2,
-     "word": "der Kraftstoffpreis",
-     "translation": {
-      "en": "fuel price",
-      "pl": "cena paliwa"
-     },
-     "partOfSpeech": "noun",
-     "level": "B1",
-     "plural": "die Kraftstoffpreise",
-     "notes": {
-      "en": "The price paid for petrol, diesel, or another fuel.",
-      "pl": "Cena płacona za benzynę, olej napędowy lub inne paliwo."
-     },
-     "examples": [
-      "Der Kraftstoffpreis ist in diesem Monat gestiegen.",
-      "Viele Unternehmen beobachten die Kraftstoffpreise genau."
-     ]
-    },
-    {
-     "id": 3,
-     "word": "das Friedensgespräch",
-     "translation": {
-      "en": "peace talks",
-      "pl": "rozmowy pokojowe"
-     },
-     "partOfSpeech": "noun",
-     "level": "B2",
-     "plural": "die Friedensgespräche",
-     "notes": {
-      "en": "Negotiations intended to help end a conflict.",
-      "pl": "Negocjacje mające pomóc zakończyć konflikt."
-     },
-     "examples": [
-      "Die Friedensgespräche beginnen am Montag.",
-      "Beide Seiten wollen die Friedensgespräche fortsetzen."
-     ]
-    },
-    {
-     "id": 4,
-     "word": "die Sanktion",
-     "translation": {
-      "en": "sanction",
-      "pl": "sankcja"
-     },
-     "partOfSpeech": "noun",
-     "level": "B2",
-     "plural": "die Sanktionen",
-     "notes": {
-      "en": "An official measure imposed to influence a state or organisation.",
-      "pl": "Oficjalny środek stosowany, by wpłynąć na państwo lub organizację."
-     },
-     "examples": [
-      "Die Regierung hat neue Sanktionen angekündigt.",
-      "Die Sanktionen betreffen mehrere wichtige Branchen."
-     ]
-    },
-    {
-     "id": 5,
-     "word": "der Gesetzesverstoß",
-     "translation": {
-      "en": "violation of the law",
-      "pl": "naruszenie prawa"
-     },
-     "partOfSpeech": "noun",
-     "level": "C1",
-     "plural": "die Gesetzesverstöße",
-     "notes": {
-      "en": "An action that breaks a law.",
-      "pl": "Czyn łamiący prawo."
-     },
-     "examples": [
-      "Die Behörde untersucht einen möglichen Gesetzesverstoß.",
-      "Ein Gesetzesverstoß kann rechtliche Folgen haben."
-     ]
-    },
-    {
-     "id": 6,
-     "word": "der Gesandte",
-     "translation": {
-      "en": "envoy",
-      "pl": "wysłannik"
-     },
-     "partOfSpeech": "noun",
-     "level": "C1",
-     "plural": "die Gesandten",
-     "notes": {
-      "en": "A representative sent by a government or leader.",
-      "pl": "Przedstawiciel wysłany przez rząd lub przywódcę."
-     },
-     "examples": [
-      "Der Gesandte traf sich mit den Vertretern der Regierung.",
-      "Ein Gesandter soll die Gespräche vorbereiten."
-     ]
-    },
-    {
-     "id": 7,
-     "word": "die Energieanlage",
-     "translation": {
-      "en": "energy facility",
-      "pl": "obiekt energetyczny"
-     },
-     "partOfSpeech": "noun",
-     "level": "B2",
-     "plural": "die Energieanlagen",
-     "notes": {
-      "en": "A facility used to produce, distribute, or manage energy.",
-      "pl": "Obiekt służący do produkcji, dystrybucji lub zarządzania energią."
-     },
-     "examples": [
-      "Die Energieanlage wurde nach dem Angriff geschlossen.",
-      "Neue Energieanlagen sollen die Versorgung sichern."
-     ]
-    },
-    {
-     "id": 8,
-     "word": "die Explosion",
-     "translation": {
-      "en": "explosion",
-      "pl": "eksplozja, wybuch"
-     },
-     "partOfSpeech": "noun",
-     "level": "B1",
-     "plural": "die Explosionen",
-     "notes": {
-      "en": "A sudden release of energy that causes a blast.",
-      "pl": "Nagłe uwolnienie energii powodujące wybuch."
-     },
-     "examples": [
-      "Die Explosion war in der ganzen Stadt zu hören.",
-      "Nach der Explosion sperrte die Polizei die Straße."
-     ]
-    },
-    {
-     "id": 9,
-     "word": "die Bedrohung",
-     "translation": {
-      "en": "threat",
-      "pl": "zagrożenie"
-     },
-     "partOfSpeech": "noun",
-     "level": "B2",
-     "plural": "die Bedrohungen",
-     "notes": {
-      "en": "A person, situation, or action that may cause harm.",
-      "pl": "Osoba, sytuacja lub działanie, które mogą wyrządzić szkodę."
-     },
-     "examples": [
-      "Die Regierung nimmt die Bedrohung ernst.",
-      "Die Bedrohung betrifft mehrere Regionen."
-     ]
-    },
-    {
-     "id": 10,
-     "word": "die Miliz",
-     "translation": {
-      "en": "militia",
-      "pl": "milicja, bojówka"
-     },
-     "partOfSpeech": "noun",
-     "level": "B2",
-     "plural": "die Milizen",
-     "notes": {
-      "en": "An armed group that is not usually part of a regular national army.",
-      "pl": "Grupa zbrojna, zwykle niebędąca częścią regularnej armii."
-     },
-     "examples": [
-      "Die Miliz kontrolliert mehrere Straßen.",
-      "Die Regierung verhandelt nicht mit der Miliz."
-     ]
-    },
-    {
-     "id": 11,
-     "word": "die Militärkoalition",
-     "translation": {
-      "en": "military coalition",
-      "pl": "koalicja wojskowa"
-     },
-     "partOfSpeech": "noun",
-     "level": "C1",
-     "plural": "die Militärkoalitionen",
-     "notes": {
-      "en": "A group of states or forces acting together militarily.",
-      "pl": "Grupa państw lub sił działających wspólnie militarnie."
-     },
-     "examples": [
-      "Die Militärkoalition erklärte ihre nächsten Schritte.",
-      "Mehrere Länder gehören der Militärkoalition an."
-     ]
-    },
-    {
-     "id": 12,
-     "word": "abfangen",
-     "translation": {
-      "en": "to intercept",
-      "pl": "przechwycić"
-     },
-     "partOfSpeech": "verb",
-     "level": "B2",
-     "plural": "",
-     "notes": {
-      "en": "To stop or capture something while it is travelling toward a target.",
-      "pl": "Zatrzymać lub przejąć coś w drodze do celu."
-     },
-     "examples": [
-      "Die Luftabwehr konnte die Rakete abfangen.",
-      "Die Polizei fing die gestohlene Ware ab."
-     ]
-    },
-    {
-     "id": 13,
-     "word": "der Drohnenangriff",
-     "translation": {
-      "en": "drone attack",
-      "pl": "atak dronów"
-     },
-     "partOfSpeech": "noun",
-     "level": "B2",
-     "plural": "die Drohnenangriffe",
-     "notes": {
-      "en": "An attack carried out using one or more drones.",
-      "pl": "Atak przeprowadzony przy użyciu jednego lub kilku dronów."
-     },
-     "examples": [
-      "Der Drohnenangriff beschädigte mehrere Gebäude.",
-      "Die Regierung untersucht den Drohnenangriff."
-     ]
-    },
-    {
-     "id": 14,
-     "word": "die Wachstumsprognose",
-     "translation": {
-      "en": "growth forecast",
-      "pl": "prognoza wzrostu"
-     },
-     "partOfSpeech": "noun",
-     "level": "B2",
-     "plural": "die Wachstumsprognosen",
-     "notes": {
-      "en": "An estimate of how much an economy or business will grow.",
-      "pl": "Szacunek tego, jak bardzo wzrośnie gospodarka lub firma."
-     },
-     "examples": [
-      "Die Wachstumsprognose wurde leicht angehoben.",
-      "Analysten vergleichen die neue Wachstumsprognose mit früheren Schätzungen."
-     ]
-    },
-    {
-     "id": 15,
-     "word": "das Plus",
-     "translation": {
-      "en": "increase; positive growth",
-      "pl": "wzrost, plus"
-     },
-     "partOfSpeech": "noun",
-     "level": "B1",
-     "plural": "die Plus",
-     "notes": {
-      "en": "In economic reporting, an increase or positive result.",
-      "pl": "W doniesieniach gospodarczych: wzrost lub wynik dodatni."
-     },
-     "examples": [
-      "Das Unternehmen meldete ein Plus beim Umsatz.",
-      "Für das nächste Jahr erwarten Experten ein kleines Plus."
-     ]
-    },
-    {
-     "id": 16,
-     "word": "die Investition",
-     "translation": {
-      "en": "investment",
-      "pl": "inwestycja"
-     },
-     "partOfSpeech": "noun",
-     "level": "B1",
-     "plural": "die Investitionen",
-     "notes": {
-      "en": "Money or resources committed to achieve future benefits.",
-      "pl": "Pieniądze lub zasoby zaangażowane w celu osiągnięcia przyszłych korzyści."
-     },
-     "examples": [
-      "Die Investition soll neue Arbeitsplätze schaffen.",
-      "Das Unternehmen plant eine Investition in moderne Technik."
-     ]
-    },
-    {
-     "id": 17,
-     "word": "die Infrastruktur",
-     "translation": {
-      "en": "infrastructure",
-      "pl": "infrastruktura"
-     },
-     "partOfSpeech": "noun",
-     "level": "B2",
-     "plural": "",
-     "notes": {
-      "en": "Basic systems and facilities such as roads, railways, and utilities.",
-      "pl": "Podstawowe systemy i obiekty, takie jak drogi, koleje i sieci."
-     },
-     "examples": [
-      "Die Infrastruktur muss dringend modernisiert werden.",
-      "Der Staat investiert mehr Geld in die Infrastruktur."
-     ]
-    },
-    {
-     "id": 18,
-     "word": "widerstandsfähig",
-     "translation": {
-      "en": "resilient; resistant",
-      "pl": "odporny"
-     },
-     "partOfSpeech": "adjective",
-     "level": "C1",
-     "plural": "",
-     "notes": {
-      "en": "Able to withstand pressure, difficulty, or disruption.",
-      "pl": "Zdolny wytrzymać presję, trudności lub zakłócenia."
-     },
-     "examples": [
-      "Die Wirtschaft bleibt trotz der Krise widerstandsfähig.",
-      "Ein widerstandsfähiges Unternehmen kann auf Veränderungen reagieren."
-     ]
-    },
-    {
-     "id": 19,
-     "word": "der Kongressabgeordnete",
-     "translation": {
-      "en": "member of Congress",
-      "pl": "członek Kongresu"
-     },
-     "partOfSpeech": "noun",
-     "level": "B2",
-     "plural": "die Kongressabgeordneten",
-     "notes": {
-      "en": "A person elected to serve in the United States Congress.",
-      "pl": "Osoba wybrana do Kongresu Stanów Zjednoczonych."
-     },
-     "examples": [
-      "Der Kongressabgeordnete stellte eine Frage zur neuen Regelung.",
-      "Mehrere Kongressabgeordnete forderten weitere Informationen."
-     ]
-    },
-    {
-     "id": 20,
-     "word": "der Verdacht",
-     "translation": {
-      "en": "suspicion",
-      "pl": "podejrzenie"
-     },
-     "partOfSpeech": "noun",
-     "level": "B2",
-     "plural": "die Verdachtsmomente",
-     "notes": {
-      "en": "A belief that someone may have done something wrong, not yet proven.",
-      "pl": "Przekonanie, że ktoś mógł zrobić coś złego, jeszcze niepotwierdzone."
-     },
-     "examples": [
-      "Der Verdacht konnte bisher nicht bestätigt werden.",
-      "Die Polizei prüft den Verdacht sorgfältig."
-     ]
-    },
-    {
-     "id": 21,
-     "word": "die Einbürgerung",
-     "translation": {
-      "en": "naturalisation",
-      "pl": "naturalizacja, uzyskanie obywatelstwa"
-     },
-     "partOfSpeech": "noun",
-     "level": "C1",
-     "plural": "die Einbürgerungen",
-     "notes": {
-      "en": "The legal process of becoming a citizen of a country.",
-      "pl": "Prawny proces uzyskiwania obywatelstwa danego kraju."
-     },
-     "examples": [
-      "Die Einbürgerung dauerte mehrere Monate.",
-      "Für die Einbürgerung müssen bestimmte Voraussetzungen erfüllt sein."
-     ]
-    },
-    {
-     "id": 22,
-     "word": "motiviert",
-     "translation": {
-      "en": "motivated; driven",
-      "pl": "umotywowany, motywowany"
-     },
-     "partOfSpeech": "adjective",
-     "level": "B2",
-     "plural": "",
-     "notes": {
-      "en": "In this context, describing an action as driven by a particular motive.",
-      "pl": "W tym kontekście: o działaniu podyktowanym określonym motywem."
-     },
-     "examples": [
-      "Die Entscheidung war politisch motiviert.",
-      "Die Behörde prüft, ob die Maßnahme rechtlich motiviert war."
-     ]
-    },
-    {
-     "id": 23,
-     "word": "die Razzia",
-     "translation": {
-      "en": "raid",
-      "pl": "obława, nalot policyjny"
-     },
-     "partOfSpeech": "noun",
-     "level": "C1",
-     "plural": "die Razzien",
-     "notes": {
-      "en": "A sudden search carried out by police or other authorities.",
-      "pl": "Nagłe przeszukanie przeprowadzone przez policję lub inne organy."
-     },
-     "examples": [
-      "Die Razzia begann am frühen Morgen.",
-      "Nach der Razzia befragte die Polizei mehrere Zeugen."
-     ]
-    },
-    {
-     "id": 24,
-     "word": "der Cyberangriff",
-     "translation": {
-      "en": "cyberattack",
-      "pl": "cyberatak"
-     },
-     "partOfSpeech": "noun",
-     "level": "B2",
-     "plural": "die Cyberangriffe",
-     "notes": {
-      "en": "An attack targeting computer systems, networks, or digital services.",
-      "pl": "Atak na systemy komputerowe, sieci lub usługi cyfrowe."
-     },
-     "examples": [
-      "Der Cyberangriff legte mehrere Systeme lahm.",
-      "Das Unternehmen verstärkt nach dem Cyberangriff seine Sicherheitsmaßnahmen."
-     ]
-    },
-    {
-     "id": 25,
-     "word": "lahmlegen",
-     "translation": {
-      "en": "to disable; to bring to a standstill",
-      "pl": "sparaliżować"
-     },
-     "partOfSpeech": "verb",
-     "level": "B2",
-     "plural": "",
-     "notes": {
-      "en": "To stop a system or activity from functioning.",
-      "pl": "Sprawić, że system lub działalność przestaje funkcjonować."
-     },
-     "examples": [
-      "Ein technischer Fehler legte das Netzwerk lahm.",
-      "Der Streik kann den öffentlichen Verkehr lahmlegen."
-     ]
-    },
-    {
-     "id": 26,
-     "word": "der Auftaumodus",
-     "translation": {
-      "en": "defrost mode",
-      "pl": "tryb rozmrażania"
-     },
-     "partOfSpeech": "noun",
-     "level": "C1",
-     "plural": "die Auftaumodi",
-     "notes": {
-      "en": "A setting that allows frozen surfaces or equipment to defrost.",
-      "pl": "Ustawienie pozwalające rozmrozić zamrożone powierzchnie lub urządzenia."
-     },
-     "examples": [
-      "Das Gerät wechselte automatisch in den Auftaumodus.",
-      "Der Techniker überprüfte den Auftaumodus der Anlage."
-     ]
-    },
-    {
-     "id": 27,
-     "word": "die Filiale",
-     "translation": {
-      "en": "branch; store location",
-      "pl": "oddział, placówka"
-     },
-     "partOfSpeech": "noun",
-     "level": "B1",
-     "plural": "die Filialen",
-     "notes": {
-      "en": "A local branch of a company or shop.",
-      "pl": "Lokalny oddział firmy lub sklepu."
-     },
-     "examples": [
-      "Die Filiale bleibt heute geschlossen.",
-      "Das Unternehmen eröffnet eine neue Filiale in der Innenstadt."
-     ]
-    },
-    {
-     "id": 28,
-     "word": "die Störung",
-     "translation": {
-      "en": "disruption; malfunction",
-      "pl": "awaria, zakłócenie"
-     },
-     "partOfSpeech": "noun",
-     "level": "B2",
-     "plural": "die Störungen",
-     "notes": {
-      "en": "An interruption or problem affecting normal operation.",
-      "pl": "Przerwa lub problem utrudniający normalne działanie."
-     },
-     "examples": [
-      "Die Störung dauerte fast eine Stunde.",
-      "Techniker arbeiten daran, die Störung zu beheben."
-     ]
-    },
-    {
-     "id": 29,
-     "word": "entsorgen",
-     "translation": {
-      "en": "to dispose of",
-      "pl": "utylizować, usunąć"
-     },
-     "partOfSpeech": "verb",
-     "level": "B2",
-     "plural": "",
-     "notes": {
-      "en": "To get rid of waste or items that can no longer be used safely.",
-      "pl": "Pozbyć się odpadów lub rzeczy, których nie można już bezpiecznie używać."
-     },
-     "examples": [
-      "Der Supermarkt muss verdorbene Lebensmittel entsorgen.",
-      "Alte Batterien darf man nicht im Hausmüll entsorgen."
-     ]
-    },
-    {
-     "id": 30,
-     "word": "die Staatsanwaltschaft",
-     "translation": {
-      "en": "public prosecutor's office",
-      "pl": "prokuratura"
-     },
-     "partOfSpeech": "noun",
-     "level": "C1",
-     "plural": "die Staatsanwaltschaften",
-     "notes": {
-      "en": "The authority responsible for prosecuting criminal cases.",
-      "pl": "Organ odpowiedzialny za ściganie spraw karnych."
-     },
-     "examples": [
-      "Die Staatsanwaltschaft hat eine Untersuchung eingeleitet.",
-      "Die Staatsanwaltschaft befragte mehrere Zeugen."
-     ]
-    },
-    {
-     "id": 31,
-     "word": "die Unterstützungsmission",
-     "translation": {
-      "en": "support mission",
-      "pl": "misja wsparcia"
-     },
-     "partOfSpeech": "noun",
-     "level": "C1",
-     "plural": "die Unterstützungsmissionen",
-     "notes": {
-      "en": "An organised mission intended to provide assistance.",
-      "pl": "Zorganizowana misja mająca udzielić pomocy."
-     },
-     "examples": [
-      "Die Unterstützungsmission soll im Frühjahr beginnen.",
-      "Mehrere Staaten beteiligen sich an der Unterstützungsmission."
-     ]
-    },
-    {
-     "id": 32,
-     "word": "das Staatsgebiet",
-     "translation": {
-      "en": "national territory",
-      "pl": "terytorium państwa"
-     },
-     "partOfSpeech": "noun",
-     "level": "C1",
-     "plural": "die Staatsgebiete",
-     "notes": {
-      "en": "The territory over which a state exercises sovereignty.",
-      "pl": "Terytorium, nad którym państwo sprawuje suwerenność."
-     },
-     "examples": [
-      "Die Regierung will das gesamte Staatsgebiet kontrollieren.",
-      "Die Grenze des Staatsgebiets ist klar festgelegt."
-     ]
-    },
-    {
-     "id": 33,
-     "word": "die Bekämpfung",
-     "translation": {
-      "en": "combating; counteraction",
-      "pl": "zwalczanie"
-     },
-     "partOfSpeech": "noun",
-     "level": "B2",
-     "plural": "die Bekämpfungen",
-     "notes": {
-      "en": "Organised efforts to stop or reduce a problem or threat.",
-      "pl": "Zorganizowane działania mające powstrzymać lub ograniczyć problem albo zagrożenie."
-     },
-     "examples": [
-      "Die Bekämpfung von Betrug hat hohe Priorität.",
-      "Die Regierung verstärkt die Bekämpfung der Cyberkriminalität."
-     ]
-    },
-    {
-     "id": 34,
-     "word": "die Cyberkriminalität",
-     "translation": {
-      "en": "cybercrime",
-      "pl": "cyberprzestępczość"
-     },
-     "partOfSpeech": "noun",
-     "level": "C1",
-     "plural": "",
-     "notes": {
-      "en": "Criminal activity involving computers, networks, or digital systems.",
-      "pl": "Działalność przestępcza z użyciem komputerów, sieci lub systemów cyfrowych."
-     },
-     "examples": [
-      "Die Cyberkriminalität stellt Behörden vor neue Herausforderungen.",
-      "Das Unternehmen schult seine Mitarbeiter zur Vorbeugung gegen Cyberkriminalität."
-     ]
-    },
-    {
-     "id": 35,
-     "word": "der Schmuggel",
-     "translation": {
-      "en": "smuggling",
-      "pl": "przemyt"
-     },
-     "partOfSpeech": "noun",
-     "level": "B2",
-     "plural": "",
-     "notes": {
-      "en": "The illegal movement of goods across borders.",
-      "pl": "Nielegalne przewożenie towarów przez granice."
-     },
-     "examples": [
-      "Die Polizei untersucht einen Fall von Schmuggel.",
-      "Neue Kontrollen sollen den Schmuggel verhindern."
-     ]
-    },
-    {
-     "id": 36,
-     "word": "der Einfluss",
-     "translation": {
-      "en": "influence",
-      "pl": "wpływ"
-     },
-     "partOfSpeech": "noun",
-     "level": "B2",
-     "plural": "die Einflüsse",
-     "notes": {
-      "en": "The ability to affect decisions, events, or people.",
-      "pl": "Zdolność oddziaływania na decyzje, wydarzenia lub ludzi."
-     },
-     "examples": [
-      "Die Organisation hat großen Einfluss auf die Region.",
-      "Der Einfluss der Gruppe ist in den letzten Jahren gewachsen."
-     ]
-    },
-    {
-     "id": 37,
-     "word": "die Entwaffnung",
-     "translation": {
-      "en": "disarmament",
-      "pl": "rozbrojenie"
-     },
-     "partOfSpeech": "noun",
-     "level": "C1",
-     "plural": "die Entwaffnungen",
-     "notes": {
-      "en": "The process of removing weapons from a person or armed group.",
-      "pl": "Proces odbierania broni osobie lub grupie zbrojnej."
-     },
-     "examples": [
-      "Die Entwaffnung der Gruppe bleibt umstritten.",
-      "Beide Seiten diskutieren über die Entwaffnung."
-     ]
-    },
-    {
-     "id": 38,
-     "word": "die Blauhelmmission",
-     "translation": {
-      "en": "UN peacekeeping mission",
-      "pl": "misja błękitnych hełmów (misja pokojowa ONZ)"
-     },
-     "partOfSpeech": "noun",
-     "level": "C1",
-     "plural": "die Blauhelmmissionen",
-     "notes": {
-      "en": "A peacekeeping operation carried out by United Nations forces.",
-      "pl": "Operacja pokojowa prowadzona przez siły Narodów Zjednoczonych."
-     },
-     "examples": [
-      "Die Blauhelmmission überwacht die vereinbarte Waffenruhe.",
-      "Die Blauhelmmission soll zum Schutz der Zivilbevölkerung beitragen."
-     ]
-    }
-   ]
+    "audioUrl": "https://radiodownloaddw-a.akamaihd.net/downloads/Events/dwelle/dira/mp3/deutschkurse/nachrichten_live/DB75050E_2.mp3",
+    "articles": [
+      {
+        "heading": "Trumps Diesel-Deal soll Putin an Verhandlungstisch bringen",
+        "text": "US-Präsident Donald Trump hat das umstrittene [[Diesel-Abkommen|1]] mit Russland verteidigt. Es solle die [[Kraftstoffpreise|2]] senken und US-Landwirten helfen. Zugleich will Washington Moskau damit offenbar zu [[Friedensgesprächen|3]] über die Ukraine bewegen. Dafür wurden [[Sanktionen|4]] gegen russische Treibstoffe vorübergehend aufgehoben. Politiker beider US-Parteien kritisieren den Schritt als [[Gesetzesverstoß|5]]. Russlands Präsident Wladimir Putin ist laut US-[[Gesandten|6]] derzeit nicht zu Verhandlungen bereit. Trump erklärte zudem, Russland und die Ukraine hätten sich auf einen Stopp der Angriffe auf [[Energieanlagen|7]] geeinigt. Der ukrainische Präsident Wolodymyr Selenskyj meldete jedoch neue russische Angriffe."
+      },
+      {
+        "heading": "Huthi-Miliz setzt Angriffe auf Riad fort",
+        "text": "Die saudi-arabische Hauptstadt Riad ist erneut von heftigen [[Explosionen|8]] erschüttert worden. Zuvor waren die Bewohner vor einer [[Bedrohung|9]] aus der Luft gewarnt worden. Die Huthi-[[Miliz|10]] aus dem Jemen erklärte, sie habe den internationalen Flughafen mit einer Rakete getroffen. Die von Saudi-Arabien angeführte [[Militärkoalition|11]] teilte dagegen mit, das Geschoss sei [[abgefangen|12]] und zerstört worden. Die Huthis meldeten zudem einen [[Drohnenangriff|13]] auf einen Luftwaffenstützpunkt im Süden des Landes. In den vergangenen Tagen hatte die Miliz ihre Angriffe auf Riad verstärkt. Dabei kamen insgesamt 18 Menschen ums Leben. Allein am Samstag wurden 13 Menschen getötet und mehr als 300 verletzt."
+      },
+      {
+        "heading": "IWF erwartet kräftigeren Aufschwung in Deutschland",
+        "text": "Der Internationale Währungsfonds (IWF) hat seine [[Wachstumsprognose|14]] für Deutschland deutlich angehoben. Die Wirtschaft dürfte 2026 um 1,3 Prozent wachsen. Im Juli hatte der IWF noch 0,7 Prozent erwartet. Für 2027 rechnen die Experten mit einem [[Plus|15]] von 1,1 Prozent. Damit liegen die Prognosen auf dem gleichen Niveau wie die der Bundesregierung. Vor allem staatliche [[Investitionen|16]] in [[Infrastruktur|17]] und Verteidigung sowie höhere Exporte treiben das Wachstum an. Auch für die Eurozone und die Weltwirtschaft ist der IWF optimistischer. Weltweit erwartet er 2026 ein Wachstum von 3,1 Prozent. Die Weltwirtschaft zeigt sich laut IWF trotz der Energiekrise infolge des Iran-Kriegs [[widerstandsfähig|18]]."
+      },
+      {
+        "heading": "US-Justiz ermittelt gegen Trump-Kritikerin Omar",
+        "text": "In den USA haben Ermittler das Haus der demokratischen [[Kongressabgeordneten|19]] Ilhan Omar in Washington durchsucht. Laut Fox News besteht der [[Verdacht|20]], dass ihr inzwischen verstorbener Vater bei Omars [[Einbürgerung|21]] falsche Angaben gemacht haben könnte. Das US-Justizministerium bestätigte eine Durchsuchung im Raum Washington, nannte aber keine Namen. Omar, eine scharfe Kritikerin von Präsident Donald Trump, hatte frühere Ermittlungen gegen sie als politisch [[motiviert|22]] bezeichnet. Zu der [[Razzia|23]] äußerte sie sich zunächst nicht. Die aus Somalia stammende Politikerin kandidiert bei den Kongresswahlen in drei Wochen erneut für einen Sitz im Repräsentantenhaus."
+      },
+      {
+        "heading": "Hacker sabotieren Kühlanlagen in Frankreich",
+        "text": "Ein [[Cyberangriff|24]] hat in zahlreichen französischen Supermärkten Kühl- und Gefrieranlagen [[lahmgelegt|25]]. Hackern gelang es, die Geräte in der Nacht zum Montag in den [[Auftaumodus|26]] zu versetzen. Allein bei den Handelsketten Intermarché und Netto waren rund 150 [[Filialen|27]] betroffen. Auch andere Supermarktketten meldeten [[Störungen|28]]. Der Angriff richtete sich offenbar gegen einen dänischen Software-Dienstleister, dessen Technik mehrere Händler nutzen. Zahlreiche Lebensmittel müssen nun [[entsorgt|29]] werden. Die Höhe des Schadens ist noch unklar. Nach Angaben der Pariser [[Staatsanwaltschaft|30]] wurden auch Brände gemeldet. Die Behörde hat Ermittlungen aufgenommen."
+      },
+      {
+        "heading": "EU will Libanons Sicherheitskräfte stärken",
+        "text": "Die EU-Außenminister haben eine neue [[Unterstützungsmission|31]] für den Libanon beschlossen. Sie soll die Sicherheitskräfte des Landes beraten und ausbilden, damit diese künftig das gesamte [[Staatsgebiet|32]] kontrollieren können. Auch Deutschland will sich beteiligen. Der Einsatz soll im kommenden Jahr beginnen und einen militärischen sowie einen zivilen Teil umfassen. Neben der Ausbildung der Armee ist Unterstützung bei der [[Bekämpfung|33]] von [[Cyberkriminalität|34]] und [[Schmuggel|35]] geplant. Bislang verfügt auch die proiranische Hisbollah-Miliz über erheblichen [[Einfluss|36]] im Libanon. Sie lehnt ihre [[Entwaffnung|37]] ab. Der neue EU-Einsatz soll auf die UN-[[Blauhelmmission|38]] UNIFIL folgen, die Ende des Jahres ausläuft."
+      }
+    ],
+    "vocab": [
+      {
+        "id": 1,
+        "word": "das Diesel-Abkommen",
+        "translation": {
+          "en": "diesel agreement",
+          "pl": "umowa dotycząca oleju napędowego"
+        },
+        "partOfSpeech": "noun",
+        "level": "B2",
+        "plural": "die Diesel-Abkommen",
+        "notes": {
+          "en": "A formal agreement concerning diesel fuel or related policy.",
+          "pl": "Formalne porozumienie dotyczące oleju napędowego lub związanej z nim polityki."
+        },
+        "examples": [
+          "Das Diesel-Abkommen wurde gestern öffentlich vorgestellt.",
+          "Viele Politiker diskutieren über das neue Diesel-Abkommen."
+        ]
+      },
+      {
+        "id": 2,
+        "word": "der Kraftstoffpreis",
+        "translation": {
+          "en": "fuel price",
+          "pl": "cena paliwa"
+        },
+        "partOfSpeech": "noun",
+        "level": "B1",
+        "plural": "die Kraftstoffpreise",
+        "notes": {
+          "en": "The price paid for petrol, diesel, or another fuel.",
+          "pl": "Cena płacona za benzynę, olej napędowy lub inne paliwo."
+        },
+        "examples": [
+          "Der Kraftstoffpreis ist in diesem Monat gestiegen.",
+          "Viele Unternehmen beobachten die Kraftstoffpreise genau."
+        ]
+      },
+      {
+        "id": 3,
+        "word": "das Friedensgespräch",
+        "translation": {
+          "en": "peace talks",
+          "pl": "rozmowy pokojowe"
+        },
+        "partOfSpeech": "noun",
+        "level": "B2",
+        "plural": "die Friedensgespräche",
+        "notes": {
+          "en": "Negotiations intended to help end a conflict.",
+          "pl": "Negocjacje mające pomóc zakończyć konflikt."
+        },
+        "examples": [
+          "Die Friedensgespräche beginnen am Montag.",
+          "Beide Seiten wollen die Friedensgespräche fortsetzen."
+        ]
+      },
+      {
+        "id": 4,
+        "word": "die Sanktion",
+        "translation": {
+          "en": "sanction",
+          "pl": "sankcja"
+        },
+        "partOfSpeech": "noun",
+        "level": "B2",
+        "plural": "die Sanktionen",
+        "notes": {
+          "en": "An official measure imposed to influence a state or organisation.",
+          "pl": "Oficjalny środek stosowany, by wpłynąć na państwo lub organizację."
+        },
+        "examples": [
+          "Die Regierung hat neue Sanktionen angekündigt.",
+          "Die Sanktionen betreffen mehrere wichtige Branchen."
+        ]
+      },
+      {
+        "id": 5,
+        "word": "der Gesetzesverstoß",
+        "translation": {
+          "en": "violation of the law",
+          "pl": "naruszenie prawa"
+        },
+        "partOfSpeech": "noun",
+        "level": "C1",
+        "plural": "die Gesetzesverstöße",
+        "notes": {
+          "en": "An action that breaks a law.",
+          "pl": "Czyn łamiący prawo."
+        },
+        "examples": [
+          "Die Behörde untersucht einen möglichen Gesetzesverstoß.",
+          "Ein Gesetzesverstoß kann rechtliche Folgen haben."
+        ]
+      },
+      {
+        "id": 6,
+        "word": "der Gesandte",
+        "translation": {
+          "en": "envoy",
+          "pl": "wysłannik"
+        },
+        "partOfSpeech": "noun",
+        "level": "C1",
+        "plural": "die Gesandten",
+        "notes": {
+          "en": "A representative sent by a government or leader.",
+          "pl": "Przedstawiciel wysłany przez rząd lub przywódcę."
+        },
+        "examples": [
+          "Der Gesandte traf sich mit den Vertretern der Regierung.",
+          "Ein Gesandter soll die Gespräche vorbereiten."
+        ]
+      },
+      {
+        "id": 7,
+        "word": "die Energieanlage",
+        "translation": {
+          "en": "energy facility",
+          "pl": "obiekt energetyczny"
+        },
+        "partOfSpeech": "noun",
+        "level": "B2",
+        "plural": "die Energieanlagen",
+        "notes": {
+          "en": "A facility used to produce, distribute, or manage energy.",
+          "pl": "Obiekt służący do produkcji, dystrybucji lub zarządzania energią."
+        },
+        "examples": [
+          "Die Energieanlage wurde nach dem Angriff geschlossen.",
+          "Neue Energieanlagen sollen die Versorgung sichern."
+        ]
+      },
+      {
+        "id": 8,
+        "word": "die Explosion",
+        "translation": {
+          "en": "explosion",
+          "pl": "eksplozja, wybuch"
+        },
+        "partOfSpeech": "noun",
+        "level": "B1",
+        "plural": "die Explosionen",
+        "notes": {
+          "en": "A sudden release of energy that causes a blast.",
+          "pl": "Nagłe uwolnienie energii powodujące wybuch."
+        },
+        "examples": [
+          "Die Explosion war in der ganzen Stadt zu hören.",
+          "Nach der Explosion sperrte die Polizei die Straße."
+        ]
+      },
+      {
+        "id": 9,
+        "word": "die Bedrohung",
+        "translation": {
+          "en": "threat",
+          "pl": "zagrożenie"
+        },
+        "partOfSpeech": "noun",
+        "level": "B2",
+        "plural": "die Bedrohungen",
+        "notes": {
+          "en": "A person, situation, or action that may cause harm.",
+          "pl": "Osoba, sytuacja lub działanie, które mogą wyrządzić szkodę."
+        },
+        "examples": [
+          "Die Regierung nimmt die Bedrohung ernst.",
+          "Die Bedrohung betrifft mehrere Regionen."
+        ]
+      },
+      {
+        "id": 10,
+        "word": "die Miliz",
+        "translation": {
+          "en": "militia",
+          "pl": "milicja, bojówka"
+        },
+        "partOfSpeech": "noun",
+        "level": "B2",
+        "plural": "die Milizen",
+        "notes": {
+          "en": "An armed group that is not usually part of a regular national army.",
+          "pl": "Grupa zbrojna, zwykle niebędąca częścią regularnej armii."
+        },
+        "examples": [
+          "Die Miliz kontrolliert mehrere Straßen.",
+          "Die Regierung verhandelt nicht mit der Miliz."
+        ]
+      },
+      {
+        "id": 11,
+        "word": "die Militärkoalition",
+        "translation": {
+          "en": "military coalition",
+          "pl": "koalicja wojskowa"
+        },
+        "partOfSpeech": "noun",
+        "level": "C1",
+        "plural": "die Militärkoalitionen",
+        "notes": {
+          "en": "A group of states or forces acting together militarily.",
+          "pl": "Grupa państw lub sił działających wspólnie militarnie."
+        },
+        "examples": [
+          "Die Militärkoalition erklärte ihre nächsten Schritte.",
+          "Mehrere Länder gehören der Militärkoalition an."
+        ]
+      },
+      {
+        "id": 12,
+        "word": "abfangen",
+        "translation": {
+          "en": "to intercept",
+          "pl": "przechwycić"
+        },
+        "partOfSpeech": "verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "To stop or capture something while it is travelling toward a target.",
+          "pl": "Zatrzymać lub przejąć coś w drodze do celu."
+        },
+        "examples": [
+          "Die Luftabwehr konnte die Rakete abfangen.",
+          "Die Polizei fing die gestohlene Ware ab."
+        ]
+      },
+      {
+        "id": 13,
+        "word": "der Drohnenangriff",
+        "translation": {
+          "en": "drone attack",
+          "pl": "atak dronów"
+        },
+        "partOfSpeech": "noun",
+        "level": "B2",
+        "plural": "die Drohnenangriffe",
+        "notes": {
+          "en": "An attack carried out using one or more drones.",
+          "pl": "Atak przeprowadzony przy użyciu jednego lub kilku dronów."
+        },
+        "examples": [
+          "Der Drohnenangriff beschädigte mehrere Gebäude.",
+          "Die Regierung untersucht den Drohnenangriff."
+        ]
+      },
+      {
+        "id": 14,
+        "word": "die Wachstumsprognose",
+        "translation": {
+          "en": "growth forecast",
+          "pl": "prognoza wzrostu"
+        },
+        "partOfSpeech": "noun",
+        "level": "B2",
+        "plural": "die Wachstumsprognosen",
+        "notes": {
+          "en": "An estimate of how much an economy or business will grow.",
+          "pl": "Szacunek tego, jak bardzo wzrośnie gospodarka lub firma."
+        },
+        "examples": [
+          "Die Wachstumsprognose wurde leicht angehoben.",
+          "Analysten vergleichen die neue Wachstumsprognose mit früheren Schätzungen."
+        ]
+      },
+      {
+        "id": 15,
+        "word": "das Plus",
+        "translation": {
+          "en": "increase; positive growth",
+          "pl": "wzrost, plus"
+        },
+        "partOfSpeech": "noun",
+        "level": "B1",
+        "plural": "die Plus",
+        "notes": {
+          "en": "In economic reporting, an increase or positive result.",
+          "pl": "W doniesieniach gospodarczych: wzrost lub wynik dodatni."
+        },
+        "examples": [
+          "Das Unternehmen meldete ein Plus beim Umsatz.",
+          "Für das nächste Jahr erwarten Experten ein kleines Plus."
+        ]
+      },
+      {
+        "id": 16,
+        "word": "die Investition",
+        "translation": {
+          "en": "investment",
+          "pl": "inwestycja"
+        },
+        "partOfSpeech": "noun",
+        "level": "B1",
+        "plural": "die Investitionen",
+        "notes": {
+          "en": "Money or resources committed to achieve future benefits.",
+          "pl": "Pieniądze lub zasoby zaangażowane w celu osiągnięcia przyszłych korzyści."
+        },
+        "examples": [
+          "Die Investition soll neue Arbeitsplätze schaffen.",
+          "Das Unternehmen plant eine Investition in moderne Technik."
+        ]
+      },
+      {
+        "id": 17,
+        "word": "die Infrastruktur",
+        "translation": {
+          "en": "infrastructure",
+          "pl": "infrastruktura"
+        },
+        "partOfSpeech": "noun",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Basic systems and facilities such as roads, railways, and utilities.",
+          "pl": "Podstawowe systemy i obiekty, takie jak drogi, koleje i sieci."
+        },
+        "examples": [
+          "Die Infrastruktur muss dringend modernisiert werden.",
+          "Der Staat investiert mehr Geld in die Infrastruktur."
+        ]
+      },
+      {
+        "id": 18,
+        "word": "widerstandsfähig",
+        "translation": {
+          "en": "resilient; resistant",
+          "pl": "odporny"
+        },
+        "partOfSpeech": "adjective",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Able to withstand pressure, difficulty, or disruption.",
+          "pl": "Zdolny wytrzymać presję, trudności lub zakłócenia."
+        },
+        "examples": [
+          "Die Wirtschaft bleibt trotz der Krise widerstandsfähig.",
+          "Ein widerstandsfähiges Unternehmen kann auf Veränderungen reagieren."
+        ]
+      },
+      {
+        "id": 19,
+        "word": "der Kongressabgeordnete",
+        "translation": {
+          "en": "member of Congress",
+          "pl": "członek Kongresu"
+        },
+        "partOfSpeech": "noun",
+        "level": "B2",
+        "plural": "die Kongressabgeordneten",
+        "notes": {
+          "en": "A person elected to serve in the United States Congress.",
+          "pl": "Osoba wybrana do Kongresu Stanów Zjednoczonych."
+        },
+        "examples": [
+          "Der Kongressabgeordnete stellte eine Frage zur neuen Regelung.",
+          "Mehrere Kongressabgeordnete forderten weitere Informationen."
+        ]
+      },
+      {
+        "id": 20,
+        "word": "der Verdacht",
+        "translation": {
+          "en": "suspicion",
+          "pl": "podejrzenie"
+        },
+        "partOfSpeech": "noun",
+        "level": "B2",
+        "plural": "die Verdachtsmomente",
+        "notes": {
+          "en": "A belief that someone may have done something wrong, not yet proven.",
+          "pl": "Przekonanie, że ktoś mógł zrobić coś złego, jeszcze niepotwierdzone."
+        },
+        "examples": [
+          "Der Verdacht konnte bisher nicht bestätigt werden.",
+          "Die Polizei prüft den Verdacht sorgfältig."
+        ]
+      },
+      {
+        "id": 21,
+        "word": "die Einbürgerung",
+        "translation": {
+          "en": "naturalisation",
+          "pl": "naturalizacja, uzyskanie obywatelstwa"
+        },
+        "partOfSpeech": "noun",
+        "level": "C1",
+        "plural": "die Einbürgerungen",
+        "notes": {
+          "en": "The legal process of becoming a citizen of a country.",
+          "pl": "Prawny proces uzyskiwania obywatelstwa danego kraju."
+        },
+        "examples": [
+          "Die Einbürgerung dauerte mehrere Monate.",
+          "Für die Einbürgerung müssen bestimmte Voraussetzungen erfüllt sein."
+        ]
+      },
+      {
+        "id": 22,
+        "word": "motiviert",
+        "translation": {
+          "en": "motivated; driven",
+          "pl": "umotywowany, motywowany"
+        },
+        "partOfSpeech": "adjective",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "In this context, describing an action as driven by a particular motive.",
+          "pl": "W tym kontekście: o działaniu podyktowanym określonym motywem."
+        },
+        "examples": [
+          "Die Entscheidung war politisch motiviert.",
+          "Die Behörde prüft, ob die Maßnahme rechtlich motiviert war."
+        ]
+      },
+      {
+        "id": 23,
+        "word": "die Razzia",
+        "translation": {
+          "en": "raid",
+          "pl": "obława, nalot policyjny"
+        },
+        "partOfSpeech": "noun",
+        "level": "C1",
+        "plural": "die Razzien",
+        "notes": {
+          "en": "A sudden search carried out by police or other authorities.",
+          "pl": "Nagłe przeszukanie przeprowadzone przez policję lub inne organy."
+        },
+        "examples": [
+          "Die Razzia begann am frühen Morgen.",
+          "Nach der Razzia befragte die Polizei mehrere Zeugen."
+        ]
+      },
+      {
+        "id": 24,
+        "word": "der Cyberangriff",
+        "translation": {
+          "en": "cyberattack",
+          "pl": "cyberatak"
+        },
+        "partOfSpeech": "noun",
+        "level": "B2",
+        "plural": "die Cyberangriffe",
+        "notes": {
+          "en": "An attack targeting computer systems, networks, or digital services.",
+          "pl": "Atak na systemy komputerowe, sieci lub usługi cyfrowe."
+        },
+        "examples": [
+          "Der Cyberangriff legte mehrere Systeme lahm.",
+          "Das Unternehmen verstärkt nach dem Cyberangriff seine Sicherheitsmaßnahmen."
+        ]
+      },
+      {
+        "id": 25,
+        "word": "lahmlegen",
+        "translation": {
+          "en": "to disable; to bring to a standstill",
+          "pl": "sparaliżować"
+        },
+        "partOfSpeech": "verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "To stop a system or activity from functioning.",
+          "pl": "Sprawić, że system lub działalność przestaje funkcjonować."
+        },
+        "examples": [
+          "Ein technischer Fehler legte das Netzwerk lahm.",
+          "Der Streik kann den öffentlichen Verkehr lahmlegen."
+        ]
+      },
+      {
+        "id": 26,
+        "word": "der Auftaumodus",
+        "translation": {
+          "en": "defrost mode",
+          "pl": "tryb rozmrażania"
+        },
+        "partOfSpeech": "noun",
+        "level": "C1",
+        "plural": "die Auftaumodi",
+        "notes": {
+          "en": "A setting that allows frozen surfaces or equipment to defrost.",
+          "pl": "Ustawienie pozwalające rozmrozić zamrożone powierzchnie lub urządzenia."
+        },
+        "examples": [
+          "Das Gerät wechselte automatisch in den Auftaumodus.",
+          "Der Techniker überprüfte den Auftaumodus der Anlage."
+        ]
+      },
+      {
+        "id": 27,
+        "word": "die Filiale",
+        "translation": {
+          "en": "branch; store location",
+          "pl": "oddział, placówka"
+        },
+        "partOfSpeech": "noun",
+        "level": "B1",
+        "plural": "die Filialen",
+        "notes": {
+          "en": "A local branch of a company or shop.",
+          "pl": "Lokalny oddział firmy lub sklepu."
+        },
+        "examples": [
+          "Die Filiale bleibt heute geschlossen.",
+          "Das Unternehmen eröffnet eine neue Filiale in der Innenstadt."
+        ]
+      },
+      {
+        "id": 28,
+        "word": "die Störung",
+        "translation": {
+          "en": "disruption; malfunction",
+          "pl": "awaria, zakłócenie"
+        },
+        "partOfSpeech": "noun",
+        "level": "B2",
+        "plural": "die Störungen",
+        "notes": {
+          "en": "An interruption or problem affecting normal operation.",
+          "pl": "Przerwa lub problem utrudniający normalne działanie."
+        },
+        "examples": [
+          "Die Störung dauerte fast eine Stunde.",
+          "Techniker arbeiten daran, die Störung zu beheben."
+        ]
+      },
+      {
+        "id": 29,
+        "word": "entsorgen",
+        "translation": {
+          "en": "to dispose of",
+          "pl": "utylizować, usunąć"
+        },
+        "partOfSpeech": "verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "To get rid of waste or items that can no longer be used safely.",
+          "pl": "Pozbyć się odpadów lub rzeczy, których nie można już bezpiecznie używać."
+        },
+        "examples": [
+          "Der Supermarkt muss verdorbene Lebensmittel entsorgen.",
+          "Alte Batterien darf man nicht im Hausmüll entsorgen."
+        ]
+      },
+      {
+        "id": 30,
+        "word": "die Staatsanwaltschaft",
+        "translation": {
+          "en": "public prosecutor's office",
+          "pl": "prokuratura"
+        },
+        "partOfSpeech": "noun",
+        "level": "C1",
+        "plural": "die Staatsanwaltschaften",
+        "notes": {
+          "en": "The authority responsible for prosecuting criminal cases.",
+          "pl": "Organ odpowiedzialny za ściganie spraw karnych."
+        },
+        "examples": [
+          "Die Staatsanwaltschaft hat eine Untersuchung eingeleitet.",
+          "Die Staatsanwaltschaft befragte mehrere Zeugen."
+        ]
+      },
+      {
+        "id": 31,
+        "word": "die Unterstützungsmission",
+        "translation": {
+          "en": "support mission",
+          "pl": "misja wsparcia"
+        },
+        "partOfSpeech": "noun",
+        "level": "C1",
+        "plural": "die Unterstützungsmissionen",
+        "notes": {
+          "en": "An organised mission intended to provide assistance.",
+          "pl": "Zorganizowana misja mająca udzielić pomocy."
+        },
+        "examples": [
+          "Die Unterstützungsmission soll im Frühjahr beginnen.",
+          "Mehrere Staaten beteiligen sich an der Unterstützungsmission."
+        ]
+      },
+      {
+        "id": 32,
+        "word": "das Staatsgebiet",
+        "translation": {
+          "en": "national territory",
+          "pl": "terytorium państwa"
+        },
+        "partOfSpeech": "noun",
+        "level": "C1",
+        "plural": "die Staatsgebiete",
+        "notes": {
+          "en": "The territory over which a state exercises sovereignty.",
+          "pl": "Terytorium, nad którym państwo sprawuje suwerenność."
+        },
+        "examples": [
+          "Die Regierung will das gesamte Staatsgebiet kontrollieren.",
+          "Die Grenze des Staatsgebiets ist klar festgelegt."
+        ]
+      },
+      {
+        "id": 33,
+        "word": "die Bekämpfung",
+        "translation": {
+          "en": "combating; counteraction",
+          "pl": "zwalczanie"
+        },
+        "partOfSpeech": "noun",
+        "level": "B2",
+        "plural": "die Bekämpfungen",
+        "notes": {
+          "en": "Organised efforts to stop or reduce a problem or threat.",
+          "pl": "Zorganizowane działania mające powstrzymać lub ograniczyć problem albo zagrożenie."
+        },
+        "examples": [
+          "Die Bekämpfung von Betrug hat hohe Priorität.",
+          "Die Regierung verstärkt die Bekämpfung der Cyberkriminalität."
+        ]
+      },
+      {
+        "id": 34,
+        "word": "die Cyberkriminalität",
+        "translation": {
+          "en": "cybercrime",
+          "pl": "cyberprzestępczość"
+        },
+        "partOfSpeech": "noun",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Criminal activity involving computers, networks, or digital systems.",
+          "pl": "Działalność przestępcza z użyciem komputerów, sieci lub systemów cyfrowych."
+        },
+        "examples": [
+          "Die Cyberkriminalität stellt Behörden vor neue Herausforderungen.",
+          "Das Unternehmen schult seine Mitarbeiter zur Vorbeugung gegen Cyberkriminalität."
+        ]
+      },
+      {
+        "id": 35,
+        "word": "der Schmuggel",
+        "translation": {
+          "en": "smuggling",
+          "pl": "przemyt"
+        },
+        "partOfSpeech": "noun",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "The illegal movement of goods across borders.",
+          "pl": "Nielegalne przewożenie towarów przez granice."
+        },
+        "examples": [
+          "Die Polizei untersucht einen Fall von Schmuggel.",
+          "Neue Kontrollen sollen den Schmuggel verhindern."
+        ]
+      },
+      {
+        "id": 36,
+        "word": "der Einfluss",
+        "translation": {
+          "en": "influence",
+          "pl": "wpływ"
+        },
+        "partOfSpeech": "noun",
+        "level": "B2",
+        "plural": "die Einflüsse",
+        "notes": {
+          "en": "The ability to affect decisions, events, or people.",
+          "pl": "Zdolność oddziaływania na decyzje, wydarzenia lub ludzi."
+        },
+        "examples": [
+          "Die Organisation hat großen Einfluss auf die Region.",
+          "Der Einfluss der Gruppe ist in den letzten Jahren gewachsen."
+        ]
+      },
+      {
+        "id": 37,
+        "word": "die Entwaffnung",
+        "translation": {
+          "en": "disarmament",
+          "pl": "rozbrojenie"
+        },
+        "partOfSpeech": "noun",
+        "level": "C1",
+        "plural": "die Entwaffnungen",
+        "notes": {
+          "en": "The process of removing weapons from a person or armed group.",
+          "pl": "Proces odbierania broni osobie lub grupie zbrojnej."
+        },
+        "examples": [
+          "Die Entwaffnung der Gruppe bleibt umstritten.",
+          "Beide Seiten diskutieren über die Entwaffnung."
+        ]
+      },
+      {
+        "id": 38,
+        "word": "die Blauhelmmission",
+        "translation": {
+          "en": "UN peacekeeping mission",
+          "pl": "misja błękitnych hełmów (misja pokojowa ONZ)"
+        },
+        "partOfSpeech": "noun",
+        "level": "C1",
+        "plural": "die Blauhelmmissionen",
+        "notes": {
+          "en": "A peacekeeping operation carried out by United Nations forces.",
+          "pl": "Operacja pokojowa prowadzona przez siły Narodów Zjednoczonych."
+        },
+        "examples": [
+          "Die Blauhelmmission überwacht die vereinbarte Waffenruhe.",
+          "Die Blauhelmmission soll zum Schutz der Zivilbevölkerung beitragen."
+        ]
+      }
+    ]
   },
   "speaking": {
-   "prompt": {
-    "en": "Speaking practice: Verb-second (V2) in main clauses\n\n1. Describe your normal working day using at least five different first-position elements, such as time expressions, places, and reasons.\n2. Explain what you did yesterday and what you will do tomorrow. Use the present perfect and future tense at least twice.\n3. Identify the finite verb in each sentence you say. If your sentence contains two verb parts, explain which part is finite and where the other part belongs.\n4. Start three sentences with something other than the subject, and make sure the finite verb remains in position two.\n5. Speak for two minutes. After each sentence, pause briefly and check: What is the first sentence element? Where is the finite verb?",
-    "pl": "Ćwiczenie mówienia: czasownik na drugim miejscu (V2) w zdaniu głównym\n\n1. Opisz swój zwykły dzień pracy, używając co najmniej pięciu różnych elementów na pierwszym miejscu w zdaniu, takich jak okolicznik czasu, miejsca i przyczyny.\n2. Opowiedz, co robiłeś wczoraj i co będziesz robić jutro. Użyj czasu Perfekt i czasu przyszłego co najmniej dwa razy.\n3. W każdym wypowiedzianym zdaniu wskaż czasownik finitny. Jeśli zdanie ma dwie części czasownika, wyjaśnij, która jest finitna i gdzie stoi druga.\n4. Zacznij trzy zdania od czegoś innego niż podmiot i dopilnuj, aby czasownik finitny pozostał na drugim miejscu.\n5. Mów przez dwie minuty. Po każdym zdaniu zrób krótką pauzę i sprawdź: Jaki jest pierwszy element zdania? Gdzie stoi czasownik finitny?"
-   }
+    "prompt": {
+      "en": "Speaking practice: Verb-second (V2) in main clauses\n\n1. Describe your normal working day using at least five different first-position elements, such as time expressions, places, and reasons.\n2. Explain what you did yesterday and what you will do tomorrow. Use the present perfect and future tense at least twice.\n3. Identify the finite verb in each sentence you say. If your sentence contains two verb parts, explain which part is finite and where the other part belongs.\n4. Start three sentences with something other than the subject, and make sure the finite verb remains in position two.\n5. Speak for two minutes. After each sentence, pause briefly and check: What is the first sentence element? Where is the finite verb?",
+      "pl": "Ćwiczenie mówienia: czasownik na drugim miejscu (V2) w zdaniu głównym\n\n1. Opisz swój zwykły dzień pracy, używając co najmniej pięciu różnych elementów na pierwszym miejscu w zdaniu, takich jak okolicznik czasu, miejsca i przyczyny.\n2. Opowiedz, co robiłeś wczoraj i co będziesz robić jutro. Użyj czasu Perfekt i czasu przyszłego co najmniej dwa razy.\n3. W każdym wypowiedzianym zdaniu wskaż czasownik finitny. Jeśli zdanie ma dwie części czasownika, wyjaśnij, która jest finitna i gdzie stoi druga.\n4. Zacznij trzy zdania od czegoś innego niż podmiot i dopilnuj, aby czasownik finitny pozostał na drugim miejscu.\n5. Mów przez dwie minuty. Po każdym zdaniu zrób krótką pauzę i sprawdź: Jaki jest pierwszy element zdania? Gdzie stoi czasownik finitny?"
+    }
   }
- },
+},
  {
   "lesson": {
    "id": "2026-10-14",
