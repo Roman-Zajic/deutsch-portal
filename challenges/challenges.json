@@ -2897,1031 +2897,1151 @@
     }
   }
 },
- {
+{
   "lesson": {
-   "id": "2026-10-15",
-   "date": "15.10.2026",
-   "day": 3,
-   "totalDays": 300,
-   "level": "B1",
-   "title": {
-    "en": "Inversion after a Fronted Time, Place or Object Phrase",
-    "pl": "Inwersja po wysunięciu na początek zdania określenia czasu, miejsca lub dopełnienia"
-   },
-   "subtitle": "Inversion im Hauptsatz: Vorfeldbesetzung und Verbzweitstellung"
+    "id": "2026-10-15",
+    "date": "15.10.2026",
+    "day": 3,
+    "totalDays": 300,
+    "level": "B1",
+    "title": {
+      "en": "Inversion after a Fronted Time, Place or Object Phrase",
+      "pl": "Inwersja po wysunięciu na początek zdania określenia czasu, miejsca lub dopełnienia"
+    },
+    "subtitle": "Inversion im Hauptsatz: Vorfeldbesetzung und Verbzweitstellung"
   },
   "grammar": {
-   "html": {
-    "en": [
-     "<p>German main clauses follow the verb-second rule (V2). When a time expression, place phrase or object is placed at the beginning for emphasis, contrast or connection with the previous sentence, the finite verb normally comes immediately after that fronted element, and the subject follows the verb if it has not already appeared. The first position contains one sentence constituent, which may consist of several words.<\/p>",
-     "<div class='box rule'><strong>Core rule:<\/strong> Fronted phrase + finite verb + subject + remaining sentence. The finite verb stays in second position, even when the subject is not first.<\/div>",
-     "<h3>Fronting time expressions<\/h3><p>Time expressions can establish when an event happened or connect events in a report. Common expressions include heute, gestern, am Mittwoch, seit Jahren and in den kommenden Monaten. If one occupies the first position, the finite verb comes next.<\/p><p><em><strong>Am Mittwoch<\/strong> feuerte Nordkorea zwei Marschflugkörper ab.<\/em><br><em><strong>Seit vergangener Woche<\/strong> wurden mehrere Schiffe getroffen.<\/em><br><em><strong>Im nächsten Jahr<\/strong> beginnt die Umstellung.<\/em><\/p><p>The fronted time phrase may contain several words, but it still counts as one sentence constituent.<\/p>",
-     "<h3>Fronting place phrases<\/h3><p>A place phrase can establish the setting before the main information is introduced. It may be a prepositional phrase or an adverb such as dort, hier or draußen. The finite verb follows the complete phrase, not necessarily its first word.<\/p><p><em><strong>In Brüssel<\/strong> kommen die Staats- und Regierungschefs zusammen.<\/em><br><em><strong>Vor der Küste Rumäniens<\/strong> lag der Tanker vor Anker.<\/em><br><em><strong>Nahe der Hauptstadt Sofia<\/strong> kam es zu einem Brand.<\/em><\/p><p>Do not confuse a fronted place phrase with a subordinate clause. A main clause retains V2 word order.<\/p>",
-     "<h3>Fronting an object<\/h3><p>An accusative or dative object can be placed first to emphasise what is affected or to connect it with an earlier statement. The finite verb still occupies the second position, followed by the subject when the subject has not been fronted.<\/p><p><em><strong>Die Reform<\/strong> unterstützte der Senator schließlich.<\/em><br><em><strong>Den Tanker<\/strong> untersuchten die Behörden genauer.<\/em><br><em><strong>Dem Vorschlag<\/strong> stimmte das Parlament zu.<\/em><\/p><p>German case marking usually makes the grammatical role clear. Moving an object does not change its case or the verb's required complements.<\/p>",
-     "<table><thead><tr><th>First constituent<\/th><th>Finite verb<\/th><th>Subject<\/th><th>Rest<\/th><\/tr><\/thead><tbody><tr><td class='de'>Am Montag<\/td><td class='de'>testete<\/td><td class='de'>Nordkorea<\/td><td class='de'>eine Rakete.<\/td><\/tr><tr><td class='de'>In Bulgarien<\/td><td class='de'>gab<\/td><td class='de'>es<\/td><td class='de'>einen ähnlichen Vorfall.<\/td><\/tr><tr><td class='de'>Die Reform<\/td><td class='de'>begrüßte<\/td><td class='de'>der Präsident<\/td><td class='de'>als historischen Erfolg.<\/td><\/tr><\/tbody><\/table>",
-     "<h3>Questions, conjunctions and other verb forms<\/h3><p>In a yes/no question, the finite verb normally comes first: <em>Hat Nordkorea eine Rakete getestet?<\/em> In a main clause introduced by a coordinating conjunction such as und, aber or denn, V2 still applies to the clause. If a fronted phrase follows the conjunction, the finite verb comes directly after that phrase: <em>Und am Dienstag wurden zwei Männer festgenommen.<\/em><\/p><p>With a compound tense or a modal verb, only the finite auxiliary or modal occupies position two; the participle or infinitive remains in its usual position: <em><strong>Am Montag<\/strong> hatte Nordkorea eine Rakete getestet.<\/em><\/p>",
-     "<div class='box warn'><strong>Typical mistake:<\/strong> Do not put the subject between the fronted phrase and the finite verb. Incorrect: <em>Am Montag Nordkorea testete eine Rakete.<\/em> Correct: <em>Am Montag testete Nordkorea eine Rakete.<\/em><\/div>",
-     "<div class='box tip'><strong>Memory aid:<\/strong> Identify the first complete sentence constituent, then place the finite verb immediately after it. If the subject has not come first, it usually follows the verb.<\/div>",
-     "<h3>Quick reference<\/h3><div class='tiles'><div class='tile'><strong>Time<\/strong><p>Heute beginnt die Konferenz.<\/p><\/div><div class='tile'><strong>Place<\/strong><p>In Berlin findet das Treffen statt.<\/p><\/div><div class='tile'><strong>Object<\/strong><p>Den Bericht liest die Ministerin.<\/p><\/div><div class='tile'><strong>Compound tense<\/strong><p>Gestern hat die Regierung entschieden.<\/p><\/div><\/div>"
-    ],
-    "pl": [
-     "<p>Niemieckie zdania główne podlegają zasadzie V2, czyli czasownik odmieniony zajmuje drugą pozycję. Gdy na początku zdania umieszczamy określenie czasu, miejsca lub dopełnienie, aby je podkreślić, przeciwstawić albo nawiązać do poprzedniej wypowiedzi, czasownik odmieniony zazwyczaj występuje bezpośrednio po tym elemencie. Podmiot pojawia się po czasowniku, jeśli nie został już umieszczony na początku. Pierwszą pozycję zajmuje jeden składnik zdania, który może składać się z kilku wyrazów.<\/p>",
-     "<div class='box rule'><strong>Główna zasada:<\/strong> Wysunięty element + czasownik odmieniony + podmiot + reszta zdania. Czasownik odmieniony pozostaje na drugiej pozycji, nawet gdy podmiot nie występuje jako pierwszy.<\/div>",
-     "<h3>Wysuwanie określeń czasu<\/h3><p>Określenia czasu wskazują, kiedy wydarzenie miało miejsce, lub łączą kolejne wydarzenia w relacji. Typowe wyrażenia to heute, gestern, am Mittwoch, seit Jahren i in den kommenden Monaten. Jeśli takie wyrażenie zajmuje pierwszą pozycję, bezpośrednio po nim występuje czasownik odmieniony.<\/p><p><em><strong>Am Mittwoch<\/strong> feuerte Nordkorea zwei Marschflugkörper ab.<\/em><br><em><strong>Seit vergangener Woche<\/strong> wurden mehrere Schiffe getroffen.<\/em><br><em><strong>Im nächsten Jahr<\/strong> beginnt die Umstellung.<\/em><\/p><p>Wysunięte określenie czasu może składać się z wielu wyrazów, ale nadal stanowi jeden składnik zdania.<\/p>",
-     "<h3>Wysuwanie określeń miejsca<\/h3><p>Określenie miejsca pozwala najpierw wskazać scenerię, a następnie przedstawić główną informację. Może to być wyrażenie przyimkowe lub przysłówek, na przykład dort, hier albo draußen. Czasownik odmieniony występuje po całym wyrażeniu, a niekoniecznie po jego pierwszym wyrazie.<\/p><p><em><strong>In Brüssel<\/strong> kommen die Staats- und Regierungschefs zusammen.<\/em><br><em><strong>Vor der Küste Rumäniens<\/strong> lag der Tanker vor Anker.<\/em><br><em><strong>Nahe der Hauptstadt Sofia<\/strong> kam es zu einem Brand.<\/em><\/p><p>Nie należy mylić wysuniętego określenia miejsca ze zdaniem podrzędnym. W zdaniu głównym nadal obowiązuje szyk V2.<\/p>",
-     "<h3>Wysuwanie dopełnienia<\/h3><p>Dopełnienie w bierniku lub celowniku można umieścić na początku, aby podkreślić, czego dotyczy wypowiedź, albo nawiązać do wcześniejszej informacji. Czasownik odmieniony nadal zajmuje drugą pozycję, a po nim występuje podmiot, jeśli nie został wysunięty na początek.<\/p><p><em><strong>Die Reform<\/strong> unterstützte der Senator schließlich.<\/em><br><em><strong>Den Tanker<\/strong> untersuchten die Behörden genauer.<\/em><br><em><strong>Dem Vorschlag<\/strong> stimmte das Parlament zu.<\/em><\/p><p>Niemieckie oznaczenia przypadka zwykle pozwalają rozpoznać funkcję gramatyczną. Przesunięcie dopełnienia nie zmienia jego przypadka ani wymaganych przez czasownik uzupełnień.<\/p>",
-     "<table><thead><tr><th>Pierwszy składnik<\/th><th>Czasownik odmieniony<\/th><th>Podmiot<\/th><th>Reszta<\/th><\/tr><\/thead><tbody><tr><td class='de'>Am Montag<\/td><td class='de'>testete<\/td><td class='de'>Nordkorea<\/td><td class='de'>eine Rakete.<\/td><\/tr><tr><td class='de'>In Bulgarien<\/td><td class='de'>gab<\/td><td class='de'>es<\/td><td class='de'>einen ähnlichen Vorfall.<\/td><\/tr><tr><td class='de'>Die Reform<\/td><td class='de'>begrüßte<\/td><td class='de'>der Präsident<\/td><td class='de'>als historischen Erfolg.<\/td><\/tr><\/tbody><\/table>",
-     "<h3>Pytania, spójniki i inne formy czasownika<\/h3><p>W pytaniu rozstrzygającym czasownik odmieniony zwykle występuje na pierwszej pozycji: <em>Hat Nordkorea eine Rakete getestet?<\/em> W zdaniu głównym wprowadzonym spójnikiem współrzędnym, takim jak und, aber lub denn, nadal obowiązuje V2. Jeśli po spójniku wysuwamy określenie na początek zdania, czasownik odmieniony występuje bezpośrednio po nim: <em>Und am Dienstag wurden zwei Männer festgenommen.<\/em><\/p><p>W czasach złożonych i konstrukcjach z czasownikiem modalnym na drugiej pozycji znajduje się wyłącznie odmieniony czasownik posiłkowy lub modalny; imiesłów albo bezokolicznik pozostaje na swojej zwykłej pozycji: <em><strong>Am Montag<\/strong> hatte Nordkorea eine Rakete getestet.<\/em><\/p>",
-     "<div class='box warn'><strong>Typowy błąd:<\/strong> Nie umieszczaj podmiotu między wysuniętym określeniem a czasownikiem odmienionym. Błędnie: <em>Am Montag Nordkorea testete eine Rakete.<\/em> Poprawnie: <em>Am Montag testete Nordkorea eine Rakete.<\/em><\/div>",
-     "<div class='box tip'><strong>Wskazówka do zapamiętania:<\/strong> Najpierw znajdź pierwszy pełny składnik zdania, a następnie umieść bezpośrednio po nim czasownik odmieniony. Jeśli podmiot nie wystąpił jako pierwszy, zwykle pojawia się po czasowniku.<\/div>",
-     "<h3>Szybka ściąga<\/h3><div class='tiles'><div class='tile'><strong>Czas<\/strong><p>Heute beginnt die Konferenz.<\/p><\/div><div class='tile'><strong>Miejsce<\/strong><p>In Berlin findet das Treffen statt.<\/p><\/div><div class='tile'><strong>Dopełnienie<\/strong><p>Den Bericht liest die Ministerin.<\/p><\/div><div class='tile'><strong>Czas złożony<\/strong><p>Gestern hat die Regierung entschieden.<\/p><\/div><\/div>"
-    ]
-   }
+    "html": {
+      "en": [
+        "<p>German main clauses follow the verb-second rule (V2). When a time expression, place phrase or object is placed at the beginning for emphasis, contrast or connection with the previous sentence, the finite verb normally comes immediately after that fronted element, and the subject follows the verb if it has not already appeared. The first position contains one sentence constituent, which may consist of several words.</p>",
+        "<div class='box rule'><strong>Core rule:</strong> Fronted phrase + finite verb + subject + remaining sentence. The finite verb stays in second position, even when the subject is not first.</div>",
+        "<h3>Fronting time expressions</h3><p>Time expressions can establish when an event happened or connect events in a report. Common expressions include heute, gestern, am Mittwoch, seit Jahren and in den kommenden Monaten. If one occupies the first position, the finite verb comes next.</p><p><em><strong>Am Mittwoch</strong> feuerte Nordkorea zwei Marschflugkörper ab.</em><br><em><strong>Seit vergangener Woche</strong> wurden mehrere Schiffe getroffen.</em><br><em><strong>Im nächsten Jahr</strong> beginnt die Umstellung.</em></p><p>The fronted time phrase may contain several words, but it still counts as one sentence constituent.</p>",
+        "<h3>Fronting place phrases</h3><p>A place phrase can establish the setting before the main information is introduced. It may be a prepositional phrase or an adverb such as dort, hier or draußen. The finite verb follows the complete phrase, not necessarily its first word.</p><p><em><strong>In Brüssel</strong> kommen die Staats- und Regierungschefs zusammen.</em><br><em><strong>Vor der Küste Rumäniens</strong> lag der Tanker vor Anker.</em><br><em><strong>Nahe der Hauptstadt Sofia</strong> kam es zu einem Brand.</em></p><p>Do not confuse a fronted place phrase with a subordinate clause. A main clause retains V2 word order.</p>",
+        "<h3>Fronting an object</h3><p>An accusative or dative object can be placed first to emphasise what is affected or to connect it with an earlier statement. The finite verb still occupies the second position, followed by the subject when the subject has not been fronted.</p><p><em><strong>Die Reform</strong> unterstützte der Senator schließlich.</em><br><em><strong>Den Tanker</strong> untersuchten die Behörden genauer.</em><br><em><strong>Dem Vorschlag</strong> stimmte das Parlament zu.</em></p><p>German case marking usually makes the grammatical role clear. Moving an object does not change its case or the verb's required complements.</p>",
+        "<table><thead><tr><th>First constituent</th><th>Finite verb</th><th>Subject</th><th>Rest</th></tr></thead><tbody><tr><td class='de'>Am Montag</td><td class='de'>testete</td><td class='de'>Nordkorea</td><td class='de'>eine Rakete.</td></tr><tr><td class='de'>In Bulgarien</td><td class='de'>gab</td><td class='de'>es</td><td class='de'>einen ähnlichen Vorfall.</td></tr><tr><td class='de'>Die Reform</td><td class='de'>begrüßte</td><td class='de'>der Präsident</td><td class='de'>als historischen Erfolg.</td></tr></tbody></table>",
+        "<h3>Questions, conjunctions and other verb forms</h3><p>In a yes/no question, the finite verb normally comes first: <em>Hat Nordkorea eine Rakete getestet?</em> In a main clause introduced by a coordinating conjunction such as und, aber or denn, V2 still applies to the clause. If a fronted phrase follows the conjunction, the finite verb comes directly after that phrase: <em>Und am Dienstag wurden zwei Männer festgenommen.</em></p><p>With a compound tense or a modal verb, only the finite auxiliary or modal occupies position two; the participle or infinitive remains in its usual position: <em><strong>Am Montag</strong> hatte Nordkorea eine Rakete getestet.</em></p>",
+        "<div class='box warn'><strong>Typical mistake:</strong> Do not put the subject between the fronted phrase and the finite verb. Incorrect: <em>Am Montag Nordkorea testete eine Rakete.</em> Correct: <em>Am Montag testete Nordkorea eine Rakete.</em></div>",
+        "<div class='box tip'><strong>Memory aid:</strong> Identify the first complete sentence constituent, then place the finite verb immediately after it. If the subject has not come first, it usually follows the verb.</div>",
+        "<h3>Quick reference</h3><div class='tiles'><div class='tile'><strong>Time</strong><p>Heute beginnt die Konferenz.</p></div><div class='tile'><strong>Place</strong><p>In Berlin findet das Treffen statt.</p></div><div class='tile'><strong>Object</strong><p>Den Bericht liest die Ministerin.</p></div><div class='tile'><strong>Compound tense</strong><p>Gestern hat die Regierung entschieden.</p></div></div>"
+      ],
+      "pl": [
+        "<p>Niemieckie zdania główne podlegają zasadzie V2, czyli czasownik odmieniony zajmuje drugą pozycję. Gdy na początku zdania umieszczamy określenie czasu, miejsca lub dopełnienie, aby je podkreślić, przeciwstawić albo nawiązać do poprzedniej wypowiedzi, czasownik odmieniony zazwyczaj występuje bezpośrednio po tym elemencie. Podmiot pojawia się po czasowniku, jeśli nie został już umieszczony na początku. Pierwszą pozycję zajmuje jeden składnik zdania, który może składać się z kilku wyrazów.</p>",
+        "<div class='box rule'><strong>Główna zasada:</strong> Wysunięty element + czasownik odmieniony + podmiot + reszta zdania. Czasownik odmieniony pozostaje na drugiej pozycji, nawet gdy podmiot nie występuje jako pierwszy.</div>",
+        "<h3>Wysuwanie określeń czasu</h3><p>Określenia czasu wskazują, kiedy wydarzenie miało miejsce, lub łączą kolejne wydarzenia w relacji. Typowe wyrażenia to heute, gestern, am Mittwoch, seit Jahren i in den kommenden Monaten. Jeśli takie wyrażenie zajmuje pierwszą pozycję, bezpośrednio po nim występuje czasownik odmieniony.</p><p><em><strong>Am Mittwoch</strong> feuerte Nordkorea zwei Marschflugkörper ab.</em><br><em><strong>Seit vergangener Woche</strong> wurden mehrere Schiffe getroffen.</em><br><em><strong>Im nächsten Jahr</strong> beginnt die Umstellung.</em></p><p>Wysunięte określenie czasu może składać się z wielu wyrazów, ale nadal stanowi jeden składnik zdania.</p>",
+        "<h3>Wysuwanie określeń miejsca</h3><p>Określenie miejsca pozwala najpierw wskazać scenerię, a następnie przedstawić główną informację. Może to być wyrażenie przyimkowe lub przysłówek, na przykład dort, hier albo draußen. Czasownik odmieniony występuje po całym wyrażeniu, a niekoniecznie po jego pierwszym wyrazie.</p><p><em><strong>In Brüssel</strong> kommen die Staats- und Regierungschefs zusammen.</em><br><em><strong>Vor der Küste Rumäniens</strong> lag der Tanker vor Anker.</em><br><em><strong>Nahe der Hauptstadt Sofia</strong> kam es zu einem Brand.</em></p><p>Nie należy mylić wysuniętego określenia miejsca ze zdaniem podrzędnym. W zdaniu głównym nadal obowiązuje szyk V2.</p>",
+        "<h3>Wysuwanie dopełnienia</h3><p>Dopełnienie w bierniku lub celowniku można umieścić na początku, aby podkreślić, czego dotyczy wypowiedź, albo nawiązać do wcześniejszej informacji. Czasownik odmieniony nadal zajmuje drugą pozycję, a po nim występuje podmiot, jeśli nie został wysunięty na początek.</p><p><em><strong>Die Reform</strong> unterstützte der Senator schließlich.</em><br><em><strong>Den Tanker</strong> untersuchten die Behörden genauer.</em><br><em><strong>Dem Vorschlag</strong> stimmte das Parlament zu.</em></p><p>Niemieckie oznaczenia przypadka zwykle pozwalają rozpoznać funkcję gramatyczną. Przesunięcie dopełnienia nie zmienia jego przypadka ani wymaganych przez czasownik uzupełnień.</p>",
+        "<table><thead><tr><th>Pierwszy składnik</th><th>Czasownik odmieniony</th><th>Podmiot</th><th>Reszta</th></tr></thead><tbody><tr><td class='de'>Am Montag</td><td class='de'>testete</td><td class='de'>Nordkorea</td><td class='de'>eine Rakete.</td></tr><tr><td class='de'>In Bulgarien</td><td class='de'>gab</td><td class='de'>es</td><td class='de'>einen ähnlichen Vorfall.</td></tr><tr><td class='de'>Die Reform</td><td class='de'>begrüßte</td><td class='de'>der Präsident</td><td class='de'>als historischen Erfolg.</td></tr></tbody></table>",
+        "<h3>Pytania, spójniki i inne formy czasownika</h3><p>W pytaniu rozstrzygającym czasownik odmieniony zwykle występuje na pierwszej pozycji: <em>Hat Nordkorea eine Rakete getestet?</em> W zdaniu głównym wprowadzonym spójnikiem współrzędnym, takim jak und, aber lub denn, nadal obowiązuje V2. Jeśli po spójniku wysuwamy określenie na początek zdania, czasownik odmieniony występuje bezpośrednio po nim: <em>Und am Dienstag wurden zwei Männer festgenommen.</em></p><p>W czasach złożonych i konstrukcjach z czasownikiem modalnym na drugiej pozycji znajduje się wyłącznie odmieniony czasownik posiłkowy lub modalny; imiesłów albo bezokolicznik pozostaje na swojej zwykłej pozycji: <em><strong>Am Montag</strong> hatte Nordkorea eine Rakete getestet.</em></p>",
+        "<div class='box warn'><strong>Typowy błąd:</strong> Nie umieszczaj podmiotu między wysuniętym określeniem a czasownikiem odmienionym. Błędnie: <em>Am Montag Nordkorea testete eine Rakete.</em> Poprawnie: <em>Am Montag testete Nordkorea eine Rakete.</em></div>",
+        "<div class='box tip'><strong>Wskazówka do zapamiętania:</strong> Najpierw znajdź pierwszy pełny składnik zdania, a następnie umieść bezpośrednio po nim czasownik odmieniony. Jeśli podmiot nie wystąpił jako pierwszy, zwykle pojawia się po czasowniku.</div>",
+        "<h3>Szybka ściąga</h3><div class='tiles'><div class='tile'><strong>Czas</strong><p>Heute beginnt die Konferenz.</p></div><div class='tile'><strong>Miejsce</strong><p>In Berlin findet das Treffen statt.</p></div><div class='tile'><strong>Dopełnienie</strong><p>Den Bericht liest die Ministerin.</p></div><div class='tile'><strong>Czas złożony</strong><p>Gestern hat die Regierung entschieden.</p></div></div>"
+      ]
+    }
   },
   "examples": [
-   {
-    "de": "**Heute** beginnt der Unterricht um neun Uhr.",
-    "en": "Today, the lesson begins at nine o'clock.",
-    "pl": "Dzisiaj lekcja rozpoczyna się o dziewiątej."
-   },
-   {
-    "de": "**Gestern** kaufte Anna einen neuen Laptop.",
-    "en": "Yesterday, Anna bought a new laptop.",
-    "pl": "Wczoraj Anna kupiła nowego laptopa."
-   },
-   {
-    "de": "**Am Montag** arbeitet unser Team im Büro.",
-    "en": "On Monday, our team works in the office.",
-    "pl": "W poniedziałek nasz zespół pracuje w biurze."
-   },
-   {
-    "de": "**Nach dem Frühstück** fährt Paul zur Arbeit.",
-    "en": "After breakfast, Paul goes to work.",
-    "pl": "Po śniadaniu Paul jedzie do pracy."
-   },
-   {
-    "de": "**In Berlin** findet die Konferenz statt.",
-    "en": "The conference takes place in Berlin.",
-    "pl": "Konferencja odbywa się w Berlinie."
-   },
-   {
-    "de": "**Vor dem Bahnhof** wartet meine Kollegin.",
-    "en": "My colleague is waiting in front of the station.",
-    "pl": "Moja koleżanka czeka przed dworcem."
-   },
-   {
-    "de": "**Auf dem Tisch** liegt der unterschriebene Vertrag.",
-    "en": "The signed contract is on the table.",
-    "pl": "Podpisana umowa leży na stole."
-   },
-   {
-    "de": "**Am Flughafen** kontrolliert die Polizei die Ausweise.",
-    "en": "At the airport, the police check the identity documents.",
-    "pl": "Na lotnisku policja sprawdza dokumenty tożsamości."
-   },
-   {
-    "de": "**Den Bericht** schreibt heute unsere neue Mitarbeiterin.",
-    "en": "Our new employee is writing the report today.",
-    "pl": "Dzisiaj raport pisze nasza nowa pracownica."
-   },
-   {
-    "de": "**Diese Entscheidung** kritisierte der Minister öffentlich.",
-    "en": "The minister publicly criticised this decision.",
-    "pl": "Minister publicznie skrytykował tę decyzję."
-   },
-   {
-    "de": "**Dem Kunden** erklärte die Beraterin den Ablauf.",
-    "en": "The consultant explained the procedure to the customer.",
-    "pl": "Konsultantka wyjaśniła klientowi przebieg procedury."
-   },
-   {
-    "de": "**Für das Projekt** brauchen wir mehr Zeit.",
-    "en": "We need more time for the project.",
-    "pl": "Potrzebujemy więcej czasu na ten projekt."
-   },
-   {
-    "de": "**In den vergangenen Monaten** hat sich die Lage deutlich verändert.",
-    "en": "Over the past few months, the situation has changed significantly.",
-    "pl": "W ciągu ostatnich miesięcy sytuacja znacznie się zmieniła."
-   },
-   {
-    "de": "**Aus diesem Grund** müssen wir den Zeitplan anpassen.",
-    "en": "For this reason, we must adjust the schedule.",
-    "pl": "Z tego powodu musimy dostosować harmonogram."
-   },
-   {
-    "de": "**Trotz der Schwierigkeiten** setzte die Firma das Vorhaben fort.",
-    "en": "Despite the difficulties, the company continued the initiative.",
-    "pl": "Mimo trudności firma kontynuowała przedsięwzięcie."
-   },
-   {
-    "de": "**Im vergangenen Jahr** hatte die Regierung bereits ähnliche Maßnahmen ergriffen.",
-    "en": "In the previous year, the government had already taken similar measures.",
-    "pl": "W poprzednim roku rząd podjął już podobne działania."
-   },
-   {
-    "de": "**Die neuen Vorschriften** müssen alle Unternehmen einhalten.",
-    "en": "All companies must comply with the new regulations.",
-    "pl": "Wszystkie przedsiębiorstwa muszą przestrzegać nowych przepisów."
-   },
-   {
-    "de": "**Auf internationaler Ebene** wird die Zusammenarbeit immer wichtiger.",
-    "en": "At the international level, cooperation is becoming increasingly important.",
-    "pl": "Współpraca na szczeblu międzynarodowym staje się coraz ważniejsza."
-   },
-   {
-    "de": "**Bis Ende Oktober** sollen die Behörden ihre Ergebnisse vorlegen.",
-    "en": "The authorities are expected to present their findings by the end of October.",
-    "pl": "Organy administracji mają przedstawić wyniki do końca października."
-   },
-   {
-    "de": "**Eine nachhaltige Lösung** wird das Unternehmen nur gemeinsam mit seinen Partnern finden.",
-    "en": "The company will find a sustainable solution only together with its partners.",
-    "pl": "Firma znajdzie trwałe rozwiązanie tylko we współpracy ze swoimi partnerami."
-   }
+    {
+      "de": "**Heute** **beginnt** der Unterricht um neun Uhr.",
+      "en": "Today, the lesson begins at nine o'clock.",
+      "pl": "Dzisiaj lekcja rozpoczyna się o dziewiątej.",
+      "level": "A1"
+    },
+    {
+      "de": "**Gestern** **kaufte** Anna einen neuen Laptop.",
+      "en": "Yesterday, Anna bought a new laptop.",
+      "pl": "Wczoraj Anna kupiła nowego laptopa.",
+      "level": "A1"
+    },
+    {
+      "de": "**Am Montag** **arbeitet** unser Team im Büro.",
+      "en": "On Monday, our team works in the office.",
+      "pl": "W poniedziałek nasz zespół pracuje w biurze.",
+      "level": "A2"
+    },
+    {
+      "de": "**Nach dem Frühstück** **fährt** Paul zur Arbeit.",
+      "en": "After breakfast, Paul goes to work.",
+      "pl": "Po śniadaniu Paul jedzie do pracy.",
+      "level": "A2"
+    },
+    {
+      "de": "**In Berlin** **findet** die Konferenz statt.",
+      "en": "The conference takes place in Berlin.",
+      "pl": "Konferencja odbywa się w Berlinie.",
+      "level": "A2"
+    },
+    {
+      "de": "**Vor dem Bahnhof** **wartet** meine Kollegin.",
+      "en": "My colleague is waiting in front of the station.",
+      "pl": "Moja koleżanka czeka przed dworcem.",
+      "level": "B1"
+    },
+    {
+      "de": "**Auf dem Tisch** **liegt** der unterschriebene Vertrag.",
+      "en": "The signed contract is on the table.",
+      "pl": "Podpisana umowa leży na stole.",
+      "level": "B1"
+    },
+    {
+      "de": "**Am Flughafen** **kontrolliert** die Polizei die Ausweise.",
+      "en": "At the airport, the police check the identity documents.",
+      "pl": "Na lotnisku policja sprawdza dokumenty tożsamości.",
+      "level": "B1"
+    },
+    {
+      "de": "**Den Bericht** **schreibt** heute unsere neue Mitarbeiterin.",
+      "en": "Our new employee is writing the report today.",
+      "pl": "Dzisiaj raport pisze nasza nowa pracownica.",
+      "level": "B1"
+    },
+    {
+      "de": "**Diese Entscheidung** **kritisierte** der Minister öffentlich.",
+      "en": "The minister publicly criticised this decision.",
+      "pl": "Minister publicznie skrytykował tę decyzję.",
+      "level": "B2"
+    },
+    {
+      "de": "**Dem Kunden** **erklärte** die Beraterin den Ablauf.",
+      "en": "The consultant explained the procedure to the customer.",
+      "pl": "Konsultantka wyjaśniła klientowi przebieg procedury.",
+      "level": "B2"
+    },
+    {
+      "de": "**Für das Projekt** **brauchen** wir mehr Zeit.",
+      "en": "We need more time for the project.",
+      "pl": "Potrzebujemy więcej czasu na ten projekt.",
+      "level": "B2"
+    },
+    {
+      "de": "**In den vergangenen Monaten** **hat** sich die Lage deutlich verändert.",
+      "en": "Over the past few months, the situation has changed significantly.",
+      "pl": "W ciągu ostatnich miesięcy sytuacja znacznie się zmieniła.",
+      "level": "B2"
+    },
+    {
+      "de": "**Aus diesem Grund** **müssen** wir den Zeitplan anpassen.",
+      "en": "For this reason, we must adjust the schedule.",
+      "pl": "Z tego powodu musimy dostosować harmonogram.",
+      "level": "B2"
+    },
+    {
+      "de": "**Trotz der Schwierigkeiten** **setzte** die Firma das Vorhaben fort.",
+      "en": "Despite the difficulties, the company continued the initiative.",
+      "pl": "Mimo trudności firma kontynuowała przedsięwzięcie.",
+      "level": "C1"
+    },
+    {
+      "de": "**Im vergangenen Jahr** **hatte** die Regierung bereits ähnliche Maßnahmen ergriffen.",
+      "en": "In the previous year, the government had already taken similar measures.",
+      "pl": "W poprzednim roku rząd podjął już podobne działania.",
+      "level": "C1"
+    },
+    {
+      "de": "**Die neuen Vorschriften** **müssen** alle Unternehmen einhalten.",
+      "en": "All companies must comply with the new regulations.",
+      "pl": "Wszystkie przedsiębiorstwa muszą przestrzegać nowych przepisów.",
+      "level": "C1"
+    },
+    {
+      "de": "**Auf internationaler Ebene** **wird** die Zusammenarbeit immer wichtiger.",
+      "en": "At the international level, cooperation is becoming increasingly important.",
+      "pl": "Współpraca na szczeblu międzynarodowym staje się coraz ważniejsza.",
+      "level": "C1"
+    },
+    {
+      "de": "**Bis Ende Oktober** **sollen** die Behörden ihre Ergebnisse vorlegen.",
+      "en": "The authorities are expected to present their findings by the end of October.",
+      "pl": "Organy administracji mają przedstawić wyniki do końca października.",
+      "level": "C2"
+    },
+    {
+      "de": "**Eine nachhaltige Lösung** **wird** das Unternehmen nur gemeinsam mit seinen Partnern finden.",
+      "en": "The company will find a sustainable solution only together with its partners.",
+      "pl": "Firma znajdzie trwałe rozwiązanie tylko we współpracy ze swoimi partnerami.",
+      "level": "C2"
+    }
   ],
   "exercises": [
-   {
-    "en": "In the garden, the children play.",
-    "pl": "W ogrodzie dzieci się bawią.",
-    "de": "Im Garten spielen die Kinder."
-   },
-   {
-    "en": "The proposal, the director approves.",
-    "pl": "Dyrektor zatwierdza tę propozycję.",
-    "de": "Den Vorschlag genehmigt der Direktor."
-   },
-   {
-    "en": "Today, the train arrives late.",
-    "pl": "Dzisiaj pociąg przyjeżdża z opóźnieniem.",
-    "de": "Heute kommt der Zug verspätet an."
-   },
-   {
-    "en": "In the evening, we cook dinner.",
-    "pl": "Wieczorem gotujemy kolację.",
-    "de": "Am Abend kochen wir das Abendessen."
-   },
-   {
-    "en": "At the station, Peter meets his friend.",
-    "pl": "Na dworcu Peter spotyka swojego przyjaciela.",
-    "de": "Am Bahnhof trifft Peter seinen Freund."
-   },
-   {
-    "en": "In the office, my colleagues drink coffee.",
-    "pl": "W biurze moi koledzy piją kawę.",
-    "de": "Im Büro trinken meine Kollegen Kaffee."
-   },
-   {
-    "en": "In the city centre, a new restaurant opens.",
-    "pl": "W centrum miasta otwiera się nowa restauracja.",
-    "de": "Im Stadtzentrum eröffnet ein neues Restaurant."
-   },
-   {
-    "en": "Tomorrow, Maria works from home.",
-    "pl": "Jutro Maria pracuje z domu.",
-    "de": "Morgen arbeitet Maria von zu Hause aus."
-   },
-   {
-    "en": "During the summer, many tourists visit the region.",
-    "pl": "Latem wielu turystów odwiedza ten region.",
-    "de": "Im Sommer besuchen viele Touristen die Region."
-   },
-   {
-    "en": "On Friday, the meeting begins at ten.",
-    "pl": "W piątek spotkanie rozpoczyna się o dziesiątej.",
-    "de": "Am Freitag beginnt die Besprechung um zehn Uhr."
-   },
-   {
-    "en": "This document, Anna needs today.",
-    "pl": "Anna potrzebuje dzisiaj tego dokumentu.",
-    "de": "Dieses Dokument braucht Anna heute."
-   },
-   {
-    "en": "The invitation, we received yesterday.",
-    "pl": "Wczoraj otrzymaliśmy zaproszenie.",
-    "de": "Die Einladung haben wir gestern erhalten."
-   },
-   {
-    "en": "Last week, the manager called me.",
-    "pl": "W zeszłym tygodniu kierownik do mnie zadzwonił.",
-    "de": "Letzte Woche rief mich der Manager an."
-   },
-   {
-    "en": "This problem, our team can solve quickly.",
-    "pl": "Nasz zespół może szybko rozwiązać ten problem.",
-    "de": "Dieses Problem kann unser Team schnell lösen."
-   },
-   {
-    "en": "Before the deadline, Julia finishes the report.",
-    "pl": "Julia kończy raport przed upływem terminu.",
-    "de": "Vor dem Abgabetermin beendet Julia den Bericht."
-   },
-   {
-    "en": "This recommendation, the committee should examine more carefully.",
-    "pl": "Komitet powinien dokładniej przeanalizować to zalecenie.",
-    "de": "Diese Empfehlung sollte der Ausschuss genauer prüfen."
-   },
-   {
-    "en": "The employees, the new policy affects directly.",
-    "pl": "Nowe zasady bezpośrednio dotyczą pracowników.",
-    "de": "Die Mitarbeiter betrifft die neue Regelung unmittelbar."
-   },
-   {
-    "en": "At the entrance, the security guard checks every bag.",
-    "pl": "Przy wejściu ochroniarz sprawdza każdą torbę.",
-    "de": "Am Eingang kontrolliert der Sicherheitsmitarbeiter jede Tasche."
-   },
-   {
-    "en": "In the morning, my neighbour walks the dog.",
-    "pl": "Rano mój sąsiad wyprowadza psa na spacer.",
-    "de": "Am Morgen führt mein Nachbar den Hund aus."
-   },
-   {
-    "en": "After lunch, we return to work.",
-    "pl": "Po lunchu wracamy do pracy.",
-    "de": "Nach dem Mittagessen kehren wir zur Arbeit zurück."
-   },
-   {
-    "en": "At the conference, the experts exchange ideas.",
-    "pl": "Podczas konferencji eksperci wymieniają się pomysłami.",
-    "de": "Auf der Konferenz tauschen die Experten Ideen aus."
-   },
-   {
-    "en": "For this customer, we need a more flexible solution.",
-    "pl": "Dla tego klienta potrzebujemy bardziej elastycznego rozwiązania.",
-    "de": "Für diesen Kunden benötigen wir eine flexiblere Lösung."
-   },
-   {
-    "en": "After the presentation, the team discusses the results.",
-    "pl": "Po prezentacji zespół omawia wyniki.",
-    "de": "Nach der Präsentation bespricht das Team die Ergebnisse."
-   },
-   {
-    "en": "At the port, investigators examined the damaged vessel.",
-    "pl": "W porcie śledczy zbadali uszkodzony statek.",
-    "de": "Im Hafen untersuchten die Ermittler das beschädigte Schiff."
-   },
-   {
-    "en": "After the announcement, the employees asked several questions.",
-    "pl": "Po ogłoszeniu pracownicy zadali kilka pytań.",
-    "de": "Nach der Ankündigung stellten die Mitarbeiter mehrere Fragen."
-   },
-   {
-    "en": "The final decision, the board will make next week.",
-    "pl": "Zarząd podejmie ostateczną decyzję w przyszłym tygodniu.",
-    "de": "Die endgültige Entscheidung trifft der Vorstand nächste Woche."
-   },
-   {
-    "en": "During the negotiations, both parties presented their concerns.",
-    "pl": "Podczas negocjacji obie strony przedstawiły swoje obawy.",
-    "de": "Während der Verhandlungen äußerten beide Seiten ihre Bedenken."
-   },
-   {
-    "en": "In the report, the analysts identify three major risks.",
-    "pl": "W raporcie analitycy wskazują trzy główne zagrożenia.",
-    "de": "Im Bericht identifizieren die Analysten drei wesentliche Risiken."
-   },
-   {
-    "en": "The revised budget, the finance team will present tomorrow.",
-    "pl": "Zespół finansowy przedstawi jutro skorygowany budżet.",
-    "de": "Den überarbeiteten Haushalt wird das Finanzteam morgen vorstellen."
-   },
-   {
-    "en": "In the new building, our department occupies the fourth floor.",
-    "pl": "W nowym budynku nasz dział zajmuje czwarte piętro.",
-    "de": "Im neuen Gebäude belegt unsere Abteilung den vierten Stock."
-   },
-   {
-    "en": "After several rounds of negotiations, the parties reached a compromise.",
-    "pl": "Po kilku rundach negocjacji strony osiągnęły kompromis.",
-    "de": "Nach mehreren Verhandlungsrunden erzielten die Parteien einen Kompromiss."
-   },
-   {
-    "en": "In the regional office, the team has already implemented the changes.",
-    "pl": "W biurze regionalnym zespół wdrożył już zmiany.",
-    "de": "Im Regionalbüro hat das Team die Änderungen bereits umgesetzt."
-   },
-   {
-    "en": "For several years, the region has attracted international investors.",
-    "pl": "Od kilku lat region przyciąga międzynarodowych inwestorów.",
-    "de": "Seit mehreren Jahren zieht die Region internationale Investoren an."
-   },
-   {
-    "en": "The revised proposal, the board had rejected the previous day.",
-    "pl": "Zarząd odrzucił poprzedniego dnia skorygowaną propozycję.",
-    "de": "Den überarbeiteten Vorschlag hatte der Vorstand am Vortag abgelehnt."
-   },
-   {
-    "en": "For the affected communities, the government must provide immediate assistance.",
-    "pl": "Rząd musi zapewnić natychmiastową pomoc poszkodowanym społecznościom.",
-    "de": "Den betroffenen Gemeinden muss die Regierung sofortige Hilfe leisten."
-   },
-   {
-    "en": "Yesterday, the minister confirmed that the talks would continue.",
-    "pl": "Wczoraj minister potwierdził, że rozmowy będą kontynuowane.",
-    "de": "Gestern bestätigte der Minister, dass die Gespräche fortgesetzt würden."
-   },
-   {
-    "en": "Following the investigation, the authorities published their findings.",
-    "pl": "Po zakończeniu dochodzenia władze opublikowały ustalenia.",
-    "de": "Nach Abschluss der Untersuchung veröffentlichten die Behörden ihre Ergebnisse."
-   },
-   {
-    "en": "At the international summit, the ministers discussed energy security.",
-    "pl": "Podczas międzynarodowego szczytu ministrowie omówili bezpieczeństwo energetyczne.",
-    "de": "Auf dem internationalen Gipfel diskutierten die Minister die Energiesicherheit."
-   },
-   {
-    "en": "Following the unexpected resignation, the organisation appointed an interim director.",
-    "pl": "Po nieoczekiwanej rezygnacji organizacja powołała tymczasowego dyrektora.",
-    "de": "Nach dem unerwarteten Rücktritt ernannte die Organisation einen Interimsdirektor."
-   },
-   {
-    "en": "In the final report, the auditors will document all significant findings.",
-    "pl": "W raporcie końcowym audytorzy udokumentują wszystkie istotne ustalenia.",
-    "de": "Im Abschlussbericht werden die Prüfer alle wesentlichen Feststellungen dokumentieren."
-   },
-   {
-    "en": "Despite the strong opposition, the parliament approved the proposal.",
-    "pl": "Mimo silnego sprzeciwu parlament zatwierdził propozycję.",
-    "de": "Trotz des starken Widerstands stimmte das Parlament dem Vorschlag zu."
-   },
-   {
-    "en": "At the end of the review, the external auditors recommended further controls.",
-    "pl": "Na zakończenie przeglądu audytorzy zewnętrzni zalecili dodatkowe kontrole.",
-    "de": "Am Ende der Prüfung empfahlen die externen Prüfer zusätzliche Kontrollen."
-   },
-   {
-    "en": "Last month, the organisation introduced a new reporting process.",
-    "pl": "W zeszłym miesiącu organizacja wprowadziła nowy proces raportowania.",
-    "de": "Im vergangenen Monat führte die Organisation einen neuen Berichtsprozess ein."
-   },
-   {
-    "en": "The risks associated with the acquisition, the board discussed in detail.",
-    "pl": "Zarząd szczegółowo omówił ryzyko związane z przejęciem.",
-    "de": "Die mit der Übernahme verbundenen Risiken erörterte der Vorstand ausführlich."
-   },
-   {
-    "en": "Despite the uncertainty surrounding the outcome, the negotiations continued.",
-    "pl": "Pomimo niepewności co do wyniku negocjacje były kontynuowane.",
-    "de": "Trotz der Unsicherheit über den Ausgang wurden die Verhandlungen fortgesetzt."
-   },
-   {
-    "en": "In the absence of reliable data, the researchers could not confirm the hypothesis.",
-    "pl": "Z powodu braku wiarygodnych danych badacze nie mogli potwierdzić hipotezy.",
-    "de": "Mangels zuverlässiger Daten konnten die Forscher die Hypothese nicht bestätigen."
-   },
-   {
-    "en": "In several European countries, similar measures have already been implemented.",
-    "pl": "W kilku krajach europejskich wdrożono już podobne środki.",
-    "de": "In mehreren europäischen Ländern sind ähnliche Maßnahmen bereits umgesetzt worden."
-   },
-   {
-    "en": "Over the past decade, digital technologies have fundamentally changed the industry.",
-    "pl": "W ciągu ostatniej dekady technologie cyfrowe zasadniczo zmieniły tę branżę.",
-    "de": "Im vergangenen Jahrzehnt haben digitale Technologien die Branche grundlegend verändert."
-   },
-   {
-    "en": "During the emergency meeting, the participants agreed on additional safeguards.",
-    "pl": "Podczas nadzwyczajnego spotkania uczestnicy uzgodnili dodatkowe zabezpieczenia.",
-    "de": "Während der Krisensitzung einigten sich die Teilnehmer auf zusätzliche Schutzmaßnahmen."
-   },
-   {
-    "en": "In the current economic climate, companies must reassess their investment priorities.",
-    "pl": "W obecnej sytuacji gospodarczej firmy muszą ponownie ocenić priorytety inwestycyjne.",
-    "de": "Im gegenwärtigen wirtschaftlichen Umfeld müssen Unternehmen ihre Investitionsprioritäten neu bewerten."
-   },
-   {
-    "en": "The additional funding, the ministry has promised to provide next year.",
-    "pl": "Ministerstwo obiecało zapewnić dodatkowe finansowanie w przyszłym roku.",
-    "de": "Die zusätzlichen Mittel hat das Ministerium für das nächste Jahr zugesagt."
-   },
-   {
-    "en": "By the end of the quarter, the company must reduce its operating costs.",
-    "pl": "Do końca kwartału firma musi obniżyć koszty operacyjne.",
-    "de": "Bis zum Ende des Quartals muss das Unternehmen seine Betriebskosten senken."
-   },
-   {
-    "en": "At the end of the meeting, the chair summarised the main points.",
-    "pl": "Na końcu spotkania przewodniczący podsumował najważniejsze punkty.",
-    "de": "Am Ende der Besprechung fasste der Vorsitzende die wichtigsten Punkte zusammen."
-   },
-   {
-    "en": "In the coming months, the government intends to reform the system.",
-    "pl": "W nadchodzących miesiącach rząd zamierza zreformować system.",
-    "de": "In den kommenden Monaten beabsichtigt die Regierung, das System zu reformieren."
-   },
-   {
-    "en": "In its latest assessment, the agency identified several emerging risks.",
-    "pl": "W najnowszej ocenie agencja zidentyfikowała kilka nowych zagrożeń.",
-    "de": "In ihrer jüngsten Bewertung identifizierte die Behörde mehrere neu entstehende Risiken."
-   },
-   {
-    "en": "In recent months, the company has expanded its international activities.",
-    "pl": "W ostatnich miesiącach firma rozszerzyła działalność międzynarodową.",
-    "de": "In den letzten Monaten hat das Unternehmen seine internationalen Aktivitäten ausgeweitet."
-   },
-   {
-    "en": "At the regional level, the new agreement could strengthen economic cooperation.",
-    "pl": "Na szczeblu regionalnym nowa umowa mogłaby wzmocnić współpracę gospodarczą.",
-    "de": "Auf regionaler Ebene könnte das neue Abkommen die wirtschaftliche Zusammenarbeit stärken."
-   },
-   {
-    "en": "Despite the unexpected delay, the project manager maintained the original schedule.",
-    "pl": "Mimo nieoczekiwanego opóźnienia kierownik projektu utrzymał pierwotny harmonogram.",
-    "de": "Trotz der unerwarteten Verzögerung hielt der Projektleiter am ursprünglichen Zeitplan fest."
-   },
-   {
-    "en": "By the next reporting period, the department expects to complete the transition.",
-    "pl": "Do następnego okresu sprawozdawczego dział spodziewa się zakończyć transformację.",
-    "de": "Bis zur nächsten Berichtsperiode rechnet die Abteilung damit, die Umstellung abzuschließen."
-   },
-   {
-    "en": "The proposed amendments, the parliamentary committee will scrutinise before the vote.",
-    "pl": "Komisja parlamentarna dokładnie przeanalizuje proponowane poprawki przed głosowaniem.",
-    "de": "Die vorgeschlagenen Änderungen wird der Parlamentsausschuss vor der Abstimmung eingehend prüfen."
-   },
-   {
-    "en": "In response to public criticism, the organisation revised its communication strategy.",
-    "pl": "W odpowiedzi na krytykę społeczną organizacja zmieniła strategię komunikacji.",
-    "de": "Als Reaktion auf die öffentliche Kritik überarbeitete die Organisation ihre Kommunikationsstrategie."
-   },
-   {
-    "en": "The consequences of the decision, the committee will assess in its next meeting.",
-    "pl": "Komitet oceni konsekwencje decyzji na następnym posiedzeniu.",
-    "de": "Die Folgen der Entscheidung wird der Ausschuss in seiner nächsten Sitzung bewerten."
-   },
-   {
-    "en": "The underlying assumptions, the analysts had questioned from the beginning.",
-    "pl": "Analitycy kwestionowali podstawowe założenia od samego początku.",
-    "de": "Die zugrunde liegenden Annahmen hatten die Analysten von Anfang an infrage gestellt."
-   },
-   {
-    "en": "Since the reform was introduced, the number of complaints has declined considerably.",
-    "pl": "Od czasu wprowadzenia reformy liczba skarg znacznie spadła.",
-    "de": "Seit der Einführung der Reform ist die Zahl der Beschwerden erheblich zurückgegangen."
-   },
-   {
-    "en": "The implications for smaller suppliers, the report addresses in a separate section.",
-    "pl": "Raport omawia konsekwencje dla mniejszych dostawców w osobnej sekcji.",
-    "de": "Die Auswirkungen auf kleinere Lieferanten behandelt der Bericht in einem eigenen Abschnitt."
-   },
-   {
-    "en": "After the evidence had been reviewed, the investigators presented their conclusions.",
-    "pl": "Po przeanalizowaniu dowodów śledczy przedstawili wnioski.",
-    "de": "Nachdem die Beweise überprüft worden waren, legten die Ermittler ihre Schlussfolgerungen vor."
-   },
-   {
-    "en": "In light of the new evidence, the authorities may have to reconsider their initial assessment.",
-    "pl": "W świetle nowych dowodów władze mogą być zmuszone do ponownej oceny pierwotnych ustaleń.",
-    "de": "Angesichts der neuen Beweise müssen die Behörden ihre ursprüngliche Einschätzung möglicherweise überdenken."
-   },
-   {
-    "en": "Under the revised framework, all participating institutions must disclose relevant information.",
-    "pl": "Zgodnie ze zmienionymi zasadami wszystkie uczestniczące instytucje muszą ujawniać istotne informacje.",
-    "de": "Im Rahmen der überarbeiteten Regelung müssen alle beteiligten Institutionen relevante Informationen offenlegen."
-   },
-   {
-    "en": "During the final negotiations, the representatives managed to resolve the outstanding disagreements.",
-    "pl": "Podczas końcowych negocjacji przedstawicielom udało się rozwiązać pozostałe kwestie sporne.",
-    "de": "Während der abschließenden Verhandlungen gelang es den Vertretern, die verbliebenen Meinungsverschiedenheiten auszuräumen."
-   },
-   {
-    "en": "In its statement, the company acknowledged that the original forecasts had been overly optimistic.",
-    "pl": "W swoim oświadczeniu firma przyznała, że pierwotne prognozy były zbyt optymistyczne.",
-    "de": "In ihrer Erklärung räumte die Firma ein, dass die ursprünglichen Prognosen zu optimistisch gewesen waren."
-   },
-   {
-    "en": "The financial implications of the agreement, the executive team had underestimated considerably.",
-    "pl": "Zespół kierowniczy znacznie niedoszacował skutków finansowych umowy.",
-    "de": "Die finanziellen Auswirkungen der Vereinbarung hatte das Führungsteam erheblich unterschätzt."
-   },
-   {
-    "en": "Only after the independent review had been completed did the board authorise the next phase.",
-    "pl": "Dopiero po zakończeniu niezależnego przeglądu zarząd zatwierdził kolejny etap.",
-    "de": "Erst nach Abschluss der unabhängigen Prüfung genehmigte der Vorstand die nächste Phase."
-   },
-   {
-    "en": "At the international level, coordinated action could prevent the crisis from escalating further.",
-    "pl": "Skoordynowane działania na szczeblu międzynarodowym mogłyby zapobiec dalszemu zaostrzeniu kryzysu.",
-    "de": "Auf internationaler Ebene könnten koordinierte Maßnahmen eine weitere Eskalation der Krise verhindern."
-   },
-   {
-    "en": "Once the preliminary results had been verified, the commission published its assessment.",
-    "pl": "Po zweryfikowaniu wstępnych wyników komisja opublikowała swoją ocenę.",
-    "de": "Nachdem die vorläufigen Ergebnisse überprüft worden waren, veröffentlichte die Kommission ihre Bewertung."
-   },
-   {
-    "en": "In the event of further delays, the project sponsor will have to approve a revised implementation plan.",
-    "pl": "W przypadku dalszych opóźnień sponsor projektu będzie musiał zatwierdzić zmieniony plan wdrożenia.",
-    "de": "Im Falle weiterer Verzögerungen wird der Projektsponsor einen überarbeiteten Umsetzungsplan genehmigen müssen."
-   },
-   {
-    "en": "Under the new regulatory requirements, financial institutions will have to disclose material exposures more transparently.",
-    "pl": "Zgodnie z nowymi wymogami regulacyjnymi instytucje finansowe będą musiały przejrzyściej ujawniać istotne ekspozycje.",
-    "de": "Nach den neuen regulatorischen Anforderungen werden Finanzinstitute wesentliche Risikopositionen transparenter offenlegen müssen."
-   },
-   {
-    "en": "The assumptions underlying the business case, the review team found insufficiently substantiated.",
-    "pl": "Zespół dokonujący przeglądu uznał, że założenia leżące u podstaw uzasadnienia biznesowego nie zostały dostatecznie udokumentowane.",
-    "de": "Die dem Business Case zugrunde liegenden Annahmen hielt das Prüfungsteam für unzureichend belegt."
-   },
-   {
-    "en": "In the event that the forecast deteriorates further, the organisation may need to revise its funding strategy.",
-    "pl": "Jeśli prognoza ulegnie dalszemu pogorszeniu, organizacja może potrzebować zmienić strategię finansowania.",
-    "de": "Sollte sich die Prognose weiter verschlechtern, muss die Organisation möglicherweise ihre Finanzierungsstrategie überarbeiten."
-   },
-   {
-    "en": "In view of the substantial cost overruns, the auditors recommended that the procurement process be reviewed independently.",
-    "pl": "W związku ze znacznym przekroczeniem kosztów audytorzy zalecili niezależny przegląd procesu zamówień.",
-    "de": "Angesichts der erheblichen Kostenüberschreitungen empfahlen die Prüfer, den Beschaffungsprozess unabhängig überprüfen zu lassen."
-   },
-   {
-    "en": "The long-term consequences of the policy, independent researchers will evaluate over the next decade.",
-    "pl": "Niezależni badacze ocenią długoterminowe konsekwencje tej polityki w ciągu następnej dekady.",
-    "de": "Die langfristigen Folgen der Politik werden unabhängige Forscher im Laufe des nächsten Jahrzehnts bewerten."
-   },
-   {
-    "en": "After the revised forecasts had been incorporated, the finance department recalculated the expected returns.",
-    "pl": "Po uwzględnieniu skorygowanych prognoz dział finansowy ponownie obliczył oczekiwane stopy zwrotu.",
-    "de": "Nachdem die überarbeiteten Prognosen berücksichtigt worden waren, berechnete die Finanzabteilung die erwarteten Renditen neu."
-   },
-   {
-    "en": "Despite mounting pressure from investors, the management board declined to change its position.",
-    "pl": "Pomimo rosnącej presji inwestorów zarząd odmówił zmiany stanowiska.",
-    "de": "Trotz des zunehmenden Drucks der Investoren lehnte es der Vorstand ab, seine Position zu ändern."
-   },
-   {
-    "en": "By the time the investigation concludes, the relevant authorities will have collected evidence from multiple jurisdictions.",
-    "pl": "Do czasu zakończenia dochodzenia właściwe organy zgromadzą dowody z wielu jurysdykcji.",
-    "de": "Bis zum Abschluss der Untersuchung werden die zuständigen Behörden Beweise aus mehreren Rechtsordnungen gesammelt haben."
-   },
-   {
-    "en": "The extent to which the proposed controls reduce operational risk, the assessment will examine in detail.",
-    "pl": "Ocena szczegółowo zbada, w jakim stopniu proponowane mechanizmy kontrolne ograniczają ryzyko operacyjne.",
-    "de": "In welchem Umfang die vorgeschlagenen Kontrollen das operative Risiko verringern, wird die Bewertung eingehend untersuchen."
-   },
-   {
-    "en": "The broader implications for regional stability, diplomats discussed privately before the official announcement.",
-    "pl": "Dyplomaci omówili poufnie szersze konsekwencje dla stabilności regionalnej przed oficjalnym ogłoszeniem.",
-    "de": "Die weiterreichenden Folgen für die regionale Stabilität erörterten die Diplomaten vertraulich vor der offiziellen Bekanntgabe."
-   },
-   {
-    "en": "In the absence of a binding agreement, neither party can be expected to make additional commitments.",
-    "pl": "Wobec braku wiążącej umowy nie można oczekiwać, że którakolwiek ze stron podejmie dodatkowe zobowiązania.",
-    "de": "Mangels einer verbindlichen Vereinbarung kann von keiner der beiden Parteien erwartet werden, zusätzliche Verpflichtungen einzugehen."
-   },
-   {
-    "en": "The potential effects on employment, the government will assess before the reform enters into force.",
-    "pl": "Rząd oceni potencjalny wpływ reformy na zatrudnienie, zanim wejdzie ona w życie.",
-    "de": "Die möglichen Auswirkungen auf die Beschäftigung wird die Regierung bewerten, bevor die Reform in Kraft tritt."
-   },
-   {
-    "en": "The evidence gathered by the investigators, the prosecutor considered insufficient to establish responsibility conclusively.",
-    "pl": "Prokurator uznał, że dowody zgromadzone przez śledczych nie wystarczają do jednoznacznego ustalenia odpowiedzialności.",
-    "de": "Die von den Ermittlern gesammelten Beweise hielt der Staatsanwalt für unzureichend, um die Verantwortung abschließend festzustellen."
-   },
-   {
-    "en": "In the final analysis, the success of the reform will depend on whether implementation remains consistent across all participating institutions.",
-    "pl": "Ostatecznie powodzenie reformy będzie zależeć od tego, czy wszystkie uczestniczące instytucje będą wdrażać ją w spójny sposób.",
-    "de": "Letztlich wird der Erfolg der Reform davon abhängen, ob die Umsetzung in allen beteiligten Institutionen einheitlich erfolgt."
-   },
-   {
-    "en": "Throughout the consultation process, the authorities must ensure that affected groups have a meaningful opportunity to respond.",
-    "pl": "W całym procesie konsultacji władze muszą zapewnić zainteresowanym grupom realną możliwość przedstawienia stanowiska.",
-    "de": "Während des gesamten Konsultationsverfahrens müssen die Behörden sicherstellen, dass betroffene Gruppen eine echte Möglichkeit zur Stellungnahme erhalten."
-   },
-   {
-    "en": "Only by establishing a clear allocation of responsibilities can the organisation prevent similar failures from recurring.",
-    "pl": "Organizacja może zapobiec powtarzaniu się podobnych niepowodzeń tylko poprzez jasny podział odpowiedzialności.",
-    "de": "Nur durch eine klare Zuweisung von Verantwortlichkeiten kann die Organisation verhindern, dass sich ähnliche Fehler wiederholen."
-   },
-   {
-    "en": "In light of the contradictory evidence and the limited scope of the mandate, the panel refrained from drawing definitive conclusions.",
-    "pl": "W świetle sprzecznych dowodów i ograniczonego zakresu mandatu panel powstrzymał się od wyciągania ostatecznych wniosków.",
-    "de": "Angesichts der widersprüchlichen Beweise und des begrenzten Mandatsumfangs verzichtete das Gremium darauf, endgültige Schlussfolgerungen zu ziehen."
-   },
-   {
-    "en": "The extent of the financial exposure, independent experts will determine once all outstanding data have been reconciled.",
-    "pl": "Niezależni eksperci ustalą skalę ekspozycji finansowej po uzgodnieniu wszystkich brakujących danych.",
-    "de": "Das Ausmaß des finanziellen Risikos werden unabhängige Experten bestimmen, sobald sämtliche noch offenen Daten abgeglichen worden sind."
-   },
-   {
-    "en": "Had the underlying assumptions been challenged earlier, the organisation might have avoided the subsequent restructuring.",
-    "pl": "Gdyby podstawowe założenia zakwestionowano wcześniej, organizacja mogłaby uniknąć późniejszej restrukturyzacji.",
-    "de": "Wären die zugrunde liegenden Annahmen früher hinterfragt worden, hätte die Organisation die spätere Umstrukturierung möglicherweise vermeiden können."
-   },
-   {
-    "en": "The extent to which the revised framework addresses the identified weaknesses, the supervisory authority will evaluate after the first reporting cycle.",
-    "pl": "Organ nadzorczy oceni po pierwszym cyklu sprawozdawczym, w jakim stopniu zmienione ramy odpowiadają na zidentyfikowane słabości.",
-    "de": "Inwieweit der überarbeitete Rahmen den festgestellten Schwachstellen Rechnung trägt, wird die Aufsichtsbehörde nach dem ersten Berichtszyklus bewerten."
-   },
-   {
-    "en": "At no point during the consultation did the authorities establish that the proposed restrictions were the least intrusive means available.",
-    "pl": "Na żadnym etapie konsultacji władze nie wykazały, że proponowane ograniczenia stanowiły najmniej ingerujący dostępny środek.",
-    "de": "Zu keinem Zeitpunkt während der Konsultation wiesen die Behörden nach, dass die vorgeschlagenen Beschränkungen das mildeste verfügbare Mittel darstellten."
-   },
-   {
-    "en": "In assessing the credibility of the findings, the committee must distinguish between independently verified evidence and information supplied by interested parties.",
-    "pl": "Oceniając wiarygodność ustaleń, komisja musi odróżnić niezależnie zweryfikowane dowody od informacji przekazanych przez zainteresowane strony.",
-    "de": "Bei der Beurteilung der Glaubwürdigkeit der Ergebnisse muss der Ausschuss zwischen unabhängig überprüften Beweisen und Angaben interessierter Parteien unterscheiden."
-   },
-   {
-    "en": "The extent to which the proposed safeguards mitigate systemic vulnerabilities, the regulator intends to reassess as new evidence becomes available.",
-    "pl": "Organ regulacyjny zamierza ponownie ocenić, w jakim stopniu proponowane zabezpieczenia ograniczają podatności systemowe, gdy pojawią się nowe dowody.",
-    "de": "In welchem Umfang die vorgeschlagenen Schutzmaßnahmen systemische Schwachstellen mindern, beabsichtigt die Aufsichtsbehörde neu zu bewerten, sobald neue Erkenntnisse vorliegen."
-   },
-   {
-    "en": "In determining whether the intervention was proportionate, the court will have to consider both its intended purpose and its foreseeable consequences.",
-    "pl": "Oceniając proporcjonalność interwencji, sąd będzie musiał uwzględnić zarówno jej zamierzony cel, jak i przewidywalne konsekwencje.",
-    "de": "Bei der Beurteilung, ob der Eingriff verhältnismäßig war, wird das Gericht sowohl seinen beabsichtigten Zweck als auch seine vorhersehbaren Folgen berücksichtigen müssen."
-   },
-   {
-    "en": "In circumstances where the available evidence remains inconclusive, decision-makers should explicitly acknowledge uncertainty rather than imply unwarranted certainty.",
-    "pl": "W sytuacji, gdy dostępne dowody nie pozwalają na jednoznaczne rozstrzygnięcie, decydenci powinni otwarcie przyznać istnienie niepewności, zamiast sugerować nieuzasadnioną pewność.",
-    "de": "In Fällen, in denen die verfügbaren Beweise keine eindeutige Schlussfolgerung zulassen, sollten Entscheidungsträger die Unsicherheit ausdrücklich anerkennen, statt unbegründete Gewissheit zu suggerieren."
-   }
+    {
+      "en": "Today we are learning German.",
+      "pl": "Dzisiaj uczymy się niemieckiego.",
+      "de": "Heute lernen wir Deutsch.",
+      "level": "A2"
+    },
+    {
+      "en": "Tomorrow I am travelling to Berlin.",
+      "pl": "Jutro jadę do Berlina.",
+      "de": "Morgen fahre ich nach Berlin.",
+      "level": "A2"
+    },
+    {
+      "en": "In the garden the children are playing.",
+      "pl": "W ogrodzie bawią się dzieci.",
+      "de": "Im Garten spielen die Kinder.",
+      "level": "A2"
+    },
+    {
+      "en": "In the evening we cook dinner.",
+      "pl": "Wieczorem gotujemy kolację.",
+      "de": "Am Abend kochen wir das Abendessen.",
+      "level": "A2"
+    },
+    {
+      "en": "At the station Peter meets his friend.",
+      "pl": "Na dworcu Peter spotyka swojego przyjaciela.",
+      "de": "Am Bahnhof trifft Peter seinen Freund.",
+      "level": "A2"
+    },
+    {
+      "en": "In the office my colleagues drink coffee.",
+      "pl": "W biurze moi koledzy piją kawę.",
+      "de": "Im Büro trinken meine Kollegen Kaffee.",
+      "level": "A2"
+    },
+    {
+      "en": "On Friday the meeting begins at ten.",
+      "pl": "W piątek spotkanie rozpoczyna się o dziesiątej.",
+      "de": "Am Freitag beginnt die Besprechung um zehn Uhr.",
+      "level": "A2"
+    },
+    {
+      "en": "This book I am reading today.",
+      "pl": "Tę książkę czytam dzisiaj.",
+      "de": "Dieses Buch lese ich heute.",
+      "level": "A2"
+    },
+    {
+      "en": "After lunch we return to work.",
+      "pl": "Po obiedzie wracamy do pracy.",
+      "de": "Nach dem Mittagessen kehren wir zur Arbeit zurück.",
+      "level": "A2"
+    },
+    {
+      "en": "Here lives my colleague.",
+      "pl": "Tutaj mieszka mój kolega.",
+      "de": "Hier wohnt mein Kollege.",
+      "level": "A2"
+    },
+    {
+      "en": "Yesterday I bought a new laptop.",
+      "pl": "Wczoraj kupiłem nowego laptopa.",
+      "de": "Gestern kaufte ich einen neuen Laptop.",
+      "level": "B1"
+    },
+    {
+      "en": "The invitation we received yesterday.",
+      "pl": "Zaproszenie otrzymaliśmy wczoraj.",
+      "de": "Die Einladung haben wir gestern erhalten.",
+      "level": "B1"
+    },
+    {
+      "en": "Last week the manager called me.",
+      "pl": "W zeszłym tygodniu zadzwonił do mnie menedżer.",
+      "de": "Letzte Woche rief mich der Manager an.",
+      "level": "B1"
+    },
+    {
+      "en": "This problem our team can solve quickly.",
+      "pl": "Ten problem nasz zespół może rozwiązać szybko.",
+      "de": "Dieses Problem kann unser Team schnell lösen.",
+      "level": "B1"
+    },
+    {
+      "en": "Before the deadline Julia finishes the report.",
+      "pl": "Przed terminem Julia kończy raport.",
+      "de": "Vor dem Abgabetermin beendet Julia den Bericht.",
+      "level": "B1"
+    },
+    {
+      "en": "At the entrance the security guard checks every bag.",
+      "pl": "Przy wejściu ochroniarz sprawdza każdą torbę.",
+      "de": "Am Eingang kontrolliert der Sicherheitsmitarbeiter jede Tasche.",
+      "level": "B1"
+    },
+    {
+      "en": "At the conference the experts exchange ideas.",
+      "pl": "Na konferencji eksperci wymieniają się pomysłami.",
+      "de": "Auf der Konferenz tauschen die Experten Ideen aus.",
+      "level": "B1"
+    },
+    {
+      "en": "For this customer we need a more flexible solution.",
+      "pl": "Dla tego klienta potrzebujemy bardziej elastycznego rozwiązania.",
+      "de": "Für diesen Kunden brauchen wir eine flexiblere Lösung.",
+      "level": "B1"
+    },
+    {
+      "en": "After the presentation the team discusses the results.",
+      "pl": "Po prezentacji zespół omawia wyniki.",
+      "de": "Nach der Präsentation bespricht das Team die Ergebnisse.",
+      "level": "B1"
+    },
+    {
+      "en": "At the port investigators examined the damaged vessel.",
+      "pl": "W porcie śledczy zbadali uszkodzony statek.",
+      "de": "Im Hafen untersuchten die Ermittler das beschädigte Schiff.",
+      "level": "B1"
+    },
+    {
+      "en": "After the announcement the employees asked several questions.",
+      "pl": "Po ogłoszeniu pracownicy zadali kilka pytań.",
+      "de": "Nach der Ankündigung stellten die Mitarbeiter mehrere Fragen.",
+      "level": "B1"
+    },
+    {
+      "en": "The final decision the board will make next week.",
+      "pl": "Ostateczną decyzję zarząd podejmie w przyszłym tygodniu.",
+      "de": "Die endgültige Entscheidung trifft der Vorstand nächste Woche.",
+      "level": "B1"
+    },
+    {
+      "en": "In the report the analysts identify three major risks.",
+      "pl": "W raporcie analitycy identyfikują trzy główne ryzyka.",
+      "de": "Im Bericht identifizieren die Analysten drei wesentliche Risiken.",
+      "level": "B1"
+    },
+    {
+      "en": "The revised budget the finance team will present tomorrow.",
+      "pl": "Zrewidowany budżet zespół finansowy przedstawi jutro.",
+      "de": "Den überarbeiteten Haushalt wird das Finanzteam morgen vorstellen.",
+      "level": "B1"
+    },
+    {
+      "en": "In the new building our department occupies the fourth floor.",
+      "pl": "W nowym budynku nasz dział zajmuje czwarte piętro.",
+      "de": "Im neuen Gebäude belegt unsere Abteilung den vierten Stock.",
+      "level": "B1"
+    },
+    {
+      "en": "In the regional office the team has already implemented the changes.",
+      "pl": "W biurze regionalnym zespół już wdrożył zmiany.",
+      "de": "Im Regionalbüro hat das Team die Änderungen bereits umgesetzt.",
+      "level": "B1"
+    },
+    {
+      "en": "Yesterday the minister confirmed that the talks would continue.",
+      "pl": "Wczoraj minister potwierdził, że rozmowy będą kontynuowane.",
+      "de": "Gestern bestätigte der Minister, dass die Gespräche fortgesetzt würden.",
+      "level": "B1"
+    },
+    {
+      "en": "Following the investigation the authorities published their findings.",
+      "pl": "Po zakończeniu dochodzenia władze opublikowały swoje ustalenia.",
+      "de": "Nach der Untersuchung veröffentlichten die Behörden ihre Ergebnisse.",
+      "level": "B1"
+    },
+    {
+      "en": "At the international summit the ministers discussed energy security.",
+      "pl": "Na międzynarodowym szczycie ministrowie omówili bezpieczeństwo energetyczne.",
+      "de": "Auf dem internationalen Gipfel diskutierten die Minister die Energiesicherheit.",
+      "level": "B1"
+    },
+    {
+      "en": "Last month the organisation introduced a new reporting process.",
+      "pl": "W zeszłym miesiącu organizacja wprowadziła nowy proces raportowania.",
+      "de": "Im vergangenen Monat führte die Organisation einen neuen Berichtsprozess ein.",
+      "level": "B1"
+    },
+    {
+      "en": "During the negotiations both parties presented their concerns.",
+      "pl": "Podczas negocjacji obie strony przedstawiły swoje obawy.",
+      "de": "Während der Verhandlungen äußerten beide Seiten ihre Bedenken.",
+      "level": "B2"
+    },
+    {
+      "en": "After several rounds of negotiations the parties reached a compromise.",
+      "pl": "Po kilku rundach negocjacji strony osiągnęły kompromis.",
+      "de": "Nach mehreren Verhandlungsrunden erzielten die Parteien einen Kompromiss.",
+      "level": "B2"
+    },
+    {
+      "en": "For several years the region has attracted international investors.",
+      "pl": "Od kilku lat region przyciąga międzynarodowych inwestorów.",
+      "de": "Seit mehreren Jahren zieht die Region internationale Investoren an.",
+      "level": "B2"
+    },
+    {
+      "en": "The revised proposal the board had rejected the previous day.",
+      "pl": "Zrewidowaną propozycję zarząd odrzucił poprzedniego dnia.",
+      "de": "Den überarbeiteten Vorschlag hatte der Vorstand am Vortag abgelehnt.",
+      "level": "B2"
+    },
+    {
+      "en": "For the affected communities the government must provide immediate assistance.",
+      "pl": "Dla poszkodowanych społeczności rząd musi zapewnić natychmiastową pomoc.",
+      "de": "Den betroffenen Gemeinden muss die Regierung sofortige Hilfe leisten.",
+      "level": "B2"
+    },
+    {
+      "en": "Following the unexpected resignation the organisation appointed an interim director.",
+      "pl": "Po nieoczekiwanej rezygnacji organizacja mianowała tymczasowego dyrektora.",
+      "de": "Nach dem unerwarteten Rücktritt ernannte die Organisation einen Interimsdirektor.",
+      "level": "B2"
+    },
+    {
+      "en": "In the final report the auditors will document all significant findings.",
+      "pl": "W raporcie końcowym audytorzy udokumentują wszystkie istotne ustalenia.",
+      "de": "Im Abschlussbericht werden die Prüfer alle wesentlichen Feststellungen dokumentieren.",
+      "level": "B2"
+    },
+    {
+      "en": "Despite the strong opposition the parliament approved the proposal.",
+      "pl": "Mimo silnego sprzeciwu parlament zatwierdził propozycję.",
+      "de": "Trotz des starken Widerstands stimmte das Parlament dem Vorschlag zu.",
+      "level": "B2"
+    },
+    {
+      "en": "At the end of the review the external auditors recommended further controls.",
+      "pl": "Na koniec przeglądu zewnętrzni audytorzy zalecili dodatkowe kontrole.",
+      "de": "Am Ende der Prüfung empfahlen die externen Prüfer zusätzliche Kontrollen.",
+      "level": "B2"
+    },
+    {
+      "en": "The risks associated with the acquisition the board discussed in detail.",
+      "pl": "Ryzyka związane z przejęciem zarząd szczegółowo omówił.",
+      "de": "Die mit der Übernahme verbundenen Risiken erörterte der Vorstand ausführlich.",
+      "level": "B2"
+    },
+    {
+      "en": "Despite the uncertainty surrounding the outcome the negotiations continued.",
+      "pl": "Mimo niepewności co do wyniku negocjacje były kontynuowane.",
+      "de": "Trotz der Unsicherheit über den Ausgang wurden die Verhandlungen fortgesetzt.",
+      "level": "B2"
+    },
+    {
+      "en": "In the absence of reliable data the researchers could not confirm the hypothesis.",
+      "pl": "Z braku wiarygodnych danych badacze nie mogli potwierdzić hipotezy.",
+      "de": "Mangels zuverlässiger Daten konnten die Forscher die Hypothese nicht bestätigen.",
+      "level": "B2"
+    },
+    {
+      "en": "In several European countries similar measures have already been implemented.",
+      "pl": "W kilku krajach europejskich podobne środki zostały już wdrożone.",
+      "de": "In mehreren europäischen Ländern sind ähnliche Maßnahmen bereits umgesetzt worden.",
+      "level": "B2"
+    },
+    {
+      "en": "Over the past decade digital technologies have fundamentally changed the industry.",
+      "pl": "W ciągu ostatniej dekady technologie cyfrowe fundamentalnie zmieniły branżę.",
+      "de": "Im vergangenen Jahrzehnt haben digitale Technologien die Branche grundlegend verändert.",
+      "level": "B2"
+    },
+    {
+      "en": "During the emergency meeting the participants agreed on additional safeguards.",
+      "pl": "Podczas spotkania kryzysowego uczestnicy zgodzili się na dodatkowe zabezpieczenia.",
+      "de": "Während der Krisensitzung einigten sich die Teilnehmer auf zusätzliche Schutzmaßnahmen.",
+      "level": "B2"
+    },
+    {
+      "en": "In the current economic climate companies must reassess their investment priorities.",
+      "pl": "W obecnym klimacie gospodarczym firmy muszą ponownie ocenić swoje priorytety inwestycyjne.",
+      "de": "Im gegenwärtigen wirtschaftlichen Umfeld müssen Unternehmen ihre Investitionsprioritäten neu bewerten.",
+      "level": "B2"
+    },
+    {
+      "en": "The additional funding the ministry has promised to provide next year.",
+      "pl": "Dodatkowe finansowanie ministerstwo obiecało zapewnić w przyszłym roku.",
+      "de": "Die zusätzlichen Mittel hat das Ministerium für das nächste Jahr zugesagt.",
+      "level": "B2"
+    },
+    {
+      "en": "By the end of the quarter the company must reduce its operating costs.",
+      "pl": "Do końca kwartału firma musi obniżyć koszty operacyjne.",
+      "de": "Bis zum Ende des Quartals muss das Unternehmen seine Betriebskosten senken.",
+      "level": "B2"
+    },
+    {
+      "en": "At the end of the meeting the chair summarised the main points.",
+      "pl": "Na koniec spotkania przewodniczący podsumował główne punkty.",
+      "de": "Am Ende der Besprechung fasste der Vorsitzende die wichtigsten Punkte zusammen.",
+      "level": "B2"
+    },
+    {
+      "en": "In the coming months the government intends to reform the system.",
+      "pl": "W nadchodzących miesiącach rząd zamierza zreformować system.",
+      "de": "In den kommenden Monaten beabsichtigt die Regierung, das System zu reformieren.",
+      "level": "B2"
+    },
+    {
+      "en": "In its latest assessment the agency identified several emerging risks.",
+      "pl": "W swojej najnowszej ocenie agencja zidentyfikowała kilka pojawiających się ryzyk.",
+      "de": "In ihrer jüngsten Bewertung identifizierte die Behörde mehrere neu entstehende Risiken.",
+      "level": "B2"
+    },
+    {
+      "en": "In recent months the company has expanded its international activities.",
+      "pl": "W ostatnich miesiącach firma rozszerzyła swoje międzynarodowe działania.",
+      "de": "In den letzten Monaten hat das Unternehmen seine internationalen Aktivitäten ausgeweitet.",
+      "level": "B2"
+    },
+    {
+      "en": "At the regional level the new agreement could strengthen economic cooperation.",
+      "pl": "Na szczeblu regionalnym nowa umowa mogłaby wzmocnić współpracę gospodarczą.",
+      "de": "Auf regionaler Ebene könnte das neue Abkommen die wirtschaftliche Zusammenarbeit stärken.",
+      "level": "B2"
+    },
+    {
+      "en": "Despite the unexpected delay the project manager maintained the original schedule.",
+      "pl": "Mimo nieoczekiwanego opóźnienia kierownik projektu utrzymał pierwotny harmonogram.",
+      "de": "Trotz der unerwarteten Verzögerung hielt der Projektleiter am ursprünglichen Zeitplan fest.",
+      "level": "B2"
+    },
+    {
+      "en": "By the next reporting period the department expects to complete the transition.",
+      "pl": "Do następnego okresu sprawozdawczego dział spodziewa się zakończyć przejście.",
+      "de": "Bis zur nächsten Berichtsperiode rechnet die Abteilung damit, die Umstellung abzuschließen.",
+      "level": "B2"
+    },
+    {
+      "en": "The proposed amendments the parliamentary committee will scrutinise before the vote.",
+      "pl": "Proponowane poprawki komisja parlamentarna dokładnie zbada przed głosowaniem.",
+      "de": "Die vorgeschlagenen Änderungen wird der Parlamentsausschuss vor der Abstimmung eingehend prüfen.",
+      "level": "B2"
+    },
+    {
+      "en": "In response to public criticism the organisation revised its communication strategy.",
+      "pl": "W odpowiedzi na publiczną krytykę organizacja zrewidowała swoją strategię komunikacji.",
+      "de": "Als Reaktion auf die öffentliche Kritik überarbeitete die Organisation ihre Kommunikationsstrategie.",
+      "level": "B2"
+    },
+    {
+      "en": "The consequences of the decision the committee will assess in its next meeting.",
+      "pl": "Konsekwencje decyzji komitet oceni na swoim następnym spotkaniu.",
+      "de": "Die Folgen der Entscheidung wird der Ausschuss in seiner nächsten Sitzung bewerten.",
+      "level": "B2"
+    },
+    {
+      "en": "The underlying assumptions the analysts had questioned from the beginning.",
+      "pl": "Podstawowe założenia analitycy kwestionowali od samego początku.",
+      "de": "Die zugrunde liegenden Annahmen hatten die Analysten von Anfang an infrage gestellt.",
+      "level": "B2"
+    },
+    {
+      "en": "Since the reform was introduced the number of complaints has declined considerably.",
+      "pl": "Od czasu wprowadzenia reformy liczba skarg znacznie spadła.",
+      "de": "Seit der Einführung der Reform ist die Zahl der Beschwerden erheblich zurückgegangen.",
+      "level": "B2"
+    },
+    {
+      "en": "The implications for smaller suppliers the report addresses in a separate section.",
+      "pl": "Konsekwencje dla mniejszych dostawców raport omawia w osobnej sekcji.",
+      "de": "Die Auswirkungen auf kleinere Lieferanten behandelt der Bericht in einem eigenen Abschnitt.",
+      "level": "B2"
+    },
+    {
+      "en": "After the evidence had been reviewed the investigators presented their conclusions.",
+      "pl": "Po przeanalizowaniu dowodów śledczy przedstawili swoje wnioski.",
+      "de": "Nachdem die Beweise überprüft worden waren, legten die Ermittler ihre Schlussfolgerungen vor.",
+      "level": "B2"
+    },
+    {
+      "en": "In light of the new evidence the authorities may have to reconsider their initial assessment.",
+      "pl": "W świetle nowych dowodów władze mogą musieć ponownie rozważyć swoją wstępną ocenę.",
+      "de": "Angesichts der neuen Beweise müssen die Behörden ihre ursprüngliche Einschätzung möglicherweise überdenken.",
+      "level": "B2"
+    },
+    {
+      "en": "Under the revised framework all participating institutions must disclose relevant information.",
+      "pl": "W ramach zrewidowanych ram wszystkie uczestniczące instytucje muszą ujawnić istotne informacje.",
+      "de": "Im Rahmen der überarbeiteten Regelung müssen alle beteiligten Institutionen relevante Informationen offenlegen.",
+      "level": "B2"
+    },
+    {
+      "en": "During the final negotiations the representatives managed to resolve the outstanding disagreements.",
+      "pl": "Podczas końcowych negocjacji przedstawicielom udało się rozwiązać pozostałe nieporozumienia.",
+      "de": "Während der abschließenden Verhandlungen gelang es den Vertretern, die verbliebenen Meinungsverschiedenheiten auszuräumen.",
+      "level": "B2"
+    },
+    {
+      "en": "In its statement the company acknowledged that the original forecasts had been overly optimistic.",
+      "pl": "W swoim oświadczeniu firma przyznała, że pierwotne prognozy były zbyt optymistyczne.",
+      "de": "In ihrer Erklärung räumte die Firma ein, dass die ursprünglichen Prognosen zu optimistisch gewesen waren.",
+      "level": "B2"
+    },
+    {
+      "en": "The financial implications of the agreement the executive team had underestimated considerably.",
+      "pl": "Finansowe konsekwencje umowy zespół zarządzający znacznie niedoszacował.",
+      "de": "Die finanziellen Auswirkungen der Vereinbarung hatte das Führungsteam erheblich unterschätzt.",
+      "level": "B2"
+    },
+    {
+      "en": "Only after the independent review had been completed did the board authorise the next phase.",
+      "pl": "Dopiero po zakończeniu niezależnego przeglądu zarząd autoryzował kolejną fazę.",
+      "de": "Erst nach Abschluss der unabhängigen Prüfung genehmigte der Vorstand die nächste Phase.",
+      "level": "B2"
+    },
+    {
+      "en": "At the international level coordinated action could prevent the crisis from escalating further.",
+      "pl": "Na poziomie międzynarodowym skoordynowane działania mogłyby zapobiec dalszej eskalacji kryzysu.",
+      "de": "Auf internationaler Ebene könnten koordinierte Maßnahmen eine weitere Eskalation der Krise verhindern.",
+      "level": "B2"
+    },
+    {
+      "en": "Once the preliminary results had been verified the commission published its assessment.",
+      "pl": "Gdy wstępne wyniki zostały zweryfikowane, komisja opublikowała swoją ocenę.",
+      "de": "Nachdem die vorläufigen Ergebnisse überprüft worden waren, veröffentlichte die Kommission ihre Bewertung.",
+      "level": "B2"
+    },
+    {
+      "en": "In the event of further delays the project sponsor will have to approve a revised implementation plan.",
+      "pl": "W przypadku dalszych opóźnień sponsor projektu będzie musiał zatwierdzić zrewidowany plan wdrożenia.",
+      "de": "Im Falle weiterer Verzögerungen wird der Projektsponsor einen überarbeiteten Umsetzungsplan genehmigen müssen.",
+      "level": "C1"
+    },
+    {
+      "en": "Under the new regulatory requirements financial institutions will have to disclose material exposures more transparently.",
+      "pl": "Zgodnie z nowymi wymogami regulacyjnymi instytucje finansowe będą musiały przejrzyściej ujawniać istotne ekspozycje.",
+      "de": "Nach den neuen regulatorischen Anforderungen werden Finanzinstitute wesentliche Risikopositionen transparenter offenlegen müssen.",
+      "level": "C1"
+    },
+    {
+      "en": "The assumptions underlying the business case the review team found insufficiently substantiated.",
+      "pl": "Założenia leżące u podstaw uzasadnienia biznesowego zespół weryfikujący uznał za niewystarczająco uzasadnione.",
+      "de": "Die dem Business Case zugrunde liegenden Annahmen hielt das Prüfungsteam für unzureichend belegt.",
+      "level": "C1"
+    },
+    {
+      "en": "In the event that the forecast deteriorates further the organisation may need to revise its funding strategy.",
+      "pl": "W przypadku dalszego pogorszenia się prognoz organizacja może musieć zrewidować swoją strategię finansowania.",
+      "de": "Sollte sich die Prognose weiter verschlechtern, muss die Organisation möglicherweise ihre Finanzierungsstrategie überarbeiten.",
+      "level": "C1"
+    },
+    {
+      "en": "In view of the substantial cost overruns the auditors recommended that the procurement process be reviewed independently.",
+      "pl": "Wobec znacznych przekroczeń kosztów audytorzy zalecili niezależny przegląd procesu zamówień.",
+      "de": "Angesichts der erheblichen Kostenüberschreitungen empfahlen die Prüfer, den Beschaffungsprozess unabhängig überprüfen zu lassen.",
+      "level": "C1"
+    },
+    {
+      "en": "The long-term consequences of the policy independent researchers will evaluate over the next decade.",
+      "pl": "Długoterminowe konsekwencje tej polityki niezależni badacze ocenią w ciągu następnej dekady.",
+      "de": "Die langfristigen Folgen der Politik werden unabhängige Forscher im Laufe des nächsten Jahrzehnts bewerten.",
+      "level": "C1"
+    },
+    {
+      "en": "After the revised forecasts had been incorporated the finance department recalculated the expected returns.",
+      "pl": "Po uwzględnieniu zrewidowanych prognoz dział finansowy ponownie obliczył oczekiwane zwroty.",
+      "de": "Nachdem die überarbeiteten Prognosen berücksichtigt worden waren, berechnete die Finanzabteilung die erwarteten Renditen neu.",
+      "level": "C1"
+    },
+    {
+      "en": "Despite mounting pressure from investors the management board declined to change its position.",
+      "pl": "Mimo rosnącej presji ze strony inwestorów zarząd odmówił zmiany swojego stanowiska.",
+      "de": "Trotz des zunehmenden Drucks der Investoren lehnte es der Vorstand ab, seine Position zu ändern.",
+      "level": "C1"
+    },
+    {
+      "en": "By the time the investigation concludes the relevant authorities will have collected evidence from multiple jurisdictions.",
+      "pl": "Do czasu zakończenia dochodzenia właściwe organy zbiorą dowody z wielu jurysdykcji.",
+      "de": "Bis zum Abschluss der Untersuchung werden die zuständigen Behörden Beweise aus mehreren Rechtsordnungen gesammelt haben.",
+      "level": "C1"
+    },
+    {
+      "en": "The extent to which the proposed controls reduce operational risk the assessment will examine in detail.",
+      "pl": "Zakres, w jakim proponowane kontrole zmniejszają ryzyko operacyjne, ocena zbada szczegółowo.",
+      "de": "In welchem Umfang die vorgeschlagenen Kontrollen das operative Risiko verringern, wird die Bewertung eingehend untersuchen.",
+      "level": "C1"
+    },
+    {
+      "en": "The broader implications for regional stability diplomats discussed privately before the official announcement.",
+      "pl": "Szersze implikacje dla stabilności regionalnej dyplomaci omówili prywatnie przed oficjalnym ogłoszeniem.",
+      "de": "Die weiterreichenden Folgen für die regionale Stabilität erörterten die Diplomaten vertraulich vor der offiziellen Bekanntgabe.",
+      "level": "C1"
+    },
+    {
+      "en": "In the absence of a binding agreement neither party can be expected to make additional commitments.",
+      "pl": "Wobec braku wiążącego porozumienia nie można oczekiwać, że którakolwiek ze stron podejmie dodatkowe zobowiązania.",
+      "de": "Mangels einer verbindlichen Vereinbarung kann von keiner der beiden Parteien erwartet werden, zusätzliche Verpflichtungen einzugehen.",
+      "level": "C1"
+    },
+    {
+      "en": "The potential effects on employment the government will assess before the reform enters into force.",
+      "pl": "Potencjalne skutki dla zatrudnienia rząd oceni, zanim reforma wejdzie w życie.",
+      "de": "Die möglichen Auswirkungen auf die Beschäftigung wird die Regierung bewerten, bevor die Reform in Kraft tritt.",
+      "level": "C1"
+    },
+    {
+      "en": "The evidence gathered by the investigators the prosecutor considered insufficient to establish responsibility conclusively.",
+      "pl": "Dowody zebrane przez śledczych prokurator uznał za niewystarczające do jednoznacznego ustalenia odpowiedzialności.",
+      "de": "Die von den Ermittlern gesammelten Beweise hielt der Staatsanwalt für unzureichend, um die Verantwortung abschließend festzustellen.",
+      "level": "C1"
+    },
+    {
+      "en": "In the final analysis the success of the reform will depend on whether implementation remains consistent across all participating institutions.",
+      "pl": "W ostatecznym rozrachunku sukces reformy będzie zależał od tego, czy wdrażanie pozostanie spójne we wszystkich uczestniczących instytucjach.",
+      "de": "Letztlich wird der Erfolg der Reform davon abhängen, ob die Umsetzung in allen beteiligten Institutionen einheitlich erfolgt.",
+      "level": "C1"
+    },
+    {
+      "en": "Throughout the consultation process the authorities must ensure that affected groups have a meaningful opportunity to respond.",
+      "pl": "Przez cały proces konsultacji władze muszą zapewnić, że poszkodowane grupy mają realną możliwość reakcji.",
+      "de": "Während des gesamten Konsultationsverfahrens müssen die Behörden sicherstellen, dass betroffene Gruppen eine echte Möglichkeit zur Stellungnahme erhalten.",
+      "level": "C1"
+    },
+    {
+      "en": "Only by establishing a clear allocation of responsibilities can the organisation prevent similar failures from recurring.",
+      "pl": "Tylko poprzez ustalenie jasnego podziału odpowiedzialności organizacja może zapobiec ponownemu wystąpieniu podobnych awarii.",
+      "de": "Nur durch eine klare Zuweisung von Verantwortlichkeiten kann die Organisation verhindern, dass sich ähnliche Fehler wiederholen.",
+      "level": "C1"
+    },
+    {
+      "en": "In light of the contradictory evidence and the limited scope of the mandate the panel refrained from drawing definitive conclusions.",
+      "pl": "W świetle sprzecznych dowodów i ograniczonego zakresu mandatu panel powstrzymał się od wyciągania ostatecznych wniosków.",
+      "de": "Angesichts der widersprüchlichen Beweise und des begrenzten Mandatsumfangs verzichtete das Gremium darauf, endgültige Schlussfolgerungen zu ziehen.",
+      "level": "C1"
+    },
+    {
+      "en": "The extent of the financial exposure independent experts will determine once all outstanding data have been reconciled.",
+      "pl": "Zakres ekspozycji finansowej niezależni eksperci określą, gdy tylko wszystkie zaległe dane zostaną uzgodnione.",
+      "de": "Das Ausmaß des finanziellen Risikos werden unabhängige Experten bestimmen, sobald sämtliche noch offenen Daten abgeglichen worden sind.",
+      "level": "C1"
+    },
+    {
+      "en": "Had the underlying assumptions been challenged earlier the organisation might have avoided the subsequent restructuring.",
+      "pl": "Gdyby podstawowe założenia zostały wcześniej zakwestionowane, organizacja mogłaby uniknąć późniejszej restrukturyzacji.",
+      "de": "Wären die zugrunde liegenden Annahmen früher hinterfragt worden, hätte die Organisation die spätere Umstrukturierung möglicherweise vermeiden können.",
+      "level": "C1"
+    },
+    {
+      "en": "The extent to which the revised framework addresses the identified weaknesses the supervisory authority will evaluate after the first reporting cycle.",
+      "pl": "Zakres, w jakim zrewidowane ramy odnoszą się do zidentyfikowanych słabości, organ nadzorczy oceni po pierwszym cyklu sprawozdawczym.",
+      "de": "Inwieweit der überarbeitete Rahmen den festgestellten Schwachstellen Rechnung trägt, wird die Aufsichtsbehörde nach dem ersten Berichtszyklus bewerten.",
+      "level": "C2"
+    },
+    {
+      "en": "At no point during the consultation did the authorities establish that the proposed restrictions were the least intrusive means available.",
+      "pl": "W żadnym momencie podczas konsultacji władze nie ustaliły, że proponowane ograniczenia były najmniej inwazyjnym dostępnym środkiem.",
+      "de": "Zu keinem Zeitpunkt während der Konsultation wiesen die Behörden nach, dass die vorgeschlagenen Beschränkungen das mildeste verfügbare Mittel darstellten.",
+      "level": "C2"
+    },
+    {
+      "en": "In assessing the credibility of the findings the committee must distinguish between independently verified evidence and information supplied by interested parties.",
+      "pl": "Oceniając wiarygodność ustaleń, komisja musi odróżnić niezależnie zweryfikowane dowody od informacji dostarczonych przez zainteresowane strony.",
+      "de": "Bei der Beurteilung der Glaubwürdigkeit der Ergebnisse muss der Ausschuss zwischen unabhängig überprüften Beweisen und Angaben interessierter Parteien unterscheiden.",
+      "level": "C2"
+    },
+    {
+      "en": "The extent to which the proposed safeguards mitigate systemic vulnerabilities the regulator intends to reassess as new evidence becomes available.",
+      "pl": "Zakres, w jakim proponowane zabezpieczenia łagodzą systemowe luki, organ regulacyjny zamierza ponownie ocenić, gdy pojawią się nowe dowody.",
+      "de": "In welchem Umfang die vorgeschlagenen Schutzmaßnahmen systemische Schwachstellen mindern, beabsichtigt die Aufsichtsbehörde neu zu bewerten, sobald neue Erkenntnisse vorliegen.",
+      "level": "C2"
+    },
+    {
+      "en": "In determining whether the intervention was proportionate the court will have to consider both its intended purpose and its foreseeable consequences.",
+      "pl": "Ustalając, czy interwencja była proporcjonalna, sąd będzie musiał wziąć pod uwagę zarówno jej zamierzony cel, jak i przewidywalne konsekwencje.",
+      "de": "Bei der Beurteilung, ob der Eingriff verhältnismäßig war, wird das Gericht sowohl seinen beabsichtigten Zweck als auch seine vorhersehbaren Folgen berücksichtigen müssen.",
+      "level": "C2"
+    },
+    {
+      "en": "In circumstances where the available evidence remains inconclusive decision-makers should explicitly acknowledge uncertainty rather than imply unwarranted certainty.",
+      "pl": "W okolicznościach, w których dostępne dowody pozostają nierozstrzygające, decydenci powinni wyraźnie uznać niepewność, zamiast sugerować nieuzasadnioną pewność.",
+      "de": "In Fällen, in denen die verfügbaren Beweise keine eindeutige Schlussfolgerung zulassen, sollten Entscheidungsträger die Unsicherheit ausdrücklich anerkennen, statt unbegründete Gewissheit zu suggerieren.",
+      "level": "C2"
+    },
+    {
+      "en": "The far-reaching consequences of this unprecedented monetary policy shift the central bank's governing council had evidently underestimated.",
+      "pl": "Dalekosiężne konsekwencje tej bezprecedensowej zmiany polityki pieniężnej rada zarządzająca banku centralnego najwyraźniej niedoszacowała.",
+      "de": "Die weitreichenden Konsequenzen dieses beispiellosen geldpolitischen Kurswechsels hatte der Zentralbankrat offensichtlich unterschätzt.",
+      "level": "C2"
+    },
+    {
+      "en": "Only under the condition of absolute confidentiality were the whistleblowers willing to provide the investigative committee with the explosive documents.",
+      "pl": "Tylko pod warunkiem absolutnej poufności sygnaliści byli gotowi przekazać komisji śledczej te wybuchowe dokumenty.",
+      "de": "Nur unter der Bedingung absoluter Vertraulichkeit waren die Whistleblower bereit, dem Untersuchungsausschuss die brisanten Dokumente zur Verfügung zu stellen.",
+      "level": "C2"
+    },
+    {
+      "en": "To what extent the newly implemented compliance mechanisms can actually prevent systemic corruption the upcoming audit will rigorously examine.",
+      "pl": "W jakim stopniu nowo wdrożone mechanizmy zgodności mogą faktycznie zapobiec systemowej korupcji, nadchodzący audyt rygorystycznie zbada.",
+      "de": "Inwieweit die neu implementierten Compliance-Mechanismen systemische Korruption tatsächlich verhindern können, wird die bevorstehende Prüfung rigoros untersuchen.",
+      "level": "C2"
+    },
+    {
+      "en": "Notwithstanding the vehement protests from various industry associations the legislative assembly passed the stringent environmental regulations without any substantial amendments.",
+      "pl": "Niezależnie od gwałtownych protestów różnych stowarzyszeń branżowych, zgromadzenie ustawodawcze przyjęło rygorystyczne przepisy ochrony środowiska bez żadnych istotnych poprawek.",
+      "de": "Ungeachtet der vehementen Proteste verschiedener Branchenverbände verabschiedete die gesetzgebende Versammlung die strengen Umweltauflagen ohne wesentliche Änderungen.",
+      "level": "C2"
+    }
   ],
   "listening": {
-   "audioUrl": "https://radiodownloaddw-a.akamaihd.net/downloads/Events/dwelle/dira/mp3/deutschkurse/nachrichten_live/F3C3F592_2.mp3",
-   "articles": [
-    {
-     "heading": "Nordkorea testet [[Marschflugkörper|1]]",
-     "text": "Das Regime in Pjöngjang hat erneut einen Test mit [[Lenkwaffen|2]] durchgeführt. Wie Nordkoreas staatliche Nachrichtenagentur KCNA berichtet, feuerte das ostasiatische Land am Mittwoch zwei Typen von Marschflugkörpern ab, die von U-Booten gestartet werden können. Damit sollten die [[Einsatzbereitschaft|3]] der Waffensysteme überprüft und die militärische [[Abschreckung|4]] demonstriert werden. Erst am Montag hatte Nordkorea eine ballistische Rakete getestet. Südkorea und Japan meldeten mehrere Geschosse, die rund 900 Kilometer in Richtung Japanisches Meer flogen. UN-Resolutionen verbieten Nordkorea den Abschuss ballistischer Raketen. Machthaber Kim Jong Un treibt seit Jahren den Ausbau des Raketenarsenals und der Marine voran."
-    },
-    {
-     "heading": "Rumänien [[ermittelt|5]] nach Schiffsbrand wegen möglicher [[Attacke|6]] mit Drohnen",
-     "text": "Rumänien untersucht einen möglichen Drohnenangriff auf einen Tanker vor seiner Schwarzmeerküste. Auf dem unter der Flagge der Komoren fahrenden Schiff „Yara J“ war am Mittwochabend ein Feuer ausgebrochen, das die Besatzung selbst löschen konnte. Ob eine Drohne den Brand verursachte, werde noch geprüft, sagte der rumänische Verteidigungsminister Radu Miruță. Der [[unbeladene|7]] Tanker lag seit Tagen vor der Hafenstadt Sulina nahe der ukrainischen Grenze vor Anker. Zuvor hatte Rumänien zwei Kampfjets aufsteigen lassen, um mehrere Flugobjekte über dem Schwarzen Meer [[abzufangen|8]]. Seit vergangener Woche wurden mehrere Schiffe vor Rumänien und Bulgarien mutmaßlich von russischen Drohnen getroffen."
-    },
-    {
-     "heading": "Brand an Starlink-Antennen auch in Bulgarien",
-     "text": "Nach einem [[Anschlag|9]] auf eine Bodenstation des Satellitendienstleisters Starlink in Polen hat es in Bulgarien einen ähnlichen [[Vorfall|10]] gegeben. Wie Regierungschef Rumen Radew im Parlament bestätigte, kam es am 9. Oktober zu einem Brand in einer Starlink-Anlage nahe der Hauptstadt Sofia. Die ukrainische Armee braucht das Starlink-Satellitennetz für ihre Verteidigung gegen Russland. Am Dienstag waren in Deutschland zwei Männer festgenommen worden, die im September einen Brandanschlag auf eine Starlink-Station in Polen verübt haben sollen. Die Regierung in Warschau vermutet russische Geheimdienste hinter der Tat."
-    },
-    {
-     "heading": "EU-Gipfel in Brüssel beginnt",
-     "text": "In Brüssel kommen an diesem Donnerstag die Staats- und Regierungschefs der EU-Staaten zu einem zweitägigen Treffen zusammen. Bei den [[Beratungen|11]] geht es unter anderem um den Haushalt für die kommenden Jahre, die weiteren Hilfen der Europäischen Union für die Ukraine und die Lage im Nahen Osten. Im Vorfeld appellierte ein Bündnis von rund 40 Organisationen aus Kirche und Gesellschaft an die Bundesregierung, sich bei dem Gipfel für das Grundrecht auf Asyl einzusetzen. Hintergrund sind Vorschläge, das Asylrecht in bestimmten Situationen auszusetzen – etwa wenn vermutet wird, dass Drittstaaten Migration [[instrumentalisieren|12]], um die Aufnahmeländer zu destabilisieren."
-    },
-    {
-     "heading": "Brasilien beschließt kürzere Arbeitswoche bei vollem Lohnausgleich",
-     "text": "Der brasilianische Senat hat mit nur einer einzigen Gegenstimme einer Verfassungsänderung zugestimmt. Damit wird die wöchentliche [[Höchstarbeitszeit|13]] in dem südamerikanischen Land von 44 auf 40 Stunden gesenkt – bei vollem [[Lohnausgleich|14]]. Die Regelung sieht zudem zwei freie Tage pro Woche vor und könnte nach Regierungsangaben mehr als 37 Millionen Beschäftigten zugutekommen. Unternehmen haben 14 Monate Zeit für die Umstellung. Präsident Luiz Inácio Lula da Silva sprach von einem historischen Erfolg. Die Reform gilt als wichtiger Wahlkampferfolg für Lula vor der Stichwahl am 25. Oktober. Sein rechtsgerichteter Herausforderer, der Senator Flávio Bolsonaro, hatte die Reform lange abgelehnt, stimmte ihr aber schließlich zu. Für Selbstständige und Menschen ohne regulären Arbeitsvertrag gilt die Neuregelung nicht."
-    },
-    {
-     "heading": "Lufthansa übernimmt Anteile bei portugiesischer Fluglinie TAP",
-     "text": "Die Lufthansa hat das [[Bieterrennen|15]] um einen Einstieg bei der portugiesischen Fluggesellschaft TAP gewonnen. Die deutsche Airline erhalte für 1,2 Milliarden Euro den [[Zuschlag|16]] für einen Anteil von 44,9 Prozent und habe sich damit gegen den Rivalen Air France-KLM durchgesetzt, teilte die portugiesische Regierung nach einem Kabinettsbeschluss in Lissabon mit. Das Angebot der Lufthansa sei 16 Prozent höher gewesen als das von Air France-KLM, sagte Ministerpräsident Luis Montenegro. Portugal will die in der Corona-Krise 2020 [[verstaatlichte|17]] Fluggesellschaft wieder [[teilprivatisieren|18]]."
-    }
-   ],
-   "vocab": [
-    {
-     "id": 1,
-     "word": "der Marschflugkörper",
-     "translation": {
-      "en": "cruise missile",
-      "pl": "pocisk manewrujący"
-     },
-     "partOfSpeech": "Noun",
-     "level": "C1",
-     "plural": "die Marschflugkörper",
-     "notes": {
-      "en": "A military term for a guided missile that flies toward its target.",
-      "pl": "Termin wojskowy oznaczający kierowany pocisk lecący w stronę celu."
-     },
-     "examples": [
-      "Die Regierung bestätigte den Test eines neuen Marschflugkörpers.",
-      "Der Marschflugkörper kann aus großer Entfernung gestartet werden."
-     ]
-    },
-    {
-     "id": 2,
-     "word": "die Lenkwaffe",
-     "translation": {
-      "en": "guided missile",
-      "pl": "pocisk kierowany"
-     },
-     "partOfSpeech": "Noun",
-     "level": "C1",
-     "plural": "die Lenkwaffen",
-     "notes": {
-      "en": "A technical military term; Lenkwaffe is broader than Marschflugkörper.",
-      "pl": "Termin wojskowy o szerszym znaczeniu niż Marschflugkörper."
-     },
-     "examples": [
-      "Die Lenkwaffe wurde während eines Manövers getestet.",
-      "Experten untersuchen die Reichweite der neuen Lenkwaffe."
-     ]
-    },
-    {
-     "id": 3,
-     "word": "die Einsatzbereitschaft",
-     "translation": {
-      "en": "operational readiness",
-      "pl": "gotowość operacyjna"
-     },
-     "partOfSpeech": "Noun",
-     "level": "C1",
-     "plural": "",
-     "notes": {
-      "en": "Often used with prüfen, erhöhen or sicherstellen.",
-      "pl": "Często występuje z czasownikami prüfen, erhöhen lub sicherstellen."
-     },
-     "examples": [
-      "Die Einsatzbereitschaft der Rettungskräfte wird regelmäßig überprüft.",
-      "Die Behörde muss die Einsatzbereitschaft ihrer Systeme sicherstellen."
-     ]
-    },
-    {
-     "id": 4,
-     "word": "die Abschreckung",
-     "translation": {
-      "en": "deterrence",
-      "pl": "odstraszanie"
-     },
-     "partOfSpeech": "Noun",
-     "level": "C1",
-     "plural": "",
-     "notes": {
-      "en": "Common in political and military contexts: militärische Abschreckung.",
-      "pl": "Częste w kontekście politycznym i wojskowym: militärische Abschreckung."
-     },
-     "examples": [
-      "Die Regierung betrachtet Abschreckung als Teil ihrer Sicherheitspolitik.",
-      "Experten diskutieren die Wirksamkeit militärischer Abschreckung."
-     ]
-    },
-    {
-     "id": 5,
-     "word": "ermitteln",
-     "translation": {
-      "en": "to investigate",
-      "pl": "prowadzić dochodzenie, badać sprawę"
-     },
-     "partOfSpeech": "Verb",
-     "level": "B2",
-     "plural": "",
-     "notes": {
-      "en": "Often used with wegen + genitive or in a case involving a suspected offence.",
-      "pl": "Często łączy się z wegen i nazwą badanego przestępstwa."
-     },
-     "examples": [
-      "Die Staatsanwaltschaft ermittelt wegen möglicher Korruption.",
-      "Die Polizei ermittelt, ob Sicherheitsregeln verletzt wurden."
-     ]
-    },
-    {
-     "id": 6,
-     "word": "die Attacke",
-     "translation": {
-      "en": "attack",
-      "pl": "atak"
-     },
-     "partOfSpeech": "Noun",
-     "level": "B2",
-     "plural": "die Attacken",
-     "notes": {
-      "en": "Used for physical, military or figurative attacks.",
-      "pl": "Oznacza atak fizyczny, wojskowy lub przenośny."
-     },
-     "examples": [
-      "Die Regierung verurteilte die Attacke auf die Infrastruktur.",
-      "Nach der Attacke wurden zusätzliche Sicherheitsmaßnahmen eingeführt."
-     ]
-    },
-    {
-     "id": 7,
-     "word": "unbeladen",
-     "translation": {
-      "en": "unloaded, carrying no cargo",
-      "pl": "niezaładowany, bez ładunku"
-     },
-     "partOfSpeech": "Adjective",
-     "level": "B2",
-     "plural": "",
-     "notes": {
-      "en": "Often describes ships, trucks or other means of transport.",
-      "pl": "Często opisuje statki, ciężarówki i inne środki transportu."
-     },
-     "examples": [
-      "Das unbeladene Schiff kehrte zum Hafen zurück.",
-      "Ein unbeladener Lastwagen verbraucht unter Umständen weniger Kraftstoff."
-     ]
-    },
-    {
-     "id": 8,
-     "word": "abfangen",
-     "translation": {
-      "en": "to intercept",
-      "pl": "przechwycić"
-     },
-     "partOfSpeech": "Verb",
-     "level": "B2",
-     "plural": "",
-     "notes": {
-      "en": "Separable verb: fängt ab, fing ab, hat abgefangen.",
-      "pl": "Czasownik rozdzielnie złożony: fängt ab, fing ab, hat abgefangen."
-     },
-     "examples": [
-      "Die Behörden konnten die verdächtige Nachricht abfangen.",
-      "Ein Abwehrsystem soll anfliegende Raketen abfangen."
-     ]
-    },
-    {
-     "id": 9,
-     "word": "der Anschlag",
-     "translation": {
-      "en": "attack, bombing, act of sabotage",
-      "pl": "zamach, akt sabotażu"
-     },
-     "partOfSpeech": "Noun",
-     "level": "B2",
-     "plural": "die Anschläge",
-     "notes": {
-      "en": "Common collocation: einen Anschlag auf etwas verüben.",
-      "pl": "Typowe połączenie: einen Anschlag auf etwas verüben."
-     },
-     "examples": [
-      "Nach dem Anschlag wurde das Gebäude abgesperrt.",
-      "Die Ermittler suchen nach den Verantwortlichen für den Anschlag."
-     ]
-    },
-    {
-     "id": 10,
-     "word": "der Vorfall",
-     "translation": {
-      "en": "incident",
-      "pl": "incydent, zdarzenie"
-     },
-     "partOfSpeech": "Noun",
-     "level": "B2",
-     "plural": "die Vorfälle",
-     "notes": {
-      "en": "Neutral term for an event, often one that is unusual or problematic.",
-      "pl": "Neutralne określenie zdarzenia, często nietypowego lub problematycznego."
-     },
-     "examples": [
-      "Der Vorfall wird derzeit intern untersucht.",
-      "Ähnliche Vorfälle haben sich in der Vergangenheit ereignet."
-     ]
-    },
-    {
-     "id": 11,
-     "word": "die Beratung",
-     "translation": {
-      "en": "consultation, deliberation, advice",
-      "pl": "konsultacja, obrady, doradztwo"
-     },
-     "partOfSpeech": "Noun",
-     "level": "B2",
-     "plural": "die Beratungen",
-     "notes": {
-      "en": "In political reporting, plural Beratungen often means formal deliberations.",
-      "pl": "W relacjach politycznych liczba mnoga Beratungen często oznacza formalne obrady."
-     },
-     "examples": [
-      "Die Beratungen über den Haushalt dauern mehrere Tage.",
-      "Nach intensiven Beratungen einigten sich die Parteien auf einen Kompromiss."
-     ]
-    },
-    {
-     "id": 12,
-     "word": "instrumentalisieren",
-     "translation": {
-      "en": "to instrumentalise, exploit for a purpose",
-      "pl": "instrumentalizować, wykorzystywać do określonego celu"
-     },
-     "partOfSpeech": "Verb",
-     "level": "C1",
-     "plural": "",
-     "notes": {
-      "en": "Often used critically with a person, issue or process as its object.",
-      "pl": "Często używany krytycznie, gdy czyjaś sprawa lub proces służy określonemu celowi."
-     },
-     "examples": [
-      "Politische Akteure dürfen humanitäre Hilfe nicht instrumentalisieren.",
-      "Die Studie untersucht, wie soziale Medien für Propaganda instrumentalisiert werden."
-     ]
-    },
-    {
-     "id": 13,
-     "word": "die Höchstarbeitszeit",
-     "translation": {
-      "en": "maximum working time",
-      "pl": "maksymalny czas pracy"
-     },
-     "partOfSpeech": "Noun",
-     "level": "C1",
-     "plural": "die Höchstarbeitszeiten",
-     "notes": {
-      "en": "A compound noun; Arbeitszeit is the head noun.",
-      "pl": "Rzeczownik złożony, którego członem głównym jest Arbeitszeit."
-     },
-     "examples": [
-      "Die gesetzliche Höchstarbeitszeit unterscheidet sich je nach Land.",
-      "Der Vorschlag sieht eine niedrigere Höchstarbeitszeit vor."
-     ]
-    },
-    {
-     "id": 14,
-     "word": "der Lohnausgleich",
-     "translation": {
-      "en": "wage compensation",
-      "pl": "rekompensata wynagrodzenia"
-     },
-     "partOfSpeech": "Noun",
-     "level": "C1",
-     "plural": "",
-     "notes": {
-      "en": "Vollem Lohnausgleich means that pay is maintained despite reduced working hours.",
-      "pl": "Vollem Lohnausgleich oznacza zachowanie wynagrodzenia mimo skrócenia czasu pracy."
-     },
-     "examples": [
-      "Die Gewerkschaft fordert eine Arbeitszeitverkürzung bei vollem Lohnausgleich.",
-      "Ohne Lohnausgleich könnte die Reform für Beschäftigte Nachteile haben."
-     ]
-    },
-    {
-     "id": 15,
-     "word": "das Bieterrennen",
-     "translation": {
-      "en": "bidding contest",
-      "pl": "rywalizacja w przetargu, wyścig oferentów"
-     },
-     "partOfSpeech": "Noun",
-     "level": "C1",
-     "plural": "die Bieterrennen",
-     "notes": {
-      "en": "A figurative compound describing competition among bidders.",
-      "pl": "Przenośne określenie rywalizacji między oferentami."
-     },
-     "examples": [
-      "Mehrere Investoren beteiligten sich am Bieterrennen.",
-      "Das Bieterrennen endete mit einem überraschenden Ergebnis."
-     ]
-    },
-    {
-     "id": 16,
-     "word": "der Zuschlag",
-     "translation": {
-      "en": "contract award, successful bid",
-      "pl": "przyznanie zamówienia, wygrana oferta"
-     },
-     "partOfSpeech": "Noun",
-     "level": "B2",
-     "plural": "die Zuschläge",
-     "notes": {
-      "en": "Common expression: den Zuschlag erhalten or jemandem den Zuschlag erteilen.",
-      "pl": "Typowe połączenia: den Zuschlag erhalten lub jemandem den Zuschlag erteilen."
-     },
-     "examples": [
-      "Das Unternehmen erhielt den Zuschlag für den Bau der Brücke.",
-      "Die Behörde erteilte den Zuschlag nach einer sorgfältigen Prüfung."
-     ]
-    },
-    {
-     "id": 17,
-     "word": "verstaatlichen",
-     "translation": {
-      "en": "to nationalise",
-      "pl": "upaństwowić"
-     },
-     "partOfSpeech": "Verb",
-     "level": "C1",
-     "plural": "",
-     "notes": {
-      "en": "Regular verb; Partizip II: verstaatlicht.",
-      "pl": "Czasownik regularny; imiesłów czasu przeszłego: verstaatlicht."
-     },
-     "examples": [
-      "Die Regierung beschloss, den strategischen Betrieb zu verstaatlichen.",
-      "Das Unternehmen wurde während einer schweren Krise verstaatlicht."
-     ]
-    },
-    {
-     "id": 18,
-     "word": "teilprivatisieren",
-     "translation": {
-      "en": "to partially privatise",
-      "pl": "częściowo sprywatyzować"
-     },
-     "partOfSpeech": "Verb",
-     "level": "C1",
-     "plural": "",
-     "notes": {
-      "en": "Means to sell only part of a state-owned enterprise to private investors.",
-      "pl": "Oznacza sprzedaż prywatnym inwestorom tylko części przedsiębiorstwa państwowego."
-     },
-     "examples": [
-      "Die Regierung plant, den staatlichen Energieversorger teilzuprivatisieren.",
-      "Mit dem Verkauf will das Land die Fluggesellschaft teilprivatisieren."
-     ]
-    }
-   ]
+    "audioUrl": "https://radiodownloaddw-a.akamaihd.net/downloads/Events/dwelle/dira/mp3/deutschkurse/nachrichten_live/F3C3F592_2.mp3",
+    "articles": [
+      {
+        "heading": "Nordkorea testet [[Marschflugkörper|1]]",
+        "text": "Das Regime in Pjöngjang hat erneut einen Test mit [[Lenkwaffen|2]] durchgeführt. Wie Nordkoreas staatliche Nachrichtenagentur KCNA berichtet, feuerte das ostasiatische Land am Mittwoch zwei Typen von Marschflugkörpern ab, die von U-Booten gestartet werden können. Damit sollten die [[Einsatzbereitschaft|3]] der Waffensysteme überprüft und die militärische [[Abschreckung|4]] demonstriert werden. Erst am Montag hatte Nordkorea eine ballistische Rakete getestet. Südkorea und Japan meldeten mehrere Geschosse, die rund 900 Kilometer in Richtung Japanisches Meer flogen. UN-Resolutionen verbieten Nordkorea den Abschuss ballistischer Raketen. Machthaber Kim Jong Un treibt seit Jahren den Ausbau des Raketenarsenals und der Marine voran."
+      },
+      {
+        "heading": "Rumänien [[ermittelt|5]] nach Schiffsbrand wegen möglicher [[Attacke|6]] mit Drohnen",
+        "text": "Rumänien untersucht einen möglichen Drohnenangriff auf einen Tanker vor seiner Schwarzmeerküste. Auf dem unter der Flagge der Komoren fahrenden Schiff „Yara J“ war am Mittwochabend ein Feuer ausgebrochen, das die Besatzung selbst löschen konnte. Ob eine Drohne den Brand verursachte, werde noch geprüft, sagte der rumänische Verteidigungsminister Radu Miruță. Der [[unbeladene|7]] Tanker lag seit Tagen vor der Hafenstadt Sulina nahe der ukrainischen Grenze vor Anker. Zuvor hatte Rumänien zwei Kampfjets aufsteigen lassen, um mehrere Flugobjekte über dem Schwarzen Meer [[abzufangen|8]]. Seit vergangener Woche wurden mehrere Schiffe vor Rumänien und Bulgarien mutmaßlich von russischen Drohnen getroffen."
+      },
+      {
+        "heading": "Brand an Starlink-Antennen auch in Bulgarien",
+        "text": "Nach einem [[Anschlag|9]] auf eine Bodenstation des Satellitendienstleisters Starlink in Polen hat es in Bulgarien einen ähnlichen [[Vorfall|10]] gegeben. Wie Regierungschef Rumen Radew im Parlament bestätigte, kam es am 9. Oktober zu einem Brand in einer Starlink-Anlage nahe der Hauptstadt Sofia. Die ukrainische Armee braucht das Starlink-Satellitennetz für ihre Verteidigung gegen Russland. Am Dienstag waren in Deutschland zwei Männer festgenommen worden, die im September einen Brandanschlag auf eine Starlink-Station in Polen verübt haben sollen. Die Regierung in Warschau vermutet russische Geheimdienste hinter der Tat."
+      },
+      {
+        "heading": "EU-Gipfel in Brüssel beginnt",
+        "text": "In Brüssel kommen an diesem Donnerstag die Staats- und Regierungschefs der EU-Staaten zu einem zweitägigen Treffen zusammen. Bei den [[Beratungen|11]] geht es unter anderem um den Haushalt für die kommenden Jahre, die weiteren Hilfen der Europäischen Union für die Ukraine und die Lage im Nahen Osten. Im Vorfeld appellierte ein Bündnis von rund 40 Organisationen aus Kirche und Gesellschaft an die Bundesregierung, sich bei dem Gipfel für das Grundrecht auf Asyl einzusetzen. Hintergrund sind Vorschläge, das Asylrecht in bestimmten Situationen auszusetzen – etwa wenn vermutet wird, dass Drittstaaten Migration [[instrumentalisieren|12]], um die Aufnahmeländer zu destabilisieren."
+      },
+      {
+        "heading": "Brasilien beschließt kürzere Arbeitswoche bei vollem Lohnausgleich",
+        "text": "Der brasilianische Senat hat mit nur einer einzigen Gegenstimme einer Verfassungsänderung zugestimmt. Damit wird die wöchentliche [[Höchstarbeitszeit|13]] in dem südamerikanischen Land von 44 auf 40 Stunden gesenkt – bei vollem [[Lohnausgleich|14]]. Die Regelung sieht zudem zwei freie Tage pro Woche vor und könnte nach Regierungsangaben mehr als 37 Millionen Beschäftigten zugutekommen. Unternehmen haben 14 Monate Zeit für die Umstellung. Präsident Luiz Inácio Lula da Silva sprach von einem historischen Erfolg. Die Reform gilt als wichtiger Wahlkampferfolg für Lula vor der Stichwahl am 25. Oktober. Sein rechtsgerichteter Herausforderer, der Senator Flávio Bolsonaro, hatte die Reform lange abgelehnt, stimmte ihr aber schließlich zu. Für Selbstständige und Menschen ohne regulären Arbeitsvertrag gilt die Neuregelung nicht."
+      },
+      {
+        "heading": "Lufthansa übernimmt Anteile bei portugiesischer Fluglinie TAP",
+        "text": "Die Lufthansa hat das [[Bieterrennen|15]] um einen Einstieg bei der portugiesischen Fluggesellschaft TAP gewonnen. Die deutsche Airline erhalte für 1,2 Milliarden Euro den [[Zuschlag|16]] für einen Anteil von 44,9 Prozent und habe sich damit gegen den Rivalen Air France-KLM durchgesetzt, teilte die portugiesische Regierung nach einem Kabinettsbeschluss in Lissabon mit. Das Angebot der Lufthansa sei 16 Prozent höher gewesen als das von Air France-KLM, sagte Ministerpräsident Luis Montenegro. Portugal will die in der Corona-Krise 2020 [[verstaatlichte|17]] Fluggesellschaft wieder [[teilprivatisieren|18]]."
+      }
+    ],
+    "vocab": [
+      {
+        "id": 1,
+        "word": "der Marschflugkörper",
+        "translation": {
+          "en": "cruise missile",
+          "pl": "pocisk manewrujący"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Marschflugkörper",
+        "notes": {
+          "en": "A military term for a guided missile that flies toward its target.",
+          "pl": "Termin wojskowy oznaczający kierowany pocisk lecący w stronę celu."
+        },
+        "examples": [
+          "Die Regierung bestätigte den Test eines neuen Marschflugkörpers.",
+          "Der Marschflugkörper kann aus großer Entfernung gestartet werden."
+        ]
+      },
+      {
+        "id": 2,
+        "word": "die Lenkwaffe",
+        "translation": {
+          "en": "guided missile",
+          "pl": "pocisk kierowany"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Lenkwaffen",
+        "notes": {
+          "en": "A technical military term; Lenkwaffe is broader than Marschflugkörper.",
+          "pl": "Termin wojskowy o szerszym znaczeniu niż Marschflugkörper."
+        },
+        "examples": [
+          "Die Lenkwaffe wurde während eines Manövers getestet.",
+          "Experten untersuchen die Reichweite der neuen Lenkwaffe."
+        ]
+      },
+      {
+        "id": 3,
+        "word": "die Einsatzbereitschaft",
+        "translation": {
+          "en": "operational readiness",
+          "pl": "gotowość operacyjna"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Often used with prüfen, erhöhen or sicherstellen.",
+          "pl": "Często występuje z czasownikami prüfen, erhöhen lub sicherstellen."
+        },
+        "examples": [
+          "Die Einsatzbereitschaft der Rettungskräfte wird regelmäßig überprüft.",
+          "Die Behörde muss die Einsatzbereitschaft ihrer Systeme sicherstellen."
+        ]
+      },
+      {
+        "id": 4,
+        "word": "die Abschreckung",
+        "translation": {
+          "en": "deterrence",
+          "pl": "odstraszanie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Common in political and military contexts: militärische Abschreckung.",
+          "pl": "Częste w kontekście politycznym i wojskowym: militärische Abschreckung."
+        },
+        "examples": [
+          "Die Regierung betrachtet Abschreckung als Teil ihrer Sicherheitspolitik.",
+          "Experten diskutieren die Wirksamkeit militärischer Abschreckung."
+        ]
+      },
+      {
+        "id": 5,
+        "word": "ermitteln",
+        "translation": {
+          "en": "to investigate",
+          "pl": "prowadzić dochodzenie, badać sprawę"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Often used with wegen + genitive or in a case involving a suspected offence.",
+          "pl": "Często łączy się z wegen i nazwą badanego przestępstwa."
+        },
+        "examples": [
+          "Die Staatsanwaltschaft ermittelt wegen möglicher Korruption.",
+          "Die Polizei ermittelt, ob Sicherheitsregeln verletzt wurden."
+        ]
+      },
+      {
+        "id": 6,
+        "word": "die Attacke",
+        "translation": {
+          "en": "attack",
+          "pl": "atak"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Attacken",
+        "notes": {
+          "en": "Used for physical, military or figurative attacks.",
+          "pl": "Oznacza atak fizyczny, wojskowy lub przenośny."
+        },
+        "examples": [
+          "Die Regierung verurteilte die Attacke auf die Infrastruktur.",
+          "Nach der Attacke wurden zusätzliche Sicherheitsmaßnahmen eingeführt."
+        ]
+      },
+      {
+        "id": 7,
+        "word": "unbeladen",
+        "translation": {
+          "en": "unloaded, carrying no cargo",
+          "pl": "niezaładowany, bez ładunku"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Often describes ships, trucks or other means of transport.",
+          "pl": "Często opisuje statki, ciężarówki i inne środki transportu."
+        },
+        "examples": [
+          "Das unbeladene Schiff kehrte zum Hafen zurück.",
+          "Ein unbeladener Lastwagen verbraucht unter Umständen weniger Kraftstoff."
+        ]
+      },
+      {
+        "id": 8,
+        "word": "abfangen",
+        "translation": {
+          "en": "to intercept",
+          "pl": "przechwycić"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Separable verb: fängt ab, fing ab, hat abgefangen.",
+          "pl": "Czasownik rozdzielnie złożony: fängt ab, fing ab, hat abgefangen."
+        },
+        "examples": [
+          "Die Behörden konnten die verdächtige Nachricht abfangen.",
+          "Ein Abwehrsystem soll anfliegende Raketen abfangen."
+        ]
+      },
+      {
+        "id": 9,
+        "word": "der Anschlag",
+        "translation": {
+          "en": "attack, bombing, act of sabotage",
+          "pl": "zamach, akt sabotażu"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Anschläge",
+        "notes": {
+          "en": "Common collocation: einen Anschlag auf etwas verüben.",
+          "pl": "Typowe połączenie: einen Anschlag auf etwas verüben."
+        },
+        "examples": [
+          "Nach dem Anschlag wurde das Gebäude abgesperrt.",
+          "Die Ermittler suchen nach den Verantwortlichen für den Anschlag."
+        ]
+      },
+      {
+        "id": 10,
+        "word": "der Vorfall",
+        "translation": {
+          "en": "incident",
+          "pl": "incydent, zdarzenie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Vorfälle",
+        "notes": {
+          "en": "Neutral term for an event, often one that is unusual or problematic.",
+          "pl": "Neutralne określenie zdarzenia, często nietypowego lub problematycznego."
+        },
+        "examples": [
+          "Der Vorfall wird derzeit intern untersucht.",
+          "Ähnliche Vorfälle haben sich in der Vergangenheit ereignet."
+        ]
+      },
+      {
+        "id": 11,
+        "word": "die Beratung",
+        "translation": {
+          "en": "consultation, deliberation, advice",
+          "pl": "konsultacja, obrady, doradztwo"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Beratungen",
+        "notes": {
+          "en": "In political reporting, plural Beratungen often means formal deliberations.",
+          "pl": "W relacjach politycznych liczba mnoga Beratungen często oznacza formalne obrady."
+        },
+        "examples": [
+          "Die Beratungen über den Haushalt dauern mehrere Tage.",
+          "Nach intensiven Beratungen einigten sich die Parteien auf einen Kompromiss."
+        ]
+      },
+      {
+        "id": 12,
+        "word": "instrumentalisieren",
+        "translation": {
+          "en": "to instrumentalise, exploit for a purpose",
+          "pl": "instrumentalizować, wykorzystywać do określonego celu"
+        },
+        "partOfSpeech": "Verb",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Often used critically with a person, issue or process as its object.",
+          "pl": "Często używany krytycznie, gdy czyjaś sprawa lub proces służy określonemu celowi."
+        },
+        "examples": [
+          "Politische Akteure dürfen humanitäre Hilfe nicht instrumentalisieren.",
+          "Die Studie untersucht, wie soziale Medien für Propaganda instrumentalisiert werden."
+        ]
+      },
+      {
+        "id": 13,
+        "word": "die Höchstarbeitszeit",
+        "translation": {
+          "en": "maximum working time",
+          "pl": "maksymalny czas pracy"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Höchstarbeitszeiten",
+        "notes": {
+          "en": "A compound noun; Arbeitszeit is the head noun.",
+          "pl": "Rzeczownik złożony, którego członem głównym jest Arbeitszeit."
+        },
+        "examples": [
+          "Die gesetzliche Höchstarbeitszeit unterscheidet sich je nach Land.",
+          "Der Vorschlag sieht eine niedrigere Höchstarbeitszeit vor."
+        ]
+      },
+      {
+        "id": 14,
+        "word": "der Lohnausgleich",
+        "translation": {
+          "en": "wage compensation",
+          "pl": "rekompensata wynagrodzenia"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Vollem Lohnausgleich means that pay is maintained despite reduced working hours.",
+          "pl": "Vollem Lohnausgleich oznacza zachowanie wynagrodzenia mimo skrócenia czasu pracy."
+        },
+        "examples": [
+          "Die Gewerkschaft fordert eine Arbeitszeitverkürzung bei vollem Lohnausgleich.",
+          "Ohne Lohnausgleich könnte die Reform für Beschäftigte Nachteile haben."
+        ]
+      },
+      {
+        "id": 15,
+        "word": "das Bieterrennen",
+        "translation": {
+          "en": "bidding contest",
+          "pl": "rywalizacja w przetargu, wyścig oferentów"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Bieterrennen",
+        "notes": {
+          "en": "A figurative compound describing competition among bidders.",
+          "pl": "Przenośne określenie rywalizacji między oferentami."
+        },
+        "examples": [
+          "Mehrere Investoren beteiligten sich am Bieterrennen.",
+          "Das Bieterrennen endete mit einem überraschenden Ergebnis."
+        ]
+      },
+      {
+        "id": 16,
+        "word": "der Zuschlag",
+        "translation": {
+          "en": "contract award, successful bid",
+          "pl": "przyznanie zamówienia, wygrana oferta"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Zuschläge",
+        "notes": {
+          "en": "Common expression: den Zuschlag erhalten or jemandem den Zuschlag erteilen.",
+          "pl": "Typowe połączenia: den Zuschlag erhalten lub jemandem den Zuschlag erteilen."
+        },
+        "examples": [
+          "Das Unternehmen erhielt den Zuschlag für den Bau der Brücke.",
+          "Die Behörde erteilte den Zuschlag nach einer sorgfältigen Prüfung."
+        ]
+      },
+      {
+        "id": 17,
+        "word": "verstaatlichen",
+        "translation": {
+          "en": "to nationalise",
+          "pl": "upaństwowić"
+        },
+        "partOfSpeech": "Verb",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Regular verb; Partizip II: verstaatlicht.",
+          "pl": "Czasownik regularny; imiesłów czasu przeszłego: verstaatlicht."
+        },
+        "examples": [
+          "Die Regierung beschloss, den strategischen Betrieb zu verstaatlichen.",
+          "Das Unternehmen wurde während einer schweren Krise verstaatlicht."
+        ]
+      },
+      {
+        "id": 18,
+        "word": "teilprivatisieren",
+        "translation": {
+          "en": "to partially privatise",
+          "pl": "częściowo sprywatyzować"
+        },
+        "partOfSpeech": "Verb",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Means to sell only part of a state-owned enterprise to private investors.",
+          "pl": "Oznacza sprzedaż prywatnym inwestorom tylko części przedsiębiorstwa państwowego."
+        },
+        "examples": [
+          "Die Regierung plant, den staatlichen Energieversorger teilzuprivatisieren.",
+          "Mit dem Verkauf will das Land die Fluggesellschaft teilprivatisieren."
+        ]
+      }
+    ]
   },
   "speaking": {
-   "prompt": {
-    "en": "You are my German language tutor conducting a 20-minute B1-to-C1 speaking conversation based on the German news from 15 October 2026.\n\nKey stories covered in this episode:\n1. North Korea tested two types of cruise missiles that can be launched from submarines, according to its state news agency.\n2. Romania is investigating whether a drone caused a fire on a tanker off its Black Sea coast.\n3. Bulgaria reported a fire at a Starlink facility near Sofia after a similar incident in Poland; the Polish investigation is ongoing.\n4. EU leaders are meeting in Brussels to discuss the budget, assistance for Ukraine and the situation in the Middle East, alongside debate about the right to asylum.\n5. Brazil's Senate approved a constitutional amendment reducing the maximum working week from 44 to 40 hours with full wage compensation, subject to implementation arrangements and exclusions.\n6. Lufthansa won the bidding contest for a 44.9 percent stake in Portugal's TAP airline with a bid reported to be 16 percent higher than Air France-KLM's.\n\nGrammar focus to elicit: Inversion after a fronted time, place or object phrase.\n\nInstructions for ChatGPT:\n1. First, warmly verify if I have listened to the broadcast.\n2. Ask me questions one by one. Never provide multiple questions at once.\n3. Discuss the factual details first, then explore causes and consequences, alternative perspectives, and my personal evaluation.\n4. Encourage me to begin sentences with time expressions such as Am Mittwoch or Seit vergangener Woche, place phrases such as In Brüssel or Vor der Küste Rumäniens, and objects such as Die Reform or Den Tanker. Remind me to put the finite verb immediately after the fronted constituent and before the subject when the subject has not been fronted.\n5. Immediate correction protocol: If I break today's rule (e.g. *Am Montag Nordkorea testete eine Rakete.* instead of *Am Montag testete Nordkorea eine Rakete.*), stop briefly to:\n   - Quote the error.\n   - Provide the correct German sentence.\n   - Give a 1-sentence English explanation of the rule.\n   - Ask me to repeat the correct German sentence aloud before proceeding to the next conversational question.\n6. Keep the tone engaging, professional, and natural for an immersive German voice dialogue.",
-    "pl": "Jesteś moim nauczycielem języka niemieckiego i prowadzisz 20-minutową rozmowę na poziomie od B1 do C1 na podstawie niemieckich wiadomości z 15 października 2026 roku.\n\nNajważniejsze tematy omówione w tym odcinku:\n1. Korea Północna przetestowała dwa rodzaje pocisków manewrujących, które mogą być wystrzeliwane z okrętów podwodnych, jak podała jej państwowa agencja prasowa.\n2. Rumunia bada, czy pożar tankowca u jej wybrzeży Morza Czarnego został spowodowany przez drona.\n3. Bułgaria poinformowała o pożarze obiektu Starlink w pobliżu Sofii po podobnym zdarzeniu w Polsce; dochodzenie w Polsce nadal trwa.\n4. Przywódcy UE spotykają się w Brukseli, aby omówić budżet, pomoc dla Ukrainy i sytuację na Bliskim Wschodzie, a także kwestie związane z prawem do azylu.\n5. Senat Brazylii zatwierdził zmianę konstytucji skracającą maksymalny tydzień pracy z 44 do 40 godzin przy zachowaniu pełnego wynagrodzenia; reforma przewiduje okres wdrożeniowy i wyjątki.\n6. Lufthansa wygrała rywalizację o 44,9-procentowy udział w portugalskiej linii lotniczej TAP, składając ofertę, która według informacji była o 16 procent wyższa od oferty Air France-KLM.\n\nZagadnienie gramatyczne do ćwiczenia: Inwersja po wysunięciu na początek zdania określenia czasu, miejsca lub dopełnienia.\n\nInstrukcje dla ChatGPT:\n1. Na początku zapytaj mnie w przyjazny sposób, czy wysłuchałem nagrania.\n2. Zadawaj pytania pojedynczo. Nigdy nie zadawaj kilku pytań jednocześnie.\n3. Najpierw omów fakty, a następnie przejdź do przyczyn i konsekwencji, alternatywnych perspektyw oraz mojej własnej oceny.\n4. Zachęcaj mnie do rozpoczynania zdań od określeń czasu, takich jak Am Mittwoch lub Seit vergangener Woche, określeń miejsca, takich jak In Brüssel lub Vor der Küste Rumäniens, oraz dopełnień, takich jak Die Reform lub Den Tanker. Przypominaj mi, że czasownik odmieniony powinien występować bezpośrednio po wysuniętym składniku, przed podmiotem, jeśli podmiot nie został wysunięty na początek.\n5. Procedura natychmiastowej korekty: jeśli popełnię błąd dotyczący dzisiejszej zasady, na przykład *Am Montag Nordkorea testete eine Rakete.* zamiast *Am Montag testete Nordkorea eine Rakete.*, na chwilę przerwij rozmowę i:\n   - Zacytuj błąd.\n   - Podaj poprawne zdanie po niemiecku.\n   - Wyjaśnij w jednym zdaniu po polsku obowiązującą zasadę.\n   - Poproś mnie o głośne powtórzenie poprawnego zdania przed przejściem do kolejnego pytania.\n6. Zachowuj angażujący, profesjonalny i naturalny styl, odpowiedni do immersyjnej rozmowy głosowej po niemiecku."
-   }
+    "prompt": {
+      "en": "You are my German language tutor conducting a 20-minute B1-to-C1 speaking conversation based on the German news from 15 October 2026.\n\nKey stories covered in this episode:\n1. North Korea tested two types of cruise missiles that can be launched from submarines, according to its state news agency.\n2. Romania is investigating whether a drone caused a fire on a tanker off its Black Sea coast.\n3. Bulgaria reported a fire at a Starlink facility near Sofia after a similar incident in Poland; the Polish investigation is ongoing.\n4. EU leaders are meeting in Brussels to discuss the budget, assistance for Ukraine and the situation in the Middle East, alongside debate about the right to asylum.\n5. Brazil's Senate approved a constitutional amendment reducing the maximum working week from 44 to 40 hours with full wage compensation, subject to implementation arrangements and exclusions.\n6. Lufthansa won the bidding contest for a 44.9 percent stake in Portugal's TAP airline with a bid reported to be 16 percent higher than Air France-KLM's.\n\nGrammar focus to elicit: Inversion after a fronted time, place or object phrase.\n\nInstructions for ChatGPT:\n1. First, warmly verify if I have listened to the broadcast.\n2. Ask me questions one by one. Never provide multiple questions at once.\n3. Discuss the factual details first, then explore causes and consequences, alternative perspectives, and my personal evaluation.\n4. Encourage me to begin sentences with time expressions such as Am Mittwoch or Seit vergangener Woche, place phrases such as In Brüssel or Vor der Küste Rumäniens, and objects such as Die Reform or Den Tanker. Remind me to put the finite verb immediately after the fronted constituent and before the subject when the subject has not been fronted.\n5. Immediate correction protocol: If I break today's rule (e.g. *Am Montag Nordkorea testete eine Rakete.* instead of *Am Montag testete Nordkorea eine Rakete.*), stop briefly to:\n   - Quote the error.\n   - Provide the correct German sentence.\n   - Give a 1-sentence English explanation of the rule.\n   - Ask me to repeat the correct German sentence aloud before proceeding to the next conversational question.\n6. Keep the tone engaging, professional, and natural for an immersive German voice dialogue.",
+      "pl": "Jesteś moim nauczycielem języka niemieckiego i prowadzisz 20-minutową rozmowę na poziomie od B1 do C1 na podstawie niemieckich wiadomości z 15 października 2026 roku.\n\nNajważniejsze tematy omówione w tym odcinku:\n1. Korea Północna przetestowała dwa rodzaje pocisków manewrujących, które mogą być wystrzeliwane z okrętów podwodnych, jak podała jej państwowa agencja prasowa.\n2. Rumunia bada, czy pożar tankowca u jej wybrzeży Morza Czarnego został spowodowany przez drona.\n3. Bułgaria poinformowała o pożarze obiektu Starlink w pobliżu Sofii po podobnym zdarzeniu w Polsce; dochodzenie w Polsce nadal trwa.\n4. Przywódcy UE spotykają się w Brukseli, aby omówić budżet, pomoc dla Ukrainy i sytuację na Bliskim Wschodzie, a także kwestie związane z prawem do azylu.\n5. Senat Brazylii zatwierdził zmianę konstytucji skracającą maksymalny tydzień pracy z 44 do 40 godzin przy zachowaniu pełnego wynagrodzenia; reforma przewiduje okres wdrożeniowy i wyjątki.\n6. Lufthansa wygrała rywalizację o 44,9-procentowy udział w portugalskiej linii lotniczej TAP, składając ofertę, która według informacji była o 16 procent wyższa od oferty Air France-KLM.\n\nZagadnienie gramatyczne do ćwiczenia: Inwersja po wysunięciu na początek zdania określenia czasu, miejsca lub dopełnienia.\n\nInstrukcje dla ChatGPT:\n1. Na początku zapytaj mnie w przyjazny sposób, czy wysłuchałem nagrania.\n2. Zadawaj pytania pojedynczo. Nigdy nie zadawaj kilku pytań jednocześnie.\n3. Najpierw omów fakty, a następnie przejdź do przyczyn i konsekwencji, alternatywnych perspektyw oraz mojej własnej oceny.\n4. Zachęcaj mnie do rozpoczynania zdań od określeń czasu, takich jak Am Mittwoch lub Seit vergangener Woche, określeń miejsca, takich jak In Brüssel lub Vor der Küste Rumäniens, oraz dopełnień, takich jak Die Reform lub Den Tanker. Przypominaj mi, że czasownik odmieniony powinien występować bezpośrednio po wysuniętym składniku, przed podmiotem, jeśli podmiot nie został wysunięty na początek.\n5. Procedura natychmiastowej korekty: jeśli popełnię błąd dotyczący dzisiejszej zasady, na przykład *Am Montag Nordkorea testete eine Rakete.* zamiast *Am Montag testete Nordkorea eine Rakete.*, na chwilę przerwij rozmowę i:\n   - Zacytuj błąd.\n   - Podaj poprawne zdanie po niemiecku.\n   - Wyjaśnij w jednym zdaniu po polsku obowiązującą zasadę.\n   - Poproś mnie o głośne powtórzenie poprawnego zdania przed przejściem do kolejnego pytania.\n6. Zachowuj angażujący, profesjonalny i naturalny styl, odpowiedni do immersyjnej rozmowy głosowej po niemiecku."
+    }
   }
- },
+},
  {
   "lesson": {
    "id": "2026-10-16",
