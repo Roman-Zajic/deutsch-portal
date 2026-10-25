@@ -136,6 +136,8 @@ h2{font-size:1.2rem;line-height:1.3;color:var(--teal-900)}
 .qtop{display:flex;gap:10px;align-items:flex-start;margin-bottom:10px}
 .qnum{flex-shrink:0;min-width:26px;height:24px;padding:0 6px;margin-top:1px;display:flex;align-items:center;justify-content:center;
   background:rgba(0,130,130,.10);color:var(--teal-900);font-size:.74rem;font-weight:700}
+.qlevel{flex-shrink:0;min-width:26px;height:24px;padding:0 6px;margin-top:1px;display:flex;align-items:center;justify-content:center;
+  background:rgba(225,160,30,.16);color:#6B4700;font-size:.74rem;font-weight:700}
 .qtext{flex:1;min-width:0;font-size:.97rem}
 .q.revealed{border-color:var(--teal-400)}
 .inputrow{display:flex;gap:6px}
@@ -351,8 +353,8 @@ h2{font-size:1.2rem;line-height:1.3;color:var(--teal-900)}
  lesson.id (YYYY-MM-DD, unique), date (DD.MM.YYYY), day, totalDays, level,
  title {en,pl}, subtitle (German)
  grammar.html {en:[html blocks], pl:[html blocks]}   (same limits as before)
- examples[]   { de (with **highlights**), en, pl }
- exercises[]  { en, pl, de }
+ examples[]   { de (with **highlights**), en, pl, level? }
+ exercises[]  { en, pl, de, level? }
  listening    { audioUrl, source?{label,url}, articles[{heading,text}],
                 vocab[{id, word, translation{en,pl}, partOfSpeech, level, plural,
                        notes{en,pl}, examples[2 German sentences]}] }
@@ -399,64 +401,76 @@ h2{font-size:1.2rem;line-height:1.3;color:var(--teal-900)}
    {
     "de": "Ich bleibe zu Hause, weil ich müde **bin**.",
     "en": "I am staying at home because I am tired.",
-    "pl": "Zostaję w domu, bo jestem zmęczony."
+    "pl": "Zostaję w domu, bo jestem zmęczony.",
+    "level": "A1"
    },
    {
     "de": "Er lernt Deutsch, weil er in Berlin **arbeitet**.",
     "en": "He is learning German because he works in Berlin.",
-    "pl": "Uczy się niemieckiego, bo pracuje w Berlinie."
+    "pl": "Uczy się niemieckiego, bo pracuje w Berlinie.",
+    "level": "A1"
    },
    {
     "de": "Wir fahren mit dem Zug, weil es schneller **ist**.",
     "en": "We are taking the train because it is faster.",
-    "pl": "Jedziemy pociągiem, bo jest szybciej."
+    "pl": "Jedziemy pociągiem, bo jest szybciej.",
+    "level": "A2"
    },
    {
     "de": "Sie trinkt Tee, weil sie keinen Kaffee **mag**.",
     "en": "She drinks tea because she does not like coffee.",
-    "pl": "Pije herbatę, bo nie lubi kawy."
+    "pl": "Pije herbatę, bo nie lubi kawy.",
+    "level": "A1"
    },
    {
     "de": "Ich rufe dich an, weil ich eine Frage **habe**.",
     "en": "I am calling you because I have a question.",
-    "pl": "Dzwonię do ciebie, bo mam pytanie."
+    "pl": "Dzwonię do ciebie, bo mam pytanie.",
+    "level": "A2"
    },
    {
     "de": "Das Büro ist heute zu, weil alle **streiken**.",
     "en": "The office is closed today because everyone is on strike.",
-    "pl": "Biuro jest dziś zamknięte, bo wszyscy strajkują."
+    "pl": "Biuro jest dziś zamknięte, bo wszyscy strajkują.",
+    "level": "B1"
    }
   ],
   "exercises": [
    {
     "en": "I am staying home because I am ill.",
     "pl": "Zostaję w domu, bo jestem chory.",
-    "de": "Ich bleibe zu Hause, weil ich krank bin."
+    "de": "Ich bleibe zu Hause, weil ich krank bin.",
+    "level": "A1"
    },
    {
     "en": "He is learning German because he lives in Berlin.",
     "pl": "Uczy się niemieckiego, bo mieszka w Berlinie.",
-    "de": "Er lernt Deutsch, weil er in Berlin wohnt."
+    "de": "Er lernt Deutsch, weil er in Berlin wohnt.",
+    "level": "A1"
    },
    {
     "en": "We are taking the train because it is cheap.",
     "pl": "Jedziemy pociągiem, bo jest tanio.",
-    "de": "Wir fahren mit dem Zug, weil es billig ist."
+    "de": "Wir fahren mit dem Zug, weil es billig ist.",
+    "level": "A2"
    },
    {
     "en": "She is not coming because she has no time.",
     "pl": "Nie przyjdzie, bo nie ma czasu.",
-    "de": "Sie kommt nicht, weil sie keine Zeit hat."
+    "de": "Sie kommt nicht, weil sie keine Zeit hat.",
+    "level": "A2"
    },
    {
     "en": "I am calling you because I need help.",
     "pl": "Dzwonię do ciebie, bo potrzebuję pomocy.",
-    "de": "Ich rufe dich an, weil ich Hilfe brauche."
+    "de": "Ich rufe dich an, weil ich Hilfe brauche.",
+    "level": "B1"
    },
    {
     "en": "The shop is closed because it is Sunday.",
     "pl": "Sklep jest zamknięty, bo jest niedziela.",
-    "de": "Das Geschäft ist geschlossen, weil Sonntag ist."
+    "de": "Das Geschäft ist geschlossen, weil Sonntag ist.",
+    "level": "B1"
    }
   ],
   "listening": {
@@ -546,9 +560,9 @@ h2{font-size:1.2rem;line-height:1.3;color:var(--teal-900)}
       copyPrompt: "Copy prompt", openChat: "Open ChatGPT", pcopied: "Prompt copied.",
       pfail: "Copy failed. Select the text above and copy it manually.",
       reveal: "Reveal answer", hide: "Hide answer", ph: "Write the German here\u2026", ans: "Your German answer for exercise",
-      chkCopy: "Copy prompt to check with AI", btnGpt: "Check in ChatGPT",
+      chkCopy: "Copy sentence", btnGpt: "Check in ChatGPT",
       chkEmpty: "Type your answer first.",
-      chkCopied: "Prompt copied. Paste it into any AI chat.",
+      chkCopied: "Sentence copied.",
       chkGptOpen: "Opening ChatGPT with your prompt. A copy is also in your clipboard in case it does not fill in.",
       chkGptPaste: "Prompt copied. Paste it into ChatGPT (Ctrl+V).",
       chkFail: "Copy failed. Try again.",
@@ -568,9 +582,9 @@ h2{font-size:1.2rem;line-height:1.3;color:var(--teal-900)}
       copyPrompt: "Kopiuj prompt", openChat: "Otw\u00f3rz ChatGPT", pcopied: "Prompt skopiowany.",
       pfail: "Nie uda\u0142o si\u0119 skopiowa\u0107. Zaznacz tekst powy\u017cej i skopiuj go r\u0119cznie.",
       reveal: "Poka\u017c odpowied\u017a", hide: "Ukryj odpowied\u017a", ph: "Wpisz tutaj niemieckie t\u0142umaczenie\u2026", ans: "Twoja odpowied\u017a po niemiecku do \u0107wiczenia",
-      chkCopy: "Kopiuj prompt do sprawdzenia z AI", btnGpt: "Sprawd\u017a w ChatGPT",
+      chkCopy: "Kopiuj zdanie", btnGpt: "Sprawd\u017a w ChatGPT",
       chkEmpty: "Najpierw wpisz odpowied\u017a.",
-      chkCopied: "Prompt skopiowany. Wklej go w dowolnym czacie AI.",
+      chkCopied: "Zdanie skopiowane.",
       chkGptOpen: "Otwieram ChatGPT z gotowym promptem. Kopia jest te\u017c w schowku, gdyby si\u0119 nie wpisa\u0142.",
       chkGptPaste: "Prompt skopiowany. Wklej go w ChatGPT (Ctrl+V).",
       chkFail: "Nie uda\u0142o si\u0119 skopiowa\u0107. Spr\u00f3buj ponownie.",
@@ -785,7 +799,14 @@ h2{font-size:1.2rem;line-height:1.3;color:var(--teal-900)}
     items.forEach(function (x, i) {
       if (!x || typeof x.de !== "string" || typeof x.en !== "string") { problems.push("examples[" + i + "] needs \"de\" and \"en\"."); return; }
       n++;
-      var card = node("div", "ex"), row = node("div", "microw"), txt = node("div", "mtext"), de = node("div", "de");
+      var card = node("div", "ex");
+      
+      var top = node("div", "qtop");
+      top.appendChild(node("span", "qnum", String(n)));
+      if (x.level) top.appendChild(node("span", "qlevel", x.level));
+      card.appendChild(top);
+
+      var row = node("div", "microw"), txt = node("div", "mtext"), de = node("div", "de");
       inline(de, x.de);
       txt.appendChild(de); txt.appendChild(node("div", "en", pick(x)));
       row.appendChild(txt); row.appendChild(micBtn(x.de, T("playEx")));
@@ -820,23 +841,26 @@ h2{font-size:1.2rem;line-height:1.3;color:var(--teal-900)}
   }
 
   /* prompt used to have an AI correct the learner's answer */
-  function buildCheckPrompt(source, answer, model) {
+  function buildCheckPrompt(answer) {
     var L = lang === "pl" ? "Polish" : "English";
     return [
-      "You are a friendly, precise German teacher. A learner translated a sentence into German.",
+      "You are a friendly, precise German teacher. A learner wrote a sentence in German.",
+      "Learner's German sentence: \"" + answer + "\"",
       "",
-      "Original sentence (" + L + "): " + source,
-      "Learner's German answer: " + answer,
-      "Reference translation (one possible correct version): " + model,
+      "Please analyse the sentence:",
+      "1. If the sentence is correct both gramatically and spellingwise response with \"The sentence is correct!\"",
+      "2. If the sentence is incorrect respond with:",
       "",
-      "Please reply with:",
-      "1. Corrected sentence: the learner's answer with as few changes as possible. If it is already correct, say so. A different wording is fine if it is correct German and keeps the meaning.",
-      "2. Level: the CEFR level (A1, A2, B1, B2, C1 or C2) of the learner's sentence, with one short reason.",
-      "3. Errors: every mistake, one per line. Quote the wrong part, give the fix and explain the rule briefly. Include spelling, capitalisation, umlauts and punctuation. If there are no errors, write \"No errors\".",
+      "Original sentence: " + answer,
+      "Corrected sentence: [correct sentence]",
+      "",
+      "Corrections:",
+      "[list of errors. Every mistake, one per line. Quote the wrong part, give the fix and explain the rule briefly. Including grammar and spelling. Ignore the capitalization of the sentence if it is not Noun]",
       "",
       "Write your explanations in " + L + ". Keep the German sentences in German. Be concise."
     ].join("\n");
   }
+  
   function chkBtn(label, svg, onClick) {
     var b = node("button", "btn ico");
     b.type = "button";
@@ -867,6 +891,7 @@ h2{font-size:1.2rem;line-height:1.3;color:var(--teal-900)}
 
       var top = node("div", "qtop");
       top.appendChild(node("span", "qnum", String(id)));
+      if (e.level) top.appendChild(node("span", "qlevel", e.level));
       top.appendChild(node("span", "qtext", pick(e)));
       card.appendChild(top);
 
@@ -929,22 +954,23 @@ h2{font-size:1.2rem;line-height:1.3;color:var(--teal-900)}
         clearTimeout(cTimer);
         cTimer = setTimeout(function () { cst.textContent = ""; }, 6000);
       }
-      function promptNow() {
-        var a = input.value.trim();
-        if (!a) { say(T("chkEmpty")); input.focus(); return null; }
-        return buildCheckPrompt(pick(e), a, e.de);
-      }
+      
       btns.appendChild(chkBtn(T("chkCopy"), COPY_SVG, function () {
-        var p = promptNow(); if (!p) return;
-        copyText(p, function (ok) { say(ok ? T("chkCopied") : T("chkFail")); });
+        var a = input.value.trim();
+        if (!a) { say(T("chkEmpty")); input.focus(); return; }
+        copyText(a, function (ok) { say(ok ? T("chkCopied") : T("chkFail")); });
       }));
+      
       btns.appendChild(chkBtn(T("btnGpt"), CHAT_SVG, function () {
-        var p = promptNow(); if (!p) return;
+        var a = input.value.trim();
+        if (!a) { say(T("chkEmpty")); input.focus(); return; }
+        var p = buildCheckPrompt(a);
         var url = "https://chatgpt.com/?q=" + encodeURIComponent(p), tooLong = url.length > 6000;
         copyText(p, function (ok) { if (!ok) say(T("chkFail")); });
         openExternal(tooLong ? "https://chatgpt.com/" : url);
         say(tooLong ? T("chkGptPaste") : T("chkGptOpen"));
       }));
+      
       card.appendChild(btns);
       card.appendChild(cst);
 
