@@ -11141,7 +11141,6 @@
     }
   }
 },
- 
 {
   "lesson": {
     "id": "2026-10-22",
@@ -11180,136 +11179,728 @@
     }
   },
   "examples": [
-    {"de":"Ich **war** gestern den ganzen Tag zu Hause.","en":"I was at home all day yesterday.","pl":"Wczoraj przez cały dzień byłem w domu."},
-    {"de":"Wir **hatten** nach der Besprechung noch viele Fragen.","en":"We still had many questions after the meeting.","pl":"Po spotkaniu mieliśmy jeszcze wiele pytań."},
-    {"de":"Sie **konnte** wegen des Streiks nicht zur Arbeit fahren.","en":"She couldn't travel to work because of the strike.","pl":"Nie mogła dojechać do pracy z powodu strajku."},
-    {"de":"Der Techniker **musste** das System neu starten.","en":"The technician had to restart the system.","pl":"Technik musiał ponownie uruchomić system."},
-    {"de":"Früher **durften** wir das Gebäude ohne Ausweis betreten.","en":"We used to be allowed to enter the building without an ID.","pl":"Wcześniej mogliśmy wchodzić do budynku bez identyfikatora."},
-    {"de":"Du **solltest** den Bericht vor dem Gespräch lesen.","en":"You were supposed to read the report before the discussion.","pl":"Miałeś przeczytać raport przed rozmową."},
-    {"de":"Meine Kollegen **wollten** eine andere Lösung ausprobieren.","en":"My colleagues wanted to try a different solution.","pl":"Moi koledzy chcieli wypróbować inne rozwiązanie."},
-    {"de":"Als Kind **mochte** ich keine scharfen Speisen.","en":"As a child, I didn't like spicy food.","pl":"Jako dziecko nie lubiłem ostrych potraw."},
-    {"de":"Gestern **war** das Büro geschlossen, deshalb **mussten** wir von zu Hause arbeiten.","en":"The office was closed yesterday, so we had to work from home.","pl":"Wczoraj biuro było zamknięte, dlatego musieliśmy pracować z domu."},
-    {"de":"Obwohl er wenig Zeit **hatte**, **konnte** er uns helfen.","en":"Although he had little time, he was able to help us.","pl":"Chociaż miał mało czasu, mógł nam pomóc."},
-    {"de":"Die Mitarbeiter **durften** erst gehen, als der Test beendet war.","en":"The employees were allowed to leave only when the test was finished.","pl":"Pracownicy mogli wyjść dopiero wtedy, gdy test się zakończył."},
-    {"de":"Warum **musstest** du gestern so lange warten?","en":"Why did you have to wait so long yesterday?","pl":"Dlaczego musiałeś wczoraj tak długo czekać?"},
-    {"de":"Wir **wollten** früher abreisen, aber unser Zug **hatte** Verspätung.","en":"We wanted to leave earlier, but our train was delayed.","pl":"Chcieliśmy wyjechać wcześniej, ale nasz pociąg miał opóźnienie."},
-    {"de":"Die Ärztin sagte, ich **sollte** mich einige Tage ausruhen.","en":"The doctor said I should rest for a few days.","pl":"Lekarka powiedziała, że powinienem odpocząć przez kilka dni."},
-    {"de":"Da die Daten unvollständig **waren**, **konnten** wir die Analyse nicht abschließen.","en":"Because the data were incomplete, we couldn't finish the analysis.","pl":"Ponieważ dane były niekompletne, nie mogliśmy zakończyć analizy."},
-    {"de":"Er **durfte** die vertraulichen Unterlagen nicht weitergeben.","en":"He was not allowed to pass on the confidential documents.","pl":"Nie wolno mu było przekazywać poufnych dokumentów."},
-    {"de":"Ich **hatte** keine Wahl und **musste** die Entscheidung akzeptieren.","en":"I had no choice and had to accept the decision.","pl":"Nie miałem wyboru i musiałem zaakceptować decyzję."},
-    {"de":"Sie **konnte** nicht erklären, warum sie so spät **war**.","en":"She couldn't explain why she was so late.","pl":"Nie potrafiła wyjaśnić, dlaczego tak późno przyszła."},
-    {"de":"Wir **sollten** die Risiken prüfen, bevor wir den Vertrag unterschrieben.","en":"We were supposed to assess the risks before we signed the contract.","pl":"Mieliśmy ocenić ryzyko, zanim podpisaliśmy umowę."},
-    {"de":"Obwohl das Team unter Druck **stand**, **wollte** es keine Abkürzungen nehmen.","en":"Although the team was under pressure, it did not want to take shortcuts.","pl":"Chociaż zespół był pod presją, nie chciał iść na skróty."}
+    {
+      "de": "Ich **war** gestern den ganzen Tag zu Hause.",
+      "en": "I was at home all day yesterday.",
+      "pl": "Wczoraj przez cały dzień byłem w domu.",
+      "level": "A1"
+    },
+    {
+      "de": "Wir **hatten** gestern leider keine Zeit.",
+      "en": "Unfortunately, we had no time yesterday.",
+      "pl": "Niestety nie mieliśmy wczoraj czasu.",
+      "level": "A1"
+    },
+    {
+      "de": "Sie **konnte** wegen des Streiks nicht zur Arbeit fahren.",
+      "en": "She couldn't travel to work because of the strike.",
+      "pl": "Nie mogła dojechać do pracy z powodu strajku.",
+      "level": "A2"
+    },
+    {
+      "de": "Der Techniker **musste** das System neu starten.",
+      "en": "The technician had to restart the system.",
+      "pl": "Technik musiał ponownie uruchomić system.",
+      "level": "A2"
+    },
+    {
+      "de": "Als Kind **mochte** ich keine scharfen Speisen.",
+      "en": "As a child, I didn't like spicy food.",
+      "pl": "Jako dziecko nie lubiłem ostrych potraw.",
+      "level": "A2"
+    },
+    {
+      "de": "Meine Kollegen **wollten** eine andere Lösung ausprobieren.",
+      "en": "My colleagues wanted to try a different solution.",
+      "pl": "Moi koledzy chcieli wypróbować inne rozwiązanie.",
+      "level": "B1"
+    },
+    {
+      "de": "Du **solltest** den Bericht vor dem Gespräch gründlich lesen.",
+      "en": "You were supposed to read the report thoroughly before the discussion.",
+      "pl": "Miałeś dokładnie przeczytać raport przed rozmową.",
+      "level": "B1"
+    },
+    {
+      "de": "Früher **durften** wir das Gebäude ohne Ausweis betreten.",
+      "en": "We used to be allowed to enter the building without an ID.",
+      "pl": "Wcześniej mogliśmy wchodzić do budynku bez identyfikatora.",
+      "level": "B1"
+    },
+    {
+      "de": "Gestern **war** das Büro geschlossen, deshalb **mussten** wir von zu Hause arbeiten.",
+      "en": "The office was closed yesterday, so we had to work from home.",
+      "pl": "Wczoraj biuro było zamknięte, dlatego musieliśmy pracować z domu.",
+      "level": "B1"
+    },
+    {
+      "de": "Obwohl er wenig Zeit **hatte**, **konnte** er uns sofort helfen.",
+      "en": "Although he had little time, he was able to help us immediately.",
+      "pl": "Chociaż miał mało czasu, mógł nam od razu pomóc.",
+      "level": "B1"
+    },
+    {
+      "de": "Die Mitarbeiter **durften** erst gehen, als der Test vollständig beendet **war**.",
+      "en": "The employees were allowed to leave only when the test was completely finished.",
+      "pl": "Pracownicy mogli wyjść dopiero wtedy, gdy test całkowicie się zakończył.",
+      "level": "B2"
+    },
+    {
+      "de": "Wir **wollten** früher abreisen, aber unser Zug **hatte** erhebliche Verspätung.",
+      "en": "We wanted to leave earlier, but our train was significantly delayed.",
+      "pl": "Chcieliśmy wyjechać wcześniej, ale nasz pociąg miał spore opóźnienie.",
+      "level": "B2"
+    },
+    {
+      "de": "Da die Daten unvollständig **waren**, **konnten** wir die Analyse nicht fristgerecht abschließen.",
+      "en": "Because the data were incomplete, we couldn't finish the analysis on schedule.",
+      "pl": "Ponieważ dane były niekompletne, nie mogliśmy zakończyć analizy w terminie.",
+      "level": "B2"
+    },
+    {
+      "de": "Er **durfte** die vertraulichen Unterlagen unter keinen Umständen an Dritte weitergeben.",
+      "en": "Under no circumstances was he allowed to pass on the confidential documents to third parties.",
+      "pl": "W żadnym wypadku nie wolno mu było przekazywać poufnych dokumentów osobom trzecim.",
+      "level": "B2"
+    },
+    {
+      "de": "Ich **hatte** keine andere Wahl und **musste** die getroffene Entscheidung zähneknirschend akzeptieren.",
+      "en": "I had no other choice and had to accept the decision reluctantly.",
+      "pl": "Nie miałem innego wyboru i musiałem z trudem zaakceptować podjętą decyzję.",
+      "level": "B2"
+    },
+    {
+      "de": "Die Sachverständigen **sollten** die potenziellen Risiken eingehend prüfen, bevor das Ministerium die Genehmigung erteilte.",
+      "en": "The experts were supposed to examine the potential risks in detail before the ministry issued approval.",
+      "pl": "Biegli mieli szczegółowo zbadać potencjalne ryzyka, zanim ministerstwo wydało zgodę.",
+      "level": "C1"
+    },
+    {
+      "de": "Da der regulatorische Rahmen noch unklar **war**, **wollten** die Investoren vorerst keine verbindlichen Zusagen machen.",
+      "en": "As the regulatory framework was still unclear, the investors did not want to make any binding commitments for the time being.",
+      "pl": "Ponieważ ramy regulacyjne były wciąż niejasne, inwestorzy na razie nie chcieli składać wiążących deklaracji.",
+      "level": "C1"
+    },
+    {
+      "de": "Das Management **hatte** gravierende Bedenken, **konnte** den drohenden Reputationsverlust jedoch nicht mehr abwenden.",
+      "en": "The management had serious concerns, but could no longer avert the imminent loss of reputation.",
+      "pl": "Kierownictwo miało poważne obawy, nie mogło już jednak zapobiec grożącej utracie reputacji.",
+      "level": "C1"
+    },
+    {
+      "de": "Obschon die finanzielle Lage äußerst angespannt **war**, **durfte** das Unternehmen keine staatlichen Hilfen ohne strenge Auflagen in Anspruch nehmen.",
+      "en": "Although the financial situation was extremely strained, the company was not allowed to claim state aid without strict conditions.",
+      "pl": "Mimo że sytuacja finansowa była niezwykle napięta, przedsiębiorstwo nie mogło skorzystać z pomocy państwa bez surowych warunków.",
+      "level": "C2"
+    },
+    {
+      "de": "Der Sonderbeauftragte **musste** einräumen, dass die Behörde weder die personellen Ressourcen noch die rechtliche Handhabe **hatte**, um die Verstöße unverzüglich zu sanktionieren.",
+      "en": "The special envoy had to admit that the authority had neither the human resources nor the legal leverage to penalize the violations immediately.",
+      "pl": "Specjalny pełnomocnik musiał przyznać, że urząd nie miał ani zasobów kadrowych, ani podstaw prawnych, by niezwłocznie ukarać naruszenia.",
+      "level": "C2"
+    }
   ],
   "exercises": [
-    {"en":"I was tired yesterday.","pl":"Wczoraj byłem zmęczony.","de":"Ich war gestern müde."},
-    {"en":"She had a question.","pl":"Ona miała pytanie.","de":"Sie hatte eine Frage."},
-    {"en":"We were at home.","pl":"Byliśmy w domu.","de":"Wir waren zu Hause."},
-    {"en":"He had no time.","pl":"On nie miał czasu.","de":"Er hatte keine Zeit."},
-    {"en":"You (informal) were ill yesterday.","pl":"Wczoraj byłeś chory.","de":"Du warst gestern krank."},
-    {"en":"The children were hungry.","pl":"Dzieci były głodne.","de":"Die Kinder waren hungrig."},
-    {"en":"I could swim when I was ten.","pl":"Potrafiłem pływać, gdy miałem dziesięć lat.","de":"Ich konnte schwimmen, als ich zehn Jahre alt war."},
-    {"en":"We had enough money.","pl":"Mieliśmy wystarczająco dużo pieniędzy.","de":"Wir hatten genug Geld."},
-    {"en":"He had to work on Monday.","pl":"Musiał pracować w poniedziałek.","de":"Er musste am Montag arbeiten."},
-    {"en":"You (formal) were right.","pl":"Miał Pan rację.","de":"Sie hatten recht."},
-    {"en":"I couldn't open the door.","pl":"Nie mogłem otworzyć drzwi.","de":"Ich konnte die Tür nicht öffnen."},
-    {"en":"She had to leave early.","pl":"Musiałа wyjść wcześniej.","de":"Sie musste früh gehen."},
-    {"en":"We wanted to stay longer.","pl":"Chcieliśmy zostać dłużej.","de":"Wir wollten länger bleiben."},
-    {"en":"He was allowed to enter.","pl":"Wolno mu było wejść.","de":"Er durfte eintreten."},
-    {"en":"You (informal) should call your mother.","pl":"Powinieneś zadzwonić do swojej matki.","de":"Du solltest deine Mutter anrufen."},
-    {"en":"They were in Berlin last week.","pl":"W zeszłym tygodniu byli w Berlinie.","de":"Sie waren letzte Woche in Berlin."},
-    {"en":"I didn't like the film.","pl":"Nie podobał mi się ten film.","de":"Ich mochte den Film nicht."},
-    {"en":"The meeting was short.","pl":"Spotkanie było krótkie.","de":"Die Besprechung war kurz."},
-    {"en":"We had a problem.","pl":"Mieliśmy problem.","de":"Wir hatten ein Problem."},
-    {"en":"She could speak German well.","pl":"Potrafiła dobrze mówić po niemiecku.","de":"Sie konnte gut Deutsch sprechen."},
-    {"en":"You (informal) had to wait outside.","pl":"Musiałeś czekać na zewnątrz.","de":"Du musstest draußen warten."},
-    {"en":"The shops were closed.","pl":"Sklepy były zamknięte.","de":"Die Geschäfte waren geschlossen."},
-    {"en":"He wanted to buy a new computer.","pl":"Chciał kupić nowy komputer.","de":"Er wollte einen neuen Computer kaufen."},
-    {"en":"We were not allowed to park here.","pl":"Nie wolno nam było tutaj parkować.","de":"Wir durften hier nicht parken."},
-    {"en":"I had no idea.","pl":"Nie miałem pojęcia.","de":"Ich hatte keine Ahnung."},
-    {"en":"You (informal) could help us.","pl":"Mogłeś nam pomóc.","de":"Du konntest uns helfen."},
-    {"en":"She should study more.","pl":"Powinna więcej się uczyć.","de":"Sie sollte mehr lernen."},
-    {"en":"They had to cancel the trip.","pl":"Musieli odwołać podróż.","de":"Sie mussten die Reise absagen."},
-    {"en":"The weather was terrible.","pl":"Pogoda była okropna.","de":"Das Wetter war schrecklich."},
-    {"en":"I wanted to ask you something.","pl":"Chciałem cię o coś zapytać.","de":"Ich wollte dich etwas fragen."},
-    {"en":"Because I was busy, I couldn't answer the phone.","pl":"Ponieważ byłem zajęty, nie mogłem odebrać telefonu.","de":"Weil ich beschäftigt war, konnte ich nicht ans Telefon gehen."},
-    {"en":"We had to change our plans because the train was late.","pl":"Musieliśmy zmienić plany, ponieważ pociąg się spóźnił.","de":"Wir mussten unsere Pläne ändern, weil der Zug verspätet war."},
-    {"en":"She wanted to join us, but she had no time.","pl":"Chciała do nas dołączyć, ale nie miała czasu.","de":"Sie wollte sich uns anschließen, aber sie hatte keine Zeit."},
-    {"en":"The employees were allowed to leave after the meeting.","pl":"Pracownicy mogli wyjść po spotkaniu.","de":"Die Mitarbeiter durften nach der Besprechung gehen."},
-    {"en":"I should have informed my manager earlier.","pl":"Powinienem był wcześniej poinformować przełożonego.","de":"Ich sollte meinen Vorgesetzten früher informieren."},
-    {"en":"He couldn't attend because he was ill.","pl":"Nie mógł uczestniczyć, ponieważ był chory.","de":"Er konnte nicht teilnehmen, weil er krank war."},
-    {"en":"We had enough time to check the figures.","pl":"Mieliśmy wystarczająco dużo czasu, aby sprawdzić liczby.","de":"Wir hatten genug Zeit, um die Zahlen zu prüfen."},
-    {"en":"You (informal) were supposed to send the email yesterday.","pl":"Miałeś wysłać e-mail wczoraj.","de":"Du solltest die E-Mail gestern schicken."},
-    {"en":"The team wanted to find a better solution.","pl":"Zespół chciał znaleźć lepsze rozwiązanie.","de":"Das Team wollte eine bessere Lösung finden."},
-    {"en":"Although she was tired, she had to continue working.","pl":"Chociaż była zmęczona, musiała dalej pracować.","de":"Obwohl sie müde war, musste sie weiterarbeiten."},
-    {"en":"I was afraid that we couldn't finish on time.","pl":"Obawiałem się, że nie będziemy mogli skończyć na czas.","de":"Ich hatte Angst, dass wir nicht rechtzeitig fertig werden konnten."},
-    {"en":"He was allowed to use the company car.","pl":"Wolno mu było korzystać z samochodu służbowego.","de":"Er durfte den Firmenwagen benutzen."},
-    {"en":"We wanted to know why the system was unavailable.","pl":"Chcieliśmy wiedzieć, dlaczego system był niedostępny.","de":"Wir wollten wissen, warum das System nicht verfügbar war."},
-    {"en":"She had to explain the delay to the client.","pl":"Musiałа wyjaśnić klientowi opóźnienie.","de":"Sie musste dem Kunden die Verzögerung erklären."},
-    {"en":"I liked the proposal, but I couldn't approve it.","pl":"Podobała mi się propozycja, ale nie mogłem jej zatwierdzić.","de":"Ich mochte den Vorschlag, aber ich konnte ihn nicht genehmigen."},
-    {"en":"The manager said that we should check the contract again.","pl":"Menedżer powiedział, że powinniśmy ponownie sprawdzić umowę.","de":"Der Manager sagte, dass wir den Vertrag noch einmal prüfen sollten."},
-    {"en":"They were not allowed to share the confidential information.","pl":"Nie wolno im było udostępniać poufnych informacji.","de":"Sie durften die vertraulichen Informationen nicht weitergeben."},
-    {"en":"Because the office was closed, we had to work remotely.","pl":"Ponieważ biuro było zamknięte, musieliśmy pracować zdalnie.","de":"Weil das Büro geschlossen war, mussten wir remote arbeiten."},
-    {"en":"He wanted to help, although he had very little experience.","pl":"Chciał pomóc, chociaż miał bardzo małe doświadczenie.","de":"Er wollte helfen, obwohl er sehr wenig Erfahrung hatte."},
-    {"en":"I couldn't understand what the speaker meant.","pl":"Nie mogłem zrozumieć, co miał na myśli mówca.","de":"Ich konnte nicht verstehen, was der Redner meinte."},
-    {"en":"We were supposed to arrive before noon.","pl":"Mieliśmy przyjechać przed południem.","de":"Wir sollten vor Mittag ankommen."},
-    {"en":"She was happy because she could finally relax.","pl":"Była szczęśliwa, ponieważ w końcu mogła odpocząć.","de":"Sie war glücklich, weil sie sich endlich entspannen konnte."},
-    {"en":"The company had to reduce costs last year.","pl":"Firma musiała obniżyć koszty w zeszłym roku.","de":"Das Unternehmen musste im vergangenen Jahr die Kosten senken."},
-    {"en":"You (formal) were allowed to submit the form online.","pl":"Mógł Pan złożyć formularz przez internet.","de":"Sie durften das Formular online einreichen."},
-    {"en":"I wanted to discuss the issue before the meeting started.","pl":"Chciałem omówić tę kwestię, zanim rozpoczęło się spotkanie.","de":"Ich wollte das Thema besprechen, bevor die Besprechung begann."},
-    {"en":"Although we had the necessary data, we couldn't draw a conclusion.","pl":"Chociaż mieliśmy niezbędne dane, nie mogliśmy wyciągnąć wniosku.","de":"Obwohl wir die notwendigen Daten hatten, konnten wir keine Schlussfolgerung ziehen."},
-    {"en":"The doctor said that he should avoid strenuous exercise.","pl":"Lekarz powiedział, że powinien unikać intensywnego wysiłku.","de":"Der Arzt sagte, dass er anstrengende körperliche Aktivitäten vermeiden sollte."},
-    {"en":"She couldn't attend the conference because she had another appointment.","pl":"Nie mogła uczestniczyć w konferencji, ponieważ miała inne spotkanie.","de":"Sie konnte nicht an der Konferenz teilnehmen, weil sie einen anderen Termin hatte."},
-    {"en":"We had to wait until the authorities gave us permission.","pl":"Musieliśmy czekać, aż władze udzielą nam pozwolenia.","de":"Wir mussten warten, bis die Behörden uns die Erlaubnis gaben."},
-    {"en":"He wanted to know whether the offer was still valid.","pl":"Chciał wiedzieć, czy oferta nadal była ważna.","de":"Er wollte wissen, ob das Angebot noch gültig war."},
-    {"en":"The employees could leave early because they had completed the task.","pl":"Pracownicy mogli wyjść wcześniej, ponieważ ukończyli zadanie.","de":"Die Mitarbeiter konnten früh gehen, weil sie die Aufgabe abgeschlossen hatten."},
-    {"en":"I was surprised that nobody had any questions.","pl":"Zdziwiłem się, że nikt nie miał żadnych pytań.","de":"Ich war überrascht, dass niemand Fragen hatte."},
-    {"en":"We were supposed to compare the results before making a recommendation.","pl":"Mieliśmy porównać wyniki przed wydaniem rekomendacji.","de":"Wir sollten die Ergebnisse vergleichen, bevor wir eine Empfehlung abgaben."},
-    {"en":"She was not allowed to disclose the figures before publication.","pl":"Nie wolno jej było ujawniać liczb przed publikacją.","de":"Sie durfte die Zahlen vor der Veröffentlichung nicht offenlegen."},
-    {"en":"Because the deadline was approaching, the team had to work overtime.","pl":"Ponieważ zbliżał się termin, zespół musiał pracować po godzinach.","de":"Weil die Frist näher rückte, musste das Team Überstunden machen."},
-    {"en":"He liked the idea but wanted to examine the risks first.","pl":"Podobał mu się pomysł, ale najpierw chciał zbadać ryzyko.","de":"Er mochte die Idee, wollte aber zuerst die Risiken prüfen."},
-    {"en":"I couldn't explain why the costs were higher than expected.","pl":"Nie potrafiłem wyjaśnić, dlaczego koszty były wyższe od oczekiwanych.","de":"Ich konnte nicht erklären, warum die Kosten höher als erwartet waren."},
-    {"en":"The team had to postpone the launch because the software was unstable.","pl":"Zespół musiał przełożyć uruchomienie, ponieważ oprogramowanie było niestabilne.","de":"Das Team musste die Einführung verschieben, weil die Software instabil war."},
-    {"en":"Although the proposal was expensive, the directors wanted to consider it.","pl":"Chociaż propozycja była kosztowna, dyrektorzy chcieli ją rozważyć.","de":"Obwohl der Vorschlag teuer war, wollten die Direktoren ihn prüfen."},
-    {"en":"We were able to solve the problem after the specialist arrived.","pl":"Udało nam się rozwiązać problem po przybyciu specjalisty.","de":"Wir konnten das Problem lösen, nachdem der Spezialist angekommen war."},
-    {"en":"The client asked why we had to change the reporting process.","pl":"Klient zapytał, dlaczego musieliśmy zmienić proces raportowania.","de":"Der Kunde fragte, warum wir den Berichtsprozess ändern mussten."},
-    {"en":"She said that she was busy and couldn't join the call.","pl":"Powiedziała, że jest zajęta i nie może dołączyć do rozmowy.","de":"Sie sagte, dass sie beschäftigt war und nicht an der Besprechung teilnehmen konnte."},
-    {"en":"The committee wanted to understand why the forecast was inaccurate.","pl":"Komitet chciał zrozumieć, dlaczego prognoza była niedokładna.","de":"Der Ausschuss wollte verstehen, warum die Prognose ungenau war."},
-    {"en":"We should have checked whether the figures were consistent before publishing the report.","pl":"Powinniśmy byli sprawdzić, czy liczby były spójne, przed opublikowaniem raportu.","de":"Wir sollten prüfen, ob die Zahlen konsistent waren, bevor wir den Bericht veröffentlichten."},
-    {"en":"He had no authority to approve the payment, so he had to contact his director.","pl":"Nie miał uprawnień do zatwierdzenia płatności, więc musiał skontaktować się z dyrektorem.","de":"Er hatte keine Befugnis, die Zahlung zu genehmigen, deshalb musste er seinen Direktor kontaktieren."},
-    {"en":"Although the information was incomplete, the analysts could identify the main trend.","pl":"Chociaż informacje były niekompletne, analitycy mogli zidentyfikować główny trend.","de":"Obwohl die Informationen unvollständig waren, konnten die Analysten den Haupttrend erkennen."},
-    {"en":"The supervisor said that we were not allowed to change the original data.","pl":"Przełożony powiedział, że nie wolno nam zmieniać danych źródłowych.","de":"Der Vorgesetzte sagte, dass wir die ursprünglichen Daten nicht ändern durften."},
-    {"en":"I wanted to clarify the assumptions because the results were difficult to interpret.","pl":"Chciałem wyjaśnić założenia, ponieważ wyniki trudno było zinterpretować.","de":"Ich wollte die Annahmen klären, weil die Ergebnisse schwer zu interpretieren waren."},
-    {"en":"The company had to reconsider its plans after demand declined unexpectedly.","pl":"Firma musiała ponownie rozważyć plany po nieoczekiwanym spadku popytu.","de":"Das Unternehmen musste seine Pläne überdenken, nachdem die Nachfrage unerwartet zurückgegangen war."},
-    {"en":"She could not determine whether the difference was material because she had insufficient evidence.","pl":"Nie mogła ustalić, czy różnica była istotna, ponieważ miała niewystarczające dowody.","de":"Sie konnte nicht feststellen, ob die Differenz wesentlich war, weil sie nicht genügend Nachweise hatte."},
-    {"en":"The directors wanted the team to explain why the implementation took longer than expected.","pl":"Dyrektorzy chcieli, aby zespół wyjaśnił, dlaczego wdrożenie trwało dłużej, niż oczekiwano.","de":"Die Direktoren wollten, dass das Team erklärte, warum die Umsetzung länger dauerte als erwartet."},
-    {"en":"Because the legal requirements were unclear, the company had to obtain external advice.","pl":"Ponieważ wymogi prawne były niejasne, firma musiała uzyskać zewnętrzną poradę.","de":"Weil die rechtlichen Anforderungen unklar waren, musste das Unternehmen externen Rat einholen."},
-    {"en":"The analysts were supposed to document every assumption so that others could reproduce the results.","pl":"Analitycy mieli udokumentować każde założenie, aby inni mogli odtworzyć wyniki.","de":"Die Analysten sollten jede Annahme dokumentieren, damit andere die Ergebnisse nachvollziehen konnten."},
-    {"en":"He was reluctant to approve the proposal because he had concerns about its long-term impact.","pl":"Niechętnie zatwierdzał propozycję, ponieważ obawiał się jej długoterminowego wpływu.","de":"Er wollte den Vorschlag nur ungern genehmigen, weil er Bedenken hinsichtlich seiner langfristigen Auswirkungen hatte."},
-    {"en":"We could not reach an agreement because neither side wanted to compromise.","pl":"Nie mogliśmy osiągnąć porozumienia, ponieważ żadna ze stron nie chciała pójść na kompromis.","de":"Wir konnten keine Einigung erzielen, weil keine Seite Kompromisse eingehen wollte."},
-    {"en":"The manager insisted that we should verify the source before relying on the figures.","pl":"Menedżer nalegał, abyśmy zweryfikowali źródło, zanim oprzemy się na liczbach.","de":"Der Manager bestand darauf, dass wir die Quelle überprüfen sollten, bevor wir uns auf die Zahlen verließen."},
-    {"en":"Although the deadline was fixed, the team could not complete the work because key data were missing.","pl":"Chociaż termin był ustalony, zespół nie mógł zakończyć pracy, ponieważ brakowało kluczowych danych.","de":"Obwohl die Frist feststand, konnte das Team die Arbeit nicht abschließen, weil wichtige Daten fehlten."},
-    {"en":"The committee wanted to know whether the risks had been assessed before the decision was made.","pl":"Komitet chciał wiedzieć, czy ryzyko oceniono przed podjęciem decyzji.","de":"Der Ausschuss wollte wissen, ob die Risiken bewertet worden waren, bevor die Entscheidung getroffen wurde."},
-    {"en":"We had to explain why the original estimate was no longer reliable.","pl":"Musieliśmy wyjaśnić, dlaczego pierwotne oszacowanie nie było już wiarygodne.","de":"Wir mussten erklären, warum die ursprüngliche Schätzung nicht mehr zuverlässig war."},
-    {"en":"The employee said that she could not disclose the details because the investigation was confidential.","pl":"Pracownica powiedziała, że nie może ujawnić szczegółów, ponieważ dochodzenie było poufne.","de":"Die Mitarbeiterin sagte, dass sie die Einzelheiten nicht offenlegen konnte, weil die Untersuchung vertraulich war."},
-    {"en":"The organisation was supposed to consult local experts before changing the procedure.","pl":"Organizacja miała skonsultować się z lokalnymi ekspertami przed zmianą procedury.","de":"Die Organisation sollte lokale Experten konsultieren, bevor sie das Verfahren änderte."},
-    {"en":"Because the evidence was contradictory, the reviewers could not determine which explanation was correct.","pl":"Ponieważ dowody były sprzeczne, kontrolujący nie mogli ustalić, które wyjaśnienie było prawidłowe.","de":"Weil die Nachweise widersprüchlich waren, konnten die Prüfer nicht feststellen, welche Erklärung richtig war."},
-    {"en":"The board wanted to understand why management had not identified the issue earlier.","pl":"Zarząd chciał zrozumieć, dlaczego kierownictwo nie zidentyfikowało problemu wcześniej.","de":"Der Vorstand wollte verstehen, warum die Geschäftsleitung das Problem nicht früher erkannt hatte."},
-    {"en":"The team had to revise its approach because the initial assumptions were no longer valid.","pl":"Zespół musiał zmienić podejście, ponieważ początkowe założenia nie były już aktualne.","de":"Das Team musste seinen Ansatz überarbeiten, weil die ursprünglichen Annahmen nicht mehr gültig waren."},
-    {"en":"She said that she was willing to help but could not take responsibility for the final decision.","pl":"Powiedziała, że jest gotowa pomóc, ale nie może wziąć odpowiedzialności za ostateczną decyzję.","de":"Sie sagte, dass sie helfen wollte, aber keine Verantwortung für die endgültige Entscheidung übernehmen konnte."},
-    {"en":"We were expected to challenge the assumptions, even when senior colleagues preferred not to discuss them.","pl":"Oczekiwano od nas kwestionowania założeń, nawet gdy starsi stażem koledzy woleli o nich nie rozmawiać.","de":"Wir sollten die Annahmen hinterfragen, auch wenn erfahrene Kollegen sie lieber nicht diskutieren wollten."},
-    {"en":"The company could have avoided the delay if it had clarified the requirements at the beginning.","pl":"Firma mogła uniknąć opóźnienia, gdyby na początku doprecyzowała wymagania.","de":"Das Unternehmen hätte die Verzögerung vermeiden können, wenn es die Anforderungen zu Beginn geklärt hätte."},
-    {"en":"The investigators wanted to establish whether the officials had been aware of the risks.","pl":"Śledczy chcieli ustalić, czy urzędnicy byli świadomi ryzyka.","de":"Die Ermittler wollten feststellen, ob die Verantwortlichen sich der Risiken bewusst waren."},
-    {"en":"Although the alternatives were limited, the directors had to choose the option that best protected the organisation.","pl":"Chociaż możliwości były ograniczone, dyrektorzy musieli wybrać opcję, która najlepiej chroniła organizację.","de":"Obwohl die Alternativen begrenzt waren, mussten die Direktoren die Option wählen, die die Organisation am besten schützte."},
-    {"en":"The report suggested that the team should investigate why the control had failed repeatedly.","pl":"Raport sugerował, że zespół powinien zbadać, dlaczego kontrola wielokrotnie zawodziła.","de":"Der Bericht legte nahe, dass das Team untersuchen sollte, warum die Kontrolle wiederholt versagt hatte."},
-    {"en":"We could not support the conclusion because the available evidence was insufficient and the assumptions were undocumented.","pl":"Nie mogliśmy poprzeć wniosku, ponieważ dostępne dowody były niewystarczające, a założenia nie zostały udokumentowane.","de":"Wir konnten die Schlussfolgerung nicht stützen, weil die verfügbaren Nachweise unzureichend waren und die Annahmen nicht dokumentiert waren."},
-    {"en":"The organisation wanted to know whether it had to report the incident immediately or could wait for legal advice.","pl":"Organizacja chciała wiedzieć, czy musi natychmiast zgłosić incydent, czy może poczekać na poradę prawną.","de":"Die Organisation wollte wissen, ob sie den Vorfall sofort melden musste oder auf rechtlichen Rat warten konnte."},
-    {"en":"The chairperson said that no decision was possible until the committee had reviewed all the evidence.","pl":"Przewodniczący powiedział, że nie można podjąć decyzji, dopóki komitet nie przeanalizuje wszystkich dowodów.","de":"Der Vorsitzende sagte, dass keine Entscheidung möglich war, bis der Ausschuss alle Nachweise geprüft hatte."},
-    {"en":"Had the team been able to access the original files, it might have identified the inconsistency sooner.","pl":"Gdyby zespół miał dostęp do oryginalnych plików, mógłby wcześniej zidentyfikować niespójność.","de":"Hätte das Team auf die Originaldateien zugreifen können, hätte es die Unstimmigkeit früher erkennen können."},
-    {"en":"The reviewers wanted to establish why the management team had been unwilling to disclose the assumptions.","pl":"Kontrolujący chcieli ustalić, dlaczego zespół zarządzający nie chciał ujawnić założeń.","de":"Die Prüfer wollten feststellen, warum das Managementteam nicht bereit gewesen war, die Annahmen offenzulegen."},
-    {"en":"The directors could not agree on whether the additional costs were unavoidable or whether the project should have been postponed.","pl":"Dyrektorzy nie mogli uzgodnić, czy dodatkowe koszty były nieuniknione, czy projekt należało przełożyć.","de":"Die Direktoren konnten sich nicht einigen, ob die zusätzlichen Kosten unvermeidbar waren oder ob das Projekt hätte verschoben werden sollen."},
-    {"en":"Although the regulator had requested an explanation, the company was unable to provide one because the relevant records were missing.","pl":"Chociaż organ nadzoru zażądał wyjaśnienia, firma nie była w stanie go przedstawić, ponieważ brakowało odpowiednich dokumentów.","de":"Obwohl die Aufsichtsbehörde eine Erklärung verlangt hatte, konnte das Unternehmen keine liefern, weil die relevanten Unterlagen fehlten."},
-    {"en":"The committee should have considered the potential consequences before it approved a change that nobody fully understood.","pl":"Komitet powinien był rozważyć potencjalne konsekwencje, zanim zatwierdził zmianę, której nikt w pełni nie rozumiał.","de":"Der Ausschuss hätte die möglichen Folgen berücksichtigen sollen, bevor er eine Änderung genehmigte, die niemand vollständig verstand."}
+    {
+      "en": "I was tired yesterday.",
+      "pl": "Wczoraj byłem zmęczony.",
+      "de": "Ich war gestern müde.",
+      "level": "A2"
+    },
+    {
+      "en": "She had a question.",
+      "pl": "Ona miała pytanie.",
+      "de": "Sie hatte eine Frage.",
+      "level": "A2"
+    },
+    {
+      "en": "We were at home.",
+      "pl": "Byliśmy w domu.",
+      "de": "Wir waren zu Hause.",
+      "level": "A2"
+    },
+    {
+      "en": "He had no time.",
+      "pl": "On nie miał czasu.",
+      "de": "Er hatte keine Zeit.",
+      "level": "A2"
+    },
+    {
+      "en": "You (informal) were ill yesterday.",
+      "pl": "Wczoraj byłeś chory.",
+      "de": "Du warst gestern krank.",
+      "level": "A2"
+    },
+    {
+      "en": "The children were hungry.",
+      "pl": "Dzieci były głodne.",
+      "de": "Die Kinder waren hungrig.",
+      "level": "A2"
+    },
+    {
+      "en": "I could swim when I was ten.",
+      "pl": "Potrafiłem pływać, gdy miałem dziesięć lat.",
+      "de": "Ich konnte schwimmen, als ich zehn Jahre alt war.",
+      "level": "A2"
+    },
+    {
+      "en": "We had enough money.",
+      "pl": "Mieliśmy wystarczająco dużo pieniędzy.",
+      "de": "Wir hatten genug Geld.",
+      "level": "A2"
+    },
+    {
+      "en": "He had to work on Monday.",
+      "pl": "Musiał pracować w poniedziałek.",
+      "de": "Er musste am Montag arbeiten.",
+      "level": "A2"
+    },
+    {
+      "en": "You (formal) were right.",
+      "pl": "Miał Pan rację.",
+      "de": "Sie hatten recht.",
+      "level": "A2"
+    },
+    {
+      "en": "I couldn't open the door.",
+      "pl": "Nie mogłem otworzyć drzwi.",
+      "de": "Ich konnte die Tür nicht öffnen.",
+      "level": "B1"
+    },
+    {
+      "en": "She had to leave early.",
+      "pl": "Musiałа wyjść wcześniej.",
+      "de": "Sie musste früh gehen.",
+      "level": "B1"
+    },
+    {
+      "en": "We wanted to stay longer.",
+      "pl": "Chcieliśmy zostać dłużej.",
+      "de": "Wir wollten länger bleiben.",
+      "level": "B1"
+    },
+    {
+      "en": "He was allowed to enter.",
+      "pl": "Wolno mu było wejść.",
+      "de": "Er durfte eintreten.",
+      "level": "B1"
+    },
+    {
+      "en": "You (informal) should call your mother.",
+      "pl": "Powinieneś zadzwonić do swojej matki.",
+      "de": "Du solltest deine Mutter anrufen.",
+      "level": "B1"
+    },
+    {
+      "en": "They were in Berlin last week.",
+      "pl": "W zeszłym tygodniu byli w Berlinie.",
+      "de": "Sie waren letzte Woche in Berlin.",
+      "level": "B1"
+    },
+    {
+      "en": "I didn't like the film.",
+      "pl": "Nie podobał mi się ten film.",
+      "de": "Ich mochte den Film nicht.",
+      "level": "B1"
+    },
+    {
+      "en": "The meeting was short.",
+      "pl": "Spotkanie było krótkie.",
+      "de": "Die Besprechung war kurz.",
+      "level": "B1"
+    },
+    {
+      "en": "We had a problem.",
+      "pl": "Mieliśmy problem.",
+      "de": "Wir hatten ein Problem.",
+      "level": "B1"
+    },
+    {
+      "en": "She could speak German well.",
+      "pl": "Potrafiła dobrze mówić po niemiecku.",
+      "de": "Sie konnte gut Deutsch sprechen.",
+      "level": "B1"
+    },
+    {
+      "en": "You (informal) had to wait outside.",
+      "pl": "Musiałeś czekać na zewnątrz.",
+      "de": "Du musstest draußen warten.",
+      "level": "B1"
+    },
+    {
+      "en": "The shops were closed.",
+      "pl": "Sklepy były zamknięte.",
+      "de": "Die Geschäfte waren geschlossen.",
+      "level": "B1"
+    },
+    {
+      "en": "He wanted to buy a new computer.",
+      "pl": "Chciał kupić nowy komputer.",
+      "de": "Er wollte einen neuen Computer kaufen.",
+      "level": "B1"
+    },
+    {
+      "en": "We were not allowed to park here.",
+      "pl": "Nie wolno nam było tutaj parkować.",
+      "de": "Wir durften hier nicht parken.",
+      "level": "B1"
+    },
+    {
+      "en": "I had no idea.",
+      "pl": "Nie miałem pojęcia.",
+      "de": "Ich hatte keine Ahnung.",
+      "level": "B1"
+    },
+    {
+      "en": "You (informal) could help us.",
+      "pl": "Mogłeś nam pomóc.",
+      "de": "Du konntest uns helfen.",
+      "level": "B1"
+    },
+    {
+      "en": "She should study more.",
+      "pl": "Powinna więcej się uczyć.",
+      "de": "Sie sollte mehr lernen.",
+      "level": "B1"
+    },
+    {
+      "en": "They had to cancel the trip.",
+      "pl": "Musieli odwołać podróż.",
+      "de": "Sie mussten die Reise absagen.",
+      "level": "B1"
+    },
+    {
+      "en": "The weather was terrible.",
+      "pl": "Pogoda była okropna.",
+      "de": "Das Wetter war schrecklich.",
+      "level": "B1"
+    },
+    {
+      "en": "I wanted to ask you something.",
+      "pl": "Chciałem cię o coś zapytać.",
+      "de": "Ich wollte dich etwas fragen.",
+      "level": "B1"
+    },
+    {
+      "en": "Because I was busy, I couldn't answer the phone.",
+      "pl": "Ponieważ byłem zajęty, nie mogłem odebrać telefonu.",
+      "de": "Weil ich beschäftigt war, konnte ich nicht ans Telefon gehen.",
+      "level": "B2"
+    },
+    {
+      "en": "We had to change our plans because the train was late.",
+      "pl": "Musieliśmy zmienić plany, ponieważ pociąg się spóźnił.",
+      "de": "Wir mussten unsere Pläne ändern, weil der Zug verspätet war.",
+      "level": "B2"
+    },
+    {
+      "en": "She wanted to join us, but she had no time.",
+      "pl": "Chciała do nas dołączyć, ale nie miała czasu.",
+      "de": "Sie wollte sich uns anschließen, aber sie hatte keine Zeit.",
+      "level": "B2"
+    },
+    {
+      "en": "The employees were allowed to leave after the meeting.",
+      "pl": "Pracownicy mogli wyjść po spotkaniu.",
+      "de": "Die Mitarbeiter durften nach der Besprechung gehen.",
+      "level": "B2"
+    },
+    {
+      "en": "I was supposed to inform my manager earlier.",
+      "pl": "Miałem wcześniej poinformować przełożonego.",
+      "de": "Ich sollte meinen Vorgesetzten früher informieren.",
+      "level": "B2"
+    },
+    {
+      "en": "He couldn't attend because he was ill.",
+      "pl": "Nie mógł uczestniczyć, ponieważ był chory.",
+      "de": "Er konnte nicht teilnehmen, weil er krank war.",
+      "level": "B2"
+    },
+    {
+      "en": "We had enough time to check the figures.",
+      "pl": "Mieliśmy wystarczająco dużo czasu, aby sprawdzić liczby.",
+      "de": "Wir hatten genug Zeit, um die Zahlen zu prüfen.",
+      "level": "B2"
+    },
+    {
+      "en": "You (informal) were supposed to send the email yesterday.",
+      "pl": "Miałeś wysłać e-mail wczoraj.",
+      "de": "Du solltest die E-Mail gestern schicken.",
+      "level": "B2"
+    },
+    {
+      "en": "The team wanted to find a better solution.",
+      "pl": "Zespół chciał znaleźć lepsze rozwiązanie.",
+      "de": "Das Team wollte eine bessere Lösung finden.",
+      "level": "B2"
+    },
+    {
+      "en": "Although she was tired, she had to continue working.",
+      "pl": "Chociaż była zmęczona, musiała dalej pracować.",
+      "de": "Obwohl sie müde war, musste sie weiterarbeiten.",
+      "level": "B2"
+    },
+    {
+      "en": "I was afraid that we couldn't finish on time.",
+      "pl": "Obawiałem się, że nie będziemy mogli skończyć na czas.",
+      "de": "Ich hatte Angst, dass wir nicht rechtzeitig fertig werden konnten.",
+      "level": "B2"
+    },
+    {
+      "en": "He was allowed to use the company car.",
+      "pl": "Wolno mu było korzystać z samochodu służbowego.",
+      "de": "Er durfte den Firmenwagen benutzen.",
+      "level": "B2"
+    },
+    {
+      "en": "We wanted to know why the system was unavailable.",
+      "pl": "Chcieliśmy wiedzieć, dlaczego system był niedostępny.",
+      "de": "Wir wollten wissen, warum das System nicht verfügbar war.",
+      "level": "B2"
+    },
+    {
+      "en": "She had to explain the delay to the client.",
+      "pl": "Musiałа wyjaśnić klientowi opóźnienie.",
+      "de": "Sie musste dem Kunden die Verzögerung erklären.",
+      "level": "B2"
+    },
+    {
+      "en": "I liked the proposal, but I couldn't approve it.",
+      "pl": "Podobała mi się propozycja, ale nie mogłem jej zatwierdzić.",
+      "de": "Ich mochte den Vorschlag, aber ich konnte ihn nicht genehmigen.",
+      "level": "B2"
+    },
+    {
+      "en": "The manager said that we should check the contract again.",
+      "pl": "Menedżer powiedział, że powinniśmy ponownie sprawdzić umowę.",
+      "de": "Der Manager sagte, dass wir den Vertrag noch einmal prüfen sollten.",
+      "level": "B2"
+    },
+    {
+      "en": "They were not allowed to share the confidential information.",
+      "pl": "Nie wolno im było udostępniać poufnych informacji.",
+      "de": "Sie durften die vertraulichen Informationen nicht weitergeben.",
+      "level": "B2"
+    },
+    {
+      "en": "Because the office was closed, we had to work remotely.",
+      "pl": "Ponieważ biuro było zamknięte, musieliśmy pracować zdalnie.",
+      "de": "Weil das Büro geschlossen war, mussten wir remote arbeiten.",
+      "level": "B2"
+    },
+    {
+      "en": "He wanted to help, although he had very little experience.",
+      "pl": "Chciał pomóc, chociaż miał bardzo małe doświadczenie.",
+      "de": "Er wollte helfen, obwohl er sehr wenig Erfahrung hatte.",
+      "level": "B2"
+    },
+    {
+      "en": "I couldn't understand what the speaker meant.",
+      "pl": "Nie mogłem zrozumieć, co miał na myśli mówca.",
+      "de": "Ich konnte nicht verstehen, was der Redner meinte.",
+      "level": "B2"
+    },
+    {
+      "en": "We were supposed to arrive before noon.",
+      "pl": "Mieliśmy przyjechać przed południem.",
+      "de": "Wir sollten vor Mittag ankommen.",
+      "level": "B2"
+    },
+    {
+      "en": "She was happy because she could finally relax.",
+      "pl": "Była szczęśliwa, ponieważ w końcu mogła odpocząć.",
+      "de": "Sie war glücklich, weil sie sich endlich entspannen konnte.",
+      "level": "B2"
+    },
+    {
+      "en": "The company had to reduce costs last year.",
+      "pl": "Firma musiała obniżyć koszty w zeszłym roku.",
+      "de": "Das Unternehmen musste im vergangenen Jahr die Kosten senken.",
+      "level": "B2"
+    },
+    {
+      "en": "You (formal) were allowed to submit the form online.",
+      "pl": "Mógł Pan złożyć formularz przez internet.",
+      "de": "Sie durften das Formular online einreichen.",
+      "level": "B2"
+    },
+    {
+      "en": "I wanted to discuss the issue before the meeting started.",
+      "pl": "Chciałem omówić tę kwestię, zanim rozpoczęło się spotkanie.",
+      "de": "Ich wollte das Thema besprechen, bevor die Besprechung begann.",
+      "level": "B2"
+    },
+    {
+      "en": "Although we had the necessary data, we couldn't draw a conclusion.",
+      "pl": "Chociaż mieliśmy niezbędne dane, nie mogliśmy wyciągnąć wniosku.",
+      "de": "Obwohl wir die notwendigen Daten hatten, konnten wir keine Schlussfolgerung ziehen.",
+      "level": "B2"
+    },
+    {
+      "en": "The doctor said that he should avoid strenuous exercise.",
+      "pl": "Lekarz powiedział, że powinien unikać intensywnego wysiłku.",
+      "de": "Der Arzt sagte, dass er anstrengende körperliche Aktivitäten vermeiden sollte.",
+      "level": "B2"
+    },
+    {
+      "en": "She couldn't attend the conference because she had another appointment.",
+      "pl": "Nie mogła uczestniczyć w konferencji, ponieważ miała inne spotkanie.",
+      "de": "Sie konnte nicht an der Konferenz teilnehmen, weil sie einen anderen Termin hatte.",
+      "level": "B2"
+    },
+    {
+      "en": "We had to wait until the authorities gave us permission.",
+      "pl": "Musieliśmy czekać, aż władze udzielą nam pozwolenia.",
+      "de": "Wir mussten warten, bis die Behörden uns die Erlaubnis gaben.",
+      "level": "B2"
+    },
+    {
+      "en": "He wanted to know whether the offer was still valid.",
+      "pl": "Chciał wiedzieć, czy oferta nadal była ważna.",
+      "de": "Er wollte wissen, ob das Angebot noch gültig war.",
+      "level": "B2"
+    },
+    {
+      "en": "The employees could leave early because they had completed the task.",
+      "pl": "Pracownicy mogli wyjść wcześniej, ponieważ ukończyli zadanie.",
+      "de": "Die Mitarbeiter konnten früh gehen, weil sie die Aufgabe abgeschlossen hatten.",
+      "level": "B2"
+    },
+    {
+      "en": "I was surprised that nobody had any questions.",
+      "pl": "Zdziwiłem się, że nikt nie miał żadnych pytań.",
+      "de": "Ich war überrascht, dass niemand Fragen hatte.",
+      "level": "B2"
+    },
+    {
+      "en": "We were supposed to compare the results before making a recommendation.",
+      "pl": "Mieliśmy porównać wyniki przed wydaniem rekomendacji.",
+      "de": "Wir sollten die Ergebnisse vergleichen, bevor wir eine Empfehlung abgaben.",
+      "level": "B2"
+    },
+    {
+      "en": "She was not allowed to disclose the figures before publication.",
+      "pl": "Nie wolno jej było ujawniać liczb przed publikacją.",
+      "de": "Sie durfte die Zahlen vor der Veröffentlichung nicht offenlegen.",
+      "level": "B2"
+    },
+    {
+      "en": "Because the deadline was approaching, the team had to work overtime.",
+      "pl": "Ponieważ zbliżał się termin, zespół musiał pracować po godzinach.",
+      "de": "Weil die Frist näher rückte, musste das Team Überstunden machen.",
+      "level": "B2"
+    },
+    {
+      "en": "He liked the idea but wanted to examine the risks first.",
+      "pl": "Podobał mu się pomysł, ale najpierw chciał zbadać ryzyko.",
+      "de": "Er mochte die Idee, wollte aber zuerst die Risiken prüfen.",
+      "level": "B2"
+    },
+    {
+      "en": "I couldn't explain why the costs were higher than expected.",
+      "pl": "Nie potrafiłem wyjaśnić, dlaczego koszty były wyższe od oczekiwanych.",
+      "de": "Ich konnte nicht erklären, warum die Kosten höher als erwartet waren.",
+      "level": "B2"
+    },
+    {
+      "en": "The team had to postpone the launch because the software was unstable.",
+      "pl": "Zespół musiał przełożyć uruchomienie, ponieważ oprogramowanie było niestabilne.",
+      "de": "Das Team musste die Einführung verschieben, weil die Software instabil war.",
+      "level": "B2"
+    },
+    {
+      "en": "Although the proposal was expensive, the directors wanted to consider it.",
+      "pl": "Chociaż propozycja była kosztowna, dyrektorzy chcieli ją rozważyć.",
+      "de": "Obwohl der Vorschlag teuer war, wollten die Direktoren ihn prüfen.",
+      "level": "B2"
+    },
+    {
+      "en": "We were able to solve the problem after the specialist arrived.",
+      "pl": "Udało nam się rozwiązać problem po przybyciu specjalisty.",
+      "de": "Wir konnten das Problem lösen, nachdem der Spezialist angekommen war.",
+      "level": "B2"
+    },
+    {
+      "en": "The client asked why we had to change the reporting process.",
+      "pl": "Klient zapytał, dlaczego musieliśmy zmienić proces raportowania.",
+      "de": "Der Kunde fragte, warum wir den Berichtsprozess ändern mussten.",
+      "level": "C1"
+    },
+    {
+      "en": "She said that she was busy and couldn't join the call.",
+      "pl": "Powiedziała, że jest zajęta i nie może dołączyć do rozmowy.",
+      "de": "Sie sagte, dass sie beschäftigt war und nicht an der Besprechung teilnehmen konnte.",
+      "level": "C1"
+    },
+    {
+      "en": "The committee wanted to understand why the forecast was inaccurate.",
+      "pl": "Komitet chciał zrozumieć, dlaczego prognoza była niedokładna.",
+      "de": "Der Ausschuss wollte verstehen, warum die Prognose ungenau war.",
+      "level": "C1"
+    },
+    {
+      "en": "We were supposed to check whether the figures were consistent before publishing the report.",
+      "pl": "Mieliśmy sprawdzić, czy liczby były spójne, przed opublikowaniem raportu.",
+      "de": "Wir sollten prüfen, ob die Zahlen konsistent waren, bevor wir den Bericht veröffentlichten.",
+      "level": "C1"
+    },
+    {
+      "en": "He had no authority to approve the payment, so he had to contact his director.",
+      "pl": "Nie miał uprawnień do zatwierdzenia płatności, więc musiał skontaktować się z dyrektorem.",
+      "de": "Er hatte keine Befugnis, die Zahlung zu genehmigen, deshalb musste er seinen Direktor kontaktieren.",
+      "level": "C1"
+    },
+    {
+      "en": "Although the information was incomplete, the analysts could identify the main trend.",
+      "pl": "Chociaż informacje były niekompletne, analitycy mogli zidentyfikować główny trend.",
+      "de": "Obwohl die Informationen unvollständig waren, konnten die Analysten den Haupttrend erkennen.",
+      "level": "C1"
+    },
+    {
+      "en": "The supervisor said that we were not allowed to change the original data.",
+      "pl": "Przełożony powiedział, że nie wolno nam zmieniać danych źródłowych.",
+      "de": "Der Vorgesetzte sagte, dass wir die ursprünglichen Daten nicht ändern durften.",
+      "level": "C1"
+    },
+    {
+      "en": "I wanted to clarify the assumptions because the results were difficult to interpret.",
+      "pl": "Chciałem wyjaśnić założenia, ponieważ wyniki trudno było zinterpretować.",
+      "de": "Ich wollte die Annahmen klären, weil die Ergebnisse schwer zu interpretieren waren.",
+      "level": "C1"
+    },
+    {
+      "en": "The company had to reconsider its plans after demand declined unexpectedly.",
+      "pl": "Firma musiała ponownie rozważyć plany po nieoczekiwanym spadku popytu.",
+      "de": "Das Unternehmen musste seine Pläne überdenken, nachdem die Nachfrage unerwartet zurückgegangen war.",
+      "level": "C1"
+    },
+    {
+      "en": "She could not determine whether the difference was material because she had insufficient evidence.",
+      "pl": "Nie mogła ustalić, czy różnica była istotna, ponieważ miała niewystarczające dowody.",
+      "de": "Sie konnte nicht feststellen, ob die Differenz wesentlich war, weil sie nicht genügend Nachweise hatte.",
+      "level": "C1"
+    },
+    {
+      "en": "The directors wanted the team to explain why the implementation took longer than expected.",
+      "pl": "Dyrektorzy chcieli, aby zespół wyjaśnił, dlaczego wdrożenie trwało dłużej, niż oczekiwano.",
+      "de": "Die Direktoren wollten, dass das Team erklärte, warum die Umsetzung länger dauerte als erwartet.",
+      "level": "C1"
+    },
+    {
+      "en": "Because the legal requirements were unclear, the company had to obtain external advice.",
+      "pl": "Ponieważ wymogi prawne były niejasne, firma musiała uzyskać zewnętrzną poradę.",
+      "de": "Weil die rechtlichen Anforderungen unklar waren, musste das Unternehmen externen Rat einholen.",
+      "level": "C1"
+    },
+    {
+      "en": "The analysts were supposed to document every assumption so that others could reproduce the results.",
+      "pl": "Analitycy mieli udokumentować każde założenie, aby inni mogli odtworzyć wyniki.",
+      "de": "Die Analysten sollten jede Annahme dokumentieren, damit andere die Ergebnisse nachvollziehen konnten.",
+      "level": "C1"
+    },
+    {
+      "en": "He was reluctant to approve the proposal because he had concerns about its long-term impact.",
+      "pl": "Niechętnie zatwierdzał propozycję, ponieważ obawiał się jej długoterminowego wpływu.",
+      "de": "Er wollte den Vorschlag nur ungern genehmigen, weil er Bedenken hinsichtlich seiner langfristigen Auswirkungen hatte.",
+      "level": "C1"
+    },
+    {
+      "en": "We could not reach an agreement because neither side wanted to compromise.",
+      "pl": "Nie mogliśmy osiągnąć porozumienia, ponieważ żadna ze stron nie chciała pójść na kompromis.",
+      "de": "Wir konnten keine Einigung erzielen, weil keine Seite Kompromisse eingehen wollte.",
+      "level": "C1"
+    },
+    {
+      "en": "The manager insisted that we should verify the source before relying on the figures.",
+      "pl": "Menedżer nalegał, abyśmy zweryfikowali źródło, zanim oprzemy się na liczbach.",
+      "de": "Der Manager bestand darauf, dass wir die Quelle überprüfen sollten, bevor wir uns auf die Zahlen verließen.",
+      "level": "C1"
+    },
+    {
+      "en": "Although the deadline was fixed, the team could not complete the work because key data were missing.",
+      "pl": "Chociaż termin był ustalony, zespół nie mógł zakończyć pracy, ponieważ brakowało kluczowych danych.",
+      "de": "Obwohl die Frist feststand, konnte das Team die Arbeit nicht abschließen, weil wichtige Daten fehlten.",
+      "level": "C1"
+    },
+    {
+      "en": "The committee wanted to know whether the risks had been assessed before the decision was made.",
+      "pl": "Komitet chciał wiedzieć, czy ryzyko oceniono przed podjęciem decyzji.",
+      "de": "Der Ausschuss wollte wissen, ob die Risiken bewertet worden waren, bevor die Entscheidung getroffen wurde.",
+      "level": "C1"
+    },
+    {
+      "en": "We had to explain why the original estimate was no longer reliable.",
+      "pl": "Musieliśmy wyjaśnić, dlaczego pierwotne oszacowanie nie było już wiarygodne.",
+      "de": "Wir mussten erklären, warum die ursprüngliche Schätzung nicht mehr zuverlässig war.",
+      "level": "C1"
+    },
+    {
+      "en": "The employee said that she could not disclose the details because the investigation was confidential.",
+      "pl": "Pracownica powiedziała, że nie może ujawnić szczegółów, ponieważ dochodzenie było poufne.",
+      "de": "Die Mitarbeiterin sagte, dass sie die Einzelheiten nicht offenlegen konnte, weil die Untersuchung vertraulich war.",
+      "level": "C1"
+    },
+    {
+      "en": "Because the evidence was contradictory, the reviewers could not determine which explanation was correct.",
+      "pl": "Ponieważ dowody były sprzeczne, kontrolujący nie mogli ustalić, które wyjaśnienie było prawidłowe.",
+      "de": "Weil die Nachweise widersprüchlich waren, konnten die Prüfer nicht feststellen, welche Erklärung richtig war.",
+      "level": "C2"
+    },
+    {
+      "en": "The team had to revise its approach because the initial assumptions were no longer valid.",
+      "pl": "Zespół musiał zmienić podejście, ponieważ początkowe założenia nie były już aktualne.",
+      "de": "Das Team musste seinen Ansatz überarbeiten, weil die ursprünglichen Annahmen nicht mehr gültig waren.",
+      "level": "C2"
+    },
+    {
+      "en": "We were expected to challenge the assumptions, even when senior colleagues preferred not to discuss them.",
+      "pl": "Oczekiwano od nas kwestionowania założeń, nawet gdy starsi stażem koledzy woleli o nich nie rozmawiać.",
+      "de": "Wir sollten die Annahmen hinterfragen, auch wenn erfahrene Kollegen sie lieber nicht diskutieren wollten.",
+      "level": "C2"
+    },
+    {
+      "en": "The investigators wanted to establish whether the officials had been aware of the risks.",
+      "pl": "Śledczy chcieli ustalić, czy urzędnicy byli świadomi ryzyka.",
+      "de": "Die Ermittler wollten feststellen, ob die Verantwortlichen sich der Risiken bewusst waren.",
+      "level": "C2"
+    },
+    {
+      "en": "Although the alternatives were limited, the directors had to choose the option that best protected the organisation.",
+      "pl": "Chociaż możliwości były ograniczone, dyrektorzy musieli wybrać opcję, która najlepiej chroniła organizację.",
+      "de": "Obwohl die Alternativen begrenzt waren, mussten die Direktoren die Option wählen, die die Organisation am besten schützte.",
+      "level": "C2"
+    },
+    {
+      "en": "We could not support the conclusion because the available evidence was insufficient and the assumptions were undocumented.",
+      "pl": "Nie mogliśmy poprzeć wniosku, ponieważ dostępne dowody były niewystarczające, a założenia nie zostały udokumentowane.",
+      "de": "Wir konnten die Schlussfolgerung nicht stützen, weil die verfügbaren Nachweise unzureichend waren und die Annahmen nicht dokumentiert waren.",
+      "level": "C2"
+    },
+    {
+      "en": "The organisation wanted to know whether it had to report the incident immediately or could wait for legal advice.",
+      "pl": "Organizacja chciała wiedzieć, czy musi natychmiast zgłosić incydent, czy może poczekać na poradę prawną.",
+      "de": "Die Organisation wollte wissen, ob sie den Vorfall sofort melden musste oder auf rechtlichen Rat warten konnte.",
+      "level": "C2"
+    },
+    {
+      "en": "The reviewers wanted to establish why the management team had been unwilling to disclose the assumptions.",
+      "pl": "Kontrolujący chcieli ustalić, dlaczego zespół zarządzający nie chciał ujawnić założeń.",
+      "de": "Die Prüfer wollten feststellen, warum das Managementteam nicht bereit gewesen war, die Annahmen offenzulegen.",
+      "level": "C2"
+    },
+    {
+      "en": "The directors could not agree on whether the additional costs were unavoidable or whether the project should have been postponed.",
+      "pl": "Dyrektorzy nie mogli uzgodnić, czy dodatkowe koszty były nieuniknione, czy projekt należało przełożyć.",
+      "de": "Die Direktoren konnten sich nicht einigen, ob die zusätzlichen Kosten unvermeidbar waren oder ob das Projekt hätte verschoben werden sollen.",
+      "level": "C2"
+    },
+    {
+      "en": "Although the regulator had requested an explanation, the company was unable to provide one because the relevant records were missing.",
+      "pl": "Chociaż organ nadzoru zażądał wyjaśnienia, firma nie była w stanie go przedstawić, ponieważ brakowało odpowiednich dokumentów.",
+      "de": "Obwohl die Aufsichtsbehörde eine Erklärung verlangt hatte, konnte das Unternehmen keine liefern, weil die relevanten Unterlagen fehlten.",
+      "level": "C2"
+    }
   ],
   "listening": {
     "audioUrl": "https://radiodownloaddw.akamaihd.net/downloads/Events/dwelle/dira/mp3/deutschkurse/nachrichten_live/9ACC0133_2.mp3",
@@ -11340,35 +11931,556 @@
       }
     ],
     "vocab": [
-      {"id":1,"word":"drosseln","translation":{"en":"to throttle, reduce","pl":"ograniczać, zmniejszać"},"partOfSpeech":"Verb","level":"B2","plural":"","notes":{"en":"Often used with access, production or speed.","pl":"Często łączy się z dostępem, produkcją lub prędkością."},"examples":["Der Anbieter musste die Übertragungsgeschwindigkeit drosseln.","Die Fabrik drosselte ihre Produktion vorübergehend."]},
-      {"id":2,"word":"gravierend","translation":{"en":"serious, severe","pl":"poważny, dotkliwy"},"partOfSpeech":"Adjective","level":"B2","plural":"","notes":{"en":"Often used with Folgen, Fehler or Probleme.","pl":"Często występuje z rzeczownikami Folgen, Fehler lub Probleme."},"examples":["Der Bericht zeigt gravierende Fehler im Prozess.","Die Entscheidung hatte gravierende Folgen für das Unternehmen."]},
-      {"id":3,"word":"die Schwachstelle","translation":{"en":"weakness, weak point","pl":"słaby punkt, luka"},"partOfSpeech":"Noun","level":"B2","plural":"die Schwachstellen","notes":{"en":"Common in technical and security contexts.","pl":"Częste w kontekście technicznym i bezpieczeństwa."},"examples":["Die Prüfung deckte eine Schwachstelle im System auf.","Wir müssen jede Schwachstelle vor dem Start beheben."]},
-      {"id":4,"word":"die Sicherheitslücke","translation":{"en":"security vulnerability","pl":"luka w zabezpieczeniach"},"partOfSpeech":"Noun","level":"B2","plural":"die Sicherheitslücken","notes":{"en":"A flaw that can be exploited to compromise security.","pl":"Błąd, który można wykorzystać do naruszenia bezpieczeństwa."},"examples":["Die Sicherheitslücke wurde noch am selben Tag geschlossen.","Experten untersuchen eine neue Sicherheitslücke."]},
-      {"id":5,"word":"das Fundament","translation":{"en":"foundation, basis","pl":"fundament, podstawa"},"partOfSpeech":"Noun","level":"B2","plural":"die Fundamente","notes":{"en":"Used literally or figuratively for a basic foundation.","pl":"Używane dosłownie lub przenośnie jako podstawowy fundament."},"examples":["Vertrauen bildet das Fundament einer guten Zusammenarbeit.","Die Reform veränderte das Fundament des Systems."]},
-      {"id":6,"word":"abgreifen","translation":{"en":"to harvest, obtain illicitly","pl":"wykradać, przechwytywać"},"partOfSpeech":"Verb","level":"C1","plural":"","notes":{"en":"Separable verb; often used for data or information.","pl":"Czasownik rozdzielnie złożony; często dotyczy danych lub informacji."},"examples":["Kriminelle versuchten, persönliche Daten abzugreifen.","Die Software verhindert, dass Angreifer Zugangsdaten abgreifen."]},
-      {"id":7,"word":"der Handlungsbedarf","translation":{"en":"need for action","pl":"potrzeba podjęcia działań"},"partOfSpeech":"Noun","level":"C1","plural":"","notes":{"en":"Common phrase: Es besteht Handlungsbedarf.","pl":"Typowe połączenie: Es besteht Handlungsbedarf."},"examples":["Nach der Prüfung besteht dringender Handlungsbedarf.","Das Management erkannte keinen unmittelbaren Handlungsbedarf."]},
-      {"id":8,"word":"die Beratung","translation":{"en":"consultation, deliberation","pl":"konsultacje, narada"},"partOfSpeech":"Noun","level":"B2","plural":"die Beratungen","notes":{"en":"Often used in the plural for formal discussions.","pl":"Często występuje w liczbie mnogiej w odniesieniu do formalnych rozmów."},"examples":["Die Beratungen über den Haushalt dauern an.","Nach langen Beratungen wurde ein Kompromiss gefunden."]},
-      {"id":9,"word":"die Konsequenz","translation":{"en":"consequence","pl":"konsekwencja, skutek"},"partOfSpeech":"Noun","level":"B2","plural":"die Konsequenzen","notes":{"en":"Used for outcomes or measures taken in response.","pl":"Oznacza skutek lub działania podejmowane w odpowiedzi."},"examples":["Die Entscheidung hatte unerwartete Konsequenzen.","Wir müssen die Konsequenzen sorgfältig abwägen."]},
-      {"id":10,"word":"der Krawall","translation":{"en":"riot, violent disturbance","pl":"zamieszki, awantura"},"partOfSpeech":"Noun","level":"C1","plural":"die Krawalle","notes":{"en":"Usually refers to public disorder or violent unrest.","pl":"Zwykle odnosi się do zakłóceń porządku publicznego lub gwałtownych zamieszek."},"examples":["Nach dem Spiel kam es zu Krawallen.","Die Polizei bereitete sich auf mögliche Krawalle vor."]},
-      {"id":11,"word":"die Lebenshaltungskosten","translation":{"en":"cost of living","pl":"koszty utrzymania"},"partOfSpeech":"Noun","level":"B2","plural":"","notes":{"en":"Plural noun; often used with steigen or senken.","pl":"Rzeczownik używany w liczbie mnogiej; często ze steigen lub senken."},"examples":["Die Lebenshaltungskosten sind deutlich gestiegen.","Viele Familien leiden unter hohen Lebenshaltungskosten."]},
-      {"id":12,"word":"der Missstand","translation":{"en":"shortcoming, abuse, grievance","pl":"nieprawidłowość, nadużycie"},"partOfSpeech":"Noun","level":"C1","plural":"die Missstände","notes":{"en":"Often used with aufdecken or beseitigen.","pl":"Często łączy się z czasownikami aufdecken lub beseitigen."},"examples":["Die Untersuchung deckte mehrere Missstände auf.","Die Regierung versprach, die Missstände zu beseitigen."]},
-      {"id":13,"word":"die Ausschreitung","translation":{"en":"riot, violent outbreak","pl":"zamieszki, akty przemocy"},"partOfSpeech":"Noun","level":"C1","plural":"die Ausschreitungen","notes":{"en":"Often appears in plural when describing unrest.","pl":"Często występuje w liczbie mnogiej w kontekście zamieszek."},"examples":["Nach der Demonstration kam es zu Ausschreitungen.","Die Behörden untersuchten die Ausschreitungen vom Wochenende."]},
-      {"id":14,"word":"die Annäherung","translation":{"en":"rapprochement, closer alignment","pl":"zbliżenie"},"partOfSpeech":"Noun","level":"B2","plural":"die Annäherungen","notes":{"en":"Often used with an or zwischen.","pl":"Często występuje z an lub zwischen."},"examples":["Die Annäherung an die EU erfordert weitere Reformen.","Zwischen den Parteien war eine vorsichtige Annäherung zu erkennen."]},
-      {"id":15,"word":"das Gipfeltreffen","translation":{"en":"summit meeting","pl":"szczyt, spotkanie na szczycie"},"partOfSpeech":"Noun","level":"B2","plural":"die Gipfeltreffen","notes":{"en":"A meeting of senior political leaders.","pl":"Spotkanie przywódców politycznych wysokiego szczebla."},"examples":["Das Gipfeltreffen beginnt am Freitag.","Beim Gipfeltreffen wurden gemeinsame Ziele vereinbart."]},
-      {"id":16,"word":"initiieren","translation":{"en":"to initiate, launch","pl":"inicjować, zapoczątkować"},"partOfSpeech":"Verb","level":"C1","plural":"","notes":{"en":"Formal verb used for projects, processes or reforms.","pl":"Formalny czasownik dotyczący projektów, procesów lub reform."},"examples":["Die Regierung initiierte eine umfassende Reform.","Das Unternehmen initiierte ein neues Ausbildungsprogramm."]},
-      {"id":17,"word":"sich bewerben um","translation":{"en":"to apply for","pl":"ubiegać się o"},"partOfSpeech":"Expression","level":"B1","plural":"","notes":{"en":"Reflexive verb; use um plus accusative.","pl":"Czasownik zwrotny; używaj um z biernikiem."},"examples":["Sie bewirbt sich um eine neue Stelle.","Das Land bewarb sich um die Mitgliedschaft."]},
-      {"id":18,"word":"ablehnend","translation":{"en":"rejecting, negative","pl":"odmowny, nieprzychylny"},"partOfSpeech":"Adjective","level":"B2","plural":"","notes":{"en":"Often used with reagieren auf or sich äußern zu.","pl":"Często łączy się z reagieren auf lub sich äußern zu."},"examples":["Der Vorstand reagierte ablehnend auf den Vorschlag.","Sie äußerte sich ablehnend zu den Änderungen."]},
-      {"id":19,"word":"die Substanz","translation":{"en":"substance, substance matter","pl":"treść, istota"},"partOfSpeech":"Noun","level":"B2","plural":"die Substanzen","notes":{"en":"In argumentation, it can mean meaningful content or substance.","pl":"W argumentacji może oznaczać merytoryczną treść lub istotę."},"examples":["Der Vorschlag hatte wenig Substanz.","Die Kritik enthält mehr Substanz, als es zunächst scheint."]},
-      {"id":20,"word":"die Verhandlung","translation":{"en":"negotiation","pl":"negocjacje"},"partOfSpeech":"Noun","level":"B2","plural":"die Verhandlungen","notes":{"en":"Often used in plural for formal negotiations.","pl":"Często używane w liczbie mnogiej w odniesieniu do formalnych negocjacji."},"examples":["Die Verhandlungen wurden am Abend fortgesetzt.","Beide Seiten bereiteten sich auf die Verhandlung vor."]},
-      {"id":21,"word":"die Sicherheitsgarantie","translation":{"en":"security guarantee","pl":"gwarancja bezpieczeństwa"},"partOfSpeech":"Noun","level":"C1","plural":"die Sicherheitsgarantien","notes":{"en":"Often used in diplomatic and defence contexts.","pl":"Częste w kontekście dyplomacji i obronności."},"examples":["Die Regierung forderte zusätzliche Sicherheitsgarantien.","Ohne Sicherheitsgarantien blieb die Einigung schwierig."]},
-      {"id":22,"word":"erforderlich","translation":{"en":"necessary, required","pl":"konieczny, wymagany"},"partOfSpeech":"Adjective","level":"B2","plural":"","notes":{"en":"Formal alternative to notwendig.","pl":"Formalny odpowiednik słowa notwendig."},"examples":["Für die Anmeldung sind weitere Unterlagen erforderlich.","Eine zusätzliche Prüfung war nicht erforderlich."]},
-      {"id":23,"word":"entnehmen","translation":{"en":"to remove, take out; infer","pl":"pobierać, usuwać; wywnioskować"},"partOfSpeech":"Verb","level":"C1","plural":"","notes":{"en":"In medical contexts, tissue may be entnommen; use dative for the source.","pl":"W medycynie można pobrać tkankę; źródło łączy się z celownikiem."},"examples":["Die Ärztin entnahm eine kleine Gewebeprobe.","Aus dem Bericht lässt sich entnehmen, dass die Lage stabil ist."]},
-      {"id":24,"word":"lokal begrenzt","translation":{"en":"locally confined","pl":"ograniczony miejscowo"},"partOfSpeech":"Expression","level":"C1","plural":"","notes":{"en":"Common in medical descriptions of a disease or tumour.","pl":"Częste w medycznych opisach choroby lub guza."},"examples":["Die Infektion war lokal begrenzt.","Der Befund zeigte, dass die Veränderung lokal begrenzt blieb."]},
-      {"id":25,"word":"die Publikumsmesse","translation":{"en":"public trade fair","pl":"targi otwarte dla publiczności"},"partOfSpeech":"Noun","level":"C1","plural":"die Publikumsmessen","notes":{"en":"An exhibition open to the general public, not only professionals.","pl":"Wystawa otwarta dla ogółu publiczności, nie tylko profesjonalistów."},"examples":["Die Publikumsmesse zieht jedes Jahr viele Besucher an.","Als Publikumsmesse richtet sich die Veranstaltung an Familien."]},
-      {"id":26,"word":"der Aussteller","translation":{"en":"exhibitor","pl":"wystawca"},"partOfSpeech":"Noun","level":"B2","plural":"die Aussteller","notes":{"en":"A person or organisation presenting products at an exhibition.","pl":"Osoba lub organizacja prezentująca produkty na targach."},"examples":["Jeder Aussteller erhielt einen eigenen Stand.","Die Aussteller präsentierten ihre neuesten Produkte."]},
-      {"id":27,"word":"die Neuheit","translation":{"en":"new product, novelty","pl":"nowość"},"partOfSpeech":"Noun","level":"B2","plural":"die Neuheiten","notes":{"en":"Often used for newly launched products or games.","pl":"Często oznacza nowo wprowadzone produkty lub gry."},"examples":["Der Hersteller stellte mehrere Neuheiten vor.","Viele Besucher wollten die Neuheiten zuerst ausprobieren."]},
-      {"id":28,"word":"auszeichnen","translation":{"en":"to award, honour","pl":"wyróżniać, nagradzać"},"partOfSpeech":"Verb","level":"B2","plural":"","notes":{"en":"Separable verb; jemanden mit einem Preis auszeichnen.","pl":"Czasownik rozdzielnie złożony; jemanden mit einem Preis auszeichnen."},"examples":["Die Jury zeichnete den Film mit einem Preis aus.","Das Projekt wurde für seine Innovation ausgezeichnet."]},
-      {"id":29,"word":"der Artenschutzaspekt","translation":{"en":"species-conservation aspect","pl":"aspekt ochrony gatunków"},"partOfSpeech":"Noun","level":"C1","plural":"die Artenschutzaspekte","notes":{"en":"Used when evaluating something in terms of protecting species.","pl":"Używane przy ocenie czegoś z punktu widzenia ochrony gatunków."},"examples":["Der Zoo berücksichtigt wichtige Artenschutzaspekte.","Bei der Planung spielten Artenschutzaspekte eine zentrale Rolle."]}
+      {
+        "id": 1,
+        "word": "drosseln",
+        "translation": {
+          "en": "to throttle, reduce",
+          "pl": "ograniczać, zmniejszać"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Often used with access, production or speed.",
+          "pl": "Często łączy się z dostępem, produkcją lub prędkością."
+        },
+        "examples": [
+          "Der Anbieter musste die Übertragungsgeschwindigkeit drosseln.",
+          "Die Fabrik drosselte ihre Produktion vorübergehend."
+        ]
+      },
+      {
+        "id": 2,
+        "word": "gravierend",
+        "translation": {
+          "en": "serious, severe",
+          "pl": "poważny, dotkliwy"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Often used with Folgen, Fehler or Probleme.",
+          "pl": "Często występuje z rzeczownikami Folgen, Fehler lub Probleme."
+        },
+        "examples": [
+          "Der Bericht zeigt gravierende Fehler im Prozess.",
+          "Die Entscheidung hatte gravierende Folgen für das Unternehmen."
+        ]
+      },
+      {
+        "id": 3,
+        "word": "die Schwachstelle",
+        "translation": {
+          "en": "weakness, weak point",
+          "pl": "słaby punkt, luka"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Schwachstellen",
+        "notes": {
+          "en": "Common in technical and security contexts.",
+          "pl": "Częste w kontekście technicznym i bezpieczeństwa."
+        },
+        "examples": [
+          "Die Prüfung deckte eine Schwachstelle im System auf.",
+          "Wir müssen jede Schwachstelle vor dem Start beheben."
+        ]
+      },
+      {
+        "id": 4,
+        "word": "die Sicherheitslücke",
+        "translation": {
+          "en": "security vulnerability",
+          "pl": "luka w zabezpieczeniach"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Sicherheitslücken",
+        "notes": {
+          "en": "A flaw that can be exploited to compromise security.",
+          "pl": "Błąd, który można wykorzystać do naruszenia bezpieczeństwa."
+        },
+        "examples": [
+          "Die Sicherheitslücke wurde noch am selben Tag geschlossen.",
+          "Experten untersuchen eine neue Sicherheitslücke."
+        ]
+      },
+      {
+        "id": 5,
+        "word": "das Fundament",
+        "translation": {
+          "en": "foundation, basis",
+          "pl": "fundament, podstawa"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Fundamente",
+        "notes": {
+          "en": "Used literally or figuratively for a basic foundation.",
+          "pl": "Używane dosłownie lub przenośnie jako podstawowy fundament."
+        },
+        "examples": [
+          "Vertrauen bildet das Fundament einer guten Zusammenarbeit.",
+          "Die Reform veränderte das Fundament des Systems."
+        ]
+      },
+      {
+        "id": 6,
+        "word": "abgreifen",
+        "translation": {
+          "en": "to harvest, obtain illicitly",
+          "pl": "wykradać, przechwytywać"
+        },
+        "partOfSpeech": "Verb",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Separable verb; often used for data or information.",
+          "pl": "Czasownik rozdzielnie złożony; często dotyczy danych lub informacji."
+        },
+        "examples": [
+          "Kriminelle versuchten, persönliche Daten abzugreifen.",
+          "Die Software verhindert, dass Angreifer Zugangsdaten abgreifen."
+        ]
+      },
+      {
+        "id": 7,
+        "word": "der Handlungsbedarf",
+        "translation": {
+          "en": "need for action",
+          "pl": "potrzeba podjęcia działań"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Common phrase: Es besteht Handlungsbedarf.",
+          "pl": "Typowe połączenie: Es besteht Handlungsbedarf."
+        },
+        "examples": [
+          "Nach der Prüfung besteht dringender Handlungsbedarf.",
+          "Das Management erkannte keinen unmittelbaren Handlungsbedarf."
+        ]
+      },
+      {
+        "id": 8,
+        "word": "die Beratung",
+        "translation": {
+          "en": "consultation, deliberation",
+          "pl": "konsultacje, narada"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Beratungen",
+        "notes": {
+          "en": "Often used in the plural for formal discussions.",
+          "pl": "Często występuje w liczbie mnogiej w odniesieniu do formalnych rozmów."
+        },
+        "examples": [
+          "Die Beratungen über den Haushalt dauern an.",
+          "Nach langen Beratungen wurde ein Kompromiss gefunden."
+        ]
+      },
+      {
+        "id": 9,
+        "word": "die Konsequenz",
+        "translation": {
+          "en": "consequence",
+          "pl": "konsekwencja, skutek"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Konsequenzen",
+        "notes": {
+          "en": "Used for outcomes or measures taken in response.",
+          "pl": "Oznacza skutek lub działania podejmowane w odpowiedzi."
+        },
+        "examples": [
+          "Die Entscheidung hatte unerwartete Konsequenzen.",
+          "Wir müssen die Konsequenzen sorgfältig abwägen."
+        ]
+      },
+      {
+        "id": 10,
+        "word": "der Krawall",
+        "translation": {
+          "en": "riot, violent disturbance",
+          "pl": "zamieszki, awantura"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Krawalle",
+        "notes": {
+          "en": "Usually refers to public disorder or violent unrest.",
+          "pl": "Zwykle odnosi się do zakłóceń porządku publicznego lub gwałtownych zamieszek."
+        },
+        "examples": [
+          "Nach dem Spiel kam es zu Krawallen.",
+          "Die Polizei bereitete sich auf mögliche Krawalle vor."
+        ]
+      },
+      {
+        "id": 11,
+        "word": "die Lebenshaltungskosten",
+        "translation": {
+          "en": "cost of living",
+          "pl": "koszty utrzymania"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Plural noun; often used with steigen or senken.",
+          "pl": "Rzeczownik używany w liczbie mnogiej; często ze steigen lub senken."
+        },
+        "examples": [
+          "Die Lebenshaltungskosten sind deutlich gestiegen.",
+          "Viele Familien leiden unter hohen Lebenshaltungskosten."
+        ]
+      },
+      {
+        "id": 12,
+        "word": "der Missstand",
+        "translation": {
+          "en": "shortcoming, abuse, grievance",
+          "pl": "nieprawidłowość, nadużycie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Missstände",
+        "notes": {
+          "en": "Often used with aufdecken or beseitigen.",
+          "pl": "Często łączy się z czasownikami aufdecken lub beseitigen."
+        },
+        "examples": [
+          "Die Untersuchung deckte mehrere Missstände auf.",
+          "Die Regierung versprach, die Missstände zu beseitigen."
+        ]
+      },
+      {
+        "id": 13,
+        "word": "die Ausschreitung",
+        "translation": {
+          "en": "riot, violent outbreak",
+          "pl": "zamieszki, akty przemocy"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Ausschreitungen",
+        "notes": {
+          "en": "Often appears in plural when describing unrest.",
+          "pl": "Często występuje w liczbie mnogiej w kontekście zamieszek."
+        },
+        "examples": [
+          "Nach der Demonstration kam es zu Ausschreitungen.",
+          "Die Behörden untersuchten die Ausschreitungen vom Wochenende."
+        ]
+      },
+      {
+        "id": 14,
+        "word": "die Annäherung",
+        "translation": {
+          "en": "rapprochement, closer alignment",
+          "pl": "zbliżenie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Annäherungen",
+        "notes": {
+          "en": "Often used with an or zwischen.",
+          "pl": "Często występuje z an lub zwischen."
+        },
+        "examples": [
+          "Die Annäherung an die EU erfordert weitere Reformen.",
+          "Zwischen den Parteien war eine vorsichtige Annäherung zu erkennen."
+        ]
+      },
+      {
+        "id": 15,
+        "word": "das Gipfeltreffen",
+        "translation": {
+          "en": "summit meeting",
+          "pl": "szczyt, spotkanie na szczycie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Gipfeltreffen",
+        "notes": {
+          "en": "A meeting of senior political leaders.",
+          "pl": "Spotkanie przywódców politycznych wysokiego szczebla."
+        },
+        "examples": [
+          "Das Gipfeltreffen beginnt am Freitag.",
+          "Beim Gipfeltreffen wurden gemeinsame Ziele vereinbart."
+        ]
+      },
+      {
+        "id": 16,
+        "word": "initiieren",
+        "translation": {
+          "en": "to initiate, launch",
+          "pl": "inicjować, zapoczątkować"
+        },
+        "partOfSpeech": "Verb",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Formal verb used for projects, processes or reforms.",
+          "pl": "Formalny czasownik dotyczący projektów, procesów lub reform."
+        },
+        "examples": [
+          "Die Regierung initiierte eine umfassende Reform.",
+          "Das Unternehmen initiierte ein neues Ausbildungsprogramm."
+        ]
+      },
+      {
+        "id": 17,
+        "word": "sich bewerben um",
+        "translation": {
+          "en": "to apply for",
+          "pl": "ubiegać się o"
+        },
+        "partOfSpeech": "Expression",
+        "level": "B1",
+        "plural": "",
+        "notes": {
+          "en": "Reflexive verb; use um plus accusative.",
+          "pl": "Czasownik zwrotny; używaj um z biernikiem."
+        },
+        "examples": [
+          "Sie bewirbt sich um eine neue Stelle.",
+          "Das Land bewarb sich um die Mitgliedschaft."
+        ]
+      },
+      {
+        "id": 18,
+        "word": "ablehnend",
+        "translation": {
+          "en": "rejecting, negative",
+          "pl": "odmowny, nieprzychylny"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Often used with reagieren auf or sich äußern zu.","pl": "Często łączy się z reagieren auf lub sich äußern zu."
+        },
+        "examples": [
+          "Der Vorstand reagierte ablehnend auf den Vorschlag.",
+          "Sie äußerte sich ablehnend zu den Änderungen."
+        ]
+      },
+      {
+        "id": 19,
+        "word": "die Substanz",
+        "translation": {
+          "en": "substance, substance matter",
+          "pl": "treść, istota"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Substanzen",
+        "notes": {
+          "en": "In argumentation, it can mean meaningful content or substance.",
+          "pl": "W argumentacji może oznaczać merytoryczną treść lub istotę."
+        },
+        "examples": [
+          "Der Vorschlag hatte wenig Substanz.",
+          "Die Kritik enthält mehr Substanz, als es zunächst scheint."
+        ]
+      },
+      {
+        "id": 20,
+        "word": "die Verhandlung",
+        "translation": {
+          "en": "negotiation",
+          "pl": "negocjacje"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Verhandlungen",
+        "notes": {
+          "en": "Often used in plural for formal negotiations.",
+          "pl": "Często używane w liczbie mnogiej w odniesieniu do formalnych negocjacji."
+        },
+        "examples": [
+          "Die Verhandlungen wurden am Abend fortgesetzt.",
+          "Beide Seiten bereiteten sich auf die Verhandlung vor."
+        ]
+      },
+      {
+        "id": 21,
+        "word": "die Sicherheitsgarantie",
+        "translation": {
+          "en": "security guarantee",
+          "pl": "gwarancja bezpieczeństwa"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Sicherheitsgarantien",
+        "notes": {
+          "en": "Often used in diplomatic and defence contexts.",
+          "pl": "Częste w kontekście dyplomacji i obronności."
+        },
+        "examples": [
+          "Die Regierung forderte zusätzliche Sicherheitsgarantien.",
+          "Ohne Sicherheitsgarantien blieb die Einigung schwierig."
+        ]
+      },
+      {
+        "id": 22,
+        "word": "erforderlich",
+        "translation": {
+          "en": "necessary, required",
+          "pl": "konieczny, wymagany"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Formal alternative to notwendig.",
+          "pl": "Formalny odpowiednik słowa notwendig."
+        },
+        "examples": [
+          "Für die Anmeldung sind weitere Unterlagen erforderlich.",
+          "Eine zusätzliche Prüfung war nicht erforderlich."
+        ]
+      },
+      {
+        "id": 23,
+        "word": "entnehmen",
+        "translation": {
+          "en": "to remove, take out; infer",
+          "pl": "pobierać, usuwać; wywnioskować"
+        },
+        "partOfSpeech": "Verb",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "In medical contexts, tissue may be entnommen; use dative for the source.",
+          "pl": "W medycynie można pobrać tkankę; źródło łączy się z celownikiem."
+        },
+        "examples": [
+          "Die Ärztin entnahm eine kleine Gewebeprobe.",
+          "Aus dem Bericht lässt sich entnehmen, dass die Lage stabil ist."
+        ]
+      },
+      {
+        "id": 24,
+        "word": "lokal begrenzt",
+        "translation": {
+          "en": "locally confined",
+          "pl": "ograniczony miejscowo"
+        },
+        "partOfSpeech": "Expression",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Common in medical descriptions of a disease or tumour.",
+          "pl": "Częste w medycznych opisach choroby lub guza."
+        },
+        "examples": [
+          "Die Infektion war lokal begrenzt.",
+          "Der Befund zeigte, dass die Veränderung lokal begrenzt blieb."
+        ]
+      },
+      {
+        "id": 25,
+        "word": "die Publikumsmesse",
+        "translation": {
+          "en": "public trade fair",
+          "pl": "targi otwarte dla publiczności"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Publikumsmessen",
+        "notes": {
+          "en": "An exhibition open to the general public, not only professionals.",
+          "pl": "Wystawa otwarta dla ogółu publiczności, nie tylko profesjonalistów."
+        },
+        "examples": [
+          "Die Publikumsmesse zieht jedes Jahr viele Besucher an.",
+          "Als Publikumsmesse richtet sich die Veranstaltung an Familien."
+        ]
+      },
+      {
+        "id": 26,
+        "word": "der Aussteller",
+        "translation": {
+          "en": "exhibitor",
+          "pl": "wystawca"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Aussteller",
+        "notes": {
+          "en": "A person or organisation presenting products at an exhibition.",
+          "pl": "Osoba lub organizacja prezentująca produkty na targach."
+        },
+        "examples": [
+          "Jeder Aussteller erhielt einen eigenen Stand.",
+          "Die Aussteller präsentierten ihre neuesten Produkte."
+        ]
+      },
+      {
+        "id": 27,
+        "word": "die Neuheit",
+        "translation": {
+          "en": "new product, novelty",
+          "pl": "nowość"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Neuheiten",
+        "notes": {
+          "en": "Often used for newly launched products or games.",
+          "pl": "Często oznacza nowo wprowadzone produkty lub gry."
+        },
+        "examples": [
+          "Der Hersteller stellte mehrere Neuheiten vor.",
+          "Viele Besucher wollten die Neuheiten zuerst ausprobieren."
+        ]
+      },
+      {
+        "id": 28,
+        "word": "auszeichnen",
+        "translation": {
+          "en": "to award, honour",
+          "pl": "wyróżniać, nagradzać"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Separable verb; jemanden mit einem Preis auszeichnen.",
+          "pl": "Czasownik rozdzielnie złożony; jemanden mit einem Preis auszeichnen."
+        },
+        "examples": [
+          "Die Jury zeichnete den Film mit einem Preis aus.",
+          "Das Projekt wurde für seine Innovation ausgezeichnet."
+        ]
+      },
+      {
+        "id": 29,
+        "word": "der Artenschutzaspekt",
+        "translation": {
+          "en": "species-conservation aspect",
+          "pl": "aspekt ochrony gatunków"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Artenschutzaspekte",
+        "notes": {
+          "en": "Used when evaluating something in terms of protecting species.",
+          "pl": "Używane przy ocenie czegoś z punktu widzenia ochrony gatunków."
+        },
+        "examples": [
+          "Der Zoo berücksichtigt wichtige Artenschutzaspekte.",
+          "Bei der Planung spielten Artenschutzaspekte eine zentrale Rolle."
+        ]
+      }
     ]
   },
   "speaking": {
