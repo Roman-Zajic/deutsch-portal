@@ -12490,7 +12490,7 @@
     }
   }
 },
- {
+{
   "lesson": {
     "id": "2026-10-23",
     "date": "23.10.2026",
@@ -12533,739 +12533,724 @@
     {
       "de": "Ich **habe** gestern lange **gearbeitet**.",
       "en": "I worked for a long time yesterday.",
-      "pl": "Wczoraj długo pracowałem."
-    },
-    {
-      "de": "Wir **haben** am Samstag unsere Freunde **besucht**.",
-      "en": "We visited our friends on Saturday.",
-      "pl": "W sobotę odwiedziliśmy naszych przyjaciół."
-    },
-    {
-      "de": "Sie **ist** erst um zehn Uhr **aufgestanden**.",
-      "en": "She got up only at ten o'clock.",
-      "pl": "Wstała dopiero o dziesiątej."
-    },
-    {
-      "de": "Er **hat** seinen Schlüssel zu Hause **vergessen**.",
-      "en": "He forgot his key at home.",
-      "pl": "Zapomniał klucza w domu."
+      "pl": "Wczoraj długo pracowałem.",
+      "level": "A1"
     },
     {
       "de": "Ich **war** gestern ziemlich müde.",
       "en": "I was quite tired yesterday.",
-      "pl": "Wczoraj byłem dość zmęczony."
+      "pl": "Wczoraj byłem dość zmęczony.",
+      "level": "A1"
     },
     {
-      "de": "Wir **hatten** leider keine Zeit.",
-      "en": "Unfortunately, we didn't have any time.",
-      "pl": "Niestety nie mieliśmy czasu."
+      "de": "Wir **haben** am Samstag unsere Freunde **besucht**.",
+      "en": "We visited our friends on Saturday.",
+      "pl": "W sobotę odwiedziliśmy naszych przyjaciół.",
+      "level": "A2"
     },
     {
-      "de": "Sie **musste** länger im Büro bleiben.",
-      "en": "She had to stay at the office longer.",
-      "pl": "Musiała zostać dłużej w biurze."
+      "de": "Wir **hatten** gestern leider keine Zeit.",
+      "en": "Unfortunately, we didn't have any time yesterday.",
+      "pl": "Niestety nie mieliśmy wczoraj czasu.",
+      "level": "A2"
     },
     {
-      "de": "Ich **konnte** dich gestern nicht erreichen.",
-      "en": "I couldn't reach you yesterday.",
-      "pl": "Wczoraj nie mogłem się z tobą skontaktować."
+      "de": "Sie **ist** erst um zehn Uhr **aufgestanden**.",
+      "en": "She got up only at ten o'clock.",
+      "pl": "Wstała dopiero o dziesiątej.",
+      "level": "A2"
     },
     {
-      "de": "Wir **wollten** eigentlich früher losfahren.",
-      "en": "We actually wanted to leave earlier.",
-      "pl": "Właściwie chcieliśmy wyjechać wcześniej."
+      "de": "Sie **musste** gestern länger im Büro bleiben.",
+      "en": "She had to stay at the office longer yesterday.",
+      "pl": "Musiała wczoraj zostać dłużej w biurze.",
+      "level": "B1"
+    },
+    {
+      "de": "Ich **konnte** dich gestern leider nicht erreichen.",
+      "en": "Unfortunately, I couldn't reach you yesterday.",
+      "pl": "Niestety nie mogłem się wczoraj z tobą skontaktować.",
+      "level": "B1"
     },
     {
       "de": "Er **hat** mir die ganze Geschichte **erzählt**.",
       "en": "He told me the whole story.",
-      "pl": "Opowiedział mi całą historię."
+      "pl": "Opowiedział mi całą historię.",
+      "level": "B1"
     },
     {
       "de": "Obwohl ich müde **war**, **habe** ich noch das Abendessen **gekocht**.",
       "en": "Although I was tired, I still cooked dinner.",
-      "pl": "Chociaż byłem zmęczony, przygotowałem jeszcze kolację."
+      "pl": "Chociaż byłem zmęczony, przygotowałem jeszcze kolację.",
+      "level": "B1"
     },
     {
       "de": "Wir **sind** zu spät **gekommen**, weil der Zug Verspätung **hatte**.",
       "en": "We arrived late because the train was delayed.",
-      "pl": "Przyjechaliśmy za późno, ponieważ pociąg był opóźniony."
+      "pl": "Przyjechaliśmy za późno, ponieważ pociąg był opóźniony.",
+      "level": "B1"
     },
     {
-      "de": "Ich **musste** einen Termin verschieben, weil ich krank **war**.",
-      "en": "I had to reschedule an appointment because I was ill.",
-      "pl": "Musiałem przełożyć spotkanie, ponieważ byłem chory."
+      "de": "Sie **hat** den Bericht rechtzeitig **eingereicht**, obwohl sie kaum Zeit **hatte**.",
+      "en": "She submitted the report on time although she had hardly any time.",
+      "pl": "Złożyła raport na czas, chociaż miała bardzo mało czasu.",
+      "level": "B2"
     },
     {
-      "de": "Sie **hat** den Bericht **geschrieben**, obwohl sie kaum Zeit **hatte**.",
-      "en": "She wrote the report although she had hardly any time.",
-      "pl": "Napisała raport, chociaż miała bardzo mało czasu."
+      "de": "Ich **musste** einen wichtigen Termin verschieben, weil ich plötzlich krank **war**.",
+      "en": "I had to reschedule an important appointment because I was suddenly ill.",
+      "pl": "Musiałem przełożyć ważne spotkanie, ponieważ nagle zachorowałem.",
+      "level": "B2"
     },
     {
       "de": "Als wir im Hotel **ankamen**, **war** die Rezeption bereits geschlossen.",
       "en": "When we arrived at the hotel, reception was already closed.",
-      "pl": "Kiedy dotarliśmy do hotelu, recepcja była już zamknięta."
+      "pl": "Kiedy dotarliśmy do hotelu, recepcja była już zamknięta.",
+      "level": "B2"
     },
     {
-      "de": "Er **wollte** uns helfen, aber er **hatte** selbst ein dringendes Problem.",
-      "en": "He wanted to help us, but he had an urgent problem of his own.",
-      "pl": "Chciał nam pomóc, ale sam miał pilny problem."
+      "de": "Er **wollte** uns bei dem Projekt helfen, aber er **hatte** selbst ein dringendes Problem.",
+      "en": "He wanted to help us with the project, but he had an urgent problem of his own.",
+      "pl": "Chciał nam pomóc przy projekcie, ale sam miał pilny problem.",
+      "level": "B2"
     },
     {
-      "de": "Ich **habe** den Kunden **angerufen**, nachdem ich alle Unterlagen **geprüft hatte**.",
-      "en": "I called the client after I had checked all the documents.",
-      "pl": "Zadzwoniłem do klienta po sprawdzeniu wszystkich dokumentów."
+      "de": "Sie **hat** den Anschlusszug **verpasst**, obwohl sie früh genug am Bahnhof **war**.",
+      "en": "She missed the connecting train even though she was at the station early enough.",
+      "pl": "Spóźniła się na pociąg przesiadkowy, chociaż była na dworcu odpowiednio wcześnie.",
+      "level": "B2"
     },
     {
-      "de": "Wir **konnten** nicht teilnehmen, weil die Besprechung länger **dauerte** als geplant.",
-      "en": "We couldn't participate because the meeting lasted longer than planned.",
-      "pl": "Nie mogliśmy uczestniczyć, ponieważ spotkanie trwało dłużej, niż planowano."
+      "de": "Wir **konnten** an der Konferenz nicht teilnehmen, da die interne Budgetfreigabe noch ausstehend **war**.",
+      "en": "We couldn't attend the conference because internal budget approval was still pending.",
+      "pl": "Nie mogliśmy wziąć udziału w konferencji, ponieważ wewnętrzne zatwierdzenie budżetu było jeszcze w toku.",
+      "level": "C1"
     },
     {
-      "de": "Sie **hat** den Zug **verpasst**, obwohl sie früh genug am Bahnhof **war**.",
-      "en": "She missed the train even though she was at the station early enough.",
-      "pl": "Spóźniła się na pociąg, chociaż była na dworcu odpowiednio wcześnie."
+      "de": "Ich **habe** den Kunden erst dann **kontaktiert**, als ich alle relevanten Unterlagen sorgfältig **geprüft hatte**.",
+      "en": "I contacted the client only after I had carefully checked all the relevant documents.",
+      "pl": "Skontaktowałem się z klientem dopiero po dokładnym sprawdzeniu wszystkich istotnych dokumentów.",
+      "level": "C1"
     },
     {
-      "de": "Nachdem wir die Entscheidung **besprochen hatten**, **haben** wir dem Team die Ergebnisse **mitgeteilt**.",
-      "en": "After we had discussed the decision, we informed the team of the results.",
-      "pl": "Po omówieniu decyzji przekazaliśmy zespołowi wyniki."
+      "de": "Das Management **hatte** ernste Bedenken, aber wir **haben** die Umstellung dennoch erfolgreich **durchgeführt**.",
+      "en": "The management had serious concerns, but we nevertheless carried out the transition successfully.",
+      "pl": "Kierownictwo miało poważne obawy, ale mimo to pomyślnie przeprowadziliśmy transformację.",
+      "level": "C1"
+    },
+    {
+      "de": "Trotz des immensen Zeitdrucks **wollte** die Projektleitung keine voreiligen Schlüsse ziehen, weshalb sie zusätzliche Gutachten **angefordert hat**.",
+      "en": "Despite immense time pressure, the project leadership did not want to jump to conclusions, which is why it requested additional expert opinions.",
+      "pl": "Mimo ogromnej presji czasu kierownictwo projektu nie chciało wyciągać pochopnych wniosków, dlatego zażądało dodatkowych ekspertyz.",
+      "level": "C2"
+    },
+    {
+      "de": "Da die rechtlichen Rahmenbedingungen vollkommen unklar **waren**, **musste** der Vorstand abwarten, bevor er das Übernahmeangebot öffentlich **bekanntgegeben hat**.",
+      "en": "As the legal framework was entirely unclear, the board had to wait before publicly announcing the takeover bid.",
+      "pl": "Ponieważ ramy prawne były całkowicie niejasne, zarząd musiał poczekać przed publicznym ogłoszeniem oferty przejęcia.",
+      "level": "C2"
     }
   ],
   "exercises": [
     {
       "en": "I worked yesterday.",
       "pl": "Wczoraj pracowałem.",
-      "de": "Ich habe gestern gearbeitet."
+      "de": "Ich habe gestern gearbeitet.",
+      "level": "A2"
     },
     {
       "en": "She was tired.",
       "pl": "Ona była zmęczona.",
-      "de": "Sie war müde."
+      "de": "Sie war müde.",
+      "level": "A2"
     },
     {
       "en": "We had time.",
       "pl": "Mieliśmy czas.",
-      "de": "Wir hatten Zeit."
+      "de": "Wir hatten Zeit.",
+      "level": "A2"
     },
     {
       "en": "He bought a new phone.",
       "pl": "Kupił nowy telefon.",
-      "de": "Er hat ein neues Handy gekauft."
+      "de": "Er hat ein neues Handy gekauft.",
+      "level": "A2"
     },
     {
       "en": "I had to leave early.",
       "pl": "Musiałem wyjść wcześnie.",
-      "de": "Ich musste früh gehen."
+      "de": "Ich musste früh gehen.",
+      "level": "A2"
     },
     {
       "en": "They arrived late.",
       "pl": "Przyjechali późno.",
-      "de": "Sie sind spät angekommen."
+      "de": "Sie sind spät angekommen.",
+      "level": "A2"
     },
     {
       "en": "She couldn't come.",
       "pl": "Nie mogła przyjść.",
-      "de": "Sie konnte nicht kommen."
+      "de": "Sie konnte nicht kommen.",
+      "level": "A2"
     },
     {
       "en": "We watched a film.",
       "pl": "Obejrzeliśmy film.",
-      "de": "Wir haben einen Film gesehen."
+      "de": "Wir haben einen Film gesehen.",
+      "level": "A2"
     },
     {
       "en": "He wanted to help.",
       "pl": "Chciał pomóc.",
-      "de": "Er wollte helfen."
+      "de": "Er wollte helfen.",
+      "level": "A2"
     },
     {
       "en": "I was at home.",
       "pl": "Byłem w domu.",
-      "de": "Ich war zu Hause."
+      "de": "Ich war zu Hause.",
+      "level": "A2"
     },
     {
       "en": "Yesterday I called my brother.",
       "pl": "Wczoraj zadzwoniłem do brata.",
-      "de": "Gestern habe ich meinen Bruder angerufen."
+      "de": "Gestern habe ich meinen Bruder angerufen.",
+      "level": "B1"
     },
     {
       "en": "We didn't have enough money.",
       "pl": "Nie mieliśmy wystarczająco dużo pieniędzy.",
-      "de": "Wir hatten nicht genug Geld."
+      "de": "Wir hatten nicht genug Geld.",
+      "level": "B1"
     },
     {
       "en": "He had to work on Sunday.",
       "pl": "Musiał pracować w niedzielę.",
-      "de": "Er musste am Sonntag arbeiten."
+      "de": "Er musste am Sonntag arbeiten.",
+      "level": "B1"
     },
     {
       "en": "She has already eaten.",
       "pl": "Ona już zjadła.",
-      "de": "Sie hat schon gegessen."
+      "de": "Sie hat schon gegessen.",
+      "level": "B1"
     },
     {
       "en": "I couldn't sleep last night.",
       "pl": "Nie mogłem spać zeszłej nocy.",
-      "de": "Ich konnte letzte Nacht nicht schlafen."
+      "de": "Ich konnte letzte Nacht nicht schlafen.",
+      "level": "B1"
     },
     {
       "en": "They stayed at a hotel.",
       "pl": "Zatrzymali się w hotelu.",
-      "de": "Sie haben in einem Hotel übernachtet."
+      "de": "Sie haben in einem Hotel übernachtet.",
+      "level": "B1"
     },
     {
       "en": "We were very busy.",
       "pl": "Byliśmy bardzo zajęci.",
-      "de": "Wir waren sehr beschäftigt."
+      "de": "Wir waren sehr beschäftigt.",
+      "level": "B1"
     },
     {
       "en": "He forgot his appointment.",
       "pl": "Zapomniał o swoim spotkaniu.",
-      "de": "Er hat seinen Termin vergessen."
+      "de": "Er hat seinen Termin vergessen.",
+      "level": "B1"
     },
     {
       "en": "I wanted to ask you something.",
       "pl": "Chciałem cię o coś zapytać.",
-      "de": "Ich wollte dich etwas fragen."
+      "de": "Ich wollte dich etwas fragen.",
+      "level": "B1"
     },
     {
       "en": "She came home at midnight.",
       "pl": "Wróciła do domu o północy.",
-      "de": "Sie ist um Mitternacht nach Hause gekommen."
+      "de": "Sie ist um Mitternacht nach Hause gekommen.",
+      "level": "B1"
     },
     {
       "en": "We had a difficult conversation yesterday.",
       "pl": "Wczoraj odbyliśmy trudną rozmowę.",
-      "de": "Wir haben gestern ein schwieriges Gespräch geführt."
+      "de": "Wir haben gestern ein schwieriges Gespräch geführt.",
+      "level": "B1"
     },
     {
       "en": "He was ill, so he stayed at home.",
       "pl": "Był chory, więc został w domu.",
-      "de": "Er war krank, deshalb ist er zu Hause geblieben."
+      "de": "Er war krank, deshalb ist er zu Hause geblieben.",
+      "level": "B1"
     },
     {
       "en": "I had to cancel the meeting.",
       "pl": "Musiałem odwołać spotkanie.",
-      "de": "Ich musste das Meeting absagen."
+      "de": "Ich musste das Meeting absagen.",
+      "level": "B1"
     },
     {
       "en": "She has already sent the email.",
       "pl": "Ona już wysłała e-mail.",
-      "de": "Sie hat die E-Mail schon geschickt."
+      "de": "Sie hat die E-Mail schon geschickt.",
+      "level": "B1"
     },
     {
       "en": "They couldn't find the address.",
       "pl": "Nie mogli znaleźć adresu.",
-      "de": "Sie konnten die Adresse nicht finden."
+      "de": "Sie konnten die Adresse nicht finden.",
+      "level": "B1"
     },
     {
       "en": "We wanted to take the earlier train.",
       "pl": "Chcieliśmy pojechać wcześniejszym pociągiem.",
-      "de": "Wir wollten den früheren Zug nehmen."
+      "de": "Wir wollten den früheren Zug nehmen.",
+      "level": "B1"
     },
     {
       "en": "I met an old colleague in town.",
       "pl": "Spotkałem w mieście dawnego kolegę z pracy.",
-      "de": "Ich habe in der Stadt einen ehemaligen Kollegen getroffen."
+      "de": "Ich habe in der Stadt einen ehemaligen Kollegen getroffen.",
+      "level": "B1"
     },
     {
       "en": "He had no idea what happened.",
       "pl": "Nie miał pojęcia, co się wydarzyło.",
-      "de": "Er hatte keine Ahnung, was passiert ist."
+      "de": "Er hatte keine Ahnung, was passiert ist.",
+      "level": "B1"
     },
     {
       "en": "She had to wait for an hour.",
       "pl": "Musiałа czekać godzinę.",
-      "de": "Sie musste eine Stunde warten."
+      "de": "Sie musste eine Stunde warten.",
+      "level": "B1"
     },
     {
       "en": "We arrived before the restaurant closed.",
       "pl": "Przyjechaliśmy, zanim restauracja została zamknięta.",
-      "de": "Wir sind angekommen, bevor das Restaurant geschlossen hat."
+      "de": "Wir sind angekommen, bevor das Restaurant geschlossen hat.",
+      "level": "B1"
     },
     {
       "en": "I was nervous before the interview.",
       "pl": "Byłem zdenerwowany przed rozmową kwalifikacyjną.",
-      "de": "Ich war vor dem Vorstellungsgespräch nervös."
+      "de": "Ich war vor dem Vorstellungsgespräch nervös.",
+      "level": "B2"
     },
     {
       "en": "He didn't want to discuss the problem.",
       "pl": "Nie chciał omawiać problemu.",
-      "de": "Er wollte das Problem nicht besprechen."
+      "de": "Er wollte das Problem nicht besprechen.",
+      "level": "B2"
     },
     {
       "en": "They bought tickets online.",
       "pl": "Kupili bilety przez internet.",
-      "de": "Sie haben die Tickets online gekauft."
+      "de": "Sie haben die Tickets online gekauft.",
+      "level": "B2"
     },
     {
       "en": "I couldn't answer because I was driving.",
       "pl": "Nie mogłem odpowiedzieć, ponieważ prowadziłem samochód.",
-      "de": "Ich konnte nicht antworten, weil ich Auto gefahren bin."
+      "de": "Ich konnte nicht antworten, weil ich Auto gefahren bin.",
+      "level": "B2"
     },
     {
       "en": "We had lunch together after the meeting.",
       "pl": "Zjedliśmy razem lunch po spotkaniu.",
-      "de": "Wir haben nach dem Meeting zusammen zu Mittag gegessen."
+      "de": "Wir haben nach dem Meeting zusammen zu Mittag gegessen.",
+      "level": "B2"
     },
     {
       "en": "She was disappointed with the result.",
       "pl": "Była rozczarowana wynikiem.",
-      "de": "Sie war vom Ergebnis enttäuscht."
+      "de": "Sie war vom Ergebnis enttäuscht.",
+      "level": "B2"
     },
     {
       "en": "He has lost his wallet.",
       "pl": "Zgubił portfel.",
-      "de": "Er hat seine Geldbörse verloren."
+      "de": "Er hat seine Geldbörse verloren.",
+      "level": "B2"
     },
     {
       "en": "I had to explain the situation again.",
       "pl": "Musiałem ponownie wyjaśnić sytuację.",
-      "de": "Ich musste die Situation noch einmal erklären."
+      "de": "Ich musste die Situation noch einmal erklären.",
+      "level": "B2"
     },
     {
       "en": "They stayed longer than they had planned.",
       "pl": "Zostali dłużej, niż planowali.",
-      "de": "Sie sind länger geblieben, als sie geplant hatten."
+      "de": "Sie sind länger geblieben, als sie geplant hatten.",
+      "level": "B2"
     },
     {
       "en": "We couldn't open the door.",
       "pl": "Nie mogliśmy otworzyć drzwi.",
-      "de": "Wir konnten die Tür nicht öffnen."
+      "de": "Wir konnten die Tür nicht öffnen.",
+      "level": "B2"
     },
     {
       "en": "When I arrived, my manager was already there.",
       "pl": "Kiedy przyjechałem, mój przełożony już tam był.",
-      "de": "Als ich ankam, war mein Vorgesetzter schon da."
+      "de": "Als ich ankam, war mein Vorgesetzter schon da.",
+      "level": "B2"
     },
     {
       "en": "Although it was raining, we went for a walk.",
       "pl": "Chociaż padał deszcz, poszliśmy na spacer.",
-      "de": "Obwohl es regnete, sind wir spazieren gegangen."
+      "de": "Obwohl es regnete, sind wir spazieren gegangen.",
+      "level": "B2"
     },
     {
       "en": "I wanted to book a table, but the restaurant was full.",
       "pl": "Chciałem zarezerwować stolik, ale restauracja była pełna.",
-      "de": "Ich wollte einen Tisch reservieren, aber das Restaurant war voll."
+      "de": "Ich wollte einen Tisch reservieren, aber das Restaurant war voll.",
+      "level": "B2"
     },
     {
       "en": "She has changed her mind about the offer.",
       "pl": "Zmieniła zdanie na temat oferty.",
-      "de": "Sie hat ihre Meinung über das Angebot geändert."
+      "de": "Sie hat ihre Meinung über das Angebot geändert.",
+      "level": "B2"
     },
     {
       "en": "We had to wait because the train was delayed.",
       "pl": "Musieliśmy czekać, ponieważ pociąg był opóźniony.",
-      "de": "Wir mussten warten, weil der Zug Verspätung hatte."
+      "de": "Wir mussten warten, weil der Zug Verspätung hatte.",
+      "level": "B2"
     },
     {
       "en": "He didn't know that the office was closed.",
       "pl": "Nie wiedział, że biuro było zamknięte.",
-      "de": "Er wusste nicht, dass das Büro geschlossen war."
+      "de": "Er wusste nicht, dass das Büro geschlossen war.",
+      "level": "B2"
     },
     {
       "en": "I have never tried that restaurant.",
       "pl": "Nigdy nie próbowałem jedzenia w tej restauracji.",
-      "de": "Ich habe dieses Restaurant noch nie ausprobiert."
+      "de": "Ich habe dieses Restaurant noch nie ausprobiert.",
+      "level": "B2"
     },
     {
       "en": "They wanted to leave, but they couldn't find a taxi.",
       "pl": "Chcieli wyjść, ale nie mogli znaleźć taksówki.",
-      "de": "Sie wollten gehen, aber sie konnten kein Taxi finden."
+      "de": "Sie wollten gehen, aber sie konnten kein Taxi finden.",
+      "level": "B2"
     },
     {
       "en": "We were exhausted after the long journey.",
       "pl": "Byliśmy wyczerpani po długiej podróży.",
-      "de": "Wir waren nach der langen Reise erschöpft."
+      "de": "Wir waren nach der langen Reise erschöpft.",
+      "level": "B2"
     },
     {
       "en": "She explained why she had missed the appointment.",
       "pl": "Wyjaśniła, dlaczego opuściła spotkanie.",
-      "de": "Sie hat erklärt, warum sie den Termin verpasst hatte."
+      "de": "Sie hat erklärt, warum sie den Termin verpasst hatte.",
+      "level": "B2"
     },
     {
       "en": "When the meeting ended, everyone went home.",
       "pl": "Kiedy spotkanie się skończyło, wszyscy poszli do domu.",
-      "de": "Als das Meeting endete, sind alle nach Hause gegangen."
+      "de": "Als das Meeting endete, sind alle nach Hause gegangen.",
+      "level": "B2"
     },
     {
       "en": "I was about to leave when my colleague called.",
       "pl": "Właśnie miałem wychodzić, kiedy zadzwonił mój kolega z pracy.",
-      "de": "Ich wollte gerade gehen, als mein Kollege anrief."
+      "de": "Ich wollte gerade gehen, als mein Kollege anrief.",
+      "level": "B2"
     },
     {
       "en": "He couldn't attend because he had an urgent deadline.",
       "pl": "Nie mógł uczestniczyć, ponieważ miał pilny termin.",
-      "de": "Er konnte nicht teilnehmen, weil er eine dringende Frist hatte."
+      "de": "Er konnte nicht teilnehmen, weil er eine dringende Frist hatte.",
+      "level": "B2"
     },
     {
       "en": "We have discussed the issue several times.",
       "pl": "Omawialiśmy tę kwestię kilka razy.",
-      "de": "Wir haben das Thema mehrmals besprochen."
+      "de": "Wir haben das Thema mehrmals besprochen.",
+      "level": "B2"
     },
     {
       "en": "She was surprised that nobody had informed her.",
       "pl": "Była zaskoczona, że nikt jej nie poinformował.",
-      "de": "Sie war überrascht, dass sie niemand informiert hatte."
+      "de": "Sie war überrascht, dass sie niemand informiert hatte.",
+      "level": "B2"
     },
     {
       "en": "I had to check the figures before I sent the report.",
       "pl": "Musiałem sprawdzić dane, zanim wysłałem raport.",
-      "de": "Ich musste die Zahlen prüfen, bevor ich den Bericht geschickt habe."
+      "de": "Ich musste die Zahlen prüfen, bevor ich den Bericht geschickt habe.",
+      "level": "B2"
     },
     {
       "en": "They arrived late because they had taken the wrong exit.",
       "pl": "Przyjechali późno, ponieważ zjechali niewłaściwym zjazdem.",
-      "de": "Sie sind spät angekommen, weil sie die falsche Ausfahrt genommen hatten."
+      "de": "Sie sind spät angekommen, weil sie die falsche Ausfahrt genommen hatten.",
+      "level": "B2"
     },
     {
       "en": "Although he wanted to help, he didn't have enough information.",
       "pl": "Chociaż chciał pomóc, nie miał wystarczających informacji.",
-      "de": "Obwohl er helfen wollte, hatte er nicht genug Informationen."
+      "de": "Obwohl er helfen wollte, hatte er nicht genug Informationen.",
+      "level": "B2"
     },
     {
       "en": "I was relieved when I finally received the confirmation.",
       "pl": "Odetchnąłem z ulgą, kiedy w końcu otrzymałem potwierdzenie.",
-      "de": "Ich war erleichtert, als ich endlich die Bestätigung erhalten habe."
+      "de": "Ich war erleichtert, als ich endlich die Bestätigung erhalten habe.",
+      "level": "B2"
     },
     {
       "en": "She couldn't remember where she had parked the car.",
       "pl": "Nie pamiętała, gdzie zaparkowała samochód.",
-      "de": "Sie konnte sich nicht erinnern, wo sie das Auto geparkt hatte."
+      "de": "Sie konnte sich nicht erinnern, wo sie das Auto geparkt hatte.",
+      "level": "B2"
     },
     {
       "en": "We wanted to discuss the budget, but the director had to leave.",
       "pl": "Chcieliśmy omówić budżet, ale dyrektor musiał wyjść.",
-      "de": "Wir wollten das Budget besprechen, aber der Direktor musste gehen."
+      "de": "Wir wollten das Budget besprechen, aber der Direktor musste gehen.",
+      "level": "B2"
     },
     {
       "en": "He has already told us how the accident happened.",
       "pl": "Już nam powiedział, jak doszło do wypadku.",
-      "de": "Er hat uns schon erzählt, wie der Unfall passiert ist."
+      "de": "Er hat uns schon erzählt, wie der Unfall passiert ist.",
+      "level": "B2"
     },
     {
       "en": "I didn't understand the instructions because they were unclear.",
       "pl": "Nie zrozumiałem instrukcji, ponieważ były niejasne.",
-      "de": "Ich habe die Anweisungen nicht verstanden, weil sie unklar waren."
+      "de": "Ich habe die Anweisungen nicht verstanden, weil sie unklar waren.",
+      "level": "B2"
     },
     {
       "en": "After we had finished dinner, we went for a short walk.",
       "pl": "Kiedy skończyliśmy kolację, poszliśmy na krótki spacer.",
-      "de": "Nachdem wir zu Abend gegessen hatten, sind wir kurz spazieren gegangen."
+      "de": "Nachdem wir zu Abend gegessen hatten, sind wir kurz spazieren gegangen.",
+      "level": "B2"
     },
     {
       "en": "She was unable to join us because she had an important call.",
       "pl": "Nie mogła do nas dołączyć, ponieważ miała ważną rozmowę telefoniczną.",
-      "de": "Sie konnte nicht zu uns kommen, weil sie ein wichtiges Telefonat hatte."
+      "de": "Sie konnte nicht zu uns kommen, weil sie ein wichtiges Telefonat hatte.",
+      "level": "B2"
     },
     {
       "en": "We had expected the process to take less time.",
       "pl": "Spodziewaliśmy się, że proces zajmie mniej czasu.",
-      "de": "Wir hatten erwartet, dass der Prozess weniger Zeit in Anspruch nehmen würde."
+      "de": "Wir hatten erwartet, dass der Prozess weniger Zeit in Anspruch nehmen würde.",
+      "level": "B2"
     },
     {
       "en": "He had to apologise because he had misunderstood the request.",
       "pl": "Musiał przeprosić, ponieważ źle zrozumiał prośbę.",
-      "de": "Er musste sich entschuldigen, weil er die Anfrage missverstanden hatte."
+      "de": "Er musste sich entschuldigen, weil er die Anfrage missverstanden hatte.",
+      "level": "B2"
     },
     {
       "en": "When I checked the figures, I noticed that one entry was missing.",
       "pl": "Kiedy sprawdziłem dane, zauważyłem, że brakowało jednego wpisu.",
-      "de": "Als ich die Zahlen überprüfte, bemerkte ich, dass ein Eintrag fehlte."
+      "de": "Als ich die Zahlen überprüfte, bemerkte ich, dass ein Eintrag fehlte.",
+      "level": "B2"
     },
     {
       "en": "Although the team was tired, it completed the task on time.",
       "pl": "Chociaż zespół był zmęczony, ukończył zadanie na czas.",
-      "de": "Obwohl das Team müde war, hat es die Aufgabe rechtzeitig erledigt."
+      "de": "Obwohl das Team müde war, hat es die Aufgabe rechtzeitig erledigt.",
+      "level": "B2"
     },
     {
       "en": "I couldn't make a decision because I hadn't received all the documents.",
       "pl": "Nie mogłem podjąć decyzji, ponieważ nie otrzymałem wszystkich dokumentów.",
-      "de": "Ich konnte keine Entscheidung treffen, weil ich noch nicht alle Unterlagen erhalten hatte."
+      "de": "Ich konnte keine Entscheidung treffen, weil ich noch nicht alle Unterlagen erhalten hatte.",
+      "level": "B2"
     },
     {
       "en": "She said that she was busy and couldn't attend the workshop.",
       "pl": "Powiedziała, że jest zajęta i nie może uczestniczyć w warsztatach.",
-      "de": "Sie sagte, dass sie beschäftigt war und nicht am Workshop teilnehmen konnte."
+      "de": "Sie sagte, dass sie beschäftigt war und nicht am Workshop teilnehmen konnte.",
+      "level": "C1"
     },
     {
       "en": "We had planned to leave early, but the weather changed.",
       "pl": "Planowaliśmy wyjechać wcześnie, ale pogoda się zmieniła.",
-      "de": "Wir hatten geplant, früh loszufahren, aber das Wetter hat sich geändert."
+      "de": "Wir hatten geplant, früh loszufahren, aber das Wetter hat sich geändert.",
+      "level": "C1"
     },
     {
       "en": "He didn't realise how serious the problem was until he read the report.",
       "pl": "Nie zdawał sobie sprawy z powagi problemu, dopóki nie przeczytał raportu.",
-      "de": "Er erkannte erst, wie ernst das Problem war, als er den Bericht las."
+      "de": "Er erkannte erst, wie ernst das Problem war, als er den Bericht las.",
+      "level": "C1"
     },
     {
       "en": "I was disappointed because the company had promised a different result.",
       "pl": "Byłem rozczarowany, ponieważ firma obiecała inny rezultat.",
-      "de": "Ich war enttäuscht, weil das Unternehmen ein anderes Ergebnis versprochen hatte."
+      "de": "Ich war enttäuscht, weil das Unternehmen ein anderes Ergebnis versprochen hatte.",
+      "level": "C1"
     },
     {
       "en": "After the client had approved the proposal, we started the next phase.",
       "pl": "Po zatwierdzeniu propozycji przez klienta rozpoczęliśmy kolejny etap.",
-      "de": "Nachdem der Kunde den Vorschlag genehmigt hatte, haben wir die nächste Phase begonnen."
+      "de": "Nachdem der Kunde den Vorschlag genehmigt hatte, haben wir die nächste Phase begonnen.",
+      "level": "C1"
     },
     {
       "en": "She had to explain why the delivery had been delayed.",
       "pl": "Musiałа wyjaśnić, dlaczego dostawa się opóźniła.",
-      "de": "Sie musste erklären, warum sich die Lieferung verzögert hatte."
+      "de": "Sie musste erklären, warum sich die Lieferung verzögert hatte.",
+      "level": "C1"
     },
     {
       "en": "We were surprised that the negotiations had ended so quickly.",
       "pl": "Byliśmy zaskoczeni, że negocjacje zakończyły się tak szybko.",
-      "de": "Wir waren überrascht, dass die Verhandlungen so schnell geendet hatten."
+      "de": "Wir waren überrascht, dass die Verhandlungen so schnell geendet hatten.",
+      "level": "C1"
     },
     {
       "en": "He wanted to accept the offer, but he needed more time to consider it.",
       "pl": "Chciał przyjąć ofertę, ale potrzebował więcej czasu do namysłu.",
-      "de": "Er wollte das Angebot annehmen, aber er brauchte mehr Zeit, um darüber nachzudenken."
+      "de": "Er wollte das Angebot annehmen, aber er brauchte mehr Zeit, um darüber nachzudenken.",
+      "level": "C1"
     },
     {
       "en": "I had already left the building when I realised that I had forgotten my laptop.",
       "pl": "Już opuściłem budynek, kiedy zdałem sobie sprawę, że zapomniałem laptopa.",
-      "de": "Ich hatte das Gebäude bereits verlassen, als ich bemerkte, dass ich meinen Laptop vergessen hatte."
+      "de": "Ich hatte das Gebäude bereits verlassen, als ich bemerkte, dass ich meinen Laptop vergessen hatte.",
+      "level": "C1"
     },
     {
       "en": "Although the figures looked correct, we checked them again before submitting the report.",
       "pl": "Chociaż dane wyglądały poprawnie, sprawdziliśmy je ponownie przed wysłaniem raportu.",
-      "de": "Obwohl die Zahlen richtig aussahen, haben wir sie vor der Abgabe des Berichts noch einmal geprüft."
+      "de": "Obwohl die Zahlen richtig aussahen, haben wir sie vor der Abgabe des Berichts noch einmal geprüft.",
+      "level": "C1"
     },
     {
       "en": "She explained that she had been unable to respond because she was travelling.",
       "pl": "Wyjaśniła, że nie mogła odpowiedzieć, ponieważ podróżowała.",
-      "de": "Sie erklärte, dass sie nicht antworten konnte, weil sie unterwegs war."
+      "de": "Sie erklärte, dass sie nicht antworten konnte, weil sie unterwegs war.",
+      "level": "C1"
     },
     {
       "en": "We had assumed that everyone knew about the change, but that was not the case.",
       "pl": "Zakładaliśmy, że wszyscy wiedzą o zmianie, ale tak nie było.",
-      "de": "Wir hatten angenommen, dass alle von der Änderung wussten, aber das war nicht der Fall."
+      "de": "Wir hatten angenommen, dass alle von der Änderung wussten, aber das war nicht der Fall.",
+      "level": "C1"
     },
     {
       "en": "When the discussion became difficult, the chairperson suggested taking a short break.",
       "pl": "Kiedy dyskusja stała się trudna, przewodniczący zaproponował krótką przerwę.",
-      "de": "Als die Diskussion schwierig wurde, schlug der Vorsitzende eine kurze Pause vor."
+      "de": "Als die Diskussion schwierig wurde, schlug der Vorsitzende eine kurze Pause vor.",
+      "level": "C1"
     },
     {
       "en": "He had wanted to explain the decision personally, but the meeting was cancelled.",
       "pl": "Chciał osobiście wyjaśnić decyzję, ale spotkanie zostało odwołane.",
-      "de": "Er hatte die Entscheidung persönlich erklären wollen, aber das Meeting wurde abgesagt."
+      "de": "Er hatte die Entscheidung persönlich erklären wollen, aber das Meeting wurde abgesagt.",
+      "level": "C1"
     },
     {
       "en": "I was relieved that we had resolved the issue before the deadline.",
       "pl": "Odetchnąłem z ulgą, że rozwiązaliśmy problem przed terminem.",
-      "de": "Ich war erleichtert, dass wir das Problem vor Ablauf der Frist gelöst hatten."
+      "de": "Ich war erleichtert, dass wir das Problem vor Ablauf der Frist gelöst hatten.",
+      "level": "C1"
     },
     {
       "en": "Although the proposal had been rejected initially, the team eventually found a workable solution.",
       "pl": "Chociaż początkowo odrzucono propozycję, zespół ostatecznie znalazł praktyczne rozwiązanie.",
-      "de": "Obwohl der Vorschlag zunächst abgelehnt worden war, hat das Team schließlich eine praktikable Lösung gefunden."
+      "de": "Obwohl der Vorschlag zunächst abgelehnt worden war, hat das Team schließlich eine praktikable Lösung gefunden.",
+      "level": "C1"
     },
     {
       "en": "She said she had wanted to contact us earlier but had not had our updated details.",
       "pl": "Powiedziała, że chciała skontaktować się z nami wcześniej, ale nie miała naszych aktualnych danych.",
-      "de": "Sie sagte, sie hätte uns früher kontaktieren wollen, hatte aber unsere aktualisierten Kontaktdaten nicht."
+      "de": "Sie sagte, sie hätte uns früher kontaktieren wollen, hatte aber unsere aktualisierten Kontaktdaten nicht.",
+      "level": "C1"
     },
     {
       "en": "We could have finished earlier if the necessary information had arrived on time.",
       "pl": "Moglibyśmy skończyć wcześniej, gdyby niezbędne informacje dotarły na czas.",
-      "de": "Wir hätten früher fertig werden können, wenn die notwendigen Informationen rechtzeitig eingetroffen wären."
+      "de": "Wir hätten früher fertig werden können, wenn die notwendigen Informationen rechtzeitig eingetroffen wären.",
+      "level": "C1"
     },
     {
       "en": "He was concerned that the delay might affect the final result.",
       "pl": "Obawiał się, że opóźnienie może wpłynąć na końcowy wynik.",
-      "de": "Er befürchtete, dass die Verzögerung das Endergebnis beeinflussen könnte."
+      "de": "Er befürchtete, dass die Verzögerung das Endergebnis beeinflussen könnte.",
+      "level": "C1"
     },
     {
       "en": "After we had reviewed the evidence, we understood why the original estimate had been inaccurate.",
       "pl": "Po przeanalizowaniu dowodów zrozumieliśmy, dlaczego pierwotne oszacowanie było niedokładne.",
-      "de": "Nachdem wir die Belege geprüft hatten, verstanden wir, warum die ursprüngliche Schätzung ungenau gewesen war."
+      "de": "Nachdem wir die Belege geprüft hatten, verstanden wir, warum die ursprüngliche Schätzung ungenau gewesen war.",
+      "level": "C1"
     },
     {
       "en": "She had no choice but to postpone the launch because several critical tests were still incomplete.",
       "pl": "Nie miała wyboru i musiała przełożyć uruchomienie, ponieważ kilka kluczowych testów nie było jeszcze zakończonych.",
-      "de": "Sie hatte keine andere Wahl, als den Start zu verschieben, weil mehrere wichtige Tests noch nicht abgeschlossen waren."
-    },
-    {
-      "en": "I initially thought that the email had been sent, but later discovered that it was still in my drafts.",
-      "pl": "Początkowo sądziłem, że e-mail został wysłany, ale później odkryłem, że nadal znajdował się w wersjach roboczych.",
-      "de": "Zunächst dachte ich, dass die E-Mail verschickt worden war, entdeckte später aber, dass sie noch in meinen Entwürfen lag."
+      "de": "Sie hatte keine andere Wahl, als den Start zu verschieben, weil mehrere wichtige Tests noch nicht abgeschlossen waren.",
+      "level": "C2"
     },
     {
       "en": "The manager explained that the team had underestimated the workload and therefore needed additional support.",
       "pl": "Menedżer wyjaśnił, że zespół nie doszacował nakładu pracy i dlatego potrzebował dodatkowego wsparcia.",
-      "de": "Der Manager erklärte, dass das Team den Arbeitsaufwand unterschätzt hatte und deshalb zusätzliche Unterstützung brauchte."
+      "de": "Der Manager erklärte, dass das Team den Arbeitsaufwand unterschätzt hatte und deshalb zusätzliche Unterstützung brauchte.",
+      "level": "C2"
     },
     {
       "en": "Even though we had discussed the risks in advance, the unexpected change created difficulties.",
       "pl": "Mimo że wcześniej omówiliśmy ryzyko, nieoczekiwana zmiana spowodowała trudności.",
-      "de": "Obwohl wir die Risiken im Voraus besprochen hatten, hat die unerwartete Änderung Schwierigkeiten verursacht."
-    },
-    {
-      "en": "He admitted that he had not considered how the decision would affect the other departments.",
-      "pl": "Przyznał, że nie wziął pod uwagę, jak decyzja wpłynie na pozostałe działy.",
-      "de": "Er gab zu, dass er nicht berücksichtigt hatte, wie sich die Entscheidung auf die anderen Abteilungen auswirken würde."
-    },
-    {
-      "en": "We were disappointed because the final version did not reflect the changes that had been agreed upon.",
-      "pl": "Byliśmy rozczarowani, ponieważ wersja końcowa nie uwzględniała uzgodnionych zmian.",
-      "de": "Wir waren enttäuscht, weil die endgültige Version die vereinbarten Änderungen nicht widerspiegelte."
-    },
-    {
-      "en": "Had I known that the deadline was so close, I would have prioritised the task differently.",
-      "pl": "Gdybym wiedział, że termin jest tak bliski, ustaliłbym inne priorytety.",
-      "de": "Hätte ich gewusst, dass die Frist so nahe war, hätte ich die Aufgabe anders priorisiert."
+      "de": "Obwohl wir die Risiken im Voraus besprochen hatten, hat die unerwartete Änderung Schwierigkeiten verursacht.",
+      "level": "C2"
     },
     {
       "en": "Although the negotiations had taken longer than expected, both parties eventually reached an agreement.",
       "pl": "Chociaż negocjacje trwały dłużej, niż oczekiwano, obie strony ostatecznie doszły do porozumienia.",
-      "de": "Obwohl die Verhandlungen länger gedauert hatten als erwartet, haben beide Seiten schließlich eine Einigung erzielt."
-    },
-    {
-      "en": "She explained that she had wanted to raise the issue earlier but had feared that it would be misunderstood.",
-      "pl": "Wyjaśniła, że chciała wcześniej poruszyć tę kwestię, ale obawiała się, że zostanie ona źle zrozumiana.",
-      "de": "Sie erklärte, dass sie das Thema früher hatte ansprechen wollen, aber befürchtet hatte, dass es missverstanden werden würde."
-    },
-    {
-      "en": "The report revealed that the company had not met its targets, despite having invested considerable resources.",
-      "pl": "Raport wykazał, że firma nie osiągnęła celów mimo zainwestowania znacznych zasobów.",
-      "de": "Der Bericht zeigte, dass das Unternehmen seine Ziele trotz erheblicher Investitionen nicht erreicht hatte."
-    },
-    {
-      "en": "I had assumed that the issue was minor, but the subsequent review showed that it required immediate attention.",
-      "pl": "Zakładałem, że problem jest niewielki, ale późniejszy przegląd wykazał, że wymaga natychmiastowej uwagi.",
-      "de": "Ich hatte angenommen, dass das Problem geringfügig war, aber die anschließende Prüfung zeigte, dass es sofortige Aufmerksamkeit erforderte."
+      "de": "Obwohl die Verhandlungen länger gedauert hatten als erwartet, haben beide Seiten schließlich eine Einigung erzielt.",
+      "level": "C2"
     },
     {
       "en": "By the time we received the revised figures, the team had already completed the analysis using the previous version.",
       "pl": "Zanim otrzymaliśmy poprawione dane, zespół zdążył już zakończyć analizę na podstawie poprzedniej wersji.",
-      "de": "Als wir die überarbeiteten Zahlen erhielten, hatte das Team die Analyse auf Grundlage der vorherigen Version bereits abgeschlossen."
-    },
-    {
-      "en": "He insisted that he had followed the agreed procedure, although the documentation suggested otherwise.",
-      "pl": "Upierał się, że postępował zgodnie z uzgodnioną procedurą, chociaż dokumentacja wskazywała na coś innego.",
-      "de": "Er bestand darauf, dass er das vereinbarte Verfahren eingehalten hatte, obwohl die Dokumentation auf etwas anderes hindeutete."
-    },
-    {
-      "en": "The director was dissatisfied because the team had failed to communicate the risks before the decision was made.",
-      "pl": "Dyrektor był niezadowolony, ponieważ zespół nie poinformował o ryzyku przed podjęciem decyzji.",
-      "de": "Der Direktor war unzufrieden, weil das Team es versäumt hatte, vor der Entscheidung über die Risiken zu informieren."
-    },
-    {
-      "en": "If we had identified the discrepancy earlier, we could have avoided the lengthy reconciliation process.",
-      "pl": "Gdybyśmy wcześniej wykryli rozbieżność, moglibyśmy uniknąć długotrwałego procesu uzgadniania.",
-      "de": "Wenn wir die Abweichung früher erkannt hätten, hätten wir den langwierigen Abstimmungsprozess vermeiden können."
+      "de": "Als wir die überarbeiteten Zahlen erhielten, hatte das Team die Analyse auf Grundlage der vorherigen Version bereits abgeschlossen.",
+      "level": "C2"
     },
     {
       "en": "She acknowledged that the original plan had been unrealistic, given the resources that were available at the time.",
       "pl": "Przyznała, że pierwotny plan był nierealistyczny, biorąc pod uwagę dostępne wówczas zasoby.",
-      "de": "Sie räumte ein, dass der ursprüngliche Plan angesichts der damals verfügbaren Ressourcen unrealistisch gewesen war."
+      "de": "Sie räumte ein, dass der ursprüngliche Plan angesichts der damals verfügbaren Ressourcen unrealistisch gewesen war.",
+      "level": "C2"
     },
     {
       "en": "Although the client had initially opposed the proposal, he later accepted it after we had clarified the implications.",
       "pl": "Chociaż klient początkowo sprzeciwiał się propozycji, później ją zaakceptował, gdy wyjaśniliśmy jej konsekwencje.",
-      "de": "Obwohl der Kunde den Vorschlag zunächst abgelehnt hatte, akzeptierte er ihn später, nachdem wir die Auswirkungen erläutert hatten."
-    },
-    {
-      "en": "We would have reached a different conclusion if the missing information had been available during the initial review.",
-      "pl": "Doszlibyśmy do innego wniosku, gdyby brakujące informacje były dostępne podczas wstępnego przeglądu.",
-      "de": "Wir wären zu einem anderen Schluss gekommen, wenn die fehlenden Informationen bei der ersten Prüfung verfügbar gewesen wären."
-    },
-    {
-      "en": "He regretted that he had allowed the discussion to become personal instead of focusing on the underlying issue.",
-      "pl": "Żałował, że pozwolił, aby dyskusja stała się osobista, zamiast skupić się na istocie problemu.",
-      "de": "Er bedauerte, dass er zugelassen hatte, dass die Diskussion persönlich wurde, anstatt sich auf das eigentliche Problem zu konzentrieren."
-    },
-    {
-      "en": "The investigation established that several warning signs had been overlooked before the incident occurred.",
-      "pl": "Dochodzenie ustaliło, że przed incydentem przeoczono kilka sygnałów ostrzegawczych.",
-      "de": "Die Untersuchung stellte fest, dass mehrere Warnsignale übersehen worden waren, bevor sich der Vorfall ereignete."
-    },
-    {
-      "en": "Had the team communicated more openly, the misunderstanding might have been resolved before it affected the project.",
-      "pl": "Gdyby zespół komunikował się bardziej otwarcie, nieporozumienie można by rozwiązać, zanim wpłynęło na projekt.",
-      "de": "Hätte das Team offener kommuniziert, hätte das Missverständnis geklärt werden können, bevor es das Projekt beeinträchtigte."
-    },
-    {
-      "en": "She explained that the decision had not been taken lightly, since the alternatives had all carried significant risks.",
-      "pl": "Wyjaśniła, że decyzja nie została podjęta pochopnie, ponieważ każda z alternatyw wiązała się ze znacznym ryzykiem.",
-      "de": "Sie erklärte, dass die Entscheidung nicht leichtfertig getroffen worden war, da alle Alternativen erhebliche Risiken mit sich gebracht hatten."
-    },
-    {
-      "en": "The team had expected the system to perform reliably, but repeated failures forced them to reconsider their assumptions.",
-      "pl": "Zespół oczekiwał niezawodnego działania systemu, ale powtarzające się awarie zmusiły go do ponownego przemyślenia założeń.",
-      "de": "Das Team hatte erwartet, dass das System zuverlässig funktionieren würde, aber wiederholte Ausfälle zwangen es, seine Annahmen zu überdenken."
+      "de": "Obwohl der Kunde den Vorschlag zunächst abgelehnt hatte, akzeptierte er ihn später, nachdem wir die Auswirkungen erläutert hatten.",
+      "level": "C2"
     },
     {
       "en": "Although the proposal had been carefully prepared, it was rejected because its financial implications had not been sufficiently explained.",
       "pl": "Chociaż propozycja została starannie przygotowana, odrzucono ją, ponieważ nie wyjaśniono wystarczająco jej konsekwencji finansowych.",
-      "de": "Obwohl der Vorschlag sorgfältig vorbereitet worden war, wurde er abgelehnt, weil seine finanziellen Auswirkungen nicht ausreichend erklärt worden waren."
-    },
-    {
-      "en": "Looking back, I realised that I had underestimated how much time the coordination between the different teams would require.",
-      "pl": "Z perspektywy czasu zdałem sobie sprawę, że nie doceniłem czasu potrzebnego na koordynację między poszczególnymi zespołami.",
-      "de": "Rückblickend wurde mir klar, dass ich unterschätzt hatte, wie viel Zeit die Koordination zwischen den verschiedenen Teams erfordern würde."
-    },
-    {
-      "en": "The manager maintained that the delay had been unavoidable, although the review suggested that earlier intervention could have limited its impact.",
-      "pl": "Menedżer utrzymywał, że opóźnienie było nieuniknione, chociaż przegląd wskazywał, że wcześniejsza interwencja mogłaby ograniczyć jego skutki.",
-      "de": "Der Manager vertrat die Auffassung, dass die Verzögerung unvermeidbar gewesen war, obwohl die Prüfung darauf hindeutete, dass ein früheres Eingreifen ihre Auswirkungen hätte begrenzen können."
-    },
-    {
-      "en": "By the time the underlying cause had been identified, several teams had already implemented changes that were no longer necessary.",
-      "pl": "Zanim zidentyfikowano przyczynę źródłową, kilka zespołów wdrożyło już zmiany, które nie były już potrzebne.",
-      "de": "Als die eigentliche Ursache identifiziert worden war, hatten mehrere Teams bereits Änderungen umgesetzt, die nicht mehr erforderlich waren."
-    },
-    {
-      "en": "She admitted that she had been reluctant to challenge the assumption because it had previously been accepted without question.",
-      "pl": "Przyznała, że niechętnie kwestionowała to założenie, ponieważ wcześniej akceptowano je bez zastrzeżeń.",
-      "de": "Sie gab zu, dass sie gezögert hatte, die Annahme infrage zu stellen, weil sie zuvor nie hinterfragt worden war."
+      "de": "Obwohl der Vorschlag sorgfältig vorbereitet worden war, wurde er abgelehnt, weil seine finanziellen Auswirkungen nicht ausreichend erklärt worden waren.",
+      "level": "C2"
     },
     {
       "en": "The negotiations might have progressed more quickly if both sides had clarified their priorities before the first meeting.",
       "pl": "Negocjacje mogłyby przebiegać szybciej, gdyby obie strony wyjaśniły swoje priorytety przed pierwszym spotkaniem.",
-      "de": "Die Verhandlungen hätten schneller vorankommen können, wenn beide Seiten ihre Prioritäten vor dem ersten Treffen geklärt hätten."
-    },
-    {
-      "en": "He later acknowledged that the measures he had considered sufficient were inadequate to address the scale of the problem.",
-      "pl": "Później przyznał, że środki, które uważał za wystarczające, nie odpowiadały skali problemu.",
-      "de": "Später räumte er ein, dass die Maßnahmen, die er für ausreichend gehalten hatte, dem Ausmaß des Problems nicht gerecht wurden."
-    },
-    {
-      "en": "Had we relied solely on the initial figures, we would have overlooked the discrepancy that ultimately changed our assessment.",
-      "pl": "Gdybyśmy oparli się wyłącznie na początkowych danych, przeoczylibyśmy rozbieżność, która ostatecznie zmieniła naszą ocenę.",
-      "de": "Hätten wir uns ausschließlich auf die ursprünglichen Zahlen verlassen, hätten wir die Abweichung übersehen, die letztlich unsere Einschätzung veränderte."
-    },
-    {
-      "en": "Although the evidence had initially appeared inconclusive, a subsequent review revealed that the assumption was fundamentally flawed.",
-      "pl": "Chociaż początkowo dowody wydawały się niejednoznaczne, późniejsza analiza wykazała, że założenie było zasadniczo błędne.",
-      "de": "Obwohl die Beweise zunächst nicht eindeutig erschienen waren, zeigte eine spätere Prüfung, dass die Annahme grundlegend fehlerhaft war."
-    },
-    {
-      "en": "She explained that the team had proceeded cautiously because previous attempts to resolve similar issues had produced unexpected consequences.",
-      "pl": "Wyjaśniła, że zespół działał ostrożnie, ponieważ wcześniejsze próby rozwiązania podobnych problemów przyniosły nieoczekiwane konsekwencje.",
-      "de": "Sie erklärte, dass das Team vorsichtig vorgegangen war, weil frühere Versuche, ähnliche Probleme zu lösen, unerwartete Folgen gehabt hatten."
-    },
-    {
-      "en": "The director conceded that the organisation had reacted too slowly, despite having received several warnings about the emerging risks.",
-      "pl": "Dyrektor przyznał, że organizacja zareagowała zbyt późno, mimo że otrzymała kilka ostrzeżeń o pojawiających się zagrożeniach.",
-      "de": "Der Direktor räumte ein, dass die Organisation zu langsam reagiert hatte, obwohl sie mehrere Warnungen vor den aufkommenden Risiken erhalten hatte."
-    },
-    {
-      "en": "We had assumed that the revised approach would reduce complexity, only to discover that it had introduced additional dependencies.",
-      "pl": "Zakładaliśmy, że zmienione podejście ograniczy złożoność, lecz odkryliśmy, że wprowadziło dodatkowe zależności.",
-      "de": "Wir hatten angenommen, dass der überarbeitete Ansatz die Komplexität verringern würde, mussten jedoch feststellen, dass er zusätzliche Abhängigkeiten geschaffen hatte."
+      "de": "Die Verhandlungen hätten schneller vorankommen können, wenn beide Seiten ihre Prioritäten vor dem ersten Treffen geklärt hätten.",
+      "level": "C2"
     },
     {
       "en": "The review would have been more effective if the relevant stakeholders had been consulted before the final decision was made.",
       "pl": "Przegląd byłby skuteczniejszy, gdyby skonsultowano się z odpowiednimi interesariuszami przed podjęciem ostatecznej decyzji.",
-      "de": "Die Prüfung wäre effektiver gewesen, wenn die relevanten Interessengruppen vor der endgültigen Entscheidung konsultiert worden wären."
-    },
-    {
-      "en": "He insisted that he had acted in good faith, while acknowledging that the information available to him had been incomplete.",
-      "pl": "Upierał się, że działał w dobrej wierze, przyznając jednocześnie, że dostępne mu informacje były niepełne.",
-      "de": "Er bestand darauf, in gutem Glauben gehandelt zu haben, räumte jedoch ein, dass die ihm verfügbaren Informationen unvollständig gewesen waren."
+      "de": "Die Prüfung wäre effektiver gewesen, wenn die relevanten Interessengruppen vor der endgültigen Entscheidung konsultiert worden wären.",
+      "level": "C2"
     }
   ],
   "listening": {
@@ -14218,5 +14203,4 @@
     }
   }
 }
-
 ]
