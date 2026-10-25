@@ -1526,1257 +1526,1377 @@
 },
  {
   "lesson": {
-   "id": "2026-10-14",
-   "date": "14.10.2026",
-   "day": 2,
-   "totalDays": 300,
-   "level": "B1",
-   "title": {
-    "en": "Neutral Time–Manner–Place Order in Main Clauses",
-    "pl": "Neutralny szyk: czas – sposób – miejsce w zdaniu głównym"
-   },
-   "subtitle": "Temporale, modale und lokale Angaben im Hauptsatz"
+    "id": "2026-10-14",
+    "date": "14.10.2026",
+    "day": 2,
+    "totalDays": 300,
+    "level": "B1",
+    "title": {
+      "en": "Neutral Time–Manner–Place Order in Main Clauses",
+      "pl": "Neutralny szyk: czas – sposób – miejsce w zdaniu głównym"
+    },
+    "subtitle": "Temporale, modale und lokale Angaben im Hauptsatz"
   },
   "grammar": {
-   "html": {
-    "en": [
-     "<h3>The basic time–manner–place order<\/h3><p>German main clauses often follow a neutral order for adverbial information: <strong>time, manner, place<\/strong>. Time tells us when something happens, manner tells us how or in what way it happens, and place tells us where it happens. This order is a useful default when you include all three types of information in one sentence. It is not an absolute rule: German word order can change to emphasise information or connect a sentence to the surrounding context.<\/p>",
-     "<div class='box rule'><strong>Core rule:<\/strong> In a neutral German main clause, place time information before manner information and manner information before place information: <em>when → how → where<\/em>.<\/div>",
-     "<h3>Recognising the three elements<\/h3><p><strong>Time (temporal):<\/strong> answers <em>Wann?<\/em> (when?), <em>Wie lange?<\/em> (how long?), or <em>Wie oft?<\/em> (how often?). Examples include <em>heute<\/em>, <em>am Montag<\/em>, <em>seit zwei Wochen<\/em>, and <em>jeden Morgen<\/em>.<\/p><p><strong>Manner (modal):<\/strong> answers <em>Wie?<\/em> (how?) or <em>Auf welche Weise?<\/em> (in what way?). Examples include <em>schnell<\/em>, <em>sorgfältig<\/em>, <em>mit großer Vorsicht<\/em>, and <em>mit dem Zug<\/em> when describing how a journey is made.<\/p><p><strong>Place (local):<\/strong> answers <em>Wo?<\/em> (where?), <em>Wohin?<\/em> (to where?), or <em>Woher?<\/em> (from where?). Examples include <em>im Büro<\/em>, <em>nach Berlin<\/em>, and <em>aus dem Krankenhaus<\/em>.<\/p>",
-     "<table><thead><tr><th>Question<\/th><th>Type<\/th><th>Example phrase<\/th><\/tr><\/thead><tbody><tr><td>Wann?<\/td><td>Time<\/td><td class='de'>am Nachmittag<\/td><\/tr><tr><td>Wie?<\/td><td>Manner<\/td><td class='de'>sehr sorgfältig<\/td><\/tr><tr><td>Wo?<\/td><td>Place<\/td><td class='de'>im Büro<\/td><\/tr><tr><td>Wohin?<\/td><td>Place / direction<\/td><td class='de'>nach Berlin<\/td><\/tr><\/tbody><\/table>",
-     "<h3>Building a neutral main clause<\/h3><p>The finite verb remains in the second position in a normal German main clause. The time–manner–place sequence applies to the adverbial information after the verb and subject; it does not replace the verb-second rule. Compare these sentences:<\/p><ul><li><em>Ich <strong>arbeite<\/strong> heute sorgfältig im Büro.<\/em><\/li><li><em>Wir <strong>fahren<\/strong> morgen mit dem Zug nach Berlin.<\/em><\/li><li><em>Die Techniker <strong>prüfen<\/strong> die Anlage am Nachmittag gründlich vor Ort.<\/em><\/li><\/ul><p>In the second example, <em>morgen<\/em> expresses time, <em>mit dem Zug<\/em> expresses manner or means of transport, and <em>nach Berlin<\/em> expresses direction. This is a neutral and natural arrangement.<\/p><p>Objects and other sentence elements can appear between the verb and these adverbials. For example, <em>Sie <strong>schickt<\/strong> den Bericht morgen per E-Mail an den Kunden.<\/em> The object <em>den Bericht<\/em> comes before the adverbial sequence. The neutral order is a guide for arranging adverbials, not a requirement that every sentence contain only three elements.<\/p>",
-     "<h3>Changing the order for emphasis<\/h3><p>German allows other orders when the speaker wants to emphasise a particular detail or when the context makes that detail especially relevant. For example, <em>Im Büro arbeite ich heute besonders konzentriert.<\/em> begins with the place because it is the topic or focus of the sentence. The finite verb still comes second: <strong>arbeite<\/strong>.<\/p><p>Moving an element to the beginning does not mean the neutral time–manner–place order has disappeared; it means the speaker has chosen a different information structure. The subject usually follows the finite verb when another element occupies the first position.<\/p>",
-     "<table><thead><tr><th>Neutral order<\/th><th>Alternative emphasis<\/th><\/tr><\/thead><tbody><tr><td class='de'>Ich arbeite heute sorgfältig im Büro.<\/td><td class='de'>Im Büro arbeite ich heute sorgfältig.<\/td><\/tr><tr><td class='de'>Wir fahren morgen mit dem Zug nach Berlin.<\/td><td class='de'>Nach Berlin fahren wir morgen mit dem Zug.<\/td><\/tr><tr><td class='de'>Sie erklärt die Ergebnisse heute ausführlich im Meeting.<\/td><td class='de'>Heute erklärt sie die Ergebnisse ausführlich im Meeting.<\/td><\/tr><\/tbody><\/table>",
-     "<div class='box warn'><strong>Common mistake: placing location before manner in a neutral sentence<\/strong><p>✗ Ich arbeite heute im Büro sorgfältig.<\/p><p>✓ Ich arbeite heute sorgfältig im Büro.<\/p><p>The first sentence is possible in a suitable context, but it is not the usual neutral order when time, manner, and place are all presented as ordinary information. Prefer time–manner–place as your default.<\/p><\/div>",
-     "<div class='box tip'><strong>Memory aid: when, how, where<\/strong><p>Ask three questions: When does it happen? How does it happen? Where does it happen? Arrange the answers in that order. Then check the main-clause structure: the finite verb must still occupy position two unless the sentence type requires a different word order.<\/p><\/div>",
-     "<h3>Quick reference<\/h3><div class='tiles'><div class='tile'><strong>Time<\/strong><p><em>heute, morgen, am Montag<\/em><\/p><\/div><div class='tile'><strong>Manner<\/strong><p><em>sorgfältig, schnell, mit dem Zug<\/em><\/p><\/div><div class='tile'><strong>Place<\/strong><p><em>im Büro, nach Berlin, zu Hause<\/em><\/p><\/div><div class='tile'><strong>Neutral order<\/strong><p><em>Ich fahre morgen mit dem Zug nach Berlin.<\/em><\/p><\/div><\/div>"
-    ],
-    "pl": [
-     "<h3>Podstawowy szyk: czas – sposób – miejsce<\/h3><p>W niemieckich zdaniach głównych informacje okolicznikowe często układają się w neutralnym porządku: <strong>czas, sposób, miejsce<\/strong>. Czas mówi, kiedy coś się dzieje, sposób – jak lub w jaki sposób, a miejsce – gdzie. Ten porządek jest dobrym ustawieniem domyślnym, gdy w jednym zdaniu podajesz wszystkie trzy rodzaje informacji. Nie jest to reguła bezwzględna: szyk niemiecki może się zmieniać, aby uwypuklić informację lub powiązać zdanie z kontekstem.<\/p>",
-     "<div class='box rule'><strong>Główna zasada:<\/strong> W neutralnym niemieckim zdaniu głównym informację o czasie stawiaj przed informacją o sposobie, a informację o sposobie przed informacją o miejscu: <em>kiedy → jak → gdzie<\/em>.<\/div>",
-     "<h3>Rozpoznawanie trzech elementów<\/h3><p><strong>Czas (temporal):<\/strong> odpowiada na pytania <em>Wann?<\/em> (kiedy?), <em>Wie lange?<\/em> (jak długo?) lub <em>Wie oft?<\/em> (jak często?). Przykłady: <em>heute<\/em>, <em>am Montag<\/em>, <em>seit zwei Wochen<\/em>, <em>jeden Morgen<\/em>.<\/p><p><strong>Sposób (modal):<\/strong> odpowiada na pytania <em>Wie?<\/em> (jak?) lub <em>Auf welche Weise?<\/em> (w jaki sposób?). Przykłady: <em>schnell<\/em>, <em>sorgfältig<\/em>, <em>mit großer Vorsicht<\/em>, a także <em>mit dem Zug<\/em>, gdy opisuje, jak odbywa się podróż.<\/p><p><strong>Miejsce (local):<\/strong> odpowiada na pytania <em>Wo?<\/em> (gdzie?), <em>Wohin?<\/em> (dokąd?) lub <em>Woher?<\/em> (skąd?). Przykłady: <em>im Büro<\/em>, <em>nach Berlin<\/em>, <em>aus dem Krankenhaus<\/em>.<\/p>",
-     "<table><thead><tr><th>Pytanie<\/th><th>Rodzaj<\/th><th>Przykładowa fraza<\/th><\/tr><\/thead><tbody><tr><td>Wann?<\/td><td>Czas<\/td><td class='de'>am Nachmittag<\/td><\/tr><tr><td>Wie?<\/td><td>Sposób<\/td><td class='de'>sehr sorgfältig<\/td><\/tr><tr><td>Wo?<\/td><td>Miejsce<\/td><td class='de'>im Büro<\/td><\/tr><tr><td>Wohin?<\/td><td>Miejsce / kierunek<\/td><td class='de'>nach Berlin<\/td><\/tr><\/tbody><\/table>",
-     "<h3>Budowanie neutralnego zdania głównego<\/h3><p>W normalnym niemieckim zdaniu głównym czasownik finitny pozostaje na drugim miejscu. Kolejność czas – sposób – miejsce dotyczy informacji okolicznikowych występujących po czasowniku i podmiocie; nie zastępuje zasady V2. Porównaj te zdania:<\/p><ul><li><em>Ich <strong>arbeite<\/strong> heute sorgfältig im Büro.<\/em><\/li><li><em>Wir <strong>fahren<\/strong> morgen mit dem Zug nach Berlin.<\/em><\/li><li><em>Die Techniker <strong>prüfen<\/strong> die Anlage am Nachmittag gründlich vor Ort.<\/em><\/li><\/ul><p>W drugim przykładzie <em>morgen<\/em> wyraża czas, <em>mit dem Zug<\/em> wyraża sposób lub środek transportu, a <em>nach Berlin<\/em> wyraża kierunek. Jest to układ neutralny i naturalny.<\/p><p>Między czasownikiem a tymi okolicznikami mogą stać dopełnienia i inne elementy zdania. Na przykład: <em>Sie <strong>schickt<\/strong> den Bericht morgen per E-Mail an den Kunden.<\/em> Dopełnienie <em>den Bericht<\/em> stoi przed ciągiem okoliczników. Neutralny porządek jest wskazówką do układania okoliczników, a nie wymogiem, by w każdym zdaniu były tylko trzy elementy.<\/p>",
-     "<h3>Zmiana szyku dla podkreślenia<\/h3><p>Niemiecki dopuszcza inne układy, gdy mówiący chce uwypuklić jakiś szczegół lub gdy kontekst czyni go szczególnie ważnym. Na przykład <em>Im Büro arbeite ich heute besonders konzentriert.<\/em> zaczyna się od miejsca, bo to ono jest tematem lub punktem ciężkości zdania. Czasownik finitny nadal stoi na drugim miejscu: <strong>arbeite<\/strong>.<\/p><p>Przeniesienie elementu na początek nie oznacza, że neutralny porządek czas – sposób – miejsce przestał istnieć; oznacza, że mówiący wybrał inną strukturę informacyjną. Podmiot zwykle następuje po czasowniku finitnym, gdy pierwsze miejsce zajmuje inny element.<\/p>",
-     "<table><thead><tr><th>Szyk neutralny<\/th><th>Inny akcent<\/th><\/tr><\/thead><tbody><tr><td class='de'>Ich arbeite heute sorgfältig im Büro.<\/td><td class='de'>Im Büro arbeite ich heute sorgfältig.<\/td><\/tr><tr><td class='de'>Wir fahren morgen mit dem Zug nach Berlin.<\/td><td class='de'>Nach Berlin fahren wir morgen mit dem Zug.<\/td><\/tr><tr><td class='de'>Sie erklärt die Ergebnisse heute ausführlich im Meeting.<\/td><td class='de'>Heute erklärt sie die Ergebnisse ausführlich im Meeting.<\/td><\/tr><\/tbody><\/table>",
-     "<div class='box warn'><strong>Typowy błąd: miejsce przed sposobem w zdaniu neutralnym<\/strong><p>✗ Ich arbeite heute im Büro sorgfältig.<\/p><p>✓ Ich arbeite heute sorgfältig im Büro.<\/p><p>Pierwsze zdanie jest możliwe w odpowiednim kontekście, ale nie jest zwykłym szykiem neutralnym, gdy czas, sposób i miejsce podajemy jako zwykłe informacje. Jako ustawienie domyślne wybieraj czas – sposób – miejsce.<\/p><\/div>",
-     "<div class='box tip'><strong>Pomoc w zapamiętaniu: kiedy, jak, gdzie<\/strong><p>Zadaj trzy pytania: Kiedy to się dzieje? Jak się dzieje? Gdzie się dzieje? Ułóż odpowiedzi w tej kolejności. Potem sprawdź strukturę zdania głównego: czasownik finitny nadal musi stać na drugim miejscu, chyba że typ zdania wymaga innego szyku.<\/p><\/div>",
-     "<h3>Szybki przegląd<\/h3><div class='tiles'><div class='tile'><strong>Czas<\/strong><p><em>heute, morgen, am Montag<\/em><\/p><\/div><div class='tile'><strong>Sposób<\/strong><p><em>sorgfältig, schnell, mit dem Zug<\/em><\/p><\/div><div class='tile'><strong>Miejsce<\/strong><p><em>im Büro, nach Berlin, zu Hause<\/em><\/p><\/div><div class='tile'><strong>Szyk neutralny<\/strong><p><em>Ich fahre morgen mit dem Zug nach Berlin.<\/em><\/p><\/div><\/div>"
-    ]
-   }
+    "html": {
+      "en": [
+        "<h3>The basic time–manner–place order</h3><p>German main clauses often follow a neutral order for adverbial information: <strong>time, manner, place</strong>. Time tells us when something happens, manner tells us how or in what way it happens, and place tells us where it happens. This order is a useful default when you include all three types of information in one sentence. It is not an absolute rule: German word order can change to emphasise information or connect a sentence to the surrounding context.</p>",
+        "<div class='box rule'><strong>Core rule:</strong> In a neutral German main clause, place time information before manner information and manner information before place information: <em>when → how → where</em>.</div>",
+        "<h3>Recognising the three elements</h3><p><strong>Time (temporal):</strong> answers <em>Wann?</em> (when?), <em>Wie lange?</em> (how long?), or <em>Wie oft?</em> (how often?). Examples include <em>heute</em>, <em>am Montag</em>, <em>seit zwei Wochen</em>, and <em>jeden Morgen</em>.</p><p><strong>Manner (modal):</strong> answers <em>Wie?</em> (how?) or <em>Auf welche Weise?</em> (in what way?). Examples include <em>schnell</em>, <em>sorgfältig</em>, <em>mit großer Vorsicht</em>, and <em>mit dem Zug</em> when describing how a journey is made.</p><p><strong>Place (local):</strong> answers <em>Wo?</em> (where?), <em>Wohin?</em> (to where?), or <em>Woher?</em> (from where?). Examples include <em>im Büro</em>, <em>nach Berlin</em>, and <em>aus dem Krankenhaus</em>.</p>",
+        "<table><thead><tr><th>Question</th><th>Type</th><th>Example phrase</th></tr></thead><tbody><tr><td>Wann?</td><td>Time</td><td class='de'>am Nachmittag</td></tr><tr><td>Wie?</td><td>Manner</td><td class='de'>sehr sorgfältig</td></tr><tr><td>Wo?</td><td>Place</td><td class='de'>im Büro</td></tr><tr><td>Wohin?</td><td>Place / direction</td><td class='de'>nach Berlin</td></tr></tbody></table>",
+        "<h3>Building a neutral main clause</h3><p>The finite verb remains in the second position in a normal German main clause. The time–manner–place sequence applies to the adverbial information after the verb and subject; it does not replace the verb-second rule. Compare these sentences:</p><ul><li><em>Ich <strong>arbeite</strong> heute sorgfältig im Büro.</em></li><li><em>Wir <strong>fahren</strong> morgen mit dem Zug nach Berlin.</em></li><li><em>Die Techniker <strong>prüfen</strong> die Anlage am Nachmittag gründlich vor Ort.</em></li></ul><p>In the second example, <em>morgen</em> expresses time, <em>mit dem Zug</em> expresses manner or means of transport, and <em>nach Berlin</em> expresses direction. This is a neutral and natural arrangement.</p><p>Objects and other sentence elements can appear between the verb and these adverbials. For example, <em>Sie <strong>schickt</strong> den Bericht morgen per E-Mail an den Kunden.</em> The object <em>den Bericht</em> comes before the adverbial sequence. The neutral order is a guide for arranging adverbials, not a requirement that every sentence contain only three elements.</p>",
+        "<h3>Changing the order for emphasis</h3><p>German allows other orders when the speaker wants to emphasise a particular detail or when the context makes that detail especially relevant. For example, <em>Im Büro arbeite ich heute besonders konzentriert.</em> begins with the place because it is the topic or focus of the sentence. The finite verb still comes second: <strong>arbeite</strong>.</p><p>Moving an element to the beginning does not mean the neutral time–manner–place order has disappeared; it means the speaker has chosen a different information structure. The subject usually follows the finite verb when another element occupies the first position.</p>",
+        "<table><thead><tr><th>Neutral order</th><th>Alternative emphasis</th></tr></thead><tbody><tr><td class='de'>Ich arbeite heute sorgfältig im Büro.</td><td class='de'>Im Büro arbeite ich heute sorgfältig.</td></tr><tr><td class='de'>Wir fahren morgen mit dem Zug nach Berlin.</td><td class='de'>Nach Berlin fahren wir morgen mit dem Zug.</td></tr><tr><td class='de'>Sie erklärt die Ergebnisse heute ausführlich im Meeting.</td><td class='de'>Heute erklärt sie die Ergebnisse ausführlich im Meeting.</td></tr></tbody></table>",
+        "<div class='box warn'><strong>Common mistake: placing location before manner in a neutral sentence</strong><p>✗ Ich arbeite heute im Büro sorgfältig.</p><p>✓ Ich arbeite heute sorgfältig im Büro.</p><p>The first sentence is possible in a suitable context, but it is not the usual neutral order when time, manner, and place are all presented as ordinary information. Prefer time–manner–place as your default.</p></div>",
+        "<div class='box tip'><strong>Memory aid: when, how, where</strong><p>Ask three questions: When does it happen? How does it happen? Where does it happen? Arrange the answers in that order. Then check the main-clause structure: the finite verb must still occupy position two unless the sentence type requires a different word order.</p></div>",
+        "<h3>Quick reference</h3><div class='tiles'><div class='tile'><strong>Time</strong><p><em>heute, morgen, am Montag</em></p></div><div class='tile'><strong>Manner</strong><p><em>sorgfältig, schnell, mit dem Zug</em></p></div><div class='tile'><strong>Place</strong><p><em>im Büro, nach Berlin, zu Hause</em></p></div><div class='tile'><strong>Neutral order</strong><p><em>Ich fahre morgen mit dem Zug nach Berlin.</em></p></div></div>"
+      ],
+      "pl": [
+        "<h3>Podstawowy szyk: czas – sposób – miejsce</h3><p>W niemieckich zdaniach głównych informacje okolicznikowe często układają się w neutralnym porządku: <strong>czas, sposób, miejsce</strong>. Czas mówi, kiedy coś się dzieje, sposób – jak lub w jaki sposób, a miejsce – gdzie. Ten porządek jest dobrym ustawieniem domyślnym, gdy w jednym zdaniu podajesz wszystkie trzy rodzaje informacji. Nie jest to reguła bezwzględna: szyk niemiecki może się zmieniać, aby uwypuklić informację lub powiązać zdanie z kontekstem.</p>",
+        "<div class='box rule'><strong>Główna zasada:</strong> W neutralnym niemieckim zdaniu głównym informację o czasie stawiaj przed informacją o sposobie, a informację o sposobie przed informacją o miejscu: <em>kiedy → jak → gdzie</em>.</div>",
+        "<h3>Rozpoznawanie trzech elementów</h3><p><strong>Czas (temporal):</strong> odpowiada na pytania <em>Wann?</em> (kiedy?), <em>Wie lange?</em> (jak długo?) lub <em>Wie oft?</em> (jak często?). Przykłady: <em>heute</em>, <em>am Montag</em>, <em>seit zwei Wochen</em>, <em>jeden Morgen</em>.</p><p><strong>Sposób (modal):</strong> odpowiada na pytania <em>Wie?</em> (jak?) lub <em>Auf welche Weise?</em> (w jaki sposób?). Przykłady: <em>schnell</em>, <em>sorgfältig</em>, <em>mit großer Vorsicht</em>, a także <em>mit dem Zug</em>, gdy opisuje, jak odbywa się podróż.</p><p><strong>Miejsce (local):</strong> odpowiada na pytania <em>Wo?</em> (gdzie?), <em>Wohin?</em> (dokąd?) lub <em>Woher?</em> (skąd?). Przykłady: <em>im Büro</em>, <em>nach Berlin</em>, <em>aus dem Krankenhaus</em>.</p>",
+        "<table><thead><tr><th>Pytanie</th><th>Rodzaj</th><th>Przykładowa fraza</th></tr></thead><tbody><tr><td>Wann?</td><td>Czas</td><td class='de'>am Nachmittag</td></tr><tr><td>Wie?</td><td>Sposób</td><td class='de'>sehr sorgfältig</td></tr><tr><td>Wo?</td><td>Miejsce</td><td class='de'>im Büro</td></tr><tr><td>Wohin?</td><td>Miejsce / kierunek</td><td class='de'>nach Berlin</td></tr></tbody></table>",
+        "<h3>Budowanie neutralnego zdania głównego</h3><p>W normalnym niemieckim zdaniu głównym czasownik finitny pozostaje na drugim miejscu. Kolejność czas – sposób – miejsce dotyczy informacji okolicznikowych występujących po czasowniku i podmiocie; nie zastępuje zasady V2. Porównaj te zdania:</p><ul><li><em>Ich <strong>arbeite</strong> heute sorgfältig im Büro.</em></li><li><em>Wir <strong>fahren</strong> morgen mit dem Zug nach Berlin.</em></li><li><em>Die Techniker <strong>prüfen</strong> die Anlage am Nachmittag gründlich vor Ort.</em></li></ul><p>W drugim przykładzie <em>morgen</em> wyraża czas, <em>mit dem Zug</em> wyraża sposób lub środek transportu, a <em>nach Berlin</em> wyraża kierunek. Jest to układ neutralny i naturalny.</p><p>Między czasownikiem a tymi okolicznikami mogą stać dopełnienia i inne elementy zdania. Na przykład: <em>Sie <strong>schickt</strong> den Bericht morgen per E-Mail an den Kunden.</em> Dopełnienie <em>den Bericht</em> stoi przed ciągiem okoliczników. Neutralny porządek jest wskazówką do układania okoliczników, a nie wymogiem, by w każdym zdaniu były tylko trzy elementy.</p>",
+        "<h3>Zmiana szyku dla podkreślenia</h3><p>Niemiecki dopuszcza inne układy, gdy mówiący chce uwypuklić jakiś szczegół lub gdy kontekst czyni go szczególnie ważnym. Na przykład <em>Im Büro arbeite ich heute besonders konzentriert.</em> zaczyna się od miejsca, bo to ono jest tematem lub punktem ciężkości zdania. Czasownik finitny nadal stoi na drugim miejscu: <strong>arbeite</strong>.</p><p>Przeniesienie elementu na początek nie oznacza, że neutralny porządek czas – sposób – miejsce przestał istnieć; oznacza, że mówiący wybrał inną strukturę informacyjną. Podmiot zwykle następuje po czasowniku finitnym, gdy pierwsze miejsce zajmuje inny element.</p>",
+        "<table><thead><tr><th>Szyk neutralny</th><th>Inny akcent</th></tr></thead><tbody><tr><td class='de'>Ich arbeite heute sorgfältig im Büro.</td><td class='de'>Im Büro arbeite ich heute sorgfältig.</td></tr><tr><td class='de'>Wir fahren morgen mit dem Zug nach Berlin.</td><td class='de'>Nach Berlin fahren wir morgen mit dem Zug.</td></tr><tr><td class='de'>Sie erklärt die Ergebnisse heute ausführlich im Meeting.</td><td class='de'>Heute erklärt sie die Ergebnisse ausführlich im Meeting.</td></tr></tbody></table>",
+        "<div class='box warn'><strong>Typowy błąd: miejsce przed sposobem w zdaniu neutralnym</strong><p>✗ Ich arbeite heute im Büro sorgfältig.</p><p>✓ Ich arbeite heute sorgfältig im Büro.</p><p>Pierwsze zdanie jest możliwe w odpowiednim kontekście, ale nie jest zwykłym szykiem neutralnym, gdy czas, sposób i miejsce podajemy jako zwykłe informacje. Jako ustawienie domyślne wybieraj czas – sposób – miejsce.</p></div>",
+        "<div class='box tip'><strong>Pomoc w zapamiętaniu: kiedy, jak, gdzie</strong><p>Zadaj trzy pytania: Kiedy to się dzieje? Jak się dzieje? Gdzie się dzieje? Ułóż odpowiedzi w tej kolejności. Potem sprawdź strukturę zdania głównego: czasownik finitny nadal musi stać na drugim miejscu, chyba że typ zdania wymaga innego szyku.</p></div>",
+        "<h3>Szybki przegląd</h3><div class='tiles'><div class='tile'><strong>Czas</strong><p><em>heute, morgen, am Montag</em></p></div><div class='tile'><strong>Sposób</strong><p><em>sorgfältig, schnell, mit dem Zug</em></p></div><div class='tile'><strong>Miejsce</strong><p><em>im Büro, nach Berlin, zu Hause</em></p></div><div class='tile'><strong>Szyk neutralny</strong><p><em>Ich fahre morgen mit dem Zug nach Berlin.</em></p></div></div>"
+      ]
+    }
   },
   "examples": [
-   {
-    "de": "Ich arbeite **heute** **sorgfältig** **im Büro**.",
-    "en": "I am working carefully in the office today.",
-    "pl": "Dzisiaj pracuję starannie w biurze."
-   },
-   {
-    "de": "Wir fahren **morgen** **mit dem Zug** **nach Berlin**.",
-    "en": "We are travelling to Berlin by train tomorrow.",
-    "pl": "Jutro jedziemy pociągiem do Berlina."
-   },
-   {
-    "de": "Sie lernt **jeden Abend** **konzentriert** **zu Hause**.",
-    "en": "She studies attentively at home every evening.",
-    "pl": "Co wieczór uczy się uważnie w domu."
-   },
-   {
-    "de": "Der Techniker prüft die Anlage **heute** **gründlich** **vor Ort**.",
-    "en": "The technician is thoroughly inspecting the system on site today.",
-    "pl": "Technik dokładnie sprawdza dziś system na miejscu."
-   },
-   {
-    "de": "Unsere Kollegin präsentiert die Ergebnisse **morgen** **ausführlich** **im Meeting**.",
-    "en": "Our colleague will present the results in detail at the meeting tomorrow.",
-    "pl": "Nasz kolega przedstawi jutro szczegółowo wyniki na spotkaniu."
-   },
-   {
-    "de": "Der Kurier liefert das Paket **heute** **persönlich** **ins Büro**.",
-    "en": "The courier is delivering the package to the office in person today.",
-    "pl": "Kurier dostarcza dziś paczkę osobiście do biura."
-   },
-   {
-    "de": "Die Ärzte untersuchen den Patienten **am Morgen** **sorgfältig** **im Krankenhaus**.",
-    "en": "The doctors examine the patient carefully in the hospital in the morning.",
-    "pl": "Lekarze rano dokładnie badają pacjenta w szpitalu."
-   },
-   {
-    "de": "Die Regierung diskutiert den Vorschlag **heute** **intensiv** **in Berlin**.",
-    "en": "The government is discussing the proposal intensively in Berlin today.",
-    "pl": "Rząd intensywnie omawia dziś propozycję w Berlinie."
-   },
-   {
-    "de": "Ich beantworte die Kundenanfragen **jeden Morgen** **schnell** **am Arbeitsplatz**.",
-    "en": "I answer customer enquiries quickly at my workplace every morning.",
-    "pl": "Co rano szybko odpowiadam na zapytania klientów w miejscu pracy."
-   },
-   {
-    "de": "Die Mitarbeiter besprechen die offenen Fragen **am Nachmittag** **gemeinsam** **im Konferenzraum**.",
-    "en": "The employees discuss the outstanding questions together in the conference room in the afternoon.",
-    "pl": "Po południu pracownicy wspólnie omawiają otwarte kwestie w sali konferencyjnej."
-   },
-   {
-    "de": "Das Unternehmen transportiert die Waren **nächste Woche** **sicher** **mit dem Lkw** **nach Österreich**.",
-    "en": "The company will transport the goods safely to Austria by truck next week.",
-    "pl": "W przyszłym tygodniu firma bezpiecznie przewiezie towar ciężarówką do Austrii."
-   },
-   {
-    "de": "Die Forscher analysieren die Proben **täglich** **mit modernen Geräten** **im Labor**.",
-    "en": "The researchers analyse the samples daily with modern equipment in the laboratory.",
-    "pl": "Naukowcy codziennie analizują próbki w laboratorium przy użyciu nowoczesnego sprzętu."
-   },
-   {
-    "de": "Die Delegation reist **am Donnerstag** **gemeinsam** **mit dem Flugzeug** **nach Genf**.",
-    "en": "The delegation is travelling to Geneva together by plane on Thursday.",
-    "pl": "W czwartek delegacja leci razem samolotem do Genewy."
-   },
-   {
-    "de": "Die Polizei suchte **gestern** **systematisch** **in der Umgebung** nach Beweisen.",
-    "en": "The police systematically searched the surrounding area for evidence yesterday.",
-    "pl": "Wczoraj policja systematycznie przeszukała okolicę w poszukiwaniu dowodów."
-   },
-   {
-    "de": "Die Firma hat die Dokumente **gestern** **sicher** **per Kurier** **nach Warschau** geschickt.",
-    "en": "The company sent the documents securely to Warsaw by courier yesterday.",
-    "pl": "Wczoraj firma bezpiecznie wysłała dokumenty kurierem do Warszawy."
-   },
-   {
-    "de": "Die Experten werden die Ergebnisse **nächste Woche** **gemeinsam** **in Brüssel** vorstellen.",
-    "en": "The experts will present the results together in Brussels next week.",
-    "pl": "W przyszłym tygodniu eksperci wspólnie przedstawią wyniki w Brukseli."
-   },
-   {
-    "de": "Die Behörde prüft **derzeit** **sorgfältig** **vor Ort** mögliche Sicherheitsrisiken.",
-    "en": "The authority is currently examining possible security risks carefully on site.",
-    "pl": "Urząd bada obecnie na miejscu możliwe zagrożenia bezpieczeństwa."
-   },
-   {
-    "de": "Die Mannschaft trainiert **jeden Morgen** **intensiv** **auf dem Sportplatz**.",
-    "en": "The team trains intensively on the sports field every morning.",
-    "pl": "Co rano drużyna intensywnie trenuje na boisku sportowym."
-   },
-   {
-    "de": "Der Minister erklärte die Entscheidung **gestern** **ausführlich** **vor der Presse**.",
-    "en": "The minister explained the decision in detail to the press yesterday.",
-    "pl": "Wczoraj minister szczegółowo wyjaśnił prasie tę decyzję."
-   },
-   {
-    "de": "Die Hilfskräfte verteilen **heute** **schnell** Lebensmittel **in den betroffenen Dörfern**.",
-    "en": "The aid workers are distributing food quickly in the affected villages today.",
-    "pl": "Dziś pracownicy humanitarni szybko rozdają żywność w dotkniętych wioskach."
-   }
+    {
+      "de": "Ich arbeite **heute** **sorgfältig** **im Büro**.",
+      "en": "I am working carefully in the office today.",
+      "pl": "Dzisiaj pracuję starannie w biurze.",
+      "level": "A1"
+    },
+    {
+      "de": "Wir fahren **morgen** **mit dem Zug** **nach Berlin**.",
+      "en": "We are travelling to Berlin by train tomorrow.",
+      "pl": "Jutro jedziemy pociągiem do Berlina.",
+      "level": "A1"
+    },
+    {
+      "de": "Sie lernt **jeden Abend** **konzentriert** **zu Hause**.",
+      "en": "She studies attentively at home every evening.",
+      "pl": "Co wieczór uczy się uważnie w domu.",
+      "level": "A2"
+    },
+    {
+      "de": "Der Techniker prüft die Anlage **heute** **gründlich** **vor Ort**.",
+      "en": "The technician is thoroughly inspecting the system on site today.",
+      "pl": "Technik dokładnie sprawdza dziś system na miejscu.",
+      "level": "A2"
+    },
+    {
+      "de": "Unsere Kollegin präsentiert die Ergebnisse **morgen** **ausführlich** **im Meeting**.",
+      "en": "Our colleague will present the results in detail at the meeting tomorrow.",
+      "pl": "Nasz kolega przedstawi jutro szczegółowo wyniki na spotkaniu.",
+      "level": "A2"
+    },
+    {
+      "de": "Der Kurier liefert das Paket **heute** **persönlich** **ins Büro**.",
+      "en": "The courier is delivering the package to the office in person today.",
+      "pl": "Kurier dostarcza dziś paczkę osobiście do biura.",
+      "level": "B1"
+    },
+    {
+      "de": "Die Ärzte untersuchen den Patienten **am Morgen** **sorgfältig** **im Krankenhaus**.",
+      "en": "The doctors examine the patient carefully in the hospital in the morning.",
+      "pl": "Lekarze rano dokładnie badają pacjenta w szpitalu.",
+      "level": "B1"
+    },
+    {
+      "de": "Die Regierung diskutiert den Vorschlag **heute** **intensiv** **in Berlin**.",
+      "en": "The government is discussing the proposal intensively in Berlin today.",
+      "pl": "Rząd intensywnie omawia dziś propozycję w Berlinie.",
+      "level": "B1"
+    },
+    {
+      "de": "Ich beantworte die Kundenanfragen **jeden Morgen** **schnell** **am Arbeitsplatz**.",
+      "en": "I answer customer enquiries quickly at my workplace every morning.",
+      "pl": "Co rano szybko odpowiadam na zapytania klientów w miejscu pracy.",
+      "level": "B1"
+    },
+    {
+      "de": "Die Mitarbeiter besprechen die offenen Fragen **am Nachmittag** **gemeinsam** **im Konferenzraum**.",
+      "en": "The employees discuss the outstanding questions together in the conference room in the afternoon.",
+      "pl": "Po południu pracownicy wspólnie omawiają otwarte kwestie w sali konferencyjnej.",
+      "level": "B1"
+    },
+    {
+      "de": "Das Unternehmen transportiert die Waren **nächste Woche** **sicher** **mit dem Lkw** **nach Österreich**.",
+      "en": "The company will transport the goods safely to Austria by truck next week.",
+      "pl": "W przyszłym tygodniu firma bezpiecznie przewiezie towar ciężarówką do Austrii.",
+      "level": "B2"
+    },
+    {
+      "de": "Die Forscher analysieren die Proben **täglich** **mit modernen Geräten** **im Labor**.",
+      "en": "The researchers analyse the samples daily with modern equipment in the laboratory.",
+      "pl": "Naukowcy codziennie analizują próbki w laboratorium przy użyciu nowoczesnego sprzętu.",
+      "level": "B2"
+    },
+    {
+      "de": "Die Delegation reist **am Donnerstag** **gemeinsam** **mit dem Flugzeug** **nach Genf**.",
+      "en": "The delegation is travelling to Geneva together by plane on Thursday.",
+      "pl": "W czwartek delegacja leci razem samolotem do Genewy.",
+      "level": "B2"
+    },
+    {
+      "de": "Die Polizei suchte **gestern** **systematisch** **in der Umgebung** nach Beweisen.",
+      "en": "The police systematically searched the surrounding area for evidence yesterday.",
+      "pl": "Wczoraj policja systematycznie przeszukała okolicę w poszukiwaniu dowodów.",
+      "level": "B2"
+    },
+    {
+      "de": "Die Firma hat die Dokumente **gestern** **sicher** **per Kurier** **nach Warschau** geschickt.",
+      "en": "The company sent the documents securely to Warsaw by courier yesterday.",
+      "pl": "Wczoraj firma bezpiecznie wysłała dokumenty kurierem do Warszawy.",
+      "level": "B2"
+    },
+    {
+      "de": "Die Experten werden die Ergebnisse **nächste Woche** **gemeinsam** **in Brüssel** vorstellen.",
+      "en": "The experts will present the results together in Brussels next week.",
+      "pl": "W przyszłym tygodniu eksperci wspólnie przedstawią wyniki w Brukseli.",
+      "level": "C1"
+    },
+    {
+      "de": "Die Behörde prüft **derzeit** **sorgfältig** **vor Ort** mögliche Sicherheitsrisiken.",
+      "en": "The authority is currently examining possible security risks carefully on site.",
+      "pl": "Urząd bada obecnie na miejscu możliwe zagrożenia bezpieczeństwa.",
+      "level": "C1"
+    },
+    {
+      "de": "Die Mannschaft trainiert **jeden Morgen** **intensiv** **auf dem Sportplatz**.",
+      "en": "The team trains intensively on the sports field every morning.",
+      "pl": "Co rano drużyna intensywnie trenuje na boisku sportowym.",
+      "level": "C1"
+    },
+    {
+      "de": "Der Minister erklärte die Entscheidung **gestern** **ausführlich** **vor der Presse**.",
+      "en": "The minister explained the decision in detail to the press yesterday.",
+      "pl": "Wczoraj minister szczegółowo wyjaśnił prasie tę decyzję.",
+      "level": "C2"
+    },
+    {
+      "de": "Die Hilfskräfte verteilen **heute** **schnell** Lebensmittel **in den betroffenen Dörfern**.",
+      "en": "The aid workers are distributing food quickly in the affected villages today.",
+      "pl": "Dziś pracownicy humanitarni szybko rozdają żywność w dotkniętych wioskach.",
+      "level": "C2"
+    }
   ],
   "exercises": [
-   {
-    "en": "She studies at home every evening.",
-    "pl": "Co wieczór uczy się w domu.",
-    "de": "Sie lernt jeden Abend zu Hause."
-   },
-   {
-    "en": "We are reading attentively in the garden today.",
-    "pl": "Dziś czytamy uważnie w ogrodzie.",
-    "de": "Wir lesen heute aufmerksam im Garten."
-   },
-   {
-    "en": "The meeting takes place here today.",
-    "pl": "Spotkanie odbywa się dziś tutaj.",
-    "de": "Die Besprechung findet heute hier statt."
-   },
-   {
-    "en": "He runs quickly in the park every morning.",
-    "pl": "Co rano szybko biega w parku.",
-    "de": "Er läuft jeden Morgen schnell im Park."
-   },
-   {
-    "en": "I am studying with concentration in the library today.",
-    "pl": "Dziś uczę się w skupieniu w bibliotece.",
-    "de": "Ich lerne heute konzentriert in der Bibliothek."
-   },
-   {
-    "en": "The bus arrives here at eight o'clock.",
-    "pl": "Autobus przyjeżdża tutaj o ósmej.",
-    "de": "Der Bus kommt um acht Uhr hier an."
-   },
-   {
-    "en": "The children play happily in the garden every day.",
-    "pl": "Dzieci codziennie wesoło bawią się w ogrodzie.",
-    "de": "Die Kinder spielen jeden Tag fröhlich im Garten."
-   },
-   {
-    "en": "The train travels quietly through the countryside at night.",
-    "pl": "Pociąg jedzie nocą cicho przez okolicę.",
-    "de": "Der Zug fährt nachts leise durch die Landschaft."
-   },
-   {
-    "en": "I read quietly in the library every afternoon.",
-    "pl": "Co popołudnie czytam cicho w bibliotece.",
-    "de": "Ich lese jeden Nachmittag ruhig in der Bibliothek."
-   },
-   {
-    "en": "They are meeting in the city centre this afternoon.",
-    "pl": "Spotykają się dziś po południu w centrum miasta.",
-    "de": "Sie treffen sich heute Nachmittag in der Innenstadt."
-   },
-   {
-    "en": "The team has been working intensively at the client's site since Monday.",
-    "pl": "Zespół od poniedziałku intensywnie pracuje u klienta.",
-    "de": "Das Team arbeitet seit Montag intensiv beim Kunden."
-   },
-   {
-    "en": "The students are working quietly in the computer room this morning.",
-    "pl": "Studenci pracują dziś rano cicho w pracowni komputerowej.",
-    "de": "Die Studierenden arbeiten heute Morgen ruhig im Computerraum."
-   },
-   {
-    "en": "We are having lunch together in the canteen today.",
-    "pl": "Dziś jemy razem obiad w stołówce.",
-    "de": "Wir essen heute gemeinsam in der Kantine zu Mittag."
-   },
-   {
-    "en": "My colleague explains the process clearly in the meeting.",
-    "pl": "Moja koleżanka jasno wyjaśnia przebieg na spotkaniu.",
-    "de": "Meine Kollegin erklärt den Ablauf klar in der Besprechung."
-   },
-   {
-    "en": "The company delivers goods safely to Austria every week.",
-    "pl": "Firma co tydzień bezpiecznie dostarcza towary do Austrii.",
-    "de": "Das Unternehmen liefert jede Woche sicher Waren nach Österreich."
-   },
-   {
-    "en": "The auditor checked the supporting documents carefully at the client's premises yesterday.",
-    "pl": "Audytor wczoraj starannie sprawdził dokumenty źródłowe w siedzibie klienta.",
-    "de": "Der Prüfer überprüfte gestern die Belege sorgfältig beim Kunden."
-   },
-   {
-    "en": "The doctor informed the family gently at the hospital yesterday.",
-    "pl": "Lekarka delikatnie poinformowała wczoraj rodzinę w szpitalu.",
-    "de": "Die Ärztin informierte die Familie gestern behutsam im Krankenhaus."
-   },
-   {
-    "en": "The courier delivered the package personally to our office yesterday.",
-    "pl": "Kurier wczoraj osobiście dostarczył paczkę do naszego biura.",
-    "de": "Der Kurier lieferte gestern das Paket persönlich in unser Büro."
-   },
-   {
-    "en": "Our team reviews the figures carefully in the office every Monday.",
-    "pl": "Nasz zespół co poniedziałek dokładnie sprawdza liczby w biurze.",
-    "de": "Unser Team überprüft jeden Montag sorgfältig die Zahlen im Büro."
-   },
-   {
-    "en": "The technicians are repairing the equipment quickly at the factory today.",
-    "pl": "Technicy naprawiają dziś szybko urządzenia w fabryce.",
-    "de": "Die Techniker reparieren heute schnell die Geräte in der Fabrik."
-   },
-   {
-    "en": "The doctor examines patients carefully in the clinic every morning.",
-    "pl": "Lekarz co rano starannie bada pacjentów w klinice.",
-    "de": "Der Arzt untersucht jeden Morgen sorgfältig Patienten in der Klinik."
-   },
-   {
-    "en": "The researchers are analysing the samples carefully in the laboratory this week.",
-    "pl": "Naukowcy analizują w tym tygodniu dokładnie próbki w laboratorium.",
-    "de": "Die Forscher analysieren diese Woche die Proben sorgfältig im Labor."
-   },
-   {
-    "en": "The doctor explained the treatment calmly to the patient in the consultation room.",
-    "pl": "Lekarz spokojnie wyjaśnił pacjentowi leczenie w gabinecie.",
-    "de": "Der Arzt erklärte dem Patienten die Behandlung ruhig im Sprechzimmer."
-   },
-   {
-    "en": "The investigators questioned the witness in detail at police headquarters on Monday.",
-    "pl": "W poniedziałek śledczy szczegółowo przesłuchali świadka w komendzie.",
-    "de": "Die Ermittler befragten den Zeugen am Montag ausführlich im Präsidium."
-   },
-   {
-    "en": "The specialists discussed the risks in detail at the headquarters yesterday.",
-    "pl": "Specjaliści wczoraj szczegółowo omówili ryzyka w centrali.",
-    "de": "Die Fachleute besprachen gestern die Risiken ausführlich in der Zentrale."
-   },
-   {
-    "en": "The director presented the new strategy confidently in Berlin yesterday.",
-    "pl": "Dyrektor wczoraj pewnie przedstawił nową strategię w Berlinie.",
-    "de": "Der Direktor präsentierte gestern selbstbewusst die neue Strategie in Berlin."
-   },
-   {
-    "en": "The president warmly received the delegation in the government district on Wednesday.",
-    "pl": "W środę prezydent serdecznie przyjął delegację w dzielnicy rządowej.",
-    "de": "Der Präsident empfing die Delegation am Mittwoch herzlich im Regierungsviertel."
-   },
-   {
-    "en": "The employees usually travel together to the training centre by bus.",
-    "pl": "Pracownicy zwykle jadą razem autobusem do centrum szkoleniowego.",
-    "de": "Die Mitarbeiter fahren normalerweise gemeinsam mit dem Bus zum Schulungszentrum."
-   },
-   {
-    "en": "The customs officers strictly inspected the lorries at the border yesterday morning.",
-    "pl": "Wczoraj rano celnicy surowo kontrolowali ciężarówki na granicy.",
-    "de": "Die Zollbeamten kontrollierten die Lastwagen gestern Morgen streng an der Grenze."
-   },
-   {
-    "en": "The company sends the invoices electronically to its customers every month.",
-    "pl": "Firma co miesiąc wysyła faktury elektronicznie do swoich klientów.",
-    "de": "Das Unternehmen verschickt jeden Monat die Rechnungen elektronisch an seine Kunden."
-   },
-   {
-    "en": "The government is discussing the issue intensively in Brussels this week.",
-    "pl": "Rząd intensywnie omawia w tym tygodniu tę kwestię w Brukseli.",
-    "de": "Die Regierung diskutiert diese Woche intensiv die Frage in Brüssel."
-   },
-   {
-    "en": "The investigators examined the documents thoroughly at the company headquarters yesterday.",
-    "pl": "Śledczy wczoraj gruntownie zbadali dokumenty w siedzibie firmy.",
-    "de": "Die Ermittler untersuchten gestern die Dokumente gründlich in der Unternehmenszentrale."
-   },
-   {
-    "en": "The authorities are monitoring the situation continuously from the regional coordination centre.",
-    "pl": "Władze nieprzerwanie monitorują sytuację z regionalnego centrum koordynacji.",
-    "de": "Die Behörden beobachten die Lage kontinuierlich vom regionalen Koordinierungszentrum aus."
-   },
-   {
-    "en": "The engineers tested the new system repeatedly in the laboratory last month.",
-    "pl": "Inżynierowie w zeszłym miesiącu wielokrotnie testowali nowy system w laboratorium.",
-    "de": "Die Ingenieure testeten letzten Monat das neue System wiederholt im Labor."
-   },
-   {
-    "en": "The team completed the reconciliation accurately at the regional office yesterday afternoon.",
-    "pl": "Zespół wczoraj po południu dokładnie zakończył uzgodnienie w biurze regionalnym.",
-    "de": "Das Team schloss gestern Nachmittag die Abstimmung korrekt im Regionalbüro ab."
-   },
-   {
-    "en": "The analysts compared the forecasts carefully in the meeting this morning.",
-    "pl": "Analitycy dziś rano starannie porównali prognozy na spotkaniu.",
-    "de": "Die Analysten verglichen heute Morgen die Prognosen sorgfältig in der Besprechung."
-   },
-   {
-    "en": "The team will prepare the documents together in the conference room this afternoon.",
-    "pl": "Zespół przygotuje dziś po południu wspólnie dokumenty w sali konferencyjnej.",
-    "de": "Das Team wird heute Nachmittag gemeinsam die Dokumente im Konferenzraum vorbereiten."
-   },
-   {
-    "en": "The experts will evaluate the evidence independently at the investigation centre next month.",
-    "pl": "Eksperci w przyszłym miesiącu niezależnie ocenią dowody w centrum śledczym.",
-    "de": "Die Experten werden nächsten Monat die Beweise unabhängig im Ermittlungszentrum bewerten."
-   },
-   {
-    "en": "The director will explain the revised procedure personally to the employees tomorrow.",
-    "pl": "Dyrektor jutro osobiście wyjaśni pracownikom zmienioną procedurę.",
-    "de": "Der Direktor wird morgen den Mitarbeitern das überarbeitete Verfahren persönlich erklären."
-   },
-   {
-    "en": "The audit team documented the control failures carefully at the client's premises during the review.",
-    "pl": "Zespół audytowy podczas przeglądu starannie udokumentował braki w kontroli w siedzibie klienta.",
-    "de": "Das Prüfungsteam dokumentierte während der Prüfung die Kontrollmängel sorgfältig beim Kunden."
-   },
-   {
-    "en": "The manager will discuss the proposal openly with the client tomorrow.",
-    "pl": "Menedżer omówi jutro otwarcie propozycję z klientem.",
-    "de": "Der Manager wird morgen offen mit dem Kunden über den Vorschlag sprechen."
-   },
-   {
-    "en": "The team is preparing the presentation together at the client's office today.",
-    "pl": "Zespół przygotowuje dziś wspólnie prezentację w biurze klienta.",
-    "de": "Das Team bereitet heute gemeinsam die Präsentation im Büro des Kunden vor."
-   },
-   {
-    "en": "The department will review the budget thoroughly at headquarters tomorrow morning.",
-    "pl": "Dział przejrzy jutro rano gruntownie budżet w centrali.",
-    "de": "Die Abteilung wird morgen früh das Budget gründlich in der Zentrale überprüfen."
-   },
-   {
-    "en": "The company has transported the equipment safely to the new warehouse this week.",
-    "pl": "Firma w tym tygodniu bezpiecznie przewiozła sprzęt do nowego magazynu.",
-    "de": "Das Unternehmen hat diese Woche die Geräte sicher zum neuen Lager transportiert."
-   },
-   {
-    "en": "The government announced the new measures formally in parliament on Wednesday.",
-    "pl": "Rząd w środę formalnie ogłosił nowe środki w parlamencie.",
-    "de": "Die Regierung kündigte am Mittwoch die neuen Maßnahmen offiziell im Parlament an."
-   },
-   {
-    "en": "The agency distributed the emergency supplies efficiently across the region last night.",
-    "pl": "Agencja zeszłej nocy sprawnie rozdała zapasy awaryjne w całym regionie.",
-    "de": "Die Behörde verteilte letzte Nacht die Notfallvorräte effizient in der gesamten Region."
-   },
-   {
-    "en": "The team has analysed the market data comprehensively at its research centre this quarter.",
-    "pl": "Zespół w tym kwartale kompleksowo przeanalizował dane rynkowe w swoim centrum badawczym.",
-    "de": "Das Team hat dieses Quartal die Marktdaten umfassend in seinem Forschungszentrum analysiert."
-   },
-   {
-    "en": "The department has sent the updated figures electronically to the regional offices today.",
-    "pl": "Dział dziś wysłał elektronicznie zaktualizowane dane do biur regionalnych.",
-    "de": "Die Abteilung hat heute die aktualisierten Zahlen elektronisch an die Regionalbüros geschickt."
-   },
-   {
-    "en": "The medical teams are monitoring the outbreak closely in the affected districts every day.",
-    "pl": "Zespoły medyczne codziennie uważnie monitorują ognisko choroby w dotkniętych dzielnicach.",
-    "de": "Die medizinischen Teams beobachten den Ausbruch täglich aufmerksam in den betroffenen Bezirken."
-   },
-   {
-    "en": "The project team will present the final results clearly in the main office next Friday.",
-    "pl": "Zespół projektowy przedstawi w przyszły piątek jasno wyniki końcowe w biurze głównym.",
-    "de": "Das Projektteam wird nächsten Freitag die endgültigen Ergebnisse klar im Hauptbüro präsentieren."
-   },
-   {
-    "en": "The board will assess the investment proposal independently at its headquarters next week.",
-    "pl": "Zarząd w przyszłym tygodniu niezależnie oceni propozycję inwestycyjną w swojej siedzibie.",
-    "de": "Der Vorstand wird nächste Woche den Investitionsvorschlag unabhängig in seiner Zentrale bewerten."
-   },
-   {
-    "en": "The company will transport the products by rail to the port next week.",
-    "pl": "Firma w przyszłym tygodniu przewiezie produkty koleją do portu.",
-    "de": "Das Unternehmen wird nächste Woche die Produkte mit der Bahn zum Hafen transportieren."
-   },
-   {
-    "en": "The agency distributed emergency assistance rapidly across the affected districts during the night.",
-    "pl": "Agencja w nocy szybko rozdała pomoc doraźną w dotkniętych dzielnicach.",
-    "de": "Die Behörde verteilte während der Nacht die Nothilfe schnell in den betroffenen Bezirken."
-   },
-   {
-    "en": "The company is introducing the new procedure gradually across all its locations this year.",
-    "pl": "Firma w tym roku stopniowo wprowadza nową procedurę we wszystkich swoich lokalizacjach.",
-    "de": "Das Unternehmen führt dieses Jahr das neue Verfahren schrittweise an allen Standorten ein."
-   },
-   {
-    "en": "The committee reviewed the proposal objectively at its meeting in Brussels last Thursday.",
-    "pl": "Komisja w zeszły czwartek obiektywnie rozpatrzyła propozycję na posiedzeniu w Brukseli.",
-    "de": "Der Ausschuss prüfte letzten Donnerstag den Vorschlag objektiv bei seiner Sitzung in Brüssel."
-   },
-   {
-    "en": "The researchers recorded the results precisely with specialised equipment at the test facility last month.",
-    "pl": "Naukowcy w zeszłym miesiącu precyzyjnie zarejestrowali wyniki za pomocą specjalistycznego sprzętu w obiekcie testowym.",
-    "de": "Die Forscher erfassten letzten Monat die Ergebnisse präzise mit Spezialgeräten in der Testanlage."
-   },
-   {
-    "en": "The company has transferred the sensitive files securely to its data centre this morning.",
-    "pl": "Firma dziś rano bezpiecznie przeniosła poufne pliki do swojego centrum danych.",
-    "de": "Das Unternehmen hat heute Morgen die vertraulichen Dateien sicher in sein Rechenzentrum übertragen."
-   },
-   {
-    "en": "The government has distributed financial support directly to the affected households this week.",
-    "pl": "Rząd w tym tygodniu bezpośrednio rozdzielił pomoc finansową dotkniętym gospodarstwom domowym.",
-    "de": "Die Regierung hat diese Woche finanzielle Unterstützung direkt an die betroffenen Haushalte verteilt."
-   },
-   {
-    "en": "The organisation delivered the medical supplies safely to the affected communities last week.",
-    "pl": "Organizacja w zeszłym tygodniu bezpiecznie dostarczyła zaopatrzenie medyczne do dotkniętych społeczności.",
-    "de": "Die Organisation lieferte letzte Woche die medizinischen Hilfsgüter sicher in die betroffenen Gemeinden."
-   },
-   {
-    "en": "The investigation team reconstructed the sequence of events meticulously at the central laboratory after the incident.",
-    "pl": "Zespół śledczy po incydencie skrupulatnie odtworzył przebieg zdarzeń w centralnym laboratorium.",
-    "de": "Das Ermittlungsteam rekonstruierte nach dem Vorfall den Ablauf der Ereignisse akribisch im Zentrallabor."
-   },
-   {
-    "en": "The company will deliver the replacement components promptly by air to the affected site tomorrow.",
-    "pl": "Firma jutro niezwłocznie dostarczy części zamienne drogą powietrzną na dotknięte miejsce.",
-    "de": "Das Unternehmen wird morgen die Ersatzteile unverzüglich per Luftfracht zum betroffenen Standort liefern."
-   },
-   {
-    "en": "The company has implemented the revised controls consistently across all regional offices since January.",
-    "pl": "Firma od stycznia konsekwentnie wdrożyła zmienione kontrole we wszystkich biurach regionalnych.",
-    "de": "Das Unternehmen hat seit Januar die überarbeiteten Kontrollen konsequent in allen Regionalbüros umgesetzt."
-   },
-   {
-    "en": "The delegation discussed the security arrangements confidentially with officials in Geneva on Tuesday.",
-    "pl": "Delegacja we wtorek poufnie omówiła ustalenia dotyczące bezpieczeństwa z urzędnikami w Genewie.",
-    "de": "Die Delegation besprach die Sicherheitsvorkehrungen am Dienstag vertraulich mit den Verantwortlichen in Genf."
-   },
-   {
-    "en": "The hospital transferred the patient safely by ambulance to the specialist clinic overnight.",
-    "pl": "Szpital przewiózł w nocy bezpiecznie pacjenta karetką do kliniki specjalistycznej.",
-    "de": "Das Krankenhaus brachte den Patienten über Nacht sicher mit dem Krankenwagen in die Fachklinik."
-   },
-   {
-    "en": "The commission examined the allegations independently at its offices in Strasbourg over several months.",
-    "pl": "Komisja przez kilka miesięcy niezależnie badała zarzuty w swoich biurach w Strasburgu.",
-    "de": "Die Kommission untersuchte die Vorwürfe über mehrere Monate unabhängig in ihren Büros in Straßburg."
-   },
-   {
-    "en": "The auditors verified the reported transactions independently at the local office before the deadline.",
-    "pl": "Audytorzy przed terminem niezależnie zweryfikowali zgłoszone transakcje w lokalnym biurze.",
-    "de": "Die Prüfer verifizierten vor Ablauf der Frist die gemeldeten Transaktionen unabhängig im örtlichen Büro."
-   },
-   {
-    "en": "The authorities confirmed the disruption officially at a press briefing in the capital this morning.",
-    "pl": "Władze dziś rano oficjalnie potwierdziły zakłócenie na briefingu prasowym w stolicy.",
-    "de": "Die Behörden bestätigten heute Morgen die Störung offiziell bei einer Pressekonferenz in der Hauptstadt."
-   },
-   {
-    "en": "After the announcement, the spokesperson answered the journalists' questions calmly at the press conference.",
-    "pl": "Po ogłoszeniu rzeczniczka spokojnie odpowiedziała na pytania dziennikarzy na konferencji prasowej.",
-    "de": "Nach der Ankündigung beantwortete die Sprecherin die Fragen der Journalisten ruhig auf der Pressekonferenz."
-   },
-   {
-    "en": "The government is coordinating additional assistance closely with international partners in the capital this week.",
-    "pl": "Rząd w tym tygodniu ściśle koordynuje dodatkową pomoc z partnerami międzynarodowymi w stolicy.",
-    "de": "Die Regierung koordiniert diese Woche zusätzliche Unterstützung eng mit internationalen Partnern in der Hauptstadt."
-   },
-   {
-    "en": "The organisation coordinated the relief effort efficiently from its regional headquarters throughout the crisis.",
-    "pl": "Organizacja przez cały kryzys sprawnie koordynowała pomoc ze swojej centrali regionalnej.",
-    "de": "Die Organisation koordinierte während der gesamten Krise die Hilfsmaßnahmen effizient von ihrer Regionalzentrale aus."
-   },
-   {
-    "en": "The authorities are distributing essential supplies rapidly to isolated communities throughout the affected region.",
-    "pl": "Władze szybko rozdzielają niezbędne zaopatrzenie odizolowanym społecznościom w całym dotkniętym regionie.",
-    "de": "Die Behörden verteilen lebenswichtige Güter rasch an abgelegene Gemeinden in der gesamten betroffenen Region."
-   },
-   {
-    "en": "The company disclosed the updated financial information transparently to investors in London on Monday.",
-    "pl": "Firma w poniedziałek w sposób przejrzysty ujawniła zaktualizowane informacje finansowe inwestorom w Londynie.",
-    "de": "Das Unternehmen legte am Montag die aktualisierten Finanzinformationen transparent gegenüber Investoren in London offen."
-   },
-   {
-    "en": "The ministry will publish the revised guidance promptly on its official website next week.",
-    "pl": "Ministerstwo w przyszłym tygodniu niezwłocznie opublikuje zmienione wytyczne na swojej oficjalnej stronie.",
-    "de": "Das Ministerium wird nächste Woche die überarbeiteten Leitlinien unverzüglich auf seiner offiziellen Website veröffentlichen."
-   },
-   {
-    "en": "The authorities have secured the affected area effectively around the facility since the incident.",
-    "pl": "Władze od incydentu skutecznie zabezpieczają dotknięty obszar wokół obiektu.",
-    "de": "Die Behörden haben seit dem Vorfall den betroffenen Bereich wirksam rund um die Anlage abgesichert."
-   },
-   {
-    "en": "The medical team assessed the patient's condition carefully in the emergency department during the night.",
-    "pl": "Zespół medyczny w nocy starannie ocenił stan pacjenta na oddziale ratunkowym.",
-    "de": "Das medizinische Team beurteilte während der Nacht den Zustand des Patienten sorgfältig in der Notaufnahme."
-   },
-   {
-    "en": "The engineers restored the damaged network carefully at the central facility over the weekend.",
-    "pl": "Inżynierowie w weekend starannie przywrócili uszkodzoną sieć w centralnym obiekcie.",
-    "de": "Die Ingenieure stellten am Wochenende das beschädigte Netzwerk sorgfältig in der zentralen Anlage wieder her."
-   },
-   {
-    "en": "The administration has communicated the revised policy clearly to local officials across the country.",
-    "pl": "Administracja jasno przekazała zmienioną politykę lokalnym urzędnikom w całym kraju.",
-    "de": "Die Verwaltung hat die überarbeitete Richtlinie klar an die lokalen Verantwortlichen im ganzen Land kommuniziert."
-   },
-   {
-    "en": "The election observers reported that the vote had gone off largely peacefully in all districts on Sunday.",
-    "pl": "Obserwatorzy wyborów poinformowali, że głosowanie w niedzielę przebiegło w większości pokojowo we wszystkich okręgach.",
-    "de": "Die Wahlbeobachter berichteten, dass die Abstimmung am Sonntag weitgehend friedlich in allen Bezirken verlaufen sei."
-   },
-   {
-    "en": "The company will present its findings publicly at the international conference in Vienna next month.",
-    "pl": "Firma w przyszłym miesiącu publicznie przedstawi swoje ustalenia na międzynarodowej konferencji w Wiedniu.",
-    "de": "Das Unternehmen wird nächsten Monat seine Ergebnisse öffentlich auf der internationalen Konferenz in Wien präsentieren."
-   },
-   {
-    "en": "The agency will publish the preliminary findings promptly on its website after the investigation concludes.",
-    "pl": "Agencja po zakończeniu dochodzenia niezwłocznie opublikuje wstępne ustalenia na swojej stronie internetowej.",
-    "de": "Die Behörde wird nach Abschluss der Untersuchung die vorläufigen Ergebnisse unverzüglich auf ihrer Website veröffentlichen."
-   },
-   {
-    "en": "The emergency crews transported the injured quickly by helicopter to the nearest hospital after the incident.",
-    "pl": "Ratownicy po incydencie szybko przewieźli rannych helikopterem do najbliższego szpitala.",
-    "de": "Die Rettungskräfte transportierten nach dem Vorfall die Verletzten schnell mit dem Hubschrauber ins nächstgelegene Krankenhaus."
-   },
-   {
-    "en": "With the greatest care, the team transported the sensitive samples to the special laboratory in Hamburg yesterday.",
-    "pl": "Z największą ostrożnością zespół przetransportował wczoraj wrażliwe próbki do specjalistycznego laboratorium w Hamburgu.",
-    "de": "Mit größter Vorsicht hat das Team die empfindlichen Proben gestern in das Speziallabor in Hamburg transportiert."
-   },
-   {
-    "en": "By the end of the year, the authority is supposed to process the approval procedures significantly faster and, if possible, digitally in all federal states.",
-    "pl": "Do końca roku urząd ma załatwiać procedury zatwierdzające znacznie szybciej i w miarę możliwości cyfrowo we wszystkich landach.",
-    "de": "Bis zum Jahresende soll die Behörde die Genehmigungsverfahren deutlich schneller und möglichst digital in allen Bundesländern abwickeln."
-   },
-   {
-    "en": "In the coming weeks, the public prosecutor's office wants to have the seized data carriers evaluated very carefully in the forensic laboratory.",
-    "pl": "Prokuratura chce w nadchodzących tygodniach bardzo starannie zlecić analizę zabezpieczonych nośników danych w laboratorium kryminalistycznym.",
-    "de": "Die Staatsanwaltschaft will die beschlagnahmten Datenträger in den kommenden Wochen sehr sorgfältig im forensischen Labor auswerten lassen."
-   },
-   {
-    "en": "In recent months, the research team has continuously collected the measurement data at the edge of the glacier using highly sensitive sensors.",
-    "pl": "W ostatnich miesiącach zespół badawczy nieprzerwanie zbierał dane pomiarowe za pomocą bardzo czułych czujników na krawędzi lodowca.",
-    "de": "Das Forschungsteam hat die Messdaten in den letzten Monaten mit hochempfindlichen Sensoren kontinuierlich am Rand des Gletschers erhoben."
-   },
-   {
-    "en": "Because the supply chain had collapsed, we had to rush the spare parts to Warsaw by air freight in March.",
-    "pl": "Ponieważ łańcuch dostaw się załamał, w marcu musieliśmy w wielkim pośpiechu przewieźć części zamienne drogą powietrzną do Warszawy.",
-    "de": "Weil die Lieferkette zusammengebrochen war, mussten wir die Ersatzteile im März in aller Eile per Luftfracht nach Warschau schaffen."
-   },
-   {
-    "en": "During the night, despite extreme cold, the rescue workers recovered the trapped people from the collapsed building with great effort.",
-    "pl": "W nocy, mimo ekstremalnego zimna, ratownicy z wielkim trudem wydobyli zasypanych z zawalonego budynku.",
-    "de": "Die Rettungskräfte haben die Verschütteten in der Nacht trotz extremer Kälte mit großer Mühe aus dem eingestürzten Gebäude geborgen."
-   },
-   {
-    "en": "Yesterday evening, the minister defended the controversial reform in front of the assembled parliament in an unusually emotional way and with great emphasis.",
-    "pl": "Wczoraj wieczorem minister wyjątkowo emocjonalnie i z dużym naciskiem bronił kontrowersyjnej reformy przed zgromadzonym parlamentem.",
-    "de": "Der Minister hat die umstrittene Reform gestern Abend ungewöhnlich emotional und mit großem Nachdruck vor dem versammelten Parlament verteidigt."
-   },
-   {
-    "en": "Although the schedule was tight, the engineers built the bridge across the river on time and without incident in the autumn.",
-    "pl": "Chociaż harmonogram był napięty, jesienią inżynierowie zbudowali most przez rzekę terminowo i bez incydentów.",
-    "de": "Obwohl der Zeitplan eng war, haben die Ingenieure die Brücke im Herbst termingerecht und ohne Zwischenfälle über den Fluss gebaut."
-   },
-   {
-    "en": "Over the past two years, the company has gradually and without much fuss relocated its production from Asia to Eastern Europe.",
-    "pl": "W ciągu ostatnich dwóch lat firma stopniowo i bez większego rozgłosu przeniosła swoją produkcję z Azji do Europy Wschodniej.",
-    "de": "Das Unternehmen hat seine Produktion in den vergangenen zwei Jahren schrittweise und ohne großes Aufsehen von Asien nach Osteuropa verlagert."
-   },
-   {
-    "en": "It is advisable to back up the sensitive data daily, encrypted and exclusively on servers within the European Union in future.",
-    "pl": "Zaleca się, aby w przyszłości codziennie, w formie zaszyfrowanej i wyłącznie na serwerach w Unii Europejskiej tworzyć kopie zapasowe wrażliwych danych.",
-    "de": "Es empfiehlt sich, die sensiblen Daten künftig täglich, verschlüsselt und ausschließlich auf Servern innerhalb der Europäischen Union zu sichern."
-   },
-   {
-    "en": "According to eyewitnesses, the police cleared the demonstrators from the occupied building with disproportionate force during the night to Saturday.",
-    "pl": "Jak relacjonują świadkowie, policja w nocy z piątku na sobotę z nieproporcjonalną siłą usunęła demonstrantów z okupowanego budynku.",
-    "de": "Wie Augenzeugen berichten, hat die Polizei die Demonstranten in der Nacht auf Samstag mit unverhältnismäßiger Härte aus dem besetzten Gebäude geräumt."
-   },
-   {
-    "en": "Hardly anyone had foreseen that the negotiations would be conducted in autumn in such a tough and at times downright hostile manner in the small circle of parliamentary group leaders.",
-    "pl": "Prawie nikt nie przewidział, że jesienią negocjacje będą prowadzone tak opornie i chwilami wręcz wrogo w wąskim gronie przewodniczących klubów parlamentarnych.",
-    "de": "Dass die Verhandlungen im Herbst derart zäh und bisweilen geradezu feindselig im kleinen Kreis der Fraktionsvorsitzenden geführt wurden, hatte kaum jemand vorhergesehen."
-   },
-   {
-    "en": "As it later turned out, the department had for months been routinely forwarding the reports to the head office in Frankfurt without any substantive review.",
-    "pl": "Jak się później okazało, dział od miesięcy rutynowo i bez jakiejkolwiek merytorycznej weryfikacji przekazywał raporty do centrali we Frankfurcie.",
-    "de": "Wie sich später herausstellte, hatte die Abteilung die Berichte seit Monaten routinemäßig und ohne jede inhaltliche Prüfung an die Zentrale in Frankfurt weitergeleitet."
-   },
-   {
-    "en": "Although the renovation was originally supposed to be completed quickly and cost-effectively in the old building as early as last spring, it dragged on into winter.",
-    "pl": "Chociaż remont pierwotnie miał zostać zakończony już w zeszłą wiosnę szybko i tanio w starym budynku, przeciągnął się do zimy.",
-    "de": "Obwohl die Sanierung ursprünglich bereits im vergangenen Frühjahr zügig und kostengünstig im Altbau abgeschlossen werden sollte, zog sie sich bis in den Winter hinein."
-   },
-   {
-    "en": "The group, which has gradually and largely without noise moved its manufacturing to Poland since 2019, now finds itself confronted with massive criticism from the unions.",
-    "pl": "Koncern, który od 2019 roku stopniowo i w dużej mierze po cichu przenosił produkcję do Polski, spotyka się teraz z ostrą krytyką związków zawodowych.",
-    "de": "Der Konzern, der seine Fertigung seit 2019 schrittweise und weitgehend geräuschlos nach Polen verlagert hat, sieht sich nun mit massiver Kritik der Gewerkschaften konfrontiert."
-   },
-   {
-    "en": "After the court had announced the verdict on Tuesday morning amid great media interest in the overcrowded Room 101, the defendants left the room with stony faces.",
-    "pl": "Gdy sąd we wtorek przed południem, przy ogromnym zainteresowaniu mediów, ogłosił wyrok w przepełnionej sali 101, oskarżeni opuścili salę z kamiennymi twarzami.",
-    "de": "Nachdem das Gericht das Urteil am Dienstagvormittag unter großem Medieninteresse im überfüllten Saal 101 verkündet hatte, verließen die Angeklagten den Raum mit versteinerter Miene."
-   },
-   {
-    "en": "The report concludes that in recent years the funding was often used inefficiently and partly for the wrong purposes in structurally weak regions.",
-    "pl": "Z raportu wynika, że w ostatnich latach środki dotacyjne były często wykorzystywane nieefektywnie i częściowo niezgodnie z przeznaczeniem w regionach słabo rozwiniętych strukturalnie.",
-    "de": "Der Bericht kommt zu dem Schluss, dass die Fördermittel in den vergangenen Jahren häufig ineffizient und teilweise zweckentfremdet in strukturschwachen Regionen eingesetzt worden sind."
-   },
-   {
-    "en": "Instead of commissioning the plant, as planned, in stages in spring and under strict supervision at the Bremen site, the management opted for immediate commissioning.",
-    "pl": "Zamiast uruchomić instalację zgodnie z planem wiosną, etapami i pod ścisłym nadzorem w lokalizacji w Bremie, kierownictwo zdecydowało się na natychmiastowe uruchomienie.",
-    "de": "Anstatt die Anlage wie geplant im Frühjahr stufenweise und unter strenger Aufsicht am Standort Bremen in Betrieb zu nehmen, entschied sich die Geschäftsführung für eine sofortige Inbetriebnahme."
-   },
-   {
-    "en": "The fact that the authority published the preliminary results on its website as early as Monday, surprisingly early and without prior consultation, caused considerable irritation among those involved.",
-    "pl": "To, że urząd już w poniedziałek, zaskakująco wcześnie i bez wcześniejszych uzgodnień, opublikował wstępne wyniki na swojej stronie internetowej, wywołało u zainteresowanych znaczne poruszenie.",
-    "de": "Dass die Behörde die vorläufigen Ergebnisse schon am Montag überraschend früh und ohne vorherige Absprache auf ihrer Website veröffentlicht hat, sorgte bei den Beteiligten für erhebliche Irritation."
-   }
+    {
+      "en": "She studies at home every evening.",
+      "pl": "Co wieczór uczy się w domu.",
+      "de": "Sie lernt jeden Abend zu Hause.",
+      "level": "A2"
+    },
+    {
+      "en": "We are reading attentively in the garden today.",
+      "pl": "Dziś czytamy uważnie w ogrodzie.",
+      "de": "Wir lesen heute aufmerksam im Garten.",
+      "level": "A2"
+    },
+    {
+      "en": "The meeting takes place here today.",
+      "pl": "Spotkanie odbywa się dziś tutaj.",
+      "de": "Die Besprechung findet heute hier statt.",
+      "level": "A2"
+    },
+    {
+      "en": "He runs quickly in the park every morning.",
+      "pl": "Co rano szybko biega w parku.",
+      "de": "Er läuft jeden Morgen schnell im Park.",
+      "level": "A2"
+    },
+    {
+      "en": "I am studying with concentration in the library today.",
+      "pl": "Dziś uczę się w skupieniu w bibliotece.",
+      "de": "Ich lerne heute konzentriert in der Bibliothek.",
+      "level": "A2"
+    },
+    {
+      "en": "The bus arrives here at eight o'clock.",
+      "pl": "Autobus przyjeżdża tutaj o ósmej.",
+      "de": "Der Bus kommt um acht Uhr hier an.",
+      "level": "A2"
+    },
+    {
+      "en": "The children play happily in the garden every day.",
+      "pl": "Dzieci codziennie wesoło bawią się w ogrodzie.",
+      "de": "Die Kinder spielen jeden Tag fröhlich im Garten.",
+      "level": "A2"
+    },
+    {
+      "en": "The train travels quietly through the countryside at night.",
+      "pl": "Pociąg jedzie nocą cicho przez okolicę.",
+      "de": "Der Zug fährt nachts leise durch die Landschaft.",
+      "level": "A2"
+    },
+    {
+      "en": "I read quietly in the library every afternoon.",
+      "pl": "Co popołudnie czytam cicho w bibliotece.",
+      "de": "Ich lese jeden Nachmittag ruhig in der Bibliothek.",
+      "level": "A2"
+    },
+    {
+      "en": "They are meeting in the city centre this afternoon.",
+      "pl": "Spotykają się dziś po południu w centrum miasta.",
+      "de": "Sie treffen sich heute Nachmittag in der Innenstadt.",
+      "level": "A2"
+    },
+    {
+      "en": "The team has been working intensively at the client's site since Monday.",
+      "pl": "Zespół od poniedziałku intensywnie pracuje u klienta.",
+      "de": "Das Team arbeitet seit Montag intensiv beim Kunden.",
+      "level": "B1"
+    },
+    {
+      "en": "The students are working quietly in the computer room this morning.",
+      "pl": "Studenci pracują dziś rano cicho w pracowni komputerowej.",
+      "de": "Die Studierenden arbeiten heute Morgen ruhig im Computerraum.",
+      "level": "B1"
+    },
+    {
+      "en": "We are having lunch together in the canteen today.",
+      "pl": "Dziś jemy razem obiad w stołówce.",
+      "de": "Wir essen heute gemeinsam in der Kantine zu Mittag.",
+      "level": "B1"
+    },
+    {
+      "en": "My colleague explains the process clearly in the meeting.",
+      "pl": "Moja koleżanka jasno wyjaśnia przebieg na spotkaniu.",
+      "de": "Meine Kollegin erklärt den Ablauf klar in der Besprechung.",
+      "level": "B1"
+    },
+    {
+      "en": "The company delivers goods safely to Austria every week.",
+      "pl": "Firma co tydzień bezpiecznie dostarcza towary do Austrii.",
+      "de": "Das Unternehmen liefert jede Woche sicher Waren nach Österreich.",
+      "level": "B1"
+    },
+    {
+      "en": "The auditor checked the supporting documents carefully at the client's premises yesterday.",
+      "pl": "Audytor wczoraj starannie sprawdził dokumenty źródłowe w siedzibie klienta.",
+      "de": "Der Prüfer überprüfte gestern die Belege sorgfältig beim Kunden.",
+      "level": "B1"
+    },
+    {
+      "en": "The doctor informed the family gently at the hospital yesterday.",
+      "pl": "Lekarka delikatnie poinformowała wczoraj rodzinę w szpitalu.",
+      "de": "Die Ärztin informierte die Familie gestern behutsam im Krankenhaus.",
+      "level": "B1"
+    },
+    {
+      "en": "The courier delivered the package personally to our office yesterday.",
+      "pl": "Kurier wczoraj osobiście dostarczył paczkę do naszego biura.",
+      "de": "Der Kurier lieferte gestern das Paket persönlich in unser Büro.",
+      "level": "B1"
+    },
+    {
+      "en": "Our team reviews the figures carefully in the office every Monday.",
+      "pl": "Nasz zespół co poniedziałek dokładnie sprawdza liczby w biurze.",
+      "de": "Unser Team überprüft jeden Montag sorgfältig die Zahlen im Büro.",
+      "level": "B1"
+    },
+    {
+      "en": "The technicians are repairing the equipment quickly at the factory today.",
+      "pl": "Technicy naprawiają dziś szybko urządzenia w fabryce.",
+      "de": "Die Techniker reparieren heute schnell die Geräte in der Fabrik.",
+      "level": "B1"
+    },
+    {
+      "en": "The doctor examines patients carefully in the clinic every morning.",
+      "pl": "Lekarz co rano starannie bada pacjentów w klinice.",
+      "de": "Der Arzt untersucht jeden Morgen sorgfältig Patienten in der Klinik.",
+      "level": "B1"
+    },
+    {
+      "en": "The researchers are analysing the samples carefully in the laboratory this week.",
+      "pl": "Naukowcy analizują w tym tygodniu dokładnie próbki w laboratorium.",
+      "de": "Die Forscher analysieren diese Woche die Proben sorgfältig im Labor.",
+      "level": "B1"
+    },
+    {
+      "en": "The doctor explained the treatment calmly to the patient in the consultation room.",
+      "pl": "Lekarz spokojnie wyjaśnił pacjentowi leczenie w gabinecie.",
+      "de": "Der Arzt erklärte dem Patienten die Behandlung ruhig im Sprechzimmer.",
+      "level": "B1"
+    },
+    {
+      "en": "The investigators questioned the witness in detail at police headquarters on Monday.",
+      "pl": "W poniedziałek śledczy szczegółowo przesłuchali świadka w komendzie.",
+      "de": "Die Ermittler befragten den Zeugen am Montag ausführlich im Präsidium.",
+      "level": "B1"
+    },
+    {
+      "en": "The specialists discussed the risks in detail at the headquarters yesterday.",
+      "pl": "Specjaliści wczoraj szczegółowo omówili ryzyka w centrali.",
+      "de": "Die Fachleute besprachen gestern die Risiken ausführlich in der Zentrale.",
+      "level": "B1"
+    },
+    {
+      "en": "The director presented the new strategy confidently in Berlin yesterday.",
+      "pl": "Dyrektor wczoraj pewnie przedstawił nową strategię w Berlinie.",
+      "de": "Der Direktor präsentierte gestern selbstbewusst die neue Strategie in Berlin.",
+      "level": "B1"
+    },
+    {
+      "en": "The president warmly received the delegation in the government district on Wednesday.",
+      "pl": "W środę prezydent serdecznie przyjął delegację w dzielnicy rządowej.",
+      "de": "Der Präsident empfing die Delegation am Mittwoch herzlich im Regierungsviertel.",
+      "level": "B1"
+    },
+    {
+      "en": "The employees usually travel together to the training centre by bus.",
+      "pl": "Pracownicy zwykle jadą razem autobusem do centrum szkoleniowego.",
+      "de": "Die Mitarbeiter fahren normalerweise gemeinsam mit dem Bus zum Schulungszentrum.",
+      "level": "B1"
+    },
+    {
+      "en": "The customs officers strictly inspected the lorries at the border yesterday morning.",
+      "pl": "Wczoraj rano celnicy surowo kontrolowali ciężarówki na granicy.",
+      "de": "Die Zollbeamten kontrollierten die Lastwagen gestern Morgen streng an der Grenze.",
+      "level": "B1"
+    },
+    {
+      "en": "The company sends the invoices electronically to its customers every month.",
+      "pl": "Firma co miesiąc wysyła faktury elektronicznie do swoich klientów.",
+      "de": "Das Unternehmen verschickt jeden Monat die Rechnungen elektronisch an seine Kunden.",
+      "level": "B1"
+    },
+    {
+      "en": "The government is discussing the issue intensively in Brussels this week.",
+      "pl": "Rząd intensywnie omawia w tym tygodniu tę kwestię w Brukseli.",
+      "de": "Die Regierung diskutiert diese Woche intensiv die Frage in Brüssel.",
+      "level": "B2"
+    },
+    {
+      "en": "The investigators examined the documents thoroughly at the company headquarters yesterday.",
+      "pl": "Śledczy wczoraj gruntownie zbadali dokumenty w siedzibie firmy.",
+      "de": "Die Ermittler untersuchten gestern die Dokumente gründlich in der Unternehmenszentrale.",
+      "level": "B2"
+    },
+    {
+      "en": "The authorities are monitoring the situation continuously from the regional coordination centre.",
+      "pl": "Władze nieprzerwanie monitorują sytuację z regionalnego centrum koordynacji.",
+      "de": "Die Behörden beobachten die Lage kontinuierlich vom regionalen Koordinierungszentrum aus.",
+      "level": "B2"
+    },
+    {
+      "en": "The engineers tested the new system repeatedly in the laboratory last month.",
+      "pl": "Inżynierowie w zeszłym miesiącu wielokrotnie testowali nowy system w laboratorium.",
+      "de": "Die Ingenieure testeten letzten Monat das neue System wiederholt im Labor.",
+      "level": "B2"
+    },
+    {
+      "en": "The team completed the reconciliation accurately at the regional office yesterday afternoon.",
+      "pl": "Zespół wczoraj po południu dokładnie zakończył uzgodnienie w biurze regionalnym.",
+      "de": "Das Team schloss gestern Nachmittag die Abstimmung korrekt im Regionalbüro ab.",
+      "level": "B2"
+    },
+    {
+      "en": "The analysts compared the forecasts carefully in the meeting this morning.",
+      "pl": "Analitycy dziś rano starannie porównali prognozy na spotkaniu.",
+      "de": "Die Analysten verglichen heute Morgen die Prognosen sorgfältig in der Besprechung.",
+      "level": "B2"
+    },
+    {
+      "en": "The team will prepare the documents together in the conference room this afternoon.",
+      "pl": "Zespół przygotuje dziś po południu wspólnie dokumenty w sali konferencyjnej.",
+      "de": "Das Team wird heute Nachmittag gemeinsam die Dokumente im Konferenzraum vorbereiten.",
+      "level": "B2"
+    },
+    {
+      "en": "The experts will evaluate the evidence independently at the investigation centre next month.",
+      "pl": "Eksperci w przyszłym miesiącu niezależnie ocenią dowody w centrum śledczym.",
+      "de": "Die Experten werden nächsten Monat die Beweise unabhängig im Ermittlungszentrum bewerten.",
+      "level": "B2"
+    },
+    {
+      "en": "The director will explain the revised procedure personally to the employees tomorrow.",
+      "pl": "Dyrektor jutro osobiście wyjaśni pracownikom zmienioną procedurę.",
+      "de": "Der Direktor wird morgen den Mitarbeitern das überarbeitete Verfahren persönlich erklären.",
+      "level": "B2"
+    },
+    {
+      "en": "The audit team documented the control failures carefully at the client's premises during the review.",
+      "pl": "Zespół audytowy podczas przeglądu starannie udokumentował braki w kontroli w siedzibie klienta.",
+      "de": "Das Prüfungsteam dokumentierte während der Prüfung die Kontrollmängel sorgfältig beim Kunden.",
+      "level": "B2"
+    },
+    {
+      "en": "The manager will discuss the proposal openly with the client tomorrow.",
+      "pl": "Menedżer omówi jutro otwarcie propozycję z klientem.",
+      "de": "Der Manager wird morgen offen mit dem Kunden über den Vorschlag sprechen.",
+      "level": "B2"
+    },
+    {
+      "en": "The team is preparing the presentation together at the client's office today.",
+      "pl": "Zespół przygotowuje dziś wspólnie prezentację w biurze klienta.",
+      "de": "Das Team bereitet heute gemeinsam die Präsentation im Büro des Kunden vor.",
+      "level": "B2"
+    },
+    {
+      "en": "The department will review the budget thoroughly at headquarters tomorrow morning.",
+      "pl": "Dział przejrzy jutro rano gruntownie budżet w centrali.",
+      "de": "Die Abteilung wird morgen früh das Budget gründlich in der Zentrale überprüfen.",
+      "level": "B2"
+    },
+    {
+      "en": "The company has transported the equipment safely to the new warehouse this week.",
+      "pl": "Firma w tym tygodniu bezpiecznie przewiozła sprzęt do nowego magazynu.",
+      "de": "Das Unternehmen hat diese Woche die Geräte sicher zum neuen Lager transportiert.",
+      "level": "B2"
+    },
+    {
+      "en": "The government announced the new measures formally in parliament on Wednesday.",
+      "pl": "Rząd w środę formalnie ogłosił nowe środki w parlamencie.",
+      "de": "Die Regierung kündigte am Mittwoch die neuen Maßnahmen offiziell im Parlament an.",
+      "level": "B2"
+    },
+    {
+      "en": "The agency distributed the emergency supplies efficiently across the region last night.",
+      "pl": "Agencja zeszłej nocy sprawnie rozdała zapasy awaryjne w całym regionie.",
+      "de": "Die Behörde verteilte letzte Nacht die Notfallvorräte effizient in der gesamten Region.",
+      "level": "B2"
+    },
+    {
+      "en": "The team has analysed the market data comprehensively at its research centre this quarter.",
+      "pl": "Zespół w tym kwartale kompleksowo przeanalizował dane rynkowe w swoim centrum badawczym.",
+      "de": "Das Team hat dieses Quartal die Marktdaten umfassend in seinem Forschungszentrum analysiert.",
+      "level": "B2"
+    },
+    {
+      "en": "The department has sent the updated figures electronically to the regional offices today.",
+      "pl": "Dział dziś wysłał elektronicznie zaktualizowane dane do biur regionalnych.",
+      "de": "Die Abteilung hat heute die aktualisierten Zahlen elektronisch an die Regionalbüros geschickt.",
+      "level": "B2"
+    },
+    {
+      "en": "The medical teams are monitoring the outbreak closely in the affected districts every day.",
+      "pl": "Zespoły medyczne codziennie uważnie monitorują ognisko choroby w dotkniętych dzielnicach.",
+      "de": "Die medizinischen Teams beobachten den Ausbruch täglich aufmerksam in den betroffenen Bezirken.",
+      "level": "B2"
+    },
+    {
+      "en": "The project team will present the final results clearly in the main office next Friday.",
+      "pl": "Zespół projektowy przedstawi w przyszły piątek jasno wyniki końcowe w biurze głównym.",
+      "de": "Das Projektteam wird nächsten Freitag die endgültigen Ergebnisse klar im Hauptbüro präsentieren.",
+      "level": "B2"
+    },
+    {
+      "en": "The board will assess the investment proposal independently at its headquarters next week.",
+      "pl": "Zarząd w przyszłym tygodniu niezależnie oceni propozycję inwestycyjną w swojej siedzibie.",
+      "de": "Der Vorstand wird nächste Woche den Investitionsvorschlag unabhängig in seiner Zentrale bewerten.",
+      "level": "B2"
+    },
+    {
+      "en": "The company will transport the products by rail to the port next week.",
+      "pl": "Firma w przyszłym tygodniu przewiezie produkty koleją do portu.",
+      "de": "Das Unternehmen wird nächste Woche die Produkte mit der Bahn zum Hafen transportieren.",
+      "level": "B2"
+    },
+    {
+      "en": "The agency distributed emergency assistance rapidly across the affected districts during the night.",
+      "pl": "Agencja w nocy szybko rozdała pomoc doraźną w dotkniętych dzielnicach.",
+      "de": "Die Behörde verteilte während der Nacht die Nothilfe schnell in den betroffenen Bezirken.",
+      "level": "B2"
+    },
+    {
+      "en": "The company is introducing the new procedure gradually across all its locations this year.",
+      "pl": "Firma w tym roku stopniowo wprowadza nową procedurę we wszystkich swoich lokalizacjach.",
+      "de": "Das Unternehmen führt dieses Jahr das neue Verfahren schrittweise an allen Standorten ein.",
+      "level": "B2"
+    },
+    {
+      "en": "The committee reviewed the proposal objectively at its meeting in Brussels last Thursday.",
+      "pl": "Komisja w zeszły czwartek obiektywnie rozpatrzyła propozycję na posiedzeniu w Brukseli.",
+      "de": "Der Ausschuss prüfte letzten Donnerstag den Vorschlag objektiv bei seiner Sitzung in Brüssel.",
+      "level": "B2"
+    },
+    {
+      "en": "The researchers recorded the results precisely with specialised equipment at the test facility last month.",
+      "pl": "Naukowcy w zeszłym miesiącu precyzyjnie zarejestrowali wyniki za pomocą specjalistycznego sprzętu w obiekcie testowym.",
+      "de": "Die Forscher erfassten letzten Monat die Ergebnisse präzise mit Spezialgeräten in der Testanlage.",
+      "level": "B2"
+    },
+    {
+      "en": "The company has transferred the sensitive files securely to its data centre this morning.",
+      "pl": "Firma dziś rano bezpiecznie przeniosła poufne pliki do swojego centrum danych.",
+      "de": "Das Unternehmen hat heute Morgen die vertraulichen Dateien sicher in sein Rechenzentrum übertragen.",
+      "level": "B2"
+    },
+    {
+      "en": "The government has distributed financial support directly to the affected households this week.",
+      "pl": "Rząd w tym tygodniu bezpośrednio rozdzielił pomoc finansową dotkniętym gospodarstwom domowym.",
+      "de": "Die Regierung hat diese Woche finanzielle Unterstützung direkt an die betroffenen Haushalte verteilt.",
+      "level": "B2"
+    },
+    {
+      "en": "The organisation delivered the medical supplies safely to the affected communities last week.",
+      "pl": "Organizacja w zeszłym tygodniu bezpiecznie dostarczyła zaopatrzenie medyczne do dotkniętych społeczności.",
+      "de": "Die Organisation lieferte letzte Woche die medizinischen Hilfsgüter sicher in die betroffenen Gemeinden.",
+      "level": "B2"
+    },
+    {
+      "en": "The investigation team reconstructed the sequence of events meticulously at the central laboratory after the incident.",
+      "pl": "Zespół śledczy po incydencie skrupulatnie odtworzył przebieg zdarzeń w centralnym laboratorium.",
+      "de": "Das Ermittlungsteam rekonstruierte nach dem Vorfall den Ablauf der Ereignisse akribisch im Zentrallabor.",
+      "level": "B2"
+    },
+    {
+      "en": "The company will deliver the replacement components promptly by air to the affected site tomorrow.",
+      "pl": "Firma jutro niezwłocznie dostarczy części zamienne drogą powietrzną na dotknięte miejsce.",
+      "de": "Das Unternehmen wird morgen die Ersatzteile unverzüglich per Luftfracht zum betroffenen Standort liefern.",
+      "level": "B2"
+    },
+    {
+      "en": "The company has implemented the revised controls consistently across all regional offices since January.",
+      "pl": "Firma od stycznia konsekwentnie wdrożyła zmienione kontrole we wszystkich biurach regionalnych.",
+      "de": "Das Unternehmen hat seit Januar die überarbeiteten Kontrollen konsequent in allen Regionalbüros umgesetzt.",
+      "level": "B2"
+    },
+    {
+      "en": "The delegation discussed the security arrangements confidentially with officials in Geneva on Tuesday.",
+      "pl": "Delegacja we wtorek poufnie omówiła ustalenia dotyczące bezpieczeństwa z urzędnikami w Genewie.",
+      "de": "Die Delegation besprach die Sicherheitsvorkehrungen am Dienstag vertraulich mit den Verantwortlichen in Genf.",
+      "level": "B2"
+    },
+    {
+      "en": "The hospital transferred the patient safely by ambulance to the specialist clinic overnight.",
+      "pl": "Szpital przewiózł w nocy bezpiecznie pacjenta karetką do kliniki specjalistycznej.",
+      "de": "Das Krankenhaus brachte den Patienten über Nacht sicher mit dem Krankenwagen in die Fachklinik.",
+      "level": "B2"
+    },
+    {
+      "en": "The commission examined the allegations independently at its offices in Strasbourg over several months.",
+      "pl": "Komisja przez kilka miesięcy niezależnie badała zarzuty w swoich biurach w Strasburgu.",
+      "de": "Die Kommission untersuchte die Vorwürfe über mehrere Monate unabhängig in ihren Büros in Straßburg.",
+      "level": "B2"
+    },
+    {
+      "en": "The auditors verified the reported transactions independently at the local office before the deadline.",
+      "pl": "Audytorzy przed terminem niezależnie zweryfikowali zgłoszone transakcje w lokalnym biurze.",
+      "de": "Die Prüfer verifizierten vor Ablauf der Frist die gemeldeten Transaktionen unabhängig im örtlichen Büro.",
+      "level": "B2"
+    },
+    {
+      "en": "The authorities confirmed the disruption officially at a press briefing in the capital this morning.",
+      "pl": "Władze dziś rano oficjalnie potwierdziły zakłócenie na briefingu prasowym w stolicy.",
+      "de": "Die Behörden bestätigten heute Morgen die Störung offiziell bei einer Pressekonferenz in der Hauptstadt.",
+      "level": "B2"
+    },
+    {
+      "en": "After the announcement, the spokesperson answered the journalists' questions calmly at the press conference.",
+      "pl": "Po ogłoszeniu rzeczniczka spokojnie odpowiedziała na pytania dziennikarzy na konferencji prasowej.",
+      "de": "Nach der Ankündigung beantwortete die Sprecherin die Fragen der Journalisten ruhig auf der Pressekonferenz.",
+      "level": "B2"
+    },
+    {
+      "en": "The government is coordinating additional assistance closely with international partners in the capital this week.",
+      "pl": "Rząd w tym tygodniu ściśle koordynuje dodatkową pomoc z partnerami międzynarodowymi w stolicy.",
+      "de": "Die Regierung koordiniert diese Woche zusätzliche Unterstützung eng mit internationalen Partnern in der Hauptstadt.",
+      "level": "B2"
+    },
+    {
+      "en": "The organisation coordinated the relief effort efficiently from its regional headquarters throughout the crisis.",
+      "pl": "Organizacja przez cały kryzys sprawnie koordynowała pomoc ze swojej centrali regionalnej.",
+      "de": "Die Organisation koordinierte während der gesamten Krise die Hilfsmaßnahmen effizient von ihrer Regionalzentrale aus.",
+      "level": "B2"
+    },
+    {
+      "en": "The authorities are distributing essential supplies rapidly to isolated communities throughout the affected region.",
+      "pl": "Władze szybko rozdzielają niezbędne zaopatrzenie odizolowanym społecznościom w całym dotkniętym regionie.",
+      "de": "Die Behörden verteilen lebenswichtige Güter rasch an abgelegene Gemeinden in der gesamten betroffenen Region.",
+      "level": "C1"
+    },
+    {
+      "en": "The company disclosed the updated financial information transparently to investors in London on Monday.",
+      "pl": "Firma w poniedziałek w sposób przejrzysty ujawniła zaktualizowane informacje finansowe inwestorom w Londynie.",
+      "de": "Das Unternehmen legte am Montag die aktualisierten Finanzinformationen transparent gegenüber Investoren in London offen.",
+      "level": "C1"
+    },
+    {
+      "en": "The ministry will publish the revised guidance promptly on its official website next week.",
+      "pl": "Ministerstwo w przyszłym tygodniu niezwłocznie opublikuje zmienione wytyczne na swojej oficjalnej stronie.",
+      "de": "Das Ministerium wird nächste Woche die überarbeiteten Leitlinien unverzüglich auf seiner offiziellen Website veröffentlichen.",
+      "level": "C1"
+    },
+    {
+      "en": "The authorities have secured the affected area effectively around the facility since the incident.",
+      "pl": "Władze od incydentu skutecznie zabezpieczają dotknięty obszar wokół obiektu.",
+      "de": "Die Behörden haben seit dem Vorfall den betroffenen Bereich wirksam rund um die Anlage abgesichert.",
+      "level": "C1"
+    },
+    {
+      "en": "The medical team assessed the patient's condition carefully in the emergency department during the night.",
+      "pl": "Zespół medyczny w nocy starannie ocenił stan pacjenta na oddziale ratunkowym.",
+      "de": "Das medizinische Team beurteilte während der Nacht den Zustand des Patienten sorgfältig in der Notaufnahme.",
+      "level": "C1"
+    },
+    {
+      "en": "The engineers restored the damaged network carefully at the central facility over the weekend.",
+      "pl": "Inżynierowie w weekend starannie przywrócili uszkodzoną sieć w centralnym obiekcie.",
+      "de": "Die Ingenieure stellten am Wochenende das beschädigte Netzwerk sorgfältig in der zentralen Anlage wieder her.",
+      "level": "C1"
+    },
+    {
+      "en": "The administration has communicated the revised policy clearly to local officials across the country.",
+      "pl": "Administracja jasno przekazała zmienioną politykę lokalnym urzędnikom w całym kraju.",
+      "de": "Die Verwaltung hat die überarbeitete Richtlinie klar an die lokalen Verantwortlichen im ganzen Land kommuniziert.",
+      "level": "C1"
+    },
+    {
+      "en": "The election observers reported that the vote had gone off largely peacefully in all districts on Sunday.",
+      "pl": "Obserwatorzy wyborów poinformowali, że głosowanie w niedzielę przebiegło w większości pokojowo we wszystkich okręgach.",
+      "de": "Die Wahlbeobachter berichteten, dass die Abstimmung am Sonntag weitgehend friedlich in allen Bezirken verlaufen sei.",
+      "level": "C1"
+    },
+    {
+      "en": "The company will present its findings publicly at the international conference in Vienna next month.",
+      "pl": "Firma w przyszłym miesiącu publicznie przedstawi swoje ustalenia na międzynarodowej konferencji w Wiedniu.",
+      "de": "Das Unternehmen wird nächsten Monat seine Ergebnisse öffentlich auf der internationalen Konferenz in Wien präsentieren.",
+      "level": "C1"
+    },
+    {
+      "en": "The agency will publish the preliminary findings promptly on its website after the investigation concludes.",
+      "pl": "Agencja po zakończeniu dochodzenia niezwłocznie opublikuje wstępne ustalenia na swojej stronie internetowej.",
+      "de": "Die Behörde wird nach Abschluss der Untersuchung die vorläufigen Ergebnisse unverzüglich auf ihrer Website veröffentlichen.",
+      "level": "C1"
+    },
+    {
+      "en": "The emergency crews transported the injured quickly by helicopter to the nearest hospital after the incident.",
+      "pl": "Ratownicy po incydencie szybko przewieźli rannych helikopterem do najbliższego szpitala.",
+      "de": "Die Rettungskräfte transportierten nach dem Vorfall die Verletzten schnell mit dem Hubschrauber ins nächstgelegene Krankenhaus.",
+      "level": "C1"
+    },
+    {
+      "en": "With the greatest care, the team transported the sensitive samples to the special laboratory in Hamburg yesterday.",
+      "pl": "Z największą ostrożnością zespół przetransportował wczoraj wrażliwe próbki do specjalistycznego laboratorium w Hamburgu.",
+      "de": "Mit größter Vorsicht hat das Team die empfindlichen Proben gestern in das Speziallabor in Hamburg transportiert.",
+      "level": "C1"
+    },
+    {
+      "en": "By the end of the year, the authority is supposed to process the approval procedures significantly faster and, if possible, digitally in all federal states.",
+      "pl": "Do końca roku urząd ma załatwiać procedury zatwierdzające znacznie szybciej i w miarę możliwości cyfrowo we wszystkich landach.",
+      "de": "Bis zum Jahresende soll die Behörde die Genehmigungsverfahren deutlich schneller und möglichst digital in allen Bundesländern abwickeln.",
+      "level": "C1"
+    },
+    {
+      "en": "In the coming weeks, the public prosecutor's office wants to have the seized data carriers evaluated very carefully in the forensic laboratory.",
+      "pl": "Prokuratura chce w nadchodzących tygodniach bardzo starannie zlecić analizę zabezpieczonych nośników danych w laboratorium kryminalistycznym.",
+      "de": "Die Staatsanwaltschaft will die beschlagnahmten Datenträger in den kommenden Wochen sehr sorgfältig im forensischen Labor auswerten lassen.",
+      "level": "C1"
+    },
+    {
+      "en": "In recent months, the research team has continuously collected the measurement data at the edge of the glacier using highly sensitive sensors.",
+      "pl": "W ostatnich miesiącach zespół badawczy nieprzerwanie zbierał dane pomiarowe za pomocą bardzo czułych czujników na krawędzi lodowca.",
+      "de": "Das Forschungsteam hat die Messdaten in den letzten Monaten mit hochempfindlichen Sensoren kontinuierlich am Rand des Gletschers erhoben.",
+      "level": "C1"
+    },
+    {
+      "en": "Because the supply chain had collapsed, we had to rush the spare parts to Warsaw by air freight in March.",
+      "pl": "Ponieważ łańcuch dostaw się załamał, w marcu musieliśmy w wielkim pośpiechu przewieźć części zamienne drogą powietrzną do Warszawy.",
+      "de": "Weil die Lieferkette zusammengebrochen war, mussten wir die Ersatzteile im März in aller Eile per Luftfracht nach Warschau schaffen.",
+      "level": "C1"
+    },
+    {
+      "en": "During the night, despite extreme cold, the rescue workers recovered the trapped people from the collapsed building with great effort.",
+      "pl": "W nocy, mimo ekstremalnego zimna, ratownicy z wielkim trudem wydobyli zasypanych z zawalonego budynku.",
+      "de": "Die Rettungskräfte haben die Verschütteten in der Nacht trotz extremer Kälte mit großer Mühe aus dem eingestürzten Gebäude geborgen.",
+      "level": "C1"
+    },
+    {
+      "en": "Yesterday evening, the minister defended the controversial reform in front of the assembled parliament in an unusually emotional way and with great emphasis.",
+      "pl": "Wczoraj wieczorem minister wyjątkowo emocjonalnie i z dużym naciskiem bronił kontrowersyjnej reformy przed zgromadzonym parlamentem.",
+      "de": "Der Minister hat die umstrittene Reform gestern Abend ungewöhnlich emotional und mit großem Nachdruck vor dem versammelten Parlament verteidigt.",
+      "level": "C1"
+    },
+    {
+      "en": "Although the schedule was tight, the engineers built the bridge across the river on time and without incident in the autumn.",
+      "pl": "Chociaż harmonogram był napięty, jesienią inżynierowie zbudowali most przez rzekę terminowo i bez incydentów.",
+      "de": "Obwohl der Zeitplan eng war, haben die Ingenieure die Brücke im Herbst termingerecht und ohne Zwischenfälle über den Fluss gebaut.",
+      "level": "C1"
+    },
+    {
+      "en": "Over the past two years, the company has gradually and without much fuss relocated its production from Asia to Eastern Europe.",
+      "pl": "W ciągu ostatnich dwóch lat firma stopniowo i bez większego rozgłosu przeniosła swoją produkcję z Azji do Europy Wschodniej.",
+      "de": "Das Unternehmen hat seine Produktion in den vergangenen zwei Jahren schrittweise und ohne großes Aufsehen von Asien nach Osteuropa verlagert.",
+      "level": "C1"
+    },
+    {
+      "en": "It is advisable to back up the sensitive data daily, encrypted and exclusively on servers within the European Union in future.",
+      "pl": "Zaleca się, aby w przyszłości codziennie, w formie zaszyfrowanej i wyłącznie na serwerach w Unii Europejskiej tworzyć kopie zapasowe wrażliwych danych.",
+      "de": "Es empfiehlt sich, die sensiblen Daten künftig täglich, verschlüsselt und ausschließlich auf Servern innerhalb der Europäischen Union zu sichern.",
+      "level": "C2"
+    },
+    {
+      "en": "According to eyewitnesses, the police cleared the demonstrators from the occupied building with disproportionate force during the night to Saturday.",
+      "pl": "Jak relacjonują świadkowie, policja w nocy z piątku na sobotę z nieproporcjonalną siłą usunęła demonstrantów z okupowanego budynku.",
+      "de": "Wie Augenzeugen berichten, hat die Polizei die Demonstranten in der Nacht auf Samstag mit unverhältnismäßiger Härte aus dem besetzten Gebäude geräumt.",
+      "level": "C2"
+    },
+    {
+      "en": "Hardly anyone had foreseen that the negotiations would be conducted in autumn in such a tough and at times downright hostile manner in the small circle of parliamentary group leaders.",
+      "pl": "Prawie nikt nie przewidział, że jesienią negocjacje będą prowadzone tak opornie i chwilami wręcz wrogo w wąskim gronie przewodniczących klubów parlamentarnych.",
+      "de": "Dass die Verhandlungen im Herbst derart zäh und bisweilen geradezu feindselig im kleinen Kreis der Fraktionsvorsitzenden geführt wurden, hatte kaum jemand vorhergesehen.",
+      "level": "C2"
+    },
+    {
+      "en": "As it later turned out, the department had for months been routinely forwarding the reports to the head office in Frankfurt without any substantive review.",
+      "pl": "Jak się później okazało, dział od miesięcy rutynowo i bez jakiejkolwiek merytorycznej weryfikacji przekazywał raporty do centrali we Frankfurcie.",
+      "de": "Wie sich später herausstellte, hatte die Abteilung die Berichte seit Monaten routinemäßig und ohne jede inhaltliche Prüfung an die Zentrale in Frankfurt weitergeleitet.",
+      "level": "C2"
+    },
+    {
+      "en": "Although the renovation was originally supposed to be completed quickly and cost-effectively in the old building as early as last spring, it dragged on into winter.",
+      "pl": "Chociaż remont pierwotnie miał zostać zakończony już w zeszłą wiosnę szybko i tanio w starym budynku, przeciągnął się do zimy.",
+      "de": "Obwohl die Sanierung ursprünglich bereits im vergangenen Frühjahr zügig und kostengünstig im Altbau abgeschlossen werden sollte, zog sie sich bis in den Winter hinein.",
+      "level": "C2"
+    },
+    {
+      "en": "The group, which has gradually and largely without noise moved its manufacturing to Poland since 2019, now finds itself confronted with massive criticism from the unions.",
+      "pl": "Koncern, który od 2019 roku stopniowo i w dużej mierze po cichu przenosił produkcję do Polski, spotyka się teraz z ostrą krytyką związków zawodowych.",
+      "de": "Der Konzern, der seine Fertigung seit 2019 schrittweise und weitgehend geräuschlos nach Polen verlagert hat, sieht sich nun mit massiver Kritik der Gewerkschaften konfrontiert.",
+      "level": "C2"
+    },
+    {
+      "en": "After the court had announced the verdict on Tuesday morning amid great media interest in the overcrowded Room 101, the defendants left the room with stony faces.",
+      "pl": "Gdy sąd we wtorek przed południem, przy ogromnym zainteresowaniu mediów, ogłosił wyrok w przepełnionej sali 101, oskarżeni opuścili salę z kamiennymi twarzami.",
+      "de": "Nachdem das Gericht das Urteil am Dienstagvormittag unter großem Medieninteresse im überfüllten Saal 101 verkündet hatte, verließen die Angeklagten den Raum mit versteinerter Miene.",
+      "level": "C2"
+    },
+    {
+      "en": "The report concludes that in recent years the funding was often used inefficiently and partly for the wrong purposes in structurally weak regions.",
+      "pl": "Z raportu wynika, że w ostatnich latach środki dotacyjne były często wykorzystywane nieefektywnie i częściowo niezgodnie z przeznaczeniem w regionach słabo rozwiniętych strukturalnie.",
+      "de": "Der Bericht kommt zu dem Schluss, dass die Fördermittel in den vergangenen Jahren häufig ineffizient und teilweise zweckentfremdet in strukturschwachen Regionen eingesetzt worden sind.",
+      "level": "C2"
+    },
+    {
+      "en": "Instead of commissioning the plant, as planned, in stages in spring and under strict supervision at the Bremen site, the management opted for immediate commissioning.",
+      "pl": "Zamiast uruchomić instalację zgodnie z planem wiosną, etapami i pod ścisłym nadzorem w lokalizacji w Bremie, kierownictwo zdecydowało się na natychmiastowe uruchomienie.",
+      "de": "Anstatt die Anlage wie geplant im Frühjahr stufenweise und unter strenger Aufsicht am Standort Bremen in Betrieb zu nehmen, entschied sich die Geschäftsführung für eine sofortige Inbetriebnahme.",
+      "level": "C2"
+    },
+    {
+      "en": "The fact that the authority published the preliminary results on its website as early as Monday, surprisingly early and without prior consultation, caused considerable irritation among those involved.",
+      "pl": "To, że urząd już w poniedziałek, zaskakująco wcześnie i bez wcześniejszych uzgodnień, opublikował wstępne wyniki na swojej stronie internetowej, wywołało u zainteresowanych znaczne poruszenie.",
+      "de": "Dass die Behörde die vorläufigen Ergebnisse schon am Montag überraschend früh und ohne vorherige Absprache auf ihrer Website veröffentlicht hat, sorgte bei den Beteiligten für erhebliche Irritation.",
+      "level": "C2"
+    }
   ],
   "listening": {
-   "audioUrl": "https://radiodownloaddw-a.akamaihd.net/downloads/Events/dwelle/dira/mp3/deutschkurse/nachrichten_live/FFC8F47F_2.mp3",
-   "articles": [
-    {
-     "heading": "Selenskyj beklagt fehlende Warnung vor russischem Raketenangriff",
-     "text": "Bei einem russischen [[Raketenangriff|1]] auf die ukrainische Hauptstadt Kyjiw ist nach Angaben von Präsident Wolodymyr Selenskyj ein [[Heizkraftwerk|2]] getroffen worden. Zudem wurde ein Wohnhaus beschädigt. Bürgermeister Vitali Klitschko zufolge kamen mindestens zwei Menschen ums Leben, 20 weitere wurden verletzt. Selenskyj kritisierte, die westlichen [[Verbündeten|3]] hätten die Ukraine nicht vor dem Angriff gewarnt. Die eigenen Systeme hätten die Raketen erst kurz vor Kyjiw [[erfasst|4]]. Russland greift seit Wochen verstärkt die ukrainische [[Energieversorgung|5]] an. US-Präsident Donald Trump hatte am Sonntag eine angebliche [[Vereinbarung|6]] zur Einstellung gegenseitiger Angriffe auf Energieanlagen verkündet. Moskau bestätigte dies nicht."
-    },
-    {
-     "heading": "Papst Leo XIV. wegen Lungenkrebs operiert",
-     "text": "Bei Papst Leo XIV. ist Lungenkrebs [[diagnostiziert|7]] worden. Der 71-Jährige wurde in der Gemelli-Klinik in Rom operiert. Dabei entfernten Ärzte den unteren [[Lappen|8]] seiner rechten Lunge, in dem zuvor ein [[Knoten|9]] entdeckt worden war. Bei der Untersuchung wurde ein [[bösartiger|10]] Tumor entdeckt. Nach Angaben der Ärzte verlief der dreistündige [[Eingriff|11]] erfolgreich und ohne Komplikationen. Der Papst soll sich nun etwa eine Woche im Krankenhaus erholen. Ob weitere Behandlungen nötig sind, ist noch unklar. Alle [[Audienzen|12]] bis Mitte kommender Woche wurden abgesagt. Offen ist auch, ob Leo seine für November geplante Südamerika-Reise antreten kann."
-    },
-    {
-     "heading": "US-Regierung trennt sich von Botschafterin in Athen",
-     "text": "Die Botschafterin der USA in Griechenland hat nach Berichten über mutmaßliche [[Bestechlichkeit|13]] ihren [[Posten|14]] aufgegeben. Kimberly Guilfoyle sei gebeten worden, zurückzutreten, sagte die neue Sprecherin des Weißen Hauses, Katie Zacharia. Die Zeitung „Wall Street Journal“ hatte zuvor Nachrichten veröffentlicht, die belegen sollen, dass Guilfoyle einen langjährigen [[Unterstützer|15]] von US-Präsident Donald Trump um eine [[Überweisung|16]] gebeten habe. Dabei sei es um einen Betrag von 100.000 Dollar – umgerechnet 89.000 Euro – gegangen, schrieb das Blatt. Der Mann wiederum habe sich von der Botschafterin Unterstützung erhofft, um die Aufmerksamkeit der Regierung auf persönliche steuerliche Angelegenheiten zu lenken."
-    },
-    {
-     "heading": "Mehr als 9000 Ebola-Erkrankte im Kongo",
-     "text": "Die Zahl der [[registrierten|17]] Ebola-Fälle in der Demokratischen Republik Kongo ist auf mehr als 9000 gestiegen. Nach Regierungsangaben starben seit Mai fast 4400 Menschen an der Erkrankung. Der Ausbruch geht auf den [[Bundibugyo-Stamm|18]] des Virus zurück, für den es keinen [[zugelassenen|19]] Impfstoff gibt. Auch andere Länder sind in [[Mitleidenschaft|20]] gezogen. So bestätigte Kenia in der vergangenen Woche seinen ersten [[eingeschleppten|21]] Fall; der Patient ist inzwischen gestorben. Nach Angaben der afrikanischen Gesundheitsbehörde Africa CDC handelt es sich um den Ebola-Ausbruch mit dem bisher schnellsten Anstieg bei der Zahl der Erkrankten."
-    },
-    {
-     "heading": "Taliban stoppen BBC-Hörfunk in Afghanistan",
-     "text": "Die radikalislamischen Taliban haben die Übertragung der analogen [[Radiosendungen|22]] des britischen Senders BBC in Afghanistan eingestellt. Das teilte die Rundfunkanstalt mit Hauptsitz in London mit. Derzeit werde mit den Behörden an einer Lösung gearbeitet. Millionen Menschen in dem Land seien auf die Nachrichten und Informationen des Senders [[angewiesen|23]], erklärte die BBC. Ein Sprecher des Informationsministeriums der Taliban-Regierung sagte, die über UKW übertragenen Sendungen seien wegen wiederholter [[Verstöße|24]] vorerst gestoppt worden. Um welche [[Verfehlungen|25]] es sich handeln soll, erläuterte er nicht. Die Taliban haben seit ihrer neuerlichen Machtübernahme vor fünf Jahren die [[Pressefreiheit|26]] und die Rechte von Frauen und Mädchen massiv beschnitten."
-    },
-    {
-     "heading": "OpenAI-Mitarbeiter wegen Spionageverdachts festgenommen",
-     "text": "Ein Mitarbeiter des ChatGPT-Entwicklers OpenAI soll ein [[Abhörgerät|27]] in einem Konferenzraum des Unternehmens in San Francisco platziert haben. Der 35-jährige Saudi-Araber wurde nach Angaben von OpenAI und dem US-Justizministerium festgenommen. Das Gerät war in der USB-Buchse eines Fernsehers versteckt. In dem Raum werden häufig [[Geschäftsgeheimnisse|28]] besprochen. Sicherheitskameras sollen den [[Verdächtigen|29]] in der Nähe des Raums gefilmt haben, zu dem er keinen Zutritt hatte. Zudem fanden Ermittler Hinweise auf Recherchen zu Abhörgeräten über einen Chatbot-Account seiner Ehefrau. Das FBI ermittelt. Dem Mann drohen bis zu fünf Jahre [[Haft|30]]."
-    }
-   ],
-   "vocab": [
-    {
-     "id": 1,
-     "word": "der Raketenangriff",
-     "translation": {
-      "en": "missile attack",
-      "pl": "atak rakietowy"
-     },
-     "partOfSpeech": "noun",
-     "level": "B2",
-     "plural": "die Raketenangriffe",
-     "notes": {
-      "en": "An attack carried out with one or more missiles.",
-      "pl": "Atak przeprowadzony przy użyciu jednej lub kilku rakiet."
-     },
-     "examples": [
-      "Der Raketenangriff beschädigte mehrere Gebäude.",
-      "Die Regierung verurteilte den Raketenangriff."
-     ]
-    },
-    {
-     "id": 2,
-     "word": "das Heizkraftwerk",
-     "translation": {
-      "en": "combined heat and power plant",
-      "pl": "elektrociepłownia"
-     },
-     "partOfSpeech": "noun",
-     "level": "C1",
-     "plural": "die Heizkraftwerke",
-     "notes": {
-      "en": "A facility that produces both heat and electricity.",
-      "pl": "Obiekt wytwarzający zarówno ciepło, jak i energię elektryczną."
-     },
-     "examples": [
-      "Das Heizkraftwerk versorgt viele Wohnungen mit Wärme.",
-      "Nach dem Angriff wurde das Heizkraftwerk überprüft."
-     ]
-    },
-    {
-     "id": 3,
-     "word": "der Verbündete",
-     "translation": {
-      "en": "ally",
-      "pl": "sojusznik"
-     },
-     "partOfSpeech": "noun",
-     "level": "B2",
-     "plural": "die Verbündeten",
-     "notes": {
-      "en": "A person or country that cooperates with another, especially politically or militarily.",
-      "pl": "Osoba lub państwo współpracujące z innym, zwłaszcza politycznie lub militarnie."
-     },
-     "examples": [
-      "Die Verbündeten beraten über weitere Maßnahmen.",
-      "Der Minister informierte die Verbündeten über die Lage."
-     ]
-    },
-    {
-     "id": 4,
-     "word": "erfassen",
-     "translation": {
-      "en": "to detect; to register",
-      "pl": "wykryć, zarejestrować"
-     },
-     "partOfSpeech": "verb",
-     "level": "B2",
-     "plural": "",
-     "notes": {
-      "en": "To detect, record, or capture information about something.",
-      "pl": "Wykryć, zapisać lub uchwycić informacje o czymś."
-     },
-     "examples": [
-      "Das Radar konnte das Flugzeug frühzeitig erfassen.",
-      "Die Software erfasst alle relevanten Daten."
-     ]
-    },
-    {
-     "id": 5,
-     "word": "die Energieversorgung",
-     "translation": {
-      "en": "energy supply",
-      "pl": "zaopatrzenie w energię"
-     },
-     "partOfSpeech": "noun",
-     "level": "B2",
-     "plural": "die Energieversorgungen",
-     "notes": {
-      "en": "The systems and processes that provide energy.",
-      "pl": "Systemy i procesy dostarczające energię."
-     },
-     "examples": [
-      "Die Energieversorgung muss auch im Winter gesichert sein.",
-      "Der Sturm hat die Energieversorgung mehrerer Dörfer unterbrochen."
-     ]
-    },
-    {
-     "id": 6,
-     "word": "die Vereinbarung",
-     "translation": {
-      "en": "agreement",
-      "pl": "porozumienie"
-     },
-     "partOfSpeech": "noun",
-     "level": "B1",
-     "plural": "die Vereinbarungen",
-     "notes": {
-      "en": "An arrangement or agreement reached between parties.",
-      "pl": "Ustalenie osiągnięte między stronami."
-     },
-     "examples": [
-      "Beide Seiten haben eine Vereinbarung getroffen.",
-      "Die Vereinbarung tritt im nächsten Monat in Kraft."
-     ]
-    },
-    {
-     "id": 7,
-     "word": "diagnostizieren",
-     "translation": {
-      "en": "to diagnose",
-      "pl": "zdiagnozować"
-     },
-     "partOfSpeech": "verb",
-     "level": "B2",
-     "plural": "",
-     "notes": {
-      "en": "To identify a disease or condition through medical assessment.",
-      "pl": "Rozpoznać chorobę lub stan na podstawie oceny medycznej."
-     },
-     "examples": [
-      "Die Ärztin konnte die Krankheit früh diagnostizieren.",
-      "Bei dem Patienten wurde eine seltene Erkrankung diagnostiziert."
-     ]
-    },
-    {
-     "id": 8,
-     "word": "der Lappen",
-     "translation": {
-      "en": "lobe (of an organ)",
-      "pl": "płat (narządu)"
-     },
-     "partOfSpeech": "noun",
-     "level": "C1",
-     "plural": "die Lappen",
-     "notes": {
-      "en": "A distinct section of an organ, such as a lung.",
-      "pl": "Wyraźna część narządu, np. płuca."
-     },
-     "examples": [
-      "Der Arzt untersuchte den unteren Lappen der Lunge.",
-      "Ein Teil des Lappens musste entfernt werden."
-     ]
-    },
-    {
-     "id": 9,
-     "word": "der Knoten",
-     "translation": {
-      "en": "nodule; lump",
-      "pl": "guzek, węzeł"
-     },
-     "partOfSpeech": "noun",
-     "level": "B2",
-     "plural": "die Knoten",
-     "notes": {
-      "en": "A small abnormal mass or swelling in tissue.",
-      "pl": "Mała nieprawidłowa masa lub obrzęk w tkance."
-     },
-     "examples": [
-      "Bei der Untersuchung wurde ein Knoten entdeckt.",
-      "Der Knoten muss weiter untersucht werden."
-     ]
-    },
-    {
-     "id": 10,
-     "word": "bösartig",
-     "translation": {
-      "en": "malignant",
-      "pl": "złośliwy"
-     },
-     "partOfSpeech": "adjective",
-     "level": "C1",
-     "plural": "",
-     "notes": {
-      "en": "Describes a tumour or disease that can grow and spread aggressively.",
-      "pl": "Określenie nowotworu lub choroby, która może rosnąć i rozprzestrzeniać się agresywnie."
-     },
-     "examples": [
-      "Der Arzt erklärte, dass der Tumor bösartig sei.",
-      "Eine bösartige Erkrankung erfordert oft eine schnelle Behandlung."
-     ]
-    },
-    {
-     "id": 11,
-     "word": "der Eingriff",
-     "translation": {
-      "en": "procedure; surgical intervention",
-      "pl": "zabieg, ingerencja chirurgiczna"
-     },
-     "partOfSpeech": "noun",
-     "level": "B2",
-     "plural": "die Eingriffe",
-     "notes": {
-      "en": "A medical operation or other intervention.",
-      "pl": "Operacja medyczna lub inna interwencja."
-     },
-     "examples": [
-      "Der Eingriff dauerte ungefähr zwei Stunden.",
-      "Nach dem Eingriff blieb die Patientin im Krankenhaus."
-     ]
-    },
-    {
-     "id": 12,
-     "word": "die Audienz",
-     "translation": {
-      "en": "audience; formal meeting with a dignitary",
-      "pl": "audiencja, oficjalne spotkanie z dostojnikiem"
-     },
-     "partOfSpeech": "noun",
-     "level": "C1",
-     "plural": "die Audienzen",
-     "notes": {
-      "en": "A formal appointment with a senior religious or political figure.",
-      "pl": "Oficjalne spotkanie z wysokim przedstawicielem władzy religijnej lub politycznej."
-     },
-     "examples": [
-      "Die Audienz wurde kurzfristig abgesagt.",
-      "Während der Audienz sprach der Botschafter über die Zusammenarbeit."
-     ]
-    },
-    {
-     "id": 13,
-     "word": "die Bestechlichkeit",
-     "translation": {
-      "en": "susceptibility to bribery; corruptibility",
-      "pl": "przekupność, skłonność do łapówek"
-     },
-     "partOfSpeech": "noun",
-     "level": "C1",
-     "plural": "",
-     "notes": {
-      "en": "The quality of being willing to accept bribes.",
-      "pl": "Cecha osoby gotowej przyjmować łapówki."
-     },
-     "examples": [
-      "Die Staatsanwaltschaft untersucht den Verdacht der Bestechlichkeit.",
-      "Bestechlichkeit kann das Vertrauen in öffentliche Institutionen zerstören."
-     ]
-    },
-    {
-     "id": 14,
-     "word": "der Posten",
-     "translation": {
-      "en": "post; position",
-      "pl": "stanowisko"
-     },
-     "partOfSpeech": "noun",
-     "level": "B1",
-     "plural": "die Posten",
-     "notes": {
-      "en": "A job or official position, especially one with responsibility.",
-      "pl": "Praca lub urzędowa funkcja, zwłaszcza związana z odpowiedzialnością."
-     },
-     "examples": [
-      "Sie hat ihren Posten nach drei Jahren aufgegeben.",
-      "Der Posten wird im nächsten Monat neu besetzt."
-     ]
-    },
-    {
-     "id": 15,
-     "word": "der Unterstützer",
-     "translation": {
-      "en": "supporter",
-      "pl": "zwolennik, sympatyk"
-     },
-     "partOfSpeech": "noun",
-     "level": "B1",
-     "plural": "die Unterstützer",
-     "notes": {
-      "en": "A person who supports a person, organisation, or cause.",
-      "pl": "Osoba wspierająca człowieka, organizację lub sprawę."
-     },
-     "examples": [
-      "Der Unterstützer spendete Geld für das Projekt.",
-      "Die Kandidatin dankte ihren Unterstützern für die Hilfe."
-     ]
-    },
-    {
-     "id": 16,
-     "word": "die Überweisung",
-     "translation": {
-      "en": "bank transfer",
-      "pl": "przelew"
-     },
-     "partOfSpeech": "noun",
-     "level": "B2",
-     "plural": "die Überweisungen",
-     "notes": {
-      "en": "The transfer of money from one bank account to another.",
-      "pl": "Przekazanie pieniędzy z jednego rachunku bankowego na inny."
-     },
-     "examples": [
-      "Die Überweisung wurde gestern ausgeführt.",
-      "Für die Überweisung benötigt man die richtige Kontonummer."
-     ]
-    },
-    {
-     "id": 17,
-     "word": "registriert",
-     "translation": {
-      "en": "registered; recorded",
-      "pl": "zarejestrowany"
-     },
-     "partOfSpeech": "adjective",
-     "level": "B2",
-     "plural": "",
-     "notes": {
-      "en": "Recorded in an official system or register.",
-      "pl": "Zapisany w oficjalnym systemie lub rejestrze."
-     },
-     "examples": [
-      "Die registrierten Fälle werden täglich überprüft.",
-      "Nur registrierte Nutzer können auf das Portal zugreifen."
-     ]
-    },
-    {
-     "id": 18,
-     "word": "der Bundibugyo-Stamm",
-     "translation": {
-      "en": "Bundibugyo strain",
-      "pl": "szczep Bundibugyo"
-     },
-     "partOfSpeech": "noun",
-     "level": "C1",
-     "plural": "die Bundibugyo-Stämme",
-     "notes": {
-      "en": "A strain of Ebola virus associated with Bundibugyo ebolavirus.",
-      "pl": "Szczep wirusa Ebola związany z wirusem Bundibugyo ebolavirus."
-     },
-     "examples": [
-      "Der Bundibugyo-Stamm wurde in einer früheren Epidemie nachgewiesen.",
-      "Forschende untersuchen die Eigenschaften des Bundibugyo-Stamms."
-     ]
-    },
-    {
-     "id": 19,
-     "word": "zugelassen",
-     "translation": {
-      "en": "approved; authorised",
-      "pl": "dopuszczony, zatwierdzony"
-     },
-     "partOfSpeech": "adjective",
-     "level": "B2",
-     "plural": "",
-     "notes": {
-      "en": "Officially approved for use by the relevant authority.",
-      "pl": "Oficjalnie zatwierdzony do użycia przez właściwy organ."
-     },
-     "examples": [
-      "Für diese Anwendung ist kein Impfstoff zugelassen.",
-      "Das Medikament wurde in mehreren Ländern zugelassen."
-     ]
-    },
-    {
-     "id": 20,
-     "word": "die Mitleidenschaft",
-     "translation": {
-      "en": "harmful impact; being affected",
-      "pl": "negatywny wpływ, dotknięcie szkodą"
-     },
-     "partOfSpeech": "noun",
-     "level": "C1",
-     "plural": "",
-     "notes": {
-      "en": "Usually appears in the phrase „in Mitleidenschaft ziehen“.",
-      "pl": "Zwykle występuje w zwrocie „in Mitleidenschaft ziehen” (negatywnie dotknąć, narazić na szkody)."
-     },
-     "examples": [
-      "Der Sturm hat mehrere Regionen in Mitleidenschaft gezogen.",
-      "Die Krise zog auch kleine Unternehmen in Mitleidenschaft."
-     ]
-    },
-    {
-     "id": 21,
-     "word": "eingeschleppt",
-     "translation": {
-      "en": "imported; introduced (of a disease)",
-      "pl": "zawleczony, sprowadzony (o chorobie)"
-     },
-     "partOfSpeech": "adjective",
-     "level": "C1",
-     "plural": "",
-     "notes": {
-      "en": "Used for a disease or organism brought into a place from elsewhere.",
-      "pl": "O chorobie lub organizmie przeniesionym w dane miejsce z zewnątrz."
-     },
-     "examples": [
-      "Der erste eingeschleppte Fall wurde sofort gemeldet.",
-      "Die Behörden wollen weitere eingeschleppte Infektionen verhindern."
-     ]
-    },
-    {
-     "id": 22,
-     "word": "die Radiosendung",
-     "translation": {
-      "en": "radio broadcast",
-      "pl": "audycja radiowa"
-     },
-     "partOfSpeech": "noun",
-     "level": "B1",
-     "plural": "die Radiosendungen",
-     "notes": {
-      "en": "A programme or transmission broadcast on radio.",
-      "pl": "Program lub transmisja nadawana w radiu."
-     },
-     "examples": [
-      "Die Radiosendung beginnt heute um acht Uhr.",
-      "Viele Menschen hören die Radiosendung jeden Morgen."
-     ]
-    },
-    {
-     "id": 23,
-     "word": "angewiesen sein auf",
-     "translation": {
-      "en": "to depend on",
-      "pl": "być zależnym od, być skazanym na"
-     },
-     "partOfSpeech": "verb phrase",
-     "level": "B2",
-     "plural": "",
-     "notes": {
-      "en": "Describes dependence on a person, service, or resource; takes auf plus accusative.",
-      "pl": "Oznacza zależność od osoby, usługi lub zasobu; łączy się z auf + biernik."
-     },
-     "examples": [
-      "Viele Familien sind auf öffentliche Verkehrsmittel angewiesen.",
-      "Das Krankenhaus ist auf regelmäßige Lieferungen angewiesen."
-     ]
-    },
-    {
-     "id": 24,
-     "word": "der Verstoß",
-     "translation": {
-      "en": "violation; breach",
-      "pl": "naruszenie"
-     },
-     "partOfSpeech": "noun",
-     "level": "B2",
-     "plural": "die Verstöße",
-     "notes": {
-      "en": "An act that breaks a rule, law, or agreement.",
-      "pl": "Czyn łamiący zasadę, prawo lub umowę."
-     },
-     "examples": [
-      "Der Verstoß gegen die Vorschriften wurde dokumentiert.",
-      "Wiederholte Verstöße können zu einer Strafe führen."
-     ]
-    },
-    {
-     "id": 25,
-     "word": "die Verfehlung",
-     "translation": {
-      "en": "misconduct; transgression",
-      "pl": "uchybienie, wykroczenie"
-     },
-     "partOfSpeech": "noun",
-     "level": "C1",
-     "plural": "die Verfehlungen",
-     "notes": {
-      "en": "An action considered improper or wrong, especially by an authority.",
-      "pl": "Czyn uznawany za niewłaściwy, zwłaszcza przez organ władzy."
-     },
-     "examples": [
-      "Die Behörde erklärte nicht, welche Verfehlungen gemeint waren.",
-      "Der Bericht beschreibt mehrere mögliche Verfehlungen."
-     ]
-    },
-    {
-     "id": 26,
-     "word": "die Pressefreiheit",
-     "translation": {
-      "en": "freedom of the press",
-      "pl": "wolność prasy"
-     },
-     "partOfSpeech": "noun",
-     "level": "B2",
-     "plural": "",
-     "notes": {
-      "en": "The freedom of journalists and media to report without undue interference.",
-      "pl": "Swoboda dziennikarzy i mediów w informowaniu bez nadmiernej ingerencji."
-     },
-     "examples": [
-      "Pressefreiheit ist ein wichtiger Bestandteil einer Demokratie.",
-      "Die Organisation setzt sich für die Pressefreiheit ein."
-     ]
-    },
-    {
-     "id": 27,
-     "word": "das Abhörgerät",
-     "translation": {
-      "en": "listening device; bug",
-      "pl": "podsłuch"
-     },
-     "partOfSpeech": "noun",
-     "level": "C1",
-     "plural": "die Abhörgeräte",
-     "notes": {
-      "en": "A device used to listen secretly to conversations.",
-      "pl": "Urządzenie do potajemnego podsłuchiwania rozmów."
-     },
-     "examples": [
-      "Die Ermittler fanden ein Abhörgerät im Konferenzraum.",
-      "Das Abhörgerät war hinter einem Bildschirm versteckt."
-     ]
-    },
-    {
-     "id": 28,
-     "word": "das Geschäftsgeheimnis",
-     "translation": {
-      "en": "trade secret",
-      "pl": "tajemnica handlowa"
-     },
-     "partOfSpeech": "noun",
-     "level": "C1",
-     "plural": "die Geschäftsgeheimnisse",
-     "notes": {
-      "en": "Confidential business information that provides commercial value.",
-      "pl": "Poufne informacje biznesowe mające wartość handlową."
-     },
-     "examples": [
-      "Die Mitarbeiter müssen Geschäftsgeheimnisse schützen.",
-      "Das Unternehmen untersucht die mögliche Weitergabe von Geschäftsgeheimnissen."
-     ]
-    },
-    {
-     "id": 29,
-     "word": "der Verdächtige",
-     "translation": {
-      "en": "suspect",
-      "pl": "podejrzany"
-     },
-     "partOfSpeech": "noun",
-     "level": "B2",
-     "plural": "die Verdächtigen",
-     "notes": {
-      "en": "A person suspected of an offence; suspicion does not establish guilt.",
-      "pl": "Osoba podejrzewana o przestępstwo; podejrzenie nie dowodzi winy."
-     },
-     "examples": [
-      "Der Verdächtige wurde von der Polizei befragt.",
-      "Die Ermittler suchen nach weiteren Hinweisen auf den Verdächtigen."
-     ]
-    },
-    {
-     "id": 30,
-     "word": "die Haft",
-     "translation": {
-      "en": "imprisonment; custody",
-      "pl": "areszt, kara pozbawienia wolności"
-     },
-     "partOfSpeech": "noun",
-     "level": "B2",
-     "plural": "",
-     "notes": {
-      "en": "The state of being held in custody or serving a prison sentence.",
-      "pl": "Stan przetrzymywania w areszcie lub odbywania kary więzienia."
-     },
-     "examples": [
-      "Dem Angeklagten droht eine lange Haft.",
-      "Der Mann wurde nach der Festnahme in Haft genommen."
-     ]
-    }
-   ]
+    "audioUrl": "https://radiodownloaddw-a.akamaihd.net/downloads/Events/dwelle/dira/mp3/deutschkurse/nachrichten_live/FFC8F47F_2.mp3",
+    "articles": [
+      {
+        "heading": "Selenskyj beklagt fehlende Warnung vor russischem Raketenangriff",
+        "text": "Bei einem russischen [[Raketenangriff|1]] auf die ukrainische Hauptstadt Kyjiw ist nach Angaben von Präsident Wolodymyr Selenskyj ein [[Heizkraftwerk|2]] getroffen worden. Zudem wurde ein Wohnhaus beschädigt. Bürgermeister Vitali Klitschko zufolge kamen mindestens zwei Menschen ums Leben, 20 weitere wurden verletzt. Selenskyj kritisierte, die westlichen [[Verbündeten|3]] hätten die Ukraine nicht vor dem Angriff gewarnt. Die eigenen Systeme hätten die Raketen erst kurz vor Kyjiw [[erfasst|4]]. Russland greift seit Wochen verstärkt die ukrainische [[Energieversorgung|5]] an. US-Präsident Donald Trump hatte am Sonntag eine angebliche [[Vereinbarung|6]] zur Einstellung gegenseitiger Angriffe auf Energieanlagen verkündet. Moskau bestätigte dies nicht."
+      },
+      {
+        "heading": "Papst Leo XIV. wegen Lungenkrebs operiert",
+        "text": "Bei Papst Leo XIV. ist Lungenkrebs [[diagnostiziert|7]] worden. Der 71-Jährige wurde in der Gemelli-Klinik in Rom operiert. Dabei entfernten Ärzte den unteren [[Lappen|8]] seiner rechten Lunge, in dem zuvor ein [[Knoten|9]] entdeckt worden war. Bei der Untersuchung wurde ein [[bösartiger|10]] Tumor entdeckt. Nach Angaben der Ärzte verlief der dreistündige [[Eingriff|11]] erfolgreich und ohne Komplikationen. Der Papst soll sich nun etwa eine Woche im Krankenhaus erholen. Ob weitere Behandlungen nötig sind, ist noch unklar. Alle [[Audienzen|12]] bis Mitte kommender Woche wurden abgesagt. Offen ist auch, ob Leo seine für November geplante Südamerika-Reise antreten kann."
+      },
+      {
+        "heading": "US-Regierung trennt sich von Botschafterin in Athen",
+        "text": "Die Botschafterin der USA in Griechenland hat nach Berichten über mutmaßliche [[Bestechlichkeit|13]] ihren [[Posten|14]] aufgegeben. Kimberly Guilfoyle sei gebeten worden, zurückzutreten, sagte die neue Sprecherin des Weißen Hauses, Katie Zacharia. Die Zeitung „Wall Street Journal“ hatte zuvor Nachrichten veröffentlicht, die belegen sollen, dass Guilfoyle einen langjährigen [[Unterstützer|15]] von US-Präsident Donald Trump um eine [[Überweisung|16]] gebeten habe. Dabei sei es um einen Betrag von 100.000 Dollar – umgerechnet 89.000 Euro – gegangen, schrieb das Blatt. Der Mann wiederum habe sich von der Botschafterin Unterstützung erhofft, um die Aufmerksamkeit der Regierung auf persönliche steuerliche Angelegenheiten zu lenken."
+      },
+      {
+        "heading": "Mehr als 9000 Ebola-Erkrankte im Kongo",
+        "text": "Die Zahl der [[registrierten|17]] Ebola-Fälle in der Demokratischen Republik Kongo ist auf mehr als 9000 gestiegen. Nach Regierungsangaben starben seit Mai fast 4400 Menschen an der Erkrankung. Der Ausbruch geht auf den [[Bundibugyo-Stamm|18]] des Virus zurück, für den es keinen [[zugelassenen|19]] Impfstoff gibt. Auch andere Länder sind in [[Mitleidenschaft|20]] gezogen. So bestätigte Kenia in der vergangenen Woche seinen ersten [[eingeschleppten|21]] Fall; der Patient ist inzwischen gestorben. Nach Angaben der afrikanischen Gesundheitsbehörde Africa CDC handelt es sich um den Ebola-Ausbruch mit dem bisher schnellsten Anstieg bei der Zahl der Erkrankten."
+      },
+      {
+        "heading": "Taliban stoppen BBC-Hörfunk in Afghanistan",
+        "text": "Die radikalislamischen Taliban haben die Übertragung der analogen [[Radiosendungen|22]] des britischen Senders BBC in Afghanistan eingestellt. Das teilte die Rundfunkanstalt mit Hauptsitz in London mit. Derzeit werde mit den Behörden an einer Lösung gearbeitet. Millionen Menschen in dem Land seien auf die Nachrichten und Informationen des Senders [[angewiesen|23]], erklärte die BBC. Ein Sprecher des Informationsministeriums der Taliban-Regierung sagte, die über UKW übertragenen Sendungen seien wegen wiederholter [[Verstöße|24]] vorerst gestoppt worden. Um welche [[Verfehlungen|25]] es sich handeln soll, erläuterte er nicht. Die Taliban haben seit ihrer neuerlichen Machtübernahme vor fünf Jahren die [[Pressefreiheit|26]] und die Rechte von Frauen und Mädchen massiv beschnitten."
+      },
+      {
+        "heading": "OpenAI-Mitarbeiter wegen Spionageverdachts festgenommen",
+        "text": "Ein Mitarbeiter des ChatGPT-Entwicklers OpenAI soll ein [[Abhörgerät|27]] in einem Konferenzraum des Unternehmens in San Francisco platziert haben. Der 35-jährige Saudi-Araber wurde nach Angaben von OpenAI und dem US-Justizministerium festgenommen. Das Gerät war in der USB-Buchse eines Fernsehers versteckt. In dem Raum werden häufig [[Geschäftsgeheimnisse|28]] besprochen. Sicherheitskameras sollen den [[Verdächtigen|29]] in der Nähe des Raums gefilmt haben, zu dem er keinen Zutritt hatte. Zudem fanden Ermittler Hinweise auf Recherchen zu Abhörgeräten über einen Chatbot-Account seiner Ehefrau. Das FBI ermittelt. Dem Mann drohen bis zu fünf Jahre [[Haft|30]]."
+      }
+    ],
+    "vocab": [
+      {
+        "id": 1,
+        "word": "der Raketenangriff",
+        "translation": {
+          "en": "missile attack",
+          "pl": "atak rakietowy"
+        },
+        "partOfSpeech": "noun",
+        "level": "B2",
+        "plural": "die Raketenangriffe",
+        "notes": {
+          "en": "An attack carried out with one or more missiles.",
+          "pl": "Atak przeprowadzony przy użyciu jednej lub kilku rakiet."
+        },
+        "examples": [
+          "Der Raketenangriff beschädigte mehrere Gebäude.",
+          "Die Regierung verurteilte den Raketenangriff."
+        ]
+      },
+      {
+        "id": 2,
+        "word": "das Heizkraftwerk",
+        "translation": {
+          "en": "combined heat and power plant",
+          "pl": "elektrociepłownia"
+        },
+        "partOfSpeech": "noun",
+        "level": "C1",
+        "plural": "die Heizkraftwerke",
+        "notes": {
+          "en": "A facility that produces both heat and electricity.",
+          "pl": "Obiekt wytwarzający zarówno ciepło, jak i energię elektryczną."
+        },
+        "examples": [
+          "Das Heizkraftwerk versorgt viele Wohnungen mit Wärme.",
+          "Nach dem Angriff wurde das Heizkraftwerk überprüft."
+        ]
+      },
+      {
+        "id": 3,
+        "word": "der Verbündete",
+        "translation": {
+          "en": "ally",
+          "pl": "sojusznik"
+        },
+        "partOfSpeech": "noun",
+        "level": "B2",
+        "plural": "die Verbündeten",
+        "notes": {
+          "en": "A person or country that cooperates with another, especially politically or militarily.",
+          "pl": "Osoba lub państwo współpracujące z innym, zwłaszcza politycznie lub militarnie."
+        },
+        "examples": [
+          "Die Verbündeten beraten über weitere Maßnahmen.",
+          "Der Minister informierte die Verbündeten über die Lage."
+        ]
+      },
+      {
+        "id": 4,
+        "word": "erfassen",
+        "translation": {
+          "en": "to detect; to register",
+          "pl": "wykryć, zarejestrować"
+        },
+        "partOfSpeech": "verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "To detect, record, or capture information about something.",
+          "pl": "Wykryć, zapisać lub uchwycić informacje o czymś."
+        },
+        "examples": [
+          "Das Radar konnte das Flugzeug frühzeitig erfassen.",
+          "Die Software erfasst alle relevanten Daten."
+        ]
+      },
+      {
+        "id": 5,
+        "word": "die Energieversorgung",
+        "translation": {
+          "en": "energy supply",
+          "pl": "zaopatrzenie w energię"
+        },
+        "partOfSpeech": "noun",
+        "level": "B2",
+        "plural": "die Energieversorgungen",
+        "notes": {
+          "en": "The systems and processes that provide energy.",
+          "pl": "Systemy i procesy dostarczające energię."
+        },
+        "examples": [
+          "Die Energieversorgung muss auch im Winter gesichert sein.",
+          "Der Sturm hat die Energieversorgung mehrerer Dörfer unterbrochen."
+        ]
+      },
+      {
+        "id": 6,
+        "word": "die Vereinbarung",
+        "translation": {
+          "en": "agreement",
+          "pl": "porozumienie"
+        },
+        "partOfSpeech": "noun",
+        "level": "B1",
+        "plural": "die Vereinbarungen",
+        "notes": {
+          "en": "An arrangement or agreement reached between parties.",
+          "pl": "Ustalenie osiągnięte między stronami."
+        },
+        "examples": [
+          "Beide Seiten haben eine Vereinbarung getroffen.",
+          "Die Vereinbarung tritt im nächsten Monat in Kraft."
+        ]
+      },
+      {
+        "id": 7,
+        "word": "diagnostizieren",
+        "translation": {
+          "en": "to diagnose",
+          "pl": "zdiagnozować"
+        },
+        "partOfSpeech": "verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "To identify a disease or condition through medical assessment.",
+          "pl": "Rozpoznać chorobę lub stan na podstawie oceny medycznej."
+        },
+        "examples": [
+          "Die Ärztin konnte die Krankheit früh diagnostizieren.",
+          "Bei dem Patienten wurde eine seltene Erkrankung diagnostiziert."
+        ]
+      },
+      {
+        "id": 8,
+        "word": "der Lappen",
+        "translation": {
+          "en": "lobe (of an organ)",
+          "pl": "płat (narządu)"
+        },
+        "partOfSpeech": "noun",
+        "level": "C1",
+        "plural": "die Lappen",
+        "notes": {
+          "en": "A distinct section of an organ, such as a lung.",
+          "pl": "Wyraźna część narządu, np. płuca."
+        },
+        "examples": [
+          "Der Arzt untersuchte den unteren Lappen der Lunge.",
+          "Ein Teil des Lappens musste entfernt werden."
+        ]
+      },
+      {
+        "id": 9,
+        "word": "der Knoten",
+        "translation": {
+          "en": "nodule; lump",
+          "pl": "guzek, węzeł"
+        },
+        "partOfSpeech": "noun",
+        "level": "B2",
+        "plural": "die Knoten",
+        "notes": {
+          "en": "A small abnormal mass or swelling in tissue.",
+          "pl": "Mała nieprawidłowa masa lub obrzęk w tkance."
+        },
+        "examples": [
+          "Bei der Untersuchung wurde ein Knoten entdeckt.",
+          "Der Knoten muss weiter untersucht werden."
+        ]
+      },
+      {
+        "id": 10,
+        "word": "bösartig",
+        "translation": {
+          "en": "malignant",
+          "pl": "złośliwy"
+        },
+        "partOfSpeech": "adjective",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Describes a tumour or disease that can grow and spread aggressively.",
+          "pl": "Określenie nowotworu lub choroby, która może rosnąć i rozprzestrzeniać się agresywnie."
+        },
+        "examples": [
+          "Der Arzt erklärte, dass der Tumor bösartig sei.",
+          "Eine bösartige Erkrankung erfordert oft eine schnelle Behandlung."
+        ]
+      },
+      {
+        "id": 11,
+        "word": "der Eingriff",
+        "translation": {
+          "en": "procedure; surgical intervention",
+          "pl": "zabieg, ingerencja chirurgiczna"
+        },
+        "partOfSpeech": "noun",
+        "level": "B2",
+        "plural": "die Eingriffe",
+        "notes": {
+          "en": "A medical operation or other intervention.",
+          "pl": "Operacja medyczna lub inna interwencja."
+        },
+        "examples": [
+          "Der Eingriff dauerte ungefähr zwei Stunden.",
+          "Nach dem Eingriff blieb die Patientin im Krankenhaus."
+        ]
+      },
+      {
+        "id": 12,
+        "word": "die Audienz",
+        "translation": {
+          "en": "audience; formal meeting with a dignitary",
+          "pl": "audiencja, oficjalne spotkanie z dostojnikiem"
+        },
+        "partOfSpeech": "noun",
+        "level": "C1",
+        "plural": "die Audienzen",
+        "notes": {
+          "en": "A formal appointment with a senior religious or political figure.",
+          "pl": "Oficjalne spotkanie z wysokim przedstawicielem władzy religijnej lub politycznej."
+        },
+        "examples": [
+          "Die Audienz wurde kurzfristig abgesagt.",
+          "Während der Audienz sprach der Botschafter über die Zusammenarbeit."
+        ]
+      },
+      {
+        "id": 13,
+        "word": "die Bestechlichkeit",
+        "translation": {
+          "en": "susceptibility to bribery; corruptibility",
+          "pl": "przekupność, skłonność do łapówek"
+        },
+        "partOfSpeech": "noun",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "The quality of being willing to accept bribes.",
+          "pl": "Cecha osoby gotowej przyjmować łapówki."
+        },
+        "examples": [
+          "Die Staatsanwaltschaft untersucht den Verdacht der Bestechlichkeit.",
+          "Bestechlichkeit kann das Vertrauen in öffentliche Institutionen zerstören."
+        ]
+      },
+      {
+        "id": 14,
+        "word": "der Posten",
+        "translation": {
+          "en": "post; position",
+          "pl": "stanowisko"
+        },
+        "partOfSpeech": "noun",
+        "level": "B1",
+        "plural": "die Posten",
+        "notes": {
+          "en": "A job or official position, especially one with responsibility.",
+          "pl": "Praca lub urzędowa funkcja, zwłaszcza związana z odpowiedzialnością."
+        },
+        "examples": [
+          "Sie hat ihren Posten nach drei Jahren aufgegeben.",
+          "Der Posten wird im nächsten Monat neu besetzt."
+        ]
+      },
+      {
+        "id": 15,
+        "word": "der Unterstützer",
+        "translation": {
+          "en": "supporter",
+          "pl": "zwolennik, sympatyk"
+        },
+        "partOfSpeech": "noun",
+        "level": "B1",
+        "plural": "die Unterstützer",
+        "notes": {
+          "en": "A person who supports a person, organisation, or cause.",
+          "pl": "Osoba wspierająca człowieka, organizację lub sprawę."
+        },
+        "examples": [
+          "Der Unterstützer spendete Geld für das Projekt.",
+          "Die Kandidatin dankte ihren Unterstützern für die Hilfe."
+        ]
+      },
+      {
+        "id": 16,
+        "word": "die Überweisung",
+        "translation": {
+          "en": "bank transfer",
+          "pl": "przelew"
+        },
+        "partOfSpeech": "noun",
+        "level": "B2",
+        "plural": "die Überweisungen",
+        "notes": {
+          "en": "The transfer of money from one bank account to another.",
+          "pl": "Przekazanie pieniędzy z jednego rachunku bankowego na inny."
+        },
+        "examples": [
+          "Die Überweisung wurde gestern ausgeführt.",
+          "Für die Überweisung benötigt man die richtige Kontonummer."
+        ]
+      },
+      {
+        "id": 17,
+        "word": "registriert",
+        "translation": {
+          "en": "registered; recorded",
+          "pl": "zarejestrowany"
+        },
+        "partOfSpeech": "adjective",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Recorded in an official system or register.",
+          "pl": "Zapisany w oficjalnym systemie lub rejestrze."
+        },
+        "examples": [
+          "Die registrierten Fälle werden täglich überprüft.",
+          "Nur registrierte Nutzer können auf das Portal zugreifen."
+        ]
+      },
+      {
+        "id": 18,
+        "word": "der Bundibugyo-Stamm",
+        "translation": {
+          "en": "Bundibugyo strain",
+          "pl": "szczep Bundibugyo"
+        },
+        "partOfSpeech": "noun",
+        "level": "C1",
+        "plural": "die Bundibugyo-Stämme",
+        "notes": {
+          "en": "A strain of Ebola virus associated with Bundibugyo ebolavirus.",
+          "pl": "Szczep wirusa Ebola związany z wirusem Bundibugyo ebolavirus."
+        },
+        "examples": [
+          "Der Bundibugyo-Stamm wurde in einer früheren Epidemie nachgewiesen.",
+          "Forschende untersuchen die Eigenschaften des Bundibugyo-Stamms."
+        ]
+      },
+      {
+        "id": 19,
+        "word": "zugelassen",
+        "translation": {
+          "en": "approved; authorised",
+          "pl": "dopuszczony, zatwierdzony"
+        },
+        "partOfSpeech": "adjective",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Officially approved for use by the relevant authority.",
+          "pl": "Oficjalnie zatwierdzony do użycia przez właściwy organ."
+        },
+        "examples": [
+          "Für diese Anwendung ist kein Impfstoff zugelassen.",
+          "Das Medikament wurde in mehreren Ländern zugelassen."
+        ]
+      },
+      {
+        "id": 20,
+        "word": "die Mitleidenschaft",
+        "translation": {
+          "en": "harmful impact; being affected",
+          "pl": "negatywny wpływ, dotknięcie szkodą"
+        },
+        "partOfSpeech": "noun",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Usually appears in the phrase „in Mitleidenschaft ziehen“.",
+          "pl": "Zwykle występuje w zwrocie „in Mitleidenschaft ziehen” (negatywnie dotknąć, narazić na szkody)."
+        },
+        "examples": [
+          "Der Sturm hat mehrere Regionen in Mitleidenschaft gezogen.",
+          "Die Krise zog auch kleine Unternehmen in Mitleidenschaft."
+        ]
+      },
+      {
+        "id": 21,
+        "word": "eingeschleppt",
+        "translation": {
+          "en": "imported; introduced (of a disease)",
+          "pl": "zawleczony, sprowadzony (o chorobie)"
+        },
+        "partOfSpeech": "adjective",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Used for a disease or organism brought into a place from elsewhere.",
+          "pl": "O chorobie lub organizmie przeniesionym w dane miejsce z zewnątrz."
+        },
+        "examples": [
+          "Der erste eingeschleppte Fall wurde sofort gemeldet.",
+          "Die Behörden wollen weitere eingeschleppte Infektionen verhindern."
+        ]
+      },
+      {
+        "id": 22,
+        "word": "die Radiosendung",
+        "translation": {
+          "en": "radio broadcast",
+          "pl": "audycja radiowa"
+        },
+        "partOfSpeech": "noun",
+        "level": "B1",
+        "plural": "die Radiosendungen",
+        "notes": {
+          "en": "A programme or transmission broadcast on radio.",
+          "pl": "Program lub transmisja nadawana w radiu."
+        },
+        "examples": [
+          "Die Radiosendung beginnt heute um acht Uhr.",
+          "Viele Menschen hören die Radiosendung jeden Morgen."
+        ]
+      },
+      {
+        "id": 23,
+        "word": "angewiesen sein auf",
+        "translation": {
+          "en": "to depend on",
+          "pl": "być zależnym od, być skazanym na"
+        },
+        "partOfSpeech": "verb phrase",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Describes dependence on a person, service, or resource; takes auf plus accusative.",
+          "pl": "Oznacza zależność od osoby, usługi lub zasobu; łączy się z auf + biernik."
+        },
+        "examples": [
+          "Viele Familien sind auf öffentliche Verkehrsmittel angewiesen.",
+          "Das Krankenhaus ist auf regelmäßige Lieferungen angewiesen."
+        ]
+      },
+      {
+        "id": 24,
+        "word": "der Verstoß",
+        "translation": {
+          "en": "violation; breach",
+          "pl": "naruszenie"
+        },
+        "partOfSpeech": "noun",
+        "level": "B2",
+        "plural": "die Verstöße",
+        "notes": {
+          "en": "An act that breaks a rule, law, or agreement.",
+          "pl": "Czyn łamiący zasadę, prawo lub umowę."
+        },
+        "examples": [
+          "Der Verstoß gegen die Vorschriften wurde dokumentiert.",
+          "Wiederholte Verstöße können zu einer Strafe führen."
+        ]
+      },
+      {
+        "id": 25,
+        "word": "die Verfehlung",
+        "translation": {
+          "en": "misconduct; transgression",
+          "pl": "uchybienie, wykroczenie"
+        },
+        "partOfSpeech": "noun",
+        "level": "C1",
+        "plural": "die Verfehlungen",
+        "notes": {
+          "en": "An action considered improper or wrong, especially by an authority.",
+          "pl": "Czyn uznawany za niewłaściwy, zwłaszcza przez organ władzy."
+        },
+        "examples": [
+          "Die Behörde erklärte nicht, welche Verfehlungen gemeint waren.",
+          "Der Bericht beschreibt mehrere mögliche Verfehlungen."
+        ]
+      },
+      {
+        "id": 26,
+        "word": "die Pressefreiheit",
+        "translation": {
+          "en": "freedom of the press",
+          "pl": "wolność prasy"
+        },
+        "partOfSpeech": "noun",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "The freedom of journalists and media to report without undue interference.",
+          "pl": "Swoboda dziennikarzy i mediów w informowaniu bez nadmiernej ingerencji."
+        },
+        "examples": [
+          "Pressefreiheit ist ein wichtiger Bestandteil einer Demokratie.",
+          "Die Organisation setzt sich für die Pressefreiheit ein."
+        ]
+      },
+      {
+        "id": 27,
+        "word": "das Abhörgerät",
+        "translation": {
+          "en": "listening device; bug",
+          "pl": "podsłuch"
+        },
+        "partOfSpeech": "noun",
+        "level": "C1",
+        "plural": "die Abhörgeräte",
+        "notes": {
+          "en": "A device used to listen secretly to conversations.",
+          "pl": "Urządzenie do potajemnego podsłuchiwania rozmów."
+        },
+        "examples": [
+          "Die Ermittler fanden ein Abhörgerät im Konferenzraum.",
+          "Das Abhörgerät war hinter einem Bildschirm versteckt."
+        ]
+      },
+      {
+        "id": 28,
+        "word": "das Geschäftsgeheimnis",
+        "translation": {
+          "en": "trade secret",
+          "pl": "tajemnica handlowa"
+        },
+        "partOfSpeech": "noun",
+        "level": "C1",
+        "plural": "die Geschäftsgeheimnisse",
+        "notes": {
+          "en": "Confidential business information that provides commercial value.",
+          "pl": "Poufne informacje biznesowe mające wartość handlową."
+        },
+        "examples": [
+          "Die Mitarbeiter müssen Geschäftsgeheimnisse schützen.",
+          "Das Unternehmen untersucht die mögliche Weitergabe von Geschäftsgeheimnissen."
+        ]
+      },
+      {
+        "id": 29,
+        "word": "der Verdächtige",
+        "translation": {
+          "en": "suspect",
+          "pl": "podejrzany"
+        },
+        "partOfSpeech": "noun",
+        "level": "B2",
+        "plural": "die Verdächtigen",
+        "notes": {
+          "en": "A person suspected of an offence; suspicion does not establish guilt.",
+          "pl": "Osoba podejrzewana o przestępstwo; podejrzenie nie dowodzi winy."
+        },
+        "examples": [
+          "Der Verdächtige wurde von der Polizei befragt.",
+          "Die Ermittler suchen nach weiteren Hinweisen auf den Verdächtigen."
+        ]
+      },
+      {
+        "id": 30,
+        "word": "die Haft",
+        "translation": {
+          "en": "imprisonment; custody",
+          "pl": "areszt, kara pozbawienia wolności"
+        },
+        "partOfSpeech": "noun",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "The state of being held in custody or serving a prison sentence.",
+          "pl": "Stan przetrzymywania w areszcie lub odbywania kary więzienia."
+        },
+        "examples": [
+          "Dem Angeklagten droht eine lange Haft.",
+          "Der Mann wurde nach der Festnahme in Haft genommen."
+        ]
+      }
+    ]
   },
   "speaking": {
-   "prompt": {
-    "en": "Speaking practice: Neutral time–manner–place order\n\n1. Describe your workday using at least five sentences containing time, manner, and place information.\n2. Explain when you work, how you complete your tasks, and where you usually work. Use the neutral order whenever it sounds natural.\n3. Describe a recent trip using time expressions, means of transport, and destinations.\n4. Create three pairs of sentences: first use neutral time–manner–place order, then move one element to the beginning to emphasise it. Keep the finite verb in position two.\n5. Speak for two minutes. After each sentence, identify the time, manner, and place information and check their order.",
-    "pl": "Ćwiczenie mówienia: neutralny szyk czas – sposób – miejsce\n\n1. Opisz swój dzień pracy w co najmniej pięciu zdaniach zawierających informacje o czasie, sposobie i miejscu.\n2. Wyjaśnij, kiedy pracujesz, jak wykonujesz zadania i gdzie zwykle pracujesz. Używaj neutralnego szyku wszędzie, gdzie brzmi naturalnie.\n3. Opisz niedawną podróż, używając okoliczników czasu, środków transportu i miejsc docelowych.\n4. Ułóż trzy pary zdań: najpierw w neutralnym szyku czas – sposób – miejsce, potem przenieś jeden element na początek, aby go podkreślić. Czasownik finitny ma zostać na drugim miejscu.\n5. Mów przez dwie minuty. Po każdym zdaniu wskaż informacje o czasie, sposobie i miejscu i sprawdź ich kolejność."
-   }
+    "prompt": {
+      "en": "Speaking practice: Neutral time–manner–place order\n\n1. Describe your workday using at least five sentences containing time, manner, and place information.\n2. Explain when you work, how you complete your tasks, and where you usually work. Use the neutral order whenever it sounds natural.\n3. Describe a recent trip using time expressions, means of transport, and destinations.\n4. Create three pairs of sentences: first use neutral time–manner–place order, then move one element to the beginning to emphasise it. Keep the finite verb in position two.\n5. Speak for two minutes. After each sentence, identify the time, manner, and place information and check their order.",
+      "pl": "Ćwiczenie mówienia: neutralny szyk czas – sposób – miejsce\n\n1. Opisz swój dzień pracy w co najmniej pięciu zdaniach zawierających informacje o czasie, sposobie i miejscu.\n2. Wyjaśnij, kiedy pracujesz, jak wykonujesz zadania i gdzie zwykle pracujesz. Używaj neutralnego szyku wszędzie, gdzie brzmi naturalnie.\n3. Opisz niedawną podróż, używając okoliczników czasu, środków transportu i miejsc docelowych.\n4. Ułóż trzy pary zdań: najpierw w neutralnym szyku czas – sposób – miejsce, potem przenieś jeden element na początek, aby go podkreślić. Czasownik finitny ma zostać na drugim miejscu.\n5. Mów przez dwie minuty. Po każdym zdaniu wskaż informacje o czasie, sposobie i miejscu i sprawdź ich kolejność."
+    }
   }
- },
+},
  {
   "lesson": {
    "id": "2026-10-15",
