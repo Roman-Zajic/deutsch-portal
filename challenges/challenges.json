@@ -16916,5 +16916,1730 @@
       "pl": "Jesteś moim nauczycielem języka niemieckiego i prowadzisz 20-minutową rozmowę na poziomie B1–C1 skupioną na planach na przyszłość i przewidywaniach (lekcja niemieckiego z 25 października 2026 roku).\n\nObszary tematyczne do dyskusji – 5 tematów dotyczących przyszłości:\n1. Plany osobiste i zawodowe: ustalone spotkania, cele zawodowe, plany podróży i cele edukacyjne na nadchodzące miesiące.\n2. Technologia i sztuczna inteligencja: prognozy dotyczące tego, jak AI, automatyzacja i komunikacja cyfrowa przekształcą pracę i społeczeństwo w ciągu następnej dekady.\n3. Transformacja klimatyczna i środowiskowa: przewidywania dotyczące energii odnawialnej, mobilności miejskiej i zrównoważonej konsumpcji.\n4. Gospodarka i trendy globalne: prognozy i przypuszczenia na temat kosztów życia, stóp procentowych oraz ewolucji rynków pracy.\n5. Osobiste postanowienia i obietnice: wiążące deklaracje, obietnice zmian nawyków oraz rozróżnianie konkretnych planów od hipotetycznych życzeń.\n\nZagadnienie gramatyczne do ćwiczenia: Czas teraźniejszy (Präsens) a konstrukcja z werden (Futur I) przy planach i prognozach (używaj Präsens z określeniami czasu dla ustalonych planów i terminów; używaj werden + Infinitiv dla prognoz, przewidywań, przypuszczeń z „wohl/wahrscheinlich” oraz uroczystych obietnic).\n\nPrzydatne słowa do użycia i przećwiczenia: prognostizieren, die Vorhersage, der Zeitplan, voraussichtlich, vermutlich, sich vornehmen, die Absicht, die Auswirkung.\n\nInstrukcje dla tutora AI:\n1. Rozpocznij rozmowę: przywitaj się ciepło i zapytaj, jakie konkretne plany mam na przyszły tydzień lub przyszły miesiąc, aby sprowokować natychmiastowe użycie czasu teraźniejszego.\n2. Ty pytasz, ja mówię: jedno pytanie na wypowiedź, jedno lub dwa krótkie zdania, nigdy nie odpowiadaj na własne pytania. Język niemiecki na poziomie B1–C1; polski tylko wtedy, gdy naprawdę utknę.\n3. Pytania powinny przechodzić przez 5 powyższych obszarów: zacznij od osobistych planów (Präsens), przejdź do prognoz technologicznych/społecznych (Futur I), zbadaj trendy gospodarcze i ekologiczne, a zakończ osobistymi postanowieniami.\n4. Zachęcaj mnie do stosowania czasu Präsens zawsze wtedy, gdy w zdaniu pojawia się określenie czasu (np. „Nächste Woche fliege ich...”) oraz do świadomego przechodzenia na Futur I przy formułowaniu prognoz (np. „Künstliche Intelligenz wird vermutlich...”) lub mocnych postanowień.\n5. Pomysły na pytania (dostosuj do moich odpowiedzi):\n   - Was machst du am kommenden Wochenende? (Beginne mit „Am Wochenende …“)\n   - Welche beruflichen oder privaten Termine hast du im nächsten Monat fest eingeplant?\n   - Wie wird die künstliche Intelligenz deiner Ansicht nach unseren Arbeitsalltag in zehn Jahren verändern? (Verwende „wird … verändern“)\n   - Welche Entwicklung prognostizierst du für die Energiekosten im kommenden Winter?\n   - Welchen festen Vorsatz nimmst du dir für das kommende Jahr vor, und wie lautet dein Versprechen an dich selbst?\n6. Natychmiastowa korekta: jeśli złamię dzisiejszą zasadę (np. *Morgen werde ich meine Freunde treffen* zamiast *Morgen treffe ich meine Freunde* lub użyję czasu teraźniejszego bez określenia czasu przy czystej spekulacji), przerwij na chwilę: zacytuj błąd, podaj poprawne zdanie, wyjaśnij regułę w jednym zdaniu po polsku i poproś mnie o powtórzenie poprawnego zdania na głos przed kolejnym pytaniem.\n7. Krótko poprawiaj także inne istotne błędy gramatyczne; notuj powtarzające się potknięcia do końcowego podsumowania. Jeśli moja odpowiedź będzie bardzo krótka, zadaj pytanie uzupełniające („Warum denkst du das?“).\n8. Podsumowanie po ok. 20 minutach lub gdy powiem „stop”: dwie rzeczy, które poszły dobrze, trzy kluczowe błędy z poprawkami, pięć słów do powtórki i jedno niemieckie zdanie do powtórzenia na głos.\n9. Utrzymuj profesjonalny, naturalny i angażujący ton sprzyjający immersyjnemu dialogowi głosowemu po niemiecku. Zwracaj się do mnie na „du”."
     }
   }
+},
+ {
+  "lesson": {
+    "id": "2026-10-26",
+    "date": "26.10.2026",
+    "day": 14,
+    "totalDays": 300,
+    "level": "B1",
+    "title": {
+      "en": "Modal Verbs in the Present: Ability, Permission, Obligation, and Intention",
+      "pl": "Czasowniki modalne w czasie teraźniejszym: umiejętność, pozwolenie, obowiązek i zamiar"
+    },
+    "subtitle": "Modalverben im Präsens: können, dürfen, müssen, sollen, wollen, möchten"
+  },
+  "grammar": {
+    "html": {
+      "en": [
+        "<p>Modal verbs modify the meaning of a main verb by expressing ability, permission, necessity, obligation, or intention. In a German main clause, the conjugated modal verb occupies the second position (V2), while the main verb appears in the infinitive form at the very end of the clause, forming the typical German sentence frame (<em>Satzklammer</em>).</p>",
+        "<div class='box rule'><strong>Core rule:</strong> Modal verb (conjugated, Position 2) + ... + Main verb (infinitive, end of clause). In the singular (ich, du, er/sie/es), modal verbs undergo a vowel change and take no personal ending in the first and third person.</div>",
+        "<h3>1. Ability and Possibility: können</h3>",
+        "<p>The modal verb <strong>können</strong> expresses learned skills, physical capabilities, or objective opportunities: <em>Er <strong>kann</strong> fließend Deutsch sprechen</em> (skill); <em>Wir <strong>können</strong> morgen abreisen</em> (possibility).</p>",
+        "<h3>2. Permission and Prohibition: dürfen</h3>",
+        "<p><strong>Dürfen</strong> denotes permission granted by law, authority, or rules: <em>Hier <strong>darf</strong> man parken</em>. When negated, <strong>nicht dürfen</strong> expresses a strict prohibition: <em>Man <strong>darf</strong> hier nicht rauchen</em> (It is forbidden / You must not smoke here).</p>",
+        "<h3>3. Necessity vs. External Obligation: müssen and sollen</h3>",
+        "<p><strong>Müssen</strong> denotes an objective necessity or internal compulsion where no alternative exists: <em>Alle Bürger <strong>müssen</strong> Steuern zahlen</em>. When negated, <strong>nicht müssen</strong> means 'not having to' / lack of necessity, never a prohibition: <em>Du <strong>musst</strong> nicht kommen</em> (You don't have to come). In contrast, <strong>sollen</strong> expresses an order, duty, recommendation, or expectation imposed by someone else: <em>Der Kanzler <strong>soll</strong> die Konferenz eröffnen</em> (He is expected to open the conference).</p>",
+        "<h3>4. Intention and Polite Desire: wollen and möchten</h3>",
+        "<p><strong>Wollen</strong> conveys a firm will, intention, or plan: <em>Kanzler Merz <strong>will</strong> die Beziehungen vertiefen</em>. To express a polite request or softer wish, German uses <strong>möchten</strong> (originally the Konjunktiv II of <em>mögen</em>): <em>Ich <strong>möchte</strong> einen Kaffee bestellen</em>.</p>",
+        "<table><thead><tr><th>Infinitive</th><th>ich / er, sie, es</th><th>du</th><th>wir / sie / Sie</th><th>ihr</th><th>Core Meaning</th></tr></thead><tbody><tr><td class='de'>können</td><td class='de'><strong>kann</strong></td><td class='de'><strong>kannst</strong></td><td class='de'><strong>können</strong></td><td class='de'><strong>könnt</strong></td><td>Ability, possibility</td></tr><tr><td class='de'>dürfen</td><td class='de'><strong>darf</strong></td><td class='de'><strong>darfst</strong></td><td class='de'><strong>dürfen</strong></td><td class='de'><strong>dürft</strong></td><td>Permission (negated: prohibition)</td></tr><tr><td class='de'>müssen</td><td class='de'><strong>muss</strong></td><td class='de'><strong>musst</strong></td><td class='de'><strong>müssen</strong></td><td class='de'><strong>müsst</strong></td><td>Necessity (negated: lack of necessity)</td></tr><tr><td class='de'>sollen</td><td class='de'><strong>soll</strong></td><td class='de'><strong>sollst</strong></td><td class='de'><strong>sollen</strong></td><td class='de'><strong>sollt</strong></td><td>Duty, assignment, moral obligation</td></tr><tr><td class='de'>wollen</td><td class='de'><strong>will</strong></td><td class='de'><strong>willst</strong></td><td class='de'><strong>wollen</strong></td><td class='de'><strong>wollt</strong></td><td>Firm intention, strong plan</td></tr><tr><td class='de'>möchten</td><td class='de'><strong>möchte</strong></td><td class='de'><strong>möchtest</strong></td><td class='de'><strong>möchten</strong></td><td class='de'><strong>möchtet</strong></td><td>Polite wish, desire</td></tr></tbody></table>",
+        "<div class='box warn'><strong>Typical mistake:</strong> Beware of false friends between English 'must not' and German <em>nicht müssen</em>. English 'must not' is a prohibition, which requires <em>nicht dürfen</em> in German.<br>✗ <em>Du musst hier nicht parken!</em> (Meaning: You don't have to park here, but you can if you like.)<br>✓ <em>Du <strong>darfst</strong> hier nicht parken!</em> (Prohibition: You must not park here!)</div>",
+        "<div class='box tip'><strong>Memory aid:</strong> Remember the singular zero-ending: <em>ich</em> and <em>er/sie/es</em> are completely identical across all modal verbs and never take an <em>-e</em> or <em>-t</em> (<em>ich kann</em>, <em>er muss</em>, <em>sie will</em>).</div>",
+        "<h3>Quick reference</h3>",
+        "<div class='tiles'><div class='tile'><strong>können &amp; dürfen</strong><p><em>Können</em> is capability/opportunity; <em>dürfen</em> is legal or social permission.</p></div><div class='tile'><strong>müssen vs. sollen</strong><p><em>Müssen</em> is inevitable necessity; <em>sollen</em> is carrying out someone else's order or advice.</p></div><div class='tile'><strong>wollen vs. möchten</strong><p><em>Wollen</em> expresses strong determination; <em>möchten</em> expresses a polite wish.</p></div><div class='tile'><strong>Sentence bracket</strong><p>Conjugated modal in position 2; complementary infinitive strictly at the end.</p></div></div>"
+      ],
+      "pl": [
+        "<p>Czasowniki modalne modyfikują znaczenie czasownika głównego, wyrażając umiejętność, pozwolenie, konieczność, powinność lub zamiar. W niemieckim zdaniu głównym odmieniony czasownik modalny zajmuje drugą pozycję (V2), natomiast czasownik główny w bezokoliczniku wędruje na sam koniec zdania, tworząc tzw. ramę zdaniową (<em>Satzklammer</em>).</p>",
+        "<div class='box rule'><strong>Zasada główna:</strong> Czasownik modalny (odmieniony, pozycja 2) + ... + czasownik główny (bezokolicznik, koniec zdania). W liczbie pojedynczej (ich, du, er/sie/es) następuje zmiana samogłoski rdzennej, a 1. i 3. osoba nie przyjmują żadnej końcówki osobowej.</div>",
+        "<h3>1. Umiejętność i możliwość: können</h3>",
+        "<p>Czasownik modalny <strong>können</strong> wyraża wyuczoną umiejętność, zdolność fizyczną lub obiektywną możliwość: <em>Er <strong>kann</strong> fließend Deutsch sprechen</em> (umiejętność); <em>Wir <strong>können</strong> morgen abreisen</em> (możliwość).</p>",
+        "<h3>2. Pozwolenie i zakaz: dürfen</h3>",
+        "<p><strong>Dürfen</strong> oznacza pozwolenie wynikające z prawa, przepisów lub zgody uprawnionej osoby: <em>Hier <strong>darf</strong> man parken</em>. W przeczeniu <strong>nicht dürfen</strong> wyraża bezwzględny zakaz: <em>Man <strong>darf</strong> hier nicht rauchen</em> (Nie wolno tu palić).</p>",
+        "<h3>3. Konieczność a powinność zewnętrzna: müssen i sollen</h3>",
+        "<p><strong>Müssen</strong> oznacza konieczność obiektywną lub wewnętrzny przymus, w którym brak alternatywy: <em>Alle Bürger <strong>müssen</strong> Steuern zahlen</em>. W przeczeniu <strong>nicht müssen</strong> oznacza brak konieczności ('nie musieć'), nigdy zakaz: <em>Du <strong>musst</strong> nicht kommen</em> (Nie musisz przychodzić). Z kolei <strong>sollen</strong> wyraża zlecenie, powinność, polecenie kogoś innego lub oczekiwanie społeczne: <em>Der Kanzler <strong>soll</strong> die Konferenz eröffnen</em> (Kanclerz ma otworzyć konferencję).</p>",
+        "<h3>4. Zamiar i uprzejme życzenie: wollen i möchten</h3>",
+        "<p><strong>Wollen</strong> wyraża stanowczą wolę, determinację lub zamiar: <em>Kanzler Merz <strong>will</strong> die Beziehungen vertiefen</em>. Do wyrażenia uprzejmej prośby lub łagodniejszego życzenia służy forma <strong>möchten</strong> (pochodząca z trybu Konjunktiv II od czasownika <em>mögen</em>): <em>Ich <strong>möchte</strong> einen Kaffee bestellen</em>.</p>",
+        "<table><thead><tr><th>Bezokolicznik</th><th>ich / er, sie, es</th><th>du</th><th>wir / sie / Sie</th><th>ihr</th><th>Główne znaczenie</th></tr></thead><tbody><tr><td class='de'>können</td><td class='de'><strong>kann</strong></td><td class='de'><strong>kannst</strong></td><td class='de'><strong>können</strong></td><td class='de'><strong>könnt</strong></td><td>Umiejętność, możliwość</td></tr><tr><td class='de'>dürfen</td><td class='de'><strong>darf</strong></td><td class='de'><strong>darfst</strong></td><td class='de'><strong>dürfen</strong></td><td class='de'><strong>dürft</strong></td><td>Pozwolenie (z przeczeniem: zakaz)</td></tr><tr><td class='de'>müssen</td><td class='de'><strong>muss</strong></td><td class='de'><strong>musst</strong></td><td class='de'><strong>müssen</strong></td><td class='de'><strong>müsst</strong></td><td>Konieczność (z przeczeniem: brak konieczności)</td></tr><tr><td class='de'>sollen</td><td class='de'><strong>soll</strong></td><td class='de'><strong>sollst</strong></td><td class='de'><strong>sollen</strong></td><td class='de'><strong>sollt</strong></td><td>Powinność, polecenie, zlecenie z zewnątrz</td></tr><tr><td class='de'>wollen</td><td class='de'><strong>will</strong></td><td class='de'><strong>willst</strong></td><td class='de'><strong>wollen</strong></td><td class='de'><strong>wollt</strong></td><td>Stanowczy zamiar, silna wola</td></tr><tr><td class='de'>möchten</td><td class='de'><strong>möchte</strong></td><td class='de'><strong>möchtest</strong></td><td class='de'><strong>möchten</strong></td><td class='de'><strong>möchtet</strong></td><td>Uprzejme życzenie, chęć</td></tr></tbody></table>",
+        "<div class='box warn'><strong>Typowy błąd:</strong> Uważaj na fałszywych przyjaciół z językiem angielskim. Angielskie 'must not' to zakaz, który w języku niemieckim wymaga <em>nicht dürfen</em>, a nie <em>nicht müssen</em>.<br>✗ <em>Du musst hier nicht parken!</em> (Oznacza: Nie musisz tu parkować, ale możesz.)<br>✓ <em>Du <strong>darfst</strong> hier nicht parken!</em> (Zakaz: Nie wolno ci tu parkować!)</div>",
+        "<div class='box tip'><strong>Wskazówka:</strong> Zapamiętaj brak końcówki w liczbie pojedynczej: formy <em>ich</em> oraz <em>er/sie/es</em> są identyczne we wszystkich czasownikach modalnych i nigdy nie przyjmują <em>-e</em> ani <em>-t</em> (<em>ich kann</em>, <em>er muss</em>, <em>sie will</em>).</div>",
+        "<h3>Szybka powtórka</h3>",
+        "<div class='tiles'><div class='tile'><strong>können i dürfen</strong><p><em>Können</em> to umiejętność i możliwość; <em>dürfen</em> to pozwolenie prawne lub społeczne.</p></div><div class='tile'><strong>müssen a sollen</strong><p><em>Müssen</em> to przymus nieunikniony; <em>sollen</em> to realizacja czyjegoś polecenia lub rady.</p></div><div class='tile'><strong>wollen a möchten</strong><p><em>Wollen</em> oznacza zdecydowaną wolę; <em>möchten</em> to uprzejma chęć lub życzenie.</p></div><div class='tile'><strong>Rama zdaniowa</strong><p>Odmieniony czasownik modalny na 2. pozycji; bezokolicznik dopełniający bezwzględnie na końcu.</p></div></div>"
+      ]
+    }
+  },
+  "examples": [
+    {
+      "de": "Ich **kann** gut schwimmen.",
+      "en": "I can swim well.",
+      "pl": "Umiem dobrze pływać.",
+      "level": "A1"
+    },
+    {
+      "de": "Hier **darf** man nicht parken.",
+      "en": "One is not allowed to park here.",
+      "pl": "Tutaj nie wolno parkować.",
+      "level": "A1"
+    },
+    {
+      "de": "Wir **müssen** heute länger im Büro arbeiten.",
+      "en": "We have to work longer in the office today.",
+      "pl": "Musimy dzisiaj dłużej pracować w biurze.",
+      "level": "A2"
+    },
+    {
+      "de": "Er **will** im Sommer nach Japan reisen.",
+      "en": "He wants to travel to Japan in the summer.",
+      "pl": "On chce pojechać latem do Japonii.",
+      "level": "A2"
+    },
+    {
+      "de": "Was **soll** ich für das Abendessen einkaufen?",
+      "en": "What should I buy for dinner?",
+      "pl": "Co mam kupić na kolację?",
+      "level": "A2"
+    },
+    {
+      "de": "Ich **möchte** bitte einen Termin vereinbaren.",
+      "en": "I would like to make an appointment, please.",
+      "pl": "Chciałbym umówić termin spotkania.",
+      "level": "A2"
+    },
+    {
+      "de": "Kanzler Merz **will** die Beziehungen zu den asiatischen Partnern vertiefen.",
+      "en": "Chancellor Merz wants to deepen relations with the Asian partners.",
+      "pl": "Kanclerz Merz chce pogłębić relacje z azjatyckimi partnerami.",
+      "level": "B1"
+    },
+    {
+      "de": "Wegen des Sturms **können** viele Flugzeuge heute nicht starten.",
+      "en": "Due to the storm, many aircraft cannot take off today.",
+      "pl": "Z powodu burzy wiele samolotów nie może dziś wystartować.",
+      "level": "B1"
+    },
+    {
+      "de": "Die Opposition **muss** das Wahlergebnis vor Gericht anfechten.",
+      "en": "The opposition must challenge the election result in court.",
+      "pl": "Opozycja musi zaskarżyć wynik wyborów w sądzie.",
+      "level": "B1"
+    },
+    {
+      "de": "Politische Beobachter fragen sich, wer das künftige Kabinett bilden **soll**.",
+      "en": "Political observers wonder who is supposed to form the future cabinet.",
+      "pl": "Obserwatorzy polityczni zastanawiają się, kto ma utworzyć przyszły gabinet.",
+      "level": "B1"
+    },
+    {
+      "de": "Ausländische Diplomaten **dürfen** die Wahllokale ohne Einschränkung betreten.",
+      "en": "Foreign diplomats are permitted to enter the polling stations without restriction.",
+      "pl": "Zagraniczni dyplomaci mogą wchodzić do lokali wyborczych bez ograniczeń.",
+      "level": "B2"
+    },
+    {
+      "de": "Um eine absolute Mehrheit zu erreichen, **muss** eine Kandidatin über fünfzig Prozent der Stimmen auf sich vereinen.",
+      "en": "In order to achieve an absolute majority, a candidate must win over fifty percent of the votes.",
+      "pl": "Aby uzyskać bezwzględną większość, kandydatka musi zdobyć ponad pięćdziesiąt procent głosów.",
+      "level": "B2"
+    },
+    {
+      "de": "Die Regierung **will** die Energieversorgung nach den Unwettern rasch wiederherstellen.",
+      "en": "The government wants to restore the power supply swiftly after the severe storms.",
+      "pl": "Rząd chce szybko przywrócić zasilanie po gwałtownych burzach.",
+      "level": "B2"
+    },
+    {
+      "de": "Wer im Ausland lebt, **kann** per Briefwahl an der Abstimmung teilnehmen.",
+      "en": "Whoever lives abroad can participate in the ballot by postal vote.",
+      "pl": "Osoby mieszkające za granicą mogą wziąć udział w głosowaniu korespondencyjnie.",
+      "level": "B2"
+    },
+    {
+      "de": "Laut Verfassung **soll** das neue Parlament binnen dreißig Tagen zusammentreten.",
+      "en": "According to the constitution, the new parliament is supposed to convene within thirty days.",
+      "pl": "Zgodnie z konstytucją nowy parlament powinien zebrać się w ciągu trzydziestu dni.",
+      "level": "B2"
+    },
+    {
+      "de": "Angesichts der massiven Flugausfälle **müssen** die Fluggesellschaften betroffene Passagiere entschädigen.",
+      "en": "In view of the massive flight cancellations, the airlines must compensate affected passengers.",
+      "pl": "W obliczu masowego odwoływania lotów linie lotnicze muszą zrekompensować straty poszkodowanym pasażerom.",
+      "level": "C1"
+    },
+    {
+      "de": "Niemand **darf** ohne ausdrückliche richterliche Anordnung vertrauliche Unterlagen beschlagnahmen.",
+      "en": "Nobody is allowed to seize confidential documents without an explicit judicial order.",
+      "pl": "Nikomu nie wolno konfiskować poufnych dokumentów bez wyraźnego nakazu sądowego.",
+      "level": "C1"
+    },
+    {
+      "de": "Die Verhandlungsführer **wollen** vor Beginn der Stichwahl verlässliche Sicherheitsgarantien aushandeln.",
+      "en": "The negotiators want to broker reliable security guarantees before the runoff begins.",
+      "pl": "Negocjatorzy chcą wynegocjować wiarygodne gwarancje bezpieczeństwa przed rozpoczęciem drugiej tury.",
+      "level": "C1"
+    },
+    {
+      "de": "Um den außenpolitischen Konsens nicht zu gefährden, **soll** die Delegation heikle Themen meiden.",
+      "en": "In order not to jeopardise foreign policy consensus, the delegation is expected to avoid delicate topics.",
+      "pl": "Aby nie narażać konsensusu w polityce zagranicznej, delegacja ma unikać drażliwych tematów.",
+      "level": "C2"
+    },
+    {
+      "de": "Die Aufsichtsbehörde **kann** bei schwerwiegenden Verstößen gegen das Wahlrecht ein sofortiges Veto einlegen.",
+      "en": "In the event of grave violations of electoral law, the regulatory authority can lodge an immediate veto.",
+      "pl": "W przypadku poważnych naruszeń prawa wyborczego organ nadzorczy może złożyć natychmiastowe weto.",
+      "level": "C2"
+    }
+  ],
+  "exercises": [
+    {
+      "en": "I can speak German.",
+      "pl": "Umiem mówić po niemiecku.",
+      "de": "Ich kann Deutsch sprechen.",
+      "level": "A2"
+    },
+    {
+      "en": "You are not allowed to smoke here. (informal)",
+      "pl": "Nie wolno ci tutaj palić.",
+      "de": "Du darfst hier nicht rauchen.",
+      "level": "A2"
+    },
+    {
+      "en": "We have to leave now.",
+      "pl": "Musimy teraz iść.",
+      "de": "Wir müssen jetzt gehen.",
+      "level": "A2"
+    },
+    {
+      "en": "He wants to buy a new car.",
+      "pl": "On chce kupić nowy samochód.",
+      "de": "Er will ein neues Auto kaufen.",
+      "level": "A2"
+    },
+    {
+      "en": "What should I do?",
+      "pl": "Co powinienem zrobić?",
+      "de": "Was soll ich tun?",
+      "level": "A2"
+    },
+    {
+      "en": "She would like to drink a tea.",
+      "pl": "Ona chciałaby napić się herbaty.",
+      "de": "Sie möchte einen Tee trinken.",
+      "level": "A2"
+    },
+    {
+      "en": "Can you help me? (informal)",
+      "pl": "Czy możesz mi pomóc?",
+      "de": "Kannst du mir helfen?",
+      "level": "A2"
+    },
+    {
+      "en": "Children are not allowed to play here.",
+      "pl": "Dzieciom nie wolno się tutaj bawić.",
+      "de": "Kinder dürfen hier nicht spielen.",
+      "level": "A2"
+    },
+    {
+      "en": "Today he must stay in bed.",
+      "pl": "On musi dziś zostać w łóżku.",
+      "de": "Heute muss er im Bett bleiben.",
+      "level": "A2"
+    },
+    {
+      "en": "We want to learn German together.",
+      "pl": "Chcemy uczyć się razem niemieckiego.",
+      "de": "Wir wollen zusammen Deutsch lernen.",
+      "level": "A2"
+    },
+    {
+      "en": "The politician wants to contest the official election result.",
+      "pl": "Polityk chce zakwestionować oficjalny wynik wyborów.",
+      "de": "Der Politiker will das offizielle Wahlergebnis anfechten.",
+      "level": "B1"
+    },
+    {
+      "en": "Citizens can cast their votes until six o'clock.",
+      "pl": "Obywatele mogą oddawać głosy do godziny szóstej.",
+      "de": "Die Bürger können ihre Stimmen bis sechs Uhr abgeben.",
+      "level": "B1"
+    },
+    {
+      "en": "Journalists are allowed to ask questions during the press conference.",
+      "pl": "Dziennikarze mogą zadawać pytania podczas konferencji prasowej.",
+      "de": "Journalisten dürfen während der Pressekonferenz Fragen stellen.",
+      "level": "B1"
+    },
+    {
+      "en": "Because of the power outage, technicians must check the lines immediately.",
+      "pl": "Z powodu awarii prądu technicy muszą natychmiast sprawdzić linie.",
+      "de": "Wegen des Stromausfalls müssen Techniker die Leitungen sofort überprüfen.",
+      "level": "B1"
+    },
+    {
+      "en": "The candidate is supposed to present his programme on television tonight.",
+      "pl": "Kandydat ma zaprezentować swój program w telewizji dziś wieczorem.",
+      "de": "Der Kandidat soll heute Abend sein Programm im Fernsehen präsentieren.",
+      "level": "B1"
+    },
+    {
+      "en": "We would like to inspect the protocol of the election committee.",
+      "pl": "Chcielibyśmy wglądnąć w protokół komisji wyborczej.",
+      "de": "Wir möchten das Protokoll des Wahlausschusses einsehen.",
+      "level": "B1"
+    },
+    {
+      "en": "Due to severe gusts, planes cannot take off safely.",
+      "pl": "Z powodu silnych porywów wiatru samoloty nie mogą bezpiecznie startować.",
+      "de": "Wegen schwerer Sturmböen können Flugzeuge nicht sicher starten.",
+      "level": "B1"
+    },
+    {
+      "en": "You don't have to wait here; the results will come later. (formal)",
+      "pl": "Nie musi Pan tutaj czekać; wyniki pojawią się później.",
+      "de": "Sie müssen hier nicht warten; die Ergebnisse kommen später.",
+      "level": "B1"
+    },
+    {
+      "en": "The delegation wants to travel to Tokyo on Monday.",
+      "pl": "Delegacja chce udać się do Tokio w poniedziałek.",
+      "de": "Die Delegation will am Montag nach Tokio reisen.",
+      "level": "B1"
+    },
+    {
+      "en": "According to the doctor, she should rest for a few days.",
+      "pl": "Według lekarza ona powinna odpoczywać przez kilka dni.",
+      "de": "Laut dem Arzt soll sie sich einige Tage ausruhen.",
+      "level": "B1"
+    },
+    {
+      "en": "Who can explain the official rules to us?",
+      "pl": "Kto może nam wytłumaczyć oficjalne reguły?",
+      "de": "Wer kann uns die offiziellen Regeln erklären?",
+      "level": "B1"
+    },
+    {
+      "en": "Visitors are not permitted to take photographs in the museum.",
+      "pl": "Odwiedzającym nie wolno robić zdjęć w muzeum.",
+      "de": "Besucher dürfen im Museum nicht fotografieren.",
+      "level": "B1"
+    },
+    {
+      "en": "Every employee must wear safety clothing on the construction site.",
+      "pl": "Każdy pracownik musi nosić odzież ochronną na placu budowy.",
+      "de": "Jeder Mitarbeiter muss auf der Baustelle Sicherheitskleidung tragen.",
+      "level": "B1"
+    },
+    {
+      "en": "The chancellor wants to open the economic conference personally.",
+      "pl": "Kanclerz chce osobiście otworzyć konferencję gospodarczą.",
+      "de": "Der Kanzler will die Wirtschaftskonferenz persönlich eröffnen.",
+      "level": "B1"
+    },
+    {
+      "en": "Should we inform the authorities about the disruption?",
+      "pl": "Czy powinniśmy poinformować władze o zakłóceniu?",
+      "de": "Sollen wir die Behörden über die Störung informieren?",
+      "level": "B1"
+    },
+    {
+      "en": "The students would like to invite an expert to the discussion.",
+      "pl": "Studenci chcieliby zaprosić eksperta na dyskusję.",
+      "de": "Die Studenten möchten einen Experten zur Diskussion einladen.",
+      "level": "B1"
+    },
+    {
+      "en": "He can solve complex problems in a short time.",
+      "pl": "On potrafi rozwiązywać skomplikowane problemy w krótkim czasie.",
+      "de": "Er kann komplexe Probleme in kurzer Zeit lösen.",
+      "level": "B1"
+    },
+    {
+      "en": "Without a valid passport you cannot board the aircraft. (informal)",
+      "pl": "Bez ważnego paszportu nie możesz wejść na pokład samolotu.",
+      "de": "Ohne gültigen Reisepass kannst du das Flugzeug nicht betreten.",
+      "level": "B1"
+    },
+    {
+      "en": "Drivers must adjust their speed during heavy snowfall.",
+      "pl": "Kierowcy muszą dostosować prędkość podczas obfitych opadów śniegu.",
+      "de": "Autofahrer müssen ihre Geschwindigkeit bei starkem Schneefall anpassen.",
+      "level": "B1"
+    },
+    {
+      "en": "The president wants to speak to the citizens on the radio today.",
+      "pl": "Prezydent chce dzisiaj przemówić do obywateli w radiu.",
+      "de": "Der Präsident will heute im Radio zu den Bürgern sprechen.",
+      "level": "B1"
+    },
+    {
+      "en": "The election winner wants to form a broad coalition with several democratic parties.",
+      "pl": "Zwycięzca wyborów chce utworzyć szeroką koalicję z kilkoma demokratycznymi partiami.",
+      "de": "Der Wahlsieger will eine breite Koalition mit mehreren demokratischen Parteien bilden.",
+      "level": "B2"
+    },
+    {
+      "en": "Independent observers must monitor the counting of ballots to prevent manipulation.",
+      "pl": "Niezależni obserwatorzy muszą monitorować liczenie głosów, aby zapobiec manipulacjom.",
+      "de": "Unabhängige Beobachter müssen die Stimmauszählung überwachen, um Manipulationen zu verhindern.",
+      "level": "B2"
+    },
+    {
+      "en": "Due to technical problems, the airline must cancel over a hundred international flights.",
+      "pl": "Z powodu problemów technicznych linia lotnicza musi odwołać ponad sto lotów międzynarodowych.",
+      "de": "Wegen technischer Probleme muss die Fluggesellschaft über hundert internationale Flüge streichen.",
+      "level": "B2"
+    },
+    {
+      "en": "Unauthorised persons are not allowed to enter the polling station after opening hours.",
+      "pl": "Osobom nieupoważnionym nie wolno wchodzić do lokalu wyborczego po godzinach otwarcia.",
+      "de": "Unbefugte dürfen das Wahllokal nach den Öffnungszeiten nicht betreten.",
+      "level": "B2"
+    },
+    {
+      "en": "The new prime minister is supposed to present the cabinet list to parliament tomorrow.",
+      "pl": "Nowy premier ma jutro przedstawić parlamentowi listę członków rządu.",
+      "de": "Der neue Premierminister soll dem Parlament morgen die Kabinettsliste vorlegen.",
+      "level": "B2"
+    },
+    {
+      "en": "The government wants to strengthen security policy cooperation with Asian partners.",
+      "pl": "Rząd chce wzmocnić współpracę w dziedzinie polityki bezpieczeństwa z partnerami z Azji.",
+      "de": "Die Regierung will die sicherheitspolitische Zusammenarbeit mit den asiatischen Partnern stärken.",
+      "level": "B2"
+    },
+    {
+      "en": "In the event of an impending power outage, hospitals can activate their own emergency generators.",
+      "pl": "W przypadku grożącej awarii prądu szpitale mogą uruchomić własne agregaty prądotwórcze.",
+      "de": "Bei einem drohenden Stromausfall können Krankenhäuser eigene Notstromaggregate aktivieren.",
+      "level": "B2"
+    },
+    {
+      "en": "To achieve a victory in the first round, a candidate must win more than half of the votes.",
+      "pl": "Aby odnieść zwycięstwo w pierwszej turze, kandydat musi zdobyć ponad połowę głosów.",
+      "de": "Um einen Sieg im ersten Wahlgang zu erringen, muss ein Kandidat mehr als die Hälfte der Stimmen gewinnen.",
+      "level": "B2"
+    },
+    {
+      "en": "Opponents of the government cannot organize protests in the capital without a police permit.",
+      "pl": "Przeciwnicy rządu nie mogą organizować protestów w stolicy bez zgody policji.",
+      "de": "Regierungsgegner können ohne polizeiliche Genehmigung keine Proteste in der Hauptstadt organisieren.",
+      "level": "B2"
+    },
+    {
+      "en": "The electoral court should verify all allegations of irregularity with great care.",
+      "pl": "Sąd wyborczy powinien z dużą starannością zweryfikować wszelkie zarzuty o nieprawidłowości.",
+      "de": "Das Wahlgericht soll alle Vorwürfe von Unregelmäßigkeiten mit großer Sorgfalt prüfen.",
+      "level": "B2"
+    },
+    {
+      "en": "We would like to analyse the statistical projections before the press conference.",
+      "pl": "Chcielibyśmy przeanalizować prognozy statystyczne przed konferencją prasową.",
+      "de": "Wir möchten die statistischen Hochrechnungen vor der Pressekonferenz analysieren.",
+      "level": "B2"
+    },
+    {
+      "en": "A passenger who misses his connecting flight can demand compensation from the airline.",
+      "pl": "Pasażer, który spóźni się na lot przesiadkowy, może żądać odszkodowania od linii lotniczej.",
+      "de": "Ein Passagier, der seinen Anschlussflug verpasst, kann eine Entschädigung von der Fluggesellschaft verlangen.",
+      "level": "B2"
+    },
+    {
+      "en": "Officials must not disclose confidential election records to the press.",
+      "pl": "Urzędnikom nie wolno ujawniać prasie poufnych protokołów wyborczych.",
+      "de": "Beamte dürfen vertrauliche Wahlprotokolle nicht an die Presse weitergeben.",
+      "level": "B2"
+    },
+    {
+      "en": "The economic delegation wants to negotiate trade facilitation with Japanese companies.",
+      "pl": "Delegacja gospodarcza chce wynegocjować ułatwienia handlowe z japońskimi przedsiębiorstwami.",
+      "de": "Die Wirtschaftsdelegation will Erleichterungen im Handel mit japanischen Unternehmen aushandeln.",
+      "level": "B2"
+    },
+    {
+      "en": "According to the coalition agreement, the minister is supposed to modernise the railway infrastructure.",
+      "pl": "Zgodnie z umową koalicyjną minister ma zmodernizować infrastrukturę kolejową.",
+      "de": "Laut dem Koalitionsvertrag soll der Minister die Eisenbahninfrastruktur modernisieren.",
+      "level": "B2"
+    },
+    {
+      "en": "Without a qualified majority, the president cannot dissolve parliament prematurely.",
+      "pl": "Bez kwalifikowanej większości prezydent nie może przedterminowo rozwiązać parlamentu.",
+      "de": "Ohne eine qualifizierte Mehrheit kann der Präsident das Parlament nicht vorzeitig auflösen.",
+      "level": "B2"
+    },
+    {
+      "en": "Residents must clear the streets of fallen branches after the storm.",
+      "pl": "Mieszkańcy muszą oczyścić ulice z powalonych gałęzi po burzy.",
+      "de": "Anwohner müssen die Straßen nach dem Sturm von umgestürzten Ästen befreien.",
+      "level": "B2"
+    },
+    {
+      "en": "The trade unions want to demand a significant wage increase for ground staff.",
+      "pl": "Związki zawodowe chcą zażądać znacznej podwyżki płac dla personelu naziemnego.",
+      "de": "Die Gewerkschaften wollen eine deutliche Lohnerhöhung für das Bodenpersonal fordern.",
+      "level": "B2"
+    },
+    {
+      "en": "During the election campaign, candidates must not accept foreign donations.",
+      "pl": "W trakcie kampanii wyborczej kandydatom nie wolno przyjmować darowizn z zagranicy.",
+      "de": "Während des Wahlkampfs dürfen Kandidaten keine ausländischen Spenden annehmen.",
+      "level": "B2"
+    },
+    {
+      "en": "Should the interim government remain in office until the runoff election?",
+      "pl": "Czy rząd tymczasowy powinien pozostać na stanowisku do czasu drugiej tury wyborów?",
+      "de": "Soll die Übergangsregierung bis zur Stichwahl im Amt bleiben?",
+      "level": "B2"
+    },
+    {
+      "en": "The energy provider must restore the power supply for all affected households by evening.",
+      "pl": "Dostawca energii musi przywrócić zasilanie dla wszystkich poszkodowanych gospodarstw do wieczora.",
+      "de": "Der Energieversorger muss die Stromversorgung für alle betroffenen Haushalte bis zum Abend wiederherstellen.",
+      "level": "B2"
+    },
+    {
+      "en": "Travellers can rebook their tickets free of charge if the flight is cancelled.",
+      "pl": "Podróżni mogą bezpłatnie przebukować bilety, jeśli lot zostanie odwołany.",
+      "de": "Reisende können ihre Tickets kostenlos umbuchen, wenn der Flug gestrichen wird.",
+      "level": "B2"
+    },
+    {
+      "en": "The chancellor wants to address the global security situation in his speech.",
+      "pl": "Kanclerz chce poruszyć w swoim przemówieniu kwestię globalnej sytuacji bezpieczeństwa.",
+      "de": "Der Kanzler will in seiner Rede auf die globale Sicherheitslage eingehen.",
+      "level": "B2"
+    },
+    {
+      "en": "Observers are not allowed to influence the voters' decision in the voting booth.",
+      "pl": "Obserwatorom nie wolno wpływać na decyzję wyborców w kabinie do głosowania.",
+      "de": "Beobachter dürfen die Entscheidung der Wähler in der Wahlkabine nicht beeinflussen.",
+      "level": "B2"
+    },
+    {
+      "en": "The commission is supposed to investigate the causes of the rapid change of power in detail.",
+      "pl": "Komisja ma szczegółowo zbadać przyczyny szybkiej zmiany władzy.",
+      "de": "Die Kommission soll die Ursachen des raschen Machtwechsels eingehend untersuchen.",
+      "level": "B2"
+    },
+    {
+      "en": "Companies must register their employees for the new social insurance by Friday.",
+      "pl": "Firmy muszą zgłosić swoich pracowników do nowego ubezpieczenia społecznego do piątku.",
+      "de": "Unternehmen müssen ihre Mitarbeiter bis Freitag für die neue Sozialversicherung anmelden.",
+      "level": "B2"
+    },
+    {
+      "en": "Who can reliably confirm the accuracy of these projections?",
+      "pl": "Kto może wiarygodnie potwierdzić dokładność tych prognoz?",
+      "de": "Wer kann die Genauigkeit dieser Hochrechnungen verlässlich bestätigen?",
+      "level": "B2"
+    },
+    {
+      "en": "The opposition party wants to legally challenge the extension of the opening hours.",
+      "pl": "Partia opozycyjna chce prawnie zakwestionować przedłużenie godzin otwarcia.",
+      "de": "Die Oppositionspartei will die Verlängerung der Öffnungszeiten juristisch anfechten.",
+      "level": "B2"
+    },
+    {
+      "en": "Ministers are not permitted to participate in business ventures during their tenure.",
+      "pl": "Ministrom nie wolno uczestniczyć w przedsięwzięciach gospodarczych podczas pełnienia funkcji.",
+      "de": "Minister dürfen sich während ihrer Amtszeit nicht an Wirtschaftsunternehmen beteiligen.",
+      "level": "B2"
+    },
+    {
+      "en": "The interim prime minister is supposed to lead the country stably until the next election.",
+      "pl": "Tymczasowy premier ma stabilnie poprowadzić kraj do następnych wyborów.",
+      "de": "Der Interimsregierungschef soll das Land bis zur nächsten Wahl stabil führen.",
+      "level": "B2"
+    },
+    {
+      "en": "The airport operator must publish the cancelation lists on its website immediately.",
+      "pl": "Operator lotniska musi natychmiast opublikować listy odwołanych lotów na swojej stronie internetowej.",
+      "de": "Der Flughafenbetreiber muss die Ausfalllisten unverzüglich auf seiner Website veröffentlichen.",
+      "level": "B2"
+    },
+    {
+      "en": "With an international driver's license, you can drive a car in both countries. (informal)",
+      "pl": "Z międzynarodowym prawem jazdy możesz prowadzić samochód w obu krajach.",
+      "de": "Mit einem internationalen Führerschein kannst du in beiden Ländern ein Auto fahren.",
+      "level": "B2"
+    },
+    {
+      "en": "The leaders want to intensify bilateral trade across key sectors.",
+      "pl": "Przywódcy chcą zintensyfikować handel dwustronny w kluczowych sektorach.",
+      "de": "Die Staatschefs wollen den bilateralen Handel in wichtigen Sektoren intensivieren.",
+      "level": "B2"
+    },
+    {
+      "en": "Citizens are not allowed to park on marked rescue routes.",
+      "pl": "Obywatelom nie wolno parkować na oznaczonych drogach ewakuacyjnych.",
+      "de": "Bürger dürfen nicht auf gekennzeichneten Rettungswegen parken.",
+      "level": "B2"
+    },
+    {
+      "en": "According to the protocol, the foreign minister is supposed to receive the guests personally.",
+      "pl": "Zgodnie z protokołem minister spraw zagranicznych ma osobiście przyjąć gości.",
+      "de": "Dem Protokoll zufolge soll der Außenminister die Gäste persönlich empfangen.",
+      "level": "B2"
+    },
+    {
+      "en": "The electoral board must recount the disputed votes in the presence of legal counsel.",
+      "pl": "Komisja wyborcza musi ponownie przeliczyć sporne głosy w obecności radcy prawnego.",
+      "de": "Der Wahlausschuss muss die strittigen Stimmen im Beisein von Rechtsbeiständen neu auszählen.",
+      "level": "B2"
+    },
+    {
+      "en": "Expert teams can repair storm damage to the electrical grid within a few hours.",
+      "pl": "Zespoły ekspertów mogą naprawić szkody wyrządzone przez burzę w sieci elektrycznej w ciągu kilku godzin.",
+      "de": "Expertenteams können Sturmschäden am Stromnetz innerhalb weniger Stunden reparieren.",
+      "level": "B2"
+    },
+    {
+      "en": "The student movement wants to present a comprehensive reform concept for higher education.",
+      "pl": "Ruch studencki chce przedstawić kompleksową koncepcję reformy szkolnictwa wyższego.",
+      "de": "Die Studentenbewegung will ein umfassendes Reformkonzept für die Hochschulen vorlegen.",
+      "level": "B2"
+    },
+    {
+      "en": "Election workers must not open the ballot boxes before the official deadline.",
+      "pl": "Członkom komisji wyborczej nie wolno otwierać urn wyborczych przed oficjalnym terminem.",
+      "de": "Wahlhelfer dürfen die Wahlurnen vor dem offiziellen Fristende nicht öffnen.",
+      "level": "B2"
+    },
+    {
+      "en": "The government is supposed to present the draft budget to the parliamentary committee next week.",
+      "pl": "Rząd ma przedstawić projekt budżetu komisji parlamentarnej w przyszłym tygodniu.",
+      "de": "Die Regierung soll den Haushaltsentwurf nächste Woche dem Parlamentsausschuss vorlegen.",
+      "level": "B2"
+    },
+    {
+      "en": "The supreme court must thoroughly examine the legal complaint regarding the extended polling hours.",
+      "pl": "Sąd najwyższy musi dokładnie zbadać skargę prawną dotyczącą przedłużonych godzin głosowania.",
+      "de": "Das Oberste Gericht muss die Rechtsbeschwerde bezüglich der verlängerten Wahlzeiten eingehend prüfen.",
+      "level": "C1"
+    },
+    {
+      "en": "Without explicit parliamentary approval, the head of state cannot deploy troops abroad.",
+      "pl": "Bez wyraźnej zgody parlamentu głowa państwa nie może wysyłać wojsk za granicę.",
+      "de": "Ohne ausdrückliche Zustimmung des Parlaments kann das Staatsoberhaupt keine Truppen ins Ausland entsenden.",
+      "level": "C1"
+    },
+    {
+      "en": "Diplomats must not interfere in the domestic electoral proceedings of the sovereign host country.",
+      "pl": "Dyplomatom nie wolno ingerować w wewnętrzne procedury wyborcze suwerennego państwa przyjmującego.",
+      "de": "Diplomaten dürfen sich nicht in die internen Wahlverfahren des souveränen Gastlandes einmischen.",
+      "level": "C1"
+    },
+    {
+      "en": "The chief negotiator wants to establish reliable preconditions for the safe return of political exiles.",
+      "pl": "Główny negocjator chce stworzyć wiarygodne warunki dla bezpiecznego powrotu uchodźców politycznych.",
+      "de": "Der Chefunterhändler will verlässliche Voraussetzungen für die sichere Rückkehr politischer Exilanten schaffen.",
+      "level": "C1"
+    },
+    {
+      "en": "According to the constitution, the constitutional court is supposed to ensure adherence to democratic norms.",
+      "pl": "Zgodnie z konstytucją trybunał konstytucyjny ma czuwać nad przestrzeganiem norm demokratycznych.",
+      "de": "Gemäß der Verfassung soll das Verfassungsgericht die Einhaltung demokratischer Normen gewährleisten.",
+      "level": "C1"
+    },
+    {
+      "en": "The transport authority must swiftly establish alternative routes to mitigate the paralysis of international air hubs.",
+      "pl": "Urząd transportu musi szybko wyznaczyć alternatywne trasy, aby złagodzić paraliż międzynarodowych węzłów lotniczych.",
+      "de": "Die Verkehrsbehörde muss rasch Ausweichrouten etablieren, um die Lahmlegung internationaler Luftfahrt-Drehkreuze abzumildern.",
+      "level": "C1"
+    },
+    {
+      "en": "Under international humanitarian law, belligerents must never target critical civilian infrastructure.",
+      "pl": "Zgodnie z międzynarodowym prawem humanitarnym walczącym stronom nigdy nie wolno atakować krytycznej infrastruktury cywilnej.",
+      "de": "Nach dem humanitären Völkerrecht dürfen Kriegsparteien niemals kritische zivile Infrastruktur ins Visier nehmen.",
+      "level": "C1"
+    },
+    {
+      "en": "The business delegation wants to conclude long-term supply agreements for raw materials with Asian partners.",
+      "pl": "Delegacja gospodarcza chce zawrzeć z partnerami azjatyckimi długoterminowe umowy na dostawy surowców.",
+      "de": "Die Wirtschaftsdelegation will langfristige Lieferabkommen für Rohstoffe mit asiatischen Partnern abschließen.",
+      "level": "C1"
+    },
+    {
+      "en": "Before the official runoff, the electoral commission must publicise all registered campaign contributions.",
+      "pl": "Przed oficjalną drugą turą komisja wyborcza musi podać do wiadomości publicznej wszystkie zarejestrowane wpłaty na kampanię.",
+      "de": "Vor der offiziellen Stichwahl muss die Wahlkommission alle registrierten Wahlkampfspenden offenlegen.",
+      "level": "C1"
+    },
+    {
+      "en": "Who can reliably resolve this severe constitutional dispute between the government and the election commission?",
+      "pl": "Kto potrafi wiarygodnie rozstrzygnąć ten poważny spór konstytucyjny między rządem a komisją wyborczą?",
+      "de": "Wer kann diesen schwerwiegenden Verfassungsstreit zwischen der Regierung und der Wahlkommission verlässlich schlichten?",
+      "level": "C1"
+    },
+    {
+      "en": "Ministers are not allowed to withhold relevant investigation documents from the parliamentary inquiry.",
+      "pl": "Ministrom nie wolno zatajać przed komisją śledczą istotnych dokumentów dochodzeniowych.",
+      "de": "Minister dürfen dem parlamentarischen Untersuchungsausschuss relevante Ermittlungsdokumente nicht vorenthalten.",
+      "level": "C1"
+    },
+    {
+      "en": "The newly elected government wants to overhaul the energy distribution system fundamentally.",
+      "pl": "Nowo wybrany rząd chce gruntownie zreformować system dystrybucji energii.",
+      "de": "Die neu gewählte Regierung will das System der Energieverteilung grundlegend überholen.",
+      "level": "C1"
+    },
+    {
+      "en": "The interim head of state is supposed to represent the country at the international climate summit.",
+      "pl": "Tymczasowa głowa państwa ma reprezentować kraj na międzynarodowym szczycie klimatycznym.",
+      "de": "Das kommissarische Staatsoberhaupt soll das Land auf dem internationalen Klimagipfel vertreten.",
+      "level": "C1"
+    },
+    {
+      "en": "In view of the meteorological forecasts, airport management must secure terminal structures against storm surges.",
+      "pl": "W obliczu prognoz meteorologicznych kierownictwo lotniska musi zabezpieczyć konstrukcje terminali przed falami sztormowymi.",
+      "de": "Angesichts der meteorologischen Vorhersagen muss die Flughafenleitung die Terminalstrukturen gegen Sturmfluten sichern.",
+      "level": "C1"
+    },
+    {
+      "en": "The student movement wants to guarantee that democratic principles are consistently respected across all institutions.",
+      "pl": "Ruch studencki chce zagwarantować konsekwentne przestrzeganie zasad demokratycznych we wszystkich instytucjach.",
+      "de": "Die Studentenbewegung will gewährleisten, dass demokratische Prinzipien in allen Institutionen konsequent geachtet werden.",
+      "level": "C1"
+    },
+    {
+      "en": "A nation cannot overcome systemic political divisions without a transparent legal framework.",
+      "pl": "Naród nie może przezwyciężyć systemowych podziałów politycznych bez przejrzystych ram prawnych.",
+      "de": "Eine Nation kann systemische politische Gräben nicht ohne einen transparenten Rechtsrahmen überwinden.",
+      "level": "C1"
+    },
+    {
+      "en": "State prosecutors must not initiate politically motivated criminal proceedings against opposition leaders.",
+      "pl": "Prokuratorom nie wolno wszczynać motywowanych politycznie postępowań karnych przeciwko liderom opozycji.",
+      "de": "Staatsanwälte dürfen keine politisch motivierten Strafverfahren gegen Oppositionsführer einleiten.",
+      "level": "C1"
+    },
+    {
+      "en": "The candidate wants to challenge the outcome of the presidential runoff in all contentious districts.",
+      "pl": "Kandydat chce zakwestionować wynik drugiej tury wyborów prezydenckich we wszystkich spornych okręgach.",
+      "de": "Der Kandidat will das Ergebnis der Stichwahl um das Präsidentenamt in allen umstrittenen Bezirken anfechten.",
+      "level": "C1"
+    },
+    {
+      "en": "According to diplomatic sources, the special envoy is supposed to negotiate a temporary ceasefire.",
+      "pl": "Według źródeł dyplomatycznych specjalny wysłannik ma wynegocjować tymczasowe zawieszenie broni.",
+      "de": "Diplomatischen Quellen zufolge soll der Sondergesandte eine temporäre Waffenruhe aushandeln.",
+      "level": "C1"
+    },
+    {
+      "en": "To avert catastrophic grid collapses, network operators must decouple regional subnetworks flexibly.",
+      "pl": "Aby zapobiec katastrofalnemu załamaniu sieci, operatorzy muszą elastycznie odłączać podsieci regionalne.",
+      "de": "Um katastrophale Netzzusammenbrüche abzuwenden, müssen Netzbetreiber regionale Teilnetze flexibel abkoppeln.",
+      "level": "C1"
+    },
+    {
+      "en": "The regulatory board must rigorously enforce compliance standards to maintain public confidence in democratic electoral bodies.",
+      "pl": "Organ regulacyjny musi rygorystycznie egzekwować standardy zgodności, aby utrzymać zaufanie publiczne do demokratycznych organów wyborczych.",
+      "de": "Die Regulierungsbehörde muss Compliance-Standards rigoros durchsetzen, um das Vertrauen der Öffentlichkeit in demokratische Wahlorgane zu erhalten.",
+      "level": "C2"
+    },
+    {
+      "en": "A head of state must not abuse emergency decrees to circumvent mandatory legislative scrutiny.",
+      "pl": "Głowie państwa nie wolno nadużywać dekretów nadzwyczajnych w celu obejścia obowiązkowej kontroli ustawodawczej.",
+      "de": "Ein Staatsoberhaupt darf Notverordnungen nicht missbrauchen, um die obligatorische legislative Kontrolle zu umgehen.",
+      "level": "C2"
+    },
+    {
+      "en": "The reform coalition wants to dismantle bureaucratic hurdles that impede structural investment in digital communication.",
+      "pl": "Koalicja reformatorska chce usunąć bariery biurokratyczne, które hamują inwestycje strukturalne w komunikację cyfrową.",
+      "de": "Die Reformkoalition will bürokratische Hürden abbauen, die strukturelle Investitionen in die digitale Kommunikation behindern.",
+      "level": "C2"
+    },
+    {
+      "en": "According to constitutional custom, the president-elect is supposed to abstain from factional political declarations prior to inauguration.",
+      "pl": "Zgodnie ze zwyczajem konstytucyjnym nowo wybrany prezydent powinien powstrzymać się od deklaracji partyjnych przed inauguracją.",
+      "de": "Der verfassungsrechtlichen Gepflogenheit nach soll sich der gewählte Präsident vor der Amtseinführung parteipolitischer Erklärungen enthalten.",
+      "level": "C2"
+    },
+    {
+      "en": "Even seasoned analysts can hardly predict how the sudden realignment of geopolitical alliances will affect global trade.",
+      "pl": "Nawet doświadczeni analitycy z trudem potrafią przewidzieć, jak nagłe przetasowanie sojuszy geopolitycznych wpłynie na handel globalny.",
+      "de": "Selbst erfahrene Analysten können kaum vorhersagen, wie sich die plötzliche Neuordnung geopolitischer Allianzen auf den Welthandel auswirken wird.",
+      "level": "C2"
+    },
+    {
+      "en": "Judicial authorities must not tolerate procedural ambiguities that could undermine the sovereign legitimacy of the ballot.",
+      "pl": "Organom sądowniczym nie wolno tolerować dwuznaczności proceduralnych, które mogłyby podważyć suwerenną legitymizację głosowania.",
+      "de": "Justizbehörden dürfen keine verfahrensrechtlichen Unklarheiten dulden, die die souveräne Legitimität des Urnengangs untergraben könnten.",
+      "level": "C2"
+    },
+    {
+      "en": "The trade committee wants to harmonise bilateral regulatory mechanisms to prevent discriminatory tariff escalations.",
+      "pl": "Komisja handlowa chce zharmonizować dwustronne mechanizmy regulacyjne, aby zapobiec dyskryminacyjnej eskalacji taryfowej.",
+      "de": "Der Handelsausschuss will bilaterale Regulierungsmechanismen harmonisieren, um diskriminierenden Zolleskalationen vorzubeugen.",
+      "level": "C2"
+    },
+    {
+      "en": "The parliamentary investigation committee is supposed to elucidate the systemic failures in civil protection during the cyclone crisis.",
+      "pl": "Parlamentarna komisja śledcza ma wyjaśnić systemowe uchybienia w ochronie ludności podczas kryzysu wywołanego cyklonem.",
+      "de": "Der parlamentarische Untersuchungsausschuss soll das systemische Versagen im Katastrophenschutz während der Zyklonkrise aufklären.",
+      "level": "C2"
+    },
+    {
+      "en": "Grid management operators must implement algorithmic load shedding dynamically to prevent cascading cross-border blackouts.",
+      "pl": "Operatorzy zarządzania siecią muszą dynamicznie wdrażać algorytmiczne zrzucanie obciążenia, aby zapobiec kaskadowym transgranicznym awariom zasilania.",
+      "de": "Netzbetreiber müssen algorithmische Lastabwürfe dynamisch umsetzen, um kaskadierende grenzüberschreitende Stromausfälle zu verhindern.",
+      "level": "C2"
+    },
+    {
+      "en": "Independent institutions must remain completely autonomous if they are to safeguard the constitutional separation of powers.",
+      "pl": "Instytucje niezależne muszą pozostać w pełni autonomiczne, jeśli mają chronić konstytucyjny trójpodział władzy.",
+      "de": "Unabhängige Institutionen müssen vollkommen autonom bleiben, wenn sie die verfassungsmäßige Gewaltenteilung wahren sollen.",
+      "level": "C2"
+    }
+  ],
+  "listening": {
+    "audioUrl": "https://radiodownloaddw-a.akamaihd.net/downloads/Events/dwelle/dira/mp3/deutschkurse/nachrichten_live/73C7F6DD_2.mp3",
+    "articles": [
+      {
+        "heading": "Lula gewinnt Präsidenten-[[Stichwahl|1]] in Brasilien, Bolsonaro erkennt Ergebnis nicht an",
+        "text": "[[Amtsinhaber|2]] Luiz Inácio Lula da Silva ist zum Sieger der Präsidentenwahl in Brasilien erklärt worden. Sein rechter [[Herausforderer|3]] Flávio Bolsonaro [[erkennt|4]] das offizielle Ergebnis jedoch nicht an und kündigte [[rechtliche Schritte|5]] an. Hintergrund ist die kurzfristige [[Verlängerung|6]] der Öffnungszeit der [[Wahllokale|7]] um zwei Stunden. Das Oberste [[Wahlgericht|8]] erklärte den 80-jährigen Lula mit 51,8 zu 48,2 Prozent der Stimmen zum Wahlsieger. Lula hatte in der ersten [[Wahlrunde|9]] mit rund 45 Prozent noch hinter Flávio Bolsonaro gelegen, der auf rund 47 Prozent kam."
+      },
+      {
+        "heading": "Machado kehrt nach Monaten im [[Exil|10]] nach Venezuela zurück",
+        "text": "Die venezolanische [[Friedensnobelpreisträgerin|11]] María Corina Machado ist nach Angaben ihrer Partei rund zehn Monate nach ihrer [[heimlichen|12]] [[Ausreise|13]] in ihr Heimatland zurückgekehrt. Die 59-Jährige sei wieder auf venezolanischem [[Boden|14]], teilte die Oppositionspartei Vente Venezuela mit. US-Außenminister Marco Rubio zufolge haben von den USA unterstützte Gespräche die [[Voraussetzungen|15]] für eine sichere Rückkehr geschaffen. Diese seien das direkte Ergebnis von Verhandlungen, in deren Rahmen bereits Hunderte politische [[Gefangene|16]] [[freigelassen|17]] und Hunderte Vertreter der Opposition aus dem Exil zurückgekehrt seien, schrieb Rubio auf der Plattform X."
+      },
+      {
+        "heading": "Serbien steht nach Parlamentswahl vor einem [[Machtwechsel|18]]",
+        "text": "Serbiens [[Langzeit-Präsident|19]] Aleksandar Vučić steht nach 14 Jahren im Amt [[vor dem Aus|20]]: Nach der [[vorgezogenen|21]] Parlamentswahl in dem südosteuropäischen Land hat sich die aus einer studentischen Protestbewegung [[hervorgegangene|22]] Studentska Lista am Sonntag zur Siegerin über Vučićs Serbische Fortschrittspartei (SNS) erklärt. Vučić hatte zuvor seine [[Niederlage|23]] [[eingeräumt|24]]. Nach der [[Projektion|25]] der Wahlforschungsgruppe CRTA habe die Studentenliste 51,5 Prozent der Stimmen [[auf sich vereint|26]], sagte Programmdirektor Raša Nedeljkov auf einer Pressekonferenz. Die SNS kam der Projektion zufolge auf 40,4 Prozent."
+      },
+      {
+        "heading": "Stichwahl entscheidet über [[Staatsoberhaupt|27]] in Bulgarien",
+        "text": "Im EU- und NATO-Land Bulgarien fällt die Entscheidung über das künftige Staatsoberhaupt in einer Stichwahl. Wie aus einer [[Hochrechnung|28]] des bulgarischen [[Meinungsforschungsinstituts|29]] Mjara hervorgeht, erreichte keiner der Kandidaten schon im ersten [[Wahlgang|30]] die erforderliche [[absolute Mehrheit|31]]. Zudem lag die [[Wahlbeteiligung|32]] mit 22,2 Prozent weit unter den notwendigen mehr als 50 Prozent. Damit wird es am kommenden Sonntag eine Stichwahl zwischen der jetzigen Präsidentin Ilijana Jotowa und Ex-[[Interimsregierungschef|33]] Andrej Gjurow geben. Jotowa kam den Angaben zufolge auf 35 Prozent der Stimmen, der [[prowestliche|34]] Andrej Gjurow auf 31,9 Prozent."
+      },
+      {
+        "heading": "Kanzler Merz will Beziehungen zu Japan, Südkorea und Singapur [[vertiefen|35]]",
+        "text": "Bundeskanzler Friedrich Merz (CDU) bricht an diesem Montag zu einer [[mehrtägigen|36]] Asienreise [[auf|37]]. Bis Ende der Woche wird der Kanzler Singapur, Japan und Südkorea besuchen. Merz wird dabei von einer [[Wirtschaftsdelegation|38]] begleitet. Die Reise dient nach Regierungsangaben insbesondere der [[Vertiefung|39]] der [[sicherheitspolitischen|40]] und wirtschaftlichen [[Zusammenarbeit|41]] mit den asiatischen Staaten. Zudem wird Merz am Freitag die 19. Asien-Pazifik-Konferenz der deutschen Wirtschaft in der südkoreanischen Hauptstadt Seoul eröffnen."
+      },
+      {
+        "heading": "[[Sturmtiefs|42]] verursachen massive [[Beeinträchtigungen|43]] in Europa",
+        "text": "Zwei Stürme [[kurz hintereinander|44]] haben in Deutschland und anderen Teilen Europas zu Stromausfällen in mehr als 150.000 Haushalten und zur [[Streichung|45]] hunderter Flüge geführt. Von den Stromausfällen am Sonntag waren nicht nur gut 140.000 Haushalte in Großbritannien und Frankreich, sondern auch etwa 10.000 weitere rund um Freiburg im Breisgau im Süden Deutschlands betroffen. Hunderte Flüge [[fielen aus|46]], darunter auch Verbindungen über den Amsterdamer Flughafen Schiphol, einen der [[meistgenutzten|47]] Airports Europas. [[Binnen|48]] 24 Stunden zogen die beiden Sturmtiefs „Luise“ und „Manja“ über Europa."
+      }
+    ],
+    "vocab": [
+      {
+        "id": 1,
+        "word": "die Stichwahl",
+        "translation": {
+          "en": "runoff election, second ballot",
+          "pl": "druga tura wyborów, ponowne głosowanie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Stichwahlen",
+        "notes": {
+          "en": "Deciding vote between top two candidates when neither reaches an absolute majority.",
+          "pl": "Decydujące głosowanie między dwoma kandydatami przy braku większości bezwzględnej."
+        },
+        "examples": [
+          "Die beiden besten Kandidaten treten nächste Woche in einer Stichwahl an.",
+          "Politische Beobachter rechnen mit einer knappen Entscheidung in der Stichwahl."
+        ]
+      },
+      {
+        "id": 2,
+        "word": "der Amtsinhaber",
+        "translation": {
+          "en": "incumbent, office holder",
+          "pl": "urzędujący (prezydent, premier), urzędnik"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Amtsinhaber",
+        "notes": {
+          "en": "Feminine form is die Amtsinhaberin.",
+          "pl": "Forma żeńska to die Amtsinhaberin."
+        },
+        "examples": [
+          "Der Amtsinhaber verteidigte seine Politik während der Fernsehdebatte.",
+          "Viele Wähler sprachen dem bisherigen Amtsinhaber erneut ihr Vertrauen aus."
+        ]
+      },
+      {
+        "id": 3,
+        "word": "der Herausforderer",
+        "translation": {
+          "en": "challenger, contender",
+          "pl": "pretendent, rywal, rzucający wyzwanie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Herausforderer",
+        "notes": {
+          "en": "Opponent running against the incumbent; feminine: die Herausforderin.",
+          "pl": "Rywal kandydujący przeciwko urzędującemu; r. żeński: die Herausforderin."
+        },
+        "examples": [
+          "Der junge Herausforderer kritisierte das Wirtschaftsprogramm der Regierung.",
+          "In den Umfragen holte der Herausforderer zuletzt deutlich auf."
+        ]
+      },
+      {
+        "id": 4,
+        "word": "anerkennen",
+        "translation": {
+          "en": "to recognise, to acknowledge, to accept",
+          "pl": "uznać, akceptować"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Mixed separable verb: erkennt an, erkannte an, hat anerkannt.",
+          "pl": "Czasownik rozdzielnie złożony o odmianie nieregularnej: erkennt an, erkannte an, hat anerkannt."
+        },
+        "examples": [
+          "Der Verlierer weigerte sich, den offiziellen Wahlsieg anzuerkennen.",
+          "Internationale Gremien erkannten die Qualifikation des Experten sofort an."
+        ]
+      },
+      {
+        "id": 5,
+        "word": "rechtliche Schritte",
+        "translation": {
+          "en": "legal action, legal steps",
+          "pl": "kroki prawne"
+        },
+        "partOfSpeech": "Expression",
+        "level": "B2",
+        "plural": "kein Plural",
+        "notes": {
+          "en": "Common news collocation: rechtliche Schritte einleiten / ankündigen.",
+          "pl": "Częsty zwrot prasowy: rechtliche Schritte einleiten / ankündigen (podjąć / zapowiedzieć kroki prawne)."
+        },
+        "examples": [
+          "Das Unternehmen kündigte rechtliche Schritte gegen den Konkurrenten an.",
+          "Nach der unrechtmäßigen Kündigung leitete die Anwältin rechtliche Schritte ein."
+        ]
+      },
+      {
+        "id": 6,
+        "word": "die Verlängerung",
+        "translation": {
+          "en": "extension, renewal, prolongation",
+          "pl": "przedłużenie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "die Verlängerungen",
+        "notes": {
+          "en": "Derived from verlängern; used for deadlines, contracts, and working hours.",
+          "pl": "Pochodzi od verlängern; stosowane do terminów, umów i godzin otwarcia."
+        },
+        "examples": [
+          "Die Verlängerung der Frist verschafft den Parteien mehr Verhandlungszeit.",
+          "Das Fußballspiel ging nach einem Unentschieden in die Verlängerung."
+        ]
+      },
+      {
+        "id": 7,
+        "word": "das Wahllokal",
+        "translation": {
+          "en": "polling station, voting place",
+          "pl": "lokal wyborczy"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "die Wahllokale",
+        "notes": {
+          "en": "Compound: die Wahl (election) + das Lokal (premises).",
+          "pl": "Złożenie: die Wahl (wybory) + das Lokal (lokal)."
+        },
+        "examples": [
+          "Die Wahllokale öffnen am Sonntagmorgen um acht Uhr.",
+          "Vor dem Wahllokal bildeten sich bereits lange Schlangen."
+        ]
+      },
+      {
+        "id": 8,
+        "word": "das Wahlgericht",
+        "translation": {
+          "en": "electoral court, electoral tribunal",
+          "pl": "sąd wyborczy, trybunał wyborczy"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Wahlgerichte",
+        "notes": {
+          "en": "Judicial body overseeing elections and disputes.",
+          "pl": "Organ sądowniczy nadzorujący wybory i rozstrzygający spory wyborcze."
+        },
+        "examples": [
+          "Das Wahlgericht wies die Beschwerde der unterlegenen Partei zurück.",
+          "Die Entscheidung des Wahlgerichts ist unanfechtbar und rechtskräftig."
+        ]
+      },
+      {
+        "id": 9,
+        "word": "die Wahlrunde",
+        "translation": {
+          "en": "electoral round, ballot round",
+          "pl": "tura wyborów"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Wahlrunden",
+        "notes": {
+          "en": "Synonymous with der Wahlgang (voting round).",
+          "pl": "Synonim określenia der Wahlgang (tura głosowania)."
+        },
+        "examples": [
+          "In der ersten Wahlrunde schied der liberale Bewerber aus.",
+          "Vor der zweiten Wahlrunde schlossen die Parteien neue Bündnisse."
+        ]
+      },
+      {
+        "id": 10,
+        "word": "das Exil",
+        "translation": {
+          "en": "exile",
+          "pl": "wygnanie, emigracja przymusowa"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Exile",
+        "notes": {
+          "en": "Collocations: ins Exil gehen (go into exile), im Exil leben (live in exile).",
+          "pl": "Kolokacje: ins Exil gehen (udać się na wygnanie), im Exil leben (żyć na emigracji)."
+        },
+        "examples": [
+          "Der Schriftsteller verbrachte viele Jahre im europäischen Exil.",
+          "Aus dem Exil rief die Politikerin zu friedlichen Demonstrationen auf."
+        ]
+      },
+      {
+        "id": 11,
+        "word": "die Friedensnobelpreisträgerin",
+        "translation": {
+          "en": "female Nobel Peace Prize laureate",
+          "pl": "laureatka Pokojowej Nagrody Nobla"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Friedensnobelpreisträgerinnen",
+        "notes": {
+          "en": "Compound: der Frieden + der Nobelpreis + der Träger (laureate).",
+          "pl": "Złożenie rzeczowników Frieden, Nobelpreis oraz Träger z końcówką żeńską -in."
+        },
+        "examples": [
+          "Die Friedensnobelpreisträgerin hielt eine bewegende Rede über Menschenrechte.",
+          "Zwei Friedensnobelpreisträgerinnen gründeten eine Hilfsorganisation für Frauen."
+        ]
+      },
+      {
+        "id": 12,
+        "word": "heimlich",
+        "translation": {
+          "en": "secret, clandestine, covert",
+          "pl": "tajny, potajemny, ukradkowy"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "B1",
+        "plural": "",
+        "notes": {
+          "en": "Functions both as adjective and adverb without changes.",
+          "pl": "Funkcjonuje jako przymiotnik i przysłówek bez zmiany formy."
+        },
+        "examples": [
+          "Sie trafen sich zu einem heimlichen Gespräch im Park.",
+          "Der Zeuge verließ die Stadt ganz heimlich in der Nacht."
+        ]
+      },
+      {
+        "id": 13,
+        "word": "die Ausreise",
+        "translation": {
+          "en": "departure (from a country), exit",
+          "pl": "wyjazd z kraju, opuszczenie granic"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Ausreisen",
+        "notes": {
+          "en": "Antonym of die Einreise (entry into a country).",
+          "pl": "Antonim słowa die Einreise (wjazd do kraju)."
+        },
+        "examples": [
+          "Die Behörden verweigerten dem Dissidenten die Ausreise.",
+          "Für die Ausreise aus dem Krisengebiet benötigten sie spezielle Visa."
+        ]
+      },
+      {
+        "id": 14,
+        "word": "der Boden",
+        "translation": {
+          "en": "ground, soil, territory",
+          "pl": "ziemia, grunt, terytorium"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "die Böden",
+        "notes": {
+          "en": "Idiom: auf heimischem/fremdem Boden (on home/foreign soil).",
+          "pl": "Zwrot: auf heimischem/fremdem Boden (na ojczystej/obcej ziemi)."
+        },
+        "examples": [
+          "Nach langer Reise betrat die Delegation endlich sicheren Boden.",
+          "Auf diesem fruchtbaren Boden wachsen Getreide und Gemüse hervorragend."
+        ]
+      },
+      {
+        "id": 15,
+        "word": "die Voraussetzung",
+        "translation": {
+          "en": "prerequisite, condition, requirement",
+          "pl": "warunek, przesłanka, wymóg"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Voraussetzungen",
+        "notes": {
+          "en": "Collocations: Voraussetzungen schaffen / erfüllen (create / fulfil conditions).",
+          "pl": "Kolokacje: Voraussetzungen schaffen / erfüllen (stworzyć / spełnić warunki)."
+        },
+        "examples": [
+          "Ein abgeschlossenes Studium ist die Voraussetzung für diese Stelle.",
+          "Beide Staaten schufen die Voraussetzungen für eine engere Zusammenarbeit."
+        ]
+      },
+      {
+        "id": 16,
+        "word": "der Gefangene",
+        "translation": {
+          "en": "prisoner, captive, detainee",
+          "pl": "więzień, jeniec"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Gefangenen",
+        "notes": {
+          "en": "Nominalised adjective: der Gefangene, ein Gefangener, die Gefangenen.",
+          "pl": "Rzeczownik odprzymiotnikowy: der Gefangene, ein Gefangener, die Gefangenen."
+        },
+        "examples": [
+          "Die Organisation fordert die sofortige Freilassung aller politischen Gefangenen.",
+          "Der Gefangene wurde im Krankenhaus unter Polizeischutz behandelt."
+        ]
+      },
+      {
+        "id": 17,
+        "word": "freilassen",
+        "translation": {
+          "en": "to release, to set free",
+          "pl": "uwolnić, wypuścić na wolność"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Irregular separable verb: lässt frei, ließ frei, hat freigelassen.",
+          "pl": "Czasownik mocny rozdzielnie złożony: lässt frei, ließ frei, hat freigelassen."
+        },
+        "examples": [
+          "Die Geiseln wurden nach zähen Verhandlungen unversehrt freigelassen.",
+          "Der Richter entschied, den Tatverdächtigen gegen Kaution freizulassen."
+        ]
+      },
+      {
+        "id": 18,
+        "word": "der Machtwechsel",
+        "translation": {
+          "en": "change of power, transfer of power",
+          "pl": "zmiana władzy, przejęcie władzy"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Machtwechsel",
+        "notes": {
+          "en": "Compound of die Macht (power) + der Wechsel (change).",
+          "pl": "Złożenie słów die Macht (władza) oraz der Wechsel (zmiana)."
+        },
+        "examples": [
+          "Nach der Parlamentswahl vollzog sich ein friedlicher Machtwechsel.",
+          "Der Machtwechsel markiert den Beginn einer neuen politischen Ära."
+        ]
+      },
+      {
+        "id": 19,
+        "word": "der Langzeit-Präsident",
+        "translation": {
+          "en": "long-serving president",
+          "pl": "wieloletni prezydent"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Langzeit-Präsidenten",
+        "notes": {
+          "en": "Refers to a president who has stayed in power over an unusually long term.",
+          "pl": "Oznacza prezydenta sprawującego urząd przez wyjątkowo długi czas."
+        },
+        "examples": [
+          "Der Langzeit-Präsident trat nach anhaltenden Straßenprotesten zurück.",
+          "Kritiker warfen dem Langzeit-Präsidenten autoritäre Tendenzen vor."
+        ]
+      },
+      {
+        "id": 20,
+        "word": "vor dem Aus stehen",
+        "translation": {
+          "en": "to face ruin, to be on the brink of collapse/ouster",
+          "pl": "stać przed końcem (kariery/istnienia), być u kresu"
+        },
+        "partOfSpeech": "Expression",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Colloquial and news idiom indicating imminent end of an enterprise or career.",
+          "pl": "Zwrot prasowy oznaczający rychły koniec kariery lub istnienia instytucji."
+        },
+        "examples": [
+          "Nach dem Skandal steht die politische Karriere des Ministers vor dem Aus.",
+          "Ohne frisches Kapital steht das mittelständische Unternehmen vor dem Aus."
+        ]
+      },
+      {
+        "id": 21,
+        "word": "vorgezogen",
+        "translation": {
+          "en": "snap, early (election), brought forward",
+          "pl": "przedterminowy, przyspieszony"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Participle of vorziehen; standard in: vorgezogene Neuwahlen.",
+          "pl": "Imiesłów od vorziehen; częsty w zwrocie: vorgezogene Neuwahlen."
+        },
+        "examples": [
+          "Wegen der Regierungskrise wurden vorgezogene Wahlen angekündigt.",
+          "Die vorgezogene Abstimmung soll Klarheit über die Mehrheiten schaffen."
+        ]
+      },
+      {
+        "id": 22,
+        "word": "hervorgehen",
+        "translation": {
+          "en": "to emerge, to originate from, to result",
+          "pl": "wywodzić się, wyłonić się, wynikać"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Takes aus + dative: aus einer Bewegung hervorgehen; Perfekt with sein.",
+          "pl": "Łączy się z aus + celownik; tworzy Perfekt z czasownikiem sein."
+        },
+        "examples": [
+          "Die Partei ist aus einer studentischen Initiative hervorgegangen.",
+          "Aus den jüngsten Dokumenten geht der tatsächliche Ablauf hervor."
+        ]
+      },
+      {
+        "id": 23,
+        "word": "die Niederlage",
+        "translation": {
+          "en": "defeat",
+          "pl": "porażka, przegrana"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "die Niederlagen",
+        "notes": {
+          "en": "Collocations: eine Niederlage einräumen (concede) / erleiden (suffer).",
+          "pl": "Kolokacje: eine Niederlage einräumen (uznać) / erleiden (ponieść porażkę)."
+        },
+        "examples": [
+          "Nach der deutlichen Niederlage trat der Parteivorsitzende zurück.",
+          "Die Mannschaft musste im Finale eine bittere Niederlage einstecken."
+        ]
+      },
+      {
+        "id": 24,
+        "word": "einräumen",
+        "translation": {
+          "en": "to concede, to admit; to put away (items)",
+          "pl": "przyznać (np. błąd, porażkę); układać, chować do szafy"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Separable verb: räumt ein, räumte ein, hat eingeräumt. Collocation: Fehler/Niederlage einräumen.",
+          "pl": "Czasownik rozdzielny: Fehler/Niederlage einräumen (przyznać się do błędu / porażki)."
+        },
+        "examples": [
+          "Der Politiker räumte Fehler bei der Umsetzung der Reform ein.",
+          "Nach Bekanntgabe des Ergebnisses räumte der Kandidat seine Niederlage ein."
+        ]
+      },
+      {
+        "id": 25,
+        "word": "die Projektion",
+        "translation": {
+          "en": "projection, forecast",
+          "pl": "projekcja, prognoza wyborcza"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Projektionen",
+        "notes": {
+          "en": "In election news, a statistical model based on counting trends.",
+          "pl": "W relacjach wyborczych: model statystyczny oparty na trendach zliczania głosów."
+        },
+        "examples": [
+          "Laut der ersten Projektion erreicht das Bündnis eine knappe Mehrheit.",
+          "Wirtschaftliche Projektionen deuten auf ein moderates Wachstum hin."
+        ]
+      },
+      {
+        "id": 26,
+        "word": "auf sich vereinen",
+        "translation": {
+          "en": "to garner, to win (votes), to unite behind oneself",
+          "pl": "uzyskać, skupić wokół siebie (np. głosy wyborców)"
+        },
+        "partOfSpeech": "Expression",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Fixed electoral phrasing: X Prozent der Stimmen auf sich vereinen.",
+          "pl": "Zwrot ze słownictwa wyborczego: X Prozent der Stimmen auf sich vereinen."
+        },
+        "examples": [
+          "Die Kandidatin konnte mehr als fünfzig Prozent der Stimmen auf sich vereinen.",
+          "Keine der Parteien vermochte eine absolute Mehrheit auf sich zu vereinen."
+        ]
+      },
+      {
+        "id": 27,
+        "word": "das Staatsoberhaupt",
+        "translation": {
+          "en": "head of state",
+          "pl": "głowa państwa"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Staatsoberhäupter",
+        "notes": {
+          "en": "Compound: der Staat + das Oberhaupt (head/chief).",
+          "pl": "Złożenie rzeczowników der Staat (państwo) i das Oberhaupt (głowa/zwierzchnik)."
+        },
+        "examples": [
+          "Das ausländische Staatsoberhaupt wurde mit militärischen Ehren empfangen.",
+          "In parlamentarischen Demokratien hat das Staatsoberhaupt meist repräsentative Aufgaben."
+        ]
+      },
+      {
+        "id": 28,
+        "word": "die Hochrechnung",
+        "translation": {
+          "en": "projection, extrapolated forecast",
+          "pl": "prognoza oparta na cząstkowych wynikach, ekstrapolacja"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Hochrechnungen",
+        "notes": {
+          "en": "Electoral calculation combining exit polls with counted real votes.",
+          "pl": "Wyliczenie wyborcze łączące exit poll z faktycznie policzonymi głosami."
+        },
+        "examples": [
+          "Die ersten Hochrechnungen wurden um Punkt 18 Uhr im Fernsehen präsentiert.",
+          "Nach der jüngsten Hochrechnung verliert die Regierungspartei drei Sitze."
+        ]
+      },
+      {
+        "id": 29,
+        "word": "das Meinungsforschungsinstitut",
+        "translation": {
+          "en": "opinion polling institute, polling agency",
+          "pl": "instytut badania opinii publicznej"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Meinungsforschungsinstitute",
+        "notes": {
+          "en": "Organisation conducting surveys on political trends and social topics.",
+          "pl": "Instytucja badająca preferencje wyborcze i nastroje społeczne."
+        },
+        "examples": [
+          "Mehrere renommierte Meinungsforschungsinstitute sagten ein Kopf-an-Kopf-Rennen voraus.",
+          "Das Meinungsforschungsinstitut befragte über zweitausend wahlberechtigte Bürger."
+        ]
+      },
+      {
+        "id": 30,
+        "word": "der Wahlgang",
+        "translation": {
+          "en": "ballot, round of voting",
+          "pl": "tura głosowania, głosowanie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Wahlgänge",
+        "notes": {
+          "en": "Collocations: im ersten/zweiten Wahlgang (in the first/second round).",
+          "pl": "Kolokacje: im ersten/zweiten Wahlgang (w pierwszej/drugiej turze)."
+        },
+        "examples": [
+          "Da kein Bewerber die Mehrheit erhielt, ist ein zweiter Wahlgang erforderlich.",
+          "Im ersten Wahlgang lag die Beteiligung überraschend niedrig."
+        ]
+      },
+      {
+        "id": 31,
+        "word": "die absolute Mehrheit",
+        "translation": {
+          "en": "absolute majority",
+          "pl": "większość bezwzględna"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die absoluten Mehrheiten",
+        "notes": {
+          "en": "More than 50 percent of all votes cast (50% + 1).",
+          "pl": "Więcej niż 50 procent wszystkich oddanych głosów (50% + 1)."
+        },
+        "examples": [
+          "Ohne absolute Mehrheit müssen die Parteien eine Koalition bilden.",
+          "Der Kanzlerkandidat verfehlte die absolute Mehrheit im Parlament nur knapp."
+        ]
+      },
+      {
+        "id": 32,
+        "word": "die Wahlbeteiligung",
+        "translation": {
+          "en": "voter turnout",
+          "pl": "frekwencja wyborcza"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Wahlbeteiligungen",
+        "notes": {
+          "en": "Percentage of eligible citizens who cast a ballot.",
+          "pl": "Odsetek uprawnionych obywateli biorących udział w głosowaniu."
+        },
+        "examples": [
+          "Die geringe Wahlbeteiligung löste bei Politikern Besorgnis aus.",
+          "Bei den Parlamentswahlen lag die Wahlbeteiligung bei über siebzig Prozent."
+        ]
+      },
+      {
+        "id": 33,
+        "word": "der Interimsregierungschef",
+        "translation": {
+          "en": "interim prime minister, acting head of government",
+          "pl": "tymczasowy szef rządu, premier rządu przejściowego"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Interimsregierungschefs",
+        "notes": {
+          "en": "Leader appointed to manage governmental affairs until regular elections.",
+          "pl": "Szef rządu powołany do zarządzania sprawami państwa do wyborów."
+        },
+        "examples": [
+          "Der Interimsregierungschef kündigte eine rasche Vorbereitung von Neuwahlen an.",
+          "Internationale Partner sagten dem Interimsregierungschef volle Unterstützung zu."
+        ]
+      },
+      {
+        "id": 34,
+        "word": "prowestlich",
+        "translation": {
+          "en": "pro-Western",
+          "pl": "prozachodni"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Describing foreign policy oriented towards the EU, NATO, and Western nations.",
+          "pl": "Określenie polityki zagranicznej zorientowanej na integrację z UE i NATO."
+        },
+        "examples": [
+          "Der prowestliche Kandidat sprach sich für einen raschen Beitritt zur Europäischen Union aus.",
+          "Prowestliche Reformen stießen bei konservativen Abgeordneten auf Widerstand."
+        ]
+      },
+      {
+        "id": 35,
+        "word": "vertiefen",
+        "translation": {
+          "en": "to deepen, to intensify",
+          "pl": "pogłębić, zacieśnić"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Transitive regular verb; collocations: Beziehungen / Kenntnisse / Zusammenarbeit vertiefen.",
+          "pl": "Czasownik regularny; typowe kolokacje: Beziehungen / Kenntnisse / Zusammenarbeit vertiefen."
+        },
+        "examples": [
+          "Beide Nationen wollen ihre wissenschaftliche Kooperation vertiefen.",
+          "Während des Studiums konnte sie ihre Sprachkenntnisse erheblich vertiefen."
+        ]
+      },
+      {
+        "id": 36,
+        "word": "mehrtägig",
+        "translation": {
+          "en": "multi-day, lasting several days",
+          "pl": "wielodniowy, trwający kilka dni"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "B1",
+        "plural": "",
+        "notes": {
+          "en": "Derived from mehr + Tage + -ig; contrasts with eintägig (single-day).",
+          "pl": "Złożenie ze słów mehr i Tage; przeciwieństwo słowa eintägig (jednodniowy)."
+        },
+        "examples": [
+          "Der Bundeskanzler reiste zu einem mehrtägigen Gipfeltreffen nach Brüssel.",
+          "Die Wandergruppe bereitete sich auf eine mehrtägige Tour durch die Alpen vor."
+        ]
+      },
+      {
+        "id": 37,
+        "word": "aufbrechen",
+        "translation": {
+          "en": "to set off, to depart; to force open",
+          "pl": "wyruszać w drogę; wyłamywać (np. zamek)"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Separable strong verb: bricht auf, brach auf, ist aufgebrochen (departure).",
+          "pl": "Czasownik mocny rozdzielny: bricht auf, brach auf, ist aufgebrochen (w znaczeniu wyruszać)."
+        },
+        "examples": [
+          "Wir müssen morgen früh aufbrechen, um den Stau zu vermeiden.",
+          "Die Delegation brach pünktlich zur Asienreise auf."
+        ]
+      },
+      {
+        "id": 38,
+        "word": "die Wirtschaftsdelegation",
+        "translation": {
+          "en": "business delegation, trade mission",
+          "pl": "delegacja gospodarcza"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Wirtschaftsdelegationen",
+        "notes": {
+          "en": "Group of business executives travelling with political leaders.",
+          "pl": "Grupa przedstawicieli biznesu towarzysząca politykom w podróży zagranicznej."
+        },
+        "examples": [
+          "Zahlreiche Unternehmensleiter schlossen sich der Wirtschaftsdelegation an.",
+          "Die Wirtschaftsdelegation unterzeichnete in Tokio mehrere Kooperationsverträge."
+        ]
+      },
+      {
+        "id": 39,
+        "word": "die Vertiefung",
+        "translation": {
+          "en": "deepening, consolidation",
+          "pl": "pogłębienie, zacieśnienie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Vertiefungen",
+        "notes": {
+          "en": "Collocations: Vertiefung der Beziehungen / Zusammenarbeit.",
+          "pl": "Kolokacje: Vertiefung der Beziehungen / Zusammenarbeit (pogłębienie relacji/współpracy)."
+        },
+        "examples": [
+          "Das Treffen diente der Vertiefung der bilateralen Freundschaft.",
+          "Zur Vertiefung des Wissens empfiehlt das Institut praxisorientierte Seminare."
+        ]
+      },
+      {
+        "id": 40,
+        "word": "sicherheitspolitisch",
+        "translation": {
+          "en": "security policy (attributive), relating to security policy",
+          "pl": "związany z polityką bezpieczeństwa, w zakresie bezpieczeństwa"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Frequently paired with Lage, Kooperation, Herausforderung.",
+          "pl": "Często w połączeniu z rzeczownikami Lage, Kooperation, Herausforderung."
+        },
+        "examples": [
+          "Die sicherheitspolitische Lage in der Region bleibt angespannt.",
+          "Beide Länder wollen ihre sicherheitspolitischen Konsultationen intensivieren."
+        ]
+      },
+      {
+        "id": 41,
+        "word": "die Zusammenarbeit",
+        "translation": {
+          "en": "cooperation, collaboration",
+          "pl": "współpraca"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "kein Plural",
+        "notes": {
+          "en": "Used with mit + dative: Zusammenarbeit mit den Partnern.",
+          "pl": "Łączy się z przyimkiem mit + celownik: Zusammenarbeit mit den Partnern."
+        },
+        "examples": [
+          "Die grenzüberschreitende Zusammenarbeit funktionierte während der Krise reibungslos.",
+          "Wissenschaftler betonten die Notwendigkeit internationaler Zusammenarbeit beim Klimaschutz."
+        ]
+      },
+      {
+        "id": 42,
+        "word": "das Sturmtief",
+        "translation": {
+          "en": "low-pressure weather system, gale, depression",
+          "pl": "niż burzowy, ośrodek niżowy przynoszący sztorm"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Sturmtiefs",
+        "notes": {
+          "en": "Meteorological term; plural forms take -s: die Sturmtiefs.",
+          "pl": "Termin meteorologiczny; liczba mnoga z końcówką -s: die Sturmtiefs."
+        },
+        "examples": [
+          "Ein schweres Sturmtief zieht derzeit über den Norden Deutschlands hinweg.",
+          "Meteorologen warnten vor schweren Orkanböen im Zentrum des Sturmtiefs."
+        ]
+      },
+      {
+        "id": 43,
+        "word": "die Beeinträchtigung",
+        "translation": {
+          "en": "disruption, impairment, obstruction",
+          "pl": "utrudnienie, zakłócenie, upośledzenie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Beeinträchtigungen",
+        "notes": {
+          "en": "Common news term: erhebliche/massive Beeinträchtigungen im Bahnverkehr.",
+          "pl": "Częsty zwrot: erhebliche/massive Beeinträchtigungen im Bahnverkehr."
+        },
+        "examples": [
+          "Der Streik führte zu massiven Beeinträchtigungen im Nahverkehr.",
+          "Die Behörde entschuldigte sich für vorübergehende Beeinträchtigungen des Dienstes."
+        ]
+      },
+      {
+        "id": 44,
+        "word": "kurz hintereinander",
+        "translation": {
+          "en": "in rapid succession, back-to-back",
+          "pl": "jeden po drugim w krótkim odstępie czasu"
+        },
+        "partOfSpeech": "Expression",
+        "level": "B1",
+        "plural": "",
+        "notes": {
+          "en": "Indicates two or more occurrences happening within a brief timeframe.",
+          "pl": "Oznacza co najmniej dwa zdarzenia następujące tuż po sobie."
+        },
+        "examples": [
+          "Zwei Erdbeben erschütterten die Küstenregion kurz hintereinander.",
+          "Der Stürmer erzielte zwei Tore kurz hintereinander in der ersten Halbzeit."
+        ]
+      },
+      {
+        "id": 45,
+        "word": "die Streichung",
+        "translation": {
+          "en": "cancellation (of flights), deletion, cut",
+          "pl": "odwołanie (lotów), skreślenie, redukcja"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Streichungen",
+        "notes": {
+          "en": "Used in airline reporting: die Streichung von Flügen.",
+          "pl": "Używane w kontekście lotniczym i budżetowym: odwołanie połączeń lub cięcia."
+        },
+        "examples": [
+          "Die Streichung des Frühflugs zwang viele Passagiere zum Warten.",
+          "Kritiker protestierten gegen die Streichung geplanter Fördermittel."
+        ]
+      },
+      {
+        "id": 46,
+        "word": "ausfallen",
+        "translation": {
+          "en": "to be cancelled, to fail to take place",
+          "pl": "odpaść, nie odbyć się, zostać odwołanym"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B1",
+        "plural": "",
+        "notes": {
+          "en": "Strong separable verb: fällt aus, fiel aus, ist ausgefallen.",
+          "pl": "Czasownik mocny rozdzielny: fällt aus, fiel aus, ist ausgefallen (Perfekt z sein)."
+        },
+        "examples": [
+          "Wegen des Unwetters muss die heutige Theatervorstellung leider ausfallen.",
+          "Wenn der Unterricht ausfällt, gehen die Schüler in die Bibliothek."
+        ]
+      },
+      {
+        "id": 47,
+        "word": "meistgenutzt",
+        "translation": {
+          "en": "most used, busiest",
+          "pl": "najczęściej używany, najbardziej obciążony ruchem"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Superlative compound participle: meist + genutzt.",
+          "pl": "Złożony imiesłów w stopniu najwyższym: meist + genutzt."
+        },
+        "examples": [
+          "Der Bahnhof gehört zu den meistgenutzten Verkehrsknotenpunkten Europas.",
+          "Diese App ist das meistgenutzte Kommunikationsmittel unter Jugendlichen."
+        ]
+      },
+      {
+        "id": 48,
+        "word": "binnen",
+        "translation": {
+          "en": "within (a certain period of time)",
+          "pl": "w przeciągu, w ciągu (określonego czasu)"
+        },
+        "partOfSpeech": "Preposition",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Governs the dative or genitive case: binnen 24 Stunden / binnen eines Jahres.",
+          "pl": "Rządzi celownikiem lub dopełniaczem: binnen 24 Stunden / binnen eines Jahres."
+        },
+        "examples": [
+          "Binnen weniger Wochen verdoppelte sich die Zahl der registrierten Nutzer.",
+          "Die Reparaturen sollen binnen drei Tagen vollständig abgeschlossen sein."
+        ]
+      }
+    ]
+  },
+  "speaking": {
+    "prompt": {
+      "en": "You are my German language tutor conducting a 20-minute B1-to-C1 speaking conversation based on the Listening section of today's lesson (German news from 26 October 2026).\n\nListening reference – the 6 news stories from today's Listening section, in the same order as the articles:\n1. Incumbent Luiz Inácio Lula da Silva was declared winner of Brazil's presidential election, but challenger Flávio Bolsonaro refused to recognise the result and announced legal challenges over extended polling hours.\n2. Venezuelan Nobel Peace Prize laureate María Corina Machado returned to Venezuela after ten months in exile following US-backed negotiations that secured the release of political prisoners.\n3. In Serbia, the student-led Studentska Lista claimed victory in snap parliamentary elections over Aleksandar Vučić's SNS, signalling a major transfer of power after 14 years.\n4. Bulgaria's presidential election will be decided in a runoff between incumbent Ilijana Jotowa and former interim premier Andrej Gjurow due to low turnout and no candidate reaching an absolute majority.\n5. German Chancellor Friedrich Merz embarks on a multi-day trip to Singapore, Japan, and South Korea to deepen economic and security policy cooperation.\n6. Two consecutive storm systems, Luise and Manja, caused severe travel chaos across Europe, downing power grids for 150,000 households and cancelling hundreds of flights.\n\nGrammar focus to elicit: Modal verbs in the present: ability (können), permission (dürfen), obligation (müssen, sollen), and intention (wollen, möchten).\n\nUseful words from today's Listening articles (invite me to use them): der Amtsinhaber, anerkennen, rechtliche Schritte, die Voraussetzung, freilassen, der Machtwechsel, die absolute Mehrheit, vertiefen, die Zusammenarbeit, das Sturmtief.\n\nInstructions for the AI tutor:\n1. Start the conversation: greet me and ask whether I have listened to today's broadcast. If not, summarise story 1 in two simple German sentences and continue.\n2. You ask, I speak: one question per turn, one or two short sentences, never answer your own questions. German at B1-C1 level; English only if I am really stuck.\n3. Questions refer to the stories above, in order, covering at least four: facts first, then causes, consequences, other perspectives, my evaluation. Near the end, ask me to connect two stories.\n4. Encourage me to use modal verbs in the present (können, dürfen, müssen, sollen, wollen, möchten) with the infinitive placed at the end of the clause to practise today's grammar.\n5. Question ideas (adapt to my answers):\n   - (story 1) Warum will Flávio Bolsonaro das Ergebnis der Präsidentschaftswahl nicht anerkennen, und was muss das Wahlgericht jetzt tun?\n   - (story 2) Welche Bedingungen mussten erfüllt werden, damit María Corina Machado nach Venezuela zurückkehren kann?\n   - (story 3) Was will die Studentska Lista nach ihrem überraschenden Wahlsieg in Serbien verändern?\n   - (story 4) Warum müssen die Wähler in Bulgarien am kommenden Sonntag noch einmal abstimmen?\n   - (story 5) Was möchte Bundeskanzler Merz mit seiner Asienreise erreichen, und wie soll die wirtschaftliche Zusammenarbeit vertieft werden?\n   - (story 6) Was müssen Fluggesellschaften und Energieversorger nach dem Durchzug der Sturmtiefs tun?\n6. Immediate correction: if I break today's rule (e.g. *Fluggesellschaften müssen entschädigen betroffene Passagiere* instead of *Fluggesellschaften müssen betroffene Passagiere entschädigen*, or *Du musst hier nicht parken* when a prohibition is meant), stop briefly: quote the error, give the correct sentence, explain the rule in 1 English sentence, ask me to repeat the correct sentence aloud before the next question.\n7. Also correct other significant errors briefly; note recurring mistakes for the final feedback. If my answer is very short, ask one follow-up („Warum?“).\n8. Wrap-up after ~20 minutes or when I say \"stop\": two things I did well, three key mistakes with corrections, five words to review, one German sentence to repeat aloud.\n9. Keep the tone engaging, professional, natural for an immersive German voice dialogue. Address me as „du“.",
+      "pl": "Jesteś moim nauczycielem języka niemieckiego i prowadzisz 20-minutową rozmowę na poziomie B1–C1 na podstawie sekcji Listening z dzisiejszej lekcji (niemieckie wiadomości z 26 października 2026 roku).\n\nOdniesienie do nagrania – 6 wiadomości z dzisiejszej sekcji Listening, w tej samej kolejności co artykuły:\n1. Urzędujący prezydent Luiz Inácio Lula da Silva został ogłoszony zwycięzcą wyborów w Brazylii, lecz jego rywal Flávio Bolsonaro nie uznaje wyniku i zapowiada kroki prawne z powodu przedłużenia godzin otwarcia lokali.\n2. Wenezuelska laureatka Pokojowej Nagrody Nobla María Corina Machado wróciła do ojczyzny po dziesięciu miesiącach na wygnaniu w wyniku negocjacji wspieranych przez USA, które doprowadziły do uwolnienia więźniów politycznych.\n3. W Serbii studencka Studentska Lista ogłosiła zwycięstwo w przedterminowych wyborach parlamentarnych nad partią Aleksandara Vučicia, co zapowiada zmianę władzy po 14 latach.\n4. Wybory prezydenckie w Bułgarii rozstrzygną się w drugiej turze między Ilijaną Jotową a Andrejem Gjurowem z powodu niskiej frekwencji i braku większości bezwzględnej w pierwszym głosowaniu.\n5. Kanclerz Niemiec Friedrich Merz wyrusza w kilkudniową podróż do Singapuru, Japonii i Korei Południowej, aby pogłębić współpracę gospodarczą i w zakresie polityki bezpieczeństwa.\n6. Dwa następujące po sobie niże burzowe, Luise i Manja, spowodowały paraliż komunikacyjny w Europie, pozbawiając prądu 150 000 gospodarstw domowych i doprowadzając do odwołania setek lotów.\n\nZagadnienie gramatyczne do wywołania w rozmowie: Czasowniki modalne w czasie teraźniejszym: umiejętność (können), pozwolenie (dürfen), konieczność i obowiązek (müssen, sollen) oraz zamiar (wollen, möchten).\n\nPrzydatne słowa z dzisiejszych artykułów (zachęcaj mnie do ich używania): der Amtsinhaber, anerkennen, rechtliche Schritte, die Voraussetzung, freilassen, der Machtwechsel, die absolute Mehrheit, vertiefen, die Zusammenarbeit, das Sturmtief.\n\nInstrukcje dla tutora AI:\n1. Rozpocznij rozmowę: przywitaj się i zapytaj, czy wysłuchałem dzisiejszego nagrania. Jeśli nie, streść wiadomość 1 w dwóch prostych zdaniach po niemiecku i kontynuuj.\n2. Ty pytasz, ja mówię: jedno pytanie na kolejkę, jedno lub dwa krótkie zdania, nigdy nie odpowiadaj na własne pytania. Język niemiecki na poziomie B1–C1; polski tylko wtedy, gdy naprawdę utknę.\n3. Pytania odnoszą się do powyższych wiadomości po kolei i obejmują co najmniej cztery z nich: najpierw fakty, potem przyczyny, skutki, inne perspektywy i moja ocena. Pod koniec poproś mnie o powiązanie dwóch wiadomości.\n4. Zachęcaj mnie do używania czasowników modalnych w czasie teraźniejszym (können, dürfen, müssen, sollen, wollen, möchten) z bezokolicznikiem na końcu zdania, aby przećwiczyć dzisiejszą gramatykę.\n5. Pomysły na pytania (dopasuj do moich odpowiedzi):\n   - (story 1) Warum will Flávio Bolsonaro das Ergebnis der Präsidentschaftswahl nicht anerkennen, und was muss das Wahlgericht jetzt tun?\n   - (story 2) Welche Bedingungen mussten erfüllt werden, damit María Corina Machado nach Venezuela zurückkehren kann?\n   - (story 3) Was will die Studentska Lista nach ihrem überraschenden Wahlsieg in Serbien verändern?\n   - (story 4) Warum müssen die Wähler in Bulgarien am kommenden Sonntag noch einmal abstimmen?\n   - (story 5) Was möchte Bundeskanzler Merz mit seiner Asienreise erreichen, und wie soll die wirtschaftliche Zusammenarbeit vertieft werden?\n   - (story 6) Was müssen Fluggesellschaften und Energieversorger nach dem Durchzug der Sturmtiefs tun?\n6. Natychmiastowa korekta: jeśli złamię dzisiejszą zasadę (np. *Fluggesellschaften müssen entschädigen betroffene Passagiere* zamiast *Fluggesellschaften müssen betroffene Passagiere entschädigen* lub *Du musst hier nicht parken*, gdy chodzi o zakaz), zatrzymaj się na chwilę: zacytuj błąd, podaj poprawne zdanie, wyjaśnij regułę w 1 zdaniu po polsku i poproś mnie o powtórzenie poprawnego zdania na głos przed kolejnym pytaniem.\n7. Krótko poprawiaj także inne istotne błędy językowe; notuj powtarzające się błędy do podsumowania końcowego. Jeśli moja odpowiedź jest bardzo krótka, zadaj pytanie uzupełniające („Warum?“).\n8. Podsumowanie po ok. 20 minutach lub gdy powiem „stop”: dwie rzeczy, które poszły dobrze, trzy kluczowe błędy z poprawkami, pięć słów do powtórki, jedno niemieckie zdanie do powtórzenia na głos.\n9. Utrzymuj profesjonalny, naturalny i angażujący ton sprzyjający immersyjnemu dialogowi głosowemu po niemiecku. Zwracaj się do mnie na „du”."
+    }
+  }
 }
 ]
