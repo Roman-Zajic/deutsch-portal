@@ -19975,5 +19975,1338 @@
       "level": "B1"
     }
   }
+},
+ {
+  "lesson": {
+    "id": "2026-10-28",
+    "date": "28.10.2026",
+    "day": 16,
+    "totalDays": 300,
+    "level": "B1",
+    "title": {
+      "en": "Infinitives with 'zu' after Verbs, Adjectives and Nouns",
+      "pl": "Bezokolicznik z „zu” po czasownikach, przymiotnikach i rzeczownikach"
+    },
+    "subtitle": "Der Infinitiv mit „zu“ nach Verben, Adjektiven und Nomen"
+  },
+  "grammar": {
+    "html": {
+      "en": [
+        "<p>An infinitive clause with <em>zu</em> (<em>Infinitivgruppe</em>) is a subordinate non-finite construction that expands on a matrix clause. The particle <strong>zu</strong> stands immediately before the lexical infinitive at the clause end. In separable verbs, <em>-zu-</em> is placed between the separable prefix and the verbal base (e.g. <em>ab<strong>zu</strong>geben</em>, <em>aus<strong>zu</strong>bauen</em>). An infinitive clause has no explicit subject of its own; its logical subject is understood from the subject or object of the governing clause. A comma is standard and highly recommended to separate the infinitive phrase clearly from the main clause.</p>",
+        "<div class='box rule'><strong>Core rule:</strong> Matrix clause [verb / adjective / noun] + comma + middle field + (prefix +) <strong>zu</strong> + infinitive.</div>",
+        "<h3>1. Infinitives with <em>zu</em> after verbs</h3><p>Many verbs expressing intent, planning, beginning, ending, decision, permission, prohibition, or refusal govern an infinitive clause with <em>zu</em>. Typical verbs include <em>versuchen</em>, <em>hoffen</em>, <em>planen</em>, <em>beschließen</em>, <em>beabsichtigen</em>, <em>sich weigern</em>, <em>verbieten / untersagen</em>, <em>versprechen</em>, and <em>empfehlen</em>.</p><p><em>Der Richter hat dem Senator untersagt, <strong>das Land zu verlassen</strong>.</em><br><em>Netanjahu versucht, <strong>eine neue Koalition zu bilden</strong>.</em><br><em>Bolsonaro weigerte sich, <strong>seine Niederlage anzuerkennen</strong>.</em></p><p>Remember that modal verbs (<em>können</em>, <em>müssen</em>, <em>dürfen</em>, <em>sollen</em>, <em>wollen</em>, <em>mögen</em>) take a bare infinitive without <em>zu</em>: <em>Er will das Land verlassen</em> (not: <em>*Er will das Land zu verlassen</em>).</p>",
+        "<h3>2. Infinitives with <em>zu</em> after adjectives</h3><p>Infinitive constructions commonly depend on predicate adjectives combined with <em>sein</em> (often with an impersonal <em>es ist...</em>) or with personal subjects expressing readiness, capability, or emotional evaluation. Common adjectives include <em>wichtig</em>, <em>schwierig</em>, <em>möglich</em>, <em>notwendig</em>, <em>erlaubt</em>, <em>bereit</em>, and <em>erleichtert</em>.</p><p><em>Es ist unklar, wo sich der Politiker aufhält, aber es ist leicht, <strong>Gerüchte zu verbreiten</strong>.</em><br><em>Der Anwalt war erleichtert, <strong>keine Todesstrafe zu hören</strong>.</em><br><em>Die Notenbank ist bereit, <strong>den Leitzins stabil zu halten</strong>.</em></p>",
+        "<h3>3. Infinitives with <em>zu</em> after nouns</h3><p>Abstract nouns—often combined with verbs like <em>haben</em>, <em>treffen</em>, <em>fassen</em>, or <em>geben</em>—regularly take an explanatory infinitive clause with <em>zu</em>. These nouns denote plans, decisions, opportunities, duties, or intentions, such as <em>die Absicht</em>, <em>der Plan</em>, <em>die Pflicht</em>, <em>die Möglichkeit</em>, <em>die Zeit</em>, <em>die Gelegenheit</em>, <em>die Anordnung</em>, and <em>der Beschluss</em>.</p><p><em>Er kam der Anordnung nicht nach, <strong>seine Reisepässe abzugeben</strong>.</em><br><em>Die Experten haben die Aufgabe, <strong>einen sicheren Standort zu finden</strong>.</em><br><em>Die Parteien hatten keine Zeit, <strong>weitere Gespräche zu führen</strong>.</em></p>",
+        "<table><thead><tr><th>Category</th><th>Governing trigger</th><th>Example structure</th></tr></thead><tbody><tr><td>Verb</td><td class='de'>untersagen / beschließen</td><td class='de'>Er hat beschlossen, <strong>sofort abzureisen</strong>.</td></tr><tr><td>Adjective</td><td class='de'>es ist wichtig / bereit sein</td><td class='de'>Es ist wichtig, <strong>die Gesetze einzuhalten</strong>.</td></tr><tr><td>Noun</td><td class='de'>die Anordnung / die Absicht haben</td><td class='de'>Sie hat die Absicht, <strong>in Japan zu investieren</strong>.</td></tr><tr><td>Separable verb</td><td class='de'>abgeben / ausbauen</td><td class='de'>Er weigerte sich, <strong>den Pass abzugeben</strong>.</td></tr></tbody></table>",
+        "<div class='box warn'><strong>Typical mistake:</strong> Inserting <em>zu</em> before a separable prefix or using <em>zu</em> after modal verbs. ✗ <em>Er versprach, zu abgeben den Pass.</em> ✓ <em>Er versprach, den Pass <strong>abzugeben</strong>.</em> ✗ <em>Er muss den Pass zu abgeben.</em> ✓ <em>Er muss den Pass <strong>abgeben</strong>.</em></div>",
+        "<div class='box tip'><strong>Memory aid:</strong> If the verb is separable, <em>zu</em> slides right inside between prefix and verb: <em>ab-<strong>zu</strong>-geben</em>, <em>auf-<strong>zu</strong>-bauen</em>. If a modal verb is finite, keep <em>zu</em> completely out!</div>",
+        "<h3>Quick reference</h3><div class='tiles'><div class='tile'><strong>After verbs</strong><p><em>Sie hofft, den Gipfel erfolgreich <strong>zu beenden</strong>.</em></p></div><div class='tile'><strong>After adjectives</strong><p><em>Es ist notwendig, die Bedingungen <strong>zu prüfen</strong>.</em></p></div><div class='tile'><strong>After nouns</strong><p><em>Wir haben den Plan, nach Tokio <strong>zu reisen</strong>.</em></p></div><div class='tile'><strong>Separable prefix</strong><p><em>Er weigert sich, die Dokumente <strong>vorzulegen</strong>.</em></p></div></div>"
+      ],
+      "pl": [
+        "<p>Zdanie bezokolicznikowe z <em>zu</em> (<em>Infinitivgruppe</em>) to podrzędna konstrukcja bezosobowa, która rozwija treść zdania nadrzędnego. Cząstka <strong>zu</strong> stoi bezpośrednio przed bezokolicznikiem czasownika głównego na samym końcu zdania. W czasownikach rozdzielnie złożonych <em>-zu-</em> wnika między przedrostek a rdzeń czasownika (np. <em>ab<strong>zu</strong>geben</em>, <em>aus<strong>zu</strong>bauen</em>). Konstrukcja bezokolicznikowa nie ma własnego podmiotu gramatycznego; jej wykonawca wynika z podmiotu lub dopełnienia zdania nadrzędnego. Przecinek jest zalecany i ułatwia czytanie struktury zdania.</p>",
+        "<div class='box rule'><strong>Główna zasada:</strong> Zdanie nadrzędne [czasownik / przymiotnik / rzeczownik] + przecinek + pole środkowe + (przedrostek +) <strong>zu</strong> + bezokolicznik.</div>",
+        "<h3>1. Bezokolicznik z <em>zu</em> po czasownikach</h3><p>Wiele czasowników wyrażających zamiar, plan, rozpoczęcie, zakończenie, decyzję, pozwolenie, zakaz lub odmowę wymaga konstrukcji z <em>zu</em>. Do typowych czasowników należą <em>versuchen</em>, <em>hoffen</em>, <em>planen</em>, <em>beschließen</em>, <em>beabsichtigen</em>, <em>sich weigern</em>, <em>verbieten / untersagen</em>, <em>versprechen</em> oraz <em>empfehlen</em>.</p><p><em>Der Richter hat dem Senator untersagt, <strong>das Land zu verlassen</strong>.</em><br><em>Netanjahu versucht, <strong>eine neue Koalition zu bilden</strong>.</em><br><em>Bolsonaro weigerte sich, <strong>seine Niederlage anzuerkennen</strong>.</em></p><p>Pamiętaj, że czasowniki modalne (<em>können</em>, <em>müssen</em>, <em>dürfen</em>, <em>sollen</em>, <em>wollen</em>, <em>mögen</em>) łączą się z czystym bezokolicznikiem bez <em>zu</em>: <em>Er will das Land verlassen</em> (nigdy: <em>*Er will das Land zu verlassen</em>).</p>",
+        "<h3>2. Bezokolicznik z <em>zu</em> po przymiotnikach</h3><p>Konstrukcje bezokolicznikowe często zależą od przymiotników orzecznikowych z czasownikiem <em>sein</em> (często w konstrukcjach bezosobowych <em>es ist...</em>) lub z podmiotem osobowym wyrażającym gotowość, zdolność lub ocenę emocjonalną. Typowe przymiotniki to <em>wichtig</em>, <em>schwierig</em>, <em>möglich</em>, <em>notwendig</em>, <em>erlaubt</em>, <em>bereit</em> oraz <em>erleichtert</em>.</p><p><em>Es ist unklar, wo sich der Politiker aufhält, aber es ist leicht, <strong>Gerüchte zu verbreiten</strong>.</em><br><em>Der Anwalt war erleichtert, <strong>keine Todesstrafe zu hören</strong>.</em><br><em>Die Notenbank ist bereit, <strong>den Leitzins stabil zu halten</strong>.</em></p>",
+        "<h3>3. Bezokolicznik z <em>zu</em> po rzeczownikach</h3><p>Rzeczowniki abstrakcyjne – łączące się najczęściej z czasownikami <em>haben</em>, <em>treffen</em>, <em>fassen</em> lub <em>geben</em> – regularnie przyłączają zdanie bezokolicznikowe z <em>zu</em>. Oznaczają one plany, decyzje, możliwości, obowiązki lub zamiary, np. <em>die Absicht</em>, <em>der Plan</em>, <em>die Pflicht</em>, <em>die Möglichkeit</em>, <em>die Zeit</em>, <em>die Gelegenheit</em>, <em>die Anordnung</em> oraz <em>der Beschluss</em>.</p><p><em>Er kam der Anordnung nicht nach, <strong>seine Reisepässe abzugeben</strong>.</em><br><em>Die Experten haben die Aufgabe, <strong>einen sicheren Standort zu finden</strong>.</em><br><em>Die Parteien hatten keine Zeit, <strong>weitere Gespräche zu führen</strong>.</em></p>",
+        "<table><thead><tr><th>Kategoria</th><th>Element nadrzędny</th><th>Przykładowa struktura</th></tr></thead><tbody><tr><td>Czasownik</td><td class='de'>untersagen / beschließen</td><td class='de'>Er hat beschlossen, <strong>sofort abzureisen</strong>.</td></tr><tr><td>Przymiotnik</td><td class='de'>es ist wichtig / bereit sein</td><td class='de'>Es ist wichtig, <strong>die Gesetze einzuhalten</strong>.</td></tr><tr><td>Rzeczownik</td><td class='de'>die Anordnung / die Absicht haben</td><td class='de'>Sie hat die Absicht, <strong>in Japan zu investieren</strong>.</td></tr><tr><td>Czasownik rozdzielny</td><td class='de'>abgeben / ausbauen</td><td class='de'>Er weigerte sich, <strong>den Pass abzugeben</strong>.</td></tr></tbody></table>",
+        "<div class='box warn'><strong>Typowy błąd:</strong> Stawianie <em>zu</em> przed przedrostkiem rozdzielnym lub dodawanie <em>zu</em> po czasownikach modalnych. ✗ <em>Er versprach, zu abgeben den Pass.</em> ✓ <em>Er versprach, den Pass <strong>abzugeben</strong>.</em> ✗ <em>Er muss den Pass zu abgeben.</em> ✓ <em>Er muss den Pass <strong>abgeben</strong>.</em></div>",
+        "<div class='box tip'><strong>Wskazówka do zapamiętania:</strong> W czasownikach rozdzielnie złożonych <em>zu</em> wchodzi do środka między przedrostek a rdzeń: <em>ab-<strong>zu</strong>-geben</em>, <em>auf-<strong>zu</strong>-bauen</em>. Jeśli w zdaniu pojawia się odmieniony czasownik modalny, <em>zu</em> w ogóle nie występuje!</div>",
+        "<h3>Szybka ściąga</h3><div class='tiles'><div class='tile'><strong>Po czasownikach</strong><p><em>Sie hofft, den Gipfel erfolgreich <strong>zu beenden</strong>.</em></p></div><div class='tile'><strong>Po przymiotnikach</strong><p><em>Es ist notwendig, die Bedingungen <strong>zu prüfen</strong>.</em></p></div><div class='tile'><strong>Po rzeczownikach</strong><p><em>Wir haben den Plan, nach Tokio <strong>zu reisen</strong>.</em></p></div><div class='tile'><strong>Przedrostek rozdzielny</strong><p><em>Er weigert sich, die Dokumente <strong>vorzulegen</strong>.</em></p></div></div>"
+      ]
+    }
+  },
+  "examples": [
+    {
+      "de": "Ich habe keine Zeit, heute Abend ins Kino **zu gehen**.",
+      "en": "I have no time to go to the cinema this evening.",
+      "pl": "Nie mam czasu iść dziś wieczorem do kina.",
+      "level": "A1"
+    },
+    {
+      "de": "Es ist wichtig, jeden Tag Deutsch **zu lernen**.",
+      "en": "It is important to learn German every day.",
+      "pl": "Ważne jest, aby uczyć się niemieckiego każdego dnia.",
+      "level": "A1"
+    },
+    {
+      "de": "Er plant, morgen früh **abzureisen**.",
+      "en": "He plans to depart early tomorrow morning.",
+      "pl": "On planuje wyjechać jutro wcześnie rano.",
+      "level": "A2"
+    },
+    {
+      "de": "Sie hat die Absicht, ein neues Auto **zu kaufen**.",
+      "en": "She intends to buy a new car.",
+      "pl": "Ona ma zamiar kupić nowy samochód.",
+      "level": "A2"
+    },
+    {
+      "de": "Es ist nicht einfach, eine bezahlbare Wohnung **zu finden**.",
+      "en": "It is not easy to find an affordable flat.",
+      "pl": "Nie jest łatwo znaleźć mieszkanie w przystępnej cenie.",
+      "level": "A2"
+    },
+    {
+      "de": "Der Richter hat dem Politiker untersagt, das Land **zu verlassen**.",
+      "en": "The judge prohibited the politician from leaving the country.",
+      "pl": "Sędzia zabronił politykowi opuszczania kraju.",
+      "level": "B1"
+    },
+    {
+      "de": "Der Senator weigerte sich, seine Reisepässe **abzugeben**.",
+      "en": "The senator refused to surrender his passports.",
+      "pl": "Senator odmówił oddania swoich paszportów.",
+      "level": "B1"
+    },
+    {
+      "de": "Es ist verboten, geheime Dokumente an Dritte **weiterzugeben**.",
+      "en": "It is forbidden to pass confidential documents on to third parties.",
+      "pl": "Zabronione jest przekazywanie tajnych dokumentów osobom trzecim.",
+      "level": "B1"
+    },
+    {
+      "de": "Die Bundesregierung beabsichtigt, die wirtschaftliche Kooperation **zu vertiefen**.",
+      "en": "The federal government intends to deepen economic cooperation.",
+      "pl": "Rząd federalny zamierza pogłębić współpracę gospodarczą.",
+      "level": "B1"
+    },
+    {
+      "de": "Der Verteidiger war erleichtert, keine Todesstrafe **zu hören**.",
+      "en": "The defense attorney was relieved not to hear a death sentence.",
+      "pl": "Obrońca poczuł ulgę, nie słysząc wyroku kary śmierci.",
+      "level": "B1"
+    },
+    {
+      "de": "Die Notenbank hat beschlossen, den Leitzins unverändert **zu lassen**.",
+      "en": "The central bank decided to leave the key interest rate unchanged.",
+      "pl": "Bank centralny zdecydował o pozostawieniu głównej stopy procentowej bez zmian.",
+      "level": "B2"
+    },
+    {
+      "de": "Die Fachleute haben die schwierige Aufgabe, ein sicheres Endlager **zu finden**.",
+      "en": "The experts face the difficult task of finding a safe nuclear repository.",
+      "pl": "Eksperci mają trudne zadanie znalezienia bezpiecznego składowiska odpadów promieniotwórczych.",
+      "level": "B2"
+    },
+    {
+      "de": "Es droht der Versuch, unliebsame Institutionen politisch **unter Druck zu setzen**.",
+      "en": "There is a looming attempt to put unwelcome institutions under political pressure.",
+      "pl": "Grozi próba wywarcia politycznego nacisku na niewygodne instytucje.",
+      "level": "B2"
+    },
+    {
+      "de": "Die Angeklagten versuchten vergeblich, das Urteil durch Rechtsmittel **anzufechten**.",
+      "en": "The defendants tried in vain to contest the verdict through legal appeals.",
+      "pl": "Oskarżeni próbowali bezskutecznie zaskarżyć wyrok na drodze prawnej.",
+      "level": "B2"
+    },
+    {
+      "de": "Der Kanzler nutzte die Gelegenheit, für Europa als Investitionsstandort **zu werben**.",
+      "en": "The chancellor seized the opportunity to promote Europe as an investment location.",
+      "pl": "Kanclerz skorzystał z okazji, by promować Europę jako miejsce dla inwestycji.",
+      "level": "B2"
+    },
+    {
+      "de": "Es erscheint unverantwortlich, geologische Risiken bei der Endlagersuche **zu bagatellisieren**.",
+      "en": "It appears irresponsible to downplay geological risks in the search for a repository.",
+      "pl": "Bagatelizowanie ryzyk geologicznych przy poszukiwaniu składowiska wydaje się nieodpowiedzialne.",
+      "level": "C1"
+    },
+    {
+      "de": "Der Kläger beansprucht das Recht, vor einem unabhängigen Gericht angehört **zu werden**.",
+      "en": "The plaintiff claims the right to be heard before an independent court.",
+      "pl": "Powód domaga się prawa do bycia wysłuchanym przed niezawisłym sądem.",
+      "level": "C1"
+    },
+    {
+      "de": "Die Bundesgesellschaft schloss aus, ungeeignete Felsformationen weiter **in Betracht zu ziehen**.",
+      "en": "The federal agency ruled out taking unsuitable rock formations further into consideration.",
+      "pl": "Spółka federalna wykluczyła dalsze branie pod uwagę nieodpowiednich formacji skalnych.",
+      "level": "C1"
+    },
+    {
+      "de": "Es obliegt dem Bundesverfassungsgericht, die Rechtmäßigkeit des Gesetzes abschließend **zu beurteilen**.",
+      "en": "It is incumbent upon the Federal Constitutional Court to assess conclusively the constitutionality of the statute.",
+      "pl": "Do Federalnego Trybunału Konstytucyjnego należy ostateczna ocena zgodności ustawy z prawem.",
+      "level": "C2"
+    },
+    {
+      "de": "Die Regierung sah sich außerstande, den verfassungsrechtlichen Bedenken der Opposition Rechnung **zu tragen**.",
+      "en": "The government found itself unable to accommodate the constitutional concerns of the opposition.",
+      "pl": "Rząd uznał się za niezdolnego do uwzględnienia konstytucyjnych zastrzeżeń opozycji.",
+      "level": "C2"
+    }
+  ],
+  "exercises": [
+    {
+      "en": "I am trying to learn German.",
+      "pl": "Próbuję uczyć się niemieckiego.",
+      "de": "Ich versuche, Deutsch zu lernen.",
+      "level": "A2"
+    },
+    {
+      "en": "It is healthy to drink a lot of water.",
+      "pl": "Zdrowo jest pić dużo wody.",
+      "de": "Es ist gesund, viel Wasser zu trinken.",
+      "level": "A2"
+    },
+    {
+      "en": "She has no time to cook today.",
+      "pl": "Ona nie ma dziś czasu gotować.",
+      "de": "Sie hat heute keine Zeit zu kochen.",
+      "level": "A2"
+    },
+    {
+      "en": "He plans to buy a bicycle tomorrow.",
+      "pl": "On planuje kupić jutro rower.",
+      "de": "Er plant, morgen ein Fahrrad zu kaufen.",
+      "level": "A2"
+    },
+    {
+      "en": "It is difficult to understand this word.",
+      "pl": "Trudno jest zrozumieć to słowo.",
+      "de": "Es ist schwer, dieses Wort zu verstehen.",
+      "level": "A2"
+    },
+    {
+      "en": "We hope to see our friends on Sunday.",
+      "pl": "Mamy nadzieję zobaczyć naszych przyjaciół w niedzielę.",
+      "de": "Wir hoffen, unsere Freunde am Sonntag zu sehen.",
+      "level": "A2"
+    },
+    {
+      "en": "It is forbidden to smoke in this room.",
+      "pl": "Zabronione jest palenie w tym pokoju.",
+      "de": "Es ist verboten, in diesem Zimmer zu rauchen.",
+      "level": "A2"
+    },
+    {
+      "en": "Do you (informal) have the desire to eat an ice cream?",
+      "pl": "Czy masz ochotę zjeść lody?",
+      "de": "Hast du Lust, ein Eis zu essen?",
+      "level": "A2"
+    },
+    {
+      "en": "He forgot to close the door.",
+      "pl": "On zapomniał zamknąć drzwi.",
+      "de": "Er hat vergessen, die Tür zu schließen.",
+      "level": "A2"
+    },
+    {
+      "en": "It is nice to meet new colleagues.",
+      "pl": "Miło jest poznać nowych kolegów z pracy.",
+      "de": "Es ist schön, neue Kollegen kennenzulernen.",
+      "level": "A2"
+    },
+    {
+      "en": "The politician refused to answer the journalist's question.",
+      "pl": "Polityk odmówił odpowiedzi na pytanie dziennikarza.",
+      "de": "Der Politiker weigerte sich, die Frage des Journalisten zu beantworten.",
+      "level": "B1"
+    },
+    {
+      "en": "The judge prohibited the suspect from leaving the town.",
+      "pl": "Sędzia zabronił podejrzanemu opuszczania miasta.",
+      "de": "Der Richter untersagte dem Verdächtigen, die Stadt zu verlassen.",
+      "level": "B1"
+    },
+    {
+      "en": "The court ordered him to surrender his identity card.",
+      "pl": "Sąd nakazał mu oddanie dowodu tożsamości.",
+      "de": "Das Gericht ordnete an, seinen Ausweis abzugeben.",
+      "level": "B1"
+    },
+    {
+      "en": "We intend to book our tickets online this evening.",
+      "pl": "Zamierzamy zarezerwować nasze bilety przez internet dziś wieczorem.",
+      "de": "Wir beabsichtigen, unsere Tickets heute Abend online zu buchen.",
+      "level": "B1"
+    },
+    {
+      "en": "It is dangerous to travel into the crisis region without protection.",
+      "pl": "Niebezpiecznie jest podróżować do regionu kryzysowego bez ochrony.",
+      "de": "Es ist gefährlich, ohne Schutz in das Krisengebiet zu reisen.",
+      "level": "B1"
+    },
+    {
+      "en": "She was relieved to receive the positive message.",
+      "pl": "Poczuła ulgę, gdy otrzymała pozytywną wiadomość.",
+      "de": "Sie war erleichtert, die positive Nachricht zu erhalten.",
+      "level": "B1"
+    },
+    {
+      "en": "The chancellor has the plan to visit several partner countries.",
+      "pl": "Kanclerz ma plan odwiedzenia kilku krajów partnerskich.",
+      "de": "Der Kanzler hat den Plan, mehrere Partnerländer zu besuchen.",
+      "level": "B1"
+    },
+    {
+      "en": "The bank promised to examine the customer's request quickly.",
+      "pl": "Bank obiecał szybko zbadać wniosek klienta.",
+      "de": "Die Bank versprach, den Antrag des Kunden schnell zu prüfen.",
+      "level": "B1"
+    },
+    {
+      "en": "It is necessary to inform all participants about the change.",
+      "pl": "Konieczne jest poinformowanie wszystkich uczestników o zmianie.",
+      "de": "Es ist notwendig, alle Teilnehmer über die Änderung zu informieren.",
+      "level": "B1"
+    },
+    {
+      "en": "The team decided to cancel the meeting because of the storm.",
+      "pl": "Zespół zdecydował się odwołać spotkanie z powodu burzy.",
+      "de": "Das Team beschloss, die Besprechung wegen des Unwetters abzusagen.",
+      "level": "B1"
+    },
+    {
+      "en": "He does not have the courage to tell his boss the truth.",
+      "pl": "On nie ma odwagi powiedzieć swojemu szefowi prawdy.",
+      "de": "Er hat nicht den Mut, seinem Chef die Wahrheit zu sagen.",
+      "level": "B1"
+    },
+    {
+      "en": "The prime minister called on his rival to withdraw from politics.",
+      "pl": "Premier wezwał swojego rywala do wycofania się z polityki.",
+      "de": "Der Ministerpräsident rief seinen Rivalen dazu auf, sich aus der Politik zurückzuziehen.",
+      "level": "B1"
+    },
+    {
+      "en": "It is important to submit the documents before the deadline.",
+      "pl": "Ważne jest, aby złożyć dokumenty przed terminem.",
+      "de": "Es ist wichtig, die Unterlagen vor Fristablauf einzureichen.",
+      "level": "B1"
+    },
+    {
+      "en": "The company began to test the new software yesterday.",
+      "pl": "Firma zaczęła wczoraj testować nowe oprogramowanie.",
+      "de": "Das Unternehmen begann gestern, die neue Software zu testen.",
+      "level": "B1"
+    },
+    {
+      "en": "The doctors recommended that he stay in hospital for three days.",
+      "pl": "Lekarze zalecili mu pozostać w szpitalu przez trzy dni.",
+      "de": "Die Ärzte empfahlen ihm, drei Tage im Krankenhaus zu bleiben.",
+      "level": "B1"
+    },
+    {
+      "en": "The opposition party tried to delay the vote.",
+      "pl": "Partia opozycyjna próbowała opóźnić głosowanie.",
+      "de": "Die Oppositionspartei versuchte, die Abstimmung zu verzögern.",
+      "level": "B1"
+    },
+    {
+      "en": "She had the opportunity to speak with the director personally.",
+      "pl": "Miała okazję porozmawiać z dyrektorem osobiście.",
+      "de": "Sie hatte die Gelegenheit, persönlich mit dem Direktor zu sprechen.",
+      "level": "B1"
+    },
+    {
+      "en": "It is forbidden to film or photograph inside the courtroom.",
+      "pl": "Zabronione jest filmowanie lub fotografowanie w sali sądowej.",
+      "de": "Es ist verboten, im Gerichtssaal zu filmen oder zu fotografieren.",
+      "level": "B1"
+    },
+    {
+      "en": "The minister offered to mediate between both sides.",
+      "pl": "Minister zaoferował mediację między obiema stronami.",
+      "de": "Der Minister bot an, zwischen beiden Seiten zu vermitteln.",
+      "level": "B1"
+    },
+    {
+      "en": "We do not intend to change our original strategy.",
+      "pl": "Nie zamierzamy zmieniać naszej pierwotnej strategii.",
+      "de": "Wir beabsichtigen nicht, unsere ursprüngliche Strategie zu ändern.",
+      "level": "B1"
+    },
+    {
+      "en": "The supreme court instructed the senator to hand over his diplomatic passport within 24 hours.",
+      "pl": "Sąd najwyższy nakazał senatorowi oddanie paszportu dyplomatycznego w ciągu 24 godzin.",
+      "de": "Das Oberste Gericht wies den Senator an, seinen Diplomatenpass binnen 24 Stunden abzugeben.",
+      "level": "B2"
+    },
+    {
+      "en": "The federal agency aims to narrow down the potential disposal sites further.",
+      "pl": "Agencja federalna dąży do dalszego zawężenia potencjalnych lokalizacji składowiska.",
+      "de": "Die Bundesgesellschaft beabsichtigt, die potenziellen Endlagerstandorte weiter einzugrenzen.",
+      "level": "B2"
+    },
+    {
+      "en": "The central bank decided to leave the benchmark interest rate untouched this month.",
+      "pl": "Bank centralny zdecydował o pozostawieniu referencyjnej stopy procentowej bez zmian w tym miesiącu.",
+      "de": "Die Zentralbank hat beschlossen, den Leitzins in diesem Monat unangetastet zu lassen.",
+      "level": "B2"
+    },
+    {
+      "en": "It is essential to clarify the open legal issues before signing the contract.",
+      "pl": "Niezbędne jest wyjaśnienie otwartych kwestii prawnych przed podpisaniem umowy.",
+      "de": "Es ist unerlässlich, die offenen Rechtsfragen vor Unterzeichnung des Vertrags zu klären.",
+      "level": "B2"
+    },
+    {
+      "en": "The prime minister attempted to forge a right-wing coalition despite the looming deadlock.",
+      "pl": "Premier próbował stworzyć prawicową koalicję pomimo grożącego pata.",
+      "de": "Der Ministerpräsident versuchte, trotz des drohenden Patts eine rechtsgerichtete Koalition zu bilden.",
+      "level": "B2"
+    },
+    {
+      "en": "The defense lawyer complained that it was impossible to conduct a fair trial under these conditions.",
+      "pl": "Obrońca skarżył się, że w tych warunkach niemożliwe było przeprowadzenie rzetelnego procesu.",
+      "de": "Der Verteidiger beklagte, dass es unmöglich gewesen sei, unter diesen Bedingungen ein faires Verfahren zu führen.",
+      "level": "B2"
+    },
+    {
+      "en": "The chancellor used his stay in Tokyo to advocate for German industry.",
+      "pl": "Kanclerz wykorzystał swój pobyt w Tokio, aby promować niemiecki przemysł.",
+      "de": "Der Kanzler nutzte seinen Aufenthalt in Tokio, um für die deutsche Industrie zu werben.",
+      "level": "B2"
+    },
+    {
+      "en": "The authorities warned against spreading unverified rumours on social media.",
+      "pl": "Władze ostrzegły przed rozpowszechnianiem niesprawdzonych plotek w mediach społecznościowych.",
+      "de": "Die Behörden warnten davor, ungeprüfte Gerüchte in den sozialen Medien zu verbreiten.",
+      "level": "B2"
+    },
+    {
+      "en": "The government has the duty to protect critical infrastructure from cyberattacks.",
+      "pl": "Rząd ma obowiązek chronić infrastrukturę krytyczną przed cyberatakami.",
+      "de": "Die Regierung hat die Pflicht, die kritische Infrastruktur vor Cyberangriffen zu schützen.",
+      "level": "B2"
+    },
+    {
+      "en": "The president repeatedly urged the central bank to lower interest rates.",
+      "pl": "Prezydent wielokrotnie nakłaniał bank centralny do obniżenia stóp procentowych.",
+      "de": "Der Präsident drängte die Notenbank wiederholt dazu, die Zinsen zu senken.",
+      "level": "B2"
+    },
+    {
+      "en": "The candidate refused to admit that he had lost the runoff election.",
+      "pl": "Kandydat odmówił przyznania, że przegrał wybory ponowne.",
+      "de": "Der Kandidat weigerte sich zuzugeben, dass er die Stichwahl verloren hatte.",
+      "level": "B2"
+    },
+    {
+      "en": "It is customary to conclude an international treaty after long consultations.",
+      "pl": "Zwyczajem jest zawieranie traktatu międzynarodowego po długich konsultacjach.",
+      "de": "Es ist üblich, nach langen Konsultationen einen internationalen Vertrag abzuschließen.",
+      "level": "B2"
+    },
+    {
+      "en": "The ministry has no intention of making concessions to the striking workers.",
+      "pl": "Ministerstwo nie ma zamiaru iść na ustępstwa wobec strajkujących pracowników.",
+      "de": "Das Ministerium hat nicht die Absicht, den streikenden Arbeitern Zugeständnisse zu machen.",
+      "level": "B2"
+    },
+    {
+      "en": "The judges were prepared to review the controversial evidence once again.",
+      "pl": "Sędziowie byli gotowi jeszcze raz zbadać kontrowersyjne dowody.",
+      "de": "Die Richter waren bereit, die umstrittenen Beweise noch einmal zu überprüfen.",
+      "level": "B2"
+    },
+    {
+      "en": "The diplomat managed to negotiate safe passage for the trapped civilians.",
+      "pl": "Dyplomacie udało się wynegocjować bezpieczne przejście dla uwięzionych cywilów.",
+      "de": "Dem Diplomaten gelang es, einen sicheren Abzug für die eingeschlossenen Zivilisten auszuhandeln.",
+      "level": "B2"
+    },
+    {
+      "en": "The airline promised to compensate the passengers for the delayed flight.",
+      "pl": "Linia lotnicza obiecała zrekompensować pasażerom opóźniony lot.",
+      "de": "Die Fluggesellschaft versprach, die Passagiere für den verspäteten Flug zu entschädigen.",
+      "level": "B2"
+    },
+    {
+      "en": "It was considered unacceptable to extract confessions by means of torture.",
+      "pl": "Uznano za niedopuszczalne wymuszanie zeznań za pomocą tortur.",
+      "de": "Es galt als inakzeptabel, Geständnisse durch Folter zu erpressen.",
+      "level": "B2"
+    },
+    {
+      "en": "The parliamentary committee recommended continuing the search for a permanent repository.",
+      "pl": "Komisja parlamentarna zaleciła kontynuowanie poszukiwań ostatecznego składowiska.",
+      "de": "Der Parlamentsausschuss empfahl, die Suche nach einem Endlager fortzusetzen.",
+      "level": "B2"
+    },
+    {
+      "en": "The management decided to close several regional branches by the end of the year.",
+      "pl": "Kierownictwo zdecydowało o zamknięciu kilku regionalnych oddziałów do końca roku.",
+      "de": "Die Geschäftsführung beschloss, bis Jahresende mehrere Regionalfilialen zu schließen.",
+      "level": "B2"
+    },
+    {
+      "en": "The opposition demanded the right to inspect the complete audit report.",
+      "pl": "Opozycja zażądała prawa do wglądu w pełny raport z audytu.",
+      "de": "Die Opposition forderte das Recht, den vollständigen Prüfbericht einzusehen.",
+      "level": "B2"
+    },
+    {
+      "en": "It is unrealistic to complete the nuclear repository selection before 2050.",
+      "pl": "Nierealne jest zakończenie wyboru lokalizacji składowiska atomowego przed 2050 rokiem.",
+      "de": "Es ist unrealistisch, die Auswahl des Endlagerstandortes vor 2050 abzuschließen.",
+      "level": "B2"
+    },
+    {
+      "en": "The suspect denied having passed classified defence files to a foreign agent.",
+      "pl": "Podejrzany zaprzeczył, jakoby przekazał tajne akta obronne obcemu agentowi.",
+      "de": "Der Verdächtige bestritt, geheime Verteidigungsakten an einen ausländischen Agenten weitergegeben zu haben.",
+      "level": "B2"
+    },
+    {
+      "en": "The central bank warned against underestimating the persistence of inflation.",
+      "pl": "Bank centralny ostrzegł przed niedocenianiem uporczywości inflacji.",
+      "de": "Die Notenbank warnte davor, die Hartnäckigkeit der Inflation zu unterschätzen.",
+      "level": "B2"
+    },
+    {
+      "en": "She intends to open a commercial law firm in Frankfurt next spring.",
+      "pl": "Ona zamierza otworzyć kancelarię prawa gospodarczego we Frankfurcie przyszłej wiosny.",
+      "de": "Sie beabsichtigt, im nächsten Frühjahr eine Wirtschaftskanzlei in Frankfurt zu eröffnen.",
+      "level": "B2"
+    },
+    {
+      "en": "The committee had the task of monitoring the integrity of the voting process.",
+      "pl": "Komisja miała za zadanie monitorowanie uczciwości procesu głosowania.",
+      "de": "Das Komitee hatte die Aufgabe, die Integrität des Wahlprozesses zu überwachen.",
+      "level": "B2"
+    },
+    {
+      "en": "The court prohibited the media from naming the identity of the minor witness.",
+      "pl": "Sąd zakazał mediom podawania tożsamości małoletniego świadka.",
+      "de": "Das Gericht verbot den Medien, die Identität des minderjährigen Zeugen zu nennen.",
+      "level": "B2"
+    },
+    {
+      "en": "It is crucial to deepen technological cooperation in the field of nuclear fusion.",
+      "pl": "Kluczowe jest pogłębienie współpracy technologicznej w dziedzinie fuzji jądrowej.",
+      "de": "Es ist entscheidend, die technologische Zusammenarbeit im Bereich der Kernfusion zu vertiefen.",
+      "level": "B2"
+    },
+    {
+      "en": "The prime minister failed to secure the necessary majority in parliament.",
+      "pl": "Premierowi nie udało się zapewnić niezbędnej większości w parlamencie.",
+      "de": "Der Ministerpräsident verfehlte es, die notwendige Mehrheit im Parlament zu sichern.",
+      "level": "B2"
+    },
+    {
+      "en": "The union agreed to resume collective bargaining next Tuesday.",
+      "pl": "Związek zawodowy zgodził się wznowić negocjacje płacowe w najbliższy wtorek.",
+      "de": "Die Gewerkschaft erklärte sich bereit, die Tarifverhandlungen am nächsten Dienstag wiederaufzunehmen.",
+      "level": "B2"
+    },
+    {
+      "en": "The company has the opportunity to expand its market position in East Asia.",
+      "pl": "Firma ma okazję rozszerzyć swoją pozycję rynkową w Azji Wschodniej.",
+      "de": "Das Unternehmen hat die Möglichkeit, seine Marktposition in Ostasien auszubauen.",
+      "level": "B2"
+    },
+    {
+      "en": "It proved difficult to find a compromise between the competing factions.",
+      "pl": "Trudne okazało się znalezienie kompromisu między konkurującymi frakcjami.",
+      "de": "Es erwies sich als schwierig, einen Kompromiss zwischen den konkurrierenden Fraktionen zu finden.",
+      "level": "B2"
+    },
+    {
+      "en": "The judge ordered the defendant to pay a substantial fine immediately.",
+      "pl": "Sędzia nakazał oskarżonemu natychmiastowe zapłacenie znacznej grzywny.",
+      "de": "Der Richter verurteilte den Angeklagten dazu, unverzüglich eine erhebliche Geldstrafe zu zahlen.",
+      "level": "B2"
+    },
+    {
+      "en": "We do not expect the government to change its immigration policy fundamentally.",
+      "pl": "Nie oczekujemy, że rząd zasadniczo zmieni swoją politykę migracyjną.",
+      "de": "Wir erwarten nicht, dass die Regierung ihre Einwanderungspolitik grundlegend ändert.",
+      "level": "B2"
+    },
+    {
+      "en": "The investigator avoided answering specific questions about the ongoing inquiry.",
+      "pl": "Śledczy unikał odpowiadania na konkretne pytania dotyczące trwającego dochodzenia.",
+      "de": "Der Ermittler vermied es, konkrete Fragen zur laufenden Untersuchung zu beantworten.",
+      "level": "B2"
+    },
+    {
+      "en": "The ministry decided to exclude five federal states from the repository search.",
+      "pl": "Ministerstwo zdecydowało o wykluczeniu pięciu krajów związkowych z poszukiwań składowiska.",
+      "de": "Das Ministerium beschloss, fünf Bundesländer von der Endlagersuche auszuschließen.",
+      "level": "B2"
+    },
+    {
+      "en": "The defendant refused to sign the written confession presented by the police.",
+      "pl": "Oskarżony odmówił podpisania pisemnego przyznania się do winy przedstawionego przez policję.",
+      "de": "Der Angeklagte weigerte sich, das von der Polizei vorgelegte schriftliche Geständnis zu unterschreiben.",
+      "level": "B2"
+    },
+    {
+      "en": "It is urgent to supply the civilian population in the besieged city with drinking water.",
+      "pl": "Pilną sprawą jest zaopatrzenie ludności cywilnej w oblężonym mieście w wodę pitną.",
+      "de": "Es ist dringend, die Zivilbevölkerung in der belagerten Stadt mit Trinkwasser zu versorgen.",
+      "level": "B2"
+    },
+    {
+      "en": "The board has the intention of increasing investments in renewable energy.",
+      "pl": "Zarząd ma zamiar zwiększyć inwestycje w energię odnawialną.",
+      "de": "Der Vorstand hat die Absicht, die Investitionen in erneuerbare Energien zu erhöhen.",
+      "level": "B2"
+    },
+    {
+      "en": "The president warned his cabinet against provoking a constitutional conflict.",
+      "pl": "Prezydent przestrzegł swój gabinet przed wywoływaniem konfliktu konstytucyjnego.",
+      "de": "Der Präsident warnte sein Kabinett davor, einen verfassungsrechtlichen Konflikt zu provozieren.",
+      "level": "B2"
+    },
+    {
+      "en": "The commission is determined to investigate every breach of procedural fairness.",
+      "pl": "Komisja jest zdeterminowana, aby zbadać każde naruszenie rzetelności proceduralnej.",
+      "de": "Die Kommission ist entschlossen, jeden Verstoß gegen die Verfahrensordnung zu untersuchen.",
+      "level": "B2"
+    },
+    {
+      "en": "The defense counsel considered it imperative to lodge an appeal against the verdict.",
+      "pl": "Obrońca uznał za konieczne wniesienie apelacji od wyroku.",
+      "de": "Der Verteidiger hielt es für geboten, Berufung gegen das Urteil einzulegen.",
+      "level": "C1"
+    },
+    {
+      "en": "The central bank governors deemed it prudent to maintain a restrictive monetary stance.",
+      "pl": "Członkowie rady banku centralnego uznali za roztropne utrzymanie restrykcyjnego kursu polityki pieniężnej.",
+      "de": "Die Notenbankgouverneure hielten es für klug, einen restriktiven geldpolitischen Kurs beizubehalten.",
+      "level": "C1"
+    },
+    {
+      "en": "The plaintiff asserts the right to be exempted from statutory disclosure requirements.",
+      "pl": "Powód dochodzi prawa do zwolnienia z ustawowych obowiązków informacyjnych.",
+      "de": "Der Kläger beansprucht das Recht, von den gesetzlichen Offenlegungspflichten befreit zu werden.",
+      "level": "C1"
+    },
+    {
+      "en": "It proved impossible to reconcile the geopolitical interests of both trading blocs.",
+      "pl": "Niemożliwe okazało się pogodzenie geopolitycznych interesów obu bloków handlowych.",
+      "de": "Es erwies sich als unmöglich, die geopolitischen Interessen beider Handelsblöcke miteinander in Einklang zu bringen.",
+      "level": "C1"
+    },
+    {
+      "en": "The federal court prohibited the executive from implementing the decree without parliamentary approval.",
+      "pl": "Sąd federalny zakazał władzy wykonawczej wdrażania dekretu bez zgody parlamentu.",
+      "de": "Das Bundesgericht untersagte der Exekutive, das Dekret ohne parlamentarische Zustimmung umzusetzen.",
+      "level": "C1"
+    },
+    {
+      "en": "The ministry saw no necessity to revise the radiological threshold limits.",
+      "pl": "Ministerstwo nie widziało konieczności weryfikacji radiologicznych wartości granicznych.",
+      "de": "Das Ministerium sah keine Notwendigkeit, die radiologischen Grenzwerte zu revidieren.",
+      "level": "C1"
+    },
+    {
+      "en": "The geological agency undertook to conduct seismic surveys in the remaining search areas.",
+      "pl": "Agencja geologiczna zobowiązała się do przeprowadzenia badań sejsmicznych na pozostałych obszarach poszukiwań.",
+      "de": "Die Geologiebehörde verpflichtete sich, seismische Untersuchungen in den verbliebenen Suchräumen durchzuführen.",
+      "level": "C1"
+    },
+    {
+      "en": "The political leadership failed to recognise the systemic dimension of the banking crisis.",
+      "pl": "Przywództwo polityczne nie zdołało rozpoznać systemowego wymiaru kryzysu bankowego.",
+      "de": "Die politische Führung versäumte es, die systemische Dimension der Bankenkrise rechtzeitig zu erkennen.",
+      "level": "C1"
+    },
+    {
+      "en": "It is essential for sovereign lenders to verify the borrower's fiscal sustainability.",
+      "pl": "Dla wierzycieli państwowych kluczowe jest zweryfikowanie stabilności fiskalnej pożyczkobiorcy.",
+      "de": "Es ist für staatliche Kreditgeber wesentlich, die finanzielle Tragfähigkeit des Schuldners zu verifizieren.",
+      "level": "C1"
+    },
+    {
+      "en": "The committee expressed its determination to examine all classified diplomatic telegrams.",
+      "pl": "Komisja wyraziła determinację, by zbadać wszystkie tajne depesze dyplomatyczne.",
+      "de": "Der Ausschuss bekundete seine Entschlossenheit, sämtliche geheimen diplomatischen Depeschen einzusehen.",
+      "level": "C1"
+    },
+    {
+      "en": "The judicial panel was reluctant to accept confessions obtained under duress.",
+      "pl": "Skład sędziowski był niechętny przyjmowaniu zeznań uzyskanych pod przymusem.",
+      "de": "Das Richterkollegium zögerte, unter Zwang erlangte Geständnisse als Beweismittel zuzulassen.",
+      "level": "C1"
+    },
+    {
+      "en": "The regulatory authority threatened to revoke the operating licence of the offending institution.",
+      "pl": "Organ regulacyjny zagroził odebraniem licencji na działalność naruszającej przepisy instytucji.",
+      "de": "Die Aufsichtsbehörde drohte damit, der fehlbaren Institution die Betriebslizenz zu entziehen.",
+      "level": "C1"
+    },
+    {
+      "en": "It appears difficult to dispel doubts about the impartiality of the tribunal.",
+      "pl": "Trudne wydaje się rozwianie wątpliwości co do bezstronności trybunału.",
+      "de": "Es erscheint schwierig, Zweifel an der Unparteilichkeit des Schiedsgerichts auszuräumen.",
+      "level": "C1"
+    },
+    {
+      "en": "The defense counsel made every effort to prevent the extradition of his client.",
+      "pl": "Obrońca dołożył wszelkich starań, aby zapobiec ekstradycji swojego klienta.",
+      "de": "Der Strafverteidiger unternahm jede Anstrengung, die Auslieferung seines Mandanten zu verhindern.",
+      "level": "C1"
+    },
+    {
+      "en": "The central bank considered it inappropriate to intervene in currency markets prematurely.",
+      "pl": "Bank centralny uznał za niestosowną przedwczesną interwencję na rynkach walutowych.",
+      "de": "Die Währungsbehörde hielt es für unangebracht, verfrüht an den Devisenmärkten zu intervenieren.",
+      "level": "C1"
+    },
+    {
+      "en": "The parliament claimed the prerogative to decide on permanent radioactive waste storage.",
+      "pl": "Parlament zastrzegł sobie prerogatywę decydowania o stałym składowaniu odpadów promieniotwórczych.",
+      "de": "Der Bundestag beanspruchte das Vorrecht, über die endgültige Lagerung radioaktiven Mülls zu befinden.",
+      "level": "C1"
+    },
+    {
+      "en": "The international community urged the parties to conflict to respect human rights norms.",
+      "pl": "Społeczność międzynarodowa wezwała strony konfliktu do poszanowania norm praw człowieka.",
+      "de": "Die Staatengemeinschaft mahnte die Konfliktparteien dazu an, die völkerrechtlichen Menschenrechtsnormen zu achten.",
+      "level": "C1"
+    },
+    {
+      "en": "It is customary among central bankers to signal policy shifts well in advance.",
+      "pl": "Wśród bankierów centralnych przyjęło się sygnalizować zmiany w polityce ze znacznym wyprzedzeniem.",
+      "de": "Es ist unter Notenbankern üblich, geldpolitische Kurskorrekturen mit erheblichem Vorlauf zu signalisieren.",
+      "level": "C1"
+    },
+    {
+      "en": "The supreme court declined to review the constitutionality of the temporary emergency decree.",
+      "pl": "Sąd najwyższy odmówił zbadania konstytucyjności tymczasowego dekretu o stanie wyjątkowym.",
+      "de": "Das Höchstgericht lehnte es ab, die Verfassungsmäßigkeit der befristeten Notverordnung zu überprüfen.",
+      "level": "C1"
+    },
+    {
+      "en": "The corporation undertook to align its supply chain with international environmental standards.",
+      "pl": "Korporacja zobowiązała się do dostosowania swojego łańcucha dostaw do międzynarodowych standardów środowiskowych.",
+      "de": "Der Konzern verpflichtete sich dazu, seine Lieferkette an internationalen Umweltstandards auszurichten.",
+      "level": "C1"
+    },
+    {
+      "en": "It falls within the exclusive competence of the constitutional court to determine whether an election is invalid.",
+      "pl": "Do wyłącznej kompetencji trybunału konstytucyjnego należy ustalenie, czy wybory są nieważne.",
+      "de": "Es fällt in die ausschließliche Zuständigkeit des Verfassungsgerichts, über die Ungültigkeit einer Wahl zu befinden.",
+      "level": "C2"
+    },
+    {
+      "en": "The executive deemed it advisable not to challenge the controversial verdict before international tribunals.",
+      "pl": "Władza wykonawcza uznała za wskazane niezaskarżanie kontrowersyjnego wyroku przed trybunałami międzynarodowymi.",
+      "de": "Die Exekutive hielt es für ratsam, das umstrittene Urteil nicht vor internationalen Schiedsgerichten anzufechten.",
+      "level": "C2"
+    },
+    {
+      "en": "The sovereign debt agency found itself compelled to restructure its outstanding bond maturities prematurely.",
+      "pl": "Agencja ds. długu publicznego poczuła się zmuszona do przedterminowej restrukturyzacji terminów zapadalności swoich obligacji.",
+      "de": "Die staatliche Schuldenagentur sah sich gezwungen, die Laufzeiten ihrer ausstehenden Anleihen vorzeitig umzustrukturieren.",
+      "level": "C2"
+    },
+    {
+      "en": "It is incumbent upon the judicial authorities to demonstrate that evidence was not gathered by coercive methods.",
+      "pl": "Na organach sądowych spoczywa obowiązek wykazania, że dowody nie zostały zebrane metodami przymusu.",
+      "de": "Es obliegt den Justizbehörden nachzuweisen, dass Beweismittel nicht durch Zwangsmethoden erlangt wurden.",
+      "level": "C2"
+    },
+    {
+      "en": "The government made no secret of its intention to circumvent judicial constraints on national security policy.",
+      "pl": "Rząd nie ukrywał zamiaru obejścia sądowych ograniczeń nałożonych na politykę bezpieczeństwa narodowego.",
+      "de": "Die Regierung machte kein Hehl aus ihrer Absicht, gerichtliche Vorgaben zur nationalen Sicherheitspolitik zu umgehen.",
+      "level": "C2"
+    },
+    {
+      "en": "The supervisory council saw no grounds to deviate from the established risk assessment procedures.",
+      "pl": "Rada nadzorcza nie widziała podstaw do odstąpienia od ustalonych procedur oceny ryzyka.",
+      "de": "Der Aufsichtsrat sah keinerlei Veranlassung, von den etablierten Verfahren der Risikobewertung abzuweichen.",
+      "level": "C2"
+    },
+    {
+      "en": "It proved exceedingly difficult to isolate the geological repository site completely from groundwater flows.",
+      "pl": "Niezwykle trudne okazało się całkowite odizolowanie geologicznego składowiska odpadów od przepływów wód gruntowych.",
+      "de": "Es erwies sich als ungemein schwierig, die geologische Endlagerstätte von Grundwasserströmen vollständig zu isolieren.",
+      "level": "C2"
+    },
+    {
+      "en": "The special tribunal refused to acknowledge any extraterritorial jurisdiction claimed by unilateral powers.",
+      "pl": "Trybunał specjalny odmówił uznania jakiejkolwiek eksterytorialnej jurysdykcji zgłaszanej przez jednostronne mocarstwa.",
+      "de": "Das Sondertribunal weigerte sich, eine von unilateral agierenden Mächten beanspruchte extraterritoriale Jurisdiktion anzuerkennen.",
+      "level": "C2"
+    },
+    {
+      "en": "The monetary authorities considered it premature to abandon their restrictive monetary tightening stance.",
+      "pl": "Władze monetarne uznały za przedwczesne odejście od restrykcyjnego kursu zacieśniania polityki pieniężnej.",
+      "de": "Die Währungshüter hielten es für verfrüht, von ihrem restriktiven geldpolitischen Straffungskurs abzurücken.",
+      "level": "C2"
+    },
+    {
+      "en": "The parliamentary opposition reserved the right to institute constitutional proceedings against the selection process.",
+      "pl": "Opozycja parlamentarna zastrzegła sobie prawo do wszczęcia postępowania przed trybunałem przeciwko procesowi selekcji.",
+      "de": "Die parlamentarische Opposition behielt sich das Recht vor, ein Organstreitverfahren gegen das Auswahlverfahren anzustrengen.",
+      "level": "C2"
+    }
+  ],
+  "listening": {
+    "audioUrl": "https://radiodownloaddw-a.akamaihd.net/downloads/Events/dwelle/dira/mp3/deutschkurse/nachrichten_live/0136B5B3_2.mp3",
+    "articles": [
+      {
+        "heading": "Netanjahu bei Wahl in Israel vorn – aber ohne Mehrheit",
+        "text": "Nach Auszählung von mehr als 60 Prozent der Stimmen bei der Parlamentswahl in Israel hat der rechtsreligiöse Block von Ministerpräsident Benjamin Netanjahu Medien zufolge seinen [[Vorsprung|1]] ausgebaut. Eine klare Mehrheit erreicht er aber weiterhin nicht. Laut israelischen Medienberichten kommt Netanjahus Lager nach gegenwärtigem Stand auf 56 der 120 Sitze in der Knesset und liegt damit acht Sitze vor dem gegnerischen Lager von Ex-Militärchef Gadi Eisenkot. Netanjahu forderte trotz des drohenden [[Patts|2]] die Bildung einer starken, rechtsgerichteten Regierung. Eisenkot erklärte dagegen, die Wähler hätten Netanjahu [[eine Absage erteilt|3]], und rief den langjährigen Regierungschef zum [[Rückzug|4]] aus der Politik auf."
+      },
+      {
+        "heading": "Wahlverlierer Bolsonaro flieht offenbar aus Brasilien",
+        "text": "Flávio Bolsonaro hat Medienberichten zufolge nach seiner [[Niederlage|5]] bei der Präsidentschaftswahl in Brasilien das Land verlassen. Zuvor hatten die USA ihm und seiner Familie Visa zugesagt. Wo genau sich der rechte Senator nach seiner Wahlniederlage gegen den linken Präsidenten Luiz Inácio Lula da Silva derzeit aufhält, ist unklar – jedoch [[mehren sich|6]] Medienberichte über eine [[Ausreise|7]] des Sohnes von Ex-Präsident Jair Bolsonaro über Argentinien in die USA. Bolsonaro war einer [[Anordnung|8]] des Obersten Gerichts in Brasilien nicht [[nachgekommen|9]], seine Reisepässe binnen 24 Stunden abzugeben. Richter Alexandre de Moraes hatte Bolsonaros Reisepässe ungültig machen lassen und ihm [[untersagt|10]], das Land zu verlassen."
+      },
+      {
+        "heading": "Sieben Franzosen im Irak wegen IS-Zugehörigkeit zu Haftstrafen verurteilt",
+        "text": "Wegen ihrer [[Zugehörigkeit|11]] zur Terrororganisation „Islamischer Staat“ (IS) sind sieben Franzosen im Irak zu hohen Haftstrafen verurteilt worden. Sechs der Männer erhielten eine lebenslange [[Freiheitsstrafe|12]]; gemäß dem irakischen Rechtssystem entspricht dies 20 Jahren Haft. Ein weiterer Mann muss für 15 Jahre ins Gefängnis. Einer der Verteidiger zeigte sich erleichtert, dass keine Todesstrafen [[verhängt|13]] wurden. Zugleich beklagte er, die Franzosen seien „ohne faires Verfahren“ verurteilt worden. Die Richtersprüche beruhten auf Folter und erzwungenen [[Geständnissen|14]], erklärte der Rechtsanwalt. Es handelt sich um die ersten Urteile im Fall von insgesamt 47 französischen mutmaßlichen IS-Mitgliedern, die im vergangenen Jahr aus Syrien in den Irak [[überstellt|15]] wurden."
+      },
+      {
+        "heading": "Merz im Rahmen seiner Asien-Reise in Japan",
+        "text": "Auf seiner mehrtägigen Asienreise wird Bundeskanzler Friedrich Merz an diesem Mittwoch in Japan erwartet. Der Kanzler wird in Tokio von Ministerpräsidentin Sanae Takaichi [[empfangen|16]] und nimmt an einem deutsch-japanischen [[Wirtschaftsgipfel|17]] teil. Am Donnerstag stehen ein Unternehmertreffen und ein sicherheitspolitischer Dialog auf dem Programm sowie der Besuch eines Technologieunternehmens für Kernfusion. Zum Auftakt seiner Asienreise hatte Merz in Singapur für Deutschland und Europa als Investitionsstandort [[geworben|18]]. Den Abschluss der Reise bildet ab Donnerstag Südkorea. Die Reise dient nach Regierungsangaben insbesondere der [[Vertiefung|19]] der sicherheitspolitischen und wirtschaftlichen Zusammenarbeit mit den asiatischen Staaten."
+      },
+      {
+        "heading": "US-Notenbank Fed entscheidet über weiteren Kurs der Geldpolitik",
+        "text": "Die US-Notenbank Federal Reserve (Fed) verkündet am Mittwoch ihre [[Leitzinsentscheidung|20]]. Erwartet wird, dass die Fed den Leitzins dieses Mal unverändert lässt. Fed-Chef Kevin Warsh will die Entscheidung im Anschluss auf einer Pressekonferenz erläutern. Auf ihrer letzten Sitzung Mitte September hatte die Fed den Leitzins erstmals seit gut drei Jahren erhöht. Sie begründete dies mit der wegen des Iran-Kriegs deutlich gestiegenen Inflation. Die [[Verbraucherpreise|21]] sind ein Hauptthema vor den Kongresswahlen am 3. November. Den Republikanern von US-Präsident Donald Trump droht laut Umfragen eine Niederlage. Trump [[drängt|22]] die Fed immer wieder zu Zinssenkungen, um etwa Immobilienkredite zu [[verbilligen|23]]."
+      },
+      {
+        "heading": "Fünf Bundesländer fallen bei Endlagersuche heraus",
+        "text": "Auf der Suche nach einem [[Endlager|24]] für den deutschen [[Atommüll|25]] haben die zuständigen Fachleute die deutsche Landesfläche auf nun weniger als fünf Prozent [[eingegrenzt|26]]. In diesen Gebieten hält die Bundesgesellschaft für Endlagerung (BGE) die [[geologischen|27]] Bedingungen grundsätzlich für geeignet, wie sie in der niedersächsischen Stadt Peine mitteilte. Die Bundesländer Rheinland-Pfalz, Hessen, Berlin, Sachsen und das Saarland sind nicht mehr Teil der laufenden Suche. Das letzte Wort für die Auswahl des [[Standortes|28]] hat aber der Bundestag. Mit einer endgültigen Entscheidung über den Endlagerstandort rechnet das BGE spätestens bis Mitte dieses Jahrhunderts."
+      }
+    ],
+    "vocab": [
+      {
+        "id": 1,
+        "word": "der Vorsprung",
+        "translation": {
+          "en": "lead, head start",
+          "pl": "przewaga"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Vorsprünge",
+        "notes": {
+          "en": "Often used with ausbauen (to extend) or einbüßen (to lose).",
+          "pl": "Często z ausbauen (powiększać) lub einbüßen (tracić)."
+        },
+        "examples": [
+          "Die Regierungspartei konnte ihren Vorsprung in den Umfragen ausbauen.",
+          "Der Läufer ging mit großem Vorsprung durchs Ziel."
+        ]
+      },
+      {
+        "id": 2,
+        "word": "das Patt",
+        "translation": {
+          "en": "stalemate, deadlock",
+          "pl": "pat, impas"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Patts",
+        "notes": {
+          "en": "Originally from chess; widely used in politics: drohendes Patt.",
+          "pl": "Pochodzi z szachów; powszechne w polityce: drohendes Patt."
+        },
+        "examples": [
+          "Nach den Wahlen droht ein politisches Patt im Parlament.",
+          "Die Verhandlungen endeten in einem vollständigen Patt."
+        ]
+      },
+      {
+        "id": 3,
+        "word": "eine Absage erteilen",
+        "translation": {
+          "en": "to reject, give a refusal to",
+          "pl": "odrzucić, dać odpowiedź odmowną"
+        },
+        "partOfSpeech": "Expression",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Fixed collocation with dative: jemandem eine Absage erteilen.",
+          "pl": "Stały związek wyrazowy z celownikiem (Dativ)."
+        },
+        "examples": [
+          "Die Wähler haben den radikalen Vorschlägen eine klare Absage erteilt.",
+          "Das Unternehmen erteilte dem Übernahmeangebot eine Absage."
+        ]
+      },
+      {
+        "id": 4,
+        "word": "der Rückzug",
+        "translation": {
+          "en": "withdrawal, retreat",
+          "pl": "wycofanie się, odwrót"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Rückzüge",
+        "notes": {
+          "en": "Commonly: der Rückzug aus der Politik (withdrawal from politics).",
+          "pl": "Częste: der Rückzug aus der Politik (wycofanie się z polityki)."
+        },
+        "examples": [
+          "Nach dem Wahldebakel kündigte der Parteichef seinen Rückzug an.",
+          "Die Armee trat einen geordneten Rückzug an."
+        ]
+      },
+      {
+        "id": 5,
+        "word": "die Niederlage",
+        "translation": {
+          "en": "defeat",
+          "pl": "porażka, przegrana"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "die Niederlagen",
+        "notes": {
+          "en": "Collocations: eine Niederlage einstecken, anerkennen, erleiden.",
+          "pl": "Typowe: eine Niederlage anerkennen (uznać porażkę)."
+        },
+        "examples": [
+          "Der Kandidat musste eine bittere Niederlage einstecken.",
+          "Nach der Niederlage begannen interne Streitigkeiten in der Partei."
+        ]
+      },
+      {
+        "id": 6,
+        "word": "sich mehren",
+        "translation": {
+          "en": "to increase, multiply",
+          "pl": "mnożyć się, przybierać na sile"
+        },
+        "partOfSpeech": "Verb",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Reflexive verb; often with Berichte, Stimmen, Zweifel.",
+          "pl": "Czasownik zwrotny; często: Stimmen mehren sich (głosy się mnożą)."
+        },
+        "examples": [
+          "Die Zweifel am offiziellen Wahlergebnis mehren sich stündlich.",
+          "In den Medien mehren sich Berichte über finanzielle Unregelmäßigkeiten."
+        ]
+      },
+      {
+        "id": 7,
+        "word": "die Ausreise",
+        "translation": {
+          "en": "departure, exit from a country",
+          "pl": "wyjazd z kraju, opuszczenie kraju"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Ausreisen",
+        "notes": {
+          "en": "Antonym: die Einreise (entry).",
+          "pl": "Antonim: die Einreise (wjazd)."
+        },
+        "examples": [
+          "Die Behörden verweigerten dem Aktivisten die Ausreise.",
+          "Vor der Ausreise müssen alle Dokumente geprüft werden."
+        ]
+      },
+      {
+        "id": 8,
+        "word": "die Anordnung",
+        "translation": {
+          "en": "order, directive, decree",
+          "pl": "zarządzenie, nakaz"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Anordnungen",
+        "notes": {
+          "en": "Formal decree by an authority or court (gerichtliche Anordnung).",
+          "pl": "Formalny nakaz wydany przez sąd lub urząd."
+        },
+        "examples": [
+          "Die Polizei handelte nach einer richterlichen Anordnung.",
+          "Auf Anordnung des Ministeriums wurden zusätzliche Kontrollen eingeführt."
+        ]
+      },
+      {
+        "id": 9,
+        "word": "nachkommen",
+        "translation": {
+          "en": "to comply with, fulfill",
+          "pl": "zastosować się do, wypełnić (np. nakaz)"
+        },
+        "partOfSpeech": "Verb",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Governs the dative case: einer Pflicht / Anordnung nachkommen.",
+          "pl": "Łączy się z celownikiem: einer Anordnung nachkommen."
+        },
+        "examples": [
+          "Das Unternehmen ist der Zahlungsaufforderung pünktlich nachgekommen.",
+          "Er weigerte sich, der Vorladung des Gerichts nachzukommen."
+        ]
+      },
+      {
+        "id": 10,
+        "word": "untersagen",
+        "translation": {
+          "en": "to prohibit, forbid",
+          "pl": "zakazać, zabronić"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Formal synonym of verbieten; takes dative of person + accusative.",
+          "pl": "Formalny synonim czasownika verbieten."
+        },
+        "examples": [
+          "Das Gericht hat dem Konzern untersagt, das Patent weiter zu nutzen.",
+          "Ihm wurde streng untersagt, die Baustelle zu betreten."
+        ]
+      },
+      {
+        "id": 11,
+        "word": "die Zugehörigkeit",
+        "translation": {
+          "en": "membership, affiliation",
+          "pl": "przynależność"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Often with preposition zu: die Zugehörigkeit zu einer Gruppe.",
+          "pl": "Często z przyimkiem zu: przynależność do czegoś."
+        },
+        "examples": [
+          "Die Zugehörigkeit zur Europäischen Union bringt viele Vorteile mit sich.",
+          "Wegen seiner Zugehörigkeit zu einer Miliz wurde er angeklagt."
+        ]
+      },
+      {
+        "id": 12,
+        "word": "die Freiheitsstrafe",
+        "translation": {
+          "en": "custodial sentence, prison sentence",
+          "pl": "kara pozbawienia wolności"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Freiheitsstrafen",
+        "notes": {
+          "en": "Legal term: lebenslange Freiheitsstrafe (life imprisonment).",
+          "pl": "Termin prawniczy: kara pozbawienia wolności."
+        },
+        "examples": [
+          "Das Gesetz sieht für diesen Betrug eine mehrjährige Freiheitsstrafe vor.",
+          "Der Verurteilte muss eine lebenslange Freiheitsstrafe verbüßen."
+        ]
+      },
+      {
+        "id": 13,
+        "word": "verhängen",
+        "translation": {
+          "en": "to impose (a sentence, sanction, ban)",
+          "pl": "nałożyć, orzec (np. karę, sankcje)"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Collocations: eine Strafe / Sanktionen / den Notstand verhängen.",
+          "pl": "Częste połączenia: Strafen / Sanktionen verhängen."
+        },
+        "examples": [
+          "Die EU verhängte neue Handelssanktionen gegen das Regime.",
+          "Der Richter verhängte eine empfindliche Geldstrafe gegen den Fahrer."
+        ]
+      },
+      {
+        "id": 14,
+        "word": "das Geständnis",
+        "translation": {
+          "en": "confession",
+          "pl": "przyznanie się do winy, zeznanie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Geständnisse",
+        "notes": {
+          "en": "Collocation: ein Geständnis ablegen (to make a confession).",
+          "pl": "Zwrot: ein Geständnis ablegen (przyznać się do winy)."
+        },
+        "examples": [
+          "Der Angeklagte legte vor Gericht ein umfassendes Geständnis ab.",
+          "Die Verteidigung bezweifelte, dass das Geständnis freiwillig war."
+        ]
+      },
+      {
+        "id": 15,
+        "word": "überstellen",
+        "translation": {
+          "en": "to transfer, extradite (a prisoner)",
+          "pl": "przekazać (więźnia), przetransportować"
+        },
+        "partOfSpeech": "Verb",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Inseparable verb in the legal sense: überstellt, hat überstellt.",
+          "pl": "Czasownik nierozdzielny w znaczeniu prawnym."
+        },
+        "examples": [
+          "Der Verdächtige wurde gestern an die Bundespolizei überstellt.",
+          "Mehrere Häftlinge sollen in ein Hochsicherheitsgefängnis überstellt werden."
+        ]
+      },
+      {
+        "id": 16,
+        "word": "empfangen",
+        "translation": {
+          "en": "to receive, welcome (a guest/diplomat)",
+          "pl": "przyjąć, powitać (gościa/dyplomatę)"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B1",
+        "plural": "",
+        "notes": {
+          "en": "Strong verb: empfängt, empfing, hat empfangen.",
+          "pl": "Czasownik nieregularny: empfängt, empfing, hat empfangen."
+        },
+        "examples": [
+          "Die Premierministerin empfing den Staatsgast mit militärischen Ehren.",
+          "Der Botschafter wurde im Außenministerium freundlich empfangen."
+        ]
+      },
+      {
+        "id": 17,
+        "word": "der Wirtschaftsgipfel",
+        "translation": {
+          "en": "economic summit",
+          "pl": "szczyt gospodarczy"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Wirtschaftsgipfel",
+        "notes": {
+          "en": "Compound noun: Wirtschaft + Gipfel.",
+          "pl": "Rzeczownik złożony: gospodarka + szczyt."
+        },
+        "examples": [
+          "Beim internationalen Wirtschaftsgipfel beraten Politiker über Handelsabkommen.",
+          "Zahlreiche Wirtschaftsführer nehmen an dem Gipfel in Tokio teil."
+        ]
+      },
+      {
+        "id": 18,
+        "word": "werben für",
+        "translation": {
+          "en": "to promote, campaign for, advocate",
+          "pl": "promować, zabiegać o, reklamować"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Requires preposition für + accusative: wirbt, warb, hat geworben.",
+          "pl": "Wymaga przyimka für + biernik (Akkusativ)."
+        },
+        "examples": [
+          "Der Kanzler warb in Asien für Investitionen in erneuerbare Energien.",
+          "Die Ministerin wirbt für eine Reform des Bildungssystems."
+        ]
+      },
+      {
+        "id": 19,
+        "word": "die Vertiefung",
+        "translation": {
+          "en": "deepening, consolidation",
+          "pl": "pogłębienie, zacieśnienie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Vertiefungen",
+        "notes": {
+          "en": "Abstract noun from vertiefen: die Vertiefung der Beziehungen.",
+          "pl": "Rzeczownik od vertiefen: pogłębienie relacji."
+        },
+        "examples": [
+          "Beide Staaten streben eine Vertiefung ihrer diplomatischen Kontakte an.",
+          "Die Konferenz dient der Vertiefung der wissenschaftlichen Kooperation."
+        ]
+      },
+      {
+        "id": 20,
+        "word": "die Leitzinsentscheidung",
+        "translation": {
+          "en": "interest rate decision",
+          "pl": "decyzja w sprawie stóp procentowych"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Leitzinsentscheidungen",
+        "notes": {
+          "en": "Key financial compound noun: Leitzins + Entscheidung.",
+          "pl": "Pojęcie z zakresu bankowości centralnej."
+        },
+        "examples": [
+          "Die Märkte reagierten nervös auf die bevorstehende Leitzinsentscheidung.",
+          "Nach der Leitzinsentscheidung hielt der Zentralbankpräsident eine Rede."
+        ]
+      },
+      {
+        "id": 21,
+        "word": "der Verbraucherpreis",
+        "translation": {
+          "en": "consumer price",
+          "pl": "cena konsumpcyjna, cena detaliczna"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Verbraucherpreise",
+        "notes": {
+          "en": "Plural Verbraucherpreise used to measure consumer inflation (CPI).",
+          "pl": "Wskaźnik cen towarów i usług konsumpcyjnych."
+        },
+        "examples": [
+          "Die Verbraucherpreise stiegen im vergangenen Monat unerwartet kräftig.",
+          "Höhere Energiekosten treiben die Verbraucherpreise weiter in die Höhe."
+        ]
+      },
+      {
+        "id": 22,
+        "word": "drängen zu",
+        "translation": {
+          "en": "to push for, urge toward",
+          "pl": "nalegać na, naciskać na"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Takes preposition zu + dative, or an infinitive clause with zu.",
+          "pl": "Wymaga przyimka zu + celownik (Dativ)."
+        },
+        "examples": [
+          "Die Opposition drängt die Regierung zu schnelleren Klimamaßnahmen.",
+          "Die Parteispitze drängte die Abgeordneten zu einem Kompromiss."
+        ]
+      },
+      {
+        "id": 23,
+        "word": "verbilligen",
+        "translation": {
+          "en": "to cheapen, reduce the price of",
+          "pl": "obniżyć cenę, potanić"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Antonym: verteuern (to make more expensive).",
+          "pl": "Antonim: verteuern (podrożyć)."
+        },
+        "examples": [
+          "Niedrigere Zinsen können Kredite für Bauherren deutlich verbilligen.",
+          "Subventionen sollen umweltfreundliche Technologien verbilligen."
+        ]
+      },
+      {
+        "id": 24,
+        "word": "das Endlager",
+        "translation": {
+          "en": "final repository, permanent nuclear waste site",
+          "pl": "składowisko ostateczne (odpadów promieniotwórczych)"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Endlager",
+        "notes": {
+          "en": "Technical term for deep geological storage of radioactive waste.",
+          "pl": "Termin oznaczający stałe składowisko odpadów radioaktywnych."
+        },
+        "examples": [
+          "Die Suche nach einem sicheren Endlager spaltet Politik und Bevölkerung.",
+          "Das Endlager muss radioaktiven Müll für Hunderttausende Jahre sichern."
+        ]
+      },
+      {
+        "id": 25,
+        "word": "der Atommüll",
+        "translation": {
+          "en": "nuclear waste, radioactive waste",
+          "pl": "odpady radioaktywne, odpady atomowe"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "",
+        "notes": {
+          "en": "Uncountable noun; formal synonym: radioaktive Abfälle.",
+          "pl": "Rzeczownik niepoliczalny."
+        },
+        "examples": [
+          "Wohin mit dem deutschen Atommüll, bleibt eine ungelöste Streitfrage.",
+          "Der Transport des hochradioaktiven Atommülls wird streng bewacht."
+        ]
+      },
+      {
+        "id": 26,
+        "word": "eingrenzen",
+        "translation": {
+          "en": "to narrow down, confine, delimit",
+          "pl": "zawęzić, ograniczyć"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Separable verb: grenzt ein, grenzte ein, hat eingegrenzt.",
+          "pl": "Czasownik rozdzielnie złożony: grenzt ein, hat eingegrenzt."
+        },
+        "examples": [
+          "Die Ermittler konnten den Kreis der Verdächtigen deutlich eingrenzen.",
+          "Experten wollen das Suchgebiet für das Endlager weiter eingrenzen."
+        ]
+      },
+      {
+        "id": 27,
+        "word": "geologisch",
+        "translation": {
+          "en": "geological",
+          "pl": "geologiczny"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Pertaining to geology or Earth's rock layers.",
+          "pl": "Związany z budową i historią skorupy ziemskiej."
+        },
+        "examples": [
+          "Die Region weist hervorragende geologische Bedingungen auf.",
+          "Eine geologische Kartierung soll die Festigkeit des Gesteins prüfen."
+        ]
+      },
+      {
+        "id": 28,
+        "word": "der Standort",
+        "translation": {
+          "en": "site, location",
+          "pl": "lokalizacja, siedziba, miejsce"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "die Standorte",
+        "notes": {
+          "en": "Crucial term in economics (Wirtschaftsstandort) and geography.",
+          "pl": "Kluczowe pojęcie gospodarcze i geograficzne."
+        },
+        "examples": [
+          "Deutschland muss als Standort für Zukunftstechnologien attraktiv bleiben.",
+          "Der endgültige Standort für das Projekt wird vom Parlament bestimmt."
+        ]
+      }
+    ]
+  },
+  "speaking": {
+    "prompt": {
+      "en": "You are my German language tutor conducting a 20-minute B1-to-C1 speaking conversation based on the Listening section of today's lesson (German news from 28 October 2026).\n\nListening reference – the 6 news stories from today's Listening section, in the same order as the articles:\n1. After counting over 60 percent of votes in Israel's election, Benjamin Netanyahu's right-wing bloc extended its lead to 56 of 120 Knesset seats but still falls short of a majority, while Gadi Eisenkot called on him to step down.\n2. Defeated Brazilian presidential challenger Flávio Bolsonaro reportedly fled the country towards the United States via Argentina, defying a Supreme Court order to hand in his passports within 24 hours.\n3. An Iraqi court sentenced seven French citizens to long prison terms (six receiving life sentences of 20 years) for affiliation with ISIS, amid defense complaints of forced confessions under torture.\n4. German Chancellor Friedrich Merz arrived in Japan to meet Prime Minister Sanae Takaichi, participate in an economic summit, and promote nuclear fusion cooperation and German investment.\n5. The US Federal Reserve announced its interest rate decision, expected to keep rates steady after a previous hike spurred by Iran-war inflation, while Donald Trump pressured for rate cuts ahead of congressional elections.\n6. Germany's radioactive waste company BGE narrowed down potential nuclear repository areas to under 5 percent of the country, excluding five federal states, with a final Bundestag decision expected by mid-century.\n\nGrammar focus to elicit: zu-infinitives after verbs, adjectives and nouns.\n\nUseful words from today's Listening articles (invite me to use them): der Vorsprung, das Patt, der Rückzug, die Ausreise, die Anordnung, nachkommen, untersagen, verhängen, das Endlager, der Standort.\n\nInstructions for the AI tutor:\n1. Start the conversation: greet me and ask whether I have listened to today's broadcast. If not, summarise story 1 in two simple German sentences and continue.\n2. You ask, I speak: one question per turn, one or two short sentences, never answer your own questions. German at B1-C1 level; English only if I am really stuck.\n3. Questions refer to the stories above, in order, covering at least four: facts first, then causes, consequences, other perspectives, my evaluation. Near the end, ask me to connect two stories.\n4. Encourage me to use infinitive clauses with 'zu' after verbs (planen, versuchen, beabsichtigen, sich weigern), adjectives (wichtig sein, schwierig sein, bereit sein) and nouns (die Absicht/Möglichkeit/Pflicht haben, eine Anordnung befolgen) to practise today's grammar.\n5. Question ideas (adapt to my answers): (story 1) Was versucht Netanjahu nach der Wahl zu erreichen? (story 2) Warum weigerte sich Bolsonaro, der richterlichen Anordnung nachzukommen und seine Pässe abzugeben? (story 3) War der Verteidiger erleichtert, keine Todesstrafe zu hören? (story 4) Welche Absicht verfolgt Kanzler Merz damit, nach Tokio zu reisen? (story 6) Ist es schwierig für die BGE, einen sicheren Standort für den Atommüll zu finden?\n6. Immediate correction: if I break today's rule (e.g. *Er weigerte sich zu abgeben den Pass.* instead of *Er weigerte sich, den Pass abzugeben.*, or *Er versucht das Land verlassen.* instead of *Er versucht, das Land zu verlassen.*), stop briefly: quote the error, give the correct sentence, explain the rule in 1 English sentence, ask me to repeat the correct sentence aloud before the next question.\n7. Also correct other significant errors briefly; note recurring mistakes for the final feedback. If my answer is very short, ask one follow-up („Warum?“).\n8. Wrap-up after ~20 minutes or when I say \"stop\": two things I did well, three key mistakes with corrections, five words to review, one German sentence to repeat aloud.\n9. Keep the tone engaging, professional, natural for an immersive German voice dialogue. Address me as „du“.",
+      "pl": "Jesteś moim nauczycielem języka niemieckiego i prowadzisz 20-minutową rozmowę na poziomie od B1 do C1 w oparciu o część Słuchanie z dzisiejszej lekcji (niemieckie wiadomości z 28 października 2026 roku).\n\nMateriał ze Słuchania – 6 tematów wiadomości z dzisiejszej części Słuchanie, w tej samej kolejności co artykuły:\n1. Po podliczeniu ponad 60 procent głosów w wyborach w Izraelu prawicowo-religijny blok Benjamina Netanjahu powiększył przewagę do 56 ze 120 mandatów w Knesecie, lecz nadal nie ma większości, a Gadi Eisenkot wezwał go do odejścia z polityki.\n2. Pokonany w wyborach prezydenckich w Brazylii Flávio Bolsonaro opuścił kraj i przez Argentynę udał się do USA, ignorując nakaz Sądu Najwyższego dotyczący zwrotu paszportów w ciągu 24 godzin.\n3. Sąd w Iraku skazał siedmiu obywateli Francji na wieloletnie kary więzienia (sześciu na dożywocie, czyli 20 lat) za przynależność do ISIS, podczas gdy obrona potępiła wymuszanie zeznań torturami.\n4. Kanclerz Niemiec Friedrich Merz przybył do Japonii na spotkanie z premier Sanae Takaichi, aby wziąć udział w szczycie gospodarczym i zacieśnić współpracę w dziedzinie fuzji jądrowej oraz inwestycji.\n5. Rezerwa Federalna USA ogłasza decyzję w sprawie stóp procentowych i według prognoz pozostawi je bez zmian po wcześniejszych podwyżkach wywołanych inflacją, mimo presji Donalda Trumpa na obniżki.\n6. Niemiecka spółka BGE zawęziła poszukiwania ostatecznego składowiska odpadów atomowych do niespełna 5 procent powierzchni kraju, wykluczając pięć landów, a ostateczna decyzja Bundestagu spodziewana jest do połowy stulecia.\n\nZagadnienie gramatyczne do ćwiczenia: Bezokolicznik z „zu” po czasownikach, przymiotnikach i rzeczownikach.\n\nPrzydatne słowa z dzisiejszych artykułów (zachęcaj mnie do ich używania): der Vorsprung, das Patt, der Rückzug, die Ausreise, die Anordnung, nachkommen, untersagen, verhängen, das Endlager, der Standort.\n\nInstrukcje dla tutora AI:\n1. Prowadź rozmowę od swojej pierwszej wiadomości: przywitaj się serdecznie i zapytaj, czy wysłuchałem dzisiejszego nagrania. Jeśli nie, streść temat 1 w dwóch prostych zdaniach po niemiecku i kontynuuj.\n2. Ty pytasz, ja mówię: jedno pytanie na turę, jedno lub dwa krótkie zdania, nigdy nie odpowiadaj na własne pytania. Niemiecki na poziomie B1-C1; angielski tylko wtedy, gdy naprawdę utknę.\n3. Pytania muszą odnosić się do tematów powyżej, po kolei, obejmując co najmniej cztery: najpierw fakty, potem przyczyny, skutki, inne perspektywy, moja ocena. Pod koniec poproś mnie o połączenie dwóch tematów.\n4. Zachęcaj mnie do budowania zdań bezokolicznikowych z „zu” po czasownikach (planen, versuchen, beabsichtigen, sich weigern), przymiotnikach (wichtig sein, schwierig sein, bereit sein) oraz rzeczownikach (die Absicht/Möglichkeit/Pflicht haben, eine Anordnung befolgen), aby przećwiczyć dzisiejszą gramatykę.\n5. Pomysły na pytania (dostosuj je do moich odpowiedzi): (temat 1) Was versucht Netanjahu nach der Wahl zu erreichen? (temat 2) Warum weigerte sich Bolsonaro, der richterlichen Anordnung nachzukommen und seine Pässe abzugeben? (temat 3) War der Verteidiger erleichtert, keine Todesstrafe zu hören? (temat 4) Welche Absicht verfolgt Kanzler Merz damit, nach Tokio zu reisen? (temat 6) Ist es schwierig für die BGE, einen sicheren Standort für den Atommüll zu finden?\n6. Natychmiastowa korekta: jeśli popełnię błąd dotyczący reguły z „zu” (np. *Er weigerte sich zu abgeben den Pass.* zamiast *Er weigerte sich, den Pass abzugeben.* lub *Er versucht das Land verlassen.* zamiast *Er versucht, das Land zu verlassen.*), zatrzymaj się krótko: zacytuj błąd, podaj poprawne zdanie, wyjaśnij zasadę w jednym zdaniu po polsku i poproś mnie o głośne powtórzenie poprawnego zdania przed kolejnym pytaniem.\n7. Poprawiaj także inne istotne błędy krótko; zanotuj powtarzające się potknięcia do podsumowania. Jeśli moja odpowiedź jest bardzo krótka, zadaj jedno pytanie uzupełniające („Warum?“).\n8. Podsumowanie po ~20 minutach lub na hasło „stop”: dwie rzeczy, które poszły mi dobrze, trzy kluczowe błędy z poprawionymi wersjami, pięć słówek do powtórzenia, jedno niemieckie zdanie do głośnego powtórzenia.\n9. Utrzymuj angażujący, profesjonalny, naturalny ton immersyjnego dialogu głosowego. Zwracaj się do mnie per „du”."
+    }
+  }
 }
 ]
