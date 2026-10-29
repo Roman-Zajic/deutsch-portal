@@ -21308,5 +21308,1411 @@
       "pl": "Jesteś moim nauczycielem języka niemieckiego i prowadzisz 20-minutową rozmowę na poziomie od B1 do C1 w oparciu o część Słuchanie z dzisiejszej lekcji (niemieckie wiadomości z 28 października 2026 roku).\n\nMateriał ze Słuchania – 6 tematów wiadomości z dzisiejszej części Słuchanie, w tej samej kolejności co artykuły:\n1. Po podliczeniu ponad 60 procent głosów w wyborach w Izraelu prawicowo-religijny blok Benjamina Netanjahu powiększył przewagę do 56 ze 120 mandatów w Knesecie, lecz nadal nie ma większości, a Gadi Eisenkot wezwał go do odejścia z polityki.\n2. Pokonany w wyborach prezydenckich w Brazylii Flávio Bolsonaro opuścił kraj i przez Argentynę udał się do USA, ignorując nakaz Sądu Najwyższego dotyczący zwrotu paszportów w ciągu 24 godzin.\n3. Sąd w Iraku skazał siedmiu obywateli Francji na wieloletnie kary więzienia (sześciu na dożywocie, czyli 20 lat) za przynależność do ISIS, podczas gdy obrona potępiła wymuszanie zeznań torturami.\n4. Kanclerz Niemiec Friedrich Merz przybył do Japonii na spotkanie z premier Sanae Takaichi, aby wziąć udział w szczycie gospodarczym i zacieśnić współpracę w dziedzinie fuzji jądrowej oraz inwestycji.\n5. Rezerwa Federalna USA ogłasza decyzję w sprawie stóp procentowych i według prognoz pozostawi je bez zmian po wcześniejszych podwyżkach wywołanych inflacją, mimo presji Donalda Trumpa na obniżki.\n6. Niemiecka spółka BGE zawęziła poszukiwania ostatecznego składowiska odpadów atomowych do niespełna 5 procent powierzchni kraju, wykluczając pięć landów, a ostateczna decyzja Bundestagu spodziewana jest do połowy stulecia.\n\nZagadnienie gramatyczne do ćwiczenia: Bezokolicznik z „zu” po czasownikach, przymiotnikach i rzeczownikach.\n\nPrzydatne słowa z dzisiejszych artykułów (zachęcaj mnie do ich używania): der Vorsprung, das Patt, der Rückzug, die Ausreise, die Anordnung, nachkommen, untersagen, verhängen, das Endlager, der Standort.\n\nInstrukcje dla tutora AI:\n1. Prowadź rozmowę od swojej pierwszej wiadomości: przywitaj się serdecznie i zapytaj, czy wysłuchałem dzisiejszego nagrania. Jeśli nie, streść temat 1 w dwóch prostych zdaniach po niemiecku i kontynuuj.\n2. Ty pytasz, ja mówię: jedno pytanie na turę, jedno lub dwa krótkie zdania, nigdy nie odpowiadaj na własne pytania. Niemiecki na poziomie B1-C1; angielski tylko wtedy, gdy naprawdę utknę.\n3. Pytania muszą odnosić się do tematów powyżej, po kolei, obejmując co najmniej cztery: najpierw fakty, potem przyczyny, skutki, inne perspektywy, moja ocena. Pod koniec poproś mnie o połączenie dwóch tematów.\n4. Zachęcaj mnie do budowania zdań bezokolicznikowych z „zu” po czasownikach (planen, versuchen, beabsichtigen, sich weigern), przymiotnikach (wichtig sein, schwierig sein, bereit sein) oraz rzeczownikach (die Absicht/Möglichkeit/Pflicht haben, eine Anordnung befolgen), aby przećwiczyć dzisiejszą gramatykę.\n5. Pomysły na pytania (dostosuj je do moich odpowiedzi): (temat 1) Was versucht Netanjahu nach der Wahl zu erreichen? (temat 2) Warum weigerte sich Bolsonaro, der richterlichen Anordnung nachzukommen und seine Pässe abzugeben? (temat 3) War der Verteidiger erleichtert, keine Todesstrafe zu hören? (temat 4) Welche Absicht verfolgt Kanzler Merz damit, nach Tokio zu reisen? (temat 6) Ist es schwierig für die BGE, einen sicheren Standort für den Atommüll zu finden?\n6. Natychmiastowa korekta: jeśli popełnię błąd dotyczący reguły z „zu” (np. *Er weigerte sich zu abgeben den Pass.* zamiast *Er weigerte sich, den Pass abzugeben.* lub *Er versucht das Land verlassen.* zamiast *Er versucht, das Land zu verlassen.*), zatrzymaj się krótko: zacytuj błąd, podaj poprawne zdanie, wyjaśnij zasadę w jednym zdaniu po polsku i poproś mnie o głośne powtórzenie poprawnego zdania przed kolejnym pytaniem.\n7. Poprawiaj także inne istotne błędy krótko; zanotuj powtarzające się potknięcia do podsumowania. Jeśli moja odpowiedź jest bardzo krótka, zadaj jedno pytanie uzupełniające („Warum?“).\n8. Podsumowanie po ~20 minutach lub na hasło „stop”: dwie rzeczy, które poszły mi dobrze, trzy kluczowe błędy z poprawionymi wersjami, pięć słówek do powtórzenia, jedno niemieckie zdanie do głośnego powtórzenia.\n9. Utrzymuj angażujący, profesjonalny, naturalny ton immersyjnego dialogu głosowego. Zwracaj się do mnie per „du”."
     }
   }
+},
+ {
+  "lesson": {
+    "id": "2026-10-29",
+    "date": "29.10.2026",
+    "day": 17,
+    "totalDays": 300,
+    "level": "B1",
+    "title": {
+      "en": "Um ... zu vs. Damit: Choosing According to Subject Identity",
+      "pl": "Um ... zu vs. Damit: Wybór w zależności od tożsamości podmiotu"
+    },
+    "subtitle": "Finalsätze: um ... zu vs. damit"
+  },
+  "grammar": {
+    "html": {
+      "en": [
+        "<h3>Expressing purpose and intention</h3><p>Final clauses express a purpose, goal, or intention. In German, you use either the conjunction <strong>damit</strong> (so that) or the infinitive construction <strong>um ... zu</strong> (in order to). The choice between them depends strictly on the subjects of the two clauses.</p>",
+        "<div class='box rule'><strong>Core rule:</strong> Use <em>um ... zu</em> + infinitive when the subject of the action is the SAME in both clauses. Use <em>damit</em> + conjugated verb when the subjects are DIFFERENT.</div>",
+        "<h3>Same subject: um ... zu</h3><p>When the person or thing performing the action is identical in both parts of the sentence, use <em>um ... zu</em>. The subject is not repeated in the <em>um ... zu</em> clause, and the verb appears at the very end as an infinitive.</p><ul><li><em><strong>Ich</strong> lerne Deutsch, um in Berlin <strong>zu arbeiten</strong>.</em> (I learn German in order to work in Berlin.)</li><li><em><strong>Wir</strong> beeilen uns, um den Zug nicht <strong>zu verpassen</strong>.</em> (We are hurrying in order not to miss the train.)</li></ul><p>If the verb has a separable prefix, the <em>zu</em> goes between the prefix and the verb stem: <em>um früh <strong>aufzustehen</strong></em>.</p>",
+        "<h3>Different subjects: damit</h3><p>When one person does something so that another person (or thing) can do something else, you must use <em>damit</em>. The <em>damit</em> clause is a regular subordinate clause: it has its own subject, and the conjugated verb goes to the end.</p><ul><li><em><strong>Ich</strong> spreche langsam, damit <strong>du</strong> mich <strong>verstehst</strong>.</em> (I speak slowly so that you understand me.)</li><li><em><strong>Der Chef</strong> ruft an, damit <strong>wir</strong> den Termin <strong>bestätigen</strong>.</em> (The boss is calling so that we confirm the appointment.)</li></ul><p><em>Note:</em> Grammatically, you can use <em>damit</em> even when the subjects are the same (e.g., <em>Ich lerne, damit ich bestehe</em>). However, using <em>um ... zu</em> is much more natural and strongly preferred by native speakers.</p>",
+        "<table><thead><tr><th>Subjects</th><th>Structure</th><th>Example</th></tr></thead><tbody><tr><td>Same</td><td>um ... zu + infinitive</td><td class='de'>Er spart Geld, <strong>um</strong> ein Auto <strong>zu</strong> kaufen.</td></tr><tr><td>Different</td><td>damit + subject + verb</td><td class='de'>Er gibt ihr Geld, <strong>damit</strong> sie ein Auto <strong>kauft</strong>.</td></tr></tbody></table>",
+        "<div class='box warn'><strong>Common mistake: mixing the structures</strong><p>✗ Ich helfe dir, <strong>um</strong> du die Prüfung <strong>zu</strong> bestehen.</p><p>✓ Ich helfe dir, <strong>damit</strong> du die Prüfung <strong>bestehst</strong>.</p><p>Never use <em>um ... zu</em> if the actors are different. Also, never put a subject pronoun inside an <em>um ... zu</em> clause.</p></div>",
+        "<div class='box tip'><strong>Memory aid: count the actors</strong><p>Before translating \"so that\" or \"in order to\", count the actors. One actor = <em>um ... zu</em>. Two actors = <em>damit</em>.</p></div>",
+        "<h3>Quick reference</h3><div class='tiles'><div class='tile'><strong>Same subject</strong><p><em>Ich lese, um zu lernen.</em></p></div><div class='tile'><strong>Different subjects</strong><p><em>Ich lese vor, damit du lernst.</em></p></div><div class='tile'><strong>Separable verbs</strong><p><em>... um früh auf<strong>zu</strong>stehen.</em></p></div><div class='tile'><strong>Verb position</strong><p>Both send the verb to the end.</p></div></div>"
+      ],
+      "pl": [
+        "<h3>Wyrażanie celu i zamiaru</h3><p>Zdania celowe wyrażają cel lub zamiar. W języku niemieckim używa się do tego spójnika <strong>damit</strong> (aby, żeby) lub konstrukcji bezokolicznikowej <strong>um ... zu</strong> (żeby, w celu). Wybór między nimi zależy ściśle od podmiotów w obu częściach zdania.</p>",
+        "<div class='box rule'><strong>Główna zasada:</strong> Użyj <em>um ... zu</em> + bezokolicznik, gdy podmiot w obu częściach zdania jest TEN SAM. Użyj <em>damit</em> + odmieniony czasownik, gdy podmioty są RÓŻNE.</div>",
+        "<h3>Ten sam podmiot: um ... zu</h3><p>Gdy osoba lub rzecz wykonująca czynność jest identyczna w obu częściach zdania, używamy <em>um ... zu</em>. Podmiotu nie powtarza się w części z <em>um ... zu</em>, a czasownik wędruje na sam koniec w formie bezokolicznika.</p><ul><li><em><strong>Ich</strong> lerne Deutsch, um in Berlin <strong>zu arbeiten</strong>.</em> (Uczę się niemieckiego, żeby pracować w Berlinie.)</li><li><em><strong>Wir</strong> beeilen uns, um den Zug nicht <strong>zu verpassen</strong>.</em> (Spieszymy się, żeby nie spóźnić się na pociąg.)</li></ul><p>Jeśli czasownik jest rozdzielnie złożony, <em>zu</em> wchodzi między przedrostek a rdzeń czasownika: <em>um früh <strong>aufzustehen</strong></em>.</p>",
+        "<h3>Różne podmioty: damit</h3><p>Gdy jedna osoba robi coś, aby inna osoba (lub rzecz) mogła zrobić coś innego, musisz użyć <em>damit</em>. Zdanie z <em>damit</em> to zwykłe zdanie poboczne: ma własny podmiot, a odmieniony czasownik wędruje na koniec.</p><ul><li><em><strong>Ich</strong> spreche langsam, damit <strong>du</strong> mich <strong>verstehst</strong>.</em> (Mówię wolno, żebyś mnie zrozumiał.)</li><li><em><strong>Der Chef</strong> ruft an, damit <strong>wir</strong> den Termin <strong>bestätigen</strong>.</em> (Szef dzwoni, żebyśmy potwierdzili termin.)</li></ul><p><em>Uwaga:</em> Z punktu widzenia gramatyki można użyć <em>damit</em> nawet wtedy, gdy podmioty są takie same (np. <em>Ich lerne, damit ich bestehe</em>). Jednak użycie <em>um ... zu</em> jest znacznie bardziej naturalne i preferowane przez rodzimych użytkowników języka.</p>",
+        "<table><thead><tr><th>Podmioty</th><th>Struktura</th><th>Przykład</th></tr></thead><tbody><tr><td>Te same</td><td>um ... zu + bezokolicznik</td><td class='de'>Er spart Geld, <strong>um</strong> ein Auto <strong>zu</strong> kaufen.</td></tr><tr><td>Różne</td><td>damit + podmiot + czasownik</td><td class='de'>Er gibt ihr Geld, <strong>damit</strong> sie ein Auto <strong>kauft</strong>.</td></tr></tbody></table>",
+        "<div class='box warn'><strong>Typowy błąd: mieszanie struktur</strong><p>✗ Ich helfe dir, <strong>um</strong> du die Prüfung <strong>zu</strong> bestehen.</p><p>✓ Ich helfe dir, <strong>damit</strong> du die Prüfung <strong>bestehst</strong>.</p><p>Nigdy nie używaj <em>um ... zu</em>, jeśli wykonawcy czynności są różni. Nigdy też nie wstawiaj zaimka osobowego (podmiotu) do konstrukcji z <em>um ... zu</em>.</p></div>",
+        "<div class='box tip'><strong>Pomoc w zapamiętaniu: policz wykonawców</strong><p>Zanim przetłumaczysz \"żeby\" lub \"aby\", policz wykonawców czynności. Jeden wykonawca = <em>um ... zu</em>. Dwóch wykonawców = <em>damit</em>.</p></div>",
+        "<h3>Szybki przegląd</h3><div class='tiles'><div class='tile'><strong>Ten sam podmiot</strong><p><em>Ich lese, um zu lernen.</em></p></div><div class='tile'><strong>Różne podmioty</strong><p><em>Ich lese vor, damit du lernst.</em></p></div><div class='tile'><strong>Czasowniki rozdzielne</strong><p><em>... um früh auf<strong>zu</strong>stehen.</em></p></div><div class='tile'><strong>Pozycja czasownika</strong><p>Obie konstrukcje wysyłają czasownik na koniec.</p></div></div>"
+      ]
+    }
+  },
+  "examples": [
+    {
+      "de": "Ich lerne Deutsch, **um** in Deutschland **zu** arbeiten.",
+      "en": "I am learning German in order to work in Germany.",
+      "pl": "Uczę się niemieckiego, żeby pracować w Niemczech.",
+      "level": "A2"
+    },
+    {
+      "de": "Er spricht lauter, **damit** alle ihn gut hören.",
+      "en": "He speaks louder so that everyone hears him well.",
+      "pl": "On mówi głośniej, żeby wszyscy go dobrze słyszeli.",
+      "level": "A2"
+    },
+    {
+      "de": "Wir fahren ans Meer, **um** uns **zu** erholen.",
+      "en": "We are going to the sea to relax.",
+      "pl": "Jedziemy nad morze, żeby odpocząć.",
+      "level": "A2"
+    },
+    {
+      "de": "Ich gebe dir das Buch, **damit** du es liest.",
+      "en": "I am giving you the book so that you read it.",
+      "pl": "Daję ci książkę, żebyś ją przeczytał.",
+      "level": "A2"
+    },
+    {
+      "de": "Sie spart Geld, **um** ein neues Auto **zu** kaufen.",
+      "en": "She is saving money in order to buy a new car.",
+      "pl": "Ona oszczędza pieniądze, żeby kupić nowy samochód.",
+      "level": "B1"
+    },
+    {
+      "de": "Der Chef ruft an, **um** den Termin **zu** bestätigen.",
+      "en": "The boss is calling to confirm the appointment.",
+      "pl": "Szef dzwoni, żeby potwierdzić termin.",
+      "level": "B1"
+    },
+    {
+      "de": "Bitte schick mir die E-Mail, **damit** ich die Daten habe.",
+      "en": "Please send me the email so that I have the data.",
+      "pl": "Proszę, wyślij mi e-mail, żebym miał te dane.",
+      "level": "B1"
+    },
+    {
+      "de": "Wir beeilen uns, **um** den Zug nicht **zu** verpassen.",
+      "en": "We are hurrying in order not to miss the train.",
+      "pl": "Spieszymy się, żeby nie spóźnić się na pociąg.",
+      "level": "B1"
+    },
+    {
+      "de": "Er erklärt die Regel noch einmal, **damit** wir keine Fehler machen.",
+      "en": "He explains the rule again so that we don't make mistakes.",
+      "pl": "On wyjaśnia zasadę jeszcze raz, żebyśmy nie robili błędów.",
+      "level": "B1"
+    },
+    {
+      "de": "Die Firma investiert in neue Software, **um** die Prozesse **zu** optimieren.",
+      "en": "The company is investing in new software to optimise the processes.",
+      "pl": "Firma inwestuje w nowe oprogramowanie, żeby zoptymalizować procesy.",
+      "level": "B1"
+    },
+    {
+      "de": "Ich habe den Bericht ausgedruckt, **damit** du ihn vor dem Meeting prüfen kannst.",
+      "en": "I printed the report so that you can check it before the meeting.",
+      "pl": "Wydrukowałem raport, żebyś mógł go sprawdzić przed spotkaniem.",
+      "level": "B2"
+    },
+    {
+      "de": "**Um** wettbewerbsfähig **zu** bleiben, müssen wir unsere Kosten senken.",
+      "en": "In order to remain competitive, we must reduce our costs.",
+      "pl": "Aby pozostać konkurencyjnymi, musimy obniżyć nasze koszty.",
+      "level": "B2"
+    },
+    {
+      "de": "Die Regierung senkt die Steuern, **damit** die Wirtschaft schneller wächst.",
+      "en": "The government is lowering taxes so that the economy grows faster.",
+      "pl": "Rząd obniża podatki, żeby gospodarka rosła szybciej.",
+      "level": "B2"
+    },
+    {
+      "de": "Sie schaltete ihr Handy aus, **um** während der Präsentation nicht gestört **zu** werden.",
+      "en": "She turned off her phone in order not to be disturbed during the presentation.",
+      "pl": "Wyłączyła telefon, żeby nie przeszkadzano jej podczas prezentacji.",
+      "level": "B2"
+    },
+    {
+      "de": "Der Manager delegiert die Aufgaben, **damit** sein Team eigenverantwortlich arbeiten kann.",
+      "en": "The manager delegates tasks so that his team can work independently.",
+      "pl": "Menedżer deleguje zadania, żeby jego zespół mógł pracować samodzielnie.",
+      "level": "B2"
+    },
+    {
+      "de": "Wir haben das System aktualisiert, **damit** die Mitarbeiter effizienter kommunizieren.",
+      "en": "We updated the system so that the employees communicate more efficiently.",
+      "pl": "Zaktualizowaliśmy system, żeby pracownicy komunikowali się wydajniej.",
+      "level": "B2"
+    },
+    {
+      "de": "**Um** die ehrgeizigen Klimaziele **zu** erreichen, bedarf es enormer Anstrengungen.",
+      "en": "In order to achieve the ambitious climate goals, enormous efforts are required.",
+      "pl": "Aby osiągnąć ambitne cele klimatyczne, potrzebne są ogromne wysiłki.",
+      "level": "C1"
+    },
+    {
+      "de": "Die Zentralbank erhöhte den Leitzins, **damit** die Inflation nicht weiter ansteigt.",
+      "en": "The central bank raised the key interest rate so that inflation does not rise further.",
+      "pl": "Bank centralny podniósł główną stopę procentową, żeby inflacja nie rosła dalej.",
+      "level": "C1"
+    },
+    {
+      "de": "Er formulierte den Vertrag bewusst vage, **damit** sich die Gegenseite nicht benachteiligt fühlte.",
+      "en": "He deliberately worded the contract vaguely so that the opposing party would not feel disadvantaged.",
+      "pl": "Celowo sformułował umowę niejasno, żeby druga strona nie czuła się pokrzywdzona.",
+      "level": "C1"
+    },
+    {
+      "de": "Das Unternehmen strukturierte die Abteilung um, **um** flexibler auf Marktveränderungen reagieren **zu** können.",
+      "en": "The company restructured the department in order to be able to react more flexibly to market changes.",
+      "pl": "Firma zrestrukturyzowała dział, żeby móc elastyczniej reagować na zmiany rynkowe.",
+      "level": "C2"
+    }
+  ],
+  "exercises": [
+    {
+      "en": "I am drinking coffee in order to wake up.",
+      "pl": "Piję kawę, żeby się obudzić.",
+      "de": "Ich trinke Kaffee, um aufzuwachen.",
+      "level": "A2"
+    },
+    {
+      "en": "He is speaking loudly so that we can hear him.",
+      "pl": "On mówi głośno, żebyśmy mogli go usłyszeć.",
+      "de": "Er spricht laut, damit wir ihn hören können.",
+      "level": "A2"
+    },
+    {
+      "en": "We are going to the supermarket in order to buy bread.",
+      "pl": "Idziemy do supermarketu, żeby kupić chleb.",
+      "de": "Wir gehen in den Supermarkt, um Brot zu kaufen.",
+      "level": "A2"
+    },
+    {
+      "en": "She is giving me the key so that I can open the door.",
+      "pl": "Ona daje mi klucz, żebym mógł otworzyć drzwi.",
+      "de": "Sie gibt mir den Schlüssel, damit ich die Tür öffnen kann.",
+      "level": "A2"
+    },
+    {
+      "en": "I am learning German in order to live in Berlin.",
+      "pl": "Uczę się niemieckiego, żeby mieszkać w Berlinie.",
+      "de": "Ich lerne Deutsch, um in Berlin zu leben.",
+      "level": "A2"
+    },
+    {
+      "en": "Please write it down so that you don't forget it.",
+      "pl": "Proszę, zapisz to, żebyś tego nie zapomniał.",
+      "de": "Bitte schreib es auf, damit du es nicht vergisst.",
+      "level": "A2"
+    },
+    {
+      "en": "They are working a lot in order to earn money.",
+      "pl": "Oni dużo pracują, żeby zarobić pieniądze.",
+      "de": "Sie arbeiten viel, um Geld zu verdienen.",
+      "level": "A2"
+    },
+    {
+      "en": "I am helping you so that you finish faster.",
+      "pl": "Pomagam ci, żebyś skończył szybciej.",
+      "de": "Ich helfe dir, damit du schneller fertig bist.",
+      "level": "A2"
+    },
+    {
+      "en": "He is taking a taxi in order to be on time.",
+      "pl": "On bierze taksówkę, żeby być na czas.",
+      "de": "Er nimmt ein Taxi, um pünktlich zu sein.",
+      "level": "A2"
+    },
+    {
+      "en": "Open the window so that fresh air comes in.",
+      "pl": "Otwórz okno, żeby wpadło świeże powietrze.",
+      "de": "Mach das Fenster auf, damit frische Luft hereinkommt.",
+      "level": "A2"
+    },
+    {
+      "en": "I am calling the client in order to clarify the details.",
+      "pl": "Dzwonię do klienta, żeby wyjaśnić szczegóły.",
+      "de": "Ich rufe den Kunden an, um die Details zu klären.",
+      "level": "B1"
+    },
+    {
+      "en": "We are sending the document today so that you can read it tomorrow.",
+      "pl": "Wysyłamy dokument dzisiaj, żebyś mógł go przeczytać jutro.",
+      "de": "Wir schicken das Dokument heute, damit du es morgen lesen kannst.",
+      "level": "B1"
+    },
+    {
+      "en": "She is doing an internship in order to gain experience.",
+      "pl": "Ona robi staż, żeby zdobyć doświadczenie.",
+      "de": "Sie macht ein Praktikum, um Erfahrung zu sammeln.",
+      "level": "B1"
+    },
+    {
+      "en": "The manager is organising a meeting so that the team can discuss the project.",
+      "pl": "Menedżer organizuje spotkanie, żeby zespół mógł omówić projekt.",
+      "de": "Der Manager organisiert eine Besprechung, damit das Team das Projekt besprechen kann.",
+      "level": "B1"
+    },
+    {
+      "en": "I am setting an alarm clock in order not to oversleep.",
+      "pl": "Nastawiam budzik, żeby nie zaspać.",
+      "de": "Ich stelle einen Wecker, um nicht zu verschlafen.",
+      "level": "B1"
+    },
+    {
+      "en": "He is explaining the software so that the colleagues understand it.",
+      "pl": "On wyjaśnia oprogramowanie, żeby koledzy je zrozumieli.",
+      "de": "Er erklärt die Software, damit die Kollegen sie verstehen.",
+      "level": "B1"
+    },
+    {
+      "en": "We are booking the flight early in order to save money.",
+      "pl": "Rezerwujemy lot wcześnie, żeby zaoszczędzić pieniądze.",
+      "de": "Wir buchen den Flug früh, um Geld zu sparen.",
+      "level": "B1"
+    },
+    {
+      "en": "I am giving you my number so that you can call me.",
+      "pl": "Daję ci mój numer, żebyś mógł do mnie zadzwonić.",
+      "de": "Ich gebe dir meine Nummer, damit du mich anrufen kannst.",
+      "level": "B1"
+    },
+    {
+      "en": "She is taking notes in order to remember everything.",
+      "pl": "Ona robi notatki, żeby wszystko zapamiętać.",
+      "de": "Sie macht Notizen, um sich an alles zu erinnern.",
+      "level": "B1"
+    },
+    {
+      "en": "We are lowering the prices so that the customers buy more.",
+      "pl": "Obniżamy ceny, żeby klienci kupowali więcej.",
+      "de": "Wir senken die Preise, damit die Kunden mehr kaufen.",
+      "level": "B1"
+    },
+    {
+      "en": "I am working overtime in order to finish the task today.",
+      "pl": "Robię nadgodziny, żeby skończyć zadanie dzisiaj.",
+      "de": "Ich mache Überstunden, um die Aufgabe heute zu beenden.",
+      "level": "B1"
+    },
+    {
+      "en": "He is turning on the light so that we can see better.",
+      "pl": "On włącza światło, żebyśmy lepiej widzieli.",
+      "de": "Er macht das Licht an, damit wir besser sehen.",
+      "level": "B1"
+    },
+    {
+      "en": "They are moving to the city in order to find a better job.",
+      "pl": "Oni przeprowadzają się do miasta, żeby znaleźć lepszą pracę.",
+      "de": "Sie ziehen in die Stadt, um einen besseren Job zu finden.",
+      "level": "B1"
+    },
+    {
+      "en": "I am sending you the link so that you can download the file.",
+      "pl": "Wysyłam ci link, żebyś mógł pobrać plik.",
+      "de": "Ich schicke dir den Link, damit du die Datei herunterladen kannst.",
+      "level": "B1"
+    },
+    {
+      "en": "We are practising every day in order to improve our German.",
+      "pl": "Ćwiczymy codziennie, żeby poprawić nasz niemiecki.",
+      "de": "Wir üben jeden Tag, um unser Deutsch zu verbessern.",
+      "level": "B1"
+    },
+    {
+      "en": "The teacher speaks clearly so that the students understand the grammar.",
+      "pl": "Nauczyciel mówi wyraźnie, żeby uczniowie zrozumieli gramatykę.",
+      "de": "Der Lehrer spricht deutlich, damit die Schüler die Grammatik verstehen.",
+      "level": "B1"
+    },
+    {
+      "en": "I am saving the document in order not to lose the data.",
+      "pl": "Zapisuję dokument, żeby nie stracić danych.",
+      "de": "Ich speichere das Dokument, um die Daten nicht zu verlieren.",
+      "level": "B1"
+    },
+    {
+      "en": "She is bringing a cake so that we can celebrate.",
+      "pl": "Ona przynosi ciasto, żebyśmy mogli świętować.",
+      "de": "Sie bringt einen Kuchen mit, damit wir feiern können.",
+      "level": "B1"
+    },
+    {
+      "en": "He is reading the news in order to stay informed.",
+      "pl": "On czyta wiadomości, żeby być na bieżąco.",
+      "de": "Er liest die Nachrichten, um informiert zu bleiben.",
+      "level": "B1"
+    },
+    {
+      "en": "I am leaving the door open so that the dog can go out.",
+      "pl": "Zostawiam drzwi otwarte, żeby pies mógł wyjść.",
+      "de": "Ich lasse die Tür offen, damit der Hund rausgehen kann.",
+      "level": "B1"
+    },
+    {
+      "en": "The company is hiring new developers in order to accelerate the project.",
+      "pl": "Firma zatrudnia nowych programistów, żeby przyspieszyć projekt.",
+      "de": "Das Unternehmen stellt neue Entwickler ein, um das Projekt zu beschleunigen.",
+      "level": "B2"
+    },
+    {
+      "en": "We are changing the password so that the system remains secure.",
+      "pl": "Zmieniamy hasło, żeby system pozostał bezpieczny.",
+      "de": "Wir ändern das Passwort, damit das System sicher bleibt.",
+      "level": "B2"
+    },
+    {
+      "en": "She is taking a language course in order to prepare for the trip.",
+      "pl": "Ona robi kurs językowy, żeby przygotować się do podróży.",
+      "de": "Sie macht einen Sprachkurs, um sich auf die Reise vorzubereiten.",
+      "level": "B2"
+    },
+    {
+      "en": "I am forwarding you the email so that you are informed.",
+      "pl": "Przekazuję ci e-mail, żebyś był poinformowany.",
+      "de": "Ich leite dir die E-Mail weiter, damit du informiert bist.",
+      "level": "B2"
+    },
+    {
+      "en": "They are investing in renewable energies in order to protect the environment.",
+      "pl": "Oni inwestują w odnawialne źródła energii, żeby chronić środowisko.",
+      "de": "Sie investieren in erneuerbare Energien, um die Umwelt zu schützen.",
+      "level": "B2"
+    },
+    {
+      "en": "The government is building new roads so that traffic flows better.",
+      "pl": "Rząd buduje nowe drogi, żeby ruch płynął lepiej.",
+      "de": "Die Regierung baut neue Straßen, damit der Verkehr besser fließt.",
+      "level": "B2"
+    },
+    {
+      "en": "I am preparing a presentation in order to convince the investors.",
+      "pl": "Przygotowuję prezentację, żeby przekonać inwestorów.",
+      "de": "Ich bereite eine Präsentation vor, um die Investoren zu überzeugen.",
+      "level": "B2"
+    },
+    {
+      "en": "We are reducing the budget so that the department does not make a loss.",
+      "pl": "Zmniejszamy budżet, żeby dział nie przyniósł straty.",
+      "de": "Wir reduzieren das Budget, damit die Abteilung keinen Verlust macht.",
+      "level": "B2"
+    },
+    {
+      "en": "He is attending the conference in order to make new contacts.",
+      "pl": "On bierze udział w konferencji, żeby nawiązać nowe kontakty.",
+      "de": "Er nimmt an der Konferenz teil, um neue Kontakte zu knüpfen.",
+      "level": "B2"
+    },
+    {
+      "en": "I am writing down the instructions so that you don't make any mistakes.",
+      "pl": "Zapisuję instrukcje, żebyś nie popełnił żadnych błędów.",
+      "de": "Ich schreibe die Anweisungen auf, damit du keine Fehler machst.",
+      "level": "B2"
+    },
+    {
+      "en": "The team is working at the weekend in order to meet the deadline.",
+      "pl": "Zespół pracuje w weekend, żeby dotrzymać terminu.",
+      "de": "Das Team arbeitet am Wochenende, um die Frist einzuhalten.",
+      "level": "B2"
+    },
+    {
+      "en": "She is speaking into the microphone so that the audience can understand her.",
+      "pl": "Ona mówi do mikrofonu, żeby publiczność mogła ją zrozumieć.",
+      "de": "Sie spricht ins Mikrofon, damit das Publikum sie verstehen kann.",
+      "level": "B2"
+    },
+    {
+      "en": "We are conducting a survey in order to find out the customers' needs.",
+      "pl": "Przeprowadzamy ankietę, żeby poznać potrzeby klientów.",
+      "de": "Wir führen eine Umfrage durch, um die Bedürfnisse der Kunden herauszufinden.",
+      "level": "B2"
+    },
+    {
+      "en": "The IT department is installing an update so that the software runs faster.",
+      "pl": "Dział IT instaluje aktualizację, żeby oprogramowanie działało szybciej.",
+      "de": "Die IT-Abteilung installiert ein Update, damit die Software schneller läuft.",
+      "level": "B2"
+    },
+    {
+      "en": "I am reading the contract carefully in order to avoid misunderstandings.",
+      "pl": "Czytam umowę uważnie, żeby uniknąć nieporozumień.",
+      "de": "Ich lese den Vertrag sorgfältig, um Missverständnisse zu vermeiden.",
+      "level": "B2"
+    },
+    {
+      "en": "He is giving her the feedback so that she can improve her work.",
+      "pl": "On daje jej informację zwrotną, żeby mogła poprawić swoją pracę.",
+      "de": "Er gibt ihr das Feedback, damit sie ihre Arbeit verbessern kann.",
+      "level": "B2"
+    },
+    {
+      "en": "The company is opening a new branch in order to conquer the market.",
+      "pl": "Firma otwiera nowy oddział, żeby podbić rynek.",
+      "de": "Das Unternehmen eröffnet eine neue Filiale, um den Markt zu erobern.",
+      "level": "B2"
+    },
+    {
+      "en": "We are locking the door so that nobody can enter the room.",
+      "pl": "Zamykamy drzwi na klucz, żeby nikt nie mógł wejść do pokoju.",
+      "de": "Wir schließen die Tür ab, damit niemand den Raum betreten kann.",
+      "level": "B2"
+    },
+    {
+      "en": "She is logging out of the system in order to protect her data.",
+      "pl": "Ona wylogowuje się z systemu, żeby chronić swoje dane.",
+      "de": "Sie loggt sich aus dem System aus, um ihre Daten zu schützen.",
+      "level": "B2"
+    },
+    {
+      "en": "I am sending the package by express so that it arrives tomorrow.",
+      "pl": "Wysyłam paczkę ekspresem, żeby dotarła jutro.",
+      "de": "Ich verschicke das Paket per Express, damit es morgen ankommt.",
+      "level": "B2"
+    },
+    {
+      "en": "They are negotiating the terms in order to reach a compromise.",
+      "pl": "Oni negocjują warunki, żeby osiągnąć kompromis.",
+      "de": "Sie verhandeln die Bedingungen, um einen Kompromiss zu erreichen.",
+      "level": "B2"
+    },
+    {
+      "en": "The manager is changing the schedule so that everyone can participate.",
+      "pl": "Menedżer zmienia harmonogram, żeby wszyscy mogli wziąć udział.",
+      "de": "Der Manager ändert den Zeitplan, damit alle teilnehmen können.",
+      "level": "B2"
+    },
+    {
+      "en": "I am using a dictionary in order to translate the text correctly.",
+      "pl": "Używam słownika, żeby poprawnie przetłumaczyć tekst.",
+      "de": "Ich benutze ein Wörterbuch, um den Text korrekt zu übersetzen.",
+      "level": "B2"
+    },
+    {
+      "en": "We are turning down the heating so that the costs don't get too high.",
+      "pl": "Zmniejszamy ogrzewanie, żeby koszty nie były zbyt wysokie.",
+      "de": "Wir drehen die Heizung herunter, damit die Kosten nicht zu hoch werden.",
+      "level": "B2"
+    },
+    {
+      "en": "He is cancelling the appointment in order to visit his sick mother.",
+      "pl": "On odwołuje spotkanie, żeby odwiedzić chorą matkę.",
+      "de": "Er sagt den Termin ab, um seine kranke Mutter zu besuchen.",
+      "level": "B2"
+    },
+    {
+      "en": "I am sharing my screen so that you can see the presentation.",
+      "pl": "Udostępniam mój ekran, żebyś mógł zobaczyć prezentację.",
+      "de": "Ich teile meinen Bildschirm, damit du die Präsentation sehen kannst.",
+      "level": "B2"
+    },
+    {
+      "en": "She is wearing a helmet in order to protect her head.",
+      "pl": "Ona nosi kask, żeby chronić głowę.",
+      "de": "Sie trägt einen Helm, um ihren Kopf zu schützen.",
+      "level": "B2"
+    },
+    {
+      "en": "The city is planting trees so that the air quality improves.",
+      "pl": "Miasto sadzi drzewa, żeby jakość powietrza się poprawiła.",
+      "de": "Die Stadt pflanzt Bäume, damit sich die Luftqualität verbessert.",
+      "level": "B2"
+    },
+    {
+      "en": "We are analysing the data in order to identify the problem.",
+      "pl": "Analizujemy dane, żeby zidentyfikować problem.",
+      "de": "Wir analysieren die Daten, um das Problem zu identifizieren.",
+      "level": "B2"
+    },
+    {
+      "en": "He is paying the invoice immediately so that there are no reminders.",
+      "pl": "On płaci fakturę natychmiast, żeby nie było upomnień.",
+      "de": "Er bezahlt die Rechnung sofort, damit es keine Mahnungen gibt.",
+      "level": "B2"
+    },
+    {
+      "en": "I am setting up a filter in order not to receive spam emails.",
+      "pl": "Konfiguruję filtr, żeby nie otrzymywać e-maili ze spamem.",
+      "de": "Ich richte einen Filter ein, um keine Spam-E-Mails zu erhalten.",
+      "level": "B2"
+    },
+    {
+      "en": "The chef is adding salt so that the soup tastes better.",
+      "pl": "Szef kuchni dodaje sól, żeby zupa smakowała lepiej.",
+      "de": "Der Koch gibt Salz hinzu, damit die Suppe besser schmeckt.",
+      "level": "B2"
+    },
+    {
+      "en": "They are boycotting the product in order to protest against the conditions.",
+      "pl": "Oni bojkotują produkt, żeby zaprotestować przeciwko warunkom.",
+      "de": "Sie boykottieren das Produkt, um gegen die Bedingungen zu protestieren.",
+      "level": "B2"
+    },
+    {
+      "en": "I am putting the milk in the fridge so that it doesn't go bad.",
+      "pl": "Wkładam mleko do lodówki, żeby się nie zepsuło.",
+      "de": "Ich stelle die Milch in den Kühlschrank, damit sie nicht schlecht wird.",
+      "level": "B2"
+    },
+    {
+      "en": "She is applying for the position in order to advance her career.",
+      "pl": "Ona ubiega się o to stanowisko, żeby rozwinąć swoją karierę.",
+      "de": "Sie bewirbt sich um die Stelle, um ihre Karriere voranzutreiben.",
+      "level": "B2"
+    },
+    {
+      "en": "We are providing the documents so that the auditor can check them.",
+      "pl": "Udostępniamy dokumenty, żeby audytor mógł je sprawdzić.",
+      "de": "Wir stellen die Unterlagen zur Verfügung, damit der Prüfer sie kontrollieren kann.",
+      "level": "B2"
+    },
+    {
+      "en": "He is wearing a suit in order to make a professional impression.",
+      "pl": "On nosi garnitur, żeby sprawić profesjonalne wrażenie.",
+      "de": "Er trägt einen Anzug, um einen professionellen Eindruck zu machen.",
+      "level": "B2"
+    },
+    {
+      "en": "The police are blocking the road so that the rescue workers can get through.",
+      "pl": "Policja blokuje drogę, żeby ratownicy mogli przejechać.",
+      "de": "Die Polizei sperrt die Straße, damit die Rettungskräfte durchkommen.",
+      "level": "B2"
+    },
+    {
+      "en": "I am deleting the old files in order to free up storage space.",
+      "pl": "Usuwam stare pliki, żeby zwolnić miejsce na dysku.",
+      "de": "Ich lösche die alten Dateien, um Speicherplatz freizumachen.",
+      "level": "B2"
+    },
+    {
+      "en": "She is speaking English with him so that he understands the instructions.",
+      "pl": "Ona rozmawia z nim po angielsku, żeby zrozumiał instrukcje.",
+      "de": "Sie spricht Englisch mit ihm, damit er die Anweisungen versteht.",
+      "level": "B2"
+    },
+    {
+      "en": "The central bank is lowering interest rates in order to stimulate the economy.",
+      "pl": "Bank centralny obniża stopy procentowe, żeby pobudzić gospodarkę.",
+      "de": "Die Zentralbank senkt die Zinsen, um die Wirtschaft anzukurbeln.",
+      "level": "C1"
+    },
+    {
+      "en": "The regulations were tightened so that such incidents do not happen again.",
+      "pl": "Przepisy zostały zaostrzone, żeby takie incydenty się nie powtórzyły.",
+      "de": "Die Vorschriften wurden verschärft, damit sich solche Vorfälle nicht wiederholen.",
+      "level": "C1"
+    },
+    {
+      "en": "The company is outsourcing production in order to remain competitive globally.",
+      "pl": "Firma zleca produkcję na zewnątrz, żeby pozostać konkurencyjną na świecie.",
+      "de": "Das Unternehmen lagert die Produktion aus, um global wettbewerbsfähig zu bleiben.",
+      "level": "C1"
+    },
+    {
+      "en": "He formulated his statement carefully so that the press would not misinterpret it.",
+      "pl": "Sformułował swoje oświadczenie ostrożnie, żeby prasa go nie zinterpretowała błędnie.",
+      "de": "Er formulierte seine Aussage vorsichtig, damit die Presse sie nicht falsch interpretiert.",
+      "level": "C1"
+    },
+    {
+      "en": "We must act proactively in order to minimise potential risks.",
+      "pl": "Musimy działać proaktywnie, żeby zminimalizować potencjalne ryzyka.",
+      "de": "Wir müssen proaktiv handeln, um potenzielle Risiken zu minimieren.",
+      "level": "C1"
+    },
+    {
+      "en": "The data is encrypted so that unauthorised persons cannot access it.",
+      "pl": "Dane są szyfrowane, żeby osoby nieupoważnione nie miały do nich dostępu.",
+      "de": "Die Daten werden verschlüsselt, damit Unbefugte nicht darauf zugreifen können.",
+      "level": "C1"
+    },
+    {
+      "en": "The politician resigned in order to avert damage from his party.",
+      "pl": "Polityk zrezygnował, żeby odwrócić szkodę od swojej partii.",
+      "de": "Der Politiker trat zurück, um Schaden von seiner Partei abzuwenden.",
+      "level": "C1"
+    },
+    {
+      "en": "The subsidies are granted so that the structural change succeeds.",
+      "pl": "Dotacje są przyznawane, żeby zmiana strukturalna się powiodła.",
+      "de": "Die Subventionen werden gewährt, damit der Strukturwandel gelingt.",
+      "level": "C1"
+    },
+    {
+      "en": "They are implementing strict compliance rules in order to prevent corruption.",
+      "pl": "Oni wdrażają surowe zasady zgodności, żeby zapobiec korupcji.",
+      "de": "Sie implementieren strenge Compliance-Regeln, um Korruption zu verhindern.",
+      "level": "C1"
+    },
+    {
+      "en": "The deadline was extended so that all applicants can submit their documents.",
+      "pl": "Termin został przedłużony, żeby wszyscy kandydaci mogli złożyć dokumenty.",
+      "de": "Die Frist wurde verlängert, damit alle Bewerber ihre Unterlagen einreichen können.",
+      "level": "C1"
+    },
+    {
+      "en": "The software is being thoroughly tested in order to eliminate all bugs before the release.",
+      "pl": "Oprogramowanie jest dokładnie testowane, żeby wyeliminować wszystkie błędy przed premierą.",
+      "de": "Die Software wird gründlich getestet, um alle Fehler vor der Veröffentlichung zu beheben.",
+      "level": "C1"
+    },
+    {
+      "en": "The contract was amended so that both parties are legally protected.",
+      "pl": "Umowa została zmieniona, żeby obie strony były prawnie chronione.",
+      "de": "Der Vertrag wurde geändert, damit beide Parteien rechtlich abgesichert sind.",
+      "level": "C1"
+    },
+    {
+      "en": "She is undergoing further training in order to expand her professional expertise.",
+      "pl": "Ona przechodzi dalsze szkolenie, żeby poszerzyć swoją wiedzę zawodową.",
+      "de": "Sie bildet sich weiter, um ihre fachliche Expertise zu erweitern.",
+      "level": "C1"
+    },
+    {
+      "en": "The fund was set up so that the victims receive financial compensation.",
+      "pl": "Fundusz został utworzony, żeby ofiary otrzymały rekompensatę finansową.",
+      "de": "Der Fonds wurde eingerichtet, damit die Opfer eine finanzielle Entschädigung erhalten.",
+      "level": "C1"
+    },
+    {
+      "en": "We are diversifying our portfolio in order not to be dependent on one market.",
+      "pl": "Dywersyfikujemy nasze portfolio, żeby nie być zależnymi od jednego rynku.",
+      "de": "Wir diversifizieren unser Portfolio, um nicht von einem Markt abhängig zu sein.",
+      "level": "C1"
+    },
+    {
+      "en": "The negotiations are being held in secret so that the public does not exert any pressure.",
+      "pl": "Negocjacje odbywają się w tajemnicy, żeby opinia publiczna nie wywierała presji.",
+      "de": "Die Verhandlungen werden geheim gehalten, damit die Öffentlichkeit keinen Druck ausübt.",
+      "level": "C1"
+    },
+    {
+      "en": "The measure was introduced in order to curb the rapid spread of the virus.",
+      "pl": "Środek został wprowadzony, żeby powstrzymać szybkie rozprzestrzenianie się wirusa.",
+      "de": "Die Maßnahme wurde eingeführt, um die rasante Ausbreitung des Virus einzudämmen.",
+      "level": "C1"
+    },
+    {
+      "en": "The guidelines are clearly defined so that there is no room for interpretation.",
+      "pl": "Wytyczne są jasno zdefiniowane, żeby nie było miejsca na interpretację.",
+      "de": "Die Richtlinien sind klar definiert, damit kein Spielraum für Interpretationen bleibt.",
+      "level": "C1"
+    },
+    {
+      "en": "He is appealing the verdict in order to prove his innocence.",
+      "pl": "On odwołuje się od wyroku, żeby udowodnić swoją niewinność.",
+      "de": "Er legt Berufung gegen das Urteil ein, um seine Unschuld zu beweisen.",
+      "level": "C1"
+    },
+    {
+      "en": "The infrastructure is being modernised so that the region remains attractive for investors.",
+      "pl": "Infrastruktura jest modernizowana, żeby region pozostał atrakcyjny dla inwestorów.",
+      "de": "Die Infrastruktur wird modernisiert, damit die Region für Investoren attraktiv bleibt.",
+      "level": "C1"
+    },
+    {
+      "en": "The board initiated a comprehensive restructuring in order to avert the impending insolvency.",
+      "pl": "Zarząd zainicjował kompleksową restrukturyzację, żeby odwrócić grożącą niewypłacalność.",
+      "de": "Der Vorstand leitete eine umfassende Restrukturierung ein, um die drohende Insolvenz abzuwenden.",
+      "level": "C2"
+    },
+    {
+      "en": "The clauses were deliberately phrased ambiguously so that the diplomats could save face.",
+      "pl": "Klauzule zostały celowo sformułowane dwuznacznie, żeby dyplomaci mogli zachować twarz.",
+      "de": "Die Klauseln wurden bewusst mehrdeutig formuliert, damit die Diplomaten ihr Gesicht wahren konnten.",
+      "level": "C2"
+    },
+    {
+      "en": "Considerable reserves must be built up in order to cushion the macroeconomic shocks.",
+      "pl": "Należy zbudować znaczne rezerwy, żeby zamortyzować wstrząsy makroekonomiczne.",
+      "de": "Es müssen beträchtliche Rücklagen gebildet werden, um die makroökonomischen Schocks abzufedern.",
+      "level": "C2"
+    },
+    {
+      "en": "The legislation was passed hastily so that the opposition could not formulate any counter-arguments.",
+      "pl": "Ustawa została uchwalona pośpiesznie, żeby opozycja nie mogła sformułować kontrargumentów.",
+      "de": "Die Gesetzgebung wurde hastig verabschiedet, damit die Opposition keine Gegenargumente formulieren konnte.",
+      "level": "C2"
+    },
+    {
+      "en": "The corporation is acquiring the start-up in order to secure the exclusive patent rights.",
+      "pl": "Korporacja przejmuje start-up, żeby zabezpieczyć wyłączne prawa patentowe.",
+      "de": "Der Konzern übernimmt das Start-up, um sich die exklusiven Patentrechte zu sichern.",
+      "level": "C2"
+    },
+    {
+      "en": "The algorithms are continuously adjusted so that the biases in the data evaluation are minimised.",
+      "pl": "Algorytmy są stale dostosowywane, żeby zminimalizować uprzedzenia w ocenie danych.",
+      "de": "Die Algorithmen werden kontinuierlich angepasst, damit die Verzerrungen in der Datenauswertung minimiert werden.",
+      "level": "C2"
+    },
+    {
+      "en": "He subjected himself to a rigorous training regime in order to meet the immense physical demands.",
+      "pl": "Poddał się rygorystycznemu reżimowi treningowemu, żeby sprostać ogromnym wymaganiym fizycznym.",
+      "de": "Er unterwarf sich einem rigorosen Trainingsregime, um den immensen physischen Anforderungen gerecht zu werden.",
+      "level": "C2"
+    },
+    {
+      "en": "The whistleblower leaked the documents anonymously so that his identity would not be revealed.",
+      "pl": "Sygnalista ujawnił dokumenty anonimowo, żeby jego tożsamość nie została odkryta.",
+      "de": "Der Whistleblower spielte die Dokumente anonym zu, damit seine Identität nicht aufgedeckt würde.",
+      "level": "C2"
+    },
+    {
+      "en": "The state is intervening in the market in order to prevent the formation of a monopoly.",
+      "pl": "Państwo interweniuje na rynku, żeby zapobiec powstaniu monopolu.",
+      "de": "Der Staat greift in den Markt ein, um die Bildung eines Monopols zu unterbinden.",
+      "level": "C2"
+    },
+    {
+      "en": "The communication strategy was refined so that the stakeholders would not lose trust in the management.",
+      "pl": "Strategia komunikacji została dopracowana, żeby interesariusze nie stracili zaufania do kierownictwa.",
+      "de": "Die Kommunikationsstrategie wurde verfeinert, damit die Stakeholder das Vertrauen in die Führung nicht verlieren."
+    }
+  ],
+  "listening": {
+    "audioUrl": "https://radiodownloaddw-a.akamaihd.net/downloads/Events/dwelle/dira/mp3/deutschkurse/nachrichten_live/E43D8C21_2.mp3",
+    "articles": [
+      {
+        "heading": "Netanjahu bei Wahl in Israel vorn – aber ohne Mehrheit",
+        "text": "Nach [[Auszählung|1]] von mehr als 60 Prozent der Stimmen bei der [[Parlamentswahl|2]] in Israel hat der rechtsreligiöse Block von Ministerpräsident Benjamin Netanjahu Medien zufolge seinen [[Vorsprung|3]] ausgebaut. Eine klare Mehrheit erreicht er aber weiterhin nicht. Laut israelischen Medienberichten kommt Netanjahus Lager nach gegenwärtigem Stand auf 56 der 120 Sitze in der Knesset und liegt damit acht Sitze vor dem gegnerischen Lager von Ex-Militärchef Gadi Eisenkot. Netanjahu forderte trotz des drohenden [[Patts|4]] die Bildung einer starken, rechtsgerichteten Regierung. Eisenkot erklärte dagegen, die Wähler hätten Netanjahu eine Absage erteilt, und rief den langjährigen Regierungschef zum [[Rückzug|5]] aus der Politik auf."
+      },
+      {
+        "heading": "Wahlverlierer Bolsonaro flieht offenbar aus Brasilien",
+        "text": "Flávio Bolsonaro hat Medienberichten zufolge nach seiner [[Niederlage|6]] bei der [[Präsidentschaftswahl|7]] in Brasilien das Land verlassen. Zuvor hatten die USA ihm und seiner Familie Visa zugesagt. Wo genau sich der rechte Senator nach seiner Wahlniederlage gegen den linken Präsidenten Luiz Inácio Lula da Silva derzeit aufhält, ist unklar – jedoch mehren sich Medienberichte über eine Ausreise des Sohnes von Ex-Präsident Jair Bolsonaro über Argentinien in die USA. Bolsonaro war einer [[Anordnung|8]] des Obersten Gerichts in Brasilien nicht nachgekommen, seine Reisepässe [[binnen|9]] 24 Stunden abzugeben. Richter Alexandre de Moraes hatte Bolsonaros Reisepässe [[ungültig|10]] machen lassen und ihm [[untersagt|11]], das Land zu verlassen."
+      },
+      {
+        "heading": "Sieben Franzosen im Irak wegen IS-Zugehörigkeit zu Haftstrafen verurteilt",
+        "text": "Wegen ihrer [[Zugehörigkeit|12]] zur Terrororganisation „Islamischer Staat“ (IS) sind sieben Franzosen im Irak zu hohen [[Haftstrafen|13]] verurteilt worden. Sechs der Männer erhielten eine lebenslange Freiheitsstrafe; gemäß dem irakischen Rechtssystem entspricht dies 20 Jahren Haft. Ein weiterer Mann muss für 15 Jahre ins Gefängnis. Einer der [[Verteidiger|14]] zeigte sich erleichtert, dass keine Todesstrafen [[verhängt|15]] wurden. Zugleich beklagte er, die Franzosen seien „ohne faires Verfahren“ verurteilt worden. Die [[Richtersprüche|16]] beruhten auf Folter und erzwungenen [[Geständnissen|17]], erklärte der Rechtsanwalt. Es handelt sich um die ersten Urteile im Fall von insgesamt 47 französischen mutmaßlichen IS-Mitgliedern, die im vergangenen Jahr aus Syrien in den Irak [[überstellt|18]] wurden."
+      },
+      {
+        "heading": "Merz im Rahmen seiner Asien-Reise in Japan",
+        "text": "Auf seiner mehrtägigen Asienreise wird Bundeskanzler Friedrich Merz an diesem Mittwoch in Japan erwartet. Der Kanzler wird in Tokio von Ministerpräsidentin Sanae Takaichi empfangen und nimmt an einem deutsch-japanischen [[Wirtschaftsgipfel|19]] teil. Am Donnerstag stehen ein Unternehmertreffen und ein sicherheitspolitischer Dialog auf dem Programm sowie der Besuch eines Technologieunternehmens für [[Kernfusion|20]]. Zum [[Auftakt|21]] seiner Asienreise hatte Merz in Singapur für Deutschland und Europa als Investitionsstandort geworben. Den Abschluss der Reise bildet ab Donnerstag Südkorea. Die Reise dient nach Regierungsangaben insbesondere der [[Vertiefung|22]] der sicherheitspolitischen und wirtschaftlichen Zusammenarbeit mit den asiatischen Staaten."
+      },
+      {
+        "heading": "US-Notenbank Fed entscheidet über weiteren Kurs der Geldpolitik",
+        "text": "Die US-Notenbank Federal Reserve (Fed) verkündet am Mittwoch ihre [[Leitzinsentscheidung|23]]. Erwartet wird, dass die Fed den Leitzins dieses Mal unverändert lässt. Fed-Chef Kevin Warsh will die Entscheidung im Anschluss auf einer Pressekonferenz [[erläutern|24]]. Auf ihrer letzten Sitzung Mitte September hatte die Fed den Leitzins erstmals seit gut drei Jahren erhöht. Sie begründete dies mit der wegen des Iran-Kriegs deutlich gestiegenen Inflation. Die [[Verbraucherpreise|25]] sind ein Hauptthema vor den Kongresswahlen am 3. November. Den Republikanern von US-Präsident Donald Trump droht laut Umfragen eine Niederlage. Trump drängt die Fed immer wieder zu [[Zinssenkungen|26]], um etwa [[Immobilienkredite|27]] zu verbilligen."
+      },
+      {
+        "heading": "Fünf Bundesländer fallen bei Endlagersuche heraus",
+        "text": "Auf der Suche nach einem [[Endlager|28]] für den deutschen [[Atommüll|29]] haben die zuständigen Fachleute die deutsche Landesfläche auf nun weniger als fünf Prozent [[eingegrenzt|30]]. In diesen Gebieten hält die Bundesgesellschaft für Endlagerung (BGE) die [[geologischen|31]] Bedingungen grundsätzlich für geeignet, wie sie in der niedersächsischen Stadt Peine mitteilte. Die Bundesländer Rheinland-Pfalz, Hessen, Berlin, Sachsen und das Saarland sind nicht mehr Teil der laufenden Suche. Das letzte Wort für die Auswahl des [[Standortes|32]] hat aber der Bundestag. Mit einer endgültigen Entscheidung über den Endlagerstandort rechnet das BGE spätestens bis Mitte dieses Jahrhunderts."
+      }
+    ],
+    "vocab": [
+      {
+        "id": 1,
+        "word": "die Auszählung",
+        "translation": {
+          "en": "counting (of votes)",
+          "pl": "liczenie (głosów)"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Auszählungen",
+        "notes": {
+          "en": "Refers to the process of counting votes after an election.",
+          "pl": "Odnosi się do procesu liczenia głosów po wyborach."
+        },
+        "examples": [
+          "Die Auszählung der Stimmen dauerte die ganze Nacht.",
+          "Nach der Auszählung stand der Gewinner fest."
+        ]
+      },
+      {
+        "id": 2,
+        "word": "die Parlamentswahl",
+        "translation": {
+          "en": "parliamentary election",
+          "pl": "wybory parlamentarne"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "die Parlamentswahlen",
+        "notes": {
+          "en": "An election to choose members of a parliament.",
+          "pl": "Wybory mające na celu wyłonienie członków parlamentu."
+        },
+        "examples": [
+          "Die nächste Parlamentswahl findet im Herbst statt.",
+          "Bei der Parlamentswahl gab es eine hohe Wahlbeteiligung."
+        ]
+      },
+      {
+        "id": 3,
+        "word": "der Vorsprung",
+        "translation": {
+          "en": "lead, advantage",
+          "pl": "przewaga"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Vorsprünge",
+        "notes": {
+          "en": "Being ahead of competitors in a race, election, or market.",
+          "pl": "Bycie przed konkurentami w wyścigu, wyborach lub na rynku."
+        },
+        "examples": [
+          "Die Partei konnte ihren Vorsprung weiter ausbauen.",
+          "Der Läufer gewann das Rennen mit großem Vorsprung."
+        ]
+      },
+      {
+        "id": 4,
+        "word": "das Patt",
+        "translation": {
+          "en": "stalemate, deadlock",
+          "pl": "pat, impas"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Patts",
+        "notes": {
+          "en": "A situation where no progress can be made or no one can win.",
+          "pl": "Sytuacja, w której nie można poczynić postępów ani nikt nie może wygrać."
+        },
+        "examples": [
+          "Die Verhandlungen endeten in einem politischen Patt.",
+          "Trotz des Patts im Parlament soll eine Regierung gebildet werden."
+        ]
+      },
+      {
+        "id": 5,
+        "word": "der Rückzug",
+        "translation": {
+          "en": "withdrawal, retreat",
+          "pl": "wycofanie się, odwrót"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Rückzüge",
+        "notes": {
+          "en": "Can refer to military retreat or stepping down from a position/politics.",
+          "pl": "Może oznaczać odwrót wojskowy lub ustąpienie ze stanowiska/z polityki."
+        },
+        "examples": [
+          "Er kündigte seinen Rückzug aus der Politik an.",
+          "Der militärische Rückzug verlief planmäßig."
+        ]
+      },
+      {
+        "id": 6,
+        "word": "die Niederlage",
+        "translation": {
+          "en": "defeat",
+          "pl": "porażka"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Niederlagen",
+        "notes": {
+          "en": "Losing a game, election, or battle.",
+          "pl": "Przegrana w grze, wyborach lub bitwie."
+        },
+        "examples": [
+          "Die Mannschaft erlitt eine schwere Niederlage.",
+          "Er musste seine Niederlage bei der Wahl eingestehen."
+        ]
+      },
+      {
+        "id": 7,
+        "word": "die Präsidentschaftswahl",
+        "translation": {
+          "en": "presidential election",
+          "pl": "wybory prezydenckie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "die Präsidentschaftswahlen",
+        "notes": {
+          "en": "An election to choose a president.",
+          "pl": "Wybory mające na celu wyłonienie prezydenta."
+        },
+        "examples": [
+          "Die Präsidentschaftswahl in den USA wird weltweit verfolgt.",
+          "Vor der Präsidentschaftswahl gab es viele Debatten."
+        ]
+      },
+      {
+        "id": 8,
+        "word": "die Anordnung",
+        "translation": {
+          "en": "order, directive",
+          "pl": "zarządzenie, nakaz"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Anordnungen",
+        "notes": {
+          "en": "An official instruction or command, often from a court or authority.",
+          "pl": "Oficjalna instrukcja lub polecenie, często od sądu lub władzy."
+        },
+        "examples": [
+          "Die Polizei handelte auf Anordnung des Gerichts.",
+          "Er weigerte sich, der Anordnung Folge zu leisten."
+        ]
+      },
+      {
+        "id": 9,
+        "word": "binnen",
+        "translation": {
+          "en": "within (a time period)",
+          "pl": "w ciągu (okresu czasu)"
+        },
+        "partOfSpeech": "Expression",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "A preposition used with the dative or genitive to indicate a time limit.",
+          "pl": "Przyimek łączący się z celownikiem lub dopełniaczem, wskazujący limit czasu."
+        },
+        "examples": [
+          "Die Rechnung muss binnen zwei Wochen bezahlt werden.",
+          "Er verließ das Land binnen 24 Stunden."
+        ]
+      },
+      {
+        "id": 10,
+        "word": "ungültig",
+        "translation": {
+          "en": "invalid",
+          "pl": "nieważny"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "B1",
+        "plural": "",
+        "notes": {
+          "en": "Not legally or officially acceptable.",
+          "pl": "Prawnie lub oficjalnie nieakceptowalny."
+        },
+        "examples": [
+          "Der Reisepass ist abgelaufen und somit ungültig.",
+          "Einige Stimmen bei der Wahl wurden für ungültig erklärt."
+        ]
+      },
+      {
+        "id": 11,
+        "word": "untersagen",
+        "translation": {
+          "en": "to prohibit, to forbid",
+          "pl": "zakazać"
+        },
+        "partOfSpeech": "Verb",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "A formal synonym for 'verbieten'.",
+          "pl": "Formalny synonim słowa 'verbieten'."
+        },
+        "examples": [
+          "Das Gericht hat ihm untersagt, das Land zu verlassen.",
+          "Das Rauchen ist in diesem Gebäude strengstens untersagt."
+        ]
+      },
+      {
+        "id": 12,
+        "word": "die Zugehörigkeit",
+        "translation": {
+          "en": "affiliation, membership",
+          "pl": "przynależność"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Zugehörigkeiten",
+        "notes": {
+          "en": "The state of belonging to a group or organisation.",
+          "pl": "Stan przynależności do grupy lub organizacji."
+        },
+        "examples": [
+          "Er wurde wegen seiner Zugehörigkeit zu einer verbotenen Gruppe verurteilt.",
+          "Die politische Zugehörigkeit spielte bei der Entscheidung keine Rolle."
+        ]
+      },
+      {
+        "id": 13,
+        "word": "die Haftstrafe",
+        "translation": {
+          "en": "prison sentence",
+          "pl": "kara pozbawienia wolności"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Haftstrafen",
+        "notes": {
+          "en": "A penalty involving time in prison.",
+          "pl": "Kara polegająca na spędzeniu czasu w więzieniu."
+        },
+        "examples": [
+          "Der Täter wurde zu einer langen Haftstrafe verurteilt.",
+          "Er verbüßt derzeit seine Haftstrafe."
+        ]
+      },
+      {
+        "id": 14,
+        "word": "der Verteidiger",
+        "translation": {
+          "en": "defence lawyer, defender",
+          "pl": "obrońca"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Verteidiger",
+        "notes": {
+          "en": "A lawyer representing the accused in court, or a defending player in sports.",
+          "pl": "Prawnik reprezentujący oskarżonego w sądzie lub obrońca w sporcie."
+        },
+        "examples": [
+          "Der Verteidiger forderte einen Freispruch für seinen Mandanten.",
+          "Die Argumente des Verteidigers waren sehr überzeugend."
+        ]
+      },
+      {
+        "id": 15,
+        "word": "verhängen",
+        "translation": {
+          "en": "to impose",
+          "pl": "nałożyć, wymierzyć (karę)"
+        },
+        "partOfSpeech": "Verb",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Used with penalties, sanctions, or curfews (e.g., eine Strafe verhängen).",
+          "pl": "Używane w kontekście kar, sankcji lub godzin policyjnych (np. eine Strafe verhängen)."
+        },
+        "examples": [
+          "Der Richter hat eine hohe Geldstrafe verhängt.",
+          "Die Regierung will neue Sanktionen verhängen."
+        ]
+      },
+      {
+        "id": 16,
+        "word": "der Richterspruch",
+        "translation": {
+          "en": "verdict, ruling",
+          "pl": "wyrok sądu"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Richtersprüche",
+        "notes": {
+          "en": "A formal decision made by a judge.",
+          "pl": "Formalna decyzja podjęta przez sędziego."
+        },
+        "examples": [
+          "Der Richterspruch wird für morgen erwartet.",
+          "Viele kritisierten den Richterspruch als zu milde."
+        ]
+      },
+      {
+        "id": 17,
+        "word": "das Geständnis",
+        "translation": {
+          "en": "confession",
+          "pl": "przyznanie się do winy"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Geständnisse",
+        "notes": {
+          "en": "Admitting to a crime or wrongdoing.",
+          "pl": "Przyznanie się do przestępstwa lub złego czynu."
+        },
+        "examples": [
+          "Der Angeklagte legte ein umfassendes Geständnis ab.",
+          "Das Geständnis wurde unter Druck erzwungen."
+        ]
+      },
+      {
+        "id": 18,
+        "word": "überstellen",
+        "translation": {
+          "en": "to transfer, to extradite",
+          "pl": "przekazać, wydalić (do innego kraju/więzienia)"
+        },
+        "partOfSpeech": "Verb",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "To hand someone over to another authority or country.",
+          "pl": "Przekazać kogoś innej władzy lub innemu państwu."
+        },
+        "examples": [
+          "Der Verdächtige wurde an die Behörden im Nachbarland überstellt.",
+          "Sie sollen in ein anderes Gefängnis überstellt werden."
+        ]
+      },
+      {
+        "id": 19,
+        "word": "der Wirtschaftsgipfel",
+        "translation": {
+          "en": "economic summit",
+          "pl": "szczyt gospodarczy"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Wirtschaftsgipfel",
+        "notes": {
+          "en": "A high-level meeting of leaders to discuss economic issues.",
+          "pl": "Spotkanie przywódców na wysokim szczeblu w celu omówienia kwestii gospodarczych."
+        },
+        "examples": [
+          "Auf dem Wirtschaftsgipfel wurden neue Handelsabkommen beschlossen.",
+          "Der Kanzler reist zum internationalen Wirtschaftsgipfel nach Tokio."
+        ]
+      },
+      {
+        "id": 20,
+        "word": "die Kernfusion",
+        "translation": {
+          "en": "nuclear fusion",
+          "pl": "fuzja jądrowa"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Kernfusionen",
+        "notes": {
+          "en": "A reaction in which atomic nuclei fuse to form a heavier nucleus, releasing energy.",
+          "pl": "Reakcja, w której jądra atomowe łączą się, tworząc cięższe jądro i uwalniając energię."
+        },
+        "examples": [
+          "Die Kernfusion gilt als mögliche saubere Energiequelle der Zukunft.",
+          "Forscher arbeiten an der Entwicklung von Reaktoren für die Kernfusion."
+        ]
+      },
+      {
+        "id": 21,
+        "word": "der Auftakt",
+        "translation": {
+          "en": "start, prelude",
+          "pl": "początek, inauguracja"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Auftakte",
+        "notes": {
+          "en": "The beginning of an event, series, or trip.",
+          "pl": "Początek wydarzenia, serii lub podróży."
+        },
+        "examples": [
+          "Zum Auftakt der Konferenz hielt die Ministerin eine Rede.",
+          "Das Konzert war ein gelungener Auftakt für das Festival."
+        ]
+      },
+      {
+        "id": 22,
+        "word": "die Vertiefung",
+        "translation": {
+          "en": "deepening",
+          "pl": "pogłębienie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Vertiefungen",
+        "notes": {
+          "en": "Making something deeper or stronger, such as relations or knowledge.",
+          "pl": "Uczynienie czegoś głębszym lub silniejszym, np. relacji lub wiedzy."
+        },
+        "examples": [
+          "Das Treffen dient der Vertiefung der bilateralen Beziehungen.",
+          "Wir streben eine Vertiefung der wirtschaftlichen Zusammenarbeit an."
+        ]
+      },
+      {
+        "id": 23,
+        "word": "die Leitzinsentscheidung",
+        "translation": {
+          "en": "key interest rate decision",
+          "pl": "decyzja w sprawie głównych stóp procentowych"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Leitzinsentscheidungen",
+        "notes": {
+          "en": "A decision by a central bank regarding its main interest rate.",
+          "pl": "Decyzja banku centralnego dotycząca jego głównej stopy procentowej."
+        },
+        "examples": [
+          "Die Märkte warten gespannt auf die Leitzinsentscheidung der Fed.",
+          "Die Leitzinsentscheidung hat große Auswirkungen auf Kredite."
+        ]
+      },
+      {
+        "id": 24,
+        "word": "erläutern",
+        "translation": {
+          "en": "to explain, to elucidate",
+          "pl": "wyjaśnić, objaśnić"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "To make something clear by describing it in more detail.",
+          "pl": "Uczynić coś jasnym poprzez bardziej szczegółowe opisanie."
+        },
+        "examples": [
+          "Der Chef wird die neuen Regeln im Meeting erläutern.",
+          "Können Sie diesen Punkt bitte noch einmal erläutern?"
+        ]
+      },
+      {
+        "id": 25,
+        "word": "der Verbraucherpreis",
+        "translation": {
+          "en": "consumer price",
+          "pl": "cena konsumpcyjna"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Verbraucherpreise",
+        "notes": {
+          "en": "The price paid by consumers for goods and services.",
+          "pl": "Cena płacona przez konsumentów za towary i usługi."
+        },
+        "examples": [
+          "Die Verbraucherpreise sind im letzten Monat stark gestiegen.",
+          "Ein Anstieg der Verbraucherpreise führt zu höherer Inflation."
+        ]
+      },
+      {
+        "id": 26,
+        "word": "die Zinssenkung",
+        "translation": {
+          "en": "interest rate cut",
+          "pl": "obniżka stóp procentowych"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Zinssenkungen",
+        "notes": {
+          "en": "A reduction in interest rates by a central bank.",
+          "pl": "Zmniejszenie stóp procentowych przez bank centralny."
+        },
+        "examples": [
+          "Die Wirtschaft hofft auf eine baldige Zinssenkung.",
+          "Zinssenkungen machen Kredite für Unternehmen billiger."
+        ]
+      },
+      {
+        "id": 27,
+        "word": "der Immobilienkredit",
+        "translation": {
+          "en": "mortgage, real estate loan",
+          "pl": "kredyt hipoteczny"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Immobilienkredite",
+        "notes": {
+          "en": "A loan taken out to purchase property.",
+          "pl": "Kredyt zaciągnięty na zakup nieruchomości."
+        },
+        "examples": [
+          "Die Zinsen für Immobilienkredite sind wieder gestiegen.",
+          "Er hat einen Immobilienkredit aufgenommen, um ein Haus zu bauen."
+        ]
+      },
+      {
+        "id": 28,
+        "word": "das Endlager",
+        "translation": {
+          "en": "final repository",
+          "pl": "składowisko odpadów (ostateczne)"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Endlager",
+        "notes": {
+          "en": "A permanent storage facility, usually for nuclear waste.",
+          "pl": "Stały obiekt do przechowywania, zazwyczaj odpadów nuklearnych."
+        },
+        "examples": [
+          "Die Suche nach einem sicheren Endlager für Atommüll ist schwierig.",
+          "In diesem Gebiet soll ein neues Endlager gebaut werden."
+        ]
+      },
+      {
+        "id": 29,
+        "word": "der Atommüll",
+        "translation": {
+          "en": "nuclear waste",
+          "pl": "odpady radioaktywne"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Radioactive waste material.",
+          "pl": "Radioaktywny materiał odpadowy."
+        },
+        "examples": [
+          "Die Entsorgung von Atommüll ist ein ungelöstes Problem.",
+          "Der Atommüll muss für Tausende von Jahren sicher gelagert werden."
+        ]
+      },
+      {
+        "id": 30,
+        "word": "eingrenzen",
+        "translation": {
+          "en": "to narrow down, to limit",
+          "pl": "zawęzić, ograniczyć"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "To reduce the number of possibilities or limit an area.",
+          "pl": "Zmniejszyć liczbę możliwości lub ograniczyć obszar."
+        },
+        "examples": [
+          "Die Polizei konnte den Kreis der Verdächtigen eingrenzen.",
+          "Die möglichen Standorte wurden auf drei Gebiete eingegrenzt."
+        ]
+      },
+      {
+        "id": 31,
+        "word": "geologisch",
+        "translation": {
+          "en": "geological",
+          "pl": "geologiczny"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Relating to the study of the earth's physical structure.",
+          "pl": "Związany z badaniem fizycznej struktury Ziemi."
+        },
+        "examples": [
+          "Die geologischen Bedingungen in dieser Region sind sehr stabil.",
+          "Vor dem Bau müssen geologische Untersuchungen durchgeführt werden."
+        ]
+      },
+      {
+        "id": 32,
+        "word": "der Standort",
+        "translation": {
+          "en": "location, site",
+          "pl": "lokalizacja, siedziba"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Standorte",
+        "notes": {
+          "en": "A place where a business, facility, or event is located.",
+          "pl": "Miejsce, w którym znajduje się firma, obiekt lub wydarzenie."
+        },
+        "examples": [
+          "Die Firma sucht nach einem neuen Standort für ihre Fabrik.",
+          "Der Standort in Berlin wird im nächsten Jahr erweitert."
+        ]
+      }
+    ]
+  },
+  "speaking": {
+    "prompt": {
+      "en": "You are my German language tutor conducting a 20-minute B1-to-C1 speaking conversation based on the Listening section of today's lesson (German news from 29 October 2026).\n\nListening reference – the six news stories from today's Listening section, in the same order as the articles:\n1. Benjamin Netanyahu has extended his lead in the Israeli parliamentary elections but still lacks a clear majority, while his opponent Gadi Eisenkot called for his withdrawal from politics.\n2. Following his defeat in the presidential election, Flávio Bolsonaro has reportedly left Brazil for the USA, defying a Supreme Court order to hand in his passports.\n3. Seven French nationals have been sentenced to long prison terms in Iraq for belonging to the IS terror group, which their defence lawyer criticised as an unfair trial based on torture.\n4. Chancellor Friedrich Merz is visiting Japan and South Korea to promote Germany as an investment location and deepen economic and security cooperation.\n5. The US Federal Reserve is expected to leave its key interest rate unchanged, despite pressure from Donald Trump to lower rates ahead of the congressional elections.\n6. Experts searching for a final repository for German nuclear waste have narrowed the suitable area down to less than five percent of the country, excluding five federal states.\n\nGrammar focus to elicit: Final clauses (purpose clauses) with 'um ... zu' and 'damit'.\n\nUseful words from today's Listening articles (invite me to use them): die Auszählung, die Niederlage, die Haftstrafe, der Auftakt, die Zinssenkung, das Endlager.\n\nInstructions for the AI tutor:\n1. Lead the conversation from your first message. Warmly greet me and ask whether I have listened to today's broadcast. If I have not, summarise story 1 in two simple German sentences and continue anyway.\n2. You ask, I speak. Ask me questions one by one – never more than one question per turn. Keep each of your turns to one or two short sentences so that I do most of the talking, and never answer your own questions. Speak German at B1–C1 level and switch to English only when I am really stuck.\n3. Every question must refer to the Listening stories above. Go through the stories in order and cover at least four of the six. For each story ask about the facts first, then causes and consequences, alternative perspectives, and my personal evaluation. Near the end, ask me to compare or connect two stories. Short personal questions are allowed only when they clearly build on the story we are discussing.\n4. Encourage me to use purpose clauses. If the subject of the action is the same, I should use 'um ... zu'. If the subjects are different, I must use 'damit'.\n5. Question ideas (adapt them to my answers and to the story we are on):\n   - (story 1) Warum fordert Netanjahu eine starke Regierung? Beginne mit „Er fordert eine starke Regierung, um ...“.\n   - (story 2) Warum hat der Richter Bolsonaros Pässe ungültig gemacht? Antworte mit „damit“.\n   - (story 4) Warum reist Friedrich Merz nach Asien? Verwende „um ... zu“.\n   - (story 5) Warum fordert Donald Trump Zinssenkungen? Antworte mit „damit“.\n   - (story 6) Warum brauchen wir ein Endlager? Beginne mit „Wir brauchen ein Endlager, um ...“.\n6. Immediate correction protocol: If I break today's rule (e.g. *Ich helfe dir, um du die Prüfung zu bestehen.* instead of *Ich helfe dir, damit du die Prüfung bestehst.*), stop briefly to:\n   - Quote the error.\n   - Provide the correct German sentence.\n   - Give a 1-sentence English explanation of the rule.\n   - Ask me to repeat the correct German sentence aloud before proceeding to the next conversational question.\n7. Also correct other significant German errors briefly, without interrupting me for minor stylistic preferences, and keep a mental note of my recurring mistakes for the final feedback.\n8. If my answer is very short or hesitant, ask one follow-up question (for example „Warum?“, „Kannst du ein Beispiel nennen?“ or „Wie siehst du das?“) before moving on.\n9. Wrap-up: after about 20 minutes, or when I say “stop”, end the conversation and give short feedback: two things I did well, the three most important mistakes (especially with today's grammar focus) with corrected sentences, and five words from today's Listening articles worth reviewing. Finish with one German sentence for me to repeat aloud.\n10. Keep the tone engaging, professional, and natural for an immersive German voice dialogue. Address me as “du”.",
+      "pl": "Jesteś moim nauczycielem języka niemieckiego i prowadzisz 20-minutową rozmowę na poziomie od B1 do C1 w oparciu o część Słuchanie z dzisiejszej lekcji (niemieckie wiadomości z 29 października 2026 roku).\n\nMateriał ze Słuchania – sześć tematów wiadomości z dzisiejszej części Słuchanie, w tej samej kolejności co artykuły:\n1. Benjamin Netanjahu powiększył swoją przewagę w izraelskich wyborach parlamentarnych, ale wciąż nie ma wyraźnej większości, podczas gdy jego przeciwnik Gadi Eisenkot wezwał go do wycofania się z polityki.\n2. Po porażce w wyborach prezydenckich Flávio Bolsonaro rzekomo opuścił Brazylię i udał się do USA, lekceważąc nakaz Sądu Najwyższego nakazujący oddanie paszportów.\n3. Siedmiu obywateli Francji zostało skazanych w Iraku na długie kary więzienia za przynależność do grupy terrorystycznej IS, co ich obrońca skrytykował jako niesprawiedliwy proces oparty na torturach.\n4. Kanclerz Friedrich Merz odwiedza Japonię i Koreę Południową, aby promować Niemcy jako miejsce inwestycji oraz pogłębiać współpracę gospodarczą i w zakresie bezpieczeństwa.\n5. Oczekuje się, że amerykańska Rezerwa Federalna pozostawi główną stopę procentową bez zmian, mimo nacisków ze strony Donalda Trumpa na obniżenie stóp przed wyborami do Kongresu.\n6. Eksperci poszukujący ostatecznego składowiska dla niemieckich odpadów nuklearnych zawęzili odpowiedni obszar do mniej niż pięciu procent kraju, wykluczając pięć krajów związkowych.\n\nZagadnienie gramatyczne do ćwiczenia: Zdania celowe ze spójnikiem 'damit' i konstrukcją 'um ... zu'.\n\nPrzydatne słowa z dzisiejszych artykułów (zachęcaj mnie do ich używania): die Auszählung, die Niederlage, die Haftstrafe, der Auftakt, die Zinssenkung, das Endlager.\n\nInstrukcje dla tutora AI:\n1. Prowadź rozmowę od swojej pierwszej wiadomości. Przywitaj się serdecznie i zapytaj, czy wysłuchałem dzisiejszego nagrania. Jeśli nie, streść temat 1 w dwóch prostych zdaniach po niemiecku i mimo to kontynuuj.\n2. Ty pytasz, ja mówię. Zadawaj pytania pojedynczo – nigdy więcej niż jedno pytanie w jednej wypowiedzi. Każda Twoja wypowiedź powinna mieć jedno lub dwa krótkie zdania, żebym to ja mówił najwięcej, i nigdy nie odpowiadaj na własne pytania. Mów po niemiecku na poziomie B1–C1 i przechodź na polski tylko wtedy, gdy naprawdę utknę.\n3. Każde pytanie musi odnosić się do tematów ze Słuchania wymienionych powyżej. Omawiaj tematy po kolei i poruszaj co najmniej cztery z sześciu. Przy każdym temacie najpierw pytaj o fakty, potem o przyczyny i skutki, alternatywne perspektywy oraz moją własną ocenę. Pod koniec poproś mnie o porównanie lub połączenie dwóch tematów. Krótkie pytania osobiste są dozwolone tylko wtedy, gdy wyraźnie wynikają z omawianego tematu.\n4. Zachęcaj mnie do używania zdań celowych. Jeśli podmiot wykonujący czynność jest ten sam, powinienem użyć 'um ... zu'. Jeśli podmioty są różne, muszę użyć 'damit'.\n5. Pomysły na pytania (dostosuj je do moich odpowiedzi i do omawianego tematu):\n   - (temat 1) Warum fordert Netanjahu eine starke Regierung? Beginne mit „Er fordert eine starke Regierung, um ...“.\n   - (temat 2) Warum hat der Richter Bolsonaros Pässe ungültig gemacht? Antworte mit „damit“.\n   - (temat 4) Warum reist Friedrich Merz nach Asien? Verwende „um ... zu“.\n   - (temat 5) Warum fordert Donald Trump Zinssenkungen? Antworte mit „damit“.\n   - (temat 6) Warum brauchen wir ein Endlager? Beginne mit „Wir brauchen ein Endlager, um ...“.\n6. Procedura natychmiastowej korekty: jeśli popełnię błąd dotyczący dzisiejszej zasady, na przykład *Ich helfe dir, um du die Prüfung zu bestehen.* zamiast *Ich helfe dir, damit du die Prüfung bestehst.*, na chwilę przerwij rozmowę i:\n   - Zacytuj błąd.\n   - Podaj poprawne zdanie po niemiecku.\n   - Wyjaśnij w jednym zdaniu po polsku obowiązującą zasadę.\n   - Poproś mnie o głośne powtórzenie poprawnego zdania przed przejściem do kolejnego pytania.\n7. Poprawiaj również inne istotne błędy językowe, ale krótko i bez przerywania mi z powodu drobnych różnic stylistycznych, a moje powtarzające się błędy zapamiętaj na podsumowanie.\n8. Jeśli moja odpowiedź jest bardzo krótka lub niepewna, zadaj jedno pytanie uzupełniające (na przykład „Warum?“, „Kannst du ein Beispiel nennen?“ lub „Wie siehst du das?“), zanim przejdziesz dalej.\n9. Podsumowanie: po około 20 minutach lub gdy powiem „stop”, zakończ rozmowę i daj krótką informację zwrotną: dwie rzeczy, które mi się udały, trzy najważniejsze błędy (zwłaszcza dotyczące dzisiejszego zagadnienia gramatycznego) z poprawionymi zdaniami oraz pięć słów z dzisiejszych artykułów ze Słuchania wartych powtórzenia. Zakończ jednym niemieckim zdaniem do głośnego powtórzenia.\n10. Zachowuj angażujący, profesjonalny i naturalny ton, odpowiedni dla immersyjnej rozmowy głosowej po niemiecku. Zwracaj się do mnie per „du”."
+    }
+  }
 }
 ]
