@@ -807,7 +807,8 @@ async function loadData() {
       level: it.level || 'C2',
       plural: it.plural || '',
       notes: it.notes || '',
-      examples: Array.isArray(it.examples) ? it.examples : []
+      examples: Array.isArray(it.examples) ? it.examples : [],
+      creationDate: it.creationDate || ''
     }));
 
     dirty = !!draft;
