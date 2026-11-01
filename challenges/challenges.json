@@ -25055,5 +25055,778 @@
       "pl": "Jesteś moim nauczycielem języka niemieckiego i prowadzisz 20-minutową rozmowę na poziomie od B1 do C1 w oparciu o część Słuchanie z dzisiejszej lekcji (niemieckie wiadomości z 31 października 2026 roku).\n\nMateriał ze Słuchania – sześć tematów wiadomości z dzisiejszej części Słuchanie, w tej samej kolejności co artykuły:\n1. Demonstracje przeciwko kosztom utrzymania, cięciom w edukacji i możliwej służbie wojskowej są planowane w ponad 30 niemieckich miastach przez inicjatywę „GenZ regelt”.\n2. Unia Europejska i Kanada utworzyły „Sojusz na rzecz Przyszłości” podczas szczytu w Montrealu, aby zmniejszyć zależność od wielkich mocarstw.\n3. Rząd USA zatwierdził dostawę 500 rakiet Patriot na Ukrainę, finansowaną przez sojuszników, w tym Niemcy, Kanadę i Norwegię.\n4. Były szef BND August Hanning został aresztowany i przebywa w areszcie śledczym pod zarzutem sprzedaży poufnych informacji, co zaniepokoiło amerykański wywiad.\n5. Papież Leon XIV oddał swój głos w wyborach uzupełniających w USA drogą korespondencyjną, co jest pierwszym znanym publicznie przypadkiem głosu urzędującego papieża.\n6. Badanie Instytutu Gospodarki Niemieckiej wykazało, że wskaźniki urodzeń w Niemczech osiągnęły w ubiegłym roku historyczne minimum, a szybki zwrot w trendzie nie jest przewidywany.\n\nZagadnienie gramatyczne do ćwiczenia: Zdania z „dass” jako dopełnienia i szyk końcowoczasowy.\n\nPrzydatne słowa z dzisiejszych artykułów (zachęcaj mnie do ich używania): die Kundgebung, die Wehrpflicht, der Zusammenschluss, die Assoziierung, der Nachschub, die Untersuchungshaft, die Briefwahl, die Trendwende.\n\nInstrukcje dla tutora AI:\n1. Prowadź rozmowę od swojej pierwszej wiadomości. Przywitaj się serdecznie i zapytaj, czy wysłuchałem dzisiejszego nagrania. Jeśli nie, streść temat 1 w dwóch prostych zdaniach po niemiecku i mimo to kontynuuj.\n2. Ty pytasz, ja mówię. Zadawaj pytania pojedynczo – nigdy więcej niż jedno pytanie w jednej wypowiedzi. Każda Twoja wypowiedź powinna mieć jedno lub dwa krótkie zdania, żebym to ja mówił najwięcej, i nigdy nie odpowiadaj na własne pytania. Mów po niemiecku na poziomie B1–C1 i przechodź na polski tylko wtedy, gdy naprawdę utknę.\n3. Każde pytanie musi odnosić się do tematów ze Słuchania wymienionych powyżej. Omawiaj tematy po kolei i poruszaj co najmniej cztery z sześciu. Przy każdym temacie najpierw pytaj o fakty, potem o przyczyny i skutki, alternatywne perspektywy oraz moją własną ocenę. Pod koniec poproś mnie o porównanie lub połączenie dwóch tematów. Krótkie pytania osobiste są dozwolone tylko wtedy, gdy wyraźnie wynikają z omawianego tematu.\n4. Zachęcaj mnie do używania zdań z „dass” jako dopełnień (np. Ich glaube, dass... / Es ist wichtig, dass...), dbając o to, by odmieniony czasownik wędrował na sam koniec zdania podrzędnego.\n5. Pomysły na pytania (dostosuj je do moich odpowiedzi):\n   - (temat 1) Was fordert die Initiative „GenZ regelt”? Beginne deine Antwort mit „Ich weiß, dass …“.\n   - (temat 3) Was hat die US-Regierung bezüglich der Ukraine beschlossen? Antworte mit „Die Nachrichten melden, dass …“.\n   - (temat 4) Warum sitzt der ehemalige BND-Chef in Untersuchungshaft? Sag es mit „Man vermutet, dass …“.\n   - (temat 6) Was zeigt die Studie des Instituts der Deutschen Wirtschaft? Antworte mit „Die Studie zeigt, dass …“.\n6. Procedura natychmiastowej korekty: jeśli popełnię błąd dotyczący dzisiejszej zasady, na przykład *Ich weiß, dass er kommt heute.* zamiast *Ich weiß, dass er heute kommt.*, na chwilę przerwij rozmowę i:\n   - Zacytuj błąd.\n   - Podaj poprawne zdanie po niemiecku.\n   - Wyjaśnij w jednym zdaniu po polsku obowiązującą zasadę.\n   - Poproś mnie o głośne powtórzenie poprawnego zdania przed przejściem do kolejnego pytania.\n7. Poprawiaj również inne istotne błędy językowe, ale krótko i bez przerywania mi z powodu drobnych różnic stylistycznych, a moje powtarzające się błędy zapamiętaj na podsumowanie.\n8. Jeśli moja odpowiedź jest bardzo krótka lub niepewna, zadaj jedno pytanie uzupełniające (na przykład „Warum?“, „Kannst du ein Beispiel nennen?“ lub „Wie siehst du das?“), zanim przejdziesz dalej.\n9. Podsumowanie: po około 20 minutach lub gdy powiem „stop”, zakończ rozmowę i daj krótką informację zwrotną: dwie rzeczy, które mi się udały, trzy najważniejsze błędy (zwłaszcza dotyczące dzisiejszego zagadnienia gramatycznego) z poprawionymi zdaniami oraz pięć słów z dzisiejszych artykułów ze Słuchania wartych powtórzenia. Zakończ jednym niemieckim zdaniem do głośnego powtórzenia.\n10. Zachowuj angażujący, profesjonalny i naturalny ton, odpowiedni dla immersyjnej rozmowy głosowej po niemiecku. Zwracaj się do mnie per „du”."
     }
   }
+},
+ {
+  "lesson": {
+    "id": "2026-11-01",
+    "date": "01.11.2026",
+    "day": 20,
+    "totalDays": 300,
+    "level": "B1",
+    "title": {
+      "en": "Indirect Yes/No Questions with ob",
+      "pl": "Pośrednie pytania o rozstrzygnięcie ze spójnikiem ob"
+    },
+    "subtitle": "Indirekte Ja/Nein-Fragen mit ob"
+  },
+  "grammar": {
+    "html": {
+      "en": [
+        "<h3>What are indirect yes/no questions?</h3><p>When you want to embed a yes/no question into another sentence, you use an indirect question. Instead of asking directly (e.g., <em>Kommt er heute?</em> - Is he coming today?), you make it dependent on a main clause (e.g., <em>Ich weiß nicht, ...</em> - I don't know...). In German, indirect yes/no questions are introduced by the subordinating conjunction <strong>ob</strong> (if/whether).</p>",
+        "<div class='box rule'><strong>Core rule:</strong> Use <strong>ob</strong> to introduce an indirect yes/no question. Because <em>ob</em> is a subordinating conjunction, it sends the <strong>finite (conjugated) verb to the very end</strong> of the clause.</div>",
+        "<h3>Word order and structure</h3><p>An indirect question is a subordinate clause. This means the word order changes compared to a direct question. The structure is: <strong>Main clause + comma + ob + subject + ... + finite verb.</strong></p><ul><li>Direct: <em>Hat er Zeit?</em> (Does he have time?)</li><li>Indirect: <em>Ich frage mich, <strong>ob</strong> er Zeit <strong>hat</strong>.</em> (I wonder whether he has time.)</li><li>Direct: <em>Regnet es morgen?</em> (Is it going to rain tomorrow?)</li><li>Indirect: <em>Weißt du, <strong>ob</strong> es morgen <strong>regnet</strong>?</em> (Do you know if it is going to rain tomorrow?)</li></ul>",
+        "<h3>When to use ob vs. wenn</h3><p>English speakers often confuse <em>ob</em> and <em>wenn</em> because both can translate to \"if\". However, their usage in German is strictly separated:</p><ul><li>Use <strong>ob</strong> ONLY for indirect yes/no questions (meaning \"whether\"). If you can substitute \"if\" with \"whether\" in English, use <em>ob</em>. (<em>Ich weiß nicht, ob er kommt.</em> = I don't know whether/if he is coming.)</li><li>Use <strong>wenn</strong> for conditions (if/in case) or temporal situations (whenever). (<em>Wenn es regnet, bleibe ich zu Hause.</em> = If it rains, I'm staying home.)</li></ul>",
+        "<table><thead><tr><th>Direct Question</th><th>Main Clause</th><th>Indirect Question (ob-clause)</th></tr></thead><tbody><tr><td class='de'>Ist das Geschäft offen?</td><td>Können Sie mir sagen,</td><td class='de'><strong>ob</strong> das Geschäft offen <strong>ist</strong>?</td></tr><tr><td class='de'>Haben wir noch Milch?</td><td>Ich habe vergessen,</td><td class='de'><strong>ob</strong> wir noch Milch <strong>haben</strong>.</td></tr><tr><td class='de'>Wird der Preis steigen?</td><td>Es ist unklar,</td><td class='de'><strong>ob</strong> der Preis steigen <strong>wird</strong>.</td></tr></tbody></table>",
+        "<div class='box warn'><strong>Common mistake: Using \"wenn\" for indirect questions</strong><p>✗ Ich weiß nicht, wenn er Zeit hat.</p><p>✓ Ich weiß nicht, <strong>ob</strong> er Zeit <strong>hat</strong>.</p><p>Always use <em>ob</em> when the clause expresses uncertainty, a question, or a doubt (whether).</p></div>",
+        "<div class='box tip'><strong>Memory aid: Ask a question!</strong><p>If the clause contains an underlying yes/no question (e.g., Is he coming? Yes or No?), then you must use <em>ob</em>.</p></div>",
+        "<h3>Quick reference</h3><div class='tiles'><div class='tile'><strong>Direct question</strong><p><em>Geht er nach Hause?</em></p></div><div class='tile'><strong>Indirect question</strong><p><em>Ich frage, ob er nach Hause geht.</em></p></div><div class='tile'><strong>Perfect tense</strong><p><em>Weißt du, ob er gegangen ist?</em></p></div><div class='tile'><strong>Modal verb</strong><p><em>Er prüft, ob er gehen kann.</em></p></div></div>"
+      ],
+      "pl": [
+        "<h3>Czym są pytania pośrednie o rozstrzygnięcie?</h3><p>Kiedy chcesz wpleść pytanie, na które odpowiedź brzmi \"tak\" lub \"nie\", w inne zdanie, używasz pytania pośredniego. Zamiast pytać bezpośrednio (np. <em>Kommt er heute?</em> - Czy on dziś przyjdzie?), uzależniasz je od zdania głównego (np. <em>Ich weiß nicht, ...</em> - Nie wiem...). W języku niemieckim pośrednie pytania rozstrzygające wprowadza się spójnikiem podrzędnym <strong>ob</strong> (czy).</p>",
+        "<div class='box rule'><strong>Główna zasada:</strong> Używaj <strong>ob</strong>, aby wprowadzić pośrednie pytanie o rozstrzygnięcie (tak/nie). Ponieważ <em>ob</em> jest spójnikiem podrzędnym, <strong>wyrzuca odmieniony czasownik na sam koniec</strong> zdania.</div>",
+        "<h3>Szyk wyrazów i struktura</h3><p>Pytanie pośrednie to zdanie podrzędne. Oznacza to, że szyk wyrazów ulega zmianie w porównaniu z pytaniem bezpośrednim. Struktura to: <strong>Zdanie główne + przecinek + ob + podmiot + ... + czasownik odmieniony.</strong></p><ul><li>Bezpośrednie: <em>Hat er Zeit?</em> (Czy on ma czas?)</li><li>Pośrednie: <em>Ich frage mich, <strong>ob</strong> er Zeit <strong>hat</strong>.</em> (Zastanawiam się, czy on ma czas.)</li><li>Bezpośrednie: <em>Regnet es morgen?</em> (Czy jutro będzie padać?)</li><li>Pośrednie: <em>Weißt du, <strong>ob</strong> es morgen <strong>regnet</strong>?</em> (Wiesz, czy jutro będzie padać?)</li></ul>",
+        "<h3>Kiedy używać ob, a kiedy wenn?</h3><p>Osoby uczące się niemieckiego często mylą <em>ob</em> i <em>wenn</em>. W języku polskim różnica jest prosta:</p><ul><li>Używaj <strong>ob</strong> (czy) TYLKO do pytań pośrednich, gdzie rozstrzygamy jakąś wątpliwość (tak lub nie). (<em>Ich weiß nicht, ob er kommt.</em> = Nie wiem, czy on przyjdzie.)</li><li>Używaj <strong>wenn</strong> (jeśli/gdy/kiedy) do warunków lub sytuacji czasowych. (<em>Wenn es regnet, bleibe ich zu Hause.</em> = Jeśli będzie padać, zostanę w domu.)</li></ul>",
+        "<table><thead><tr><th>Pytanie bezpośrednie</th><th>Zdanie główne</th><th>Pytanie pośrednie (zdanie z ob)</th></tr></thead><tbody><tr><td class='de'>Ist das Geschäft offen?</td><td>Können Sie mir sagen,</td><td class='de'><strong>ob</strong> das Geschäft offen <strong>ist</strong>?</td></tr><tr><td class='de'>Haben wir noch Milch?</td><td>Ich habe vergessen,</td><td class='de'><strong>ob</strong> wir noch Milch <strong>haben</strong>.</td></tr><tr><td class='de'>Wird der Preis steigen?</td><td>Es ist unklar,</td><td class='de'><strong>ob</strong> der Preis steigen <strong>wird</strong>.</td></tr></tbody></table>",
+        "<div class='box warn'><strong>Typowy błąd: Używanie \"wenn\" zamiast \"ob\"</strong><p>✗ Ich weiß nicht, wenn er Zeit hat.</p><p>✓ Ich weiß nicht, <strong>ob</strong> er Zeit <strong>hat</strong>.</p><p>Zawsze używaj <em>ob</em> (czy), gdy zdanie wyraża niepewność, pytanie lub wątpliwość, na które można odpowiedzieć tak/nie.</p></div>",
+        "<div class='box tip'><strong>Pomoc w zapamiętaniu: Zadaj pytanie!</strong><p>Jeśli w tle kryje się pytanie o rozstrzygnięcie (np. Czy on przyjdzie? Tak czy nie?), musisz użyć <em>ob</em>. Jeśli pod spodem kryje się warunek (jeśli), użyj <em>wenn</em>.</p></div>",
+        "<h3>Szybki przegląd</h3><div class='tiles'><div class='tile'><strong>Pytanie bezpośrednie</strong><p><em>Geht er nach Hause?</em></p></div><div class='tile'><strong>Pytanie pośrednie</strong><p><em>Ich frage, ob er nach Hause geht.</em></p></div><div class='tile'><strong>Czas Perfekt</strong><p><em>Weißt du, ob er gegangen ist?</em></p></div><div class='tile'><strong>Czasownik modalny</strong><p><em>Er prüft, ob er gehen kann.</em></p></div></div>"
+      ]
+    }
+  },
+  "examples": [
+    {
+      "de": "Ich weiß nicht, **ob** er heute **kommt**.",
+      "en": "I don't know whether he is coming today.",
+      "pl": "Nie wiem, czy on dzisiaj przyjdzie.",
+      "level": "A2"
+    },
+    {
+      "de": "Er fragt, **ob** wir Zeit **haben**.",
+      "en": "He asks whether we have time.",
+      "pl": "On pyta, czy mamy czas.",
+      "level": "A2"
+    },
+    {
+      "de": "Weißt du, **ob** der Zug pünktlich **ist**?",
+      "en": "Do you know whether the train is on time?",
+      "pl": "Wiesz, czy pociąg jest punktualny?",
+      "level": "A2"
+    },
+    {
+      "de": "Können Sie mir sagen, **ob** das Geschäft offen **ist**?",
+      "en": "Can you tell me whether the shop is open?",
+      "pl": "Może mi pan powiedzieć, czy sklep jest otwarty?",
+      "level": "A2"
+    },
+    {
+      "de": "Sie möchte wissen, **ob** es morgen **regnet**.",
+      "en": "She wants to know whether it will rain tomorrow.",
+      "pl": "Ona chce wiedzieć, czy jutro będzie padać.",
+      "level": "A2"
+    },
+    {
+      "de": "Wir sind nicht sicher, **ob** wir die Prüfung bestanden **haben**.",
+      "en": "We are not sure whether we have passed the exam.",
+      "pl": "Nie jesteśmy pewni, czy zdaliśmy egzamin.",
+      "level": "B1"
+    },
+    {
+      "de": "Darf ich fragen, **ob** Sie schon bestellt **haben**?",
+      "en": "May I ask whether you have already ordered?",
+      "pl": "Mogę zapytać, czy już pan zamówił?",
+      "level": "B1"
+    },
+    {
+      "de": "Ich habe vergessen, **ob** wir noch Milch im Kühlschrank **haben**.",
+      "en": "I have forgotten whether we still have milk in the fridge.",
+      "pl": "Zapomniałem, czy mamy jeszcze mleko w lodówce.",
+      "level": "B1"
+    },
+    {
+      "de": "Es ist noch unklar, **ob** das Konzert drinnen oder draußen **stattfindet**.",
+      "en": "It is still unclear whether the concert takes place indoors or outdoors.",
+      "pl": "Nadal nie jest jasne, czy koncert odbędzie się wewnątrz czy na zewnątrz.",
+      "level": "B1"
+    },
+    {
+      "de": "Bitte prüfen Sie, **ob** alle Dokumente vollständig **sind**.",
+      "en": "Please check whether all documents are complete.",
+      "pl": "Proszę sprawdzić, czy wszystkie dokumenty są kompletne.",
+      "level": "B1"
+    },
+    {
+      "de": "Ich überlege, **ob** ich mir ein neues Auto kaufen **soll**.",
+      "en": "I am considering whether I should buy a new car.",
+      "pl": "Zastanawiam się, czy powinienem kupić sobie nowy samochód.",
+      "level": "B1"
+    },
+    {
+      "de": "Er hat nicht gesagt, **ob** er die E-Mail schon gelesen **hat**.",
+      "en": "He didn't say whether he had already read the email.",
+      "pl": "On nie powiedział, czy już przeczytał ten e-mail.",
+      "level": "B1"
+    },
+    {
+      "de": "Die entscheidende Frage ist, **ob** das Unternehmen die neuen Richtlinien umsetzen **wird**.",
+      "en": "The crucial question is whether the company will implement the new guidelines.",
+      "pl": "Kluczowym pytaniem jest, czy firma wdroży nowe wytyczne.",
+      "level": "B2"
+    },
+    {
+      "de": "Der Manager prüft gerade, **ob** die Investition tatsächlich rentabel **ist**.",
+      "en": "The manager is currently checking whether the investment is actually profitable.",
+      "pl": "Menedżer właśnie sprawdza, czy inwestycja jest faktycznie rentowna.",
+      "level": "B2"
+    },
+    {
+      "de": "Es hängt davon ab, **ob** die Lieferung rechtzeitig im Lager **eintrifft**.",
+      "en": "It depends on whether the delivery arrives at the warehouse on time.",
+      "pl": "To zależy od tego, czy dostawa dotrze do magazynu na czas.",
+      "level": "B2"
+    },
+    {
+      "de": "Niemand kann mit Sicherheit sagen, **ob** die Wirtschaft im nächsten Quartal wachsen **wird**.",
+      "en": "No one can say with certainty whether the economy will grow in the next quarter.",
+      "pl": "Nikt nie może z całą pewnością powiedzieć, czy gospodarka wzrośnie w następnym kwartale.",
+      "level": "B2"
+    },
+    {
+      "de": "Sie diskutieren darüber, **ob** die Konferenz online oder in Präsenz abgehalten werden **soll**.",
+      "en": "They are discussing whether the conference should be held online or in person.",
+      "pl": "Omawiają, czy konferencja powinna odbyć się online, czy stacjonarnie.",
+      "level": "B2"
+    },
+    {
+      "de": "Ich zweifle daran, **ob** er die komplexe Situation vollständig verstanden **hat**.",
+      "en": "I doubt whether he has fully understood the complex situation.",
+      "pl": "Wątpię w to, czy on w pełni zrozumiał tę złożoną sytuację.",
+      "level": "B2"
+    },
+    {
+      "de": "Wir müssen noch klären, **ob** die zusätzlichen Kosten vom Budget gedeckt **sind**.",
+      "en": "We still have to clarify whether the additional costs are covered by the budget.",
+      "pl": "Musimy jeszcze wyjaśnić, czy dodatkowe koszty są pokryte z budżetu.",
+      "level": "B2"
+    },
+    {
+      "de": "Bislang bleibt völlig ungewiss, **ob** die umstrittene Gesetzesänderung im Parlament die erforderliche Mehrheit finden **wird**.",
+      "en": "So far, it remains entirely uncertain whether the controversial amendment will find the necessary majority in parliament.",
+      "pl": "Jak dotąd pozostaje całkowicie niepewne, czy kontrowersyjna poprawka do ustawy znajdzie wymaganą większość w parlamencie.",
+      "level": "C1"
+    }
+  ],
+  "exercises": [
+    {
+      "en": "I don't know whether he is coming.",
+      "pl": "Nie wiem, czy on przyjdzie.",
+      "de": "Ich weiß nicht, ob er kommt.",
+      "level": "A2"
+    },
+    {
+      "en": "He asks whether you have time.",
+      "pl": "On pyta, czy masz czas.",
+      "de": "Er fragt, ob du Zeit hast.",
+      "level": "A2"
+    },
+    {
+      "en": "Do you know whether the shop is open?",
+      "pl": "Wiesz, czy sklep jest otwarty?",
+      "de": "Weißt du, ob das Geschäft offen ist?",
+      "level": "A2"
+    },
+    {
+      "en": "She asks whether it is raining.",
+      "pl": "Ona pyta, czy pada deszcz.",
+      "de": "Sie fragt, ob es regnet.",
+      "level": "A2"
+    },
+    {
+      "en": "I don't know whether the train is arriving.",
+      "pl": "Nie wiem, czy pociąg przyjeżdża.",
+      "de": "Ich weiß nicht, ob der Zug ankommt.",
+      "level": "A2"
+    },
+    {
+      "en": "We are asking whether the food is good.",
+      "pl": "Pytamy, czy jedzenie jest dobre.",
+      "de": "Wir fragen, ob das Essen gut ist.",
+      "level": "A2"
+    },
+    {
+      "en": "Can you tell me whether she is here?",
+      "pl": "Możesz mi powiedzieć, czy ona tu jest?",
+      "de": "Kannst du mir sagen, ob sie hier ist?",
+      "level": "A2"
+    },
+    {
+      "en": "I am not sure whether he is sleeping.",
+      "pl": "Nie jestem pewien, czy on śpi.",
+      "de": "Ich bin nicht sicher, ob er schläft.",
+      "level": "A2"
+    },
+    {
+      "en": "Do you know whether we have a test today?",
+      "pl": "Wiesz, czy mamy dzisiaj test?",
+      "de": "Weißt du, ob wir heute einen Test haben?",
+      "level": "A2"
+    },
+    {
+      "en": "He asks whether the coffee is hot.",
+      "pl": "On pyta, czy kawa jest gorąca.",
+      "de": "Er fragt, ob der Kaffee heiß ist.",
+      "level": "A2"
+    },
+    {
+      "en": "She doesn't know whether the ticket is expensive.",
+      "pl": "Ona nie wie, czy bilet jest drogi.",
+      "de": "Sie weiß nicht, ob das Ticket teuer ist.",
+      "level": "A2"
+    },
+    {
+      "en": "We ask whether the child is playing.",
+      "pl": "Pytamy, czy dziecko się bawi.",
+      "de": "Wir fragen, ob das Kind spielt.",
+      "level": "A2"
+    },
+    {
+      "en": "I want to know whether you are learning German.",
+      "pl": "Chcę wiedzieć, czy uczysz się niemieckiego.",
+      "de": "Ich will wissen, ob du Deutsch lernst.",
+      "level": "A2"
+    },
+    {
+      "en": "Do you know whether he lives in Berlin?",
+      "pl": "Wiesz, czy on mieszka w Berlinie?",
+      "de": "Weißt du, ob er in Berlin wohnt?",
+      "level": "A2"
+    },
+    {
+      "en": "He asks whether the book is interesting.",
+      "pl": "On pyta, czy książka jest interesująca.",
+      "de": "Er fragt, ob das Buch interessant ist.",
+      "level": "A2"
+    },
+    {
+      "en": "I am not sure whether I locked the door.",
+      "pl": "Nie jestem pewien, czy zamknąłem drzwi na klucz.",
+      "de": "Ich bin nicht sicher, ob ich die Tür abgeschlossen habe.",
+      "level": "B1"
+    },
+    {
+      "en": "Please check whether the window is closed.",
+      "pl": "Proszę sprawdzić, czy okno jest zamknięte.",
+      "de": "Bitte prüfen Sie, ob das Fenster geschlossen ist.",
+      "level": "B1"
+    },
+    {
+      "en": "We have to ask whether the doctor has time.",
+      "pl": "Musimy zapytać, czy lekarz ma czas.",
+      "de": "Wir müssen fragen, ob der Arzt Zeit hat.",
+      "level": "B1"
+    },
+    {
+      "en": "She didn't say whether she would come to the party.",
+      "pl": "Ona nie powiedziała, czy przyjdzie na imprezę.",
+      "de": "Sie hat nicht gesagt, ob sie zur Party kommt.",
+      "level": "B1"
+    },
+    {
+      "en": "I wonder whether I should buy the laptop.",
+      "pl": "Zastanawiam się, czy powinienem kupić tego laptopa.",
+      "de": "Ich überlege, ob ich den Laptop kaufen soll.",
+      "level": "B1"
+    },
+    {
+      "en": "Do you know whether the train has a delay?",
+      "pl": "Czy wiesz, czy pociąg ma opóźnienie?",
+      "de": "Weißt du, ob der Zug Verspätung hat?",
+      "level": "B1"
+    },
+    {
+      "en": "He forgot whether he had already paid the bill.",
+      "pl": "On zapomniał, czy już zapłacił rachunek.",
+      "de": "Er hat vergessen, ob er die Rechnung schon bezahlt hat.",
+      "level": "B1"
+    },
+    {
+      "en": "We want to know whether the museum is open on Mondays.",
+      "pl": "Chcemy wiedzieć, czy muzeum jest otwarte w poniedziałki.",
+      "de": "Wir wollen wissen, ob das Museum montags geöffnet ist.",
+      "level": "B1"
+    },
+    {
+      "en": "I am asking myself whether this is a good idea.",
+      "pl": "Zastanawiam się, czy to jest dobry pomysł.",
+      "de": "Ich frage mich, ob das eine gute Idee ist.",
+      "level": "B1"
+    },
+    {
+      "en": "Can you check whether we still have enough bread?",
+      "pl": "Możesz sprawdzić, czy mamy jeszcze wystarczająco dużo chleba?",
+      "de": "Kannst du prüfen, ob wir noch genug Brot haben?",
+      "level": "B1"
+    },
+    {
+      "en": "She is not sure whether she understood the task correctly.",
+      "pl": "Ona nie jest pewna, czy dobrze zrozumiała zadanie.",
+      "de": "Sie ist nicht sicher, ob sie die Aufgabe richtig verstanden hat.",
+      "level": "B1"
+    },
+    {
+      "en": "He asks whether we can meet tomorrow.",
+      "pl": "On pyta, czy możemy się jutro spotkać.",
+      "de": "Er fragt, ob wir uns morgen treffen können.",
+      "level": "B1"
+    },
+    {
+      "en": "I don't know whether she has received my message.",
+      "pl": "Nie wiem, czy ona otrzymała moją wiadomość.",
+      "de": "Ich weiß nicht, ob sie meine Nachricht erhalten hat.",
+      "level": "B1"
+    },
+    {
+      "en": "We are considering whether we should book the flight now.",
+      "pl": "Zastanawiamy się, czy powinniśmy teraz zarezerwować lot.",
+      "de": "Wir überlegen, ob wir den Flug jetzt buchen sollen.",
+      "level": "B1"
+    },
+    {
+      "en": "Do you know whether he has passed his exam?",
+      "pl": "Wiesz, czy on zdał swój egzamin?",
+      "de": "Weißt du, ob er seine Prüfung bestanden hat?",
+      "level": "B1"
+    },
+    {
+      "en": "The boss asks whether the report is ready.",
+      "pl": "Szef pyta, czy raport jest gotowy.",
+      "de": "Der Chef fragt, ob der Bericht fertig ist.",
+      "level": "B1"
+    },
+    {
+      "en": "I have forgotten whether the meeting takes place today.",
+      "pl": "Zapomniałem, czy spotkanie odbywa się dzisiaj.",
+      "de": "Ich habe vergessen, ob die Besprechung heute stattfindet.",
+      "level": "B1"
+    },
+    {
+      "en": "She wants to know whether the hotel offers breakfast.",
+      "pl": "Ona chce wiedzieć, czy hotel oferuje śniadanie.",
+      "de": "Sie möchte wissen, ob das Hotel Frühstück anbietet.",
+      "level": "B1"
+    },
+    {
+      "en": "He doesn't know whether he should accept the job.",
+      "pl": "On nie wie, czy powinien przyjąć tę pracę.",
+      "de": "Er weiß nicht, ob er den Job annehmen soll.",
+      "level": "B1"
+    },
+    {
+      "en": "We must clarify whether the price includes tax.",
+      "pl": "Musimy wyjaśnić, czy cena zawiera podatek.",
+      "de": "Wir müssen klären, ob der Preis die Steuer enthält.",
+      "level": "B1"
+    },
+    {
+      "en": "I am not sure whether my colleague is working today.",
+      "pl": "Nie jestem pewien, czy mój kolega dzisiaj pracuje.",
+      "de": "Ich bin nicht sicher, ob mein Kollege heute arbeitet.",
+      "level": "B1"
+    },
+    {
+      "en": "Do you know whether the package has arrived?",
+      "pl": "Wiesz, czy paczka dotarła?",
+      "de": "Weißt du, ob das Paket angekommen ist?",
+      "level": "B1"
+    },
+    {
+      "en": "He asks whether I have a driver's license.",
+      "pl": "On pyta, czy mam prawo jazdy.",
+      "de": "Er fragt, ob ich einen Führerschein habe.",
+      "level": "B1"
+    },
+    {
+      "en": "She considers whether she should invite him.",
+      "pl": "Ona zastanawia się, czy powinna go zaprosić.",
+      "de": "Sie überlegt, ob sie ihn einladen soll.",
+      "level": "B1"
+    },
+    {
+      "en": "I don't know whether it will rain tomorrow.",
+      "pl": "Nie wiem, czy jutro będzie padać.",
+      "de": "Ich weiß nicht, ob es morgen regnet.",
+      "level": "B1"
+    },
+    {
+      "en": "Please let me know whether you need help.",
+      "pl": "Proszę, daj mi znać, czy potrzebujesz pomocy.",
+      "de": "Bitte sag mir Bescheid, ob du Hilfe brauchst.",
+      "level": "B1"
+    },
+    {
+      "en": "He asks whether the repair will take a long time.",
+      "pl": "On pyta, czy naprawa potrwa długo.",
+      "de": "Er fragt, ob die Reparatur lange dauert.",
+      "level": "B1"
+    },
+    {
+      "en": "We don't know whether the restaurant is fully booked.",
+      "pl": "Nie wiemy, czy restauracja jest w pełni zarezerwowana.",
+      "de": "Wir wissen nicht, ob das Restaurant ausgebucht ist.",
+      "level": "B1"
+    },
+    {
+      "en": "She asks whether she can pay by card.",
+      "pl": "Ona pyta, czy może zapłacić kartą.",
+      "de": "Sie fragt, ob sie mit Karte zahlen kann.",
+      "level": "B1"
+    },
+    {
+      "en": "I wonder whether they have found our house.",
+      "pl": "Zastanawiam się, czy znaleźli nasz dom.",
+      "de": "Ich frage mich, ob sie unser Haus gefunden haben.",
+      "level": "B1"
+    },
+    {
+      "en": "Do you know whether this bus goes to the station?",
+      "pl": "Wiesz, czy ten autobus jedzie na dworzec?",
+      "de": "Weißt du, ob dieser Bus zum Bahnhof fährt?",
+      "level": "B1"
+    },
+    {
+      "en": "He is not sure whether he has enough money with him.",
+      "pl": "On nie jest pewien, czy ma przy sobie wystarczająco dużo pieniędzy.",
+      "de": "Er ist nicht sicher, ob er genug Geld dabei hat.",
+      "level": "B1"
+    },
+    {
+      "en": "We want to know whether the concert is sold out.",
+      "pl": "Chcemy wiedzieć, czy koncert jest wyprzedany.",
+      "de": "Wir wollen wissen, ob das Konzert ausverkauft ist.",
+      "level": "B1"
+    },
+    {
+      "en": "I don't know whether she is still studying in Munich.",
+      "pl": "Nie wiem, czy ona nadal studiuje w Monachium.",
+      "de": "Ich weiß nicht, ob sie noch in München studiert.",
+      "level": "B1"
+    },
+    {
+      "en": "She asks whether the deadline has been extended.",
+      "pl": "Ona pyta, czy termin został przedłużony.",
+      "de": "Sie fragt, ob die Frist verlängert wurde.",
+      "level": "B1"
+    },
+    {
+      "en": "It depends on whether the delivery arrives on time.",
+      "pl": "To zależy od tego, czy dostawa dotrze na czas.",
+      "de": "Es hängt davon ab, ob die Lieferung pünktlich ankommt.",
+      "level": "B2"
+    },
+    {
+      "en": "We are discussing whether the project should be continued.",
+      "pl": "Dyskutujemy, czy projekt powinien być kontynuowany.",
+      "de": "Wir diskutieren darüber, ob das Projekt fortgesetzt werden soll.",
+      "level": "B2"
+    },
+    {
+      "en": "I doubt whether he has the necessary experience for this position.",
+      "pl": "Wątpię, czy on ma niezbędne doświadczenie na to stanowisko.",
+      "de": "Ich bezweifle, ob er die nötige Erfahrung für diese Position hat.",
+      "level": "B2"
+    },
+    {
+      "en": "The question is whether the company will survive the crisis.",
+      "pl": "Pytanie brzmi, czy firma przetrwa kryzys.",
+      "de": "Die Frage ist, ob das Unternehmen die Krise überleben wird.",
+      "level": "B2"
+    },
+    {
+      "en": "It is still unclear whether the new regulations apply to everyone.",
+      "pl": "Nadal nie jest jasne, czy nowe przepisy dotyczą wszystkich.",
+      "de": "Es ist noch unklar, ob die neuen Vorschriften für alle gelten.",
+      "level": "B2"
+    },
+    {
+      "en": "He is currently checking whether the investment is really profitable.",
+      "pl": "On obecnie sprawdza, czy inwestycja jest naprawdę rentowna.",
+      "de": "Er prüft gerade, ob die Investition wirklich rentabel ist.",
+      "level": "B2"
+    },
+    {
+      "en": "We must find out whether the software is compatible with our system.",
+      "pl": "Musimy się dowiedzieć, czy oprogramowanie jest kompatybilne z naszym systemem.",
+      "de": "Wir müssen herausfinden, ob die Software mit unserem System kompatibel ist.",
+      "level": "B2"
+    },
+    {
+      "en": "She didn't reveal whether she would accept the offer.",
+      "pl": "Ona nie zdradziła, czy przyjmie ofertę.",
+      "de": "Sie hat nicht verraten, ob sie das Angebot annehmen wird.",
+      "level": "B2"
+    },
+    {
+      "en": "The manager asks whether the costs are covered by the budget.",
+      "pl": "Menedżer pyta, czy koszty są pokryte z budżetu.",
+      "de": "Der Manager fragt, ob die Kosten vom Budget gedeckt sind.",
+      "level": "B2"
+    },
+    {
+      "en": "I am not sure whether the participants have received the documents.",
+      "pl": "Nie jestem pewien, czy uczestnicy otrzymali dokumenty.",
+      "de": "Ich bin nicht sicher, ob die Teilnehmer die Unterlagen erhalten haben.",
+      "level": "B2"
+    },
+    {
+      "en": "It remains to be seen whether the strategy will be successful.",
+      "pl": "Pozostaje zobaczyć, czy strategia odniesie sukces.",
+      "de": "Es bleibt abzuwarten, ob die Strategie erfolgreich sein wird.",
+      "level": "B2"
+    },
+    {
+      "en": "We are considering whether we should outsource this process.",
+      "pl": "Zastanawiamy się, czy powinniśmy zlecić ten proces na zewnątrz.",
+      "de": "Wir überlegen, ob wir diesen Prozess auslagern sollten.",
+      "level": "B2"
+    },
+    {
+      "en": "The committee will decide whether the application is approved.",
+      "pl": "Komisja zadecyduje, czy wniosek zostanie zatwierdzony.",
+      "de": "Der Ausschuss wird entscheiden, ob der Antrag genehmigt wird.",
+      "level": "B2"
+    },
+    {
+      "en": "I ask myself whether the changes are really necessary.",
+      "pl": "Zastanawiam się, czy te zmiany są naprawdę konieczne.",
+      "de": "Ich frage mich, ob die Änderungen wirklich notwendig sind.",
+      "level": "B2"
+    },
+    {
+      "en": "Please confirm whether you can attend the conference.",
+      "pl": "Proszę potwierdzić, czy może pan wziąć udział w konferencji.",
+      "de": "Bitte bestätigen Sie, ob Sie an der Konferenz teilnehmen können.",
+      "level": "B2"
+    },
+    {
+      "en": "He doubts whether the team can meet the tight deadline.",
+      "pl": "On wątpi, czy zespół zdoła dotrzymać napiętego terminu.",
+      "de": "Er bezweifelt, ob das Team die knappe Frist einhalten kann.",
+      "level": "B2"
+    },
+    {
+      "en": "We need to evaluate whether the marketing campaign was effective.",
+      "pl": "Musimy ocenić, czy kampania marketingowa była skuteczna.",
+      "de": "Wir müssen evaluieren, ob die Marketingkampagne effektiv war.",
+      "level": "B2"
+    },
+    {
+      "en": "It is questionable whether this approach will bring the desired results.",
+      "pl": "Jest wątpliwe, czy to podejście przyniesie pożądane rezultaty.",
+      "de": "Es ist fraglich, ob dieser Ansatz die gewünschten Ergebnisse bringen wird.",
+      "level": "B2"
+    },
+    {
+      "en": "She investigates whether the data has been manipulated.",
+      "pl": "Ona bada, czy dane zostały zmanipulowane.",
+      "de": "Sie untersucht, ob die Daten manipuliert worden sind.",
+      "level": "B2"
+    },
+    {
+      "en": "The customer wants to know whether the contract can be cancelled.",
+      "pl": "Klient chce wiedzieć, czy umowa może zostać anulowana.",
+      "de": "Der Kunde möchte wissen, ob der Vertrag storniert werden kann.",
+      "level": "B2"
+    },
+    {
+      "en": "I don't know whether the manager has already been informed about the incident.",
+      "pl": "Nie wiem, czy menedżer został już poinformowany o tym incydencie.",
+      "de": "Ich weiß nicht, ob der Manager bereits über den Vorfall informiert wurde.",
+      "level": "B2"
+    },
+    {
+      "en": "We have to clarify whether the insurance covers the damage.",
+      "pl": "Musimy wyjaśnić, czy ubezpieczenie pokrywa te szkody.",
+      "de": "Wir müssen klären, ob die Versicherung den Schaden abdeckt.",
+      "level": "B2"
+    },
+    {
+      "en": "He considers whether he should apply for the management position.",
+      "pl": "On rozważa, czy powinien ubiegać się o stanowisko kierownicze.",
+      "de": "Er überlegt, ob er sich für die Führungsposition bewerben sollte.",
+      "level": "B2"
+    },
+    {
+      "en": "It is not yet certain whether the event will take place next year.",
+      "pl": "Nie jest jeszcze pewne, czy wydarzenie odbędzie się w przyszłym roku.",
+      "de": "Es steht noch nicht fest, ob die Veranstaltung nächstes Jahr stattfindet.",
+      "level": "B2"
+    },
+    {
+      "en": "She wonders whether her effort will be rewarded in the end.",
+      "pl": "Ona zastanawia się, czy jej wysiłek zostanie na końcu nagrodzony.",
+      "de": "Sie fragt sich, ob ihr Einsatz am Ende belohnt wird.",
+      "level": "B2"
+    },
+    {
+      "en": "It remains entirely uncertain whether the controversial amendment will find a majority in parliament.",
+      "pl": "Jak dotąd pozostaje całkowicie niepewne, czy kontrowersyjna poprawka do ustawy znajdzie większość w parlamencie.",
+      "de": "Es bleibt völlig ungewiss, ob die umstrittene Gesetzesänderung im Parlament eine Mehrheit finden wird.",
+      "level": "C1"
+    },
+    {
+      "en": "The board is currently debating whether the merger should be executed under these conditions.",
+      "pl": "Zarząd obecnie debatuje, czy fuzja powinna zostać przeprowadzona na tych warunkach.",
+      "de": "Der Vorstand debattiert derzeit darüber, ob die Fusion unter diesen Bedingungen vollzogen werden sollte.",
+      "level": "C1"
+    },
+    {
+      "en": "One must critically question whether the implemented measures are proportionate.",
+      "pl": "Trzeba krytycznie zadać pytanie, czy wdrożone środki są proporcjonalne.",
+      "de": "Man muss kritisch hinterfragen, ob die ergriffenen Maßnahmen verhältnismäßig sind.",
+      "level": "C1"
+    },
+    {
+      "en": "It is highly doubtful whether the negotiations will yield a tangible result.",
+      "pl": "Jest wysoce wątpliwe, czy negocjacje przyniosą wymierny rezultat.",
+      "de": "Es ist höchst zweifelhaft, ob die Verhandlungen ein greifbares Ergebnis liefern werden.",
+      "level": "C1"
+    },
+    {
+      "en": "The auditor is examining whether the internal controls were circumvented systematically.",
+      "pl": "Audytor bada, czy wewnętrzne kontrole były systematycznie omijane.",
+      "de": "Der Prüfer untersucht, ob die internen Kontrollen systematisch umgangen wurden.",
+      "level": "C1"
+    },
+    {
+      "en": "We must verify whether the supplier meets all compliance guidelines without exception.",
+      "pl": "Musimy zweryfikować, czy dostawca bez wyjątku spełnia wszystkie wytyczne dotyczące zgodności.",
+      "de": "Wir müssen überprüfen, ob der Lieferant alle Compliance-Richtlinien ausnahmslos erfüllt.",
+      "level": "C1"
+    },
+    {
+      "en": "It has not yet been clarified whether the legal framework permits such an intervention.",
+      "pl": "Nie zostało jeszcze wyjaśnione, czy ramy prawne pozwalają na taką interwencję.",
+      "de": "Es ist noch nicht geklärt worden, ob der rechtliche Rahmen einen derartigen Eingriff zulässt.",
+      "level": "C1"
+    },
+    {
+      "en": "The study investigates whether the long-term consequences of the pandemic have been underestimated.",
+      "pl": "Badanie sprawdza, czy długoterminowe konsekwencje pandemii zostały zbagatelizowane.",
+      "de": "Die Studie untersucht, ob die langfristigen Folgen der Pandemie unterschätzt worden sind.",
+      "level": "C1"
+    },
+    {
+      "en": "It is debatable whether the central bank will intervene in the currency market again.",
+      "pl": "Jest to kwestią dyskusyjną, czy bank centralny ponownie zainterweniuje na rynku walutowym.",
+      "de": "Es ist umstritten, ob die Zentralbank erneut am Devisenmarkt intervenieren wird.",
+      "level": "C1"
+    },
+    {
+      "en": "He expressed his doubts as to whether the ambitious climate goals can realistically be achieved.",
+      "pl": "Wyraził swoje wątpliwości co do tego, czy ambitne cele klimatyczne mogą zostać realistycznie osiągnięte.",
+      "de": "Er äußerte seine Zweifel daran, ob die ehrgeizigen Klimaziele realistisch erreicht werden können.",
+      "level": "C1"
+    },
+    {
+      "en": "The commission is reviewing whether the subsidies were allocated according to the regulations.",
+      "pl": "Komisja sprawdza, czy dotacje zostały przyznane zgodnie z przepisami.",
+      "de": "Die Kommission überprüft, ob die Subventionen vorschriftsmäßig vergeben wurden.",
+      "level": "C1"
+    },
+    {
+      "en": "It remains to be assessed whether the restructuring will actually lead to an increase in efficiency.",
+      "pl": "Pozostaje jeszcze do oceny, czy restrukturyzacja faktycznie doprowadzi do wzrostu wydajności.",
+      "de": "Es bleibt zu bewerten, ob die Umstrukturierung tatsächlich zu einer Effizienzsteigerung führen wird.",
+      "level": "C1"
+    },
+    {
+      "en": "I question whether the current business model is sustainable in the long run.",
+      "pl": "Kwestionuję to, czy obecny model biznesowy jest na dłuższą metę zrównoważony.",
+      "de": "Ich stelle infrage, ob das aktuelle Geschäftsmodell auf lange Sicht tragfähig ist.",
+      "level": "C1"
+    },
+    {
+      "en": "The investigation aims to determine whether the management acted with gross negligence.",
+      "pl": "Dochodzenie ma na celu ustalenie, czy kierownictwo działało z rażącym niedbalstwem.",
+      "de": "Die Untersuchung soll ermitteln, ob das Management grob fahrlässig gehandelt hat.",
+      "level": "C1"
+    },
+    {
+      "en": "It depends entirely on whether the international community can reach a consensus.",
+      "pl": "Zależy to całkowicie od tego, czy społeczność międzynarodowa zdoła osiągnąć konsensus.",
+      "de": "Es hängt gänzlich davon ab, ob die internationale Gemeinschaft einen Konsens erzielen kann.",
+      "level": "C1"
+    },
+    {
+      "en": "It is highly contentious whether the unprecedented monetary policy shift will avert a recession.",
+      "pl": "Jest wielce kontrowersyjne, czy ten bezprecedensowy zwrot w polityce monetarnej zapobiegnie recesji.",
+      "de": "Es ist höchst umstritten, ob der beispiellose geldpolitische Kurswechsel eine Rezession abwenden wird.",
+      "level": "C2"
+    },
+    {
+      "en": "The committee must establish whether the deliberate withholding of information constitutes fraud.",
+      "pl": "Komitet musi ustalić, czy celowe zatajenie informacji stanowi oszustwo.",
+      "de": "Der Ausschuss muss feststellen, ob das bewusste Zurückhalten von Informationen den Tatbestand des Betrugs erfüllt.",
+      "level": "C2"
+    },
+    {
+      "en": "One may justifiably wonder whether the philosophical underpinnings of this theory hold up to scrutiny.",
+      "pl": "Można się słusznie zastanawiać, czy filozoficzne podstawy tej teorii wytrzymują krytykę.",
+      "de": "Man darf sich berechtigterweise fragen, ob das philosophische Fundament dieser Theorie einer genauen Prüfung standhält.",
+      "level": "C2"
+    },
+    {
+      "en": "It remains an open question whether the symbiotic relationship between the two sectors will persist.",
+      "pl": "Pozostaje kwestią otwartą, czy symbiotyczny związek między tymi dwoma sektorami przetrwa.",
+      "de": "Es bleibt eine offene Frage, ob die symbiotische Beziehung zwischen den beiden Sektoren fortbestehen wird.",
+      "level": "C2"
+    },
+    {
+      "en": "The overarching dilemma is whether the curtailment of civil liberties can ever be justified by national security.",
+      "pl": "Nadrzędnym dylematem jest to, czy ograniczanie swobód obywatelskich może być kiedykolwiek usprawiedliwione bezpieczeństwem narodowym.",
+      "de": "Das alles überragende Dilemma besteht darin, ob die Beschneidung bürgerlicher Freiheiten jemals durch die nationale Sicherheit gerechtfertigt werden kann.",
+      "level": "C2"
+    },
+    {
+      "en": "Scholars fiercely debate whether the emperor's decision was motivated by political pragmatism or genuine conviction.",
+      "pl": "Uczeni zaciekle debatują, czy decyzja cesarza była umotywowana pragmatyzmem politycznym, czy też autentycznym przekonaniem.",
+      "de": "Gelehrte debattieren heftig darüber, ob die Entscheidung des Kaisers von politischem Pragmatismus oder echter Überzeugung geleitet war.",
+      "level": "C2"
+    },
+    {
+      "en": "It is yet to be proven whether the newly implemented algorithm truly mitigates inherent biases.",
+      "pl": "Należy jeszcze dowieść, czy nowo wdrożony algorytm rzeczywiście łagodzi wrodzone uprzedzenia.",
+      "de": "Es muss erst noch bewiesen werden, ob der neu implementierte Algorithmus inhärente Verzerrungen tatsächlich abmildert.",
+      "level": "C2"
+    },
+    {
+      "en": "We must scrupulously evaluate whether the purportedly independent review was subject to undue influence.",
+      "pl": "Musimy skrupulatnie ocenić, czy rzekomo niezależny przegląd nie był poddany nadmiernemu wpływowi.",
+      "de": "Wir müssen gewissenhaft evaluieren, ob die vorgeblich unabhängige Überprüfung ungebührlicher Einflussnahme unterlag.",
+      "level": "C2"
+    },
+    {
+      "en": "It borders on the absurd to ask whether such flagrant violations should go unpunished.",
+      "pl": "Graniczy z absurdem pytanie, czy tak rażące naruszenia powinny uchodzić bezkarnie.",
+      "de": "Es grenzt an das Absurde zu fragen, ob solch eklatante Verstöße ungestraft bleiben sollten.",
+      "level": "C2"
+    },
+    {
+      "en": "The ultimate test will be whether the fragile coalition can withstand the impending economic turbulence.",
+      "pl": "Ostatecznym sprawdzianem będzie to, czy krucha koalicja zdoła przetrwać nadciągające zawirowania gospodarcze.",
+      "de": "Der ultimative Härtetest wird sein, ob die fragile Koalition den drohenden wirtschaftlichen Turbulenzen standhalten kann.",
+      "level": "C2"
+    }
+  ],
+  "listening": {
+    "audioUrl": "",
+    "articles": [],
+    "vocab": []
+  },
+  "speaking": {
+    "prompt": {
+      "en": "",
+      "pl": ""
+    }
+  }
 }
 ]
