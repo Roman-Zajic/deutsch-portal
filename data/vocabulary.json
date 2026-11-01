@@ -736,5 +736,149 @@
       "Der Wind war für unsere Segeltour sehr günstig."
     ],
     "creationDate": "2026-10-06"
+  },
+  {
+    "id": "1793540910816",
+    "word": "Verzögerung",
+    "translation": "delay",
+    "partOfSpeech": "Noun",
+    "article": "die",
+    "level": "B1",
+    "plural": "die Verzögerungen",
+    "notes": "Common business/logistics term for late delivery or delayed event.",
+    "examples": [
+      "Die Verzögerung beim Versand beträgt zwei Tage. — The shipping delay is two days.",
+      "Es gab eine Verzögerung bei der Lieferung. — There was a delay in the delivery.",
+      "Kunden klagen oft über die Verzögerung. — Customers often complain about the delay."
+    ],
+    "creationDate": "2026-11-01"
+  },
+  {
+    "id": "1793540910817",
+    "word": "sofort",
+    "translation": "immediately",
+    "partOfSpeech": "Adverb",
+    "article": "",
+    "level": "A2",
+    "plural": "",
+    "notes": "Adverb meaning 'at once' or 'right away'.",
+    "examples": [
+      "Ich komme sofort zurück. — I'll come back immediately.",
+      "Bitte antworten Sie sofort. — Please reply immediately.",
+      "Der Termin beginnt sofort. — The appointment starts immediately."
+    ],
+    "creationDate": "2026-11-01"
+  },
+  {
+    "id": "1793540910818",
+    "word": "Wegen",
+    "translation": "because of",
+    "partOfSpeech": "Preposition",
+    "article": "",
+    "level": "B1",
+    "plural": "",
+    "notes": "Preposition meaning 'on account of' or 'due to'.",
+    "examples": [
+      "Ich bleibe zu Hause wegen der Kälte. — I'm staying home because of the cold.",
+      "Er kam zu spät wegen des Feierabends. — He arrived late because of the break.",
+      "Wir müssen warten wegen des Regens. — We have to wait because of the rain."
+    ],
+    "creationDate": "2026-11-01"
+  },
+  {
+    "id": "1793540910819",
+    "word": "mehrere",
+    "translation": "several",
+    "partOfSpeech": "Adjective",
+    "article": "",
+    "level": "B1",
+    "plural": "",
+    "notes": "Determiner/adjective meaning 'several', used before a plural noun.",
+    "examples": [
+      "Es gibt mehrere Möglichkeiten. — There are several options.",
+      "Mehrere Studenten waren anwesend. — Several students were present.",
+      "Mehrere Male haben wir es probiert. — Several times we tried it."
+    ],
+    "creationDate": "2026-11-01"
+  },
+  {
+    "id": "1793540910820",
+    "word": "die Abstimmung",
+    "translation": "reconciliation",
+    "partOfSpeech": "Noun",
+    "article": "die",
+    "level": "B2",
+    "plural": "die Abstimmungen",
+    "notes": "Voting/polling procedure; also metaphorically a reconciliation process.",
+    "examples": [
+      "Die Abstimmung ergab eine klare Mehrheit. — The vote showed a clear majority.",
+      "Die Abstimmung über den neuen Präsidenten findet morgen statt. — The vote on the new president takes place tomorrow.",
+      "Niemand stimmte gegen die Abstimmung. — Nobody voted against the resolution."
+    ],
+    "creationDate": "2026-11-01"
+  },
+  {
+    "id": "1793540910821",
+    "word": "der Vorstand",
+    "translation": "board",
+    "partOfSpeech": "Noun",
+    "article": "der",
+    "level": "B2",
+    "plural": "der Vorstands",
+    "notes": "Board of directors; Vorstandssprecher is the chairman.",
+    "examples": [
+      "Der Vorstand trifft sich jeden Montag. — The board meets every Monday.",
+      "Der Vorstand hat den Entschluss gefasst. — The board has made the decision.",
+      "Der Vorstandssprecher sprach heute zur Versammlung. — The chairman spoke at the meeting today."
+    ],
+    "creationDate": "2026-11-01"
+  },
+  {
+    "id": "1793540910822",
+    "word": "Verfügbar",
+    "translation": "available",
+    "partOfSpeech": "Adjective",
+    "article": "",
+    "level": "C1",
+    "plural": "",
+    "notes": "Adjective meaning 'available' or 'accessible'; can be declined for plural.",
+    "examples": [
+      "Diese Software ist auf verfügbaren Servern installiert. — This software is installed on available servers.",
+      "Die Tickets sind verfügbar. — The tickets are available.",
+      "Kann ich den verfügbaren Stuhl reservieren? — Can I reserve the available chair?"
+    ],
+    "creationDate": "2026-11-01"
+  },
+  {
+    "id": "1793540910823",
+    "word": "sorgfältig",
+    "translation": "carefully",
+    "partOfSpeech": "Adverb",
+    "article": "",
+    "level": "C1",
+    "plural": "",
+    "notes": "Adverb meaning 'carefully' or 'meticulously'.",
+    "examples": [
+      "Sie ist sehr sorgfältig bei der Arbeit. — She is very careful at work.",
+      "Bitte lesen Sie die Anweisungen sorgfältig durch. — Please read the instructions carefully.",
+      "Er vergisst nie, sorgfältig zu planen. — He never forgets to plan carefully."
+    ],
+    "creationDate": "2026-11-01"
+  },
+  {
+    "id": "1793540910824",
+    "word": "die Bedrohung",
+    "translation": "threat",
+    "partOfSpeech": "Noun",
+    "article": "die",
+    "level": "B2",
+    "plural": "die Bedrohungen",
+    "notes": "Peril or danger; plural die Bedrohungen.",
+    "examples": [
+      "Eine ernste Bedrohung für die Umwelt. — A serious threat to the environment.",
+      "Die Bedrohung durch den Terrorismus nimmt zu. — The threat from terrorism increases.",
+      "Solche Bedrohungen erfordern schnelles Handeln. — Such threats require quick action."
+    ],
+    "creationDate": "2026-11-01"
   }
 ]
