@@ -513,6 +513,20 @@ select.input { cursor: pointer; }
         </div>
 
         <div>
+          <div class="section-label">Added Between</div>
+          <div class="grid-2">
+            <div>
+              <label class="field-label">From</label>
+              <input type="date" id="dateFrom" class="input" onchange="window.updateFilters()">
+            </div>
+            <div>
+              <label class="field-label">To</label>
+              <input type="date" id="dateTo" class="input" onchange="window.updateFilters()">
+            </div>
+          </div>
+        </div>
+
+        <div>
           <div class="section-label">Look Up</div>
           <div class="add-bar">
             <input type="text" id="newWordInput" class="input" placeholder="Search your words…" autocomplete="off">
@@ -927,6 +941,11 @@ window.renderGrid = function() {
   const mode = window.currentMode;
 
   const filtered = window.vocabList.filter(item => {
+    // Date-range filter
+    const fromStr = document.getElementById('dateFrom').value;
+    const toStr = document.getElementById('dateTo').value;
+    if (fromStr && item.creationDate && item.creationDate < fromStr) return false;
+    if (toStr && item.creationDate && item.creationDate > toStr) return false;
     const w = (item.word || '').toLowerCase(), t = (item.translation || '').toLowerCase();
     return (!term || w.includes(term) || t.includes(term))
       && (pos.length === 0 || pos.includes(item.partOfSpeech))
