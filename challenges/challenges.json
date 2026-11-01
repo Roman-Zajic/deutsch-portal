@@ -23988,39 +23988,39 @@
   "grammar": {
     "html": {
       "en": [
-        "<h3>The function of dass-clauses</h3><p>A <strong>dass-clause</strong> is a subordinate clause that acts as a direct object or complement to the main clause verb. It is introduced by the subordinating conjunction <em>dass</em>. Unlike main clauses, subordinate clauses have a specific word order: the finite verb does not stay in second position, but moves all the way to the <strong>end</strong> of the clause.</p>",
-        "<div class='box rule'><strong>Core rule:</strong> In a subordinate <em>dass</em>-clause, the conjunction <em>dass</em> introduces the clause, the subject usually follows, and the <strong>finite verb goes to the very end</strong>.</div>",
-        "<h3>Word order inside the dass-clause</h3><p>When <em>dass</em> opens the dependent clause, the conjugated (finite) verb is placed at the end. If there are multiple verb parts (like a past participle and an auxiliary, or a modal verb and an infinitive), the finite verb comes last after the other verb elements.</p><ul><li><em>Ich weiß, dass er heute <strong>kommt</strong>.</em></li><li><em>Wir hoffen, dass sie die Prüfung <strong>bestanden hat</strong>.</em></li><li><em>Der Minister erklärt, dass das Projekt pünktlich <strong>beginnen muss</strong>.</em></li></ul><p>Notice how the comma separates the main clause from the subordinate <em>dass</em>-clause.</p>",
-        "<table><thead><tr><th>Main clause</th><th>Conjunction</th><th>Subject / Rest</th><th>Finite verb at end</th></tr></thead><tbody><tr><td class='de'>Er sagt,</td><td class='de'>dass</td><td class='de'>das Wetter morgen gut</td><td class='de'><strong>wird</strong>.</td></tr><tr><td class='de'>Wir hoffen,</td><td class='de'>dass</td><td class='de'>alle Teilnehmer rechtzeitig</td><td class='de'><strong>ankommen</strong>.</td></tr><tr><td class='de'>Sie befürchtet,</td><td class='de'>dass</td><td class='de'>die Kosten steigen</td><td class='de'><strong>werden</strong>.</td></tr></tbody></table>",
-        "<h3>Anticipatory „es” and fronted dass-clauses</h3><p>Sometimes a <em>dass</em>-clause stands at the beginning of the sentence as the subject. In this case, the main clause often starts with the anticipatory pronoun <em>es</em>: <em>Es ist klar, dass wir helfen müssen.</em> Alternatively, the entire <em>dass</em>-clause can occupy the first position of the sentence, causing the main clause verb to occupy the second position through inversion: <em>Dass die Preise steigen, überrascht niemanden.</em></p>",
-        "<div class='box warn'><strong>Common mistake: keeping V2 word order in a dass-clause</strong><p>✗ Ich weiß, dass er kommt heute.</p><p>✓ Ich weiß, dass er heute <strong>kommt</strong>.</p><p>The finite verb must always go to the very end of a subordinate clause introduced by <em>dass</em>. Do not treat it like a main clause.</p></div>",
-        "<div class='box tip'><strong>Memory aid: comma, conjunction, end verb</strong><p>Remember three steps for <em>dass</em>-clauses: put a comma before <em>dass</em>, place the subject right after <em>dass</em>, and push the conjugated verb all the way to the back.</p></div>",
+        "<h3>The function of dass-clauses</h3><p>A <strong>dass-clause</strong> is a subordinate clause that acts as a direct object or complement to the main clause verb. It is introduced by the subordinating conjunction <em>dass</em> (that). Unlike main clauses, subordinate clauses have a specific word order: the conjugated (finite) verb does not stay in the second position, but moves all the way to the <strong>end</strong> of the clause.</p>",
+        "<div class='box rule'><strong>Core rule:</strong> In a subordinate <em>dass</em>-clause, the conjunction <em>dass</em> introduces the clause, the subject usually follows immediately, and the <strong>finite verb goes to the very end</strong>.</div>",
+        "<h3>Word order inside the dass-clause</h3><p>When <em>dass</em> opens the dependent clause, the finite verb must be placed at the absolute end. If there are multiple verb parts (like a past participle and an auxiliary, or a modal verb and an infinitive), the finite verb comes last, following the other verb elements.</p><ul><li><em>Ich weiß, dass er heute <strong>kommt</strong>.</em></li><li><em>Wir hoffen, dass sie die Prüfung <strong>bestanden hat</strong>.</em></li><li><em>Der Minister erklärt, dass das Projekt pünktlich <strong>beginnen muss</strong>.</em></li></ul><p>Notice how a comma always separates the main clause from the subordinate <em>dass</em>-clause.</p>",
+        "<table><thead><tr><th>Main clause</th><th>Conjunction</th><th>Subject / Rest</th><th>Finite verb at end</th></tr></thead><tbody><tr><td class='de'>Er sagt,</td><td class='de'>dass</td><td class='de'>das Wetter morgen gut</td><td class='de'><strong>wird</strong>.</td></tr><tr><td class='de'>Wir hoffen,</td><td class='de'>dass</td><td class='de'>alle Teilnehmer rechtzeitig</td><td class='de'><strong>ankommen</strong>.</td></tr><tr><td class='de'>Sie befürchtet,</td><td class='de'>dass</td><td class='de'>die Kosten weiter</td><td class='de'><strong>steigen</strong>.</td></tr></tbody></table>",
+        "<h3>Fronted dass-clauses and anticipatory „es”</h3><p>Sometimes the entire <em>dass</em>-clause acts as the subject of the sentence. In this case, the main clause often starts with the anticipatory pronoun <em>es</em>: <em>Es ist klar, dass wir helfen müssen.</em></p><p>Alternatively, the entire <em>dass</em>-clause can occupy the first position of the sentence. Because the subordinate clause acts as position one, the main clause must begin with its verb in position two (inversion): <em>Dass die Preise steigen, <strong>überrascht</strong> niemanden.</em></p>",
+        "<div class='box warn'><strong>Common mistake: keeping V2 word order in a dass-clause</strong><p>✗ Ich weiß, dass er kommt heute.</p><p>✓ Ich weiß, dass er heute <strong>kommt</strong>.</p><p>The finite verb must always go to the very end of a subordinate clause introduced by <em>dass</em>. Never treat it like a main clause.</p></div>",
+        "<div class='box tip'><strong>Memory aid: comma, conjunction, end verb</strong><p>Remember the three essential steps for building <em>dass</em>-clauses: put a comma before <em>dass</em>, place the subject right after <em>dass</em>, and push the conjugated verb all the way to the back.</p></div>",
         "<h3>Quick reference</h3><div class='tiles'><div class='tile'><strong>Basic structure</strong><p><em>Ich weiß, dass du recht hast.</em></p></div><div class='tile'><strong>Modal verb</strong><p><em>Er hofft, dass er kommen kann.</em></p></div><div class='tile'><strong>Perfect tense</strong><p><em>Sie sagt, dass sie gearbeitet hat.</em></p></div><div class='tile'><strong>Fronted clause</strong><p><em>Dass du kommst, freut mich.</em></p></div></div>"
       ],
       "pl": [
-        "<h3>Funkcja zdań z „dass”</h3><p>Zdanie podrzędne wprowadzane przez <strong>dass</strong> (że) pełni funkcję dopełnienia lub uzupełnienia w zdaniu głównym. W przeciwieństwie do zdań głównych, w zdaniach podrzędnych obowiązuje inny szyk: odmieniony czasownik nie stoi na drugim miejscu, lecz wędruje na sam <strong>koniec</strong> zdania.</p>",
-        "<div class='box rule'><strong>Główna zasada:</strong> W zdaniu podrzędnym wprowadzonym spójnikiem <em>dass</em> na początku stoi spójnik, następnie zazwyczaj podmiot, a <strong>odmieniony czasownik znajduje się na samym końcu</strong>.</div>",
-        "<h3>Szyk wyrazów w zdaniu z „dass”</h3><p>Gdy spójnik <em>dass</em> otwiera zdanie poboczne, czasownik finitny ląduje na końcu. Jeśli w zdaniu występują inne części czasownika (np. imiesłów i czasownik posiłkowy albo czasownik modalny i bezokolicznik), odmieniony czasownik stoi jako ostatni.</p><ul><li><em>Ich weiß, dass er heute <strong>kommt</strong>.</em></li><li><em>Wir hoffen, dass sie die Prüfung <strong>bestanden hat</strong>.</em></li><li><em>Der Minister erklärt, dass das Projekt pünktlich <strong>beginnen muss</strong>.</em></li></ul><p>Zwróć uwagę, że zdanie główne i zdanie podrzędne z <em>dass</em> oddziela przecinek.</p>",
-        "<table><thead><tr><th>Zdanie główne</th><th>Spójnik</th><th>Podmiot / reszta</th><th>Czasownik na końcu</th></tr></thead><tbody><tr><td class='de'>Er sagt,</td><td class='de'>dass</td><td class='de'>das Wetter morgen gut</td><td class='de'><strong>wird</strong>.</td></tr><tr><td class='de'>Wir hoffen,</td><td class='de'>dass</td><td class='de'>alle Teilnehmer rechtzeitig</td><td class='de'><strong>ankommen</strong>.</td></tr><tr><td class='de'>Sie befürchtet,</td><td class='de'>dass</td><td class='de'>die Kosten steigen</td><td class='de'><strong>werden</strong>.</td></tr></tbody></table>",
-        "<h3>Zaimek „es” oraz zdanie z „dass” na początku</h3><p>Czasami zdanie z <em>dass</em> stoi na początku jako podmiot. Wtedy zdanie główne często rozpoczyna się od zaimka <em>es</em>: <em>Es ist klar, dass wir helfen müssen.</em> Ewentualnie całe zdanie z <em>dass</em> może zająć pierwszą pozycję, co powoduje inwersję w zdaniu głównym: <em>Dass die Preise steigen, überrascht niemanden.</em></p>",
-        "<div class='box warn'><strong>Typowy błąd: zachowanie szyku V2 wewnątrz zdania z „dass”</strong><p>✗ Ich weiß, dass er kommt heute.</p><p>✓ Ich weiß, dass er heute <strong>kommt</strong>.</p><p>Odmieniony czasownik nigdy nie może stać na drugim miejscu w zdaniu z <em>dass</em>. Zawsze musi być przesunięty na pozycję końcową.</p></div>",
-        "<div class='box tip'><strong>Pomoc w zapamiętaniu: przecinek, spójnik, czasownik na końcu</strong><p>Pamiętaj o trzech krokach dla zdań podrzędnych: postaw przecinek przed <em>dass</em>, umieść podmiot zaraz po <em>dass</em> i wyrzuć odmieniony czasownik na sam koniec zdania.</p></div>",
+        "<h3>Funkcja zdań z „dass”</h3><p>Zdanie podrzędne wprowadzane przez <strong>dass</strong> (że) pełni funkcję dopełnienia lub uzupełnienia czasownika w zdaniu głównym. W przeciwieństwie do zdań głównych, w zdaniach podrzędnych obowiązuje inny szyk: odmieniony czasownik nie stoi na drugim miejscu, lecz wędruje na sam <strong>koniec</strong> zdania.</p>",
+        "<div class='box rule'><strong>Główna zasada:</strong> W zdaniu podrzędnym wprowadzonym spójnikiem <em>dass</em> na początku stoi spójnik, następnie zazwyczaj bezpośrednio podmiot, a <strong>odmieniony czasownik znajduje się na samym końcu</strong>.</div>",
+        "<h3>Szyk wyrazów w zdaniu z „dass”</h3><p>Gdy spójnik <em>dass</em> otwiera zdanie poboczne, czasownik finitny musi wylądować na samym końcu. Jeśli w zdaniu występują inne części czasownika (np. imiesłów i czasownik posiłkowy albo czasownik modalny i bezokolicznik), odmieniony czasownik stoi jako absolutnie ostatni, za pozostałymi formami czasownika.</p><ul><li><em>Ich weiß, dass er heute <strong>kommt</strong>.</em></li><li><em>Wir hoffen, dass sie die Prüfung <strong>bestanden hat</strong>.</em></li><li><em>Der Minister erklärt, dass das Projekt pünktlich <strong>beginnen muss</strong>.</em></li></ul><p>Zwróć uwagę, że zdanie główne i zdanie podrzędne z <em>dass</em> zawsze oddziela przecinek.</p>",
+        "<table><thead><tr><th>Zdanie główne</th><th>Spójnik</th><th>Podmiot / reszta</th><th>Czasownik na końcu</th></tr></thead><tbody><tr><td class='de'>Er sagt,</td><td class='de'>dass</td><td class='de'>das Wetter morgen gut</td><td class='de'><strong>wird</strong>.</td></tr><tr><td class='de'>Wir hoffen,</td><td class='de'>dass</td><td class='de'>alle Teilnehmer rechtzeitig</td><td class='de'><strong>ankommen</strong>.</td></tr><tr><td class='de'>Sie befürchtet,</td><td class='de'>dass</td><td class='de'>die Kosten weiter</td><td class='de'><strong>steigen</strong>.</td></tr></tbody></table>",
+        "<h3>Zaimek „es” oraz zdanie z „dass” na początku</h3><p>Czasami całe zdanie z <em>dass</em> występuje w roli podmiotu. Wtedy zdanie główne często rozpoczyna się od zaimka zapowiadającego <em>es</em>: <em>Es ist klar, dass wir helfen müssen.</em></p><p>Ewentualnie całe zdanie z <em>dass</em> może zająć pierwszą pozycję w strukturze całego wypowiedzenia. Ponieważ zdanie podrzędne działa jako pozycja numer jeden, zdanie główne musi rozpocząć się od swojego czasownika na pozycji numer dwa (inwersja): <em>Dass die Preise steigen, <strong>überrascht</strong> niemanden.</em></p>",
+        "<div class='box warn'><strong>Typowy błąd: zachowanie szyku V2 wewnątrz zdania z „dass”</strong><p>✗ Ich weiß, dass er kommt heute.</p><p>✓ Ich weiß, dass er heute <strong>kommt</strong>.</p><p>Odmieniony czasownik nigdy nie może stać na drugim miejscu w zdaniu z <em>dass</em>. Zawsze musi być przesunięty na pozycję końcową. Nie traktuj go jak zdania głównego.</p></div>",
+        "<div class='box tip'><strong>Pomoc w zapamiętaniu: przecinek, spójnik, czasownik na końcu</strong><p>Pamiętaj o trzech krokach przy budowie zdań podrzędnych: postaw przecinek przed <em>dass</em>, umieść podmiot zaraz po <em>dass</em> i wyrzuć odmieniony czasownik na sam koniec zdania.</p></div>",
         "<h3>Szybki przegląd</h3><div class='tiles'><div class='tile'><strong>Podstawowa zasada</strong><p><em>Ich denke, dass du recht <strong>hast</strong>.</em></p></div><div class='tile'><strong>Z modalnym</strong><p><em>Er sagt, dass wir jetzt gehen <strong>müssen</strong>.</em></p></div><div class='tile'><strong>Czas Perfekt</strong><p><em>Sie weiß, dass ich das <strong>gemacht habe</strong>.</em></p></div><div class='tile'><strong>Przestawione zdanie</strong><p><em>Dass du kommst, <strong>freut</strong> mich.</em></p></div></div>"
       ]
     }
   },
   "examples": [
     {
-      "de": "Ich weiß, **dass du heute kommst**.",
-      "en": "I know that you are coming today.",
-      "pl": "Wiem, że dzisiaj przychodzisz.",
-      "level": "A1"
+      "de": "Ich weiß, **dass er heute kommt**.",
+      "en": "I know that he is coming today.",
+      "pl": "Wiem, że on dzisiaj przyjdzie.",
+      "level": "A2"
     },
     {
-      "de": "Er sagt, **dass er keine Zeit hat**.",
-      "en": "He says that he has no time.",
-      "pl": "On mówi, że nie ma czasu.",
-      "level": "A1"
+      "de": "Sie sagt, **dass sie Zeit hat**.",
+      "en": "She says that she has time.",
+      "pl": "Ona mówi, że ma czas.",
+      "level": "A2"
     },
     {
       "de": "Wir hoffen, **dass das Wetter gut wird**.",
@@ -24029,15 +24029,15 @@
       "level": "A2"
     },
     {
-      "de": "Sie glaubt, **dass der Bus pünktlich kommt**.",
-      "en": "She believes that the bus is coming on time.",
-      "pl": "Ona wierzy, że autobus przyjedzie punktualnie.",
+      "de": "Er glaubt, **dass der Test leicht ist**.",
+      "en": "He believes that the test is easy.",
+      "pl": "On uważa, że test jest łatwy.",
       "level": "A2"
     },
     {
-      "de": "Der Lehrer erklärt, **dass die Aufgabe wichtig ist**.",
-      "en": "The teacher explains that the task is important.",
-      "pl": "Nauczyciel wyjaśnia, że zadanie jest ważne.",
+      "de": "Du siehst, **dass die Tür offen ist**.",
+      "en": "You see that the door is open.",
+      "pl": "Widzisz, że drzwi są otwarte.",
       "level": "A2"
     },
     {
@@ -24047,95 +24047,95 @@
       "level": "B1"
     },
     {
-      "de": "Der Manager bestätigt, **dass das Projekt genehmigt worden ist**.",
-      "en": "The manager confirms that the project has been approved.",
-      "pl": "Menedżer potwierdza, że projekt został zatwierdzony.",
+      "de": "Der Manager bestätigt, **dass das Projekt fertig ist**.",
+      "en": "The manager confirms that the project is finished.",
+      "pl": "Menedżer potwierdza, że projekt jest gotowy.",
       "level": "B1"
     },
     {
-      "de": "Die Mitarbeiterin befürchtet, **dass die Kosten steigen werden**.",
-      "en": "The employee fears that the costs will rise.",
-      "pl": "Pracownica obawia się, że koszty wzrosną.",
+      "de": "Es ist wichtig, **dass alle pünktlich ankommen**.",
+      "en": "It is important that everyone arrives on time.",
+      "pl": "To ważne, aby wszyscy przyjechali punktualnie.",
       "level": "B1"
     },
     {
-      "de": "Es ist bekannt, **dass Berlin die Hauptstadt von Deutschland ist**.",
-      "en": "It is known that Berlin is the capital of Germany.",
-      "pl": "Wiadomo, że Berlin jest stolicą Niemiec.",
+      "de": "Die Zeitung schreibt, **dass die Wahlen bevorstehen**.",
+      "en": "The newspaper writes that the elections are coming.",
+      "pl": "Gazeta pisze, że nadchodzą wybory.",
       "level": "B1"
     },
     {
-      "de": "Die Studie zeigt, **dass die Geburtenraten sinken**.",
-      "en": "The study shows that birth rates are declining.",
-      "pl": "Badanie pokazuje, że wskaźniki urodzeń spadają.",
+      "de": "Ich erinnere mich, **dass wir die Tür abgeschlossen haben**.",
+      "en": "I remember that we locked the door.",
+      "pl": "Pamiętam, że zamknęliśmy drzwi.",
+      "level": "B1"
+    },
+    {
+      "de": "Sie bemerkt, **dass die Preise schnell steigen**.",
+      "en": "She notices that the prices are rising rapidly.",
+      "pl": "Ona zauważa, że ceny szybko rosną.",
+      "level": "B1"
+    },
+    {
+      "de": "Wir hören, **dass der Direktor heute kündigt**.",
+      "en": "We hear that the director is resigning today.",
+      "pl": "Słyszymy, że dyrektor dzisiaj składa wypowiedzenie.",
+      "level": "B1"
+    },
+    {
+      "de": "Experten warnen davor, **dass die Infrastruktur beschädigt werden könnte**.",
+      "en": "Experts warn that the infrastructure could be damaged.",
+      "pl": "Eksperci ostrzegają, że infrastruktura może zostać uszkodzona.",
       "level": "B2"
     },
     {
-      "de": "Experten warnen vor der Gefahr, **dass Geheimdienste kompromittiert werden**.",
-      "en": "Experts warn of the danger that intelligence services might be compromised.",
-      "pl": "Eksperci ostrzegają przed niebezpieczeństwem skompromitowania służb wywiadowczych.",
+      "de": "Die Studie zeigt, **dass die Geburtenraten in diesem Jahr sinken**.",
+      "en": "The study shows that the birth rates are declining this year.",
+      "pl": "Badanie pokazuje, że wskaźniki urodzeń w tym roku spadają.",
       "level": "B2"
     },
     {
-      "de": "**Dass die Verhandlungen erfolgreich waren**, überraschte viele Beobachter.",
-      "en": "The fact that the negotiations were successful surprised many observers.",
-      "pl": "Fakt, że negocjacje zakończyły się sukcesem, zaskoczył wielu obserwatorów.",
+      "de": "Das Management räumt ein, **dass einige Fehler gemacht worden sind**.",
+      "en": "The management acknowledges that some mistakes were made.",
+      "pl": "Kierownictwo przyznaje, że popełniono pewne błędy.",
+      "level": "B2"
+    },
+    {
+      "de": "Es ist offensichtlich, **dass sich die Marktbedingungen drastisch verändert haben**.",
+      "en": "It is obvious that the market conditions have changed drastically.",
+      "pl": "Jest oczywiste, że warunki rynkowe drastycznie uległy zmianie.",
+      "level": "B2"
+    },
+    {
+      "de": "Die Untersuchung ergibt, **dass vertrauliche Daten nach außen durchsickerten**.",
+      "en": "The investigation reveals that confidential data leaked out.",
+      "pl": "Dochodzenie wykazuje, że wyciekły poufne dane.",
+      "level": "B2"
+    },
+    {
+      "de": "Wir müssen sicherstellen, **dass alle Sicherheitsstandards strikt eingehalten werden**.",
+      "en": "We must ensure that all security standards are strictly observed.",
+      "pl": "Musimy upewnić się, że wszystkie standardy bezpieczeństwa są ściśle przestrzegane.",
+      "level": "B2"
+    },
+    {
+      "de": "Das Dokument beweist zweifellos, **dass das Unternehmen rechtmäßig handelte**.",
+      "en": "The document undoubtedly proves that the company acted lawfully.",
+      "pl": "Dokument niewątpliwie dowodzi, że firma działała zgodnie z prawem.",
+      "level": "B2"
+    },
+    {
+      "de": "**Dass die Verhandlungen schlussendlich erfolgreich waren**, überraschte viele politische Beobachter.",
+      "en": "The fact that the negotiations were ultimately successful surprised many political observers.",
+      "pl": "Fakt, że negocjacje ostatecznie zakończyły się sukcesem, zaskoczył wielu obserwatorów politycznych.",
       "level": "C1"
-    },
-    {
-      "de": "Aus dem Bericht geht hervor, **dass die Investitionen unzureichend waren**.",
-      "en": "The report indicates that investments were insufficient.",
-      "pl": "Z raportu wynika, że inwestycje były niewystarczające.",
-      "level": "C1"
-    },
-    {
-      "de": "Die Regierung hat bestätigt, **dass zusätzliche Finanzmittel bereitgestellt werden**.",
-      "en": "The government has confirmed that additional funds will be provided.",
-      "pl": "Rząd potwierdził, że zostaną udostępnione dodatkowe środki finansowe.",
-      "level": "C1"
-    },
-    {
-      "de": "Es ist keineswegs garantiert, **dass der Trend kurzfristig umgekehrt werden kann**.",
-      "en": "It is by no means guaranteed that the trend can be reversed in the short term.",
-      "pl": "Wcale nie jest powiedziane, że trend uda się odwrócić w krótkim czasie.",
-      "level": "C2"
-    },
-    {
-      "de": "Man kann nicht ausschließen, **dass gravierende strukturelle Mängel über Jahre hinweg ignoriert wurden**.",
-      "en": "It cannot be ruled out that serious structural flaws were ignored for years.",
-      "pl": "Nie można wykluczyć, że poważne wady strukturalne były ignorowane przez lata.",
-      "level": "C2"
-    },
-    {
-      "de": "Die Unternehmensführung gab zu, **dass man die Risiken anfänglich unterschätzt hatte**.",
-      "en": "Management admitted that the risks had initially been underestimated.",
-      "pl": "Kierownictwo firmy przyznało, że początkowo niedoszacowano ryzyka.",
-      "level": "C1"
-    },
-    {
-      "de": "Aus dem Bericht geht hervor, **dass die Auslandsinvestitionen deutlich zurückgegangen sind**.",
-      "en": "The report shows that foreign investments have decreased significantly.",
-      "pl": "Z raportu wynika, że inwestycje zagraniczne znacznie spadły.",
-      "level": "C1"
-    },
-    {
-      "de": "Es lässt sich nicht leugnen, **dass der demografische Wandel die Rentenkassen vor enorme Herausforderungen stellt**.",
-      "en": "It cannot be denied that demographic change poses enormous challenges for pension funds.",
-      "pl": "Nie da się ukryć, że zmiany demograficzne stawiają fundusze emerytalne przed ogromnymi wyzwaniami.",
-      "level": "C2"
-    },
-    {
-      "de": "Kritiker merkten an, **dass der Beschluss unter Ausschluss der Öffentlichkeit gefasst worden war**.",
-      "en": "Critics noted that the decision had been made behind closed doors.",
-      "pl": "Krytycy zauważyli, że decyzja zapadła za zamkniętymi drzwiami.",
-      "level": "C2"
     }
   ],
   "exercises": [
     {
-      "en": "I know that you are coming today.",
-      "pl": "Wiem, że on dzisiaj przyjdzie.",
-      "de": "Ich weiß, dass er heute kommt.",
+      "en": "I know that you are coming.",
+      "pl": "Wiem, że przychodzisz.",
+      "de": "Ich weiß, dass du kommst.",
       "level": "A2"
     },
     {
@@ -24145,9 +24145,9 @@
       "level": "A2"
     },
     {
-      "en": "We hope that it will rain.",
-      "pl": "Mamy nadzieję, że będzie padać.",
-      "de": "Wir hoffen, dass es regnet.",
+      "en": "We hope that the weather is good.",
+      "pl": "Mamy nadzieję, że pogoda jest dobra.",
+      "de": "Wir hoffen, dass das Wetter gut ist.",
       "level": "A2"
     },
     {
@@ -24157,27 +24157,21 @@
       "level": "A2"
     },
     {
-      "en": "You think that I am right.",
-      "pl": "Myślisz, że mam rację.",
-      "de": "Du denkst, dass ich recht habe.",
-      "level": "A2"
-    },
-    {
-      "en": "She hears that the music is loud.",
-      "pl": "Ona słyszy, że muzyka jest głośna.",
-      "de": "Sie hört, dass die Musik laut ist.",
-      "level": "A2"
-    },
-    {
       "en": "I see that the door is open.",
       "pl": "Widzę, że drzwi są otwarte.",
       "de": "Ich sehe, dass die Tür offen ist.",
       "level": "A2"
     },
     {
-      "en": "They write that they are coming.",
-      "pl": "Oni piszą, że przyjdą.",
-      "de": "Sie schreiben, dass sie kommen.",
+      "en": "You think that I am right.",
+      "pl": "Myślisz, że mam rację.",
+      "de": "Du denkst, dass ich recht habe.",
+      "level": "A2"
+    },
+    {
+      "en": "They write that they are staying at home.",
+      "pl": "Oni piszą, że zostają w domu.",
+      "de": "Sie schreiben, dass sie zu Hause bleiben.",
       "level": "A2"
     },
     {
@@ -24193,15 +24187,51 @@
       "level": "A2"
     },
     {
+      "en": "I notice that the car is new.",
+      "pl": "Zauważam, że samochód jest nowy.",
+      "de": "Ich merke, dass das Auto neu ist.",
+      "level": "A2"
+    },
+    {
+      "en": "She hears that the music is loud.",
+      "pl": "Ona słyszy, że muzyka jest głośna.",
+      "de": "Sie hört, dass die Musik laut ist.",
+      "level": "A2"
+    },
+    {
+      "en": "He finds that the book is interesting.",
+      "pl": "On uważa, że książka jest interesująca.",
+      "de": "Er findet, dass das Buch interessant ist.",
+      "level": "A2"
+    },
+    {
+      "en": "I am glad that you are here.",
+      "pl": "Cieszę się, że tu jesteś.",
+      "de": "Ich bin froh, dass du hier bist.",
+      "level": "A2"
+    },
+    {
+      "en": "We understand that the problem is big.",
+      "pl": "Rozumiemy, że problem jest duży.",
+      "de": "Wir verstehen, dass das Problem groß ist.",
+      "level": "A2"
+    },
+    {
+      "en": "You say that you need help.",
+      "pl": "Mówisz, że potrzebujesz pomocy.",
+      "de": "Du sagst, dass du Hilfe brauchst.",
+      "level": "A2"
+    },
+    {
       "en": "The boss says that the report is ready.",
       "pl": "Szef mówi, że raport jest gotowy.",
       "de": "Der Chef sagt, dass der Bericht fertig ist.",
       "level": "B1"
     },
     {
-      "en": "I hope that you can help me.",
-      "pl": "Mam nadzieję, że możesz mi pomóc.",
-      "de": "Ich hoffe, dass du mir helfen kannst.",
+      "en": "I hope that you can help me tomorrow.",
+      "pl": "Mam nadzieję, że jutro będziesz mógł mi pomóc.",
+      "de": "Ich hoffe, dass du mir morgen helfen kannst.",
       "level": "B1"
     },
     {
@@ -24211,9 +24241,9 @@
       "level": "B1"
     },
     {
-      "en": "We know that the meeting takes place tomorrow.",
-      "pl": "Wiemy, że spotkanie odbywa się jutro.",
-      "de": "Wir wissen, dass die Besprechung morgen stattfindet.",
+      "en": "We know that the meeting takes place today.",
+      "pl": "Wiemy, że spotkanie odbywa się dzisiaj.",
+      "de": "Wir wissen, dass die Besprechung heute stattfindet.",
       "level": "B1"
     },
     {
@@ -24229,9 +24259,9 @@
       "level": "B1"
     },
     {
-      "en": "She notices that the prices are rising.",
-      "pl": "Ona zauważa, że ceny rosną.",
-      "de": "Sie bemerkt, dass die Preise steigen.",
+      "en": "She notices that the prices are rising rapidly.",
+      "pl": "Ona zauważa, że ceny szybko rosną.",
+      "de": "Sie bemerkt, dass die Preise schnell steigen.",
       "level": "B1"
     },
     {
@@ -24272,14 +24302,14 @@
     },
     {
       "en": "He fears that the delivery will be delayed.",
-      "pl": "On obawia się, że dostawa się opóźni.",
+      "pl": "On obawia się, że dostawa opóźni się.",
       "de": "Er befürchtet, dass sich die Lieferung verzögert.",
       "level": "B1"
     },
     {
-      "en": "The study shows that birth rates have dropped.",
+      "en": "The study shows that the birth rates have dropped.",
       "pl": "Badanie pokazuje, że wskaźniki urodzeń spadły.",
-      "de": "Die Studie zeigt, dass die Geburtenraten sinken.",
+      "de": "Die Studie zeigt, dass die Geburtenraten gesunken sind.",
       "level": "B1"
     },
     {
@@ -24319,9 +24349,9 @@
       "level": "B1"
     },
     {
-      "en": "We notice that the system is not working.",
-      "pl": "Zauważamy, że system nie działa.",
-      "de": "Wir bemerken, dass das System nicht funktioniert.",
+      "en": "We notice that the system is not working correctly.",
+      "pl": "Zauważamy, że system nie działa poprawnie.",
+      "de": "Wir bemerken, dass das System nicht richtig funktioniert.",
       "level": "B1"
     },
     {
@@ -24343,12 +24373,6 @@
       "level": "B1"
     },
     {
-      "en": "She confirms that the payment has arrived.",
-      "pl": "Ona potwierdza, że wpłata dotarła.",
-      "de": "Sie bestätigt, dass die Zahlung eingegangen ist.",
-      "level": "B1"
-    },
-    {
       "en": "He mentions that he will travel to Berlin tomorrow.",
       "pl": "On wspomina, że jutro pojedzie do Berlina.",
       "de": "Er erwähnt, dass er morgen nach Berlin reisen wird.",
@@ -24367,9 +24391,45 @@
       "level": "B1"
     },
     {
-      "en": "The study shows that birth rates are declining.",
-      "pl": "Badanie pokazuje, że wskaźniki urodzeń spadają.",
-      "de": "Die Studie zeigt, dass die Geburtenraten sinken.",
+      "en": "I am sure that we will find a solution.",
+      "pl": "Jestem pewien, że znajdziemy rozwiązanie.",
+      "de": "Ich bin sicher, dass wir eine Lösung finden werden.",
+      "level": "B1"
+    },
+    {
+      "en": "She promises that she will call me later.",
+      "pl": "Ona obiecuje, że zadzwoni do mnie później.",
+      "de": "Sie verspricht, dass sie mich später anrufen wird.",
+      "level": "B1"
+    },
+    {
+      "en": "He confirms that he has booked the flight.",
+      "pl": "On potwierdza, że zarezerwował lot.",
+      "de": "Er bestätigt, dass er den Flug gebucht hat.",
+      "level": "B1"
+    },
+    {
+      "en": "We expect that the package will arrive today.",
+      "pl": "Spodziewamy się, że paczka dotrze dzisiaj.",
+      "de": "Wir erwarten, dass das Paket heute ankommt.",
+      "level": "B1"
+    },
+    {
+      "en": "I am sorry that you are ill.",
+      "pl": "Przykro mi, że jesteś chory.",
+      "de": "Es tut mir leid, dass du krank bist.",
+      "level": "B1"
+    },
+    {
+      "en": "They announce that the shop is closing.",
+      "pl": "Oni ogłaszają, że sklep jest zamykany.",
+      "de": "Sie geben bekannt, dass das Geschäft schließt.",
+      "level": "B1"
+    },
+    {
+      "en": "It is a pity that we have no time.",
+      "pl": "Szkoda, że nie mamy czasu.",
+      "de": "Es ist schade, dass wir keine Zeit haben.",
       "level": "B1"
     },
     {
@@ -24392,7 +24452,7 @@
     },
     {
       "en": "The investigation reveals that confidential data was leaked.",
-      "pl": "Śledztwo ujawnia, że wyciekły poufne dane.",
+      "pl": "Dochodzenie ujawnia, że wyciekły poufne dane.",
       "de": "Die Untersuchung ergibt, dass vertrauliche Daten durchsickerten.",
       "level": "B2"
     },
@@ -24428,32 +24488,26 @@
     },
     {
       "en": "She assumes that the client will call later.",
-      "pl": "Ona przypuszcza, że klient zadzwoni później.",
+      "pl": "Ona zakłada, że klient zadzwoni później.",
       "de": "Sie nimmt an, dass der Kunde später anrufen wird.",
-      "level": "B1"
+      "level": "B2"
     },
     {
-      "en": "He feels that the atmosphere is tense.",
-      "pl": "On czuje, że atmosfera jest napięta.",
-      "de": "Er spürt, dass die Atmosphäre angespannt ist.",
-      "level": "B1"
+      "en": "He feels that the atmosphere in the office is tense.",
+      "pl": "On czuje, że atmosfera w biurze jest napięta.",
+      "de": "Er spürt, dass die Atmosphäre im Büro angespannt ist.",
+      "level": "B2"
     },
     {
-      "en": "We see that the measures are working.",
-      "pl": "Widzimy, że środki działają.",
-      "de": "Wir sehen, dass die Maßnahmen wirken.",
-      "level": "B1"
+      "en": "We see that the measures are finally working.",
+      "pl": "Widzimy, że środki wreszcie działają.",
+      "de": "Wir sehen, dass die Maßnahmen endlich wirken.",
+      "level": "B2"
     },
     {
       "en": "I expect that you will finish the report today.",
       "pl": "Oczekuję, że skończysz raport dzisiaj.",
       "de": "Ich erwarte, dass du den Bericht heute fertigstellst.",
-      "level": "B1"
-    },
-    {
-      "en": "Experts warn that infrastructure could be damaged.",
-      "pl": "Eksperci ostrzegają, że infrastruktura mogłaby zostać uszkodzona.",
-      "de": "Experten warnen, dass Infrastruktur beschädigt werden könnte.",
       "level": "B2"
     },
     {
@@ -24475,12 +24529,6 @@
       "level": "B2"
     },
     {
-      "en": "The report indicates that investments have increased.",
-      "pl": "Raport wskazuje, że inwestycje wzrosły.",
-      "de": "Der Bericht zeigt an, dass die Investitionen gestiegen sind.",
-      "level": "B2"
-    },
-    {
       "en": "It is widely known that the region is rich in resources.",
       "pl": "Powszechnie wiadomo, że region jest bogaty w zasoby.",
       "de": "Es ist allgemein bekannt, dass die Region rohstoffreich ist.",
@@ -24494,7 +24542,7 @@
     },
     {
       "en": "He suspected that someone had leaked the information.",
-      "pl": "On podejrzewał, że ktoś wyciekł informacje.",
+      "pl": "On podejrzewał, że ktoś wyniósł informacje.",
       "de": "Er vermutete, dass jemand die Informationen weitergegeben hatte.",
       "level": "B2"
     },
@@ -24506,7 +24554,7 @@
     },
     {
       "en": "We discovered that the system had been compromised.",
-      "pl": "Odkryliśmy, że system został skompromitowany.",
+      "pl": "Odkryliśmy, że system został naruszony.",
       "de": "Wir stellten fest, dass das System kompromittiert worden war.",
       "level": "B2"
     },
@@ -24532,60 +24580,6 @@
       "en": "She mentioned that the contract had already been signed.",
       "pl": "Ona wspomniała, że umowa została już podpisana.",
       "de": "Sie erwähnte, dass der Vertrag bereits unterzeichnet worden war.",
-      "level": "B2"
-    },
-    {
-      "en": "He proved that the calculation was correct.",
-      "pl": "On udowodnił, że obliczenie było poprawne.",
-      "de": "Er wies nach, dass die Berechnung korrekt war.",
-      "level": "B2"
-    },
-    {
-      "en": "She recommended that we postpone the decision.",
-      "pl": "Ona zaleciła, abyśmy odłożyli decyzję.",
-      "de": "Sie empfahl, dass wir die Entscheidung verschieben.",
-      "level": "B2"
-    },
-    {
-      "en": "We fear that the delivery will be delayed.",
-      "pl": "Obawiamy się, że dostawa opóźni się.",
-      "de": "Wir befürchten, dass sich die Lieferung verzögern wird.",
-      "level": "B2"
-    },
-    {
-      "en": "The report highlights the fact that small businesses struggle.",
-      "pl": "Raport podkreśla fakt, że małe przedsiębiorstwa mają trudności.",
-      "de": "Der Bericht hebt die Tatsache hervor, dass kleine Unternehmen kämpfen.",
-      "level": "B2"
-    },
-    {
-      "en": "She noted that the rules had changed.",
-      "pl": "Ona zauważyła, że zasady się zmieniły.",
-      "de": "Sie merkte an, dass sich die Regeln geändert hatten.",
-      "level": "B2"
-    },
-    {
-      "en": "The board decided that the investment should be increased.",
-      "pl": "Zarząd zdecydował, że inwestycja powinna zostać zwiększona.",
-      "de": "Der Vorstand beschloss, dass die Investition erhöht werden sollte.",
-      "level": "B2"
-    },
-    {
-      "en": "She complained that the service was too slow.",
-      "pl": "Ona narzekała, że obsługa była zbyt wolna.",
-      "de": "Sie beklagte, dass der Service zu langsam war.",
-      "level": "B2"
-    },
-    {
-      "en": "He stressed that security is our top priority.",
-      "pl": "On podkreślił, że bezpieczeństwo jest naszym najwyższym priorytetem.",
-      "de": "Er betonte, dass Sicherheit unsere oberste Priorität hat.",
-      "level": "B2"
-    },
-    {
-      "en": "They guaranteed that the product is free of defects.",
-      "pl": "Oni zagwarantowali, że produkt jest wolny od wad.",
-      "de": "Sie garantierten, dass das Produkt frei von Mängeln ist.",
       "level": "B2"
     },
     {
@@ -24619,30 +24613,6 @@
       "level": "C1"
     },
     {
-      "en": "She emphasized that all employees must comply with the guidelines.",
-      "pl": "Ona podkreśliła, że wszyscy pracownicy muszą przestrzegać wytycznych.",
-      "de": "Sie hob hervor, dass alle Mitarbeiter die Richtlinien einhalten müssen.",
-      "level": "B2"
-    },
-    {
-      "en": "He suggested that we postpone the meeting to next week.",
-      "pl": "On zasugerował, abyśmy przełożyli spotkanie na następny tydzień.",
-      "de": "Er schlug vor, dass wir das Treffen auf nächste Woche verschieben.",
-      "level": "B2"
-    },
-    {
-      "en": "The analysis confirms that the market is growing rapidly.",
-      "pl": "Analiza potwierdza, że rynek szybko rośnie.",
-      "de": "Die Analyse bestätigt, dass der Markt rasant wächst.",
-      "level": "B2"
-    },
-    {
-      "en": "We regret that we cannot accept your offer.",
-      "pl": "Żałujemy, że nie możemy przyjąć Państwa oferty.",
-      "de": "Wir bedauern, dass wir Ihr Angebot nicht annehmen können.",
-      "level": "B2"
-    },
-    {
       "en": "The findings substantiate the claim that the system is vulnerable.",
       "pl": "Wyniki potwierdzają twierdzenie, że system jest podatny na zagrożenia.",
       "de": "Die Befunde untermauern die Behauptung, dass das System anfällig ist.",
@@ -24662,7 +24632,7 @@
     },
     {
       "en": "It remains doubtful whether the targets can be met.",
-      "pl": "Pozostaje w sferze wątpliwości, czy cele mogą zostać osiągnięte.",
+      "pl": "Pozostaje wątpliwe, czy cele mogą zostać osiągnięte.",
       "de": "Es verbleibt im Zweifel, dass die Ziele erreicht werden können.",
       "level": "C1"
     },
@@ -24685,9 +24655,9 @@
       "level": "C1"
     },
     {
-      "en": "It is imperative that security protocols be updated.",
-      "pl": "Bezwzględnie konieczne jest zaktualizowanie protokołów bezpieczeństwa.",
-      "de": "Es ist geboten, dass die Sicherheitsprotokolle aktualisiert werden.",
+      "en": "It is imperative that security protocols be updated immediately.",
+      "pl": "Bezwzględnie konieczne jest natychmiastowe zaktualizowanie protokołów bezpieczeństwa.",
+      "de": "Es ist zwingend erforderlich, dass die Sicherheitsprotokolle sofort aktualisiert werden.",
       "level": "C1"
     },
     {
@@ -24700,96 +24670,6 @@
       "en": "Critics contend that the measures do not go far enough.",
       "pl": "Krytycy utrzymują, że środki te nie idą wystarczająco daleko.",
       "de": "Kritiker monieren, dass die Maßnahmen nicht weit genug gehen.",
-      "level": "C1"
-    },
-    {
-      "en": "It is evident that the regulatory framework requires revision.",
-      "pl": "Jest oczywiste, że ramy regulacyjne wymagają rewizji.",
-      "de": "Es ist offenkundig, dass der regulatorische Rahmen einer Überarbeitung bedarf.",
-      "level": "C1"
-    },
-    {
-      "en": "The ministry conceded that delays could not be ruled out entirely.",
-      "pl": "Ministerstwo przyznało, że nie można całkowicie wykluczyć opóźnień.",
-      "de": "Das Ministerium räumte ein, dass Verzögerungen nicht gänzlich ausgeschlossen werden konnten.",
-      "level": "C1"
-    },
-    {
-      "en": "It transpired that the data had been manipulated.",
-      "pl": "Okazało się, że dane zostały zmanipulowane.",
-      "de": "Es stellte sich heraus, dass die Daten manipuliert worden waren.",
-      "level": "C1"
-    },
-    {
-      "en": "The union demanded that wages be raised immediately.",
-      "pl": "Związek zawodowy zażądał natychmiastowego podniesienia płac.",
-      "de": "Die Gewerkschaft forderte, dass die Löhne sofort erhöht werden.",
-      "level": "C1"
-    },
-    {
-      "en": "Analysts anticipated that the profit margin would shrink.",
-      "pl": "Analitycy przewidywali, że marża zysku skurczy się.",
-      "de": "Analysten prognostizierten, dass die Gewinnmarge schrumpfen würde.",
-      "level": "C1"
-    },
-    {
-      "en": "The committee resolved that the proposal required further revision.",
-      "pl": "Komisja postanowiła, że propozycja wymaga dalszej rewizji.",
-      "de": "Der Ausschuss beschloss, dass der Vorschlag einer weiteren Überarbeitung bedurfte.",
-      "level": "C1"
-    },
-    {
-      "en": "She implied that her colleagues had withheld vital information.",
-      "pl": "Ona zasugerowała, że jej koledzy zataili istotne informacje.",
-      "de": "Sie thematisierte, dass ihre Kollegen entscheidende Informationen zurückgehalten hatten.",
-      "level": "C1"
-    },
-    {
-      "en": "He reiterated that compliance was non-negotiable.",
-      "pl": "On powtórzył, że przestrzeganie przepisów nie podlega negocjacjom.",
-      "de": "Er bekräftigte, dass die Einhaltung der Vorschriften nicht verhandelbar sei.",
-      "level": "C1"
-    },
-    {
-      "en": "The spokesman clarified that no final decision had been reached.",
-      "pl": "Rzecznik wyjaśnił, że ostateczna decyzja nie została podjęta.",
-      "de": "Der Sprecher stellte klar, dass noch keine endgültige Entscheidung getroffen worden war.",
-      "level": "C1"
-    },
-    {
-      "en": "Experience shows that such transitions take time.",
-      "pl": "Doświadczenie pokazuje, że takie transformacje wymagają czasu.",
-      "de": "Die Erfahrung lehrt, dass solche Übergänge ihre Zeit brauchen.",
-      "level": "C1"
-    },
-    {
-      "en": "It is imperative that all departments cooperate closely.",
-      "pl": "Jest imperatywne, aby wszystkie działy ściśle współpracowały.",
-      "de": "Es ist zwingend erforderlich, dass alle Abteilungen eng zusammenarbeiten.",
-      "level": "C1"
-    },
-    {
-      "en": "The Chancellor emphasized that European solidarity remains essential.",
-      "pl": "Kanclerz podkreślił, że europejska solidarność pozostaje niezastąpiona.",
-      "de": "Der Bundeskanzler hob hervor, dass die europäische Solidarität unerlässlich bleibt.",
-      "level": "C1"
-    },
-    {
-      "en": "Research demonstrates that early intervention yields better outcomes.",
-      "pl": "Badania wykazują, że wczesna interwencja przynosi lepsze rezultaty.",
-      "de": "Untersuchungen belegen, dass ein frühzeitiger Eingriff bessere Ergebnisse liefert.",
-      "level": "C1"
-    },
-    {
-      "en": "The document stipulates that subcontractors must meet strict standards.",
-      "pl": "Dokument zastrzega, że podwykonawcy muszą spełniać surowe normy.",
-      "de": "Das Dokument schreibt vor, dass Nachunternehmer strenge Standards erfüllen müssen.",
-      "level": "C1"
-    },
-    {
-      "en": "The prosecution argued that the defendant had acted with full intent.",
-      "pl": "Oskarżenie argumentowało, że oskarżony działał z pełnym zamiarem.",
-      "de": "Die Staatsanwaltschaft argumentierte, dass der Angeklagte mit voller Absicht gehandelt habe.",
       "level": "C1"
     },
     {
@@ -24857,48 +24737,48 @@
     "audioUrl": "https://radiodownloaddw-a.akamaihd.net/downloads/Events/dwelle/dira/mp3/deutschkurse/nachrichten_live/E93C0B14_2.mp3",
     "articles": [
       {
-        "heading": "Europaweite [[Jugendproteste|1]] erfassen auch Deutschland",
-        "text": "In mehr als 30 deutschen Städten sind an diesem Samstag Demonstrationen für die Anliegen junger Menschen geplant. Die Kundgebungen richten sich unter anderem gegen steigende [[Lebenshaltungskosten|2]], Kürzungen im Bildungsbereich und eine mögliche [[Wehrpflicht|3]]. Erwartet werden zehntausende Teilnehmer. Zu den Protesten aufgerufen hat die Initiative „GenZ regelt“, ein loser [[Zusammenschluss|4]] junger Menschen, die sich vorwiegend über die sozialen Medien koordinieren. Es wurden Befürchtungen laut, dass die Demonstrationen ähnlich wie zuletzt in Frankreich in Gewalt umschlagen könnten. Die Organisatoren richteten deshalb an die Teilnehmer den [[Appell|5]], friedlich zu bleiben."
+        "heading": "Europaweite Jugendproteste erfassen auch Deutschland",
+        "text": "In mehr als 30 deutschen Städten sind an diesem Samstag Demonstrationen für die Anliegen junger Menschen geplant. Die [[Kundgebungen|1]] richten sich unter anderem gegen steigende [[Lebenshaltungskosten|2]], Kürzungen im Bildungsbereich und eine mögliche [[Wehrpflicht|3]]. Erwartet werden zehntausende Teilnehmer. Zu den Protesten aufgerufen hat die Initiative „GenZ regelt“, ein loser [[Zusammenschluss|4]] junger Menschen, die sich vorwiegend über die sozialen Medien koordinieren. Es wurden Befürchtungen laut, dass die Demonstrationen ähnlich wie zuletzt in Frankreich in Gewalt umschlagen könnten. Die Organisatoren richteten deshalb an die Teilnehmer den [[Appell|5]], friedlich zu bleiben."
       },
       {
         "heading": "EU und Kanada schmieden eine neue „[[Allianz|6]]“",
-        "text": "Die Europäische Union und Kanada haben eine sogenannte „Allianz für die Zukunft“ begründet. Zum Abschluss ihres zweitägigen Gipfels in Montreal brachten beide Seiten zahlreiche Projekte auf den Weg. Sie sollen unter anderem die Abhängigkeit von Großmächten wie China und den USA bei Künstlicher Intelligenz und kritischen [[Rohstoffen|7]] verringern. In den kommenden Monaten würden Umfang und Ausgestaltung einer, so wörtlich, „immer engeren [[Assoziierung|8]]“ definiert, heißt es in einer gemeinsamen Gipfelerklärung. Dazu gehöre auch, politische Maßnahmen und [[Verwaltungsstrukturen|9]] stärker aufeinander abzustimmen, erläuterte EU-Kommissionspräsidentin Ursula von der Leyen."
+        "text": "Die Europäische Union und Kanada haben eine sogenannte „Allianz für die Zukunft“ begründet. Zum Abschluss ihres zweitägigen Gipfels in Montreal brachten beide Seiten zahlreiche Projekte auf den Weg. Sie sollen unter anderem die Abhängigkeit von Großmächten wie China und den USA bei Künstlicher Intelligenz und kritischen [[Rohstoffen|7]] verringern. In den kommenden Monaten würden Umfang und Ausgestaltung einer, so wörtlich, „immer engeren [[Assoziierung|8]]“ definiert, heißt es in einer gemeinsamen Gipfelerklärung. Dazu gehöre auch, politische Maßnahmen und Verwaltungsstrukturen stärker aufeinander abzustimmen, erläuterte EU-Kommissionspräsidentin Ursula von der Leyen."
       },
       {
-        "heading": "Ukraine soll [[Nachschub|5]] an Patriot-Raketen erhalten",
-        "text": "Die US-Regierung hat grünes Licht für die Lieferung von 500 Raketen des Flugabwehrsystems Patriot an die Ukraine gegeben. Die Raketen hätten einen geschätzten Wert von 2,1 Milliarden Dollar, teilte das [[Außenministerium|11]] in Washington mit. Ihr Kauf werde komplett von Verbündeten der Ukraine finanziert. Nach US-Angaben beteiligen sich unter anderem Deutschland, Kanada und Norwegen an den Kosten. Systeme vom Typ Patriot gelten als besonders wirksam bei der [[Abwehr|12]] ballistischer Raketen, die Russland in seinem Angriffskrieg gegen die Ukraine einsetzt. Der ukrainische Präsident Wolodymyr Selenskyj begrüßte die Entscheidung der USA, warnte jedoch vor einem Lieferbeginn erst in einigen Jahren."
+        "heading": "Ukraine soll [[Nachschub|9]] an Patriot-Raketen erhalten",
+        "text": "Die US-Regierung hat grünes Licht für die Lieferung von 500 Raketen des Flugabwehrsystems Patriot an die Ukraine gegeben. Die Raketen hätten einen geschätzten Wert von 2,1 Milliarden Dollar, teilte das Außenministerium in Washington mit. Ihr Kauf werde komplett von Verbündeten der Ukraine finanziert. Nach US-Angaben beteiligen sich unter anderem Deutschland, Kanada und Norwegen an den Kosten. Systeme vom Typ Patriot gelten als besonders wirksam bei der [[Abwehr|10]] ballistischer Raketen, die Russland in seinem Angriffskrieg gegen die Ukraine einsetzt. Der ukrainische Präsident Wolodymyr Selenskyj begrüßte die Entscheidung der USA, warnte jedoch vor einem Lieferbeginn erst in einigen Jahren."
       },
       {
-        "heading": "Festnahme von Ex-BND-Chef irritierte US-[[Geheimdienste|14]]",
-        "text": "Nach der Anfang Oktober erfolgten [[Festnahme|13]] des früheren Präsidenten des Bundesnachrichtendienstes, August Hanning, haben amerikanische Geheimdienste Deutschland vor Konsequenzen gewarnt. Laut Recherchen der Sender WDR und NDR sowie der „Süddeutschen Zeitung“ lautete die Botschaft aus den USA, der deutsche Auslandsgeheimdienst sei zwar weiterhin ein wichtiger Partner, die bisherige Kooperation komme aber auf den Prüfstand. Nach Informationen der Deutschen Presse-Agentur hatte die Warnung bisher jedoch keine Konsequenzen. Hanning wird beschuldigt, vertrauliche Informationen, die er von einem früheren Mitarbeiter erhielt, verkauft zu haben. Er sitzt wegen Spionageverdachts in [[Untersuchungshaft|15]]."
+        "heading": "[[Festnahme|11]] von Ex-BND-Chef irritierte US-[[Geheimdienste|12]]",
+        "text": "Nach der Anfang Oktober erfolgten Festnahme des früheren Präsidenten des Bundesnachrichtendienstes, August Hanning, haben amerikanische Geheimdienste Deutschland vor Konsequenzen gewarnt. Laut Recherchen der Sender WDR und NDR sowie der „Süddeutschen Zeitung“ lautete die Botschaft aus den USA, der deutsche Auslandsgeheimdienst sei zwar weiterhin ein wichtiger Partner, die bisherige Kooperation komme aber auf den Prüfstand. Nach Informationen der Deutschen Presse-Agentur hatte die Warnung bisher jedoch keine Konsequenzen. Hanning wird beschuldigt, vertrauliche Informationen, die er von einem früheren Mitarbeiter erhielt, verkauft zu haben. Er sitzt wegen Spionageverdachts in [[Untersuchungshaft|13]]."
       },
       {
-        "heading": "Papst nimmt an Midterms vorab per [[Briefwahl|7]] teil",
+        "heading": "Papst nimmt an Midterms vorab per [[Briefwahl|14]] teil",
         "text": "Papst Leo XIV. hat seine Stimme für die Zwischenwahlen zum US-Kongress abgegeben. Der Pontifex habe sein Wahlrecht als Bürger der Vereinigten Staaten per Briefwahl wahrgenommen, teilte der Vatikan mit. Weiter hieß es aus Rom, Leo glaube an das Recht und die Pflicht, sich an demokratischen Prozessen zu beteiligen. Es ist das erste Mal, dass die Teilnahme eines amtierenden Papstes an einer politischen Wahl öffentlich bekannt wird. Der Papst war in der Vergangenheit öfter mit US-Präsident Donald Trump aneinandergeraten."
       },
       {
         "heading": "Studie beklagt Geburtenrückgang in der Bundesrepublik",
-        "text": "Noch nie seit Ende des Zweiten Weltkriegs sind in Deutschland so wenige Kinder geboren worden wie im vergangenen Jahr. Bundesweit kamen 2025 nur noch rund 654.000 Kinder zur Welt, rund elf Prozent weniger als noch zehn Jahre zuvor. In den ostdeutschen Flächenländern ging die Zahl der Geburten in diesem Zeitraum sogar um ein Drittel zurück, wie eine Studie des Instituts der Deutschen Wirtschaft verdeutlicht. Eine rasche [[Trendwende|8]] ist demnach nicht in Sicht. Denn bis 2035 dürfte die Zahl der Frauen zwischen 25 und 39 Jahren bundesweit um rund ein Zehntel sinken. Schon deshalb könnten dann deutlich weniger Paare Eltern werden, betont das Kölner Institut."
+        "text": "Noch nie seit Ende des Zweiten Weltkriegs sind in Deutschland so wenige Kinder geboren worden wie im vergangenen Jahr. Bundesweit kamen 2025 nur noch rund 654.000 Kinder zur Welt, rund elf Prozent weniger als noch zehn Jahre zuvor. In den ostdeutschen Flächenländern ging die Zahl der Geburten in diesem Zeitraum sogar um ein Drittel zurück, wie eine Studie des Instituts der Deutschen Wirtschaft verdeutlicht. Eine rasche [[Trendwende|15]] ist demnach nicht in Sicht. Denn bis 2035 dürfte die Zahl der Frauen zwischen 25 und 39 Jahren bundesweit um rund ein Zehntel sinken. Schon deshalb könnten dann deutlich weniger Paare Eltern werden, betont das Kölner Institut."
       }
     ],
     "vocab": [
       {
         "id": 1,
-        "word": "die Jugendproteste",
+        "word": "die Kundgebung",
         "translation": {
-          "en": "youth protests",
-          "pl": "protesty młodzieżowe"
+          "en": "rally, demonstration",
+          "pl": "wiec, manifestacja"
         },
         "partOfSpeech": "Noun",
         "level": "B2",
-        "plural": "die Jugendproteste",
+        "plural": "die Kundgebungen",
         "notes": {
-          "en": "Plural noun referring to protests organized or joined by young people.",
-          "pl": "Rzeczownik w liczbie mnogiej odnoszący się do protestów młodzieży."
+          "en": "A public meeting or march expressing a political view.",
+          "pl": "Publiczne zgromadzenie lub marsz wyrażający poglądy polityczne."
         },
         "examples": [
-          "Die Jugendproteste erstreckten sich über das gesamte Land.",
-          "Politiker reagierten auf die Forderungen aus den Jugendprotesten."
+          "An der Kundgebung nahmen viele Menschen teil.",
+          "Die Polizei sicherte die Kundgebung in der Innenstadt ab."
         ]
       },
       {
@@ -24924,38 +24804,38 @@
         "id": 3,
         "word": "die Wehrpflicht",
         "translation": {
-          "en": "conscription, military service",
-          "pl": "obowiązkowa służba wojskowa, powszechny pobór"
+          "en": "conscription, compulsory military service",
+          "pl": "obowiązkowa służba wojskowa, pobór"
         },
         "partOfSpeech": "Noun",
         "level": "C1",
         "plural": "",
         "notes": {
-          "en": "Compulsory military service for citizens.",
-          "pl": "Obowiązkowa służba wojskowa dla obywateli."
+          "en": "Obligation to serve in the military.",
+          "pl": "Obowiązek służby w wojsku."
         },
         "examples": [
-          "Die Diskussion über die Wiedereinführung der Wehrpflicht dauert an.",
-          "Viele Jugendliche lehnen die Wehrpflicht ab."
+          "Einige Politiker fordern die Wiedereinführung der Wehrpflicht.",
+          "Die Abschaffung der Wehrpflicht liegt einige Jahre zurück."
         ]
       },
       {
         "id": 4,
         "word": "der Zusammenschluss",
         "translation": {
-          "en": "merger, coalition, association",
-          "pl": "zrzeszenie, połączenie, koalicja"
+          "en": "merger, alliance, coalition",
+          "pl": "związek, zrzeszenie, sojusz"
         },
         "partOfSpeech": "Noun",
         "level": "C1",
         "plural": "die Zusammenschlüsse",
         "notes": {
-          "en": "An alliance or coming together of organizations or people.",
-          "pl": "Sojusz lub połączenie organizacji albo ludzi."
+          "en": "An alliance or joining together of organizations or people.",
+          "pl": "Połączenie lub zrzeszenie organizacji bądź osób."
         },
         "examples": [
-          "Der Zusammenschluss verschiedener Firmen stärkt die Marktposition.",
-          "Ein neuer Zusammenschluss plant eine Demonstration."
+          "Der Zusammenschluss mehrerer Firmen stärkt die Marktposition.",
+          "Die Initiative versteht sich als loser Zusammenschluss."
         ]
       },
       {
@@ -24969,12 +24849,12 @@
         "level": "B2",
         "plural": "die Appelle",
         "notes": {
-          "en": "A serious or urgent request to the public or a group.",
-          "pl": "Poważna lub pilna prośba skierowana do opinii publicznej lub grupy."
+          "en": "A serious or urgent request to the public.",
+          "pl": "Poważna lub pilna prośba skierowana do opinii publicznej."
         },
         "examples": [
           "Die Regierung richtete einen Appell an die Bevölkerung.",
-          "Sein Appell für mehr Umweltschutz fand großen Zuspruch."
+          "Sein Appell für mehr Solidarität fand großen Zuspruch."
         ]
       },
       {
@@ -24993,7 +24873,7 @@
         },
         "examples": [
           "Beide Länder schlossen eine strategische Allianz.",
-          "Die Allianz soll den Frieden sichern."
+          "Die neue Allianz soll den Frieden sichern."
         ]
       },
       {
@@ -25007,12 +24887,12 @@
         "level": "B2",
         "plural": "die Rohstoffe",
         "notes": {
-          "en": "Basic material used to produce goods or energy.",
-          "pl": "Podstawowy materiał używany do produkcji towarów lub energii."
+          "en": "Basic material used to produce goods.",
+          "pl": "Podstawowy materiał używany do produkcji towarów."
         },
         "examples": [
           "Das Land importiert viele wichtige Rohstoffe.",
-          "Die Preise für Rohstoffe sind international gestiegen."
+          "Die Preise für Rohstoffe sind weltweit gestiegen."
         ]
       },
       {
@@ -25020,60 +24900,41 @@
         "word": "die Assoziierung",
         "translation": {
           "en": "association",
-          "pl": "stowarzyszenie, powiązanie"
+          "pl": "stowarzyszenie, asocjacja"
         },
         "partOfSpeech": "Noun",
         "level": "C1",
         "plural": "die Assoziierungen",
         "notes": {
-          "en": "Formal connection or partnership between states or entities.",
-          "pl": "Formalne połączenie lub partnerstwo między państwami lub podmiotami."
+          "en": "Formal connection or association between countries or bodies.",
+          "pl": "Formalne powiązanie lub stowarzyszenie między państwami."
         },
         "examples": [
           "Das Abkommen regelt die enge Assoziierung mit der EU.",
-          "Eine vertiefte Assoziierung bringt wirtschaftliche Vorteile."
+          "Die Assoziierung bringt dem Land wirtschaftliche Vorteile."
         ]
       },
       {
         "id": 9,
-        "word": "die Verwaltungsstruktur",
+        "word": "der Nachschub",
         "translation": {
-          "en": "administrative structure",
-          "pl": "struktura administracyjna"
+          "en": "supplies, reinforcements",
+          "pl": "zaopatrzenie, dostawa, posiłki"
         },
         "partOfSpeech": "Noun",
         "level": "C1",
-        "plural": "die Verwaltungsstrukturen",
+        "plural": "",
         "notes": {
-          "en": "The organizational framework of administration.",
-          "pl": "Ramy organizacyjne administracji."
+          "en": "Provision of supplies or military reinforcements.",
+          "pl": "Dostarczanie zaopatrzenia lub posiłków wojskowych."
         },
         "examples": [
-          "Die Verwaltungsstrukturen müssen modernisiert werden.",
-          "Effiziente Verwaltungsstrukturen sparen Zeit und Kosten."
+          "Die Truppen warten dringend auf neuen Nachschub.",
+          "Der Nachschub an Medikamenten muss gesichert werden."
         ]
       },
       {
-        "id": 11,
-        "word": "das Außenministerium",
-        "translation": {
-          "en": "Ministry of Foreign Affairs",
-          "pl": "ministerstwo spraw zagranicznych"
-        },
-        "partOfSpeech": "Noun",
-        "level": "B2",
-        "plural": "die Außenministerien",
-        "notes": {
-          "en": "Government department concerned with foreign policy.",
-          "pl": "Departament rządowy zajmujący się polityką zagraniczną."
-        },
-        "examples": [
-          "Das Außenministerium gab eine offizielle Erklärung ab.",
-          "Vertreter des Außenministeriums trafen sich zu Gesprächen."
-        ]
-      },
-      {
-        "id": 12,
+        "id": 10,
         "word": "die Abwehr",
         "translation": {
           "en": "defense, warding off",
@@ -25092,7 +24953,7 @@
         ]
       },
       {
-        "id": 13,
+        "id": 11,
         "word": "die Festnahme",
         "translation": {
           "en": "arrest, apprehension",
@@ -25107,11 +24968,11 @@
         },
         "examples": [
           "Die Festnahme des Verdächtigen erfolgte am Morgen.",
-          "Nach der Festnahme wurde er verhört."
+          "Nach der Festnahme wurde er stundenlang verhört."
         ]
       },
       {
-        "id": 14,
+        "id": 12,
         "word": "der Geheimdienst",
         "translation": {
           "en": "secret service, intelligence agency",
@@ -25126,14 +24987,14 @@
         },
         "examples": [
           "Der Geheimdienst warnte vor potenziellen Risiken.",
-          "Die Geheimdienste arbeiten eng zusammen."
+          "Beide Geheimdienste arbeiten seit Jahren eng zusammen."
         ]
       },
       {
-        "id": 15,
+        "id": 13,
         "word": "die Untersuchungshaft",
         "translation": {
-          "en": "remand detention, pretrial detention",
+          "en": "remand custody, pre-trial detention",
           "pl": "areszt śledczy"
         },
         "partOfSpeech": "Noun",
@@ -25144,8 +25005,46 @@
           "pl": "Pozbawienie wolności przed rozpoczęciem procesu."
         },
         "examples": [
-          "Der Verdächtige sitzt in Untersuchungshaft.",
-          "Das Gericht ordnete Untersuchungshaft an."
+          "Der Verdächtige sitzt momentan in Untersuchungshaft.",
+          "Das Gericht ordnete umgehend Untersuchungshaft an."
+        ]
+      },
+      {
+        "id": 14,
+        "word": "die Briefwahl",
+        "translation": {
+          "en": "postal voting",
+          "pl": "głosowanie korespondencyjne"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Briefwahlen",
+        "notes": {
+          "en": "Voting by mail in an election.",
+          "pl": "Oddawanie głosu za pośrednictwem poczty w wyborach."
+        },
+        "examples": [
+          "Immer mehr Bürger nutzen bei Wahlen die Briefwahl.",
+          "Die Frist für die Teilnahme an der Briefwahl endet am Freitag."
+        ]
+      },
+      {
+        "id": 15,
+        "word": "die Trendwende",
+        "translation": {
+          "en": "turning point, reversal of trend",
+          "pl": "zwrot w trendzie, przełom"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Trendwenden",
+        "notes": {
+          "en": "A fundamental change in direction or trend.",
+          "pl": "Fundamentalna zmiana dotychczasowego kierunku tendencji."
+        },
+        "examples": [
+          "Wirtschaftsexperten fordern eine politische Trendwende.",
+          "Bisher ist eine Trendwende auf dem Arbeitsmarkt nicht erkennbar."
         ]
       }
     ]
