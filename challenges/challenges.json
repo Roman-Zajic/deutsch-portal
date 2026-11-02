@@ -25828,5 +25828,994 @@
       "pl": "Jesteś moim nauczycielem języka niemieckiego i prowadzisz 20-minutową rozmowę na poziomie od B1 do C1 na ogólny temat: „Podejmowanie decyzji i codzienne niepewności”.\n\nZagadnienie gramatyczne do ćwiczenia: Pośrednie pytania o rozstrzygnięcie ze spójnikiem 'ob'.\n\nInstrukcje dla tutora AI:\n1. Rozpocznij rozmowę: przywitaj się i wprowadź dzisiejszy temat radzenia sobie z codziennymi wyborami, planami i niepewnością.\n2. Ty pytasz, ja mówię: zadawaj pytania pojedynczo, jedno lub dwa krótkie zdania, nigdy nie odpowiadaj na własne pytania. Mów po niemiecku na poziomie B1–C1; przechodź na polski tylko wtedy, gdy naprawdę utknę.\n3. Omawiaj różne aspekty tematu: planowanie przyszłości, ocenianie wyborów, poleganie na prognozach pogody oraz podejmowanie decyzji zawodowych.\n4. Zachęcaj mnie do używania pośrednich pytań o rozstrzygnięcie (np. 'Ich weiß nicht, ob...', 'Es hängt davon ab, ob...'), dbając o to, by odmieniony czasownik wędrował na sam koniec zdania podrzędnego.\n5. Pomysły na pytania (dostosuj je do moich odpowiedzi):\n   - Fragst du dich manchmal, ob du die richtige berufliche Entscheidung getroffen hast?\n   - Wovon hängt es ab, ob du am Wochenende einen Ausflug machst?\n   - Überlegst du oft lange, ob du etwas Teures kaufen sollst?\n6. Natychmiastowa korekta: jeśli popełnię błąd dotyczący dzisiejszej zasady (np. *Ich weiß nicht, ob er kommt heute.* zamiast *Ich weiß nicht, ob er heute kommt.*), na chwilę przerwij: zacytuj błąd, podaj poprawne zdanie, wyjaśnij zasadę w jednym zdaniu po polsku, poproś mnie o głośne powtórzenie poprawnego zdania przed następnym pytaniem.\n7. Krótko poprawiaj również inne istotne błędy; zanotuj powtarzające się błędy na podsumowanie. Jeśli moja odpowiedź jest bardzo krótka, zadaj jedno pytanie uzupełniające („Warum?“).\n8. Podsumowanie po około 20 minutach lub gdy powiem 'stop': dwie rzeczy, które zrobiłem dobrze, trzy główne błędy z poprawkami oraz jedno zdanie po niemiecku do głośnego powtórzenia.\n9. Utrzymuj angażujący, profesjonalny i naturalny ton, odpowiedni dla immersyjnego dialogu głosowego po niemiecku. Zwracaj się do mnie per „du”."
     }
   }
+},
+ {
+  "lesson": {
+    "id": "2026-11-02",
+    "date": "02.11.2026",
+    "day": 21,
+    "totalDays": 300,
+    "level": "B1",
+    "title": {
+      "en": "Indirect wh-questions and embedded question word order",
+      "pl": "Pytania pośrednie z zaimkiem pytającym i szyk zdania pobocznego"
+    },
+    "subtitle": "Indirekte W-Fragen und Nebensatz-Wortstellung"
+  },
+  "grammar": {
+    "html": {
+      "en": [
+        "<h3>What is an indirect wh-question?</h3><p>An indirect question is a question embedded inside another sentence. Instead of asking directly (e.g., <em>Wo wohnt er?</em> - Where does he live?), you make it dependent on an introductory phrase (e.g., <em>Ich weiß nicht, ...</em> - I don't know...). If the direct question starts with a question word (a \"wh-word\" like <em>wer, was, wann, wo, wie, warum, welcher</em>), you use this exact same word to connect the two clauses.</p>",
+        "<div class='box rule'><strong>Core rule:</strong> In an indirect question, the question word acts as a subordinating conjunction. This means the <strong>finite (conjugated) verb is pushed to the very end</strong> of the clause.</div>",
+        "<h3>Structure and word order</h3><p>The structure is always: <strong>Main clause + comma + question word + subject + ... + finite verb.</strong></p><ul><li>Direct: <em>Wann <strong>kommt</strong> der Zug <strong>an</strong>?</em> (When does the train arrive?)</li><li>Indirect: <em>Können Sie mir sagen, wann der Zug <strong>ankommt</strong>?</em> (Can you tell me when the train arrives?)</li><li>Direct: <em>Warum <strong>hat</strong> sie <strong>geweint</strong>?</em> (Why did she cry?)</li><li>Indirect: <em>Ich frage mich, warum sie <strong>geweint hat</strong>.</em> (I wonder why she cried.)</li></ul>",
+        "<h3>Questions with prepositions</h3><p>If the question word is combined with a preposition (e.g., <em>mit wem</em> - with whom, <em>worauf</em> - what on, <em>an wen</em> - to whom), the entire prepositional phrase moves to the beginning of the subordinate clause.</p><ul><li>Direct: <em>Mit wem <strong>spricht</strong> der Chef?</em> (Who is the boss talking to?)</li><li>Indirect: <em>Ich weiß nicht, mit wem der Chef <strong>spricht</strong>.</em> (I don't know who the boss is talking to.)</li></ul>",
+        "<table><thead><tr><th>Direct Question</th><th>Introductory Clause</th><th>Indirect Question</th></tr></thead><tbody><tr><td class='de'>Wie funktioniert das?</td><td>Er fragt,</td><td class='de'><strong>wie</strong> das <strong>funktioniert</strong>.</td></tr><tr><td class='de'>Woher kommen Sie?</td><td>Ich möchte wissen,</td><td class='de'><strong>woher</strong> Sie <strong>kommen</strong>.</td></tr><tr><td class='de'>Wie viel kostet es?</td><td>Weißt du,</td><td class='de'><strong>wie viel</strong> es <strong>kostet</strong>?</td></tr></tbody></table>",
+        "<div class='box warn'><strong>Common mistake: Keeping V2 word order</strong><p>✗ Ich weiß nicht, wo wohnt er.</p><p>✓ Ich weiß nicht, wo er <strong>wohnt</strong>.</p><p>Never keep the verb directly after the question word in an indirect question. The conjugated verb belongs at the end.</p></div>",
+        "<div class='box tip'><strong>Memory aid: Comma, Question Word, End Verb</strong><p>When forming an indirect question, always place a comma before the question word, and throw the conjugated verb all the way to the end of the sentence.</p></div>",
+        "<h3>Quick reference</h3><div class='tiles'><div class='tile'><strong>Simple tense</strong><p><em>Er fragt, wer heute <strong>kommt</strong>.</em></p></div><div class='tile'><strong>Perfect tense</strong><p><em>Ich weiß, was er <strong>getan hat</strong>.</em></p></div><div class='tile'><strong>Modal verb</strong><p><em>Weißt du, wo ich <strong>parken darf</strong>?</em></p></div><div class='tile'><strong>Separable verb</strong><p><em>Ich frage, wann er <strong>abfährt</strong>.</em></p></div></div>"
+      ],
+      "pl": [
+        "<h3>Czym jest pytanie pośrednie z zaimkiem pytającym?</h3><p>Pytanie pośrednie to pytanie wplecione w inne zdanie. Zamiast pytać bezpośrednio (np. <em>Wo wohnt er?</em> - Gdzie on mieszka?), uzależniasz je od zdania wprowadzającego (np. <em>Ich weiß nicht, ...</em> - Nie wiem...). Jeśli bezpośrednie pytanie zaczyna się od zaimka pytającego (słowa na literę \"w\", jak <em>wer, was, wann, wo, wie, warum, welcher</em>), używasz dokładnie tego samego słowa, aby połączyć oba zdania.</p>",
+        "<div class='box rule'><strong>Główna zasada:</strong> W pytaniu pośrednim zaimek pytający pełni funkcję spójnika podrzędnego. Oznacza to, że <strong>odmieniony czasownik zostaje zepchnięty na sam koniec</strong> zdania.</div>",
+        "<h3>Struktura i szyk wyrazów</h3><p>Struktura to zawsze: <strong>Zdanie główne + przecinek + zaimek pytający + podmiot + ... + czasownik odmieniony.</strong></p><ul><li>Bezpośrednie: <em>Wann <strong>kommt</strong> der Zug <strong>an</strong>?</em> (Kiedy przyjeżdża pociąg?)</li><li>Pośrednie: <em>Können Sie mir sagen, wann der Zug <strong>ankommt</strong>?</em> (Może mi pan powiedzieć, kiedy przyjeżdża pociąg?)</li><li>Bezpośrednie: <em>Warum <strong>hat</strong> sie <strong>geweint</strong>?</em> (Dlaczego ona płakała?)</li><li>Pośrednie: <em>Ich frage mich, warum sie <strong>geweint hat</strong>.</em> (Zastanawiam się, dlaczego ona płakała.)</li></ul>",
+        "<h3>Pytania z przyimkami</h3><p>Jeśli słowo pytające jest połączone z przyimkiem (np. <em>mit wem</em> - z kim, <em>worauf</em> - na co, <em>an wen</em> - do kogo), całe wyrażenie przyimkowe przenosi się na początek zdania podrzędnego.</p><ul><li>Bezpośrednie: <em>Mit wem <strong>spricht</strong> der Chef?</em> (Z kim rozmawia szef?)</li><li>Pośrednie: <em>Ich weiß nicht, mit wem der Chef <strong>spricht</strong>.</em> (Nie wiem, z kim rozmawia szef.)</li></ul>",
+        "<table><thead><tr><th>Pytanie bezpośrednie</th><th>Zdanie wprowadzające</th><th>Pytanie pośrednie</th></tr></thead><tbody><tr><td class='de'>Wie funktioniert das?</td><td>Er fragt,</td><td class='de'><strong>wie</strong> das <strong>funktioniert</strong>.</td></tr><tr><td class='de'>Woher kommen Sie?</td><td>Ich möchte wissen,</td><td class='de'><strong>woher</strong> Sie <strong>kommen</strong>.</td></tr><tr><td class='de'>Wie viel kostet es?</td><td>Weißt du,</td><td class='de'><strong>wie viel</strong> es <strong>kostet</strong>?</td></tr></tbody></table>",
+        "<div class='box warn'><strong>Typowy błąd: Zachowanie szyku V2</strong><p>✗ Ich weiß nicht, wo wohnt er.</p><p>✓ Ich weiß nicht, wo er <strong>wohnt</strong>.</p><p>W pytaniu pośrednim nigdy nie zostawiaj czasownika zaraz po słowie pytającym. Odmieniony czasownik ma swoje miejsce na końcu zdania.</p></div>",
+        "<div class='box tip'><strong>Pomoc w zapamiętaniu: Przecinek, słowo pytające, czasownik na końcu</strong><p>Tworząc pytanie pośrednie, zawsze stawiaj przecinek przed słowem pytającym, a odmieniony czasownik wyrzuć na sam koniec zdania.</p></div>",
+        "<h3>Szybki przegląd</h3><div class='tiles'><div class='tile'><strong>Czas prosty</strong><p><em>Er fragt, wer heute <strong>kommt</strong>.</em></p></div><div class='tile'><strong>Czas Perfekt</strong><p><em>Ich weiß, was er <strong>getan hat</strong>.</em></p></div><div class='tile'><strong>Czasownik modalny</strong><p><em>Weißt du, wo ich <strong>parken darf</strong>?</em></p></div><div class='tile'><strong>Czasownik rozdzielnie złożony</strong><p><em>Ich frage, wann er <strong>abfährt</strong>.</em></p></div></div>"
+      ]
+    }
+  },
+  "examples": [
+    {
+      "de": "Ich weiß nicht, **wo er wohnt**.",
+      "en": "I don't know where he lives.",
+      "pl": "Nie wiem, gdzie on mieszka.",
+      "level": "A2"
+    },
+    {
+      "de": "Kannst du mir sagen, **wann der Zug ankommt**?",
+      "en": "Can you tell me when the train arrives?",
+      "pl": "Możesz mi powiedzieć, kiedy przyjeżdża pociąg?",
+      "level": "A2"
+    },
+    {
+      "de": "Er fragt, **was das ist**.",
+      "en": "He asks what that is.",
+      "pl": "On pyta, co to jest.",
+      "level": "A2"
+    },
+    {
+      "de": "Sie will wissen, **warum du weinst**.",
+      "en": "She wants to know why you are crying.",
+      "pl": "Ona chce wiedzieć, dlaczego płaczesz.",
+      "level": "A2"
+    },
+    {
+      "de": "Wir verstehen nicht, **wie das funktioniert**.",
+      "en": "We don't understand how this works.",
+      "pl": "Nie rozumiemy, jak to działa.",
+      "level": "A2"
+    },
+    {
+      "de": "Weißt du, **welcher Bus zum Bahnhof fährt**?",
+      "en": "Do you know which bus goes to the station?",
+      "pl": "Wiesz, który autobus jedzie na dworzec?",
+      "level": "B1"
+    },
+    {
+      "de": "Ich erinnere mich nicht, **wo ich mein Auto geparkt habe**.",
+      "en": "I don't remember where I parked my car.",
+      "pl": "Nie pamiętam, gdzie zaparkowałem mój samochód.",
+      "level": "B1"
+    },
+    {
+      "de": "Der Chef fragt, **warum der Bericht noch nicht fertig ist**.",
+      "en": "The boss asks why the report is not ready yet.",
+      "pl": "Szef pyta, dlaczego raport nie jest jeszcze gotowy.",
+      "level": "B1"
+    },
+    {
+      "de": "Könnten Sie mir erklären, **wie man dieses Formular ausfüllt**?",
+      "en": "Could you explain to me how to fill out this form?",
+      "pl": "Mógłby mi pan wyjaśnić, jak wypełnia się ten formularz?",
+      "level": "B1"
+    },
+    {
+      "de": "Wir müssen klären, **wer die Rechnung bezahlt**.",
+      "en": "We need to clarify who is paying the bill.",
+      "pl": "Musimy wyjaśnić, kto płaci rachunek.",
+      "level": "B1"
+    },
+    {
+      "de": "Ich habe keine Ahnung, **wie lange die Reparatur dauert**.",
+      "en": "I have no idea how long the repair will take.",
+      "pl": "Nie mam pojęcia, jak długo potrwa naprawa.",
+      "level": "B1"
+    },
+    {
+      "de": "Sie fragt, **mit wem du gestern gesprochen hast**.",
+      "en": "She asks who you spoke with yesterday.",
+      "pl": "Ona pyta, z kim wczoraj rozmawiałeś.",
+      "level": "B1"
+    },
+    {
+      "de": "Die entscheidende Frage ist, **wie wir die Kosten reduzieren können**.",
+      "en": "The crucial question is how we can reduce the costs.",
+      "pl": "Kluczowym pytaniem jest to, jak możemy obniżyć koszty.",
+      "level": "B2"
+    },
+    {
+      "de": "Es wird derzeit untersucht, **warum das System plötzlich abgestürzt ist**.",
+      "en": "It is currently being investigated why the system suddenly crashed.",
+      "pl": "Obecnie bada się, dlaczego system nagle się zawiesił.",
+      "level": "B2"
+    },
+    {
+      "de": "Ich kann mir nicht vorstellen, **wie er das alles alleine geschafft hat**.",
+      "en": "I can't imagine how he managed all of that alone.",
+      "pl": "Nie potrafię sobie wyobrazić, jak on to wszystko sam ogarnął.",
+      "level": "B2"
+    },
+    {
+      "de": "Man sollte gut überlegen, **welche Konsequenzen dieses Handeln haben wird**.",
+      "en": "One should carefully consider what consequences this action will have.",
+      "pl": "Należy dobrze przemyśleć, jakie konsekwencje będzie miało to działanie.",
+      "level": "B2"
+    },
+    {
+      "de": "Es ist noch nicht bekannt, **wer zum neuen Geschäftsführer ernannt wird**.",
+      "en": "It is not yet known who will be appointed as the new CEO.",
+      "pl": "Jeszcze nie wiadomo, kto zostanie mianowany nowym dyrektorem zarządzającym.",
+      "level": "B2"
+    },
+    {
+      "de": "Wir analysieren gerade, **worauf diese positiven Ergebnisse basieren**.",
+      "en": "We are currently analyzing what these positive results are based on.",
+      "pl": "Obecnie analizujemy, na czym opierają się te pozytywne wyniki.",
+      "level": "B2"
+    },
+    {
+      "de": "Die Journalisten fragten den Politiker, **weshalb er sein Versprechen gebrochen hat**.",
+      "en": "The journalists asked the politician why he broke his promise.",
+      "pl": "Dziennikarze zapytali polityka, dlaczego złamał swoją obietnicę.",
+      "level": "B2"
+    },
+    {
+      "de": "Die Studie veranschaulicht eindrucksvoll, **inwiefern soziale Medien die politische Meinungsbildung beeinflussen**.",
+      "en": "The study impressively illustrates to what extent social media influences political opinion-forming.",
+      "pl": "Badanie imponująco ilustruje, do jakiego stopnia media społecznościowe wpływają na kształtowanie się opinii politycznej.",
+      "level": "C1"
+    }
+  ],
+  "exercises": [
+    {
+      "en": "I don't know where he lives.",
+      "pl": "Nie wiem, gdzie on mieszka.",
+      "de": "Ich weiß nicht, wo er wohnt.",
+      "level": "A2"
+    },
+    {
+      "en": "Can you tell me what this is?",
+      "pl": "Możesz mi powiedzieć, co to jest?",
+      "de": "Kannst du mir sagen, was das ist?",
+      "level": "A2"
+    },
+    {
+      "en": "Do you know when the bus arrives?",
+      "pl": "Wiesz, kiedy przyjeżdża autobus?",
+      "de": "Weißt du, wann der Bus ankommt?",
+      "level": "A2"
+    },
+    {
+      "en": "He asks how much the book costs.",
+      "pl": "On pyta, ile kosztuje książka.",
+      "de": "Er fragt, wie viel das Buch kostet.",
+      "level": "A2"
+    },
+    {
+      "en": "I wonder why she is crying.",
+      "pl": "Zastanawiam się, dlaczego ona płacze.",
+      "de": "Ich frage mich, warum sie weint.",
+      "level": "A2"
+    },
+    {
+      "en": "She wants to know who is coming today.",
+      "pl": "Ona chce wiedzieć, kto dzisiaj przyjdzie.",
+      "de": "Sie will wissen, wer heute kommt.",
+      "level": "A2"
+    },
+    {
+      "en": "We don't know how late it is.",
+      "pl": "Nie wiemy, która jest godzina.",
+      "de": "Wir wissen nicht, wie spät es ist.",
+      "level": "A2"
+    },
+    {
+      "en": "Please tell me where the station is.",
+      "pl": "Proszę, powiedz mi, gdzie jest dworzec.",
+      "de": "Bitte sag mir, wo der Bahnhof ist.",
+      "level": "A2"
+    },
+    {
+      "en": "Do you understand what he says?",
+      "pl": "Rozumiesz, co on mówi?",
+      "de": "Verstehst du, was er sagt?",
+      "level": "A2"
+    },
+    {
+      "en": "I ask where we are going.",
+      "pl": "Pytam, dokąd idziemy.",
+      "de": "Ich frage, wohin wir gehen.",
+      "level": "A2"
+    },
+    {
+      "en": "She doesn't know where she is.",
+      "pl": "Ona nie wie, gdzie jest.",
+      "de": "Sie weiß nicht, wo sie ist.",
+      "level": "A2"
+    },
+    {
+      "en": "Can you ask when the break starts?",
+      "pl": "Możesz zapytać, kiedy zaczyna się przerwa?",
+      "de": "Kannst du fragen, wann die Pause beginnt?",
+      "level": "A2"
+    },
+    {
+      "en": "He wonders who the man is.",
+      "pl": "On zastanawia się, kim jest ten mężczyzna.",
+      "de": "Er fragt sich, wer der Mann ist.",
+      "level": "A2"
+    },
+    {
+      "en": "Do you know where the keys are?",
+      "pl": "Wiesz, gdzie są klucze?",
+      "de": "Weißt du, wo die Schlüssel sind?",
+      "level": "A2"
+    },
+    {
+      "en": "I want to know how this works.",
+      "pl": "Chcę wiedzieć, jak to działa.",
+      "de": "Ich will wissen, wie das funktioniert.",
+      "level": "A2"
+    },
+    {
+      "en": "I can't remember where I parked the car.",
+      "pl": "Nie potrafię sobie przypomnieć, gdzie zaparkowałem samochód.",
+      "de": "Ich kann mich nicht erinnern, wo ich das Auto geparkt habe.",
+      "level": "B1"
+    },
+    {
+      "en": "He asks why the meeting was cancelled.",
+      "pl": "On pyta, dlaczego spotkanie zostało odwołane.",
+      "de": "Er fragt, warum die Besprechung abgesagt wurde.",
+      "level": "B1"
+    },
+    {
+      "en": "Can you explain to me how this machine works?",
+      "pl": "Możesz mi wyjaśnić, jak działa ta maszyna?",
+      "de": "Kannst du mir erklären, wie diese Maschine funktioniert?",
+      "level": "B1"
+    },
+    {
+      "en": "We are discussing who will take over the project.",
+      "pl": "Dyskutujemy o tym, kto przejmie projekt.",
+      "de": "Wir diskutieren, wer das Projekt übernimmt.",
+      "level": "B1"
+    },
+    {
+      "en": "I wonder when the package will finally arrive.",
+      "pl": "Zastanawiam się, kiedy paczka w końcu dotrze.",
+      "de": "Ich frage mich, wann das Paket endlich ankommt.",
+      "level": "B1"
+    },
+    {
+      "en": "Do you know which train goes to Berlin?",
+      "pl": "Wiesz, który pociąg jedzie do Berlina?",
+      "de": "Weißt du, welcher Zug nach Berlin fährt?",
+      "level": "B1"
+    },
+    {
+      "en": "She wants to know with whom you spoke.",
+      "pl": "Ona chce wiedzieć, z kim rozmawiałeś.",
+      "de": "Sie will wissen, mit wem du gesprochen hast.",
+      "level": "B1"
+    },
+    {
+      "en": "I have no idea how long the journey takes.",
+      "pl": "Nie mam pojęcia, jak długo trwa podróż.",
+      "de": "Ich habe keine Ahnung, wie lange die Fahrt dauert.",
+      "level": "B1"
+    },
+    {
+      "en": "The boss asks why the report is not ready yet.",
+      "pl": "Szef pyta, dlaczego raport nie jest jeszcze gotowy.",
+      "de": "Der Chef fragt, warum der Bericht noch nicht fertig ist.",
+      "level": "B1"
+    },
+    {
+      "en": "We must clarify who is paying the bill.",
+      "pl": "Musimy wyjaśnić, kto płaci rachunek.",
+      "de": "Wir müssen klären, wer die Rechnung bezahlt.",
+      "level": "B1"
+    },
+    {
+      "en": "Could you please tell me where I can find the pharmacy?",
+      "pl": "Czy mógłby mi pan powiedzieć, gdzie znajdę aptekę?",
+      "de": "Könnten Sie mir bitte sagen, wo ich die Apotheke finde?",
+      "level": "B1"
+    },
+    {
+      "en": "I am not sure what he meant by that.",
+      "pl": "Nie jestem pewien, co miał przez to na myśli.",
+      "de": "Ich bin nicht sicher, was er damit gemeint hat.",
+      "level": "B1"
+    },
+    {
+      "en": "They ask when the new restaurant opens.",
+      "pl": "Oni pytają, kiedy otwiera się nowa restauracja.",
+      "de": "Sie fragen, wann das neue Restaurant öffnet.",
+      "level": "B1"
+    },
+    {
+      "en": "He wonders why she hasn't replied to his email.",
+      "pl": "Zastanawia się, dlaczego ona nie odpowiedziała na jego e-mail.",
+      "de": "Er fragt sich, warum sie nicht auf seine E-Mail geantwortet hat.",
+      "level": "B1"
+    },
+    {
+      "en": "Do you know where the nearest ATM is?",
+      "pl": "Wiesz, gdzie jest najbliższy bankomat?",
+      "de": "Weißt du, wo der nächste Geldautomat ist?",
+      "level": "B1"
+    },
+    {
+      "en": "I would like to know what time we are meeting.",
+      "pl": "Chciałbym wiedzieć, o której godzinie się spotykamy.",
+      "de": "Ich wüsste gerne, um wie viel Uhr wir uns treffen.",
+      "level": "B1"
+    },
+    {
+      "en": "She checks how much money is still in the account.",
+      "pl": "Ona sprawdza, ile pieniędzy jest jeszcze na koncie.",
+      "de": "Sie prüft, wie viel Geld noch auf dem Konto ist.",
+      "level": "B1"
+    },
+    {
+      "en": "Can you tell me who called yesterday?",
+      "pl": "Możesz mi powiedzieć, kto wczoraj dzwonił?",
+      "de": "Kannst du mir sagen, wer gestern angerufen hat?",
+      "level": "B1"
+    },
+    {
+      "en": "We don't know yet where we will spend our holidays.",
+      "pl": "Jeszcze nie wiemy, gdzie spędzimy nasze wakacje.",
+      "de": "Wir wissen noch nicht, wo wir unseren Urlaub verbringen werden.",
+      "level": "B1"
+    },
+    {
+      "en": "I forgot to ask how expensive the tickets are.",
+      "pl": "Zapomniałem zapytać, jak drogie są bilety.",
+      "de": "Ich habe vergessen zu fragen, wie teuer die Tickets sind.",
+      "level": "B1"
+    },
+    {
+      "en": "The customer asks when the delivery will take place.",
+      "pl": "Klient pyta, kiedy odbędzie się dostawa.",
+      "de": "Der Kunde fragt, wann die Lieferung stattfindet.",
+      "level": "B1"
+    },
+    {
+      "en": "I wonder what we should cook for dinner.",
+      "pl": "Zastanawiam się, co powinniśmy ugotować na kolację.",
+      "de": "Ich frage mich, was wir zum Abendessen kochen sollen.",
+      "level": "B1"
+    },
+    {
+      "en": "Do you remember who won the game?",
+      "pl": "Pamiętasz, kto wygrał mecz?",
+      "de": "Erinnerst du dich, wer das Spiel gewonnen hat?",
+      "level": "B1"
+    },
+    {
+      "en": "She wants to find out where the mistake lies.",
+      "pl": "Ona chce się dowiedzieć, gdzie leży błąd.",
+      "de": "Sie möchte herausfinden, wo der Fehler liegt.",
+      "level": "B1"
+    },
+    {
+      "en": "I don't understand why the printer doesn't work.",
+      "pl": "Nie rozumiem, dlaczego drukarka nie działa.",
+      "de": "Ich verstehe nicht, warum der Drucker nicht funktioniert.",
+      "level": "B1"
+    },
+    {
+      "en": "We are asking ourselves how we can solve the problem.",
+      "pl": "Zastanawiamy się, jak możemy rozwiązać ten problem.",
+      "de": "Wir fragen uns, wie wir das Problem lösen können.",
+      "level": "B1"
+    },
+    {
+      "en": "Could you show me how I fill out this form?",
+      "pl": "Czy mógłbyś mi pokazać, jak mam wypełnić ten formularz?",
+      "de": "Könntest du mir zeigen, wie ich dieses Formular ausfülle?",
+      "level": "B1"
+    },
+    {
+      "en": "I have forgotten where I put my glasses.",
+      "pl": "Zapomniałem, gdzie odłożyłem okulary.",
+      "de": "Ich habe vergessen, wo ich meine Brille hingelegt habe.",
+      "level": "B1"
+    },
+    {
+      "en": "The teacher asks who has done the homework.",
+      "pl": "Nauczyciel pyta, kto odrobił pracę domową.",
+      "de": "Der Lehrer fragt, wer die Hausaufgaben gemacht hat.",
+      "level": "B1"
+    },
+    {
+      "en": "I don't know exactly what he wants from me.",
+      "pl": "Nie wiem dokładnie, czego on ode mnie chce.",
+      "de": "Ich weiß nicht genau, was er von mir will.",
+      "level": "B1"
+    },
+    {
+      "en": "She wonders why the traffic is so bad today.",
+      "pl": "Zastanawia się, dlaczego ruch uliczny jest dziś taki zły.",
+      "de": "Sie fragt sich, warum der Verkehr heute so schlimm ist.",
+      "level": "B1"
+    },
+    {
+      "en": "Can you tell me where the meeting room is located?",
+      "pl": "Możesz mi powiedzieć, gdzie znajduje się sala konferencyjna?",
+      "de": "Kannst du mir sagen, wo sich der Besprechungsraum befindet?",
+      "level": "B1"
+    },
+    {
+      "en": "We need to decide who we are going to invite.",
+      "pl": "Musimy zdecydować, kogo zaprosimy.",
+      "de": "Wir müssen entscheiden, wen wir einladen werden.",
+      "level": "B1"
+    },
+    {
+      "en": "Do you know why he resigned?",
+      "pl": "Wiesz, dlaczego on złożył wypowiedzenie?",
+      "de": "Weißt du, warum er gekündigt hat?",
+      "level": "B1"
+    },
+    {
+      "en": "I am curious what he will say about it.",
+      "pl": "Jestem ciekaw, co on o tym powie.",
+      "de": "Ich bin neugierig, was er dazu sagen wird.",
+      "level": "B1"
+    },
+    {
+      "en": "The crucial question is how we can reduce the costs.",
+      "pl": "Kluczowym pytaniem jest, jak możemy zredukować koszty.",
+      "de": "Die entscheidende Frage ist, wie wir die Kosten reduzieren können.",
+      "level": "B2"
+    },
+    {
+      "en": "We have to ascertain who is responsible for the damage.",
+      "pl": "Musimy ustalić, kto jest odpowiedzialny za szkody.",
+      "de": "Wir müssen feststellen, wer für den Schaden verantwortlich ist.",
+      "level": "B2"
+    },
+    {
+      "en": "It is currently being investigated why the system crashed.",
+      "pl": "Obecnie bada się, dlaczego system uległ awarii.",
+      "de": "Es wird derzeit untersucht, warum das System abgestürzt ist.",
+      "level": "B2"
+    },
+    {
+      "en": "She tried to explain what the reasons for her decision were.",
+      "pl": "Próbowała wyjaśnić, jakie były powody jej decyzji.",
+      "de": "Sie versuchte zu erklären, was die Gründe für ihre Entscheidung waren.",
+      "level": "B2"
+    },
+    {
+      "en": "I can't imagine how he managed to do all that alone.",
+      "pl": "Nie potrafię sobie wyobrazić, jak zdołał to wszystko zrobić sam.",
+      "de": "Ich kann mir nicht vorstellen, wie er das alles allein geschafft hat.",
+      "level": "B2"
+    },
+    {
+      "en": "The authorities are examining how the virus could spread so quickly.",
+      "pl": "Władze badają, jak wirus mógł rozprzestrzenić się tak szybko.",
+      "de": "Die Behörden prüfen, wie sich das Virus so schnell ausbreiten konnte.",
+      "level": "B2"
+    },
+    {
+      "en": "It remains unclear exactly when the new regulations come into effect.",
+      "pl": "Pozostaje niejasne, kiedy dokładnie wejdą w życie nowe przepisy.",
+      "de": "Es bleibt unklar, wann genau die neuen Vorschriften in Kraft treten.",
+      "level": "B2"
+    },
+    {
+      "en": "We are currently discussing which strategy promises the most success.",
+      "pl": "Właśnie dyskutujemy, która strategia obiecuje największy sukces.",
+      "de": "Wir diskutieren gerade, welche Strategie den meisten Erfolg verspricht.",
+      "level": "B2"
+    },
+    {
+      "en": "He didn't want to reveal from whom he received the information.",
+      "pl": "Nie chciał zdradzić, od kogo otrzymał te informacje.",
+      "de": "Er wollte nicht verraten, von wem er die Informationen erhalten hat.",
+      "level": "B2"
+    },
+    {
+      "en": "You should consider carefully what consequences your actions will have.",
+      "pl": "Powinieneś dobrze przemyśleć, jakie konsekwencje będą miały twoje czyny.",
+      "de": "Man sollte gut überlegen, welche Konsequenzen das eigene Handeln haben wird.",
+      "level": "B2"
+    },
+    {
+      "en": "It is important to know whom we can turn to in an emergency.",
+      "pl": "Ważne jest, aby wiedzieć, do kogo możemy się zwrócić w nagłym wypadku.",
+      "de": "Es ist wichtig zu wissen, an wen wir uns im Notfall wenden können.",
+      "level": "B2"
+    },
+    {
+      "en": "I wonder how the competitors will react to our new product.",
+      "pl": "Zastanawiam się, jak konkurenci zareagują na nasz nowy produkt.",
+      "de": "Ich frage mich, wie die Konkurrenz auf unser neues Produkt reagieren wird.",
+      "level": "B2"
+    },
+    {
+      "en": "The police are investigating how the burglars entered the building.",
+      "pl": "Policja dochodzi, jak włamywacze dostali się do budynku.",
+      "de": "Die Polizei ermittelt, wie die Einbrecher in das Gebäude gelangt sind.",
+      "level": "B2"
+    },
+    {
+      "en": "We must determine which resources are needed for the project.",
+      "pl": "Musimy ustalić, jakie zasoby są potrzebne do projektu.",
+      "de": "Wir müssen bestimmen, welche Ressourcen für das Projekt benötigt werden.",
+      "level": "B2"
+    },
+    {
+      "en": "She didn't understand why her application was rejected.",
+      "pl": "Nie zrozumiała, dlaczego jej aplikacja została odrzucona.",
+      "de": "Sie verstand nicht, weshalb ihre Bewerbung abgelehnt wurde.",
+      "level": "B2"
+    },
+    {
+      "en": "I would be interested to know on what criteria the assessment is based.",
+      "pl": "Byłbym ciekaw, na jakich kryteriach opiera się ocena.",
+      "de": "Mich würde interessieren, auf welchen Kriterien die Bewertung basiert.",
+      "level": "B2"
+    },
+    {
+      "en": "We are analyzing how customer satisfaction has developed over the last year.",
+      "pl": "Analizujemy, jak rozwijało się zadowolenie klientów w ciągu ostatniego roku.",
+      "de": "Wir analysieren, wie sich die Kundenzufriedenheit im letzten Jahr entwickelt hat.",
+      "level": "B2"
+    },
+    {
+      "en": "It is not yet known who will be appointed as the new CEO.",
+      "pl": "Jeszcze nie wiadomo, kto zostanie mianowany na nowego dyrektora generalnego.",
+      "de": "Es ist noch nicht bekannt, wer zum neuen Geschäftsführer ernannt wird.",
+      "level": "B2"
+    },
+    {
+      "en": "The journalists asked the politician why the promise was broken.",
+      "pl": "Dziennikarze pytali polityka, dlaczego obietnica została złamana.",
+      "de": "Die Journalisten fragten den Politiker, warum das Versprechen gebrochen wurde.",
+      "level": "B2"
+    },
+    {
+      "en": "I am considering where I should invest my savings.",
+      "pl": "Zastanawiam się, gdzie powinienem zainwestować moje oszczędności.",
+      "de": "Ich überlege mir, wo ich meine Ersparnisse investieren sollte.",
+      "level": "B2"
+    },
+    {
+      "en": "The manager explained how the workflow will change in the future.",
+      "pl": "Menedżer wyjaśnił, jak w przyszłości zmieni się przepływ pracy.",
+      "de": "Der Manager erklärte, wie sich der Arbeitsablauf in Zukunft ändern wird.",
+      "level": "B2"
+    },
+    {
+      "en": "We need to find out why the delivery was delayed by several weeks.",
+      "pl": "Musimy się dowiedzieć, dlaczego dostawa opóźniła się o kilka tygodni.",
+      "de": "Wir müssen herausfinden, warum sich die Lieferung um mehrere Wochen verzögert hat.",
+      "level": "B2"
+    },
+    {
+      "en": "It is fascinating how fast technology has evolved in recent decades.",
+      "pl": "To fascynujące, jak szybko rozwinęła się technologia w ostatnich dziesięcioleciach.",
+      "de": "Es ist faszinierend, wie schnell sich die Technologie in den letzten Jahrzehnten entwickelt hat.",
+      "level": "B2"
+    },
+    {
+      "en": "I don't know on which date the contract was signed.",
+      "pl": "Nie wiem, z jaką datą została podpisana umowa.",
+      "de": "Ich weiß nicht, an welchem Datum der Vertrag unterzeichnet wurde.",
+      "level": "B2"
+    },
+    {
+      "en": "The team discusses how the communication between the departments can be improved.",
+      "pl": "Zespół dyskutuje, jak można poprawić komunikację między działami.",
+      "de": "Das Team diskutiert, wie die Kommunikation zwischen den Abteilungen verbessert werden kann.",
+      "level": "B2"
+    },
+    {
+      "en": "The study illustrates to what extent social media influences political opinions.",
+      "pl": "Badanie ilustruje, do jakiego stopnia media społecznościowe wpływają na poglądy polityczne.",
+      "de": "Die Studie veranschaulicht, inwieweit soziale Medien politische Meinungen beeinflussen.",
+      "level": "C1"
+    },
+    {
+      "en": "It is still a matter of debate who should bear the financial burden of the crisis.",
+      "pl": "Nadal dyskutuje się, kto powinien ponieść finansowy ciężar kryzysu.",
+      "de": "Es ist weiterhin umstritten, wer die finanzielle Last der Krise tragen sollte.",
+      "level": "C1"
+    },
+    {
+      "en": "The report fails to mention exactly how the proposed measures will be funded.",
+      "pl": "Raport nie wspomina dokładnie, jak proponowane środki zostaną sfinansowane.",
+      "de": "Der Bericht lässt unerwähnt, wie genau die vorgeschlagenen Maßnahmen finanziert werden sollen.",
+      "level": "C1"
+    },
+    {
+      "en": "We must critically assess on what basis the forecasts were calculated.",
+      "pl": "Musimy krytycznie ocenić, na jakiej podstawie obliczono prognozy.",
+      "de": "Wir müssen kritisch beurteilen, auf welcher Grundlage die Prognosen berechnet wurden.",
+      "level": "C1"
+    },
+    {
+      "en": "It is often difficult to discern where legitimate criticism ends and defamation begins.",
+      "pl": "Często trudno jest dostrzec, gdzie kończy się uprawniona krytyka, a zaczyna zniesławienie.",
+      "de": "Es ist oft schwierig zu erkennen, wo legitime Kritik endet und Diffamierung beginnt.",
+      "level": "C1"
+    },
+    {
+      "en": "The central issue revolves around how the balance of power will shift in the coming years.",
+      "pl": "Główny problem obraca się wokół tego, jak w nadchodzących latach przesunie się równowaga sił.",
+      "de": "Die zentrale Frage dreht sich darum, wie sich das Machtgleichgewicht in den kommenden Jahren verschieben wird.",
+      "level": "C1"
+    },
+    {
+      "en": "She meticulously laid out why the initial hypothesis proved to be flawed.",
+      "pl": "Ona skrupulatnie wyłożyła, dlaczego początkowa hipoteza okazała się błędna.",
+      "de": "Sie legte akribisch dar, warum sich die ursprüngliche Hypothese als fehlerhaft erwies.",
+      "level": "C1"
+    },
+    {
+      "en": "One cannot reliably predict how the financial markets will react to the central bank's decision.",
+      "pl": "Nie można wiarygodnie przewidzieć, jak rynki finansowe zareagują na decyzję banku centralnego.",
+      "de": "Man kann nicht verlässlich vorhersagen, wie die Finanzmärkte auf die Entscheidung der Zentralbank reagieren werden.",
+      "level": "C1"
+    },
+    {
+      "en": "The committee is deliberating on which areas should receive priority funding.",
+      "pl": "Komisja debatuje nad tym, które obszary powinny otrzymać priorytetowe finansowanie.",
+      "de": "Der Ausschuss berät darüber, welche Bereiche vorrangig gefördert werden sollen.",
+      "level": "C1"
+    },
+    {
+      "en": "It remains an enigma how the suspect managed to evade the extensive surveillance.",
+      "pl": "Pozostaje zagadką, jak podejrzanemu udało się uniknąć szeroko zakrojonej inwigilacji.",
+      "de": "Es bleibt ein Rätsel, wie es dem Verdächtigen gelang, der umfassenden Überwachung zu entgehen.",
+      "level": "C1"
+    },
+    {
+      "en": "The dissertation explores how societal norms shape individual behavior.",
+      "pl": "Rozprawa bada, jak normy społeczne kształtują zachowania jednostek.",
+      "de": "Die Dissertation untersucht, wie gesellschaftliche Normen das individuelle Verhalten prägen.",
+      "level": "C1"
+    },
+    {
+      "en": "The auditor scrutinized why the discrepancy in the accounts had gone unnoticed for so long.",
+      "pl": "Rewident dokładnie zbadał, dlaczego rozbieżność w księgach tak długo uchodziła uwadze.",
+      "de": "Der Prüfer untersuchte genau, weshalb die Diskrepanz in den Büchern so lange unbemerkt geblieben war.",
+      "level": "C1"
+    },
+    {
+      "en": "We are trying to ascertain to whom the legal liability ultimately falls.",
+      "pl": "Próbujemy ustalić, na kogo ostatecznie spada odpowiedzialność prawna.",
+      "de": "Wir versuchen herauszufinden, wem letztendlich die rechtliche Haftung zufällt.",
+      "level": "C1"
+    },
+    {
+      "en": "It is highly disputed what long-term consequences this unprecedented intervention will entail.",
+      "pl": "Jest bardzo sporne, jakie długoterminowe konsekwencje pociągnie za sobą ta bezprecedensowa interwencja.",
+      "de": "Es ist stark umstritten, welche langfristigen Konsequenzen dieser beispiellose Eingriff nach sich ziehen wird.",
+      "level": "C1"
+    },
+    {
+      "en": "The key challenge lies in figuring out how to reconcile economic growth with environmental protection.",
+      "pl": "Kluczowe wyzwanie polega na tym, by wymyślić, jak pogodzić wzrost gospodarczy z ochroną środowiska.",
+      "de": "Die größte Herausforderung besteht darin herauszufinden, wie man Wirtschaftswachstum mit Umweltschutz in Einklang bringen kann.",
+      "level": "C1"
+    },
+    {
+      "en": "The inquiry seeks to unearth by what convoluted means the funds were illicitly siphoned off.",
+      "pl": "Dochodzenie ma na celu odkrycie, w jak zagmatwany sposób fundusze zostały nielegalnie wyprowadzone.",
+      "de": "Die Untersuchung zielt darauf ab aufzudecken, auf welch verschlungenen Wegen die Gelder illegal abgezweigt wurden.",
+      "level": "C2"
+    },
+    {
+      "en": "It is a matter of profound contention in what measure the state should intervene in private enterprise.",
+      "pl": "Jest kwestią głębokiego sporu, w jakiej mierze państwo powinno ingerować w prywatną przedsiębiorczość.",
+      "de": "Es ist äußerst umstritten, in welchem Maße der Staat in die Privatwirtschaft eingreifen sollte.",
+      "level": "C2"
+    },
+    {
+      "en": "The panel is grappling with how the multifaceted ethical dilemmas can be adequately addressed within the current legal framework.",
+      "pl": "Panel boryka się z problemem, jak wieloaspektowe dylematy etyczne mogą zostać odpowiednio rozwiązane w obecnych ramach prawnych.",
+      "de": "Das Gremium setzt sich damit auseinander, wie die vielschichtigen ethischen Dilemmata im aktuellen Rechtsrahmen angemessen bewältigt werden können.",
+      "level": "C2"
+    },
+    {
+      "en": "The historian elucidates why the empire's seemingly unassailable hegemony ultimately crumbled from within.",
+      "pl": "Historyk wyjaśnia, dlaczego pozornie niezachwiana hegemonia imperium ostatecznie rozpadła się od wewnątrz.",
+      "de": "Der Historiker beleuchtet, weshalb die scheinbar unangreifbare Hegemonie des Imperiums letztlich von innen heraus zerfiel.",
+      "level": "C2"
+    },
+    {
+      "en": "It boggles the mind how such an egregious oversight could have bypassed the rigorous quality assurance protocols.",
+      "pl": "To nie do pomyślenia, jak tak rażące niedopatrzenie mogło obejść rygorystyczne protokoły kontroli jakości.",
+      "de": "Es ist unbegreiflich, wie ein solch eklatantes Versäumnis die strengen Qualitätssicherungsprotokolle umgehen konnte.",
+      "level": "C2"
+    },
+    {
+      "en": "The prosecution must establish beyond a shadow of a doubt who orchestrated the elaborate scheme.",
+      "pl": "Oskarżenie musi udowodnić bez cienia wątpliwości, kto zorganizował ten misterny plan.",
+      "de": "Die Staatsanwaltschaft muss zweifelsfrei beweisen, wer das ausgeklügelte Komplott inszeniert hat.",
+      "level": "C2"
+    },
+    {
+      "en": "A pivotal point of the negotiation is defining precisely whose jurisdiction the disputed territory falls under.",
+      "pl": "Kluczowym punktem negocjacji jest dokładne określenie, pod czyją jurysdykcję podlega sporne terytorium.",
+      "de": "Ein zentraler Punkt der Verhandlung ist die genaue Definition, unter wessen Zuständigkeit das umstrittene Gebiet fällt.",
+      "level": "C2"
+    },
+    {
+      "en": "The treaty intentionally leaves ambiguous to what extent punitive measures can be unilaterally enforced.",
+      "pl": "Traktat celowo pozostawia niejasnym, do jakiego stopnia środki karne mogą być egzekwowane jednostronnie.",
+      "de": "Das Abkommen lässt absichtlich im Unklaren, inwieweit Strafmaßnahmen einseitig durchgesetzt werden können.",
+      "level": "C2"
+    },
+    {
+      "en": "It remains a deeply contested question why the institutional safeguards failed so catastrophically.",
+      "pl": "Pozostaje głęboko spornym pytaniem, dlaczego instytucjonalne zabezpieczenia zawiodły tak katastrofalnie.",
+      "de": "Es bleibt eine zutiefst umstrittene Frage, warum die institutionellen Schutzmechanismen derart katastrophal versagten.",
+      "level": "C2"
+    },
+    {
+      "en": "The treatise delves into how the subconscious mechanisms subtly orchestrate our conscious decision-making processes.",
+      "pl": "Traktat zagłębia się w to, jak mechanizmy podświadomości subtelnie kierują naszymi świadomymi procesami decyzyjnymi.",
+      "de": "Die Abhandlung geht der Frage nach, wie die unterbewussten Mechanismen unsere bewussten Entscheidungsprozesse subtil steuern.",
+      "level": "C2"
+    }
+  ],
+  "listening": {
+    "audioUrl": "https://radiodownloaddw-a.akamaihd.net/downloads/Events/dwelle/dira/mp3/deutschkurse/nachrichten_live/08B2706D_2.mp3",
+    "articles": [
+      {
+        "heading": "Dobrindt sieht Linksextreme und „migrantische Chaoten“ für Gewalt verantwortlich",
+        "text": "Bundesinnenminister Alexander Dobrindt macht gewaltbereite Linksextreme und „Chaoten aus dem migrantischen Umfeld“ für die [[Ausschreitungen|1]] in mehreren Städten in der Nacht zum Sonntag verantwortlich. Die zuvor friedlichen Demonstrationen seien von diesen Gruppen [[gekapert|2]] worden, sagte der CSU-Politiker. Es habe neben dem Schwerpunkt in Frankfurt am Main auch Ausschreitungen in Berlin, Hamburg und Köln gegeben. Mehr als 100 Menschen seien festgenommen worden. Die Polizei habe angemessen reagiert und sei präsent gewesen. Die Beamten hätten „Gewaltexzesse wie in Paris“ verhindert. Dobrindt ergänzte, der Rechtsstaat müsse jetzt wirkungsvoll arbeiten. Zu den zunächst friedlichen Demonstrationen in rund 30 deutschen Städten hatte die Initiative „Gen Z regelt“ aufgerufen. Die Abkürzung steht für die „Generation Z“ der etwa 15- bis 30-Jährigen. Zu ihren Forderungen gehören mehr Geld für Schulen, mehr Klimaschutz und Maßnahmen gegen steigende [[Lebenshaltungskosten|3]]."
+      },
+      {
+        "heading": "Bundeskanzler Merz nimmt an Digitalgipfel teil",
+        "text": "In Berlin beginnt an diesem Montag ein zweitägiger Digitalgipfel der Bundesregierung. Dazu werden mehr als 1000 Teilnehmer aus Politik, Wissenschaft und Wirtschaft in der deutschen Hauptstadt erwartet. Im Mittelpunkt steht das Thema Künstliche Intelligenz (KI). An der Konferenz nimmt auch Bundeskanzler Friedrich Merz teil. Im Anschluss ist eine gemeinsame Pressekonferenz mit Digitalminister Karsten Wildberger geplant. Nach Angaben eines Regierungssprechers wird Kanzler Merz auch Vertreter der deutschen Firma Neura Robotics treffen. Das Unternehmen entwickelt humanoide Roboter, die sehen und hören können und einen Tastsinn haben. Sie sollen in der Industrie und in Haushalten zum Einsatz kommen."
+      },
+      {
+        "heading": "App für Notfall-Warnungen in Ukraine und Russland gehackt",
+        "text": "In der Ukraine und in Russland sind die offiziellen Notfall-Apps nach Behördenangaben gehackt worden. Zunächst wurde am späten Sonntagabend in der ukrainischen App unter anderem fälschlicherweise vor radioaktiver Strahlung in der Hauptstadt Kyjiw gewarnt. Die App „Air Alert“ sei möglicherweise vom Feind [[kompromittiert|4]] worden, teilte die ukrainische Luftwaffe auf Telegram mit. Es bestehe keine Gefahr durch Strahlung. In der Nacht zum Montag meldete Russland einen Cyberangriff auf seine Warn-App, wie die staatliche Nachrichtenagentur Tass unter Berufung auf das Zivilschutzministerium berichtete. Es sei den Angreifern gelungen, Falschinformationen an die Bevölkerung zu versenden, hieß es. Russland greift die Ukraine seit viereinhalb Jahren massiv aus der Luft, am Boden und auf hoher See an. Die Ukraine wehrt sich mit westlicher Militär- und Finanzhilfe."
+      },
+      {
+        "heading": "Staatschefin Jotowa gewinnt [[Stichwahl|5]] in Bulgarien",
+        "text": "Bulgariens Präsidentin Ilijana Jotowa ist bei einer Stichwahl im höchsten Staatsamt bestätigt worden. Die frühere sozialistische EU-Abgeordnete kam nach [[Hochrechnungen|6]] der bulgarischen Meinungsforschungsinstitute Mjara und Alpha Research auf bis zu 58 Prozent der Stimmen. Jotowa wurde von der allein regierenden Mitte-Links-Partei Progressives Bulgarien unterstützt. Ihr Herausforderer Andrej Gjurow erhielt als Kandidat des prowestlichen liberal-konservativen Oppositionslagers den Angaben zufolge rund 39 Prozent der Stimmen. Die 62-jährige Jotowa unterstützt die EU- und NATO-Mitgliedschaft ihres Landes, lehnt Militärhilfen für die Ukraine aber ab. Das Balkanland mit seinen rund 6,4 Millionen Einwohnern hat traditionell enge Beziehungen zu Russland, ist beim Vorgehen zum Ukraine-Konflikt aber tief gespalten."
+      },
+      {
+        "heading": "Jüdische Akademie in Frankfurt öffnet ihre Türen",
+        "text": "Im Beisein von Bundespräsident Frank-Walter Steinmeier wird an diesem Montag die Jüdische Akademie in Frankfurt eröffnet. Sie ist nach Angaben des Zentralrats der Juden in Deutschland die bundesweit erste überregionale, nicht-universitäre jüdische Bildungseinrichtung seit der Schoah, dem systematischen [[Völkermord|7]] des nationalsozialistischen Deutschlands an rund sechs Millionen Jüdinnen und Juden während des Zweiten Weltkriegs in den Jahren 1939 bis 1945. Die Akademie richtet sich an ein breites Publikum und soll aus einer jüdischen Perspektive heraus aktuelle Debatten aufgreifen. Zu der Eröffnung werden neben Steinmeier auch Zentralratspräsident Josef Schuster und Hessens Ministerpräsident Boris Rhein (CDU) erwartet. [[Träger|8]] der Akademie ist der Zentralrat, mit der Frankfurter Goethe-Universität besteht ein Kooperationsvertrag. Die Kosten für den Gesamtbau liegen bei rund 40 Millionen Euro."
+      },
+      {
+        "heading": "Nach US-Terrorwarnung wird Minderjähriger in Russland festgenommen",
+        "text": "Der russische [[Inlandsgeheimdienst|9]] FSB hat nach Hinweisen aus den USA einen terrorverdächtigen Minderjährigen gefasst. Man habe unter anderem auf der Internet-Plattform TikTok Fotos des Verdächtigen in Kampfmontur gefunden, teilte der FSB mit. Offenbar habe er auch eine Waffe bei sich gehabt. Die Ermittler hätten zudem im Suchverlauf des Mobiltelefons Recherchen zu terroristischen Anschlägen und [[Massenmorden|10]] gefunden. Der russische Geheimdienst hatte kurz vor der Festnahme mitgeteilt, dass er von den USA über einen womöglich geplanten Anschlag unterrichtet worden sei. Wie es heißt, soll der Verdächtige den Zarizyno-Schlosspark am Südrand von Moskau als Ziel in Betracht gezogen haben."
+      }
+    ],
+    "vocab": [
+      {
+        "id": 1,
+        "word": "die Ausschreitung",
+        "translation": {
+          "en": "riot, disturbance",
+          "pl": "zamieszki, rozruchy"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Ausschreitungen",
+        "notes": {
+          "en": "Usually used in the plural. Refers to violent public disturbances.",
+          "pl": "Zazwyczaj używane w liczbie mnogiej. Oznacza gwałtowne zamieszki publiczne."
+        },
+        "examples": [
+          "Nach dem Fußballspiel kam es zu schweren Ausschreitungen.",
+          "Die Polizei musste bei den Ausschreitungen hart durchgreifen."
+        ]
+      },
+      {
+        "id": 2,
+        "word": "kapern",
+        "translation": {
+          "en": "to hijack, to capture",
+          "pl": "uprowadzić, przechwycić (np. statek, demonstrację)"
+        },
+        "partOfSpeech": "Verb",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Literally 'to capture a ship', but often used metaphorically for taking over an event.",
+          "pl": "Dosłownie 'porwać statek', często używane metaforycznie do przejęcia wydarzenia."
+        },
+        "examples": [
+          "Piraten haben das Schiff vor der Küste gekapert.",
+          "Extremisten versuchten, die friedliche Protestaktion zu kapern."
+        ]
+      },
+      {
+        "id": 3,
+        "word": "die Lebenshaltungskosten",
+        "translation": {
+          "en": "cost of living",
+          "pl": "koszty utrzymania"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Lebenshaltungskosten",
+        "notes": {
+          "en": "Always plural. Refers to the cost of basic necessities.",
+          "pl": "Zawsze w liczbie mnogiej. Odnosi się do kosztów podstawowych potrzeb."
+        },
+        "examples": [
+          "Die Lebenshaltungskosten sind in diesem Jahr stark gestiegen.",
+          "Viele Familien können sich die hohen Lebenshaltungskosten nicht mehr leisten."
+        ]
+      },
+      {
+        "id": 4,
+        "word": "kompromittieren",
+        "translation": {
+          "en": "to compromise, to breach",
+          "pl": "skompromitować, naruszyć (bezpieczeństwo)"
+        },
+        "partOfSpeech": "Verb",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Often used in IT context for security breaches, or for damaging someone's reputation.",
+          "pl": "Często używane w kontekście IT (naruszenie bezpieczeństwa) lub psuciu czyjejś reputacji."
+        },
+        "examples": [
+          "Das Computersystem wurde durch den Hackerangriff kompromittiert.",
+          "Er wollte seinen politischen Gegner öffentlich kompromittieren."
+        ]
+      },
+      {
+        "id": 5,
+        "word": "die Stichwahl",
+        "translation": {
+          "en": "runoff election",
+          "pl": "druga tura wyborów"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Stichwahlen",
+        "notes": {
+          "en": "A second election held when no candidate wins a clear majority in the first.",
+          "pl": "Kolejna tura wyborów, gdy w pierwszej żaden z kandydatów nie uzyskał większości."
+        },
+        "examples": [
+          "Der neue Bürgermeister wird in einer Stichwahl ermittelt.",
+          "Beide Kandidaten bereiten sich auf die Stichwahl vor."
+        ]
+      },
+      {
+        "id": 6,
+        "word": "die Hochrechnung",
+        "translation": {
+          "en": "projection, forecast",
+          "pl": "prognoza (na podstawie pierwszych wyników)"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Hochrechnungen",
+        "notes": {
+          "en": "Used especially in elections to project the final outcome from early counting.",
+          "pl": "Używane szczególnie w wyborach do prognozowania końcowego wyniku na podstawie pierwszych głosów."
+        },
+        "examples": [
+          "Die erste Hochrechnung wurde kurz nach Schließung der Wahllokale veröffentlicht.",
+          "Laut aktuellen Hochrechnungen liegt die Oppositionspartei vorn."
+        ]
+      },
+      {
+        "id": 7,
+        "word": "der Völkermord",
+        "translation": {
+          "en": "genocide",
+          "pl": "ludobójstwo"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Völkermorde",
+        "notes": {
+          "en": "The systematic destruction of a national, racial, or religious group.",
+          "pl": "Systematyczne niszczenie grupy narodowej, rasowej lub religijnej."
+        },
+        "examples": [
+          "Das internationale Gericht verurteilte den Diktator wegen Völkermords.",
+          "Wir müssen sicherstellen, dass sich ein solcher Völkermord nie wiederholt."
+        ]
+      },
+      {
+        "id": 8,
+        "word": "der Träger",
+        "translation": {
+          "en": "sponsor, responsible body, carrier",
+          "pl": "organ prowadzący, sponsor, nosiciel"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Träger",
+        "notes": {
+          "en": "In institutional contexts, refers to the organization funding or operating a facility.",
+          "pl": "W kontekście instytucjonalnym odnosi się do organizacji finansującej lub prowadzącej placówkę."
+        },
+        "examples": [
+          "Die Stadt ist der Träger dieser neuen Bildungseinrichtung.",
+          "Die Kosten werden zwischen den verschiedenen Trägern aufgeteilt."
+        ]
+      },
+      {
+        "id": 9,
+        "word": "der Inlandsgeheimdienst",
+        "translation": {
+          "en": "domestic intelligence agency",
+          "pl": "wywiad wewnętrzny, służby bezpieczeństwa wewnętrznego"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Inlandsgeheimdienste",
+        "notes": {
+          "en": "An intelligence agency responsible for security threats within the country.",
+          "pl": "Służby wywiadowcze odpowiedzialne za zagrożenia bezpieczeństwa wewnątrz kraju."
+        },
+        "examples": [
+          "Der Inlandsgeheimdienst beobachtet extremistische Gruppen sehr genau.",
+          "Ein Bericht des Inlandsgeheimdienstes warnt vor neuen Bedrohungen."
+        ]
+      },
+      {
+        "id": 10,
+        "word": "der Massenmord",
+        "translation": {
+          "en": "mass murder",
+          "pl": "masowe morderstwo"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Massenmorde",
+        "notes": {
+          "en": "The act of murdering a large number of people.",
+          "pl": "Akt zamordowania dużej liczby ludzi."
+        },
+        "examples": [
+          "Der Täter wurde wegen mehrfachen Massenmordes angeklagt.",
+          "Das Land trauert um die Opfer des schrecklichen Massenmordes."
+        ]
+      }
+    ]
+  },
+  "speaking": {
+    "prompt": {
+      "en": "You are my German language tutor conducting a 20-minute B1-to-C1 speaking conversation based on the Listening section of today's lesson (German news from 2 November 2026) AND a general discussion topic on 'Seeking and Verifying Information in the Digital Age'.\n\nListening reference – the six news stories from today's Listening section, in the same order as the articles:\n1. Interior Minister Dobrindt blames left-wing extremists and 'migrant troublemakers' for hijacking previously peaceful 'Gen Z' protests, resulting in riots and over 100 arrests.\n2. Chancellor Merz attends a two-day digital summit in Berlin focusing on AI and human-like robots.\n3. Official emergency warning apps in Ukraine and Russia were hacked, sending false information to civilians.\n4. Bulgarian President Ilijana Jotowa won the runoff election, retaining her office while opposing military aid to Ukraine.\n5. The Jewish Academy in Frankfurt, the first of its kind since the Shoah, is opened by President Steinmeier.\n6. Russian domestic intelligence (FSB) arrested a terror-suspect minor after a warning from the US.\n\nGrammar focus to elicit: Indirect wh-questions and embedded question word order.\n\nUseful words from today's Listening articles (invite me to use them): die Ausschreitung, kapern, die Lebenshaltungskosten, kompromittieren, die Stichwahl, die Hochrechnung, der Völkermord, der Träger, der Inlandsgeheimdienst, der Massenmord.\n\nInstructions for the AI tutor:\n1. Start the conversation: greet me and introduce today's dual focus: the recent news stories and a general discussion on how we seek and verify information.\n2. You ask, I speak: one question per turn, one or two short sentences, never answer your own questions. German at B1-C1 level; English only if I am really stuck.\n3. Discuss various aspects of the topic: fake news vs. real news, how technology shapes information, and details from the news stories provided above.\n4. Encourage me to use indirect wh-questions (e.g., 'Ich frage mich, warum...', 'Weißt du, wer...') ensuring the conjugated verb goes to the very end of the subordinate clause.\n5. Question ideas (adapt to my answers):\n   - (story 1) Wer ist laut dem Minister für die Gewalt verantwortlich, und was denkst du darüber? (Antworte mit einem indirekten Fragesatz, z.B. 'Der Minister sagt, wer...')\n   - (story 3) Kannst du erklären, wie die Warn-Apps manipuliert wurden?\n   - (general) Wie entscheidest du, welchen Nachrichtenquellen du vertraust? (Frag mich zurück: 'Ich frage mich, wie du das machst...')\n6. Immediate correction: if I break today's rule (e.g. *Ich weiß nicht, wo wohnt er.* instead of *Ich weiß nicht, wo er wohnt.*), stop briefly: quote the error, give the correct sentence, explain the rule in 1 English sentence, ask me to repeat the correct sentence aloud before the next question.\n7. Also correct other significant errors briefly; note recurring mistakes for the final feedback. If my answer is very short, ask one follow-up („Warum?“).\n8. Wrap-up after ~20 minutes or when I say \"stop\": two things I did well, three key mistakes with corrections, five words to review, one German sentence to repeat aloud.\n9. Keep the tone engaging, professional, natural for an immersive German voice dialogue. Address me as „du“.",
+      "pl": "Jesteś moim nauczycielem języka niemieckiego i prowadzisz 20-minutową rozmowę na poziomie od B1 do C1 w oparciu o część Słuchanie z dzisiejszej lekcji (niemieckie wiadomości z 2 listopada 2026 roku) ORAZ na ogólny temat dyskusji: 'Poszukiwanie i weryfikacja informacji w epoce cyfrowej'.\n\nMateriał ze Słuchania – sześć tematów wiadomości z dzisiejszej części Słuchanie, w tej samej kolejności co artykuły:\n1. Minister spraw wewnętrznych Dobrindt obwinia lewicowych ekstremistów i 'migranckich chuliganów' za przejęcie wcześniej pokojowych protestów 'Gen Z', co doprowadziło do zamieszek i ponad 100 aresztowań.\n2. Kanclerz Merz bierze udział w dwudniowym szczycie cyfrowym w Berlinie, skupiającym się na sztucznej inteligencji i robotach humanoidalnych.\n3. Oficjalne aplikacje ostrzegawcze w Ukrainie i Rosji zostały zhakowane, wysyłając cywilom fałszywe informacje.\n4. Prezydent Bułgarii Ilijana Jotowa wygrała drugą turę wyborów, zachowując urząd, będąc jednocześnie przeciwną pomocy wojskowej dla Ukrainy.\n5. Akademia Żydowska we Frankfurcie, pierwsza tego typu od czasów Szoa, zostaje otwarta przez prezydenta Steinmeiera.\n6. Rosyjski wywiad wewnętrzny (FSB) aresztował nieletniego podejrzanego o terroryzm po ostrzeżeniu ze strony USA.\n\nZagadnienie gramatyczne do ćwiczenia: Pytania pośrednie z zaimkiem pytającym i szyk zdania pobocznego.\n\nPrzydatne słowa z dzisiejszych artykułów (zachęcaj mnie do ich używania): die Ausschreitung, kapern, die Lebenshaltungskosten, kompromittieren, die Stichwahl, die Hochrechnung, der Völkermord, der Träger, der Inlandsgeheimdienst, der Massenmord.\n\nInstrukcje dla tutora AI:\n1. Rozpocznij rozmowę: przywitaj się i wprowadź dzisiejszy podwójny temat: ostatnie wiadomości oraz ogólną dyskusję o tym, jak szukamy i weryfikujemy informacje.\n2. Ty pytasz, ja mówię: zadawaj pytania pojedynczo, jedno lub dwa krótkie zdania, nigdy nie odpowiadaj na własne pytania. Mów po niemiecku na poziomie B1–C1; przechodź na polski tylko wtedy, gdy naprawdę utknę.\n3. Omawiaj różne aspekty tematu: fałszywe wiadomości (fake news) a prawdziwe, jak technologia kształtuje informacje oraz szczegóły z powyższych wiadomości.\n4. Zachęcaj mnie do używania pytań pośrednich (np. 'Ich frage mich, warum...', 'Weißt du, wer...'), dbając o to, by odmieniony czasownik wędrował na sam koniec zdania podrzędnego.\n5. Pomysły na pytania (dostosuj je do moich odpowiedzi):\n   - (temat 1) Wer ist laut dem Minister für die Gewalt verantwortlich, und was denkst du darüber? (Antworte mit einem indirekten Fragesatz, z.B. 'Der Minister sagt, wer...')\n   - (temat 3) Kannst du erklären, wie die Warn-Apps manipuliert wurden?\n   - (temat ogólny) Wie entscheidest du, welchen Nachrichtenquellen du vertraust? (Frag mich zurück: 'Ich frage mich, wie du das machst...')\n6. Natychmiastowa korekta: jeśli popełnię błąd dotyczący dzisiejszej zasady (np. *Ich weiß nicht, wo wohnt er.* zamiast *Ich weiß nicht, wo er wohnt.*), na chwilę przerwij: zacytuj błąd, podaj poprawne zdanie, wyjaśnij zasadę w jednym zdaniu po polsku, poproś mnie o głośne powtórzenie poprawnego zdania przed następnym pytaniem.\n7. Krótko poprawiaj również inne istotne błędy; zanotuj powtarzające się błędy na podsumowanie. Jeśli moja odpowiedź jest bardzo krótka, zadaj jedno pytanie uzupełniające („Warum?“).\n8. Podsumowanie po około 20 minutach lub gdy powiem \"stop\": dwie rzeczy, które zrobiłem dobrze, trzy główne błędy z poprawkami, pięć słów do powtórzenia oraz jedno zdanie po niemiecku do głośnego powtórzenia.\n9. Utrzymuj angażujący, profesjonalny i naturalny ton, odpowiedni dla immersyjnego dialogu głosowego po niemiecku. Zwracaj się do mnie per „du”."
+    }
+  }
 }
 ]
