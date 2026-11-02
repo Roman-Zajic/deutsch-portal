@@ -25831,763 +25831,673 @@
 },
  {
   "lesson": {
-    "id": "2026-11-02",
-    "date": "02.11.2026",
-    "day": 21,
+    "id": "2026-11-01",
+    "date": "01.11.2026",
+    "day": 20,
     "totalDays": 300,
     "level": "B1",
     "title": {
-      "en": "Indirect wh-questions and embedded question word order",
-      "pl": "Pytania pośrednie z zaimkiem pytającym i szyk zdania pobocznego"
+      "en": "Indirect Yes/No Questions with ob",
+      "pl": "Pośrednie pytania o rozstrzygnięcie ze spójnikiem ob"
     },
-    "subtitle": "Indirekte W-Fragen und Nebensatz-Wortstellung"
+    "subtitle": "Indirekte Ja/Nein-Fragen mit ob"
   },
   "grammar": {
     "html": {
       "en": [
-        "<h3>What is an indirect wh-question?</h3><p>An indirect question is a question embedded inside another sentence. Instead of asking directly (e.g., <em>Wo wohnt er?</em> - Where does he live?), you make it dependent on an introductory phrase (e.g., <em>Ich weiß nicht, ...</em> - I don't know...). If the direct question starts with a question word (a \"wh-word\" like <em>wer, was, wann, wo, wie, warum, welcher</em>), you use this exact same word to connect the two clauses.</p>",
-        "<div class='box rule'><strong>Core rule:</strong> In an indirect question, the question word acts as a subordinating conjunction. This means the <strong>finite (conjugated) verb is pushed to the very end</strong> of the clause.</div>",
-        "<h3>Structure and word order</h3><p>The structure is always: <strong>Main clause + comma + question word + subject + ... + finite verb.</strong></p><ul><li>Direct: <em>Wann <strong>kommt</strong> der Zug <strong>an</strong>?</em> (When does the train arrive?)</li><li>Indirect: <em>Können Sie mir sagen, wann der Zug <strong>ankommt</strong>?</em> (Can you tell me when the train arrives?)</li><li>Direct: <em>Warum <strong>hat</strong> sie <strong>geweint</strong>?</em> (Why did she cry?)</li><li>Indirect: <em>Ich frage mich, warum sie <strong>geweint hat</strong>.</em> (I wonder why she cried.)</li></ul>",
-        "<h3>Questions with prepositions</h3><p>If the question word is combined with a preposition (e.g., <em>mit wem</em> - with whom, <em>worauf</em> - what on, <em>an wen</em> - to whom), the entire prepositional phrase moves to the beginning of the subordinate clause.</p><ul><li>Direct: <em>Mit wem <strong>spricht</strong> der Chef?</em> (Who is the boss talking to?)</li><li>Indirect: <em>Ich weiß nicht, mit wem der Chef <strong>spricht</strong>.</em> (I don't know who the boss is talking to.)</li></ul>",
-        "<table><thead><tr><th>Direct Question</th><th>Introductory Clause</th><th>Indirect Question</th></tr></thead><tbody><tr><td class='de'>Wie funktioniert das?</td><td>Er fragt,</td><td class='de'><strong>wie</strong> das <strong>funktioniert</strong>.</td></tr><tr><td class='de'>Woher kommen Sie?</td><td>Ich möchte wissen,</td><td class='de'><strong>woher</strong> Sie <strong>kommen</strong>.</td></tr><tr><td class='de'>Wie viel kostet es?</td><td>Weißt du,</td><td class='de'><strong>wie viel</strong> es <strong>kostet</strong>?</td></tr></tbody></table>",
-        "<div class='box warn'><strong>Common mistake: Keeping V2 word order</strong><p>✗ Ich weiß nicht, wo wohnt er.</p><p>✓ Ich weiß nicht, wo er <strong>wohnt</strong>.</p><p>Never keep the verb directly after the question word in an indirect question. The conjugated verb belongs at the end.</p></div>",
-        "<div class='box tip'><strong>Memory aid: Comma, Question Word, End Verb</strong><p>When forming an indirect question, always place a comma before the question word, and throw the conjugated verb all the way to the end of the sentence.</p></div>",
-        "<h3>Quick reference</h3><div class='tiles'><div class='tile'><strong>Simple tense</strong><p><em>Er fragt, wer heute <strong>kommt</strong>.</em></p></div><div class='tile'><strong>Perfect tense</strong><p><em>Ich weiß, was er <strong>getan hat</strong>.</em></p></div><div class='tile'><strong>Modal verb</strong><p><em>Weißt du, wo ich <strong>parken darf</strong>?</em></p></div><div class='tile'><strong>Separable verb</strong><p><em>Ich frage, wann er <strong>abfährt</strong>.</em></p></div></div>"
+        "<h3>What are indirect yes/no questions?</h3><p>When you want to embed a yes/no question into another sentence, you use an indirect question. Instead of asking directly (e.g., <em>Kommt er heute?</em> - Is he coming today?), you make it dependent on a main clause (e.g., <em>Ich weiß nicht, ...</em> - I don't know...). In German, indirect yes/no questions are introduced by the subordinating conjunction <strong>ob</strong> (if/whether).</p>",
+        "<div class='box rule'><strong>Core rule:</strong> Use <strong>ob</strong> to introduce an indirect yes/no question. Because <em>ob</em> is a subordinating conjunction, it sends the <strong>finite (conjugated) verb to the very end</strong> of the clause.</div>",
+        "<h3>Word order and structure</h3><p>An indirect question is a subordinate clause. This means the word order changes compared to a direct question. The structure is: <strong>Main clause + comma + ob + subject + ... + finite verb.</strong></p><ul><li>Direct: <em>Hat er Zeit?</em> (Does he have time?)</li><li>Indirect: <em>Ich frage mich, <strong>ob</strong> er Zeit <strong>hat</strong>.</em> (I wonder whether he has time.)</li><li>Direct: <em>Regnet es morgen?</em> (Is it going to rain tomorrow?)</li><li>Indirect: <em>Weißt du, <strong>ob</strong> es morgen <strong>regnet</strong>?</em> (Do you know if it is going to rain tomorrow?)</li></ul>",
+        "<h3>When to use ob vs. wenn</h3><p>English speakers often confuse <em>ob</em> and <em>wenn</em> because both can translate to \"if\". However, their usage in German is strictly separated:</p><ul><li>Use <strong>ob</strong> ONLY for indirect yes/no questions (meaning \"whether\"). If you can substitute \"if\" with \"whether\" in English, use <em>ob</em>. (<em>Ich weiß nicht, ob er kommt.</em> = I don't know whether/if he is coming.)</li><li>Use <strong>wenn</strong> for conditions (if/in case) or temporal situations (whenever). (<em>Wenn es regnet, bleibe ich zu Hause.</em> = If it rains, I'm staying home.)</li></ul>",
+        "<table><thead><tr><th>Direct Question</th><th>Main Clause</th><th>Indirect Question (ob-clause)</th></tr></thead><tbody><tr><td class='de'>Ist das Geschäft offen?</td><td>Können Sie mir sagen,</td><td class='de'><strong>ob</strong> das Geschäft offen <strong>ist</strong>?</td></tr><tr><td class='de'>Haben wir noch Milch?</td><td>Ich habe vergessen,</td><td class='de'><strong>ob</strong> wir noch Milch <strong>haben</strong>.</td></tr><tr><td class='de'>Wird der Preis steigen?</td><td>Es ist unklar,</td><td class='de'><strong>ob</strong> der Preis steigen <strong>wird</strong>.</td></tr></tbody></table>",
+        "<div class='box warn'><strong>Common mistake: Using \"wenn\" for indirect questions</strong><p>✗ Ich weiß nicht, wenn er Zeit hat.</p><p>✓ Ich weiß nicht, <strong>ob</strong> er Zeit <strong>hat</strong>.</p><p>Always use <em>ob</em> when the clause expresses uncertainty, a question, or a doubt (whether).</p></div>",
+        "<div class='box tip'><strong>Memory aid: Ask a question!</strong><p>If the clause contains an underlying yes/no question (e.g., Is he coming? Yes or No?), then you must use <em>ob</em>.</p></div>",
+        "<h3>Quick reference</h3><div class='tiles'><div class='tile'><strong>Direct question</strong><p><em>Geht er nach Hause?</em></p></div><div class='tile'><strong>Indirect question</strong><p><em>Ich frage, ob er nach Hause geht.</em></p></div><div class='tile'><strong>Perfect tense</strong><p><em>Weißt du, ob er gegangen ist?</em></p></div><div class='tile'><strong>Modal verb</strong><p><em>Er prüft, ob er gehen kann.</em></p></div></div>"
       ],
       "pl": [
-        "<h3>Czym jest pytanie pośrednie z zaimkiem pytającym?</h3><p>Pytanie pośrednie to pytanie wplecione w inne zdanie. Zamiast pytać bezpośrednio (np. <em>Wo wohnt er?</em> - Gdzie on mieszka?), uzależniasz je od zdania wprowadzającego (np. <em>Ich weiß nicht, ...</em> - Nie wiem...). Jeśli bezpośrednie pytanie zaczyna się od zaimka pytającego (słowa na literę \"w\", jak <em>wer, was, wann, wo, wie, warum, welcher</em>), używasz dokładnie tego samego słowa, aby połączyć oba zdania.</p>",
-        "<div class='box rule'><strong>Główna zasada:</strong> W pytaniu pośrednim zaimek pytający pełni funkcję spójnika podrzędnego. Oznacza to, że <strong>odmieniony czasownik zostaje zepchnięty na sam koniec</strong> zdania.</div>",
-        "<h3>Struktura i szyk wyrazów</h3><p>Struktura to zawsze: <strong>Zdanie główne + przecinek + zaimek pytający + podmiot + ... + czasownik odmieniony.</strong></p><ul><li>Bezpośrednie: <em>Wann <strong>kommt</strong> der Zug <strong>an</strong>?</em> (Kiedy przyjeżdża pociąg?)</li><li>Pośrednie: <em>Können Sie mir sagen, wann der Zug <strong>ankommt</strong>?</em> (Może mi pan powiedzieć, kiedy przyjeżdża pociąg?)</li><li>Bezpośrednie: <em>Warum <strong>hat</strong> sie <strong>geweint</strong>?</em> (Dlaczego ona płakała?)</li><li>Pośrednie: <em>Ich frage mich, warum sie <strong>geweint hat</strong>.</em> (Zastanawiam się, dlaczego ona płakała.)</li></ul>",
-        "<h3>Pytania z przyimkami</h3><p>Jeśli słowo pytające jest połączone z przyimkiem (np. <em>mit wem</em> - z kim, <em>worauf</em> - na co, <em>an wen</em> - do kogo), całe wyrażenie przyimkowe przenosi się na początek zdania podrzędnego.</p><ul><li>Bezpośrednie: <em>Mit wem <strong>spricht</strong> der Chef?</em> (Z kim rozmawia szef?)</li><li>Pośrednie: <em>Ich weiß nicht, mit wem der Chef <strong>spricht</strong>.</em> (Nie wiem, z kim rozmawia szef.)</li></ul>",
-        "<table><thead><tr><th>Pytanie bezpośrednie</th><th>Zdanie wprowadzające</th><th>Pytanie pośrednie</th></tr></thead><tbody><tr><td class='de'>Wie funktioniert das?</td><td>Er fragt,</td><td class='de'><strong>wie</strong> das <strong>funktioniert</strong>.</td></tr><tr><td class='de'>Woher kommen Sie?</td><td>Ich möchte wissen,</td><td class='de'><strong>woher</strong> Sie <strong>kommen</strong>.</td></tr><tr><td class='de'>Wie viel kostet es?</td><td>Weißt du,</td><td class='de'><strong>wie viel</strong> es <strong>kostet</strong>?</td></tr></tbody></table>",
-        "<div class='box warn'><strong>Typowy błąd: Zachowanie szyku V2</strong><p>✗ Ich weiß nicht, wo wohnt er.</p><p>✓ Ich weiß nicht, wo er <strong>wohnt</strong>.</p><p>W pytaniu pośrednim nigdy nie zostawiaj czasownika zaraz po słowie pytającym. Odmieniony czasownik ma swoje miejsce na końcu zdania.</p></div>",
-        "<div class='box tip'><strong>Pomoc w zapamiętaniu: Przecinek, słowo pytające, czasownik na końcu</strong><p>Tworząc pytanie pośrednie, zawsze stawiaj przecinek przed słowem pytającym, a odmieniony czasownik wyrzuć na sam koniec zdania.</p></div>",
-        "<h3>Szybki przegląd</h3><div class='tiles'><div class='tile'><strong>Czas prosty</strong><p><em>Er fragt, wer heute <strong>kommt</strong>.</em></p></div><div class='tile'><strong>Czas Perfekt</strong><p><em>Ich weiß, was er <strong>getan hat</strong>.</em></p></div><div class='tile'><strong>Czasownik modalny</strong><p><em>Weißt du, wo ich <strong>parken darf</strong>?</em></p></div><div class='tile'><strong>Czasownik rozdzielnie złożony</strong><p><em>Ich frage, wann er <strong>abfährt</strong>.</em></p></div></div>"
+        "<h3>Czym są pytania pośrednie o rozstrzygnięcie?</h3><p>Kiedy chcesz wpleść pytanie, na które odpowiedź brzmi \"tak\" lub \"nie\", w inne zdanie, używasz pytania pośredniego. Zamiast pytać bezpośrednio (np. <em>Kommt er heute?</em> - Czy on dziś przyjdzie?), uzależniasz je od zdania głównego (np. <em>Ich weiß nicht, ...</em> - Nie wiem...). W języku niemieckim pośrednie pytania rozstrzygające wprowadza się spójnikiem podrzędnym <strong>ob</strong> (czy).</p>",
+        "<div class='box rule'><strong>Główna zasada:</strong> Używaj <strong>ob</strong>, aby wprowadzić pośrednie pytanie o rozstrzygnięcie (tak/nie). Ponieważ <em>ob</em> jest spójnikiem podrzędnym, <strong>wyrzuca odmieniony czasownik na sam koniec</strong> zdania.</div>",
+        "<h3>Szyk wyrazów i struktura</h3><p>Pytanie pośrednie to zdanie podrzędne. Oznacza to, że szyk wyrazów ulega zmianie w porównaniu z pytaniem bezpośrednim. Struktura to: <strong>Zdanie główne + przecinek + ob + podmiot + ... + czasownik odmieniony.</strong></p><ul><li>Bezpośrednie: <em>Hat er Zeit?</em> (Czy on ma czas?)</li><li>Pośrednie: <em>Ich frage mich, <strong>ob</strong> er Zeit <strong>hat</strong>.</em> (Zastanawiam się, czy on ma czas.)</li><li>Bezpośrednie: <em>Regnet es morgen?</em> (Czy jutro będzie padać?)</li><li>Pośrednie: <em>Weißt du, <strong>ob</strong> es morgen <strong>regnet</strong>?</em> (Wiesz, czy jutro będzie padać?)</li></ul>",
+        "<h3>Kiedy używać ob, a kiedy wenn?</h3><p>Osoby uczące się niemieckiego często mylą <em>ob</em> i <em>wenn</em>. W języku polskim różnica jest prosta:</p><ul><li>Używaj <strong>ob</strong> (czy) TYLKO do pytań pośrednich, gdzie rozstrzygamy jakąś wątpliwość (tak lub nie). (<em>Ich weiß nicht, ob er kommt.</em> = Nie wiem, czy on przyjdzie.)</li><li>Używaj <strong>wenn</strong> (jeśli/gdy/kiedy) do warunków lub sytuacji czasowych. (<em>Wenn es regnet, bleibe ich zu Hause.</em> = Jeśli będzie padać, zostanę w domu.)</li></ul>",
+        "<table><thead><tr><th>Pytanie bezpośrednie</th><th>Zdanie główne</th><th>Pytanie pośrednie (zdanie z ob)</th></tr></thead><tbody><tr><td class='de'>Ist das Geschäft offen?</td><td>Können Sie mir sagen,</td><td class='de'><strong>ob</strong> das Geschäft offen <strong>ist</strong>?</td></tr><tr><td class='de'>Haben wir noch Milch?</td><td>Ich habe vergessen,</td><td class='de'><strong>ob</strong> wir noch Milch <strong>haben</strong>.</td></tr><tr><td class='de'>Wird der Preis steigen?</td><td>Es ist unklar,</td><td class='de'><strong>ob</strong> der Preis steigen <strong>wird</strong>.</td></tr></tbody></table>",
+        "<div class='box warn'><strong>Typowy błąd: Używanie \"wenn\" zamiast \"ob\"</strong><p>✗ Ich weiß nicht, wenn er Zeit hat.</p><p>✓ Ich weiß nicht, <strong>ob</strong> er Zeit <strong>hat</strong>.</p><p>Zawsze używaj <em>ob</em> (czy), gdy zdanie wyraża niepewność, pytanie lub wątpliwość, na które można odpowiedzieć tak/nie.</p></div>",
+        "<div class='box tip'><strong>Pomoc w zapamiętaniu: Zadaj pytanie!</strong><p>Jeśli w tle kryje się pytanie o rozstrzygnięcie (np. Czy on przyjdzie? Tak czy nie?), musisz użyć <em>ob</em>. Jeśli pod spodem kryje się warunek (jeśli), użyj <em>wenn</em>.</p></div>",
+        "<h3>Szybki przegląd</h3><div class='tiles'><div class='tile'><strong>Pytanie bezpośrednie</strong><p><em>Geht er nach Hause?</em></p></div><div class='tile'><strong>Pytanie pośrednie</strong><p><em>Ich frage, ob er nach Hause geht.</em></p></div><div class='tile'><strong>Czas Perfekt</strong><p><em>Weißt du, ob er gegangen ist?</em></p></div><div class='tile'><strong>Czasownik modalny</strong><p><em>Er prüft, ob er gehen kann.</em></p></div></div>"
       ]
     }
   },
   "examples": [
     {
-      "de": "Ich weiß nicht, **wo er wohnt**.",
-      "en": "I don't know where he lives.",
-      "pl": "Nie wiem, gdzie on mieszka.",
+      "de": "Ich weiß nicht, **ob** er heute **kommt**.",
+      "en": "I don't know whether he is coming today.",
+      "pl": "Nie wiem, czy on dzisiaj przyjdzie.",
       "level": "A2"
     },
     {
-      "de": "Kannst du mir sagen, **wann der Zug ankommt**?",
-      "en": "Can you tell me when the train arrives?",
-      "pl": "Możesz mi powiedzieć, kiedy przyjeżdża pociąg?",
+      "de": "Er fragt, **ob** wir Zeit **haben**.",
+      "en": "He asks whether we have time.",
+      "pl": "On pyta, czy mamy czas.",
       "level": "A2"
     },
     {
-      "de": "Er fragt, **was das ist**.",
-      "en": "He asks what that is.",
-      "pl": "On pyta, co to jest.",
+      "de": "Weißt du, **ob** der Zug pünktlich **ist**?",
+      "en": "Do you know whether the train is on time?",
+      "pl": "Wiesz, czy pociąg jest punktualny?",
       "level": "A2"
     },
     {
-      "de": "Sie will wissen, **warum du weinst**.",
-      "en": "She wants to know why you are crying.",
-      "pl": "Ona chce wiedzieć, dlaczego płaczesz.",
+      "de": "Können Sie mir sagen, **ob** das Geschäft offen **ist**?",
+      "en": "Can you tell me whether the shop is open?",
+      "pl": "Może mi pan powiedzieć, czy sklep jest otwarty?",
       "level": "A2"
     },
     {
-      "de": "Wir verstehen nicht, **wie das funktioniert**.",
-      "en": "We don't understand how this works.",
-      "pl": "Nie rozumiemy, jak to działa.",
+      "de": "Sie möchte wissen, **ob** es morgen **regnet**.",
+      "en": "She wants to know whether it will rain tomorrow.",
+      "pl": "Ona chce wiedzieć, czy jutro będzie padać.",
       "level": "A2"
     },
     {
-      "de": "Weißt du, **welcher Bus zum Bahnhof fährt**?",
-      "en": "Do you know which bus goes to the station?",
-      "pl": "Wiesz, który autobus jedzie na dworzec?",
+      "de": "Wir sind nicht sicher, **ob** wir die Prüfung bestanden **haben**.",
+      "en": "We are not sure whether we have passed the exam.",
+      "pl": "Nie jesteśmy pewni, czy zdaliśmy egzamin.",
       "level": "B1"
     },
     {
-      "de": "Ich erinnere mich nicht, **wo ich mein Auto geparkt habe**.",
-      "en": "I don't remember where I parked my car.",
-      "pl": "Nie pamiętam, gdzie zaparkowałem mój samochód.",
+      "de": "Darf ich fragen, **ob** Sie schon bestellt **haben**?",
+      "en": "May I ask whether you have already ordered?",
+      "pl": "Mogę zapytać, czy już pan zamówił?",
       "level": "B1"
     },
     {
-      "de": "Der Chef fragt, **warum der Bericht noch nicht fertig ist**.",
-      "en": "The boss asks why the report is not ready yet.",
-      "pl": "Szef pyta, dlaczego raport nie jest jeszcze gotowy.",
+      "de": "Ich habe vergessen, **ob** wir noch Milch im Kühlschrank **haben**.",
+      "en": "I have forgotten whether we still have milk in the fridge.",
+      "pl": "Zapomniałem, czy mamy jeszcze mleko w lodówce.",
       "level": "B1"
     },
     {
-      "de": "Könnten Sie mir erklären, **wie man dieses Formular ausfüllt**?",
-      "en": "Could you explain to me how to fill out this form?",
-      "pl": "Mógłby mi pan wyjaśnić, jak wypełnia się ten formularz?",
+      "de": "Es ist noch unklar, **ob** das Konzert drinnen oder draußen **stattfindet**.",
+      "en": "It is still unclear whether the concert takes place indoors or outdoors.",
+      "pl": "Nadal nie jest jasne, czy koncert odbędzie się wewnątrz czy na zewnątrz.",
       "level": "B1"
     },
     {
-      "de": "Wir müssen klären, **wer die Rechnung bezahlt**.",
-      "en": "We need to clarify who is paying the bill.",
-      "pl": "Musimy wyjaśnić, kto płaci rachunek.",
+      "de": "Bitte prüfen Sie, **ob** alle Dokumente vollständig **sind**.",
+      "en": "Please check whether all documents are complete.",
+      "pl": "Proszę sprawdzić, czy wszystkie dokumenty są kompletne.",
       "level": "B1"
     },
     {
-      "de": "Ich habe keine Ahnung, **wie lange die Reparatur dauert**.",
-      "en": "I have no idea how long the repair will take.",
-      "pl": "Nie mam pojęcia, jak długo potrwa naprawa.",
+      "de": "Ich überlege, **ob** ich mir ein neues Auto kaufen **soll**.",
+      "en": "I am considering whether I should buy a new car.",
+      "pl": "Zastanawiam się, czy powinienem kupić sobie nowy samochód.",
       "level": "B1"
     },
     {
-      "de": "Sie fragt, **mit wem du gestern gesprochen hast**.",
-      "en": "She asks who you spoke with yesterday.",
-      "pl": "Ona pyta, z kim wczoraj rozmawiałeś.",
+      "de": "Er hat nicht gesagt, **ob** er die E-Mail schon gelesen **hat**.",
+      "en": "He didn't say whether he had already read the email.",
+      "pl": "On nie powiedział, czy już przeczytał ten e-mail.",
       "level": "B1"
     },
     {
-      "de": "Die entscheidende Frage ist, **wie wir die Kosten reduzieren können**.",
-      "en": "The crucial question is how we can reduce the costs.",
-      "pl": "Kluczowym pytaniem jest to, jak możemy obniżyć koszty.",
+      "de": "Die entscheidende Frage ist, **ob** das Unternehmen die neuen Richtlinien umsetzen **wird**.",
+      "en": "The crucial question is whether the company will implement the new guidelines.",
+      "pl": "Kluczowym pytaniem jest, czy firma wdroży nowe wytyczne.",
       "level": "B2"
     },
     {
-      "de": "Es wird derzeit untersucht, **warum das System plötzlich abgestürzt ist**.",
-      "en": "It is currently being investigated why the system suddenly crashed.",
-      "pl": "Obecnie bada się, dlaczego system nagle się zawiesił.",
+      "de": "Der Manager prüft gerade, **ob** die Investition tatsächlich rentabel **ist**.",
+      "en": "The manager is currently checking whether the investment is actually profitable.",
+      "pl": "Menedżer właśnie sprawdza, czy inwestycja jest faktycznie rentowna.",
       "level": "B2"
     },
     {
-      "de": "Ich kann mir nicht vorstellen, **wie er das alles alleine geschafft hat**.",
-      "en": "I can't imagine how he managed all of that alone.",
-      "pl": "Nie potrafię sobie wyobrazić, jak on to wszystko sam ogarnął.",
+      "de": "Es hängt davon ab, **ob** die Lieferung rechtzeitig im Lager **eintrifft**.",
+      "en": "It depends on whether the delivery arrives at the warehouse on time.",
+      "pl": "To zależy od tego, czy dostawa dotrze do magazynu na czas.",
       "level": "B2"
     },
     {
-      "de": "Man sollte gut überlegen, **welche Konsequenzen dieses Handeln haben wird**.",
-      "en": "One should carefully consider what consequences this action will have.",
-      "pl": "Należy dobrze przemyśleć, jakie konsekwencje będzie miało to działanie.",
+      "de": "Niemand kann mit Sicherheit sagen, **ob** die Wirtschaft im nächsten Quartal wachsen **wird**.",
+      "en": "No one can say with certainty whether the economy will grow in the next quarter.",
+      "pl": "Nikt nie może z całą pewnością powiedzieć, czy gospodarka wzrośnie w następnym kwartale.",
       "level": "B2"
     },
     {
-      "de": "Es ist noch nicht bekannt, **wer zum neuen Geschäftsführer ernannt wird**.",
-      "en": "It is not yet known who will be appointed as the new CEO.",
-      "pl": "Jeszcze nie wiadomo, kto zostanie mianowany nowym dyrektorem zarządzającym.",
+      "de": "Sie diskutieren darüber, **ob** die Konferenz online oder in Präsenz abgehalten werden **soll**.",
+      "en": "They are discussing whether the conference should be held online or in person.",
+      "pl": "Omawiają, czy konferencja powinna odbyć się online, czy stacjonarnie.",
       "level": "B2"
     },
     {
-      "de": "Wir analysieren gerade, **worauf diese positiven Ergebnisse basieren**.",
-      "en": "We are currently analyzing what these positive results are based on.",
-      "pl": "Obecnie analizujemy, na czym opierają się te pozytywne wyniki.",
+      "de": "Ich zweifle daran, **ob** er die komplexe Situation vollständig verstanden **hat**.",
+      "en": "I doubt whether he has fully understood the complex situation.",
+      "pl": "Wątpię w to, czy on w pełni zrozumiał tę złożoną sytuację.",
       "level": "B2"
     },
     {
-      "de": "Die Journalisten fragten den Politiker, **weshalb er sein Versprechen gebrochen hat**.",
-      "en": "The journalists asked the politician why he broke his promise.",
-      "pl": "Dziennikarze zapytali polityka, dlaczego złamał swoją obietnicę.",
+      "de": "Wir müssen noch klären, **ob** die zusätzlichen Kosten vom Budget gedeckt **sind**.",
+      "en": "We still have to clarify whether the additional costs are covered by the budget.",
+      "pl": "Musimy jeszcze wyjaśnić, czy dodatkowe koszty są pokryte z budżetu.",
       "level": "B2"
     },
     {
-      "de": "Die Studie veranschaulicht eindrucksvoll, **inwiefern soziale Medien die politische Meinungsbildung beeinflussen**.",
-      "en": "The study impressively illustrates to what extent social media influences political opinion-forming.",
-      "pl": "Badanie imponująco ilustruje, do jakiego stopnia media społecznościowe wpływają na kształtowanie się opinii politycznej.",
+      "de": "Bislang bleibt völlig ungewiss, **ob** die umstrittene Gesetzesänderung im Parlament die erforderliche Mehrheit finden **wird**.",
+      "en": "So far, it remains entirely uncertain whether the controversial amendment will find the necessary majority in parliament.",
+      "pl": "Jak dotąd pozostaje całkowicie niepewne, czy kontrowersyjna poprawka do ustawy znajdzie wymaganą większość w parlamencie.",
       "level": "C1"
     }
   ],
   "exercises": [
     {
-      "en": "I don't know where he lives.",
-      "pl": "Nie wiem, gdzie on mieszka.",
-      "de": "Ich weiß nicht, wo er wohnt.",
+      "en": "I don't know whether he is coming.",
+      "pl": "Nie wiem, czy on przyjdzie.",
+      "de": "Ich weiß nicht, ob er kommt.",
       "level": "A2"
     },
     {
-      "en": "Can you tell me what this is?",
-      "pl": "Możesz mi powiedzieć, co to jest?",
-      "de": "Kannst du mir sagen, was das ist?",
+      "en": "He asks whether you have time.",
+      "pl": "On pyta, czy masz czas.",
+      "de": "Er fragt, ob du Zeit hast.",
       "level": "A2"
     },
     {
-      "en": "Do you know when the bus arrives?",
-      "pl": "Wiesz, kiedy przyjeżdża autobus?",
-      "de": "Weißt du, wann der Bus ankommt?",
+      "en": "Do you know whether the shop is open?",
+      "pl": "Wiesz, czy sklep jest otwarty?",
+      "de": "Weißt du, ob das Geschäft offen ist?",
       "level": "A2"
     },
     {
-      "en": "He asks how much the book costs.",
-      "pl": "On pyta, ile kosztuje książka.",
-      "de": "Er fragt, wie viel das Buch kostet.",
+      "en": "She asks whether it is raining.",
+      "pl": "Ona pyta, czy pada deszcz.",
+      "de": "Sie fragt, ob es regnet.",
       "level": "A2"
     },
     {
-      "en": "I wonder why she is crying.",
-      "pl": "Zastanawiam się, dlaczego ona płacze.",
-      "de": "Ich frage mich, warum sie weint.",
+      "en": "I don't know whether the train is arriving.",
+      "pl": "Nie wiem, czy pociąg przyjeżdża.",
+      "de": "Ich weiß nicht, ob der Zug ankommt.",
       "level": "A2"
     },
     {
-      "en": "She wants to know who is coming today.",
-      "pl": "Ona chce wiedzieć, kto dzisiaj przyjdzie.",
-      "de": "Sie will wissen, wer heute kommt.",
+      "en": "We are asking whether the food is good.",
+      "pl": "Pytamy, czy jedzenie jest dobre.",
+      "de": "Wir fragen, ob das Essen gut ist.",
       "level": "A2"
     },
     {
-      "en": "We don't know how late it is.",
-      "pl": "Nie wiemy, która jest godzina.",
-      "de": "Wir wissen nicht, wie spät es ist.",
+      "en": "Can you tell me whether she is here?",
+      "pl": "Możesz mi powiedzieć, czy ona tu jest?",
+      "de": "Kannst du mir sagen, ob sie hier ist?",
       "level": "A2"
     },
     {
-      "en": "Please tell me where the station is.",
-      "pl": "Proszę, powiedz mi, gdzie jest dworzec.",
-      "de": "Bitte sag mir, wo der Bahnhof ist.",
+      "en": "I am not sure whether he is sleeping.",
+      "pl": "Nie jestem pewien, czy on śpi.",
+      "de": "Ich bin nicht sicher, ob er schläft.",
       "level": "A2"
     },
     {
-      "en": "Do you understand what he says?",
-      "pl": "Rozumiesz, co on mówi?",
-      "de": "Verstehst du, was er sagt?",
+      "en": "Do you know whether we have a test today?",
+      "pl": "Wiesz, czy mamy dzisiaj test?",
+      "de": "Weißt du, ob wir heute einen Test haben?",
       "level": "A2"
     },
     {
-      "en": "I ask where we are going.",
-      "pl": "Pytam, dokąd idziemy.",
-      "de": "Ich frage, wohin wir gehen.",
+      "en": "He asks whether the coffee is hot.",
+      "pl": "On pyta, czy kawa jest gorąca.",
+      "de": "Er fragt, ob der Kaffee heiß ist.",
       "level": "A2"
     },
     {
-      "en": "She doesn't know where she is.",
-      "pl": "Ona nie wie, gdzie jest.",
-      "de": "Sie weiß nicht, wo sie ist.",
+      "en": "She doesn't know whether the ticket is expensive.",
+      "pl": "Ona nie wie, czy bilet jest drogi.",
+      "de": "Sie weiß nicht, ob das Ticket teuer ist.",
       "level": "A2"
     },
     {
-      "en": "Can you ask when the break starts?",
-      "pl": "Możesz zapytać, kiedy zaczyna się przerwa?",
-      "de": "Kannst du fragen, wann die Pause beginnt?",
+      "en": "We ask whether the child is playing.",
+      "pl": "Pytamy, czy dziecko się bawi.",
+      "de": "Wir fragen, ob das Kind spielt.",
       "level": "A2"
     },
     {
-      "en": "He wonders who the man is.",
-      "pl": "On zastanawia się, kim jest ten mężczyzna.",
-      "de": "Er fragt sich, wer der Mann ist.",
+      "en": "I want to know whether you are learning German.",
+      "pl": "Chcę wiedzieć, czy uczysz się niemieckiego.",
+      "de": "Ich will wissen, ob du Deutsch lernst.",
       "level": "A2"
     },
     {
-      "en": "Do you know where the keys are?",
-      "pl": "Wiesz, gdzie są klucze?",
-      "de": "Weißt du, wo die Schlüssel sind?",
+      "en": "Do you know whether he lives in Berlin?",
+      "pl": "Wiesz, czy on mieszka w Berlinie?",
+      "de": "Weißt du, ob er in Berlin wohnt?",
       "level": "A2"
     },
     {
-      "en": "I want to know how this works.",
-      "pl": "Chcę wiedzieć, jak to działa.",
-      "de": "Ich will wissen, wie das funktioniert.",
+      "en": "He asks whether the book is interesting.",
+      "pl": "On pyta, czy książka jest interesująca.",
+      "de": "Er fragt, ob das Buch interessant ist.",
       "level": "A2"
     },
     {
-      "en": "I can't remember where I parked the car.",
-      "pl": "Nie potrafię sobie przypomnieć, gdzie zaparkowałem samochód.",
-      "de": "Ich kann mich nicht erinnern, wo ich das Auto geparkt habe.",
+      "en": "I am not sure whether I locked the door.",
+      "pl": "Nie jestem pewien, czy zamknąłem drzwi na klucz.",
+      "de": "Ich bin nicht sicher, ob ich die Tür abgeschlossen habe.",
       "level": "B1"
     },
     {
-      "en": "He asks why the meeting was cancelled.",
-      "pl": "On pyta, dlaczego spotkanie zostało odwołane.",
-      "de": "Er fragt, warum die Besprechung abgesagt wurde.",
+      "en": "Please check whether the window is closed.",
+      "pl": "Proszę sprawdzić, czy okno jest zamknięte.",
+      "de": "Bitte prüfen Sie, ob das Fenster geschlossen ist.",
       "level": "B1"
     },
     {
-      "en": "Can you explain to me how this machine works?",
-      "pl": "Możesz mi wyjaśnić, jak działa ta maszyna?",
-      "de": "Kannst du mir erklären, wie diese Maschine funktioniert?",
+      "en": "We have to ask whether the doctor has time.",
+      "pl": "Musimy zapytać, czy lekarz ma czas.",
+      "de": "Wir müssen fragen, ob der Arzt Zeit hat.",
       "level": "B1"
     },
     {
-      "en": "We are discussing who will take over the project.",
-      "pl": "Dyskutujemy o tym, kto przejmie projekt.",
-      "de": "Wir diskutieren, wer das Projekt übernimmt.",
+      "en": "She didn't say whether she would come to the party.",
+      "pl": "Ona nie powiedziała, czy przyjdzie na imprezę.",
+      "de": "Sie hat nicht gesagt, ob sie zur Party kommt.",
       "level": "B1"
     },
     {
-      "en": "I wonder when the package will finally arrive.",
-      "pl": "Zastanawiam się, kiedy paczka w końcu dotrze.",
-      "de": "Ich frage mich, wann das Paket endlich ankommt.",
+      "en": "I wonder whether I should buy the laptop.",
+      "pl": "Zastanawiam się, czy powinienem kupić tego laptopa.",
+      "de": "Ich überlege, ob ich den Laptop kaufen soll.",
       "level": "B1"
     },
     {
-      "en": "Do you know which train goes to Berlin?",
-      "pl": "Wiesz, który pociąg jedzie do Berlina?",
-      "de": "Weißt du, welcher Zug nach Berlin fährt?",
+      "en": "Do you know whether the train has a delay?",
+      "pl": "Czy wiesz, czy pociąg ma opóźnienie?",
+      "de": "Weißt du, ob der Zug Verspätung hat?",
       "level": "B1"
     },
     {
-      "en": "She wants to know with whom you spoke.",
-      "pl": "Ona chce wiedzieć, z kim rozmawiałeś.",
-      "de": "Sie will wissen, mit wem du gesprochen hast.",
+      "en": "He forgot whether he had already paid the bill.",
+      "pl": "On zapomniał, czy już zapłacił rachunek.",
+      "de": "Er hat vergessen, ob er die Rechnung schon bezahlt hat.",
       "level": "B1"
     },
     {
-      "en": "I have no idea how long the journey takes.",
-      "pl": "Nie mam pojęcia, jak długo trwa podróż.",
-      "de": "Ich habe keine Ahnung, wie lange die Fahrt dauert.",
+      "en": "We want to know whether the museum is open on Mondays.",
+      "pl": "Chcemy wiedzieć, czy muzeum jest otwarte w poniedziałki.",
+      "de": "Wir wollen wissen, ob das Museum montags geöffnet ist.",
       "level": "B1"
     },
     {
-      "en": "The boss asks why the report is not ready yet.",
-      "pl": "Szef pyta, dlaczego raport nie jest jeszcze gotowy.",
-      "de": "Der Chef fragt, warum der Bericht noch nicht fertig ist.",
+      "en": "I am asking myself whether this is a good idea.",
+      "pl": "Zastanawiam się, czy to jest dobry pomysł.",
+      "de": "Ich frage mich, ob das eine gute Idee ist.",
       "level": "B1"
     },
     {
-      "en": "We must clarify who is paying the bill.",
-      "pl": "Musimy wyjaśnić, kto płaci rachunek.",
-      "de": "Wir müssen klären, wer die Rechnung bezahlt.",
+      "en": "Can you check whether we still have enough bread?",
+      "pl": "Możesz sprawdzić, czy mamy jeszcze wystarczająco dużo chleba?",
+      "de": "Kannst du prüfen, ob wir noch genug Brot haben?",
       "level": "B1"
     },
     {
-      "en": "Could you please tell me where I can find the pharmacy?",
-      "pl": "Czy mógłby mi pan powiedzieć, gdzie znajdę aptekę?",
-      "de": "Könnten Sie mir bitte sagen, wo ich die Apotheke finde?",
+      "en": "She is not sure whether she understood the task correctly.",
+      "pl": "Ona nie jest pewna, czy dobrze zrozumiała zadanie.",
+      "de": "Sie ist nicht sicher, ob sie die Aufgabe richtig verstanden hat.",
       "level": "B1"
     },
     {
-      "en": "I am not sure what he meant by that.",
-      "pl": "Nie jestem pewien, co miał przez to na myśli.",
-      "de": "Ich bin nicht sicher, was er damit gemeint hat.",
+      "en": "He asks whether we can meet tomorrow.",
+      "pl": "On pyta, czy możemy się jutro spotkać.",
+      "de": "Er fragt, ob wir uns morgen treffen können.",
       "level": "B1"
     },
     {
-      "en": "They ask when the new restaurant opens.",
-      "pl": "Oni pytają, kiedy otwiera się nowa restauracja.",
-      "de": "Sie fragen, wann das neue Restaurant öffnet.",
+      "en": "I don't know whether she has received my message.",
+      "pl": "Nie wiem, czy ona otrzymała moją wiadomość.",
+      "de": "Ich weiß nicht, ob sie meine Nachricht erhalten hat.",
       "level": "B1"
     },
     {
-      "en": "He wonders why she hasn't replied to his email.",
-      "pl": "Zastanawia się, dlaczego ona nie odpowiedziała na jego e-mail.",
-      "de": "Er fragt sich, warum sie nicht auf seine E-Mail geantwortet hat.",
+      "en": "We are considering whether we should book the flight now.",
+      "pl": "Zastanawiamy się, czy powinniśmy teraz zarezerwować lot.",
+      "de": "Wir überlegen, ob wir den Flug jetzt buchen sollen.",
       "level": "B1"
     },
     {
-      "en": "Do you know where the nearest ATM is?",
-      "pl": "Wiesz, gdzie jest najbliższy bankomat?",
-      "de": "Weißt du, wo der nächste Geldautomat ist?",
+      "en": "Do you know whether he has passed his exam?",
+      "pl": "Wiesz, czy on zdał swój egzamin?",
+      "de": "Weißt du, ob er seine Prüfung bestanden hat?",
       "level": "B1"
     },
     {
-      "en": "I would like to know what time we are meeting.",
-      "pl": "Chciałbym wiedzieć, o której godzinie się spotykamy.",
-      "de": "Ich wüsste gerne, um wie viel Uhr wir uns treffen.",
+      "en": "The boss asks whether the report is ready.",
+      "pl": "Szef pyta, czy raport jest gotowy.",
+      "de": "Der Chef fragt, ob der Bericht fertig ist.",
       "level": "B1"
     },
     {
-      "en": "She checks how much money is still in the account.",
-      "pl": "Ona sprawdza, ile pieniędzy jest jeszcze na koncie.",
-      "de": "Sie prüft, wie viel Geld noch auf dem Konto ist.",
+      "en": "I have forgotten whether the meeting takes place today.",
+      "pl": "Zapomniałem, czy spotkanie odbywa się dzisiaj.",
+      "de": "Ich habe vergessen, ob die Besprechung heute stattfindet.",
       "level": "B1"
     },
     {
-      "en": "Can you tell me who called yesterday?",
-      "pl": "Możesz mi powiedzieć, kto wczoraj dzwonił?",
-      "de": "Kannst du mir sagen, wer gestern angerufen hat?",
+      "en": "She wants to know whether the hotel offers breakfast.",
+      "pl": "Ona chce wiedzieć, czy hotel oferuje śniadanie.",
+      "de": "Sie möchte wissen, ob das Hotel Frühstück anbietet.",
       "level": "B1"
     },
     {
-      "en": "We don't know yet where we will spend our holidays.",
-      "pl": "Jeszcze nie wiemy, gdzie spędzimy nasze wakacje.",
-      "de": "Wir wissen noch nicht, wo wir unseren Urlaub verbringen werden.",
+      "en": "He doesn't know whether he should accept the job.",
+      "pl": "On nie wie, czy powinien przyjąć tę pracę.",
+      "de": "Er weiß nicht, ob er den Job annehmen soll.",
       "level": "B1"
     },
     {
-      "en": "I forgot to ask how expensive the tickets are.",
-      "pl": "Zapomniałem zapytać, jak drogie są bilety.",
-      "de": "Ich habe vergessen zu fragen, wie teuer die Tickets sind.",
+      "en": "We must clarify whether the price includes tax.",
+      "pl": "Musimy wyjaśnić, czy cena zawiera podatek.",
+      "de": "Wir müssen klären, ob der Preis die Steuer enthält.",
       "level": "B1"
     },
     {
-      "en": "The customer asks when the delivery will take place.",
-      "pl": "Klient pyta, kiedy odbędzie się dostawa.",
-      "de": "Der Kunde fragt, wann die Lieferung stattfindet.",
+      "en": "I am not sure whether my colleague is working today.",
+      "pl": "Nie jestem pewien, czy mój kolega dzisiaj pracuje.",
+      "de": "Ich bin nicht sicher, ob mein Kollege heute arbeitet.",
       "level": "B1"
     },
     {
-      "en": "I wonder what we should cook for dinner.",
-      "pl": "Zastanawiam się, co powinniśmy ugotować na kolację.",
-      "de": "Ich frage mich, was wir zum Abendessen kochen sollen.",
+      "en": "Do you know whether the package has arrived?",
+      "pl": "Wiesz, czy paczka dotarła?",
+      "de": "Weißt du, ob das Paket angekommen ist?",
       "level": "B1"
     },
     {
-      "en": "Do you remember who won the game?",
-      "pl": "Pamiętasz, kto wygrał mecz?",
-      "de": "Erinnerst du dich, wer das Spiel gewonnen hat?",
+      "en": "He asks whether I have a driver's license.",
+      "pl": "On pyta, czy mam prawo jazdy.",
+      "de": "Er fragt, ob ich einen Führerschein habe.",
       "level": "B1"
     },
     {
-      "en": "She wants to find out where the mistake lies.",
-      "pl": "Ona chce się dowiedzieć, gdzie leży błąd.",
-      "de": "Sie möchte herausfinden, wo der Fehler liegt.",
+      "en": "She considers whether she should invite him.",
+      "pl": "Ona zastanawia się, czy powinna go zaprosić.",
+      "de": "Sie überlegt, ob sie ihn einladen soll.",
       "level": "B1"
     },
     {
-      "en": "I don't understand why the printer doesn't work.",
-      "pl": "Nie rozumiem, dlaczego drukarka nie działa.",
-      "de": "Ich verstehe nicht, warum der Drucker nicht funktioniert.",
+      "en": "I don't know whether it will rain tomorrow.",
+      "pl": "Nie wiem, czy jutro będzie padać.",
+      "de": "Ich weiß nicht, ob es morgen regnet.",
       "level": "B1"
     },
     {
-      "en": "We are asking ourselves how we can solve the problem.",
-      "pl": "Zastanawiamy się, jak możemy rozwiązać ten problem.",
-      "de": "Wir fragen uns, wie wir das Problem lösen können.",
+      "en": "Please let me know whether you need help.",
+      "pl": "Proszę, daj mi znać, czy potrzebujesz pomocy.",
+      "de": "Bitte sag mir Bescheid, ob du Hilfe brauchst.",
       "level": "B1"
     },
     {
-      "en": "Could you show me how I fill out this form?",
-      "pl": "Czy mógłbyś mi pokazać, jak mam wypełnić ten formularz?",
-      "de": "Könntest du mir zeigen, wie ich dieses Formular ausfülle?",
+      "en": "He asks whether the repair will take a long time.",
+      "pl": "On pyta, czy naprawa potrwa długo.",
+      "de": "Er fragt, ob die Reparatur lange dauert.",
       "level": "B1"
     },
     {
-      "en": "I have forgotten where I put my glasses.",
-      "pl": "Zapomniałem, gdzie odłożyłem okulary.",
-      "de": "Ich habe vergessen, wo ich meine Brille hingelegt habe.",
+      "en": "We don't know whether the restaurant is fully booked.",
+      "pl": "Nie wiemy, czy restauracja jest w pełni zarezerwowana.",
+      "de": "Wir wissen nicht, ob das Restaurant ausgebucht ist.",
       "level": "B1"
     },
     {
-      "en": "The teacher asks who has done the homework.",
-      "pl": "Nauczyciel pyta, kto odrobił pracę domową.",
-      "de": "Der Lehrer fragt, wer die Hausaufgaben gemacht hat.",
+      "en": "She asks whether she can pay by card.",
+      "pl": "Ona pyta, czy może zapłacić kartą.",
+      "de": "Sie fragt, ob sie mit Karte zahlen kann.",
       "level": "B1"
     },
     {
-      "en": "I don't know exactly what he wants from me.",
-      "pl": "Nie wiem dokładnie, czego on ode mnie chce.",
-      "de": "Ich weiß nicht genau, was er von mir will.",
+      "en": "I wonder whether they have found our house.",
+      "pl": "Zastanawiam się, czy znaleźli nasz dom.",
+      "de": "Ich frage mich, ob sie unser Haus gefunden haben.",
       "level": "B1"
     },
     {
-      "en": "She wonders why the traffic is so bad today.",
-      "pl": "Zastanawia się, dlaczego ruch uliczny jest dziś taki zły.",
-      "de": "Sie fragt sich, warum der Verkehr heute so schlimm ist.",
+      "en": "Do you know whether this bus goes to the station?",
+      "pl": "Wiesz, czy ten autobus jedzie na dworzec?",
+      "de": "Weißt du, ob dieser Bus zum Bahnhof fährt?",
       "level": "B1"
     },
     {
-      "en": "Can you tell me where the meeting room is located?",
-      "pl": "Możesz mi powiedzieć, gdzie znajduje się sala konferencyjna?",
-      "de": "Kannst du mir sagen, wo sich der Besprechungsraum befindet?",
+      "en": "He is not sure whether he has enough money with him.",
+      "pl": "On nie jest pewien, czy ma przy sobie wystarczająco dużo pieniędzy.",
+      "de": "Er ist nicht sicher, ob er genug Geld dabei hat.",
       "level": "B1"
     },
     {
-      "en": "We need to decide who we are going to invite.",
-      "pl": "Musimy zdecydować, kogo zaprosimy.",
-      "de": "Wir müssen entscheiden, wen wir einladen werden.",
+      "en": "We want to know whether the concert is sold out.",
+      "pl": "Chcemy wiedzieć, czy koncert jest wyprzedany.",
+      "de": "Wir wollen wissen, ob das Konzert ausverkauft ist.",
       "level": "B1"
     },
     {
-      "en": "Do you know why he resigned?",
-      "pl": "Wiesz, dlaczego on złożył wypowiedzenie?",
-      "de": "Weißt du, warum er gekündigt hat?",
+      "en": "I don't know whether she is still studying in Munich.",
+      "pl": "Nie wiem, czy ona nadal studiuje w Monachium.",
+      "de": "Ich weiß nicht, ob sie noch in München studiert.",
       "level": "B1"
     },
     {
-      "en": "I am curious what he will say about it.",
-      "pl": "Jestem ciekaw, co on o tym powie.",
-      "de": "Ich bin neugierig, was er dazu sagen wird.",
+      "en": "She asks whether the deadline has been extended.",
+      "pl": "Ona pyta, czy termin został przedłużony.",
+      "de": "Sie fragt, ob die Frist verlängert wurde.",
       "level": "B1"
     },
     {
-      "en": "The crucial question is how we can reduce the costs.",
-      "pl": "Kluczowym pytaniem jest, jak możemy zredukować koszty.",
-      "de": "Die entscheidende Frage ist, wie wir die Kosten reduzieren können.",
+      "en": "It depends on whether the delivery arrives on time.",
+      "pl": "To zależy od tego, czy dostawa dotrze na czas.",
+      "de": "Es hängt davon ab, ob die Lieferung pünktlich ankommt.",
       "level": "B2"
     },
     {
-      "en": "We have to ascertain who is responsible for the damage.",
-      "pl": "Musimy ustalić, kto jest odpowiedzialny za szkody.",
-      "de": "Wir müssen feststellen, wer für den Schaden verantwortlich ist.",
+      "en": "We are discussing whether the project should be continued.",
+      "pl": "Dyskutujemy, czy projekt powinien być kontynuowany.",
+      "de": "Wir diskutieren darüber, ob das Projekt fortgesetzt werden soll.",
       "level": "B2"
     },
     {
-      "en": "It is currently being investigated why the system crashed.",
-      "pl": "Obecnie bada się, dlaczego system uległ awarii.",
-      "de": "Es wird derzeit untersucht, warum das System abgestürzt ist.",
+      "en": "I doubt whether he has the necessary experience for this position.",
+      "pl": "Wątpię, czy on ma niezbędne doświadczenie na to stanowisko.",
+      "de": "Ich bezweifle, ob er die nötige Erfahrung für diese Position hat.",
       "level": "B2"
     },
     {
-      "en": "She tried to explain what the reasons for her decision were.",
-      "pl": "Próbowała wyjaśnić, jakie były powody jej decyzji.",
-      "de": "Sie versuchte zu erklären, was die Gründe für ihre Entscheidung waren.",
+      "en": "The question is whether the company will survive the crisis.",
+      "pl": "Pytanie brzmi, czy firma przetrwa kryzys.",
+      "de": "Die Frage ist, ob das Unternehmen die Krise überleben wird.",
       "level": "B2"
     },
     {
-      "en": "I can't imagine how he managed to do all that alone.",
-      "pl": "Nie potrafię sobie wyobrazić, jak zdołał to wszystko zrobić sam.",
-      "de": "Ich kann mir nicht vorstellen, wie er das alles allein geschafft hat.",
+      "en": "It is still unclear whether the new regulations apply to everyone.",
+      "pl": "Nadal nie jest jasne, czy nowe przepisy dotyczą wszystkich.",
+      "de": "Es ist noch unklar, ob die neuen Vorschriften für alle gelten.",
       "level": "B2"
     },
     {
-      "en": "The authorities are examining how the virus could spread so quickly.",
-      "pl": "Władze badają, jak wirus mógł rozprzestrzenić się tak szybko.",
-      "de": "Die Behörden prüfen, wie sich das Virus so schnell ausbreiten konnte.",
+      "en": "He is currently checking whether the investment is really profitable.",
+      "pl": "On obecnie sprawdza, czy inwestycja jest naprawdę rentowna.",
+      "de": "Er prüft gerade, ob die Investition wirklich rentabel ist.",
       "level": "B2"
     },
     {
-      "en": "It remains unclear exactly when the new regulations come into effect.",
-      "pl": "Pozostaje niejasne, kiedy dokładnie wejdą w życie nowe przepisy.",
-      "de": "Es bleibt unklar, wann genau die neuen Vorschriften in Kraft treten.",
+      "en": "We must find out whether the software is compatible with our system.",
+      "pl": "Musimy się dowiedzieć, czy oprogramowanie jest kompatybilne z naszym systemem.",
+      "de": "Wir müssen herausfinden, ob die Software mit unserem System kompatibel ist.",
       "level": "B2"
     },
     {
-      "en": "We are currently discussing which strategy promises the most success.",
-      "pl": "Właśnie dyskutujemy, która strategia obiecuje największy sukces.",
-      "de": "Wir diskutieren gerade, welche Strategie den meisten Erfolg verspricht.",
+      "en": "She didn't reveal whether she would accept the offer.",
+      "pl": "Ona nie zdradziła, czy przyjmie ofertę.",
+      "de": "Sie hat nicht verraten, ob sie das Angebot annehmen wird.",
       "level": "B2"
     },
     {
-      "en": "He didn't want to reveal from whom he received the information.",
-      "pl": "Nie chciał zdradzić, od kogo otrzymał te informacje.",
-      "de": "Er wollte nicht verraten, von wem er die Informationen erhalten hat.",
+      "en": "The manager asks whether the costs are covered by the budget.",
+      "pl": "Menedżer pyta, czy koszty są pokryte z budżetu.",
+      "de": "Der Manager fragt, ob die Kosten vom Budget gedeckt sind.",
       "level": "B2"
     },
     {
-      "en": "You should consider carefully what consequences your actions will have.",
-      "pl": "Powinieneś dobrze przemyśleć, jakie konsekwencje będą miały twoje czyny.",
-      "de": "Man sollte gut überlegen, welche Konsequenzen das eigene Handeln haben wird.",
+      "en": "I am not sure whether the participants have received the documents.",
+      "pl": "Nie jestem pewien, czy uczestnicy otrzymali dokumenty.",
+      "de": "Ich bin nicht sicher, ob die Teilnehmer die Unterlagen erhalten haben.",
       "level": "B2"
     },
     {
-      "en": "It is important to know whom we can turn to in an emergency.",
-      "pl": "Ważne jest, aby wiedzieć, do kogo możemy się zwrócić w nagłym wypadku.",
-      "de": "Es ist wichtig zu wissen, an wen wir uns im Notfall wenden können.",
+      "en": "It remains to be seen whether the strategy will be successful.",
+      "pl": "Pozostaje zobaczyć, czy strategia odniesie sukces.",
+      "de": "Es bleibt abzuwarten, ob die Strategie erfolgreich sein wird.",
       "level": "B2"
     },
     {
-      "en": "I wonder how the competitors will react to our new product.",
-      "pl": "Zastanawiam się, jak konkurenci zareagują na nasz nowy produkt.",
-      "de": "Ich frage mich, wie die Konkurrenz auf unser neues Produkt reagieren wird.",
+      "en": "We are considering whether we should outsource this process.",
+      "pl": "Zastanawiamy się, czy powinniśmy zlecić ten proces na zewnątrz.",
+      "de": "Wir überlegen, ob wir diesen Prozess auslagern sollten.",
       "level": "B2"
     },
     {
-      "en": "The police are investigating how the burglars entered the building.",
-      "pl": "Policja dochodzi, jak włamywacze dostali się do budynku.",
-      "de": "Die Polizei ermittelt, wie die Einbrecher in das Gebäude gelangt sind.",
+      "en": "The committee will decide whether the application is approved.",
+      "pl": "Komisja zadecyduje, czy wniosek zostanie zatwierdzony.",
+      "de": "Der Ausschuss wird entscheiden, ob der Antrag genehmigt wird.",
       "level": "B2"
     },
     {
-      "en": "We must determine which resources are needed for the project.",
-      "pl": "Musimy ustalić, jakie zasoby są potrzebne do projektu.",
-      "de": "Wir müssen bestimmen, welche Ressourcen für das Projekt benötigt werden.",
+      "en": "I ask myself whether the changes are really necessary.",
+      "pl": "Zastanawiam się, czy te zmiany są naprawdę konieczne.",
+      "de": "Ich frage mich, ob die Änderungen wirklich notwendig sind.",
       "level": "B2"
     },
     {
-      "en": "She didn't understand why her application was rejected.",
-      "pl": "Nie zrozumiała, dlaczego jej aplikacja została odrzucona.",
-      "de": "Sie verstand nicht, weshalb ihre Bewerbung abgelehnt wurde.",
+      "en": "Please confirm whether you can attend the conference.",
+      "pl": "Proszę potwierdzić, czy może pan wziąć udział w konferencji.",
+      "de": "Bitte bestätigen Sie, ob Sie an der Konferenz teilnehmen können.",
       "level": "B2"
     },
     {
-      "en": "I would be interested to know on what criteria the assessment is based.",
-      "pl": "Byłbym ciekaw, na jakich kryteriach opiera się ocena.",
-      "de": "Mich würde interessieren, auf welchen Kriterien die Bewertung basiert.",
+      "en": "He doubts whether the team can meet the tight deadline.",
+      "pl": "On wątpi, czy zespół zdoła dotrzymać napiętego terminu.",
+      "de": "Er bezweifelt, ob das Team die knappe Frist einhalten kann.",
       "level": "B2"
     },
     {
-      "en": "We are analyzing how customer satisfaction has developed over the last year.",
-      "pl": "Analizujemy, jak rozwijało się zadowolenie klientów w ciągu ostatniego roku.",
-      "de": "Wir analysieren, wie sich die Kundenzufriedenheit im letzten Jahr entwickelt hat.",
+      "en": "We need to evaluate whether the marketing campaign was effective.",
+      "pl": "Musimy ocenić, czy kampania marketingowa była skuteczna.",
+      "de": "Wir müssen evaluieren, ob die Marketingkampagne effektiv war.",
       "level": "B2"
     },
     {
-      "en": "It is not yet known who will be appointed as the new CEO.",
-      "pl": "Jeszcze nie wiadomo, kto zostanie mianowany na nowego dyrektora generalnego.",
-      "de": "Es ist noch nicht bekannt, wer zum neuen Geschäftsführer ernannt wird.",
+      "en": "It is questionable whether this approach will bring the desired results.",
+      "pl": "Jest wątpliwe, czy to podejście przyniesie pożądane rezultaty.",
+      "de": "Es ist fraglich, ob dieser Ansatz die gewünschten Ergebnisse bringen wird.",
       "level": "B2"
     },
     {
-      "en": "The journalists asked the politician why the promise was broken.",
-      "pl": "Dziennikarze pytali polityka, dlaczego obietnica została złamana.",
-      "de": "Die Journalisten fragten den Politiker, warum das Versprechen gebrochen wurde.",
+      "en": "She investigates whether the data has been manipulated.",
+      "pl": "Ona bada, czy dane zostały zmanipulowane.",
+      "de": "Sie untersucht, ob die Daten manipuliert worden sind.",
       "level": "B2"
     },
     {
-      "en": "I am considering where I should invest my savings.",
-      "pl": "Zastanawiam się, gdzie powinienem zainwestować moje oszczędności.",
-      "de": "Ich überlege mir, wo ich meine Ersparnisse investieren sollte.",
+      "en": "The customer wants to know whether the contract can be cancelled.",
+      "pl": "Klient chce wiedzieć, czy umowa może zostać anulowana.",
+      "de": "Der Kunde möchte wissen, ob der Vertrag storniert werden kann.",
       "level": "B2"
     },
     {
-      "en": "The manager explained how the workflow will change in the future.",
-      "pl": "Menedżer wyjaśnił, jak w przyszłości zmieni się przepływ pracy.",
-      "de": "Der Manager erklärte, wie sich der Arbeitsablauf in Zukunft ändern wird.",
+      "en": "I don't know whether the manager has already been informed about the incident.",
+      "pl": "Nie wiem, czy menedżer został już poinformowany o tym incydencie.",
+      "de": "Ich weiß nicht, ob der Manager bereits über den Vorfall informiert wurde.",
       "level": "B2"
     },
     {
-      "en": "We need to find out why the delivery was delayed by several weeks.",
-      "pl": "Musimy się dowiedzieć, dlaczego dostawa opóźniła się o kilka tygodni.",
-      "de": "Wir müssen herausfinden, warum sich die Lieferung um mehrere Wochen verzögert hat.",
+      "en": "We have to clarify whether the insurance covers the damage.",
+      "pl": "Musimy wyjaśnić, czy ubezpieczenie pokrywa te szkody.",
+      "de": "Wir müssen klären, ob die Versicherung den Schaden abdeckt.",
       "level": "B2"
     },
     {
-      "en": "It is fascinating how fast technology has evolved in recent decades.",
-      "pl": "To fascynujące, jak szybko rozwinęła się technologia w ostatnich dziesięcioleciach.",
-      "de": "Es ist faszinierend, wie schnell sich die Technologie in den letzten Jahrzehnten entwickelt hat.",
+      "en": "He considers whether he should apply for the management position.",
+      "pl": "On rozważa, czy powinien ubiegać się o stanowisko kierownicze.",
+      "de": "Er überlegt, ob er sich für die Führungsposition bewerben sollte.",
       "level": "B2"
     },
     {
-      "en": "I don't know on which date the contract was signed.",
-      "pl": "Nie wiem, z jaką datą została podpisana umowa.",
-      "de": "Ich weiß nicht, an welchem Datum der Vertrag unterzeichnet wurde.",
+      "en": "It is not yet certain whether the event will take place next year.",
+      "pl": "Nie jest jeszcze pewne, czy wydarzenie odbędzie się w przyszłym roku.",
+      "de": "Es steht noch nicht fest, ob die Veranstaltung nächstes Jahr stattfindet.",
       "level": "B2"
     },
     {
-      "en": "The team discusses how the communication between the departments can be improved.",
-      "pl": "Zespół dyskutuje, jak można poprawić komunikację między działami.",
-      "de": "Das Team diskutiert, wie die Kommunikation zwischen den Abteilungen verbessert werden kann.",
+      "en": "She wonders whether her effort will be rewarded in the end.",
+      "pl": "Ona zastanawia się, czy jej wysiłek zostanie na końcu nagrodzony.",
+      "de": "Sie fragt sich, ob ihr Einsatz am Ende belohnt wird.",
       "level": "B2"
     },
     {
-      "en": "The study illustrates to what extent social media influences political opinions.",
-      "pl": "Badanie ilustruje, do jakiego stopnia media społecznościowe wpływają na poglądy polityczne.",
-      "de": "Die Studie veranschaulicht, inwieweit soziale Medien politische Meinungen beeinflussen.",
+      "en": "It remains entirely uncertain whether the controversial amendment will find a majority in parliament.",
+      "pl": "Jak dotąd pozostaje całkowicie niepewne, czy kontrowersyjna poprawka do ustawy znajdzie większość w parlamencie.",
+      "de": "Es bleibt völlig ungewiss, ob die umstrittene Gesetzesänderung im Parlament eine Mehrheit finden wird.",
       "level": "C1"
     },
     {
-      "en": "It is still a matter of debate who should bear the financial burden of the crisis.",
-      "pl": "Nadal dyskutuje się, kto powinien ponieść finansowy ciężar kryzysu.",
-      "de": "Es ist weiterhin umstritten, wer die finanzielle Last der Krise tragen sollte.",
+      "en": "The board is currently debating whether the merger should be executed under these conditions.",
+      "pl": "Zarząd obecnie debatuje, czy fuzja powinna zostać przeprowadzona na tych warunkach.",
+      "de": "Der Vorstand debattiert derzeit darüber, ob die Fusion unter diesen Bedingungen vollzogen werden sollte.",
       "level": "C1"
     },
     {
-      "en": "The report fails to mention exactly how the proposed measures will be funded.",
-      "pl": "Raport nie wspomina dokładnie, jak proponowane środki zostaną sfinansowane.",
-      "de": "Der Bericht lässt unerwähnt, wie genau die vorgeschlagenen Maßnahmen finanziert werden sollen.",
+      "en": "One must critically question whether the implemented measures are proportionate.",
+      "pl": "Trzeba krytycznie zadać pytanie, czy wdrożone środki są proporcjonalne.",
+      "de": "Man muss kritisch hinterfragen, ob die ergriffenen Maßnahmen verhältnismäßig sind.",
       "level": "C1"
     },
     {
-      "en": "We must critically assess on what basis the forecasts were calculated.",
-      "pl": "Musimy krytycznie ocenić, na jakiej podstawie obliczono prognozy.",
-      "de": "Wir müssen kritisch beurteilen, auf welcher Grundlage die Prognosen berechnet wurden.",
+      "en": "It is highly doubtful whether the negotiations will yield a tangible result.",
+      "pl": "Jest wysoce wątpliwe, czy negocjacje przyniosą wymierny rezultat.",
+      "de": "Es ist höchst zweifelhaft, ob die Verhandlungen ein greifbares Ergebnis liefern werden.",
       "level": "C1"
     },
     {
-      "en": "It is often difficult to discern where legitimate criticism ends and defamation begins.",
-      "pl": "Często trudno jest dostrzec, gdzie kończy się uprawniona krytyka, a zaczyna zniesławienie.",
-      "de": "Es ist oft schwierig zu erkennen, wo legitime Kritik endet und Diffamierung beginnt.",
+      "en": "The auditor is examining whether the internal controls were circumvented systematically.",
+      "pl": "Audytor bada, czy wewnętrzne kontrole były systematycznie omijane.",
+      "de": "Der Prüfer untersucht, ob die internen Kontrollen systematisch umgangen wurden.",
       "level": "C1"
     },
     {
-      "en": "The central issue revolves around how the balance of power will shift in the coming years.",
-      "pl": "Główny problem obraca się wokół tego, jak w nadchodzących latach przesunie się równowaga sił.",
-      "de": "Die zentrale Frage dreht sich darum, wie sich das Machtgleichgewicht in den kommenden Jahren verschieben wird.",
+      "en": "We must verify whether the supplier meets all compliance guidelines without exception.",
+      "pl": "Musimy zweryfikować, czy dostawca bez wyjątku spełnia wszystkie wytyczne dotyczące zgodności.",
+      "de": "Wir müssen überprüfen, ob der Lieferant alle Compliance-Richtlinien ausnahmslos erfüllt.",
       "level": "C1"
     },
     {
-      "en": "She meticulously laid out why the initial hypothesis proved to be flawed.",
-      "pl": "Ona skrupulatnie wyłożyła, dlaczego początkowa hipoteza okazała się błędna.",
-      "de": "Sie legte akribisch dar, warum sich die ursprüngliche Hypothese als fehlerhaft erwies.",
+      "en": "It has not yet been clarified whether the legal framework permits such an intervention.",
+      "pl": "Nie zostało jeszcze wyjaśnione, czy ramy prawne pozwalają na taką interwencję.",
+      "de": "Es ist noch nicht geklärt worden, ob der rechtliche Rahmen einen derartigen Eingriff zulässt.",
       "level": "C1"
     },
     {
-      "en": "One cannot reliably predict how the financial markets will react to the central bank's decision.",
-      "pl": "Nie można wiarygodnie przewidzieć, jak rynki finansowe zareagują na decyzję banku centralnego.",
-      "de": "Man kann nicht verlässlich vorhersagen, wie die Finanzmärkte auf die Entscheidung der Zentralbank reagieren werden.",
+      "en": "The study investigates whether the long-term consequences of the pandemic have been underestimated.",
+      "pl": "Badanie sprawdza, czy długoterminowe konsekwencje pandemii zostały zbagatelizowane.",
+      "de": "Die Studie untersucht, ob die langfristigen Folgen der Pandemie unterschätzt worden sind.",
       "level": "C1"
     },
     {
-      "en": "The committee is deliberating on which areas should receive priority funding.",
-      "pl": "Komisja debatuje nad tym, które obszary powinny otrzymać priorytetowe finansowanie.",
-      "de": "Der Ausschuss berät darüber, welche Bereiche vorrangig gefördert werden sollen.",
+      "en": "It is debatable whether the central bank will intervene in the currency market again.",
+      "pl": "Jest to kwestią dyskusyjną, czy bank centralny ponownie zainterweniuje na rynku walutowym.",
+      "de": "Es ist umstritten, ob die Zentralbank erneut am Devisenmarkt intervenieren wird.",
       "level": "C1"
     },
     {
-      "en": "It remains an enigma how the suspect managed to evade the extensive surveillance.",
-      "pl": "Pozostaje zagadką, jak podejrzanemu udało się uniknąć szeroko zakrojonej inwigilacji.",
-      "de": "Es bleibt ein Rätsel, wie es dem Verdächtigen gelang, der umfassenden Überwachung zu entgehen.",
+      "en": "He expressed his doubts as to whether the ambitious climate goals can realistically be achieved.",
+      "pl": "Wyraził swoje wątpliwości co do tego, czy ambitne cele klimatyczne mogą zostać realistycznie osiągnięte.",
+      "de": "Er äußerte seine Zweifel daran, ob die ehrgeizigen Klimaziele realistisch erreicht werden können.",
       "level": "C1"
-    },
-    {
-      "en": "The dissertation explores how societal norms shape individual behavior.",
-      "pl": "Rozprawa bada, jak normy społeczne kształtują zachowania jednostek.",
-      "de": "Die Dissertation untersucht, wie gesellschaftliche Normen das individuelle Verhalten prägen.",
-      "level": "C1"
-    },
-    {
-      "en": "The auditor scrutinized why the discrepancy in the accounts had gone unnoticed for so long.",
-      "pl": "Rewident dokładnie zbadał, dlaczego rozbieżność w księgach tak długo uchodziła uwadze.",
-      "de": "Der Prüfer untersuchte genau, weshalb die Diskrepanz in den Büchern so lange unbemerkt geblieben war.",
-      "level": "C1"
-    },
-    {
-      "en": "We are trying to ascertain to whom the legal liability ultimately falls.",
-      "pl": "Próbujemy ustalić, na kogo ostatecznie spada odpowiedzialność prawna.",
-      "de": "Wir versuchen herauszufinden, wem letztendlich die rechtliche Haftung zufällt.",
-      "level": "C1"
-    },
-    {
-      "en": "It is highly disputed what long-term consequences this unprecedented intervention will entail.",
-      "pl": "Jest bardzo sporne, jakie długoterminowe konsekwencje pociągnie za sobą ta bezprecedensowa interwencja.",
-      "de": "Es ist stark umstritten, welche langfristigen Konsequenzen dieser beispiellose Eingriff nach sich ziehen wird.",
-      "level": "C1"
-    },
-    {
-      "en": "The key challenge lies in figuring out how to reconcile economic growth with environmental protection.",
-      "pl": "Kluczowe wyzwanie polega na tym, by wymyślić, jak pogodzić wzrost gospodarczy z ochroną środowiska.",
-      "de": "Die größte Herausforderung besteht darin herauszufinden, wie man Wirtschaftswachstum mit Umweltschutz in Einklang bringen kann.",
-      "level": "C1"
-    },
-    {
-      "en": "The inquiry seeks to unearth by what convoluted means the funds were illicitly siphoned off.",
-      "pl": "Dochodzenie ma na celu odkrycie, w jak zagmatwany sposób fundusze zostały nielegalnie wyprowadzone.",
-      "de": "Die Untersuchung zielt darauf ab aufzudecken, auf welch verschlungenen Wegen die Gelder illegal abgezweigt wurden.",
-      "level": "C2"
-    },
-    {
-      "en": "It is a matter of profound contention in what measure the state should intervene in private enterprise.",
-      "pl": "Jest kwestią głębokiego sporu, w jakiej mierze państwo powinno ingerować w prywatną przedsiębiorczość.",
-      "de": "Es ist äußerst umstritten, in welchem Maße der Staat in die Privatwirtschaft eingreifen sollte.",
-      "level": "C2"
-    },
-    {
-      "en": "The panel is grappling with how the multifaceted ethical dilemmas can be adequately addressed within the current legal framework.",
-      "pl": "Panel boryka się z problemem, jak wieloaspektowe dylematy etyczne mogą zostać odpowiednio rozwiązane w obecnych ramach prawnych.",
-      "de": "Das Gremium setzt sich damit auseinander, wie die vielschichtigen ethischen Dilemmata im aktuellen Rechtsrahmen angemessen bewältigt werden können.",
-      "level": "C2"
-    },
-    {
-      "en": "The historian elucidates why the empire's seemingly unassailable hegemony ultimately crumbled from within.",
-      "pl": "Historyk wyjaśnia, dlaczego pozornie niezachwiana hegemonia imperium ostatecznie rozpadła się od wewnątrz.",
-      "de": "Der Historiker beleuchtet, weshalb die scheinbar unangreifbare Hegemonie des Imperiums letztlich von innen heraus zerfiel.",
-      "level": "C2"
-    },
-    {
-      "en": "It boggles the mind how such an egregious oversight could have bypassed the rigorous quality assurance protocols.",
-      "pl": "To nie do pomyślenia, jak tak rażące niedopatrzenie mogło obejść rygorystyczne protokoły kontroli jakości.",
-      "de": "Es ist unbegreiflich, wie ein solch eklatantes Versäumnis die strengen Qualitätssicherungsprotokolle umgehen konnte.",
-      "level": "C2"
-    },
-    {
-      "en": "The prosecution must establish beyond a shadow of a doubt who orchestrated the elaborate scheme.",
-      "pl": "Oskarżenie musi udowodnić bez cienia wątpliwości, kto zorganizował ten misterny plan.",
-      "de": "Die Staatsanwaltschaft muss zweifelsfrei beweisen, wer das ausgeklügelte Komplott inszeniert hat.",
-      "level": "C2"
-    },
-    {
-      "en": "A pivotal point of the negotiation is defining precisely whose jurisdiction the disputed territory falls under.",
-      "pl": "Kluczowym punktem negocjacji jest dokładne określenie, pod czyją jurysdykcję podlega sporne terytorium.",
-      "de": "Ein zentraler Punkt der Verhandlung ist die genaue Definition, unter wessen Zuständigkeit das umstrittene Gebiet fällt.",
-      "level": "C2"
-    },
-    {
-      "en": "The treaty intentionally leaves ambiguous to what extent punitive measures can be unilaterally enforced.",
-      "pl": "Traktat celowo pozostawia niejasnym, do jakiego stopnia środki karne mogą być egzekwowane jednostronnie.",
-      "de": "Das Abkommen lässt absichtlich im Unklaren, inwieweit Strafmaßnahmen einseitig durchgesetzt werden können.",
-      "level": "C2"
-    },
-    {
-      "en": "It remains a deeply contested question why the institutional safeguards failed so catastrophically.",
-      "pl": "Pozostaje głęboko spornym pytaniem, dlaczego instytucjonalne zabezpieczenia zawiodły tak katastrofalnie.",
-      "de": "Es bleibt eine zutiefst umstrittene Frage, warum die institutionellen Schutzmechanismen derart katastrophal versagten.",
-      "level": "C2"
-    },
-    {
-      "en": "The treatise delves into how the subconscious mechanisms subtly orchestrate our conscious decision-making processes.",
-      "pl": "Traktat zagłębia się w to, jak mechanizmy podświadomości subtelnie kierują naszymi świadomymi procesami decyzyjnymi.",
-      "de": "Die Abhandlung geht der Frage nach, wie die unterbewussten Mechanismen unsere bewussten Entscheidungsprozesse subtil steuern.",
-      "level": "C2"
     }
   ],
   "listening": {
@@ -26595,32 +26505,89 @@
     "articles": [
       {
         "heading": "Dobrindt sieht Linksextreme und „migrantische Chaoten“ für Gewalt verantwortlich",
-        "text": "Bundesinnenminister Alexander Dobrindt macht gewaltbereite Linksextreme und „Chaoten aus dem migrantischen Umfeld“ für die [[Ausschreitungen|1]] in mehreren Städten in der Nacht zum Sonntag verantwortlich. Die zuvor friedlichen Demonstrationen seien von diesen Gruppen [[gekapert|2]] worden, sagte der CSU-Politiker. Es habe neben dem Schwerpunkt in Frankfurt am Main auch Ausschreitungen in Berlin, Hamburg und Köln gegeben. Mehr als 100 Menschen seien festgenommen worden. Die Polizei habe angemessen reagiert und sei präsent gewesen. Die Beamten hätten „Gewaltexzesse wie in Paris“ verhindert. Dobrindt ergänzte, der Rechtsstaat müsse jetzt wirkungsvoll arbeiten. Zu den zunächst friedlichen Demonstrationen in rund 30 deutschen Städten hatte die Initiative „Gen Z regelt“ aufgerufen. Die Abkürzung steht für die „Generation Z“ der etwa 15- bis 30-Jährigen. Zu ihren Forderungen gehören mehr Geld für Schulen, mehr Klimaschutz und Maßnahmen gegen steigende [[Lebenshaltungskosten|3]]."
+        "text": "Bundesinnenminister Alexander Dobrindt macht [[gewaltbereite|1]] Linksextreme und „[[Chaoten|2]] aus dem migrantischen [[Umfeld|3]]“ für die [[Ausschreitungen|4]] in mehreren Städten in der Nacht zum Sonntag verantwortlich. Die zuvor friedlichen Demonstrationen seien von diesen Gruppen [[gekapert|5]] worden, sagte der CSU-Politiker. Es habe neben dem [[Schwerpunkt|6]] in Frankfurt am Main auch Ausschreitungen in Berlin, Hamburg und Köln gegeben. Mehr als 100 Menschen seien [[festgenommen|7]] worden. Die Polizei habe [[angemessen|8]] reagiert und sei präsent gewesen. Die Beamten hätten „[[Gewaltexzesse|9]] wie in Paris“ verhindert. Dobrindt ergänzte, der [[Rechtsstaat|10]] müsse jetzt wirkungsvoll arbeiten. Zu den zunächst friedlichen Demonstrationen in rund 30 deutschen Städten hatte die Initiative „Gen Z regelt“ aufgerufen. Die Abkürzung steht für die „Generation Z“ der etwa 15- bis 30-Jährigen. Zu ihren Forderungen gehören mehr Geld für Schulen, mehr Klimaschutz und Maßnahmen gegen steigende [[Lebenshaltungskosten|11]]."
       },
       {
         "heading": "Bundeskanzler Merz nimmt an Digitalgipfel teil",
-        "text": "In Berlin beginnt an diesem Montag ein zweitägiger Digitalgipfel der Bundesregierung. Dazu werden mehr als 1000 Teilnehmer aus Politik, Wissenschaft und Wirtschaft in der deutschen Hauptstadt erwartet. Im Mittelpunkt steht das Thema Künstliche Intelligenz (KI). An der Konferenz nimmt auch Bundeskanzler Friedrich Merz teil. Im Anschluss ist eine gemeinsame Pressekonferenz mit Digitalminister Karsten Wildberger geplant. Nach Angaben eines Regierungssprechers wird Kanzler Merz auch Vertreter der deutschen Firma Neura Robotics treffen. Das Unternehmen entwickelt humanoide Roboter, die sehen und hören können und einen Tastsinn haben. Sie sollen in der Industrie und in Haushalten zum Einsatz kommen."
+        "text": "In Berlin beginnt an diesem Montag ein zweitägiger [[Digitalgipfel|12]] der Bundesregierung. Dazu werden mehr als 1000 Teilnehmer aus Politik, [[Wissenschaft|13]] und [[Wirtschaft|14]] in der deutschen Hauptstadt erwartet. [[Im Mittelpunkt steht|15]] das Thema [[Künstliche Intelligenz|16]] (KI). An der Konferenz nimmt auch Bundeskanzler Friedrich Merz teil. [[Im Anschluss|17]] ist eine gemeinsame Pressekonferenz mit Digitalminister Karsten Wildberger geplant. Nach Angaben eines Regierungssprechers wird Kanzler Merz auch [[Vertreter|18]] der deutschen Firma Neura Robotics treffen. Das Unternehmen entwickelt [[humanoide|19]] Roboter, die sehen und hören können und einen [[Tastsinn|20]] haben. Sie sollen in der Industrie und in Haushalten zum [[Einsatz kommen|21]]."
       },
       {
         "heading": "App für Notfall-Warnungen in Ukraine und Russland gehackt",
-        "text": "In der Ukraine und in Russland sind die offiziellen Notfall-Apps nach Behördenangaben gehackt worden. Zunächst wurde am späten Sonntagabend in der ukrainischen App unter anderem fälschlicherweise vor radioaktiver Strahlung in der Hauptstadt Kyjiw gewarnt. Die App „Air Alert“ sei möglicherweise vom Feind [[kompromittiert|4]] worden, teilte die ukrainische Luftwaffe auf Telegram mit. Es bestehe keine Gefahr durch Strahlung. In der Nacht zum Montag meldete Russland einen Cyberangriff auf seine Warn-App, wie die staatliche Nachrichtenagentur Tass unter Berufung auf das Zivilschutzministerium berichtete. Es sei den Angreifern gelungen, Falschinformationen an die Bevölkerung zu versenden, hieß es. Russland greift die Ukraine seit viereinhalb Jahren massiv aus der Luft, am Boden und auf hoher See an. Die Ukraine wehrt sich mit westlicher Militär- und Finanzhilfe."
+        "text": "In der Ukraine und in Russland sind die offiziellen Notfall-Apps nach Behördenangaben gehackt worden. Zunächst wurde am späten Sonntagabend in der ukrainischen App unter anderem [[fälschlicherweise|22]] vor radioaktiver [[Strahlung|23]] in der Hauptstadt Kyjiw gewarnt. Die App „Air Alert“ sei möglicherweise vom [[Feind|24]] [[kompromittiert|25]] worden, teilte die ukrainische [[Luftwaffe|26]] auf Telegram mit. Es bestehe keine Gefahr durch Strahlung. In der Nacht zum Montag meldete Russland einen Cyberangriff auf seine Warn-App, wie die staatliche Nachrichtenagentur Tass [[unter Berufung auf|27]] das Zivilschutzministerium berichtete. Es sei den Angreifern [[gelungen|28]], Falschinformationen an die [[Bevölkerung|29]] zu versenden, hieß es. Russland greift die Ukraine seit viereinhalb Jahren [[massiv|30]] aus der Luft, am Boden und auf hoher See an. Die Ukraine [[wehrt sich|31]] mit westlicher Militär- und Finanzhilfe."
       },
       {
-        "heading": "Staatschefin Jotowa gewinnt [[Stichwahl|5]] in Bulgarien",
-        "text": "Bulgariens Präsidentin Ilijana Jotowa ist bei einer Stichwahl im höchsten Staatsamt bestätigt worden. Die frühere sozialistische EU-Abgeordnete kam nach [[Hochrechnungen|6]] der bulgarischen Meinungsforschungsinstitute Mjara und Alpha Research auf bis zu 58 Prozent der Stimmen. Jotowa wurde von der allein regierenden Mitte-Links-Partei Progressives Bulgarien unterstützt. Ihr Herausforderer Andrej Gjurow erhielt als Kandidat des prowestlichen liberal-konservativen Oppositionslagers den Angaben zufolge rund 39 Prozent der Stimmen. Die 62-jährige Jotowa unterstützt die EU- und NATO-Mitgliedschaft ihres Landes, lehnt Militärhilfen für die Ukraine aber ab. Das Balkanland mit seinen rund 6,4 Millionen Einwohnern hat traditionell enge Beziehungen zu Russland, ist beim Vorgehen zum Ukraine-Konflikt aber tief gespalten."
+        "heading": "Staatschefin Jotowa gewinnt Stichwahl in Bulgarien",
+        "text": "Bulgariens Präsidentin Ilijana Jotowa ist bei einer [[Stichwahl|32]] im höchsten Staatsamt [[bestätigt|33]] worden. Die frühere sozialistische EU-[[Abgeordnete|34]] kam nach [[Hochrechnungen|35]] der bulgarischen [[Meinungsforschungsinstitute|36]] Mjara und Alpha Research auf bis zu 58 Prozent der Stimmen. Jotowa wurde von der allein regierenden Mitte-Links-Partei Progressives Bulgarien unterstützt. Ihr [[Herausforderer|37]] Andrej Gjurow erhielt als Kandidat des prowestlichen liberal-konservativen Oppositionslagers den Angaben zufolge rund 39 Prozent der Stimmen. Die 62-jährige Jotowa unterstützt die EU- und NATO-Mitgliedschaft ihres Landes, [[lehnt|38]] Militärhilfen für die Ukraine aber ab. Das Balkanland mit seinen rund 6,4 Millionen Einwohnern hat traditionell enge Beziehungen zu Russland, ist beim [[Vorgehen|39]] zum Ukraine-Konflikt aber tief [[gespalten|40]]."
       },
       {
         "heading": "Jüdische Akademie in Frankfurt öffnet ihre Türen",
-        "text": "Im Beisein von Bundespräsident Frank-Walter Steinmeier wird an diesem Montag die Jüdische Akademie in Frankfurt eröffnet. Sie ist nach Angaben des Zentralrats der Juden in Deutschland die bundesweit erste überregionale, nicht-universitäre jüdische Bildungseinrichtung seit der Schoah, dem systematischen [[Völkermord|7]] des nationalsozialistischen Deutschlands an rund sechs Millionen Jüdinnen und Juden während des Zweiten Weltkriegs in den Jahren 1939 bis 1945. Die Akademie richtet sich an ein breites Publikum und soll aus einer jüdischen Perspektive heraus aktuelle Debatten aufgreifen. Zu der Eröffnung werden neben Steinmeier auch Zentralratspräsident Josef Schuster und Hessens Ministerpräsident Boris Rhein (CDU) erwartet. [[Träger|8]] der Akademie ist der Zentralrat, mit der Frankfurter Goethe-Universität besteht ein Kooperationsvertrag. Die Kosten für den Gesamtbau liegen bei rund 40 Millionen Euro."
+        "text": "Im [[Beisein|41]] von Bundespräsident Frank-Walter Steinmeier wird an diesem Montag die Jüdische Akademie in Frankfurt eröffnet. Sie ist nach Angaben des Zentralrats der Juden in Deutschland die bundesweit erste [[überregionale|42]], nicht-universitäre jüdische [[Bildungseinrichtung|43]] seit der Schoah, dem systematischen [[Völkermord|44]] des nationalsozialistischen Deutschlands an rund sechs Millionen Jüdinnen und Juden während des Zweiten Weltkriegs in den Jahren 1939 bis 1945. Die Akademie [[richtet sich an|45]] ein breites Publikum und soll aus einer jüdischen [[Perspektive|46]] heraus aktuelle Debatten [[aufgreifen|47]]. Zu der Eröffnung werden neben Steinmeier auch Zentralratspräsident Josef Schuster und Hessens Ministerpräsident Boris Rhein (CDU) erwartet. [[Träger|48]] der Akademie ist der Zentralrat, mit der Frankfurter Goethe-Universität besteht ein [[Kooperationsvertrag|49]]. Die Kosten für den Gesamtbau liegen bei rund 40 Millionen Euro."
       },
       {
         "heading": "Nach US-Terrorwarnung wird Minderjähriger in Russland festgenommen",
-        "text": "Der russische [[Inlandsgeheimdienst|9]] FSB hat nach Hinweisen aus den USA einen terrorverdächtigen Minderjährigen gefasst. Man habe unter anderem auf der Internet-Plattform TikTok Fotos des Verdächtigen in Kampfmontur gefunden, teilte der FSB mit. Offenbar habe er auch eine Waffe bei sich gehabt. Die Ermittler hätten zudem im Suchverlauf des Mobiltelefons Recherchen zu terroristischen Anschlägen und [[Massenmorden|10]] gefunden. Der russische Geheimdienst hatte kurz vor der Festnahme mitgeteilt, dass er von den USA über einen womöglich geplanten Anschlag unterrichtet worden sei. Wie es heißt, soll der Verdächtige den Zarizyno-Schlosspark am Südrand von Moskau als Ziel in Betracht gezogen haben."
+        "text": "Der russische [[Inlandsgeheimdienst|50]] FSB hat nach [[Hinweisen|51]] aus den USA einen terrorverdächtigen [[Minderjährigen|52]] [[gefasst|53]]. Man habe unter anderem auf der Internet-Plattform TikTok Fotos des Verdächtigen in [[Kampfmontur|54]] gefunden, teilte der FSB mit. Offenbar habe er auch eine Waffe bei sich gehabt. Die Ermittler hätten zudem im [[Suchverlauf|55]] des Mobiltelefons Recherchen zu terroristischen [[Anschlägen|56]] und [[Massenmorden|57]] gefunden. Der russische Geheimdienst hatte kurz vor der Festnahme mitgeteilt, dass er von den USA über einen womöglich geplanten Anschlag [[unterrichtet|58]] worden sei. Wie es heißt, soll der Verdächtige den Zarizyno-Schlosspark am Südrand von Moskau als Ziel [[in Betracht gezogen|59]] haben."
       }
     ],
     "vocab": [
       {
         "id": 1,
+        "word": "gewaltbereit",
+        "translation": {
+          "en": "ready to use violence",
+          "pl": "skłonny do przemocy"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Describes someone prepared to act violently.",
+          "pl": "Opisuje kogoś gotowego do użycia przemocy."
+        },
+        "examples": [
+          "Die Polizei warnte vor gewaltbereiten Demonstranten.",
+          "Die Gruppe wird als gewaltbereit eingestuft."
+        ]
+      },
+      {
+        "id": 2,
+        "word": "der Chaot",
+        "translation": {
+          "en": "troublemaker, hooligan",
+          "pl": "chuligan, zadymiarz"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Chaoten",
+        "notes": {
+          "en": "Colloquial term for a violent protester or troublemaker.",
+          "pl": "Potoczne określenie na agresywnego protestującego lub chuligana."
+        },
+        "examples": [
+          "Einige wenige Chaoten haben die friedliche Demo gestört.",
+          "Die Polizei versuchte, die Chaoten von der Menge zu trennen."
+        ]
+      },
+      {
+        "id": 3,
+        "word": "das Umfeld",
+        "translation": {
+          "en": "environment, milieu",
+          "pl": "środowisko, otoczenie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Umfelder",
+        "notes": {
+          "en": "The social or physical surroundings.",
+          "pl": "Otoczenie społeczne lub fizyczne."
+        },
+        "examples": [
+          "Er kommt aus einem schwierigen sozialen Umfeld.",
+          "Das politische Umfeld hat sich in letzter Zeit verändert."
+        ]
+      },
+      {
+        "id": 4,
         "word": "die Ausschreitung",
         "translation": {
           "en": "riot, disturbance",
@@ -26639,7 +26606,7 @@
         ]
       },
       {
-        "id": 2,
+        "id": 5,
         "word": "kapern",
         "translation": {
           "en": "to hijack, to capture",
@@ -26658,7 +26625,102 @@
         ]
       },
       {
-        "id": 3,
+        "id": 6,
+        "word": "der Schwerpunkt",
+        "translation": {
+          "en": "focus, main area",
+          "pl": "punkt ciężkości, główne miejsce"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "die Schwerpunkte",
+        "notes": {
+          "en": "The center of attention or main point of effort.",
+          "pl": "Główny punkt zainteresowania lub główny obszar działań."
+        },
+        "examples": [
+          "Der Schwerpunkt seiner Forschung liegt in der Biologie.",
+          "Die Konferenz hat einen neuen Schwerpunkt gesetzt."
+        ]
+      },
+      {
+        "id": 7,
+        "word": "festnehmen",
+        "translation": {
+          "en": "to arrest",
+          "pl": "aresztować, zatrzymać"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B1",
+        "plural": "",
+        "notes": {
+          "en": "Separable verb. Used when police take someone into custody.",
+          "pl": "Czasownik rozdzielnie złożony. Używany, gdy policja bierze kogoś do aresztu."
+        },
+        "examples": [
+          "Die Polizei konnte den Täter schnell festnehmen.",
+          "Zwei Verdächtige wurden noch am Tatort festgenommen."
+        ]
+      },
+      {
+        "id": 8,
+        "word": "angemessen",
+        "translation": {
+          "en": "appropriate, adequate",
+          "pl": "odpowiedni, stosowny"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Suitable for a particular situation.",
+          "pl": "Odpowiedni do danej sytuacji."
+        },
+        "examples": [
+          "Seine Reaktion auf die Kritik war nicht angemessen.",
+          "Wir müssen eine angemessene Lösung für das Problem finden."
+        ]
+      },
+      {
+        "id": 9,
+        "word": "der Gewaltexzess",
+        "translation": {
+          "en": "excess of violence",
+          "pl": "eksces przemocy"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C2",
+        "plural": "die Gewaltexzesse",
+        "notes": {
+          "en": "An extreme outbreak of violence.",
+          "pl": "Skrajny wybuch przemocy."
+        },
+        "examples": [
+          "Die Stadt war erschüttert von den plötzlichen Gewaltexzessen.",
+          "Solche Gewaltexzesse dürfen in einer Demokratie nicht toleriert werden."
+        ]
+      },
+      {
+        "id": 10,
+        "word": "der Rechtsstaat",
+        "translation": {
+          "en": "rule of law, constitutional state",
+          "pl": "państwo prawa"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Rechtsstaaten",
+        "notes": {
+          "en": "A state where the exercise of governmental power is constrained by the law.",
+          "pl": "Państwo, w którym sprawowanie władzy jest ograniczone prawem."
+        },
+        "examples": [
+          "In einem Rechtsstaat muss jeder einen fairen Prozess bekommen.",
+          "Die Prinzipien des Rechtsstaates sind unantastbar."
+        ]
+      },
+      {
+        "id": 11,
         "word": "die Lebenshaltungskosten",
         "translation": {
           "en": "cost of living",
@@ -26677,7 +26739,254 @@
         ]
       },
       {
-        "id": 4,
+        "id": 12,
+        "word": "der Digitalgipfel",
+        "translation": {
+          "en": "digital summit",
+          "pl": "szczyt cyfrowy"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Digitalgipfel",
+        "notes": {
+          "en": "A high-level meeting focusing on digital topics.",
+          "pl": "Spotkanie na wysokim szczeblu poświęcone tematyce cyfrowej."
+        },
+        "examples": [
+          "Auf dem Digitalgipfel wurden neue Strategien für die Zukunft vorgestellt.",
+          "Experten aus aller Welt nehmen am Digitalgipfel teil."
+        ]
+      },
+      {
+        "id": 13,
+        "word": "die Wissenschaft",
+        "translation": {
+          "en": "science",
+          "pl": "nauka"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "die Wissenschaften",
+        "notes": {
+          "en": "The systematic study of the structure and behavior of the physical and natural world.",
+          "pl": "Systematyczne badanie struktury i zachowania świata fizycznego i naturalnego."
+        },
+        "examples": [
+          "Die Wissenschaft macht jeden Tag neue Entdeckungen.",
+          "Er möchte in der Wissenschaft arbeiten und forschen."
+        ]
+      },
+      {
+        "id": 14,
+        "word": "die Wirtschaft",
+        "translation": {
+          "en": "economy, business",
+          "pl": "gospodarka, biznes"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "die Wirtschaften",
+        "notes": {
+          "en": "The wealth and resources of a country or region.",
+          "pl": "Bogactwo i zasoby kraju lub regionu."
+        },
+        "examples": [
+          "Die Wirtschaft des Landes wächst stetig.",
+          "Viele Unternehmen klagen über die aktuelle Lage der Wirtschaft."
+        ]
+      },
+      {
+        "id": 15,
+        "word": "im Mittelpunkt stehen",
+        "translation": {
+          "en": "to be the focus, to be at the center",
+          "pl": "być w centrum uwagi"
+        },
+        "partOfSpeech": "Expression",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "To be the most important topic or person.",
+          "pl": "Być najważniejszym tematem lub osobą."
+        },
+        "examples": [
+          "Bei diesem Projekt stehen die Bedürfnisse der Kunden im Mittelpunkt.",
+          "Er steht gerne im Mittelpunkt, wenn er auf einer Party ist."
+        ]
+      },
+      {
+        "id": 16,
+        "word": "die Künstliche Intelligenz",
+        "translation": {
+          "en": "artificial intelligence (AI)",
+          "pl": "sztuczna inteligencja (AI)"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Künstlichen Intelligenzen",
+        "notes": {
+          "en": "Often abbreviated as KI in German.",
+          "pl": "Często skracane jako KI po niemiecku."
+        },
+        "examples": [
+          "Künstliche Intelligenz wird viele Bereiche unseres Lebens verändern.",
+          "Das Unternehmen investiert stark in die Entwicklung Künstlicher Intelligenz."
+        ]
+      },
+      {
+        "id": 17,
+        "word": "im Anschluss",
+        "translation": {
+          "en": "afterwards, subsequently",
+          "pl": "następnie, po czymś"
+        },
+        "partOfSpeech": "Expression",
+        "level": "B1",
+        "plural": "",
+        "notes": {
+          "en": "Often used to describe the sequence of events.",
+          "pl": "Często używane do opisu kolejności wydarzeń."
+        },
+        "examples": [
+          "Wir gehen essen und im Anschluss ins Kino.",
+          "Im Anschluss an das Meeting gab es eine kurze Pause."
+        ]
+      },
+      {
+        "id": 18,
+        "word": "der Vertreter",
+        "translation": {
+          "en": "representative",
+          "pl": "przedstawiciel"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Vertreter",
+        "notes": {
+          "en": "Someone who speaks or acts on behalf of an organization or group.",
+          "pl": "Ktoś, kto mówi lub działa w imieniu organizacji lub grupy."
+        },
+        "examples": [
+          "Ein Vertreter der Firma wird den Vertrag unterschreiben.",
+          "Die politischen Vertreter trafen sich zu Verhandlungen."
+        ]
+      },
+      {
+        "id": 19,
+        "word": "humanoid",
+        "translation": {
+          "en": "humanoid",
+          "pl": "humanoidalny"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Having an appearance or character resembling that of a human.",
+          "pl": "Mający wygląd lub charakter przypominający człowieka."
+        },
+        "examples": [
+          "Die Forscher präsentierten einen neuen humanoiden Roboter.",
+          "Humanoide Maschinen könnten in Zukunft in der Pflege helfen."
+        ]
+      },
+      {
+        "id": 20,
+        "word": "der Tastsinn",
+        "translation": {
+          "en": "sense of touch",
+          "pl": "zmysł dotyku"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Tastsinne",
+        "notes": {
+          "en": "The faculty by which external objects or forces are perceived through contact with the body.",
+          "pl": "Zdolność, dzięki której zewnętrzne obiekty lub siły są postrzegane poprzez kontakt z ciałem."
+        },
+        "examples": [
+          "Der Roboter ist mit einem feinen Tastsinn ausgestattet.",
+          "Der Tastsinn ist wichtig, um die Beschaffenheit von Materialien zu erkennen."
+        ]
+      },
+      {
+        "id": 21,
+        "word": "zum Einsatz kommen",
+        "translation": {
+          "en": "to be used, to be deployed",
+          "pl": "wejść do użytku, zostać zastosowanym"
+        },
+        "partOfSpeech": "Expression",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Used to say that something is put into operation or action.",
+          "pl": "Używane, by powiedzieć, że coś zostało wprowadzone do działania."
+        },
+        "examples": [
+          "Die neuen Maschinen werden bald in der Produktion zum Einsatz kommen.",
+          "Bei der Rettungsaktion kamen Hubschrauber zum Einsatz."
+        ]
+      },
+      {
+        "id": 22,
+        "word": "fälschlicherweise",
+        "translation": {
+          "en": "falsely, mistakenly",
+          "pl": "błędnie, fałszywie"
+        },
+        "partOfSpeech": "Adverb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Done in a wrong or incorrect manner.",
+          "pl": "Zrobione w zły lub niepoprawny sposób."
+        },
+        "examples": [
+          "Er wurde fälschlicherweise für den Diebstahl verantwortlich gemacht.",
+          "Das Medikament wurde fälschlicherweise als harmlos eingestuft."
+        ]
+      },
+      {
+        "id": 23,
+        "word": "die Strahlung",
+        "translation": {
+          "en": "radiation",
+          "pl": "promieniowanie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Strahlungen",
+        "notes": {
+          "en": "The emission of energy as electromagnetic waves or as moving subatomic particles.",
+          "pl": "Emisja energii w postaci fal elektromagnetycznych lub poruszających się cząstek subatomowych."
+        },
+        "examples": [
+          "Die radioaktive Strahlung in der Gegend ist gefährlich hoch.",
+          "Das Gerät misst die ultraviolette Strahlung der Sonne."
+        ]
+      },
+      {
+        "id": 24,
+        "word": "der Feind",
+        "translation": {
+          "en": "enemy",
+          "pl": "wróg"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "die Feinde",
+        "notes": {
+          "en": "A person who is actively opposed or hostile to someone or something.",
+          "pl": "Osoba, która jest aktywnie przeciwna lub wrogo nastawiona do kogoś lub czegoś."
+        },
+        "examples": [
+          "Im Krieg bekämpfen sich zwei Feinde.",
+          "Er betrachtet seinen Konkurrenten als persönlichen Feind."
+        ]
+      },
+      {
+        "id": 25,
         "word": "kompromittieren",
         "translation": {
           "en": "to compromise, to breach",
@@ -26696,7 +27005,121 @@
         ]
       },
       {
-        "id": 5,
+        "id": 26,
+        "word": "die Luftwaffe",
+        "translation": {
+          "en": "air force",
+          "pl": "lotnictwo wojskowe"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Luftwaffen",
+        "notes": {
+          "en": "The branch of a nation's armed services that conducts military operations in the air.",
+          "pl": "Gałąź sił zbrojnych państwa prowadząca operacje wojskowe w powietrzu."
+        },
+        "examples": [
+          "Die Luftwaffe patrouilliert im Luftraum.",
+          "Er ist Pilot bei der deutschen Luftwaffe."
+        ]
+      },
+      {
+        "id": 27,
+        "word": "unter Berufung auf",
+        "translation": {
+          "en": "with reference to, citing",
+          "pl": "powołując się na"
+        },
+        "partOfSpeech": "Expression",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Used to indicate the source of information.",
+          "pl": "Używane do wskazania źródła informacji."
+        },
+        "examples": [
+          "Unter Berufung auf offizielle Dokumente veröffentlichte die Zeitung den Bericht.",
+          "Der Sprecher äußerte sich unter Berufung auf interne Quellen."
+        ]
+      },
+      {
+        "id": 28,
+        "word": "gelingen",
+        "translation": {
+          "en": "to succeed",
+          "pl": "udać się, powieść się"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B1",
+        "plural": "",
+        "notes": {
+          "en": "Used with a dative pronoun (e.g., 'es gelingt mir' = I succeed).",
+          "pl": "Używane z zaimkiem w celowniku (np. 'es gelingt mir' = udaje mi się)."
+        },
+        "examples": [
+          "Es ist ihm gelungen, die Prüfung beim ersten Versuch zu bestehen.",
+          "Wir hoffen, dass das Projekt gelingen wird."
+        ]
+      },
+      {
+        "id": 29,
+        "word": "die Bevölkerung",
+        "translation": {
+          "en": "population",
+          "pl": "ludność, populacja"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "die Bevölkerungen",
+        "notes": {
+          "en": "All the inhabitants of a particular town, area, or country.",
+          "pl": "Wszyscy mieszkańcy danego miasta, obszaru lub kraju."
+        },
+        "examples": [
+          "Die Bevölkerung der Stadt wächst jedes Jahr.",
+          "Die Regierung informierte die Bevölkerung über die neuen Maßnahmen."
+        ]
+      },
+      {
+        "id": 30,
+        "word": "massiv",
+        "translation": {
+          "en": "massive, severe",
+          "pl": "zmasowany, potężny"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Exceptionally large, strong, or severe.",
+          "pl": "Wyjątkowo duży, silny lub poważny."
+        },
+        "examples": [
+          "Die Region wurde durch ein massives Erdbeben erschüttert.",
+          "Das Unternehmen steht unter massiver Kritik."
+        ]
+      },
+      {
+        "id": 31,
+        "word": "sich wehren",
+        "translation": {
+          "en": "to defend oneself",
+          "pl": "bronić się"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "To fight back or resist.",
+          "pl": "Odpierać atak lub stawiać opór."
+        },
+        "examples": [
+          "Die Bürger wehren sich gegen die Schließung der Bibliothek.",
+          "Er versuchte, sich gegen die falschen Vorwürfe zu wehren."
+        ]
+      },
+      {
+        "id": 32,
         "word": "die Stichwahl",
         "translation": {
           "en": "runoff election",
@@ -26715,7 +27138,45 @@
         ]
       },
       {
-        "id": 6,
+        "id": 33,
+        "word": "bestätigen",
+        "translation": {
+          "en": "to confirm",
+          "pl": "potwierdzić"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B1",
+        "plural": "",
+        "notes": {
+          "en": "To establish the truth or correctness of something.",
+          "pl": "Ustalenie prawdy lub poprawności czegoś."
+        },
+        "examples": [
+          "Bitte bestätigen Sie Ihre Reservierung per E-Mail.",
+          "Die Behörde hat die Gerüchte noch nicht bestätigt."
+        ]
+      },
+      {
+        "id": 34,
+        "word": "der Abgeordnete",
+        "translation": {
+          "en": "Member of Parliament, deputy",
+          "pl": "poseł, deputowany"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Abgeordneten",
+        "notes": {
+          "en": "Adjectival noun (declines like an adjective). Refers to an elected representative.",
+          "pl": "Rzeczownik odprzymiotnikowy (odmienia się jak przymiotnik). Oznacza wybranego przedstawiciela."
+        },
+        "examples": [
+          "Die Abgeordneten diskutieren über das neue Gesetz.",
+          "Ein Abgeordneter hielt eine Rede im Parlament."
+        ]
+      },
+      {
+        "id": 35,
         "word": "die Hochrechnung",
         "translation": {
           "en": "projection, forecast",
@@ -26734,7 +27195,159 @@
         ]
       },
       {
-        "id": 7,
+        "id": 36,
+        "word": "das Meinungsforschungsinstitut",
+        "translation": {
+          "en": "polling institute",
+          "pl": "instytut badania opinii"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Meinungsforschungsinstitute",
+        "notes": {
+          "en": "An organization that conducts surveys and polls.",
+          "pl": "Organizacja przeprowadzająca ankiety i sondaże."
+        },
+        "examples": [
+          "Das Meinungsforschungsinstitut veröffentlichte neue Umfragewerte.",
+          "Viele Zeitungen arbeiten mit Meinungsforschungsinstituten zusammen."
+        ]
+      },
+      {
+        "id": 37,
+        "word": "der Herausforderer",
+        "translation": {
+          "en": "challenger",
+          "pl": "pretendent, rzucający wyzwanie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Herausforderer",
+        "notes": {
+          "en": "Someone who competes for a title or position currently held by another.",
+          "pl": "Ktoś, kto rywalizuje o tytuł lub stanowisko zajmowane obecnie przez kogoś innego."
+        },
+        "examples": [
+          "Der amtierende Weltmeister besiegte seinen Herausforderer.",
+          "Der politische Herausforderer kritisierte die Regierung scharf."
+        ]
+      },
+      {
+        "id": 38,
+        "word": "ablehnen",
+        "translation": {
+          "en": "to reject, to refuse",
+          "pl": "odrzucać, odmawiać"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B1",
+        "plural": "",
+        "notes": {
+          "en": "Separable verb. To dismiss as inadequate or unacceptable.",
+          "pl": "Czasownik rozdzielnie złożony. Odrzucać jako nieodpowiednie lub nieakceptowalne."
+        },
+        "examples": [
+          "Die Firma hat mein Angebot leider abgelehnt.",
+          "Er lehnte es ab, einen Kommentar dazu abzugeben."
+        ]
+      },
+      {
+        "id": 39,
+        "word": "das Vorgehen",
+        "translation": {
+          "en": "approach, procedure",
+          "pl": "postępowanie, procedura"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Vorgehen",
+        "notes": {
+          "en": "The manner of proceeding or acting in a particular situation.",
+          "pl": "Sposób postępowania lub działania w danej sytuacji."
+        },
+        "examples": [
+          "Wir müssen unser weiteres Vorgehen genau planen.",
+          "Ihr Vorgehen in dieser Angelegenheit war sehr professionell."
+        ]
+      },
+      {
+        "id": 40,
+        "word": "gespalten",
+        "translation": {
+          "en": "divided, split",
+          "pl": "podzielony"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Often used metaphorically for a society or group with opposing views.",
+          "pl": "Często używane metaforycznie wobec społeczeństwa lub grupy o przeciwnych poglądach."
+        },
+        "examples": [
+          "Die Partei ist in dieser Frage tief gespalten.",
+          "Wir leben in einer zunehmend gespaltenen Gesellschaft."
+        ]
+      },
+      {
+        "id": 41,
+        "word": "das Beisein",
+        "translation": {
+          "en": "presence",
+          "pl": "obecność"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Usually used in the phrase 'im Beisein von' (in the presence of).",
+          "pl": "Zazwyczaj używane w zwrocie 'im Beisein von' (w obecności)."
+        },
+        "examples": [
+          "Der Vertrag wurde im Beisein eines Anwalts unterzeichnet.",
+          "Im Beisein der Presse eröffnete er die Ausstellung."
+        ]
+      },
+      {
+        "id": 42,
+        "word": "überregional",
+        "translation": {
+          "en": "supraregional, national",
+          "pl": "ponadregionalny, ogólnokrajowy"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Extending beyond a single region.",
+          "pl": "Wykraczający poza jeden region."
+        },
+        "examples": [
+          "Die überregionale Zeitung berichtet über das Ereignis.",
+          "Das Projekt hat eine überregionale Bedeutung."
+        ]
+      },
+      {
+        "id": 43,
+        "word": "die Bildungseinrichtung",
+        "translation": {
+          "en": "educational institution",
+          "pl": "placówka edukacyjna"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Bildungseinrichtungen",
+        "notes": {
+          "en": "A place where people of different ages gain an education.",
+          "pl": "Miejsce, w którym osoby w różnym wieku zdobywają wykształcenie."
+        },
+        "examples": [
+          "Universitäten und Schulen sind wichtige Bildungseinrichtungen.",
+          "Die Regierung fördert den Ausbau von Bildungseinrichtungen."
+        ]
+      },
+      {
+        "id": 44,
         "word": "der Völkermord",
         "translation": {
           "en": "genocide",
@@ -26753,7 +27366,64 @@
         ]
       },
       {
-        "id": 8,
+        "id": 45,
+        "word": "sich richten an",
+        "translation": {
+          "en": "to be aimed at, to address",
+          "pl": "być skierowanym do, zwracać się do"
+        },
+        "partOfSpeech": "Expression",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Takes the accusative case (an wen?).",
+          "pl": "Łączy się z biernikiem (do kogo?)."
+        },
+        "examples": [
+          "Dieses Angebot richtet sich an junge Familien.",
+          "Die Kritik richtet sich an den Vorstand."
+        ]
+      },
+      {
+        "id": 46,
+        "word": "die Perspektive",
+        "translation": {
+          "en": "perspective, point of view",
+          "pl": "perspektywa, punkt widzenia"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "die Perspektiven",
+        "notes": {
+          "en": "A particular attitude toward or way of regarding something.",
+          "pl": "Szczególne nastawienie lub sposób patrzenia na coś."
+        },
+        "examples": [
+          "Aus meiner Perspektive sieht die Sache ganz anders aus.",
+          "Wir müssen neue berufliche Perspektiven entwickeln."
+        ]
+      },
+      {
+        "id": 47,
+        "word": "aufgreifen",
+        "translation": {
+          "en": "to take up, to address (a topic)",
+          "pl": "podejmować, chwytać (np. temat)"
+        },
+        "partOfSpeech": "Verb",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Separable verb. Often used with topics, ideas, or suggestions.",
+          "pl": "Czasownik rozdzielnie złożony. Często używany w odniesieniu do tematów, pomysłów lub sugestii."
+        },
+        "examples": [
+          "Die Diskussion hat ein wichtiges Thema aufgegriffen.",
+          "Der Autor greift in seinem Buch eine alte Legende auf."
+        ]
+      },
+      {
+        "id": 48,
         "word": "der Träger",
         "translation": {
           "en": "sponsor, responsible body, carrier",
@@ -26772,7 +27442,26 @@
         ]
       },
       {
-        "id": 9,
+        "id": 49,
+        "word": "der Kooperationsvertrag",
+        "translation": {
+          "en": "cooperation agreement",
+          "pl": "umowa o współpracy"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Kooperationsverträge",
+        "notes": {
+          "en": "A formal contract between parties to work together.",
+          "pl": "Formalna umowa między stronami o współpracy."
+        },
+        "examples": [
+          "Die beiden Universitäten unterzeichneten einen Kooperationsvertrag.",
+          "Der Kooperationsvertrag regelt den Austausch von Forschern."
+        ]
+      },
+      {
+        "id": 50,
         "word": "der Inlandsgeheimdienst",
         "translation": {
           "en": "domestic intelligence agency",
@@ -26791,7 +27480,121 @@
         ]
       },
       {
-        "id": 10,
+        "id": 51,
+        "word": "der Hinweis",
+        "translation": {
+          "en": "tip, hint, clue",
+          "pl": "wskazówka, sygnał, podpowiedź"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "die Hinweise",
+        "notes": {
+          "en": "Information that helps to solve a problem or crime.",
+          "pl": "Informacja pomagająca rozwiązać problem lub przestępstwo."
+        },
+        "examples": [
+          "Die Polizei bittet die Bevölkerung um Hinweise.",
+          "Dieser Hinweis war entscheidend für die Ermittlungen."
+        ]
+      },
+      {
+        "id": 52,
+        "word": "der Minderjährige",
+        "translation": {
+          "en": "minor (underage person)",
+          "pl": "nieletni"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Minderjährigen",
+        "notes": {
+          "en": "Adjectival noun. Refers to a person under the legal age of adulthood.",
+          "pl": "Rzeczownik odprzymiotnikowy. Odnosi się do osoby poniżej pełnoletności."
+        },
+        "examples": [
+          "Der Verkauf von Alkohol an Minderjährige ist verboten.",
+          "Die Rechte von Minderjährigen sind besonders geschützt."
+        ]
+      },
+      {
+        "id": 53,
+        "word": "fassen",
+        "translation": {
+          "en": "to catch, to apprehend",
+          "pl": "schwytać, złapać"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "In a police context, it means to catch a suspect.",
+          "pl": "W kontekście policyjnym oznacza schwytanie podejrzanego."
+        },
+        "examples": [
+          "Die Polizei konnte den Dieb auf der Flucht fassen.",
+          "Es dauerte Monate, bis der Täter gefasst wurde."
+        ]
+      },
+      {
+        "id": 54,
+        "word": "die Kampfmontur",
+        "translation": {
+          "en": "combat gear, battle dress",
+          "pl": "strój bojowy, rynsztunek"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Kampfmonturen",
+        "notes": {
+          "en": "Clothing and equipment worn by soldiers or fighters.",
+          "pl": "Ubranie i sprzęt noszony przez żołnierzy lub bojowników."
+        },
+        "examples": [
+          "Der Verdächtige posierte in voller Kampfmontur für das Foto.",
+          "Die Soldaten legten ihre Kampfmontur an."
+        ]
+      },
+      {
+        "id": 55,
+        "word": "der Suchverlauf",
+        "translation": {
+          "en": "search history",
+          "pl": "historia wyszukiwania"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Suchverläufe",
+        "notes": {
+          "en": "The record of queries entered into a search engine.",
+          "pl": "Zapis zapytań wprowadzonych do wyszukiwarki."
+        },
+        "examples": [
+          "Die Polizei überprüfte den Suchverlauf auf seinem Computer.",
+          "Du kannst deinen Suchverlauf in den Einstellungen löschen."
+        ]
+      },
+      {
+        "id": 56,
+        "word": "der Anschlag",
+        "translation": {
+          "en": "attack, assault",
+          "pl": "zamach, atak"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Anschläge",
+        "notes": {
+          "en": "Often refers to a terrorist attack.",
+          "pl": "Często odnosi się do ataku terrorystycznego."
+        },
+        "examples": [
+          "Die Ermittler konnten einen geplanten Anschlag verhindern.",
+          "Bei dem Anschlag wurden mehrere Menschen verletzt."
+        ]
+      },
+      {
+        "id": 57,
         "word": "der Massenmord",
         "translation": {
           "en": "mass murder",
@@ -26808,13 +27611,51 @@
           "Der Täter wurde wegen mehrfachen Massenmordes angeklagt.",
           "Das Land trauert um die Opfer des schrecklichen Massenmordes."
         ]
+      },
+      {
+        "id": 58,
+        "word": "unterrichten",
+        "translation": {
+          "en": "to inform, to brief",
+          "pl": "poinformować, powiadomić"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "In this context, it means to inform someone officially, not 'to teach'.",
+          "pl": "W tym kontekście oznacza oficjalne poinformowanie kogoś, a nie 'uczyć'."
+        },
+        "examples": [
+          "Der Präsident wurde umgehend über den Vorfall unterrichtet.",
+          "Wir müssen die Belegschaft über die Änderungen unterrichten."
+        ]
+      },
+      {
+        "id": 59,
+        "word": "in Betracht ziehen",
+        "translation": {
+          "en": "to consider, to take into account",
+          "pl": "brać pod uwagę, rozważać"
+        },
+        "partOfSpeech": "Expression",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "To think about something as a possibility.",
+          "pl": "Myśleć o czymś jako o możliwości."
+        },
+        "examples": [
+          "Wir müssen alle möglichen Alternativen in Betracht ziehen.",
+          "Er zieht es in Betracht, ins Ausland zu ziehen."
+        ]
       }
     ]
   },
   "speaking": {
     "prompt": {
-      "en": "You are my German language tutor conducting a 20-minute B1-to-C1 speaking conversation based on the Listening section of today's lesson (German news from 2 November 2026) AND a general discussion topic on 'Seeking and Verifying Information in the Digital Age'.\n\nListening reference – the six news stories from today's Listening section, in the same order as the articles:\n1. Interior Minister Dobrindt blames left-wing extremists and 'migrant troublemakers' for hijacking previously peaceful 'Gen Z' protests, resulting in riots and over 100 arrests.\n2. Chancellor Merz attends a two-day digital summit in Berlin focusing on AI and human-like robots.\n3. Official emergency warning apps in Ukraine and Russia were hacked, sending false information to civilians.\n4. Bulgarian President Ilijana Jotowa won the runoff election, retaining her office while opposing military aid to Ukraine.\n5. The Jewish Academy in Frankfurt, the first of its kind since the Shoah, is opened by President Steinmeier.\n6. Russian domestic intelligence (FSB) arrested a terror-suspect minor after a warning from the US.\n\nGrammar focus to elicit: Indirect wh-questions and embedded question word order.\n\nUseful words from today's Listening articles (invite me to use them): die Ausschreitung, kapern, die Lebenshaltungskosten, kompromittieren, die Stichwahl, die Hochrechnung, der Völkermord, der Träger, der Inlandsgeheimdienst, der Massenmord.\n\nInstructions for the AI tutor:\n1. Start the conversation: greet me and introduce today's dual focus: the recent news stories and a general discussion on how we seek and verify information.\n2. You ask, I speak: one question per turn, one or two short sentences, never answer your own questions. German at B1-C1 level; English only if I am really stuck.\n3. Discuss various aspects of the topic: fake news vs. real news, how technology shapes information, and details from the news stories provided above.\n4. Encourage me to use indirect wh-questions (e.g., 'Ich frage mich, warum...', 'Weißt du, wer...') ensuring the conjugated verb goes to the very end of the subordinate clause.\n5. Question ideas (adapt to my answers):\n   - (story 1) Wer ist laut dem Minister für die Gewalt verantwortlich, und was denkst du darüber? (Antworte mit einem indirekten Fragesatz, z.B. 'Der Minister sagt, wer...')\n   - (story 3) Kannst du erklären, wie die Warn-Apps manipuliert wurden?\n   - (general) Wie entscheidest du, welchen Nachrichtenquellen du vertraust? (Frag mich zurück: 'Ich frage mich, wie du das machst...')\n6. Immediate correction: if I break today's rule (e.g. *Ich weiß nicht, wo wohnt er.* instead of *Ich weiß nicht, wo er wohnt.*), stop briefly: quote the error, give the correct sentence, explain the rule in 1 English sentence, ask me to repeat the correct sentence aloud before the next question.\n7. Also correct other significant errors briefly; note recurring mistakes for the final feedback. If my answer is very short, ask one follow-up („Warum?“).\n8. Wrap-up after ~20 minutes or when I say \"stop\": two things I did well, three key mistakes with corrections, five words to review, one German sentence to repeat aloud.\n9. Keep the tone engaging, professional, natural for an immersive German voice dialogue. Address me as „du“.",
-      "pl": "Jesteś moim nauczycielem języka niemieckiego i prowadzisz 20-minutową rozmowę na poziomie od B1 do C1 w oparciu o część Słuchanie z dzisiejszej lekcji (niemieckie wiadomości z 2 listopada 2026 roku) ORAZ na ogólny temat dyskusji: 'Poszukiwanie i weryfikacja informacji w epoce cyfrowej'.\n\nMateriał ze Słuchania – sześć tematów wiadomości z dzisiejszej części Słuchanie, w tej samej kolejności co artykuły:\n1. Minister spraw wewnętrznych Dobrindt obwinia lewicowych ekstremistów i 'migranckich chuliganów' za przejęcie wcześniej pokojowych protestów 'Gen Z', co doprowadziło do zamieszek i ponad 100 aresztowań.\n2. Kanclerz Merz bierze udział w dwudniowym szczycie cyfrowym w Berlinie, skupiającym się na sztucznej inteligencji i robotach humanoidalnych.\n3. Oficjalne aplikacje ostrzegawcze w Ukrainie i Rosji zostały zhakowane, wysyłając cywilom fałszywe informacje.\n4. Prezydent Bułgarii Ilijana Jotowa wygrała drugą turę wyborów, zachowując urząd, będąc jednocześnie przeciwną pomocy wojskowej dla Ukrainy.\n5. Akademia Żydowska we Frankfurcie, pierwsza tego typu od czasów Szoa, zostaje otwarta przez prezydenta Steinmeiera.\n6. Rosyjski wywiad wewnętrzny (FSB) aresztował nieletniego podejrzanego o terroryzm po ostrzeżeniu ze strony USA.\n\nZagadnienie gramatyczne do ćwiczenia: Pytania pośrednie z zaimkiem pytającym i szyk zdania pobocznego.\n\nPrzydatne słowa z dzisiejszych artykułów (zachęcaj mnie do ich używania): die Ausschreitung, kapern, die Lebenshaltungskosten, kompromittieren, die Stichwahl, die Hochrechnung, der Völkermord, der Träger, der Inlandsgeheimdienst, der Massenmord.\n\nInstrukcje dla tutora AI:\n1. Rozpocznij rozmowę: przywitaj się i wprowadź dzisiejszy podwójny temat: ostatnie wiadomości oraz ogólną dyskusję o tym, jak szukamy i weryfikujemy informacje.\n2. Ty pytasz, ja mówię: zadawaj pytania pojedynczo, jedno lub dwa krótkie zdania, nigdy nie odpowiadaj na własne pytania. Mów po niemiecku na poziomie B1–C1; przechodź na polski tylko wtedy, gdy naprawdę utknę.\n3. Omawiaj różne aspekty tematu: fałszywe wiadomości (fake news) a prawdziwe, jak technologia kształtuje informacje oraz szczegóły z powyższych wiadomości.\n4. Zachęcaj mnie do używania pytań pośrednich (np. 'Ich frage mich, warum...', 'Weißt du, wer...'), dbając o to, by odmieniony czasownik wędrował na sam koniec zdania podrzędnego.\n5. Pomysły na pytania (dostosuj je do moich odpowiedzi):\n   - (temat 1) Wer ist laut dem Minister für die Gewalt verantwortlich, und was denkst du darüber? (Antworte mit einem indirekten Fragesatz, z.B. 'Der Minister sagt, wer...')\n   - (temat 3) Kannst du erklären, wie die Warn-Apps manipuliert wurden?\n   - (temat ogólny) Wie entscheidest du, welchen Nachrichtenquellen du vertraust? (Frag mich zurück: 'Ich frage mich, wie du das machst...')\n6. Natychmiastowa korekta: jeśli popełnię błąd dotyczący dzisiejszej zasady (np. *Ich weiß nicht, wo wohnt er.* zamiast *Ich weiß nicht, wo er wohnt.*), na chwilę przerwij: zacytuj błąd, podaj poprawne zdanie, wyjaśnij zasadę w jednym zdaniu po polsku, poproś mnie o głośne powtórzenie poprawnego zdania przed następnym pytaniem.\n7. Krótko poprawiaj również inne istotne błędy; zanotuj powtarzające się błędy na podsumowanie. Jeśli moja odpowiedź jest bardzo krótka, zadaj jedno pytanie uzupełniające („Warum?“).\n8. Podsumowanie po około 20 minutach lub gdy powiem \"stop\": dwie rzeczy, które zrobiłem dobrze, trzy główne błędy z poprawkami, pięć słów do powtórzenia oraz jedno zdanie po niemiecku do głośnego powtórzenia.\n9. Utrzymuj angażujący, profesjonalny i naturalny ton, odpowiedni dla immersyjnego dialogu głosowego po niemiecku. Zwracaj się do mnie per „du”."
+      "en": "You are my German language tutor conducting a 20-minute B1-to-C1 speaking conversation based on the Listening section of today's lesson (German news from 2 November 2026) AND a general discussion topic on 'Seeking and Verifying Information in the Digital Age'.\n\nListening reference – the six news stories from today's Listening section, in the same order as the articles:\n1. Interior Minister Dobrindt blames left-wing extremists and 'migrant troublemakers' for hijacking previously peaceful 'Gen Z' protests, resulting in riots and over 100 arrests.\n2. Chancellor Merz attends a two-day digital summit in Berlin focusing on AI and human-like robots.\n3. Official emergency warning apps in Ukraine and Russia were hacked, sending false information to civilians.\n4. Bulgarian President Ilijana Jotowa won the runoff election, retaining her office while opposing military aid to Ukraine.\n5. The Jewish Academy in Frankfurt, the first of its kind since the Shoah, is opened by President Steinmeier.\n6. Russian domestic intelligence (FSB) arrested a terror-suspect minor after a warning from the US.\n\nGrammar focus to elicit: Indirect wh-questions and embedded question word order.\n\nUseful words from today's Listening articles (invite me to use them): die Ausschreitung, der Gewaltexzess, die Künstliche Intelligenz, kompromittieren, die Hochrechnung, der Völkermord, der Inlandsgeheimdienst, in Betracht ziehen.\n\nInstructions for the AI tutor:\n1. Start the conversation: greet me and introduce today's dual focus: the recent news stories and a general discussion on how we seek and verify information.\n2. You ask, I speak: one question per turn, one or two short sentences, never answer your own questions. German at B1-C1 level; English only if I am really stuck.\n3. Discuss various aspects of the topic: fake news vs. real news, how technology shapes information, and details from the news stories provided above.\n4. Encourage me to use indirect wh-questions (e.g., 'Ich frage mich, warum...', 'Weißt du, wer...') ensuring the conjugated verb goes to the very end of the subordinate clause.\n5. Question ideas (adapt to my answers):\n   - (story 1) Wer ist laut dem Minister für die Gewalt verantwortlich, und was denkst du darüber? (Antworte mit einem indirekten Fragesatz, z.B. 'Der Minister sagt, wer...')\n   - (story 3) Kannst du erklären, wie die Warn-Apps manipuliert wurden?\n   - (general) Wie entscheidest du, welchen Nachrichtenquellen du vertraust? (Frag mich zurück: 'Ich frage mich, wie du das machst...')\n6. Immediate correction: if I break today's rule (e.g. *Ich weiß nicht, wo wohnt er.* instead of *Ich weiß nicht, wo er wohnt.*), stop briefly: quote the error, give the correct sentence, explain the rule in 1 English sentence, ask me to repeat the correct sentence aloud before the next question.\n7. Also correct other significant errors briefly; note recurring mistakes for the final feedback. If my answer is very short, ask one follow-up („Warum?“).\n8. Wrap-up after ~20 minutes or when I say \"stop\": two things I did well, three key mistakes with corrections, five words to review, one German sentence to repeat aloud.\n9. Keep the tone engaging, professional, natural for an immersive German voice dialogue. Address me as „du“.",
+      "pl": "Jesteś moim nauczycielem języka niemieckiego i prowadzisz 20-minutową rozmowę na poziomie od B1 do C1 w oparciu o część Słuchanie z dzisiejszej lekcji (niemieckie wiadomości z 2 listopada 2026 roku) ORAZ na ogólny temat dyskusji: 'Poszukiwanie i weryfikacja informacji w epoce cyfrowej'.\n\nMateriał ze Słuchania – sześć tematów wiadomości z dzisiejszej części Słuchanie, w tej samej kolejności co artykuły:\n1. Minister spraw wewnętrznych Dobrindt obwinia lewicowych ekstremistów i 'migranckich chuliganów' za przejęcie wcześniej pokojowych protestów 'Gen Z', co doprowadziło do zamieszek i ponad 100 aresztowań.\n2. Kanclerz Merz bierze udział w dwudniowym szczycie cyfrowym w Berlinie, skupiającym się na sztucznej inteligencji i robotach humanoidalnych.\n3. Oficjalne aplikacje ostrzegawcze w Ukrainie i Rosji zostały zhakowane, wysyłając cywilom fałszywe informacje.\n4. Prezydent Bułgarii Ilijana Jotowa wygrała drugą turę wyborów, zachowując urząd, będąc jednocześnie przeciwną pomocy wojskowej dla Ukrainy.\n5. Akademia Żydowska we Frankfurcie, pierwsza tego typu od czasów Szoa, zostaje otwarta przez prezydenta Steinmeiera.\n6. Rosyjski wywiad wewnętrzny (FSB) aresztował nieletniego podejrzanego o terroryzm po ostrzeżeniu ze strony USA.\n\nZagadnienie gramatyczne do ćwiczenia: Pytania pośrednie z zaimkiem pytającym i szyk zdania pobocznego.\n\nPrzydatne słowa z dzisiejszych artykułów (zachęcaj mnie do ich używania): die Ausschreitung, der Gewaltexzess, die Künstliche Intelligenz, kompromittieren, die Hochrechnung, der Völkermord, der Inlandsgeheimdienst, in Betracht ziehen.\n\nInstrukcje dla tutora AI:\n1. Rozpocznij rozmowę: przywitaj się i wprowadź dzisiejszy podwójny temat: ostatnie wiadomości oraz ogólną dyskusję o tym, jak szukamy i weryfikujemy informacje.\n2. Ty pytasz, ja mówię: zadawaj pytania pojedynczo, jedno lub dwa krótkie zdania, nigdy nie odpowiadaj na własne pytania. Mów po niemiecku na poziomie B1–C1; przechodź na polski tylko wtedy, gdy naprawdę utknę.\n3. Omawiaj różne aspekty tematu: fałszywe wiadomości (fake news) a prawdziwe, jak technologia kształtuje informacje oraz szczegóły z powyższych wiadomości.\n4. Zachęcaj mnie do używania pytań pośrednich (np. 'Ich frage mich, warum...', 'Weißt du, wer...'), dbając o to, by odmieniony czasownik wędrował na sam koniec zdania podrzędnego.\n5. Pomysły na pytania (dostosuj je do moich odpowiedzi):\n   - (temat 1) Wer ist laut dem Minister für die Gewalt verantwortlich, und was denkst du darüber? (Antworte mit einem indirekten Fragesatz, z.B. 'Der Minister sagt, wer...')\n   - (temat 3) Kannst du erklären, wie die Warn-Apps manipuliert wurden?\n   - (temat ogólny) Wie entscheidest du, welchen Nachrichtenquellen du vertraust? (Frag mich zurück: 'Ich frage mich, wie du das machst...')\n6. Natychmiastowa korekta: jeśli popełnię błąd dotyczący dzisiejszej zasady (np. *Ich weiß nicht, wo wohnt er.* zamiast *Ich weiß nicht, wo er wohnt.*), na chwilę przerwij: zacytuj błąd, podaj poprawne zdanie, wyjaśnij zasadę w jednym zdaniu po polsku, poproś mnie o głośne powtórzenie poprawnego zdania przed następnym pytaniem.\n7. Krótko poprawiaj również inne istotne błędy; zanotuj powtarzające się błędy na podsumowanie. Jeśli moja odpowiedź jest bardzo krótka, zadaj jedno pytanie uzupełniające („Warum?“).\n8. Podsumowanie po około 20 minutach lub gdy powiem \"stop\": dwie rzeczy, które zrobiłem dobrze, trzy główne błędy z poprawkami, pięć słów do powtórzenia oraz jedno zdanie po niemiecku do głośnego powtórzenia.\n9. Utrzymuj angażujący, profesjonalny i naturalny ton, odpowiedni dla immersyjnego dialogu głosowego po niemiecku. Zwracaj się do mnie per „du”."
     }
   }
 }
