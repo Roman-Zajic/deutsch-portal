@@ -27874,5 +27874,1942 @@
       "pl": "Jesteś moim nauczycielem języka niemieckiego i prowadzisz 20-minutową rozmowę na poziomie od B1 do C1 w oparciu o część Słuchanie z dzisiejszej lekcji (niemieckie wiadomości z 2 listopada 2026 roku) ORAZ na ogólny temat dyskusji: 'Poszukiwanie i weryfikacja informacji w epoce cyfrowej'.\n\nMateriał ze Słuchania – sześć tematów wiadomości z dzisiejszej części Słuchanie, w tej samej kolejności co artykuły:\n1. Minister spraw wewnętrznych Dobrindt obwinia lewicowych ekstremistów i 'migranckich chuliganów' za przejęcie wcześniej pokojowych protestów 'Gen Z', co doprowadziło do zamieszek i ponad 100 aresztowań.\n2. Kanclerz Merz bierze udział w dwudniowym szczycie cyfrowym w Berlinie, skupiającym się na sztucznej inteligencji i robotach humanoidalnych.\n3. Oficjalne aplikacje ostrzegawcze w Ukrainie i Rosji zostały zhakowane, wysyłając cywilom fałszywe informacje.\n4. Prezydent Bułgarii Ilijana Jotowa wygrała drugą turę wyborów, zachowując urząd, będąc jednocześnie przeciwną pomocy wojskowej dla Ukrainy.\n5. Akademia Żydowska we Frankfurcie, pierwsza tego typu od czasów Szoa, zostaje otwarta przez prezydenta Steinmeiera.\n6. Rosyjski wywiad wewnętrzny (FSB) aresztował nieletniego podejrzanego o terroryzm po ostrzeżeniu ze strony USA.\n\nZagadnienie gramatyczne do ćwiczenia: Pytania pośrednie z zaimkiem pytającym i szyk zdania pobocznego.\n\nPrzydatne słowa z dzisiejszych artykułów (zachęcaj mnie do ich używania): die Ausschreitung, kapern, die Lebenshaltungskosten, kompromittieren, die Stichwahl, die Hochrechnung, der Völkermord, der Träger, der Inlandsgeheimdienst, der Massenmord.\n\nInstrukcje dla tutora AI:\n1. Rozpocznij rozmowę: przywitaj się i wprowadź dzisiejszy podwójny temat: ostatnie wiadomości oraz ogólną dyskusję o tym, jak szukamy i weryfikujemy informacje.\n2. Ty pytasz, ja mówię: zadawaj pytania pojedynczo, jedno lub dwa krótkie zdania, nigdy nie odpowiadaj na własne pytania. Mów po niemiecku na poziomie B1–C1; przechodź na polski tylko wtedy, gdy naprawdę utknę.\n3. Omawiaj różne aspekty tematu: fałszywe wiadomości (fake news) a prawdziwe, jak technologia kształtuje informacje oraz szczegóły z powyższych wiadomości.\n4. Zachęcaj mnie do używania pytań pośrednich (np. 'Ich frage mich, warum...', 'Weißt du, wer...'), dbając o to, by odmieniony czasownik wędrował na sam koniec zdania podrzędnego.\n5. Pomysły na pytania (dostosuj je do moich odpowiedzi):\n   - (temat 1) Wer ist laut dem Minister für die Gewalt verantwortlich, und was denkst du darüber? (Antworte mit einem indirekten Fragesatz, z.B. 'Der Minister sagt, wer...')\n   - (temat 3) Kannst du erklären, wie die Warn-Apps manipuliert wurden?\n   - (temat ogólny) Wie entscheidest du, welchen Nachrichtenquellen du vertraust? (Frag mich zurück: 'Ich frage mich, wie du das machst...')\n6. Natychmiastowa korekta: jeśli popełnię błąd dotyczący dzisiejszej zasady (np. *Ich weiß nicht, wo wohnt er.* zamiast *Ich weiß nicht, wo er wohnt.*), na chwilę przerwij: zacytuj błąd, podaj poprawne zdanie, wyjaśnij zasadę w jednym zdaniu po polsku, poproś mnie o głośne powtórzenie poprawnego zdania przed następnym pytaniem.\n7. Krótko poprawiaj również inne istotne błędy; zanotuj powtarzające się błędy na podsumowanie. Jeśli moja odpowiedź jest bardzo krótka, zadaj jedno pytanie uzupełniające („Warum?“).\n8. Podsumowanie po około 20 minutach lub gdy powiem \"stop\": dwie rzeczy, które zrobiłem dobrze, trzy główne błędy z poprawkami, pięć słów do powtórzenia oraz jedno zdanie po niemiecku do głośnego powtórzenia.\n9. Utrzymuj angażujący, profesjonalny i naturalny ton, odpowiedni dla immersyjnego dialogu głosowego po niemiecku. Zwracaj się do mnie per „du”."
     }
   }
+},
+ {
+  "lesson": {
+    "id": "2026-11-03",
+    "date": "03.11.2026",
+    "day": 22,
+    "totalDays": 300,
+    "level": "B1",
+    "title": {
+      "en": "Everyday cause and consequence: weil, denn and deshalb",
+      "pl": "Codzienne przyczyny i skutki: weil, denn i deshalb"
+    },
+    "subtitle": "Alltägliche Ursache und Wirkung: weil, denn und deshalb"
+  },
+  "grammar": {
+    "html": {
+      "en": [
+        "<h3>Expressing Causes and Consequences</h3><p>In German, you can express why something happens (cause) or what happens as a result (consequence) using three very common conjunctions: <strong>weil</strong> (because), <strong>denn</strong> (because/for), and <strong>deshalb</strong> (therefore/that's why). While they are related in meaning, they affect the word order of the sentence in three completely different ways.</p>",
+        "<div class='box rule'><strong>Core rule:</strong><br><strong>weil</strong> sends the finite verb to the <strong>end</strong>.<br><strong>denn</strong> occupies position 0, keeping the verb in <strong>position 2</strong>.<br><strong>deshalb</strong> is an adverb in position 1, so the verb comes <strong>immediately after it</strong>.</div>",
+        "<h3>1. \"weil\" (because) - Subordinating Conjunction</h3><p><em>Weil</em> answers the question \"warum?\" (why?) and introduces a subordinate clause. In a subordinate clause, the conjugated (finite) verb must be pushed to the very end of the sentence.</p><ul><li><em>Ich bleibe zu Hause, <strong>weil</strong> ich krank <strong>bin</strong>.</em> (I am staying at home because I am sick.)</li><li><em>Wir lernen Deutsch, <strong>weil</strong> wir in Berlin <strong>wohnen</strong>.</em> (We learn German because we live in Berlin.)</li></ul>",
+        "<h3>2. \"denn\" (because/for) - Coordinating Conjunction</h3><p><em>Denn</em> also answers \"warum?\" but introduces a main clause. It connects two main clauses without affecting the word order. <em>Denn</em> occupies \"position 0\", meaning the subject is usually position 1, and the finite verb stays in position 2.</p><ul><li><em>Ich bleibe zu Hause, <strong>denn</strong> ich <strong>bin</strong> krank.</em> (I am staying at home because I am sick.)</li><li><em>Wir lernen Deutsch, <strong>denn</strong> wir <strong>wohnen</strong> in Berlin.</em> (We learn German because we live in Berlin.)</li></ul>",
+        "<h3>3. \"deshalb\" (therefore) - Adverbial Connector</h3><p><em>Deshalb</em> expresses a consequence (the result of a cause). It usually occupies position 1 in the second main clause. Because German main clauses strictly follow the verb-second (V2) rule, the finite verb must come immediately after <em>deshalb</em>, followed by the subject.</p><ul><li><em>Ich bin krank, <strong>deshalb</strong> <strong>bleibe</strong> ich zu Hause.</em> (I am sick, therefore I am staying at home.)</li><li><em>Wir wohnen in Berlin, <strong>deshalb</strong> <strong>lernen</strong> wir Deutsch.</em> (We live in Berlin, that's why we are learning German.)</li></ul>",
+        "<div class='box warn'><strong>Common mistake: Confusing word order</strong><p>✗ Ich bin krank, deshalb ich bleibe zu Hause.</p><p>✓ Ich bin krank, <strong>deshalb</strong> <strong>bleibe</strong> ich zu Hause.</p><p>Never treat <em>deshalb</em> like <em>denn</em>. <em>Deshalb</em> counts as the first element of the clause, so the verb must come next.</p></div>",
+        "<div class='box tip'><strong>Memory aid: The Word Order Triangle</strong><p><strong>WEIL</strong> = Verb at the END.<br><strong>DENN</strong> = Verb stays NORMAL (Pos 2).<br><strong>DESHALB</strong> = Verb comes FIRST (right after it).</p></div>"
+      ],
+      "pl": [
+        "<h3>Wyrażanie przyczyn i skutków</h3><p>W języku niemieckim możesz wyrazić, dlaczego coś się dzieje (przyczyna) lub jaki jest tego rezultat (skutek), używając trzech bardzo popularnych spójników: <strong>weil</strong> (ponieważ), <strong>denn</strong> (bo/ponieważ) i <strong>deshalb</strong> (dlatego). Chociaż są one powiązane znaczeniowo, wpływają na szyk wyrazów w zdaniu na trzy zupełnie różne sposoby.</p>",
+        "<div class='box rule'><strong>Główna zasada:</strong><br><strong>weil</strong> wyrzuca odmieniony czasownik na <strong>koniec</strong>.<br><strong>denn</strong> zajmuje pozycję 0, więc czasownik zostaje na <strong>2. miejscu</strong>.<br><strong>deshalb</strong> to przysłówek na 1. miejscu, więc czasownik stoi <strong>bezpośrednio po nim</strong>.</div>",
+        "<h3>1. \"weil\" (ponieważ) - Spójnik podrzędny</h3><p><em>Weil</em> odpowiada na pytanie \"warum?\" (dlaczego?) i wprowadza zdanie podrzędne. W zdaniu podrzędnym odmieniony czasownik musi zostać przesunięty na sam koniec zdania.</p><ul><li><em>Ich bleibe zu Hause, <strong>weil</strong> ich krank <strong>bin</strong>.</em> (Zostaję w domu, ponieważ jestem chory.)</li><li><em>Wir lernen Deutsch, <strong>weil</strong> wir in Berlin <strong>wohnen</strong>.</em> (Uczymy się niemieckiego, ponieważ mieszkamy w Berlinie.)</li></ul>",
+        "<h3>2. \"denn\" (bo/ponieważ) - Spójnik współrzędny</h3><p><em>Denn</em> również odpowiada na pytanie \"warum?\", ale wprowadza zdanie główne. Łączy dwa zdania główne, nie zmieniając ich szyku. <em>Denn</em> zajmuje \"pozycję 0\", co oznacza, że podmiot jest zwykle na 1. pozycji, a czasownik na 2. pozycji.</p><ul><li><em>Ich bleibe zu Hause, <strong>denn</strong> ich <strong>bin</strong> krank.</em> (Zostaję w domu, bo jestem chory.)</li><li><em>Wir lernen Deutsch, <strong>denn</strong> wir <strong>wohnen</strong> in Berlin.</em> (Uczymy się niemieckiego, bo mieszkamy w Berlinie.)</li></ul>",
+        "<h3>3. \"deshalb\" (dlatego) - Przysłówek łączący</h3><p><em>Deshalb</em> wyraża skutek (rezultat przyczyny). Zazwyczaj zajmuje 1. pozycję w drugim zdaniu głównym. Ponieważ niemieckie zdania główne ściśle przestrzegają zasady czasownika na drugim miejscu (V2), odmieniony czasownik musi pojawić się bezpośrednio po <em>deshalb</em>, a dopiero potem podmiot.</p><ul><li><em>Ich bin krank, <strong>deshalb</strong> <strong>bleibe</strong> ich zu Hause.</em> (Jestem chory, dlatego zostaję w domu.)</li><li><em>Wir wohnen in Berlin, <strong>deshalb</strong> <strong>lernen</strong> wir Deutsch.</em> (Mieszkamy w Berlinie, dlatego uczymy się niemieckiego.)</li></ul>",
+        "<div class='box warn'><strong>Typowy błąd: Mylenie szyku wyrazów</strong><p>✗ Ich bin krank, deshalb ich bleibe zu Hause.</p><p>✓ Ich bin krank, <strong>deshalb</strong> <strong>bleibe</strong> ich zu Hause.</p><p>Nigdy nie traktuj <em>deshalb</em> jak <em>denn</em>. <em>Deshalb</em> liczy się jako pierwszy element zdania, więc czasownik musi być następny.</p></div>",
+        "<div class='box tip'><strong>Pomoc w zapamiętaniu: Trójkąt szyku</strong><p><strong>WEIL</strong> = czasownik na KOŃCU.<br><strong>DENN</strong> = czasownik NORMALNIE (poz. 2).<br><strong>DESHALB</strong> = czasownik OD RAZU po nim (inwersja).</p></div>"
+      ]
+    }
+  },
+  "examples": [
+    {
+      "de": "Ich lerne Deutsch, **weil** ich in Deutschland **lebe**.",
+      "en": "I am learning German because [weil] I live in Germany.",
+      "pl": "Uczę się niemieckiego, ponieważ [weil] mieszkam w Niemczech.",
+      "level": "A2"
+    },
+    {
+      "de": "Wir gehen heute nicht spazieren, **denn** es **regnet**.",
+      "en": "We are not going for a walk today because [denn] it is raining.",
+      "pl": "Nie idziemy dziś na spacer, bo [denn] pada deszcz.",
+      "level": "A2"
+    },
+    {
+      "de": "Er hat viel gearbeitet, **deshalb** **ist** er müde.",
+      "en": "He has worked a lot, therefore [deshalb] he is tired.",
+      "pl": "On dużo pracował, dlatego [deshalb] jest zmęczony.",
+      "level": "A2"
+    },
+    {
+      "de": "Sie isst keinen Kuchen, **weil** sie eine Diät **macht**.",
+      "en": "She doesn't eat cake because [weil] she is on a diet.",
+      "pl": "Ona nie je ciasta, ponieważ [weil] jest na diecie.",
+      "level": "A2"
+    },
+    {
+      "de": "Mein Auto ist kaputt, **deshalb** **fahre** ich mit dem Bus.",
+      "en": "My car is broken, that's why [deshalb] I travel by bus.",
+      "pl": "Mój samochód jest zepsuty, dlatego [deshalb] jadę autobusem.",
+      "level": "A2"
+    },
+    {
+      "de": "Ich habe den Vertrag nicht unterschrieben, **weil** ich die Bedingungen nicht **akzeptiere**.",
+      "en": "I didn't sign the contract because [weil] I don't accept the conditions.",
+      "pl": "Nie podpisałem umowy, ponieważ [weil] nie akceptuję warunków.",
+      "level": "B1"
+    },
+    {
+      "de": "Wir müssen das Projekt verschieben, **denn** uns **fehlt** das nötige Budget.",
+      "en": "We have to postpone the project because [denn] we lack the necessary budget.",
+      "pl": "Musimy przełożyć projekt, bo [denn] brakuje nam potrzebnego budżetu.",
+      "level": "B1"
+    },
+    {
+      "de": "Die Zinsen sind gestiegen, **deshalb** **investieren** viele Unternehmen weniger.",
+      "en": "Interest rates have risen, therefore [deshalb] many companies invest less.",
+      "pl": "Stopy procentowe wzrosły, dlatego [deshalb] wiele firm inwestuje mniej.",
+      "level": "B1"
+    },
+    {
+      "de": "Er konnte das Meeting nicht leiten, **weil** er gestern krankgemeldet **war**.",
+      "en": "He couldn't lead the meeting because [weil] he was on sick leave yesterday.",
+      "pl": "Nie mógł poprowadzić spotkania, ponieważ [weil] był wczoraj na zwolnieniu lekarskim.",
+      "level": "B1"
+    },
+    {
+      "de": "Sie hat den Flug verpasst, **denn** sie **stand** stundenlang im Stau.",
+      "en": "She missed the flight because [denn] she stood in a traffic jam for hours.",
+      "pl": "Ona spóźniła się na lot, bo [denn] godzinami stała w korku.",
+      "level": "B1"
+    },
+    {
+      "de": "Unser Team hat hervorragend gearbeitet, **deshalb** **bekommen** wir einen Bonus.",
+      "en": "Our team worked excellently, that's why [deshalb] we are getting a bonus.",
+      "pl": "Nasz zespół pracował wyśmienicie, dlatego [deshalb] dostajemy premię.",
+      "level": "B1"
+    },
+    {
+      "de": "Ich storniere das Abonnement, **weil** ich den Service nicht mehr **nutze**.",
+      "en": "I am cancelling the subscription because [weil] I no longer use the service.",
+      "pl": "Anuluję subskrypcję, ponieważ [weil] nie korzystam już z tej usługi.",
+      "level": "B1"
+    },
+    {
+      "de": "Die Verhandlungen sind gescheitert, **weil** beide Seiten keine Kompromisse eingehen **wollten**.",
+      "en": "The negotiations failed because [weil] neither side wanted to make compromises.",
+      "pl": "Negocjacje zakończyły się niepowodzeniem, ponieważ [weil] obie strony nie chciały iść na kompromis.",
+      "level": "B2"
+    },
+    {
+      "de": "Das Gesetz wurde scharf kritisiert, **denn** es **beinhaltet** viele rechtliche Lücken.",
+      "en": "The law was sharply criticized because [denn] it contains many legal loopholes.",
+      "pl": "Ustawa została ostro skrytykowana, bo [denn] zawiera wiele luk prawnych.",
+      "level": "B2"
+    },
+    {
+      "de": "Die Lieferketten waren weltweit gestört, **deshalb** **musste** die Produktion gedrosselt werden.",
+      "en": "Supply chains were disrupted globally, therefore [deshalb] production had to be reduced.",
+      "pl": "Łańcuchy dostaw były zaburzone na całym świecie, dlatego [deshalb] trzeba było ograniczyć produkcję.",
+      "level": "B2"
+    },
+    {
+      "de": "Sie lehnte das Jobangebot ab, **weil** das Gehalt nicht ihren Erwartungen **entsprach**.",
+      "en": "She rejected the job offer because [weil] the salary didn't meet her expectations.",
+      "pl": "Odrzuciła ofertę pracy, ponieważ [weil] wynagrodzenie nie odpowiadało jej oczekiwaniom.",
+      "level": "B2"
+    },
+    {
+      "de": "Wir müssen die IT-Sicherheit erhöhen, **denn** Cyberangriffe **werden** immer häufiger.",
+      "en": "We must increase IT security because [denn] cyberattacks are becoming more frequent.",
+      "pl": "Musimy zwiększyć bezpieczeństwo IT, bo [denn] cyberataki stają się coraz częstsze.",
+      "level": "B2"
+    },
+    {
+      "de": "Die Inflation ist überraschend stark gesunken, **deshalb** **reagierte** der Aktienmarkt positiv.",
+      "en": "Inflation fell surprisingly sharply, therefore [deshalb] the stock market reacted positively.",
+      "pl": "Inflacja spadła zaskakująco mocno, dlatego [deshalb] rynek akcji zareagował pozytywnie.",
+      "level": "B2"
+    },
+    {
+      "de": "Der Experte warnt vor einer Krise, **weil** die strukturellen Defizite nicht behoben **wurden**.",
+      "en": "The expert warns of a crisis because [weil] the structural deficits were not resolved.",
+      "pl": "Ekspert ostrzega przed kryzysem, ponieważ [weil] deficyty strukturalne nie zostały usunięte.",
+      "level": "B2"
+    },
+    {
+      "de": "Die Behörden ignorierten die ersten Warnsignale, **deshalb** **eskalierte** die Situation letztendlich unkontrolliert.",
+      "en": "The authorities ignored the initial warning signs, therefore [deshalb] the situation ultimately escalated uncontrollably.",
+      "pl": "Władze zignorowały pierwsze sygnały ostrzegawcze, dlatego [deshalb] sytuacja ostatecznie wymknęła się spod kontroli.",
+      "level": "C1"
+    }
+  ],
+  "exercises": [
+    {
+      "en": "I drink coffee because [weil] I am tired.",
+      "pl": "Piję kawę, ponieważ [weil] jestem zmęczony.",
+      "de": "Ich trinke Kaffee, weil ich müde bin.",
+      "level": "A2"
+    },
+    {
+      "en": "She buys the book because [denn] she likes to read.",
+      "pl": "Ona kupuje książkę, bo [denn] lubi czytać.",
+      "de": "Sie kauft das Buch, denn sie liest gerne.",
+      "level": "A2"
+    },
+    {
+      "en": "He has no money, therefore [deshalb] he stays at home.",
+      "pl": "On nie ma pieniędzy, dlatego [deshalb] zostaje w domu.",
+      "de": "Er hat kein Geld, deshalb bleibt er zu Hause.",
+      "level": "A2"
+    },
+    {
+      "en": "We eat pizza because [weil] we are hungry.",
+      "pl": "Jemy pizzę, ponieważ [weil] jesteśmy głodni.",
+      "de": "Wir essen Pizza, weil wir hungrig sind.",
+      "level": "A2"
+    },
+    {
+      "en": "I sleep long because [denn] it is Sunday.",
+      "pl": "Śpię długo, bo [denn] jest niedziela.",
+      "de": "Ich schlafe lange, denn es ist Sonntag.",
+      "level": "A2"
+    },
+    {
+      "en": "The sun is shining, therefore [deshalb] we go to the park.",
+      "pl": "Świeci słońce, dlatego [deshalb] idziemy do parku.",
+      "de": "Die Sonne scheint, deshalb gehen wir in den Park.",
+      "level": "A2"
+    },
+    {
+      "en": "She doesn't come because [weil] she is working.",
+      "pl": "Ona nie przyjdzie, ponieważ [weil] pracuje.",
+      "de": "Sie kommt nicht, weil sie arbeitet.",
+      "level": "A2"
+    },
+    {
+      "en": "He learns fast because [denn] he is smart.",
+      "pl": "On uczy się szybko, bo [denn] jest mądry.",
+      "de": "Er lernt schnell, denn er ist klug.",
+      "level": "A2"
+    },
+    {
+      "en": "It is cold, that's why [deshalb] I need a jacket.",
+      "pl": "Jest zimno, dlatego [deshalb] potrzebuję kurtki.",
+      "de": "Es ist kalt, deshalb brauche ich eine Jacke.",
+      "level": "A2"
+    },
+    {
+      "en": "I love the summer because [weil] it is warm.",
+      "pl": "Kocham lato, ponieważ [weil] jest ciepło.",
+      "de": "Ich liebe den Sommer, weil es warm ist.",
+      "level": "A2"
+    },
+    {
+      "en": "We buy a ticket because [denn] we want to travel.",
+      "pl": "Kupujemy bilet, bo [denn] chcemy podróżować.",
+      "de": "Wir kaufen ein Ticket, denn wir wollen reisen.",
+      "level": "A2"
+    },
+    {
+      "en": "The dog is hungry, therefore [deshalb] he barks.",
+      "pl": "Pies jest głodny, dlatego [deshalb] szczeka.",
+      "de": "Der Hund ist hungrig, deshalb bellt er.",
+      "level": "A2"
+    },
+    {
+      "en": "I write an email because [weil] I need help.",
+      "pl": "Piszę e-mail, ponieważ [weil] potrzebuję pomocy.",
+      "de": "Ich schreibe eine E-Mail, weil ich Hilfe brauche.",
+      "level": "A2"
+    },
+    {
+      "en": "She laughs because [denn] the joke is funny.",
+      "pl": "Ona się śmieje, bo [denn] żart jest śmieszny.",
+      "de": "Sie lacht, denn der Witz ist lustig.",
+      "level": "A2"
+    },
+    {
+      "en": "The car is old, therefore [deshalb] it is cheap.",
+      "pl": "Samochód jest stary, dlatego [deshalb] jest tani.",
+      "de": "Das Auto ist alt, deshalb ist es billig.",
+      "level": "A2"
+    },
+    {
+      "en": "I am looking for a new apartment because [weil] my rent is too high.",
+      "pl": "Szukam nowego mieszkania, ponieważ [weil] mój czynsz jest za wysoki.",
+      "de": "Ich suche eine neue Wohnung, weil meine Miete zu hoch ist.",
+      "level": "B1"
+    },
+    {
+      "en": "We have to hurry because [denn] the train leaves in ten minutes.",
+      "pl": "Musimy się pospieszyć, bo [denn] pociąg odjeżdża za dziesięć minut.",
+      "de": "Wir müssen uns beeilen, denn der Zug fährt in zehn Minuten ab.",
+      "level": "B1"
+    },
+    {
+      "en": "He missed the bus, therefore [deshalb] he was late for work.",
+      "pl": "On spóźnił się na autobus, dlatego [deshalb] spóźnił się do pracy.",
+      "de": "Er hat den Bus verpasst, deshalb kam er zu spät zur Arbeit.",
+      "level": "B1"
+    },
+    {
+      "en": "She is taking an umbrella because [weil] the weather forecast predicted rain.",
+      "pl": "Ona bierze parasol, ponieważ [weil] prognoza pogody zapowiadała deszcz.",
+      "de": "Sie nimmt einen Regenschirm mit, weil der Wetterbericht Regen vorhergesagt hat.",
+      "level": "B1"
+    },
+    {
+      "en": "I didn't answer because [denn] my phone was off.",
+      "pl": "Nie odebrałem, bo [denn] mój telefon był wyłączony.",
+      "de": "Ich habe nicht geantwortet, denn mein Handy war aus.",
+      "level": "B1"
+    },
+    {
+      "en": "The team worked hard, that's why [deshalb] they finished the project early.",
+      "pl": "Zespół ciężko pracował, dlatego [deshalb] skończyli projekt wcześnie.",
+      "de": "Das Team hat hart gearbeitet, deshalb haben sie das Projekt früh beendet.",
+      "level": "B1"
+    },
+    {
+      "en": "We cancel the meeting because [weil] the manager is sick.",
+      "pl": "Odwołujemy spotkanie, ponieważ [weil] menedżer jest chory.",
+      "de": "Wir sagen die Besprechung ab, weil der Manager krank ist.",
+      "level": "B1"
+    },
+    {
+      "en": "I read the news daily because [denn] I want to stay informed.",
+      "pl": "Codziennie czytam wiadomości, bo [denn] chcę być poinformowany.",
+      "de": "Ich lese täglich die Nachrichten, denn ich möchte informiert bleiben.",
+      "level": "B1"
+    },
+    {
+      "en": "The printer is broken, therefore [deshalb] I can't print the document.",
+      "pl": "Drukarka jest zepsuta, dlatego [deshalb] nie mogę wydrukować dokumentu.",
+      "de": "Der Drucker ist kaputt, deshalb kann ich das Dokument nicht drucken.",
+      "level": "B1"
+    },
+    {
+      "en": "She studies medicine because [weil] she wants to become a doctor.",
+      "pl": "Ona studiuje medycynę, ponieważ [weil] chce zostać lekarzem.",
+      "de": "Sie studiert Medizin, weil sie Ärztin werden will.",
+      "level": "B1"
+    },
+    {
+      "en": "He learns German quickly because [denn] he practices every day.",
+      "pl": "On szybko uczy się niemieckiego, bo [denn] ćwiczy codziennie.",
+      "de": "Er lernt schnell Deutsch, denn er übt jeden Tag.",
+      "level": "B1"
+    },
+    {
+      "en": "The restaurant is very popular, therefore [deshalb] you must book a table in advance.",
+      "pl": "Restauracja jest bardzo popularna, dlatego [deshalb] musisz zarezerwować stolik z wyprzedzeniem.",
+      "de": "Das Restaurant ist sehr beliebt, deshalb musst du einen Tisch im Voraus buchen.",
+      "level": "B1"
+    },
+    {
+      "en": "I go to the supermarket now because [weil] the fridge is empty.",
+      "pl": "Idę teraz do supermarketu, ponieważ [weil] lodówka jest pusta.",
+      "de": "Ich gehe jetzt in den Supermarkt, weil der Kühlschrank leer ist.",
+      "level": "B1"
+    },
+    {
+      "en": "They are happy because [denn] they won the lottery.",
+      "pl": "Są szczęśliwi, bo [denn] wygrali na loterii.",
+      "de": "Sie sind glücklich, denn sie haben im Lotto gewonnen.",
+      "level": "B1"
+    },
+    {
+      "en": "The road is blocked, that's why [deshalb] we must take a detour.",
+      "pl": "Droga jest zablokowana, dlatego [deshalb] musimy pojechać objazdem.",
+      "de": "Die Straße ist gesperrt, deshalb müssen wir einen Umweg fahren.",
+      "level": "B1"
+    },
+    {
+      "en": "He buys a new computer because [weil] the old one is too slow.",
+      "pl": "On kupuje nowy komputer, ponieważ [weil] stary jest za wolny.",
+      "de": "Er kauft einen neuen Computer, weil der alte zu langsam ist.",
+      "level": "B1"
+    },
+    {
+      "en": "She needs a visa because [denn] she travels to the USA.",
+      "pl": "Ona potrzebuje wizy, bo [denn] podróżuje do USA.",
+      "de": "Sie braucht ein Visum, denn sie reist in die USA.",
+      "level": "B1"
+    },
+    {
+      "en": "I have an important appointment, therefore [deshalb] I can't come to the party.",
+      "pl": "Mam ważne spotkanie, dlatego [deshalb] nie mogę przyjść na imprezę.",
+      "de": "Ich habe einen wichtigen Termin, deshalb kann ich nicht zur Party kommen.",
+      "level": "B1"
+    },
+    {
+      "en": "We wear warm clothes because [weil] the winter is very cold here.",
+      "pl": "Nosimy ciepłe ubrania, ponieważ [weil] zima jest tu bardzo zimna.",
+      "de": "Wir tragen warme Kleidung, weil der Winter hier sehr kalt ist.",
+      "level": "B1"
+    },
+    {
+      "en": "He speaks Spanish fluently because [denn] he lived in Madrid for five years.",
+      "pl": "On płynnie mówi po hiszpańsku, bo [denn] mieszkał w Madrycie przez pięć lat.",
+      "de": "Er spricht fließend Spanisch, denn er hat fünf Jahre in Madrid gelebt.",
+      "level": "B1"
+    },
+    {
+      "en": "The laptop was too expensive, therefore [deshalb] I didn't buy it.",
+      "pl": "Laptop był za drogi, dlatego [deshalb] go nie kupiłem.",
+      "de": "Der Laptop war zu teuer, deshalb habe ich ihn nicht gekauft.",
+      "level": "B1"
+    },
+    {
+      "en": "They exercise regularly because [weil] health is important to them.",
+      "pl": "Oni ćwiczą regularnie, ponieważ [weil] zdrowie jest dla nich ważne.",
+      "de": "Sie treiben regelmäßig Sport, weil ihnen Gesundheit wichtig ist.",
+      "level": "B1"
+    },
+    {
+      "en": "I go to bed early because [denn] I must get up at 6 o'clock.",
+      "pl": "Idę wcześnie do łóżka, bo [denn] muszę wstać o szóstej.",
+      "de": "Ich gehe früh ins Bett, denn ich muss um 6 Uhr aufstehen.",
+      "level": "B1"
+    },
+    {
+      "en": "My flight was delayed, that's why [deshalb] I missed the connection.",
+      "pl": "Mój lot był opóźniony, dlatego [deshalb] spóźniłem się na przesiadkę.",
+      "de": "Mein Flug war verspätet, deshalb habe ich den Anschluss verpasst.",
+      "level": "B1"
+    },
+    {
+      "en": "She is stressed because [weil] she has a lot of tasks at work.",
+      "pl": "Ona jest zestresowana, ponieważ [weil] ma dużo zadań w pracy.",
+      "de": "Sie ist gestresst, weil sie viele Aufgaben auf der Arbeit hat.",
+      "level": "B1"
+    },
+    {
+      "en": "We trust him because [denn] he is always honest.",
+      "pl": "Ufamy mu, bo [denn] jest zawsze szczery.",
+      "de": "Wir vertrauen ihm, denn er ist immer ehrlich.",
+      "level": "B1"
+    },
+    {
+      "en": "The museum is closed today, therefore [deshalb] we will visit it tomorrow.",
+      "pl": "Muzeum jest dziś zamknięte, dlatego [deshalb] odwiedzimy je jutro.",
+      "de": "Das Museum ist heute geschlossen, deshalb werden wir es morgen besuchen.",
+      "level": "B1"
+    },
+    {
+      "en": "I eat a lot of vegetables because [weil] they contain many vitamins.",
+      "pl": "Jem dużo warzyw, ponieważ [weil] zawierają dużo witamin.",
+      "de": "Ich esse viel Gemüse, weil es viele Vitamine enthält.",
+      "level": "B1"
+    },
+    {
+      "en": "He needs a new passport because [denn] the old one has expired.",
+      "pl": "On potrzebuje nowego paszportu, bo [denn] stary stracił ważność.",
+      "de": "Er braucht einen neuen Pass, denn der alte ist abgelaufen.",
+      "level": "B1"
+    },
+    {
+      "en": "It rained all day, that's why [deshalb] the streets are flooded.",
+      "pl": "Padało cały dzień, dlatego [deshalb] ulice są zalane.",
+      "de": "Es hat den ganzen Tag geregnet, deshalb sind die Straßen überschwemmt.",
+      "level": "B1"
+    },
+    {
+      "en": "She passed the exam because [weil] she studied intensively for weeks.",
+      "pl": "Ona zdała egzamin, ponieważ [weil] intensywnie uczyła się przez tygodnie.",
+      "de": "Sie hat die Prüfung bestanden, weil sie wochenlang intensiv gelernt hat.",
+      "level": "B1"
+    },
+    {
+      "en": "The company hired new staff because [denn] the order volume increased.",
+      "pl": "Firma zatrudniła nowy personel, bo [denn] wzrosła liczba zamówień.",
+      "de": "Das Unternehmen hat neues Personal eingestellt, denn das Auftragsvolumen ist gestiegen.",
+      "level": "B1"
+    },
+    {
+      "en": "The traffic was terrible, therefore [deshalb] the delivery arrived late.",
+      "pl": "Ruch był okropny, dlatego [deshalb] dostawa dotarła z opóźnieniem.",
+      "de": "Der Verkehr war schrecklich, deshalb kam die Lieferung zu spät an.",
+      "level": "B1"
+    },
+    {
+      "en": "I am drinking tea because [weil] I have a sore throat.",
+      "pl": "Piję herbatę, ponieważ [weil] boli mnie gardło.",
+      "de": "Ich trinke Tee, weil ich Halsschmerzen habe.",
+      "level": "B1"
+    },
+    {
+      "en": "We can't go to the cinema because [denn] all tickets are sold out.",
+      "pl": "Nie możemy pójść do kina, bo [denn] wszystkie bilety są wyprzedane.",
+      "de": "Wir können nicht ins Kino gehen, denn alle Tickets sind ausverkauft.",
+      "level": "B1"
+    },
+    {
+      "en": "The project was cancelled because [weil] the main sponsor withdrew.",
+      "pl": "Projekt został anulowany, ponieważ [weil] wycofał się główny sponsor.",
+      "de": "Das Projekt wurde abgesagt, weil sich der Hauptsponsor zurückgezogen hat.",
+      "level": "B2"
+    },
+    {
+      "en": "The government raised taxes because [denn] the national debt is too high.",
+      "pl": "Rząd podniósł podatki, bo [denn] dług publiczny jest za wysoki.",
+      "de": "Die Regierung hat die Steuern erhöht, denn die Staatsverschuldung ist zu hoch.",
+      "level": "B2"
+    },
+    {
+      "en": "The prices for raw materials have doubled, therefore [deshalb] production costs have exploded.",
+      "pl": "Ceny surowców podwoiły się, dlatego [deshalb] koszty produkcji gwałtownie wzrosły.",
+      "de": "Die Preise für Rohstoffe haben sich verdoppelt, deshalb sind die Produktionskosten explodiert.",
+      "level": "B2"
+    },
+    {
+      "en": "The negotiations were tough because [weil] both parties had completely different demands.",
+      "pl": "Negocjacje były trudne, ponieważ [weil] obie strony miały zupełnie inne żądania.",
+      "de": "Die Verhandlungen waren hart, weil beide Parteien völlig unterschiedliche Forderungen hatten.",
+      "level": "B2"
+    },
+    {
+      "en": "We must rethink our strategy because [denn] the competitors are gaining market share.",
+      "pl": "Musimy przemyśleć naszą strategię, bo [denn] konkurenci zyskują udziały w rynku.",
+      "de": "Wir müssen unsere Strategie überdenken, denn die Konkurrenten gewinnen Marktanteile.",
+      "level": "B2"
+    },
+    {
+      "en": "The software update contained critical bugs, therefore [deshalb] the system crashed.",
+      "pl": "Aktualizacja oprogramowania zawierała krytyczne błędy, dlatego [deshalb] system uległ awarii.",
+      "de": "Das Software-Update enthielt kritische Fehler, deshalb ist das System abgestürzt.",
+      "level": "B2"
+    },
+    {
+      "en": "She got the promotion because [weil] she showed excellent leadership skills.",
+      "pl": "Ona dostała awans, ponieważ [weil] wykazała się znakomitymi umiejętnościami przywódczymi.",
+      "de": "Sie hat die Beförderung bekommen, weil sie exzellente Führungsqualitäten gezeigt hat.",
+      "level": "B2"
+    },
+    {
+      "en": "The event was a huge success because [denn] it was perfectly organized.",
+      "pl": "Wydarzenie odniosło ogromny sukces, bo [denn] było perfekcyjnie zorganizowane.",
+      "de": "Die Veranstaltung war ein riesiger Erfolg, denn sie war perfekt organisiert.",
+      "level": "B2"
+    },
+    {
+      "en": "The candidate lacked professional experience, therefore [deshalb] he was rejected.",
+      "pl": "Kandydatowi brakowało doświadczenia zawodowego, dlatego [deshalb] został odrzucony.",
+      "de": "Dem Kandidaten fehlte die Berufserfahrung, deshalb wurde er abgelehnt.",
+      "level": "B2"
+    },
+    {
+      "en": "We invested in renewable energies because [weil] we want to protect the environment.",
+      "pl": "Zainwestowaliśmy w odnawialne źródła energii, ponieważ [weil] chcemy chronić środowisko.",
+      "de": "Wir haben in erneuerbare Energien investiert, weil wir die Umwelt schützen wollen.",
+      "level": "B2"
+    },
+    {
+      "en": "The inflation rate continues to rise because [denn] energy prices remain high.",
+      "pl": "Stopa inflacji nadal rośnie, bo [denn] ceny energii utrzymują się na wysokim poziomie.",
+      "de": "Die Inflationsrate steigt weiter, denn die Energiepreise bleiben hoch.",
+      "level": "B2"
+    },
+    {
+      "en": "The strike paralyzed public transport, therefore [deshalb] many people stayed at home.",
+      "pl": "Strajk sparaliżował transport publiczny, dlatego [deshalb] wiele osób zostało w domu.",
+      "de": "Der Streik hat den öffentlichen Verkehr lahmgelegt, deshalb sind viele Menschen zu Hause geblieben.",
+      "level": "B2"
+    },
+    {
+      "en": "The factory had to close because [weil] the supply chain was interrupted.",
+      "pl": "Fabryka musiała zostać zamknięta, ponieważ [weil] łańcuch dostaw został przerwany.",
+      "de": "Die Fabrik musste schließen, weil die Lieferkette unterbrochen war.",
+      "level": "B2"
+    },
+    {
+      "en": "We need to hire more developers because [denn] the workload is immense.",
+      "pl": "Musimy zatrudnić więcej programistów, bo [denn] obciążenie pracą jest ogromne.",
+      "de": "Wir müssen mehr Entwickler einstellen, denn die Arbeitsbelastung ist immens.",
+      "level": "B2"
+    },
+    {
+      "en": "The customer complained about the poor service, therefore [deshalb] he received a discount.",
+      "pl": "Klient poskarżył się na słabą obsługę, dlatego [deshalb] otrzymał zniżkę.",
+      "de": "Der Kunde hat sich über den schlechten Service beschwert, deshalb hat er einen Rabatt bekommen.",
+      "level": "B2"
+    },
+    {
+      "en": "He resigned from his position because [weil] he could no longer bear the pressure.",
+      "pl": "On zrezygnował ze stanowiska, ponieważ [weil] nie mógł już znieść presji.",
+      "de": "Er ist von seiner Position zurückgetreten, weil er den Druck nicht mehr ertragen konnte.",
+      "level": "B2"
+    },
+    {
+      "en": "The movie received terrible reviews because [denn] the plot was totally illogical.",
+      "pl": "Film zebrał okropne recenzje, bo [denn] fabuła była całkowicie nielogiczna.",
+      "de": "Der Film hat furchtbare Kritiken bekommen, denn die Handlung war völlig unlogisch.",
+      "level": "B2"
+    },
+    {
+      "en": "The server was overloaded, therefore [deshalb] the website was temporarily unavailable.",
+      "pl": "Serwer był przeciążony, dlatego [deshalb] strona internetowa była tymczasowo niedostępna.",
+      "de": "Der Server war überlastet, deshalb war die Website vorübergehend nicht erreichbar.",
+      "level": "B2"
+    },
+    {
+      "en": "They sold their house because [weil] they are emigrating to Canada.",
+      "pl": "Oni sprzedali swój dom, ponieważ [weil] emigrują do Kanady.",
+      "de": "Sie haben ihr Haus verkauft, weil sie nach Kanada auswandern.",
+      "level": "B2"
+    },
+    {
+      "en": "We should accept this compromise because [denn] we have no other choice.",
+      "pl": "Powinniśmy zaakceptować ten kompromis, bo [denn] nie mamy innego wyboru.",
+      "de": "Wir sollten diesen Kompromiss akzeptieren, denn wir haben keine andere Wahl.",
+      "level": "B2"
+    },
+    {
+      "en": "The product quality has deteriorated, that's why [deshalb] many customers are dissatisfied.",
+      "pl": "Jakość produktu pogorszyła się, dlatego [deshalb] wielu klientów jest niezadowolonych.",
+      "de": "Die Produktqualität hat sich verschlechtert, deshalb sind viele Kunden unzufrieden.",
+      "level": "B2"
+    },
+    {
+      "en": "The negotiations were a breakthrough because [weil] both leaders showed willingness to compromise.",
+      "pl": "Negocjacje okazały się przełomem, ponieważ [weil] obaj przywódcy wykazali gotowość do kompromisu.",
+      "de": "Die Verhandlungen waren ein Durchbruch, weil beide Anführer Kompromissbereitschaft zeigten.",
+      "level": "B2"
+    },
+    {
+      "en": "The bridge must be completely renovated because [denn] it poses a safety risk.",
+      "pl": "Most musi zostać całkowicie wyremontowany, bo [denn] stanowi zagrożenie dla bezpieczeństwa.",
+      "de": "Die Brücke muss komplett saniert werden, denn sie stellt ein Sicherheitsrisiko dar.",
+      "level": "B2"
+    },
+    {
+      "en": "The deadline was unrealistic, therefore [deshalb] the team demanded more time.",
+      "pl": "Termin był nierealistyczny, dlatego [deshalb] zespół zażądał więcej czasu.",
+      "de": "Die Frist war unrealistisch, deshalb forderte das Team mehr Zeit.",
+      "level": "B2"
+    },
+    {
+      "en": "He invested in the startup because [weil] he believes in the innovative technology.",
+      "pl": "On zainwestował w startup, ponieważ [weil] wierzy w innowacyjną technologię.",
+      "de": "Er hat in das Start-up investiert, weil er an die innovative Technologie glaubt.",
+      "level": "B2"
+    },
+    {
+      "en": "The minister was forced to resign because [weil] he was implicated in a corruption scandal.",
+      "pl": "Minister został zmuszony do dymisji, ponieważ [weil] był uwikłany w skandal korupcyjny.",
+      "de": "Der Minister wurde zum Rücktritt gezwungen, weil er in einen Korruptionsskandal verwickelt war.",
+      "level": "C1"
+    },
+    {
+      "en": "The structural reforms are unpopular because [denn] they initially demand significant sacrifices.",
+      "pl": "Reformy strukturalne są niepopularne, bo [denn] początkowo wymagają znacznych wyrzeczeń.",
+      "de": "Die Strukturreformen sind unpopulär, denn sie verlangen anfänglich erhebliche Opfer.",
+      "level": "C1"
+    },
+    {
+      "en": "The central bank raised the key interest rate, therefore [deshalb] borrowing costs for consumers increased noticeably.",
+      "pl": "Bank centralny podniósł główną stopę procentową, dlatego [deshalb] koszty kredytów dla konsumentów zauważalnie wzrosły.",
+      "de": "Die Zentralbank hat den Leitzins angehoben, deshalb sind die Kreditkosten für Verbraucher spürbar gestiegen.",
+      "level": "C1"
+    },
+    {
+      "en": "The treaty was ratified swiftly because [weil] there was a broad political consensus.",
+      "pl": "Traktat został szybko ratyfikowany, ponieważ [weil] istniał szeroki konsensus polityczny.",
+      "de": "Der Vertrag wurde zügig ratifiziert, weil es einen breiten politischen Konsens gab.",
+      "level": "C1"
+    },
+    {
+      "en": "The company filed for bankruptcy because [denn] it was no longer solvent.",
+      "pl": "Firma ogłosiła upadłość, bo [denn] nie była już wypłacalna.",
+      "de": "Das Unternehmen hat Insolvenz angemeldet, denn es war nicht mehr zahlungsfähig.",
+      "level": "C1"
+    },
+    {
+      "en": "The allegations were entirely unfounded, therefore [deshalb] the lawsuit was dismissed immediately.",
+      "pl": "Zarzuty były całkowicie bezpodstawne, dlatego [deshalb] pozew został natychmiast oddalony.",
+      "de": "Die Vorwürfe waren völlig unbegründet, deshalb wurde die Klage umgehend abgewiesen.",
+      "level": "C1"
+    },
+    {
+      "en": "The infrastructure is decaying rapidly because [weil] investments have been neglected for decades.",
+      "pl": "Infrastruktura szybko niszczeje, ponieważ [weil] inwestycje były zaniedbywane przez dziesięciolecia.",
+      "de": "Die Infrastruktur verfällt rapide, weil Investitionen jahrzehntelang vernachlässigt wurden.",
+      "level": "C1"
+    },
+    {
+      "en": "The diplomatic mission failed because [denn] the preliminary talks were poorly prepared.",
+      "pl": "Misja dyplomatyczna zakończyła się niepowodzeniem, bo [denn] wstępne rozmowy były źle przygotowane.",
+      "de": "Die diplomatische Mission ist gescheitert, denn die Vorgespräche waren mangelhaft vorbereitet.",
+      "level": "C1"
+    },
+    {
+      "en": "The supply chain collapsed completely, that's why [deshalb] massive bottlenecks occurred.",
+      "pl": "Łańcuch dostaw całkowicie się załamał, dlatego [deshalb] wystąpiły masowe zatory.",
+      "de": "Die Lieferkette ist komplett zusammengebrochen, deshalb kam es zu massiven Engpässen.",
+      "level": "C1"
+    },
+    {
+      "en": "She initiated a strategic realignment because [weil] the previous business model proved obsolete.",
+      "pl": "Ona zainicjowała strategiczną reorientację, ponieważ [weil] poprzedni model biznesowy okazał się przestarzały.",
+      "de": "Sie hat eine strategische Neuausrichtung initiiert, weil sich das bisherige Geschäftsmodell als obsolet erwies.",
+      "level": "C1"
+    },
+    {
+      "en": "The cybersecurity protocol must be strictly enforced because [denn] the threat level is exceptionally high.",
+      "pl": "Protokół cyberbezpieczeństwa musi być ściśle egzekwowany, bo [denn] poziom zagrożenia jest wyjątkowo wysoki.",
+      "de": "Das Cybersicherheitsprotokoll muss strikt durchgesetzt werden, denn die Bedrohungslage ist außergewöhnlich hoch.",
+      "level": "C1"
+    },
+    {
+      "en": "The CEO resigned unexpectedly, therefore [deshalb] the stock price plummeted dramatically.",
+      "pl": "Dyrektor generalny niespodziewanie zrezygnował, dlatego [deshalb] cena akcji dramatycznie spadła.",
+      "de": "Der CEO ist unerwartet zurückgetreten, deshalb ist der Aktienkurs dramatisch eingebrochen.",
+      "level": "C1"
+    },
+    {
+      "en": "The integration of AI poses ethical dilemmas because [weil] accountability algorithms remain opaque.",
+      "pl": "Integracja AI stwarza dylematy etyczne, ponieważ [weil] algorytmy odpowiedzialności pozostają nieprzejrzyste.",
+      "de": "Die Integration von KI birgt ethische Dilemmata, weil die Verantwortungsalgorithmen intransparent bleiben.",
+      "level": "C1"
+    },
+    {
+      "en": "The legislative process was severely delayed because [denn] fierce disputes arose in parliament.",
+      "pl": "Proces legislacyjny został poważnie opóźniony, bo [denn] w parlamencie wybuchły ostre spory.",
+      "de": "Das Gesetzgebungsverfahren hat sich stark verzögert, denn im Parlament entbrannten heftige Streitigkeiten.",
+      "level": "C1"
+    },
+    {
+      "en": "The evidence was gathered illegally, therefore [deshalb] it was rendered inadmissible in court.",
+      "pl": "Dowody zostały zebrane nielegalnie, dlatego [deshalb] zostały uznane za niedopuszczalne w sądzie.",
+      "de": "Die Beweise wurden illegal beschafft, deshalb wurden sie vor Gericht für unzulässig erklärt.",
+      "level": "C1"
+    },
+    {
+      "en": "The geopolitical equilibrium shifted profoundly because [weil] the hegemony of traditional superpowers began to wane.",
+      "pl": "Równowaga geopolityczna uległa głębokiej zmianie, ponieważ [weil] hegemonia tradycyjnych supermocarstw zaczęła słabnąć.",
+      "de": "Das geopolitische Gleichgewicht hat sich tiefgreifend verschoben, weil die Hegemonie traditioneller Supermächte zu schwinden begann.",
+      "level": "C2"
+    },
+    {
+      "en": "The unilateral withdrawal triggered international condemnation because [denn] it brazenly violated established diplomatic norms.",
+      "pl": "Jednostronne wycofanie się wywołało międzynarodowe potępienie, bo [denn] rażąco naruszało ustalone normy dyplomatyczne.",
+      "de": "Der unilaterale Rückzug löste internationale Verurteilung aus, denn er verstieß eklatant gegen etablierte diplomatische Normen.",
+      "level": "C2"
+    },
+    {
+      "en": "The systemic frailties of the financial sector were chronically ignored, therefore [deshalb] the subsequent collapse was arguably inevitable.",
+      "pl": "Systemowe słabości sektora finansowego były chronicznie ignorowane, dlatego [deshalb] późniejszy upadek był zapewne nieunikniony.",
+      "de": "Die systemischen Schwächen des Finanzsektors wurden chronisch ignoriert, deshalb war der anschließende Kollaps wohl unausweichlich.",
+      "level": "C2"
+    },
+    {
+      "en": "The constitutional amendment sparked furious debate because [weil] its wording remained dangerously ambiguous.",
+      "pl": "Poprawka do konstytucji wywołała wściekłą debatę, ponieważ [weil] jej brzmienie pozostawało niebezpiecznie dwuznaczne.",
+      "de": "Die Verfassungsänderung entfachte eine hitzige Debatte, weil ihre Formulierung gefährlich zweideutig blieb.",
+      "level": "C2"
+    },
+    {
+      "en": "The paradigm shift in monetary policy is precarious because [denn] it inherently risks galloping inflation.",
+      "pl": "Zmiana paradygmatu w polityce monetarnej jest ryzykowna, bo [denn] z natury grozi galopującą inflacją.",
+      "de": "Der Paradigmenwechsel in der Geldpolitik ist prekär, denn er birgt naturgemäß das Risiko einer galoppierenden Inflation.",
+      "level": "C2"
+    },
+    {
+      "en": "The evidentiary threshold was not met, therefore [deshalb] the tribunal had no alternative but to acquit the defendant.",
+      "pl": "Próg dowodowy nie został osiągnięty, dlatego [deshalb] trybunał nie miał innej alternatywy niż uniewinnienie oskarżonego.",
+      "de": "Die Beweisschwelle wurde nicht erreicht, deshalb blieb dem Tribunal keine andere Wahl, als den Angeklagten freizusprechen.",
+      "level": "C2"
+    },
+    {
+      "en": "The pervasive societal disenchantment grew exponentially because [weil] structural inequalities were continually exacerbated.",
+      "pl": "Powszechne rozczarowanie społeczne rosło wykładniczo, ponieważ [weil] nierówności strukturalne były nieustannie pogłębiane.",
+      "de": "Die allgegenwärtige gesellschaftliche Ernüchterung wuchs exponentiell, weil strukturelle Ungleichheiten kontinuierlich verschärft wurden.",
+      "level": "C2"
+    },
+    {
+      "en": "The punitive tariffs are highly contentious because [denn] they essentially act as a catalyst for a global trade war.",
+      "pl": "Taryfy karne są wysoce kontrowersyjne, bo [denn] zasadniczo działają jako katalizator globalnej wojny handlowej.",
+      "de": "Die Strafzölle sind höchst umstritten, denn sie fungieren im Grunde als Katalysator für einen globalen Handelskrieg.",
+      "level": "C2"
+    },
+    {
+      "en": "The incumbent steadfastly refused to concede defeat, therefore [deshalb] a protracted constitutional crisis ensued.",
+      "pl": "Urzędujący prezydent niezłomnie odmawiał uznania porażki, dlatego [deshalb] nastąpił przedłużający się kryzys konstytucyjny.",
+      "de": "Der Amtsinhaber weigerte sich beharrlich, seine Niederlage einzugestehen, deshalb folgte eine langwierige Verfassungskrise.",
+      "level": "C2"
+    },
+    {
+      "en": "The clandestine operation was severely compromised because [weil] sensitive intelligence had been inadvertently leaked to hostile actors.",
+      "pl": "Tajna operacja została poważnie skompromitowana, ponieważ [weil] poufne dane wywiadowcze zostały nieumyślnie ujawnione wrogim podmiotom.",
+      "de": "Die Geheimoperation wurde schwerwiegend kompromittiert, weil sensible Geheimdienstinformationen versehentlich an feindliche Akteure durchgesickert waren.",
+      "level": "C2"
+    }
+  ],
+  "listening": {
+    "audioUrl": "https://radiodownloaddw-a.akamaihd.net/downloads/Events/dwelle/dira/mp3/deutschkurse/nachrichten_live/1F295404_2.mp3",
+    "articles": [
+      {
+        "heading": "Erste Ukraine-Übung mit 2800 Soldaten ab 9. November in Polen",
+        "text": "Rund 2800 Soldaten aus elf Ländern werden in Polen ab Montag am ersten [[Militärmanöver|1]] der „Koalition der Willigen“ zur [[Unterstützung|2]] der Ukraine teilnehmen. Dabei solle getestet werden, wie nach dem Ende des Kriegs ein [[dauerhafter|3]] Frieden [[gesichert|4]] werden könne, teilte das britische [[Verteidigungsministerium|5]] in der Nacht mit. Großbritannien und Frankreich [[leiten|6]] die Übung „Koalicja 2026“ (Koalition 2026), die bis zum 22. November laufen soll. Deutschlands Bundeswehr wird sich mit rund zehn [[Stabsoffizieren|7]], Tankflugzeugen und Logistik beteiligen. Großbritannien will eigenen Angaben zufolge rund 300 Militärangehörige und mehrere Kampfjets [[entsenden|8]]. Die „Koalition der Willigen“ war Anfang 2025 zur Unterstützung der Ukraine [[gegründet|9]] und die Bildung der [[multinationalen|10]] Truppe dann im Dezember bei einem Ukraine-Gipfel in Berlin beschlossen worden."
+      },
+      {
+        "heading": "US-Amerikaner entscheiden über Machtverhältnisse im Kongress",
+        "text": "In den USA finden an diesem Dienstag die [[Zwischenwahlen|11]] zum Kongress statt. Die ersten [[Wahllokale|12]] öffnen um 6.00 Uhr morgens (Ortszeit) im Osten des Landes. Zur Abstimmung stehen alle 435 Sitze im Repräsentantenhaus und 35 der 100 Sitze im Senat. Die Demokraten hoffen, beide Kongresskammern von US-Präsident Donald Trumps Republikanern [[zurückerobern|13]] zu können. Dies würde den [[Handlungsspielraum|14]] des Präsidenten zur Mitte seiner zweiten Amtszeit deutlich [[einschränken|15]]. Laut Umfragen [[kreiden|16]] viele US-Bürger Trump und seiner Partei die hohen Treibstoff- und [[Lebenshaltungskosten|17]] an. Hintergrund sind der Iran-Krieg und die aggressive [[Zollpolitik|18]] des Präsidenten. Neu gewählt werden am Dienstag überdies die [[Gouverneure|19]] in 36 [[Bundesstaaten|20]]."
+      },
+      {
+        "heading": "Nordkorea weist Vorwurf von Hackerangriff auf Binance zurück",
+        "text": "Nordkorea hat die Anschuldigungen der US-Bundespolizei FBI [[zurückgewiesen|21]], für den [[Diebstahl|22]] von mehreren Milliarden Dollar bei der [[Kryptobörse|23]] Binance verantwortlich zu sein. Die [[Anschuldigung|24]] sei „[[absurd|25]]“ und eine „[[schwerwiegende|26]] politische [[Provokation|27]]“, erklärte Kim Yo Jong, Schwester von Machthaber Kim Jong Un, in einer von der staatlichen Nachrichtenagentur KCNA veröffentlichten [[Stellungnahme|28]]. Konkret macht das FBI für den Angriff die Hackergruppe TraderTraitor verantwortlich – diese soll Verbindungen zu Pjöngjangs Geheimdienst haben. Kim Yo Jong warf Washington vor, Nordkorea regelmäßig ohne [[Belege|29]] mit internationaler Cyberkriminalität in Verbindung zu bringen. Beim Binance-Raub handelt es sich gemessen an der Schadenssumme von [[mutmaßlich|30]] mehr als sechs Milliarden Dollar (rund 5,4 Milliarden Euro) um den bisher größten Hackerangriff auf eine Kryptobörse überhaupt."
+      },
+      {
+        "heading": "Tusk fordert Nawrocki zur Anerkennung neuer Verfassungsrichter auf",
+        "text": "Im Streit um Polens [[Verfassungsgericht|31]] hat Ministerpräsident Donald Tusk Präsident Karol Nawrocki [[aufgefordert|32]], die vom Parlament gewählten Richter [[anzuerkennen|33]]. Tusk [[warf|34]] dem Staatschef vor, eine „[[gewaltsame|35]] [[Konfrontation|36]]“ zu suchen, die Polen teuer zu stehen kommen könne. Der Konflikt war am Freitag [[eskaliert|37]], als Anhänger der nationalkonservativen Opposition vor dem Gericht in Warschau demonstrierten und [[Absperrungen|38]] zu [[durchbrechen|39]] versuchten. Nawrocki verschaffte sich daraufhin Zugang zum Gerichtsgebäude. Hintergrund ist ein jahrelanger Streit um die Besetzung des Gerichts. Der PiS-nahe Präsident verweigert mehreren neu gewählten Richtern die [[Vereidigung|40]]."
+      },
+      {
+        "heading": "Cyberangriff legt Kühlsysteme in Europas Supermärkten lahm",
+        "text": "Ein [[Cyberangriff|41]] hat die Kühlsysteme zahlreicher Supermärkte in mindestens fünf Ländern in Europa [[gestört|42]]. Betroffen waren unter anderem Filialen in Schweden, Belgien, Luxemburg und Irland. Hacker [[manipulierten|43]] die Temperaturen in Kühl- und Gefrieranlagen, wodurch große Mengen Lebensmittel [[verdarben|44]]. In Belgien meldete Carrefour [[Störungen|45]] in 15 Filialen, in Irland musste die Kette SuperValu Kühlprodukte [[zurückrufen|46]]. Auch ein Ikea-Haus war betroffen. Bereits im vergangenen Monat hatte es einen ähnlichen Angriff in Frankreich gegeben. Wer hinter den Attacken steckt, ist unklar. Weil keine [[Lösegeldforderungen|47]] bekannt wurden, vermuten Experten [[Sabotage|48]]. EU-[[Agrarkommissar|49]] Christophe Hansen warnte vor Angriffen auf die [[Lebensmittelversorgung|50]]."
+      },
+      {
+        "heading": "Polizei warnt vor manipulierten Halloween-Süßigkeiten",
+        "text": "In zahlreichen deutschen Bundesländern sind Nadeln und andere [[spitze|51]] Metallteile in Halloween-[[Süßigkeiten|52]] entdeckt worden. Die Polizei [[ermittelt|53]] unter anderem in Bayern, Nordrhein-Westfalen, Niedersachsen und Thüringen. Im niedersächsischen Bremervörde [[verletzte sich|54]] eine Neunjährige an der Zunge, als sie auf einen mit einer Stecknadel [[präparierten|55]] [[Schokoriegel|56]] biss. Andere Kinder [[entgingen|57]] [[Verletzungen|58]]. Auch Nägel und Schrauben wurden in Süßigkeiten gefunden. Woher die manipulierten Süßigkeiten stammen und wer dafür verantwortlich ist, bleibt unklar. Die Polizei rief Eltern dazu auf, gesammelte Süßigkeiten sorgfältig zu kontrollieren oder zu [[entsorgen|59]]. Verdächtige Funde sollten der Polizei [[übergeben|60]] werden."
+      }
+    ],
+    "vocab": [
+      {
+        "id": 1,
+        "word": "das Militärmanöver",
+        "translation": {
+          "en": "military maneuver, military exercise",
+          "pl": "manewry wojskowe"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Militärmanöver",
+        "notes": {
+          "en": "A large-scale military exercise of troops.",
+          "pl": "Wojskowe ćwiczenia zbrojne na dużą skalę."
+        },
+        "examples": [
+          "Das Militärmanöver findet im Osten des Landes statt.",
+          "Mehrere Staaten nehmen gemeinsam an dem Militärmanöver teil."
+        ]
+      },
+      {
+        "id": 2,
+        "word": "die Unterstützung",
+        "translation": {
+          "en": "support, assistance",
+          "pl": "wsparcie, pomoc"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Unterstützungen",
+        "notes": {
+          "en": "The act of providing help or encouragement.",
+          "pl": "Udzielanie pomocy lub zachęty."
+        },
+        "examples": [
+          "Wir danken Ihnen für Ihre finanzielle Unterstützung.",
+          "Die Regierung versprach schnelle militärische Unterstützung."
+        ]
+      },
+      {
+        "id": 3,
+        "word": "dauerhaft",
+        "translation": {
+          "en": "permanent, lasting",
+          "pl": "trwały, długotrwały"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Existing or continuing for a long time.",
+          "pl": "Istniejący lub trwający przez długi czas."
+        },
+        "examples": [
+          "Wir suchen nach einer dauerhaften Lösung für das Problem.",
+          "Ein dauerhafter Frieden in der Region ist das oberste Ziel."
+        ]
+      },
+      {
+        "id": 4,
+        "word": "sichern",
+        "translation": {
+          "en": "to secure, to ensure",
+          "pl": "zabezpieczyć, zapewnić"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "To protect from harm or ensure that something happens.",
+          "pl": "Chronić przed krzywdą lub upewnić się, że coś się wydarzy."
+        },
+        "examples": [
+          "Die Polizei muss den Tatort sichern.",
+          "Durch den Vertrag wird die Zusammenarbeit gesichert."
+        ]
+      },
+      {
+        "id": 5,
+        "word": "das Verteidigungsministerium",
+        "translation": {
+          "en": "Ministry of Defense",
+          "pl": "Ministerstwo Obrony"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Verteidigungsministerien",
+        "notes": {
+          "en": "Government department responsible for military and defense matters.",
+          "pl": "Departament rządowy odpowiedzialny za sprawy wojskowe i obronne."
+        },
+        "examples": [
+          "Das Verteidigungsministerium kündigte neue Investitionen an.",
+          "Der Sprecher des Verteidigungsministeriums lehnte einen Kommentar ab."
+        ]
+      },
+      {
+        "id": 6,
+        "word": "leiten",
+        "translation": {
+          "en": "to lead, to manage",
+          "pl": "kierować, prowadzić"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "To be in charge of an organization, project, or exercise.",
+          "pl": "Być odpowiedzialnym za organizację, projekt lub ćwiczenia."
+        },
+        "examples": [
+          "Wer wird das neue Projekt leiten?",
+          "Der erfahrene Offizier leitet den Einsatz."
+        ]
+      },
+      {
+        "id": 7,
+        "word": "der Stabsoffizier",
+        "translation": {
+          "en": "staff officer",
+          "pl": "oficer sztabowy"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C2",
+        "plural": "die Stabsoffiziere",
+        "notes": {
+          "en": "A commissioned officer in the military who serves on a staff.",
+          "pl": "Oficer służący w sztabie wojskowym."
+        },
+        "examples": [
+          "Die Strategie wurde von mehreren Stabsoffizieren ausgearbeitet.",
+          "Er wurde zum Stabsoffizier befördert."
+        ]
+      },
+      {
+        "id": 8,
+        "word": "entsenden",
+        "translation": {
+          "en": "to dispatch, to send (troops/envoys)",
+          "pl": "wysłać, delegować (np. oddziały, wysłanników)"
+        },
+        "partOfSpeech": "Verb",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Formal word for sending people, often military or diplomatic, on a mission.",
+          "pl": "Formalne słowo oznaczające wysyłanie ludzi w jakiejś misji, często wojskowej lub dyplomatycznej."
+        },
+        "examples": [
+          "Die UNO beschloss, Friedens-truppen in die Region zu entsenden.",
+          "Die Regierung wird weitere Spezialisten in das Krisengebiet entsenden."
+        ]
+      },
+      {
+        "id": 9,
+        "word": "gründen",
+        "translation": {
+          "en": "to found, to establish",
+          "pl": "założyć, ufundować"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B1",
+        "plural": "",
+        "notes": {
+          "en": "To start an organization, company, or institution.",
+          "pl": "Założyć organizację, firmę lub instytucję."
+        },
+        "examples": [
+          "Er möchte nach dem Studium eine eigene Firma gründen.",
+          "Der Verein wurde im Jahr 1990 gegründet."
+        ]
+      },
+      {
+        "id": 10,
+        "word": "multinational",
+        "translation": {
+          "en": "multinational",
+          "pl": "wielonarodowy"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Involving several countries.",
+          "pl": "Obejmujący kilka państw lub narodowości."
+        },
+        "examples": [
+          "Das Unternehmen ist ein großer multinationaler Konzern.",
+          "Die multinationale Truppe begann mit der Übung."
+        ]
+      },
+      {
+        "id": 11,
+        "word": "die Zwischenwahl",
+        "translation": {
+          "en": "midterm election",
+          "pl": "wybory w połowie kadencji (w USA)"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Zwischenwahlen",
+        "notes": {
+          "en": "Elections held halfway through a president's term.",
+          "pl": "Wybory odbywające się w połowie kadencji prezydenckiej."
+        },
+        "examples": [
+          "Die Zwischenwahlen gelten oft als Stimmungs-test für den Präsidenten.",
+          "Bei den Zwischenwahlen hat die Regierungspartei häufig Sitze verloren."
+        ]
+      },
+      {
+        "id": 12,
+        "word": "das Wahllokal",
+        "translation": {
+          "en": "polling station",
+          "pl": "lokal wyborczy"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Wahllokale",
+        "notes": {
+          "en": "The place where voters go to cast their ballots.",
+          "pl": "Miejsce, do którego udają się wyborcy, aby oddać swój głos."
+        },
+        "examples": [
+          "Die Wahllokale schließen heute erst um 20 Uhr.",
+          "Er stand morgens als Erster vor dem Wahllokal."
+        ]
+      },
+      {
+        "id": 13,
+        "word": "zurückerobern",
+        "translation": {
+          "en": "to recapture, to win back",
+          "pl": "odzyskać, odbić"
+        },
+        "partOfSpeech": "Verb",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Separable verb. To win something back, often used in politics or war.",
+          "pl": "Czasownik rozdzielnie złożony. Oznacza odzyskanie czegoś, używany w polityce lub na wojnie."
+        },
+        "examples": [
+          "Die Partei will bei der nächsten Wahl die absolute Mehrheit zurückerobern.",
+          "Die Armee hat die wichtige Stadt nach langen Kämpfen zurückerobert."
+        ]
+      },
+      {
+        "id": 14,
+        "word": "der Handlungsspielraum",
+        "translation": {
+          "en": "room for maneuver, leeway",
+          "pl": "pole manewru, swoboda działania"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C2",
+        "plural": "die Handlungsspielräume",
+        "notes": {
+          "en": "The freedom or space to make decisions or act.",
+          "pl": "Swoboda lub miejsce na podejmowanie decyzji lub działanie."
+        },
+        "examples": [
+          "Aufgrund der hohen Schulden hat die Stadt kaum noch finanziellen Handlungsspielraum.",
+          "Der neue Vertrag schränkt den Handlungsspielraum der Firma stark ein."
+        ]
+      },
+      {
+        "id": 15,
+        "word": "einschränken",
+        "translation": {
+          "en": "to restrict, to limit",
+          "pl": "ograniczać"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Separable verb. To put limits on something.",
+          "pl": "Czasownik rozdzielnie złożony. Oznacza nakładanie limitów na coś."
+        },
+        "examples": [
+          "Mein Arzt sagt, ich muss meinen Zuckerkonsum einschränken.",
+          "Das neue Gesetz könnte unsere Freiheiten erheblich einschränken."
+        ]
+      },
+      {
+        "id": 16,
+        "word": "ankreiden",
+        "translation": {
+          "en": "to blame someone for something",
+          "pl": "przypisywać winę, wytykać (komuś coś)"
+        },
+        "partOfSpeech": "Verb",
+        "level": "C2",
+        "plural": "",
+        "notes": {
+          "en": "Separable verb (jemandem etwas ankreiden). To hold something against someone.",
+          "pl": "Czasownik rozdzielnie złożony (jemandem etwas ankreiden). Mieć komuś coś za złe."
+        },
+        "examples": [
+          "Die Wähler werden der Regierung diesen Fehler schwer ankreiden.",
+          "Man kann ihm seine Unerfahrenheit nicht ankreiden."
+        ]
+      },
+      {
+        "id": 17,
+        "word": "die Lebenshaltungskosten",
+        "translation": {
+          "en": "cost of living",
+          "pl": "koszty utrzymania"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Lebenshaltungskosten",
+        "notes": {
+          "en": "Always plural. Refers to the cost of basic necessities.",
+          "pl": "Zawsze w liczbie mnogiej. Odnosi się do kosztów podstawowych potrzeb."
+        },
+        "examples": [
+          "Die Lebenshaltungskosten sind in großen Städten extrem hoch.",
+          "Inflation treibt die Lebenshaltungskosten weiter nach oben."
+        ]
+      },
+      {
+        "id": 18,
+        "word": "die Zollpolitik",
+        "translation": {
+          "en": "tariff policy, customs policy",
+          "pl": "polityka celna"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Zollpolitiken",
+        "notes": {
+          "en": "A government's policy regarding taxes on imported goods.",
+          "pl": "Polityka rządu dotycząca podatków od towarów importowanych."
+        },
+        "examples": [
+          "Die aggressive Zollpolitik führte zu einem internationalen Handelsstreit.",
+          "Experten kritisieren die neue Zollpolitik der Regierung."
+        ]
+      },
+      {
+        "id": 19,
+        "word": "der Gouverneur",
+        "translation": {
+          "en": "governor",
+          "pl": "gubernator"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Gouverneure",
+        "notes": {
+          "en": "The executive head of a state in the US.",
+          "pl": "Głowa władzy wykonawczej w stanie w USA."
+        },
+        "examples": [
+          "Der Gouverneur von Kalifornien hielt eine wichtige Rede.",
+          "Bei der Wahl am Dienstag werden neue Gouverneure gewählt."
+        ]
+      },
+      {
+        "id": 20,
+        "word": "der Bundesstaat",
+        "translation": {
+          "en": "federal state",
+          "pl": "stan (w państwie federalnym)"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "die Bundesstaaten",
+        "notes": {
+          "en": "A state that is part of a federal republic (like the US or Germany, though Germany uses Bundesland).",
+          "pl": "Stan będący częścią republiki federalnej (jak USA)."
+        },
+        "examples": [
+          "Texas ist der zweitgrößte Bundesstaat der USA.",
+          "Jeder Bundesstaat hat seine eigenen Gesetze."
+        ]
+      },
+      {
+        "id": 21,
+        "word": "zurückweisen",
+        "translation": {
+          "en": "to reject, to refuse",
+          "pl": "odrzucić, oddalić (zarzuty)"
+        },
+        "partOfSpeech": "Verb",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Separable verb. Often used when refusing an accusation or claim.",
+          "pl": "Czasownik rozdzielnie złożony. Często używane przy odrzucaniu oskarżeń lub roszczeń."
+        },
+        "examples": [
+          "Der Politiker wies die Vorwürfe entschieden zurück.",
+          "Die Klage wurde vom Gericht als unbegründet zurückgewiesen."
+        ]
+      },
+      {
+        "id": 22,
+        "word": "der Diebstahl",
+        "translation": {
+          "en": "theft, robbery",
+          "pl": "kradzież"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Diebstähle",
+        "notes": {
+          "en": "The action or crime of stealing.",
+          "pl": "Czyn lub przestępstwo polegające na kradzieży."
+        },
+        "examples": [
+          "Der Diebstahl des Gemäldes sorgte für Aufsehen.",
+          "Ihm wird schwerer Diebstahl vorgeworfen."
+        ]
+      },
+      {
+        "id": 23,
+        "word": "die Kryptobörse",
+        "translation": {
+          "en": "crypto exchange",
+          "pl": "giełda kryptowalut"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Kryptobörsen",
+        "notes": {
+          "en": "A platform where cryptocurrencies can be traded.",
+          "pl": "Platforma, na której można handlować kryptowalutami."
+        },
+        "examples": [
+          "Die Kryptobörse wurde Opfer eines massiven Hackerangriffs.",
+          "Er handelt täglich auf einer großen Kryptobörse."
+        ]
+      },
+      {
+        "id": 24,
+        "word": "die Anschuldigung",
+        "translation": {
+          "en": "accusation, allegation",
+          "pl": "oskarżenie, zarzut"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Anschuldigungen",
+        "notes": {
+          "en": "A claim that someone has done something illegal or wrong.",
+          "pl": "Twierdzenie, że ktoś zrobił coś nielegalnego lub złego."
+        },
+        "examples": [
+          "Die Anschuldigung gegen den Minister erwies sich als falsch.",
+          "Er bestreitet alle gegen ihn erhobenen Anschuldigungen."
+        ]
+      },
+      {
+        "id": 25,
+        "word": "absurd",
+        "translation": {
+          "en": "absurd, ridiculous",
+          "pl": "absurdalny, niedorzeczny"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Wildly unreasonable, illogical, or inappropriate.",
+          "pl": "Skrajnie nierozsądny, nielogiczny lub nieodpowiedni."
+        },
+        "examples": [
+          "Die Vorstellung, dass die Erde flach ist, ist völlig absurd.",
+          "Er machte eine absurde Forderung, die niemand ernst nahm."
+        ]
+      },
+      {
+        "id": 26,
+        "word": "schwerwiegend",
+        "translation": {
+          "en": "serious, grave",
+          "pl": "poważny, ciężki (np. oskarżenie, błąd)"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Having significant consequences; used for errors, problems, or crimes.",
+          "pl": "Mający znaczące konsekwencje; używane w odniesieniu do błędów, problemów lub przestępstw."
+        },
+        "examples": [
+          "Der Bericht offenbart schwerwiegende Mängel im System.",
+          "Das ist ein schwerwiegender Vorwurf, der untersucht werden muss."
+        ]
+      },
+      {
+        "id": 27,
+        "word": "die Provokation",
+        "translation": {
+          "en": "provocation",
+          "pl": "prowokacja"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Provokationen",
+        "notes": {
+          "en": "Action or speech that makes someone angry, especially deliberately.",
+          "pl": "Działanie lub wypowiedź, które celowo kogoś denerwują."
+        },
+        "examples": [
+          "Das Manöver an der Grenze wurde als politische Provokation verstanden.",
+          "Er ließ sich nicht von ihren Provokationen aus der Ruhe bringen."
+        ]
+      },
+      {
+        "id": 28,
+        "word": "die Stellungnahme",
+        "translation": {
+          "en": "statement, opinion",
+          "pl": "oświadczenie, stanowisko"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Stellungnahmen",
+        "notes": {
+          "en": "An official expression of attitude or opinion.",
+          "pl": "Oficjalne wyrażenie postawy lub opinii."
+        },
+        "examples": [
+          "Die Firma veröffentlichte gestern eine offizielle Stellungnahme.",
+          "Der Experte wurde gebeten, eine Stellungnahme zu dem Vorfall abzugeben."
+        ]
+      },
+      {
+        "id": 29,
+        "word": "der Beleg",
+        "translation": {
+          "en": "proof, evidence, receipt",
+          "pl": "dowód, potwierdzenie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Belege",
+        "notes": {
+          "en": "Documentary evidence or proof for a claim.",
+          "pl": "Dowód dokumentalny lub potwierdzenie jakiegoś twierdzenia."
+        },
+        "examples": [
+          "Für diese kühne Behauptung gibt es bisher keine wissenschaftlichen Belege.",
+          "Bewahren Sie den Beleg für eventuelle Reklamationen auf."
+        ]
+      },
+      {
+        "id": 30,
+        "word": "mutmaßlich",
+        "translation": {
+          "en": "presumed, alleged",
+          "pl": "przypuszczalny, domniemany"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Believed to be true but not yet proven.",
+          "pl": "Uznawany za prawdziwy, ale jeszcze nie udowodniony."
+        },
+        "examples": [
+          "Die Polizei hat den mutmaßlichen Täter festgenommen.",
+          "Der mutmaßliche Schaden beläuft sich auf Millionen."
+        ]
+      },
+      {
+        "id": 31,
+        "word": "das Verfassungsgericht",
+        "translation": {
+          "en": "Constitutional Court",
+          "pl": "Trybunał Konstytucyjny"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Verfassungsgerichte",
+        "notes": {
+          "en": "The highest court dealing with constitutional law.",
+          "pl": "Najwyższy sąd zajmujący się prawem konstytucyjnym."
+        },
+        "examples": [
+          "Das Verfassungsgericht erklärte das neue Gesetz für nichtig.",
+          "Der Fall wird nun vor dem Verfassungsgericht verhandelt."
+        ]
+      },
+      {
+        "id": 32,
+        "word": "auffordern",
+        "translation": {
+          "en": "to call upon, to request, to demand",
+          "pl": "wzywać do, zażądać"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Separable verb. To strongly ask someone to do something.",
+          "pl": "Czasownik rozdzielnie złożony. Stanowczo prosić kogoś o zrobienie czegoś."
+        },
+        "examples": [
+          "Die Polizei forderte die Demonstranten auf, den Platz zu räumen.",
+          "Der Chef hat uns aufgefordert, die Berichte pünktlich abzugeben."
+        ]
+      },
+      {
+        "id": 33,
+        "word": "anerkennen",
+        "translation": {
+          "en": "to acknowledge, to recognize",
+          "pl": "uznać, zaakceptować"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Separable verb. To accept something as valid or true.",
+          "pl": "Czasownik rozdzielnie złożony. Zaakceptować coś jako ważne lub prawdziwe."
+        },
+        "examples": [
+          "Das Zeugnis aus dem Ausland wurde hier nicht anerkannt.",
+          "Wir müssen anerkennen, dass Fehler gemacht wurden."
+        ]
+      },
+      {
+        "id": 34,
+        "word": "vorwerfen",
+        "translation": {
+          "en": "to accuse, to reproach",
+          "pl": "zarzucać, oskarżać"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Separable verb. Requires dative for the person and accusative for the accusation.",
+          "pl": "Czasownik rozdzielnie złożony. Wymaga celownika dla osoby i biernika dla zarzutu."
+        },
+        "examples": [
+          "Man wirft dem Manager Korruption vor.",
+          "Ich kann mir in dieser Sache nichts vorwerfen."
+        ]
+      },
+      {
+        "id": 35,
+        "word": "gewaltsam",
+        "translation": {
+          "en": "violent, forceful",
+          "pl": "brutalny, z użyciem siły"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Using physical force to cause harm or achieve a goal.",
+          "pl": "Używanie siły fizycznej w celu wyrządzenia szkody lub osiągnięcia celu."
+        },
+        "examples": [
+          "Der Protest wurde von der Polizei gewaltsam aufgelöst.",
+          "Er verschaffte sich gewaltsam Zugang zum Gebäude."
+        ]
+      },
+      {
+        "id": 36,
+        "word": "die Konfrontation",
+        "translation": {
+          "en": "confrontation",
+          "pl": "konfrontacja"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Konfrontationen",
+        "notes": {
+          "en": "A hostile or argumentative meeting or situation.",
+          "pl": "Wrogie lub kłótliwe spotkanie lub sytuacja."
+        },
+        "examples": [
+          "Die Parteien suchten die offene Konfrontation.",
+          "Eine militärische Konfrontation muss unbedingt vermieden werden."
+        ]
+      },
+      {
+        "id": 37,
+        "word": "eskalieren",
+        "translation": {
+          "en": "to escalate",
+          "pl": "eskalować, nasilać się"
+        },
+        "partOfSpeech": "Verb",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "To increase rapidly or become more serious.",
+          "pl": "Gwałtownie wzrastać lub stawać się poważniejszym."
+        },
+        "examples": [
+          "Der Konflikt zwischen den beiden Ländern droht zu eskalieren.",
+          "Ein kleiner Streit ist plötzlich eskaliert."
+        ]
+      },
+      {
+        "id": 38,
+        "word": "die Absperrung",
+        "translation": {
+          "en": "barrier, barricade",
+          "pl": "bariera, zapora"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Absperrungen",
+        "notes": {
+          "en": "A physical structure placed to block an area.",
+          "pl": "Fizyczna struktura umieszczona w celu zablokowania obszaru."
+        },
+        "examples": [
+          "Die Polizei baute Absperrungen um das Gebäude auf.",
+          "Die Demonstranten versuchten, die Absperrung zu überwinden."
+        ]
+      },
+      {
+        "id": 39,
+        "word": "durchbrechen",
+        "translation": {
+          "en": "to break through",
+          "pl": "przełamać, przebić się"
+        },
+        "partOfSpeech": "Verb",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Inseparable when meaning 'to break through a barrier/line'.",
+          "pl": "Nierozdzielny w znaczeniu 'przełamać barierę/linię'."
+        },
+        "examples": [
+          "Die Menge durchbrach die Polizeiabsperrung.",
+          "Forscher konnten das Geheimnis endlich durchbrechen."
+        ]
+      },
+      {
+        "id": 40,
+        "word": "die Vereidigung",
+        "translation": {
+          "en": "swearing-in, inauguration",
+          "pl": "zaprzysiężenie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C2",
+        "plural": "die Vereidigungen",
+        "notes": {
+          "en": "The formal act of making someone take an oath.",
+          "pl": "Formalny akt złożenia przez kogoś przysięgi."
+        },
+        "examples": [
+          "Die Vereidigung des neuen Präsidenten findet morgen statt.",
+          "Die neuen Richter warten noch auf ihre Vereidigung."
+        ]
+      },
+      {
+        "id": 41,
+        "word": "der Cyberangriff",
+        "translation": {
+          "en": "cyberattack",
+          "pl": "cyberatak"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Cyberangriffe",
+        "notes": {
+          "en": "An attack on a computer system or network.",
+          "pl": "Atak na system komputerowy lub sieć."
+        },
+        "examples": [
+          "Die Bank war das Ziel eines massiven Cyberangriffs.",
+          "Cyberangriffe auf Krankenhäuser werden immer häufiger."
+        ]
+      },
+      {
+        "id": 42,
+        "word": "stören",
+        "translation": {
+          "en": "to disrupt, to disturb",
+          "pl": "zakłócać, przeszkadzać"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B1",
+        "plural": "",
+        "notes": {
+          "en": "To interfere with the normal arrangement or functioning of.",
+          "pl": "Ingerować w normalne układy lub funkcjonowanie."
+        },
+        "examples": [
+          "Bitte störe mich nicht, ich muss arbeiten.",
+          "Der Hackerangriff hat das gesamte System gestört."
+        ]
+      },
+      {
+        "id": 43,
+        "word": "manipulieren",
+        "translation": {
+          "en": "to manipulate, to tamper with",
+          "pl": "manipulować, majstrować"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "To handle or control in a skillful or devious manner.",
+          "pl": "Obchodzić się lub kontrolować w umiejętny lub zwodniczy sposób."
+        },
+        "examples": [
+          "Die Wahlergebnisse wurden offenbar manipuliert.",
+          "Jemand hat die Bremsen des Autos manipuliert."
+        ]
+      },
+      {
+        "id": 44,
+        "word": "verderben",
+        "translation": {
+          "en": "to spoil, to rot",
+          "pl": "zepsuć się, zgnić"
+        },
+        "partOfSpeech": "Verb",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Often refers to food becoming unfit for eating.",
+          "pl": "Często odnosi się do jedzenia stającego się niezdatnym do spożycia."
+        },
+        "examples": [
+          "Ohne Kühlung wird das Fleisch schnell verderben.",
+          "Die Lebensmittel verdarben durch den Stromausfall."
+        ]
+      },
+      {
+        "id": 45,
+        "word": "die Störung",
+        "translation": {
+          "en": "disruption, malfunction",
+          "pl": "zakłócenie, awaria"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Störungen",
+        "notes": {
+          "en": "A problem or fault that interrupts a process or system.",
+          "pl": "Problem lub usterka przerywająca proces lub działanie systemu."
+        },
+        "examples": [
+          "Wegen einer Störung hat der Zug Verspätung.",
+          "Die Störung im Netzwerk konnte schnell behoben werden."
+        ]
+      },
+      {
+        "id": 46,
+        "word": "zurückrufen",
+        "translation": {
+          "en": "to recall (products), to call back",
+          "pl": "wycofać (z rynku), oddzwonić"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Separable verb. Used for product recalls or calling someone on the phone.",
+          "pl": "Czasownik rozdzielnie złożony. Używany w przypadku wycofywania produktów z rynku lub oddzwaniania."
+        },
+        "examples": [
+          "Das Unternehmen musste Tausende Autos zurückrufen.",
+          "Bitte rufen Sie mich so schnell wie möglich zurück."
+        ]
+      },
+      {
+        "id": 47,
+        "word": "die Lösegeldforderung",
+        "translation": {
+          "en": "ransom demand",
+          "pl": "żądanie okupu"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C2",
+        "plural": "die Lösegeldforderungen",
+        "notes": {
+          "en": "A demand for money in exchange for a prisoner or stolen data.",
+          "pl": "Żądanie pieniędzy w zamian za więźnia lub skradzione dane."
+        },
+        "examples": [
+          "Die Hacker stellten eine astronomische Lösegeldforderung.",
+          "Die Polizei rät davon ab, auf Lösegeldforderungen einzugehen."
+        ]
+      },
+      {
+        "id": 48,
+        "word": "die Sabotage",
+        "translation": {
+          "en": "sabotage",
+          "pl": "sabotaż"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Sabotagen",
+        "notes": {
+          "en": "Deliberately destroying, damaging, or obstructing something.",
+          "pl": "Celowe niszczenie, uszkadzanie lub utrudnianie czegoś."
+        },
+        "examples": [
+          "Die Ermittler schließen Sabotage nicht aus.",
+          "Das Flugzeug stürzte vermutlich wegen Sabotage ab."
+        ]
+      },
+      {
+        "id": 49,
+        "word": "der Agrarkommissar",
+        "translation": {
+          "en": "Commissioner for Agriculture",
+          "pl": "komisarz ds. rolnictwa"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C2",
+        "plural": "die Agrarkommissare",
+        "notes": {
+          "en": "An official in charge of agricultural policy, specifically in the EU.",
+          "pl": "Urzędnik odpowiedzialny za politykę rolną, w szczególności w UE."
+        },
+        "examples": [
+          "Der EU-Agrarkommissar präsentierte neue Pläne für die Landwirtschaft.",
+          "Die Bauern protestierten gegen die Vorschläge des Agrarkommissars."
+        ]
+      },
+      {
+        "id": 50,
+        "word": "die Lebensmittelversorgung",
+        "translation": {
+          "en": "food supply",
+          "pl": "zaopatrzenie w żywność"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Lebensmittelversorgungen",
+        "notes": {
+          "en": "The process of providing food for a population.",
+          "pl": "Proces dostarczania żywności dla populacji."
+        },
+        "examples": [
+          "Die Lebensmittelversorgung im Land war nach dem Krieg gefährdet.",
+          "Cyberangriffe könnten die kritische Lebensmittelversorgung lahmlegen."
+        ]
+      },
+      {
+        "id": 51,
+        "word": "spitz",
+        "translation": {
+          "en": "pointed, sharp",
+          "pl": "ostry, spiczasty"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Having a sharpened or tapering end.",
+          "pl": "Mający naostrzone lub zwężające się zakończenie."
+        },
+        "examples": [
+          "Er hat sich an einem spitzen Nagel verletzt.",
+          "Der Berg hat einen sehr spitzen Gipfel."
+        ]
+      },
+      {
+        "id": 52,
+        "word": "die Süßigkeit",
+        "translation": {
+          "en": "candy, sweet",
+          "pl": "słodycz"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "die Süßigkeiten",
+        "notes": {
+          "en": "Usually used in plural. Sweet food like chocolate or candy.",
+          "pl": "Zwykle używane w liczbie mnogiej. Słodkie jedzenie, takie jak czekolada lub cukierki."
+        },
+        "examples": [
+          "Kinder essen gerne Süßigkeiten zu Halloween.",
+          "Der Arzt riet ihm, weniger Süßigkeiten zu essen."
+        ]
+      },
+      {
+        "id": 53,
+        "word": "ermitteln",
+        "translation": {
+          "en": "to investigate",
+          "pl": "prowadzić dochodzenie"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "To carry out a formal inquiry into a crime.",
+          "pl": "Przeprowadzać formalne dochodzenie w sprawie przestępstwa."
+        },
+        "examples": [
+          "Die Polizei ermittelt in alle Richtungen.",
+          "Gegen den Politiker wird wegen Betrugs ermittelt."
+        ]
+      },
+      {
+        "id": 54,
+        "word": "sich verletzen",
+        "translation": {
+          "en": "to injure oneself, to get hurt",
+          "pl": "zranić się, doznać kontuzji"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B1",
+        "plural": "",
+        "notes": {
+          "en": "Reflexive verb describing physical injury to oneself.",
+          "pl": "Czasownik zwrotny opisujący fizyczne obrażenia."
+        },
+        "examples": [
+          "Er hat sich beim Fußballspielen schwer verletzt.",
+          "Das Kind verletzte sich an einer kaputten Flasche."
+        ]
+      },
+      {
+        "id": 55,
+        "word": "präparieren",
+        "translation": {
+          "en": "to prepare, to doctor (tamper with)",
+          "pl": "preparować, modyfikować (np. w złym celu)"
+        },
+        "partOfSpeech": "Verb",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "To make ready, or to alter something deceptively.",
+          "pl": "Przygotować, lub zmienić coś w sposób oszukańczy."
+        },
+        "examples": [
+          "Die Süßigkeiten wurden absichtlich mit Nadeln präpariert.",
+          "Die Sportler präparierten ihre Skier für das Rennen."
+        ]
+      },
+      {
+        "id": 56,
+        "word": "der Schokoriegel",
+        "translation": {
+          "en": "chocolate bar",
+          "pl": "baton czekoladowy"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "die Schokoriegel",
+        "notes": {
+          "en": "A bar-shaped piece of chocolate.",
+          "pl": "Kawałek czekolady w kształcie batona."
+        },
+        "examples": [
+          "Ich habe mir einen Schokoriegel am Automaten gekauft.",
+          "Der Schokoriegel enthielt Nüsse und Karamell."
+        ]
+      },
+      {
+        "id": 57,
+        "word": "entgehen",
+        "translation": {
+          "en": "to escape, to avoid",
+          "pl": "ujść, uniknąć"
+        },
+        "partOfSpeech": "Verb",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Takes dative. To manage to evade something dangerous or unpleasant.",
+          "pl": "Wymaga celownika. Zdołać uniknąć czegoś niebezpiecznego lub nieprzyjemnego."
+        },
+        "examples": [
+          "Sie ist dem Unfall nur knapp entgangen.",
+          "Dem Täter entging nicht, dass er beobachtet wurde."
+        ]
+      },
+      {
+        "id": 58,
+        "word": "die Verletzung",
+        "translation": {
+          "en": "injury",
+          "pl": "obrażenie, rana, uraz"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "die Verletzungen",
+        "notes": {
+          "en": "Physical harm or damage to someone's body.",
+          "pl": "Fizyczna szkoda lub uszkodzenie ciała kogoś."
+        },
+        "examples": [
+          "Die Verletzung am Knie muss operiert werden.",
+          "Er erlitt bei dem Sturz schwere Verletzungen."
+        ]
+      },
+      {
+        "id": 59,
+        "word": "entsorgen",
+        "translation": {
+          "en": "to dispose of, to throw away",
+          "pl": "zutylizować, wyrzucić"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "To get rid of waste or unwanted items properly.",
+          "pl": "Pozbyć się odpadów lub niechcianych przedmiotów we właściwy sposób."
+        },
+        "examples": [
+          "Wir müssen den alten Kühlschrank fachgerecht entsorgen.",
+          "Sammle den Müll und entsorge ihn in der Tonne."
+        ]
+      },
+      {
+        "id": 60,
+        "word": "übergeben",
+        "translation": {
+          "en": "to hand over",
+          "pl": "przekazać, oddać (w czyjeś ręce)"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Inseparable verb in this context. To pass responsibility or possession to someone else.",
+          "pl": "Czasownik nierozdzielny w tym kontekście. Przekazać odpowiedzialność lub własność komuś innemu."
+        },
+        "examples": [
+          "Die verdächtigen Funde wurden sofort der Polizei übergeben.",
+          "Er hat das Geschäft an seinen Sohn übergeben."
+        ]
+      }
+    ]
+  },
+  "speaking": {
+    "prompt": {
+      "en": "You are my German language tutor conducting a 20-minute B1-to-C1 speaking conversation based on the Listening section of today's lesson (German news from 3 November 2026) AND a general discussion topic: 'Navigating Global and Daily Crises: Causes and Consequences'.\n\nListening reference – the six news stories from today's Listening section, in the same order as the articles:\n1. 2,800 soldiers from 11 countries participate in a military maneuver in Poland led by the UK and France to secure lasting peace for Ukraine.\n2. US midterm elections decide control of the Congress, with high living costs and tariffs weighing heavily on voters' minds.\n3. North Korea rejects FBI accusations that it stole billions from the crypto exchange Binance, calling it an absurd provocation.\n4. Polish Prime Minister Tusk demands President Nawrocki recognize newly elected Constitutional Court judges amid escalating protests.\n5. A cyberattack on supermarket cooling systems across five European countries caused food spoilage; experts suspect sabotage.\n6. Needles and metal objects were found in Halloween candy across several German states, injuring at least one child; police are investigating.\n\nGrammar focus to elicit: Everyday cause and consequence using 'weil' (verb at end), 'denn' (verb in position 2), and 'deshalb' (verb immediately after).\n\nUseful words from today's Listening articles (invite me to use them): die Unterstützung, entsenden, die Zwischenwahl, zurückweisen, die Absperrung, der Cyberangriff, die Sabotage, entsorgen.\n\nInstructions for the AI tutor:\n1. Start the conversation: greet me and introduce today's dual focus: the recent news stories and a general discussion on navigating daily and global crises.\n2. You ask, I speak: one question per turn, one or two short sentences, never answer your own questions. German at B1-C1 level; English only if I am really stuck.\n3. Discuss various aspects of the topic: personal crises vs. global issues, supply chain disruptions, political gridlocks, and details from the news stories provided above.\n4. Encourage me to use 'weil', 'denn', and 'deshalb' to explain causes and consequences, reminding me of the correct verb position for each.\n5. Question ideas (adapt to my answers):\n   - (story 2) Warum sind die Wähler in den USA unzufrieden? (Antworte mit 'weil' oder 'denn'.)\n   - (story 5) Was war die Folge des Cyberangriffs auf die Supermärkte? (Antworte mit 'deshalb'.)\n   - (general) Wenn du ein technisches Problem bei der Arbeit hast, wie reagierst du? Beschreibe Ursache und Wirkung.\n6. Immediate correction: if I break today's rule (e.g. *Ich bleibe zu Hause, weil ich bin krank.* instead of *Ich bleibe zu Hause, weil ich krank bin.*), stop briefly: quote the error, give the correct sentence, explain the rule in 1 English sentence, ask me to repeat the correct sentence aloud before the next question.\n7. Also correct other significant errors briefly; note recurring mistakes for the final feedback. If my answer is very short, ask one follow-up („Warum?“).\n8. Wrap-up after ~20 minutes or when I say \"stop\": two things I did well, three key mistakes with corrections, five words to review, one German sentence to repeat aloud.\n9. Keep the tone engaging, professional, natural for an immersive German voice dialogue. Address me as „du“.",
+      "pl": "Jesteś moim nauczycielem języka niemieckiego i prowadzisz 20-minutową rozmowę na poziomie od B1 do C1 w oparciu o część Słuchanie z dzisiejszej lekcji (niemieckie wiadomości z 3 listopada 2026 roku) ORAZ na ogólny temat dyskusji: 'Radzenie sobie z kryzysami globalnymi i codziennymi: przyczyny i skutki'.\n\nMateriał ze Słuchania – sześć tematów wiadomości z dzisiejszej części Słuchanie, w tej samej kolejności co artykuły:\n1. 2800 żołnierzy z 11 krajów bierze udział w manewrach wojskowych w Polsce pod dowództwem Wielkiej Brytanii i Francji, mających na celu zapewnienie trwałego pokoju dla Ukrainy.\n2. Wybory połówkowe w USA decydują o kontroli nad Kongresem; wysokie koszty utrzymania i cła silnie wpływają na decyzje wyborców.\n3. Korea Północna odrzuca oskarżenia FBI o kradzież miliardów z giełdy kryptowalut Binance, nazywając to absurdalną prowokacją.\n4. Premier RP Tusk żąda, by prezydent Nawrocki uznał nowo wybranych sędziów Trybunału Konstytucyjnego na tle eskalujących protestów.\n5. Cyberatak na systemy chłodnicze supermarketów w pięciu krajach Europy spowodował zepsucie żywności; eksperci podejrzewają sabotaż.\n6. W kilku niemieckich landach znaleziono igły i metalowe przedmioty w słodyczach na Halloween, co zraniło co najmniej jedno dziecko; policja prowadzi dochodzenie.\n\nZagadnienie gramatyczne do ćwiczenia: Codzienne przyczyny i skutki przy użyciu 'weil' (czasownik na końcu), 'denn' (czasownik na 2. miejscu) i 'deshalb' (czasownik bezpośrednio po).\n\nPrzydatne słowa z dzisiejszych artykułów (zachęcaj mnie do ich używania): die Unterstützung, entsenden, die Zwischenwahl, zurückweisen, die Absperrung, der Cyberangriff, die Sabotage, entsorgen.\n\nInstrukcje dla tutora AI:\n1. Rozpocznij rozmowę: przywitaj się i wprowadź dzisiejszy podwójny temat: ostatnie wiadomości oraz ogólną dyskusję o tym, jak radzimy sobie z kryzysami codziennymi i globalnymi.\n2. Ty pytasz, ja mówię: zadawaj pytania pojedynczo, jedno lub dwa krótkie zdania, nigdy nie odpowiadaj na własne pytania. Mów po niemiecku na poziomie B1–C1; przechodź na polski tylko wtedy, gdy naprawdę utknę.\n3. Omawiaj różne aspekty tematu: kryzysy osobiste a problemy globalne, zakłócenia łańcuchów dostaw, impas polityczny oraz szczegóły z powyższych wiadomości.\n4. Zachęcaj mnie do używania spójników 'weil', 'denn' i 'deshalb' do wyjaśniania przyczyn i skutków, przypominając mi o poprawnej pozycji czasownika dla każdego z nich.\n5. Pomysły na pytania (dostosuj je do moich odpowiedzi):\n   - (temat 2) Warum sind die Wähler in den USA unzufrieden? (Antworte mit 'weil' oder 'denn'.)\n   - (temat 5) Was war die Folge des Cyberangriffs auf die Supermärkte? (Antworte mit 'deshalb'.)\n   - (temat ogólny) Wenn du ein technisches Problem bei der Arbeit hast, wie reagierst du? Beschreibe Ursache und Wirkung.\n6. Natychmiastowa korekta: jeśli popełnię błąd dotyczący dzisiejszej zasady (np. *Ich bleibe zu Hause, weil ich bin krank.* zamiast *Ich bleibe zu Hause, weil ich krank bin.*), na chwilę przerwij: zacytuj błąd, podaj poprawne zdanie, wyjaśnij zasadę w jednym zdaniu po polsku, poproś mnie o głośne powtórzenie poprawnego zdania przed następnym pytaniem.\n7. Krótko poprawiaj również inne istotne błędy; zanotuj powtarzające się błędy na podsumowanie. Jeśli moja odpowiedź jest bardzo krótka, zadaj jedno pytanie uzupełniające („Warum?“).\n8. Podsumowanie po około 20 minutach lub gdy powiem \"stop\": dwie rzeczy, które zrobiłem dobrze, trzy główne błędy z poprawkami, pięć słów do powtórzenia oraz jedno zdanie po niemiecku do głośnego powtórzenia.\n9. Utrzymuj angażujący, profesjonalny i naturalny ton, odpowiedni dla immersyjnego dialogu głosowego po niemiecku. Zwracaj się do mnie per „du”."
+    }
+  }
 }
 ]
