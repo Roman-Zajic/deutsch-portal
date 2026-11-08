@@ -35024,5 +35024,775 @@
       "pl": "Jesteś moim nauczycielem języka niemieckiego i prowadzisz 20-minutową rozmowę na poziomie od B1 do C1 w oparciu o część Słuchanie z dzisiejszej lekcji (niemieckie wiadomości z 7 listopada 2026 roku).\n\nMateriał ze Słuchania – 6 tematów wiadomości z dzisiejszej części Słuchanie, w tej samej kolejności co artykuły:\n1. Oczekuje się, że przewodnicząca bawarskiego parlamentu Ilse Aigner wystartuje jako konserwatywna kandydatka na prezydenta Niemiec, ciesząc się ponadpartyjnym poparciem.\n2. We Frankfurcie spodziewany jest duży wiec i kontrdemonstracje w związku z przyznaniem przez Fundację Friedricha Naumanna nagrody wolności narodowi irańskiemu, którą ma odebrać syn szacha, Reza Pahlavi.\n3. Białoruś wszczęła poszukiwania czterech dziennikarek Deutsche Welle, co DW zdecydowanie potępia jako próbę kryminalizacji niezależnego dziennikarstwa.\n4. Trwa seria gróźb bombowych wobec samolotów w Europie; w piątek ucierpiało co najmniej 16 lotów, a cztery maszyny lądowały nieplanowo we Francji, choć nie znaleziono materiałów wybuchowych.\n5. Nową Zelandię czekają trudne negocjacje koalicyjne, ponieważ prognozy pokazują, że rządząca Partia Narodowa i opozycyjna Partia Pracy idą łeb w łeb po wyborach parlamentarnych.\n6. Thomas Markle, ojciec księżnej Sussex, został aresztowany w USA pod zarzutem posiadania materiałów przedstawiających wykorzystywanie dzieci, czemu on sam zaprzecza.\n\nZagadnienie gramatyczne do ćwiczenia: zdania z bevor/ehe i kolejność zdarzeń (używanie tego samego czasu w obu zdaniach).\n\nPrzydatne słowa z dzisiejszych artykułów (zachęcaj mnie do ich używania): antreten, die Nachfolge, die Großkundgebung, die Fahndung, außerplanmäßig, der Sprengsatz, die Hochrechnung, gleichauf, die Anschuldigung.\n\nInstrukcje dla tutora AI:\n1. Prowadź rozmowę od swojej pierwszej wiadomości. Przywitaj się serdecznie i zapytaj, czy wysłuchałem dzisiejszego nagrania. Jeśli nie, streść temat 1 w dwóch prostych zdaniach po niemiecku i mimo to kontynuuj.\n2. Ty pytasz, ja mówię. Zadawaj pytania pojedynczo – nigdy więcej niż jedno pytanie w jednej wypowiedzi. Każda Twoja wypowiedź powinna mieć jedno lub dwa krótkie zdania, żebym to ja mówił najwięcej, i nigdy nie odpowiadaj na własne pytania. Mów po niemiecku na poziomie B1–C1 i przechodź na polski tylko wtedy, gdy naprawdę utknę.\n3. Każde pytanie musi odnosić się do tematów ze Słuchania wymienionych powyżej. Omawiaj tematy po kolei i poruszaj co najmniej cztery z sześciu. Przy każdym temacie najpierw pytaj o fakty, potem o przyczyny i skutki, alternatywne perspektywy oraz moją własną ocenę. Pod koniec poproś mnie o porównanie lub połączenie dwóch tematów. Krótkie pytania osobiste są dozwolone tylko wtedy, gdy wyraźnie wynikają z omawianego tematu.\n4. Zachęcaj mnie do używania zdań podrzędnych zaczynających się od \"bevor\" lub \"ehe\" do opisywania kolejności zdarzeń. Przypominaj mi, że czasownik wędruje na koniec zdania i że oba zdania zazwyczaj przyjmują ten sam czas.\n5. Pomysły na pytania (dostosuj je do moich odpowiedzi i do omawianego tematu):\n   - (temat 1) Was muss Ilse Aigner tun, bevor sie Bundespräsidentin wird? Beginne mit „Bevor...“.\n   - (temat 3) Was passierte in Belarus, bevor die DW-Journalistinnen gesucht wurden?\n   - (temat 4) Was machten die Piloten, bevor sie außerplanmäßig landeten?\n   - (temat 5) Was müssen die Parteien in Neuseeland tun, ehe sie eine Regierung bilden können?\n   - (temat 6) Was passierte, bevor Thomas Markle festgenommen wurde?\n6. Procedura natychmiastowej korekty: jeśli popełnię błąd dotyczący dzisiejszej zasady, na przykład *Vor ich das Haus verlasse, trinke ich Kaffee.* zamiast *Bevor ich das Haus verlasse, trinke ich Kaffee.*, na chwilę przerwij rozmowę i:\n   - Zacytuj błąd.\n   - Podaj poprawne zdanie po niemiecku.\n   - Wyjaśnij w jednym zdaniu po polsku obowiązującą zasadę.\n   - Poproś mnie o głośne powtórzenie poprawnego zdania przed przejściem do kolejnego pytania.\n7. Poprawiaj również inne istotne błędy językowe, ale krótko i bez przerywania mi z powodu drobnych różnic stylistycznych, a moje powtarzające się błędy zapamiętaj na podsumowanie.\n8. Jeśli moja odpowiedź jest bardzo krótka lub niepewna, zadaj jedno pytanie uzupełniające (na przykład „Warum?“, „Kannst du ein Beispiel nennen?“ lub „Wie siehst du das?“), zanim przejdziesz dalej.\n9. Podsumowanie: po około 20 minutach lub gdy powiem „stop”, zakończ rozmowę i daj krótką informację zwrotną: dwie rzeczy, które mi się udały, trzy najważniejsze błędy (zwłaszcza dotyczące dzisiejszego zagadnienia gramatycznego) z poprawionymi zdaniami oraz pięć słów z dzisiejszych artykułów ze Słuchania wartych powtórzenia. Zakończ jednym niemieckim zdaniem do głośnego powtórzenia.\n10. Zachowuj angażujący, profesjonalny i naturalny ton, odpowiedni dla immersyjnej rozmowy głosowej po niemiecku. Zwracaj się do mnie per „du”."
     }
   }
+},
+ {
+  "lesson": {
+    "id": "2026-11-08",
+    "date": "08.11.2026",
+    "day": 27,
+    "totalDays": 300,
+    "level": "B1",
+    "title": {
+      "en": "Temporal Clauses with während, solange, sobald, and bis",
+      "pl": "Zdania czasowe z während, solange, sobald i bis"
+    },
+    "subtitle": "Temporalsätze: während, solange, sobald, bis"
+  },
+  "grammar": {
+    "html": {
+      "en": [
+        "<h3>Temporal clauses: <em>während, solange, sobald, bis</em></h3><p>Subordinating conjunctions connect a main clause with a subordinate clause. The four conjunctions <strong>während</strong> (while), <strong>solange</strong> (as long as), <strong>sobald</strong> (as soon as), and <strong>bis</strong> (until) express different time relationships between two actions.</p>",
+        "<div class='box rule'><strong>Core rule:</strong> These are subordinating conjunctions. They send the conjugated (finite) verb to the very end of the subordinate clause.</div>",
+        "<h3>Simultaneous actions: <em>während</em> and <em>solange</em></h3><p><strong>Während</strong> describes two actions happening at the exact same time. <strong>Solange</strong> also describes simultaneous actions, but it strongly emphasises the duration or a condition: \"for the entire time that\". Both clauses usually use the same tense.</p><ul><li><em>Ich lese ein Buch, <strong>während</strong> er das Abendessen <strong>kocht</strong>.</em></li><li><em>Wir bleiben im Haus, <strong>solange</strong> es <strong>regnet</strong>.</em></li></ul>",
+        "<h3>Consecutive actions and endpoints: <em>sobald</em> and <em>bis</em></h3><p><strong>Sobald</strong> means \"as soon as\". It shows that the action in the main clause starts immediately after the action in the subordinate clause finishes. <strong>Bis</strong> means \"until\" and marks the endpoint of the action in the main clause.</p><ul><li><em>Ich rufe dich an, <strong>sobald</strong> ich zu Hause <strong>bin</strong>.</em></li><li><em>Wir warten hier, <strong>bis</strong> der Bus <strong>kommt</strong>.</em></li></ul>",
+        "<h3>Word order</h3><p>If the subordinate clause comes first, the main clause follows immediately and must start with its conjugated verb (Verb-Second rule for the whole sentence).</p>",
+        "<table><thead><tr><th>Subordinate clause</th><th>Main clause</th></tr></thead><tbody><tr><td class='de'><strong>Während</strong> ich <strong>arbeite</strong>,</td><td class='de'><strong>hört</strong> er Musik.</td></tr><tr><td class='de'><strong>Sobald</strong> der Zug <strong>hält</strong>,</td><td class='de'><strong>steigen</strong> wir <strong>aus</strong>.</td></tr></tbody></table>",
+        "<div class='box warn'><strong>Typical mistake: <em>während</em> (conjunction) vs <em>während</em> (preposition)</strong><p>✗ Ich schlafe <strong>während</strong> der Film.</p><p>✓ Ich schlafe, <strong>während</strong> der Film <strong>läuft</strong>. (Conjunction + verb)</p><p>✓ Ich schlafe <strong>während</strong> des Films. (Preposition + Genitive)</p></div>",
+        "<div class='box tip'><strong>Memory aid:</strong> <em>Während</em> = parallel lines (||). <em>Sobald</em> = a relay race (one finishes, the next starts). <em>Bis</em> = a stop sign. <em>Solange</em> = a timer running out.</div>",
+        "<h3>Quick reference</h3><div class='tiles'><div class='tile'><strong>während</strong><p><em>...während ich esse.</em> (while)</p></div><div class='tile'><strong>solange</strong><p><em>...solange du da bist.</em> (as long as)</p></div><div class='tile'><strong>sobald</strong><p><em>...sobald er ankommt.</em> (as soon as)</p></div><div class='tile'><strong>bis</strong><p><em>...bis der Regen aufhört.</em> (until)</p></div></div>"
+      ],
+      "pl": [
+        "<h3>Zdania czasowe: <em>während, solange, sobald, bis</em></h3><p>Spójniki podrzędne łączą zdanie główne ze zdaniem podrzędnym. Cztery spójniki <strong>während</strong> (podczas gdy), <strong>solange</strong> (dopóki, tak długo jak), <strong>sobald</strong> (skoro tylko, jak tylko) i <strong>bis</strong> (aż do, dopóki nie) wyrażają różne relacje czasowe między dwiema czynnościami.</p>",
+        "<div class='box rule'><strong>Główna zasada:</strong> Są to spójniki podrzędne. Wysyłają one odmieniony czasownik na sam koniec zdania podrzędnego.</div>",
+        "<h3>Czynności jednoczesne: <em>während</em> i <em>solange</em></h3><p><strong>Während</strong> opisuje dwie czynności dziejące się dokładnie w tym samym czasie. <strong>Solange</strong> również opisuje czynności jednoczesne, ale silnie podkreśla czas trwania lub warunek: „przez cały czas, gdy”. W obu zdaniach zazwyczaj używa się tego samego czasu.</p><ul><li><em>Ich lese ein Buch, <strong>während</strong> er das Abendessen <strong>kocht</strong>.</em> (Czytam książkę, podczas gdy on gotuje kolację.)</li><li><em>Wir bleiben im Haus, <strong>solange</strong> es <strong>regnet</strong>.</em> (Zostajemy w domu, tak długo jak pada.)</li></ul>",
+        "<h3>Czynności następujące po sobie i punkty końcowe: <em>sobald</em> i <em>bis</em></h3><p><strong>Sobald</strong> oznacza „jak tylko”. Pokazuje, że czynność w zdaniu głównym rozpoczyna się natychmiast po zakończeniu czynności w zdaniu podrzędnym. <strong>Bis</strong> oznacza „aż” lub „dopóki nie” i wyznacza punkt końcowy czynności w zdaniu głównym.</p><ul><li><em>Ich rufe dich an, <strong>sobald</strong> ich zu Hause <strong>bin</strong>.</em> (Zadzwonię do ciebie, jak tylko będę w domu.)</li><li><em>Wir warten hier, <strong>bis</strong> der Bus <strong>kommt</strong>.</em> (Czekamy tutaj, aż przyjedzie autobus.)</li></ul>",
+        "<h3>Szyk wyrazów</h3><p>Jeśli zdanie podrzędne występuje jako pierwsze, zdanie główne następuje bezpośrednio po nim i musi zaczynać się od odmienionego czasownika (zasada V2 dla całego zdania).</p>",
+        "<table><thead><tr><th>Zdanie podrzędne</th><th>Zdanie główne</th></tr></thead><tbody><tr><td class='de'><strong>Während</strong> ich <strong>arbeite</strong>,</td><td class='de'><strong>hört</strong> er Musik.</td></tr><tr><td class='de'><strong>Sobald</strong> der Zug <strong>hält</strong>,</td><td class='de'><strong>steigen</strong> wir <strong>aus</strong>.</td></tr></tbody></table>",
+        "<div class='box warn'><strong>Typowy błąd: <em>während</em> (spójnik) vs <em>während</em> (przyimek)</strong><p>✗ Ich schlafe <strong>während</strong> der Film.</p><p>✓ Ich schlafe, <strong>während</strong> der Film <strong>läuft</strong>. (Spójnik + czasownik)</p><p>✓ Ich schlafe <strong>während</strong> des Films. (Przyimek + dopełniacz)</p></div>",
+        "<div class='box tip'><strong>Pomoc w zapamiętaniu:</strong> <em>Während</em> = linie równoległe (||). <em>Sobald</em> = sztafeta (jeden kończy, drugi zaczyna). <em>Bis</em> = znak stopu. <em>Solange</em> = odliczający minutnik.</div>",
+        "<h3>Szybki przegląd</h3><div class='tiles'><div class='tile'><strong>während</strong><p><em>...während ich esse.</em> (podczas gdy)</p></div><div class='tile'><strong>solange</strong><p><em>...solange du da bist.</em> (tak długo jak)</p></div><div class='tile'><strong>sobald</strong><p><em>...sobald er ankommt.</em> (jak tylko)</p></div><div class='tile'><strong>bis</strong><p><em>...bis der Regen aufhört.</em> (aż)</p></div></div>"
+      ]
+    }
+  },
+  "examples": [
+    {
+      "de": "Ich lese, **während** du **schläfst**.",
+      "en": "I read while you sleep.",
+      "pl": "Czytam, podczas gdy ty śpisz.",
+      "level": "A1"
+    },
+    {
+      "de": "Wir warten, **bis** der Bus **kommt**.",
+      "en": "We wait until the bus comes.",
+      "pl": "Czekamy, aż przyjedzie autobus.",
+      "level": "A1"
+    },
+    {
+      "de": "**Sobald** ich zu Hause **bin**, rufe ich dich an.",
+      "en": "As soon as I am home, I will call you.",
+      "pl": "Jak tylko będę w domu, zadzwonię do ciebie.",
+      "level": "A2"
+    },
+    {
+      "de": "Du kannst hier bleiben, **solange** du **willst**.",
+      "en": "You can stay here as long as you want.",
+      "pl": "Możesz tu zostać, tak długo jak chcesz.",
+      "level": "A2"
+    },
+    {
+      "de": "**Während** wir im Urlaub **waren**, regnete es oft.",
+      "en": "While we were on holiday, it rained often.",
+      "pl": "Podczas gdy byliśmy na wakacjach, często padało.",
+      "level": "A2"
+    },
+    {
+      "de": "Wir müssen arbeiten, **bis** die Sonne **untergeht**.",
+      "en": "We must work until the sun goes down.",
+      "pl": "Musimy pracować, aż zajdzie słońce.",
+      "level": "A2"
+    },
+    {
+      "de": "**Solange** das Wetter schön **ist**, essen wir draußen.",
+      "en": "As long as the weather is nice, we eat outside.",
+      "pl": "Dopóki pogoda jest ładna, jemy na zewnątrz.",
+      "level": "B1"
+    },
+    {
+      "de": "Ich schicke dir die E-Mail, **sobald** ich den Bericht **fertig habe**.",
+      "en": "I will send you the email as soon as I have finished the report.",
+      "pl": "Wyślę ci e-mail, jak tylko skończę raport.",
+      "level": "B1"
+    },
+    {
+      "de": "**Während** der Chef die Präsentation **hielt**, machten die Kollegen Notizen.",
+      "en": "While the boss was giving the presentation, the colleagues took notes.",
+      "pl": "Podczas gdy szef prowadził prezentację, koledzy robili notatki.",
+      "level": "B1"
+    },
+    {
+      "de": "Wir können nicht anfangen, **bis** alle Teilnehmer **eingetroffen sind**.",
+      "en": "We cannot start until all participants have arrived.",
+      "pl": "Nie możemy zacząć, dopóki nie przybędą wszyscy uczestnicy.",
+      "level": "B1"
+    },
+    {
+      "de": "**Sobald** der Vertrag **unterschrieben ist**, beginnen wir mit dem Projekt.",
+      "en": "As soon as the contract is signed, we will begin the project.",
+      "pl": "Jak tylko umowa zostanie podpisana, rozpoczniemy projekt.",
+      "level": "B2"
+    },
+    {
+      "de": "Das Unternehmen macht Verluste, **solange** die Lieferketten **gestört bleiben**.",
+      "en": "The company makes losses as long as the supply chains remain disrupted.",
+      "pl": "Firma przynosi straty, dopóki łańcuchy dostaw pozostają zakłócone.",
+      "level": "B2"
+    },
+    {
+      "de": "**Während** die einen die Reform **befürworten**, lehnen die anderen sie strikt ab.",
+      "en": "While some support the reform, others strictly reject it.",
+      "pl": "Podczas gdy jedni popierają reformę, inni stanowczo ją odrzucają.",
+      "level": "B2"
+    },
+    {
+      "de": "Die Verhandlungen dauerten an, **bis** ein Kompromiss **gefunden wurde**.",
+      "en": "The negotiations continued until a compromise was found.",
+      "pl": "Negocjacje trwały, aż znaleziono kompromis.",
+      "level": "B2"
+    },
+    {
+      "de": "**Solange** keine neuen Beweise **vorliegen**, gilt der Verdächtige als unschuldig.",
+      "en": "As long as there is no new evidence, the suspect is considered innocent.",
+      "pl": "Dopóki nie ma nowych dowodów, podejrzany jest uważany za niewinnego.",
+      "level": "B2"
+    },
+    {
+      "de": "**Sobald** die Zentralbank die Zinsen **senkt**, wird die Wirtschaft wieder wachsen.",
+      "en": "As soon as the central bank lowers interest rates, the economy will grow again.",
+      "pl": "Jak tylko bank centralny obniży stopy procentowe, gospodarka znów zacznie rosnąć.",
+      "level": "C1"
+    },
+    {
+      "de": "Die Maßnahme bleibt in Kraft, **bis** der Notstand offiziell **aufgehoben wird**.",
+      "en": "The measure remains in force until the state of emergency is officially lifted.",
+      "pl": "Środek pozostaje w mocy, dopóki stan wyjątkowy nie zostanie oficjalnie zniesiony.",
+      "level": "C1"
+    },
+    {
+      "de": "**Während** die etablierten Parteien an Zustimmung **verloren**, gewannen Randgruppen an Einfluss.",
+      "en": "While the established parties lost approval, fringe groups gained influence.",
+      "pl": "Podczas gdy partie głównego nurtu traciły poparcie, grupy marginalne zyskiwały wpływy.",
+      "level": "C1"
+    },
+    {
+      "de": "**Solange** die strukturellen Defizite nicht behoben **werden**, ist eine nachhaltige Erholung ausgeschlossen.",
+      "en": "As long as the structural deficits are not remedied, a sustainable recovery is ruled out.",
+      "pl": "Dopóki deficyty strukturalne nie zostaną usunięte, zrównoważone ożywienie jest wykluczone.",
+      "level": "C2"
+    },
+    {
+      "de": "Das Gremium debattierte unermüdlich, **bis** der langwierige Konflikt endlich beigelegt **war**.",
+      "en": "The committee debated tirelessly until the protracted conflict was finally settled.",
+      "pl": "Komitet debatował niestrudzenie, aż przedłużający się konflikt został wreszcie zażegnany.",
+      "level": "C2"
+    }
+  ],
+  "exercises": [
+    {
+      "en": "I read a book while you cook.",
+      "pl": "Czytam książkę, podczas gdy ty gotujesz.",
+      "de": "Ich lese ein Buch, während du kochst.",
+      "level": "A2"
+    },
+    {
+      "en": "We wait until the train departs.",
+      "pl": "Czekamy, aż pociąg odjedzie.",
+      "de": "Wir warten, bis der Zug abfährt.",
+      "level": "A2"
+    },
+    {
+      "en": "As soon as he comes, we eat.",
+      "pl": "Jak tylko on przyjdzie, będziemy jeść.",
+      "de": "Sobald er kommt, essen wir.",
+      "level": "A2"
+    },
+    {
+      "en": "You can play as long as the sun shines.",
+      "pl": "Możesz się bawić, dopóki świeci słońce.",
+      "de": "Du kannst spielen, solange die Sonne scheint.",
+      "level": "A2"
+    },
+    {
+      "en": "While I sleep, the dog is quiet.",
+      "pl": "Podczas gdy śpię, pies jest cicho.",
+      "de": "Während ich schlafe, ist der Hund ruhig.",
+      "level": "A2"
+    },
+    {
+      "en": "I will stay here until you are ready.",
+      "pl": "Zostanę tutaj, aż będziesz gotowy.",
+      "de": "Ich bleibe hier, bis du fertig bist.",
+      "level": "A2"
+    },
+    {
+      "en": "As soon as I have time, I will help you.",
+      "pl": "Jak tylko będę miał czas, pomogę ci.",
+      "de": "Sobald ich Zeit habe, helfe ich dir.",
+      "level": "A2"
+    },
+    {
+      "en": "As long as we have money, we travel.",
+      "pl": "Dopóki mamy pieniądze, podróżujemy.",
+      "de": "Solange wir Geld haben, reisen wir.",
+      "level": "A2"
+    },
+    {
+      "en": "He drinks tea while he works.",
+      "pl": "On pije herbatę, podczas gdy pracuje.",
+      "de": "Er trinkt Tee, während er arbeitet.",
+      "level": "A2"
+    },
+    {
+      "en": "We sleep until the alarm rings.",
+      "pl": "Śpimy, aż zadzwoni budzik.",
+      "de": "Wir schlafen, bis der Wecker klingelt.",
+      "level": "A2"
+    },
+    {
+      "en": "While my colleague writes the email, I make a coffee.",
+      "pl": "Podczas gdy mój kolega pisze e-mail, ja robię kawę.",
+      "de": "Während mein Kollege die E-Mail schreibt, mache ich einen Kaffee.",
+      "level": "B1"
+    },
+    {
+      "en": "I will answer you as soon as I read the message.",
+      "pl": "Odpowiem ci, jak tylko przeczytam wiadomość.",
+      "de": "Ich antworte dir, sobald ich die Nachricht lese.",
+      "level": "B1"
+    },
+    {
+      "en": "We will stay in the office until the project is finished.",
+      "pl": "Zostaniemy w biurze, aż projekt będzie skończony.",
+      "de": "Wir bleiben im Büro, bis das Projekt fertig ist.",
+      "level": "B1"
+    },
+    {
+      "en": "As long as it rains, we cannot go for a walk.",
+      "pl": "Dopóki pada, nie możemy iść na spacer.",
+      "de": "Solange es regnet, können wir nicht spazieren gehen.",
+      "level": "B1"
+    },
+    {
+      "en": "While she was studying in Berlin, she met many people.",
+      "pl": "Podczas gdy studiowała w Berlinie, poznała wielu ludzi.",
+      "de": "Während sie in Berlin studierte, lernte sie viele Leute kennen.",
+      "level": "B1"
+    },
+    {
+      "en": "As soon as the guests arrive, we serve the food.",
+      "pl": "Jak tylko przybędą goście, podamy jedzenie.",
+      "de": "Sobald die Gäste ankommen, servieren wir das Essen.",
+      "level": "B1"
+    },
+    {
+      "en": "He must practice until he makes no more mistakes.",
+      "pl": "Musi ćwiczyć, aż nie będzie robił więcej błędów.",
+      "de": "Er muss üben, bis er keine Fehler mehr macht.",
+      "level": "B1"
+    },
+    {
+      "en": "As long as you are sick, you should stay in bed.",
+      "pl": "Dopóki jesteś chory, powinieneś zostać w łóżku.",
+      "de": "Solange du krank bist, solltest du im Bett bleiben.",
+      "level": "B1"
+    },
+    {
+      "en": "While we were talking, the phone rang.",
+      "pl": "Podczas gdy rozmawialiśmy, zadzwonił telefon.",
+      "de": "Während wir sprachen, klingelte das Telefon.",
+      "level": "B1"
+    },
+    {
+      "en": "I will buy a car as soon as I have enough money.",
+      "pl": "Kupię samochód, jak tylko będę miał wystarczająco dużo pieniędzy.",
+      "de": "Ich kaufe ein Auto, sobald ich genug Geld habe.",
+      "level": "B1"
+    },
+    {
+      "en": "The shop is open until the last customer leaves.",
+      "pl": "Sklep jest otwarty, aż wyjdzie ostatni klient.",
+      "de": "Das Geschäft ist offen, bis der letzte Kunde geht.",
+      "level": "B1"
+    },
+    {
+      "en": "As long as he lives with his parents, he pays no rent.",
+      "pl": "Dopóki mieszka z rodzicami, nie płaci czynszu.",
+      "de": "Solange er bei seinen Eltern lebt, zahlt er keine Miete.",
+      "level": "B1"
+    },
+    {
+      "en": "While the children played outside, the parents cleaned the house.",
+      "pl": "Podczas gdy dzieci bawiły się na zewnątrz, rodzice sprzątali dom.",
+      "de": "Während die Kinder draußen spielten, putzten die Eltern das Haus.",
+      "level": "B1"
+    },
+    {
+      "en": "As soon as the film ends, we will go to bed.",
+      "pl": "Jak tylko film się skończy, pójdziemy do łóżka.",
+      "de": "Sobald der Film endet, gehen wir ins Bett.",
+      "level": "B1"
+    },
+    {
+      "en": "I will wait for you until you come out.",
+      "pl": "Będę na ciebie czekać, aż wyjdziesz.",
+      "de": "Ich warte auf dich, bis du herauskommst.",
+      "level": "B1"
+    },
+    {
+      "en": "As long as the engine runs, everything is fine.",
+      "pl": "Dopóki silnik działa, wszystko jest w porządku.",
+      "de": "Solange der Motor läuft, ist alles in Ordnung.",
+      "level": "B1"
+    },
+    {
+      "en": "While I was making dinner, he watched TV.",
+      "pl": "Podczas gdy robiłem kolację, on oglądał telewizję.",
+      "de": "Während ich das Abendessen machte, sah er fern.",
+      "level": "B1"
+    },
+    {
+      "en": "Call me as soon as you have news.",
+      "pl": "Zadzwoń do mnie, jak tylko będziesz miał wieści.",
+      "de": "Ruf mich an, sobald du Neuigkeiten hast.",
+      "level": "B1"
+    },
+    {
+      "en": "We will stay here until the rain stops.",
+      "pl": "Zostaniemy tu, aż przestanie padać.",
+      "de": "Wir bleiben hier, bis der Regen aufhört.",
+      "level": "B1"
+    },
+    {
+      "en": "As long as you study hard, you will pass the exams.",
+      "pl": "Tak długo jak będziesz się pilnie uczyć, zdasz egzaminy.",
+      "de": "Solange du fleißig lernst, wirst du die Prüfungen bestehen.",
+      "level": "B1"
+    },
+    {
+      "en": "While the manager presented the new strategy, the employees listened attentively.",
+      "pl": "Podczas gdy menedżer prezentował nową strategię, pracownicy słuchali uważnie.",
+      "de": "Während der Manager die neue Strategie präsentierte, hörten die Mitarbeiter aufmerksam zu.",
+      "level": "B2"
+    },
+    {
+      "en": "As soon as the contract is signed, we will transfer the money.",
+      "pl": "Jak tylko umowa zostanie podpisana, przelejemy pieniądze.",
+      "de": "Sobald der Vertrag unterschrieben ist, überweisen wir das Geld.",
+      "level": "B2"
+    },
+    {
+      "en": "The negotiations will continue until an agreement is reached.",
+      "pl": "Negocjacje będą kontynuowane, aż zostanie osiągnięte porozumienie.",
+      "de": "Die Verhandlungen werden fortgesetzt, bis eine Einigung erzielt wird.",
+      "level": "B2"
+    },
+    {
+      "en": "As long as the supply chains are disrupted, prices will rise.",
+      "pl": "Dopóki łańcuchy dostaw są zakłócone, ceny będą rosły.",
+      "de": "Solange die Lieferketten gestört sind, werden die Preise steigen.",
+      "level": "B2"
+    },
+    {
+      "en": "While the IT department updated the servers, the system was offline.",
+      "pl": "Podczas gdy dział IT aktualizował serwery, system był offline.",
+      "de": "Während die IT-Abteilung die Server aktualisierte, war das System offline.",
+      "level": "B2"
+    },
+    {
+      "en": "As soon as the results are published, we will inform the press.",
+      "pl": "Jak tylko wyniki zostaną opublikowane, poinformujemy prasę.",
+      "de": "Sobald die Ergebnisse veröffentlicht werden, informieren wir die Presse.",
+      "level": "B2"
+    },
+    {
+      "en": "The factory will remain closed until the safety inspection is completed.",
+      "pl": "Fabryka pozostanie zamknięta, dopóki inspekcja bezpieczeństwa nie zostanie zakończona.",
+      "de": "Die Fabrik bleibt geschlossen, bis die Sicherheitsprüfung abgeschlossen ist.",
+      "level": "B2"
+    },
+    {
+      "en": "As long as inflation remains high, the central bank will not lower interest rates.",
+      "pl": "Dopóki inflacja pozostaje wysoka, bank centralny nie obniży stóp procentowych.",
+      "de": "Solange die Inflation hoch bleibt, wird die Zentralbank die Zinsen nicht senken.",
+      "level": "B2"
+    },
+    {
+      "en": "While the doctors were operating on the patient, the family waited outside.",
+      "pl": "Podczas gdy lekarze operowali pacjenta, rodzina czekała na zewnątrz.",
+      "de": "Während die Ärzte den Patienten operierten, wartete die Familie draußen.",
+      "level": "B2"
+    },
+    {
+      "en": "As soon as the software detects an error, it sends an alert.",
+      "pl": "Jak tylko oprogramowanie wykryje błąd, wysyła ostrzeżenie.",
+      "de": "Sobald die Software einen Fehler erkennt, sendet sie eine Warnung.",
+      "level": "B2"
+    },
+    {
+      "en": "We must postpone the event until the weather improves.",
+      "pl": "Musimy przełożyć wydarzenie, aż pogoda się poprawi.",
+      "de": "Wir müssen die Veranstaltung verschieben, bis das Wetter sich verbessert.",
+      "level": "B2"
+    },
+    {
+      "en": "As long as the demand exceeds the supply, the market is stable.",
+      "pl": "Dopóki popyt przewyższa podaż, rynek jest stabilny.",
+      "de": "Solange die Nachfrage das Angebot übersteigt, ist der Markt stabil.",
+      "level": "B2"
+    },
+    {
+      "en": "While the competitor expanded, our company focused on quality.",
+      "pl": "Podczas gdy konkurent się rozwijał, nasza firma skupiła się na jakości.",
+      "de": "Während der Konkurrent expandierte, konzentrierte sich unser Unternehmen auf Qualität.",
+      "level": "B2"
+    },
+    {
+      "en": "As soon as the new law takes effect, taxes will increase.",
+      "pl": "Jak tylko nowe prawo wejdzie w życie, podatki wzrosną.",
+      "de": "Sobald das neue Gesetz in Kraft tritt, werden die Steuern steigen.",
+      "level": "B2"
+    },
+    {
+      "en": "The workers will strike until their demands are met.",
+      "pl": "Robotnicy będą strajkować, aż ich żądania zostaną spełnione.",
+      "de": "Die Arbeiter werden streiken, bis ihre Forderungen erfüllt sind.",
+      "level": "B2"
+    },
+    {
+      "en": "As long as you have the receipt, you can return the product.",
+      "pl": "Dopóki masz paragon, możesz zwrócić produkt.",
+      "de": "Solange Sie den Kassenbon haben, können Sie das Produkt zurückgeben.",
+      "level": "B2"
+    },
+    {
+      "en": "While the politicians debated, the citizens protested on the streets.",
+      "pl": "Podczas gdy politycy debatowali, obywatele protestowali na ulicach.",
+      "de": "Während die Politiker debattierten, protestierten die Bürger auf den Straßen.",
+      "level": "B2"
+    },
+    {
+      "en": "As soon as the board approves the budget, we will hire new staff.",
+      "pl": "Jak tylko zarząd zatwierdzi budżet, zatrudnimy nowy personel.",
+      "de": "Sobald der Vorstand das Budget genehmigt, werden wir neues Personal einstellen.",
+      "level": "B2"
+    },
+    {
+      "en": "You must stir the soup until it boils.",
+      "pl": "Musisz mieszać zupę, aż się zagotuje.",
+      "de": "Du musst die Suppe rühren, bis sie kocht.",
+      "level": "B2"
+    },
+    {
+      "en": "As long as the engine is cold, you should not drive fast.",
+      "pl": "Dopóki silnik jest zimny, nie powinieneś jechać szybko.",
+      "de": "Solange der Motor kalt ist, solltest du nicht schnell fahren.",
+      "level": "B2"
+    },
+    {
+      "en": "While the researchers analyzed the data, they discovered a new trend.",
+      "pl": "Podczas gdy badacze analizowali dane, odkryli nowy trend.",
+      "de": "Während die Forscher die Daten analysierten, entdeckten sie einen neuen Trend.",
+      "level": "B2"
+    },
+    {
+      "en": "As soon as the package is delivered, you will receive a notification.",
+      "pl": "Jak tylko paczka zostanie dostarczona, otrzymasz powiadomienie.",
+      "de": "Sobald das Paket geliefert wird, erhalten Sie eine Benachrichtigung.",
+      "level": "B2"
+    },
+    {
+      "en": "The documents must be kept safe until the audit is over.",
+      "pl": "Dokumenty muszą być bezpiecznie przechowywane, dopóki audyt się nie zakończy.",
+      "de": "Die Dokumente müssen sicher aufbewahrt werden, bis die Prüfung vorbei ist.",
+      "level": "B2"
+    },
+    {
+      "en": "As long as the customer is satisfied, we will not change the recipe.",
+      "pl": "Dopóki klient jest zadowolony, nie zmienimy przepisu.",
+      "de": "Solange der Kunde zufrieden ist, werden wir das Rezept nicht ändern.",
+      "level": "B2"
+    },
+    {
+      "en": "While the production was running, a machine broke down.",
+      "pl": "Podczas gdy produkcja trwała, zepsuła się maszyna.",
+      "de": "Während die Produktion lief, fiel eine Maschine aus.",
+      "level": "B2"
+    },
+    {
+      "en": "As soon as the alarm is triggered, the security service is called.",
+      "pl": "Jak tylko włączy się alarm, wzywana jest ochrona.",
+      "de": "Sobald der Alarm ausgelöst wird, wird der Sicherheitsdienst gerufen.",
+      "level": "B2"
+    },
+    {
+      "en": "The patient must stay in the hospital until the fever drops.",
+      "pl": "Pacjent musi zostać w szpitalu, aż spadnie gorączka.",
+      "de": "Der Patient muss im Krankenhaus bleiben, bis das Fieber sinkt.",
+      "level": "B2"
+    },
+    {
+      "en": "As long as there are no alternatives, we must use this software.",
+      "pl": "Dopóki nie ma alternatyw, musimy używać tego oprogramowania.",
+      "de": "Solange es keine Alternativen gibt, müssen wir diese Software nutzen.",
+      "level": "B2"
+    },
+    {
+      "en": "While the exhibition was open, thousands of visitors came.",
+      "pl": "Podczas gdy wystawa była otwarta, przyszły tysiące zwiedzających.",
+      "de": "Während die Ausstellung geöffnet war, kamen tausende Besucher.",
+      "level": "B2"
+    },
+    {
+      "en": "As soon as the payment is confirmed, the goods will be shipped.",
+      "pl": "Jak tylko płatność zostanie potwierdzona, towar zostanie wysłany.",
+      "de": "Sobald die Zahlung bestätigt ist, wird die Ware verschickt.",
+      "level": "B2"
+    },
+    {
+      "en": "We will test the prototype until all errors are eliminated.",
+      "pl": "Będziemy testować prototyp, aż wszystkie błędy zostaną wyeliminowane.",
+      "de": "Wir werden den Prototyp testen, bis alle Fehler beseitigt sind.",
+      "level": "B2"
+    },
+    {
+      "en": "As long as the company makes a profit, jobs are secure.",
+      "pl": "Dopóki firma przynosi zysk, miejsca pracy są bezpieczne.",
+      "de": "Solange das Unternehmen Gewinn macht, sind die Arbeitsplätze sicher.",
+      "level": "B2"
+    },
+    {
+      "en": "While the parents worked from home, the children did their homework.",
+      "pl": "Podczas gdy rodzice pracowali z domu, dzieci odrabiały lekcje.",
+      "de": "Während die Eltern von zu Hause arbeiteten, machten die Kinder ihre Hausaufgaben.",
+      "level": "B2"
+    },
+    {
+      "en": "As soon as the temperature drops below zero, it snows.",
+      "pl": "Jak tylko temperatura spada poniżej zera, pada śnieg.",
+      "de": "Sobald die Temperatur unter null sinkt, schneit es.",
+      "level": "B2"
+    },
+    {
+      "en": "The road will remain closed until the construction work is finished.",
+      "pl": "Droga pozostanie zamknięta, dopóki prace budowlane nie zostaną zakończone.",
+      "de": "Die Straße bleibt gesperrt, bis die Bauarbeiten beendet sind.",
+      "level": "B2"
+    },
+    {
+      "en": "As long as the battery is charged, the device works flawlessly.",
+      "pl": "Dopóki bateria jest naładowana, urządzenie działa bez zarzutu.",
+      "de": "Solange der Akku geladen ist, funktioniert das Gerät einwandfrei.",
+      "level": "B2"
+    },
+    {
+      "en": "While the journalist was researching the story, he found secret documents.",
+      "pl": "Podczas gdy dziennikarz zbierał materiały do artykułu, znalazł tajne dokumenty.",
+      "de": "Während der Journalist für den Artikel recherchierte, fand er geheime Dokumente.",
+      "level": "B2"
+    },
+    {
+      "en": "As soon as the deadline expires, no more applications will be accepted.",
+      "pl": "Jak tylko upłynie termin, żadne wnioski nie będą już przyjmowane.",
+      "de": "Sobald die Frist abläuft, werden keine Bewerbungen mehr angenommen.",
+      "level": "B2"
+    },
+    {
+      "en": "The suspect remained in custody until his alibi was verified.",
+      "pl": "Podejrzany pozostał w areszcie, aż jego alibi zostało zweryfikowane.",
+      "de": "Der Verdächtige blieb in Untersuchungshaft, bis sein Alibi überprüft wurde.",
+      "level": "B2"
+    },
+    {
+      "en": "As long as you follow the rules, there will be no problems.",
+      "pl": "Dopóki będziesz przestrzegać zasad, nie będzie problemów.",
+      "de": "Solange du dich an die Regeln hältst, wird es keine Probleme geben.",
+      "level": "B2"
+    },
+    {
+      "en": "While the established parties lost support, radical movements gained influence.",
+      "pl": "Podczas gdy partie głównego nurtu traciły poparcie, radykalne ruchy zyskiwały wpływy.",
+      "de": "Während die etablierten Parteien an Zustimmung verloren, gewannen radikale Bewegungen an Einfluss.",
+      "level": "C1"
+    },
+    {
+      "en": "As soon as the regulatory authority issues the permit, construction will commence.",
+      "pl": "Jak tylko organ regulacyjny wyda pozwolenie, rozpocznie się budowa.",
+      "de": "Sobald die Aufsichtsbehörde die Genehmigung erteilt, wird mit dem Bau begonnen.",
+      "level": "C1"
+    },
+    {
+      "en": "The austerity measures will be maintained until the national debt is reduced significantly.",
+      "pl": "Środki oszczędnościowe zostaną utrzymane, aż dług publiczny nie zostanie znacznie zredukowany.",
+      "de": "Die Sparmaßnahmen werden aufrechterhalten, bis die Staatsverschuldung signifikant gesenkt ist.",
+      "level": "C1"
+    },
+    {
+      "en": "As long as the structural deficits are not remedied, sustainable growth is impossible.",
+      "pl": "Dopóki deficyty strukturalne nie zostaną usunięte, zrównoważony wzrost jest niemożliwy.",
+      "de": "Solange die strukturellen Defizite nicht behoben werden, ist ein nachhaltiges Wachstum unmöglich.",
+      "level": "C1"
+    },
+    {
+      "en": "While the diplomatic negotiations stalled, the military conflict escalated.",
+      "pl": "Podczas gdy negocjacje dyplomatyczne utknęły w martwym punkcie, konflikt militarny eskalował.",
+      "de": "Während die diplomatischen Verhandlungen ins Stocken gerieten, eskalierte der militärische Konflikt.",
+      "level": "C1"
+    },
+    {
+      "en": "As soon as the macroeconomic indicators point to a recession, the central bank will intervene.",
+      "pl": "Jak tylko wskaźniki makroekonomiczne wskażą na recesję, bank centralny zainterweniuje.",
+      "de": "Sobald die makroökonomischen Indikatoren auf eine Rezession hindeuten, wird die Zentralbank eingreifen.",
+      "level": "C1"
+    },
+    {
+      "en": "The board of directors debated the merger until a consensus was finally reached.",
+      "pl": "Zarząd debatował nad fuzją, aż wreszcie osiągnięto konsensus.",
+      "de": "Der Vorstand debattierte über die Fusion, bis schließlich ein Konsens erzielt wurde.",
+      "level": "C1"
+    },
+    {
+      "en": "As long as the geopolitical situation remains volatile, investors will avoid risky assets.",
+      "pl": "Dopóki sytuacja geopolityczna pozostaje niestabilna, inwestorzy będą unikać ryzykownych aktywów.",
+      "de": "Solange die geopolitische Lage volatil bleibt, werden Investoren riskante Anlagen meiden.",
+      "level": "C1"
+    },
+    {
+      "en": "While the corporation expanded globally, it neglected its core domestic market.",
+      "pl": "Podczas gdy korporacja rozwijała się globalnie, zaniedbała swój główny rynek krajowy.",
+      "de": "Während der Konzern global expandierte, vernachlässigte er seinen heimischen Kernmarkt.",
+      "level": "C1"
+    },
+    {
+      "en": "As soon as the unprecedented ruling is published, an appeal will be filed.",
+      "pl": "Jak tylko opublikowane zostanie bezprecedensowe orzeczenie, złożona zostanie apelacja.",
+      "de": "Sobald das beispiellose Urteil veröffentlicht wird, wird Berufung eingelegt.",
+      "level": "C1"
+    },
+    {
+      "en": "The subsidies will be granted until the transition to renewable energies is completed.",
+      "pl": "Dotacje będą przyznawane, dopóki nie zakończy się przejście na odnawialne źródła energii.",
+      "de": "Die Subventionen werden gewährt, bis der Übergang zu erneuerbaren Energien abgeschlossen ist.",
+      "level": "C1"
+    },
+    {
+      "en": "As long as there is a lack of transparency, public trust cannot be restored.",
+      "pl": "Dopóki brakuje przejrzystości, zaufanie publiczne nie może zostać przywrócone.",
+      "de": "Solange es an Transparenz mangelt, kann das öffentliche Vertrauen nicht wiederhergestellt werden.",
+      "level": "C1"
+    },
+    {
+      "en": "While the avant-garde artist was celebrated by critics, the general public ignored him.",
+      "pl": "Podczas gdy awangardowy artysta był chwalony przez krytyków, ogół społeczeństwa go ignorował.",
+      "de": "Während der Avantgarde-Künstler von Kritikern gefeiert wurde, ignorierte ihn die breite Öffentlichkeit.",
+      "level": "C1"
+    },
+    {
+      "en": "As soon as the demographic shift affects the labor market, a shortage of skilled workers will emerge.",
+      "pl": "Jak tylko zmiany demograficzne wpłyną na rynek pracy, pojawi się niedobór wykwalifikowanych pracowników.",
+      "de": "Sobald sich der demografische Wandel auf den Arbeitsmarkt auswirkt, wird ein Fachkräftemangel entstehen.",
+      "level": "C1"
+    },
+    {
+      "en": "The clandestine operations continued until the investigative journalists exposed the network.",
+      "pl": "Tajne operacje trwały, dopóki dziennikarze śledczy nie zdemaskowali sieci.",
+      "de": "Die klandestinen Operationen wurden fortgesetzt, bis die investigativen Journalisten das Netzwerk enttarnten.",
+      "level": "C1"
+    },
+    {
+      "en": "As long as the legislative framework remains ambiguous, companies will hesitate to invest.",
+      "pl": "Dopóki ramy prawne pozostają niejednoznaczne, firmy będą się wahać przed inwestowaniem.",
+      "de": "Solange der gesetzliche Rahmen mehrdeutig bleibt, werden Unternehmen zögern zu investieren.",
+      "level": "C1"
+    },
+    {
+      "en": "While the subsidiary generated massive profits, the parent company struggled with liquidity issues.",
+      "pl": "Podczas gdy spółka zależna generowała ogromne zyski, spółka dominująca borykała się z problemami z płynnością.",
+      "de": "Während die Tochtergesellschaft massive Gewinne erwirtschaftete, kämpfte die Muttergesellschaft mit Liquiditätsproblemen.",
+      "level": "C1"
+    },
+    {
+      "en": "As soon as the paradigm shift is acknowledged, traditional business models will become obsolete.",
+      "pl": "Jak tylko zmiana paradygmatu zostanie uznana, tradycyjne modele biznesowe staną się przestarzałe.",
+      "de": "Sobald der Paradigmenwechsel anerkannt wird, werden traditionelle Geschäftsmodelle obsolet.",
+      "level": "C1"
+    },
+    {
+      "en": "The trade embargo will be enforced until the rogue state complies with international law.",
+      "pl": "Embargo handlowe będzie egzekwowane, dopóki zbuntowane państwo nie zastosuje się do prawa międzynarodowego.",
+      "de": "Das Handelsembargo wird durchgesetzt, bis der Schurkenstaat das Völkerrecht einhält.",
+      "level": "C1"
+    },
+    {
+      "en": "As long as the underlying assumptions of the model are flawed, the predictions will be inaccurate.",
+      "pl": "Dopóki podstawowe założenia modelu są błędne, prognozy będą niedokładne.",
+      "de": "Solange die zugrundeliegenden Annahmen des Modells fehlerhaft sind, werden die Vorhersagen ungenau sein.",
+      "level": "C1"
+    },
+    {
+      "en": "While the erstwhile undisputed market leader wallowed in complacency, disruptive startups eroded its market share.",
+      "pl": "Podczas gdy dawny niekwestionowany lider rynku pogrążał się w samozadowoleniu, przełomowe startupy uszczuplały jego udział w rynku.",
+      "de": "Während der einst unangefochtene Marktführer in Selbstgefälligkeit schwelgte, untergruben disruptive Start-ups seinen Marktanteil.",
+      "level": "C2"
+    },
+    {
+      "en": "As soon as the meticulously crafted diplomatic compromise unravels, the specter of armed conflict will loom large once more.",
+      "pl": "Jak tylko starannie wypracowany kompromis dyplomatyczny się rozpadnie, widmo konfliktu zbrojnego znów zawiśnie w powietrzu.",
+      "de": "Sobald der akribisch ausgearbeitete diplomatische Kompromiss scheitert, wird das Gespenst eines bewaffneten Konflikts erneut bedrohlich im Raum schweben.",
+      "level": "C2"
+    },
+    {
+      "en": "The fragile coalition government will teeter on the brink of collapse until a consensus on the contentious budget is forced.",
+      "pl": "Kruchy rząd koalicyjny będzie balansował na krawędzi upadku, dopóki nie zostanie wymuszony konsensus w sprawie spornego budżetu.",
+      "de": "Die fragile Koalitionsregierung wird am Rande des Zusammenbruchs taumeln, bis ein Konsens über den umstrittenen Haushalt erzwungen wird.",
+      "level": "C2"
+    },
+    {
+      "en": "As long as the pervasive sense of societal alienation manifests itself in spontaneous uprisings, the political establishment will resort to repression.",
+      "pl": "Dopóki wszechobecne poczucie wyobcowania społecznego będzie objawiać się w spontanicznych powstaniach, establishment polityczny będzie uciekał się do represji.",
+      "de": "Solange sich das allgegenwärtige Gefühl gesellschaftlicher Entfremdung in spontanen Aufständen manifestiert, wird das politische Establishment auf Repression zurückgreifen.",
+      "level": "C2"
+    },
+    {
+      "en": "While the central bank's forward guidance proved overly optimistic, the financial markets exacted a swift and merciless toll on its credibility.",
+      "pl": "Podczas gdy prognozy banku centralnego okazały się zbyt optymistyczne, rynki finansowe szybko i bezlitośnie obciążyły jego wiarygodność.",
+      "de": "Während sich die Forward Guidance der Zentralbank als zu optimistisch erwies, forderten die Finanzmärkte einen schnellen und gnadenlosen Tribut an ihre Glaubwürdigkeit.",
+      "level": "C2"
+    },
+    {
+      "en": "As soon as the insidious effects of the policy become apparent to the broader public, an irreversible backlash will commence.",
+      "pl": "Jak tylko podstępne skutki tej polityki staną się widoczne dla szerszej publiczności, rozpocznie się nieodwracalna reakcja.",
+      "de": "Sobald die schleichenden Auswirkungen der Politik für die breite Öffentlichkeit sichtbar werden, wird eine irreversible Gegenreaktion einsetzen.",
+      "level": "C2"
+    },
+    {
+      "en": "The systemic vulnerabilities will remain glaringly exposed until the regulatory bodies devise a cohesive counter-strategy.",
+      "pl": "Luki systemowe pozostaną rażąco obnażone, dopóki organy regulacyjne nie opracują spójnej strategii przeciwdziałania.",
+      "de": "Die systemischen Schwachstellen werden eklatant offengelegt bleiben, bis die Aufsichtsbehörden eine kohärente Gegenstrategie entwerfen.",
+      "level": "C2"
+    },
+    {
+      "en": "As long as the structural rigidities of the labor market stifle innovation, the clarion call for comprehensive deregulatory reforms will echo through the legislative chambers.",
+      "pl": "Dopóki strukturalna sztywność rynku pracy będzie tłumić innowacje, głośne wezwanie do kompleksowych reform deregulacyjnych będzie rozbrzmiewać w izbach ustawodawczych.",
+      "de": "Solange die strukturellen Starrheiten des Arbeitsmarktes die Innovation ersticken, wird der laute Ruf nach umfassenden Deregulierungsreformen durch die gesetzgebenden Kammern hallen.",
+      "level": "C2"
+    },
+    {
+      "en": "While the appellate court unequivocally upheld the draconian sanctions, the corporate behemoth clandestinely explored alternative legal loopholes.",
+      "pl": "Podczas gdy sąd apelacyjny jednoznacznie utrzymał drakońskie sankcje, gigant korporacyjny potajemnie badał alternatywne luki prawne.",
+      "de": "Während das Berufungsgericht die drakonischen Sanktionen unmissverständlich aufrechterhielt, lotete der Unternehmensgigant klandestin alternative rechtliche Schlupflöcher aus.",
+      "level": "C2"
+    },
+    {
+      "en": "As soon as the long-suppressed archival documents are declassified, they will lay bare a disturbing history of state-sponsored espionage.",
+      "pl": "Jak tylko długo skrywane dokumenty archiwalne zostaną odtajnione, obnażą one niepokojącą historię szpiegostwa sponsorowanego przez państwo.",
+      "de": "Sobald die lange unterdrückten Archivdokumente freigegeben werden, werden sie eine beunruhigende Geschichte staatlich geförderter Spionage schonungslos offenlegen.",
+      "level": "C2"
+    }
+  ],
+  "speaking": {
+    "prompt": {
+      "en": "You are my German language tutor conducting a 20-minute B1-to-C1 speaking conversation about daily routines, work habits, and travel experiences.\n\nGrammar focus to elicit: temporal clauses with während, solange, sobald, and bis.\n\nInstructions for the AI tutor:\n1. Start the conversation: greet me warmly and ask me how my day has been so far, setting the stage for a discussion about daily routines.\n2. You ask, I speak: one question per turn, one or two short sentences, never answer your own questions. German at B1-C1 level; English only if I am really stuck.\n3. The conversation should flow naturally from morning routines to work/study habits, and then to travel or free-time activities. \n4. Elicit the target grammar by asking questions that require me to describe simultaneous actions or sequences. Encourage me to use subordinate clauses starting with \"während\", \"solange\", \"sobald\", or \"bis\". Remind me that the finite verb goes to the end of these clauses.\n5. Question ideas (adapt to my answers):\n   - Was machst du normalerweise morgens, während du frühstückst?\n   - Was wirst du heute Abend tun, sobald du mit der Arbeit (oder dem Studium) fertig bist?\n   - Wie lange bleibst du normalerweise im Büro oder in der Bibliothek? (Elicit a \"bis\" clause).\n   - Wenn du reist, was machst du, während du im Zug oder im Flugzeug sitzt?\n   - Wirst du dein aktuelles Hobby weitermachen, solange es dir Spaß macht?\n6. Immediate correction: if I break today's rule (e.g. *Während ich esse, ich lese ein Buch.* instead of *Während ich esse, lese ich ein Buch.* or *Ich lese, während ich esse mein Frühstück.* instead of *Ich lese, während ich mein Frühstück esse.*), stop briefly: quote the error, give the correct sentence, explain the rule in 1 English sentence, ask me to repeat the correct sentence aloud before the next question.\n7. Also correct other significant errors briefly; note recurring mistakes for the final feedback. If my answer is very short, ask one follow-up („Warum?“, „Kannst du ein Beispiel nennen?“).\n8. Wrap-up after ~20 minutes or when I say \"stop\": two things I did well, three key mistakes with corrections, five useful words to review, one German sentence to repeat aloud.\n9. Keep the tone engaging, professional, natural for an immersive German voice dialogue. Address me as „du“.",
+      "pl": "Jesteś moim nauczycielem języka niemieckiego i prowadzisz 20-minutową rozmowę na poziomie od B1 do C1 o codziennych obowiązkach, nawykach w pracy i doświadczeniach z podróży.\n\nZagadnienie gramatyczne do ćwiczenia: zdania czasowe z während, solange, sobald i bis.\n\nInstrukcje dla tutora AI:\n1. Prowadź rozmowę od swojej pierwszej wiadomości. Przywitaj się serdecznie i zapytaj, jak mi dotąd mija dzień, przygotowując grunt pod dyskusję o codziennych nawykach.\n2. Ty pytasz, ja mówię. Zadawaj pytania pojedynczo – nigdy więcej niż jedno pytanie w jednej wypowiedzi. Każda Twoja wypowiedź powinna mieć jedno lub dwa krótkie zdania, żebym to ja mówił najwięcej, i nigdy nie odpowiadaj na własne pytania. Mów po niemiecku na poziomie B1–C1 i przechodź na polski tylko wtedy, gdy naprawdę utknę.\n3. Rozmowa powinna naturalnie przechodzić od porannych nawyków do nawyków w pracy/nauce, a następnie do podróży lub zajęć w czasie wolnym.\n4. Zachęcaj mnie do używania zdań podrzędnych zaczynających się od \"während\", \"solange\", \"sobald\" lub \"bis\", aby opisywać czynności jednoczesne lub następujące po sobie. Przypominaj mi, że czasownik finitny wędruje na koniec tych zdań.\n5. Pomysły na pytania (dostosuj je do moich odpowiedzi):\n   - Was machst du normalerweise morgens, während du frühstückst?\n   - Was wirst du heute Abend tun, sobald du mit der Arbeit (oder dem Studium) fertig bist?\n   - Wie lange bleibst du normalerweise im Büro oder in der Bibliothek? (Zachęć do użycia zdania z \"bis\").\n   - Wenn du reist, was machst du, während du im Zug oder im Flugzeug sitzt?\n   - Wirst du dein aktuelles Hobby weitermachen, solange es dir Spaß macht?\n6. Procedura natychmiastowej korekty: jeśli popełnię błąd dotyczący dzisiejszej zasady, na przykład *Während ich esse, ich lese ein Buch.* zamiast *Während ich esse, lese ich ein Buch.*, na chwilę przerwij rozmowę i:\n   - Zacytuj błąd.\n   - Podaj poprawne zdanie po niemiecku.\n   - Wyjaśnij w jednym zdaniu po polsku obowiązującą zasadę.\n   - Poproś mnie o głośne powtórzenie poprawnego zdania przed przejściem do kolejnego pytania.\n7. Poprawiaj również inne istotne błędy językowe, ale krótko i bez przerywania mi z powodu drobnych różnic stylistycznych, a moje powtarzające się błędy zapamiętaj na podsumowanie.\n8. Jeśli moja odpowiedź jest bardzo krótka lub niepewna, zadaj jedno pytanie uzupełniające (na przykład „Warum?“, „Kannst du ein Beispiel nennen?“), zanim przejdziesz dalej.\n9. Podsumowanie: po około 20 minutach lub gdy powiem „stop”, zakończ rozmowę i daj krótką informację zwrotną: dwie rzeczy, które mi się udały, trzy najważniejsze błędy (zwłaszcza dotyczące dzisiejszego zagadnienia gramatycznego) z poprawionymi zdaniami oraz pięć przydatnych słów wartych powtórzenia. Zakończ jednym niemieckim zdaniem do głośnego powtórzenia.\n10. Zachowuj angażujący, profesjonalny i naturalny ton, odpowiedni dla immersyjnej rozmowy głosowej po niemiecku. Zwracaj się do mnie per „du”."
+    }
+  }
 }
 ]
