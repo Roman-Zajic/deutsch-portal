@@ -33997,5 +33997,1032 @@
       "pl": "Jesteś moim nauczycielem języka niemieckiego i prowadzisz 20-minutową rozmowę na poziomie od B1 do C1 w oparciu o część Słuchanie z dzisiejszej lekcji (niemieckie wiadomości z 6 listopada 2026 roku).\n\nMateriał ze Słuchania – 6 tematów wiadomości z dzisiejszej części Słuchanie, w tej samej kolejności co artykuły:\n1. Gubernator Kalifornii zamienił 548 wyroków śmierci na dożywocie, spełniając apel Amnesty International i wysyłając sygnał do Donalda Trumpa.\n2. Papież Leon XIV wyruszył w 12-dniową podróż do Ameryki Południowej, odwiedzając Urugwaj, Argentynę i Peru, mimo że zaledwie trzy tygodnie temu przeszedł operację płuc.\n3. Niemiecki rząd przekazuje Ukrainie dodatkowe 100 milionów euro na zabezpieczenie infrastruktury krytycznej, m.in. na zakup generatorów i przygotowanie szkół do zimy.\n4. Rosyjski kapitan i azerski członek załogi zostali skazani na więzienie w Finlandii za wleczenie kotwicy statku i uszkodzenie dwóch kabli telekomunikacyjnych na Morzu Bałtyckim.\n5. Premier Armenii ogłosił plany formalnego złożenia wniosku o członkostwo w UE do 2028 r., sygnalizując prozachodni kurs i powodując dalsze pogorszenie stosunków z Rosją.\n6. Niemiecki Bundestag przyjął ustawę wymagającą od większych rzeźni instalacji monitoringu wizyjnego w celu zapewnienia przestrzegania przepisów o dobrostanie zwierząt.\n\nZagadnienie gramatyczne do ćwiczenia: zdania z \"nachdem\" i następstwo czasów (użycie Plusquamperfekt, gdy zdanie główne jest w Präteritum/Perfekt).\n\nPrzydatne słowa z dzisiejszych artykułów (zachęcaj mnie do ich używania): begnadigen, das Todesurteil, die Notlage, beschaffen, die Sabotage, der Beitritt, die Annäherung, geradestehen.\n\nInstrukcje dla tutora AI:\n1. Prowadź rozmowę od swojej pierwszej wiadomości. Przywitaj się serdecznie i zapytaj, czy wysłuchałem dzisiejszego nagrania. Jeśli nie, streść temat 1 w dwóch prostych zdaniach po niemiecku i mimo to kontynuuj.\n2. Ty pytasz, ja mówię. Zadawaj pytania pojedynczo – nigdy więcej niż jedno pytanie w jednej wypowiedzi. Każda Twoja wypowiedź powinna mieć jedno lub dwa krótkie zdania, żebym to ja mówił najwięcej, i nigdy nie odpowiadaj na własne pytania. Mów po niemiecku na poziomie B1–C1 i przechodź na polski tylko wtedy, gdy naprawdę utknę.\n3. Każde pytanie musi odnosić się do tematów ze Słuchania wymienionych powyżej. Omawiaj tematy po kolei i poruszaj co najmniej cztery z sześciu. Przy każdym temacie najpierw pytaj o fakty, potem o przyczyny i skutki, alternatywne perspektywy oraz moją własną ocenę. Pod koniec poproś mnie o porównanie lub połączenie dwóch tematów. Krótkie pytania osobiste są dozwolone tylko wtedy, gdy wyraźnie wynikają z omawianego tematu.\n4. Zachęcaj mnie do używania zdań podrzędnych zaczynających się od \"nachdem\" do opisywania kolejności zdarzeń. Przypominaj mi, że czynność w zdaniu z \"nachdem\" musi być o jeden czas bardziej przeszła (np. Plusquamperfekt) niż w zdaniu głównym.\n5. Pomysły na pytania (dostosuj je do moich odpowiedzi i do omawianego tematu):\n   - (temat 1) Was passierte, nachdem der Gouverneur die Todesurteile umgewandelt hatte? Beginne mit „Nachdem ...“.\n   - (temat 2) Was tat der Papst, nachdem er operiert worden war?\n   - (temat 4) Was passierte mit dem Kapitän, nachdem das Schiff die Kabel beschädigt hatte?\n   - (temat 5) Wie reagierte Russland, nachdem Armenien die Annäherung an die EU angekündigt hatte?\n   - (temat 6) Was müssen die Schlachthöfe tun, nachdem das Gesetz verabschiedet worden ist?\n6. Procedura natychmiastowej korekty: jeśli popełnię błąd dotyczący dzisiejszej zasady, na przykład *Nachdem der Papst operiert wurde, reiste er ab.* zamiast *Nachdem der Papst operiert worden war, reiste er ab.*, na chwilę przerwij rozmowę i:\n   - Zacytuj błąd.\n   - Podaj poprawne zdanie po niemiecku.\n   - Wyjaśnij w jednym zdaniu po polsku obowiązującą zasadę.\n   - Poproś mnie o głośne powtórzenie poprawnego zdania przed przejściem do kolejnego pytania.\n7. Poprawiaj również inne istotne błędy językowe, ale krótko i bez przerywania mi z powodu drobnych różnic stylistycznych, a moje powtarzające się błędy zapamiętaj na podsumowanie.\n8. Jeśli moja odpowiedź jest bardzo krótka lub niepewna, zadaj jedno pytanie uzupełniające (na przykład „Warum?“, „Kannst du ein Beispiel nennen?“ lub „Wie siehst du das?“), zanim przejdziesz dalej.\n9. Podsumowanie: po około 20 minutach lub gdy powiem „stop”, zakończ rozmowę i daj krótką informację zwrotną: dwie rzeczy, które mi się udały, trzy najważniejsze błędy (zwłaszcza dotyczące dzisiejszego zagadnienia gramatycznego) z poprawionymi zdaniami oraz pięć słów z dzisiejszych artykułów ze Słuchania wartych powtórzenia. Zakończ jednym niemieckim zdaniem do głośnego powtórzenia.\n10. Zachowuj angażujący, profesjonalny i naturalny ton, odpowiedni dla immersyjnej rozmowy głosowej po niemiecku. Zwracaj się do mnie per „du”."
     }
   }
+},
+ {
+  "lesson": {
+    "id": "2026-11-07",
+    "date": "07.11.2026",
+    "day": 26,
+    "totalDays": 300,
+    "level": "B1",
+    "title": {
+      "en": "Bevor/Ehe-clauses and the Order of Events",
+      "pl": "Zdania z bevor/ehe i kolejność zdarzeń"
+    },
+    "subtitle": "Temporalsätze mit bevor und ehe"
+  },
+  "grammar": {
+    "html": {
+      "en": [
+        "<h3>The conjunctions <em>bevor</em> and <em>ehe</em></h3><p>The subordinating conjunctions <strong>bevor</strong> and <strong>ehe</strong> both mean \"before\". They are used to describe an action that happens <em>after</em> the action in the main clause. In other words, the main clause happens first, and the <em>bevor/ehe</em>-clause happens second.</p><p><strong>Bevor</strong> is the standard, everyday word. <strong>Ehe</strong> means exactly the same thing but sounds slightly more formal or literary. You can use them interchangeably.</p>",
+        "<div class='box rule'><strong>Core rule:</strong> <em>Bevor</em> and <em>ehe</em> send the conjugated verb to the end of their clause. Unlike <em>nachdem</em>, you normally use the <strong>same tense</strong> in both the main clause and the <em>bevor/ehe</em>-clause.</div>",
+        "<h3>Using the same tense</h3><p>When talking about the past, present, or future, German usually keeps both clauses in the same tense when using <em>bevor</em> or <em>ehe</em>. You do not need a strict tense shift (like Past Perfect to Simple Past) because the word \"before\" already makes the chronological order perfectly clear.</p><ul><li><em>Wir <strong>räumten</strong> das Büro auf, <strong>bevor</strong> die Gäste <strong>kamen</strong>.</em> (Both in Präteritum)</li><li><em>Ich <strong>trinke</strong> einen Kaffee, <strong>ehe</strong> ich mit der Arbeit <strong>beginne</strong>.</em> (Both in Präsens)</li><li><em>Sie <strong>hat</strong> das Dokument <strong>geprüft</strong>, <strong>bevor</strong> sie es <strong>unterschrieben hat</strong>.</em> (Both in Perfekt)</li></ul>",
+        "<h3>Word order</h3><p>Because they are subordinating conjunctions, the finite (conjugated) verb goes to the very end of the <em>bevor/ehe</em>-clause. If you start the whole sentence with the <em>bevor/ehe</em>-clause, the main clause must immediately follow and begin with its verb (V2 rule for the whole sentence).</p>",
+        "<table><thead><tr><th>Bevor/Ehe-clause (Action 2)</th><th>Main clause (Action 1)</th></tr></thead><tbody><tr><td class='de'><strong>Bevor</strong> er das Haus <strong>verlässt</strong>,</td><td class='de'><strong>schaltet</strong> er das Licht <strong>aus</strong>.</td></tr><tr><td class='de'><strong>Ehe</strong> der Zug <strong>abfuhr</strong>,</td><td class='de'><strong>stiegen</strong> noch viele Leute <strong>ein</strong>.</td></tr></tbody></table>",
+        "<div class='box warn'><strong>Typical mistake: Confusing <em>bevor</em>, <em>vor</em>, and <em>vorher</em></strong><p>✗ <strong>Vor</strong> ich schlafe, lese ich ein Buch.</p><p>✓ <strong>Bevor</strong> ich schlafe, lese ich ein Buch.</p><p><strong>Bevor</strong> is a conjunction (connects clauses: <em>Bevor wir essen...</em>). <strong>Vor</strong> is a preposition (needs a noun: <em>Vor dem Essen...</em>). <strong>Vorher</strong> is an adverb (<em>Wir essen gleich, aber vorher...</em>).</p></div>",
+        "<div class='box tip'><strong>Memory aid:</strong> <em>Ehe</em> is very short, just like \"ere\" in old English (which also meant before). If you are unsure, just use <em>bevor</em>—it is always correct and natural in any context.</div>",
+        "<h3>Quick reference</h3><div class='tiles'><div class='tile'><strong>Present</strong><p><em>Bevor ich gehe, rufe ich an.</em></p></div><div class='tile'><strong>Past</strong><p><em>Ehe er antwortete, dachte er nach.</em></p></div><div class='tile'><strong>Preposition (Contrast)</strong><p><em>Vor dem Abflug... (No verb)</em></p></div><div class='tile'><strong>Adverb (Contrast)</strong><p><em>Ich muss vorher anrufen.</em></p></div></div>"
+      ],
+      "pl": [
+        "<h3>Spójniki <em>bevor</em> i <em>ehe</em></h3><p>Spójniki podrzędne <strong>bevor</strong> i <strong>ehe</strong> oznaczają „zanim” lub „przedtem, nim”. Służą do opisywania czynności, która następuje <em>po</em> czynności w zdaniu głównym. Innymi słowy, zdanie główne dzieje się najpierw, a zdanie z <em>bevor/ehe</em> później.</p><p><strong>Bevor</strong> to standardowe słowo używane na co dzień. <strong>Ehe</strong> oznacza dokładnie to samo, ale brzmi nieco bardziej formalnie lub literacko. Można ich używać zamiennie.</p>",
+        "<div class='box rule'><strong>Główna zasada:</strong> <em>Bevor</em> i <em>ehe</em> wysyłają odmieniony czasownik na koniec swojego zdania. W przeciwieństwie do <em>nachdem</em>, zazwyczaj używa się <strong>tego samego czasu</strong> zarówno w zdaniu głównym, jak i w zdaniu z <em>bevor/ehe</em>.</div>",
+        "<h3>Używanie tego samego czasu</h3><p>Mówiąc o przeszłości, teraźniejszości lub przyszłości, niemiecki zazwyczaj zachowuje oba zdania w tym samym czasie przy użyciu <em>bevor</em> lub <em>ehe</em>. Nie ma potrzeby ścisłego przesuwania czasów (np. z czasu zaprzeszłego na przeszły), ponieważ samo słowo „zanim” czyni porządek chronologiczny całkowicie jasnym.</p><ul><li><em>Wir <strong>räumten</strong> das Büro auf, <strong>bevor</strong> die Gäste <strong>kamen</strong>.</em> (Oba w Präteritum)</li><li><em>Ich <strong>trinke</strong> einen Kaffee, <strong>ehe</strong> ich mit der Arbeit <strong>beginne</strong>.</em> (Oba w Präsens)</li><li><em>Sie <strong>hat</strong> das Dokument <strong>geprüft</strong>, <strong>bevor</strong> sie es <strong>unterschrieben hat</strong>.</em> (Oba w Perfekt)</li></ul>",
+        "<h3>Szyk wyrazów</h3><p>Ponieważ są to spójniki podrzędne, czasownik (odmieniony) wędruje na sam koniec zdania z <em>bevor/ehe</em>. Jeśli zaczniesz całą wypowiedź od zdania z <em>bevor/ehe</em>, zdanie główne musi nastąpić bezpośrednio po nim i zaczynać się od czasownika (zasada V2 dla całego zdania).</p>",
+        "<table><thead><tr><th>Zdanie z Bevor/Ehe (Czynność 2)</th><th>Zdanie główne (Czynność 1)</th></tr></thead><tbody><tr><td class='de'><strong>Bevor</strong> er das Haus <strong>verlässt</strong>,</td><td class='de'><strong>schaltet</strong> er das Licht <strong>aus</strong>.</td></tr><tr><td class='de'><strong>Ehe</strong> der Zug <strong>abfuhr</strong>,</td><td class='de'><strong>stiegen</strong> noch viele Leute <strong>ein</strong>.</td></tr></tbody></table>",
+        "<div class='box warn'><strong>Typowy błąd: Mylenie <em>bevor</em>, <em>vor</em> i <em>vorher</em></strong><p>✗ <strong>Vor</strong> ich schlafe, lese ich ein Buch.</p><p>✓ <strong>Bevor</strong> ich schlafe, lese ich ein Buch.</p><p><strong>Bevor</strong> to spójnik (łączy zdania: <em>Bevor wir essen...</em>). <strong>Vor</strong> to przyimek (wymaga rzeczownika: <em>Vor dem Essen...</em>). <strong>Vorher</strong> to przysłówek (<em>Wir essen gleich, aber vorher...</em>).</p></div>",
+        "<div class='box tip'><strong>Wskazówka:</strong> <em>Ehe</em> jest krótkie i często spotykane w literaturze lub utartych zwrotach. Jeśli nie masz pewności, po prostu użyj <em>bevor</em> – jest zawsze poprawne i naturalne w każdym kontekście.</div>",
+        "<h3>Szybki przegląd</h3><div class='tiles'><div class='tile'><strong>Teraźniejszość</strong><p><em>Bevor ich gehe, rufe ich an.</em></p></div><div class='tile'><strong>Przeszłość</strong><p><em>Ehe er antwortete, dachte er nach.</em></p></div><div class='tile'><strong>Przyimek (Dla kontrastu)</strong><p><em>Vor dem Abflug... (Brak czasownika)</em></p></div><div class='tile'><strong>Przysłówek (Dla kontrastu)</strong><p><em>Ich muss vorher anrufen.</em></p></div></div>"
+      ]
+    }
+  },
+  "examples": [
+    {
+      "de": "**Bevor** wir **essen**, **waschen** wir die Hände.",
+      "en": "Before we eat, we wash our hands.",
+      "pl": "Zanim zjemy, myjemy ręce.",
+      "level": "A1"
+    },
+    {
+      "de": "Ich **trinke** Kaffee, **bevor** ich zur Arbeit **fahre**.",
+      "en": "I drink coffee before I go to work.",
+      "pl": "Piję kawę, zanim pojadę do pracy.",
+      "level": "A1"
+    },
+    {
+      "de": "**Bevor** der Film **begann**, **kauften** wir Popcorn.",
+      "en": "Before the film began, we bought popcorn.",
+      "pl": "Zanim zaczął się film, kupiliśmy popcorn.",
+      "level": "A2"
+    },
+    {
+      "de": "Er **räumte** sein Zimmer auf, **ehe** die Gäste **ankamen**.",
+      "en": "He tidied his room before the guests arrived.",
+      "pl": "Posprzątał swój pokój, nim przybyli goście.",
+      "level": "A2"
+    },
+    {
+      "de": "**Bevor** du **gehst**, **musst** du das Fenster **schließen**.",
+      "en": "Before you leave, you must close the window.",
+      "pl": "Zanim wyjdziesz, musisz zamknąć okno.",
+      "level": "A2"
+    },
+    {
+      "de": "Wir **warten**, **ehe** wir eine Entscheidung **treffen**.",
+      "en": "We will wait before we make a decision.",
+      "pl": "Poczekamy, zanim podejmiemy decyzję.",
+      "level": "B1"
+    },
+    {
+      "de": "**Bevor** sie das Dokument **unterschrieb**, **las** sie es sorgfältig durch.",
+      "en": "Before she signed the document, she read it through carefully.",
+      "pl": "Zanim podpisała dokument, przeczytała go uważnie.",
+      "level": "B1"
+    },
+    {
+      "de": "Der Pilot **prüfte** die Instrumente, **ehe** das Flugzeug **startete**.",
+      "en": "The pilot checked the instruments before the plane took off.",
+      "pl": "Pilot sprawdził przyrządy, nim samolot wystartował.",
+      "level": "B1"
+    },
+    {
+      "de": "**Bevor** die Polizei **eintraf**, **war** der Dieb schon **geflohen**.",
+      "en": "Before the police arrived, the thief had already fled.",
+      "pl": "Zanim przyjechała policja, złodziej zdążył już uciec.",
+      "level": "B1"
+    },
+    {
+      "de": "Bitte **speichern** Sie die Datei ab, **bevor** Sie den Computer **herunterfahren**.",
+      "en": "Please save the file before you shut down the computer.",
+      "pl": "Proszę zapisać plik, zanim wyłączy pan komputer.",
+      "level": "B1"
+    },
+    {
+      "de": "**Bevor** die Bundesversammlung den Präsidenten **wählt**, **gibt** es viele Diskussionen.",
+      "en": "Before the Federal Convention elects the president, there are many discussions.",
+      "pl": "Zanim Zgromadzenie Federalne wybierze prezydenta, toczy się wiele dyskusji.",
+      "level": "B2"
+    },
+    {
+      "de": "Die Regierung **muss** Reformen **einleiten**, **ehe** die Wirtschaft weiter **schrumpft**.",
+      "en": "The government must initiate reforms before the economy shrinks further.",
+      "pl": "Rząd musi zainicjować reformy, nim gospodarka skurczy się jeszcze bardziej.",
+      "level": "B2"
+    },
+    {
+      "de": "**Bevor** der Vertrag rechtskräftig **wurde**, **mussten** beide Parteien **zustimmen**.",
+      "en": "Before the contract became legally binding, both parties had to agree.",
+      "pl": "Zanim umowa stała się prawomocna, obie strony musiały wyrazić zgodę.",
+      "level": "B2"
+    },
+    {
+      "de": "Das Parlament **debattierte** stundenlang, **ehe** das neue Tierschutzgesetz **verabschiedet wurde**.",
+      "en": "The parliament debated for hours before the new animal welfare law was passed.",
+      "pl": "Parlament debatował godzinami, nim uchwalono nową ustawę o ochronie zwierząt.",
+      "level": "B2"
+    },
+    {
+      "de": "**Bevor** die Anschuldigungen an die Öffentlichkeit **gelangten**, **hatte** der Politiker sein Amt **niedergelegt**.",
+      "en": "Before the accusations reached the public, the politician had resigned from his office.",
+      "pl": "Zanim oskarżenia przedostały się do opinii publicznej, polityk złożył urząd.",
+      "level": "B2"
+    },
+    {
+      "de": "**Ehe** die Zentralbank die Zinsen **senkte**, **analysierte** sie die Inflationsdaten genau.",
+      "en": "Before the central bank lowered interest rates, it analysed the inflation data closely.",
+      "pl": "Zanim bank centralny obniżył stopy procentowe, dokładnie przeanalizował dane o inflacji.",
+      "level": "C1"
+    },
+    {
+      "de": "Die Ermittler **sicherten** alle Beweise, **bevor** die Pressekonferenz **einberufen wurde**.",
+      "en": "The investigators secured all evidence before the press conference was convened.",
+      "pl": "Śledczy zabezpieczyli wszystkie dowody, zanim zwołano konferencję prasową.",
+      "level": "C1"
+    },
+    {
+      "de": "**Bevor** das Start-up an die Börse **ging**, **mussten** zahlreiche regulatorische Hürden **überwunden werden**.",
+      "en": "Before the start-up went public, numerous regulatory hurdles had to be overcome.",
+      "pl": "Zanim start-up wszedł na giełdę, trzeba było pokonać liczne przeszkody regulacyjne.",
+      "level": "C1"
+    },
+    {
+      "de": "**Ehe** der diplomatische Eklat vollends **eskalierte**, **lenkte** die Regierung in letzter Minute **ein**.",
+      "en": "Before the diplomatic scandal escalated completely, the government yielded at the last minute.",
+      "pl": "Zanim skandal dyplomatyczny całkowicie eskalował, rząd ustąpił w ostatniej chwili.",
+      "level": "C2"
+    },
+    {
+      "de": "Die strukturellen Defizite **wurden** lange ignoriert, **bevor** der drohende Kollaps ein Umdenken **erzwang**.",
+      "en": "The structural deficits were ignored for a long time before the impending collapse forced a rethink.",
+      "pl": "Strukturalne deficyty były długo ignorowane, zanim grożący upadek wymusił zmianę myślenia.",
+      "level": "C2"
+    }
+  ],
+  "exercises": [
+    {
+      "en": "Before we eat, we wash our hands.",
+      "pl": "Zanim zjemy, myjemy ręce.",
+      "de": "Bevor wir essen, waschen wir die Hände.",
+      "level": "A2"
+    },
+    {
+      "en": "I drink tea before I sleep.",
+      "pl": "Piję herbatę, zanim pójdę spać.",
+      "de": "Ich trinke Tee, bevor ich schlafe.",
+      "level": "A2"
+    },
+    {
+      "en": "Before he goes to work, he reads the newspaper.",
+      "pl": "Zanim on idzie do pracy, czyta gazetę.",
+      "de": "Bevor er zur Arbeit geht, liest er die Zeitung.",
+      "level": "A2"
+    },
+    {
+      "en": "We buy the tickets before the train departs.",
+      "pl": "Kupujemy bilety, zanim pociąg odjedzie.",
+      "de": "Wir kaufen die Tickets, bevor der Zug abfährt.",
+      "level": "A2"
+    },
+    {
+      "en": "Before the film begins, I switch off my mobile phone.",
+      "pl": "Zanim zacznie się film, wyłączam telefon komórkowy.",
+      "de": "Bevor der Film beginnt, schalte ich mein Handy aus.",
+      "level": "A2"
+    },
+    {
+      "en": "She packs her bag before she travels.",
+      "pl": "Ona pakuje swoją torbę, zanim wyruszy w podróż.",
+      "de": "Sie packt ihre Tasche, bevor sie reist.",
+      "level": "A2"
+    },
+    {
+      "en": "Before it rains, we go home.",
+      "pl": "Zanim zacznie padać, idziemy do domu.",
+      "de": "Bevor es regnet, gehen wir nach Hause.",
+      "level": "A2"
+    },
+    {
+      "en": "I ask my mother before I buy the toy.",
+      "pl": "Pytam mamę, zanim kupię tę zabawkę.",
+      "de": "Ich frage meine Mutter, bevor ich das Spielzeug kaufe.",
+      "level": "A2"
+    },
+    {
+      "en": "Before we play, we do our homework.",
+      "pl": "Zanim się pobawimy, odrabiamy zadanie domowe.",
+      "de": "Bevor wir spielen, machen wir die Hausaufgaben.",
+      "level": "A2"
+    },
+    {
+      "en": "He cleans the kitchen before the guests come.",
+      "pl": "On sprząta kuchnię, zanim przyjdą goście.",
+      "de": "Er putzt die Küche, bevor die Gäste kommen.",
+      "level": "A2"
+    },
+    {
+      "en": "Before I sign the contract, I read it completely.",
+      "pl": "Zanim podpiszę umowę, czytam ją w całości.",
+      "de": "Bevor ich den Vertrag unterschreibe, lese ich ihn komplett.",
+      "level": "B1"
+    },
+    {
+      "en": "The meeting ended before we could ask questions.",
+      "pl": "Spotkanie się skończyło, zanim zdążyliśmy zadać pytania.",
+      "de": "Die Besprechung endete, bevor wir Fragen stellen konnten.",
+      "level": "B1"
+    },
+    {
+      "en": "Before you send the email, please check the attachment.",
+      "pl": "Zanim wyślesz e-mail, sprawdź proszę załącznik.",
+      "de": "Bevor du die E-Mail verschickst, prüfe bitte den Anhang.",
+      "level": "B1"
+    },
+    {
+      "en": "We must book the hotel before it is too late.",
+      "pl": "Musimy zarezerwować hotel, zanim będzie za późno.",
+      "de": "Wir müssen das Hotel buchen, bevor es zu spät ist.",
+      "level": "B1"
+    },
+    {
+      "en": "Before the boss arrived, the employees prepared everything.",
+      "pl": "Zanim przybył szef, pracownicy wszystko przygotowali.",
+      "de": "Bevor der Chef ankam, bereiteten die Mitarbeiter alles vor.",
+      "level": "B1"
+    },
+    {
+      "en": "I always drink a glass of water before I do sports.",
+      "pl": "Zawsze piję szklankę wody, zanim uprawiam sport.",
+      "de": "Ich trinke immer ein Glas Wasser, bevor ich Sport mache.",
+      "level": "B1"
+    },
+    {
+      "en": "Before the plane takes off, all passengers must sit down.",
+      "pl": "Zanim samolot wystartuje, wszyscy pasażerowie muszą usiąść.",
+      "de": "Bevor das Flugzeug startet, müssen sich alle Passagiere hinsetzen.",
+      "level": "B1"
+    },
+    {
+      "en": "She learned Spanish before she moved to Madrid.",
+      "pl": "Nauczyła się hiszpańskiego, zanim przeprowadziła się do Madrytu.",
+      "de": "Sie lernte Spanisch, bevor sie nach Madrid zog.",
+      "level": "B1"
+    },
+    {
+      "en": "Before we discuss the price, I would like to test the product.",
+      "pl": "Zanim omówimy cenę, chciałbym przetestować produkt.",
+      "de": "Bevor wir den Preis diskutieren, möchte ich das Produkt testen.",
+      "level": "B1"
+    },
+    {
+      "en": "The alarm rang before the thieves could steal anything.",
+      "pl": "Alarm zadzwonił, zanim złodzieje zdążyli coś ukraść.",
+      "de": "Der Alarm klingelte, bevor die Diebe etwas stehlen konnten.",
+      "level": "B1"
+    },
+    {
+      "en": "Before we start the presentation, I will introduce myself.",
+      "pl": "Zanim rozpoczniemy prezentację, przedstawię się.",
+      "de": "Bevor wir mit der Präsentation beginnen, werde ich mich vorstellen.",
+      "level": "B1"
+    },
+    {
+      "en": "You should ask a doctor before you take this medicine.",
+      "pl": "Powinieneś zapytać lekarza, zanim weźmiesz to lekarstwo.",
+      "de": "Du solltest einen Arzt fragen, bevor du dieses Medikament nimmst.",
+      "level": "B1"
+    },
+    {
+      "en": "Before the storm began, we closed all the windows.",
+      "pl": "Zanim zaczęła się burza, zamknęliśmy wszystkie okna.",
+      "de": "Bevor der Sturm begann, schlossen wir alle Fenster.",
+      "level": "B1"
+    },
+    {
+      "en": "I want to finish this task before I go on holiday.",
+      "pl": "Chcę skończyć to zadanie, zanim pojadę na urlop.",
+      "de": "Ich möchte diese Aufgabe beenden, bevor ich in den Urlaub fahre.",
+      "level": "B1"
+    },
+    {
+      "en": "Before he answered, he thought for a moment.",
+      "pl": "Zanim odpowiedział, pomyślał przez chwilę.",
+      "de": "Bevor er antwortete, dachte er einen Moment nach.",
+      "level": "B1"
+    },
+    {
+      "en": "We must solve the problem before the customer notices it.",
+      "pl": "Musimy rozwiązać problem, zanim klient to zauważy.",
+      "de": "Wir müssen das Problem lösen, bevor der Kunde es bemerkt.",
+      "level": "B1"
+    },
+    {
+      "en": "Before she went to university, she worked for a year.",
+      "pl": "Zanim poszła na uniwersytet, pracowała przez rok.",
+      "de": "Bevor sie an die Universität ging, arbeitete sie ein Jahr lang.",
+      "level": "B1"
+    },
+    {
+      "en": "Please call me before you visit us.",
+      "pl": "Proszę zadzwoń do mnie, zanim nas odwiedzisz.",
+      "de": "Bitte ruf mich an, bevor du uns besuchst.",
+      "level": "B1"
+    },
+    {
+      "en": "Before the concert started, we bought drinks.",
+      "pl": "Zanim zaczął się koncert, kupiliśmy napoje.",
+      "de": "Bevor das Konzert anfing, kauften wir Getränke.",
+      "level": "B1"
+    },
+    {
+      "en": "He checked the bill before he paid.",
+      "pl": "Sprawdził rachunek, zanim zapłacił.",
+      "de": "Er prüfte die Rechnung, bevor er bezahlte.",
+      "level": "B1"
+    },
+    {
+      "en": "Before the company launches the new product, comprehensive tests must be carried out.",
+      "pl": "Zanim firma wypuści nowy produkt, muszą zostać przeprowadzone kompleksowe testy.",
+      "de": "Bevor das Unternehmen das neue Produkt auf den Markt bringt, müssen umfassende Tests durchgeführt werden.",
+      "level": "B2"
+    },
+    {
+      "en": "The politician resigned before the scandal became fully public.",
+      "pl": "Polityk zrezygnował, zanim skandal stał się w pełni publiczny.",
+      "de": "Der Politiker trat zurück, bevor der Skandal vollständig öffentlich wurde.",
+      "level": "B2"
+    },
+    {
+      "en": "Before the parliament passes the law, it is debated in the committees.",
+      "pl": "Zanim parlament uchwali ustawę, debatuje się nad nią w komisjach.",
+      "de": "Bevor das Parlament das Gesetz verabschiedet, wird es in den Ausschüssen debattiert.",
+      "level": "B2"
+    },
+    {
+      "en": "We need to clarify the financing before we sign the purchase agreement.",
+      "pl": "Musimy wyjaśnić finansowanie, zanim podpiszemy umowę kupna.",
+      "de": "Wir müssen die Finanzierung klären, bevor wir den Kaufvertrag unterschreiben.",
+      "level": "B2"
+    },
+    {
+      "en": "Before the system is updated, all users must save their data.",
+      "pl": "Zanim system zostanie zaktualizowany, wszyscy użytkownicy muszą zapisać swoje dane.",
+      "de": "Bevor das System aktualisiert wird, müssen alle Nutzer ihre Daten speichern.",
+      "level": "B2"
+    },
+    {
+      "en": "The suspect fled before the police could initiate the search.",
+      "pl": "Podejrzany uciekł, zanim policja zdążyła wszcząć poszukiwania.",
+      "de": "Der Verdächtige floh, bevor die Polizei die Fahndung einleiten konnte.",
+      "level": "B2"
+    },
+    {
+      "en": "Before the negotiations continue, both sides need a break.",
+      "pl": "Zanim negocjacje będą kontynuowane, obie strony potrzebują przerwy.",
+      "de": "Bevor die Verhandlungen weitergehen, brauchen beide Seiten eine Pause.",
+      "level": "B2"
+    },
+    {
+      "en": "Before the project is finally approved, the board wants to see a risk analysis.",
+      "pl": "Zanim projekt zostanie ostatecznie zatwierdzony, zarząd chce zobaczyć analizę ryzyka.",
+      "de": "Bevor das Projekt endgültig genehmigt wird, möchte der Vorstand eine Risikoanalyse sehen.",
+      "level": "B2"
+    },
+    {
+      "en": "He checked all the numbers again ere he sent the report.",
+      "pl": "Sprawdził wszystkie liczby jeszcze raz, nim wysłał raport.",
+      "de": "Er überprüfte alle Zahlen noch einmal, ehe er den Bericht verschickte.",
+      "level": "B2"
+    },
+    {
+      "en": "Before the election results are announced, projections are published.",
+      "pl": "Zanim ogłoszone zostaną wyniki wyborów, publikowane są prognozy.",
+      "de": "Bevor die Wahlergebnisse verkündet werden, veröffentlicht man Hochrechnungen.",
+      "level": "B2"
+    },
+    {
+      "en": "Before the flight was cancelled, the passengers had waited for hours.",
+      "pl": "Zanim lot został odwołany, pasażerowie czekali godzinami.",
+      "de": "Bevor der Flug storniert wurde, hatten die Passagiere stundenlang gewartet.",
+      "level": "B2"
+    },
+    {
+      "en": "The manager rejected the proposal before we could present the details.",
+      "pl": "Menedżer odrzucił propozycję, zanim zdążyliśmy przedstawić szczegóły.",
+      "de": "Der Manager wies den Vorschlag zurück, bevor wir die Details präsentieren konnten.",
+      "level": "B2"
+    },
+    {
+      "en": "Before you criticize the decision, you should know the background.",
+      "pl": "Zanim skrytykujesz decyzję, powinieneś znać tło sytuacji.",
+      "de": "Bevor du die Entscheidung kritisierst, solltest du die Hintergründe kennen.",
+      "level": "B2"
+    },
+    {
+      "en": "Before the central bank lowers interest rates, inflation must fall.",
+      "pl": "Zanim bank centralny obniży stopy procentowe, inflacja musi spaść.",
+      "de": "Bevor die Zentralbank die Zinsen senkt, muss die Inflation sinken.",
+      "level": "B2"
+    },
+    {
+      "en": "The software must be tested thoroughly ere it is released to the public.",
+      "pl": "Oprogramowanie musi zostać dokładnie przetestowane, nim zostanie udostępnione publicznie.",
+      "de": "Die Software muss gründlich getestet werden, ehe sie für die Öffentlichkeit freigegeben wird.",
+      "level": "B2"
+    },
+    {
+      "en": "Before the candidate runs for office, he must gather enough support.",
+      "pl": "Zanim kandydat wystartuje w wyborach, musi zebrać wystarczające poparcie.",
+      "de": "Bevor der Kandidat für das Amt antritt, muss er genug Unterstützung sammeln.",
+      "level": "B2"
+    },
+    {
+      "en": "Before the company expands, the market conditions must be analysed.",
+      "pl": "Zanim firma się rozwinie, muszą zostać przeanalizowane warunki rynkowe.",
+      "de": "Bevor das Unternehmen expandiert, müssen die Marktbedingungen analysiert werden.",
+      "level": "B2"
+    },
+    {
+      "en": "The workers went on strike before the management made an offer.",
+      "pl": "Robotnicy rozpoczęli strajk, zanim kierownictwo złożyło ofertę.",
+      "de": "Die Arbeiter streikten, bevor das Management ein Angebot machte.",
+      "level": "B2"
+    },
+    {
+      "en": "Before the storm hits the coast, the residents must be evacuated.",
+      "pl": "Zanim burza uderzy w wybrzeże, mieszkańcy muszą zostać ewakuowani.",
+      "de": "Bevor der Sturm die Küste trifft, müssen die Bewohner evakuiert werden.",
+      "level": "B2"
+    },
+    {
+      "en": "He secured his data ere the virus could destroy the hard drive.",
+      "pl": "Zabezpieczył swoje dane, nim wirus zdążył zniszczyć dysk twardy.",
+      "de": "Er sicherte seine Daten, ehe der Virus die Festplatte zerstören konnte.",
+      "level": "B2"
+    },
+    {
+      "en": "Before the authorities intervene, the situation usually escalates.",
+      "pl": "Zanim władze zainterweniują, sytuacja zazwyczaj eskaluje.",
+      "de": "Bevor die Behörden eingreifen, eskaliert die Situation meistens.",
+      "level": "B2"
+    },
+    {
+      "en": "We must fix the bug before the customer complains.",
+      "pl": "Musimy naprawić błąd, zanim klient złoży skargę.",
+      "de": "Wir müssen den Fehler beheben, bevor der Kunde sich beschwert.",
+      "level": "B2"
+    },
+    {
+      "en": "Before the press conference begins, the journalists receive a summary.",
+      "pl": "Zanim rozpocznie się konferencja prasowa, dziennikarze otrzymują podsumowanie.",
+      "de": "Bevor die Pressekonferenz beginnt, erhalten die Journalisten eine Zusammenfassung.",
+      "level": "B2"
+    },
+    {
+      "en": "The fire was extinguished before it could spread to other buildings.",
+      "pl": "Pożar został ugaszony, zanim zdążył się rozprzestrzenić na inne budynki.",
+      "de": "Das Feuer wurde gelöscht, bevor es auf andere Gebäude übergreifen konnte.",
+      "level": "B2"
+    },
+    {
+      "en": "Before the new rules apply, there is a transition period.",
+      "pl": "Zanim zaczną obowiązywać nowe zasady, obowiązuje okres przejściowy.",
+      "de": "Bevor die neuen Regeln gelten, gibt es eine Übergangsfrist.",
+      "level": "B2"
+    },
+    {
+      "en": "Before you invest money, you should inform yourself about the risks.",
+      "pl": "Zanim zainwestujesz pieniądze, powinieneś dowiedzieć się o ryzyku.",
+      "de": "Bevor du Geld investierst, solltest du dich über die Risiken informieren.",
+      "level": "B2"
+    },
+    {
+      "en": "The machine must be switched off ere maintenance work is carried out.",
+      "pl": "Maszyna musi zostać wyłączona, nim zostaną przeprowadzone prace konserwacyjne.",
+      "de": "Die Maschine muss ausgeschaltet werden, ehe Wartungsarbeiten durchgeführt werden.",
+      "level": "B2"
+    },
+    {
+      "en": "Before the delegation travels to the summit, the goals must be defined.",
+      "pl": "Zanim delegacja uda się na szczyt, muszą zostać określone cele.",
+      "de": "Bevor die Delegation zum Gipfel reist, müssen die Ziele definiert werden.",
+      "level": "B2"
+    },
+    {
+      "en": "The crisis had already worsened before the UN could intervene.",
+      "pl": "Kryzys już się pogorszył, zanim ONZ zdążyło zainterweniować.",
+      "de": "Die Krise hatte sich bereits verschärft, bevor die UNO eingreifen konnte.",
+      "level": "B2"
+    },
+    {
+      "en": "Before the festival takes place, the organizers need a permit.",
+      "pl": "Zanim odbędzie się festiwal, organizatorzy potrzebują pozwolenia.",
+      "de": "Bevor das Festival stattfindet, brauchen die Organisatoren eine Genehmigung.",
+      "level": "B2"
+    },
+    {
+      "en": "Before the company files for bankruptcy, it will try to find an investor.",
+      "pl": "Zanim firma złoży wniosek o upadłość, spróbuje znaleźć inwestora.",
+      "de": "Bevor das Unternehmen Insolvenz anmeldet, wird es versuchen, einen Investor zu finden.",
+      "level": "B2"
+    },
+    {
+      "en": "The evidence was destroyed before the investigators arrived.",
+      "pl": "Dowody zostały zniszczone, zanim przybyli śledczy.",
+      "de": "Die Beweise wurden zerstört, bevor die Ermittler eintrafen.",
+      "level": "B2"
+    },
+    {
+      "en": "Before the new software is installed, a backup must be created.",
+      "pl": "Zanim nowe oprogramowanie zostanie zainstalowane, musi zostać utworzona kopia zapasowa.",
+      "de": "Bevor die neue Software installiert wird, muss ein Backup erstellt werden.",
+      "level": "B2"
+    },
+    {
+      "en": "Before the minister answers the question, he consults his advisor.",
+      "pl": "Zanim minister odpowie na pytanie, konsultuje się ze swoim doradcą.",
+      "de": "Bevor der Minister die Frage beantwortet, berät er sich mit seinem Berater.",
+      "level": "B2"
+    },
+    {
+      "en": "The issue must be resolved ere the project can continue.",
+      "pl": "Kwestia musi zostać rozwiązana, nim projekt będzie mógł być kontynuowany.",
+      "de": "Das Problem muss gelöst werden, ehe das Projekt fortgesetzt werden kann.",
+      "level": "B2"
+    },
+    {
+      "en": "Before the refugees receive asylum, their identity is checked.",
+      "pl": "Zanim uchodźcy otrzymają azyl, ich tożsamość jest sprawdzana.",
+      "de": "Bevor die Flüchtlinge Asyl erhalten, wird ihre Identität geprüft.",
+      "level": "B2"
+    },
+    {
+      "en": "Before the new product line is launched, market research is necessary.",
+      "pl": "Zanim nowa linia produktów zostanie wprowadzona na rynek, konieczne są badania rynku.",
+      "de": "Bevor die neue Produktlinie eingeführt wird, ist Marktforschung nötig.",
+      "level": "B2"
+    },
+    {
+      "en": "The building was evacuated before the bomb could be defused.",
+      "pl": "Budynek został ewakuowany, zanim bomba mogła zostać rozbrojona.",
+      "de": "Das Gebäude wurde evakuiert, bevor die Bombe entschärft werden konnte.",
+      "level": "B2"
+    },
+    {
+      "en": "Before the court reaches a verdict, all witnesses are heard.",
+      "pl": "Zanim sąd wyda wyrok, wszyscy świadkowie są przesłuchiwani.",
+      "de": "Bevor das Gericht ein Urteil fällt, werden alle Zeugen angehört.",
+      "level": "B2"
+    },
+    {
+      "en": "Before the contract expires, we must negotiate a renewal.",
+      "pl": "Zanim wygaśnie umowa, musimy wynegocjować odnowienie.",
+      "de": "Bevor der Vertrag ausläuft, müssen wir eine Verlängerung verhandeln.",
+      "level": "B2"
+    },
+    {
+      "en": "Before the supervisory board approves the merger, antitrust concerns must be dispelled.",
+      "pl": "Zanim rada nadzorcza zatwierdzi fuzję, obawy antymonopolowe muszą zostać rozwiane.",
+      "de": "Bevor der Aufsichtsrat die Fusion genehmigt, müssen kartellrechtliche Bedenken ausgeräumt werden.",
+      "level": "C1"
+    },
+    {
+      "en": "The executive committee rejected the draft ere it could even be presented to the assembly.",
+      "pl": "Komitet wykonawczy odrzucił projekt, nim zdążył on w ogóle zostać przedstawiony zgromadzeniu.",
+      "de": "Der Vorstand lehnte den Entwurf ab, ehe er der Versammlung überhaupt vorgelegt werden konnte.",
+      "level": "C1"
+    },
+    {
+      "en": "Before the government can implement the austerity measures, it faces fierce opposition.",
+      "pl": "Zanim rząd będzie mógł wdrożyć środki oszczędnościowe, staje w obliczu ostrego sprzeciwu.",
+      "de": "Bevor die Regierung die Sparmaßnahmen umsetzen kann, stößt sie auf heftigen Widerstand.",
+      "level": "C1"
+    },
+    {
+      "en": "The central bank intervened in the currency markets before the exchange rate collapsed completely.",
+      "pl": "Bank centralny zainterweniował na rynkach walutowych, zanim kurs wymiany całkowicie się załamał.",
+      "de": "Die Zentralbank intervenierte an den Devisenmärkten, bevor der Wechselkurs vollständig einbrach.",
+      "level": "C1"
+    },
+    {
+      "en": "Before the accusations could be independently verified, the media had already condemned him.",
+      "pl": "Zanim oskarżenia mogły zostać niezależnie zweryfikowane, media już go potępiły.",
+      "de": "Bevor die Anschuldigungen unabhängig überprüft werden konnten, hatten die Medien ihn bereits verurteilt.",
+      "level": "C1"
+    },
+    {
+      "en": "The treaty must be ratified by all member states ere it can enter into force.",
+      "pl": "Traktat musi zostać ratyfikowany przez wszystkie państwa członkowskie, nim będzie mógł wejść w życie.",
+      "de": "Der Vertrag muss von allen Mitgliedsstaaten ratifiziert werden, ehe er in Kraft treten kann.",
+      "level": "C1"
+    },
+    {
+      "en": "Before the pharmaceutical company brings the drug to market, extensive clinical trials are mandatory.",
+      "pl": "Zanim firma farmaceutyczna wprowadzi lek na rynek, obowiązkowe są rozległe badania kliniczne.",
+      "de": "Bevor das Pharmaunternehmen das Medikament auf den Markt bringt, sind umfangreiche klinische Studien zwingend erforderlich.",
+      "level": "C1"
+    },
+    {
+      "en": "The diplomat tried to de-escalate the situation before a military conflict became inevitable.",
+      "pl": "Dyplomata próbował deeskalować sytuację, zanim konflikt zbrojny stałby się nieunikniony.",
+      "de": "Der Diplomat versuchte die Situation zu deeskalieren, bevor ein militärischer Konflikt unausweichlich wurde.",
+      "level": "C1"
+    },
+    {
+      "en": "Before the new environmental regulations take effect, the industry is demanding a transitional period.",
+      "pl": "Zanim nowe przepisy środowiskowe wejdą w życie, przemysł domaga się okresu przejściowego.",
+      "de": "Bevor die neuen Umweltauflagen in Kraft treten, fordert die Industrie eine Übergangsfrist.",
+      "level": "C1"
+    },
+    {
+      "en": "The opposition leader was arrested ere he could address the large rally.",
+      "pl": "Lider opozycji został aresztowany, nim zdążył przemówić na wielkim wiecu.",
+      "de": "Der Oppositionsführer wurde festgenommen, ehe er zu der Großkundgebung sprechen konnte.",
+      "level": "C1"
+    },
+    {
+      "en": "Before the corporation announces its insolvency, all rescue attempts will be exhausted.",
+      "pl": "Zanim korporacja ogłosi swoją niewypłacalność, wyczerpane zostaną wszystkie próby ratunku.",
+      "de": "Bevor der Konzern seine Insolvenz anmeldet, werden alle Rettungsversuche ausgeschöpft.",
+      "level": "C1"
+    },
+    {
+      "en": "The leaked documents were published before the authorities could obtain an injunction.",
+      "pl": "Dokumenty, które wyciekły, zostały opublikowane, zanim władze mogły uzyskać nakaz sądowy.",
+      "de": "Die geleakten Dokumente wurden veröffentlicht, bevor die Behörden eine einstweilige Verfügung erwirken konnten.",
+      "level": "C1"
+    },
+    {
+      "en": "Before the infrastructure project is tendered, a comprehensive environmental impact assessment is required.",
+      "pl": "Zanim projekt infrastrukturalny zostanie poddany przetargowi, wymagana jest kompleksowa ocena oddziaływania na środowisko.",
+      "de": "Bevor das Infrastrukturprojekt ausgeschrieben wird, ist eine umfassende Umweltverträglichkeitsprüfung erforderlich.",
+      "level": "C1"
+    },
+    {
+      "en": "The CEO stepped down ere the shareholders could vote him out of office.",
+      "pl": "Dyrektor generalny ustąpił, nim akcjonariusze zdążyli go odwołać w głosowaniu.",
+      "de": "Der CEO trat zurück, ehe die Aktionäre ihn abwählen konnten.",
+      "level": "C1"
+    },
+    {
+      "en": "Before the diplomatic relations are fully restored, certain preconditions must be met.",
+      "pl": "Zanim stosunki dyplomatyczne zostaną w pełni przywrócone, muszą zostać spełnione pewne warunki wstępne.",
+      "de": "Bevor die diplomatischen Beziehungen vollständig wiederhergestellt werden, müssen bestimmte Vorbedingungen erfüllt sein.",
+      "level": "C1"
+    },
+    {
+      "en": "The security flaws were patched before hackers could exploit the vulnerability.",
+      "pl": "Luki w zabezpieczeniach zostały załatane, zanim hakerzy mogli wykorzystać tę słabość.",
+      "de": "Die Sicherheitslücken wurden behoben, bevor Hacker die Schwachstelle ausnutzen konnten.",
+      "level": "C1"
+    },
+    {
+      "en": "Before the new tax reform is passed, its impact on the middle class will be evaluated.",
+      "pl": "Zanim nowa reforma podatkowa zostanie uchwalona, oceniony zostanie jej wpływ na klasę średnią.",
+      "de": "Bevor die neue Steuerreform verabschiedet wird, wird ihre Auswirkung auf die Mittelschicht evaluiert.",
+      "level": "C1"
+    },
+    {
+      "en": "The negotiations collapsed ere a consensus on the core issues could be reached.",
+      "pl": "Negocjacje załamały się, nim udało się osiągnąć konsensus w kluczowych kwestiach.",
+      "de": "Die Verhandlungen brachen zusammen, ehe ein Konsens in den Kernfragen erzielt werden konnte.",
+      "level": "C1"
+    },
+    {
+      "en": "Before the organization can claim non-profit status, it must undergo a strict audit.",
+      "pl": "Zanim organizacja będzie mogła ubiegać się o status non-profit, musi przejść rygorystyczny audyt.",
+      "de": "Bevor die Organisation die Gemeinnützigkeit beanspruchen kann, muss sie sich einer strengen Prüfung unterziehen.",
+      "level": "C1"
+    },
+    {
+      "en": "The controversial monument was dismantled before the protests could escalate further.",
+      "pl": "Kontrowersyjny pomnik został zdemontowany, zanim protesty mogły dalej eskalować.",
+      "de": "Das umstrittene Denkmal wurde demontiert, bevor die Proteste weiter eskalieren konnten.",
+      "level": "C1"
+    },
+    {
+      "en": "Before the constitutional amendment can be enacted, a two-thirds majority in both chambers is imperative.",
+      "pl": "Zanim poprawka do konstytucji będzie mogła zostać uchwalona, bezwzględnie wymagana jest większość dwóch trzecich w obu izbach.",
+      "de": "Bevor die Verfassungsänderung in Kraft treten kann, ist eine Zweidrittelmehrheit in beiden Kammern zwingend erforderlich.",
+      "level": "C2"
+    },
+    {
+      "en": "The erstwhile undisputed market leader was forced into liquidation ere a bailout package could be finalized.",
+      "pl": "Dawny, niekwestionowany lider rynku został zmuszony do likwidacji, nim pakiet ratunkowy zdołał zostać sfinalizowany.",
+      "de": "Der einst unangefochtene Marktführer wurde in die Liquidation gezwungen, ehe ein Rettungspaket geschnürt werden konnte.",
+      "level": "C2"
+    },
+    {
+      "en": "Before the diplomatic overtures yielded any tangible results, the geopolitical landscape had already shifted irrevocably.",
+      "pl": "Zanim dyplomatyczne propozycje przyniosły jakiekolwiek wymierne rezultaty, krajobraz geopolityczny uległ już nieodwracalnej zmianie.",
+      "de": "Bevor die diplomatischen Annäherungsversuche greifbare Ergebnisse lieferten, hatte sich die geopolitische Landschaft bereits unwiderruflich verschoben.",
+      "level": "C2"
+    },
+    {
+      "en": "The systemic vulnerabilities were glaringly exposed before the regulatory bodies could devise a cohesive counter-strategy.",
+      "pl": "Luki systemowe zostały rażąco obnażone, zanim organy regulacyjne zdołały opracować spójną strategię przeciwdziałania.",
+      "de": "Die systemischen Schwachstellen wurden eklatant offengelegt, bevor die Aufsichtsbehörden eine kohärente Gegenstrategie entwerfen konnten.",
+      "level": "C2"
+    },
+    {
+      "en": "Before the avant-garde artist's magnum opus was fully appreciated, decades of critical disdain had to be overcome.",
+      "pl": "Zanim opus magnum awangardowego artysty zostało w pełni docenione, trzeba było przezwyciężyć dekady krytycznej pogardy.",
+      "de": "Bevor das Opus magnum des Avantgarde-Künstlers volle Anerkennung fand, mussten Jahrzehnte kritischer Geringschätzung überwunden werden.",
+      "level": "C2"
+    },
+    {
+      "en": "The precarious coalition government collapsed ere the contentious budget could be pushed through parliament.",
+      "pl": "Kruchy rząd koalicyjny upadł, nim kontrowersyjny budżet zdołał zostać przeforsowany przez parlament.",
+      "de": "Die prekäre Koalitionsregierung zerbrach, ehe der umstrittene Haushalt durch das Parlament gepeitscht werden konnte.",
+      "level": "C2"
+    },
+    {
+      "en": "Before the insidious effects of the policy became apparent to the broader public, irreversible damage had already been inflicted.",
+      "pl": "Zanim podstępne skutki tej polityki stały się widoczne dla szerszej publiczności, wyrządzono już nieodwracalne szkody.",
+      "de": "Bevor die schleichenden Auswirkungen der Politik für die breite Öffentlichkeit sichtbar wurden, war bereits irreversibler Schaden angerichtet worden.",
+      "level": "C2"
+    },
+    {
+      "en": "The clandestine machinations of the intelligence apparatus were laid bare ere they could subvert the democratic process.",
+      "pl": "Tajne machinacje aparatu wywiadowczego zostały obnażone, nim zdołały podważyć proces demokratyczny.",
+      "de": "Die klandestinen Machenschaften des Geheimdienstapparats wurden aufgedeckt, ehe sie den demokratischen Prozess untergraben konnten.",
+      "level": "C2"
+    },
+    {
+      "en": "Before the macroeconomic indicators signalled a recession, astute investors had already diversified their portfolios.",
+      "pl": "Zanim wskaźniki makroekonomiczne zasygnalizowały recesję, bystrzy inwestorzy już zdywersyfikowali swoje portfele.",
+      "de": "Bevor die makroökonomischen Indikatoren eine Rezession signalisierten, hatten scharfsinnige Investoren ihre Portfolios bereits diversifiziert.",
+      "level": "C2"
+    },
+    {
+      "en": "The paradigm shift in linguistic theory occurred ere traditional scholars could mount a coherent defense of their methodologies.",
+      "pl": "Zmiana paradygmatu w teorii językoznawczej nastąpiła, nim tradycyjni uczeni zdołali przygotować spójną obronę swoich metodologii.",
+      "de": "Der Paradigmenwechsel in der linguistischen Theorie vollzog sich, ehe traditionelle Gelehrte eine kohärente Verteidigung ihrer Methodologien aufbauen konnten.",
+      "level": "C2"
+    }
+  ],
+  "listening": {
+    "audioUrl": "https://radiodownloaddw-a.akamaihd.net/downloads/Events/dwelle/dira/mp3/deutschkurse/nachrichten_live/94312A4F_2.mp3",
+    "articles": [
+      {
+        "heading": "Konservative wollen Ilse Aigner als Bundespräsidentin nominieren",
+        "text": "Die bayerische Landtagspräsidentin Ilse Aigner soll offenbar für die konservativen Schwesterparteien CDU und CSU als Kandidatin für das Amt der Bundespräsidentin in Deutschland [[antreten|1]]. Das berichten verschiedene Medien unter Berufung auf CDU-Kreise. Die 61-jährige CSU-Politikerin könnte die erste Frau an der Spitze des deutschen Staates werden. Aigner genießt auch über Parteigrenzen hinweg Unterstützung. Zuletzt hatten sich führende Politiker von Sozialdemokraten und Grünen für sie ausgesprochen. Die Bundesversammlung wählt am 30. Januar die [[Nachfolge|2]] von Bundespräsident Frank-Walter Steinmeier."
+      },
+      {
+        "heading": "Frankfurt erwartet zehntausende Demonstranten wegen Preisverleihung an Schah-Sohn",
+        "text": "Anlässlich der Vergabe des Freiheitspreises der Friedrich-Naumann-Stiftung an das iranische Volk wird es an diesem Samstag in Frankfurt am Main eine [[Großkundgebung|3]] und mehrere Gegendemonstrationen geben. Grund ist die Übergabe der Auszeichnung in der westdeutschen Metropole an den Exilpolitiker und Schah-Sohn Reza Pahlavi. Der 66-Jährige soll den Preis treuhänderisch und [[stellvertretend|4]] entgegennehmen. Die Ankündigung hat eine Kontroverse ausgelöst. Kritiker werfen Pahlavi vor, er habe sich nicht eindeutig von der früheren Diktatur seines Vaters distanziert. Mit dem Freiheitspreis zeichnet die FDP-nahe Friedrich-Naumann-Stiftung herausragendes Engagement für die Entwicklung der liberalen Bürgergesellschaft aus."
+      },
+      {
+        "heading": "DW verurteilt belarussisches Vorgehen gegen Mitarbeiterinnen des Senders",
+        "text": "Die Behörden von Belarus haben eine [[Fahndung|5]] nach vier Journalistinnen der Deutschen Welle eingeleitet. Auch in Russland wird nach ihnen gefahndet. Der deutsche Auslandssender verurteilte das Vorgehen scharf. DW-Intendantin Barbara Massing sagte, der Fahndungsbefehl sei ein „inakzeptabler Versuch, unabhängigen Journalismus zu kriminalisieren“. Das belarussische Angebot der Deutschen Welle ist seit April 2024 in Belarus verboten. Damals hatte das Innenministerium des autoritär regierten osteuropäischen Landes DW Belarus als „extremistische Organisation“ [[eingestuft|6]]. Belarus steht auf der Rangliste der Pressefreiheit von „Reporter ohne Grenzen“ derzeit auf Rang 165 von 180."
+      },
+      {
+        "heading": "Weitere Anschlagsdrohungen im europäischen Luftverkehr",
+        "text": "Die Serie von Bombendrohungen gegen Flugzeuge in Europa hält an. Am Freitag waren mindestens 16 Flüge betroffen. Vier Maschinen mussten [[außerplanmäßig|7]] in Frankreich landen. In Irland gab es zudem Drohungen auch gegen mehrere Radio- und Fernsehsender sowie Zeitungsredaktionen. [[Sprengsätze|8]] wurden nicht gefunden. Bereits am Donnerstag waren fast 30 Flüge in Europa betroffen. Wer hinter den Drohungen steckt, ist unklar. In einigen Fällen gab es Bekennerschreiben mit Bezug zu einer rechtsextremen Gruppierung aus Russland. Ein Zusammenhang ist bislang nicht belegt."
+      },
+      {
+        "heading": "Hochrechnungen in Neuseeland deuten auf knappen Wahlausgang",
+        "text": "In der neuseeländischen Hauptstadt Wellington zeichnet sich nach Abschluss der Parlamentswahl eine schwierige Regierungsbildung ab. Nach ersten [[Hochrechnungen|9]] erhielt die regierende National Party von Ministerpräsident Christopher Luxon gut 29 Prozent der Stimmen. Die oppositionelle Labour Party unter Führung seines Amtsvorgängers Chris Hipkins liegt etwa [[gleichauf|10]]. Demnach wären sowohl der konservative Luxon als auch sein sozialdemokratischer Herausforderer Hipkins auf Koalitionspartner angewiesen. Den neuseeländischen Wahlkampf dominiert hatten hohe Lebenshaltungskosten, Inflation und steigende Benzinpreise infolge des Konflikts im Nahen Osten."
+      },
+      {
+        "heading": "Missbrauchsvorwüfe gegen Meghan Markles Vater",
+        "text": "In den USA ist der Vater der britischen Herzogin Meghan, Thomas Markle, festgenommen worden. Dem 82-Jährigen wird der Besitz von [[Darstellungen|11]] sexuellen Kindesmissbrauchs vorgeworfen. Laut den Zeitungen „Daily Mail“ und „New York Post“ führten FBI-Beamte ihn aus einem Seniorenheim in Florida ab. Die philippinische Polizei hatte zuvor mitgeteilt, auf Datenträgern Markles entsprechendes Material gefunden zu haben. Thomas Markle weist die Vorwürfe zurück. Seine Tochter Meghan teilte mit, sie habe bereits 2018 von ähnlichen [[Anschuldigungen|12]] erfahren und deshalb den Kontakt zwischen ihrem Vater und ihren Kindern verhindert."
+      }
+    ],
+    "vocab": [
+      {
+        "id": 1,
+        "word": "antreten",
+        "translation": {
+          "en": "to run for office; to compete",
+          "pl": "kandydować, przystąpić do rywalizacji"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Separable verb. Often used with 'als Kandidat' or 'zu einer Wahl'.",
+          "pl": "Czasownik rozdzielnie złożony. Często używany w kontekście wyborów lub zawodów."
+        },
+        "examples": [
+          "Sie möchte bei der nächsten Wahl als Bürgermeisterin antreten.",
+          "Der Titelverteidiger wird wegen einer Verletzung nicht antreten."
+        ]
+      },
+      {
+        "id": 2,
+        "word": "die Nachfolge",
+        "translation": {
+          "en": "succession",
+          "pl": "następstwo, sukcesja"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Nachfolgen",
+        "notes": {
+          "en": "Refers to taking over a position or office from someone else.",
+          "pl": "Odnosi się do przejęcia po kimś stanowiska lub urzędu."
+        },
+        "examples": [
+          "Die Nachfolge des Direktors ist noch nicht geklärt.",
+          "Er trat die Nachfolge seines Vaters im Familienunternehmen an."
+        ]
+      },
+      {
+        "id": 3,
+        "word": "die Großkundgebung",
+        "translation": {
+          "en": "large rally; mass demonstration",
+          "pl": "wielki wiec, masowa demonstracja"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Großkundgebungen",
+        "notes": {
+          "en": "A very large public gathering for a political or social cause.",
+          "pl": "Bardzo duże zgromadzenie publiczne w celach politycznych lub społecznych."
+        },
+        "examples": [
+          "Am Wochenende findet in der Hauptstadt eine Großkundgebung statt.",
+          "Die Gewerkschaft rief zu einer Großkundgebung gegen die Kürzungen auf."
+        ]
+      },
+      {
+        "id": 4,
+        "word": "stellvertretend",
+        "translation": {
+          "en": "on behalf of; as a representative",
+          "pl": "w zastępstwie, jako reprezentant"
+        },
+        "partOfSpeech": "Adverb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Acting in the place of someone else.",
+          "pl": "Działanie w czyimś imieniu lub na czyjeś miejsce."
+        },
+        "examples": [
+          "Er nahm den Preis stellvertretend für das gesamte Team entgegen.",
+          "Die Ministerin sprach stellvertretend für die Bundesregierung."
+        ]
+      },
+      {
+        "id": 5,
+        "word": "die Fahndung",
+        "translation": {
+          "en": "manhunt; search",
+          "pl": "poszukiwania, obława"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Fahndungen",
+        "notes": {
+          "en": "Usually a police search for a suspect or a missing person.",
+          "pl": "Zazwyczaj policyjne poszukiwania podejrzanego lub zaginionej osoby."
+        },
+        "examples": [
+          "Die Polizei hat eine europaweite Fahndung nach dem Täter eingeleitet.",
+          "Trotz intensiver Fahndung blieb der Verdächtige verschwunden."
+        ]
+      },
+      {
+        "id": 6,
+        "word": "einstufen",
+        "translation": {
+          "en": "to classify; to categorize",
+          "pl": "sklasyfikować, zaliczyć do"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Separable verb. Used when assigning a category or level to something.",
+          "pl": "Czasownik rozdzielnie złożony. Używany przy przypisywaniu kategorii lub poziomu."
+        },
+        "examples": [
+          "Die Behörde hat das Dokument als 'streng geheim' eingestuft.",
+          "Experten stufen das Risiko eines Erdbebens als hoch ein."
+        ]
+      },
+      {
+        "id": 7,
+        "word": "außerplanmäßig",
+        "translation": {
+          "en": "unscheduled; irregular",
+          "pl": "nieplanowany, nadzwyczajny"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Happening outside of the normal schedule or plan.",
+          "pl": "Dziejący się poza normalnym harmonogramem lub planem."
+        },
+        "examples": [
+          "Wegen eines medizinischen Notfalls musste das Flugzeug außerplanmäßig landen.",
+          "Der Vorstand rief eine außerplanmäßige Sitzung ein."
+        ]
+      },
+      {
+        "id": 8,
+        "word": "der Sprengsatz",
+        "translation": {
+          "en": "explosive device",
+          "pl": "ładunek wybuchowy"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Sprengsätze",
+        "notes": {
+          "en": "A bomb or similar device designed to explode.",
+          "pl": "Bomba lub podobne urządzenie przeznaczone do wybuchu."
+        },
+        "examples": [
+          "Die Spezialisten der Polizei konnten den Sprengsatz rechtzeitig entschärfen.",
+          "Ein versteckter Sprengsatz richtete großen Schaden an."
+        ]
+      },
+      {
+        "id": 9,
+        "word": "die Hochrechnung",
+        "translation": {
+          "en": "projection; forecast (e.g., in elections)",
+          "pl": "prognoza, szacunkowy wynik (np. wyborów)"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Hochrechnungen",
+        "notes": {
+          "en": "An estimate based on early data, commonly used on election nights.",
+          "pl": "Szacunek na podstawie wczesnych danych, często używany w wieczory wyborcze."
+        },
+        "examples": [
+          "Die erste Hochrechnung wird kurz nach Schließung der Wahllokale erwartet.",
+          "Laut aktuellen Hochrechnungen bleibt die Regierungspartei stärkste Kraft."
+        ]
+      },
+      {
+        "id": 10,
+        "word": "gleichauf",
+        "translation": {
+          "en": "tied; neck and neck",
+          "pl": "łeb w łeb, na równi"
+        },
+        "partOfSpeech": "Adverb",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Used to describe competitors who have the same score or level of support.",
+          "pl": "Używane do opisania konkurentów mających ten sam wynik lub poziom poparcia."
+        },
+        "examples": [
+          "In den Umfragen liegen beide Kandidaten momentan gleichauf.",
+          "Die Teams waren bis zur letzten Minute gleichauf."
+        ]
+      },
+      {
+        "id": 11,
+        "word": "die Darstellung",
+        "translation": {
+          "en": "depiction; representation",
+          "pl": "przedstawienie, wizerunek"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Darstellungen",
+        "notes": {
+          "en": "Can mean a visual image (like a photo or drawing) or a verbal account.",
+          "pl": "Może oznaczać obraz wizualny (jak zdjęcie lub rysunek) lub relację słowną."
+        },
+        "examples": [
+          "Der Besitz solcher illegalen Darstellungen ist strafbar.",
+          "Die Darstellung der Ereignisse im Film war sehr realistisch."
+        ]
+      },
+      {
+        "id": 12,
+        "word": "die Anschuldigung",
+        "translation": {
+          "en": "accusation; allegation",
+          "pl": "oskarżenie, zarzut"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Anschuldigungen",
+        "notes": {
+          "en": "A claim that someone has done something wrong or illegal.",
+          "pl": "Twierdzenie, że ktoś zrobił coś złego lub nielegalnego."
+        },
+        "examples": [
+          "Der Minister wies alle Anschuldigungen entschieden zurück.",
+          "Gegen den Manager wurden schwere Anschuldigungen erhoben."
+        ]
+      }
+    ]
+  },
+  "speaking": {
+    "prompt": {
+      "en": "You are my German language tutor conducting a 20-minute B1-to-C1 speaking conversation based on the Listening section of today's lesson (German news from 7 November 2026).\n\nListening reference – the 6 news stories from today's Listening section, in the same order as the articles:\n1. Bavarian state parliament president Ilse Aigner is expected to run as the conservative candidate for German President, enjoying cross-party support.\n2. A large rally and counter-demonstrations are expected in Frankfurt as the Friedrich Naumann Foundation awards a freedom prize to the Iranian people, accepted by the Shah's son, Reza Pahlavi.\n3. Belarus has launched a manhunt for four Deutsche Welle female journalists, a move DW strongly condemns as an attempt to criminalize independent journalism.\n4. A series of bomb threats against airplanes in Europe continues, with at least 16 flights affected on Friday and four unscheduled landings in France, though no explosives were found.\n5. New Zealand faces difficult coalition negotiations as projections show the ruling National Party and the opposition Labour Party neck and neck after the parliamentary elections.\n6. Thomas Markle, father of the Duchess of Sussex, was arrested in the US on allegations of possessing child abuse material, claims which he denies.\n\nGrammar focus to elicit: bevor/ehe-clauses and the order of events (using the same tense in both clauses).\n\nUseful words from today's Listening articles (invite me to use them): antreten, die Nachfolge, die Großkundgebung, die Fahndung, außerplanmäßig, der Sprengsatz, die Hochrechnung, gleichauf, die Anschuldigung.\n\nInstructions for the AI tutor:\n1. Start the conversation: greet me and ask whether I have listened to today's broadcast. If not, summarise story 1 in two simple German sentences and continue.\n2. You ask, I speak: one question per turn, one or two short sentences, never answer your own questions. German at B1-C1 level; English only if I am really stuck.\n3. Questions refer to the stories above, in order, covering at least four: facts first, then causes, consequences, other perspectives, my evaluation. Near the end, ask me to connect two stories.\n4. Encourage me to use subordinate clauses starting with \"bevor\" or \"ehe\" to describe the sequence of events. Remind me that the verb goes to the end of the clause and that both clauses usually take the same tense.\n5. Question ideas (adapt to my answers):\n   - (story 1) Was muss Ilse Aigner tun, bevor sie Bundespräsidentin wird? Beginne mit „Bevor...“.\n   - (story 3) Was passierte in Belarus, bevor die DW-Journalistinnen gesucht wurden?\n   - (story 4) Was machten die Piloten, bevor sie außerplanmäßig landeten?\n   - (story 5) Was müssen die Parteien in Neuseeland tun, ehe sie eine Regierung bilden können?\n   - (story 6) Was passierte, bevor Thomas Markle festgenommen wurde?\n6. Immediate correction: if I break today's rule (e.g. *Vor ich das Haus verlasse, trinke ich Kaffee.* instead of *Bevor ich das Haus verlasse, trinke ich Kaffee.*), stop briefly: quote the error, give the correct sentence, explain the rule in 1 English sentence, ask me to repeat the correct sentence aloud before the next question.\n7. Also correct other significant errors briefly; note recurring mistakes for the final feedback. If my answer is very short, ask one follow-up („Warum?“).\n8. Wrap-up after ~20 minutes or when I say \"stop\": two things I did well, three key mistakes with corrections, five words to review, one German sentence to repeat aloud.\n9. Keep the tone engaging, professional, natural for an immersive German voice dialogue. Address me as „du“.",
+      "pl": "Jesteś moim nauczycielem języka niemieckiego i prowadzisz 20-minutową rozmowę na poziomie od B1 do C1 w oparciu o część Słuchanie z dzisiejszej lekcji (niemieckie wiadomości z 7 listopada 2026 roku).\n\nMateriał ze Słuchania – 6 tematów wiadomości z dzisiejszej części Słuchanie, w tej samej kolejności co artykuły:\n1. Oczekuje się, że przewodnicząca bawarskiego parlamentu Ilse Aigner wystartuje jako konserwatywna kandydatka na prezydenta Niemiec, ciesząc się ponadpartyjnym poparciem.\n2. We Frankfurcie spodziewany jest duży wiec i kontrdemonstracje w związku z przyznaniem przez Fundację Friedricha Naumanna nagrody wolności narodowi irańskiemu, którą ma odebrać syn szacha, Reza Pahlavi.\n3. Białoruś wszczęła poszukiwania czterech dziennikarek Deutsche Welle, co DW zdecydowanie potępia jako próbę kryminalizacji niezależnego dziennikarstwa.\n4. Trwa seria gróźb bombowych wobec samolotów w Europie; w piątek ucierpiało co najmniej 16 lotów, a cztery maszyny lądowały nieplanowo we Francji, choć nie znaleziono materiałów wybuchowych.\n5. Nową Zelandię czekają trudne negocjacje koalicyjne, ponieważ prognozy pokazują, że rządząca Partia Narodowa i opozycyjna Partia Pracy idą łeb w łeb po wyborach parlamentarnych.\n6. Thomas Markle, ojciec księżnej Sussex, został aresztowany w USA pod zarzutem posiadania materiałów przedstawiających wykorzystywanie dzieci, czemu on sam zaprzecza.\n\nZagadnienie gramatyczne do ćwiczenia: zdania z bevor/ehe i kolejność zdarzeń (używanie tego samego czasu w obu zdaniach).\n\nPrzydatne słowa z dzisiejszych artykułów (zachęcaj mnie do ich używania): antreten, die Nachfolge, die Großkundgebung, die Fahndung, außerplanmäßig, der Sprengsatz, die Hochrechnung, gleichauf, die Anschuldigung.\n\nInstrukcje dla tutora AI:\n1. Prowadź rozmowę od swojej pierwszej wiadomości. Przywitaj się serdecznie i zapytaj, czy wysłuchałem dzisiejszego nagrania. Jeśli nie, streść temat 1 w dwóch prostych zdaniach po niemiecku i mimo to kontynuuj.\n2. Ty pytasz, ja mówię. Zadawaj pytania pojedynczo – nigdy więcej niż jedno pytanie w jednej wypowiedzi. Każda Twoja wypowiedź powinna mieć jedno lub dwa krótkie zdania, żebym to ja mówił najwięcej, i nigdy nie odpowiadaj na własne pytania. Mów po niemiecku na poziomie B1–C1 i przechodź na polski tylko wtedy, gdy naprawdę utknę.\n3. Każde pytanie musi odnosić się do tematów ze Słuchania wymienionych powyżej. Omawiaj tematy po kolei i poruszaj co najmniej cztery z sześciu. Przy każdym temacie najpierw pytaj o fakty, potem o przyczyny i skutki, alternatywne perspektywy oraz moją własną ocenę. Pod koniec poproś mnie o porównanie lub połączenie dwóch tematów. Krótkie pytania osobiste są dozwolone tylko wtedy, gdy wyraźnie wynikają z omawianego tematu.\n4. Zachęcaj mnie do używania zdań podrzędnych zaczynających się od \"bevor\" lub \"ehe\" do opisywania kolejności zdarzeń. Przypominaj mi, że czasownik wędruje na koniec zdania i że oba zdania zazwyczaj przyjmują ten sam czas.\n5. Pomysły na pytania (dostosuj je do moich odpowiedzi i do omawianego tematu):\n   - (temat 1) Was muss Ilse Aigner tun, bevor sie Bundespräsidentin wird? Beginne mit „Bevor...“.\n   - (temat 3) Was passierte in Belarus, bevor die DW-Journalistinnen gesucht wurden?\n   - (temat 4) Was machten die Piloten, bevor sie außerplanmäßig landeten?\n   - (temat 5) Was müssen die Parteien in Neuseeland tun, ehe sie eine Regierung bilden können?\n   - (temat 6) Was passierte, bevor Thomas Markle festgenommen wurde?\n6. Procedura natychmiastowej korekty: jeśli popełnię błąd dotyczący dzisiejszej zasady, na przykład *Vor ich das Haus verlasse, trinke ich Kaffee.* zamiast *Bevor ich das Haus verlasse, trinke ich Kaffee.*, na chwilę przerwij rozmowę i:\n   - Zacytuj błąd.\n   - Podaj poprawne zdanie po niemiecku.\n   - Wyjaśnij w jednym zdaniu po polsku obowiązującą zasadę.\n   - Poproś mnie o głośne powtórzenie poprawnego zdania przed przejściem do kolejnego pytania.\n7. Poprawiaj również inne istotne błędy językowe, ale krótko i bez przerywania mi z powodu drobnych różnic stylistycznych, a moje powtarzające się błędy zapamiętaj na podsumowanie.\n8. Jeśli moja odpowiedź jest bardzo krótka lub niepewna, zadaj jedno pytanie uzupełniające (na przykład „Warum?“, „Kannst du ein Beispiel nennen?“ lub „Wie siehst du das?“), zanim przejdziesz dalej.\n9. Podsumowanie: po około 20 minutach lub gdy powiem „stop”, zakończ rozmowę i daj krótką informację zwrotną: dwie rzeczy, które mi się udały, trzy najważniejsze błędy (zwłaszcza dotyczące dzisiejszego zagadnienia gramatycznego) z poprawionymi zdaniami oraz pięć słów z dzisiejszych artykułów ze Słuchania wartych powtórzenia. Zakończ jednym niemieckim zdaniem do głośnego powtórzenia.\n10. Zachowuj angażujący, profesjonalny i naturalny ton, odpowiedni dla immersyjnej rozmowy głosowej po niemiecku. Zwracaj się do mnie per „du”."
+    }
+  }
 }
 ]
