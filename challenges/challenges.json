@@ -31656,5 +31656,1317 @@
       "pl": "Jesteś moim nauczycielem języka niemieckiego i prowadzisz 20-minutową rozmowę na poziomie od B1 do C1 w oparciu o część Słuchanie z dzisiejszej lekcji (niemieckie wiadomości z 4 listopada 2026 roku) ORAZ na ogólny temat dyskusji: 'Pokonywanie przeszkód: wytrwałość i kompromis w społeczeństwie i życiu codziennym'.\n\nMateriał ze Słuchania – sześć tematów wiadomości z dzisiejszej części Słuchanie, w tej samej kolejności co artykuły:\n1. Demokraci odzyskali Izbę Reprezentantów i Senat USA, poważnie ograniczając możliwości prezydenta Trumpa; Trump twierdzi, że będzie współpracować mimo wcześniejszych gróźb.\n2. Prezydent Ukrainy Zełenski ostrzegł przed wzrostem prorosyjskich partii w Europie, wyraźnie nawiązując do AfD i Rassemblement National na konferencji w Berlinie.\n3. Konserwatywny przywódca Szwecji Ulf Kristersson ma tydzień na sformowanie nowej koalicji po tym, jak parlament odrzucił kandydatkę Partii Centrum w obliczu głębokiego politycznego impasu.\n4. Minister transportu Hiszpanii Óscar Puente podał się do dymisji po dwóch poważnych katastrofach kolejowych w tym roku, w których zginęło łącznie 115 osób.\n5. Parlament Grenlandii zatwierdził umowę bezpieczeństwa z USA, oczekując na ostateczne głosowanie Danii, mimo wcześniejszych gróźb Trumpa dotyczących aneksji.\n6. Brazylia przedstawiła międzynarodową mapę drogową stopniowego wycofywania paliw kopalnych do 2050 r. przed szczytem COP31 w Turcji, choć kroki te nie są wiążące.\n\nZagadnienie gramatyczne do ćwiczenia: Przyzwolenie z użyciem 'obwohl' (zdanie podrzędne, czasownik na końcu) i 'trotzdem' (zdanie główne, czasownik na 2. miejscu).\n\nPrzydatne słowa z dzisiejszych artykułów (zachęcaj mnie do ich używania): zurückerobern, unerwünscht, überleben, das Sondierungsgespräch, der Rücktritt, das Abkommen, der Ausstieg, bindend.\n\nInstrukcje dla tutora AI:\n1. Rozpocznij rozmowę: przywitaj się i wprowadź dzisiejszy podwójny temat: ostatnie wiadomości oraz ogólną dyskusję o pokonywaniu przeszkód poprzez wytrwałość i kompromis.\n2. Ty pytasz, ja mówię: zadawaj pytania pojedynczo, jedno lub dwa krótkie zdania, nigdy nie odpowiadaj na własne pytania. Mów po niemiecku na poziomie B1–C1; przechodź na polski tylko wtedy, gdy naprawdę utknę.\n3. Omawiaj różne aspekty tematu: impasy polityczne, osobiste wyzwania, kompromisy ekologiczne oraz szczegóły z powyższych wiadomości.\n4. Zachęcaj mnie do używania spójników 'obwohl' i 'trotzdem' do wyrażania kontrastu i przyzwolenia, przypominając mi o poprawnej pozycji czasownika dla każdego z nich.\n5. Pomysły na pytania (dostosuj je do moich odpowiedzi):\n   - (temat 1) Trump sagte, er wolle kooperieren. Was denkst du darüber? (Antworte mit 'obwohl'.)\n   - (temat 6) Brasiliens Plan ist nicht rechtlich bindend. Ist er wichtig? (Antworte mit 'trotzdem'.)\n   - (temat ogólny) Beschreibe ein persönliches Ziel, das du erreicht hast, auch wenn es schwer war. Benutze 'obwohl' oder 'trotzdem'.\n6. Natychmiastowa korekta: jeśli popełnię błąd dotyczący dzisiejszej zasady (np. *Obwohl es regnet, ich gehe spazieren.* zamiast *Obwohl es regnet, gehe ich spazieren.* ALBO *Es regnet, trotzdem ich gehe spazieren.* zamiast *Es regnet, trotzdem gehe ich spazieren.*), na chwilę przerwij: zacytuj błąd, podaj poprawne zdanie, wyjaśnij zasadę w jednym zdaniu po polsku, poproś mnie o głośne powtórzenie poprawnego zdania przed następnym pytaniem.\n7. Krótko poprawiaj również inne istotne błędy; zanotuj powtarzające się błędy na podsumowanie. Jeśli moja odpowiedź jest bardzo krótka, zadaj jedno pytanie uzupełniające („Warum?“).\n8. Podsumowanie po około 20 minutach lub gdy powiem \"stop\": dwie rzeczy, które zrobiłem dobrze, trzy główne błędy z poprawkami, pięć słów do powtórzenia oraz jedno zdanie po niemiecku do głośnego powtórzenia.\n9. Utrzymuj angażujący, profesjonalny i naturalny ton, odpowiedni dla immersyjnego dialogu głosowego po niemiecku. Zwracaj się do mnie per „du”."
     }
   }
+},
+ {
+  "lesson": {
+    "id": "2026-11-05",
+    "date": "05.11.2026",
+    "day": 24,
+    "totalDays": 300,
+    "level": "B1",
+    "title": {
+      "en": "Als vs Wenn: One-Time and Repeated Past Events",
+      "pl": "Als i wenn: jednorazowe i powtarzające się wydarzenia w przeszłości"
+    },
+    "subtitle": "Temporalsätze mit als und wenn in der Vergangenheit"
+  },
+  "grammar": {
+    "html": {
+      "en": [
+        "<h3>The difference between <em>als</em> and <em>wenn</em> in the past</h3><p>In German, both <strong>als</strong> and <strong>wenn</strong> can translate to \"when\" in the past, but they are not interchangeable. The choice depends on whether the event happened only once or multiple times.</p>",
+        "<div class='box rule'><strong>Core rule:</strong> Use <strong>als</strong> for a single event or a continuous period in the past. Use <strong>wenn</strong> for repeated events in the past (meaning \"whenever\").</div>",
+        "<h3>Using <em>als</em> for one-time events</h3><p>If something happened exactly once in the past, or if it describes a single ongoing state or period (like your childhood), use <strong>als</strong>. Because it is a subordinating conjunction, the conjugated (finite) verb is pushed to the very end of the clause.</p><ul><li><em><strong>Als</strong> ich gestern im Büro <strong>ankam</strong>, war das Meeting schon vorbei.</em> (It happened once yesterday.)</li><li><em><strong>Als</strong> sie ein Kind <strong>war</strong>, lebte sie in Berlin.</em> (Her childhood was a single period in the past.)</li><li><em>Der Strom fiel aus, <strong>als</strong> wir den Bericht <strong>schrieben</strong>.</em> (A single interruption.)</li></ul>",
+        "<h3>Using <em>wenn</em> for repeated events</h3><p>If an action or event happened multiple times in the past, use <strong>wenn</strong>. To make it absolutely clear that it was a repeated event, German speakers often add words like <em>immer</em> (always) or <em>jedes Mal</em> (every time) before <em>wenn</em>. The finite verb still goes to the end of the clause.</p><ul><li><em>Immer <strong>wenn</strong> der Chef ins Büro <strong>kam</strong>, wurden alle still.</em> (It happened multiple times.)</li><li><em><strong>Wenn</strong> wir früher in den Urlaub <strong>fuhren</strong>, regnete es oft.</em> (Every time we went on holiday.)</li><li><em>Jedes Mal <strong>wenn</strong> das Telefon <strong>klingelte</strong>, hoffte ich auf eine gute Nachricht.</em> (Repeated action.)</li></ul>",
+        "<table><thead><tr><th>Conjunction</th><th>Usage in the past</th><th>Example</th></tr></thead><tbody><tr><td>als</td><td>One-time event or state</td><td class='de'>Als ich den Vertrag unterschrieb, ...</td></tr><tr><td>wenn</td><td>Repeated event (whenever)</td><td class='de'>Immer wenn wir ein Problem hatten, ...</td></tr></tbody></table>",
+        "<div class='box warn'><strong>Typical mistake: Using <em>wenn</em> for a single past event</strong><p>✗ <strong>Wenn</strong> ich gestern nach Hause kam, war es dunkel.</p><p>✓ <strong>Als</strong> ich gestern nach Hause kam, war es dunkel.</p><p>Because coming home yesterday happened only once, you must use <em>als</em>.</p></div>",
+        "<div class='box tip'><strong>Memory aid:</strong> If you can replace \"when\" with \"whenever\" in English, use <strong>wenn</strong> in German. For everything else in the past, use <strong>als</strong>.</div>",
+        "<h3>Quick reference</h3><div class='tiles'><div class='tile'><strong>Single event</strong><p><em>Als der Zug abfuhr, ...</em></p></div><div class='tile'><strong>Single period</strong><p><em>Als ich jung war, ...</em></p></div><div class='tile'><strong>Repeated event</strong><p><em>(Immer) wenn er anrief, ...</em></p></div><div class='tile'><strong>Present / Future</strong><p><em>Wenn ich morgen Zeit habe, ...</em> (Always <em>wenn</em>)</p></div></div>"
+      ],
+      "pl": [
+        "<h3>Różnica między <em>als</em> i <em>wenn</em> w czasie przeszłym</h3><p>W języku niemieckim zarówno <strong>als</strong>, jak i <strong>wenn</strong> mogą oznaczać „kiedy” lub „gdy” w przeszłości, ale nie można ich stosować zamiennie. Wybór zależy od tego, czy wydarzenie miało miejsce tylko raz, czy wielokrotnie.</p>",
+        "<div class='box rule'><strong>Główna zasada:</strong> Używaj <strong>als</strong> dla jednorazowych wydarzeń lub ciągłych stanów w przeszłości. Używaj <strong>wenn</strong> dla wydarzeń powtarzających się w przeszłości (w znaczeniu „ilekroć”, „zawsze gdy”).</div>",
+        "<h3>Użycie <em>als</em> dla wydarzeń jednorazowych</h3><p>Jeśli coś wydarzyło się w przeszłości dokładnie raz lub jeśli opisuje pojedynczy, trwający stan lub okres (np. dzieciństwo), użyj <strong>als</strong>. Ponieważ jest to spójnik podrzędny, odmieniony czasownik wędruje na sam koniec zdania.</p><ul><li><em><strong>Als</strong> ich gestern im Büro <strong>ankam</strong>, war das Meeting schon vorbei.</em> (Wydarzyło się to raz wczoraj.)</li><li><em><strong>Als</strong> sie ein Kind <strong>war</strong>, lebte sie in Berlin.</em> (Jej dzieciństwo to jeden okres w przeszłości.)</li><li><em>Der Strom fiel aus, <strong>als</strong> wir den Bericht <strong>schrieben</strong>.</em> (Jednorazowe przerwanie czynności.)</li></ul>",
+        "<h3>Użycie <em>wenn</em> dla wydarzeń powtarzających się</h3><p>Jeśli jakaś czynność lub zdarzenie miało miejsce w przeszłości wielokrotnie, użyj <strong>wenn</strong>. Aby jednoznacznie podkreślić, że zdarzenie się powtarzało, Niemcy często dodają przed <em>wenn</em> słowa takie jak <em>immer</em> (zawsze) lub <em>jedes Mal</em> (za każdym razem). Odmieniony czasownik również wędruje na koniec zdania.</p><ul><li><em>Immer <strong>wenn</strong> der Chef ins Büro <strong>kam</strong>, wurden alle still.</em> (Wydarzyło się to wiele razy.)</li><li><em><strong>Wenn</strong> wir früher in den Urlaub <strong>fuhren</strong>, regnete es oft.</em> (Za każdym razem, gdy jechaliśmy na wakacje.)</li><li><em>Jedes Mal <strong>wenn</strong> das Telefon <strong>klingelte</strong>, hoffte ich auf eine gute Nachricht.</em> (Powtarzająca się czynność.)</li></ul>",
+        "<table><thead><tr><th>Spójnik</th><th>Użycie w przeszłości</th><th>Przykład</th></tr></thead><tbody><tr><td>als</td><td>Jednorazowe wydarzenie lub stan</td><td class='de'>Als ich den Vertrag unterschrieb, ...</td></tr><tr><td>wenn</td><td>Powtarzające się wydarzenie</td><td class='de'>Immer wenn wir ein Problem hatten, ...</td></tr></tbody></table>",
+        "<div class='box warn'><strong>Typowy błąd: Używanie <em>wenn</em> dla jednorazowego wydarzenia w przeszłości</strong><p>✗ <strong>Wenn</strong> ich gestern nach Hause kam, war es dunkel.</p><p>✓ <strong>Als</strong> ich gestern nach Hause kam, war es dunkel.</p><p>Ponieważ wczorajszy powrót do domu zdarzył się tylko raz, musisz użyć <em>als</em>.</p></div>",
+        "<div class='box tip'><strong>Pomoc w zapamiętaniu:</strong> Jeśli po polsku możesz zastąpić „kiedy” słowem „zawsze, gdy” lub „ilekroć”, po niemiecku użyj <strong>wenn</strong>. W przypadku wszystkich innych sytuacji w przeszłości używaj <strong>als</strong>.</div>",
+        "<h3>Szybki przegląd</h3><div class='tiles'><div class='tile'><strong>Zdarzenie jednorazowe</strong><p><em>Als der Zug abfuhr, ...</em></p></div><div class='tile'><strong>Pojedynczy okres</strong><p><em>Als ich jung war, ...</em></p></div><div class='tile'><strong>Czynność powtarzalna</strong><p><em>(Immer) wenn er anrief, ...</em></p></div><div class='tile'><strong>Teraźniejszość / Przyszłość</strong><p><em>Wenn ich morgen Zeit habe, ...</em> (Zawsze <em>wenn</em>)</p></div></div>"
+      ]
+    }
+  },
+  "examples": [
+    {
+      "de": "**Als** ich gestern im Supermarkt **war**, kaufte ich Äpfel.",
+      "en": "When I was in the supermarket yesterday, I bought apples.",
+      "pl": "Kiedy wczoraj byłem w supermarkecie, kupiłem jabłka.",
+      "level": "A1"
+    },
+    {
+      "de": "**Wenn** es früher **regnete**, blieben wir zu Hause.",
+      "en": "Whenever it rained in the past, we stayed at home.",
+      "pl": "Zawsze gdy dawniej padało, zostawaliśmy w domu.",
+      "level": "A1"
+    },
+    {
+      "de": "**Als** der Zug **ankam**, stiegen wir aus.",
+      "en": "When the train arrived, we got off.",
+      "pl": "Gdy pociąg przyjechał, wysiedliśmy.",
+      "level": "A2"
+    },
+    {
+      "de": "Immer **wenn** er Zeit **hatte**, las er ein Buch.",
+      "en": "Whenever he had time, he read a book.",
+      "pl": "Zawsze gdy miał czas, czytał książkę.",
+      "level": "A2"
+    },
+    {
+      "de": "**Als** ich ein Kind **war**, spielte ich gern Fußball.",
+      "en": "When I was a child, I liked to play football.",
+      "pl": "Kiedy byłem dzieckiem, lubiłem grać w piłkę nożną.",
+      "level": "A2"
+    },
+    {
+      "de": "Jedes Mal **wenn** wir Oma **besuchten**, gab es Kuchen.",
+      "en": "Every time we visited grandma, there was cake.",
+      "pl": "Za każdym razem, gdy odwiedzaliśmy babcię, było ciasto.",
+      "level": "A2"
+    },
+    {
+      "de": "**Als** mein Kollege das Büro **betrat**, begann die Besprechung.",
+      "en": "When my colleague entered the office, the meeting began.",
+      "pl": "Kiedy mój kolega wszedł do biura, rozpoczęło się spotkanie.",
+      "level": "B1"
+    },
+    {
+      "de": "Immer **wenn** der Drucker kaputt **war**, riefen wir den Techniker.",
+      "en": "Whenever the printer was broken, we called the technician.",
+      "pl": "Zawsze gdy drukarka była zepsuta, dzwoniliśmy po technika.",
+      "level": "B1"
+    },
+    {
+      "de": "**Als** die Firma die neue Software **einführte**, gab es viele Probleme.",
+      "en": "When the company introduced the new software, there were many problems.",
+      "pl": "Kiedy firma wprowadziła nowe oprogramowanie, było wiele problemów.",
+      "level": "B1"
+    },
+    {
+      "de": "**Wenn** der Chef früher gute Laune **hatte**, durften wir früher gehen.",
+      "en": "Whenever the boss was in a good mood in the past, we were allowed to leave earlier.",
+      "pl": "Zawsze gdy szef miał dawniej dobry nastrój, mogliśmy wyjść wcześniej.",
+      "level": "B1"
+    },
+    {
+      "de": "**Als** der Vorstand das Budget **genehmigte**, startete das Projekt sofort.",
+      "en": "When the board approved the budget, the project started immediately.",
+      "pl": "Kiedy zarząd zatwierdził budżet, projekt natychmiast wystartował.",
+      "level": "B2"
+    },
+    {
+      "de": "Immer **wenn** die Inflation **stieg**, erhöhte die Zentralbank die Zinsen.",
+      "en": "Whenever inflation rose, the central bank increased interest rates.",
+      "pl": "Zawsze gdy rosła inflacja, bank centralny podnosił stopy procentowe.",
+      "level": "B2"
+    },
+    {
+      "de": "**Als** der Skandal ans Licht **kam**, trat der Geschäftsführer zurück.",
+      "en": "When the scandal came to light, the managing director resigned.",
+      "pl": "Gdy skandal wyszedł na jaw, dyrektor zarządzający zrezygnował.",
+      "level": "B2"
+    },
+    {
+      "de": "Jedes Mal **wenn** die Verhandlungen ins Stocken **gerieten**, wurde ein Vermittler eingeschaltet.",
+      "en": "Every time the negotiations stalled, a mediator was called in.",
+      "pl": "Za każdym razem, gdy negocjacje utykały w martwym punkcie, włączano mediatora.",
+      "level": "B2"
+    },
+    {
+      "de": "**Als** das neue Gesetz in Kraft **trat**, mussten viele Unternehmen ihre Prozesse anpassen.",
+      "en": "When the new law came into force, many companies had to adapt their processes.",
+      "pl": "Kiedy nowe prawo weszło w życie, wiele firm musiało dostosować swoje procesy.",
+      "level": "B2"
+    },
+    {
+      "de": "**Als** das Verfassungsgericht das umstrittene Gesetz **kippte**, musste die Regierung einen neuen Entwurf ausarbeiten.",
+      "en": "When the constitutional court overturned the controversial law, the government had to draft a new bill.",
+      "pl": "Kiedy trybunał konstytucyjny obalił kontrowersyjną ustawę, rząd musiał opracować nowy projekt.",
+      "level": "C1"
+    },
+    {
+      "de": "Immer **wenn** die geopolitische Lage sich **verschlechterte**, stiegen die Rüstungsaktien.",
+      "en": "Whenever the geopolitical situation deteriorated, defense stocks rose.",
+      "pl": "Zawsze gdy sytuacja geopolityczna się pogarszała, akcje firm zbrojeniowych rosły.",
+      "level": "C1"
+    },
+    {
+      "de": "**Als** der beispiellose Cyberangriff die kritische Infrastruktur **lahmlegte**, wurde der Notstand ausgerufen.",
+      "en": "When the unprecedented cyberattack crippled the critical infrastructure, a state of emergency was declared.",
+      "pl": "Kiedy bezprecedensowy cyberatak sparaliżował infrastrukturę krytyczną, ogłoszono stan wyjątkowy.",
+      "level": "C1"
+    },
+    {
+      "de": "**Als** der einstige Marktführer in die Insolvenz **rutschte**, endete eine Ära der industriellen Dominanz.",
+      "en": "When the former market leader slid into insolvency, an era of industrial dominance ended.",
+      "pl": "Kiedy dawny lider rynku popadł w niewypłacalność, zakończyła się era przemysłowej dominacji.",
+      "level": "C2"
+    },
+    {
+      "de": "Immer **wenn** die strukturellen Schwächen des Arbeitsmarktes die Innovation **hemmten**, wurden Rufe nach Reformen laut.",
+      "en": "Whenever the structural weaknesses of the labour market stifled innovation, calls for reform grew loud.",
+      "pl": "Zawsze gdy strukturalne słabości rynku pracy hamowały innowacje, nasilały się żądania reform.",
+      "level": "C2"
+    }
+  ],
+  "exercises": [
+    {
+      "en": "When I was a child, I played a lot.",
+      "pl": "Kiedy byłem dzieckiem, dużo się bawiłem.",
+      "de": "Als ich ein Kind war, spielte ich viel.",
+      "level": "A2"
+    },
+    {
+      "en": "Whenever I was sick, I stayed in bed.",
+      "pl": "Zawsze gdy byłem chory, zostawałem w łóżku.",
+      "de": "Immer wenn ich krank war, blieb ich im Bett.",
+      "level": "A2"
+    },
+    {
+      "en": "When the film ended, we went home.",
+      "pl": "Kiedy film się skończył, poszliśmy do domu.",
+      "de": "Als der Film endete, gingen wir nach Hause.",
+      "level": "A2"
+    },
+    {
+      "en": "Whenever we visited grandma, we ate cake.",
+      "pl": "Zawsze gdy odwiedzaliśmy babcię, jedliśmy ciasto.",
+      "de": "Immer wenn wir Oma besuchten, aßen wir Kuchen.",
+      "level": "A2"
+    },
+    {
+      "en": "When I saw him, he was reading.",
+      "pl": "Gdy go zobaczyłem, on czytał.",
+      "de": "Als ich ihn sah, las er.",
+      "level": "A2"
+    },
+    {
+      "en": "Whenever it was cold, we drank tea.",
+      "pl": "Zawsze gdy było zimno, piliśmy herbatę.",
+      "de": "Immer wenn es kalt war, tranken wir Tee.",
+      "level": "A2"
+    },
+    {
+      "en": "When the bus arrived, it was late.",
+      "pl": "Kiedy przyjechał autobus, był spóźniony.",
+      "de": "Als der Bus ankam, hatte er Verspätung.",
+      "level": "A2"
+    },
+    {
+      "en": "Whenever I had money, I bought books.",
+      "pl": "Zawsze gdy miałem pieniądze, kupowałem książki.",
+      "de": "Immer wenn ich Geld hatte, kaufte ich Bücher.",
+      "level": "A2"
+    },
+    {
+      "en": "When I found the keys, I was happy.",
+      "pl": "Kiedy znalazłem klucze, byłem szczęśliwy.",
+      "de": "Als ich die Schlüssel fand, war ich glücklich.",
+      "level": "A2"
+    },
+    {
+      "en": "Whenever he cooked, it tasted good.",
+      "pl": "Zawsze gdy on gotował, smakowało to dobrze.",
+      "de": "Immer wenn er kochte, schmeckte es gut.",
+      "level": "A2"
+    },
+    {
+      "en": "When the manager came into the room, the meeting began.",
+      "pl": "Kiedy menedżer wszedł do pokoju, spotkanie się zaczęło.",
+      "de": "Als der Manager in den Raum kam, begann die Besprechung.",
+      "level": "B1"
+    },
+    {
+      "en": "Whenever we had a problem, we asked the teacher.",
+      "pl": "Zawsze gdy mieliśmy problem, pytaliśmy nauczyciela.",
+      "de": "Immer wenn wir ein Problem hatten, fragten wir den Lehrer.",
+      "level": "B1"
+    },
+    {
+      "en": "When I received the email yesterday, I answered immediately.",
+      "pl": "Kiedy wczoraj otrzymałem e-mail, odpowiedziałem natychmiast.",
+      "de": "Als ich gestern die E-Mail erhielt, antwortete ich sofort.",
+      "level": "B1"
+    },
+    {
+      "en": "Whenever the weather was nice, we worked in the garden.",
+      "pl": "Zawsze gdy pogoda była ładna, pracowaliśmy w ogrodzie.",
+      "de": "Immer wenn das Wetter schön war, arbeiteten wir im Garten.",
+      "level": "B1"
+    },
+    {
+      "en": "When the company introduced the new software, there were many questions.",
+      "pl": "Gdy firma wprowadziła nowe oprogramowanie, było wiele pytań.",
+      "de": "Als das Unternehmen die neue Software einführte, gab es viele Fragen.",
+      "level": "B1"
+    },
+    {
+      "en": "Whenever my colleague was on holiday, I did his work.",
+      "pl": "Zawsze gdy mój kolega był na urlopie, wykonywałem jego pracę.",
+      "de": "Immer wenn mein Kollege im Urlaub war, machte ich seine Arbeit.",
+      "level": "B1"
+    },
+    {
+      "en": "When the train stopped, all passengers got off.",
+      "pl": "Kiedy pociąg się zatrzymał, wszyscy pasażerowie wysiedli.",
+      "de": "Als der Zug hielt, stiegen alle Fahrgäste aus.",
+      "level": "B1"
+    },
+    {
+      "en": "Whenever the alarm rang, we had to leave the building.",
+      "pl": "Zawsze gdy dzwonił alarm, musieliśmy opuścić budynek.",
+      "de": "Immer wenn der Alarm klingelte, mussten wir das Gebäude verlassen.",
+      "level": "B1"
+    },
+    {
+      "en": "When I signed the contract, I felt relieved.",
+      "pl": "Kiedy podpisałem umowę, poczułem ulgę.",
+      "de": "Als ich den Vertrag unterschrieb, war ich erleichtert.",
+      "level": "B1"
+    },
+    {
+      "en": "Whenever he travelled to Berlin, he visited his friends.",
+      "pl": "Zawsze gdy podróżował do Berlina, odwiedzał swoich przyjaciół.",
+      "de": "Immer wenn er nach Berlin reiste, besuchte er seine Freunde.",
+      "level": "B1"
+    },
+    {
+      "en": "When the power went out, we were writing a report.",
+      "pl": "Kiedy zabrakło prądu, pisaliśmy raport.",
+      "de": "Als der Strom ausfiel, schrieben wir einen Bericht.",
+      "level": "B1"
+    },
+    {
+      "en": "Whenever the printer broke, we called the technician.",
+      "pl": "Zawsze gdy psuła się drukarka, dzwoniliśmy po technika.",
+      "de": "Immer wenn der Drucker kaputtging, riefen wir den Techniker.",
+      "level": "B1"
+    },
+    {
+      "en": "When the boss announced the decision, everyone was surprised.",
+      "pl": "Kiedy szef ogłosił decyzję, wszyscy byli zaskoczeni.",
+      "de": "Als der Chef die Entscheidung verkündete, waren alle überrascht.",
+      "level": "B1"
+    },
+    {
+      "en": "Whenever she gave a presentation, she was very nervous.",
+      "pl": "Zawsze gdy wygłaszała prezentację, była bardzo zdenerwowowana.",
+      "de": "Immer wenn sie eine Präsentation hielt, war sie sehr nervös.",
+      "level": "B1"
+    },
+    {
+      "en": "When the new employee started, I showed him the office.",
+      "pl": "Gdy nowy pracownik zaczął pracę, pokazałem mu biuro.",
+      "de": "Als der neue Mitarbeiter anfing, zeigte ich ihm das Büro.",
+      "level": "B1"
+    },
+    {
+      "en": "Whenever the customers complained, we offered a discount.",
+      "pl": "Zawsze gdy klienci narzekali, oferowaliśmy zniżkę.",
+      "de": "Immer wenn die Kunden sich beschwerten, boten wir einen Rabatt an.",
+      "level": "B1"
+    },
+    {
+      "en": "When we finished the project, we celebrated.",
+      "pl": "Kiedy skończyliśmy projekt, świętowaliśmy.",
+      "de": "Als wir das Projekt beendeten, feierten wir.",
+      "level": "B1"
+    },
+    {
+      "en": "Whenever the internet connection failed, we took a break.",
+      "pl": "Zawsze gdy połączenie internetowe zawodziło, robiliśmy przerwę.",
+      "de": "Immer wenn die Internetverbindung ausfiel, machten wir eine Pause.",
+      "level": "B1"
+    },
+    {
+      "en": "When the package arrived, it was damaged.",
+      "pl": "Gdy paczka dotarła, była uszkodzona.",
+      "de": "Als das Paket ankam, war es beschädigt.",
+      "level": "B1"
+    },
+    {
+      "en": "Whenever we needed help, she supported us.",
+      "pl": "Zawsze gdy potrzebowaliśmy pomocy, ona nas wspierała.",
+      "de": "Immer wenn wir Hilfe brauchten, unterstützte sie uns.",
+      "level": "B1"
+    },
+    {
+      "en": "When the board approved the budget, the project could begin.",
+      "pl": "Kiedy zarząd zatwierdził budżet, projekt mógł się rozpocząć.",
+      "de": "Als der Vorstand das Budget genehmigte, konnte das Projekt beginnen.",
+      "level": "B2"
+    },
+    {
+      "en": "Whenever the inflation rate rose, the central bank increased the interest rates.",
+      "pl": "Zawsze gdy rosła inflacja, bank centralny podnosił stopy procentowe.",
+      "de": "Immer wenn die Inflationsrate stieg, erhöhte die Zentralbank die Zinsen.",
+      "level": "B2"
+    },
+    {
+      "en": "When the company filed for bankruptcy, hundreds of employees lost their jobs.",
+      "pl": "Gdy firma ogłosiła upadłość, setki pracowników straciły pracę.",
+      "de": "Als das Unternehmen Insolvenz anmeldete, verloren hunderte Mitarbeiter ihre Jobs.",
+      "level": "B2"
+    },
+    {
+      "en": "Whenever the supplier delivered late, production was delayed.",
+      "pl": "Zawsze gdy dostawca spóźniał się z dostawą, produkcja była opóźniona.",
+      "de": "Immer wenn der Lieferant zu spät lieferte, verzögerte sich die Produktion.",
+      "level": "B2"
+    },
+    {
+      "en": "When the researchers published the study, it caused a sensation.",
+      "pl": "Kiedy naukowcy opublikowali badanie, wywołało ono sensację.",
+      "de": "Als die Forscher die Studie veröffentlichten, sorgte sie für Aufsehen.",
+      "level": "B2"
+    },
+    {
+      "en": "Whenever the negotiations stalled, a mediator was called in.",
+      "pl": "Zawsze gdy negocjacje utykały w martwym punkcie, wzywano mediatora.",
+      "de": "Immer wenn die Verhandlungen ins Stocken gerieten, wurde ein Vermittler hinzugezogen.",
+      "level": "B2"
+    },
+    {
+      "en": "When the government announced the tax cut, the stock market reacted positively.",
+      "pl": "Gdy rząd ogłosił obniżkę podatków, giełda zareagowała pozytywnie.",
+      "de": "Als die Regierung die Steuersenkung ankündigte, reagierte die Börse positiv.",
+      "level": "B2"
+    },
+    {
+      "en": "Whenever the system crashed, the IT department had to work overtime.",
+      "pl": "Zawsze gdy system ulegał awarii, dział IT musiał pracować po godzinach.",
+      "de": "Immer wenn das System abstürzte, musste die IT-Abteilung Überstunden machen.",
+      "level": "B2"
+    },
+    {
+      "en": "When the scandal came to light, the CEO resigned immediately.",
+      "pl": "Kiedy skandal wyszedł na jaw, dyrektor generalny natychmiast zrezygnował.",
+      "de": "Als der Skandal ans Licht kam, trat der CEO sofort zurück.",
+      "level": "B2"
+    },
+    {
+      "en": "Whenever the demand exceeded the supply, prices went up.",
+      "pl": "Zawsze gdy popyt przewyższał podaż, ceny szły w górę.",
+      "de": "Immer wenn die Nachfrage das Angebot überstieg, stiegen die Preise.",
+      "level": "B2"
+    },
+    {
+      "en": "When the new law came into force, many companies had to adapt their processes.",
+      "pl": "Gdy nowe prawo weszło w życie, wiele firm musiało dostosować swoje procesy.",
+      "de": "Als das neue Gesetz in Kraft trat, mussten viele Unternehmen ihre Prozesse anpassen.",
+      "level": "B2"
+    },
+    {
+      "en": "Whenever they launched a new product, they organised a big press conference.",
+      "pl": "Zawsze gdy wprowadzali na rynek nowy produkt, organizowali dużą konferencję prasową.",
+      "de": "Immer wenn sie ein neues Produkt auf den Markt brachten, organisierten sie eine große Pressekonferenz.",
+      "level": "B2"
+    },
+    {
+      "en": "When the merger was completed, the share price rose significantly.",
+      "pl": "Kiedy fuzja została zakończona, cena akcji znacznie wzrosła.",
+      "de": "Als die Fusion abgeschlossen wurde, stieg der Aktienkurs deutlich.",
+      "level": "B2"
+    },
+    {
+      "en": "Whenever the authorities carried out an inspection, they found minor deficiencies.",
+      "pl": "Zawsze gdy władze przeprowadzały kontrolę, znajdowały drobne uchybienia.",
+      "de": "Immer wenn die Behörden eine Inspektion durchführten, fanden sie kleinere Mängel.",
+      "level": "B2"
+    },
+    {
+      "en": "When the union called for a strike, public transport came to a standstill.",
+      "pl": "Kiedy związek zawodowy wezwał do strajku, transport publiczny stanął w miejscu.",
+      "de": "Als die Gewerkschaft zum Streik aufrief, kam der öffentliche Nahverkehr zum Erliegen.",
+      "level": "B2"
+    },
+    {
+      "en": "Whenever the exchange rate fluctuated, the export business suffered.",
+      "pl": "Zawsze gdy kurs walutowy się wahał, cierpiał na tym eksport.",
+      "de": "Immer wenn der Wechselkurs schwankte, litt das Exportgeschäft.",
+      "level": "B2"
+    },
+    {
+      "en": "When the court pronounced the verdict, the defendants showed no emotion.",
+      "pl": "Gdy sąd ogłosił wyrok, oskarżeni nie okazali żadnych emocji.",
+      "de": "Als das Gericht das Urteil verkündete, zeigten die Angeklagten keine Emotionen.",
+      "level": "B2"
+    },
+    {
+      "en": "Whenever the software required an update, the users were notified in advance.",
+      "pl": "Zawsze gdy oprogramowanie wymagało aktualizacji, użytkownicy byli powiadamiani z wyprzedzeniem.",
+      "de": "Immer wenn die Software ein Update benötigte, wurden die Nutzer im Voraus benachrichtigt.",
+      "level": "B2"
+    },
+    {
+      "en": "When the delegation arrived at the airport, they were welcomed by the minister.",
+      "pl": "Gdy delegacja przybyła na lotnisko, została powitana przez ministra.",
+      "de": "Als die Delegation am Flughafen ankam, wurde sie vom Minister begrüßt.",
+      "level": "B2"
+    },
+    {
+      "en": "Whenever the company expanded into a new market, they hired local experts.",
+      "pl": "Zawsze gdy firma wchodziła na nowy rynek, zatrudniała lokalnych ekspertów.",
+      "de": "Immer wenn das Unternehmen in einen neuen Markt expandierte, stellte es lokale Experten ein.",
+      "level": "B2"
+    },
+    {
+      "en": "When the negotiations failed, both sides blamed each other.",
+      "pl": "Kiedy negocjacje zakończyły się niepowodzeniem, obie strony obwiniały się nawzajem.",
+      "de": "Als die Verhandlungen scheiterten, gaben sich beide Seiten gegenseitig die Schuld.",
+      "level": "B2"
+    },
+    {
+      "en": "Whenever the opposition proposed a new law, the majority rejected it.",
+      "pl": "Zawsze gdy opozycja proponowała nową ustawę, większość ją odrzucała.",
+      "de": "Immer wenn die Opposition ein neues Gesetz vorschlug, lehnte die Mehrheit es ab.",
+      "level": "B2"
+    },
+    {
+      "en": "When the storm destroyed the harvest, the farmers demanded financial aid.",
+      "pl": "Gdy burza zniszczyła zbiory, rolnicy zażądali pomocy finansowej.",
+      "de": "Als der Sturm die Ernte zerstörte, forderten die Landwirte finanzielle Hilfe.",
+      "level": "B2"
+    },
+    {
+      "en": "Whenever the server was overloaded, the website loaded very slowly.",
+      "pl": "Zawsze gdy serwer był przeciążony, strona ładowała się bardzo powoli.",
+      "de": "Immer wenn der Server überlastet war, lud die Website sehr langsam.",
+      "level": "B2"
+    },
+    {
+      "en": "When the police arrested the suspect, he offered no resistance.",
+      "pl": "Kiedy policja aresztowała podejrzanego, nie stawił on oporu.",
+      "de": "Als die Polizei den Verdächtigen festnahm, leistete er keinen Widerstand.",
+      "level": "B2"
+    },
+    {
+      "en": "Whenever the committee met, they discussed the budget for hours.",
+      "pl": "Zawsze gdy komisja się spotykała, godzinami dyskutowano o budżecie.",
+      "de": "Immer wenn der Ausschuss zusammenkam, diskutierte man stundenlang über das Budget.",
+      "level": "B2"
+    },
+    {
+      "en": "When the scientists discovered the new virus, they warned the public.",
+      "pl": "Kiedy naukowcy odkryli nowy wirus, ostrzegli opinię publiczną.",
+      "de": "Als die Wissenschaftler das neue Virus entdeckten, warnten sie die Öffentlichkeit.",
+      "level": "B2"
+    },
+    {
+      "en": "Whenever the raw material prices fell, the profit margin increased.",
+      "pl": "Zawsze gdy spadały ceny surowców, rosła marża zysku.",
+      "de": "Immer wenn die Rohstoffpreise fielen, stieg die Gewinnmarge.",
+      "level": "B2"
+    },
+    {
+      "en": "When the manager presented the quarterly figures, the investors were disappointed.",
+      "pl": "Gdy menedżer przedstawił wyniki kwartalne, inwestorzy byli rozczarowani.",
+      "de": "Als der Manager die Quartalszahlen präsentierte, waren die Investoren enttäuscht.",
+      "level": "B2"
+    },
+    {
+      "en": "Whenever the team reached a milestone, they received a bonus.",
+      "pl": "Zawsze gdy zespół osiągał kamień milowy, otrzymywał premię.",
+      "de": "Immer wenn das Team einen Meilenstein erreichte, erhielt es einen Bonus.",
+      "level": "B2"
+    },
+    {
+      "en": "Whenever the manager called, the team prepared a report.",
+      "pl": "Zawsze gdy menedżer dzwonił, zespół przygotowywał raport.",
+      "de": "Immer wenn der Manager anrief, bereitete das Team einen Bericht vor.",
+      "level": "B2"
+    },
+    {
+      "en": "When the company expanded to Asia, revenue doubled.",
+      "pl": "Kiedy firma rozszerzyła działalność na Azję, przychody się podwoiły.",
+      "de": "Als das Unternehmen nach Asien expandierte, verdoppelte sich der Umsatz.",
+      "level": "B2"
+    },
+    {
+      "en": "Whenever the network failed, the technicians worked through the night.",
+      "pl": "Zawsze gdy sieć ulegała awarii, technicy pracowali przez całą noc.",
+      "de": "Immer wenn das Netzwerk ausfiel, arbeiteten die Techniker die ganze Nacht durch.",
+      "level": "B2"
+    },
+    {
+      "en": "When the CEO announced his retirement, the employees were shocked.",
+      "pl": "Kiedy dyrektor generalny ogłosił przejście na emeryturę, pracownicy byli w szoku.",
+      "de": "Als der CEO seinen Ruhestand ankündigte, waren die Mitarbeiter schockiert.",
+      "level": "B2"
+    },
+    {
+      "en": "Whenever the delivery arrived late, the customers complained immediately.",
+      "pl": "Zawsze gdy dostawa docierała z opóźnieniem, klienci natychmiast narzekali.",
+      "de": "Immer wenn die Lieferung zu spät ankam, beschwerten sich die Kunden sofort.",
+      "level": "B2"
+    },
+    {
+      "en": "When the new marketing campaign started, sales increased significantly.",
+      "pl": "Kiedy rozpoczęła się nowa kampania marketingowa, sprzedaż znacznie wzrosła.",
+      "de": "Als die neue Marketingkampagne startete, stiegen die Verkaufszahlen deutlich.",
+      "level": "B2"
+    },
+    {
+      "en": "Whenever they travelled abroad, they learned about new cultures.",
+      "pl": "Zawsze gdy podróżowali za granicę, poznawali nowe kultury.",
+      "de": "Immer wenn sie ins Ausland reisten, lernten sie neue Kulturen kennen.",
+      "level": "B2"
+    },
+    {
+      "en": "When the prototype was successfully tested, mass production began.",
+      "pl": "Kiedy prototyp został pomyślnie przetestowany, rozpoczęła się masowa produkcja.",
+      "de": "Als der Prototyp erfolgreich getestet wurde, begann die Massenproduktion.",
+      "level": "B2"
+    },
+    {
+      "en": "Whenever the budget was cut, the department had to cancel projects.",
+      "pl": "Zawsze gdy cięto budżet, dział musiał anulować projekty.",
+      "de": "Immer wenn das Budget gekürzt wurde, musste die Abteilung Projekte absagen.",
+      "level": "B2"
+    },
+    {
+      "en": "When the authorities closed the road, severe traffic jams occurred.",
+      "pl": "Kiedy władze zamknęły drogę, utworzyły się ogromne korki.",
+      "de": "Als die Behörden die Straße sperrten, entstanden schwere Staus.",
+      "level": "B2"
+    },
+    {
+      "en": "When the supervisory board unexpectedly dismissed the chairman, the share price plummeted.",
+      "pl": "Kiedy rada nadzorcza nieoczekiwanie zwolniła przewodniczącego, cena akcji gwałtownie spadła.",
+      "de": "Als der Aufsichtsrat den Vorsitzenden unerwartet entließ, stürzte der Aktienkurs ab.",
+      "level": "C1"
+    },
+    {
+      "en": "Whenever the global supply chains were disrupted, the manufacturing sector faced severe bottlenecks.",
+      "pl": "Zawsze gdy globalne łańcuchy dostaw były zakłócane, sektor produkcyjny borykał się z poważnymi wąskimi gardłami.",
+      "de": "Immer wenn die globalen Lieferketten unterbrochen wurden, sah sich der verarbeitende Sektor mit schweren Engpässen konfrontiert.",
+      "level": "C1"
+    },
+    {
+      "en": "When the constitutional court overturned the controversial law, the government had to draft a new bill.",
+      "pl": "Kiedy trybunał konstytucyjny obalił kontrowersyjną ustawę, rząd musiał opracować nowy projekt.",
+      "de": "Als das Verfassungsgericht das umstrittene Gesetz kippte, musste die Regierung einen neuen Gesetzentwurf ausarbeiten.",
+      "level": "C1"
+    },
+    {
+      "en": "Whenever the diplomatic tensions escalated, the ambassadors were recalled for consultations.",
+      "pl": "Zawsze gdy napięcia dyplomatyczne eskalowały, ambasadorzy byli wzywani na konsultacje.",
+      "de": "Immer wenn die diplomatischen Spannungen eskalierten, wurden die Botschafter zu Konsultationen zurückgerufen.",
+      "level": "C1"
+    },
+    {
+      "en": "When the whistleblower leaked the confidential documents, a massive political scandal ensued.",
+      "pl": "Gdy sygnalista ujawnił poufne dokumenty, wybuchł potężny skandal polityczny.",
+      "de": "Als der Whistleblower die vertraulichen Dokumente durchsickern ließ, folgte ein massiver politischer Skandal.",
+      "level": "C1"
+    },
+    {
+      "en": "Whenever the inflation expectations worsened, the bond yields rose accordingly.",
+      "pl": "Zawsze gdy pogarszały się oczekiwania inflacyjne, rentowności obligacji odpowiednio rosły.",
+      "de": "Immer wenn sich die Inflationserwartungen verschlechterten, stiegen die Anleiherenditen entsprechend.",
+      "level": "C1"
+    },
+    {
+      "en": "When the regulatory authority imposed the unprecedented fine, the corporation announced an appeal.",
+      "pl": "Kiedy organ regulacyjny nałożył bezprecedensową karę, korporacja zapowiedziała apelację.",
+      "de": "Als die Aufsichtsbehörde die beispiellose Geldstrafe verhängte, kündigte der Konzern Berufung an.",
+      "level": "C1"
+    },
+    {
+      "en": "Whenever the market volatility increased, the conservative investors shifted their assets into gold.",
+      "pl": "Zawsze gdy rosła zmienność na rynku, konserwatywni inwestorzy przenosili swoje aktywa w złoto.",
+      "de": "Immer wenn die Marktvolatilität zunahm, schichteten die konservativen Investoren ihre Vermögenswerte in Gold um.",
+      "level": "C1"
+    },
+    {
+      "en": "When the investigative journalists uncovered the corruption network, several high-ranking officials stepped down.",
+      "pl": "Kiedy dziennikarze śledczy odkryli sieć korupcyjną, kilku wysokich urzędników ustąpiło ze stanowiska.",
+      "de": "Als die investigativen Journalisten das Korruptionsnetzwerk aufdeckten, traten mehrere hochrangige Beamte zurück.",
+      "level": "C1"
+    },
+    {
+      "en": "Whenever the collective bargaining agreement expired, the trade unions threatened extensive industrial action.",
+      "pl": "Zawsze gdy wygasał układ zbiorowy pracy, związki zawodowe groziły rozległymi akcjami protestacyjnymi.",
+      "de": "Immer wenn der Tarifvertrag auslief, drohten die Gewerkschaften mit umfangreichen Arbeitskämpfen.",
+      "level": "C1"
+    },
+    {
+      "en": "When the tech giant acquired its main competitor, the antitrust authorities initiated a thorough review.",
+      "pl": "Gdy gigant technologiczny przejął swojego głównego konkurenta, organy antymonopolowe wszczęły gruntowną kontrolę.",
+      "de": "Als der Tech-Gigant seinen Hauptkonkurrenten übernahm, leiteten die Kartellbehörden eine gründliche Prüfung ein.",
+      "level": "C1"
+    },
+    {
+      "en": "Whenever the geopolitical situation deteriorated, the defense stocks experienced a significant surge.",
+      "pl": "Zawsze gdy pogarszała się sytuacja geopolityczna, akcje firm zbrojeniowych odnotowywały znaczny wzrost.",
+      "de": "Immer wenn sich die geopolitische Lage verschlechterte, verzeichneten die Rüstungsaktien einen deutlichen Anstieg.",
+      "level": "C1"
+    },
+    {
+      "en": "When the unprecedented cyberattack crippled the critical infrastructure, a state of emergency was declared.",
+      "pl": "Kiedy bezprecedensowy cyberatak sparaliżował infrastrukturę krytyczną, ogłoszono stan wyjątkowy.",
+      "de": "Als der beispiellose Cyberangriff die kritische Infrastruktur lahmlegte, wurde der Notstand ausgerufen.",
+      "level": "C1"
+    },
+    {
+      "en": "Whenever the fiscal deficit exceeded the legal limit, the finance ministry implemented austerity measures.",
+      "pl": "Zawsze gdy deficyt budżetowy przekraczał ustawowy limit, ministerstwo finansów wdrażało środki oszczędnościowe.",
+      "de": "Immer wenn das Haushaltsdefizit die gesetzliche Grenze überschritt, setzte das Finanzministerium Sparmaßnahmen um.",
+      "level": "C1"
+    },
+    {
+      "en": "When the landmark climate agreement was signed, environmental organisations celebrated a historic victory.",
+      "pl": "Kiedy podpisano przełomowe porozumienie klimatyczne, organizacje ekologiczne świętowały historyczne zwycięstwo.",
+      "de": "Als das wegweisende Klimaabkommen unterzeichnet wurde, feierten Umweltorganisationen einen historischen Sieg.",
+      "level": "C1"
+    },
+    {
+      "en": "Whenever the demographic shift became apparent, the debate on pension reform flared up again.",
+      "pl": "Zawsze gdy zmiany demograficzne stawały się widoczne, na nowo wybuchała debata o reformie emerytalnej.",
+      "de": "Immer wenn der demografische Wandel offensichtlich wurde, flammte die Debatte über die Rentenreform wieder auf.",
+      "level": "C1"
+    },
+    {
+      "en": "When the highly anticipated clinical trial failed, the pharmaceutical company lost half of its market value.",
+      "pl": "Gdy bardzo wyczekiwane badanie kliniczne zakończyło się niepowodzeniem, firma farmaceutyczna straciła połowę swojej wartości rynkowej.",
+      "de": "Als die mit Spannung erwartete klinische Studie scheiterte, verlor das Pharmaunternehmen die Hälfte seines Marktwerts.",
+      "level": "C1"
+    },
+    {
+      "en": "Whenever the interest rate differential widened, capital flowed rapidly into the stronger currency area.",
+      "pl": "Zawsze gdy pogłębiała się różnica stóp procentowych, kapitał szybko płynął do obszaru silniejszej waluty.",
+      "de": "Immer wenn sich die Zinsdifferenz ausweitete, floss das Kapital rasch in den stärkeren Währungsraum.",
+      "level": "C1"
+    },
+    {
+      "en": "When the renowned economist published his controversial thesis, it sparked a fierce academic debate.",
+      "pl": "Kiedy uznany ekonomista opublikował swoją kontrowersyjną tezę, wywołało to zaciętą debatę akademicką.",
+      "de": "Als der renommierte Ökonom seine umstrittene These veröffentlichte, entfachte dies eine heftige akademische Debatte.",
+      "level": "C1"
+    },
+    {
+      "en": "Whenever the structural weaknesses of the eurozone were exposed, calls for deeper integration grew louder.",
+      "pl": "Zawsze gdy obnażane były strukturalne słabości strefy euro, wezwania do głębszej integracji stawały się głośniejsze.",
+      "de": "Immer wenn die strukturellen Schwächen der Eurozone offengelegt wurden, wurden die Rufe nach tieferer Integration lauter.",
+      "level": "C1"
+    },
+    {
+      "en": "When the erstwhile undisputed market leader was forced into insolvency, an entire era of industrial dominance came to an abrupt end.",
+      "pl": "Kiedy dawny, niekwestionowany lider rynku został zmuszony do ogłoszenia niewypłacalności, cała era przemysłowej dominacji dobiegła nagłego końca.",
+      "de": "Als der einst unangefochtene Marktführer in die Insolvenz gezwungen wurde, fand eine ganze Ära industrieller Dominanz ein jähes Ende.",
+      "level": "C2"
+    },
+    {
+      "en": "Whenever the fragile coalition government faced a seemingly insurmountable crisis, the chancellor resorted to backroom diplomacy to maintain unity.",
+      "pl": "Zawsze gdy kruchy rząd koalicyjny stawał w obliczu pozornie niemożliwego do przezwyciężenia kryzysu, kanclerz uciekał się do zakulisowej dyplomacji, by utrzymać jedność.",
+      "de": "Immer wenn die fragile Koalitionsregierung mit einer scheinbar unüberwindbaren Krise konfrontiert war, griff der Kanzler auf Hinterzimmerdiplomatie zurück, um die Einigkeit zu wahren.",
+      "level": "C2"
+    },
+    {
+      "en": "When the meticulously crafted diplomatic compromise unravelled at the eleventh hour, the specter of armed conflict loomed large once more.",
+      "pl": "Kiedy starannie wypracowany kompromis dyplomatyczny rozpadł się w ostatniej chwili, widmo konfliktu zbrojnego znów zawisło w powietrzu.",
+      "de": "Als der akribisch ausgearbeitete diplomatische Kompromiss in letzter Minute platzte, schwebte das Gespenst eines bewaffneten Konflikts erneut bedrohlich im Raum.",
+      "level": "C2"
+    },
+    {
+      "en": "Whenever the central bank's forward guidance proved overly optimistic, the financial markets exacted a swift and merciless toll on credibility.",
+      "pl": "Zawsze gdy prognozy banku centralnego okazywały się zbyt optymistyczne, rynki finansowe szybko i bezlitośnie obciążały jego wiarygodność.",
+      "de": "Immer wenn sich die Forward Guidance der Zentralbank als zu optimistisch erwies, forderten die Finanzmärkte einen schnellen und gnadenlosen Tribut an die Glaubwürdigkeit.",
+      "level": "C2"
+    },
+    {
+      "en": "When the long-suppressed archival documents were finally declassified, they laid bare a disturbing history of state-sponsored espionage.",
+      "pl": "Kiedy długo skrywane dokumenty archiwalne wreszcie odtajniono, obnażyły one niepokojącą historię szpiegostwa sponsorowanego przez państwo.",
+      "de": "Als die lange unterdrückten Archivdokumente endlich freigegeben wurden, legten sie eine beunruhigende Geschichte staatlich geförderter Spionage schonungslos offen.",
+      "level": "C2"
+    },
+    {
+      "en": "Whenever the structural rigidities of the labor market stifled innovation, the clarion call for comprehensive deregulatory reforms echoed through the legislative chambers.",
+      "pl": "Zawsze gdy strukturalna sztywność rynku pracy tłumiła innowacje, głośne wezwanie do kompleksowych reform deregulacyjnych rozbrzmiewało w izbach ustawodawczych.",
+      "de": "Immer wenn die strukturellen Starrheiten des Arbeitsmarktes die Innovation erstickten, hallte der laute Ruf nach umfassenden Deregulierungsreformen durch die gesetzgebenden Kammern.",
+      "level": "C2"
+    },
+    {
+      "en": "When the appellate court unequivocally upheld the draconian sanctions, the corporate behemoth was left with no further legal recourse.",
+      "pl": "Kiedy sąd apelacyjny jednoznacznie utrzymał drakońskie sankcje, gigant korporacyjny pozostał bez dalszych środków prawnych.",
+      "de": "Als das Berufungsgericht die drakonischen Sanktionen unmissverständlich aufrechterhielt, blieb dem Unternehmensgiganten kein weiterer Rechtsweg mehr.",
+      "level": "C2"
+    },
+    {
+      "en": "Whenever the pervasive sense of societal alienation manifested itself in spontaneous uprisings, the political establishment responded with a mixture of bewilderment and repression.",
+      "pl": "Zawsze gdy wszechobecne poczucie społecznego wyobcowania objawiało się w spontanicznych powstaniach, establishment polityczny reagował mieszanką konsternacji i represji.",
+      "de": "Immer wenn sich das allgegenwärtige Gefühl gesellschaftlicher Entfremdung in spontanen Aufständen manifestierte, reagierte das politische Establishment mit einer Mischung aus Fassungslosigkeit und Repression.",
+      "level": "C2"
+    },
+    {
+      "en": "When the avant-garde artist unveiled his magnum opus, it completely upended the prevailing aesthetic paradigms of the time.",
+      "pl": "Kiedy awangardowy artysta odsłonił swoje opus magnum, całkowicie wywróciło to ówczesne paradygmaty estetyczne.",
+      "de": "Als der Avantgarde-Künstler sein Opus magnum enthüllte, stellte es die vorherrschenden ästhetischen Paradigmen der Zeit völlig auf den Kopf.",
+      "level": "C2"
+    },
+    {
+      "en": "Whenever the precarious balance of power in the region was disturbed, the ensuing proxy conflicts exacted a devastating humanitarian toll.",
+      "pl": "Zawsze gdy chwiejna równowaga sił w regionie zostawała zachwiana, wynikające z tego konflikty zastępcze pociągały za sobą niszczycielskie żniwo humanitarne.",
+      "de": "Immer wenn das prekäre Machtgleichgewicht in der Region gestört wurde, forderten die daraus resultierenden Stellvertreterkonflikte einen verheerenden humanitären Tribut.",
+      "level": "C2"
+    }
+  ],
+  "listening": {
+    "audioUrl": "https://radiodownloaddw-a.akamaihd.net/downloads/Events/dwelle/dira/mp3/deutschkurse/nachrichten_live/5524A39E_2.mp3",
+    "articles": [
+      {
+        "heading": "Trump verteidigt Iran-Krieg trotz [[Wahldebakel|1]]",
+        "text": "US-Vizepräsident J.D. Vance hat nach dem Wahldebakel der Republikaner bei den Midterms eine [[schonungslose|2]] Analyse des Ergebnisses gefordert. Vance [[distanzierte sich|3]] vom Iran-Krieg und forderte eine „ehrliche Unterhaltung“ darüber, wie es nun weitergehe. „Jeder weiß, warum wir verloren haben“, schrieb er auf der Plattform X. Präsident Donald Trump hatte den Krieg gemeinsam mit Israel begonnen, in der Folge stiegen die [[Spritpreise|4]] in den USA deutlich an. Trump [[räumte ein|5]], Vances Darstellung stimme „größtenteils“. Gleichzeitig verteidigte er den Krieg gegen den Iran. Die Republikaner verloren bei den Midterms die Mehrheit in beiden Kammern des Kongresses sowie viele Gouverneursposten in den Bundesstaaten."
+      },
+      {
+        "heading": "Neuer Protesttag mit Streiks und Demos in Frankreich",
+        "text": "Gewerkschaften sowie Schüler- und Studierendenverbände in Frankreich haben für diesen Donnerstag zu neuen Streiks und Demonstrationen aufgerufen. Die Gewerkschaften wollen vor allem gegen die Sparpläne der Regierung protestieren und höhere Löhne fordern. Schüler- und Studierendenverbände, die gegen [[Missstände|6]] an Schulen und Universitäten protestieren, haben sich den Aufrufen angeschlossen. Bei [[Kundgebungen|7]] an den vergangenen beiden Wochenenden hatten sich [[Randalierer|8]] und Sicherheitskräfte [[Zusammenstöße|9]] geliefert. Mehr als 3000 Geschäfte wurden [[geplündert|10]]."
+      },
+      {
+        "heading": "Bundesregierung schränkt Kontingent für Arbeitskräfte vom Westbalkan ein",
+        "text": "Das Bundeskabinett hat das [[Kontingent|11]] für Arbeitskräfte aus sechs Westbalkan-Staaten [[halbiert|12]]. Wie ein Sprecher des Bundesarbeitsministeriums sagte, wird die Bundesagentur für Arbeit damit künftig jährlich nur noch 25.000 statt wie bisher 50.000 Genehmigungen für die Beschäftigung in Deutschland [[erteilen|13]]. Demnach setzt das Arbeitsministerium damit eine Vereinbarung aus dem Koalitionsvertrag um. An dem Schritt gibt es massive Kritik aus der Wirtschaft. Die Westbalkan-Regelung gilt für die Länder Albanien, Bosnien und Herzegowina, Kosovo, Nordmazedonien, Montenegro und Serbien. Arbeitskräfte aus diesen Staaten können Visa unter vereinfachten Bedingungen erhalten."
+      },
+      {
+        "heading": "Ungarn macht Archive der kommunistischen Geheimpolizei zugänglich",
+        "text": "Die ungarische Regierung hat die Archive der kommunistischen Geheimpolizei geöffnet und der Öffentlichkeit den Zugang zu den Akten von zehntausenden [[Informanten|14]] ermöglicht. Eine entsprechende Datenbank mit Informationen zu 50.000 bis 60.000 [[Spitzeln|15]] der Staatssicherheit wurde [[freigeschaltet|16]]. „Nach 36 Jahren erfüllen wir endlich eines der zentralen Versprechen des Regimewechsels 1990“, sagte der ungarische Ministerpräsident Péter Magyar. Dieses Versprechen sei nach dem Ende der kommunistischen Herrschaft [[geleugnet|17]] und [[verschleiert|18]] worden. Vor der Freischaltung der Datenbank hatten [[Gerüchte|19]] die Runde gemacht, dass der frühere ungarische Regierungschef Viktor Orbán ein Spitzel der Staatssicherheit gewesen sei. Sein Name taucht in den Dokumenten aber nicht auf."
+      },
+      {
+        "heading": "Freie-Wähler-Chef Hubert Aiwanger ist tot",
+        "text": "Der plötzliche Tod des Freie-Wähler-Chefs und bayerischen Wirtschaftsministers Hubert Aiwanger hat für [[Bestürzung|20]] gesorgt. Neben den Freien Wählern und ihrem Koalitionspartner CSU reagierte auch die Opposition [[betroffen|21]] auf den Tod des 55 Jahre alten bayerischen Vize-Ministerpräsidenten. Noch ist völlig offen, wie es in Partei und Regierung weitergeht. In Berlin, wo Aiwanger am Mittwoch [[leblos|22]] in einem Hotelzimmer gefunden worden war, haben die Behörden ein [[Todesermittlungsverfahren|23]] eingeleitet. Aiwanger galt als [[streitbarer|24]] Politiker, der aber gerade deshalb über die bayerischen Landesgrenzen hinaus bekannt wurde."
+      },
+      {
+        "heading": "WHO beklagt [[mangelnde|25]] sportliche Aktivitäten vieler Jugendlicher",
+        "text": "Viele Kinder und Jugendliche bewegen sich nach Angaben der Weltgesundheitsorganisation (WHO) deutlich zu wenig. 25 Prozent der 11- bis 17-Jährigen betreiben nach eigener Auskunft keinen Sport oder Aktivitäten, bei denen Herz und [[Kreislauf|26]] zumindest etwas gefordert würden, heißt es in einem Bericht der UN-Organisation. Nur 14 Prozent der Menschen dieser Altersgruppe seien nach eigenen Angaben täglich mindestens eine Stunde [[mäßig|27]] bis intensiv körperlich aktiv. Der Bericht basiert auf Umfragen in 140 Ländern mit insgesamt mehr als drei Millionen Teilnehmern."
+      }
+    ],
+    "vocab": [
+      {
+        "id": 1,
+        "word": "das Wahldebakel",
+        "translation": {
+          "en": "election fiasco",
+          "pl": "klęska wyborcza"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Wahldebakel",
+        "notes": {
+          "en": "A disastrous outcome in an election.",
+          "pl": "Katastrofalny wynik w wyborach."
+        },
+        "examples": [
+          "Nach dem Wahldebakel forderte die Partei personelle Konsequenzen.",
+          "Das Wahldebakel führte zu heftigen Diskussionen innerhalb der Regierung."
+        ]
+      },
+      {
+        "id": 2,
+        "word": "schonungslos",
+        "translation": {
+          "en": "ruthless; unsparing",
+          "pl": "bezlitosny, bezkompromisowy"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Often used to describe honest and critical analysis.",
+          "pl": "Często opisuje szczerą i krytyczną analizę."
+        },
+        "examples": [
+          "Der Bericht liefert eine schonungslose Analyse der Fehler.",
+          "Wir müssen uns der Wahrheit schonungslos stellen."
+        ]
+      },
+      {
+        "id": 3,
+        "word": "sich distanzieren",
+        "translation": {
+          "en": "to distance oneself",
+          "pl": "dystansować się"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Takes 'von' + dative.",
+          "pl": "Łączy się z 'von' + celownik."
+        },
+        "examples": [
+          "Der Politiker distanzierte sich von den extremen Aussagen.",
+          "Das Unternehmen musste sich öffentlich von der Werbekampagne distanzieren."
+        ]
+      },
+      {
+        "id": 4,
+        "word": "der Spritpreis",
+        "translation": {
+          "en": "fuel price",
+          "pl": "cena paliwa"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Spritpreise",
+        "notes": {
+          "en": "Colloquial but common in news for 'Kraftstoffpreis'.",
+          "pl": "Potoczne, ale częste w wiadomościach określenie na 'Kraftstoffpreis'."
+        },
+        "examples": [
+          "Die hohen Spritpreise belasten viele Pendler.",
+          "Die Regierung diskutiert eine Senkung der Spritpreise."
+        ]
+      },
+      {
+        "id": 5,
+        "word": "einräumen",
+        "translation": {
+          "en": "to admit; to concede",
+          "pl": "przyznać (rację, błąd)"
+        },
+        "partOfSpeech": "Verb",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Separable verb. Often used when acknowledging a mistake or fact.",
+          "pl": "Czasownik rozdzielnie złożony. Często używany przy przyznawaniu się do błędu."
+        },
+        "examples": [
+          "Der Minister musste seine Fehler schließlich einräumen.",
+          "Das Unternehmen räumte ein, dass die Software Mängel hatte."
+        ]
+      },
+      {
+        "id": 6,
+        "word": "der Missstand",
+        "translation": {
+          "en": "grievance; bad state of affairs",
+          "pl": "nieprawidłowość, patologia"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Missstände",
+        "notes": {
+          "en": "Usually used in plural to describe unacceptable conditions.",
+          "pl": "Zwykle w liczbie mnogiej, opisuje niedopuszczalne warunki."
+        },
+        "examples": [
+          "Die Journalisten deckten gravierende Missstände in der Pflege auf.",
+          "Gegen diese sozialen Missstände muss dringend etwas unternommen werden."
+        ]
+      },
+      {
+        "id": 7,
+        "word": "die Kundgebung",
+        "translation": {
+          "en": "rally; demonstration",
+          "pl": "wiec, demonstracja"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Kundgebungen",
+        "notes": {
+          "en": "A public gathering to express a political opinion.",
+          "pl": "Zgromadzenie publiczne w celu wyrażenia opinii politycznej."
+        },
+        "examples": [
+          "An der Kundgebung nahmen tausende Menschen teil.",
+          "Die Polizei löste die nicht genehmigte Kundgebung auf."
+        ]
+      },
+      {
+        "id": 8,
+        "word": "der Randalierer",
+        "translation": {
+          "en": "rioter; hooligan",
+          "pl": "chuligan, uczestnik zamieszek"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Randalierer",
+        "notes": {
+          "en": "A person causing damage and unrest in public.",
+          "pl": "Osoba powodująca zniszczenia i niepokoje w miejscach publicznych."
+        },
+        "examples": [
+          "Die Polizei nahm mehrere Randalierer fest.",
+          "Randalierer zerstörten Schaufenster in der Innenstadt."
+        ]
+      },
+      {
+        "id": 9,
+        "word": "der Zusammenstoß",
+        "translation": {
+          "en": "clash; collision",
+          "pl": "starcie, zderzenie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Zusammenstöße",
+        "notes": {
+          "en": "Can mean a physical crash or a violent conflict.",
+          "pl": "Może oznaczać fizyczny wypadek lub brutalny konflikt."
+        },
+        "examples": [
+          "Bei den Protesten kam es zu gewaltsamen Zusammenstößen.",
+          "Der Zusammenstoß zweier Züge forderte viele Verletzte."
+        ]
+      },
+      {
+        "id": 10,
+        "word": "plündern",
+        "translation": {
+          "en": "to loot; to plunder",
+          "pl": "plądrować, grabić"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Often happens during riots or wars.",
+          "pl": "Często zdarza się podczas zamieszek lub wojen."
+        },
+        "examples": [
+          "Während des Stromausfalls wurden mehrere Supermärkte geplündert.",
+          "Die Bande plünderte verlassene Häuser."
+        ]
+      },
+      {
+        "id": 11,
+        "word": "das Kontingent",
+        "translation": {
+          "en": "quota",
+          "pl": "kontyngent, pula"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Kontingente",
+        "notes": {
+          "en": "A fixed amount or number allowed.",
+          "pl": "Z góry ustalona dozwolona ilość lub liczba."
+        },
+        "examples": [
+          "Das Kontingent für ausländische Fachkräfte wurde erhöht.",
+          "Das Reisebüro hat ein festes Kontingent an Hotelzimmern."
+        ]
+      },
+      {
+        "id": 12,
+        "word": "halbieren",
+        "translation": {
+          "en": "to halve",
+          "pl": "zmniejszyć o połowę, przekroić na pół"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "To reduce something by 50 percent.",
+          "pl": "Zmniejszyć coś o 50 procent."
+        },
+        "examples": [
+          "Das Unternehmen musste seine Kosten halbieren.",
+          "Die Regierung plant, die Steuern in diesem Bereich zu halbieren."
+        ]
+      },
+      {
+        "id": 13,
+        "word": "erteilen",
+        "translation": {
+          "en": "to grant; to issue",
+          "pl": "udzielić, wydać"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Often used with Genehmigung, Auftrag, or Rat.",
+          "pl": "Często używane z Genehmigung, Auftrag lub Rat."
+        },
+        "examples": [
+          "Die Behörde wollte die Genehmigung nicht erteilen.",
+          "Der Direktor erteilte dem Team einen wichtigen Auftrag."
+        ]
+      },
+      {
+        "id": 14,
+        "word": "der Informant",
+        "translation": {
+          "en": "informant",
+          "pl": "informator"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Informanten",
+        "notes": {
+          "en": "A person who gives secret information.",
+          "pl": "Osoba przekazująca tajne informacje."
+        },
+        "examples": [
+          "Der Journalist traf sich heimlich mit seinem Informanten.",
+          "Die Polizei schützt die Identität des Informanten."
+        ]
+      },
+      {
+        "id": 15,
+        "word": "der Spitzel",
+        "translation": {
+          "en": "informer; spy",
+          "pl": "donosiciel, szpicel"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Spitzel",
+        "notes": {
+          "en": "A derogatory term for someone who secretly spies on others.",
+          "pl": "Pogardliwe określenie kogoś, kto potajemnie szpieguje innych."
+        },
+        "examples": [
+          "Er wurde beschuldigt, ein Spitzel der Regierung zu sein.",
+          "Das Regime setzte Spitzel ein, um die Opposition zu überwachen."
+        ]
+      },
+      {
+        "id": 16,
+        "word": "freischalten",
+        "translation": {
+          "en": "to activate; to unlock",
+          "pl": "aktywować, udostępnić"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Separable verb. Often used for software, accounts, or databases.",
+          "pl": "Czasownik rozdzielnie złożony. Często używany w kontekście oprogramowania, kont lub baz danych."
+        },
+        "examples": [
+          "Der Administrator muss das Konto erst freischalten.",
+          "Die neuen Funktionen werden morgen freigeschaltet."
+        ]
+      },
+      {
+        "id": 17,
+        "word": "leugnen",
+        "translation": {
+          "en": "to deny",
+          "pl": "zaprzeczać, negować"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "To say that something is not true.",
+          "pl": "Stwierdzić, że coś nie jest prawdą."
+        },
+        "examples": [
+          "Der Verdächtige leugnete die Tat bis zum Schluss.",
+          "Es lässt sich nicht leugnen, dass das Problem existiert."
+        ]
+      },
+      {
+        "id": 18,
+        "word": "verschleiern",
+        "translation": {
+          "en": "to cover up; to obscure",
+          "pl": "tuszować, ukrywać"
+        },
+        "partOfSpeech": "Verb",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "To hide the truth or make it difficult to see.",
+          "pl": "Ukrywać prawdę lub utrudniać jej dostrzeżenie."
+        },
+        "examples": [
+          "Die Firma versuchte, die wahren Kosten zu verschleiern.",
+          "Die Beweise wurden absichtlich verschleiert."
+        ]
+      },
+      {
+        "id": 19,
+        "word": "das Gerücht",
+        "translation": {
+          "en": "rumour",
+          "pl": "plotka, pogłoska"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Gerüchte",
+        "notes": {
+          "en": "Unverified information that spreads quickly.",
+          "pl": "Niezweryfikowane informacje, które szybko się rozchodzą."
+        },
+        "examples": [
+          "Es gibt ein Gerücht, dass der Chef kündigen wird.",
+          "Man sollte nicht jedem Gerücht glauben."
+        ]
+      },
+      {
+        "id": 20,
+        "word": "die Bestürzung",
+        "translation": {
+          "en": "dismay; shock",
+          "pl": "konsternacja, wstrząs"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "A feeling of sudden disappointment or shock.",
+          "pl": "Uczucie nagłego rozczarowania lub szoku."
+        },
+        "examples": [
+          "Die Nachricht löste große Bestürzung aus.",
+          "Mit Bestürzung reagierten die Mitarbeiter auf die Entlassungen."
+        ]
+      },
+      {
+        "id": 21,
+        "word": "betroffen",
+        "translation": {
+          "en": "affected; shocked",
+          "pl": "dotknięty, wstrząśnięty"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Can mean physically affected or emotionally shocked.",
+          "pl": "Może oznaczać fizycznie dotknięty lub emocjonalnie wstrząśnięty."
+        },
+        "examples": [
+          "Die betroffenen Familien erhalten finanzielle Hilfe.",
+          "Wir sind tief betroffen von diesem tragischen Vorfall."
+        ]
+      },
+      {
+        "id": 22,
+        "word": "leblos",
+        "translation": {
+          "en": "lifeless",
+          "pl": "martwy, bez oznak życia"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Found without signs of life.",
+          "pl": "Znaleziony bez oznak życia."
+        },
+        "examples": [
+          "Der Mann wurde leblos am Strand gefunden.",
+          "Die Rettungskräfte versuchten, den leblosen Körper zu reanimieren."
+        ]
+      },
+      {
+        "id": 23,
+        "word": "das Todesermittlungsverfahren",
+        "translation": {
+          "en": "death investigation",
+          "pl": "śledztwo w sprawie śmierci"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C2",
+        "plural": "die Todesermittlungsverfahren",
+        "notes": {
+          "en": "A formal police investigation into a death.",
+          "pl": "Formalne policyjne śledztwo w sprawie śmierci."
+        },
+        "examples": [
+          "Die Staatsanwaltschaft hat ein Todesermittlungsverfahren eingeleitet.",
+          "Das Todesermittlungsverfahren soll die genaue Ursache klären."
+        ]
+      },
+      {
+        "id": 24,
+        "word": "streitbar",
+        "translation": {
+          "en": "contentious; argumentative",
+          "pl": "kłótliwy, waleczny"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Someone who likes to argue or is often involved in disputes.",
+          "pl": "Ktoś, kto lubi się spierać lub często bierze udział w sporach."
+        },
+        "examples": [
+          "Er war ein streitbarer Politiker, der keine Konflikte scheute.",
+          "Ihre streitbare Art machte sie bei vielen unbeliebt."
+        ]
+      },
+      {
+        "id": 25,
+        "word": "mangelnd",
+        "translation": {
+          "en": "lacking; insufficient",
+          "pl": "brakujący, niewystarczający"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Used as an attributive adjective to describe a lack of something.",
+          "pl": "Używane jako przydawka do opisania braku czegoś."
+        },
+        "examples": [
+          "Mangelnde Erfahrung war der Grund für den Fehler.",
+          "Das Projekt scheiterte an mangelnder Unterstützung."
+        ]
+      },
+      {
+        "id": 26,
+        "word": "der Kreislauf",
+        "translation": {
+          "en": "circulation (blood); cycle",
+          "pl": "krążenie, obieg"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Kreisläufe",
+        "notes": {
+          "en": "Often refers to cardiovascular circulation in a medical context.",
+          "pl": "W kontekście medycznym często odnosi się do krążenia krwi."
+        },
+        "examples": [
+          "Sport ist gut für Herz und Kreislauf.",
+          "Der Patient brach wegen Problemen mit dem Kreislauf zusammen."
+        ]
+      },
+      {
+        "id": 27,
+        "word": "mäßig",
+        "translation": {
+          "en": "moderate",
+          "pl": "umiarkowany"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Neither very much nor very little.",
+          "pl": "Ani bardzo dużo, ani bardzo mało."
+        },
+        "examples": [
+          "Der Erfolg der Kampagne war leider nur mäßig.",
+          "Ärzte empfehlen mäßigen, aber regelmäßigen Sport."
+        ]
+      }
+    ]
+  },
+  "speaking": {
+    "prompt": {
+      "en": "You are my German language tutor conducting a 20-minute B1-to-C1 speaking conversation based on the Listening section of today's lesson (German news from 5 November 2026).\n\nListening reference – the 6 news stories from today's Listening section, in the same order as the articles:\n1. US Vice President J.D. Vance demanded a ruthless analysis of the Republicans' election fiasco, distancing himself from the Iran war started by Donald Trump, who admitted Vance's account is mostly correct but defended the war.\n2. Trade unions and student associations in France called for new strikes and demonstrations against government austerity plans and grievances at schools, following recent violent clashes and looting.\n3. The German government halved the quota for workers from six Western Balkan countries to 25,000 approvals per year, drawing massive criticism from the business sector.\n4. The Hungarian government opened the archives of the communist secret police, revealing tens of thousands of informers, though former Prime Minister Viktor Orbán's name does not appear in the files.\n5. Hubert Aiwanger, the leader of the Free Voters and Bavarian Minister of Economic Affairs, was found dead in a Berlin hotel room, causing widespread dismay and triggering a death investigation.\n6. A WHO report warns that a large proportion of adolescents worldwide lack sufficient physical activity, with 25 percent engaging in no activities that stimulate the cardiovascular system.\n\nGrammar focus to elicit: \"als\" vs \"wenn\" for one-time and repeated past events.\n\nUseful words from today's Listening articles (invite me to use them): das Wahldebakel, sich distanzieren, der Randalierer, plündern, das Kontingent, leugnen, das Gerücht, die Bestürzung.\n\nInstructions for the AI tutor:\n1. Start the conversation: greet me and ask whether I have listened to today's broadcast. If not, summarise story 1 in two simple German sentences and continue.\n2. You ask, I speak: one question per turn, one or two short sentences, never answer your own questions. German at B1-C1 level; English only if I am really stuck.\n3. Questions refer to the stories above, in order, covering at least four: facts first, then causes, consequences, other perspectives, my evaluation. Near the end, ask me to connect two stories.\n4. Encourage me to use subordinate clauses starting with \"als\" (for single past events) and \"wenn\" (for repeated past events) to describe when things happened. Remind me that the finite verb goes to the end of the \"als\" or \"wenn\" clause.\n5. Question ideas (adapt to my answers):\n   - (story 1) Was passierte mit den Spritpreisen, als Donald Trump den Krieg begann? Beginne mit „Als ...“.\n   - (story 2) Was geschah an den vergangenen Wochenenden, wenn die Menschen demonstrierten? Beginne mit „Immer wenn ...“.\n   - (story 4) Was passierte, als die ungarische Regierung die Archive öffnete?\n   - (story 5) Wie haben die Politiker reagiert, als sie vom Tod Aiwangers erfuhren?\n   - (story 6) Hast du viel Sport gemacht, als du ein Kind warst?\n6. Immediate correction: if I break today's rule (e.g. *Wenn ich ein Kind war, spielte ich Fußball.* instead of *Als ich ein Kind war, spielte ich Fußball.*), stop briefly: quote the error, give the correct sentence, explain the rule in 1 English sentence, ask me to repeat the correct sentence aloud before the next question.\n7. Also correct other significant errors briefly; note recurring mistakes for the final feedback. If my answer is very short, ask one follow-up („Warum?“).\n8. Wrap-up after ~20 minutes or when I say \"stop\": two things I did well, three key mistakes with corrections, five words to review, one German sentence to repeat aloud.\n9. Keep the tone engaging, professional, natural for an immersive German voice dialogue. Address me as „du“.",
+      "pl": "Jesteś moim nauczycielem języka niemieckiego i prowadzisz 20-minutową rozmowę na poziomie od B1 do C1 w oparciu o część Słuchanie z dzisiejszej lekcji (niemieckie wiadomości z 5 listopada 2026 roku).\n\nMateriał ze Słuchania – 6 tematów wiadomości z dzisiejszej części Słuchanie, w tej samej kolejności co artykuły:\n1. Wiceprezydent USA J.D. Vance zażądał bezlitosnej analizy klęski wyborczej Republikanów, dystansując się od wojny z Iranem rozpoczętej przez Donalda Trumpa, który przyznał, że relacja Vance'a jest w większości prawdziwa, ale bronił wojny.\n2. Związki zawodowe i stowarzyszenia studenckie we Francji wezwały do nowych strajków i demonstracji przeciwko planom oszczędnościowym rządu i patologiom w szkołach, po niedawnych brutalnych starciach i grabieżach.\n3. Niemiecki rząd zmniejszył o połowę kontyngent dla pracowników z sześciu krajów Bałkanów Zachodnich do 25 000 pozwoleń rocznie, ściągając na siebie ogromną krytykę ze strony sektora gospodarczego.\n4. Rząd Węgier otworzył archiwa komunistycznej tajnej policji, ujawniając dziesiątki tysięcy donosicieli, chociaż nazwisko byłego premiera Viktora Orbána nie pojawia się w aktach.\n5. Hubert Aiwanger, lider Wolnych Wyborców i bawarski minister gospodarki, został znaleziony martwy w berlińskim pokoju hotelowym, co wywołało powszechną konsternację i wszczęcie śledztwa w sprawie śmierci.\n6. Raport WHO ostrzega, że duża część młodzieży na całym świecie nie ma wystarczającej aktywności fizycznej, a 25 procent nie podejmuje żadnych działań stymulujących układ krążenia.\n\nZagadnienie gramatyczne do ćwiczenia: \"als\" i \"wenn\" dla jednorazowych i powtarzających się wydarzeń w przeszłości.\n\nPrzydatne słowa z dzisiejszych artykułów (zachęcaj mnie do ich używania): das Wahldebakel, sich distanzieren, der Randalierer, plündern, das Kontingent, leugnen, das Gerücht, die Bestürzung.\n\nInstrukcje dla tutora AI:\n1. Prowadź rozmowę od swojej pierwszej wiadomości. Przywitaj się serdecznie i zapytaj, czy wysłuchałem dzisiejszego nagrania. Jeśli nie, streść temat 1 w dwóch prostych zdaniach po niemiecku i mimo to kontynuuj.\n2. Ty pytasz, ja mówię. Zadawaj pytania pojedynczo – nigdy więcej niż jedno pytanie w jednej wypowiedzi. Każda Twoja wypowiedź powinna mieć jedno lub dwa krótkie zdania, żebym to ja mówił najwięcej, i nigdy nie odpowiadaj na własne pytania. Mów po niemiecku na poziomie B1–C1 i przechodź na polski tylko wtedy, gdy naprawdę utknę.\n3. Każde pytanie musi odnosić się do tematów ze Słuchania wymienionych powyżej. Omawiaj tematy po kolei i poruszaj co najmniej cztery z sześciu. Przy każdym temacie najpierw pytaj o fakty, potem o przyczyny i skutki, alternatywne perspektywy oraz moją własną ocenę. Pod koniec poproś mnie o porównanie lub połączenie dwóch tematów. Krótkie pytania osobiste są dozwolone tylko wtedy, gdy wyraźnie wynikają z omawianego tematu.\n4. Zachęcaj mnie do używania zdań podrzędnych zaczynających się od \"als\" (dla jednorazowych wydarzeń w przeszłości) i \"wenn\" (dla powtarzających się wydarzeń w przeszłości), aby opisać, kiedy coś się wydarzyło. Przypominaj mi, że czasownik finitny wędruje na koniec zdania z \"als\" lub \"wenn\".\n5. Pomysły na pytania (dostosuj je do moich odpowiedzi i do omawianego tematu):\n   - (temat 1) Was passierte mit den Spritpreisen, als Donald Trump den Krieg begann? Beginne mit „Als ...“.\n   - (temat 2) Was geschah an den vergangenen Wochenenden, wenn die Menschen demonstrierten? Beginne mit „Immer wenn ...“.\n   - (temat 4) Was passierte, als die ungarische Regierung die Archive öffnete?\n   - (temat 5) Wie haben die Politiker reagiert, als sie vom Tod Aiwangers erfuhren?\n   - (temat 6) Hast du viel Sport gemacht, als du ein Kind warst?\n6. Procedura natychmiastowej korekty: jeśli popełnię błąd dotyczący dzisiejszej zasady, na przykład *Wenn ich ein Kind war, spielte ich Fußball.* zamiast *Als ich ein Kind war, spielte ich Fußball.*, na chwilę przerwij rozmowę i:\n   - Zacytuj błąd.\n   - Podaj poprawne zdanie po niemiecku.\n   - Wyjaśnij w jednym zdaniu po polsku obowiązującą zasadę.\n   - Poproś mnie o głośne powtórzenie poprawnego zdania przed przejściem do kolejnego pytania.\n7. Poprawiaj również inne istotne błędy językowe, ale krótko i bez przerywania mi z powodu drobnych różnic stylistycznych, a moje powtarzające się błędy zapamiętaj na podsumowanie.\n8. Jeśli moja odpowiedź jest bardzo krótka lub niepewna, zadaj jedno pytanie uzupełniające (na przykład „Warum?“, „Kannst du ein Beispiel nennen?“ lub „Wie siehst du das?“), zanim przejdziesz dalej.\n9. Podsumowanie: po około 20 minutach lub gdy powiem „stop”, zakończ rozmowę i daj krótką informację zwrotną: dwie rzeczy, które mi się udały, trzy najważniejsze błędy (zwłaszcza dotyczące dzisiejszego zagadnienia gramatycznego) z poprawionymi zdaniami oraz pięć słów z dzisiejszych artykułów ze Słuchania wartych powtórzenia. Zakończ jednym niemieckim zdaniem do głośnego powtórzenia.\n10. Zachowuj angażujący, profesjonalny i naturalny ton, odpowiedni dla immersyjnej rozmowy głosowej po niemiecku. Zwracaj się do mnie per „du”."
+    }
+  }
 }
 ]
