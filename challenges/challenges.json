@@ -37521,5 +37521,1749 @@
       "pl": "Jesteś moim nauczycielem języka niemieckiego i prowadzisz 20-minutową rozmowę na poziomie od B1 do C1 w oparciu o część Słuchanie z dzisiejszej lekcji (niemieckie wiadomości z 9 listopada 2026 roku).\n\nMateriał ze Słuchania – 6 tematów wiadomości z dzisiejszej części Słuchanie, w tej samej kolejności co artykuły:\n1. Domniemany sprawca strzelaniny na krakowskim Starym Mieście, w której zginęło sześć osób, a 15 zostało rannych, zmarł w szpitalu; prokuratura bada wątki terrorystyczne, w domu jego rodziców znaleziono ciała matki, ojca i siostry, a w Polsce ogłoszono dwudniową żałobę narodową.\n2. Około 2800 żołnierzy z jedenastu krajów rozpoczyna w Polsce pierwsze manewry wojskowe „Koalicji Chętnych”, aby sprawdzić, jak po wojnie z Rosją zapewnić trwały pokój; w przypadku zawieszenia broni planowane jest późniejsze wysłanie oddziałów na Ukrainę.\n3. Na synodzie Kościoła Ewangelickiego w Würzburgu przewodniczący Centralnej Rady Żydów Josef Schuster wezwał do odwagi cywilnej wobec rosnącego antysemityzmu i przypomniał nazistowską noc kryształową z 1938 roku, a w całych Niemczech upamiętnia się też upadek muru berlińskiego sprzed 37 lat.\n4. Podczas wizyty w Buenos Aires papież Leon XIV napomniał prezydenta Argentyny Javiera Mileia, by okazywał więcej względu słabszym grupom społecznym, przeciwstawiając radykalnemu liberalizmowi rynkowemu katolicką naukę społeczną i dobro wspólne.\n5. W Antalyi rozpoczęła się konferencja klimatyczna ONZ COP31 pod przewodnictwem Australii i prezydencją Turcji; Niemcy reprezentuje minister środowiska Carsten Schneider, natomiast rząd USA pod kierownictwem Donalda Trumpa nie bierze udziału w obradach.\n6. Producent układów AI Nvidia wszczął dochodzenie wobec prezesa Jensena Huanga w związku z podejrzeniem szpiegostwa z udziałem domniemanej chińskiej szpieg, informując jednocześnie, że Huang będzie nadal kierował firmą pod nadzorem niezależnego komitetu dyrektorów.\n\nZagadnienie gramatyczne do ćwiczenia: Warunki rzeczywiste ze spójnikami wenn, falls i sofern.\n\nPrzydatne słowa z dzisiejszych artykułów ze Słuchania (zachęcaj mnie do ich używania): der Täter, die Staatsanwaltschaft, die Waffenruhe, die Zivilcourage, die Rücksicht, der Vorsitz, der Spionageverdacht, der Vorwurf.\n\nInstrukcje dla tutora AI:\n1. Rozpocznij rozmowę: przywitaj się ze mną i zapytaj, czy wysłuchałem dzisiejszego nagrania. Jeśli nie, streść temat 1 w dwóch prostych zdaniach po niemiecku i kontynuuj.\n2. Ty pytasz, ja mówię: jedno pytanie w jednej wypowiedzi, jedno lub dwa krótkie zdania, nigdy nie odpowiadaj na własne pytania. Mów po niemiecku na poziomie B1–C1; na polski przechodź tylko wtedy, gdy naprawdę utknę.\n3. Pytania odnoszą się do powyższych tematów po kolei i obejmują co najmniej cztery z nich: najpierw fakty, potem przyczyny, skutki, inne perspektywy i moją ocenę. Pod koniec poproś mnie o połączenie dwóch tematów.\n4. Zachęcaj mnie do łączenia faktów i możliwych skutków za pomocą rzeczywistych zdań warunkowych z wenn, falls i sofern, raz stawiając warunek na początku (z inwersją w zdaniu głównym), a raz zaczynając od zdania głównego.\n5. Pomysły na pytania (dostosuj do moich odpowiedzi): (temat 1) Was wird die Staatsanwaltschaft tun, wenn sie eindeutige Beweise für Terrorismus findet? (temat 2) Was ist geplant, falls es in der Ukraine zu einer Waffenruhe kommt? (temat 3) Wie verändert sich unsere Gesellschaft, wenn mehr Menschen Zivilcourage zeigen? (temat 5) Was bedeutet es für die Klimakonferenz, sofern die USA den Verhandlungen dauerhaft fernbleiben? (temat 6) Was könnte bei Nvidia passieren, falls sich der Spionageverdacht gegen den Konzernchef bestätigt?\n6. Natychmiastowa korekta: jeśli złamię dzisiejszą zasadę (np. *Wenn eine Waffenruhe beginnt, die Truppe geht in die Ukraine.* zamiast *Wenn eine Waffenruhe beginnt, geht die Truppe in die Ukraine.*), zatrzymaj się na chwilę: zacytuj błąd, podaj poprawne zdanie, wyjaśnij zasadę w 1 zdaniu po polsku i poproś mnie o głośne powtórzenie poprawnego zdania przed kolejnym pytaniem.\n7. Poprawiaj też krótko inne istotne błędy; powtarzające się błędy zanotuj do końcowej informacji zwrotnej. Jeśli moja odpowiedź jest bardzo krótka, zadaj jedno pytanie uzupełniające („Warum?“).\n8. Podsumowanie po ~20 minutach lub gdy powiem „stop”: dwie rzeczy, które poszły mi dobrze, trzy główne błędy z poprawkami, pięć słów do powtórzenia i jedno niemieckie zdanie do głośnego powtórzenia.\n9. Zachowaj angażujący, profesjonalny i naturalny ton do immersyjnej rozmowy głosowej po niemiecku. Zwracaj się do mnie per „du”."
     }
   }
+},
+{
+  "lesson": {
+    "id": "2026-11-10",
+    "date": "10.11.2026",
+    "day": 29,
+    "totalDays": 300,
+    "level": "B1",
+    "title": {
+      "en": "Relative Clauses with Nominative and Accusative Relative Pronouns",
+      "pl": "Zdania przydawkowe względne z zaimkami względnymi w mianowniku i bierniku"
+    },
+    "subtitle": "Relativsätze mit Relativpronomen im Nominativ und Akkusativ"
+  },
+  "grammar": {
+    "html": {
+      "en": [
+        "<p>German relative clauses (<em>Relativsätze</em>) give extra information about a noun in the main clause. The relative pronoun takes its <strong>gender and number</strong> from that noun, while its <strong>case</strong> (nominative or accusative) depends on its grammatical role inside the relative clause. Relative clauses are always set off by commas, and their finite verb goes to the end.</p>",
+        "<div class='box rule'><strong>Core rule:</strong> Match the relative pronoun's gender and number to the noun in the main clause, choose nominative (subject) or accusative (object) inside the relative clause, and place the finite verb last.</div>",
+        "<h3>Forms of nominative and accusative relative pronouns</h3>",
+        "<p>In the nominative and accusative, relative pronouns have exactly the same forms as the definite articles (<em>der</em>, <em>die</em>, <em>das</em>, <em>den</em>). The only form that changes between nominative and accusative is the <strong>masculine singular</strong>: nominative <em>der</em> becomes accusative <em>den</em>. Feminine, neuter, and plural forms look identical in both cases.</p>",
+        "<table><thead><tr><th>Gender / Number</th><th>Nominative (subject)</th><th>Accusative (object)</th><th>Example</th></tr></thead><tbody><tr><td>Masculine</td><td class='de'><strong>der</strong></td><td class='de'><strong>den</strong></td><td class='de'>der Plan, <strong>den</strong> wir prüfen</td></tr><tr><td>Feminine</td><td class='de'><strong>die</strong></td><td class='de'><strong>die</strong></td><td class='de'>die Steuer, <strong>die</strong> sie ablehnen</td></tr><tr><td>Neuter</td><td class='de'><strong>das</strong></td><td class='de'><strong>das</strong></td><td class='de'>das Werk, <strong>das</strong> dort steht</td></tr><tr><td>Plural</td><td class='de'><strong>die</strong></td><td class='de'><strong>die</strong></td><td class='de'>die Länder, <strong>die</strong> mitmachen</td></tr></tbody></table>",
+        "<h3>Nominative vs. accusative inside the relative clause</h3>",
+        "<p>Use the <strong>nominative</strong> when the noun performs the action in the relative clause (there is no other subject). Use the <strong>accusative</strong> when another subject performs the action and the relative pronoun is the direct object. Notice how a transitive verb with its own subject forces masculine <em>der</em> to become <em>den</em>.</p>",
+        "<ul><li><em>Der Minister, <strong>der</strong> die Rede <strong>hält</strong>, reist ab.</em> (nominative subject: <em>der Minister</em> holds the speech)</li><li><em>Der Vorschlag, <strong>den</strong> die Wähler <strong>ablehnen</strong>, scheitert.</em> (accusative object: <em>die Wähler</em> is the subject)</li><li><em>Die Daten, <strong>die</strong> wir gestern <strong>gesammelt haben</strong>, sind vollständig.</em> (plural accusative object; finite verb <em>haben</em> at the end)</li></ul>",
+        "<h3>Clause placement, commas, and scope</h3>",
+        "<p>A relative clause normally stands right after the noun it modifies. If that noun stands near the start of the main clause, the relative clause splits the main clause between two commas, and the main verb follows immediately after the closing comma. Prepositions or dative and genitive roles require other forms such as <em>dem</em> or <em>deren</em>.</p>",
+        "<table><thead><tr><th>Placement</th><th>Example</th></tr></thead><tbody><tr><td>Embedded in main clause</td><td class='de'>Die Firma, <strong>die</strong> den Markt <strong>dominiert</strong>, reagiert schnell.</td></tr><tr><td>At the end of sentence</td><td class='de'>Wir lesen den Bericht, <strong>den</strong> der Ausschuss <strong>vorlegt</strong>.</td></tr></tbody></table>",
+        "<div class='box warn'><strong>Common mistake: using nominative der for a masculine object</strong><p>✗ <em>Der Plan, der die Regierung vorschlägt, ist teuer.</em></p><p>✓ <em>Der Plan, <strong>den</strong> die Regierung <strong>vorschlägt</strong>, ist teuer.</em></p><p>Because <em>die Regierung</em> is the subject inside the relative clause, <em>der Plan</em> is the direct object and needs accusative <em>den</em>.</p></div>",
+        "<div class='box tip'><strong>Memory aid: ask who is acting inside the relative clause</strong><p>Cover the main clause and read only the relative clause. If the noun itself acts, choose nominative (<em>der/die/das/die</em>); if someone else acts on it, choose accusative (<em>den/die/das/die</em>).</p></div>",
+        "<h3>Quick reference</h3>",
+        "<div class='tiles'><div class='tile'><strong>Masc. nominative</strong><p><em>Der Mann, <strong>der</strong> uns <strong>hilft</strong>, kommt.</em></p></div><div class='tile'><strong>Masc. accusative</strong><p><em>Der Mann, <strong>den</strong> wir <strong>kennen</strong>, kommt.</em></p></div><div class='tile'><strong>Neuter</strong><p><em>Das Gesetz, <strong>das</strong> heute <strong>gilt</strong>, hilft.</em></p></div><div class='tile'><strong>Plural</strong><p><em>Die Daten, <strong>die</strong> er <strong>prüft</strong>, stimmen.</em></p></div></div>"
+      ],
+      "pl": [
+        "<p>Niemieckie zdania przydawkowe względne (<em>Relativsätze</em>) podają dodatkowe informacje o rzeczowniku ze zdania głównego. Zaimek względny przejmuje <strong>rodzaj i liczbę</strong> od tego rzeczownika, natomiast jego <strong>przypadek</strong> (mianownik lub biernik) zależy od roli gramatycznej wewnątrz zdania względnego. Zdania względne zawsze oddziela się przecinkami, a ich czasownik finitny trafia na koniec.</p>",
+        "<div class='box rule'><strong>Główna zasada:</strong> Dopasuj rodzaj i liczbę zaimka względnego do rzeczownika w zdaniu głównym, wybierz mianownik (podmiot) lub biernik (dopełnienie) w zdaniu względnym i ustaw czasownik finitny na końcu.</div>",
+        "<h3>Formy zaimków względnych w mianowniku i bierniku</h3>",
+        "<p>W mianowniku i bierniku zaimki względne mają dokładnie takie same formy jak rodzajniki określone (<em>der</em>, <em>die</em>, <em>das</em>, <em>den</em>). Jedyną formą zmieniającą się między mianownikiem a biernikiem jest <strong>liczba pojedyncza rodzaju męskiego</strong>: mianownik <em>der</em> przechodzi w biernik <em>den</em>. Formy żeńskie, nijakie i liczby mnogiej wyglądają tak samo w obu przypadkach.</p>",
+        "<table><thead><tr><th>Rodzaj / Liczba</th><th>Mianownik (podmiot)</th><th>Biernik (dopełnienie)</th><th>Przykład</th></tr></thead><tbody><tr><td>Męski</td><td class='de'><strong>der</strong></td><td class='de'><strong>den</strong></td><td class='de'>der Plan, <strong>den</strong> wir prüfen</td></tr><tr><td>Żeński</td><td class='de'><strong>die</strong></td><td class='de'><strong>die</strong></td><td class='de'>die Steuer, <strong>die</strong> sie ablehnen</td></tr><tr><td>Nijaki</td><td class='de'><strong>das</strong></td><td class='de'><strong>das</strong></td><td class='de'>das Werk, <strong>das</strong> dort steht</td></tr><tr><td>Liczba mnoga</td><td class='de'><strong>die</strong></td><td class='de'><strong>die</strong></td><td class='de'>die Länder, <strong>die</strong> mitmachen</td></tr></tbody></table>",
+        "<h3>Mianownik a biernik wewnątrz zdania względnego</h3>",
+        "<p>Użyj <strong>mianownika</strong>, gdy to sam rzeczownik wykonuje czynność w zdaniu względnym (nie ma tam innego podmiotu). Użyj <strong>biernika</strong>, gdy czynność wykonuje inny podmiot, a zaimek względny jest dopełnieniem bliższym. Zauważ, jak czasownik przechodni z własnym podmiotem wymusza zmianę męskiego <em>der</em> na <em>den</em>.</p>",
+        "<ul><li><em>Der Minister, <strong>der</strong> die Rede <strong>hält</strong>, reist ab.</em> (podmiot w mianowniku: <em>der Minister</em> wygłasza przemówienie)</li><li><em>Der Vorschlag, <strong>den</strong> die Wähler <strong>ablehnen</strong>, scheitert.</em> (dopełnienie w bierniku: podmiotem jest <em>die Wähler</em>)</li><li><em>Die Daten, <strong>die</strong> wir gestern <strong>gesammelt haben</strong>, sind vollständig.</em> (dopełnienie w liczbie mnogiej; czasownik finitny <em>haben</em> na końcu)</li></ul>",
+        "<h3>Pozycja zdania, przecinki i zakres</h3>",
+        "<p>Zdanie względne stoi zazwyczaj bezpośrednio po rzeczowniku, który określa. Jeśli ten rzeczownik stoi na początku zdania głównego, zdanie względne rozdziela zdanie główne dwoma przecinkami, a czasownik zdania głównego pojawia się zaraz po zamykającym przecinku. Przyimki oraz funkcje celownika i dopełniacza wymagają innych form, takich jak <em>dem</em> czy <em>deren</em>.</p>",
+        "<table><thead><tr><th>Pozycja</th><th>Przykład</th></tr></thead><tbody><tr><td>Wtrącone w zdanie główne</td><td class='de'>Die Firma, <strong>die</strong> den Markt <strong>dominiert</strong>, reagiert schnell.</td></tr><tr><td>Na końcu zdania</td><td class='de'>Wir lesen den Bericht, <strong>den</strong> der Ausschuss <strong>vorlegt</strong>.</td></tr></tbody></table>",
+        "<div class='box warn'><strong>Typowy błąd: użycie mianownika der dla dopełnienia męskiego</strong><p>✗ <em>Der Plan, der die Regierung vorschlägt, ist teuer.</em></p><p>✓ <em>Der Plan, <strong>den</strong> die Regierung <strong>vorschlägt</strong>, ist teuer.</em></p><p>Ponieważ w zdaniu względnym podmiotem jest <em>die Regierung</em>, rzeczownik <em>der Plan</em> jest dopełnieniem bliższym i wymaga biernika <em>den</em>.</p></div>",
+        "<div class='box tip'><strong>Pomoc w zapamiętaniu: zapytaj, kto działa w zdaniu względnym</strong><p>Zakryj zdanie główne i przeczytaj tylko zdanie względne. Jeśli działa sam rzeczownik, wybierz mianownik (<em>der/die/das/die</em>); jeśli działa na niego ktoś inny, wybierz biernik (<em>den/die/das/die</em>).</p></div>",
+        "<h3>Szybki przegląd</h3>",
+        "<div class='tiles'><div class='tile'><strong>Męski mianownik</strong><p><em>Der Mann, <strong>der</strong> uns <strong>hilft</strong>, kommt.</em></p></div><div class='tile'><strong>Męski biernik</strong><p><em>Der Mann, <strong>den</strong> wir <strong>kennen</strong>, kommt.</em></p></div><div class='tile'><strong>Rodzaj nijaki</strong><p><em>Das Gesetz, <strong>das</strong> heute <strong>gilt</strong>, hilft.</em></p></div><div class='tile'><strong>Liczba mnoga</strong><p><em>Die Daten, <strong>die</strong> er <strong>prüft</strong>, stimmen.</em></p></div></div>"
+      ]
+    }
+  },
+  "examples": [
+    {
+      "de": "Das ist der Mann, **der** hier **wohnt**.",
+      "en": "That is the man who lives here.",
+      "pl": "To jest mężczyzna, który tu mieszka.",
+      "level": "A1"
+    },
+    {
+      "de": "Ich lese das Buch, **das** auf dem Tisch **liegt**.",
+      "en": "I am reading the book that is lying on the table.",
+      "pl": "Czytam książkę, która leży na stole.",
+      "level": "A1"
+    },
+    {
+      "de": "Die Frau, **die** im Büro **arbeitet**, heißt Anna.",
+      "en": "The woman who works in the office is called Anna.",
+      "pl": "Kobieta, która pracuje w biurze, nazywa się Anna.",
+      "level": "A2"
+    },
+    {
+      "de": "Kennst du den Film, **den** wir gestern **gesehen haben**?",
+      "en": "Do you know the film that we saw yesterday?",
+      "pl": "Znasz film, który widzieliśmy wczoraj?",
+      "level": "A2"
+    },
+    {
+      "de": "Das sind die Kollegen, **die** morgen nach Berlin **fahren**.",
+      "en": "Those are the colleagues who are travelling to Berlin tomorrow.",
+      "pl": "To są koledzy, którzy jadą jutro do Berlina.",
+      "level": "A2"
+    },
+    {
+      "de": "Der Kollege, **der** das Projekt **leitet**, hat heute einen Termin.",
+      "en": "The colleague who leads the project has an appointment today.",
+      "pl": "Kolega, który kieruje projektem, ma dziś spotkanie.",
+      "level": "B1"
+    },
+    {
+      "de": "Die E-Mail, **die** ich heute Morgen **bekommen habe**, war sehr wichtig.",
+      "en": "The email that I received this morning was very important.",
+      "pl": "E-mail, którego dostałem dziś rano, był bardzo ważny.",
+      "level": "B1"
+    },
+    {
+      "de": "Der Bericht, **den** unsere Abteilung **schreibt**, erscheint nächste Woche.",
+      "en": "The report that our department is writing will appear next week.",
+      "pl": "Raport, który pisze nasz dział, ukaże się w przyszłym tygodniu.",
+      "level": "B1"
+    },
+    {
+      "de": "Wir suchen ein Hotel, **das** nicht weit vom Bahnhof **liegt**.",
+      "en": "We are looking for a hotel that is not far from the station.",
+      "pl": "Szukamy hotelu, który leży niedaleko dworca.",
+      "level": "B1"
+    },
+    {
+      "de": "Die Regeln, **die** das Unternehmen neu **einführt**, gelten ab Montag.",
+      "en": "The rules that the company is newly introducing apply from Monday.",
+      "pl": "Zasady, które firma nowo wprowadza, obowiązują od poniedziałku.",
+      "level": "B1"
+    },
+    {
+      "de": "Der Außenminister, **der** den Vorfall scharf **kritisierte**, bestellte den Botschafter ein.",
+      "en": "The foreign minister, who sharply criticised the incident, summoned the ambassador.",
+      "pl": "Minister spraw zagranicznych, który ostro skrytykował incydent, wezwał ambasadora.",
+      "level": "B2"
+    },
+    {
+      "de": "Der Vorschlag, **den** die Wähler in Kalifornien **ablehnten**, sollte das Gesundheitswesen finanzieren.",
+      "en": "The proposal that voters in California rejected was meant to finance healthcare.",
+      "pl": "Propozycja, którą wyborcy w Kalifornii odrzucili, miała finansować ochronę zdrowia.",
+      "level": "B2"
+    },
+    {
+      "de": "Das Abkommen, **das** beide Länder jetzt **vorbereiten**, soll den Konflikt beenden.",
+      "en": "The agreement that both countries are now preparing is intended to end the conflict.",
+      "pl": "Porozumienie, które oba kraje teraz przygotowują, ma zakończyć konflikt.",
+      "level": "B2"
+    },
+    {
+      "de": "Die Rettungskräfte, **die** den ganzen Tag im Werk **suchten**, fanden weitere Verletzte.",
+      "en": "The rescue workers who searched at the plant all day found more injured people.",
+      "pl": "Ratownicy, którzy przez cały dzień przeszukiwali zakład, znaleźli kolejnych rannych.",
+      "level": "B2"
+    },
+    {
+      "de": "Die Maßnahmen, **die** der Vorstand bereits **eingeleitet hat**, sollen das Vertrauen stärken.",
+      "en": "The measures that the board has already initiated are meant to strengthen confidence.",
+      "pl": "Środki, które zarząd już podjął, mają wzmocnić zaufanie.",
+      "level": "B2"
+    },
+    {
+      "de": "Der Kran, **der** während des Gießvorgangs **abbrach**, stürzte in einen Industrieofen.",
+      "en": "The crane that broke off during the casting process fell into an industrial furnace.",
+      "pl": "Suwnica, która urwała się podczas odlewania, spadła do pieca przemysłowego.",
+      "level": "C1"
+    },
+    {
+      "de": "Den Gesprächsfaden, **den** die Unterhändler vor Monaten **unterbrochen hatten**, nehmen sie nun wieder auf.",
+      "en": "The thread of talks that the negotiators had broken off months ago is now being resumed by them.",
+      "pl": "Wątek rozmów, który negocjatorzy przerwali przed miesiącami, teraz podejmują na nowo.",
+      "level": "C1"
+    },
+    {
+      "de": "Die Politikerin, **die** von mehreren Parteien **nominiert wurde**, will als Kraft des Ausgleichs wirken.",
+      "en": "The politician who was nominated by several parties wants to act as a force for balance.",
+      "pl": "Polityczka, która została nominowana przez kilka partii, chce działać jako siła równowagi.",
+      "level": "C1"
+    },
+    {
+      "de": "Der strukturelle Konflikt, **den** die beiden Lager seit Jahren **austragen**, prägt die gesamte Debatte.",
+      "en": "The structural conflict that the two camps have been fighting out for years shapes the entire debate.",
+      "pl": "Konflikt strukturalny, który oba obozy toczą od lat, kształtuje całą debatę.",
+      "level": "C2"
+    },
+    {
+      "de": "Die gesellschaftlichen Verwerfungen, **die** eine so weitreichende Steuerreform **auslösen kann**, lassen sich kaum genau vorhersagen.",
+      "en": "The social upheavals that such a far-reaching tax reform can trigger can hardly be predicted accurately.",
+      "pl": "Napięcia społeczne, które tak daleko idąca reforma podatkowa może wywołać, trudno dokładnie przewidzieć.",
+      "level": "C2"
+    }
+  ],
+  "exercises": [
+    {
+      "en": "The doctor who works here is very friendly.",
+      "pl": "Lekarz, który tu pracuje, jest bardzo przyjazny.",
+      "de": "Der Arzt, der hier arbeitet, ist sehr freundlich.",
+      "level": "A2"
+    },
+    {
+      "en": "The woman who teaches German comes from Munich.",
+      "pl": "Kobieta, która uczy niemieckiego, pochodzi z Monachium.",
+      "de": "Die Frau, die Deutsch unterrichtet, kommt aus München.",
+      "level": "A2"
+    },
+    {
+      "en": "The child who is playing in the garden is my nephew.",
+      "pl": "Dziecko, które bawi się w ogrodzie, to mój bratanek.",
+      "de": "Das Kind, das im Garten spielt, ist mein Neffe.",
+      "level": "A2"
+    },
+    {
+      "en": "The coffee that I drink every morning is strong.",
+      "pl": "Kawa, którą piję każdego ranka, jest mocna.",
+      "de": "Der Kaffee, den ich jeden Morgen trinke, ist stark.",
+      "level": "A2"
+    },
+    {
+      "en": "The bag that is lying on the chair belongs to Lisa.",
+      "pl": "Torba, która leży na krześle, należy do Lisy.",
+      "de": "Die Tasche, die auf dem Stuhl liegt, gehört Lisa.",
+      "level": "A2"
+    },
+    {
+      "en": "The bread that we bought today is fresh.",
+      "pl": "Chleb, który kupiliśmy dzisiaj, jest świeży.",
+      "de": "Das Brot, das wir heute gekauft haben, ist frisch.",
+      "level": "A2"
+    },
+    {
+      "en": "The guests who are arriving today stay until Sunday.",
+      "pl": "Goście, którzy przyjeżdżają dzisiaj, zostają do niedzieli.",
+      "de": "Die Gäste, die heute ankommen, bleiben bis Sonntag.",
+      "level": "A2"
+    },
+    {
+      "en": "The letter that Paul wrote yesterday is already on the desk.",
+      "pl": "List, który Paul napisał wczoraj, leży już na biurku.",
+      "de": "Der Brief, den Paul gestern geschrieben hat, liegt schon auf dem Schreibtisch.",
+      "level": "A2"
+    },
+    {
+      "en": "The city that we are visiting in summer is very old.",
+      "pl": "Miasto, które odwiedzimy latem, jest bardzo stare.",
+      "de": "Die Stadt, die wir im Sommer besuchen, ist sehr alt.",
+      "level": "A2"
+    },
+    {
+      "en": "The colleagues who helped us yesterday are very reliable.",
+      "pl": "Koledzy, którzy pomogli nam wczoraj, są bardzo niezawodni.",
+      "de": "Die Kollegen, die uns gestern geholfen haben, sind sehr zuverlässig.",
+      "level": "A2"
+    },
+    {
+      "en": "The train that leaves at eight is always full.",
+      "pl": "Pociąg, który odjeżdża o ósmej, jest zawsze pełny.",
+      "de": "Der Zug, der um acht Uhr abfährt, ist immer voll.",
+      "level": "B1"
+    },
+    {
+      "en": "The contract that the customer signed yesterday is valid from May.",
+      "pl": "Umowa, którą klient podpisał wczoraj, obowiązuje od maja.",
+      "de": "Der Vertrag, den der Kunde gestern unterschrieben hat, gilt ab Mai.",
+      "level": "B1"
+    },
+    {
+      "en": "The colleague (female) who organised the meeting is ill today.",
+      "pl": "Koleżanka, która zorganizowała spotkanie, jest dziś chora.",
+      "de": "Die Kollegin, die das Treffen organisiert hat, ist heute krank.",
+      "level": "B1"
+    },
+    {
+      "en": "The problem that the team solved quickly was not simple.",
+      "pl": "Problem, który zespół szybko rozwiązał, nie był prosty.",
+      "de": "Das Problem, das das Team schnell gelöst hat, war nicht einfach.",
+      "level": "B1"
+    },
+    {
+      "en": "The guests whom we invited for dinner are bringing dessert.",
+      "pl": "Goście, których zaprosiliśmy na kolację, przynoszą deser.",
+      "de": "Die Gäste, die wir zum Abendessen eingeladen haben, bringen ein Dessert mit.",
+      "level": "B1"
+    },
+    {
+      "en": "The plan that the manager presented yesterday saves a lot of time.",
+      "pl": "Plan, który kierownik przedstawił wczoraj, oszczędza dużo czasu.",
+      "de": "Der Plan, den der Leiter gestern vorgestellt hat, spart viel Zeit.",
+      "level": "B1"
+    },
+    {
+      "en": "The company that produces these machines employs two hundred people.",
+      "pl": "Firma, która produkuje te maszyny, zatrudnia dwieście osób.",
+      "de": "Das Unternehmen, das diese Maschinen produziert, beschäftigt zweihundert Menschen.",
+      "level": "B1"
+    },
+    {
+      "en": "The documents that you (informal) sent by email arrived safely.",
+      "pl": "Dokumenty, które wysłałeś e-mailem, dotarły bezpiecznie.",
+      "de": "Die Unterlagen, die du per E-Mail geschickt hast, sind sicher angekommen.",
+      "level": "B1"
+    },
+    {
+      "en": "The apartment that my sister rented last month has a balcony.",
+      "pl": "Mieszkanie, które moja siostra wynajęła w zeszłym miesiącu, ma balkon.",
+      "de": "Die Wohnung, die meine Schwester letzten Monat gemietet hat, hat einen Balkon.",
+      "level": "B1"
+    },
+    {
+      "en": "The journalist who wrote this article won an important prize.",
+      "pl": "Dziennikarz, który napisał ten artykuł, zdobył ważną nagrodę.",
+      "de": "Der Journalist, der diesen Artikel geschrieben hat, gewann einen wichtigen Preis.",
+      "level": "B1"
+    },
+    {
+      "en": "The laptop that I use for work is only two years old.",
+      "pl": "Laptop, którego używam do pracy, ma dopiero dwa lata.",
+      "de": "Der Laptop, den ich für die Arbeit benutze, ist erst zwei Jahre alt.",
+      "level": "B1"
+    },
+    {
+      "en": "The museum that opened last year attracts many tourists.",
+      "pl": "Muzeum, które otwarto w zeszłym roku, przyciąga wielu turystów.",
+      "de": "Das Museum, das letztes Jahr eröffnet wurde, zieht viele Touristen an.",
+      "level": "B1"
+    },
+    {
+      "en": "The message that Anna left on the desk was urgent.",
+      "pl": "Wiadomość, którą Anna zostawiła na biurku, była pilna.",
+      "de": "Die Nachricht, die Anna auf dem Schreibtisch gelassen hat, war dringend.",
+      "level": "B1"
+    },
+    {
+      "en": "The neighbours who live above us are moving to Hamburg next week.",
+      "pl": "Sąsiedzi, którzy mieszkają nad nami, przeprowadzają się w przyszłym tygodniu do Hamburga.",
+      "de": "Die Nachbarn, die über uns wohnen, ziehen nächste Woche nach Hamburg.",
+      "level": "B1"
+    },
+    {
+      "en": "The project that we started in spring is almost finished.",
+      "pl": "Projekt, który rozpoczęliśmy wiosną, jest prawie ukończony.",
+      "de": "Das Projekt, das wir im Frühjahr begonnen haben, ist fast fertig.",
+      "level": "B1"
+    },
+    {
+      "en": "The candidate whom the committee chose has ten years of experience.",
+      "pl": "Kandydat, którego wybrała komisja, ma dziesięć lat doświadczenia.",
+      "de": "Der Kandidat, den der Ausschuss gewählt hat, hat zehn Jahre Erfahrung.",
+      "level": "B1"
+    },
+    {
+      "en": "The bus that stops in front of the hotel goes directly to the airport.",
+      "pl": "Autobus, który zatrzymuje się przed hotelem, jedzie bezpośrednio na lotnisko.",
+      "de": "Der Bus, der vor dem Hotel hält, fährt direkt zum Flughafen.",
+      "level": "B1"
+    },
+    {
+      "en": "The book that you (formal) recommended to me is very interesting.",
+      "pl": "Książka, którą Pan mi polecił, jest bardzo interesująca.",
+      "de": "Das Buch, das Sie mir empfohlen haben, ist sehr interessant.",
+      "level": "B1"
+    },
+    {
+      "en": "The employees who attended the training received a certificate.",
+      "pl": "Pracownicy, którzy wzięli udział w szkoleniu, otrzymali certyfikat.",
+      "de": "Die Mitarbeiter, die an der Schulung teilgenommen haben, erhielten ein Zertifikat.",
+      "level": "B1"
+    },
+    {
+      "en": "The restaurant that we wanted to try is closed on Mondays.",
+      "pl": "Restauracja, którą chcieliśmy wypróbować, jest zamknięta w poniedziałki.",
+      "de": "Das Restaurant, das wir ausprobieren wollten, ist montags geschlossen.",
+      "level": "B1"
+    },
+    {
+      "en": "The cyberattack that paralysed hundreds of locations affected several European countries.",
+      "pl": "Cyberatak, który sparaliżował setki lokalizacji, dotknął kilka krajów europejskich.",
+      "de": "Der Cyberangriff, der Hunderte Standorte lahmlegte, betraf mehrere europäische Länder.",
+      "level": "B2"
+    },
+    {
+      "en": "The ambassador whom the foreign ministry summoned arrived in Paris this morning.",
+      "pl": "Ambasador, którego wezwało ministerstwo spraw zagranicznych, przybył dziś rano do Paryża.",
+      "de": "Der Botschafter, den das Außenministerium einbestellt hat, traf heute Morgen in Paris ein.",
+      "level": "B2"
+    },
+    {
+      "en": "The negotiations that the two countries resumed yesterday are scheduled for two days.",
+      "pl": "Negocjacje, które oba kraje wznowiły wczoraj, zaplanowano na dwa dni.",
+      "de": "Die Verhandlungen, die beide Länder gestern wieder aufgenommen haben, sind für zwei Tage angesetzt.",
+      "level": "B2"
+    },
+    {
+      "en": "The candidate whom the party nominated wants to bridge social divisions.",
+      "pl": "Kandydatka, którą partia nominowała, chce łagodzić podziały społeczne.",
+      "de": "Die Kandidatin, die die Partei nominiert hat, will gesellschaftliche Spaltungen überwinden.",
+      "level": "B2"
+    },
+    {
+      "en": "The tax that the voters rejected was supposed to finance public hospitals.",
+      "pl": "Podatek, który wyborcy odrzucili, miał finansować szpitale publiczne.",
+      "de": "Die Steuer, die die Wähler abgelehnt haben, sollte öffentliche Krankenhäuser finanzieren.",
+      "level": "B2"
+    },
+    {
+      "en": "The plant that produces steel in Izmir was closed after the explosion.",
+      "pl": "Zakład, który produkuje stal w Izmirze, został zamknięty po eksplozji.",
+      "de": "Das Werk, das in Izmir Stahl produziert, wurde nach der Explosion geschlossen.",
+      "level": "B2"
+    },
+    {
+      "en": "The witness whom the court questioned yesterday confirmed the earlier statement.",
+      "pl": "Świadek, którego sąd przesłuchał wczoraj, potwierdził wcześniejsze zeznanie.",
+      "de": "Der Zeuge, den das Gericht gestern befragt hat, bestätigte die frühere Aussage.",
+      "level": "B2"
+    },
+    {
+      "en": "The report that the agency published this week reveals serious safety deficits.",
+      "pl": "Raport, który agencja opublikowała w tym tygodniu, ujawnia poważne braki w bezpieczeństwie.",
+      "de": "Der Bericht, den die Behörde diese Woche veröffentlicht hat, deckt gravierende Sicherheitsmängel auf.",
+      "level": "B2"
+    },
+    {
+      "en": "The experts who analysed the technical fault recommend a complete replacement.",
+      "pl": "Eksperci, którzy przeanalizowali usterkę techniczną, zalecają całkowitą wymianę.",
+      "de": "Die Experten, die den technischen Fehler analysiert haben, empfehlen einen vollständigen Austausch.",
+      "level": "B2"
+    },
+    {
+      "en": "The system that monitors cooling temperatures failed shortly after midnight.",
+      "pl": "System, który monitoruje temperatury chłodzenia, zawiódł krótko po północy.",
+      "de": "Das System, das die Kühltemperaturen überwacht, fiel kurz nach Mitternacht aus.",
+      "level": "B2"
+    },
+    {
+      "en": "The billionaire who opposed the new levy warned of falling tax revenues.",
+      "pl": "Miliarder, który sprzeciwiał się nowej daninie, ostrzegł przed spadkiem wpływów podatkowych.",
+      "de": "Der Milliardär, der die neue Abgabe ablehnte, warnte vor sinkenden Steuereinnahmen.",
+      "level": "B2"
+    },
+    {
+      "en": "The verdict that the judge announced in London ended a lengthy trial.",
+      "pl": "Wyrok, który sędzia ogłosił w Londynie, zakończył długi proces.",
+      "de": "Das Urteil, das der Richter in London verkündete, beendete einen langen Prozess.",
+      "level": "B2"
+    },
+    {
+      "en": "The committee that oversees the internal investigation hired external lawyers.",
+      "pl": "Komisja, która nadzoruje wewnętrzne dochodzenie, zatrudniła zewnętrznych prawników.",
+      "de": "Der Ausschuss, der die interne Untersuchung beaufsichtigt, zog externe Anwälte hinzu.",
+      "level": "B2"
+    },
+    {
+      "en": "The accusations that the former employee raised against management proved unfounded.",
+      "pl": "Zarzuty, które były pracownik wysunął wobec kierownictwa, okazały się bezpodstawne.",
+      "de": "Die Vorwürfe, die der frühere Mitarbeiter gegen die Leitung erhob, erwiesen sich als unbegründet.",
+      "level": "B2"
+    },
+    {
+      "en": "The compromise that the coalition presented yesterday faces strong opposition in parliament.",
+      "pl": "Kompromis, który koalicja przedstawiła wczoraj, napotyka silny opór w parlamencie.",
+      "de": "Der Kompromiss, den die Koalition gestern vorstellte, stößt im Parlament auf starken Widerstand.",
+      "level": "B2"
+    },
+    {
+      "en": "The rescue teams that searched the ruins worked without interruption until morning.",
+      "pl": "Ekipy ratunkowe, które przeszukiwały gruzy, pracowały bez przerwy do rana.",
+      "de": "Die Rettungsteams, die die Trümmer absuchten, arbeiteten ohne Unterbrechung bis zum Morgen.",
+      "level": "B2"
+    },
+    {
+      "en": "The decision that the board made last Friday surprised many investors.",
+      "pl": "Decyzja, którą zarząd podjął w zeszły piątek, zaskoczyła wielu inwestorów.",
+      "de": "Die Entscheidung, die der Vorstand letzten Freitag traf, überraschte viele Investoren.",
+      "level": "B2"
+    },
+    {
+      "en": "The law that parliament passed in October takes effect at the beginning of next year.",
+      "pl": "Ustawa, którą parlament uchwalił w październiku, wchodzi w życie na początku przyszłego roku.",
+      "de": "Das Gesetz, das das Parlament im Oktober verabschiedete, tritt Anfang nächsten Jahres in Kraft.",
+      "level": "B2"
+    },
+    {
+      "en": "The spokesperson who answered journalists' questions declined to name any suspects.",
+      "pl": "Rzecznik, który odpowiadał na pytania dziennikarzy, odmówił podania jakichkolwiek podejrzanych.",
+      "de": "Der Sprecher, der die Fragen der Journalisten beantwortete, lehnte es ab, Verdächtige zu nennen.",
+      "level": "B2"
+    },
+    {
+      "en": "The measures that the ministry announced today aim to protect critical infrastructure.",
+      "pl": "Środki, które ministerstwo ogłosiło dzisiaj, mają chronić infrastrukturę krytyczną.",
+      "de": "Die Maßnahmen, die das Ministerium heute ankündigte, sollen die kritische Infrastruktur schützen.",
+      "level": "B2"
+    },
+    {
+      "en": "The software that controls the cooling units requires an immediate security update.",
+      "pl": "Oprogramowanie, które steruje agregatami chłodniczymi, wymaga natychmiastowej aktualizacji bezpieczeństwa.",
+      "de": "Die Software, die die Kühlanlagen steuert, benötigt ein sofortiges Sicherheitsupdate.",
+      "level": "B2"
+    },
+    {
+      "en": "The investor whom the reporters questioned yesterday expects stable growth next year.",
+      "pl": "Inwestor, którego reporterzy pytali wczoraj, oczekuje stabilnego wzrostu w przyszłym roku.",
+      "de": "Der Investor, den die Reporter gestern befragten, erwartet im nächsten Jahr ein stabiles Wachstum.",
+      "level": "B2"
+    },
+    {
+      "en": "The budget that the finance minister drafted includes higher spending on education.",
+      "pl": "Budżet, który opracował minister finansów, obejmuje wyższe wydatki na edukację.",
+      "de": "Der Haushalt, den der Finanzminister entwarf, sieht höhere Ausgaben für Bildung vor.",
+      "level": "B2"
+    },
+    {
+      "en": "The cities that invested early in public transport now report lower emissions.",
+      "pl": "Miasta, które wcześnie zainwestowały w transport publiczny, odnotowują teraz niższe emisje.",
+      "de": "Die Städte, die früh in den öffentlichen Nahverkehr investiert haben, melden heute geringere Emissionen.",
+      "level": "B2"
+    },
+    {
+      "en": "The contract that we checked carefully this morning still contains two unclear clauses.",
+      "pl": "Umowa, którą dokładnie sprawdziliśmy dziś rano, nadal zawiera dwa niejasne zapisy.",
+      "de": "Der Vertrag, den wir heute Morgen sorgfältig geprüft haben, enthält noch zwei unklare Klauseln.",
+      "level": "B2"
+    },
+    {
+      "en": "The politician who leads the parliamentary committee called for stricter rules.",
+      "pl": "Polityk, który kieruje komisją parlamentarną, wezwał do surowszych przepisów.",
+      "de": "Der Politiker, der den Parlamentsausschuss leitet, forderte strengere Regeln.",
+      "level": "B2"
+    },
+    {
+      "en": "The data that the researchers collected in winter confirmed the initial assumption.",
+      "pl": "Dane, które badacze zebrali zimą, potwierdziły pierwotne założenie.",
+      "de": "Die Daten, die die Forscher im Winter sammelten, bestätigten die ursprüngliche Annahme.",
+      "level": "B2"
+    },
+    {
+      "en": "The storm that hit the coastal region caused considerable damage to power lines.",
+      "pl": "Burza, która uderzyła w region nadmorski, spowodowała znaczne szkody w liniach energetycznych.",
+      "de": "Der Sturm, der die Küstenregion traf, verursachte erhebliche Schäden an Stromleitungen.",
+      "level": "B2"
+    },
+    {
+      "en": "The programme that the university launched last autumn supports young engineers.",
+      "pl": "Program, który uniwersytet uruchomił zeszłej jesieni, wspiera młodych inżynierów.",
+      "de": "Das Programm, das die Universität im letzten Herbst startete, fördert junge Ingenieure.",
+      "level": "B2"
+    },
+    {
+      "en": "The suspect whom the police arrested at the airport carried false documents.",
+      "pl": "Podejrzany, którego policja zatrzymała na lotnisku, miał przy sobie fałszywe dokumenty.",
+      "de": "Der Verdächtige, den die Polizei am Flughafen festnahm, trug gefälschte Dokumente bei sich.",
+      "level": "B2"
+    },
+    {
+      "en": "The conference that starts tomorrow in Vienna focuses on European energy security.",
+      "pl": "Konferencja, która rozpoczyna się jutro w Wiedniu, koncentruje się na europejskim bezpieczeństwie energetycznym.",
+      "de": "Die Konferenz, die morgen in Wien beginnt, konzentriert sich auf die europäische Energiesicherheit.",
+      "level": "B2"
+    },
+    {
+      "en": "The solution that the engineers proposed solves the cooling problem permanently.",
+      "pl": "Rozwiązanie, które zaproponowali inżynierowie, rozwiązuje problem chłodzenia na stałe.",
+      "de": "Die Lösung, die die Ingenieure vorschlugen, löst das Kühlungsproblem dauerhaft.",
+      "level": "B2"
+    },
+    {
+      "en": "The changes that the management introduced last quarter improved internal communication.",
+      "pl": "Zmiany, które kierownictwo wprowadziło w zeszłym kwartale, poprawiły komunikację wewnętrzną.",
+      "de": "Die Änderungen, die die Geschäftsleitung im letzten Quartal einführte, verbesserten die interne Kommunikation.",
+      "level": "B2"
+    },
+    {
+      "en": "The journalist whom the magazine sent to Abu Dhabi reports live from the summit.",
+      "pl": "Dziennikarka, którą magazyn wysłał do Abu Zabi, relacjonuje na żywo ze szczytu.",
+      "de": "Die Journalistin, die das Magazin nach Abu Dhabi geschickt hat, berichtet live vom Gipfel.",
+      "level": "B2"
+    },
+    {
+      "en": "The alarm system that protects the warehouse triggered automatically at three o'clock.",
+      "pl": "System alarmowy, który chroni magazyn, uruchomił się automatycznie o trzeciej.",
+      "de": "Das Alarmsystem, das das Lager schützt, löste um drei Uhr automatisch aus.",
+      "level": "B2"
+    },
+    {
+      "en": "The study that the institute published on Monday examines rising healthcare costs.",
+      "pl": "Badanie, które instytut opublikował w poniedziałek, analizuje rosnące koszty opieki zdrowotnej.",
+      "de": "Die Studie, die das Institut am Montag veröffentlichte, untersucht steigende Gesundheitskosten.",
+      "level": "B2"
+    },
+    {
+      "en": "The director whom the shareholders elected last year resigned after the scandal.",
+      "pl": "Dyrektor, którego akcjonariusze wybrali w zeszłym roku, ustąpił po skandalu.",
+      "de": "Der Direktor, den die Aktionäre letztes Jahr wählten, trat nach dem Skandal zurück.",
+      "level": "B2"
+    },
+    {
+      "en": "The countries that signed the agreement want to coordinate their climate targets.",
+      "pl": "Państwa, które podpisały porozumienie, chcą skoordynować swoje cele klimatyczne.",
+      "de": "Die Länder, die das Abkommen unterzeichneten, wollen ihre Klimaziele koordinieren.",
+      "level": "B2"
+    },
+    {
+      "en": "The evidence that the prosecutors submitted convinced the jury within a few hours.",
+      "pl": "Dowody, które prokuratura przedstawiła, przekonały ławę przysięgłych w ciągu kilku godzin.",
+      "de": "Die Beweise, die die Staatsanwaltschaft vorlegte, überzeugten die Geschworenen innerhalb weniger Stunden.",
+      "level": "B2"
+    },
+    {
+      "en": "The supplier that delivers these components announced a two-week delay yesterday.",
+      "pl": "Dostawca, który dostarcza te komponenty, ogłosił wczoraj dwutygodniowe opóźnienie.",
+      "de": "Der Lieferant, der diese Komponenten liefert, kündigte gestern eine zweiwöchige Verzögerung an.",
+      "level": "B2"
+    },
+    {
+      "en": "The diplomatic thread that the negotiators had lost months ago is gradually being restored.",
+      "pl": "Wątek dyplomatyczny, który negocjatorzy stracili przed miesiącami, jest stopniowo odbudowywany.",
+      "de": "Der diplomatische Faden, den die Unterhändler vor Monaten verloren hatten, wird schrittweise wiederhergestellt.",
+      "level": "C1"
+    },
+    {
+      "en": "The independent committee that oversees the investigation has full access to all internal records.",
+      "pl": "Niezależna komisja, która nadzoruje dochodzenie, ma pełny dostęp do wszystkich akt wewnętrznych.",
+      "de": "Der unabhängige Ausschuss, der die Untersuchung beaufsichtigt, hat vollen Zugang zu allen internen Akten.",
+      "level": "C1"
+    },
+    {
+      "en": "The referendum that California voters rejected would have imposed a one-off wealth levy.",
+      "pl": "Referendum, które wyborcy w Kalifornii odrzucili, wprowadziłoby jednorazowy podatek majątkowy.",
+      "de": "Die Volksabstimmung, die die Wähler in Kalifornien ablehnten, hätte eine einmalige Vermögensabgabe eingeführt.",
+      "level": "C1"
+    },
+    {
+      "en": "The crane that broke off during the casting process caused a devastating industrial accident.",
+      "pl": "Suwnica, która urwała się podczas odlewania, spowodowała niszczycielski wypadek przemysłowy.",
+      "de": "Der Kran, der während des Gießvorgangs abbrach, verursachte einen verheerenden Industrieunfall.",
+      "level": "C1"
+    },
+    {
+      "en": "The tech entrepreneur whom the opponents mobilised against the tax argued against capital flight.",
+      "pl": "Przedsiębiorca technologiczny, którego przeciwnicy zmobilizowali przeciwko podatkowi, argumentował przeciwko ucieczce kapitału.",
+      "de": "Der Tech-Unternehmer, den die Gegner gegen die Steuer mobilisierten, argumentierte gegen Kapitalflucht.",
+      "level": "C1"
+    },
+    {
+      "en": "The prosecutor who led the investigation demanded a multi-year prison sentence for the accused.",
+      "pl": "Prokurator, który prowadził śledztwo, zażądał wieloletniej kary więzienia dla oskarżonego.",
+      "de": "Der Staatsanwalt, der die Ermittlungen leitete, forderte eine mehrjährige Haftstrafe für den Angeklagten.",
+      "level": "C1"
+    },
+    {
+      "en": "The solidarity that the allied states demonstrate during the talks strengthens Europe's negotiating position.",
+      "pl": "Solidarność, którą państwa sojusznicze okazują podczas rozmów, wzmacnia pozycję negocjacyjną Europy.",
+      "de": "Die Solidarität, die die verbündeten Staaten bei den Gesprächen zeigen, stärkt Europas Verhandlungsposition.",
+      "level": "C1"
+    },
+    {
+      "en": "The infrastructure that cyberattacks can disable within hours requires continuous state protection.",
+      "pl": "Infrastruktura, którą cyberataki mogą unieruchomić w ciągu kilku godzin, wymaga stałej ochrony państwa.",
+      "de": "Die Infrastruktur, die Cyberangriffe innerhalb weniger Stunden lahmlegen können, erfordert kontinuierlichen staatlichen Schutz.",
+      "level": "C1"
+    },
+    {
+      "en": "The chief executive whom the board kept in office despite mounting pressure must answer critical questions.",
+      "pl": "Prezes, którego zarząd utrzymał na stanowisku mimo rosnącej presji, musi odpowiedzieć na krytyczne pytania.",
+      "de": "Der Konzernchef, den der Vorstand trotz wachsenden Drucks im Amt hielt, muss kritische Fragen beantworten.",
+      "level": "C1"
+    },
+    {
+      "en": "The political compromise that the governing parties reached prevents a prolonged blockade of the budget.",
+      "pl": "Kompromis polityczny, który partie rządzące osiągnęły, zapobiega długotrwałej blokadzie budżetu.",
+      "de": "Der politische Kompromiss, den die Regierungsparteien erzielten, verhindert eine längere Blockade des Haushalts.",
+      "level": "C1"
+    },
+    {
+      "en": "The witnesses who had been trapped under the rubble were rescued after several hours.",
+      "pl": "Świadkowie, którzy zostali zasypani pod gruzami, zostali uratowani po kilku godzinach.",
+      "de": "Die Zeugen, die unter den Trümmern verschüttet worden waren, wurden nach mehreren Stunden gerettet.",
+      "level": "C1"
+    },
+    {
+      "en": "The strategy that the central bank pursued over the past two years slowed inflation noticeably.",
+      "pl": "Strategia, którą bank centralny realizował przez ostatnie dwa lata, wyraźnie spowolniła inflację.",
+      "de": "Die Strategie, die die Zentralbank in den vergangenen zwei Jahren verfolgte, bremste die Inflation spürbar.",
+      "level": "C1"
+    },
+    {
+      "en": "The expert panel that advises the government on digital security submitted concrete recommendations.",
+      "pl": "Zespół ekspertów, który doradza rządowi w sprawach bezpieczeństwa cyfrowego, przedstawił konkretne zalecenia.",
+      "de": "Das Expertengremium, das die Regierung bei der digitalen Sicherheit berät, legte konkrete Empfehlungen vor.",
+      "level": "C1"
+    },
+    {
+      "en": "The structural reforms that the president announced face fierce resistance from the trade unions.",
+      "pl": "Reformy strukturalne, które zapowiedział prezydent, napotykają ostry opór związków zawodowych.",
+      "de": "Die Strukturreformen, die der Präsident ankündigte, stoßen auf heftigen Widerstand der Gewerkschaften.",
+      "level": "C1"
+    },
+    {
+      "en": "The external auditors whom the supervisory board commissioned will examine all transactions since January.",
+      "pl": "Zewnętrzni audytorzy, których rada nadzorcza zatrudniła, zbadają wszystkie transakcje od stycznia.",
+      "de": "Die externen Prüfer, die der Aufsichtsrat beauftragte, werden alle Transaktionen seit Januar untersuchen.",
+      "level": "C1"
+    },
+    {
+      "en": "The agreement that the two ministries negotiated last month awaits formal ratification by parliament.",
+      "pl": "Porozumienie, które oba ministerstwa wynegocjowały w zeszłym miesiącu, czeka na formalną ratyfikację przez parlament.",
+      "de": "Das Abkommen, das die beiden Ministerien im vergangenen Monat aushandelten, wartet auf die formelle Ratifizierung durch das Parlament.",
+      "level": "C1"
+    },
+    {
+      "en": "The flight risk that the judges noted justified taking the defendant into custody immediately.",
+      "pl": "Ryzyko ucieczki, które sędziowie stwierdzili, uzasadniało natychmiastowe aresztowanie oskarżonego.",
+      "de": "Die Fluchtgefahr, die die Richter feststellten, rechtfertigte die sofortige Inhaftierung des Angeklagten.",
+      "level": "C1"
+    },
+    {
+      "en": "The losses that European retailers suffered due to spoiled goods run into millions.",
+      "pl": "Straty, które europejscy detaliści ponieśli z powodu zepsutych towarów, idą w miliony.",
+      "de": "Die Verluste, die europäische Einzelhändler durch verdorbene Waren erlitten, gehen in die Millionen.",
+      "level": "C1"
+    },
+    {
+      "en": "The ambassador who represents Germany at the summit emphasised the urgency of joint action.",
+      "pl": "Ambasador, który reprezentuje Niemcy na szczycie, podkreślił pilność wspólnych działań.",
+      "de": "Der Botschafter, der Deutschland auf dem Gipfel vertritt, betonte die Dringlichkeit gemeinsamen Handelns.",
+      "level": "C1"
+    },
+    {
+      "en": "The regulatory framework that Brussels plans to revise next year affects all major technology firms.",
+      "pl": "Ramy regulacyjne, które Bruksela planuje zmienić w przyszłym roku, dotyczą wszystkich dużych firm technologicznych.",
+      "de": "Der Regulierungsrahmen, den Brüssel im nächsten Jahr überarbeiten will, betrifft alle großen Technologiekonzerne.",
+      "level": "C1"
+    },
+    {
+      "en": "The constitutional balance that the nominated candidate seeks to preserve requires dialogue across party lines.",
+      "pl": "Równowaga konstytucyjna, którą nominowana kandydatka zamierza zachować, wymaga dialogu ponad podziałami partyjnymi.",
+      "de": "Das verfassungsrechtliche Gleichgewicht, das die nominierte Kandidatin bewahren will, erfordert einen Dialog über Parteigrenzen hinweg.",
+      "level": "C2"
+    },
+    {
+      "en": "The systemic vulnerabilities that the coordinated cyberattack exposed highlight the fragility of automated supply chains.",
+      "pl": "Systemowe słabości, które ujawnił skoordynowany cyberatak, uwydatniają kruchość zautomatyzowanych łańcuchów dostaw.",
+      "de": "Die systemischen Schwachstellen, die der koordinierte Cyberangriff offenlegte, verdeutlichen die Fragilität automatisierter Lieferketten.",
+      "level": "C2"
+    },
+    {
+      "en": "The legal precedent that the London court established with this ruling will influence similar proceedings for years.",
+      "pl": "Precedens prawny, który londyński sąd ustanowił tym wyrokiem, będzie przez lata oddziaływał na podobne postępowania.",
+      "de": "Der Präzedenzfall, den das Londoner Gericht mit diesem Urteil schuf, wird ähnliche Verfahren über Jahre hinweg prägen.",
+      "level": "C2"
+    },
+    {
+      "en": "The fiscal leeway that critics had hoped to gain from the billionaire tax remains unavailable after the vote.",
+      "pl": "Pole manewru budżetowego, które krytycy mieli nadzieję uzyskać dzięki podatkowi dla miliarderów, pozostaje po głosowaniu niedostępne.",
+      "de": "Der finanzielle Spielraum, den sich Kritiker von der Milliardärssteuer erhofft hatten, bleibt nach der Abstimmung unerreichbar.",
+      "level": "C2"
+    },
+    {
+      "en": "The supervisory mandate that the independent directors now exercise demands unrestricted access to confidential documents.",
+      "pl": "Mandat nadzorczy, który niezależni dyrektorzy obecnie sprawują, wymaga nieograniczonego dostępu do poufnych dokumentów.",
+      "de": "Das Aufsichtsmandat, das die unabhängigen Direktoren nun ausüben, verlangt uneingeschränkten Zugang zu vertraulichen Unterlagen.",
+      "level": "C2"
+    },
+    {
+      "en": "The diplomatic credibility that an alliance loses through hesitant crisis management can rarely be rebuilt overnight.",
+      "pl": "Wiarygodność dyplomatyczna, którą sojusz traci przez wahające się zarządzanie kryzysowe, rzadko daje się odbudować z dnia na dzień.",
+      "de": "Die diplomatische Glaubwürdigkeit, die ein Bündnis durch zögerliches Krisenmanagement verliert, lässt sich selten über Nacht wiederherstellen.",
+      "level": "C2"
+    },
+    {
+      "en": "The industrial safety standards that failed at the Turkish steelworks underscore the necessity of rigorous inspections.",
+      "pl": "Przemysłowe normy bezpieczeństwa, które zawiodły w tureckiej hucie stali, podkreślają konieczność rygorystycznych kontroli.",
+      "de": "Die industriellen Sicherheitsstandards, die im türkischen Stahlwerk versagten, unterstreichen die Notwendigkeit strenger Kontrollen.",
+      "level": "C2"
+    },
+    {
+      "en": "The long-term economic risks that radical deregulation entails often become visible only during severe downturns.",
+      "pl": "Długoterminowe ryzyka gospodarcze, które niesie ze sobą radykalna deregulacja, często stają się widoczne dopiero podczas poważnych spowolnień.",
+      "de": "Die langfristigen wirtschaftlichen Risiken, die eine radikale Deregulierung mit sich bringt, werden oft erst bei schweren Abschwüngen sichtbar.",
+      "level": "C2"
+    },
+    {
+      "en": "The cross-party consensus that carried the nomination through the leadership committees reflects a desire for stability.",
+      "pl": "Ponadpartyjny konsensus, który przeniósł nominację przez gremia kierownicze, odzwierciedla pragnienie stabilności.",
+      "de": "Der parteiübergreifende Konsens, der die Nominierung durch die Führungsgremien trug, spiegelt den Wunsch nach Stabilität wider.",
+      "level": "C2"
+    },
+    {
+      "en": "The geopolitical vacuum that emerges when major emitters withdraw from multilateral climate talks weakens global enforcement.",
+      "pl": "Próżnia geopolityczna, która powstaje, gdy główni emitenci wycofują się z wielostronnych rozmów klimatycznych, osłabia globalne egzekwowanie ustaleń.",
+      "de": "Das geopolitische Vakuum, das entsteht, wenn große Emittenten sich aus multilateralen Klimagesprächen zurückziehen, schwächt die globale Durchsetzung.",
+      "level": "C2"
+    }
+  ],
+  "listening": {
+    "audioUrl": "https://radiodownloaddw-a.akamaihd.net/downloads/Events/dwelle/dira/mp3/deutschkurse/nachrichten_live/58C79F69_2.mp3",
+    "articles": [
+      {
+        "heading": "Frankreich sieht Iran hinter Angriff auf [[Kühlanlagen|1]]",
+        "text": "Frankreich hat die iranischen [[Revolutionsgarden|2]] für [[Cyberangriffe|3]] auf Kühlanlagen verantwortlich gemacht. Es sei der erste groß angelegte Cyberangriff zu [[Sabotagezwecken|4]] auf dem nationalen [[Hoheitsgebiet|5]], sagte der französische Außenminister Jean-Noël Barrot in Paris. Die Cyberangriffe hätten an zwei Tagen im Oktober insgesamt 700 [[Standorte|6]] in Frankreich betroffen, sagte Barrot. Die [[Justiz|7]] sei bereits mit dem Fall befasst. Auch der iranische [[Botschafter|8]] solle [[einbestellt|9]] werden. Neben Frankreich waren auch Deutschland und zahlreiche weitere europäische Länder von den Cyberangriffen betroffen, die dazu führten, dass große Mengen an Lebensmitteln weggeworfen werden mussten."
+      },
+      {
+        "heading": "Neuer [[Anlauf|10]] für Ukraine-Gespräche in Abu Dhabi",
+        "text": "Nach mehr als acht Monaten wollen die USA, Russland und die Ukraine einen [[Gesprächsfaden|11]] zu einer möglichen [[Beendigung|12]] des Ukraine-Kriegs wieder aufnehmen. Dafür kommen [[Unterhändler|13]] Kyjiws und Moskaus an diesem Dienstag in den Vereinigten Arabischen Emiraten zu [[Verhandlungen|14]] zusammen. Die Gespräche sind für zwei Tage in Abu Dhabi geplant. Es ist nicht [[vorgesehen|15]], dass Vertreter der EU-Länder mit am [[Verhandlungstisch|16]] sitzen. Zwar werden nach Angaben aus Brüssel Vertreter der EU, der NATO, Frankreichs, Deutschlands und Großbritanniens an den Golf reisen. Unklar ist aber noch, wie genau sie in die Verhandlungen [[eingebunden|17]] werden."
+      },
+      {
+        "heading": "CDU will Ilse Aigner als nächste Bundespräsidentin",
+        "text": "Bundeskanzler Friedrich Merz hat die bayerische [[Landtagspräsidentin|18]] Ilse Aigner offiziell als Kandidatin zur Wahl der Bundespräsidentin vorgestellt. Die CSU-Politikerin will im Fall ihrer Wahl als Kraft des [[Ausgleichs|19]] in einer zunehmend [[gespaltenen|20]] Gesellschaft wirken. Sie betrachte sich als Kandidatin einer „starken Mitte“, sagte Aigner am Montag in Berlin. Bundeskanzler Friedrich Merz sagte, Aigner wäre eine „Bundespräsidentin mit [[Würde|21]] und mit Herz“. Aigner war am Montag offiziell vom CDU-[[Bundesvorstand|22]] und dem SPD-[[Präsidium|23]] als Kandidatin [[nominiert|24]] worden. Auch die Grünen unterstützen Aigner. Ihre Wahl in der [[Bundesversammlung|25]] am 30. Januar zur ersten Bundespräsidentin gilt damit als wahrscheinlich."
+      },
+      {
+        "heading": "Mindestens 16 Tote nach Explosion in türkischer Fabrik",
+        "text": "Bei einer Explosion in einem Eisen- und [[Stahlwerk|26]] im türkischen Hafenort Aliağa in der Provinz Izmir sind mindestens 16 Menschen ums Leben gekommen. 13 Arbeiter seien verletzt worden, zwei davon schwer, sagte Präsident Recep Tayyip Erdoğan in Ankara. Unklar war, ob noch weitere Menschen unter [[Trümmern|27]] vermutet werden. [[Rettungskräfte|28]] waren den ganzen Tag im Einsatz, um nach [[Verschütteten|29]] zu suchen. Die Explosion hatte sich am späten Montagvormittag [[ereignet|30]]. Ursache war laut dem Gouverneursamt von Izmir ein abgebrochener Deckenkran, der am Mittag während des [[Gießvorgangs|31]] in dem Werk in einen [[Industrieofen|32]] gestürzt sei. Erdoğan sagte, [[Ermittlungen|33]] seien eingeleitet worden."
+      },
+      {
+        "heading": "Kalifornien lehnt [[Milliardärssteuer|34]] ab",
+        "text": "Die Wähler im US-Bundesstaat Kalifornien haben eine [[Sondersteuer|35]] für Milliardäre abgelehnt. Bei einer [[Volksabstimmung|36]] erhielt der Vorschlag nur 47,2 Prozent der Stimmen. [[Vorgesehen|15]] war eine einmalige [[Abgabe|37]] von fünf Prozent auf Vermögen ab einer Milliarde Dollar. Die Einnahmen sollten vor allem das [[Gesundheitswesen|38]] finanzieren. Zu den mächtigen Gegnern des [[Vorstoßes|39]] gehörten Google-Mitgründer Sergey Brin, Tech-Multimilliardär Elon Musk als reichster Mann der Welt sowie der Unternehmer Peter Thiel. [[Befürworter|40]] erwarteten Einnahmen von rund 100 Milliarden Dollar. Kritiker warnten dagegen, dass Superreiche Kalifornien verlassen und dem Bundesstaat dadurch langfristig Steuereinnahmen [[entgehen|41]] könnten."
+      },
+      {
+        "heading": "Schauspieler Russell Brand zu zehneinhalb Jahren [[Haft|42]] verurteilt",
+        "text": "Der britische Schauspieler und frühere Comedian Russell Brand ist wegen [[Vergewaltigung|43]] und sexueller [[Nötigung|44]] zu zehneinhalb Jahren Haft verurteilt worden. Das [[verkündete|45]] der Richter am Londoner Southwark Crown Court. Am Donnerstag war Brand von den [[Geschworenen|46]] wegen einer Vergewaltigung und drei Fällen von sexueller Nötigung für schuldig erklärt worden und daraufhin wegen [[Fluchtgefahr|47]] unmittelbar in Haft gekommen. Demnach verging sich der [[einstige|48]] TV- und Bühnenstar an einem damals 21 Jahre alten weiblichen Fan nach einem Auftritt in einem Theater in London im Jahr 2009. Die drei Fälle sexueller Nötigung spielten sich zwischen 2004 und 2009 und damit zum [[Höhepunkt|49]] seiner Popularität ab."
+      }
+    ],
+    "vocab": [
+      {
+        "id": 1,
+        "word": "die Kühlanlage",
+        "translation": {
+          "en": "cooling system, refrigeration unit",
+          "pl": "instalacja chłodnicza"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Kühlanlagen",
+        "notes": {
+          "en": "Compound of kühlen (to cool) and Anlage (system, facility).",
+          "pl": "Złożenie słów kühlen (chłodzić) i Anlage (instalacja)."
+        },
+        "examples": [
+          "Im Supermarkt fiel über Nacht die gesamte Kühlanlage aus.",
+          "Techniker warten die Kühlanlage zweimal im Jahr."
+        ]
+      },
+      {
+        "id": 2,
+        "word": "die Revolutionsgarde",
+        "translation": {
+          "en": "Revolutionary Guard",
+          "pl": "Gwardia Rewolucyjna"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Revolutionsgarden",
+        "notes": {
+          "en": "Typically refers to Iran's Islamic Revolutionary Guard Corps, often used in the plural.",
+          "pl": "Odnosi się zwykle do irańskiej Gwardii Rewolucyjnej, często w liczbie mnogiej."
+        },
+        "examples": [
+          "Die Revolutionsgarde spielt in der Region eine wichtige militärische Rolle.",
+          "Mehrere Staaten verhängten Sanktionen gegen die Revolutionsgarden."
+        ]
+      },
+      {
+        "id": 3,
+        "word": "der Cyberangriff",
+        "translation": {
+          "en": "cyberattack",
+          "pl": "cyberatak"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Cyberangriffe",
+        "notes": {
+          "en": "Common verbs: einen Cyberangriff abwehren (fend off) or verüben (carry out).",
+          "pl": "Częste czasowniki: einen Cyberangriff abwehren lub verüben."
+        },
+        "examples": [
+          "Ein Cyberangriff legte das Buchungssystem der Klinik lahm.",
+          "Nach dem Cyberangriff verstärkte die Behörde ihre IT-Sicherheit."
+        ]
+      },
+      {
+        "id": 4,
+        "word": "der Sabotagezweck",
+        "translation": {
+          "en": "sabotage purpose",
+          "pl": "cel sabotażowy"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Sabotagezwecke",
+        "notes": {
+          "en": "Often used in the phrase zu Sabotagezwecken (for sabotage purposes).",
+          "pl": "Często w wyrażeniu zu Sabotagezwecken (w celach sabotażowych)."
+        },
+        "examples": [
+          "Die Täter nutzten die Software offenbar zu Sabotagezwecken.",
+          "Ermittler prüfen, ob das Kabel zu Sabotagezwecken beschädigt wurde."
+        ]
+      },
+      {
+        "id": 5,
+        "word": "das Hoheitsgebiet",
+        "translation": {
+          "en": "sovereign territory, national territory",
+          "pl": "terytorium suwerenne, obszar jurysdykcji"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Hoheitsgebiete",
+        "notes": {
+          "en": "Legal and diplomatic term for territory under a state's sovereignty.",
+          "pl": "Termin prawny i dyplomatyczny oznaczający terytorium pod zwierzchnictwem państwa."
+        },
+        "examples": [
+          "Das Flugzeug verließ das nationale Hoheitsgebiet ohne Genehmigung.",
+          "Auf dem Hoheitsgebiet des Landes gelten strenge Sicherheitsregeln."
+        ]
+      },
+      {
+        "id": 6,
+        "word": "der Standort",
+        "translation": {
+          "en": "site, location",
+          "pl": "lokalizacja, zakład"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Standorte",
+        "notes": {
+          "en": "Standard business word for a company branch, plant, or operational site.",
+          "pl": "Standardowe słowo biznesowe na lokalizację firmy lub zakładu."
+        },
+        "examples": [
+          "Das Unternehmen eröffnet im Herbst einen neuen Standort in Polen.",
+          "An diesem Standort arbeiten mehr als dreihundert Beschäftigte."
+        ]
+      },
+      {
+        "id": 7,
+        "word": "die Justiz",
+        "translation": {
+          "en": "judiciary, justice system",
+          "pl": "wymiar sprawiedliwości"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Refers to courts, prosecutors, and legal administration; usually singular.",
+          "pl": "Oznacza sądy i organy ścigania; zazwyczaj bez liczby mnogiej."
+        },
+        "examples": [
+          "Eine unabhängige Justiz ist für den Rechtsstaat unverzichtbar.",
+          "Die Justiz prüft nun alle vorliegenden Dokumente."
+        ]
+      },
+      {
+        "id": 8,
+        "word": "der Botschafter",
+        "translation": {
+          "en": "ambassador",
+          "pl": "ambasador"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Botschafter",
+        "notes": {
+          "en": "Feminine form: die Botschafterin.",
+          "pl": "Forma żeńska: die Botschafterin."
+        },
+        "examples": [
+          "Der Botschafter traf sich zu Gesprächen im Außenministerium.",
+          "Nach drei Jahren kehrt die Botschafterin nach Berlin zurück."
+        ]
+      },
+      {
+        "id": 9,
+        "word": "einbestellen",
+        "translation": {
+          "en": "to summon (an ambassador or official)",
+          "pl": "wezwać (np. ambasadora)"
+        },
+        "partOfSpeech": "Verb",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Separable verb: bestellt ein; often used in diplomacy.",
+          "pl": "Czasownik rozdzielnie złożony; częsty w dyplomacji."
+        },
+        "examples": [
+          "Das Außenministerium bestellte den Botschafter wegen des Vorfalls ein.",
+          "Nach den Berichten wurden mehrere Zeugen einbestellt."
+        ]
+      },
+      {
+        "id": 10,
+        "word": "der Anlauf",
+        "translation": {
+          "en": "attempt, run-up, start",
+          "pl": "podejście, próba, rozbieg"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Anläufe",
+        "notes": {
+          "en": "Common phrase: im zweiten Anlauf (at the second attempt); einen neuen Anlauf nehmen.",
+          "pl": "Częste zwroty: im zweiten Anlauf; einen neuen Anlauf nehmen."
+        },
+        "examples": [
+          "Im dritten Anlauf erreichten die Parteien schließlich eine Einigung.",
+          "Die Regierung nimmt einen neuen Anlauf für die Reform."
+        ]
+      },
+      {
+        "id": 11,
+        "word": "der Gesprächsfaden",
+        "translation": {
+          "en": "thread of talks, line of dialogue",
+          "pl": "wątek rozmów, nić porozumienia"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Gesprächsfäden",
+        "notes": {
+          "en": "Common collocations: den Gesprächsfaden wieder aufnehmen or abreißen lassen.",
+          "pl": "Częste połączenia: den Gesprächsfaden wieder aufnehmen (podjąć na nowo)."
+        },
+        "examples": [
+          "Beide Seiten wollen den Gesprächsfaden nicht abreißen lassen.",
+          "Nach dem Treffen nahmen die Diplomaten den Gesprächsfaden wieder auf."
+        ]
+      },
+      {
+        "id": 12,
+        "word": "die Beendigung",
+        "translation": {
+          "en": "termination, ending",
+          "pl": "zakończenie, rozwiązanie (np. umowy)"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Beendigungen",
+        "notes": {
+          "en": "Nominalisation of beenden; formal register.",
+          "pl": "Rzeczownik odczasownikowy od beenden; styl oficjalny."
+        },
+        "examples": [
+          "Die Verhandlungen zielen auf eine rasche Beendigung des Streiks.",
+          "Nach Beendigung der Prüfung erhalten alle Teilnehmer eine Rückmeldung."
+        ]
+      },
+      {
+        "id": 13,
+        "word": "der Unterhändler",
+        "translation": {
+          "en": "negotiator",
+          "pl": "negocjator"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Unterhändler",
+        "notes": {
+          "en": "Formal/diplomatic synonym of Verhandlungsführer. Feminine: die Unterhändlerin.",
+          "pl": "Oficjalny synonim słowa Verhandlungsführer. Forma żeńska: die Unterhändlerin."
+        },
+        "examples": [
+          "Die Unterhändler trafen sich unter strenger Geheimhaltung.",
+          "Beide Delegationen schickten erfahrene Unterhändler zu dem Gipfel."
+        ]
+      },
+      {
+        "id": 14,
+        "word": "die Verhandlung",
+        "translation": {
+          "en": "negotiation, court hearing",
+          "pl": "negocjacje, rozprawa"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Verhandlungen",
+        "notes": {
+          "en": "Usually plural for political/business talks; singular often means a court hearing.",
+          "pl": "W liczbie mnogiej oznacza negocjacje, w pojedynczej często rozprawę sądową."
+        },
+        "examples": [
+          "Die Verhandlungen über neue Löhne beginnen am Montag.",
+          "Vor Gericht wurde die Verhandlung auf nächste Woche vertagt."
+        ]
+      },
+      {
+        "id": 15,
+        "word": "vorsehen",
+        "translation": {
+          "en": "to provide for, to plan, to schedule",
+          "pl": "przewidywać, planować"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Separable verb: sieht vor, sah vor, hat vorgesehen.",
+          "pl": "Czasownik rozdzielnie złożony: sieht vor, sah vor, hat vorgesehen."
+        },
+        "examples": [
+          "Der Entwurf sieht strengere Kontrollen für Banken vor.",
+          "Für die Baustelle ist eine Bauzeit von sechs Monaten vorgesehen."
+        ]
+      },
+      {
+        "id": 16,
+        "word": "der Verhandlungstisch",
+        "translation": {
+          "en": "negotiating table",
+          "pl": "stół negocjacyjny"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Verhandlungstische",
+        "notes": {
+          "en": "Common idiom: am Verhandlungstisch sitzen; an den Verhandlungstisch zurückkehren.",
+          "pl": "Częsty zwrot: am Verhandlungstisch sitzen (siedzieć przy stole negocjacyjnym)."
+        },
+        "examples": [
+          "Nach dem Streik kehrten beide Seiten an den Verhandlungstisch zurück.",
+          "Am Verhandlungstisch müssen nun konkrete Lösungen gefunden werden."
+        ]
+      },
+      {
+        "id": 17,
+        "word": "einbinden",
+        "translation": {
+          "en": "to involve, to integrate",
+          "pl": "włączyć, zaangażować"
+        },
+        "partOfSpeech": "Verb",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Separable verb: bindet ein, band ein, hat eingebunden; takes in + accusative.",
+          "pl": "Czasownik rozdzielnie złożony; łączy się z in + biernik."
+        },
+        "examples": [
+          "Die Leitung möchte alle Abteilungen frühzeitig in das Projekt einbinden.",
+          "Regionale Partner wurden eng in die Planung eingebunden."
+        ]
+      },
+      {
+        "id": 18,
+        "word": "die Landtagspräsidentin",
+        "translation": {
+          "en": "female president of a state parliament",
+          "pl": "przewodnicząca parlamentu krajowego (landtagu)"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Landtagspräsidentinnen",
+        "notes": {
+          "en": "Masculine form: der Landtagspräsident. Refers to a German or Austrian federal state.",
+          "pl": "Forma męska: der Landtagspräsident. Dotyczy parlamentu kraju związkowego."
+        },
+        "examples": [
+          "Die Landtagspräsidentin eröffnete die erste Sitzung nach der Pause.",
+          "Im Parlament sprach die Landtagspräsidentin über demokratische Kultur."
+        ]
+      },
+      {
+        "id": 19,
+        "word": "der Ausgleich",
+        "translation": {
+          "en": "balance, reconciliation, compensation",
+          "pl": "równowaga, pojednanie, wyrównanie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Ausgleiche",
+        "notes": {
+          "en": "Can mean social/political consensus, financial compensation, or an equalising goal in sport.",
+          "pl": "Oznacza kompromis, rekompensatę finansową lub bramkę wyrównującą."
+        },
+        "examples": [
+          "Der Präsident sucht stets den Ausgleich zwischen den verschiedenen Interessen.",
+          "Für die Überstunden erhalten die Beschäftigten einen finanziellen Ausgleich."
+        ]
+      },
+      {
+        "id": 20,
+        "word": "gespalten",
+        "translation": {
+          "en": "divided, split",
+          "pl": "podzielony"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Often describes a polarised society (eine gespaltene Gesellschaft) or divided opinion.",
+          "pl": "Często opisuje spolaryzowane społeczeństwo lub podzieloną opinię."
+        },
+        "examples": [
+          "In der Frage der Steuerreform ist das Parlament tief gespalten.",
+          "Die Wahl zeigte ein politisch stark gespaltenes Land."
+        ]
+      },
+      {
+        "id": 21,
+        "word": "die Würde",
+        "translation": {
+          "en": "dignity",
+          "pl": "godność"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Famous in Germany's constitution: Die Würde des Menschen ist unantastbar.",
+          "pl": "Znane z niemieckiej konstytucji: Die Würde des Menschen ist unantastbar."
+        },
+        "examples": [
+          "Jeder Mensch verdient es, mit Respekt und Würde behandelt zu werden.",
+          "Sie vertrat ihr Amt stets mit großer Würde."
+        ]
+      },
+      {
+        "id": 22,
+        "word": "der Bundesvorstand",
+        "translation": {
+          "en": "federal executive board",
+          "pl": "zarząd federalny (partii lub stowarzyszenia)"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Bundesvorstände",
+        "notes": {
+          "en": "Top national leadership body of a German political party or association.",
+          "pl": "Najwyższy organ kierowniczy niemieckiej partii lub organizacji."
+        },
+        "examples": [
+          "Der Bundesvorstand tagt am Montagvormittag in Berlin.",
+          "Auf der Sitzung stimmte der Bundesvorstand über den Antrag ab."
+        ]
+      },
+      {
+        "id": 23,
+        "word": "das Präsidium",
+        "translation": {
+          "en": "executive committee, presidium, police headquarters",
+          "pl": "prezydium, zarząd, komenda główna"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Präsidien",
+        "notes": {
+          "en": "Means the inner executive board of a party/body, or Polizeipräsidium (police HQ).",
+          "pl": "Oznacza ścisłe kierownictwo organu lub komendę policji."
+        },
+        "examples": [
+          "Das Präsidium bereitet die Tagesordnung für den Kongress vor.",
+          "Der Vorschlag fand im gesamten Präsidium breite Unterstützung."
+        ]
+      },
+      {
+        "id": 24,
+        "word": "nominieren",
+        "translation": {
+          "en": "to nominate",
+          "pl": "nominować"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Regular verb without ge- in Partizip II: nominiert.",
+          "pl": "Czasownik regularny bez przedrostka ge- w Partizip II: nominiert."
+        },
+        "examples": [
+          "Die Partei nominierte ihre Kandidatin mit klarer Mehrheit.",
+          "Drei junge Regisseure wurden für den Filmpreis nominiert."
+        ]
+      },
+      {
+        "id": 25,
+        "word": "die Bundesversammlung",
+        "translation": {
+          "en": "Federal Convention",
+          "pl": "Zgromadzenie Federalne"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Bundesversammlungen",
+        "notes": {
+          "en": "Special German constitutional body convened solely to elect the Federal President.",
+          "pl": "Specjalny niemiecki organ zwoływany wyłącznie w celu wyboru prezydenta federalnego."
+        },
+        "examples": [
+          "Die Bundesversammlung tritt alle fünf Jahre in Berlin zusammen.",
+          "Neben Abgeordneten gehören auch Landesvertreter der Bundesversammlung an."
+        ]
+      },
+      {
+        "id": 26,
+        "word": "das Stahlwerk",
+        "translation": {
+          "en": "steelworks, steel mill",
+          "pl": "huta stali"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Stahlwerke",
+        "notes": {
+          "en": "Compound of der Stahl (steel) and das Werk (plant, works).",
+          "pl": "Złożenie słów der Stahl (stal) i das Werk (zakład)."
+        },
+        "examples": [
+          "Das Stahlwerk investiert in klimafreundlichere Produktionsanlagen.",
+          "Nach dem Unfall blieb das Stahlwerk vorübergehend geschlossen."
+        ]
+      },
+      {
+        "id": 27,
+        "word": "die Trümmer",
+        "translation": {
+          "en": "rubble, debris, ruins",
+          "pl": "gruzy, szczątki"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Trümmer",
+        "notes": {
+          "en": "Used only in the plural; dative plural is Trümmern.",
+          "pl": "Używane wyłącznie w liczbie mnogiej; celownik liczby mnogiej: Trümmern."
+        },
+        "examples": [
+          "Nach dem Erdbeben lagen viele Häuser in Trümmern.",
+          "Suchhunde spürten unter den Trümmern Überlebende auf."
+        ]
+      },
+      {
+        "id": 28,
+        "word": "die Rettungskraft",
+        "translation": {
+          "en": "rescue worker, emergency responder",
+          "pl": "ratownik"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Rettungskräfte",
+        "notes": {
+          "en": "Almost always used in the plural (die Rettungskräfte).",
+          "pl": "Niemal zawsze używane w liczbie mnogiej (die Rettungskräfte)."
+        },
+        "examples": [
+          "Rettungskräfte trafen innerhalb weniger Minuten am Unfallort ein.",
+          "Die Rettungskräfte arbeiteten die ganze Nacht hindurch."
+        ]
+      },
+      {
+        "id": 29,
+        "word": "der Verschüttete",
+        "translation": {
+          "en": "buried person, person trapped under rubble or snow",
+          "pl": "zasypany (pod gruzami lub lawiną)"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Verschütteten",
+        "notes": {
+          "en": "Adjectival noun from verschütten; feminine: die Verschüttete.",
+          "pl": "Rzeczownik odimiesłowowy od verschütten; forma żeńska: die Verschüttete."
+        },
+        "examples": [
+          "Die Feuerwehr konnte zwei Verschüttete lebend bergen.",
+          "Mit Spezialgeräten suchten Helfer nach weiteren Verschütteten."
+        ]
+      },
+      {
+        "id": 30,
+        "word": "sich ereignen",
+        "translation": {
+          "en": "to happen, to occur (of an event or incident)",
+          "pl": "wydarzyć się, mieć miejsce"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Formal reflexive verb used for accidents, incidents, or major events.",
+          "pl": "Oficjalny czasownik zwrotny używany przy wypadkach i wydarzeniach."
+        },
+        "examples": [
+          "Der Unfall ereignete sich am frühen Morgen auf der Autobahn.",
+          "In dieser Region haben sich mehrere Erdbeben ereignet."
+        ]
+      },
+      {
+        "id": 31,
+        "word": "der Gießvorgang",
+        "translation": {
+          "en": "casting process, pouring process",
+          "pl": "proces odlewania"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Gießvorgänge",
+        "notes": {
+          "en": "Technical compound from gießen (to cast/pour metal) and der Vorgang (process).",
+          "pl": "Złożenie techniczne od gießen (odlewać) i der Vorgang (proces)."
+        },
+        "examples": [
+          "Während des Gießvorgangs herrschen extrem hohe Temperaturen.",
+          "Sensoren überwachen jeden einzelnen Gießvorgang automatisch."
+        ]
+      },
+      {
+        "id": 32,
+        "word": "der Industrieofen",
+        "translation": {
+          "en": "industrial furnace",
+          "pl": "piec przemysłowy"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Industrieöfen",
+        "notes": {
+          "en": "Compound of die Industrie and der Ofen (furnace, oven).",
+          "pl": "Złożenie słów die Industrie i der Ofen (piec)."
+        },
+        "examples": [
+          "Der neue Industrieofen verbraucht deutlich weniger Energie.",
+          "Nach dem Störfall wurde der Industrieofen sofort abgeschaltet."
+        ]
+      },
+      {
+        "id": 33,
+        "word": "die Ermittlung",
+        "translation": {
+          "en": "investigation, inquiry",
+          "pl": "dochodzenie, śledztwo"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Ermittlungen",
+        "notes": {
+          "en": "Very often plural: Ermittlungen einleiten or aufnehmen.",
+          "pl": "Bardzo często w liczbie mnogiej: Ermittlungen einleiten lub aufnehmen."
+        },
+        "examples": [
+          "Die Polizei hat Ermittlungen wegen des Feuers eingeleitet.",
+          "Während der laufenden Ermittlungen gab die Behörde keine Details bekannt."
+        ]
+      },
+      {
+        "id": 34,
+        "word": "die Milliardärssteuer",
+        "translation": {
+          "en": "billionaire tax",
+          "pl": "podatek dla miliarderów"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Milliardärssteuern",
+        "notes": {
+          "en": "Compound of der Milliardär and die Steuer (tax).",
+          "pl": "Złożenie słów der Milliardär i die Steuer (podatek)."
+        },
+        "examples": [
+          "Über eine globale Milliardärssteuer wird seit Monaten diskutiert.",
+          "Gegner der Milliardärssteuer befürchten Nachteile für den Standort."
+        ]
+      },
+      {
+        "id": 35,
+        "word": "die Sondersteuer",
+        "translation": {
+          "en": "special tax, windfall tax",
+          "pl": "podatek specjalny"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Sondersteuern",
+        "notes": {
+          "en": "Prefix Sonder- means special or extraordinary.",
+          "pl": "Przedrostek Sonder- oznacza specjalny lub nadzwyczajny."
+        },
+        "examples": [
+          "Die Regierung plant eine Sondersteuer auf hohe Energiegewinne.",
+          "Die Einnahmen aus der Sondersteuer sollen Schulden abbauen."
+        ]
+      },
+      {
+        "id": 36,
+        "word": "die Volksabstimmung",
+        "translation": {
+          "en": "referendum, popular vote",
+          "pl": "referendum, głosowanie powszechne"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Volksabstimmungen",
+        "notes": {
+          "en": "Synonym: das Referendum. Verb: eine Volksabstimmung abhalten.",
+          "pl": "Synonim: das Referendum. Czasownik: eine Volksabstimmung abhalten."
+        },
+        "examples": [
+          "Bei einer Volksabstimmung entschieden die Bürger über das Bauprojekt.",
+          "Die Beteiligung an der Volksabstimmung war überraschend hoch."
+        ]
+      },
+      {
+        "id": 37,
+        "word": "die Abgabe",
+        "translation": {
+          "en": "levy, charge, submission",
+          "pl": "opłata, danina, złożenie (np. dokumentu)"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Abgaben",
+        "notes": {
+          "en": "In finance/politics: tax or levy; in admin/school: handing in (Abgabe einer Arbeit).",
+          "pl": "W finansach oznacza daninę lub opłatę; w administracji złożenie dokumentu."
+        },
+        "examples": [
+          "Unternehmen kritisieren die steigenden Steuern und Abgaben.",
+          "Die Abgabe des Antrags ist bis Freitag möglich."
+        ]
+      },
+      {
+        "id": 38,
+        "word": "das Gesundheitswesen",
+        "translation": {
+          "en": "healthcare system, public health sector",
+          "pl": "ochrona zdrowia, służba zdrowia"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "-wesen forms collective nouns for systems (e.g., Bildungswesen); no plural.",
+          "pl": "Przyrostek -wesen tworzy nazwy całych systemów; bez liczby mnogiej."
+        },
+        "examples": [
+          "Im Gesundheitswesen fehlen derzeit viele qualifizierte Fachkräfte.",
+          "Die Reform soll das öffentliche Gesundheitswesen entlasten."
+        ]
+      },
+      {
+        "id": 39,
+        "word": "der Vorstoß",
+        "translation": {
+          "en": "initiative, push, move",
+          "pl": "inicjatywa, posunięcie, natarcie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Vorstöße",
+        "notes": {
+          "en": "Common in politics for a bold proposal or initiative (einen Vorstoß unternehmen).",
+          "pl": "Częste w polityce dla określenia śmiałej propozycji lub inicjatywy."
+        },
+        "examples": [
+          "Der Vorstoß der Ministerin stieß auf gemischte Reaktionen.",
+          "Mit diesem Vorstoß will die Fraktion die Debatte neu beleben."
+        ]
+      },
+      {
+        "id": 40,
+        "word": "der Befürworter",
+        "translation": {
+          "en": "supporter, proponent, advocate",
+          "pl": "zwolennik, propagator"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Befürworter",
+        "notes": {
+          "en": "Opposite: der Gegner (opponent). Feminine: die Befürworterin.",
+          "pl": "Przeciwieństwo: der Gegner (przeciwnik). Forma żeńska: die Befürworterin."
+        },
+        "examples": [
+          "Befürworter des Plans betonen die langfristigen Vorteile.",
+          "Die neue Regelung hat sowohl Befürworter als auch Kritiker."
+        ]
+      },
+      {
+        "id": 41,
+        "word": "entgehen",
+        "translation": {
+          "en": "to escape, to miss out on, to slip past",
+          "pl": "umknąć, uniknąć, przepaść"
+        },
+        "partOfSpeech": "Verb",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Inseparable verb with sein + dative: dem Staat entgehen Einnahmen.",
+          "pl": "Czasownik nierozdzielnie złożony z sein i celownikiem."
+        },
+        "examples": [
+          "Durch den Fehler entging der Firma ein wichtiger Auftrag.",
+          "Dieser kleine Hinweis ist den Ermittlern nicht entgangen."
+        ]
+      },
+      {
+        "id": 42,
+        "word": "die Haft",
+        "translation": {
+          "en": "imprisonment, custody, detention",
+          "pl": "areszt, kara więzienia"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Common phrases: in Haft kommen; zu fünf Jahren Haft verurteilt werden.",
+          "pl": "Częste zwroty: in Haft kommen; zu ... Jahren Haft verurteilt werden."
+        },
+        "examples": [
+          "Der Verurteilte muss mehrere Jahre in Haft verbringen.",
+          "Nach sechs Monaten Haft wurde der Zeuge freigelassen."
+        ]
+      },
+      {
+        "id": 43,
+        "word": "die Vergewaltigung",
+        "translation": {
+          "en": "rape",
+          "pl": "gwałt"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Vergewaltigungen",
+        "notes": {
+          "en": "Legal/news noun from vergewaltigen.",
+          "pl": "Rzeczownik prawniczy i prasowy od vergewaltigen."
+        },
+        "examples": [
+          "Das Gericht verhandelt über den Vorwurf der Vergewaltigung.",
+          "Hilfsorganisationen fordern besseren Schutz für Opfer von Vergewaltigung."
+        ]
+      },
+      {
+        "id": 44,
+        "word": "die Nötigung",
+        "translation": {
+          "en": "coercion, assault (in legal compounds)",
+          "pl": "wymuszenie, przymuszanie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Nötigungen",
+        "notes": {
+          "en": "Legal offence; sexuelle Nötigung means sexual assault.",
+          "pl": "Przestępstwo w kodeksie karnym; sexuelle Nötigung oznacza napaść seksualną."
+        },
+        "examples": [
+          "Wegen Nötigung im Straßenverkehr droht eine hohe Geldstrafe.",
+          "Die Staatsanwaltschaft erhob Anklage wegen sexueller Nötigung."
+        ]
+      },
+      {
+        "id": 45,
+        "word": "verkünden",
+        "translation": {
+          "en": "to announce, to pronounce (a verdict)",
+          "pl": "ogłosić, ogłaszać (wyrok)"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Inseparable formal verb; especially standard for ein Urteil verkünden.",
+          "pl": "Czasownik oficjalny; typowy w zwrocie ein Urteil verkünden (ogłosić wyrok)."
+        },
+        "examples": [
+          "Das Gericht wird das Urteil am Freitagmorgen verkünden.",
+          "Die Präsidentin verkündete den Beschluss vor der Presse."
+        ]
+      },
+      {
+        "id": 46,
+        "word": "der Geschworene",
+        "translation": {
+          "en": "juror",
+          "pl": "przysięgły, ławnik"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Geschworenen",
+        "notes": {
+          "en": "Adjectival declension; usually plural die Geschworenen (the jury).",
+          "pl": "Odmiana przymiotnikowa; zwykle w liczbie mnogiej die Geschworenen (ława przysięgłych)."
+        },
+        "examples": [
+          "Die Geschworenen berieten fünf Stunden über das Urteil.",
+          "Jede Geschworene und jeder Geschworene muss unparteiisch bleiben."
+        ]
+      },
+      {
+        "id": 47,
+        "word": "die Fluchtgefahr",
+        "translation": {
+          "en": "risk of flight, flight risk",
+          "pl": "ryzyko ucieczki"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Legal reason for pre-trial detention: wegen Fluchtgefahr.",
+          "pl": "Prawna podstawa tymczasowego aresztowania: wegen Fluchtgefahr."
+        },
+        "examples": [
+          "Das Gericht lehnte eine Freilassung wegen akuter Fluchtgefahr ab.",
+          "Die Verteidigung bestritt, dass Fluchtgefahr bestehe."
+        ]
+      },
+      {
+        "id": 48,
+        "word": "einstig",
+        "translation": {
+          "en": "former, erstwhile",
+          "pl": "dawny, niegdysiejszy"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Attributive adjective only (used before a noun, e.g., der einstige Star).",
+          "pl": "Przymiotnik wyłącznie przydawkowy (używany przed rzeczownikiem)."
+        },
+        "examples": [
+          "Der einstige Weltmeister arbeitet heute als Trainer.",
+          "Von der einstigen Fabrik ist heute nur noch ein Gebäude erhalten."
+        ]
+      },
+      {
+        "id": 49,
+        "word": "der Höhepunkt",
+        "translation": {
+          "en": "peak, climax, highlight",
+          "pl": "szczyt, punkt kulminacyjny"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Höhepunkte",
+        "notes": {
+          "en": "Used both for the height of a crisis/career and the highlight of an event.",
+          "pl": "Oznacza zarówno szczyt kryzysu lub kariery, jak i punkt kulminacyjny."
+        },
+        "examples": [
+          "Das Konzert war der musikalische Höhepunkt des Abends.",
+          "Die Krise erreichte im November ihren Höhepunkt."
+        ]
+      }
+    ]
+  },
+  "speaking": {
+    "prompt": {
+      "en": "You are my German language tutor conducting a 20-minute B1-to-C1 speaking conversation based on the Listening section of today's lesson (German news from 10 November 2026).\n\nListening reference – the 6 news stories from today's Listening section, in the same order as the articles:\n1. France blamed Iran's Revolutionary Guards for large-scale cyberattacks on cooling systems that hit 700 sites in France, Germany, and other European countries, forcing large amounts of food to be thrown away, and plans to summon the Iranian ambassador.\n2. After more than eight months, negotiators from Ukraine and Russia are meeting in Abu Dhabi for two days of talks on ending the war, with US involvement, while it remains unclear how EU, NATO, and major European representatives travelling to the Gulf will be included.\n3. Chancellor Friedrich Merz officially presented Bavarian state parliament president Ilse Aigner as the joint presidential candidate of the CDU, SPD, and Greens, making her election as Germany's first female federal president in January likely.\n4. At least 16 workers died and 13 were injured in an explosion at an iron and steel plant near Izmir in Turkey after an overhead crane broke off during casting and fell into an industrial furnace.\n5. Voters in California narrowly rejected a one-off five percent billionaire tax (47.2 percent in favour) that was meant to fund healthcare and faced strong opposition from tech billionaires including Sergey Brin, Elon Musk, and Peter Thiel.\n6. British actor and former comedian Russell Brand was sentenced to ten and a half years in prison by a London court after a jury found him guilty of one count of rape and three counts of sexual assault committed between 2004 and 2009.\n\nGrammar focus to elicit: Relative clauses with nominative and accusative relative pronouns.\n\nUseful words from today's Listening articles (invite me to use them): der Cyberangriff, der Botschafter, der Unterhändler, die Verhandlung, die Volksabstimmung, der Vorstoß, die Ermittlung, die Haft.\n\nInstructions for the AI tutor:\n1. Start the conversation: greet me and ask whether I have listened to today's broadcast. If not, summarise story 1 in two simple German sentences and continue.\n2. You ask, I speak: one question per turn, one or two short sentences, never answer your own questions. German at B1-C1 level; English only if I am really stuck.\n3. Questions refer to the stories above, in order, covering at least four: facts first, then causes, consequences, other perspectives, my evaluation. Near the end, ask me to connect two stories.\n4. Encourage me to describe people, institutions, and proposals from the news using relative clauses with nominative (der/die/das/die) and accusative (den/die/das/die) relative pronouns, placing the finite verb at the end of the relative clause.\n5. Question ideas (adapt to my answers): (story 1) Welche Folgen hatten die Cyberangriffe, die zahlreiche Standorte in Europa trafen? (story 2) Welche Rolle spielen die Vertreter, die aus Europa an den Golf reisen? (story 3) Welche Erwartungen verbinden die Parteien mit der Kandidatin, die sie für das Präsidentenamt nominiert haben? (story 5) Warum lehnten viele Wähler die Steuer ab, die der Vorschlag in Kalifornien vorsah? (story 6) Welche Vorwürfe führten zu dem Urteil, das der Richter in London verkündete?\n6. Immediate correction: if I break today's rule (e.g. *Der Vorschlag, der die Wähler ablehnten, war umstritten.* instead of *Der Vorschlag, den die Wähler ablehnten, war umstritten.*), stop briefly: quote the error, give the correct sentence, explain the rule in 1 English sentence, ask me to repeat the correct sentence aloud before the next question.\n7. Also correct other significant errors briefly; note recurring mistakes for the final feedback. If my answer is very short, ask one follow-up („Warum?“).\n8. Wrap-up after ~20 minutes or when I say \"stop\": two things I did well, three key mistakes with corrections, five words to review, one German sentence to repeat aloud.\n9. Keep the tone engaging, professional, natural for an immersive German voice dialogue. Address me as „du“.",
+      "pl": "Jesteś moim nauczycielem języka niemieckiego i prowadzisz 20-minutową rozmowę na poziomie od B1 do C1 w oparciu o część Słuchanie z dzisiejszej lekcji (niemieckie wiadomości z 10 listopada 2026 roku).\n\nMateriał ze Słuchania – 6 tematów wiadomości z dzisiejszej części Słuchanie, w tej samej kolejności co artykuły:\n1. Francja obarczyła irańską Gwardię Rewolucyjną odpowiedzialnością za zakrojone na szeroką skalę cyberataki na instalacje chłodnicze w 700 lokalizacjach we Francji, a także w Niemczech i innych krajach Europy, w wyniku których trzeba było wyrzucić duże ilości żywności, i zamierza wezwać irańskiego ambasadora.\n2. Po ponad ośmiu miesiącach negocjatorzy z Ukrainy i Rosji spotykają się w Abu Zabi na dwudniowych rozmowach o zakończeniu wojny z udziałem USA, przy czym nie wiadomo jeszcze, jak zostaną włączeni przedstawiciele UE, NATO i kluczowych państw europejskich podróżujący nad Zatokę Perską.\n3. Kanclerz Friedrich Merz oficjalnie przedstawił przewodniczącą bawarskiego landtagu Ilse Aigner jako wspólną kandydatkę CDU, SPD i Zielonych na urząd prezydenta federalnego, co czyni jej wybór w styczniu prawdopodobnym.\n4. Co najmniej 16 pracowników zginęło, a 13 zostało rannych w wyniku eksplozji w hucie żelaza i stali koło Izmiru w Turcji, gdy suwnica urwała się podczas odlewania i spadła do pieca przemysłowego.\n5. Wyborcy w Kalifornii nieznacznie odrzucili jednorazowy pięcioprocentowy podatek dla miliarderów (47,2 procent za), który miał finansować służbę zdrowia i spotkał się z silnym sprzeciwem miliarderów technologicznych, w tym Sergeya Brina, Elona Muska i Petera Thiela.\n6. Brytyjski aktor i były komik Russell Brand został skazany przez londyński sąd na dziesięć i pół roku więzienia po tym, jak ława przysięgłych uznała go za winnego jednego gwałtu i trzech napaści na tle seksualnym popełnionych w latach 2004–2009.\n\nZagadnienie gramatyczne do ćwiczenia: Zdania przydawkowe względne z zaimkami względnymi w mianowniku i bierniku.\n\nPrzydatne słowa z dzisiejszych artykułów ze Słuchania (zachęcaj mnie do ich używania): der Cyberangriff, der Botschafter, der Unterhändler, die Verhandlung, die Volksabstimmung, der Vorstoß, die Ermittlung, die Haft.\n\nInstrukcje dla tutora AI:\n1. Rozpocznij rozmowę: przywitaj się ze mną i zapytaj, czy wysłuchałem dzisiejszego nagrania. Jeśli nie, streść temat 1 w dwóch prostych zdaniach po niemiecku i kontynuuj.\n2. Ty pytasz, ja mówię: jedno pytanie w jednej wypowiedzi, jedno lub dwa krótkie zdania, nigdy nie odpowiadaj na własne pytania. Mów po niemiecku na poziomie B1–C1; na polski przechodź tylko wtedy, gdy naprawdę utknę.\n3. Pytania odnoszą się do powyższych tematów po kolei i obejmują co najmniej cztery z nich: najpierw fakty, potem przyczyny, skutki, inne perspektywy i moją ocenę. Pod koniec poproś mnie o połączenie dwóch tematów.\n4. Zachęcaj mnie do opisywania osób, instytucji i propozycji z wiadomości za pomocą zdań względnych z zaimkami w mianowniku (der/die/das/die) i bierniku (den/die/das/die) oraz umieszczania czasownika finitnego na końcu zdania względnego.\n5. Pomysły na pytania (dostosuj do moich odpowiedzi): (temat 1) Welche Folgen hatten die Cyberangriffe, die zahlreiche Standorte in Europa trafen? (temat 2) Welche Rolle spielen die Vertreter, die aus Europa an den Golf reisen? (temat 3) Welche Erwartungen verbinden die Parteien mit der Kandidatin, die sie für das Präsidentenamt nominiert haben? (temat 5) Warum lehnten viele Wähler die Steuer ab, die der Vorschlag in Kalifornien vorsah? (temat 6) Welche Vorwürfe führten zu dem Urteil, das der Richter in London verkündete?\n6. Natychmiastowa korekta: jeśli złamię dzisiejszą zasadę (np. *Der Vorschlag, der die Wähler ablehnten, war umstritten.* zamiast *Der Vorschlag, den die Wähler ablehnten, war umstritten.*), zatrzymaj się na chwilę: zacytuj błąd, podaj poprawne zdanie, wyjaśnij zasadę w 1 zdaniu po polsku i poproś mnie o głośne powtórzenie poprawnego zdania przed kolejnym pytaniem.\n7. Poprawiaj też krótko inne istotne błędy; powtarzające się błędy zanotuj do końcowej informacji zwrotnej. Jeśli moja odpowiedź jest bardzo krótka, zadaj jedno pytanie uzupełniające („Warum?“).\n8. Podsumowanie po ~20 minutach lub gdy powiem „stop”: dwie rzeczy, które poszły mi dobrze, trzy główne błędy z poprawkami, pięć słów do powtórzenia i jedno niemieckie zdanie do głośnego powtórzenia.\n9. Zachowaj angażujący, profesjonalny i naturalny ton do immersyjnej rozmowy głosowej po niemiecku. Zwracaj się do mnie per „du”."
+    }
+  }
 }
 ]
