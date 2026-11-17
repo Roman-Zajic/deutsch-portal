@@ -46435,5 +46435,787 @@
       "pl": "Jesteś moim nauczycielem języka niemieckiego i prowadzisz 20-minutową rozmowę na poziomie od B1 do C1 w oparciu o część Słuchanie z dzisiejszej lekcji (niemieckie wiadomości z 14 listopada 2026 roku).\n\nMateriał ze Słuchania – 7 tematów wiadomości z dzisiejszej części Słuchanie, w tej samej kolejności co artykuły:\n1. Biały Dom zapowiedział na przyszły tydzień historyczny szczyt trójstronny prezydenta USA Donalda Trumpa, przywódcy Chin Xi Jinpinga i prezydenta Rosji Władimira Putina na marginesie forum APEC w chińskim Shenzhen, gdzie Trump chce podobno rozmawiać o redukcji światowych arsenałów jądrowych.\n2. Na nieformalnym szczycie w Dublinie przywódcy UE uzgodnili zespół negocjacyjny reprezentujący Europę — Niemcy, Francję, Wielką Brytanię, Włochy, Polskę oraz instytucje UE — w przyszłych rozmowach z Rosją o zakończeniu wojny w Ukrainie.\n3. Ukraina zgłosiła kolejne niewyjaśnione ograniczenia systemu łączności satelitarnej Starshield, w związku z czym prezydent Wołodymyr Zełenski polecił ministerstwom zwrócić się o wyjaśnienia do rządu USA i operatora SpaceX, krótko po amerykańsko-rosyjskiej umowie na dostawy oleju napędowego.\n4. Ruch lotniczy w USA wraca do normy po tym, jak urząd FAA zniósł kilkugodzinny ogólnokrajowy zakaz startów wywołany przeciążonym, przestarzałym systemem komunikacji i sterowania, który wymusił odwołanie tysięcy lotów, w tym czterech rejsów z Frankfurtu.\n5. Odpowiadając na apel ruchu Fridays for Future, tysiące ludzi demonstrowały w ponad 70 miastach Niemiec pod hasłem „Pay your Climate Debt” przy okazji szczytu COP31 w Antalyi, domagając się, by najwięksi emitenci płacili za szkody klimatyczne.\n6. Bawaria żegna w Monachium mszą żałobną i uroczystością państwową zmarłego wicepremiera Huberta Aiwangera, dziesięć dni po tym, jak 55-letni lider Wolnych Wyborców został znaleziony martwy w berlińskim pokoju hotelowym z przyczyn naturalnych.\n7. W ulewnym deszczu w Belgradzie niemiecka reprezentacja piłkarska wygrała 3:1 z Serbią, odnosząc drugie zwycięstwo pod wodzą selekcjonera Jürgena Kloppa i stając u progu awansu do ćwierćfinału Ligi Narodów.\n\nZagadnienie gramatyczne do ćwiczenia: Przyimki łączące się z biernikiem: durch, für, gegen, ohne oraz um.\n\nPrzydatne słowa z dzisiejszych artykułów ze Słuchania (zachęcaj mnie do ich używania): die Reduzierung, das Verhandlungsteam, die Einschränkung, das Startverbot, die Verantwortung, der Staatsakt, die Nationalmannschaft, das Viertelfinale.\n\nInstrukcje dla tutora AI:\n1. Rozpocznij rozmowę: przywitaj się ze mną i zapytaj, czy wysłuchałem dzisiejszego nagrania. Jeśli nie, streść temat 1 w dwóch prostych zdaniach po niemiecku i kontynuuj.\n2. Ty pytasz, ja mówię: jedno pytanie w jednej wypowiedzi, jedno lub dwa krótkie zdania, nigdy nie odpowiadaj na własne pytania. Mów po niemiecku na poziomie B1–C1; na polski przechodź tylko wtedy, gdy naprawdę utknę.\n3. Pytania odnoszą się do powyższych tematów po kolei i obejmują co najmniej cztery z nich: najpierw fakty, potem przyczyny, skutki, inne perspektywy i moją ocenę. Pod koniec poproś mnie o połączenie dwóch tematów.\n4. Zachęcaj mnie do używania przyimków z biernikiem durch, für, gegen, ohne i um — ze szczególnym zwróceniem uwagi na męskie końcówki biernika (den, einen, meinen) oraz zaimki — przy wyjaśnianiu przyczyn, celów, sprzeciwu, brakujących warunków i głównych tematów wiadomości.\n5. Pomysły na pytania (dostosuj do moich odpowiedzi): (temat 1) Worum geht es bei dem geplanten Dreiertreffen zwischen Trump, Xi und Putin? (temat 2) Für welche Länder und für welches Ziel tritt das neue europäische Verhandlungsteam ein? (temat 3) Warum kann die Ukraine im Krieg gegen Russland kaum ohne das Satellitensystem arbeiten? (temat 4) Wodurch oder durch welches Problem entstand das Startverbot an den US-Flughäfen? (temat 5) Wofür und gegen wen demonstrieren Tausende Menschen in Deutschland?\n6. Natychmiastowa korekta: jeśli złamię dzisiejszą zasadę (np. *Sie demonstrieren für einem besseren Klimaschutz.* zamiast *Sie demonstrieren für einen besseren Klimaschutz.*), zatrzymaj się na chwilę: zacytuj błąd, podaj poprawne zdanie, wyjaśnij zasadę w 1 zdaniu po polsku i poproś mnie o głośne powtórzenie poprawnego zdania przed kolejnym pytaniem.\n7. Poprawiaj też krótko inne istotne błędy; powtarzające się błędy zanotuj do końcowej informacji zwrotnej. Jeśli moja odpowiedź jest bardzo krótka, zadaj jedno pytanie uzupełniające („Warum?“).\n8. Podsumowanie po ~20 minutach lub gdy powiem „stop”: dwie rzeczy, które poszły mi dobrze, trzy główne błędy z poprawkami, pięć słów do powtórzenia i jedno niemieckie zdanie do głośnego powtórzenia.\n9. Zachowaj angażujący, profesjonalny i naturalny ton do immersyjnej rozmowy głosowej po niemiecku. Zwracaj się do mnie per „du”."
     }
   }
+},
+{
+  "lesson": {
+    "id": "2026-11-15",
+    "date": "15.11.2026",
+    "day": 34,
+    "totalDays": 300,
+    "level": "B1",
+    "title": {
+      "en": "Dative Prepositions: aus, bei, mit, nach, seit, von and zu",
+      "pl": "Przyimki łączące się z celownikiem: aus, bei, mit, nach, seit, von oraz zu"
+    },
+    "subtitle": "Präpositionen mit dem Dativ: aus, bei, mit, nach, seit, von und zu"
+  },
+  "grammar": {
+    "html": {
+      "en": [
+        "<p>Seven common German prepositions always require the <strong>dative case</strong>: <strong>aus</strong>, <strong>bei</strong>, <strong>mit</strong>, <strong>nach</strong>, <strong>seit</strong>, <strong>von</strong>, and <strong>zu</strong>. Regardless of whether a sentence expresses movement, location, time, origin, or means, the noun phrase or pronoun after these prepositions always takes dative endings. (Formal prepositions like <em>gegenüber</em> and <em>außer</em> also take the dative.)</p>",
+        "<div class='box rule'><strong>Core rule:</strong> After <em>aus</em>, <em>bei</em>, <em>mit</em>, <em>nach</em>, <em>seit</em>, <em>von</em>, and <em>zu</em>, always put the following noun phrase or pronoun in the dative (<em>dem, der, einem, einer, den + -n, ihm, ihr, ihnen</em>).</div>",
+        "<h3>Meanings and uses of the seven prepositions</h3>",
+        "<p>Each preposition covers key spatial, temporal, or abstract roles. <strong>aus</strong> marks origin, exit from inside, material, or motive. <strong>bei</strong> marks location at a person or workplace, or an event in progress. <strong>mit</strong> indicates accompaniment or a tool/transport means. <strong>nach</strong> means after, to cities/article-free countries, or according to. <strong>seit</strong> marks duration continuing into the present (used with <em>Präsens</em>). <strong>von</strong> marks origin from people/events or passive agents. <strong>zu</strong> indicates movement toward people, institutions, or events.</p>",
+        "<table><thead><tr><th>Preposition</th><th>Core meanings</th><th>Example</th></tr></thead><tbody><tr><td class='de'><strong>aus</strong></td><td>out of; from (city/country); made of</td><td class='de'><strong>aus</strong> dem Büro / <strong>aus</strong> Polen</td></tr><tr><td class='de'><strong>bei</strong></td><td>at; near; during; at someone's place</td><td class='de'><strong>bei</strong> einer Bank / <strong>beim</strong> Essen</td></tr><tr><td class='de'><strong>mit</strong></td><td>with; by (transport/means)</td><td class='de'><strong>mit</strong> dem Zug / <strong>mit</strong> den Kollegen</td></tr><tr><td class='de'><strong>nach</strong></td><td>after; to (city/country); according to</td><td class='de'><strong>nach</strong> der Arbeit / <strong>nach</strong> Berlin</td></tr><tr><td class='de'><strong>seit</strong></td><td>since; for (continuing duration)</td><td class='de'><strong>seit</strong> einem Jahr</td></tr><tr><td class='de'><strong>von</strong></td><td>from (person/event); of; by</td><td class='de'><strong>von</strong> meinem Chef / <strong>vom</strong> Flughafen</td></tr><tr><td class='de'><strong>zu</strong></td><td>to (person/place/event); for</td><td class='de'><strong>zu</strong> meinem Bruder / <strong>zur</strong> Konferenz</td></tr></tbody></table>",
+        "<h3>Dative endings and standard contractions</h3>",
+        "<p>In the dative, masculine and neuter take <em>dem / einem</em>, feminine takes <em>der / einer</em>, and plural takes <em>den</em> plus an <em>-n</em> ending on most nouns (<em>mit den Kindern, aus den Ländern</em>). Dative pronouns are <em>mir, dir, ihm, ihr, uns, euch, ihnen, Ihnen</em>. Four contractions are standard: <em>bei + dem = <strong>beim</strong></em>, <em>von + dem = <strong>vom</strong></em>, <em>zu + dem = <strong>zum</strong></em>, and <em>zu + der = <strong>zur</strong></em>.</p>",
+        "<ul><li><em>Sie fährt <strong>mit dem Bus</strong> <strong>zur Arbeit</strong>.</em> (masculine <em>dem</em>; contraction <em>zur = zu der</em>)</li><li><em>Er arbeitet <strong>seit zwei Jahren</strong> <strong>bei einer Firma</strong>.</em> (plural <em>-n</em>; present tense with <em>seit</em>)</li><li><em>Wir sprechen <strong>mit den neuen Kollegen</strong>.</em> (plural dative; <em>Kollegen</em> already ends in <em>-n</em>)</li><li><em>Der Brief kommt <strong>vom Direktor</strong> <strong>aus Wien</strong>.</em> (<em>vom = von dem</em>; <em>aus</em> before city)</li></ul>",
+        "<h3>Choosing between similar prepositions</h3>",
+        "<p>Learners often hesitate between <em>nach</em> and <em>zu</em>, or between <em>aus</em> and <em>von</em>. Use <strong>nach</strong> for cities, most countries without articles, and <em>nach Hause</em>; use <strong>zu</strong> for people, shops, events, and institutions. Use <strong>aus</strong> when exiting a building or naming a home country/city, and <strong>von</strong> when coming from a person, appointment, or open place.</p>",
+        "<table><thead><tr><th>Contrast</th><th>Usage</th><th>Example</th></tr></thead><tbody><tr><td><em>nach</em> vs. <em>zu</em></td><td>City/country vs. person/event</td><td class='de'><strong>nach</strong> Wien / <strong>zum</strong> Arzt</td></tr><tr><td><em>aus</em> vs. <em>von</em></td><td>Inside/origin vs. person/event</td><td class='de'><strong>aus</strong> dem Haus / <strong>vom</strong> Meeting</td></tr></tbody></table>",
+        "<div class='box warn'><strong>Common mistake: using accusative endings or omitting plural -n</strong><p>✗ <em>Ich fahre mit den Zug zu mein Bruder.</em> / ✗ <em>Sie spricht mit den Kind.</em></p><p>✓ <em>Ich fahre <strong>mit dem Zug</strong> <strong>zu meinem Bruder</strong>.</em> / ✓ <em>Sie spricht <strong>mit den Kindern</strong>.</em></p><p>These seven prepositions always take dative endings (<em>dem, meinem</em>) and plural <em>-n</em> (<em>den Kindern</em>).</p></div>",
+        "<div class='box tip'><strong>Memory aid: alphabetical seven + four contractions</strong><p>Memorise the list alphabetically—<em>aus, bei, mit, nach, seit, von, zu</em>—and immediately connect <em>dem</em> and <em>der</em> to <em>beim, vom, zum, zur</em>.</p></div>",
+        "<h3>Quick reference</h3>",
+        "<div class='tiles'><div class='tile'><strong>Origin: aus / von</strong><p><em>Er kommt <strong>aus Köln</strong> <strong>vom</strong> Treffen.</em></p></div><div class='tile'><strong>Place: bei / zu</strong><p><em>Ich bin <strong>beim</strong> Chef und gehe <strong>zur</strong> Bank.</em></p></div><div class='tile'><strong>Time: nach / seit</strong><p><em><strong>Seit</strong> Montag arbeitet sie <strong>nach</strong> dem Plan.</em></p></div><div class='tile'><strong>Means: mit</strong><p><em>Wir fahren <strong>mit dem Zug</strong>.</em></p></div></div>"
+      ],
+      "pl": [
+        "<p>Siedem częstych przyimków niemieckich zawsze wymaga <strong>celownika</strong>: <strong>aus</strong>, <strong>bei</strong>, <strong>mit</strong>, <strong>nach</strong>, <strong>seit</strong>, <strong>von</strong> oraz <strong>zu</strong>. Niezależnie od tego, czy zdanie wyraża ruch, miejsce, czas, pochodzenie czy środek, grupa rzeczownikowa lub zaimek po tych przyimkach zawsze przyjmuje końcówki celownika. (Oficjalne przyimki takie jak <em>gegenüber</em> i <em>außer</em> również łączą się z celownikiem.)</p>",
+        "<div class='box rule'><strong>Główna zasada:</strong> Po przyimkach <em>aus</em>, <em>bei</em>, <em>mit</em>, <em>nach</em>, <em>seit</em>, <em>von</em> i <em>zu</em> zawsze stawiaj następną grupę rzeczownikową lub zaimek w celowniku (<em>dem, der, einem, einer, den + -n, ihm, ihr, ihnen</em>).</div>",
+        "<h3>Znaczenia i użycie siedmiu przyimków</h3>",
+        "<p>Każdy z tych przyimków pełni ważne funkcje przestrzenne, czasowe lub abstrakcyjne. <strong>aus</strong> oznacza pochodzenie, wyjście ze środka, materiał lub motyw. <strong>bei</strong> oznacza miejsce u kogoś, w firmie lub czynność w trakcie. <strong>mit</strong> oznacza towarzyszenie albo środek transportu lub narzędzie. <strong>nach</strong> znaczy po, do miast i krajów bez rodzajnika lub według. <strong>seit</strong> oznacza czas trwania od przeszłości do teraz (z czasem <em>Präsens</em>). <strong>von</strong> oznacza pochodzenie od osób/wydarzeń lub sprawcę w stronie biernej. <strong>zu</strong> wskazuje kierunek do osób, instytucji lub wydarzeń.</p>",
+        "<table><thead><tr><th>Przyimek</th><th>Główne znaczenia</th><th>Przykład</th></tr></thead><tbody><tr><td class='de'><strong>aus</strong></td><td>z (wnętrza); z (miasta/kraju); z (materiału)</td><td class='de'><strong>aus</strong> dem Büro / <strong>aus</strong> Polen</td></tr><tr><td class='de'><strong>bei</strong></td><td>u; przy; podczas; w pobliżu</td><td class='de'><strong>bei</strong> einer Bank / <strong>beim</strong> Essen</td></tr><tr><td class='de'><strong>mit</strong></td><td>z; (czym? – transport/narzędzie)</td><td class='de'><strong>mit</strong> dem Zug / <strong>mit</strong> den Kollegen</td></tr><tr><td class='de'><strong>nach</strong></td><td>po; do (miasta/kraju); według</td><td class='de'><strong>nach</strong> der Arbeit / <strong>nach</strong> Berlin</td></tr><tr><td class='de'><strong>seit</strong></td><td>od (czas trwający do teraz)</td><td class='de'><strong>seit</strong> einem Jahr</td></tr><tr><td class='de'><strong>von</strong></td><td>od (osoby); z (wydarzenia); przez</td><td class='de'><strong>von</strong> meinem Chef / <strong>vom</strong> Flughafen</td></tr><tr><td class='de'><strong>zu</strong></td><td>do (osoby/miejsca); na (wydarzenie)</td><td class='de'><strong>zu</strong> meinem Bruder / <strong>zur</strong> Konferenz</td></tr></tbody></table>",
+        "<h3>Końcówki celownika i standardowe skróty</h3>",
+        "<p>W celowniku rodzaj męski i nijaki przyjmuje <em>dem / einem</em>, żeński <em>der / einer</em>, a liczba mnoga <em>den</em> oraz końcówkę <em>-n</em> przy większości rzeczowników (<em>mit den Kindern, aus den Ländern</em>). Zaimki w celowniku to <em>mir, dir, ihm, ihr, uns, euch, ihnen, Ihnen</em>. Standardowe są cztery skróty: <em>bei + dem = <strong>beim</strong></em>, <em>von + dem = <strong>vom</strong></em>, <em>zu + dem = <strong>zum</strong></em> i <em>zu + der = <strong>zur</strong></em>.</p>",
+        "<ul><li><em>Sie fährt <strong>mit dem Bus</strong> <strong>zur Arbeit</strong>.</em> (męskie <em>dem</em>; skrót <em>zur = zu der</em>)</li><li><em>Er arbeitet <strong>seit zwei Jahren</strong> <strong>bei einer Firma</strong>.</em> (liczba mnoga <em>-n</em>; czas teraźniejszy z <em>seit</em>)</li><li><em>Wir sprechen <strong>mit den neuen Kollegen</strong>.</em> (celownik lm.; <em>Kollegen</em> kończy się już na <em>-n</em>)</li><li><em>Der Brief kommt <strong>vom Direktor</strong> <strong>aus Wien</strong>.</em> (<em>vom = von dem</em>; <em>aus</em> przed miastem)</li></ul>",
+        "<h3>Wybór między podobnymi przyimkami</h3>",
+        "<p>Uczący się często wahają się między <em>nach</em> a <em>zu</em> oraz między <em>aus</em> a <em>von</em>. Użyj <strong>nach</strong> przy miastach, większości krajów bez rodzajnika i w zwrocie <em>nach Hause</em>; użyj <strong>zu</strong> przy osobach, sklepach, wydarzeniach i instytucjach. Użyj <strong>aus</strong> przy wychodzeniu z budynku lub podawaniu kraju/miasta pochodzenia, a <strong>von</strong> przy wracaniu od osoby, ze spotkania lub z otwartego miejsca.</p>",
+        "<table><thead><tr><th>Kontrast</th><th>Użycie</th><th>Przykład</th></tr></thead><tbody><tr><td><em>nach</em> a <em>zu</em></td><td>Miasto/kraj a osoba/wydarzenie</td><td class='de'><strong>nach</strong> Wien / <strong>zum</strong> Arzt</td></tr><tr><td><em>aus</em> a <em>von</em></td><td>Wnętrze/pochodzenie a osoba/spotkanie</td><td class='de'><strong>aus</strong> dem Haus / <strong>vom</strong> Meeting</td></tr></tbody></table>",
+        "<div class='box warn'><strong>Typowy błąd: końcówki biernika lub pomijanie -n w liczbie mnogiej</strong><p>✗ <em>Ich fahre mit den Zug zu mein Bruder.</em> / ✗ <em>Sie spricht mit den Kind.</em></p><p>✓ <em>Ich fahre <strong>mit dem Zug</strong> <strong>zu meinem Bruder</strong>.</em> / ✓ <em>Sie spricht <strong>mit den Kindern</strong>.</em></p><p>Te siedem przyimków zawsze wymaga końcówek celownika (<em>dem, meinem</em>) i końcówki <em>-n</em> w liczbie mnogiej (<em>den Kindern</em>).</p></div>",
+        "<div class='box tip'><strong>Pomoc w zapamiętaniu: alfabetyczna siódemka + cztery skróty</strong><p>Zapamiętaj listę alfabetycznie — <em>aus, bei, mit, nach, seit, von, zu</em> — i od razu łącz <em>dem</em> oraz <em>der</em> ze skrótami <em>beim, vom, zum, zur</em>.</p></div>",
+        "<h3>Szybki przegląd</h3>",
+        "<div class='tiles'><div class='tile'><strong>Pochodzenie: aus / von</strong><p><em>Er kommt <strong>aus Köln</strong> <strong>vom</strong> Treffen.</em></p></div><div class='tile'><strong>Miejsce: bei / zu</strong><p><em>Ich bin <strong>beim</strong> Chef und gehe <strong>zur</strong> Bank.</em></p></div><div class='tile'><strong>Czas: nach / seit</strong><p><em><strong>Seit</strong> Montag arbeitet sie <strong>nach</strong> dem Plan.</em></p></div><div class='tile'><strong>Środek: mit</strong><p><em>Wir fahren <strong>mit dem Zug</strong>.</em></p></div></div>"
+      ]
+    }
+  },
+  "examples": [
+    {
+      "de": "Ich fahre **mit dem Bus** **zur Arbeit**.",
+      "en": "I travel to work by bus.",
+      "pl": "Jadę do pracy autobusem.",
+      "level": "A1"
+    },
+    {
+      "de": "Er kommt **aus der Schweiz**.",
+      "en": "He comes from Switzerland.",
+      "pl": "On pochodzi ze Szwajcarii.",
+      "level": "A1"
+    },
+    {
+      "de": "Wir gehen **nach dem Frühstück** spazieren.",
+      "en": "We go for a walk after breakfast.",
+      "pl": "Po śniadaniu idziemy na spacer.",
+      "level": "A2"
+    },
+    {
+      "de": "Sie wohnt **seit einem Jahr** in Berlin.",
+      "en": "She has been living in Berlin for one year.",
+      "pl": "Ona mieszka w Berlinie od roku.",
+      "level": "A2"
+    },
+    {
+      "de": "Am Wochenende bin ich **bei meinen Eltern**.",
+      "en": "At the weekend, I am at my parents' place.",
+      "pl": "W weekend jestem u moich rodziców.",
+      "level": "A2"
+    },
+    {
+      "de": "Der Brief kommt **von einem wichtigen Kunden** **aus Hamburg**.",
+      "en": "The letter comes from an important client from Hamburg.",
+      "pl": "List pochodzi od ważnego klienta z Hamburga.",
+      "level": "B1"
+    },
+    {
+      "de": "**Beim Mittagessen** sprechen wir **mit den neuen Kollegen**.",
+      "en": "During lunch, we speak with the new colleagues.",
+      "pl": "Podczas obiadu rozmawiamy z nowymi kolegami.",
+      "level": "B1"
+    },
+    {
+      "de": "Meine Schwester fährt morgen **zu einer Konferenz** **nach Wien**.",
+      "en": "My sister is travelling to a conference in Vienna tomorrow.",
+      "pl": "Moja siostra jedzie jutro na konferencję do Wiednia.",
+      "level": "B1"
+    },
+    {
+      "de": "**Seit dem letzten Monat** arbeitet das Team **mit einer neuen Software**.",
+      "en": "Since last month, the team has been working with new software.",
+      "pl": "Od zeszłego miesiąca zespół pracuje z nowym oprogramowaniem.",
+      "level": "B1"
+    },
+    {
+      "de": "**Nach dem langen Meeting** geht er müde **nach Hause**.",
+      "en": "After the long meeting, he goes home tired.",
+      "pl": "Po długim spotkaniu idzie zmęczony do domu.",
+      "level": "B1"
+    },
+    {
+      "de": "**Nach der offiziellen Mitteilung** berät der Ausschuss **seit zwei Tagen** über den Plan.",
+      "en": "According to the official announcement, the committee has been deliberating on the plan for two days.",
+      "pl": "Według oficjalnego komunikatu komisja obraduje nad planem od dwóch dni.",
+      "level": "B2"
+    },
+    {
+      "de": "**Bei einem überraschenden Besuch** sprach die Ministerin **mit den Vertretern** der Region.",
+      "en": "During a surprise visit, the minister spoke with the representatives of the region.",
+      "pl": "Podczas niespodziewanej wizyty minister rozmawiała z przedstawicielami regionu.",
+      "level": "B2"
+    },
+    {
+      "de": "**Von diesem Treffen** erwarten viele Beobachter **bei der aktuellen Lage** nur kleine Fortschritte.",
+      "en": "Given the current situation, many observers expect only small progress from this meeting.",
+      "pl": "Od tego spotkania przy obecnej sytuacji wielu obserwatorów oczekuje tylko niewielkich postępów.",
+      "level": "B2"
+    },
+    {
+      "de": "**Aus den vorgelegten Berichten** erfahren wir viel **zu den neuen Maßnahmen**.",
+      "en": "From the submitted reports, we learn a great deal about the new measures.",
+      "pl": "Z przedłożonych raportów dowiadujemy się wiele o nowych środkach.",
+      "level": "B2"
+    },
+    {
+      "de": "**Mit dem neuen Abkommen** leistet das Land einen Beitrag **zur Stabilität** in der Region.",
+      "en": "With the new agreement, the country makes a contribution to stability in the region.",
+      "pl": "Poprzez nowe porozumienie kraj wnosi wkład w stabilność w regionie.",
+      "level": "B2"
+    },
+    {
+      "de": "**Seit dem Beginn** der Verhandlungen reisen regelmäßig Delegierte **aus mehreren Hauptstädten** **zu den Gesprächen** an.",
+      "en": "Since the start of the negotiations, delegates from several capitals have regularly been arriving for the talks.",
+      "pl": "Od początku negocjacji delegaci z kilku stolic regularnie przyjeżdżają na rozmowy.",
+      "level": "C1"
+    },
+    {
+      "de": "**Bei näherer Prüfung** weichen die Zahlen **von den ursprünglichen Schätzungen** deutlich ab.",
+      "en": "Upon closer examination, the figures deviate significantly from the original estimates.",
+      "pl": "Przy bliższej analizie liczby wyraźnie odbiegają od pierwotnych szacunków.",
+      "level": "C1"
+    },
+    {
+      "de": "**Nach einer langen Debatte** entschloss sich der Vorstand **zu einer grundlegenden Neuausrichtung**.",
+      "en": "After a long debate, the management board decided on a fundamental realignment.",
+      "pl": "Po długiej debacie zarząd zdecydował się na gruntowną zmianę kierunku.",
+      "level": "C1"
+    },
+    {
+      "de": "**Aus rein strategischen Erwägungen** rückt der Konzern **von seinem bisherigen Kurs** ab und sucht **bei europäischen Partnern** Rückhalt.",
+      "en": "For purely strategic reasons, the group is moving away from its previous course and seeking backing from European partners.",
+      "pl": "Ze względów czysto strategicznych koncern odchodzi od swojego dotychczasowego kursu i szuka wsparcia u europejskich partnerów.",
+      "level": "C2"
+    },
+    {
+      "de": "**Zu den langfristigen Folgen** dieser Reform liegen **seit Monaten** widersprüchliche Gutachten **von unabhängigen Instituten** vor.",
+      "en": "Regarding the long-term consequences of this reform, contradictory expert reports from independent institutes have been available for months.",
+      "pl": "W kwestii długoterminowych skutków tej reformy od miesięcy dostępne są sprzeczne ekspertyzy niezależnych instytucji.",
+      "level": "C2"
+    }
+  ],
+  "exercises": [
+    {
+      "en": "Paul comes from Munich.",
+      "pl": "Paul pochodzi z Monachium.",
+      "de": "Paul kommt aus München.",
+      "level": "A2"
+    },
+    {
+      "en": "We are travelling to Hamburg by train.",
+      "pl": "Jedziemy do Hamburga pociągiem.",
+      "de": "Wir fahren mit dem Zug nach Hamburg.",
+      "level": "A2"
+    },
+    {
+      "en": "She has been working at a bank for two years.",
+      "pl": "Ona pracuje od dwóch lat w banku.",
+      "de": "Sie arbeitet seit zwei Jahren bei einer Bank.",
+      "level": "A2"
+    },
+    {
+      "en": "After work, I am going to my friend (male).",
+      "pl": "Po pracy idę do mojego przyjaciela.",
+      "de": "Nach der Arbeit gehe ich zu meinem Freund.",
+      "level": "A2"
+    },
+    {
+      "en": "This present is from my parents.",
+      "pl": "Ten prezent jest od moich rodziców.",
+      "de": "Dieses Geschenk ist von meinen Eltern.",
+      "level": "A2"
+    },
+    {
+      "en": "The colleague (female) walks to the station on foot.",
+      "pl": "Koleżanka idzie pieszo na dworzec.",
+      "de": "Die Kollegin geht zu Fuß zum Bahnhof.",
+      "level": "A2"
+    },
+    {
+      "en": "At breakfast, we drink coffee with milk.",
+      "pl": "Przy śniadaniu pijemy kawę z mlekiem.",
+      "de": "Beim Frühstück trinken wir Kaffee mit Milch.",
+      "level": "A2"
+    },
+    {
+      "en": "My brother lives with our grandmother in Cologne.",
+      "pl": "Mój brat mieszka u naszej babci w Kolonii.",
+      "de": "Mein Bruder wohnt bei unserer Großmutter in Köln.",
+      "level": "A2"
+    },
+    {
+      "en": "The children are coming out of the school right now.",
+      "pl": "Dzieci wychodzą właśnie ze szkoły.",
+      "de": "Die Kinder kommen gerade aus der Schule.",
+      "level": "A2"
+    },
+    {
+      "en": "After dinner, the guests go home.",
+      "pl": "Po kolacji goście idą do domu.",
+      "de": "Nach dem Abendessen gehen die Gäste nach Hause.",
+      "level": "A2"
+    },
+    {
+      "en": "The train from Berlin arrives at the main station on time.",
+      "pl": "Pociąg z Berlina przyjeżdża punktualnie na dworzec główny.",
+      "de": "Der Zug aus Berlin kommt pünktlich am Hauptbahnhof an.",
+      "level": "B1"
+    },
+    {
+      "en": "Lukas has been learning German since last autumn.",
+      "pl": "Lukas uczy się niemieckiego od zeszłej jesieni.",
+      "de": "Lukas lernt seit letztem Herbst Deutsch.",
+      "level": "B1"
+    },
+    {
+      "en": "Before the trip, I have to go to the doctor.",
+      "pl": "Przed podróżą muszę iść do lekarza.",
+      "de": "Vor der Reise muss ich zum Arzt gehen.",
+      "level": "B1"
+    },
+    {
+      "en": "During the meeting, the team discussed the schedule with the client.",
+      "pl": "Podczas spotkania zespół omówił harmonogram z klientem.",
+      "de": "Bei der Besprechung besprach das Team den Zeitplan mit dem Kunden.",
+      "level": "B1"
+    },
+    {
+      "en": "Maria receives an urgent email from her boss.",
+      "pl": "Maria otrzymuje pilny e-mail od swojego szefa.",
+      "de": "Maria bekommt eine dringende E-Mail von ihrem Chef.",
+      "level": "B1"
+    },
+    {
+      "en": "The table is made of solid wood and comes from Poland.",
+      "pl": "Stół jest z litego drewna i pochodzi z Polski.",
+      "de": "Der Tisch ist aus massivem Holz und kommt aus Polen.",
+      "level": "B1"
+    },
+    {
+      "en": "After the long flight, the passengers are very tired.",
+      "pl": "Po długim locie pasażerowie są bardzo zmęczeni.",
+      "de": "Nach dem langen Flug sind die Passagiere sehr müde.",
+      "level": "B1"
+    },
+    {
+      "en": "Anna has been working on this project with two colleagues (male) for three weeks.",
+      "pl": "Anna pracuje od trzech tygodni nad tym projektem z dwoma kolegami.",
+      "de": "Anna arbeitet seit drei Wochen mit zwei Kollegen an diesem Projekt.",
+      "level": "B1"
+    },
+    {
+      "en": "During the visit, the guests receive a pass from the secretary.",
+      "pl": "Podczas wizyty goście otrzymują przepustkę od sekretarza.",
+      "de": "Beim Besuch erhalten die Gäste einen Ausweis vom Sekretär.",
+      "level": "B1"
+    },
+    {
+      "en": "Tomorrow we are flying to Paris for a trade fair.",
+      "pl": "Jutro lecimy do Paryża na targi.",
+      "de": "Morgen fliegen wir zu einer Messe nach Paris.",
+      "level": "B1"
+    },
+    {
+      "en": "Near the post office, I spoke with my neighbour (female).",
+      "pl": "Koło poczty rozmawiałem z moją sąsiadką.",
+      "de": "Bei der Post sprach ich mit meiner Nachbarin.",
+      "level": "B1"
+    },
+    {
+      "en": "From the airport, the guests take a taxi to the hotel.",
+      "pl": "Z lotniska goście jadą taksówką do hotelu.",
+      "de": "Vom Flughafen fahren die Gäste mit dem Taxi zum Hotel.",
+      "level": "B1"
+    },
+    {
+      "en": "Since Monday, the bakery has been open from seven o'clock.",
+      "pl": "Od poniedziałku piekarnia jest otwarta od siódmej.",
+      "de": "Seit Montag ist die Bäckerei ab sieben Uhr geöffnet.",
+      "level": "B1"
+    },
+    {
+      "en": "Out of sheer curiosity, Peter opened the old letter.",
+      "pl": "Ze zwykłej ciekawości Peter otworzył stary list.",
+      "de": "Aus reiner Neugier öffnete Peter den alten Brief.",
+      "level": "B1"
+    },
+    {
+      "en": "The manager is currently at a conference in Frankfurt.",
+      "pl": "Kierowniczka jest obecnie na konferencji we Frankfurcie.",
+      "de": "Die Leiterin ist derzeit bei einer Konferenz in Frankfurt.",
+      "level": "B1"
+    },
+    {
+      "en": "After the break, the teacher continues with the next exercise.",
+      "pl": "Po przerwie nauczyciel kontynuuje kolejne ćwiczenie.",
+      "de": "Nach der Pause macht der Lehrer mit der nächsten Übung weiter.",
+      "level": "B1"
+    },
+    {
+      "en": "The message from the ministry arrived shortly before noon.",
+      "pl": "Wiadomość z ministerstwa dotarła krótko przed południem.",
+      "de": "Die Nachricht vom Ministerium traf kurz vor Mittag ein.",
+      "level": "B1"
+    },
+    {
+      "en": "With this new key, you (informal) can open all doors on the floor.",
+      "pl": "Tym nowym kluczem możesz otworzyć wszystkie drzwi na piętrze.",
+      "de": "Mit diesem neuen Schlüssel kannst du alle Türen auf der Etage öffnen.",
+      "level": "B1"
+    },
+    {
+      "en": "Many young people from small towns move to the capital for university.",
+      "pl": "Wielu młodych ludzi z małych miast przeprowadza się na studia do stolicy.",
+      "de": "Viele junge Menschen aus kleinen Städten ziehen zum Studium in die Hauptstadt.",
+      "level": "B1"
+    },
+    {
+      "en": "My colleague (male) has been living with his sister since May.",
+      "pl": "Mój kolega mieszka od maja u swojej siostry.",
+      "de": "Mein Kollege wohnt seit Mai bei seiner Schwester.",
+      "level": "B1"
+    },
+    {
+      "en": "Delegations from eleven countries are travelling to the summit in Brussels.",
+      "pl": "Delegacje z jedenastu krajów jadą na szczyt do Brukseli.",
+      "de": "Delegationen aus elf Ländern reisen zum Gipfel nach Brüssel.",
+      "level": "B2"
+    },
+    {
+      "en": "Since the beginning of the year, the company has been working closely with new suppliers.",
+      "pl": "Od początku roku firma ściśle współpracuje z nowymi dostawcami.",
+      "de": "Seit Beginn des Jahres arbeitet das Unternehmen eng mit neuen Lieferanten zusammen.",
+      "level": "B2"
+    },
+    {
+      "en": "During the vote in committee, several lawmakers voted against the draft.",
+      "pl": "Podczas głosowania w komisji kilku posłów głosowało przeciwko projektowi.",
+      "de": "Bei der Abstimmung im Ausschuss stimmten mehrere Abgeordnete gegen den Entwurf.",
+      "level": "B2"
+    },
+    {
+      "en": "After the severe outage, Microsoft received thousands of reports from affected users.",
+      "pl": "Po poważnej awarii Microsoft otrzymał tysiące zgłoszeń od poszkodowanych użytkowników.",
+      "de": "Nach der schweren Störung erhielt Microsoft Tausende Meldungen von betroffenen Nutzern.",
+      "level": "B2"
+    },
+    {
+      "en": "From the published documents, the committee draws important conclusions.",
+      "pl": "Z opublikowanych dokumentów komisja wyciąga ważne wnioski.",
+      "de": "Aus den veröffentlichten Unterlagen zieht der Ausschuss wichtige Schlüsse.",
+      "level": "B2"
+    },
+    {
+      "en": "With targeted investments, the ministry wants to improve public transport.",
+      "pl": "Poprzez celowe inwestycje ministerstwo chce poprawić transport publiczny.",
+      "de": "Mit gezielten Investitionen will das Ministerium den öffentlichen Nahverkehr verbessern.",
+      "level": "B2"
+    },
+    {
+      "en": "At the press conference, the spokesperson answered questions from journalists.",
+      "pl": "Na konferencji prasowej rzecznik odpowiadał na pytania dziennikarzy.",
+      "de": "Bei der Pressekonferenz beantwortete der Sprecher Fragen von Journalisten.",
+      "level": "B2"
+    },
+    {
+      "en": "After his resignation, the former director withdrew from public life.",
+      "pl": "Po swojej rezygnacji były dyrektor wycofał się z życia publicznego.",
+      "de": "Nach seinem Rücktritt zog sich der frühere Direktor aus dem öffentlichen Leben zurück.",
+      "level": "B2"
+    },
+    {
+      "en": "Since last autumn, rising rents have been causing difficulties for many families.",
+      "pl": "Od zeszłej jesieni rosnące czynsze sprawiają trudności wielu rodzinom.",
+      "de": "Seit letztem Herbst bereiten steigende Mieten vielen Familien Schwierigkeiten.",
+      "level": "B2"
+    },
+    {
+      "en": "With an external law firm, the board is examining the accusations.",
+      "pl": "Z zewnętrzną kancelarią prawną zarząd bada zarzuty.",
+      "de": "Mit einer externen Kanzlei prüft der Vorstand die Vorwürfe.",
+      "level": "B2"
+    },
+    {
+      "en": "In this weather, the airline expects delays at several airports.",
+      "pl": "Przy takiej pogodzie linia lotnicza spodziewa się opóźnień na kilku lotniskach.",
+      "de": "Bei diesem Wetter rechnet die Fluggesellschaft mit Verspätungen an mehreren Flughäfen.",
+      "level": "B2"
+    },
+    {
+      "en": "The negotiators returned from Moscow to Washington on Thursday.",
+      "pl": "Negocjatorzy wrócili w czwartek z Moskwy do Waszyngtonu.",
+      "de": "Die Unterhändler kehrten am Donnerstag aus Moskau nach Washington zurück.",
+      "level": "B2"
+    },
+    {
+      "en": "For months, experts have been warning of growing risks to energy security.",
+      "pl": "Od miesięcy eksperci ostrzegają przed rosnącym ryzykiem dla bezpieczeństwa energetycznego.",
+      "de": "Seit Monaten warnen Experten vor wachsenden Risiken für die Energiesicherheit.",
+      "level": "B2"
+    },
+    {
+      "en": "From this cooperation, both institutes expect faster progress in research.",
+      "pl": "Od tej współpracy oba instytuty oczekują szybszego postępu w badaniach.",
+      "de": "Von dieser Zusammenarbeit erwarten beide Institute schnellere Fortschritte in der Forschung.",
+      "level": "B2"
+    },
+    {
+      "en": "At the ceremony in Munich, citizens bid farewell to the late minister.",
+      "pl": "Podczas uroczystości w Monachium obywatele żegnają zmarłego ministra.",
+      "de": "Bei der Trauerfeier in München verabschieden sich die Bürger vom verstorbenen Minister.",
+      "level": "B2"
+    },
+    {
+      "en": "With a narrow majority, parliament decided on an independent inquiry.",
+      "pl": "Niewielką większością parlament zdecydował się na niezależne dochodzenie.",
+      "de": "Mit einer knappen Mehrheit entschied sich das Parlament für eine unabhängige Untersuchung.",
+      "level": "B2"
+    },
+    {
+      "en": "After the accident at the steelworks, rescue workers searched for survivors.",
+      "pl": "Po wypadku w hucie stali ratownicy szukali ocalałych.",
+      "de": "Nach dem Unfall im Stahlwerk suchten Rettungskräfte nach Überlebenden.",
+      "level": "B2"
+    },
+    {
+      "en": "Since the introduction of the new rules, the number of complaints has dropped.",
+      "pl": "Od wprowadzenia nowych zasad liczba skarg spadła.",
+      "de": "Seit der Einführung der neuen Regeln ist die Zahl der Beschwerden gesunken.",
+      "level": "B2"
+    },
+    {
+      "en": "Out of caution, the aviation authority temporarily suspended all flights from Frankfurt.",
+      "pl": "Z ostrożności urząd lotniczy tymczasowo wstrzymał wszystkie loty z Frankfurtu.",
+      "de": "Aus Vorsicht setzte die Luftfahrtaufsicht vorübergehend alle Flüge aus Frankfurt aus.",
+      "level": "B2"
+    },
+    {
+      "en": "In the study, the figures come from an independent institute.",
+      "pl": "W badaniu liczby pochodzą z niezależnego instytutu.",
+      "de": "In der Studie stammen die Zahlen von einem unabhängigen Institut.",
+      "level": "B2"
+    },
+    {
+      "en": "The diplomats are returning to the negotiating table for new talks.",
+      "pl": "Dyplomaci wracają do stołu negocjacyjnego na nowe rozmowy.",
+      "de": "Die Diplomaten kehren zu neuen Gesprächen an den Verhandlungstisch zurück.",
+      "level": "B2"
+    },
+    {
+      "en": "With great patience, the mediator listened to both sides during the session.",
+      "pl": "Z wielką cierpliwością mediator wysłuchał obu stron podczas posiedzenia.",
+      "de": "Mit großer Geduld hörte der Vermittler beiden Seiten bei der Sitzung zu.",
+      "level": "B2"
+    },
+    {
+      "en": "From the very beginning, critics warned against excessive surveillance powers.",
+      "pl": "Od samego początku krytycy ostrzegali przed nadmiernymi uprawnieniami do inwigilacji.",
+      "de": "Von Anfang an warnten Kritiker vor übermäßigen Überwachungsbefugnissen.",
+      "level": "B2"
+    },
+    {
+      "en": "After the election victory, the challenger spoke with reporters from several newspapers.",
+      "pl": "Po zwycięstwie wyborczym pretendent rozmawiał z reporterami kilku gazet.",
+      "de": "Nach dem Wahlsieg sprach der Herausforderer mit Reportern mehrerer Zeitungen.",
+      "level": "B2"
+    },
+    {
+      "en": "In the event of a ceasefire, observers from European states are to travel to the region.",
+      "pl": "W przypadku zawieszenia broni obserwatorzy z państw europejskich mają udać się do regionu.",
+      "de": "Bei einer Waffenruhe sollen Beobachter aus europäischen Staaten in die Region reisen.",
+      "level": "B2"
+    },
+    {
+      "en": "Since last winter, many municipalities have been investing in modern heating plants.",
+      "pl": "Od zeszłej zimy wiele gmin inwestuje w nowoczesne elektrociepłownie.",
+      "de": "Seit letztem Winter investieren viele Gemeinden in moderne Heizkraftwerke.",
+      "level": "B2"
+    },
+    {
+      "en": "With this decision, the board responded to the sharp drop in share prices.",
+      "pl": "Tą decyzją zarząd zareagował na gwałtowny spadek cen akcji.",
+      "de": "Mit dieser Entscheidung reagierte der Vorstand auf den starken Kursrückgang.",
+      "level": "B2"
+    },
+    {
+      "en": "From the official report, no connection to foreign groups is apparent.",
+      "pl": "Z oficjalnego raportu nie wynika żaden związek z zagranicznymi grupami.",
+      "de": "Aus dem offiziellen Bericht geht kein Zusammenhang mit ausländischen Gruppen hervor.",
+      "level": "B2"
+    },
+    {
+      "en": "After returning from London, the ambassador reported to the foreign minister.",
+      "pl": "Po powrocie z Londynu ambasador zdał relację ministrowi spraw zagranicznych.",
+      "de": "Nach der Rückkehr aus London berichtete der Botschafter dem Außenminister.",
+      "level": "B2"
+    },
+    {
+      "en": "At the open-air service in Peru, the Pope spoke with young believers.",
+      "pl": "Podczas nabożeństwa pod gołym niebem w Peru papież rozmawiał z młodymi wiernymi.",
+      "de": "Beim Gottesdienst unter freiem Himmel in Peru sprach der Papst mit jungen Gläubigen.",
+      "level": "B2"
+    },
+    {
+      "en": "Since the start of the strike, trains in several regions have been cancelled.",
+      "pl": "Od początku strajku pociągi w kilku regionach są odwoływane.",
+      "de": "Seit dem Beginn des Streiks fallen Züge in mehreren Regionen aus.",
+      "level": "B2"
+    },
+    {
+      "en": "The delegation is travelling from Geneva to Brussels for further consultations.",
+      "pl": "Delegacja jedzie z Genewy do Brukseli na dalsze konsultacje.",
+      "de": "Die Delegation reist aus Genf zu weiteren Beratungen nach Brüssel.",
+      "level": "B2"
+    },
+    {
+      "en": "From his own experience, the judge knows the risks of this procedure.",
+      "pl": "Z własnego doświadczenia sędzia zna ryzyka tej procedury.",
+      "de": "Aus eigener Erfahrung kennt der Richter die Risiken dieses Verfahrens.",
+      "level": "B2"
+    },
+    {
+      "en": "With every new delay, dissatisfaction among commuters grows.",
+      "pl": "Z każdym nowym opóźnieniem rośnie niezadowolenie wśród osób dojeżdżających do pracy.",
+      "de": "Mit jeder neuen Verspätung wächst die Unzufriedenheit bei den Pendlern.",
+      "level": "B2"
+    },
+    {
+      "en": "After the vote in California, billionaires welcomed the rejection of the special tax.",
+      "pl": "Po głosowaniu w Kalifornii miliarderzy z zadowoleniem przyjęli odrzucenie podatku specjalnego.",
+      "de": "Nach der Abstimmung in Kalifornien begrüßten Milliardäre die Ablehnung der Sondersteuer.",
+      "level": "B2"
+    },
+    {
+      "en": "With this bill, the government is responding to warnings from security agencies.",
+      "pl": "Tym projektem ustawy rząd reaguje na ostrzeżenia służb bezpieczeństwa.",
+      "de": "Mit diesem Gesetzentwurf reagiert die Regierung auf Warnungen von Sicherheitsbehörden.",
+      "level": "B2"
+    },
+    {
+      "en": "Since the morning, technicians have been searching for the cause of the outage.",
+      "pl": "Od rana technicy szukają przyczyny awarii.",
+      "de": "Seit dem Morgen suchen Techniker nach der Ursache der Störung.",
+      "level": "B2"
+    },
+    {
+      "en": "From the company's perspective, higher export duties threaten competitiveness.",
+      "pl": "Z perspektywy firmy wyższe cła eksportowe zagrażają konkurencyjności.",
+      "de": "Aus Sicht des Unternehmens gefährden höhere Exportzölle die Wettbewerbsfähigkeit.",
+      "level": "B2"
+    },
+    {
+      "en": "During the summit, representatives from five countries agreed on a joint team.",
+      "pl": "Podczas szczytu przedstawiciele pięciu krajów uzgodnili wspólny zespół.",
+      "de": "Beim Gipfel einigten sich Vertreter aus fünf Ländern auf ein gemeinsames Team.",
+      "level": "B2"
+    },
+    {
+      "en": "After years of debate, the city council finally agreed to the housing programme.",
+      "pl": "Po latach debat rada miejska ostatecznie zgodziła się na program mieszkaniowy.",
+      "de": "Nach jahrelangen Debatten stimmte der Stadtrat schließlich dem Wohnungsprogramm zu.",
+      "level": "B2"
+    },
+    {
+      "en": "From the perspective of European capitals, peace talks cannot succeed without clear security guarantees.",
+      "pl": "Z perspektywy stolic europejskich rozmowy pokojowe nie mogą się powieść bez jasnych gwarancji bezpieczeństwa.",
+      "de": "Aus Sicht europäischer Hauptstädte können Friedensgespräche ohne klare Sicherheitsgarantien nicht gelingen.",
+      "level": "C1"
+    },
+    {
+      "en": "Since the outbreak of the energy crisis, industrial firms have been struggling with rising operating costs.",
+      "pl": "Od wybuchu kryzysu energetycznego firmy przemysłowe zmagają się z rosnącymi kosztami operacyjnymi.",
+      "de": "Seit dem Ausbruch der Energiekrise kämpfen Industrieunternehmen mit steigenden Betriebskosten.",
+      "level": "C1"
+    },
+    {
+      "en": "During the Senate hearing, lawmakers confronted the former chief executive with internal emails.",
+      "pl": "Podczas wysłuchania w Senacie posłowie skonfrontowali byłego prezesa z wewnętrznymi e-mailami.",
+      "de": "Bei der Anhörung im Senat konfrontierten Abgeordnete den früheren Konzernchef mit internen E-Mails.",
+      "level": "C1"
+    },
+    {
+      "en": "After thorough verification of the data, the agency distanced itself from its earlier estimate.",
+      "pl": "Po gruntownej weryfikacji danych agencja zdystansowała się od swojej wcześniejszej oceny.",
+      "de": "Nach einer gründlichen Überprüfung der Daten rückte die Behörde von ihrer früheren Schätzung ab.",
+      "level": "C1"
+    },
+    {
+      "en": "With its decision to stay away from Antalya, Washington is weakening multilateral climate diplomacy.",
+      "pl": "Swoją decyzją o nieobecności w Antalyi Waszyngton osłabia wielostronną dyplomację klimatyczną.",
+      "de": "Mit seiner Entscheidung, Antalya fernzubleiben, schwächt Washington die multilaterale Klimadiplomatie.",
+      "level": "C1"
+    },
+    {
+      "en": "For an effective defence against cyberattacks, authorities rely on close cooperation with private providers.",
+      "pl": "Do skutecznej obrony przed cyberatakami władze polegają na ścisłej współpracy z prywatnymi dostawcami.",
+      "de": "Zur wirksamen Abwehr von Cyberangriffen sind Behörden auf eine enge Zusammenarbeit mit privaten Anbietern angewiesen.",
+      "level": "C1"
+    },
+    {
+      "en": "Out of concern over further capital flight, voters rejected the proposed wealth levy.",
+      "pl": "Z obawy przed dalszą ucieczką kapitału wyborcy odrzucili proponowaną daninę majątkową.",
+      "de": "Aus Sorge vor einer weiteren Kapitalflucht lehnten die Wähler die geplante Vermögensabgabe ab.",
+      "level": "C1"
+    },
+    {
+      "en": "Since the middle of the decade, the share of international students has risen noticeably in Austria as well.",
+      "pl": "Od połowy dekady udział studentów zagranicznych wyraźnie wzrósł również w Austrii.",
+      "de": "Seit Mitte des Jahrzehnts ist der Anteil internationaler Studierender auch in Österreich spürbar gestiegen.",
+      "level": "C1"
+    },
+    {
+      "en": "During the negotiations in Abu Dhabi, both delegations moved away from maximalist demands only slightly.",
+      "pl": "Podczas negocjacji w Abu Zabi obie delegacje odeszły od maksymalistycznych żądań tylko nieznacznie.",
+      "de": "Bei den Verhandlungen in Abu Dhabi wichen beide Delegationen nur wenig von ihren Maximalforderungen ab.",
+      "level": "C1"
+    },
+    {
+      "en": "With his calm demeanour, the mediator contributed significantly to easing tensions at the summit.",
+      "pl": "Swoim spokojnym zachowaniem mediator znacząco przyczynił się do złagodzenia napięć na szczycie.",
+      "de": "Mit seinem ruhigen Auftreten trug der Vermittler wesentlich zur Entspannung beim Gipfel bei.",
+      "level": "C1"
+    },
+    {
+      "en": "After the discovery of the compliance failure, the supervisory board called in external auditors.",
+      "pl": "Po wykryciu uchybień w zakresie zgodności rada nadzorcza wezwała zewnętrznych audytorów.",
+      "de": "Nach dem Bekanntwerden des Compliance-Versagens zog der Aufsichtsrat externe Prüfer hinzu.",
+      "level": "C1"
+    },
+    {
+      "en": "From the current perspective, the coalition has little room for manoeuvre on tax policy.",
+      "pl": "Z obecnej perspektywy koalicja ma niewielkie pole manewru w polityce podatkowej.",
+      "de": "Aus heutiger Sicht hat die Koalition in der Steuerpolitik wenig Spielraum.",
+      "level": "C1"
+    },
+    {
+      "en": "With the expansion of surveillance powers, critics fear a gradual erosion of civil liberties.",
+      "pl": "Wraz z rozszerzeniem uprawnień do inwigilacji krytycy obawiają się stopniowej erozji swobód obywatelskich.",
+      "de": "Mit der Ausweitung der Überwachungsbefugnisse befürchten Kritiker eine schrittweise Aushöhlung der Bürgerrechte.",
+      "level": "C1"
+    },
+    {
+      "en": "Since the end of the nineties, the company has grown from a small supplier into a global market leader.",
+      "pl": "Od końca lat dziewięćdziesiątych firma rozrosła się z małego dostawcy do światowego lidera rynku.",
+      "de": "Seit Ende der neunziger Jahre ist das Unternehmen von einem kleinen Zulieferer zu einem Weltmarktführer gewachsen.",
+      "level": "C1"
+    },
+    {
+      "en": "At the informal meeting in Dublin, heads of government agreed on a five-nation negotiating group.",
+      "pl": "Na nieformalnym spotkaniu w Dublinie szefowie rządów uzgodnili pięciokrajową grupę negocjacyjną.",
+      "de": "Beim informellen Treffen in Dublin einigten sich die Regierungschefs auf eine Verhandlungsgruppe aus fünf Staaten.",
+      "level": "C1"
+    },
+    {
+      "en": "For faster reconstruction, the European Commission is supplying hundreds of generators to Ukrainian cities.",
+      "pl": "Na potrzeby szybszej odbudowy Komisja Europejska dostarcza setki generatorów ukraińskim miastom.",
+      "de": "Zum schnelleren Wiederaufbau liefert die Europäische Kommission Hunderte Generatoren an ukrainische Städte.",
+      "level": "C1"
+    },
+    {
+      "en": "After consulting with legal advisers, management decided against an immediate leadership change.",
+      "pl": "Po konsultacji z doradcami prawnymi kierownictwo zdecydowało się przeciwko natychmiastowej zmianie kierownictwa.",
+      "de": "Nach Rücksprache mit Rechtsberatern entschied sich die Leitung gegen einen sofortigen Führungswechsel.",
+      "level": "C1"
+    },
+    {
+      "en": "With a clear majority in the Senate, the party can confirm judicial appointments much more easily.",
+      "pl": "Z wyraźną większością w Senacie partia może znacznie łatwiej zatwierdzać nominacje sędziowskie.",
+      "de": "Mit einer klaren Mehrheit im Senat kann die Partei Richterernennungen deutlich leichter bestätigen.",
+      "level": "C1"
+    },
+    {
+      "en": "Out of respect for the victims, parliament began the session with a minute of silence.",
+      "pl": "Z szacunku dla ofiar parlament rozpoczął posiedzenie minutą ciszy.",
+      "de": "Aus Respekt vor den Opfern begann das Parlament die Sitzung mit einer Schweigeminute.",
+      "level": "C1"
+    },
+    {
+      "en": "From reliable security circles, journalists learned of renewed attempts to disrupt European networks.",
+      "pl": "Z wiarygodnych kręgów bezpieczeństwa dziennikarze dowiedzieli się o ponownych próbach zakłócenia europejskich sieci.",
+      "de": "Aus zuverlässigen Sicherheitskreisen erfuhren Journalisten von neuerlichen Versuchen, europäische Netze zu stören.",
+      "level": "C1"
+    },
+    {
+      "en": "From the perspective of institutional investors, the tech giant's valuation depends heavily on sustained AI profitability.",
+      "pl": "Z perspektywy inwestorów instytucjonalnych wycena giganta technologicznego zależy w dużym stopniu od trwałej rentowności AI.",
+      "de": "Aus Sicht institutioneller Investoren hängt die Bewertung des Tech-Giganten stark von einer nachhaltigen Rentabilität der KI ab.",
+      "level": "C2"
+    },
+    {
+      "en": "Since the collapse of the previous consensus, the coalition partners have been struggling with deep budgetary conflicts.",
+      "pl": "Od rozpadu poprzedniego konsensusu partnerzy koalicyjni zmagają się z głębokimi konfliktami budżetowymi.",
+      "de": "Seit dem Zerbrechen des früheren Konsenses kämpfen die Koalitionspartner mit tiefen Haushaltskonflikten.",
+      "level": "C2"
+    },
+    {
+      "en": "With the gradual withdrawal from multilateral climate treaties, major powers risk losing credibility among developing nations.",
+      "pl": "Poprzez stopniowe wycofywanie się z wielostronnych traktatów klimatycznych wielkie mocarstwa ryzykują utratę wiarygodności wśród krajów rozwijających się.",
+      "de": "Mit dem schrittweisen Rückzug aus multilateralen Klimaverträgen riskieren Großmächte den Verlust von Glaubwürdigkeit bei Entwicklungsländern.",
+      "level": "C2"
+    },
+    {
+      "en": "At closer inspection, the apparent economic recovery turns out to be driven largely by state subsidies.",
+      "pl": "Przy bliższym przyjrzeniu się pozorne ożywienie gospodarcze okazuje się w dużej mierze napędzane dotacjami państwowymi.",
+      "de": "Bei genauerem Hinsehen erweist sich die scheinbare wirtschaftliche Erholung als weitgehend von staatlichen Subventionen getragen.",
+      "level": "C2"
+    },
+    {
+      "en": "After protracted negotiations behind closed doors, the delegates finally agreed on a binding timetable for troop withdrawals.",
+      "pl": "Po przedłużających się negocjacjach za zamkniętymi drzwiami delegaci uzgodnili wreszcie wiążący harmonogram wycofania wojsk.",
+      "de": "Nach langwierigen Verhandlungen hinter verschlossenen Türen verständigten sich die Delegierten schließlich auf einen verbindlichen Zeitplan zum Truppenabzug.",
+      "level": "C2"
+    },
+    {
+      "en": "Out of strategic consideration for domestic industry, the ministry distanced itself from abrupt import tariffs.",
+      "pl": "Ze względów strategicznych dotyczących przemysłu krajowego ministerstwo zdystansowało się od nagłych ceł importowych.",
+      "de": "Aus strategischer Rücksicht auf die heimische Industrie rückte das Ministerium von abrupten Einfuhrzöllen ab.",
+      "level": "C2"
+    },
+    {
+      "en": "From the conflicting statements of both associations, observers can scarcely deduce a reliable picture of actual strike participation.",
+      "pl": "Ze sprzecznych oświadczeń obu związków obserwatorzy ledwo mogą wywnioskować wiarygodny obraz rzeczywistego udziału w strajku.",
+      "de": "Aus den widersprüchlichen Erklärungen beider Verbände können Beobachter kaum ein verlässliches Bild der tatsächlichen Streikbeteiligung ableiten.",
+      "level": "C2"
+    },
+    {
+      "en": "With its latest directive, the supervisory authority responds directly to systemic vulnerabilities in automated logistics.",
+      "pl": "Swoją najnowszą dyrektywą organ nadzorczy reaguje bezpośrednio na systemowe słabości w zautomatyzowanej logistyce.",
+      "de": "Mit ihrer jüngsten Richtlinie reagiert die Aufsichtsbehörde unmittelbar auf systemische Schwachstellen in der automatisierten Logistik.",
+      "level": "C2"
+    },
+    {
+      "en": "Since the beginning of the judicial reform, the constitutional court has repeatedly deviated from earlier case law.",
+      "pl": "Od początku reformy sądownictwa trybunał konstytucyjny wielokrotnie odbiegał od wcześniejszego orzecznictwa.",
+      "de": "Seit dem Beginn der Justizreform ist das Verfassungsgericht wiederholt von seiner früheren Rechtsprechung abgewichen.",
+      "level": "C2"
+    },
+    {
+      "en": "For a credible renewal of public trust, political leadership must turn away from short-term tactical manoeuvres.",
+      "pl": "Dla wiarygodnej odnowy zaufania publicznego przywództwo polityczne musi odwrócić się od krótkoterminowych manewrów taktycznych.",
+      "de": "Zu einer glaubwürdigen Erneuerung des öffentlichen Vertrauens muss sich die politische Führung von kurzfristigen taktischen Manövern abwenden.",
+      "level": "C2"
+    }
+  ],
+  "speaking": {
+    "prompt": {
+      "en": "You are my German language tutor conducting a 20-minute B1-to-C1 speaking conversation for today's Sunday lesson (15 November 2026), which has no Listening section.\n\nGeneral speaking topic: Work routines, daily mobility, and life experiences across different cities.\n\nGrammar focus to elicit: Dative prepositions: aus, bei, mit, nach, seit, von and zu.\n\nUseful prepositions and contractions to invite me to use: aus, bei (beim), mit, nach, seit, von (vom), zu (zum, zur).\n\nInstructions for the AI tutor:\n1. Start the conversation: greet me warmly, mention that today's focus is a general conversation about work routines, mobility, and life in different cities, and ask where I come from and how long I have lived in my current city.\n2. You ask, I speak: one question per turn, one or two short sentences, never answer your own questions. German at B1-C1 level; English only if I am really stuck.\n3. Guide the conversation naturally through five areas in order: (1) origin and current city/workplace, (2) daily commuting and travel habits, (3) teamwork and communication at work, (4) after-work life and weekend plans, and (5) lessons learned from past projects or trips and future plans. Ask about facts and routines first, then reasons, comparisons, and my personal evaluation.\n4. Encourage me to use all seven dative prepositions—aus, bei, mit, nach, seit, von, and zu—including contractions (beim, vom, zum, zur) and plural dative -n endings, and remind me to use Präsens with seit.\n5. Question ideas (adapt to my answers): (1) Woher kommst du ursprünglich, und seit wann wohnst oder arbeitest du dort, wo du jetzt bist? (2) Womit fährst du normalerweise zur Arbeit oder zu Terminen, und warum? (3) Mit welchen Kolleginnen, Kollegen oder Partnern arbeitest du bei einem typischen Projekt am engsten zusammen? (4) Was machst du nach der Arbeit am liebsten, und fährst du am Wochenende oft zu Freunden oder zur Familie? (5) Was hast du aus früheren beruflichen Erfahrungen oder Reisen für deine heutige Arbeit mitgenommen?\n6. Immediate correction: if I break today's rule (e.g. *Ich fahre mit den Zug zu mein Büro.* instead of *Ich fahre mit dem Zug zu meinem Büro.*), stop briefly: quote the error, give the correct sentence, explain the rule in 1 English sentence, ask me to repeat the correct sentence aloud before the next question.\n7. Also correct other significant errors briefly; note recurring mistakes for the final feedback. If my answer is very short, ask one follow-up („Warum?“).\n8. Wrap-up after ~20 minutes or when I say \"stop\": two things I did well, three key mistakes with corrections, five useful phrases or collocations with dative prepositions to review, one German sentence to repeat aloud.\n9. Keep the tone engaging, professional, natural for an immersive German voice dialogue. Address me as „du“.",
+      "pl": "Jesteś moim nauczycielem języka niemieckiego i prowadzisz 20-minutową rozmowę na poziomie od B1 do C1 w ramach dzisiejszej lekcji niedzielnej (15 listopada 2026 roku), w której nie ma części Słuchanie.\n\nOgólny temat rozmowy: Rutyna zawodowa, codzienna mobilność oraz doświadczenia życiowe w różnych miastach.\n\nZagadnienie gramatyczne do ćwiczenia: Przyimki łączące się z celownikiem: aus, bei, mit, nach, seit, von oraz zu.\n\nPrzydatne przyimki i skróty, do których używania warto mnie zachęcać: aus, bei (beim), mit, nach, seit, von (vom), zu (zum, zur).\n\nInstrukcje dla tutora AI:\n1. Rozpocznij rozmowę: przywitaj się serdecznie, wspomnij, że dzisiejsza rozmowa to ogólna konwersacja o pracy, codziennych dojazdach i życiu w różnych miastach, i zapytaj, skąd pochodzę oraz od jak dawna mieszkam w obecnym mieście.\n2. Ty pytasz, ja mówię: jedno pytanie w jednej wypowiedzi, jedno lub dwa krótkie zdania, nigdy nie odpowiadaj na własne pytania. Mów po niemiecku na poziomie B1–C1; na polski przechodź tylko wtedy, gdy naprawdę utknę.\n3. Prowadź rozmowę płynnie po kolei przez pięć obszarów: (1) pochodzenie i obecne miejsce zamieszkania/pracy, (2) codzienne dojazdy i nawyki podróżnicze, (3) praca zespołowa i komunikacja w pracy, (4) czas po pracy i plany weekendowe oraz (5) wnioski z wcześniejszych projektów lub podróży i plany na przyszłość. Najpierw pytaj o fakty i zwyczaje, potem o przyczyny, porównania i moją ocenę.\n4. Zachęcaj mnie do używania wszystkich siedmiu przyimków z celownikiem — aus, bei, mit, nach, seit, von i zu — w tym skrótów (beim, vom, zum, zur) i końcówki -n w celowniku liczby mnogiej, a także przypominaj o użyciu czasu Präsens z seit.\n5. Pomysły na pytania (dostosuj do moich odpowiedzi): (1) Woher kommst du ursprünglich, und seit wann wohnst oder arbeitest du dort, wo du jetzt bist? (2) Womit fährst du normalerweise zur Arbeit oder zu Terminen, und warum? (3) Mit welchen Kolleginnen, Kollegen oder Partnern arbeitest du bei einem typischen Projekt am engsten zusammen? (4) Was machst du nach der Arbeit am liebsten, und fährst du am Wochenende oft zu Freunden oder zur Familie? (5) Was hast du aus früheren beruflichen Erfahrungen oder Reisen für deine heutige Arbeit mitgenommen?\n6. Natychmiastowa korekta: jeśli złamię dzisiejszą zasadę (np. *Ich fahre mit den Zug zu mein Büro.* zamiast *Ich fahre mit dem Zug zu meinem Büro.*), zatrzymaj się na chwilę: zacytuj błąd, podaj poprawne zdanie, wyjaśnij zasadę w 1 zdaniu po polsku i poproś mnie o głośne powtórzenie poprawnego zdania przed kolejnym pytaniem.\n7. Poprawiaj też krótko inne istotne błędy; powtarzające się błędy zanotuj do końcowej informacji zwrotnej. Jeśli moja odpowiedź jest bardzo krótka, zadaj jedno pytanie uzupełniające („Warum?“).\n8. Podsumowanie po ~20 minutach lub gdy powiem „stop”: dwie rzeczy, które poszły mi dobrze, trzy główne błędy z poprawkami, pięć przydatnych zwrotów lub kolokacji z przyimkami celownikowymi do powtórzenia oraz jedno niemieckie zdanie do głośnego powtórzenia.\n9. Zachowaj angażujący, profesjonalny i naturalny ton do immersyjnej rozmowy głosowej po niemiecku. Zwracaj się do mnie per „du”."
+    }
+  }
 }
 ]
