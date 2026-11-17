@@ -44611,5 +44611,1829 @@
       "pl": "Jesteś moim nauczycielem języka niemieckiego i prowadzisz 20-minutową rozmowę na poziomie od B1 do C1 w oparciu o część Słuchanie z dzisiejszej lekcji (niemieckie wiadomości z 13 listopada 2026 roku).\n\nMateriał ze Słuchania – 6 tematów wiadomości z dzisiejszej części Słuchanie, w tej samej kolejności co artykuły:\n1. Po spotkaniu z prezydentem Rosji Władimirem Putinem w Moskwie amerykański negocjator Jared Kushner zapowiedział silniejsze włączenie Europy w rozmowy pokojowe w sprawie Ukrainy, natomiast kanclerz Friedrich Merz uznał, że wyznaczanie jednego europejskiego negocjatora nie jest obecnie konieczne.\n2. Przed nadchodzącą zimą Komisja Europejska obiecała Ukrainie 500 generatorów, 200 autobusów i cztery mosty pontonowe, podczas gdy przywódcy UE spotykają się w Dublinie, by omówić także rolę Europy w negocjacjach pokojowych.\n3. Poważna awaria w firmie Microsoft dotknęła użytkowników w 74 krajach, generując około 130 000 zgłoszeń samego Outlooka oraz zakłócając działanie Teams i Copilot z powodu przeciążenia regionalnej infrastruktury.\n4. Komisja bankowa Senatu USA wezwała byłego prezesa Nvidii Jensena Huanga i ministra handlu Howarda Lutnicka w związku z zarzutami szpiegowskimi wobec byłej partnerki Huanga oraz kontrolą eksportu układów AI do Chin.\n5. Niemiecki Bundestag debatuje nad reformą służb wywiadowczych i ma ją przyjąć, rozszerzając uprawnienia do inwigilacji oraz umożliwiając aktywne cyberkontrataki w obliczu zaostrzonej sytuacji zagrożenia od czasu rosyjskiej wojny przeciwko Ukrainie.\n6. Z badania OECD wynika, że stała imigracja studentów do Niemiec wzrosła w zeszłym roku o 45 procent do około 74 000 osób, głównie z Chin i Indii, mimo że ogólna imigracja do Niemiec spadła w 2025 roku o ponad sześć procent.\n\nZagadnienie gramatyczne do ćwiczenia: Czasowniki rządzące celownikiem bez dopełnienia w bierniku.\n\nPrzydatne słowa z dzisiejszych artykułów ze Słuchania (zachęcaj mnie do ich używania): die Einbindung, zusagen, die Störung, der Vorwurf, die Befugnis, der Gesetzentwurf, der Anstieg, die Zuwanderung.\n\nInstrukcje dla tutora AI:\n1. Rozpocznij rozmowę: przywitaj się ze mną i zapytaj, czy wysłuchałem dzisiejszego nagrania. Jeśli nie, streść temat 1 w dwóch prostych zdaniach po niemiecku i kontynuuj.\n2. Ty pytasz, ja mówię: jedno pytanie w jednej wypowiedzi, jedno lub dwa krótkie zdania, nigdy nie odpowiadaj na własne pytania. Mów po niemiecku na poziomie B1–C1; na polski przechodź tylko wtedy, gdy naprawdę utknę.\n3. Pytania odnoszą się do powyższych tematów po kolei i obejmują co najmniej cztery z nich: najpierw fakty, potem przyczyny, skutki, inne perspektywy i moją ocenę. Pod koniec poproś mnie o połączenie dwóch tematów.\n4. Zachęcaj mnie do odpowiadania za pomocą czasowników wyłącznie celownikowych z dzisiejszej lekcji — takich jak helfen, danken, folgen, gehören, gefallen, schaden, drohen, widersprechen, zustimmen, entsprechen, begegnen i vertrauen — pilnując, by ich jedyne dopełnienie stało w celowniku, a nie w bierniku.\n5. Pomysły na pytania (dostosuj do moich odpowiedzi): (temat 1) Warum vertrauen manche Europäer den russischen Zusagen nicht, und wem sollte Europa bei den Verhandlungen folgen? (temat 2) Wem helfen die neuen Generatoren und Busse aus der EU am meisten? (temat 3) Wem schadet eine so große Störung bei Microsoft besonders stark? (temat 5) Warum stimmst du der Reform der Geheimdienste zu, oder warum widersprichst du dem Gesetzentwurf? (temat 6) Welcher Prozentzahl entspricht der Anstieg bei den ausländischen Studierenden?\n6. Natychmiastowa korekta: jeśli złamię dzisiejszą zasadę (np. *Ich stimme die Reform zu.* zamiast *Ich stimme der Reform zu.*), zatrzymaj się na chwilę: zacytuj błąd, podaj poprawne zdanie, wyjaśnij zasadę w 1 zdaniu po polsku i poproś mnie o głośne powtórzenie poprawnego zdania przed kolejnym pytaniem.\n7. Poprawiaj też krótko inne istotne błędy; powtarzające się błędy zanotuj do końcowej informacji zwrotnej. Jeśli moja odpowiedź jest bardzo krótka, zadaj jedno pytanie uzupełniające („Warum?“).\n8. Podsumowanie po ~20 minutach lub gdy powiem „stop”: dwie rzeczy, które poszły mi dobrze, trzy główne błędy z poprawkami, pięć słów do powtórzenia i jedno niemieckie zdanie do głośnego powtórzenia.\n9. Zachowaj angażujący, profesjonalny i naturalny ton do immersyjnej rozmowy głosowej po niemiecku. Zwracaj się do mnie per „du”."
     }
   }
+},
+{
+  "lesson": {
+    "id": "2026-11-14",
+    "date": "14.11.2026",
+    "day": 33,
+    "totalDays": 300,
+    "level": "B1",
+    "title": {
+      "en": "Accusative Prepositions: durch, für, gegen, ohne and um",
+      "pl": "Przyimki łączące się z biernikiem: durch, für, gegen, ohne oraz um"
+    },
+    "subtitle": "Präpositionen mit dem Akkusativ: durch, für, gegen, ohne und um"
+  },
+  "grammar": {
+    "html": {
+      "en": [
+        "<p>Five common German prepositions always require the <strong>accusative case</strong>: <strong>durch</strong>, <strong>für</strong>, <strong>gegen</strong>, <strong>ohne</strong>, and <strong>um</strong>. Unlike two-way prepositions such as <em>in</em> or <em>auf</em>, these five never take the dative, whether they describe movement, time, cause, or an abstract relationship.</p>",
+        "<div class='box rule'><strong>Core rule:</strong> After <em>durch</em>, <em>für</em>, <em>gegen</em>, <em>ohne</em>, and <em>um</em>, always put the following noun phrase or pronoun in the accusative (<em>den, einen, keinen, ihn, sie</em>).</div>",
+        "<h3>Meanings and uses of the five prepositions</h3>",
+        "<p>Each preposition covers both concrete and abstract meanings in everyday and news German. <strong>durch</strong> expresses movement through a space or the means/cause behind an event. <strong>für</strong> expresses a recipient, purpose, or duration. <strong>gegen</strong> expresses opposition, physical contact, or an approximate time. <strong>ohne</strong> expresses absence, often without an article before singular nouns. <strong>um</strong> expresses position around something, exact clock times, numerical differences, or the topic of a verb.</p>",
+        "<table><thead><tr><th>Preposition</th><th>Core meanings</th><th>Example</th></tr></thead><tbody><tr><td class='de'><strong>durch</strong></td><td>through; by means of</td><td class='de'><strong>durch</strong> einen Systemfehler</td></tr><tr><td class='de'><strong>für</strong></td><td>for; in favour of; duration</td><td class='de'><strong>für</strong> einen besseren Schutz</td></tr><tr><td class='de'><strong>gegen</strong></td><td>against; around (approx. time)</td><td class='de'><strong>gegen</strong> den Widerstand</td></tr><tr><td class='de'><strong>ohne</strong></td><td>without</td><td class='de'><strong>ohne</strong> einen klaren Plan</td></tr><tr><td class='de'><strong>um</strong></td><td>around; at (time); by (amount)</td><td class='de'><strong>um</strong> zehn Prozent</td></tr></tbody></table>",
+        "<h3>Accusative forms, contractions, and pronouns</h3>",
+        "<p>Remember that only <strong>masculine singular</strong> changes from nominative to accusative (<em>der → den</em>, <em>ein → einen</em>, <em>mein → meinen</em>). Feminine, neuter, and plural forms look identical to the nominative. Personal pronouns take accusative forms such as <em>mich, dich, ihn, sie, es, uns, euch</em>. In standard German, neuter <em>das</em> often contracts with three of these prepositions: <em>durch + das = <strong>durchs</strong></em>, <em>für + das = <strong>fürs</strong></em>, and <em>um + das = <strong>ums</strong></em>.</p>",
+        "<ul><li><em>Das Treffen ist wichtig <strong>für den Kontinent</strong>.</em> (masculine accusative: <em>den</em>)</li><li><em>Die Behörde handelt <strong>gegen einen Beschluss</strong>.</em> (masculine accusative: <em>einen</em>)</li><li><em><strong>Ohne Erklärung</strong> bleibt die Lage unklar.</em> (<em>ohne</em> often drops the article)</li><li><em>Die Regierung bittet <strong>um eine schnelle Lösung</strong>.</em> (fixed verb phrase: <em>bitten um</em>)</li></ul>",
+        "<h3>Verb phrases with accusative prepositions</h3>",
+        "<p>Several frequent verbs combine tightly with these prepositions and keep them in the accusative: <em>bitten um</em> (ask for), <em>sich kümmern um</em> (take care of), <em>kämpfen für / gegen</em> (fight for / against), <em>sich entscheiden für</em> (opt for), and <em>es geht um</em> (it is about). After <em>bis</em> and <em>entlang</em>, accusative also appears in specific structures.</p>",
+        "<table><thead><tr><th>Verb phrase</th><th>Example</th></tr></thead><tbody><tr><td class='de'>bitten um</td><td class='de'>Er bittet <strong>um einen neuen Termin</strong>.</td></tr><tr><td class='de'>sich entscheiden für</td><td class='de'>Die EU entscheidet sich <strong>für ein Team</strong>.</td></tr><tr><td class='de'>es geht um</td><td class='de'>Bei dem Gipfel geht es <strong>um den Frieden</strong>.</td></tr></tbody></table>",
+        "<div class='box warn'><strong>Common mistake: using dative endings after these prepositions</strong><p>✗ <em>Sie demonstrieren für einem besseren Klimaschutz.</em> / ✗ <em>Ohne dem Plan geht es nicht.</em></p><p>✓ <em>Sie demonstrieren <strong>für einen besseren Klimaschutz</strong>.</em> / ✓ <em>Ohne <strong>den Plan</strong> geht es nicht.</em></p><p>These five prepositions never take the dative; always use masculine accusative <em>einen</em> or <em>den</em>.</p></div>",
+        "<div class='box tip'><strong>Memory aid: FUDGO (für, um, durch, gegen, ohne)</strong><p>Remember the five letters <strong>FUDGO</strong>. Whenever one of these prepositions appears, switch immediately to accusative—especially masculine <em>den</em> and <em>einen</em>.</p></div>",
+        "<h3>Quick reference</h3>",
+        "<div class='tiles'><div class='tile'><strong>durch / für</strong><p><em>Wir arbeiten <strong>für den Erfolg</strong>.</em></p></div><div class='tile'><strong>gegen</strong><p><em>Sie stimmt <strong>gegen den Antrag</strong>.</em></p></div><div class='tile'><strong>ohne</strong><p><em><strong>Ohne einen Ausweis</strong> geht nichts.</em></p></div><div class='tile'><strong>um</strong><p><em>Es geht <strong>um deinen Vorschlag</strong>.</em></p></div></div>"
+      ],
+      "pl": [
+        "<p>Pięć częstych przyimków niemieckich zawsze wymaga <strong>biernika</strong>: <strong>durch</strong>, <strong>für</strong>, <strong>gegen</strong>, <strong>ohne</strong> oraz <strong>um</strong>. W przeciwieństwie do przyimków zmiennych takich jak <em>in</em> czy <em>auf</em>, ta piątka nigdy nie łączy się z celownikiem, niezależnie od tego, czy opisuje ruch, czas, przyczynę czy relację abstrakcyjną.</p>",
+        "<div class='box rule'><strong>Główna zasada:</strong> Po przyimkach <em>durch</em>, <em>für</em>, <em>gegen</em>, <em>ohne</em> i <em>um</em> zawsze stawiaj następną grupę rzeczownikową lub zaimek w bierniku (<em>den, einen, keinen, ihn, sie</em>).</div>",
+        "<h3>Znaczenia i użycie pięciu przyimków</h3>",
+        "<p>Każdy z tych przyimków ma znaczenia konkretne i abstrakcyjne w języku codziennym oraz prasowym. <strong>durch</strong> wyraża ruch przez przestrzeń lub środek/przyczynę zdarzenia. <strong>für</strong> oznacza odbiorcę, cel lub czas trwania. <strong>gegen</strong> wyraża sprzeciw, kontakt fizyczny lub przybliżoną porę. <strong>ohne</strong> oznacza brak i często występuje bez rodzajnika przed rzeczownikami w liczbie pojedynczej. <strong>um</strong> wyraża położenie wokół czegoś, dokładną godzinę, różnicę liczbową lub temat czasownika.</p>",
+        "<table><thead><tr><th>Przyimek</th><th>Główne znaczenia</th><th>Przykład</th></tr></thead><tbody><tr><td class='de'><strong>durch</strong></td><td>przez; za pomocą, wskutek</td><td class='de'><strong>durch</strong> einen Systemfehler</td></tr><tr><td class='de'><strong>für</strong></td><td>dla, za, na rzecz; na (czas)</td><td class='de'><strong>für</strong> einen besseren Schutz</td></tr><tr><td class='de'><strong>gegen</strong></td><td>przeciwko, wbrew; około (czas)</td><td class='de'><strong>gegen</strong> den Widerstand</td></tr><tr><td class='de'><strong>ohne</strong></td><td>bez</td><td class='de'><strong>ohne</strong> einen klaren Plan</td></tr><tr><td class='de'><strong>um</strong></td><td>wokół; o (godzinie); o (wartość)</td><td class='de'><strong>um</strong> zehn Prozent</td></tr></tbody></table>",
+        "<h3>Formy biernika, skróty i zaimki</h3>",
+        "<p>Pamiętaj, że z mianownika na biernik zmienia się wyłącznie <strong>liczba pojedyncza rodzaju męskiego</strong> (<em>der → den</em>, <em>ein → einen</em>, <em>mein → meinen</em>). Formy żeńskie, nijakie i liczby mnogiej wyglądają tak samo jak w mianowniku. Zaimki osobowe przyjmują formy biernika: <em>mich, dich, ihn, sie, es, uns, euch</em>. W standardowym niemieckim rodzajnik <em>das</em> często łączy się z trzema z tych przyimków: <em>durch + das = <strong>durchs</strong></em>, <em>für + das = <strong>fürs</strong></em> i <em>um + das = <strong>ums</strong></em>.</p>",
+        "<ul><li><em>Das Treffen ist wichtig <strong>für den Kontinent</strong>.</em> (biernik męski: <em>den</em>)</li><li><em>Die Behörde handelt <strong>gegen einen Beschluss</strong>.</em> (biernik męski: <em>einen</em>)</li><li><em><strong>Ohne Erklärung</strong> bleibt die Lage unklar.</em> (<em>ohne</em> często pomija rodzajnik)</li><li><em>Die Regierung bittet <strong>um eine schnelle Lösung</strong>.</em> (stałe połączenie: <em>bitten um</em>)</li></ul>",
+        "<h3>Czasowniki z przyimkami biernikowymi</h3>",
+        "<p>Wiele częstych czasowników łączy się ściśle z tymi przyimkami i zachowuje biernik: <em>bitten um</em> (prosić o), <em>sich kümmern um</em> (troszczyć się o), <em>kämpfen für / gegen</em> (walczyć za / przeciw), <em>sich entscheiden für</em> (zdecydować się na) oraz <em>es geht um</em> (chodzi o). Po <em>bis</em> i <em>entlang</em> biernik również występuje w określonych konstrukcjach.</p>",
+        "<table><thead><tr><th>Zwrot czasownikowy</th><th>Przykład</th></tr></thead><tbody><tr><td class='de'>bitten um</td><td class='de'>Er bittet <strong>um einen neuen Termin</strong>.</td></tr><tr><td class='de'>sich entscheiden für</td><td class='de'>Die EU entscheidet sich <strong>für ein Team</strong>.</td></tr><tr><td class='de'>es geht um</td><td class='de'>Bei dem Gipfel geht es <strong>um den Frieden</strong>.</td></tr></tbody></table>",
+        "<div class='box warn'><strong>Typowy błąd: użycie końcówek celownika po tych przyimkach</strong><p>✗ <em>Sie demonstrieren für einem besseren Klimaschutz.</em> / ✗ <em>Ohne dem Plan geht es nicht.</em></p><p>✓ <em>Sie demonstrieren <strong>für einen besseren Klimaschutz</strong>.</em> / ✓ <em>Ohne <strong>den Plan</strong> geht es nicht.</em></p><p>Te pięć przyimków nigdy nie łączy się z celownikiem; zawsze używaj męskiego biernika <em>einen</em> lub <em>den</em>.</p></div>",
+        "<div class='box tip'><strong>Pomoc w zapamiętaniu: FUDGO (für, um, durch, gegen, ohne)</strong><p>Zapamiętaj pięć liter <strong>FUDGO</strong>. Ilekroć pojawi się jeden z tych przyimków, od razu przełącz się na biernik — zwłaszcza męskie <em>den</em> i <em>einen</em>.</p></div>",
+        "<h3>Szybki przegląd</h3>",
+        "<div class='tiles'><div class='tile'><strong>durch / für</strong><p><em>Wir arbeiten <strong>für den Erfolg</strong>.</em></p></div><div class='tile'><strong>gegen</strong><p><em>Sie stimmt <strong>gegen den Antrag</strong>.</em></p></div><div class='tile'><strong>ohne</strong><p><em><strong>Ohne einen Ausweis</strong> geht nichts.</em></p></div><div class='tile'><strong>um</strong><p><em>Es geht <strong>um deinen Vorschlag</strong>.</em></p></div></div>"
+      ]
+    }
+  },
+  "examples": [
+    {
+      "de": "Ich kaufe ein Geschenk **für meinen Vater**.",
+      "en": "I am buying a gift for my father.",
+      "pl": "Kupuję prezent dla mojego ojca.",
+      "level": "A1"
+    },
+    {
+      "de": "Wir gehen **durch den Park** nach Hause.",
+      "en": "We are walking home through the park.",
+      "pl": "Idziemy do domu przez park.",
+      "level": "A1"
+    },
+    {
+      "de": "Er trinkt seinen Kaffee immer **ohne Zucker**.",
+      "en": "He always drinks his coffee without sugar.",
+      "pl": "On zawsze pije swoją kawę bez cukru.",
+      "level": "A2"
+    },
+    {
+      "de": "Das Meeting beginnt **um neun Uhr**.",
+      "en": "The meeting starts at nine o'clock.",
+      "pl": "Spotkanie zaczyna się o dziewiątej.",
+      "level": "A2"
+    },
+    {
+      "de": "Viele Leute sind **gegen diesen Vorschlag**.",
+      "en": "Many people are against this proposal.",
+      "pl": "Wiele osób jest przeciwko tej propozycji.",
+      "level": "A2"
+    },
+    {
+      "de": "Die Kollegen bitten **um einen neuen Termin** für die Besprechung.",
+      "en": "The colleagues are asking for a new date for the meeting.",
+      "pl": "Koledzy proszą o nowy termin spotkania.",
+      "level": "B1"
+    },
+    {
+      "de": "Die Mannschaft spielt am Montag **gegen die Niederlande**.",
+      "en": "The team is playing against the Netherlands on Monday.",
+      "pl": "Drużyna gra w poniedziałek przeciwko Holandii.",
+      "level": "B1"
+    },
+    {
+      "de": "**Ohne eine klare Erklärung** verstehen die Mitarbeiter den Plan nicht.",
+      "en": "Without a clear explanation, the employees do not understand the plan.",
+      "pl": "Bez jasnego wyjaśnienia pracownicy nie rozumieją planu.",
+      "level": "B1"
+    },
+    {
+      "de": "Der Zug fährt **durch einen langen Tunnel** nach Süden.",
+      "en": "The train travels south through a long tunnel.",
+      "pl": "Pociąg jedzie na południe przez długi tunel.",
+      "level": "B1"
+    },
+    {
+      "de": "Unser Team kümmert sich heute **um den neuen Kunden**.",
+      "en": "Our team is taking care of the new client today.",
+      "pl": "Nasz zespół zajmuje się dziś nowym klientem.",
+      "level": "B1"
+    },
+    {
+      "de": "Tausende Menschen demonstrieren in Deutschland **für einen besseren Klimaschutz**.",
+      "en": "Thousands of people in Germany are demonstrating for better climate protection.",
+      "pl": "Tysiące ludzi w Niemczech demonstrują na rzecz lepszej ochrony klimatu.",
+      "level": "B2"
+    },
+    {
+      "de": "Die Regierung bittet den Betreiber **um eine schnelle Stellungnahme**.",
+      "en": "The government is asking the operator for a quick statement.",
+      "pl": "Rząd prosi operatora o szybkie stanowisko.",
+      "level": "B2"
+    },
+    {
+      "de": "**Durch die landesweite Unterbrechung** wurden tausende Flüge gestrichen.",
+      "en": "Due to the nationwide disruption, thousands of flights were cancelled.",
+      "pl": "Wskutek ogólnokrajowej przerwy odwołano tysiące lotów.",
+      "level": "B2"
+    },
+    {
+      "de": "**Gegen den Widerstand** der Industrie fordert die Initiative strengere Regeln.",
+      "en": "Against the resistance of industry, the initiative demands stricter rules.",
+      "pl": "Wbrew oporowi przemysłu inicjatywa domaga się ostrzejszych przepisów.",
+      "level": "B2"
+    },
+    {
+      "de": "**Ohne einen zuverlässigen Partner** lässt sich dieses Projekt kaum umsetzen.",
+      "en": "Without a reliable partner, this project can hardly be implemented.",
+      "pl": "Bez niezawodnego partnera tego projektu prawie nie da się wdrożyć.",
+      "level": "B2"
+    },
+    {
+      "de": "Bei den Verhandlungen geht es **um die langfristige Sicherheit** des gesamten Kontinents.",
+      "en": "The negotiations are about the long-term security of the entire continent.",
+      "pl": "W negocjacjach chodzi o długoterminowe bezpieczeństwo całego kontynentu.",
+      "level": "C1"
+    },
+    {
+      "de": "Der Minister sprach sich **für einen schrittweisen Abbau** der weltweiten Bestände aus.",
+      "en": "The minister spoke in favour of a gradual reduction of global stockpiles.",
+      "pl": "Minister opowiedział się za stopniową redukcją światowych zasobów.",
+      "level": "C1"
+    },
+    {
+      "de": "**Durch ein veraltetes Steuerungssystem** geriet der gesamte Flugverkehr ins Stocken.",
+      "en": "Due to an outdated control system, all air traffic ground to a halt.",
+      "pl": "Z powodu przestarzałego systemu sterowania cały ruch lotniczy utknął w miejscu.",
+      "level": "C1"
+    },
+    {
+      "de": "**Ohne den politischen Rückhalt** der größten Mitgliedstaaten verliert das Team an Durchsetzungskraft.",
+      "en": "Without the political backing of the largest member states, the team loses assertiveness.",
+      "pl": "Bez politycznego poparcia największych państw członkowskich zespół traci siłę przebicia.",
+      "level": "C2"
+    },
+    {
+      "de": "Die Debatte dreht sich im Kern **um einen gerechten Ausgleich** zwischen wirtschaftlichen Interessen und Klimaverantwortung.",
+      "en": "At its core, the debate revolves around a fair balance between economic interests and climate responsibility.",
+      "pl": "W swojej istocie debata kręci się wokół sprawiedliwej równowagi między interesami gospodarczymi a odpowiedzialnością klimatyczną.",
+      "level": "C2"
+    }
+  ],
+  "exercises": [
+    {
+      "en": "We are walking through the old town today.",
+      "pl": "Idziemy dzisiaj przez stare miasto.",
+      "de": "Wir gehen heute durch die Altstadt.",
+      "level": "A2"
+    },
+    {
+      "en": "This gift is for my younger brother.",
+      "pl": "Ten prezent jest dla mojego młodszego brata.",
+      "de": "Dieses Geschenk ist für meinen jüngeren Bruder.",
+      "level": "A2"
+    },
+    {
+      "en": "I never drink tea without lemon.",
+      "pl": "Nigdy nie piję herbaty bez cytryny.",
+      "de": "Ich trinke Tee nie ohne Zitrone.",
+      "level": "A2"
+    },
+    {
+      "en": "The train leaves at nine o'clock.",
+      "pl": "Pociąg odjeżdża o dziewiątej.",
+      "de": "Der Zug fährt um neun Uhr ab.",
+      "level": "A2"
+    },
+    {
+      "en": "My colleague (male) is against the long break.",
+      "pl": "Mój kolega jest przeciwko długiej przerwie.",
+      "de": "Mein Kollege ist gegen die lange Pause.",
+      "level": "A2"
+    },
+    {
+      "en": "The bus drives through a small village.",
+      "pl": "Autobus jedzie przez małą wioskę.",
+      "de": "Der Bus fährt durch ein kleines Dorf.",
+      "level": "A2"
+    },
+    {
+      "en": "Julia buys fresh bread for her parents.",
+      "pl": "Julia kupuje świeży chleb dla swoich rodziców.",
+      "de": "Julia kauft frisches Brot für ihre Eltern.",
+      "level": "A2"
+    },
+    {
+      "en": "Without the key, we cannot open the door.",
+      "pl": "Bez klucza nie możemy otworzyć drzwi.",
+      "de": "Ohne den Schlüssel können wir die Tür nicht öffnen.",
+      "level": "A2"
+    },
+    {
+      "en": "The children are running around the big house.",
+      "pl": "Dzieci biegają wokół dużego domu.",
+      "de": "Die Kinder laufen um das große Haus.",
+      "level": "A2"
+    },
+    {
+      "en": "The guests thank the host for the dinner.",
+      "pl": "Goście dziękują gospodarzowi za kolację.",
+      "de": "Die Gäste danken dem Gastgeber für das Abendessen.",
+      "level": "A2"
+    },
+    {
+      "en": "The team is preparing for the match against Sweden.",
+      "pl": "Drużyna przygotowuje się do meczu przeciwko Szwecji.",
+      "de": "Die Mannschaft bereitet sich auf das Spiel gegen Schweden vor.",
+      "level": "B1"
+    },
+    {
+      "en": "Without his signature, the contract is not valid.",
+      "pl": "Bez jego podpisu umowa nie jest ważna.",
+      "de": "Ohne seine Unterschrift ist der Vertrag nicht gültig.",
+      "level": "B1"
+    },
+    {
+      "en": "The colleague (female) asks the director for a short conversation.",
+      "pl": "Koleżanka prosi dyrektora o krótką rozmowę.",
+      "de": "Die Kollegin bittet den Direktor um ein kurzes Gespräch.",
+      "level": "B1"
+    },
+    {
+      "en": "Prices rose by five percent last year.",
+      "pl": "Ceny wzrosły w zeszłym roku o pięć procent.",
+      "de": "Die Preise stiegen letztes Jahr um fünf Prozent.",
+      "level": "B1"
+    },
+    {
+      "en": "The journalist travelled through several countries in Asia.",
+      "pl": "Dziennikarz podróżował przez kilka krajów w Azji.",
+      "de": "Der Journalist reiste durch mehrere Länder in Asien.",
+      "level": "B1"
+    },
+    {
+      "en": "The new rules are very important for small businesses.",
+      "pl": "Nowe zasady są bardzo ważne dla małych firm.",
+      "de": "Die neuen Regeln sind sehr wichtig für kleine Unternehmen.",
+      "level": "B1"
+    },
+    {
+      "en": "Many citizens are protesting against the high energy prices.",
+      "pl": "Wielu obywateli protestuje przeciwko wysokim cenom energii.",
+      "de": "Viele Bürger protestieren gegen die hohen Energiepreise.",
+      "level": "B1"
+    },
+    {
+      "en": "The meeting begins at half past ten in the conference room.",
+      "pl": "Spotkanie zaczyna się o wpół do jedenastej w sali konferencyjnej.",
+      "de": "Das Treffen beginnt um halb elf im Konferenzraum.",
+      "level": "B1"
+    },
+    {
+      "en": "Without our help, the new colleague (male) cannot solve the problem.",
+      "pl": "Bez naszej pomocy nowy kolega nie potrafi rozwiązać problemu.",
+      "de": "Ohne unsere Hilfe kann der neue Kollege das Problem nicht lösen.",
+      "level": "B1"
+    },
+    {
+      "en": "The assistant is taking care of the guests from Paris.",
+      "pl": "Asystent troszczy się o gości z Paryża.",
+      "de": "Der Assistent kümmert sich um die Gäste aus Paris.",
+      "level": "B1"
+    },
+    {
+      "en": "The river flows directly through the centre of the capital.",
+      "pl": "Rzeka płynie bezpośrednio przez centrum stolicy.",
+      "de": "Der Fluss fließt direkt durch das Zentrum der Hauptstadt.",
+      "level": "B1"
+    },
+    {
+      "en": "We need a reliable solution for this difficult situation.",
+      "pl": "Potrzebujemy niezawodnego rozwiązania dla tej trudnej sytuacji.",
+      "de": "Wir brauchen eine zuverlässige Lösung für diese schwierige Situation.",
+      "level": "B1"
+    },
+    {
+      "en": "The doctor gave the patient a tablet against the pain.",
+      "pl": "Lekarz dał pacjentowi tabletkę przeciwko bólowi.",
+      "de": "Der Arzt gab dem Patienten eine Tablette gegen die Schmerzen.",
+      "level": "B1"
+    },
+    {
+      "en": "At the end of the meeting, it was about the new budget.",
+      "pl": "Pod koniec spotkania chodziło o nowy budżet.",
+      "de": "Am Ende der Besprechung ging es um das neue Budget.",
+      "level": "B1"
+    },
+    {
+      "en": "Without your (formal) valid passport, you cannot cross the border.",
+      "pl": "Bez Pana ważnego paszportu nie może Pan przekroczyć granicy.",
+      "de": "Ohne Ihren gültigen Reisepass können Sie die Grenze nicht überqueren.",
+      "level": "B1"
+    },
+    {
+      "en": "The company is looking for a new manager for the Munich branch.",
+      "pl": "Firma szuka nowego kierownika dla oddziału w Monachium.",
+      "de": "Das Unternehmen sucht einen neuen Leiter für die Münchner Filiale.",
+      "level": "B1"
+    },
+    {
+      "en": "The police are walking through the railway station with dogs.",
+      "pl": "Policja idzie przez dworzec kolejowy z psami.",
+      "de": "Die Polizei geht mit Hunden durch den Bahnhof.",
+      "level": "B1"
+    },
+    {
+      "en": "The demonstrators stood around the city hall.",
+      "pl": "Demonstranci stali wokół ratusza.",
+      "de": "Die Demonstranten standen um das Rathaus.",
+      "level": "B1"
+    },
+    {
+      "en": "Many residents voted against the new shopping centre.",
+      "pl": "Wielu mieszkańców głosowało przeciwko nowemu centrum handlowemu.",
+      "de": "Viele Anwohner stimmten gegen das neue Einkaufszentrum.",
+      "level": "B1"
+    },
+    {
+      "en": "Anna is applying for the vacant position in marketing.",
+      "pl": "Anna ubiega się o wolne stanowisko w marketingu.",
+      "de": "Anna bewirbt sich um die freie Stelle im Marketing.",
+      "level": "B1"
+    },
+    {
+      "en": "Thousands of people are demonstrating in Berlin for stronger climate protection.",
+      "pl": "Tysiące ludzi demonstrują w Berlinie na rzecz silniejszej ochrony klimatu.",
+      "de": "Tausende Menschen demonstrieren in Berlin für einen stärkeren Klimaschutz.",
+      "level": "B2"
+    },
+    {
+      "en": "The Ukrainian government asked Washington for a clear explanation.",
+      "pl": "Rząd ukraiński poprosił Waszyngton o jasne wyjaśnienie.",
+      "de": "Die ukrainische Regierung bat Washington um eine klare Erklärung.",
+      "level": "B2"
+    },
+    {
+      "en": "Several flights to the United States were cancelled for this Saturday.",
+      "pl": "Kilka lotów do Stanów Zjednoczonych odwołano na tę sobotę.",
+      "de": "Mehrere Flüge in die Vereinigten Staaten wurden für diesen Samstag gestrichen.",
+      "level": "B2"
+    },
+    {
+      "en": "Through regular maintenance, the operator avoids sudden system failures.",
+      "pl": "Poprzez regularną konserwację operator unika nagłych awarii systemu.",
+      "de": "Durch regelmäßige Wartung vermeidet der Betreiber plötzliche Systemausfälle.",
+      "level": "B2"
+    },
+    {
+      "en": "Without its smaller coalition partner, the party does not have a majority.",
+      "pl": "Bez swojego mniejszego partnera koalicyjnego partia nie ma większości.",
+      "de": "Ohne ihren kleineren Koalitionspartner hat die Partei keine Mehrheit.",
+      "level": "B2"
+    },
+    {
+      "en": "The German national team plays against the Netherlands in the final group match.",
+      "pl": "Niemiecka reprezentacja gra przeciwko Holandii w ostatnim meczu grupowym.",
+      "de": "Die deutsche Nationalmannschaft spielt im letzten Gruppenspiel gegen die Niederlande.",
+      "level": "B2"
+    },
+    {
+      "en": "At the summit in Dublin, the talks are about Europe's future security.",
+      "pl": "Na szczycie w Dublinie w rozmowach chodzi o przyszłe bezpieczeństwo Europy.",
+      "de": "Auf dem Gipfel in Dublin geht es bei den Gesprächen um die künftige Sicherheit Europas.",
+      "level": "B2"
+    },
+    {
+      "en": "The demonstrators marched peacefully through the centre of Munich.",
+      "pl": "Demonstranci przemaszerowali spokojnie przez centrum Monachium.",
+      "de": "Die Demonstranten zogen friedlich durch das Zentrum von München.",
+      "level": "B2"
+    },
+    {
+      "en": "The coalition decided in favour of a joint negotiating team.",
+      "pl": "Koalicja zdecydowała się na wspólny zespół negocjacyjny.",
+      "de": "Die Koalition entschied sich für ein gemeinsames Verhandlungsteam.",
+      "level": "B2"
+    },
+    {
+      "en": "Without the support of the largest states, the plan has little chance.",
+      "pl": "Bez wsparcia największych państw plan ma niewielkie szanse.",
+      "de": "Ohne die Unterstützung der größten Staaten hat der Plan geringe Chancen.",
+      "level": "B2"
+    },
+    {
+      "en": "Critics are fighting against the gradual restriction of satellite communications.",
+      "pl": "Krytycy walczą przeciwko stopniowemu ograniczaniu komunikacji satelitarnej.",
+      "de": "Kritiker kämpfen gegen die schrittweise Einschränkung der Satellitenkommunikation.",
+      "level": "B2"
+    },
+    {
+      "en": "The number of international flights fell by twelve percent on Saturday.",
+      "pl": "Liczba lotów międzynarodowych spadła w sobotę o dwanaście procent.",
+      "de": "Die Zahl der internationalen Flüge sank am Samstag um zwölf Prozent.",
+      "level": "B2"
+    },
+    {
+      "en": "The minister spoke in favour of modernising the outdated control system.",
+      "pl": "Minister opowiedział się za modernizacją przestarzałego systemu sterowania.",
+      "de": "Der Minister sprach sich für eine Modernisierung des veralteten Steuerungssystems aus.",
+      "level": "B2"
+    },
+    {
+      "en": "Through the diplomatic summit, the presidents hope for a reduction in nuclear arsenals.",
+      "pl": "Poprzez szczyt dyplomatyczny prezydenci liczą na redukcję arsenałów jądrowych.",
+      "de": "Durch den diplomatischen Gipfel hoffen die Präsidenten auf eine Reduzierung der Atomwaffenbestände.",
+      "level": "B2"
+    },
+    {
+      "en": "Without a clear voice, Europe loses influence in international negotiations.",
+      "pl": "Bez wyraźnego głosu Europa traci wpływ w międzynarodowych negocjacjach.",
+      "de": "Ohne eine klare Stimme verliert Europa Einfluss in internationalen Verhandlungen.",
+      "level": "B2"
+    },
+    {
+      "en": "The aviation authority lifted the nationwide ban on take-offs for all US airports.",
+      "pl": "Urząd lotnictwa zniósł ogólnokrajowy zakaz startów dla wszystkich amerykańskich lotnisk.",
+      "de": "Die Luftfahrtaufsicht hob das landesweite Startverbot für alle US-Flughäfen auf.",
+      "level": "B2"
+    },
+    {
+      "en": "Several associations protested against the lack of progress at the climate summit.",
+      "pl": "Kilka stowarzyszeń protestowało przeciwko brakowi postępów na szczycie klimatycznym.",
+      "de": "Mehrere Verbände protestierten gegen die fehlenden Fortschritte auf dem Klimagipfel.",
+      "level": "B2"
+    },
+    {
+      "en": "The security forces formed a barrier around the cathedral in Munich.",
+      "pl": "Służby bezpieczeństwa utworzyły kordon wokół katedry w Monachium.",
+      "de": "Die Sicherheitskräfte bildeten eine Absperrung um den Dom in München.",
+      "level": "B2"
+    },
+    {
+      "en": "Without a quick repair, thousands of passengers remain stranded at airports.",
+      "pl": "Bez szybkiej naprawy tysiące pasażerów pozostaje uwięzionych na lotniskach.",
+      "de": "Ohne eine schnelle Reparatur sitzen Tausende Passagiere an Flughäfen fest.",
+      "level": "B2"
+    },
+    {
+      "en": "The company compensated travellers for the cancelled connections.",
+      "pl": "Firma zrekompensowała podróżnym odwołane połączenia.",
+      "de": "Das Unternehmen entschädigte die Reisenden für die ausgefallenen Verbindungen.",
+      "level": "B2"
+    },
+    {
+      "en": "Through continuous rain, playing conditions in Belgrade became difficult.",
+      "pl": "Poprzez ciągły deszcz warunki gry w Belgradzie stały się trudne.",
+      "de": "Durch den Dauerregen wurden die Spielbedingungen in Belgrad schwierig.",
+      "level": "B2"
+    },
+    {
+      "en": "The opposition voted against the government's latest draft budget.",
+      "pl": "Opozycja głosowała przeciwko najnowszemu projektowi budżetu rządu.",
+      "de": "Die Opposition stimmte gegen den jüngsten Haushaltsentwurf der Regierung.",
+      "level": "B2"
+    },
+    {
+      "en": "In Antalya, the negotiations revolve around financing climate damages.",
+      "pl": "W Antalyi negocjacje kręcą się wokół finansowania szkód klimatycznych.",
+      "de": "In Antalya drehen sich die Verhandlungen um die Finanzierung von Klimaschäden.",
+      "level": "B2"
+    },
+    {
+      "en": "The ministries are responsible for coordinating emergency aid.",
+      "pl": "Ministerstwa są odpowiedzialne za koordynację pomocy kryzysowej.",
+      "de": "Die Ministerien sind für die Koordinierung der Nothilfe verantwortlich.",
+      "level": "B2"
+    },
+    {
+      "en": "Without an official autopsy, the cause of death could not be determined.",
+      "pl": "Bez oficjalnej sekcji zwłok przyczyna śmierci nie mogła zostać ustalona.",
+      "de": "Ohne eine offizielle Obduktion konnte die Todesursache nicht festgestellt werden.",
+      "level": "B2"
+    },
+    {
+      "en": "The committee prepared a detailed report for the upcoming summit.",
+      "pl": "Komisja przygotowała szczegółowy raport na zbliżający się szczyt.",
+      "de": "Der Ausschuss bereitete einen ausführlichen Bericht für den bevorstehenden Gipfel vor.",
+      "level": "B2"
+    },
+    {
+      "en": "Heavy storms moved through southern Bavaria on Friday night.",
+      "pl": "Silne burze przeszły przez południową Bawarię w piątek w nocy.",
+      "de": "Schwere Stürme zogen in der Freitagnacht durch Südbayern.",
+      "level": "B2"
+    },
+    {
+      "en": "The union defended itself against unilateral cuts in the public sector.",
+      "pl": "Związek zawodowy bronił się przed jednostronnymi cięciami w sektorze publicznym.",
+      "de": "Die Gewerkschaft wehrte sich gegen einseitige Kürzungen im öffentlichen Dienst.",
+      "level": "B2"
+    },
+    {
+      "en": "The conference was extended by two days to reach an agreement.",
+      "pl": "Konferencja została przedłużona o dwa dni, aby osiągnąć porozumienie.",
+      "de": "Die Konferenz wurde um zwei Tage verlängert, um eine Einigung zu erzielen.",
+      "level": "B2"
+    },
+    {
+      "en": "Without reliable satellite links, modern military coordination becomes much harder.",
+      "pl": "Bez niezawodnych połączeń satelitarnych nowoczesna koordynacja wojskowa staje się znacznie trudniejsza.",
+      "de": "Ohne zuverlässige Satellitenverbindungen wird eine moderne militärische Koordinierung deutlich schwieriger.",
+      "level": "B2"
+    },
+    {
+      "en": "The mayor thanked the volunteers for their tireless commitment.",
+      "pl": "Burmistrz podziękował wolontariuszom za ich niestrudzone zaangażowanie.",
+      "de": "Der Bürgermeister dankte den Freiwilligen für ihren unermüdlichen Einsatz.",
+      "level": "B2"
+    },
+    {
+      "en": "Through transparent communication, the authority calmed worried passengers.",
+      "pl": "Poprzez przejrzystą komunikację urząd uspokoił zaniepokojonych pasażerów.",
+      "de": "Durch eine transparente Kommunikation beruhigte die Behörde besorgte Passagiere.",
+      "level": "B2"
+    },
+    {
+      "en": "The prosecutor filed a complaint against the former operator of the system.",
+      "pl": "Prokurator wniósł skargę przeciwko byłemu operatorowi systemu.",
+      "de": "Der Staatsanwalt erhob Klage gegen den früheren Betreiber des Systems.",
+      "level": "B2"
+    },
+    {
+      "en": "The agency takes care of the affected families immediately after the accident.",
+      "pl": "Agencja natychmiast po wypadku troszczy się o poszkodowane rodziny.",
+      "de": "Die Behörde kümmert sich unmittelbar nach dem Unfall um die betroffenen Familien.",
+      "level": "B2"
+    },
+    {
+      "en": "Without clear rules for emissions, climate targets remain unreachable.",
+      "pl": "Bez jasnych zasad dotyczących emisji cele klimatyczne pozostają nieosiągalne.",
+      "de": "Ohne klare Regeln für Emissionen bleiben die Klimaziele unerreichbar.",
+      "level": "B2"
+    },
+    {
+      "en": "The state provides additional funds for the memorial service.",
+      "pl": "Państwo przeznacza dodatkowe środki na uroczystość żałobną.",
+      "de": "Der Staat stellt zusätzliche Mittel für die Trauerfeier bereit.",
+      "level": "B2"
+    },
+    {
+      "en": "Demonstrators gathered around the ministry building early in the morning.",
+      "pl": "Demonstranci zgromadzili się wokół budynku ministerstwa wcześnie rano.",
+      "de": "Demonstranten versammelten sich früh am Morgen um das Ministeriumsgebäude.",
+      "level": "B2"
+    },
+    {
+      "en": "The team won against a strong opponent despite the heavy rain.",
+      "pl": "Drużyna wygrała z silnym przeciwnikiem mimo ulewnego deszczu.",
+      "de": "Die Mannschaft gewann trotz des starken Regens gegen einen starken Gegner.",
+      "level": "B2"
+    },
+    {
+      "en": "Through targeted investments, the country wants to replace outdated systems.",
+      "pl": "Poprzez ukierunkowane inwestycje kraj chce zastąpić przestarzałe systemy.",
+      "de": "Durch gezielte Investitionen will das Land veraltete Systeme ersetzen.",
+      "level": "B2"
+    },
+    {
+      "en": "Without his deputy, the minister would not have completed the negotiations on time.",
+      "pl": "Bez swojego zastępcy minister nie zakończyłby negocjacji na czas.",
+      "de": "Ohne seinen Stellvertreter hätte der Minister die Verhandlungen nicht rechtzeitig abgeschlossen.",
+      "level": "B2"
+    },
+    {
+      "en": "At the trilateral summit in Shenzhen, it is fundamentally about reducing nuclear arsenals.",
+      "pl": "Na trójstronnym szczycie w Shenzhen chodzi zasadniczo o redukcję arsenałów jądrowych.",
+      "de": "Beim Dreiergipfel in Shenzhen geht es im Grundsatz um den Abbau der Atomwaffenbestände.",
+      "level": "C1"
+    },
+    {
+      "en": "The European Union is arguing for a unified position against Russian demands.",
+      "pl": "Unia Europejska opowiada się za jednolitym stanowiskiem przeciwko rosyjskim żądaniom.",
+      "de": "Die Europäische Union setzt sich für eine geschlossene Haltung gegen russische Forderungen ein.",
+      "level": "C1"
+    },
+    {
+      "en": "Through renewed restrictions on the satellite network, Ukrainian units face serious communication problems.",
+      "pl": "Poprzez ponowne ograniczenia sieci satelitarnej jednostki ukraińskie stoją w obliczu poważnych problemów z komunikacją.",
+      "de": "Durch neuerliche Einschränkungen des Satellitennetzes stehen ukrainische Einheiten vor ernsten Kommunikationsproblemen.",
+      "level": "C1"
+    },
+    {
+      "en": "Without a binding clarification from the operator, mistrust between the partners grows.",
+      "pl": "Bez wiążącego wyjaśnienia ze strony operatora rośnie nieufność między partnerami.",
+      "de": "Ohne eine verbindliche Klarstellung durch den Betreiber wächst das Misstrauen zwischen den Partnern.",
+      "level": "C1"
+    },
+    {
+      "en": "The transport secretary asked the public for patience during the gradual resumption of air traffic.",
+      "pl": "Minister transportu poprosił opinię publiczną o cierpliwość podczas stopniowego wznawiania ruchu lotniczego.",
+      "de": "Der Verkehrsminister bat die Öffentlichkeit während des schrittweisen Wiederanlaufs des Flugverkehrs um Geduld.",
+      "level": "C1"
+    },
+    {
+      "en": "Environmental activists protested in over seventy cities against slow international climate financing.",
+      "pl": "Aktywiści ekologiczni protestowali w ponad siedemdziesięciu miastach przeciwko powolnemu międzynarodowemu finansowaniu klimatycznemu.",
+      "de": "Umweltaktivisten protestierten in über siebzig Städten gegen eine schleppende internationale Klimafinanzierung.",
+      "level": "C1"
+    },
+    {
+      "en": "In the nations competition, Germany is fighting on Monday for a place in the quarter-finals.",
+      "pl": "W rozgrywkach narodów Niemcy walczą w poniedziałek o miejsce w ćwierćfinale.",
+      "de": "Im Nationenwettbewerb kämpft Deutschland am Montag um einen Platz im Viertelfinale.",
+      "level": "C1"
+    },
+    {
+      "en": "Without comprehensive modernisation of air traffic control, similar failures could recur at any time.",
+      "pl": "Bez gruntownej modernizacji kontroli lotów podobne awarie mogą powtórzyć się w każdej chwili.",
+      "de": "Ohne eine umfassende Modernisierung der Flugsicherung können sich ähnliche Ausfälle jederzeit wiederholen.",
+      "level": "C1"
+    },
+    {
+      "en": "The parliamentary opposition spoke in favour of an independent investigation into the power grid.",
+      "pl": "Opozycja parlamentarna opowiedziała się za niezależnym dochodzeniem w sprawie sieci energetycznej.",
+      "de": "Die parlamentarische Opposition sprach sich für eine unabhängige Untersuchung des Stromnetzes aus.",
+      "level": "C1"
+    },
+    {
+      "en": "Through joint diplomatic pressure, the five European states want to influence the peace talks.",
+      "pl": "Poprzez wspólną presję dyplomatyczną pięć państw europejskich chce wpłynąć na rozmowy pokojowe.",
+      "de": "Durch gemeinsamen diplomatischen Druck wollen die fünf europäischen Staaten Einfluss auf die Friedensgespräche nehmen.",
+      "level": "C1"
+    },
+    {
+      "en": "The protest march moved through the government quarter under strict police supervision.",
+      "pl": "Marsz protestacyjny przeszedł przez dzielnicę rządową pod ścisłym nadzorem policji.",
+      "de": "Der Protestzug zog unter strenger Polizeiaufsicht durch das Regierungsviertel.",
+      "level": "C1"
+    },
+    {
+      "en": "Critics hold major industrialised countries responsible for the historical climate debt.",
+      "pl": "Krytycy uznają główne kraje uprzemysłowione za odpowiedzialne za historyczny dług klimatyczny.",
+      "de": "Kritiker machen große Industrieländer für die historischen Klimaschulden verantwortlich.",
+      "level": "C1"
+    },
+    {
+      "en": "Without a joint European team, individual member states risk being sidelined at the summit.",
+      "pl": "Bez wspólnego zespołu europejskiego poszczególne państwa członkowskie ryzykują zmarginalizowaniem na szczycie.",
+      "de": "Ohne ein gemeinsames europäisches Team riskieren einzelne Mitgliedstaaten, auf dem Gipfel übergangen zu werden.",
+      "level": "C1"
+    },
+    {
+      "en": "The central bank lowered its growth forecast by half a percentage point due to global uncertainty.",
+      "pl": "Bank centralny obniżył swoją prognozę wzrostu o pół punktu procentowego z powodu globalnej niepewności.",
+      "de": "Die Zentralbank senkte ihre Wachstumsprognose aufgrund globaler Unsicherheit um einen halben Prozentpunkt.",
+      "level": "C1"
+    },
+    {
+      "en": "Several experts argued against hasty bilateral deals outside multilateral frameworks.",
+      "pl": "Kilku ekspertów argumentowało przeciwko pochopnym umowom dwustronnym poza ramami wielostronnymi.",
+      "de": "Mehrere Experten argumentierten gegen vorschnelle bilaterale Abkommen außerhalb multilateraler Rahmen.",
+      "level": "C1"
+    },
+    {
+      "en": "Through a state ceremony in Munich, Bavaria bids farewell to its late deputy head of government.",
+      "pl": "Poprzez uroczystość państwową w Monachium Bawaria żegna swojego zmarłego wicepremiera.",
+      "de": "Durch einen Staatsakt in München verabschiedet sich Bayern von seinem verstorbenen Vize-Regierungschef.",
+      "level": "C1"
+    },
+    {
+      "en": "The negotiations in Antalya revolve around concrete payments for vulnerable coastal states.",
+      "pl": "Negocjacje w Antalyi kręcą się wokół konkretnych wpłat dla wrażliwych państw nadbrzeżnych.",
+      "de": "Die Verhandlungen in Antalya drehen sich um konkrete Zahlungen für gefährdete Küstenstaaten.",
+      "level": "C1"
+    },
+    {
+      "en": "Without reliable redundancy in communications, aviation remains vulnerable to sudden software errors.",
+      "pl": "Bez niezawodnej redundancji w łączności lotnictwo pozostaje podatne na nagłe błędy oprogramowania.",
+      "de": "Ohne verlässliche Redundanz in der Kommunikation bleibt die Luftfahrt anfällig für plötzliche Softwarefehler.",
+      "level": "C1"
+    },
+    {
+      "en": "The smaller coalition partner is campaigning for stronger support for regional mid-sized businesses.",
+      "pl": "Mniejszy partner koalicyjny zabiega o silniejsze wsparcie dla regionalnych średnich przedsiębiorstw.",
+      "de": "Der kleinere Koalitionspartner wirbt für eine stärkere Förderung regionaler Mittelstandsbetriebe.",
+      "level": "C1"
+    },
+    {
+      "en": "The coalition is taking decisive action against illegal data manipulation in public networks.",
+      "pl": "Koalicja podejmuje zdecydowane działania przeciwko nielegalnej manipulacji danymi w sieciach publicznych.",
+      "de": "Die Koalition geht entschieden gegen illegale Datenmanipulation in öffentlichen Netzen vor.",
+      "level": "C1"
+    },
+    {
+      "en": "At the trilateral summit in China, everything ultimately centres on strategic stability between the major powers.",
+      "pl": "Na trójstronnym szczycie w Chinach wszystko ostatecznie kręci się wokół strategicznej stabilności między mocarstwami.",
+      "de": "Beim Dreiergipfel in China dreht sich letztlich alles um die strategische Stabilität zwischen den Großmächten.",
+      "level": "C2"
+    },
+    {
+      "en": "Through a unified negotiating mandate, Europe intends to prevent bilateral deals at the expense of its security.",
+      "pl": "Poprzez jednolity mandat negocjacyjny Europa zamierza zapobiec umowom dwustronnym kosztem swojego bezpieczeństwa.",
+      "de": "Durch ein geschlossenes Verhandlungsmandat will Europa bilaterale Abkommen auf Kosten seiner Sicherheit verhindern.",
+      "level": "C2"
+    },
+    {
+      "en": "Without strict compliance with international transparency rules, trust in private satellite operators erodes rapidly.",
+      "pl": "Bez ścisłego przestrzegania międzynarodowych zasad przejrzystości zaufanie do prywatnych operatorów satelitarnych szybko słabnie.",
+      "de": "Ohne eine strikte Einhaltung internationaler Transparenzregeln schwindet das Vertrauen in private Satellitenbetreiber rasch.",
+      "level": "C2"
+    },
+    {
+      "en": "The climate activists are pleading for binding financial compensation for historical emissions.",
+      "pl": "Aktywiści klimatyczni opowiadają się za wiążącą rekompensatą finansową za historyczne emisje.",
+      "de": "Die Klimaaktivisten plädieren für einen verbindlichen finanziellen Ausgleich für historische Emissionen.",
+      "level": "C2"
+    },
+    {
+      "en": "Through the sudden death of its party leader, the junior coalition partner faces a difficult leadership transition.",
+      "pl": "Przez nagłą śmierć swojego lidera partii mniejszy partner koalicyjny staje przed trudną zmianą kierownictwa.",
+      "de": "Durch den plötzlichen Tod seines Parteivorsitzenden steht der kleinere Koalitionspartner vor einem schwierigen Führungswechsel.",
+      "level": "C2"
+    },
+    {
+      "en": "Without binding financial commitments from major emitters, the Antalya conference risks ending in vague declarations.",
+      "pl": "Bez wiążących zobowiązań finansowych ze strony głównych emitentów konferencja w Antalyi grozi zakończeniem niejasnymi deklaracjami.",
+      "de": "Ohne verbindliche Finanzzusagen großer Emittenten droht die Konferenz in Antalya in vagen Erklärungen zu enden.",
+      "level": "C2"
+    },
+    {
+      "en": "The aviation regulator must answer for its failure to modernise the obsolete control system in time.",
+      "pl": "Organ nadzoru lotniczego musi odpowiedzieć za swoje zaniechanie terminowej modernizacji przestarzałego systemu sterowania.",
+      "de": "Die Luftfahrtaufsicht muss sich für das Versäumnis verantworten, das veraltete Steuerungssystem rechtzeitig zu modernisieren.",
+      "level": "C2"
+    },
+    {
+      "en": "Against all initial scepticism, the new national coach led the squad to a convincing away victory.",
+      "pl": "Wbrew wszelkiemu początkowemu sceptycyzmowi nowy selekcjoner poprowadził drużynę do przekonującego zwycięstwa wyjazdowego.",
+      "de": "Gegen alle anfängliche Skepsis führte der neue Bundestrainer die Auswahl zu einem überzeugenden Auswärtssieg.",
+      "level": "C2"
+    },
+    {
+      "en": "Through diplomatic backchannels, the coalition is probing for room for compromise on nuclear arms control.",
+      "pl": "Poprzez dyplomatyczne kanały zakulisowe koalicja sonduje pole do kompromisu w sprawie kontroli zbrojeń jądrowych.",
+      "de": "Durch diplomatische Hintergrundkanäle sondiert die Koalition Spielräume für einen Kompromiss bei der Atomwaffenkontrolle.",
+      "level": "C2"
+    },
+    {
+      "en": "Without coordinated European participation in the negotiations, long-term peace guarantees on the continent remain fragile.",
+      "pl": "Bez skoordynowanego udziału Europy w negocjacjach długoterminowe gwarancje pokoju na kontynencie pozostają kruche.",
+      "de": "Ohne eine koordinierte europäische Beteiligung an den Verhandlungen bleiben langfristige Friedensgarantien auf dem Kontinent brüchig.",
+      "level": "C2"
+    }
+  ],
+  "listening": {
+    "audioUrl": "https://radiodownloaddw-a.akamaihd.net/downloads/Events/dwelle/dira/mp3/deutschkurse/nachrichten_live/476001B2_2.mp3",
+    "articles": [
+      {
+        "heading": "Weißes Haus kündigt historisches [[Dreiertreffen|1]] Trumps mit Xi und Putin an",
+        "text": "US-Präsident Donald Trump, Chinas Staatschef Xi Jinping und Russlands Präsident Wladimir Putin wollen in der nächsten Woche zu einem [[Dreiergipfel|2]] zusammenkommen. Das teilte das Weiße Haus in Washington mit. US-[[Präsidialamtssprecherin|3]] Olivia Wales sagte vor Journalisten, die [[Begegnung|4]] werde am Donnerstag am Rande des Forums der Asiatisch-Pazifischen [[Wirtschaftskooperation|5]] (APEC) im chinesischen Shenzhen stattfinden. Das diplomatische Dreiertreffen wäre in dieser [[Zusammensetzung|6]] historisch. Trump wolle über eine mögliche [[Reduzierung|7]] der weltweiten [[Atomwaffenbestände|8]] sprechen, hieß es in Washington weiter."
+      },
+      {
+        "heading": "EU einigt sich auf Team für [[Verhandlungen|9]] mit Russland",
+        "text": "Deutschland und vier weitere Staaten sowie die EU-Institutionen sollen Europa bei künftigen Gesprächen über ein Ende des russischen [[Angriffskriegs|10]] in der Ukraine [[vertreten|11]]. Auf dieses [[Verhandlungsteam|12]] einigten sich die Staats- und Regierungschefs der EU am Freitag bei einem [[informellen|13]] Gipfel in Irlands Hauptstadt Dublin. Europa müsse „in allen Gesprächen, die die Zukunft der Ukraine und die Sicherheit unseres Kontinents [[prägen|14]], mit einer klaren und [[geeinten|15]] Stimme sprechen“, betonte EU-Ratspräsident António Costa nach dem Treffen. Neben Deutschland gehören noch Frankreich, Großbritannien, Italien und Polen zu der Gruppe."
+      },
+      {
+        "heading": "Ukraine klagt wieder über Probleme mit Starshield",
+        "text": "Die Ukraine hat nach eigenen Angaben weiter keine Erklärung für die [[neuerlichen|16]] [[Einschränkungen|17]] des Satelliten-[[Kommunikationssystems|18]] Starshield. Präsident Wolodymyr Selenskyj teilte mit, er habe seine Ministerien angewiesen, bei der US-Regierung und dem Starshield-[[Betreiber|19]] SpaceX um [[Klarheit|20]] zu bitten. Die ukrainische Armee ist bei der [[Verteidigung|21]] im Krieg gegen Russland auf Starshield angewiesen. Das System war bereits im Oktober [[gedrosselt|22]] worden. Kurz zuvor hatte der amerikanische Präsident Donald Trump mit dem russischen Staatschef Wladimir Putin die [[Lieferung|23]] mehrerer hunderttausend Tonnen Diesel in die USA [[vereinbart|24]]."
+      },
+      {
+        "heading": "Landesweites [[Startverbot|25]] an US-Flughäfen [[aufgehoben|26]]",
+        "text": "Nach mehreren Stunden Unterbrechung läuft der [[Flugverkehr|27]] in den USA wieder an. Zuvor hatte die [[Luftfahrtaufsicht|28]] FAA den landesweiten Stopp für Starts an Flughäfen zurückgenommen. Tausende Flüge waren abgesagt worden. Zehntausende Passagiere saßen an Flughäfen fest. US-Verkehrsminister Sean Duffy erläuterte bei einer Pressekonferenz im Weißen Haus, das [[veraltete|29]] Kommunikations- und [[Steuerungssystem|30]] sei [[überlastet|31]] gewesen und habe fehlerhafte Daten ausgegeben. Das habe zu der landesweiten Startunterbrechung geführt. Am Flughafen in Frankfurt am Main wurden bislang vier für diesen Samstag geplante Flüge in die USA [[gestrichen|32]], wie eine Sprecherin mitteilte."
+      },
+      {
+        "heading": "Tausende Menschen demonstrieren in Deutschland für mehr [[Klimaschutz|33]]",
+        "text": "Dem [[Aufruf|34]] von „Fridays for Future“ zu [[Klimaprotesten|35]] sind Tausende Menschen in ganz Deutschland gefolgt. Die Initiative hatte nach eigenen Angaben in mehr als 70 Städten Demonstrationen unter dem Motto „Pay your Climate Debt“ (auf Deutsch: Zahlt eure Klimaschulden) organisiert. [[Anlass|36]] der Proteste ist die Weltklimakonferenz COP31, die noch bis zum 20. November im türkischen Antalya [[tagt|37]]. Eine der [[Kernforderungen|38]] der Protestierenden lautete, wer die Klimakrise verursache, müsse auch für die Folgen zahlen. Deutschland trage dafür als einer der größten [[Verursacher|39]] eine besondere [[Verantwortung|40]]."
+      },
+      {
+        "heading": "Bayern nimmt [[Abschied|41]] vom verstorbenen Vize-Regierungschef Aiwanger",
+        "text": "Zehn Tage nach seinem plötzlichen Tod wird der [[stellvertretende|42]] Ministerpräsident von Bayern, Hubert Aiwanger, in München mit einer [[Trauerfeier|43]] verabschiedet. Im Liebfrauendom ist eine [[Totenmesse|44]] geplant. Es folgt ein [[Staatsakt|45]], zu dem Ministerpräsident Markus Söder eingeladen hat. Aiwanger, der auch [[Bundesvorsitzender|46]] der Partei „Freie Wähler“ war, wurde in der vergangenen Woche tot in einem Berliner Hotelzimmer aufgefunden. Laut [[Obduktion|47]] starb er eines natürlichen Todes. Er wurde 55 Jahre alt. Die Freien Wähler regieren im süddeutschen [[Bundesland|48]] Bayern als kleinerer Partner der konservativen CSU von Ministerpräsident Söder. Aiwanger war auch bayerischer Wirtschaftsminister."
+      },
+      {
+        "heading": "Zweiter Sieg unter Klopp – Deutschland gewinnt in Serbien",
+        "text": "Unter [[Dauerregen|49]] hat die deutsche Fußball-[[Nationalmannschaft|50]] in Belgrad ihren zweiten Sieg mit [[Bundestrainer|51]] Jürgen Klopp gefeiert. Die DFB-[[Auswahl|52]] gewann in Serbien 3:1. Mit einem weiteren Erfolg im letzten Spiel gegen die Niederlande am Montag stünde das deutsche Team sicher im [[Viertelfinale|53]] der Nations League."
+      }
+    ],
+    "vocab": [
+      {
+        "id": 1,
+        "word": "das Dreiertreffen",
+        "translation": {
+          "en": "three-way meeting, trilateral meeting",
+          "pl": "spotkanie trójstronne"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Dreiertreffen",
+        "notes": {
+          "en": "Compound of Dreier- (three-way) and das Treffen (meeting).",
+          "pl": "Złożenie słów Dreier- (trójstronny) i das Treffen (spotkanie)."
+        },
+        "examples": [
+          "Bei dem Dreiertreffen in Wien sprachen die Minister über Energiefragen.",
+          "Ein weiteres Dreiertreffen ist für Anfang Dezember geplant."
+        ]
+      },
+      {
+        "id": 2,
+        "word": "der Dreiergipfel",
+        "translation": {
+          "en": "trilateral summit, three-way summit",
+          "pl": "szczyt trójstronny"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Dreiergipfel",
+        "notes": {
+          "en": "Refers to a summit meeting among three heads of state or government.",
+          "pl": "Odnosi się do szczytu trzech głów państw lub szefów rządów."
+        },
+        "examples": [
+          "Der Dreiergipfel sorgte weltweit für großes mediales Interesse.",
+          "Im Vorfeld des Dreiergipfels bereiteten Diplomaten ein gemeinsames Papier vor."
+        ]
+      },
+      {
+        "id": 3,
+        "word": "die Präsidialamtssprecherin",
+        "translation": {
+          "en": "female presidential office spokesperson",
+          "pl": "rzeczniczka kancelarii prezydenta"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Präsidialamtssprecherinnen",
+        "notes": {
+          "en": "Masculine form: der Präsidialamtssprecher.",
+          "pl": "Forma męska: der Präsidialamtssprecher."
+        },
+        "examples": [
+          "Die Präsidialamtssprecherin beantwortete Fragen zu den geplanten Reisen.",
+          "Laut der Präsidialamtssprecherin gibt es noch keinen genauen Zeitplan."
+        ]
+      },
+      {
+        "id": 4,
+        "word": "die Begegnung",
+        "translation": {
+          "en": "encounter, meeting",
+          "pl": "spotkanie, zetknięcie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Begegnungen",
+        "notes": {
+          "en": "Used for diplomatic meetings, personal encounters, and sports matches.",
+          "pl": "Używane dla spotkań dyplomatycznych, osobistych oraz meczów sportowych."
+        },
+        "examples": [
+          "Die kurze Begegnung am Rande der Konferenz verlief sehr sachlich.",
+          "Eine zufällige Begegnung im Zug führte zu einer langen Freundschaft."
+        ]
+      },
+      {
+        "id": 5,
+        "word": "die Wirtschaftskooperation",
+        "translation": {
+          "en": "economic cooperation",
+          "pl": "współpraca gospodarcza"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Wirtschaftskooperationen",
+        "notes": {
+          "en": "Compound of die Wirtschaft (economy) and die Kooperation (cooperation).",
+          "pl": "Złożenie słów die Wirtschaft (gospodarka) i die Kooperation (współpraca)."
+        },
+        "examples": [
+          "Beide Staaten wollen ihre Wirtschaftskooperation im Energiesektor ausbauen.",
+          "Das Forum dient vor allem der regionalen Wirtschaftskooperation."
+        ]
+      },
+      {
+        "id": 6,
+        "word": "die Zusammensetzung",
+        "translation": {
+          "en": "composition, makeup",
+          "pl": "skład, kompozycja"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Zusammensetzungen",
+        "notes": {
+          "en": "Refers to participants of a group/committee or ingredients of a substance.",
+          "pl": "Oznacza skład grupy lub komisji albo skład substancji."
+        },
+        "examples": [
+          "Nach der Wahl ändert sich die Zusammensetzung des Parlaments deutlich.",
+          "Auf der Verpackung steht die genaue Zusammensetzung des Produkts."
+        ]
+      },
+      {
+        "id": 7,
+        "word": "die Reduzierung",
+        "translation": {
+          "en": "reduction",
+          "pl": "redukcja, ograniczenie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Reduzierungen",
+        "notes": {
+          "en": "Nominalisation of reduzieren (to reduce).",
+          "pl": "Rzeczownik odczasownikowy od reduzieren (zredukować)."
+        },
+        "examples": [
+          "Die Firma plant eine schrittweise Reduzierung ihres Energieverbrauchs.",
+          "Eine Reduzierung der Kosten darf nicht zulasten der Sicherheit gehen."
+        ]
+      },
+      {
+        "id": 8,
+        "word": "der Atomwaffenbestand",
+        "translation": {
+          "en": "nuclear weapons stockpile, nuclear arsenal",
+          "pl": "arsenał broni jądrowej, zasoby broni atomowej"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Atomwaffenbestände",
+        "notes": {
+          "en": "Usually plural (Atomwaffenbestände) when referring to global arsenals.",
+          "pl": "Zazwyczaj w liczbie mnogiej przy mowie o światowych arsenałach."
+        },
+        "examples": [
+          "Internationale Verträge sollen den globalen Atomwaffenbestand begrenzen.",
+          "Experten schätzen die weltweiten Atomwaffenbestände auf mehrere tausend Sprengköpfe."
+        ]
+      },
+      {
+        "id": 9,
+        "word": "die Verhandlung",
+        "translation": {
+          "en": "negotiation, hearing",
+          "pl": "negocjacje, rozprawa"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Verhandlungen",
+        "notes": {
+          "en": "Common collocation: Verhandlungen führen (conduct negotiations).",
+          "pl": "Częste połączenie: Verhandlungen führen (prowadzić negocjacje)."
+        },
+        "examples": [
+          "Die Verhandlungen über neue Handelsregeln beginnen im Januar.",
+          "Nach einer kurzen Pause gingen die Delegierten zurück in die Verhandlung."
+        ]
+      },
+      {
+        "id": 10,
+        "word": "der Angriffskrieg",
+        "translation": {
+          "en": "war of aggression",
+          "pl": "wojna napastnicza"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Angriffskriege",
+        "notes": {
+          "en": "Compound of der Angriff (attack) and der Krieg (war).",
+          "pl": "Złożenie słów der Angriff (atak) i der Krieg (wojna)."
+        },
+        "examples": [
+          "Das Völkerrecht verbietet jeden Angriffskrieg gegen einen souveränen Staat.",
+          "Seit Beginn des Angriffskriegs haben Millionen Menschen ihre Heimat verlassen."
+        ]
+      },
+      {
+        "id": 11,
+        "word": "vertreten",
+        "translation": {
+          "en": "to represent, to stand in for",
+          "pl": "reprezentować, zastępować"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Inseparable verb: vertritt, vertrat, hat vertreten.",
+          "pl": "Czasownik nierozdzielnie złożony: vertritt, vertrat, hat vertreten."
+        },
+        "examples": [
+          "Die Botschafterin vertritt ihr Land bei der UN-Konferenz.",
+          "Während ihrer Krankheit vertritt sie ein erfahrener Kollege."
+        ]
+      },
+      {
+        "id": 12,
+        "word": "das Verhandlungsteam",
+        "translation": {
+          "en": "negotiating team",
+          "pl": "zespół negocjacyjny"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Verhandlungsteams",
+        "notes": {
+          "en": "Compound of die Verhandlung and das Team (plural -s).",
+          "pl": "Złożenie słów die Verhandlung i das Team (liczba mnoga z -s)."
+        },
+        "examples": [
+          "Das Verhandlungsteam reiste bereits am Vorabend nach Dublin.",
+          "Dem Verhandlungsteam gehören Vertreter aus fünf Ministerien an."
+        ]
+      },
+      {
+        "id": 13,
+        "word": "informell",
+        "translation": {
+          "en": "informal",
+          "pl": "nieformalny"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Opposite: formell (formal). Common in politics: ein informeller Gipfel.",
+          "pl": "Przeciwieństwo: formell. Częste w polityce: informeller Gipfel."
+        },
+        "examples": [
+          "Bei dem informellen Treffen wurden noch keine Beschlüsse gefasst.",
+          "In einem informellen Gespräch lassen sich Konflikte oft leichter klären."
+        ]
+      },
+      {
+        "id": 14,
+        "word": "prägen",
+        "translation": {
+          "en": "to shape, to characterise; to coin",
+          "pl": "kształtować, wywierać piętno; ukuć (pojęcie)"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Regular verb: prägt, prägte, hat geprägt.",
+          "pl": "Czasownik regularny: prägt, prägte, hat geprägt."
+        },
+        "examples": [
+          "Diese Entscheidung wird die Politik der nächsten Jahre stark prägen.",
+          "Der Historiker prägte einen berühmten Begriff für diese Epoche."
+        ]
+      },
+      {
+        "id": 15,
+        "word": "geeint",
+        "translation": {
+          "en": "united, unified",
+          "pl": "zjednoczony, jednolity"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Participle of einen (to unite); slightly more elevated than einig.",
+          "pl": "Imiesłów od einen (zjednoczyć); bardziej podniosłe niż einig."
+        },
+        "examples": [
+          "Die Staaten wollen gegenüber ihren Partnern geeint auftreten.",
+          "Mit geeinter Kraft gelang es dem Team, die Krise zu überwinden."
+        ]
+      },
+      {
+        "id": 16,
+        "word": "neuerlich",
+        "translation": {
+          "en": "renewed, further, once again",
+          "pl": "ponowny, kolejny"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Formal news adjective synonym for erneut (renewed/repeated).",
+          "pl": "Oficjalny przymiotnik prasowy będący synonimem erneut."
+        },
+        "examples": [
+          "Nach neuerlichen Verzögerungen kritisierte der Kunde den Lieferanten.",
+          "Ein neuerlicher Streik im Nahverkehr droht ab Montag."
+        ]
+      },
+      {
+        "id": 17,
+        "word": "die Einschränkung",
+        "translation": {
+          "en": "restriction, limitation, cutback",
+          "pl": "ograniczenie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Einschränkungen",
+        "notes": {
+          "en": "Noun from einschränken (to restrict).",
+          "pl": "Rzeczownik od einschränken (ograniczać)."
+        },
+        "examples": [
+          "Wegen der Bauarbeiten kommt es im Zugverkehr zu Einschränkungen.",
+          "Die neue Regelung gilt ohne jede Einschränkung für alle Betriebe."
+        ]
+      },
+      {
+        "id": 18,
+        "word": "das Kommunikationssystem",
+        "translation": {
+          "en": "communication system",
+          "pl": "system komunikacyjny, system łączności"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Kommunikationssysteme",
+        "notes": {
+          "en": "Compound of die Kommunikation and das System.",
+          "pl": "Złożenie słów die Kommunikation i das System."
+        },
+        "examples": [
+          "Moderne Schiffe nutzen satellitengestützte Kommunikationssysteme.",
+          "Nach dem Stromausfall fiel das interne Kommunikationssystem aus."
+        ]
+      },
+      {
+        "id": 19,
+        "word": "der Betreiber",
+        "translation": {
+          "en": "operator (of a service or facility)",
+          "pl": "operator, zarządca"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Betreiber",
+        "notes": {
+          "en": "From betreiben (to operate); feminine: die Betreiberin.",
+          "pl": "Od betreiben (prowadzić, obsługiwać); forma żeńska: die Betreiberin."
+        },
+        "examples": [
+          "Der Betreiber des Netzes versprach eine schnelle Behebung des Fehlers.",
+          "Mehrere Betreiber von Windparks planen neue Investitionen."
+        ]
+      },
+      {
+        "id": 20,
+        "word": "die Klarheit",
+        "translation": {
+          "en": "clarity",
+          "pl": "jasność, przejrzystość"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Common phrases: um Klarheit bitten (ask for clarity); Klarheit schaffen.",
+          "pl": "Częste zwroty: um Klarheit bitten; Klarheit schaffen."
+        },
+        "examples": [
+          "Die neuen Richtlinien schaffen endlich Klarheit für alle Abteilungen.",
+          "Nach den Gerüchten forderte der Vorstand sofortige Klarheit."
+        ]
+      },
+      {
+        "id": 21,
+        "word": "die Verteidigung",
+        "translation": {
+          "en": "defence",
+          "pl": "obrona"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Verteidigungen",
+        "notes": {
+          "en": "Covers military defence, legal defence in court, and sports defence.",
+          "pl": "Oznacza obronę wojskową, obronę w sądzie oraz defensywę w sporcie."
+        },
+        "examples": [
+          "Die Verteidigung des Angeklagten beantragte einen Freispruch.",
+          "Das Land erhöht im kommenden Jahr seine Ausgaben für die Verteidigung."
+        ]
+      },
+      {
+        "id": 22,
+        "word": "drosseln",
+        "translation": {
+          "en": "to throttle, to restrict, to slow down",
+          "pl": "zdławić, ograniczyć (przepustowość lub produkcję)"
+        },
+        "partOfSpeech": "Verb",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Used for data bandwidth, engine speed, or industrial output.",
+          "pl": "Używane w odniesieniu do przepustowości danych, prędkości lub produkcji."
+        },
+        "examples": [
+          "Wegen geringer Nachfrage musste das Werk die Produktion drosseln.",
+          "Der Anbieter drosselte nach Erreichen des Limits die Geschwindigkeit."
+        ]
+      },
+      {
+        "id": 23,
+        "word": "die Lieferung",
+        "translation": {
+          "en": "delivery, shipment",
+          "pl": "dostawa"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "die Lieferungen",
+        "notes": {
+          "en": "Noun from liefern (to deliver).",
+          "pl": "Rzeczownik od liefern (dostarczać)."
+        },
+        "examples": [
+          "Die Lieferung der bestellten Ersatzteile verzögert sich um drei Tage.",
+          "Bei Eingang prüfen wir jede Lieferung sofort auf Schäden."
+        ]
+      },
+      {
+        "id": 24,
+        "word": "vereinbaren",
+        "translation": {
+          "en": "to agree on, to arrange",
+          "pl": "uzgodnić, umówić"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Inseparable verb (ver-): vereinbart, vereinbarte, hat vereinbart.",
+          "pl": "Czasownik nierozdzielnie złożony: vereinbart, vereinbarte, hat vereinbart."
+        },
+        "examples": [
+          "Wir haben für Montagmorgen einen neuen Gesprächstermin vereinbart.",
+          "Beide Länder vereinbarten eine engere Zusammenarbeit im Energiebereich."
+        ]
+      },
+      {
+        "id": 25,
+        "word": "das Startverbot",
+        "translation": {
+          "en": "grounding, take-off ban",
+          "pl": "zakaz startów (samolotów)"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Startverbote",
+        "notes": {
+          "en": "Compound of der Start (take-off) and das Verbot (ban).",
+          "pl": "Złożenie słów der Start (start) i das Verbot (zakaz)."
+        },
+        "examples": [
+          "Nach dem technischen Zwischenfall verhängte die Behörde ein Startverbot.",
+          "Das vorübergehende Startverbot betraf mehr als dreißig Flughäfen."
+        ]
+      },
+      {
+        "id": 26,
+        "word": "aufheben",
+        "translation": {
+          "en": "to lift (a ban), to cancel, to abolish; to pick up",
+          "pl": "znieść (zakaz), uchylić; podnieść"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Separable verb: hebt auf, hob auf, hat aufgehoben.",
+          "pl": "Czasownik rozdzielnie złożony: hebt auf, hob auf, hat aufgehoben."
+        },
+        "examples": [
+          "Die Behörde hat die nächtliche Ausgangssperre wieder aufgehoben.",
+          "Das Gericht hob die frühere Entscheidung aus formalen Gründen auf."
+        ]
+      },
+      {
+        "id": 27,
+        "word": "der Flugverkehr",
+        "translation": {
+          "en": "air traffic",
+          "pl": "ruch lotniczy"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Compound of der Flug (flight) and der Verkehr (traffic); no plural.",
+          "pl": "Złożenie słów der Flug (lot) i der Verkehr (ruch); bez liczby mnogiej."
+        },
+        "examples": [
+          "Wegen dichten Nebels musste der Flugverkehr eingeschränkt werden.",
+          "Am Wochenende normalisierte sich der internationale Flugverkehr langsam."
+        ]
+      },
+      {
+        "id": 28,
+        "word": "die Luftfahrtaufsicht",
+        "translation": {
+          "en": "aviation authority, aviation regulator",
+          "pl": "urząd nadzoru lotniczego"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Luftfahrtaufsichten",
+        "notes": {
+          "en": "Compound of die Luftfahrt (aviation) and die Aufsicht (supervision).",
+          "pl": "Złożenie słów die Luftfahrt (lotnictwo) i die Aufsicht (nadzór)."
+        },
+        "examples": [
+          "Die Luftfahrtaufsicht untersucht die Ursache der technischen Störung.",
+          "Alle Fluggesellschaften müssen die Vorgaben der Luftfahrtaufsicht erfüllen."
+        ]
+      },
+      {
+        "id": 29,
+        "word": "veraltet",
+        "translation": {
+          "en": "outdated, obsolete",
+          "pl": "przestarzały"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Describes old technology, rules, or ideas.",
+          "pl": "Opisuje starą technologię, przepisy lub przestarzałe poglądy."
+        },
+        "examples": [
+          "Die Verwaltung arbeitet teilweise noch mit veralteter Software.",
+          "Viele Betriebe ersetzen veraltete Maschinen durch moderne Anlagen."
+        ]
+      },
+      {
+        "id": 30,
+        "word": "das Steuerungssystem",
+        "translation": {
+          "en": "control system",
+          "pl": "system sterowania"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Steuerungssysteme",
+        "notes": {
+          "en": "Compound of die Steuerung (control) and das System.",
+          "pl": "Złożenie słów die Steuerung (sterowanie) i das System."
+        },
+        "examples": [
+          "Ein Fehler im Steuerungssystem stoppte den gesamten Zugbetrieb.",
+          "Die neue Bahnstrecke erhält ein digitales Steuerungssystem."
+        ]
+      },
+      {
+        "id": 31,
+        "word": "überlastet",
+        "translation": {
+          "en": "overloaded, overworked",
+          "pl": "przeciążony"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Used for servers/networks as well as staff/institutions.",
+          "pl": "Dotyczy zarówno serwerów i sieci, jak i personelu lub urzędów."
+        },
+        "examples": [
+          "Am Morgen war die Telefonleitung der Behörde völlig überlastet.",
+          "Viele Gerichte klagen, sie seien durch neue Verfahren überlastet."
+        ]
+      },
+      {
+        "id": 32,
+        "word": "streichen",
+        "translation": {
+          "en": "to cancel (a flight/event), to cut (funds); to paint",
+          "pl": "odwołać (lot), obciąć (środki); malować"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Strong verb: streicht, strich, hat gestrichen.",
+          "pl": "Czasownik mocny: streicht, strich, hat gestrichen."
+        },
+        "examples": [
+          "Wegen des Sturms strich die Airline zwanzig Verbindungen.",
+          "Im neuen Haushalt wurden mehrere Zuschüsse ersatzlos gestrichen."
+        ]
+      },
+      {
+        "id": 33,
+        "word": "der Klimaschutz",
+        "translation": {
+          "en": "climate protection",
+          "pl": "ochrona klimatu"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "",
+        "notes": {
+          "en": "Compound of das Klima and der Schutz; used without plural.",
+          "pl": "Złożenie słów das Klima i der Schutz; bez liczby mnogiej."
+        },
+        "examples": [
+          "Viele Kommunen investieren stärker in den lokalen Klimaschutz.",
+          "Beim Klimaschutz fordern Jugendorganisationen schnellere Maßnahmen."
+        ]
+      },
+      {
+        "id": 34,
+        "word": "der Aufruf",
+        "translation": {
+          "en": "call, appeal",
+          "pl": "apel, wezwanie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Aufrufe",
+        "notes": {
+          "en": "Common phrase: einem Aufruf folgen (respond to a call/appeal).",
+          "pl": "Częsty zwrot: einem Aufruf folgen (odpowiedzieć na apel)."
+        },
+        "examples": [
+          "Tausende Bürger folgten dem Aufruf zur Blutspende.",
+          "Die Gewerkschaft veröffentlichte einen gemeinsamen Aufruf zum Protest."
+        ]
+      },
+      {
+        "id": 35,
+        "word": "der Klimaprotest",
+        "translation": {
+          "en": "climate protest",
+          "pl": "protest klimatyczny"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Klimaproteste",
+        "notes": {
+          "en": "Usually plural (Klimaproteste) for organised demonstrations.",
+          "pl": "Zazwyczaj w liczbie mnogiej dla określenia serii demonstracji."
+        },
+        "examples": [
+          "In mehreren Hauptstädten verliefen die Klimaproteste völlig friedlich.",
+          "An den Klimaprotesten beteiligten sich vor allem junge Menschen."
+        ]
+      },
+      {
+        "id": 36,
+        "word": "der Anlass",
+        "translation": {
+          "en": "occasion, reason, cause",
+          "pl": "okazja, powód"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Anlässe",
+        "notes": {
+          "en": "Common phrase: aus Anlass + genitive (on the occasion of).",
+          "pl": "Częsty zwrot: aus Anlass + dopełniacz (z okazji)."
+        },
+        "examples": [
+          "Der Besuch war ein willkommener Anlass für ausführliche Gespräche.",
+          "Ohne besonderen Anlass ändert das Amt seine Regeln nicht."
+        ]
+      },
+      {
+        "id": 37,
+        "word": "tagen",
+        "translation": {
+          "en": "to meet, to convene, to be in session",
+          "pl": "obradować"
+        },
+        "partOfSpeech": "Verb",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Used for parliaments, committees, conferences, and courts.",
+          "pl": "Używane w odniesieniu do parlamentów, komisji, konferencji i sądów."
+        },
+        "examples": [
+          "Der Ausschuss tagt nächste Woche erstmals in neuer Besetzung.",
+          "Die Konferenz tagte drei Tage lang unter strengen Sicherheitsvorkehrungen."
+        ]
+      },
+      {
+        "id": 38,
+        "word": "die Kernforderung",
+        "translation": {
+          "en": "key demand, core demand",
+          "pl": "główny postulat, kluczowe żądanie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Kernforderungen",
+        "notes": {
+          "en": "Prefix Kern- means core/central (e.g., Kernfrage, Kernkompetenz).",
+          "pl": "Przedrostek Kern- oznacza rdzeń lub element kluczowy."
+        },
+        "examples": [
+          "Eine Kernforderung der Initiative ist der schnellere Ausbau der Bahn.",
+          "In den Verhandlungen setzte die Gruppe ihre wichtigsten Kernforderungen durch."
+        ]
+      },
+      {
+        "id": 39,
+        "word": "der Verursacher",
+        "translation": {
+          "en": "causer, culprit, polluter",
+          "pl": "sprawca, winowajca, emitent (np. zanieczyszczeń)"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Verursacher",
+        "notes": {
+          "en": "From verursachen (to cause); legal/environmental principle: Verursacherprinzip.",
+          "pl": "Od verursachen (powodować); w ekologii: zasada „zanieczyszczający płaci”."
+        },
+        "examples": [
+          "Die Polizei sucht nach dem Verursacher des Unfalls.",
+          "Nach dem Gesetz muss der Verursacher für den Umweltschaden zahlen."
+        ]
+      },
+      {
+        "id": 40,
+        "word": "die Verantwortung",
+        "translation": {
+          "en": "responsibility",
+          "pl": "odpowiedzialność"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "die Verantwortungen",
+        "notes": {
+          "en": "Common collocations: Verantwortung tragen / übernehmen (bear / assume responsibility).",
+          "pl": "Częste połączenia: Verantwortung tragen / übernehmen."
+        },
+        "examples": [
+          "Die Geschäftsleitung übernimmt die volle Verantwortung für den Fehler.",
+          "Eltern tragen eine große Verantwortung für ihre Kinder."
+        ]
+      },
+      {
+        "id": 41,
+        "word": "der Abschied",
+        "translation": {
+          "en": "farewell, departure",
+          "pl": "pożegnanie, odejście"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "die Abschiede",
+        "notes": {
+          "en": "Common idiom: Abschied nehmen von + dative (bid farewell to).",
+          "pl": "Częsty zwrot: Abschied nehmen von + celownik (pożegnać się z)."
+        },
+        "examples": [
+          "Beim Abschied dankte der Kollege dem gesamten Team.",
+          "Hunderte Menschen nahmen auf dem Friedhof Abschied."
+        ]
+      },
+      {
+        "id": 42,
+        "word": "stellvertretend",
+        "translation": {
+          "en": "deputy, acting, representative",
+          "pl": "zastępczy, pełniący funkcję zastępcy"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Used in titles (stellvertretender Ministerpräsident) or adverbially (on behalf of).",
+          "pl": "Używane w tytułach (zastępca) oraz przysłówkowo (w zastępstwie)."
+        },
+        "examples": [
+          "Die stellvertretende Vorsitzende leitete die Sitzung bis zum Abend.",
+          "Er nahm den Preis stellvertretend für die ganze Abteilung entgegen."
+        ]
+      },
+      {
+        "id": 43,
+        "word": "die Trauerfeier",
+        "translation": {
+          "en": "funeral service, memorial service",
+          "pl": "uroczystość żałobna, ceremonia pogrzebowa"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Trauerfeiern",
+        "notes": {
+          "en": "Compound of die Trauer (mourning) and die Feier (ceremony).",
+          "pl": "Złożenie słów die Trauer (żałoba) i die Feier (uroczystość)."
+        },
+        "examples": [
+          "Zur Trauerfeier kamen neben der Familie auch viele politische Weggefährten.",
+          "Die Trauerfeier fand am Freitagvormittag in einer kleinen Kapelle statt."
+        ]
+      },
+      {
+        "id": 44,
+        "word": "die Totenmesse",
+        "translation": {
+          "en": "requiem mass, funeral mass",
+          "pl": "msza żałobna"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Totenmessen",
+        "notes": {
+          "en": "Catholic funeral mass; synonym: das Requiem.",
+          "pl": "Katolicka msza pogrzebowa lub żałobna."
+        },
+        "examples": [
+          "Der Erzbischof zelebrierte im Dom eine feierliche Totenmesse.",
+          "Nach der Totenmesse folgte ein kurzer Empfang für die Gäste."
+        ]
+      },
+      {
+        "id": 45,
+        "word": "der Staatsakt",
+        "translation": {
+          "en": "state ceremony, official state commemoration",
+          "pl": "uroczystość państwowa"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Staatsakte",
+        "notes": {
+          "en": "Official state ceremony honouring a deceased public figure or major anniversary.",
+          "pl": "Oficjalna ceremonia państwowa ku czci zmarłego polityka lub rocznicy."
+        },
+        "examples": [
+          "Mit einem Staatsakt im Parlament würdigte das Land den verstorbenen Politiker.",
+          "Zahlreiche internationale Gäste reisten zum Staatsakt in die Hauptstadt an."
+        ]
+      },
+      {
+        "id": 46,
+        "word": "der Bundesvorsitzende",
+        "translation": {
+          "en": "federal chairperson, national party chair",
+          "pl": "przewodniczący federalny (partii lub organizacji)"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Bundesvorsitzenden",
+        "notes": {
+          "en": "Adjectival declension; feminine: die Bundesvorsitzende.",
+          "pl": "Odmiana przymiotnikowa; forma żeńska: die Bundesvorsitzende."
+        },
+        "examples": [
+          "Der Bundesvorsitzende kündigte für den Herbst einen Sonderparteitag an.",
+          "Auf dem Kongress wurde die neue Bundesvorsitzende mit großer Mehrheit gewählt."
+        ]
+      },
+      {
+        "id": 47,
+        "word": "die Obduktion",
+        "translation": {
+          "en": "autopsy, post-mortem examination",
+          "pl": "sekcja zwłok, autopsja"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Obduktionen",
+        "notes": {
+          "en": "Medical/forensic synonym: die Autopsie.",
+          "pl": "Medyczny i sądowy synonim słowa Autopsie."
+        },
+        "examples": [
+          "Die Obduktion schloss ein Fremdverschulden eindeutig aus.",
+          "Ergebnisse der gerichtlichen Obduktion liegen meist nach wenigen Tagen vor."
+        ]
+      },
+      {
+        "id": 48,
+        "word": "das Bundesland",
+        "translation": {
+          "en": "federal state (in Germany or Austria)",
+          "pl": "kraj związkowy, land"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "die Bundesländer",
+        "notes": {
+          "en": "Germany has 16 Bundesländer; Austria has 9.",
+          "pl": "Niemcy dzielą się na 16 krajów związkowych, a Austria na 9."
+        },
+        "examples": [
+          "Jedes Bundesland regelt Fragen der Schulbildung weitgehend selbst.",
+          "Bayern ist flächenmäßig das größte Bundesland Deutschlands."
+        ]
+      },
+      {
+        "id": 49,
+        "word": "der Dauerregen",
+        "translation": {
+          "en": "continuous rain, steady rain",
+          "pl": "ciągły deszcz, długotrwałe opady deszczu"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Compound of die Dauer (duration) and der Regen (rain); used without plural.",
+          "pl": "Złożenie słów die Dauer (czas trwania) i der Regen (deszcz); bez liczby mnogiej."
+        },
+        "examples": [
+          "Nach dreitägigem Dauerregen stieg der Pegel vieler Flüsse an.",
+          "Wegen des Dauerregens wurde das Freiluftkonzert abgesagt."
+        ]
+      },
+      {
+        "id": 50,
+        "word": "die Nationalmannschaft",
+        "translation": {
+          "en": "national team",
+          "pl": "reprezentacja narodowa"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "die Nationalmannschaften",
+        "notes": {
+          "en": "Commonly abbreviated in German sports news as DFB-Auswahl or Nationalelf.",
+          "pl": "W niemieckich wiadomościach sportowych zastępowane też przez Auswahl."
+        },
+        "examples": [
+          "Die Nationalmannschaft bereitet sich auf das nächste Länderspiel vor.",
+          "Viele junge Talente träumen von einem Einsatz in der Nationalmannschaft."
+        ]
+      },
+      {
+        "id": 51,
+        "word": "der Bundestrainer",
+        "translation": {
+          "en": "national team head coach (of Germany/Austria)",
+          "pl": "selekcjoner reprezentacji (Niemiec lub Austrii)"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Bundestrainer",
+        "notes": {
+          "en": "Feminine form: die Bundestrainerin.",
+          "pl": "Forma żeńska: die Bundestrainerin."
+        },
+        "examples": [
+          "Der Bundestrainer nominierte zwei neue Spieler für das Turnier.",
+          "Nach dem Sieg lobte die Bundestrainerin die Disziplin der Mannschaft."
+        ]
+      },
+      {
+        "id": 52,
+        "word": "die Auswahl",
+        "translation": {
+          "en": "squad, selection; choice",
+          "pl": "kadra, reprezentacja; wybór"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Auswahlen",
+        "notes": {
+          "en": "In sports, means national/regional squad; in everyday speech, selection/assortment.",
+          "pl": "W sporcie oznacza kadrę narodową; na co dzień duży wybór towarów."
+        },
+        "examples": [
+          "Die deutsche Auswahl zeigte in der zweiten Halbzeit ein starkes Spiel.",
+          "Die Bäckerei bietet am Morgen eine große Auswahl an frischen Brötchen."
+        ]
+      },
+      {
+        "id": 53,
+        "word": "das Viertelfinale",
+        "translation": {
+          "en": "quarter-final",
+          "pl": "ćwierćfinał"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "die Viertelfinals",
+        "notes": {
+          "en": "Follows Achtelfinale (round of 16) and precedes Halbfinale (semi-final).",
+          "pl": "Następuje po Achtelfinale (1/8 finału) i poprzedza Halbfinale (półfinał)."
+        },
+        "examples": [
+          "Mit einem Unentschieden zieht das Team sicher ins Viertelfinale ein.",
+          "Im Viertelfinale trifft Deutschland auf einen schweren Gegner."
+        ]
+      }
+    ]
+  },
+  "speaking": {
+    "prompt": {
+      "en": "You are my German language tutor conducting a 20-minute B1-to-C1 speaking conversation based on the Listening section of today's lesson (German news from 14 November 2026).\n\nListening reference – the 7 news stories from today's Listening section, in the same order as the articles:\n1. The White House announced a historic trilateral summit next week between US President Donald Trump, Chinese leader Xi Jinping, and Russian President Vladimir Putin on the sidelines of the APEC forum in Shenzhen, where Trump reportedly wants to discuss reducing global nuclear arsenals.\n2. At an informal summit in Dublin, EU leaders agreed on a negotiating team representing Europe—Germany, France, Britain, Italy, Poland, and EU institutions—for future talks with Russia on ending the war in Ukraine.\n3. Ukraine reported further unexplained restrictions on the Starshield satellite communication system, prompting President Volodymyr Zelenskyy to instruct ministries to seek clarity from the US government and SpaceX, shortly after a US–Russian diesel delivery agreement.\n4. Air traffic in the US is resuming after the FAA lifted a several-hour nationwide ground stop caused by an overloaded, outdated communication and control system that forced thousands of cancellations, including four US-bound flights from Frankfurt.\n5. Answering a call from Fridays for Future, thousands demonstrated in over 70 German cities under the slogan \"Pay your Climate Debt\" on the occasion of COP31 in Antalya, demanding that major emitters pay for climate damages.\n6. Bavaria is bidding farewell to Deputy Minister-President Hubert Aiwanger in Munich with a funeral mass and state ceremony, ten days after the 55-year-old Free Voters leader was found dead in a Berlin hotel room of natural causes.\n7. Under heavy rain in Belgrade, Germany's national football team won 3–1 against Serbia for its second victory under head coach Jürgen Klopp, putting the team on the brink of reaching the Nations League quarter-finals.\n\nGrammar focus to elicit: Accusative prepositions: durch, für, gegen, ohne and um.\n\nUseful words from today's Listening articles (invite me to use them): die Reduzierung, das Verhandlungsteam, die Einschränkung, das Startverbot, die Verantwortung, der Staatsakt, die Nationalmannschaft, das Viertelfinale.\n\nInstructions for the AI tutor:\n1. Start the conversation: greet me and ask whether I have listened to today's broadcast. If not, summarise story 1 in two simple German sentences and continue.\n2. You ask, I speak: one question per turn, one or two short sentences, never answer your own questions. German at B1-C1 level; English only if I am really stuck.\n3. Questions refer to the stories above, in order, covering at least four: facts first, then causes, consequences, other perspectives, my evaluation. Near the end, ask me to connect two stories.\n4. Encourage me to use the accusative prepositions durch, für, gegen, ohne, and um—paying special attention to masculine accusative endings (den, einen, meinen) and pronouns—when explaining causes, goals, opposition, missing conditions, and central issues in the news.\n5. Question ideas (adapt to my answers): (story 1) Worum geht es bei dem geplanten Dreiertreffen zwischen Trump, Xi und Putin? (story 2) Für welche Länder und für welches Ziel tritt das neue europäische Verhandlungsteam ein? (story 3) Warum kann die Ukraine im Krieg gegen Russland kaum ohne das Satellitensystem arbeiten? (story 4) Wodurch oder durch welches Problem entstand das Startverbot an den US-Flughäfen? (story 5) Wofür und gegen wen demonstrieren Tausende Menschen in Deutschland?\n6. Immediate correction: if I break today's rule (e.g. *Sie demonstrieren für einem besseren Klimaschutz.* instead of *Sie demonstrieren für einen besseren Klimaschutz.*), stop briefly: quote the error, give the correct sentence, explain the rule in 1 English sentence, ask me to repeat the correct sentence aloud before the next question.\n7. Also correct other significant errors briefly; note recurring mistakes for the final feedback. If my answer is very short, ask one follow-up („Warum?“).\n8. Wrap-up after ~20 minutes or when I say \"stop\": two things I did well, three key mistakes with corrections, five words to review, one German sentence to repeat aloud.\n9. Keep the tone engaging, professional, natural for an immersive German voice dialogue. Address me as „du“.",
+      "pl": "Jesteś moim nauczycielem języka niemieckiego i prowadzisz 20-minutową rozmowę na poziomie od B1 do C1 w oparciu o część Słuchanie z dzisiejszej lekcji (niemieckie wiadomości z 14 listopada 2026 roku).\n\nMateriał ze Słuchania – 7 tematów wiadomości z dzisiejszej części Słuchanie, w tej samej kolejności co artykuły:\n1. Biały Dom zapowiedział na przyszły tydzień historyczny szczyt trójstronny prezydenta USA Donalda Trumpa, przywódcy Chin Xi Jinpinga i prezydenta Rosji Władimira Putina na marginesie forum APEC w chińskim Shenzhen, gdzie Trump chce podobno rozmawiać o redukcji światowych arsenałów jądrowych.\n2. Na nieformalnym szczycie w Dublinie przywódcy UE uzgodnili zespół negocjacyjny reprezentujący Europę — Niemcy, Francję, Wielką Brytanię, Włochy, Polskę oraz instytucje UE — w przyszłych rozmowach z Rosją o zakończeniu wojny w Ukrainie.\n3. Ukraina zgłosiła kolejne niewyjaśnione ograniczenia systemu łączności satelitarnej Starshield, w związku z czym prezydent Wołodymyr Zełenski polecił ministerstwom zwrócić się o wyjaśnienia do rządu USA i operatora SpaceX, krótko po amerykańsko-rosyjskiej umowie na dostawy oleju napędowego.\n4. Ruch lotniczy w USA wraca do normy po tym, jak urząd FAA zniósł kilkugodzinny ogólnokrajowy zakaz startów wywołany przeciążonym, przestarzałym systemem komunikacji i sterowania, który wymusił odwołanie tysięcy lotów, w tym czterech rejsów z Frankfurtu.\n5. Odpowiadając na apel ruchu Fridays for Future, tysiące ludzi demonstrowały w ponad 70 miastach Niemiec pod hasłem „Pay your Climate Debt” przy okazji szczytu COP31 w Antalyi, domagając się, by najwięksi emitenci płacili za szkody klimatyczne.\n6. Bawaria żegna w Monachium mszą żałobną i uroczystością państwową zmarłego wicepremiera Huberta Aiwangera, dziesięć dni po tym, jak 55-letni lider Wolnych Wyborców został znaleziony martwy w berlińskim pokoju hotelowym z przyczyn naturalnych.\n7. W ulewnym deszczu w Belgradzie niemiecka reprezentacja piłkarska wygrała 3:1 z Serbią, odnosząc drugie zwycięstwo pod wodzą selekcjonera Jürgena Kloppa i stając u progu awansu do ćwierćfinału Ligi Narodów.\n\nZagadnienie gramatyczne do ćwiczenia: Przyimki łączące się z biernikiem: durch, für, gegen, ohne oraz um.\n\nPrzydatne słowa z dzisiejszych artykułów ze Słuchania (zachęcaj mnie do ich używania): die Reduzierung, das Verhandlungsteam, die Einschränkung, das Startverbot, die Verantwortung, der Staatsakt, die Nationalmannschaft, das Viertelfinale.\n\nInstrukcje dla tutora AI:\n1. Rozpocznij rozmowę: przywitaj się ze mną i zapytaj, czy wysłuchałem dzisiejszego nagrania. Jeśli nie, streść temat 1 w dwóch prostych zdaniach po niemiecku i kontynuuj.\n2. Ty pytasz, ja mówię: jedno pytanie w jednej wypowiedzi, jedno lub dwa krótkie zdania, nigdy nie odpowiadaj na własne pytania. Mów po niemiecku na poziomie B1–C1; na polski przechodź tylko wtedy, gdy naprawdę utknę.\n3. Pytania odnoszą się do powyższych tematów po kolei i obejmują co najmniej cztery z nich: najpierw fakty, potem przyczyny, skutki, inne perspektywy i moją ocenę. Pod koniec poproś mnie o połączenie dwóch tematów.\n4. Zachęcaj mnie do używania przyimków z biernikiem durch, für, gegen, ohne i um — ze szczególnym zwróceniem uwagi na męskie końcówki biernika (den, einen, meinen) oraz zaimki — przy wyjaśnianiu przyczyn, celów, sprzeciwu, brakujących warunków i głównych tematów wiadomości.\n5. Pomysły na pytania (dostosuj do moich odpowiedzi): (temat 1) Worum geht es bei dem geplanten Dreiertreffen zwischen Trump, Xi und Putin? (temat 2) Für welche Länder und für welches Ziel tritt das neue europäische Verhandlungsteam ein? (temat 3) Warum kann die Ukraine im Krieg gegen Russland kaum ohne das Satellitensystem arbeiten? (temat 4) Wodurch oder durch welches Problem entstand das Startverbot an den US-Flughäfen? (temat 5) Wofür und gegen wen demonstrieren Tausende Menschen in Deutschland?\n6. Natychmiastowa korekta: jeśli złamię dzisiejszą zasadę (np. *Sie demonstrieren für einem besseren Klimaschutz.* zamiast *Sie demonstrieren für einen besseren Klimaschutz.*), zatrzymaj się na chwilę: zacytuj błąd, podaj poprawne zdanie, wyjaśnij zasadę w 1 zdaniu po polsku i poproś mnie o głośne powtórzenie poprawnego zdania przed kolejnym pytaniem.\n7. Poprawiaj też krótko inne istotne błędy; powtarzające się błędy zanotuj do końcowej informacji zwrotnej. Jeśli moja odpowiedź jest bardzo krótka, zadaj jedno pytanie uzupełniające („Warum?“).\n8. Podsumowanie po ~20 minutach lub gdy powiem „stop”: dwie rzeczy, które poszły mi dobrze, trzy główne błędy z poprawkami, pięć słów do powtórzenia i jedno niemieckie zdanie do głośnego powtórzenia.\n9. Zachowaj angażujący, profesjonalny i naturalny ton do immersyjnej rozmowy głosowej po niemiecku. Zwracaj się do mnie per „du”."
+    }
+  }
 }
 ]
