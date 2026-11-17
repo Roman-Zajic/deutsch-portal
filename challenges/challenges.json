@@ -35794,5 +35794,1732 @@
       "pl": "Jesteś moim nauczycielem języka niemieckiego i prowadzisz 20-minutową rozmowę na poziomie od B1 do C1 o codziennych obowiązkach, nawykach w pracy i doświadczeniach z podróży.\n\nZagadnienie gramatyczne do ćwiczenia: zdania czasowe z während, solange, sobald i bis.\n\nInstrukcje dla tutora AI:\n1. Prowadź rozmowę od swojej pierwszej wiadomości. Przywitaj się serdecznie i zapytaj, jak mi dotąd mija dzień, przygotowując grunt pod dyskusję o codziennych nawykach.\n2. Ty pytasz, ja mówię. Zadawaj pytania pojedynczo – nigdy więcej niż jedno pytanie w jednej wypowiedzi. Każda Twoja wypowiedź powinna mieć jedno lub dwa krótkie zdania, żebym to ja mówił najwięcej, i nigdy nie odpowiadaj na własne pytania. Mów po niemiecku na poziomie B1–C1 i przechodź na polski tylko wtedy, gdy naprawdę utknę.\n3. Rozmowa powinna naturalnie przechodzić od porannych nawyków do nawyków w pracy/nauce, a następnie do podróży lub zajęć w czasie wolnym.\n4. Zachęcaj mnie do używania zdań podrzędnych zaczynających się od \"während\", \"solange\", \"sobald\" lub \"bis\", aby opisywać czynności jednoczesne lub następujące po sobie. Przypominaj mi, że czasownik finitny wędruje na koniec tych zdań.\n5. Pomysły na pytania (dostosuj je do moich odpowiedzi):\n   - Was machst du normalerweise morgens, während du frühstückst?\n   - Was wirst du heute Abend tun, sobald du mit der Arbeit (oder dem Studium) fertig bist?\n   - Wie lange bleibst du normalerweise im Büro oder in der Bibliothek? (Zachęć do użycia zdania z \"bis\").\n   - Wenn du reist, was machst du, während du im Zug oder im Flugzeug sitzt?\n   - Wirst du dein aktuelles Hobby weitermachen, solange es dir Spaß macht?\n6. Procedura natychmiastowej korekty: jeśli popełnię błąd dotyczący dzisiejszej zasady, na przykład *Während ich esse, ich lese ein Buch.* zamiast *Während ich esse, lese ich ein Buch.*, na chwilę przerwij rozmowę i:\n   - Zacytuj błąd.\n   - Podaj poprawne zdanie po niemiecku.\n   - Wyjaśnij w jednym zdaniu po polsku obowiązującą zasadę.\n   - Poproś mnie o głośne powtórzenie poprawnego zdania przed przejściem do kolejnego pytania.\n7. Poprawiaj również inne istotne błędy językowe, ale krótko i bez przerywania mi z powodu drobnych różnic stylistycznych, a moje powtarzające się błędy zapamiętaj na podsumowanie.\n8. Jeśli moja odpowiedź jest bardzo krótka lub niepewna, zadaj jedno pytanie uzupełniające (na przykład „Warum?“, „Kannst du ein Beispiel nennen?“), zanim przejdziesz dalej.\n9. Podsumowanie: po około 20 minutach lub gdy powiem „stop”, zakończ rozmowę i daj krótką informację zwrotną: dwie rzeczy, które mi się udały, trzy najważniejsze błędy (zwłaszcza dotyczące dzisiejszego zagadnienia gramatycznego) z poprawionymi zdaniami oraz pięć przydatnych słów wartych powtórzenia. Zakończ jednym niemieckim zdaniem do głośnego powtórzenia.\n10. Zachowuj angażujący, profesjonalny i naturalny ton, odpowiedni dla immersyjnej rozmowy głosowej po niemiecku. Zwracaj się do mnie per „du”."
     }
   }
+},
+ {
+  "lesson": {
+    "id": "2026-11-09",
+    "date": "09.11.2026",
+    "day": 28,
+    "totalDays": 300,
+    "level": "B1",
+    "title": {
+      "en": "Real Conditions with wenn, falls and sofern",
+      "pl": "Warunki rzeczywiste ze spójnikami wenn, falls i sofern"
+    },
+    "subtitle": "Reale Bedingungssätze mit wenn, falls und sofern"
+  },
+  "grammar": {
+    "html": {
+      "en": [
+        "<p>In German, real conditional clauses (<em>reale Bedingungssätze</em>) express conditions that can realistically occur in the present or future. They are introduced by the subordinating conjunctions <strong>wenn</strong>, <strong>falls</strong>, and <strong>sofern</strong>, which send the finite verb to the end of the subordinate clause and use the indicative mood.</p>",
+        "<div class='box rule'><strong>Core rule:</strong> Put the finite verb at the end of the <em>wenn</em>, <em>falls</em>, or <em>sofern</em> clause; if that clause comes first, the main clause starts immediately with its finite verb.</div>",
+        "<h3>Differences between wenn, falls, and sofern</h3>",
+        "<p>All three conjunctions express real conditions, but they differ in certainty and register. <strong>wenn</strong> is the neutral everyday word for <em>if</em> and also marks repeated events (<em>whenever</em>). <strong>falls</strong> stresses uncertainty (<em>in case</em>, <em>in the event that</em>) and is never used for regular repetition. <strong>sofern</strong> is formal and restrictive (<em>provided that</em>, <em>as long as</em>), typical of business, legal, and news texts.</p>",
+        "<ul><li><em><strong>Wenn</strong> die Ministerin Zeit <strong>hat</strong>, beantwortet sie die Fragen.</em> (neutral condition)</li><li><em><strong>Falls</strong> der Zug Verspätung <strong>hat</strong>, rufe ich dich an.</em> (possible eventuality)</li><li><em><strong>Sofern</strong> alle Partner <strong>zustimmen</strong>, unterzeichnen wir den Vertrag morgen.</em> (formal prerequisite)</li></ul>",
+        "<h3>Word order in both clauses</h3>",
+        "<p>Either clause can come first. When the main clause starts, it keeps standard V2 order before the comma, and the subordinate clause ends with its finite verb. When the conditional clause starts, it fills position one as a whole, so the main clause must begin directly with its finite verb after the comma.</p>",
+        "<p>In the subordinate clause, separable prefixes stay attached (<em>wenn er <strong>ankommt</strong></em>), and with modal or compound verbs the finite verb stands last (<em>falls er es <strong>prüfen kann</strong></em>; <em>wenn wir alles <strong>geklärt haben</strong></em>). You can add <em>dann</em> to start the main clause for emphasis: <em>Wenn es regnet, <strong>dann</strong> bleiben wir drinnen.</em></p>",
+        "<table><thead><tr><th>Conjunction</th><th>Nuance and register</th><th>Example</th></tr></thead><tbody><tr><td class='de'>wenn</td><td>Neutral condition or repetition; everyday and formal</td><td class='de'>Wir beginnen, <strong>wenn</strong> alle da <strong>sind</strong>.</td></tr><tr><td class='de'>falls</td><td>Uncertain possibility (in case); neutral to formal</td><td class='de'><strong>Falls</strong> ein Fehler <strong>auftritt</strong>, melden Sie ihn sofort.</td></tr><tr><td class='de'>sofern</td><td>Strict prerequisite (provided that); formal</td><td class='de'>Das gilt, <strong>sofern</strong> keine Ausnahme <strong>vorliegt</strong>.</td></tr></tbody></table>",
+        "<h3>Tenses and contrast with unreal conditions</h3>",
+        "<p>Real conditions usually use the present tense (<em>Präsens</em>) for both present and future events: <em>Wenn er morgen <strong>kommt</strong>, <strong>sprechen</strong> wir darüber.</em> You can also use <em>Futur I</em> in the main clause to stress the outcome, or <em>Perfekt</em> in the condition when it must finish first. By contrast, unreal conditions require <em>Konjunktiv II</em> (<em>Wenn ich mehr Zeit <strong>hätte</strong>, <strong>würde</strong> ich mitkommen</em>).</p>",
+        "<table><thead><tr><th>Order</th><th>Example</th></tr></thead><tbody><tr><td>Main clause first</td><td class='de'>Wir fahren ab, <strong>wenn</strong> das Signal grün <strong>ist</strong>.</td></tr><tr><td>Condition first (verb–comma–verb)</td><td class='de'><strong>Wenn</strong> das Signal grün <strong>ist</strong>, <strong>fahren</strong> wir ab.</td></tr><tr><td>Condition first with <em>dann</em></td><td class='de'><strong>Falls</strong> niemand <strong>kommt</strong>, <strong>dann</strong> schließen wir das Büro.</td></tr></tbody></table>",
+        "<div class='box warn'><strong>Common mistake: missing inversion after a fronted condition</strong><p>✗ <em>Wenn die Konferenz morgen beginnt, der Minister hält eine Rede.</em></p><p>✓ <em>Wenn die Konferenz morgen beginnt, <strong>hält</strong> der Minister eine Rede.</em></p><p>The fronted conditional clause already occupies position one. Never place the subject before the finite verb after the comma.</p></div>",
+        "<div class='box tip'><strong>Memory aid: verb meets verb across the comma</strong><p>When starting with <em>wenn</em>, <em>falls</em>, or <em>sofern</em>, end the first clause with its verb, write the comma, and put the main clause's finite verb right next: <em>... beginnt, hält ...</em></p></div>",
+        "<h3>Quick reference</h3>",
+        "<div class='tiles'><div class='tile'><strong>wenn</strong><p><em>Wenn es schneit, bleiben wir hier.</em></p></div><div class='tile'><strong>falls</strong><p><em>Falls du Hilfe brauchst, melde dich.</em></p></div><div class='tile'><strong>sofern</strong><p><em>Sofern alles stimmt, zahlen wir heute.</em></p></div><div class='tile'><strong>Clause first</strong><p><em>Wenn er anruft, sage ich Bescheid.</em></p></div></div>"
+      ],
+      "pl": [
+        "<p>W języku niemieckim rzeczywiste zdania warunkowe (<em>reale Bedingungssätze</em>) opisują warunki, które mogą się realnie spełnić w teraźniejszości lub przyszłości. Wprowadzają je spójniki podrzędne <strong>wenn</strong>, <strong>falls</strong> i <strong>sofern</strong>, które przesuwają czasownik finitny na koniec zdania podrzędnego i łączą się z trybem oznajmującym.</p>",
+        "<div class='box rule'><strong>Główna zasada:</strong> Postaw czasownik finitny na końcu zdania ze spójnikiem <em>wenn</em>, <em>falls</em> lub <em>sofern</em>; jeśli to zdanie stoi jako pierwsze, zdanie główne zaczyna się bezpośrednio od czasownika finitnego.</div>",
+        "<h3>Różnice między wenn, falls i sofern</h3>",
+        "<p>Wszystkie trzy spójniki wyrażają warunki rzeczywiste, ale różnią się stopniem pewności i rejestrem. <strong>wenn</strong> to neutralne, codzienne słowo oznaczające <em>jeśli</em>, używane też przy powtarzalnych zdarzeniach (<em>ilekroć</em>). <strong>falls</strong> podkreśla niepewność (<em>jeśli przypadkiem</em>, <em>w razie gdyby</em>) i nie służy do opisu zwykłej powtarzalności. <strong>sofern</strong> jest formalne i stawia wyraźny warunek (<em>o ile</em>, <em>pod warunkiem że</em>), częste w tekstach biznesowych, prawnych i prasowych.</p>",
+        "<ul><li><em><strong>Wenn</strong> die Ministerin Zeit <strong>hat</strong>, beantwortet sie die Fragen.</em> (warunek neutralny)</li><li><em><strong>Falls</strong> der Zug Verspätung <strong>hat</strong>, rufe ich dich an.</em> (możliwa ewentualność)</li><li><em><strong>Sofern</strong> alle Partner <strong>zustimmen</strong>, unterzeichnen wir den Vertrag morgen.</em> (formalny warunek wstępny)</li></ul>",
+        "<h3>Szyk wyrazów w obu zdaniach</h3>",
+        "<p>Na początku może stać zarówno zdanie główne, jak i warunkowe. Gdy zaczyna zdanie główne, zachowuje zwykły szyk V2 przed przecinkiem, a zdanie podrzędne kończy się czasownikiem finitnym. Gdy zaczyna zdanie warunkowe, zajmuje ono w całości pierwsze miejsce, więc po przecinku zdanie główne musi zacząć się bezpośrednio od czasownika finitnego.</p>",
+        "<p>W zdaniu podrzędnym przedrostki rozdzielne pozostają połączone z czasownikiem (<em>wenn er <strong>ankommt</strong></em>), a przy czasowniku modalnym lub złożonym czasownik finitny stoi na samym końcu (<em>falls er es <strong>prüfen kann</strong></em>; <em>wenn wir alles <strong>geklärt haben</strong></em>). Zdanie główne można też zacząć od <em>dann</em> dla podkreślenia: <em>Wenn es regnet, <strong>dann</strong> bleiben wir drinnen.</em></p>",
+        "<table><thead><tr><th>Spójnik</th><th>Odcień znaczeniowy i rejestr</th><th>Przykład</th></tr></thead><tbody><tr><td class='de'>wenn</td><td>Warunek neutralny lub powtarzalność; język codzienny i oficjalny</td><td class='de'>Wir beginnen, <strong>wenn</strong> alle da <strong>sind</strong>.</td></tr><tr><td class='de'>falls</td><td>Niepewna możliwość (na wypadek); neutralny do oficjalnego</td><td class='de'><strong>Falls</strong> ein Fehler <strong>auftritt</strong>, melden Sie ihn sofort.</td></tr><tr><td class='de'>sofern</td><td>Ścisły warunek wstępny (o ile); rejestr formalny</td><td class='de'>Das gilt, <strong>sofern</strong> keine Ausnahme <strong>vorliegt</strong>.</td></tr></tbody></table>",
+        "<h3>Czasy gramatyczne a warunki nierzeczywiste</h3>",
+        "<p>Warunki rzeczywiste używają zazwyczaj czasu teraźniejszego (<em>Präsens</em>) zarówno dla teraźniejszości, jak i przyszłości: <em>Wenn er morgen <strong>kommt</strong>, <strong>sprechen</strong> wir darüber.</em> W zdaniu głównym można też użyć <em>Futur I</em> dla podkreślenia skutku, a w warunku czasu <em>Perfekt</em>, gdy czynność musi zakończyć się wcześniej. Warunki nierzeczywiste wymagają natomiast trybu <em>Konjunktiv II</em> (<em>Wenn ich mehr Zeit <strong>hätte</strong>, <strong>würde</strong> ich mitkommen</em>).</p>",
+        "<table><thead><tr><th>Kolejność</th><th>Przykład</th></tr></thead><tbody><tr><td>Zdanie główne najpierw</td><td class='de'>Wir fahren ab, <strong>wenn</strong> das Signal grün <strong>ist</strong>.</td></tr><tr><td>Warunek najpierw (czasownik–przecinek–czasownik)</td><td class='de'><strong>Wenn</strong> das Signal grün <strong>ist</strong>, <strong>fahren</strong> wir ab.</td></tr><tr><td>Warunek najpierw z <em>dann</em></td><td class='de'><strong>Falls</strong> niemand <strong>kommt</strong>, <strong>dann</strong> schließen wir das Büro.</td></tr></tbody></table>",
+        "<div class='box warn'><strong>Typowy błąd: brak inwersji po wysuniętym warunku</strong><p>✗ <em>Wenn die Konferenz morgen beginnt, der Minister hält eine Rede.</em></p><p>✓ <em>Wenn die Konferenz morgen beginnt, <strong>hält</strong> der Minister eine Rede.</em></p><p>Wysunięte zdanie warunkowe zajmuje już pierwsze miejsce. Nigdy nie stawiaj podmiotu przed czasownikiem finitnym po przecinku.</p></div>",
+        "<div class='box tip'><strong>Pomoc w zapamiętaniu: czasownik spotyka czasownik przy przecinku</strong><p>Gdy zaczynasz od <em>wenn</em>, <em>falls</em> lub <em>sofern</em>, zakończ pierwsze zdanie czasownikiem, postaw przecinek i zaraz za nim umieść czasownik finitny zdania głównego: <em>... beginnt, hält ...</em></p></div>",
+        "<h3>Szybki przegląd</h3>",
+        "<div class='tiles'><div class='tile'><strong>wenn</strong><p><em>Wenn es schneit, bleiben wir hier.</em></p></div><div class='tile'><strong>falls</strong><p><em>Falls du Hilfe brauchst, melde dich.</em></p></div><div class='tile'><strong>sofern</strong><p><em>Sofern alles stimmt, zahlen wir heute.</em></p></div><div class='tile'><strong>Zdanie warunkowe na początku</strong><p><em>Wenn er anruft, sage ich Bescheid.</em></p></div></div>"
+      ]
+    }
+  },
+  "examples": [
+    {
+      "de": "**Wenn** du Zeit **hast**, **trinken** wir Kaffee.",
+      "en": "If you have time, we'll drink coffee.",
+      "pl": "Jeśli masz czas, wypijemy kawę.",
+      "level": "A1"
+    },
+    {
+      "de": "Ich bleibe zu Hause, **wenn** es heute **regnet**.",
+      "en": "I am staying at home if it rains today.",
+      "pl": "Zostanę w domu, jeśli dzisiaj będzie padać.",
+      "level": "A1"
+    },
+    {
+      "de": "**Wenn** der Zug pünktlich **ankommt**, **schaffen** wir das Treffen.",
+      "en": "If the train arrives on time, we will make the meeting.",
+      "pl": "Jeśli pociąg przyjedzie punktualnie, zdążymy na spotkanie.",
+      "level": "A2"
+    },
+    {
+      "de": "Ruf mich an, **falls** du Hilfe **brauchst**.",
+      "en": "Call me in case you need help.",
+      "pl": "Zadzwoń do mnie, jeśli przypadkiem będziesz potrzebować pomocy.",
+      "level": "A2"
+    },
+    {
+      "de": "**Falls** wir morgen länger **arbeiten**, **bestellen** wir Essen.",
+      "en": "In case we work longer tomorrow, we will order food.",
+      "pl": "Jeśli przypadkiem będziemy jutro pracować dłużej, zamówimy jedzenie.",
+      "level": "A2"
+    },
+    {
+      "de": "**Wenn** das Team den Bericht heute **fertigstellt**, **schicken** wir ihn an den Kunden.",
+      "en": "If the team finishes the report today, we will send it to the client.",
+      "pl": "Jeśli zespół ukończy dziś raport, wyślemy go do klienta.",
+      "level": "B1"
+    },
+    {
+      "de": "Wir können das Projekt starten, **sofern** der Direktor **zustimmt**.",
+      "en": "We can start the project, provided that the director agrees.",
+      "pl": "Możemy rozpocząć projekt, o ile dyrektor się zgodzi.",
+      "level": "B1"
+    },
+    {
+      "de": "**Falls** der Kollege heute krank **ist**, **übernimmt** Anna seine Aufgaben.",
+      "en": "In case the colleague is ill today, Anna will take over his tasks.",
+      "pl": "Jeśli przypadkiem kolega jest dziś chory, Anna przejmie jego zadania.",
+      "level": "B1"
+    },
+    {
+      "de": "Du darfst früher gehen, **wenn** du alle E-Mails **beantwortet hast**.",
+      "en": "You may leave earlier if you have answered all the emails.",
+      "pl": "Możesz wyjść wcześniej, jeśli odpowiedziałeś na wszystkie e-maile.",
+      "level": "B1"
+    },
+    {
+      "de": "**Sofern** das Wetter stabil **bleibt**, **findet** die Veranstaltung draußen statt.",
+      "en": "Provided that the weather remains stable, the event will take place outdoors.",
+      "pl": "O ile pogoda pozostanie stabilna, wydarzenie odbędzie się na zewnątrz.",
+      "level": "B1"
+    },
+    {
+      "de": "**Wenn** die Behörde neue Hinweise **findet**, **leitet** sie weitere Schritte ein.",
+      "en": "If the authority finds new clues, it will initiate further steps.",
+      "pl": "Jeśli urząd znajdzie nowe wskazówki, podejmie dalsze kroki.",
+      "level": "B2"
+    },
+    {
+      "de": "Die Konferenz wird verschoben, **falls** zu wenige Delegierte **anreisen**.",
+      "en": "The conference will be postponed in case too few delegates arrive.",
+      "pl": "Konferencja zostanie przełożona, jeśli przypadkiem przyjedzie zbyt mało delegatów.",
+      "level": "B2"
+    },
+    {
+      "de": "**Sofern** die Finanzierung **gesichert ist**, **beginnt** der Bau im Frühjahr.",
+      "en": "Provided that the financing is secured, construction will begin in spring.",
+      "pl": "O ile finansowanie będzie zabezpieczone, budowa rozpocznie się wiosną.",
+      "level": "B2"
+    },
+    {
+      "de": "Das Unternehmen erweitert die Produktion, **wenn** die Nachfrage weiter **steigt**.",
+      "en": "The company will expand production if demand continues to rise.",
+      "pl": "Firma rozszerzy produkcję, jeśli popyt nadal będzie rósł.",
+      "level": "B2"
+    },
+    {
+      "de": "**Falls** ein technischer Fehler **auftritt**, **informieren** die Techniker sofort die Leitung.",
+      "en": "In case a technical error occurs, the technicians inform management immediately.",
+      "pl": "Jeśli przypadkiem wystąpi błąd techniczny, technicy natychmiast poinformują kierownictwo.",
+      "level": "B2"
+    },
+    {
+      "de": "**Sofern** beide Seiten eine Waffenruhe **einhalten**, **kann** über einen dauerhaften Frieden verhandelt werden.",
+      "en": "Provided that both sides observe a ceasefire, negotiations on a lasting peace can take place.",
+      "pl": "O ile obie strony będą przestrzegać zawieszenia broni, będzie można negocjować trwały pokój.",
+      "level": "C1"
+    },
+    {
+      "de": "Die Staatsanwaltschaft erhebt Anklage, **wenn** sich der Verdacht im Laufe der Prüfung **bestätigt**.",
+      "en": "The public prosecutor's office will press charges if the suspicion is confirmed during the review.",
+      "pl": "Prokuratura wniesie oskarżenie, jeśli podejrzenie potwierdzi się w trakcie kontroli.",
+      "level": "C1"
+    },
+    {
+      "de": "**Falls** die Regierung die Ausgaben nicht **begrenzt**, **dürfte** das Defizit im nächsten Jahr deutlich wachsen.",
+      "en": "In the event that the government does not limit spending, the deficit is likely to grow significantly next year.",
+      "pl": "W przypadku gdyby rząd nie ograniczył wydatków, deficyt w przyszłym roku prawdopodobnie wyraźnie wzrośnie.",
+      "level": "C1"
+    },
+    {
+      "de": "**Sofern** die Aufsichtsbehörde keine grundlegenden Einwände **erhebt**, **soll** der Zusammenschluss bis zum Ende des Quartals vollzogen werden.",
+      "en": "Provided that the supervisory authority raises no fundamental objections, the merger is to be completed by the end of the quarter.",
+      "pl": "O ile organ nadzoru nie zgłosi zasadniczych zastrzeżeń, fuzja ma zostać sfinalizowana do końca kwartału.",
+      "level": "C2"
+    },
+    {
+      "de": "Die Reform entfaltet ihre volle Wirkung nur dann, **wenn** alle beteiligten Institutionen die neuen Vorgaben konsequent **umsetzen**.",
+      "en": "The reform achieves its full impact only if all participating institutions consistently implement the new guidelines.",
+      "pl": "Reforma przyniesie pełny efekt tylko wtedy, gdy wszystkie zaangażowane instytucje konsekwentnie wdrożą nowe wytyczne.",
+      "level": "C2"
+    }
+  ],
+  "exercises": [
+    {
+      "en": "If the weather is nice tomorrow, we will go into the park.",
+      "pl": "Jeśli jutro będzie ładna pogoda, pójdziemy do parku.",
+      "de": "Wenn das Wetter morgen schön ist, gehen wir in den Park.",
+      "level": "A2"
+    },
+    {
+      "en": "If Peter arrives early, we will eat together.",
+      "pl": "Jeśli Peter przyjedzie wcześnie, zjemy razem.",
+      "de": "Wenn Peter früh ankommt, essen wir zusammen.",
+      "level": "A2"
+    },
+    {
+      "en": "Maria stays in bed if she is ill.",
+      "pl": "Maria zostaje w łóżku, jeśli jest chora.",
+      "de": "Maria bleibt im Bett, wenn sie krank ist.",
+      "level": "A2"
+    },
+    {
+      "en": "In case you (informal) have questions, write me an email.",
+      "pl": "Jeśli przypadkiem masz pytania, napisz do mnie e-mail.",
+      "de": "Falls du Fragen hast, schreib mir eine E-Mail.",
+      "level": "A2"
+    },
+    {
+      "en": "We are taking the bus if the bicycle is broken.",
+      "pl": "Pojedziemy autobusem, jeśli rower jest zepsuty.",
+      "de": "Wir nehmen den Bus, wenn das Fahrrad kaputt ist.",
+      "level": "A2"
+    },
+    {
+      "en": "If Lukas finishes his work, he goes home.",
+      "pl": "Jeśli Lukas skończy swoją pracę, pójdzie do domu.",
+      "de": "Wenn Lukas seine Arbeit beendet, geht er nach Hause.",
+      "level": "A2"
+    },
+    {
+      "en": "I will bring bread in case the bakery is still open.",
+      "pl": "Przyniosę chleb, jeśli przypadkiem piekarnia będzie jeszcze otwarta.",
+      "de": "Ich bringe Brot mit, falls die Bäckerei noch geöffnet ist.",
+      "level": "A2"
+    },
+    {
+      "en": "If the bus does not come, we walk to the station.",
+      "pl": "Jeśli autobus nie przyjedzie, pójdziemy pieszo na dworzec.",
+      "de": "Wenn der Bus nicht kommt, gehen wir zu Fuß zum Bahnhof.",
+      "level": "A2"
+    },
+    {
+      "en": "In case Anna calls, say hello to her from me.",
+      "pl": "Jeśli przypadkiem Anna zadzwoni, pozdrów ją ode mnie.",
+      "de": "Falls Anna anruft, grüß sie von mir.",
+      "level": "A2"
+    },
+    {
+      "en": "We can sit in the garden if it is warm enough.",
+      "pl": "Możemy usiąść w ogrodzie, jeśli jest wystarczająco ciepło.",
+      "de": "Wir können im Garten sitzen, wenn es warm genug ist.",
+      "level": "A2"
+    },
+    {
+      "en": "If our team wins today, we will celebrate in the evening.",
+      "pl": "Jeśli nasza drużyna dzisiaj wygra, będziemy świętować wieczorem.",
+      "de": "Wenn unsere Mannschaft heute gewinnt, feiern wir am Abend.",
+      "level": "B1"
+    },
+    {
+      "en": "You (formal) receive a confirmation email if you register online.",
+      "pl": "Otrzyma Pan potwierdzenie e-mailem, jeśli zarejestruje się Pan online.",
+      "de": "Sie erhalten eine Bestätigungs-E-Mail, wenn Sie sich online anmelden.",
+      "level": "B1"
+    },
+    {
+      "en": "In case the flight is cancelled, the airline books another connection.",
+      "pl": "Jeśli przypadkiem lot zostanie odwołany, linia lotnicza zarezerwuje inne połączenie.",
+      "de": "Falls der Flug ausfällt, bucht die Fluggesellschaft eine andere Verbindung.",
+      "level": "B1"
+    },
+    {
+      "en": "Provided that everyone arrives on time, the workshop begins at nine.",
+      "pl": "O ile wszyscy przybędą punktualnie, warsztaty rozpoczną się o dziewiątej.",
+      "de": "Sofern alle pünktlich eintreffen, beginnt der Workshop um neun Uhr.",
+      "level": "B1"
+    },
+    {
+      "en": "If the printer does not work, we ask the IT department for help.",
+      "pl": "Jeśli drukarka nie działa, poprosimy dział IT o pomoc.",
+      "de": "Wenn der Drucker nicht funktioniert, bitten wir die IT-Abteilung um Hilfe.",
+      "level": "B1"
+    },
+    {
+      "en": "The manager approves the holiday if a colleague covers the shift.",
+      "pl": "Kierownik zatwierdzi urlop, jeśli kolega przejmie zmianę.",
+      "de": "Der Leiter genehmigt den Urlaub, wenn ein Kollege die Schicht übernimmt.",
+      "level": "B1"
+    },
+    {
+      "en": "In case the customer pays this week, we will send the goods on Monday.",
+      "pl": "Jeśli przypadkiem klient zapłaci w tym tygodniu, wyślemy towar w poniedziałek.",
+      "de": "Falls der Kunde diese Woche bezahlt, schicken wir die Ware am Montag.",
+      "level": "B1"
+    },
+    {
+      "en": "If Maria has passed the exam, she will apply for the job.",
+      "pl": "Jeśli Maria zdała egzamin, złoży podanie o tę pracę.",
+      "de": "Wenn Maria die Prüfung bestanden hat, bewirbt sie sich um die Stelle.",
+      "level": "B1"
+    },
+    {
+      "en": "We will cancel the trip if the storm gets stronger.",
+      "pl": "Odwołamy podróż, jeśli burza się nasili.",
+      "de": "Wir sagen die Reise ab, wenn der Sturm stärker wird.",
+      "level": "B1"
+    },
+    {
+      "en": "Provided that the room is free, we can hold the meeting there.",
+      "pl": "O ile sala będzie wolna, możemy tam przeprowadzić spotkanie.",
+      "de": "Sofern der Raum frei ist, können wir die Besprechung dort durchführen.",
+      "level": "B1"
+    },
+    {
+      "en": "If he speaks slowly, everyone in the room understands him.",
+      "pl": "Jeśli mówi powoli, wszyscy w sali go rozumieją.",
+      "de": "Wenn er langsam spricht, verstehen ihn alle im Raum.",
+      "level": "B1"
+    },
+    {
+      "en": "In case you (informal) lose the key, call the caretaker immediately.",
+      "pl": "Jeśli przypadkiem zgubisz klucz, zadzwoń natychmiast do dozorcy.",
+      "de": "Falls du den Schlüssel verlierst, ruf sofort den Hausmeister an.",
+      "level": "B1"
+    },
+    {
+      "en": "If the museum stays open until eight, we will visit the exhibition after work.",
+      "pl": "Jeśli muzeum pozostanie otwarte do ósmej, zwiedzimy wystawę po pracy.",
+      "de": "Wenn das Museum bis acht Uhr geöffnet bleibt, besuchen wir die Ausstellung nach der Arbeit.",
+      "level": "B1"
+    },
+    {
+      "en": "The train leaves on time, provided that there is no technical problem.",
+      "pl": "Pociąg odjedzie punktualnie, o ile nie będzie problemu technicznego.",
+      "de": "Der Zug fährt pünktlich ab, sofern es kein technisches Problem gibt.",
+      "level": "B1"
+    },
+    {
+      "en": "If the participants need more time, we will extend the break.",
+      "pl": "Jeśli uczestnicy będą potrzebować więcej czasu, przedłużymy przerwę.",
+      "de": "Wenn die Teilnehmer mehr Zeit brauchen, verlängern wir die Pause.",
+      "level": "B1"
+    },
+    {
+      "en": "In case the hotel is full, we will stay near the station.",
+      "pl": "Jeśli przypadkiem hotel będzie pełny, zatrzymamy się w pobliżu dworca.",
+      "de": "Falls das Hotel voll ist, übernachten wir in der Nähe des Bahnhofs.",
+      "level": "B1"
+    },
+    {
+      "en": "If the colleague finishes the presentation early, we will review it together.",
+      "pl": "Jeśli koleżanka wcześnie skończy prezentację, przejrzymy ją razem.",
+      "de": "Wenn die Kollegin die Präsentation früh beendet, sehen wir sie uns gemeinsam an.",
+      "level": "B1"
+    },
+    {
+      "en": "You (informal) can borrow the laptop if you bring it back tomorrow.",
+      "pl": "Możesz pożyczyć laptopa, jeśli oddasz go jutro.",
+      "de": "Du kannst den Laptop ausleihen, wenn du ihn morgen zurückbringst.",
+      "level": "B1"
+    },
+    {
+      "en": "Provided that the numbers are correct, we can print the report today.",
+      "pl": "O ile liczby się zgadzają, możemy wydrukować raport dzisiaj.",
+      "de": "Sofern die Zahlen stimmen, können wir den Bericht heute drucken.",
+      "level": "B1"
+    },
+    {
+      "en": "If the doctor recommends a longer break, my father will stay at home for a week.",
+      "pl": "Jeśli lekarz zaleci dłuższą przerwę, mój ojciec zostanie w domu przez tydzień.",
+      "de": "Wenn der Arzt eine längere Pause empfiehlt, bleibt mein Vater eine Woche zu Hause.",
+      "level": "B1"
+    },
+    {
+      "en": "If the company reduces its costs, it can invest more in research.",
+      "pl": "Jeśli firma obniży swoje koszty, będzie mogła więcej inwestować w badania.",
+      "de": "Wenn das Unternehmen seine Kosten senkt, kann es mehr in die Forschung investieren.",
+      "level": "B2"
+    },
+    {
+      "en": "In case the supplier delivers late, the factory must adjust the production plan.",
+      "pl": "Jeśli przypadkiem dostawca dostarczy towar z opóźnieniem, fabryka będzie musiała dostosować plan produkcji.",
+      "de": "Falls der Lieferant verspätet liefert, muss das Werk den Produktionsplan anpassen.",
+      "level": "B2"
+    },
+    {
+      "en": "Provided that the committee approves the budget, the programme will start in January.",
+      "pl": "O ile komisja zatwierdzi budżet, program rozpocznie się w styczniu.",
+      "de": "Sofern der Ausschuss das Budget genehmigt, beginnt das Programm im Januar.",
+      "level": "B2"
+    },
+    {
+      "en": "If the police find further evidence, they will question the suspect again.",
+      "pl": "Jeśli policja znajdzie dalsze dowody, ponownie przesłucha podejrzanego.",
+      "de": "Wenn die Polizei weitere Beweise findet, vernimmt sie den Verdächtigen erneut.",
+      "level": "B2"
+    },
+    {
+      "en": "The negotiations will continue next week, provided that both sides remain constructive.",
+      "pl": "Negocjacje będą kontynuowane w przyszłym tygodniu, o ile obie strony pozostaną konstruktywne.",
+      "de": "Die Verhandlungen gehen nächste Woche weiter, sofern beide Seiten konstruktiv bleiben.",
+      "level": "B2"
+    },
+    {
+      "en": "In case the software shows an error, employees should document it with a screenshot.",
+      "pl": "Jeśli przypadkiem oprogramowanie wyświetli błąd, pracownicy powinni udokumentować go zrzutem ekranu.",
+      "de": "Falls die Software einen Fehler anzeigt, sollten die Mitarbeiter ihn mit einem Screenshot dokumentieren.",
+      "level": "B2"
+    },
+    {
+      "en": "If the central bank raises interest rates, borrowing becomes more expensive for companies.",
+      "pl": "Jeśli bank centralny podniesie stopy procentowe, kredyty staną się droższe dla firm.",
+      "de": "Wenn die Zentralbank die Zinsen anhebt, werden Kredite für Unternehmen teurer.",
+      "level": "B2"
+    },
+    {
+      "en": "We will publish the statement today if all legal questions have been clarified.",
+      "pl": "Opublikujemy oświadczenie dzisiaj, jeśli wszystkie kwestie prawne zostały wyjaśnione.",
+      "de": "Wir veröffentlichen die Erklärung heute, wenn alle rechtlichen Fragen geklärt worden sind.",
+      "level": "B2"
+    },
+    {
+      "en": "Provided that the data are complete, the analyst will finish the evaluation by Friday.",
+      "pl": "O ile dane są kompletne, analityk zakończy ocenę do piątku.",
+      "de": "Sofern die Daten vollständig sind, schließt der Analyst die Auswertung bis Freitag ab.",
+      "level": "B2"
+    },
+    {
+      "en": "In case the minister cancels his visit, the state secretary will represent the ministry.",
+      "pl": "Jeśli przypadkiem minister odwoła swoją wizytę, ministerstwo będzie reprezentować sekretarz stanu.",
+      "de": "Falls der Minister seinen Besuch absagt, vertritt der Staatssekretär das Ministerium.",
+      "level": "B2"
+    },
+    {
+      "en": "If the power supply fails, the hospital switches automatically to emergency generators.",
+      "pl": "Jeśli zawiedzie zasilanie, szpital automatycznie przełącza się na generatory awaryjne.",
+      "de": "Wenn die Stromversorgung ausfällt, schaltet das Krankenhaus automatisch auf Notstromaggregate um.",
+      "level": "B2"
+    },
+    {
+      "en": "The contract remains valid, provided that neither party terminates it in writing.",
+      "pl": "Umowa pozostaje ważna, o ile żadna ze stron nie wypowie jej na piśmie.",
+      "de": "Der Vertrag bleibt gültig, sofern keine der Parteien ihn schriftlich kündigt.",
+      "level": "B2"
+    },
+    {
+      "en": "If the authorities ignore the warning signs, the situation could escalate rapidly.",
+      "pl": "Jeśli władze zignorują sygnały ostrzegawcze, sytuacja może szybko eskalować.",
+      "de": "Wenn die Behörden die Warnsignale ignorieren, kann die Lage schnell eskalieren.",
+      "level": "B2"
+    },
+    {
+      "en": "In case the weather worsens during the night, the organisers will move the ceremony indoors.",
+      "pl": "Jeśli przypadkiem pogoda pogorszy się w nocy, organizatorzy przeniosą uroczystość do wnętrza.",
+      "de": "Falls sich das Wetter in der Nacht verschlechtert, verlegen die Veranstalter die Zeremonie nach drinnen.",
+      "level": "B2"
+    },
+    {
+      "en": "If the parliament passes the law this month, the new rules will take effect in spring.",
+      "pl": "Jeśli parlament uchwali ustawę w tym miesiącu, nowe przepisy wejdą w życie wiosną.",
+      "de": "Wenn das Parlament das Gesetz diesen Monat verabschiedet, treten die neuen Regeln im Frühjahr in Kraft.",
+      "level": "B2"
+    },
+    {
+      "en": "Provided that the applicant submits all certificates, the office will process the application quickly.",
+      "pl": "O ile wnioskodawca złoży wszystkie zaświadczenia, urząd szybko rozpatrzy wniosek.",
+      "de": "Sofern der Antragsteller alle Nachweise einreicht, bearbeitet das Amt den Antrag schnell.",
+      "level": "B2"
+    },
+    {
+      "en": "The airline will refund the ticket price if the flight is delayed by more than four hours.",
+      "pl": "Linia lotnicza zwróci cenę biletu, jeśli lot będzie opóźniony o ponad cztery godziny.",
+      "de": "Die Fluggesellschaft erstattet den Ticketpreis, wenn der Flug mehr als vier Stunden Verspätung hat.",
+      "level": "B2"
+    },
+    {
+      "en": "In case a fire breaks out in the building, all employees must use the emergency exits.",
+      "pl": "Jeśli przypadkiem w budynku wybuchnie pożar, wszyscy pracownicy muszą skorzystać z wyjść ewakuacyjnych.",
+      "de": "Falls im Gebäude ein Feuer ausbricht, müssen alle Mitarbeiter die Notausgänge benutzen.",
+      "level": "B2"
+    },
+    {
+      "en": "If the board accepts the proposal, the merger will be announced tomorrow morning.",
+      "pl": "Jeśli zarząd przyjmie propozycję, fuzja zostanie ogłoszona jutro rano.",
+      "de": "Wenn der Vorstand den Vorschlag annimmt, wird die Fusion morgen früh bekannt gegeben.",
+      "level": "B2"
+    },
+    {
+      "en": "Provided that safety standards are met, the plant can resume operations next week.",
+      "pl": "O ile normy bezpieczeństwa są spełnione, zakład może wznowić działalność w przyszłym tygodniu.",
+      "de": "Sofern die Sicherheitsstandards erfüllt sind, kann die Anlage nächste Woche den Betrieb wieder aufnehmen.",
+      "level": "B2"
+    },
+    {
+      "en": "If the researchers confirm the hypothesis, the journal will publish the study.",
+      "pl": "Jeśli badacze potwierdzą hipotezę, czasopismo opublikuje badanie.",
+      "de": "Wenn die Forscher die Hypothese bestätigen, veröffentlicht die Fachzeitschrift die Studie.",
+      "level": "B2"
+    },
+    {
+      "en": "In case the server becomes overloaded, the system automatically restricts access.",
+      "pl": "Jeśli przypadkiem serwer zostanie przeciążony, system automatycznie ograniczy dostęp.",
+      "de": "Falls der Server überlastet ist, schränkt das System den Zugang automatisch ein.",
+      "level": "B2"
+    },
+    {
+      "en": "If the city expands public transport, fewer commuters will drive into the centre.",
+      "pl": "Jeśli miasto rozbuduje transport publiczny, mniej osób dojeżdżających do pracy będzie wjeżdżać samochodem do centrum.",
+      "de": "Wenn die Stadt den öffentlichen Nahverkehr ausbaut, fahren weniger Pendler mit dem Auto ins Zentrum.",
+      "level": "B2"
+    },
+    {
+      "en": "The project team will present the prototype on Monday, provided that the final test succeeds.",
+      "pl": "Zespół projektowy zaprezentuje prototyp w poniedziałek, o ile ostatni test się powiedzie.",
+      "de": "Das Projektteam stellt den Prototyp am Montag vor, sofern der letzte Test gelingt.",
+      "level": "B2"
+    },
+    {
+      "en": "If the client requests changes after signing, additional costs will arise.",
+      "pl": "Jeśli klient zażąda zmian po podpisaniu umowy, powstaną dodatkowe koszty.",
+      "de": "Wenn der Kunde nach der Unterschrift Änderungen verlangt, entstehen zusätzliche Kosten.",
+      "level": "B2"
+    },
+    {
+      "en": "In case the witnesses contradict each other, the court will schedule a second hearing.",
+      "pl": "Jeśli przypadkiem świadkowie będą sobie zaprzeczać, sąd wyznaczy drugą rozprawę.",
+      "de": "Falls sich die Zeugen widersprechen, setzt das Gericht eine zweite Verhandlung an.",
+      "level": "B2"
+    },
+    {
+      "en": "If the company loses this major customer, its revenue will fall noticeably.",
+      "pl": "Jeśli firma straci tego dużego klienta, jej przychody wyraźnie spadną.",
+      "de": "Wenn das Unternehmen diesen Großkunden verliert, sinkt sein Umsatz spürbar.",
+      "level": "B2"
+    },
+    {
+      "en": "Provided that the regions cooperate closely, the flood protection plan can be completed on schedule.",
+      "pl": "O ile regiony będą ściśle współpracować, plan ochrony przeciwpowodziowej będzie mógł zostać ukończony zgodnie z harmonogramem.",
+      "de": "Sofern die Regionen eng zusammenarbeiten, kann der Hochwasserschutzplan termingerecht fertiggestellt werden.",
+      "level": "B2"
+    },
+    {
+      "en": "The department will hire two additional specialists if the workload stays high.",
+      "pl": "Dział zatrudni dwóch dodatkowych specjalistów, jeśli obciążenie pracą pozostanie wysokie.",
+      "de": "Die Abteilung stellt zwei zusätzliche Fachkräfte ein, wenn die Arbeitsbelastung hoch bleibt.",
+      "level": "B2"
+    },
+    {
+      "en": "In case the embassy does not respond within five days, applicants should contact the hotline.",
+      "pl": "Jeśli przypadkiem ambasada nie odpowie w ciągu pięciu dni, wnioskodawcy powinni skontaktować się z infolinią.",
+      "de": "Falls die Botschaft nicht innerhalb von fünf Tagen antwortet, sollten sich Antragsteller an die Hotline wenden.",
+      "level": "B2"
+    },
+    {
+      "en": "If the audit reveals serious irregularities, management must inform the supervisory board.",
+      "pl": "Jeśli kontrola ujawni poważne nieprawidłowości, kierownictwo musi poinformować radę nadzorczą.",
+      "de": "Wenn die Prüfung schwerwiegende Unregelmäßigkeiten aufdeckt, muss die Geschäftsleitung den Aufsichtsrat informieren.",
+      "level": "B2"
+    },
+    {
+      "en": "Provided that the vaccines are stored properly, they remain effective for several months.",
+      "pl": "O ile szczepionki są prawidłowo przechowywane, zachowują skuteczność przez kilka miesięcy.",
+      "de": "Sofern die Impfstoffe richtig gelagert werden, bleiben sie mehrere Monate wirksam.",
+      "level": "B2"
+    },
+    {
+      "en": "If the local council rejects the building permit, the investor will look for another site.",
+      "pl": "Jeśli rada miejska odrzuci pozwolenie na budowę, inwestor poszuka innej lokalizacji.",
+      "de": "Wenn der Stadtrat die Baugenehmigung ablehnt, sucht der Investor nach einem anderen Standort.",
+      "level": "B2"
+    },
+    {
+      "en": "In case the river level rises further, the authorities will close the bridge for traffic.",
+      "pl": "Jeśli przypadkiem poziom rzeki jeszcze wzrośnie, władze zamkną most dla ruchu.",
+      "de": "Falls der Pegel des Flusses weiter steigt, sperren die Behörden die Brücke für den Verkehr.",
+      "level": "B2"
+    },
+    {
+      "en": "If the participants have read the draft beforehand, the discussion will be much more productive.",
+      "pl": "Jeśli uczestnicy przeczytali wcześniej projekt, dyskusja będzie znacznie bardziej produktywna.",
+      "de": "Wenn die Teilnehmer den Entwurf vorher gelesen haben, wird die Diskussion deutlich produktiver.",
+      "level": "B2"
+    },
+    {
+      "en": "The guarantee remains valid, provided that the device is repaired only by authorised technicians.",
+      "pl": "Gwarancja pozostaje ważna, o ile urządzenie jest naprawiane wyłącznie przez autoryzowanych techników.",
+      "de": "Die Garantie bleibt bestehen, sofern das Gerät ausschließlich von autorisierten Technikern repariert wird.",
+      "level": "B2"
+    },
+    {
+      "en": "If the trade union calls a strike, public transport in several cities will come to a standstill.",
+      "pl": "Jeśli związek zawodowy ogłosi strajk, transport publiczny w kilku miastach stanie w miejscu.",
+      "de": "Wenn die Gewerkschaft einen Streik ausruft, kommt der öffentliche Nahverkehr in mehreren Städten zum Erliegen.",
+      "level": "B2"
+    },
+    {
+      "en": "In case the shipment arrives damaged, the recipient must note this immediately on the delivery slip.",
+      "pl": "Jeśli przypadkiem przesyłka dotrze uszkodzona, odbiorca musi odnotować to natychmiast na dowodzie dostawy.",
+      "de": "Falls die Sendung beschädigt ankommt, muss der Empfänger dies sofort auf dem Lieferschein vermerken.",
+      "level": "B2"
+    },
+    {
+      "en": "If the ministry publishes the guidelines this week, schools can prepare for the changes in time.",
+      "pl": "Jeśli ministerstwo opublikuje wytyczne w tym tygodniu, szkoły będą mogły na czas przygotować się do zmian.",
+      "de": "Wenn das Ministerium die Leitlinien diese Woche veröffentlicht, können sich die Schulen rechtzeitig auf die Änderungen vorbereiten.",
+      "level": "B2"
+    },
+    {
+      "en": "Provided that all member states ratify the agreement, it enters into force on the first of July.",
+      "pl": "O ile wszystkie państwa członkowskie ratyfikują porozumienie, wejdzie ono w życie pierwszego lipca.",
+      "de": "Sofern alle Mitgliedstaaten das Abkommen ratifizieren, tritt es am ersten Juli in Kraft.",
+      "level": "B2"
+    },
+    {
+      "en": "If the central bank fails to curb inflation promptly, household purchasing power will erode further.",
+      "pl": "Jeśli bank centralny nie zahamuje szybko inflacji, siła nabywcza gospodarstw domowych będzie nadal spadać.",
+      "de": "Wenn die Zentralbank die Inflation nicht rasch eindämmt, schwindet die Kaufkraft der Haushalte weiter.",
+      "level": "C1"
+    },
+    {
+      "en": "Provided that the coalition resolves its internal disputes, the budget bill can pass before the summer recess.",
+      "pl": "O ile koalicja rozwiąże swoje wewnętrzne spory, ustawa budżetowa może zostać uchwalona przed przerwą letnią.",
+      "de": "Sofern die Koalition ihre internen Streitigkeiten beilegt, kann das Haushaltsgesetz vor der Sommerpause verabschiedet werden.",
+      "level": "C1"
+    },
+    {
+      "en": "In the event that the peace talks fail, neighbouring countries expect a further wave of refugees.",
+      "pl": "W przypadku gdyby rozmowy pokojowe zakończyły się niepowodzeniem, kraje sąsiednie spodziewają się kolejnej fali uchodźców.",
+      "de": "Falls die Friedensgespräche scheitern, rechnen die Nachbarländer mit einer weiteren Flüchtlingswelle.",
+      "level": "C1"
+    },
+    {
+      "en": "The regulator will impose heavy fines if the bank violates reporting obligations once again.",
+      "pl": "Organ nadzoru nałoży wysokie kary, jeśli bank po raz kolejny naruszy obowiązki sprawozdawcze.",
+      "de": "Die Aufsichtsbehörde verhängt hohe Geldstrafen, wenn die Bank erneut gegen Meldepflichten verstößt.",
+      "level": "C1"
+    },
+    {
+      "en": "Provided that the security situation allows it, international observers will visit the border region tomorrow.",
+      "pl": "O ile sytuacja bezpieczeństwa na to pozwoli, międzynarodowi obserwatorzy odwiedzą jutro region przygraniczny.",
+      "de": "Sofern es die Sicherheitslage zulässt, besuchen internationale Beobachter morgen die Grenzregion.",
+      "level": "C1"
+    },
+    {
+      "en": "If the investigation confirms deliberate data manipulation, the chief executive will probably have to resign.",
+      "pl": "Jeśli dochodzenie potwierdzi celową manipulację danymi, prezes prawdopodobnie będzie musiał ustąpić.",
+      "de": "Wenn die Untersuchung eine vorsätzliche Datenmanipulation bestätigt, muss der Vorstandsvorsitzende voraussichtlich zurücktreten.",
+      "level": "C1"
+    },
+    {
+      "en": "In the event that energy prices surge again in winter, the government plans targeted relief for low-income households.",
+      "pl": "W przypadku gdyby ceny energii znów gwałtownie wzrosły zimą, rząd planuje ukierunkowaną pomoc dla gospodarstw o niskich dochodach.",
+      "de": "Falls die Energiepreise im Winter erneut stark ansteigen, plant die Regierung gezielte Entlastungen für Haushalte mit niedrigem Einkommen.",
+      "level": "C1"
+    },
+    {
+      "en": "Only if the participating countries agree on binding emission targets can the summit be considered a success.",
+      "pl": "Tylko jeśli uczestniczące państwa uzgodnią wiążące cele redukcji emisji, szczyt będzie można uznać za sukces.",
+      "de": "Nur wenn sich die teilnehmenden Staaten auf verbindliche Emissionsziele einigen, lässt sich der Gipfel als Erfolg werten.",
+      "level": "C1"
+    },
+    {
+      "en": "Provided that independent experts verify the figures, the agency will release the final assessment next month.",
+      "pl": "O ile niezależni eksperci zweryfikują liczby, agencja opublikuje ocenę końcową w przyszłym miesiącu.",
+      "de": "Sofern unabhängige Experten die Zahlen überprüfen, gibt die Behörde die abschließende Bewertung im nächsten Monat frei.",
+      "level": "C1"
+    },
+    {
+      "en": "If the company outsources core IT services, it must ensure strict compliance with data protection rules.",
+      "pl": "Jeśli firma zleci na zewnątrz kluczowe usługi IT, musi zapewnić ścisłe przestrzeganie przepisów o ochronie danych.",
+      "de": "Wenn das Unternehmen zentrale IT-Dienste auslagert, muss es die strikte Einhaltung der Datenschutzregeln sicherstellen.",
+      "level": "C1"
+    },
+    {
+      "en": "In the event that the witness refuses to testify, the prosecution will rely on intercepted communications.",
+      "pl": "W przypadku gdyby świadek odmówił zeznań, prokuratura oprze się na przechwyconych wiadomościach.",
+      "de": "Falls der Zeuge die Aussage verweigert, stützt sich die Staatsanwaltschaft auf abgefangene Nachrichten.",
+      "level": "C1"
+    },
+    {
+      "en": "Provided that the supply chains remain uninterrupted, the manufacturer expects higher output in the third quarter.",
+      "pl": "O ile łańcuchy dostaw pozostaną nieprzerwane, producent oczekuje wyższej produkcji w trzecim kwartale.",
+      "de": "Sofern die Lieferketten ununterbrochen bleiben, erwartet der Hersteller im dritten Quartal eine höhere Produktion.",
+      "level": "C1"
+    },
+    {
+      "en": "If the municipality invests in modern heating networks now, it will reduce long-term operating costs considerably.",
+      "pl": "Jeśli gmina zainwestuje teraz w nowoczesne sieci ciepłownicze, znacznie obniży długoterminowe koszty eksploatacji.",
+      "de": "Wenn die Kommune jetzt in moderne Wärmenetze investiert, senkt sie die langfristigen Betriebskosten erheblich.",
+      "level": "C1"
+    },
+    {
+      "en": "The agreement remains strictly confidential, provided that neither party discloses details to the press.",
+      "pl": "Porozumienie pozostaje ściśle poufne, o ile żadna ze stron nie ujawni szczegółów prasie.",
+      "de": "Die Vereinbarung bleibt streng vertraulich, sofern keine der Seiten Einzelheiten an die Presse weitergibt.",
+      "level": "C1"
+    },
+    {
+      "en": "In the event that the arbitration panel rules against the consortium, the partners will share the compensation equally.",
+      "pl": "W przypadku gdyby sąd polubowny orzekł na niekorzyść konsorcjum, partnerzy podzielą odszkodowanie po równo.",
+      "de": "Falls das Schiedsgericht gegen das Konsortium entscheidet, teilen die Partner die Entschädigung zu gleichen Teilen auf.",
+      "level": "C1"
+    },
+    {
+      "en": "If public confidence in the institution weakens further, recruiting qualified staff will become increasingly difficult.",
+      "pl": "Jeśli zaufanie publiczne do instytucji jeszcze bardziej osłabnie, rekrutacja wykwalifikowanego personelu stanie się coraz trudniejsza.",
+      "de": "Wenn das Vertrauen der Öffentlichkeit in die Institution weiter nachlässt, wird die Gewinnung qualifizierten Personals zunehmend schwieriger.",
+      "level": "C1"
+    },
+    {
+      "en": "Provided that the software update passes all security audits, administrators will deploy it across every branch.",
+      "pl": "O ile aktualizacja oprogramowania przejdzie wszystkie audyty bezpieczeństwa, administratorzy wdrożą ją we wszystkich oddziałach.",
+      "de": "Sofern das Software-Update alle Sicherheitsprüfungen besteht, spielen es die Administratoren in allen Filialen auf.",
+      "level": "C1"
+    },
+    {
+      "en": "If the committee postpones the vote once more, several smaller factions threaten to leave the negotiations.",
+      "pl": "Jeśli komisja jeszcze raz odroczy głosowanie, kilka mniejszych frakcji grozi opuszczeniem negocjacji.",
+      "de": "Wenn der Ausschuss die Abstimmung noch einmal vertagt, drohen mehrere kleinere Fraktionen mit dem Ausstieg aus den Verhandlungen.",
+      "level": "C1"
+    },
+    {
+      "en": "In the event that foreign investors withdraw capital abruptly, the currency could come under severe pressure.",
+      "pl": "W przypadku gdyby zagraniczni inwestorzy nagle wycofali kapitał, waluta może znaleźć się pod silną presją.",
+      "de": "Falls ausländische Investoren abrupt Kapital abziehen, kann die Währung stark unter Druck geraten.",
+      "level": "C1"
+    },
+    {
+      "en": "Provided that the ceasefire holds for at least thirty days, humanitarian convoys can reach the isolated provinces safely.",
+      "pl": "O ile zawieszenie broni utrzyma się przez co najmniej trzydzieści dni, konwoje humanitarne będą mogły bezpiecznie dotrzeć do odizolowanych prowincji.",
+      "de": "Sofern die Waffenruhe mindestens dreißig Tage hält, können humanitäre Konvois die abgeschnittenen Provinzen sicher erreichen.",
+      "level": "C1"
+    },
+    {
+      "en": "Provided that the statutory prerequisites are demonstrably fulfilled, the authority is obliged to grant the licence without undue delay.",
+      "pl": "O ile ustawowe przesłanki są w sposób udokumentowany spełnione, urząd ma obowiązek wydać koncesję bez zbędnej zwłoki.",
+      "de": "Sofern die gesetzlichen Voraussetzungen nachweislich erfüllt sind, ist die Behörde verpflichtet, die Genehmigung unverzüglich zu erteilen.",
+      "level": "C2"
+    },
+    {
+      "en": "In the event that the internal inquiry uncovers systemic shortcomings in compliance, the supervisory board will commission an external forensic audit.",
+      "pl": "W przypadku gdyby wewnętrzne dochodzenie ujawniło systemowe braki w zakresie zgodności, rada nadzorcza zleci zewnętrzny audyt kryminalistyczny.",
+      "de": "Falls die interne Untersuchung systemische Mängel bei der Compliance aufdeckt, gibt der Aufsichtsrat eine externe forensische Prüfung in Auftrag.",
+      "level": "C2"
+    },
+    {
+      "en": "Only if both legislative chambers reach a compromise before the statutory deadline can a provisional budget be avoided.",
+      "pl": "Tylko jeśli obie izby ustawodawcze osiągną kompromis przed ustawowym terminem, będzie można uniknąć prowizorium budżetowego.",
+      "de": "Nur wenn beide Kammern des Parlaments vor der gesetzlichen Frist einen Kompromis erzielen, lässt sich ein vorläufiger Haushalt vermeiden.",
+      "level": "C2"
+    },
+    {
+      "en": "Provided that the empirical evidence withstands peer review, the findings may fundamentally reshape current clinical practice.",
+      "pl": "O ile dowody empiryczne przejdą pozytywnie recenzję naukową, wyniki mogą fundamentalnie zmienić obecną praktykę kliniczną.",
+      "de": "Sofern die empirischen Belege der fachlichen Überprüfung standhalten, können die Erkenntnisse die gegenwärtige klinische Praxis grundlegend verändern.",
+      "level": "C2"
+    },
+    {
+      "en": "In the event that geopolitical tensions disrupt key maritime routes, global freight rates will inevitably surge within days.",
+      "pl": "W przypadku gdyby napięcia geopolityczne zakłóciły kluczowe szlaki morskie, światowe stawki frachtowe nieuchronnie wzrosną w ciągu kilku dni.",
+      "de": "Falls geopolitische Spannungen zentrale Seewege stören, steigen die globalen Frachtraten zwangsläufig innerhalb weniger Tage.",
+      "level": "C2"
+    },
+    {
+      "en": "If the management board fails to address the structural deficit convincingly, institutional shareholders are likely to withhold discharge at the general meeting.",
+      "pl": "Jeśli zarząd nie odniesie się przekonująco do deficytu strukturalnego, inwestorzy instytucjonalni prawdopodobnie odmówią udzielenia absolutorium na walnym zgromadzeniu.",
+      "de": "Wenn der Vorstand das strukturelle Defizit nicht überzeugend angeht, dürften institutionelle Aktionäre auf der Hauptversammlung die Entlastung verweigern.",
+      "level": "C2"
+    },
+    {
+      "en": "Provided that all contracting parties adhere strictly to the confidentiality clause, sensitive technical data may be exchanged across borders.",
+      "pl": "O ile wszystkie umawiające się strony będą ściśle przestrzegać klauzuli poufności, wrażliwe dane techniczne mogą być wymieniane ponad granicami.",
+      "de": "Sofern sich alle Vertragsparteien strikt an die Vertraulichkeitsklausel halten, dürfen sensible technische Daten grenzüberschreitend ausgetauscht werden.",
+      "level": "C2"
+    },
+    {
+      "en": "In the event that the appellate court overturns the initial ruling, the entire licensing procedure will have to be reopened from the beginning.",
+      "pl": "W przypadku gdyby sąd apelacyjny uchylił pierwotny wyrok, całe postępowanie koncesyjne będzie musiało zostać otwarte od początku.",
+      "de": "Falls das Berufungsgericht das ursprüngliche Urteil aufhebt, muss das gesamte Genehmigungsverfahren von Grund auf neu aufgerollt werden.",
+      "level": "C2"
+    },
+    {
+      "en": "If the central authority delegates far-reaching powers to regional agencies without clear oversight mechanisms, accountability will gradually blur.",
+      "pl": "Jeśli organ centralny przekaże daleko idące uprawnienia agencjom regionalnym bez jasnych mechanizmów nadzoru, odpowiedzialność będzie się stopniowo rozmywać.",
+      "de": "Wenn die Zentralbehörde weitreichende Befugnisse ohne klare Kontrollmechanismen an regionale Stellen überträgt, verwischt die Verantwortlichkeit allmählich.",
+      "level": "C2"
+    },
+    {
+      "en": "Provided that the restructuring plan secures binding commitments from major creditors, the company can avert insolvency proceedings altogether.",
+      "pl": "O ile plan restrukturyzacji zapewni wiążące zobowiązania ze strony głównych wierzycieli, firma może całkowicie uniknąć postępowania upadłościowego.",
+      "de": "Sofern der Sanierungsplan verbindliche Zusagen der wichtigsten Gläubiger sichert, kann das Unternehmen ein Insolvenzverfahren vollständig abwenden.",
+      "level": "C2"
+    }
+  ],
+  "listening": {
+    "audioUrl": "https://radiodownloaddw-a.akamaihd.net/downloads/Events/dwelle/dira/mp3/deutschkurse/nachrichten_live/50D2A746_2.mp3",
+    "articles": [
+      {
+        "heading": "[[Todesschütze|1]] von Krakau ist nach Polizeiangaben tot",
+        "text": "Zwei Tage nach dem tödlichen [[Schusswaffenangriff|2]] im polnischen Krakau ist der [[mutmaßliche|3]] [[Täter|4]] gestorben. Der 24-Jährige, der bei einem [[Schusswechsel|5]] mit Polizisten schwer verletzt worden war, starb am Montagmorgen im Krankenhaus, wie die Polizei mitteilte. Der Angreifer hatte am Samstag in der Altstadt von Krakau sechs Menschen erschossen und 15 weitere verletzt. Die [[Staatsanwaltschaft|6]] verfolgt Hinweise auf Terrorismus. Die Tat war nach [[Einschätzung|7]] der Behörden mutmaßlich rechtsextremistisch motiviert. Die Polizei entdeckte später im Elternhaus des Angreifers die Leichen der Mutter, des Vaters und der Schwester. In Polen gilt seit Sonntag eine zweitägige [[Staatstrauer|8]]."
+      },
+      {
+        "heading": "Erstes [[Manöver|9]] der Ukraine-[[Koalition|10]] beginnt in Polen",
+        "text": "Rund 2800 Soldaten aus elf Ländern nehmen in Polen von diesem Montag an am ersten [[Militärmanöver|11]] der „Koalition der Willigen“ zur Unterstützung der Ukraine teil. Das Manöver ist bis zum 22. November [[angesetzt|12]]. Deutschland beteiligt sich mit einer Zahl von Soldaten im niedrigen [[zweistelligen|13]] Bereich. Dabei soll getestet werden, wie nach dem Ende des Kriegs mit Russland ein [[dauerhafter|14]] Frieden gesichert werden kann, wie die Verteidigungsministerien von Frankreich und Großbritannien mitteilten. Im Falle einer [[Waffenruhe|15]] ist später ein [[Einsatz|16]] der Truppe in der Ukraine vorgesehen."
+      },
+      {
+        "heading": "Zentralratspräsident Schuster fordert Mut zum [[Widerspruch|17]]",
+        "text": "Mit Blick auf den wachsenden [[Antisemitismus|18]] hat der Präsident des Zentralrats der Juden in Deutschland, Josef Schuster, zu [[Zivilcourage|19]] und Mut zum Widerspruch [[aufgerufen|20]]. Man dürfe nicht warten, bis jemand anderes den Anfang mache, sagte er am Sonntag in Würzburg vor den [[Delegierten|21]] des Parlaments der Evangelischen Kirche. Schuster erinnerte an die Reichspogromnacht der Nazis am 9. November 1938. Am Abend dieses Tages hatten Nationalsozialisten jüdische [[Gotteshäuser|22]] und Geschäfte zerstört. Zahlreiche Menschen wurden bei den koordinierten Angriffen des NS-Regimes getötet. An diesem Montag [[gedenken|23]] jüdische Gemeinden in ganz Deutschland der Opfer der nationalsozialistischen [[Verfolgung|24]]. Auch an den Mauerfall vor 37 Jahren erinnern viele Veranstaltungen in Deutschland."
+      },
+      {
+        "heading": "Papst mahnt Argentiniens Präsident Milei zu sozialer Verantwortung",
+        "text": "Papst Leo XIV. hat Argentiniens Staatschef Javier Milei zu mehr [[Rücksicht|25]] auf schwächere Gruppen der Gesellschaft [[ermahnt|26]]. Die Wirtschaft müsse im Dienste des Menschen stehen und nicht der Mensch im Dienste der Wirtschaft, sagte das [[Oberhaupt|27]] der katholischen Kirche zum [[Auftakt|28]] eines Besuchs in der Hauptstadt Buenos Aires. Dem radikalen [[Marktliberalismus|29]], mit dem der Präsident das von Krisen geprägte Land umbauen will, stellte der Papst das Prinzip der [[Gemeinwohlorientierung|30]] nach der katholischen [[Soziallehre|31]] gegenüber. Das Heimatland seines verstorbenen [[Vorgängers|32]] Franziskus ist für Leo nach Uruguay die zweite Station einer zwölftägigen Südamerika-Reise."
+      },
+      {
+        "heading": "UN-[[Klimakonferenz|33]] COP31 startet ohne US-Regierung",
+        "text": "Unter dem [[Vorsitz|34]] Australiens hat an diesem Montag in der türkischen [[Hafenstadt|35]] Antalya die Weltklimakonferenz der Vereinten Nationen COP31 begonnen. Die Türkei stellt den COP-Präsidenten. Erwartet werden zu dem zweiwöchigen Treffen Zehntausende [[Delegierte|21]] aus der ganzen Welt sowie Staats- und Regierungschefs. Deutschland wird durch Bundesumweltminister Carsten Schneider [[vertreten|36]]. Die Regierung der USA unter Präsident Donald Trump bleibt den [[Beratungen|37]] fern. Damit fehlt mit den Vereinigten Staaten der zweitgrößte [[Treibhausgas|38]]-Emittent der Welt am [[Verhandlungstisch|39]]."
+      },
+      {
+        "heading": "Nvidia -Chef steht wegen [[Spionageverdachts|40]] unter Druck",
+        "text": "Der KI-Chip-Gigant Nvidia hat nach Berichten über einen Spionageverdacht eine Untersuchung gegen seinen Konzernchef Jensen Huang [[eingeleitet|41]]. Die [[Affäre|42]] mit einer [[mutmaßlichen|3]] chinesischen [[Spionin|43]] setzt den [[Gründer|44]] des 4,5 Billionen Dollar schweren Unternehmens zunehmend unter Druck. Nvidia erklärte, Huang werde den Konzern weiterhin ohne [[Unterbrechung|45]] leiten. Ein [[Ausschuss|46]] unabhängiger Direktoren werde die Prüfung der [[Vorwürfe|47]] mithilfe externer Anwälte [[beaufsichtigen|48]]."
+      }
+    ],
+    "vocab": [
+      {
+        "id": 1,
+        "word": "der Todesschütze",
+        "translation": {
+          "en": "gunman in a fatal shooting",
+          "pl": "śmiertelny strzelec, sprawca strzelaniny"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Todesschützen",
+        "notes": {
+          "en": "Journalistic compound for a shooter who killed someone; weak masculine noun (-n in plural).",
+          "pl": "Określenie prasowe sprawcy śmiertelnej strzelaniny; rzeczownik męski słaby."
+        },
+        "examples": [
+          "Die Polizei sucht weiter nach dem Todesschützen.",
+          "Zeugen gaben Hinweise auf die Flucht des Todesschützen."
+        ]
+      },
+      {
+        "id": 2,
+        "word": "der Schusswaffenangriff",
+        "translation": {
+          "en": "gun attack, firearm attack",
+          "pl": "atak z użyciem broni palnej"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Schusswaffenangriffe",
+        "notes": {
+          "en": "Compound of Schusswaffe (firearm) and Angriff (attack).",
+          "pl": "Złożenie słów Schusswaffe (broń palna) i Angriff (atak)."
+        },
+        "examples": [
+          "Nach dem Schusswaffenangriff sperrte die Polizei das Viertel ab.",
+          "Die Ermittler untersuchen das Motiv für den Schusswaffenangriff."
+        ]
+      },
+      {
+        "id": 3,
+        "word": "mutmaßlich",
+        "translation": {
+          "en": "suspected, alleged, presumed",
+          "pl": "domniemany, przypuszczalny"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Standard legal/news term before guilt or cause is formally proven.",
+          "pl": "Standardowe słowo prawnicze i prasowe przed udowodnieniem winy."
+        },
+        "examples": [
+          "Der mutmaßliche Einbrecher wurde am Bahnhof festgenommen.",
+          "Mutmaßlich entstand der Brand durch einen technischen Defekt."
+        ]
+      },
+      {
+        "id": 4,
+        "word": "der Täter",
+        "translation": {
+          "en": "perpetrator, offender",
+          "pl": "sprawca"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Täter",
+        "notes": {
+          "en": "Feminine form: die Täterin.",
+          "pl": "Forma żeńska: die Täterin."
+        },
+        "examples": [
+          "Die Polizei konnte den Täter rasch identifizieren.",
+          "Viele Hinweise aus der Bevölkerung führten zum Täter."
+        ]
+      },
+      {
+        "id": 5,
+        "word": "der Schusswechsel",
+        "translation": {
+          "en": "exchange of gunfire, shootout",
+          "pl": "wymiana ognia, strzelanina"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Schusswechsel",
+        "notes": {
+          "en": "Used when two sides fire shots at each other.",
+          "pl": "Używane, gdy obie strony oddają do siebie strzały."
+        },
+        "examples": [
+          "Bei dem Schusswechsel wurde ein Beamter leicht verletzt.",
+          "Der Schusswechsel dauerte nur wenige Minuten."
+        ]
+      },
+      {
+        "id": 6,
+        "word": "die Staatsanwaltschaft",
+        "translation": {
+          "en": "public prosecutor's office",
+          "pl": "prokuratura"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Staatsanwaltschaften",
+        "notes": {
+          "en": "Authority leading criminal investigations and bringing charges.",
+          "pl": "Organ prowadzący śledztwa karne i wnoszący oskarżenia."
+        },
+        "examples": [
+          "Die Staatsanwaltschaft prüft die neuen Beweise.",
+          "Auf Antrag der Staatsanwaltschaft wurde Haftbefehl erlassen."
+        ]
+      },
+      {
+        "id": 7,
+        "word": "die Einschätzung",
+        "translation": {
+          "en": "assessment, evaluation",
+          "pl": "ocena, oszacowanie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Einschätzungen",
+        "notes": {
+          "en": "Common collocation: nach Einschätzung + genitive (according to the assessment of).",
+          "pl": "Częste połączenie: nach Einschätzung + dopełniacz (według oceny)."
+        },
+        "examples": [
+          "Nach Einschätzung der Experten erholt sich der Markt langsam.",
+          "Ihre Einschätzung der Lage erwies sich als zutreffend."
+        ]
+      },
+      {
+        "id": 8,
+        "word": "die Staatstrauer",
+        "translation": {
+          "en": "national mourning, state mourning",
+          "pl": "żałoba narodowa"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Common verbs: Staatstrauer anordnen (order) or ausrufen (declare).",
+          "pl": "Częste czasowniki: Staatstrauer anordnen lub ausrufen (ogłosić)."
+        },
+        "examples": [
+          "Die Regierung ordnete eine dreitägige Staatstrauer an.",
+          "Während der Staatstrauer wehen die Fahnen auf halbmast."
+        ]
+      },
+      {
+        "id": 9,
+        "word": "das Manöver",
+        "translation": {
+          "en": "manoeuvre, military exercise",
+          "pl": "manewr, ćwiczenia wojskowe"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Manöver",
+        "notes": {
+          "en": "Can be military (ein Manöver abhalten) or figurative (ein politisches Manöver).",
+          "pl": "Może dotyczyć wojska lub działań taktycznych i politycznych."
+        },
+        "examples": [
+          "An dem Manöver nehmen mehrere tausend Soldaten teil.",
+          "Das Manöver soll die Zusammenarbeit der Armeen verbessern."
+        ]
+      },
+      {
+        "id": 10,
+        "word": "die Koalition",
+        "translation": {
+          "en": "coalition",
+          "pl": "koalicja"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Koalitionen",
+        "notes": {
+          "en": "Used for both political alliances and international military partnerships.",
+          "pl": "Używane zarówno w odniesieniu do sojuszy politycznych, jak i wojskowych."
+        },
+        "examples": [
+          "Die Koalition einigte sich auf ein gemeinsames Programm.",
+          "Mehrere Staaten bilden eine neue Koalition für den Klimaschutz."
+        ]
+      },
+      {
+        "id": 11,
+        "word": "das Militärmanöver",
+        "translation": {
+          "en": "military exercise, military manoeuvre",
+          "pl": "manewry wojskowe"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Militärmanöver",
+        "notes": {
+          "en": "Singular form used in German where Polish and English often use plural.",
+          "pl": "Po niemiecku często w liczbie pojedynczej tam, gdzie po polsku jest mnoga."
+        },
+        "examples": [
+          "Das Militärmanöver findet nahe der Ostseeküste statt.",
+          "Beobachter verfolgten das gemeinsame Militärmanöver."
+        ]
+      },
+      {
+        "id": 12,
+        "word": "ansetzen",
+        "translation": {
+          "en": "to schedule, to set (a time or date)",
+          "pl": "wyznaczyć, zaplanować (termin)"
+        },
+        "partOfSpeech": "Verb",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Separable verb: setzt an, setzte an, hat angesetzt.",
+          "pl": "Czasownik rozdzielnie złożony: setzt an, setzte an, hat angesetzt."
+        },
+        "examples": [
+          "Das Treffen ist für nächsten Donnerstag angesetzt.",
+          "Der Richter setzte einen neuen Termin für die Verhandlung an."
+        ]
+      },
+      {
+        "id": 13,
+        "word": "zweistellig",
+        "translation": {
+          "en": "two-digit, double-digit",
+          "pl": "dwucyfrowy"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Used for numbers between 10 and 99, percentages, or counts.",
+          "pl": "Dotyczy liczb od 10 do 99, procentów lub liczebności."
+        },
+        "examples": [
+          "Die Firma verzeichnete ein zweistelliges Wachstum.",
+          "Die Zahl der Teilnehmer liegt im zweistelligen Bereich."
+        ]
+      },
+      {
+        "id": 14,
+        "word": "dauerhaft",
+        "translation": {
+          "en": "lasting, permanent",
+          "pl": "trwały, stały"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Often paired with Frieden, Lösung, or verändern.",
+          "pl": "Często łączy się ze słowami Frieden, Lösung lub verändern."
+        },
+        "examples": [
+          "Beide Länder streben eine dauerhafte Lösung des Konflikts an.",
+          "Die Maßnahmen sollen die Kosten dauerhaft senken."
+        ]
+      },
+      {
+        "id": 15,
+        "word": "die Waffenruhe",
+        "translation": {
+          "en": "ceasefire, truce",
+          "pl": "zawieszenie broni"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Waffenruhen",
+        "notes": {
+          "en": "Common verbs: eine Waffenruhe vereinbaren (agree on) or einhalten (observe).",
+          "pl": "Częste czasowniki: eine Waffenruhe vereinbaren lub einhalten."
+        },
+        "examples": [
+          "Die Konfliktparteien verhandeln über eine vorübergehende Waffenruhe.",
+          "Hilfsorganisationen nutzen die Waffenruhe für Lieferungen."
+        ]
+      },
+      {
+        "id": 16,
+        "word": "der Einsatz",
+        "translation": {
+          "en": "deployment, operation, commitment",
+          "pl": "misja, użycie, zaangażowanie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "die Einsätze",
+        "notes": {
+          "en": "Context determines whether it means military deployment, rescue operation, or effort.",
+          "pl": "Kontekst decyduje, czy oznacza misję wojskową, akcję ratunkową czy wysiłek."
+        },
+        "examples": [
+          "Die Feuerwehr hatte gestern mehrere Einsätze.",
+          "Ohne großen Einsatz des Teams wäre das Projekt gescheitert."
+        ]
+      },
+      {
+        "id": 17,
+        "word": "der Widerspruch",
+        "translation": {
+          "en": "contradiction, dissent, objection",
+          "pl": "sprzeciw, sprzeczność"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Widersprüche",
+        "notes": {
+          "en": "Means both logical contradiction and speaking up against something.",
+          "pl": "Oznacza zarówno sprzeczność logiczną, jak i głośny sprzeciw."
+        },
+        "examples": [
+          "Der Vorschlag stieß in der Sitzung auf starken Widerspruch.",
+          "In seiner Aussage gibt es einen klaren Widerspruch."
+        ]
+      },
+      {
+        "id": 18,
+        "word": "der Antisemitismus",
+        "translation": {
+          "en": "antisemitism",
+          "pl": "antysemityzm"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Used without plural.",
+          "pl": "Rzeczownik używany bez liczby mnogiej."
+        },
+        "examples": [
+          "Viele Initiativen engagieren sich gegen Antisemitismus.",
+          "Die Behörden registrierten einen Anstieg von Antisemitismus."
+        ]
+      },
+      {
+        "id": 19,
+        "word": "die Zivilcourage",
+        "translation": {
+          "en": "moral courage, civic courage",
+          "pl": "odwaga cywilna"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Pronounced with soft French 'g' [ʒ]; used without plural.",
+          "pl": "Wymawiane z miękkim „ż”; bez liczby mnogiej."
+        },
+        "examples": [
+          "Der Verein zeichnet Menschen für ihre Zivilcourage aus.",
+          "In solchen Situationen braucht man viel Zivilcourage."
+        ]
+      },
+      {
+        "id": 20,
+        "word": "aufrufen",
+        "translation": {
+          "en": "to call on, to appeal to",
+          "pl": "wezwać, zaapelować"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Separable verb: ruft auf, rief auf, hat aufgerufen; takes zu + dative.",
+          "pl": "Czasownik rozdzielnie złożony; łączy się z przyimkiem zu + celownik."
+        },
+        "examples": [
+          "Die Organisation rief zu Spenden für die Betroffenen auf.",
+          "Der Bürgermeister ruft die Bürger zur Teilnahme an der Wahl auf."
+        ]
+      },
+      {
+        "id": 21,
+        "word": "der Delegierte",
+        "translation": {
+          "en": "delegate",
+          "pl": "delegat"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Delegierten",
+        "notes": {
+          "en": "Adjectival declension: ein Delegierter, die Delegierte (f.).",
+          "pl": "Odmienia się jak przymiotnik: ein Delegierter, die Delegierte (ż.)."
+        },
+        "examples": [
+          "Die Delegierten stimmen heute über den neuen Antrag ab.",
+          "Jede Region entsendet fünf Delegierte zum Parteitag."
+        ]
+      },
+      {
+        "id": 22,
+        "word": "das Gotteshaus",
+        "translation": {
+          "en": "house of worship, place of worship",
+          "pl": "dom modlitwy, świątynia"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Gotteshäuser",
+        "notes": {
+          "en": "Refers neutrally to churches, synagogues, or mosques.",
+          "pl": "Neutralne określenie kościoła, synagogi lub meczetu."
+        },
+        "examples": [
+          "Das historische Gotteshaus wurde aufwendig restauriert.",
+          "Am Wochenende standen viele Gotteshäuser für Besucher offen."
+        ]
+      },
+      {
+        "id": 23,
+        "word": "gedenken",
+        "translation": {
+          "en": "to commemorate, to remember",
+          "pl": "upamiętniać, oddawać cześć"
+        },
+        "partOfSpeech": "Verb",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Formal verb taking the genitive case: der Opfer gedenken.",
+          "pl": "Czasownik oficjalny łączący się z dopełniaczem: der Opfer gedenken."
+        },
+        "examples": [
+          "Die Stadt gedenkt heute der Opfer der Katastrophe.",
+          "Mit einer Schweigeminute gedachten die Gäste der Verstorbenen."
+        ]
+      },
+      {
+        "id": 24,
+        "word": "die Verfolgung",
+        "translation": {
+          "en": "persecution, pursuit",
+          "pl": "prześladowanie, pościg"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Verfolgungen",
+        "notes": {
+          "en": "Covers both political/religious persecution and police pursuit.",
+          "pl": "Oznacza zarówno prześladowania polityczne lub religijne, jak i pościg."
+        },
+        "examples": [
+          "Viele Familien flohen vor politischer Verfolgung.",
+          "Die Polizei brach die Verfolgung wegen des dichten Verkehrs ab."
+        ]
+      },
+      {
+        "id": 25,
+        "word": "die Rücksicht",
+        "translation": {
+          "en": "consideration, regard",
+          "pl": "wzgląd, wyrozumiałość"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "die Rücksichten",
+        "notes": {
+          "en": "Common phrase: Rücksicht auf jemanden nehmen (show consideration for).",
+          "pl": "Typowy zwrot: Rücksicht auf jemanden nehmen (liczyć się z kimś)."
+        },
+        "examples": [
+          "Im Straßenverkehr muss man Rücksicht auf Schwächere nehmen.",
+          "Aus Rücksicht auf die Nachbarn machten wir die Musik leiser."
+        ]
+      },
+      {
+        "id": 26,
+        "word": "ermahnen",
+        "translation": {
+          "en": "to urge, to admonish",
+          "pl": "upomnieć, napomnieć"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Pattern: jemanden zu etwas ermahnen (urge someone to do something).",
+          "pl": "Konstrukcja: jemanden zu etwas ermahnen (napomnieć kogoś do czegoś)."
+        },
+        "examples": [
+          "Die Lehrerin ermahnte die Schüler zur Ruhe.",
+          "Der Verband ermahnt Unternehmen zu mehr Transparenz."
+        ]
+      },
+      {
+        "id": 27,
+        "word": "das Oberhaupt",
+        "translation": {
+          "en": "head, supreme leader",
+          "pl": "głowa, zwierzchnik"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Oberhäupter",
+        "notes": {
+          "en": "Formal term for the head of a state, church, or family.",
+          "pl": "Oficjalne określenie głowy państwa, Kościoła lub rodu."
+        },
+        "examples": [
+          "Das Oberhaupt der Kirche rief zu Frieden auf.",
+          "Zahlreiche Staatsoberhäupter nahmen an der Zeremonie teil."
+        ]
+      },
+      {
+        "id": 28,
+        "word": "der Auftakt",
+        "translation": {
+          "en": "opening, kick-off, start",
+          "pl": "początek, otwarcie, inauguracja"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Auftakte",
+        "notes": {
+          "en": "Common phrase: zum Auftakt + genitive (at the start of).",
+          "pl": "Częsty zwrot: zum Auftakt + dopełniacz (na otwarcie)."
+        },
+        "examples": [
+          "Zum Auftakt der Messe hielt der Minister eine kurze Rede.",
+          "Das Konzert bildete den feierlichen Auftakt des Festivals."
+        ]
+      },
+      {
+        "id": 29,
+        "word": "der Marktliberalismus",
+        "translation": {
+          "en": "market liberalism",
+          "pl": "liberalizm rynkowy"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Economic doctrine favouring deregulation and minimal state intervention; no plural.",
+          "pl": "Doktryna gospodarcza stawiająca na wolny rynek i minimum regulacji."
+        },
+        "examples": [
+          "Ökonomen diskutieren die Folgen eines strengen Marktliberalismus.",
+          "Kritiker werfen dem reinen Marktliberalismus soziale Härten vor."
+        ]
+      },
+      {
+        "id": 30,
+        "word": "die Gemeinwohlorientierung",
+        "translation": {
+          "en": "orientation toward the common good",
+          "pl": "ukierunkowanie na dobro wspólne"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Compound of Gemeinwohl (common good) and Orientierung.",
+          "pl": "Złożenie słów Gemeinwohl (dobro wspólne) i Orientierung."
+        },
+        "examples": [
+          "Die Stiftung betont ihre klare Gemeinwohlorientierung.",
+          "In der Debatte forderten Verbände mehr Gemeinwohlorientierung."
+        ]
+      },
+      {
+        "id": 31,
+        "word": "die Soziallehre",
+        "translation": {
+          "en": "social teaching, social doctrine",
+          "pl": "nauka społeczna"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Soziallehren",
+        "notes": {
+          "en": "Often refers to Catholic social teaching (katholische Soziallehre).",
+          "pl": "Często odnosi się do katolickiej nauki społecznej."
+        },
+        "examples": [
+          "Die Prinzipien der Soziallehre prägen viele Wohlfahrtsverbände.",
+          "Der Vortrag widmete sich den Grundlagen der katholischen Soziallehre."
+        ]
+      },
+      {
+        "id": 32,
+        "word": "der Vorgänger",
+        "translation": {
+          "en": "predecessor",
+          "pl": "poprzednik"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Vorgänger",
+        "notes": {
+          "en": "Opposite: der Nachfolger (successor). Feminine: die Vorgängerin.",
+          "pl": "Przeciwieństwo: der Nachfolger. Forma żeńska: die Vorgängerin."
+        },
+        "examples": [
+          "Die neue Chefin setzt den Kurs ihres Vorgängers fort.",
+          "Im Vergleich zu seinem Vorgänger kommuniziert er offener."
+        ]
+      },
+      {
+        "id": 33,
+        "word": "die Klimakonferenz",
+        "translation": {
+          "en": "climate conference",
+          "pl": "konferencja klimatyczna"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Klimakonferenzen",
+        "notes": {
+          "en": "Standard term for international climate summits like COP.",
+          "pl": "Standardowe określenie międzynarodowych szczytów klimatycznych."
+        },
+        "examples": [
+          "Auf der Klimakonferenz verhandeln fast zweihundert Staaten.",
+          "Umweltgruppen erwarten klare Zusagen von der Klimakonferenz."
+        ]
+      },
+      {
+        "id": 34,
+        "word": "der Vorsitz",
+        "translation": {
+          "en": "chairmanship, presidency",
+          "pl": "przewodnictwo"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Common phrases: unter dem Vorsitz + genitive; den Vorsitz führen.",
+          "pl": "Częste zwroty: unter dem Vorsitz + dopełniacz; den Vorsitz führen."
+        },
+        "examples": [
+          "Das Land übernimmt im Januar den Vorsitz des Rates.",
+          "Unter dem Vorsitz der Ministerin tagte der Ausschuss drei Stunden."
+        ]
+      },
+      {
+        "id": 35,
+        "word": "die Hafenstadt",
+        "translation": {
+          "en": "port city",
+          "pl": "miasto portowe"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "die Hafenstädte",
+        "notes": {
+          "en": "Compound of der Hafen (port) and die Stadt (city).",
+          "pl": "Złożenie słów der Hafen (port) i die Stadt (miasto)."
+        },
+        "examples": [
+          "Die Hafenstadt lebt vor allem vom Handel und Tourismus.",
+          "Ein starker Sturm erreichte gestern die Hafenstadt."
+        ]
+      },
+      {
+        "id": 36,
+        "word": "vertreten",
+        "translation": {
+          "en": "to represent, to stand in for",
+          "pl": "reprezentować, zastępować"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Inseparable verb: vertritt, vertrat, hat vertreten.",
+          "pl": "Czasownik nierozdzielnie złożony: vertritt, vertrat, hat vertreten."
+        },
+        "examples": [
+          "Die Anwältin vertritt das Unternehmen vor Gericht.",
+          "Während meines Urlaubs vertritt mich meine Kollegin."
+        ]
+      },
+      {
+        "id": 37,
+        "word": "die Beratung",
+        "translation": {
+          "en": "deliberation, consultation, advice",
+          "pl": "obrady, konsultacja, doradztwo"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Beratungen",
+        "notes": {
+          "en": "In news reporting, plural die Beratungen usually means official talks or deliberations.",
+          "pl": "W wiadomościach liczba mnoga die Beratungen oznacza zwykle oficjalne obrady."
+        },
+        "examples": [
+          "Die Beratungen dauerten bis spät in die Nacht.",
+          "Vor dem Vertragsabschluss nahmen sie eine rechtliche Beratung in Anspruch."
+        ]
+      },
+      {
+        "id": 38,
+        "word": "das Treibhausgas",
+        "translation": {
+          "en": "greenhouse gas",
+          "pl": "gaz cieplarniany"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Treibhausgase",
+        "notes": {
+          "en": "Often used in the plural: Treibhausgase ausstoßen or reduzieren.",
+          "pl": "Często w liczbie mnogiej: Treibhausgase ausstoßen lub reduzieren."
+        },
+        "examples": [
+          "Der Ausstoß von Treibhausgasen muss deutlich sinken.",
+          "Kohlenstoffdioxid zählt zu den wichtigsten Treibhausgasen."
+        ]
+      },
+      {
+        "id": 39,
+        "word": "der Verhandlungstisch",
+        "translation": {
+          "en": "negotiating table",
+          "pl": "stół negocjacyjny"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Verhandlungstische",
+        "notes": {
+          "en": "Common idiom: an den Verhandlungstisch zurückkehren (return to talks).",
+          "pl": "Częsty zwrot: an den Verhandlungstisch zurückkehren (wrócić do rozmów)."
+        },
+        "examples": [
+          "Alle Beteiligten sollten an den Verhandlungstisch zurückkehren.",
+          "Am Verhandlungstisch wurde ein Kompromiss erzielt."
+        ]
+      },
+      {
+        "id": 40,
+        "word": "der Spionageverdacht",
+        "translation": {
+          "en": "suspicion of espionage",
+          "pl": "podejrzenie szpiegostwa"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Pattern: wegen Spionageverdachts (due to suspicion of espionage).",
+          "pl": "Konstrukcja: wegen Spionageverdachts (z powodu podejrzenia szpiegostwa)."
+        },
+        "examples": [
+          "Gegen den Mitarbeiter wird wegen Spionageverdachts ermittelt.",
+          "Der Spionageverdacht sorgte in der Branche für Unruhe."
+        ]
+      },
+      {
+        "id": 41,
+        "word": "einleiten",
+        "translation": {
+          "en": "to initiate, to launch",
+          "pl": "wszcząć, zainicjować"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Separable verb: leitet ein; common with Untersuchung or Maßnahmen.",
+          "pl": "Czasownik rozdzielnie złożony; częsty ze słowami Untersuchung lub Maßnahmen."
+        },
+        "examples": [
+          "Die Behörde hat ein formelles Verfahren eingeleitet.",
+          "Der Konzern leitet Maßnahmen zur Kostensenkung ein."
+        ]
+      },
+      {
+        "id": 42,
+        "word": "die Affäre",
+        "translation": {
+          "en": "affair, scandal",
+          "pl": "afera, romans"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Affären",
+        "notes": {
+          "en": "In news, often refers to a political or corporate scandal as well as a personal affair.",
+          "pl": "W wiadomościach oznacza zarówno skandal polityczny czy biznesowy, jak i romans."
+        },
+        "examples": [
+          "Die Affäre schadete dem Ruf des Unternehmens erheblich.",
+          "Nach der Affäre trat der Minister von seinem Amt zurück."
+        ]
+      },
+      {
+        "id": 43,
+        "word": "die Spionin",
+        "translation": {
+          "en": "female spy",
+          "pl": "szpieg (kobieta)"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Spioninnen",
+        "notes": {
+          "en": "Masculine form: der Spion (plural: die Spione).",
+          "pl": "Forma męska: der Spion (liczba mnoga: die Spione)."
+        },
+        "examples": [
+          "Die mutmaßliche Spionin soll geheime Daten gesammelt haben.",
+          "Im Prozess wurden der Spionin mehrere Treffen nachgewiesen."
+        ]
+      },
+      {
+        "id": 44,
+        "word": "der Gründer",
+        "translation": {
+          "en": "founder",
+          "pl": "założyciel"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Gründer",
+        "notes": {
+          "en": "From gründen (to found). Feminine: die Gründerin.",
+          "pl": "Od czasownika gründen (założyć). Forma żeńska: die Gründerin."
+        },
+        "examples": [
+          "Der Gründer verkaufte das Start-up nach zehn Jahren.",
+          "Die Gründerin leitet das Unternehmen bis heute."
+        ]
+      },
+      {
+        "id": 45,
+        "word": "die Unterbrechung",
+        "translation": {
+          "en": "interruption, break",
+          "pl": "przerwa, przerwanie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Unterbrechungen",
+        "notes": {
+          "en": "Common phrase: ohne Unterbrechung (without interruption).",
+          "pl": "Częsty zwrot: ohne Unterbrechung (bez przerwy)."
+        },
+        "examples": [
+          "Nach einer kurzen Unterbrechung wurde die Sitzung fortgesetzt.",
+          "Die Fabrik arbeitet rund um die Uhr ohne Unterbrechung."
+        ]
+      },
+      {
+        "id": 46,
+        "word": "der Ausschuss",
+        "translation": {
+          "en": "committee, board",
+          "pl": "komisja, komitet"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Ausschüsse",
+        "notes": {
+          "en": "Also means defective goods (rejects) in manufacturing contexts.",
+          "pl": "W przemyśle oznacza też braki produkcyjne."
+        },
+        "examples": [
+          "Der Ausschuss prüft den Gesetzentwurf bis nächste Woche.",
+          "Ein unabhängiger Ausschuss überwacht die internen Kontrollen."
+        ]
+      },
+      {
+        "id": 47,
+        "word": "der Vorwurf",
+        "translation": {
+          "en": "accusation, allegation, reproach",
+          "pl": "zarzut"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Vorwürfe",
+        "notes": {
+          "en": "Common collocation: Vorwürfe zurückweisen (reject allegations).",
+          "pl": "Częste połączenie: Vorwürfe zurückweisen (odeprzeć zarzuty)."
+        },
+        "examples": [
+          "Der Manager wies alle Vorwürfe entschieden zurück.",
+          "Gegen die Behörde wurden schwere Vorwürfe erhoben."
+        ]
+      },
+      {
+        "id": 48,
+        "word": "beaufsichtigen",
+        "translation": {
+          "en": "to supervise, to oversee",
+          "pl": "nadzorować"
+        },
+        "partOfSpeech": "Verb",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Inseparable verb (be-): beaufsichtigt, beaufsichtigte, hat beaufsichtigt.",
+          "pl": "Czasownik nierozdzielnie złożony: beaufsichtigt, beaufsichtigte, hat beaufsichtigt."
+        },
+        "examples": [
+          "Externe Prüfer beaufsichtigen den gesamten Ablauf.",
+          "Eine neue Abteilung soll den Datenschutz im Konzern beaufsichtigen."
+        ]
+      }
+    ]
+  },
+  "speaking": {
+    "prompt": {
+      "en": "You are my German language tutor conducting a 20-minute B1-to-C1 speaking conversation based on the Listening section of today's lesson (German news from 9 November 2026).\n\nListening reference – the 6 news stories from today's Listening section, in the same order as the articles:\n1. The suspected gunman who shot six people dead and injured 15 in Krakow's old town has died in hospital; prosecutors are investigating hints of terrorism, the bodies of his parents and sister were found at his parents' home, and Poland has declared two days of national mourning.\n2. Around 2,800 soldiers from eleven countries are beginning the first military exercise of the \"Coalition of the Willing\" in Poland to test how a lasting peace could be secured after the war with Russia, with a later deployment in Ukraine planned in the event of a ceasefire.\n3. At the Evangelical Church parliament in Würzburg, Central Council of Jews president Josef Schuster called for civil courage against growing antisemitism and recalled the Nazi November pogroms of 1938, as events across Germany also mark the anniversary of the fall of the Berlin Wall 37 years ago.\n4. During a visit to Buenos Aires, Pope Leo XIV urged Argentine President Javier Milei to show greater consideration for weaker groups in society, contrasting market liberalism with Catholic social teaching and the common good.\n5. The UN climate conference COP31 has opened in Antalya under Australian chairmanship and a Turkish presidency, with Germany represented by Environment Minister Carsten Schneider while the US government under Donald Trump stays away.\n6. Chipmaker Nvidia has launched an investigation into CEO Jensen Huang over alleged espionage involving a suspected Chinese spy, while stating that Huang will continue leading the company under the oversight of an independent board committee.\n\nGrammar focus to elicit: Real conditions with wenn, falls and sofern.\n\nUseful words from today's Listening articles (invite me to use them): der Täter, die Staatsanwaltschaft, die Waffenruhe, die Zivilcourage, die Rücksicht, der Vorsitz, der Spionageverdacht, der Vorwurf.\n\nInstructions for the AI tutor:\n1. Start the conversation: greet me and ask whether I have listened to today's broadcast. If not, summarise story 1 in two simple German sentences and continue.\n2. You ask, I speak: one question per turn, one or two short sentences, never answer your own questions. German at B1-C1 level; English only if I am really stuck.\n3. Questions refer to the stories above, in order, covering at least four: facts first, then causes, consequences, other perspectives, my evaluation. Near the end, ask me to connect two stories.\n4. Encourage me to connect facts and possible consequences using real conditional clauses with wenn, falls, and sofern, varying between putting the condition first (with verb-first inversion in the main clause) and putting the main clause first.\n5. Question ideas (adapt to my answers): (story 1) Was wird die Staatsanwaltschaft tun, wenn sie eindeutige Beweise für Terrorismus findet? (story 2) Was ist geplant, falls es in der Ukraine zu einer Waffenruhe kommt? (story 3) Wie verändert sich unsere Gesellschaft, wenn mehr Menschen Zivilcourage zeigen? (story 5) Was bedeutet es für die Klimakonferenz, sofern die USA den Verhandlungen dauerhaft fernbleiben? (story 6) Was könnte bei Nvidia passieren, falls sich der Spionageverdacht gegen den Konzernchef bestätigt?\n6. Immediate correction: if I break today's rule (e.g. *Wenn eine Waffenruhe beginnt, die Truppe geht in die Ukraine.* instead of *Wenn eine Waffenruhe beginnt, geht die Truppe in die Ukraine.*), stop briefly: quote the error, give the correct sentence, explain the rule in 1 English sentence, ask me to repeat the correct sentence aloud before the next question.\n7. Also correct other significant errors briefly; note recurring mistakes for the final feedback. If my answer is very short, ask one follow-up („Warum?“).\n8. Wrap-up after ~20 minutes or when I say \"stop\": two things I did well, three key mistakes with corrections, five words to review, one German sentence to repeat aloud.\n9. Keep the tone engaging, professional, natural for an immersive German voice dialogue. Address me as „du“.",
+      "pl": "Jesteś moim nauczycielem języka niemieckiego i prowadzisz 20-minutową rozmowę na poziomie od B1 do C1 w oparciu o część Słuchanie z dzisiejszej lekcji (niemieckie wiadomości z 9 listopada 2026 roku).\n\nMateriał ze Słuchania – 6 tematów wiadomości z dzisiejszej części Słuchanie, w tej samej kolejności co artykuły:\n1. Domniemany sprawca strzelaniny na krakowskim Starym Mieście, w której zginęło sześć osób, a 15 zostało rannych, zmarł w szpitalu; prokuratura bada wątki terrorystyczne, w domu jego rodziców znaleziono ciała matki, ojca i siostry, a w Polsce ogłoszono dwudniową żałobę narodową.\n2. Około 2800 żołnierzy z jedenastu krajów rozpoczyna w Polsce pierwsze manewry wojskowe „Koalicji Chętnych”, aby sprawdzić, jak po wojnie z Rosją zapewnić trwały pokój; w przypadku zawieszenia broni planowane jest późniejsze wysłanie oddziałów na Ukrainę.\n3. Na synodzie Kościoła Ewangelickiego w Würzburgu przewodniczący Centralnej Rady Żydów Josef Schuster wezwał do odwagi cywilnej wobec rosnącego antysemityzmu i przypomniał nazistowską noc kryształową z 1938 roku, a w całych Niemczech upamiętnia się też upadek muru berlińskiego sprzed 37 lat.\n4. Podczas wizyty w Buenos Aires papież Leon XIV napomniał prezydenta Argentyny Javiera Mileia, by okazywał więcej względu słabszym grupom społecznym, przeciwstawiając radykalnemu liberalizmowi rynkowemu katolicką naukę społeczną i dobro wspólne.\n5. W Antalyi rozpoczęła się konferencja klimatyczna ONZ COP31 pod przewodnictwem Australii i prezydencją Turcji; Niemcy reprezentuje minister środowiska Carsten Schneider, natomiast rząd USA pod kierownictwem Donalda Trumpa nie bierze udziału w obradach.\n6. Producent układów AI Nvidia wszczął dochodzenie wobec prezesa Jensena Huanga w związku z podejrzeniem szpiegostwa z udziałem domniemanej chińskiej szpieg, informując jednocześnie, że Huang będzie nadal kierował firmą pod nadzorem niezależnego komitetu dyrektorów.\n\nZagadnienie gramatyczne do ćwiczenia: Warunki rzeczywiste ze spójnikami wenn, falls i sofern.\n\nPrzydatne słowa z dzisiejszych artykułów ze Słuchania (zachęcaj mnie do ich używania): der Täter, die Staatsanwaltschaft, die Waffenruhe, die Zivilcourage, die Rücksicht, der Vorsitz, der Spionageverdacht, der Vorwurf.\n\nInstrukcje dla tutora AI:\n1. Rozpocznij rozmowę: przywitaj się ze mną i zapytaj, czy wysłuchałem dzisiejszego nagrania. Jeśli nie, streść temat 1 w dwóch prostych zdaniach po niemiecku i kontynuuj.\n2. Ty pytasz, ja mówię: jedno pytanie w jednej wypowiedzi, jedno lub dwa krótkie zdania, nigdy nie odpowiadaj na własne pytania. Mów po niemiecku na poziomie B1–C1; na polski przechodź tylko wtedy, gdy naprawdę utknę.\n3. Pytania odnoszą się do powyższych tematów po kolei i obejmują co najmniej cztery z nich: najpierw fakty, potem przyczyny, skutki, inne perspektywy i moją ocenę. Pod koniec poproś mnie o połączenie dwóch tematów.\n4. Zachęcaj mnie do łączenia faktów i możliwych skutków za pomocą rzeczywistych zdań warunkowych z wenn, falls i sofern, raz stawiając warunek na początku (z inwersją w zdaniu głównym), a raz zaczynając od zdania głównego.\n5. Pomysły na pytania (dostosuj do moich odpowiedzi): (temat 1) Was wird die Staatsanwaltschaft tun, wenn sie eindeutige Beweise für Terrorismus findet? (temat 2) Was ist geplant, falls es in der Ukraine zu einer Waffenruhe kommt? (temat 3) Wie verändert sich unsere Gesellschaft, wenn mehr Menschen Zivilcourage zeigen? (temat 5) Was bedeutet es für die Klimakonferenz, sofern die USA den Verhandlungen dauerhaft fernbleiben? (temat 6) Was könnte bei Nvidia passieren, falls sich der Spionageverdacht gegen den Konzernchef bestätigt?\n6. Natychmiastowa korekta: jeśli złamię dzisiejszą zasadę (np. *Wenn eine Waffenruhe beginnt, die Truppe geht in die Ukraine.* zamiast *Wenn eine Waffenruhe beginnt, geht die Truppe in die Ukraine.*), zatrzymaj się na chwilę: zacytuj błąd, podaj poprawne zdanie, wyjaśnij zasadę w 1 zdaniu po polsku i poproś mnie o głośne powtórzenie poprawnego zdania przed kolejnym pytaniem.\n7. Poprawiaj też krótko inne istotne błędy; powtarzające się błędy zanotuj do końcowej informacji zwrotnej. Jeśli moja odpowiedź jest bardzo krótka, zadaj jedno pytanie uzupełniające („Warum?“).\n8. Podsumowanie po ~20 minutach lub gdy powiem „stop”: dwie rzeczy, które poszły mi dobrze, trzy główne błędy z poprawkami, pięć słów do powtórzenia i jedno niemieckie zdanie do głośnego powtórzenia.\n9. Zachowaj angażujący, profesjonalny i naturalny ton do immersyjnej rozmowy głosowej po niemiecku. Zwracaj się do mnie per „du”."
+    }
+  }
 }
 ]
