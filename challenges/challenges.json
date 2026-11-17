@@ -42848,5 +42848,1768 @@
       "pl": "Jesteś moim nauczycielem języka niemieckiego i prowadzisz 20-minutową rozmowę na poziomie od B1 do C1 w oparciu o część Słuchanie z dzisiejszej lekcji (niemieckie wiadomości z 12 listopada 2026 roku).\n\nMateriał ze Słuchania – 6 tematów wiadomości z dzisiejszej części Słuchanie, w tej samej kolejności co artykuły:\n1. Demokrata Scott Colom nieznacznie pokonał w Missisipi popieraną przez Donalda Trumpa republikankę Cindy Hyde-Smith i został pierwszym czarnoskórym senatorem tego stanu od XIX wieku, stawiając w kampanii na rosnące koszty życia i powiększając większość Demokratów w Senacie do co najmniej 55 miejsc.\n2. Papież Leon XIV przybył do Peru w ramach podróży po Ameryce Południowej na spotkania z prezydent Keiko Fujimori i przedstawicielami społeczeństwa obywatelskiego, po mszy plenerowej w Argentynie z udziałem ponad dwóch milionów osób.\n3. Amerykańscy negocjatorzy Steve Witkoff i Jared Kushner spotykają się w Moskwie z prezydentem Rosji Władimirem Putinem, aby zdać relację z rozmów w Abu Zabi i przekonać go do udziału Europy, zanim udadzą się do Dublina na spotkanie z Wołodymyrem Zełenskim, podczas gdy w rosyjskim ataku koło Odessy zginęły co najmniej cztery osoby.\n4. Prezes Nvidii Jensen Huang znajduje się pod coraz większą presją po doniesieniach o kilku romansach, w tym z domniemaną chińską szpieg i z wysoką menedżerką firmy; rada dyrektorów omawiała jego przyszłość, koncern wszczął śledztwo, a akcje Nvidii spadły po sesji o siedem procent.\n5. Na dwa i pół tygodnia przed wyborami parlamentarnymi w Hiszpanii pierwszy od 14 lat strajk generalny sparaliżował część życia publicznego, fabryki aut, porty, kolej i loty; zatrzymano co najmniej 23 osoby, a związki zawodowe i pracodawcy podają sprzeczne oceny frekwencji.\n6. Dziesiątki tysięcy osób wzięły udział w corocznym Marszu Niepodległości w Warszawie; w pierwszym rzędzie szedł prawicowo-konserwatywny prezydent Karol Nawrocki obok organizatorów ze środowisk nacjonalistycznych i skrajnie prawicowych, natomiast premier Donald Tusk nie pojawił się na wydarzeniu.\n\nZagadnienie gramatyczne do ćwiczenia: Rozpoznawanie ról mianownika, biernika i celownika w rzeczywistych zdaniach.\n\nPrzydatne słowa z dzisiejszych artykułów ze Słuchania (zachęcaj mnie do ich używania): die Senatswahl, die Lebenshaltungskosten, die Beteiligung, der Verwaltungsrat, der Generalstreik, der Wohnraum, die Kundgebung, die Unabhängigkeit.\n\nInstrukcje dla tutora AI:\n1. Rozpocznij rozmowę: przywitaj się ze mną i zapytaj, czy wysłuchałem dzisiejszego nagrania. Jeśli nie, streść temat 1 w dwóch prostych zdaniach po niemiecku i kontynuuj.\n2. Ty pytasz, ja mówię: jedno pytanie w jednej wypowiedzi, jedno lub dwa krótkie zdania, nigdy nie odpowiadaj na własne pytania. Mów po niemiecku na poziomie B1–C1; na polski przechodź tylko wtedy, gdy naprawdę utknę.\n3. Pytania odnoszą się do powyższych tematów po kolei i obejmują co najmniej cztery z nich: najpierw fakty, potem przyczyny, skutki, inne perspektywy i moją ocenę. Pod koniec poproś mnie o połączenie dwóch tematów.\n4. Zachęcaj mnie do budowania pełnych zdań z wyraźnymi rolami mianownika, biernika i celownika — w tym zdań z wysuniętym na początek dopełnieniem w bierniku lub celowniku (np. Den neuen Senator unterstützen viele Wähler lub Dem Verwaltungsrat berichteten Medien über die Affären) — i co jakiś czas proś mnie o wskazanie, który człon zdania stoi w mianowniku, bierniku albo celowniku.\n5. Pomysły na pytania (dostosuj do moich odpowiedzi): (temat 1) Wer hat wen in Mississippi besiegt, und welches Thema war den Wählern besonders wichtig? (temat 2) Wem hat der Papst in Argentinien und Peru seine Botschaft vermittelt? (temat 3) Wen treffen die US-Unterhändler zuerst, und wem wollen sie danach berichten? (temat 4) Welche Folgen hat die Affäre für den Konzernchef, und was wirft man ihm vor? (temat 5) Wem schadet der Generalstreik in Spanien, und was fordern die Demonstranten von der Regierung?\n6. Natychmiastowa korekta: jeśli złamię dzisiejszą zasadę (np. *Der Bericht überreicht der Berater dem Chef.* zamiast *Den Bericht überreicht der Berater dem Chef.*), zatrzymaj się na chwilę: zacytuj błąd, podaj poprawne zdanie, wyjaśnij zasadę w 1 zdaniu po polsku i poproś mnie o głośne powtórzenie poprawnego zdania przed kolejnym pytaniem.\n7. Poprawiaj też krótko inne istotne błędy; powtarzające się błędy zanotuj do końcowej informacji zwrotnej. Jeśli moja odpowiedź jest bardzo krótka, zadaj jedno pytanie uzupełniające („Warum?“).\n8. Podsumowanie po ~20 minutach lub gdy powiem „stop”: dwie rzeczy, które poszły mi dobrze, trzy główne błędy z poprawkami, pięć słów do powtórzenia i jedno niemieckie zdanie do głośnego powtórzenia.\n9. Zachowaj angażujący, profesjonalny i naturalny ton do immersyjnej rozmowy głosowej po niemiecku. Zwracaj się do mnie per „du”."
     }
   }
+},
+{
+  "lesson": {
+    "id": "2026-11-13",
+    "date": "13.11.2026",
+    "day": 32,
+    "totalDays": 300,
+    "level": "B1",
+    "title": {
+      "en": "Dative-Governing Verbs without a Direct Accusative Object",
+      "pl": "Czasowniki rządzące celownikiem bez dopełnienia w bierniku"
+    },
+    "subtitle": "Verben mit Dativ ohne Akkusativobjekt"
+  },
+  "grammar": {
+    "html": {
+      "en": [
+        "<p>While most transitive verbs in German take a direct accusative object, an important group of verbs govern <strong>only the dative case</strong> and never take a direct accusative object. Even when the English or Polish equivalent looks like a direct object, the sole object of these verbs must appear in the dative (<em>dem, der, denen, ihm, ihr, ihnen</em>).</p>",
+        "<div class='box rule'><strong>Core rule:</strong> Learn dative-only verbs together with their case (<em>jemandem / einer Sache + Verb</em>) and put their single object in the dative—never the accusative.</div>",
+        "<h3>Everyday dative-only verbs</h3>",
+        "<p>Common everyday verbs taking only a dative object include <em>helfen</em> (help), <em>danken</em> (thank), <em>antworten</em> (answer), <em>glauben</em> (believe), <em>vertrauen</em> (trust), <em>gratulieren</em> (congratulate), <em>folgen</em> (follow), and <em>gehören</em> (belong to). With <em>gefallen</em>, <em>passen</em>, and <em>schmecken</em>, the thing is the nominative subject and the person is the dative object: <em>Der Plan gefällt <strong>mir</strong></em>.</p>",
+        "<table><thead><tr><th>Verb</th><th>Meaning</th><th>Example</th></tr></thead><tbody><tr><td class='de'>helfen</td><td>to help</td><td class='de'>Wir helfen <strong>dem Kollegen</strong>.</td></tr><tr><td class='de'>danken</td><td>to thank</td><td class='de'>Sie dankt <strong>ihren Partnern</strong>.</td></tr><tr><td class='de'>folgen</td><td>to follow</td><td class='de'>Die Gruppen folgen <strong>dem Plan</strong>.</td></tr><tr><td class='de'>gehören</td><td>to belong to</td><td class='de'>Das System gehört <strong>der Firma</strong>.</td></tr><tr><td class='de'>gefallen</td><td>to appeal to</td><td class='de'>Die Idee gefällt <strong>den Wählern</strong>.</td></tr></tbody></table>",
+        "<h3>Formal and news dative verbs</h3>",
+        "<p>In politics, business, and news reporting, many prefixed and formal verbs also take only a dative object: <em>zustimmen</em> (approve), <em>widersprechen</em> (contradict), <em>entsprechen</em> (correspond to), <em>schaden</em> (harm), <em>nützen</em> (benefit), <em>drohen</em> (threaten), <em>begegnen</em> (counter/meet), <em>vorbeugen</em> (prevent), <em>entgehen</em> (escape), and <em>nachgehen</em> (investigate). Be careful not to confuse them with near-synonyms that take the accusative, such as <em>unterstützen</em> or <em>fragen</em>.</p>",
+        "<ul><li><em>Der Bundestag <strong>stimmt</strong> <strong>der Reform</strong> <strong>zu</strong>.</em> (dative: approve the reform)</li><li><em>Der Anstieg <strong>entspricht</strong> <strong>einem Plus</strong> von 45 Prozent.</em> (dative: correspond to an increase)</li><li><em>Die Störung <strong>schadet</strong> <strong>den Nutzern</strong> weltweit.</em> (dative plural adds <em>-n</em>)</li><li><em>Der Ausschuss <strong>geht</strong> <strong>den Vorwürfen</strong> <strong>nach</strong>.</em> (separable dative verb: investigate)</li></ul>",
+        "<h3>Passive sentences and verb contrasts</h3>",
+        "<p>Because dative-only verbs have no direct accusative object, the dative object cannot become the subject of a passive sentence. Instead, German keeps it in the dative: <em><strong>Der Reform</strong> wird zugestimmt</em> or <em><strong>Dem Minister</strong> wurde gedankt</em>. Remember also to keep closely related verbs apart: <em>fragen</em> takes accusative, while <em>antworten</em> takes dative.</p>",
+        "<table><thead><tr><th>Accusative verb</th><th>Dative-only verb</th><th>Dative example</th></tr></thead><tbody><tr><td class='de'>unterstützen (+ Acc.)</td><td class='de'>zustimmen (+ Dat.)</td><td class='de'>Wir stimmen <strong>dem Entwurf</strong> zu.</td></tr><tr><td class='de'>fragen (+ Acc.)</td><td class='de'>antworten (+ Dat.)</td><td class='de'>Er antwortet <strong>dem Senator</strong>.</td></tr><tr><td class='de'>treffen (+ Acc.)</td><td class='de'>begegnen (+ Dat.)</td><td class='de'>Sie begegnen <strong>der Gefahr</strong> aktiv.</td></tr></tbody></table>",
+        "<div class='box warn'><strong>Common mistake: using accusative or mixing up verb cases</strong><p>✗ <em>Der Bundestag stimmt die Reform zu.</em> / ✗ <em>Ich danke dich.</em></p><p>✓ <em>Der Bundestag stimmt <strong>der Reform</strong> zu.</em> / ✓ <em>Ich danke <strong>dir</strong>.</em></p><p><em>zustimmen</em> and <em>danken</em> govern only the dative; always check whether a verb belongs to the dative group before picking <em>der/dem/dir</em>.</p></div>",
+        "<div class='box tip'><strong>Memory aid: learn every verb with jemandem</strong><p>Memorise these verbs in chunks—<em>jemandem helfen, einer Sache zustimmen, einer Zahl entsprechen</em>—so the dative ending comes automatically.</p></div>",
+        "<h3>Quick reference</h3>",
+        "<div class='tiles'><div class='tile'><strong>Everyday</strong><p><em>Ich helfe <strong>meinem Kollegen</strong>.</em></p></div><div class='tile'><strong>Approval</strong><p><em>Er stimmt <strong>dem Plan</strong> zu.</em></p></div><div class='tile'><strong>Contrast</strong><p><em>Sie widerspricht <strong>dem Bericht</strong>.</em></p></div><div class='tile'><strong>Passive</strong><p><em><strong>Den Opfern</strong> wird geholfen.</em></p></div></div>"
+      ],
+      "pl": [
+        "<p>Podczas gdy większość czasowników przechodnich w języku niemieckim łączy się z dopełnieniem w bierniku, ważna grupa czasowników rządzi <strong>wyłącznie celownikiem</strong> i nigdy nie przyjmuje dopełnienia bliższego w bierniku. Nawet gdy odpowiednik angielski lub polski wygląda jak dopełnienie bliższe, jedyny obiekt tych czasowników musi stać w celowniku (<em>dem, der, denen, ihm, ihr, ihnen</em>).</p>",
+        "<div class='box rule'><strong>Główna zasada:</strong> Ucz się czasowników wyłącznie celownikowych razem z ich przypadkiem (<em>jemandem / einer Sache + Verb</em>) i stawiaj ich jedyne dopełnienie w celowniku — nigdy w bierniku.</div>",
+        "<h3>Codzienne czasowniki wyłącznie celownikowe</h3>",
+        "<p>Do częstych czasowników codziennych łączących się tylko z celownikiem należą <em>helfen</em> (pomagać), <em>danken</em> (dziękować), <em>antworten</em> (odpowiadać), <em>glauben</em> (wierzyć), <em>vertrauen</em> (ufać), <em>gratulieren</em> (gratulować), <em>folgen</em> (podążać za) oraz <em>gehören</em> (należeć do). Przy <em>gefallen</em>, <em>passen</em> i <em>schmecken</em> rzecz jest podmiotem w mianowniku, a osoba obiektem w celowniku: <em>Der Plan gefällt <strong>mir</strong></em>.</p>",
+        "<table><thead><tr><th>Czasownik</th><th>Znaczenie</th><th>Przykład</th></tr></thead><tbody><tr><td class='de'>helfen</td><td>pomagać</td><td class='de'>Wir helfen <strong>dem Kollegen</strong>.</td></tr><tr><td class='de'>danken</td><td>dziękować</td><td class='de'>Sie dankt <strong>ihren Partnern</strong>.</td></tr><tr><td class='de'>folgen</td><td>podążać za</td><td class='de'>Die Gruppen folgen <strong>dem Plan</strong>.</td></tr><tr><td class='de'>gehören</td><td>należeć do</td><td class='de'>Das System gehört <strong>der Firma</strong>.</td></tr><tr><td class='de'>gefallen</td><td>podobać się</td><td class='de'>Die Idee gefällt <strong>den Wählern</strong>.</td></tr></tbody></table>",
+        "<h3>Oficjalne i prasowe czasowniki z celownikiem</h3>",
+        "<p>W polityce, biznesie i wiadomościach wiele czasowników przedrostkowych i oficjalnych również wymaga wyłącznie celownika: <em>zustimmen</em> (zgadzać się na), <em>widersprechen</em> (przeczyć), <em>entsprechen</em> (odpowiadać czemuś), <em>schaden</em> (szkodzić), <em>nützen</em> (służyć), <em>drohen</em> (zagrażać), <em>begegnen</em> (stawiać czoła / spotykać), <em>vorbeugen</em> (zapobiegać), <em>entgehen</em> (unikać) oraz <em>nachgehen</em> (badać). Nie myl ich z bliskoznacznymi czasownikami z biernikiem, takimi jak <em>unterstützen</em> czy <em>fragen</em>.</p>",
+        "<ul><li><em>Der Bundestag <strong>stimmt</strong> <strong>der Reform</strong> <strong>zu</strong>.</em> (celownik: zatwierdzić reformę)</li><li><em>Der Anstieg <strong>entspricht</strong> <strong>einem Plus</strong> von 45 Prozent.</em> (celownik: odpowiadać wzrostowi)</li><li><em>Die Störung <strong>schadet</strong> <strong>den Nutzern</strong> weltweit.</em> (celownik liczby mnogiej dodaje <em>-n</em>)</li><li><em>Der Ausschuss <strong>geht</strong> <strong>den Vorwürfen</strong> <strong>nach</strong>.</em> (rozdzielny czasownik z celownikiem: badać)</li></ul>",
+        "<h3>Strona bierna i kontrasty między czasownikami</h3>",
+        "<p>Ponieważ czasowniki wyłącznie celownikowe nie mają dopełnienia w bierniku, obiekt w celowniku nie może stać się podmiotem strony biernej. Niemiecki zachowuje go w celowniku: <em><strong>Der Reform</strong> wird zugestimmt</em> lub <em><strong>Dem Minister</strong> wurde gedankt</em>. Pamiętaj też o rozróżnianiu pokrewnych czasowników: <em>fragen</em> łączy się z biernikiem, a <em>antworten</em> z celownikiem.</p>",
+        "<table><thead><tr><th>Czasownik z biernikiem</th><th>Czasownik z celownikiem</th><th>Przykład z celownikiem</th></tr></thead><tbody><tr><td class='de'>unterstützen (+ biern.)</td><td class='de'>zustimmen (+ cel.)</td><td class='de'>Wir stimmen <strong>dem Entwurf</strong> zu.</td></tr><tr><td class='de'>fragen (+ biern.)</td><td class='de'>antworten (+ cel.)</td><td class='de'>Er antwortet <strong>dem Senator</strong>.</td></tr><tr><td class='de'>treffen (+ biern.)</td><td class='de'>begegnen (+ cel.)</td><td class='de'>Sie begegnen <strong>der Gefahr</strong> aktiv.</td></tr></tbody></table>",
+        "<div class='box warn'><strong>Typowy błąd: użycie biernika lub mylenie rekcji czasowników</strong><p>✗ <em>Der Bundestag stimmt die Reform zu.</em> / ✗ <em>Ich danke dich.</em></p><p>✓ <em>Der Bundestag stimmt <strong>der Reform</strong> zu.</em> / ✓ <em>Ich danke <strong>dir</strong>.</em></p><p><em>zustimmen</em> i <em>danken</em> rządzą wyłącznie celownikiem; przed wyborem <em>der/dem/dir</em> zawsze sprawdź, czy czasownik należy do grupy celownikowej.</p></div>",
+        "<div class='box tip'><strong>Pomoc w zapamiętaniu: ucz się czasowników z jemandem</strong><p>Zapamiętuj te czasowniki całymi zwrotami — <em>jemandem helfen, einer Sache zustimmen, einer Zahl entsprechen</em> — aby końcówka celownika pojawiała się automatycznie.</p></div>",
+        "<h3>Szybki przegląd</h3>",
+        "<div class='tiles'><div class='tile'><strong>Codzienne</strong><p><em>Ich helfe <strong>meinem Kollegen</strong>.</em></p></div><div class='tile'><strong>Aprobata</strong><p><em>Er stimmt <strong>dem Plan</strong> zu.</em></p></div><div class='tile'><strong>Sprzeciw</strong><p><em>Sie widerspricht <strong>dem Bericht</strong>.</em></p></div><div class='tile'><strong>Strona bierna</strong><p><em><strong>Den Opfern</strong> wird geholfen.</em></p></div></div>"
+      ]
+    }
+  },
+  "examples": [
+    {
+      "de": "Ich **helfe** **meinem Bruder**.",
+      "en": "I am helping my brother.",
+      "pl": "Pomagam mojemu bratu.",
+      "level": "A1"
+    },
+    {
+      "de": "Das Buch **gefällt** **mir** sehr gut.",
+      "en": "I like the book very much.",
+      "pl": "Ta książka bardzo mi się podoba.",
+      "level": "A1"
+    },
+    {
+      "de": "Wir **danken** **der Kollegin** für die schnelle Antwort.",
+      "en": "We thank the colleague for the quick reply.",
+      "pl": "Dziękujemy koleżance za szybką odpowiedź.",
+      "level": "A2"
+    },
+    {
+      "de": "Dieses Auto **gehört** **unserem Nachbarn**.",
+      "en": "This car belongs to our neighbour.",
+      "pl": "Ten samochód należy do naszego sąsiada.",
+      "level": "A2"
+    },
+    {
+      "de": "Der neue Mantel **passt** **dir** perfekt.",
+      "en": "The new coat fits you perfectly.",
+      "pl": "Nowy płaszcz pasuje na ciebie idealnie.",
+      "level": "A2"
+    },
+    {
+      "de": "Der Minister **antwortet** **den Journalisten** kurz nach der Sitzung.",
+      "en": "The minister answers the journalists shortly after the meeting.",
+      "pl": "Minister odpowiada dziennikarzom krótko po posiedzeniu.",
+      "level": "B1"
+    },
+    {
+      "de": "Die Teilnehmer **vertrauen** **dem erfahrenen Projektleiter**.",
+      "en": "The participants trust the experienced project leader.",
+      "pl": "Uczestnicy ufają doświadczonemu kierownikowi projektu.",
+      "level": "B1"
+    },
+    {
+      "de": "Alle Kollegen **gratulieren** **ihr** zum neuen Posten.",
+      "en": "All colleagues congratulate her on the new position.",
+      "pl": "Wszyscy koledzy gratulują jej nowego stanowiska.",
+      "level": "B1"
+    },
+    {
+      "de": "Der Fahrer **folgt** **den Anweisungen** der Polizei.",
+      "en": "The driver follows the police's instructions.",
+      "pl": "Kierowca stosuje się do poleceń policji.",
+      "level": "B1"
+    },
+    {
+      "de": "Diese Aussage **widerspricht** **meiner eigenen Erfahrung**.",
+      "en": "This statement contradicts my own experience.",
+      "pl": "To stwierdzenie przeczy mojemu własnemu doświadczeniu.",
+      "level": "B1"
+    },
+    {
+      "de": "Der Bundestag **stimmt** **der geplanten Reform** voraussichtlich **zu**.",
+      "en": "The Bundestag is expected to approve the planned reform.",
+      "pl": "Bundestag prawdopodobnie zatwierdzi planowaną reformę.",
+      "level": "B2"
+    },
+    {
+      "de": "Der starke Anstieg **entspricht** **einem Plus** von 45 Prozent.",
+      "en": "The sharp rise corresponds to an increase of 45 percent.",
+      "pl": "Silny wzrost odpowiada wzrostowi o 45 procent.",
+      "level": "B2"
+    },
+    {
+      "de": "Eine längere Störung **schadet** **dem Vertrauen** der Nutzer.",
+      "en": "A prolonged disruption harms users' trust.",
+      "pl": "Dłuższa awaria szkodzi zaufaniu użytkowników.",
+      "level": "B2"
+    },
+    {
+      "de": "Die Behörde **begegnet** **der neuen Gefahrenlage** mit strengeren Kontrollen.",
+      "en": "The authority counters the new threat situation with stricter controls.",
+      "pl": "Urząd reaguje na nową sytuację zagrożenia ostrzejszymi kontrolami.",
+      "level": "B2"
+    },
+    {
+      "de": "Der Konzern **geht** **den gemeldeten Problemen** seit dem Morgen **nach**.",
+      "en": "The group has been investigating the reported problems since the morning.",
+      "pl": "Koncern bada zgłoszone problemy od rana.",
+      "level": "B2"
+    },
+    {
+      "de": "Die neuen Exportregeln **nützen** **der nationalen Sicherheit**, belasten aber einzelne Hersteller.",
+      "en": "The new export rules benefit national security, though they burden individual manufacturers.",
+      "pl": "Nowe zasady eksportu służą bezpieczeństwu narodowemu, choć obciążają poszczególnych producentów.",
+      "level": "C1"
+    },
+    {
+      "de": "Die Ermittler **trauen** **den offiziellen Angaben** der Behörde nur begrenzt.",
+      "en": "The investigators trust the authority's official statements only to a limited extent.",
+      "pl": "Śledczy ufają oficjalnym informacjom urzędu tylko w ograniczonym stopniu.",
+      "level": "C1"
+    },
+    {
+      "de": "Nur wenige Abgeordnete **widersprachen** **dem umstrittenen Gesetzentwurf** im Ausschuss offen.",
+      "en": "Only a few lawmakers openly opposed the controversial bill in committee.",
+      "pl": "Tylko nieliczni posłowie otwarcie sprzeciwili się kontrowersyjnemu projektowi ustawy w komisji.",
+      "level": "C1"
+    },
+    {
+      "de": "Der Gesetzentwurf **kommt** **den Forderungen** der Sicherheitsdienste weitgehend **entgegen**.",
+      "en": "The bill largely accommodates the demands of the intelligence services.",
+      "pl": "Projekt ustawy w dużej mierze wychodzi naprzeciw żądaniom służb bezpieczeństwa.",
+      "level": "C2"
+    },
+    {
+      "de": "Die tatsächlichen Resultate **genügen** **den strengen Qualitätsmaßstäben** des Senatsausschusses bislang nicht.",
+      "en": "The actual results do not yet satisfy the strict quality standards of the Senate committee.",
+      "pl": "Rzeczywiste rezultaty nie spełniają jak dotąd surowych kryteriów jakościowych komisji Senatu.",
+      "level": "C2"
+    }
+  ],
+  "exercises": [
+    {
+      "en": "The son helps his father in the garden.",
+      "pl": "Syn pomaga swojemu ojcu w ogrodzie.",
+      "de": "Der Sohn hilft seinem Vater im Garten.",
+      "level": "A2"
+    },
+    {
+      "en": "We thank our neighbours for the invitation.",
+      "pl": "Dziękujemy naszym sąsiadom za zaproszenie.",
+      "de": "Wir danken unseren Nachbarn für die Einladung.",
+      "level": "A2"
+    },
+    {
+      "en": "This red bag belongs to my sister.",
+      "pl": "Ta czerwona torba należy do mojej siostry.",
+      "de": "Diese rote Tasche gehört meiner Schwester.",
+      "level": "A2"
+    },
+    {
+      "en": "The teacher answers the pupils patiently.",
+      "pl": "Nauczyciel cierpliwie odpowiada uczniom.",
+      "de": "Der Lehrer antwortet den Schülern geduldig.",
+      "level": "A2"
+    },
+    {
+      "en": "Do you (informal) believe the young witness?",
+      "pl": "Czy wierzysz młodemu świadkowi?",
+      "de": "Glaubst du dem jungen Zeugen?",
+      "level": "A2"
+    },
+    {
+      "en": "The blue jacket fits my brother well.",
+      "pl": "Niebieska kurtka dobrze pasuje na mojego brata.",
+      "de": "Die blaue Jacke passt meinem Bruder gut.",
+      "level": "A2"
+    },
+    {
+      "en": "The warm soup tastes good to the children.",
+      "pl": "Ciepła zupa smakuje dzieciom.",
+      "de": "Die warme Suppe schmeckt den Kindern.",
+      "level": "A2"
+    },
+    {
+      "en": "All colleagues congratulate the manager on her birthday.",
+      "pl": "Wszyscy koledzy gratulują kierowniczce z okazji urodzin.",
+      "de": "Alle Kollegen gratulieren der Leiterin zum Geburtstag.",
+      "level": "A2"
+    },
+    {
+      "en": "The dog follows the boy into the park.",
+      "pl": "Pies idzie za chłopcem do parku.",
+      "de": "Der Hund folgt dem Jungen in den Park.",
+      "level": "A2"
+    },
+    {
+      "en": "The quiet hotel appeals to our guests.",
+      "pl": "Spokojny hotel podoba się naszym gościom.",
+      "de": "Das ruhige Hotel gefällt unseren Gästen.",
+      "level": "A2"
+    },
+    {
+      "en": "The clients trust the experienced consultant.",
+      "pl": "Klienci ufają doświadczonemu doradcy.",
+      "de": "Die Kunden vertrauen dem erfahrenen Berater.",
+      "level": "B1"
+    },
+    {
+      "en": "The new colleague (female) listens attentively to the team leader.",
+      "pl": "Nowa koleżanka uważnie słucha kierownika zespołu.",
+      "de": "Die neue Kollegin hört dem Teamleiter aufmerksam zu.",
+      "level": "B1"
+    },
+    {
+      "en": "Heavy rain harms the farmers' harvest.",
+      "pl": "Ulewny deszcz szkodzi zbiorom rolników.",
+      "de": "Starker Regen schadet der Ernte der Bauern.",
+      "level": "B1"
+    },
+    {
+      "en": "The director agrees to the new schedule.",
+      "pl": "Dyrektor zgadza się na nowy harmonogram.",
+      "de": "Der Direktor stimmt dem neuen Zeitplan zu.",
+      "level": "B1"
+    },
+    {
+      "en": "The witness contradicts the driver's statement.",
+      "pl": "Świadek przeczy zeznaniu kierowcy.",
+      "de": "Der Zeuge widerspricht der Aussage des Fahrers.",
+      "level": "B1"
+    },
+    {
+      "en": "The price corresponds to the high quality of the device.",
+      "pl": "Cena odpowiada wysokiej jakości urządzenia.",
+      "de": "Der Preis entspricht der hohen Qualität des Geräts.",
+      "level": "B1"
+    },
+    {
+      "en": "On my way to the station, I met my former teacher.",
+      "pl": "W drodze na dworzec spotkałem mojego byłego nauczyciela.",
+      "de": "Auf dem Weg zum Bahnhof begegnete ich meinem ehemaligen Lehrer.",
+      "level": "B1"
+    },
+    {
+      "en": "Regular breaks benefit every employee.",
+      "pl": "Regularne przerwy służą każdemu pracownikowi.",
+      "de": "Regelmäßige Pausen nützen jedem Mitarbeiter.",
+      "level": "B1"
+    },
+    {
+      "en": "The company belongs to a family from Munich.",
+      "pl": "Firma należy do rodziny z Monachium.",
+      "de": "Das Unternehmen gehört einer Familie aus München.",
+      "level": "B1"
+    },
+    {
+      "en": "The citizens do not believe the company's promises.",
+      "pl": "Obywatele nie wierzą obietnicom firmy.",
+      "de": "Die Bürger glauben den Versprechen des Unternehmens nicht.",
+      "level": "B1"
+    },
+    {
+      "en": "The new office building appeals to almost all employees.",
+      "pl": "Nowy budynek biurowy podoba się prawie wszystkim pracownikom.",
+      "de": "Das neue Bürogebäude gefällt fast allen Mitarbeitern.",
+      "level": "B1"
+    },
+    {
+      "en": "Today's date suits the client (male) very well.",
+      "pl": "Dzisiejszy termin bardzo pasuje klientowi.",
+      "de": "Der heutige Termin passt dem Kunden sehr gut.",
+      "level": "B1"
+    },
+    {
+      "en": "We congratulate our colleagues on the successful launch.",
+      "pl": "Gratulujemy naszym kolegom udanego startu.",
+      "de": "Wir gratulieren unseren Kollegen zu dem erfolgreichen Start.",
+      "level": "B1"
+    },
+    {
+      "en": "The driver did not follow the clear detour signs.",
+      "pl": "Kierowca nie podążył za wyraźnymi znakami objazdu.",
+      "de": "Der Fahrer folgte den klaren Umleitungsschildern nicht.",
+      "level": "B1"
+    },
+    {
+      "en": "The minister thanked the rescue workers for their rapid help.",
+      "pl": "Minister podziękował ratownikom za ich szybką pomoc.",
+      "de": "Der Minister dankte den Rettungskräften für ihre schnelle Hilfe.",
+      "level": "B1"
+    },
+    {
+      "en": "The strict rules help small firms during the crisis.",
+      "pl": "Surowe zasady pomagają małym firmom podczas kryzysu.",
+      "de": "Die strengen Regeln helfen kleinen Firmen während der Krise.",
+      "level": "B1"
+    },
+    {
+      "en": "The secretary replied to the angry customer politely.",
+      "pl": "Sekretarka uprzejmie odpowiedziała zdenerwowanemu klientowi.",
+      "de": "Die Sekretärin antwortete dem verärgerten Kunden höflich.",
+      "level": "B1"
+    },
+    {
+      "en": "The doctor listens calmly to the worried patient.",
+      "pl": "Lekarz spokojnie słucha zaniepokojonego pacjenta.",
+      "de": "Der Arzt hört dem besorgten Patienten ruhig zu.",
+      "level": "B1"
+    },
+    {
+      "en": "Many young researchers belong to this international association.",
+      "pl": "Wielu młodych badaczy należy do tego międzynarodowego stowarzyszenia.",
+      "de": "Viele junge Forscher gehören diesem internationalen Verband an.",
+      "level": "B1"
+    },
+    {
+      "en": "Three European states joined the new alliance in October.",
+      "pl": "Trzy państwa europejskie przystąpiły w październiku do nowego sojuszu.",
+      "de": "Drei europäische Staaten traten im Oktober dem neuen Bündnis bei.",
+      "level": "B1"
+    },
+    {
+      "en": "The Bundestag approves the planned reform of the intelligence services.",
+      "pl": "Bundestag wyraża zgodę na planowaną reformę służb wywiadowczych.",
+      "de": "Der Bundestag stimmt der geplanten Reform der Geheimdienste zu.",
+      "level": "B2"
+    },
+    {
+      "en": "The sharp increase in students corresponds to a growth of forty-five percent.",
+      "pl": "Silny wzrost liczby studentów odpowiada przyrostowi o czterdzieści pięć procent.",
+      "de": "Der starke Anstieg der Studierenden entspricht einem Zuwachs von fünfundvierzig Prozent.",
+      "level": "B2"
+    },
+    {
+      "en": "The massive disruption harms Microsoft's international reputation.",
+      "pl": "Ogromna awaria szkodzi międzynarodowej reputacji Microsoftu.",
+      "de": "Die massive Störung schadet dem internationalen Ruf von Microsoft.",
+      "level": "B2"
+    },
+    {
+      "en": "Beijing contradicts the espionage allegations from Washington.",
+      "pl": "Pekin zaprzecza zarzutom szpiegostwa z Waszyngtonu.",
+      "de": "Peking widerspricht den Spionagevorwürfen aus Washington.",
+      "level": "B2"
+    },
+    {
+      "en": "The Senate committee is investigating the serious allegations against the minister.",
+      "pl": "Komisja Senatu bada poważne zarzuty wobec ministra.",
+      "de": "Der Senatsausschuss geht den schweren Vorwürfen gegen den Minister nach.",
+      "level": "B2"
+    },
+    {
+      "en": "Stricter export controls benefit the security interests of the United States.",
+      "pl": "Surowsze kontrole eksportu służą interesom bezpieczeństwa Stanów Zjednoczonych.",
+      "de": "Strengere Exportkontrollen nützen den Sicherheitsinteressen der Vereinigten Staaten.",
+      "level": "B2"
+    },
+    {
+      "en": "Several opposition politicians distrust the official figures on immigration.",
+      "pl": "Kilku polityków opozycji nie ufa oficjalnym liczbom dotyczącym imigracji.",
+      "de": "Mehrere Oppositionspolitiker misstrauen den offiziellen Zahlen zur Zuwanderung.",
+      "level": "B2"
+    },
+    {
+      "en": "The authorities counter growing cyber threats with active defence measures.",
+      "pl": "Władze stawiają czoła rosnącym zagrożeniom cybernetycznym poprzez aktywne środki obronne.",
+      "de": "Die Behörden begegnen wachsenden Cyberbedrohungen mit aktiven Verteidigungsmaßnahmen.",
+      "level": "B2"
+    },
+    {
+      "en": "Better IT infrastructure prevents major system failures in the future.",
+      "pl": "Lepsza infrastruktura IT zapobiega poważnym awariom systemów w przyszłości.",
+      "de": "Eine bessere IT-Infrastruktur beugt großen Systemausfällen in Zukunft vor.",
+      "level": "B2"
+    },
+    {
+      "en": "A serious crisis threatens the technology company after the outage.",
+      "pl": "Poważny kryzys zagraża firmie technologicznej po awarii.",
+      "de": "Eine ernste Krise droht dem Technologieunternehmen nach dem Ausfall.",
+      "level": "B2"
+    },
+    {
+      "en": "The European partners do not unconditionally trust the Russian negotiator.",
+      "pl": "Europejscy partnerzy nie ufają bezwarunkowo rosyjskiemu negocjatorowi.",
+      "de": "Die europäischen Partner trauen dem russischen Unterhändler nicht bedingungslos.",
+      "level": "B2"
+    },
+    {
+      "en": "Twenty-seven countries belong to the European Union.",
+      "pl": "Dwadzieścia siedem państw należy do Unii Europejskiej.",
+      "de": "Siebenundzwanzig Länder gehören der Europäischen Union an.",
+      "level": "B2"
+    },
+    {
+      "en": "The new regulation contradicts existing data protection standards.",
+      "pl": "Nowe rozporządzenie przeczy obowiązującym standardom ochrony danych.",
+      "de": "Die neue Verordnung widerspricht geltenden Datenschutzstandards.",
+      "level": "B2"
+    },
+    {
+      "en": "The suspect escaped arrest by leaving the country early.",
+      "pl": "Podejrzany uniknął aresztowania, opuszczając kraj odpowiednio wcześnie.",
+      "de": "Der Verdächtige entging der Festnahme durch eine frühe Ausreise.",
+      "level": "B2"
+    },
+    {
+      "en": "The two new programmes resemble each other in their basic structure.",
+      "pl": "Dwa nowe programy przypominają się nawzajem w swojej podstawowej strukturze.",
+      "de": "Die beiden neuen Programme ähneln einander in ihrer Grundstruktur.",
+      "level": "B2"
+    },
+    {
+      "en": "After the crisis, the management board agreed to an independent audit.",
+      "pl": "Po kryzysie zarząd zgodził się na niezależny audyt.",
+      "de": "Nach der Krise stimmte der Vorstand einer unabhängigen Prüfung zu.",
+      "level": "B2"
+    },
+    {
+      "en": "The latest market development corresponds to the bank's cautious forecast.",
+      "pl": "Najnowszy rozwój rynku odpowiada ostrożnej prognozie banku.",
+      "de": "Die jüngste Marktentwicklung entspricht der vorsichtigen Prognose der Bank.",
+      "level": "B2"
+    },
+    {
+      "en": "Unclear export rules harm domestic manufacturers in global competition.",
+      "pl": "Niejasne zasady eksportu szkodzą krajowym producentom w globalnej konkurencji.",
+      "de": "Unklare Exportregeln schaden heimischen Herstellern im globalen Wettbewerb.",
+      "level": "B2"
+    },
+    {
+      "en": "The public prosecutor's office is following up on every hint from witnesses.",
+      "pl": "Prokuratura bada każdą wskazówkę od świadków.",
+      "de": "Die Staatsanwaltschaft geht jedem Hinweis von Zeugen nach.",
+      "level": "B2"
+    },
+    {
+      "en": "The new safety standards prevent serious accidents in steelworks.",
+      "pl": "Nowe normy bezpieczeństwa zapobiegają poważnym wypadkom w hutach stali.",
+      "de": "Die neuen Sicherheitsstandards beugen schweren Unfällen in Stahlwerken vor.",
+      "level": "B2"
+    },
+    {
+      "en": "The committee thanked the external experts for their detailed analysis.",
+      "pl": "Komisja podziękowała zewnętrznym ekspertom za ich szczegółową analizę.",
+      "de": "Der Ausschuss dankte den externen Experten für ihre ausführliche Analyse.",
+      "level": "B2"
+    },
+    {
+      "en": "The prime minister replied firmly to the critical questions from parliament.",
+      "pl": "Premier stanowczo odpowiedział na krytyczne pytania parlamentu.",
+      "de": "Der Regierungschef antwortete den kritischen Fragen des Parlaments bestimmt.",
+      "level": "B2"
+    },
+    {
+      "en": "The new security concept appeals to a majority of the delegates.",
+      "pl": "Nowa koncepcja bezpieczeństwa podoba się większości delegatów.",
+      "de": "Das neue Sicherheitskonzept gefällt einer Mehrheit der Delegierten.",
+      "level": "B2"
+    },
+    {
+      "en": "Rapid reconstruction helps the affected regions before winter begins.",
+      "pl": "Szybka odbudowa pomaga dotkniętym regionom przed nadejściem zimy.",
+      "de": "Ein schneller Wiederaufbau hilft den betroffenen Regionen vor Winterbeginn.",
+      "level": "B2"
+    },
+    {
+      "en": "The opposition distrusts the government's assurances on surveillance powers.",
+      "pl": "Opozycja nie ufa zapewnieniom rządu w sprawie uprawnień do inwigilacji.",
+      "de": "Die Opposition misstraut den Zusicherungen der Regierung zu Überwachungsbefugnissen.",
+      "level": "B2"
+    },
+    {
+      "en": "The new rules benefit smaller universities in southern Germany.",
+      "pl": "Nowe przepisy służą mniejszym uniwersytetom w południowych Niemczech.",
+      "de": "Die neuen Regeln nützen kleineren Universitäten in Süddeutschland.",
+      "level": "B2"
+    },
+    {
+      "en": "Several countries are joining the European research programme next year.",
+      "pl": "Kilka państw przystępuje w przyszłym roku do europejskiego programu badawczego.",
+      "de": "Mehrere Staaten treten im nächsten Jahr dem europäischen Forschungsprogramm bei.",
+      "level": "B2"
+    },
+    {
+      "en": "The current situation in the capital resembles the protests of 2012.",
+      "pl": "Obecna sytuacja w stolicy przypomina protesty z 2012 roku.",
+      "de": "Die aktuelle Lage in der Hauptstadt gleicht den Protesten von 2012.",
+      "level": "B2"
+    },
+    {
+      "en": "The former director escaped a formal indictment through an out-of-court settlement.",
+      "pl": "Były dyrektor uniknął formalnego oskarżenia dzięki ugodzie pozasądowej.",
+      "de": "Der frühere Direktor entging einer formellen Anklage durch einen außergerichtlichen Vergleich.",
+      "level": "B2"
+    },
+    {
+      "en": "Critics openly contradict the minister's optimistic assessment.",
+      "pl": "Krytycy otwarcie przeczą optymistycznej ocenie ministra.",
+      "de": "Kritiker widersprechen der optimistischen Einschätzung des Ministers offen.",
+      "level": "B2"
+    },
+    {
+      "en": "The university president congratulated the foreign students on their scholarships.",
+      "pl": "Rektor uniwersytetu pogratulował zagranicznym studentom ich stypendiów.",
+      "de": "Der Universitätspräsident gratulierte den ausländischen Studierenden zu ihren Stipendien.",
+      "level": "B2"
+    },
+    {
+      "en": "The board listens carefully to the institutional investors' concerns.",
+      "pl": "Zarząd uważnie słucha obaw inwestorów instytucjonalnych.",
+      "de": "Der Vorstand hört den Sorgen der institutionellen Investoren aufmerksam zu.",
+      "level": "B2"
+    },
+    {
+      "en": "A prolonged blockade threatens the port's international reputation.",
+      "pl": "Dłuższa blokada zagraża międzynarodowej reputacji portu.",
+      "de": "Eine längere Blockade droht dem internationalen Ruf des Hafens.",
+      "level": "B2"
+    },
+    {
+      "en": "The company countered the sudden drop in demand with flexible production.",
+      "pl": "Firma stawiła czoła nagłemu spadkowi popytu poprzez elastyczną produkcję.",
+      "de": "Das Unternehmen begegnete dem plötzlichen Nachfragerückgang mit einer flexiblen Produktion.",
+      "level": "B2"
+    },
+    {
+      "en": "The revised draft accommodates the wishes of several federal states.",
+      "pl": "Zmieniony projekt wychodzi naprzeciw życzeniom kilku krajów związkowych.",
+      "de": "Der überarbeitete Entwurf kommt den Wünschen mehrerer Bundesländer entgegen.",
+      "level": "B2"
+    },
+    {
+      "en": "Three experienced specialists assisted the rescue team during the night.",
+      "pl": "Trzej doświadczeni specjaliści pomagali ekipie ratunkowej w nocy.",
+      "de": "Drei erfahrene Fachleute halfen dem Rettungsteam während der Nacht.",
+      "level": "B2"
+    },
+    {
+      "en": "The delegates followed the speaker's arguments with great interest.",
+      "pl": "Delegaci śledzili argumenty mówczyni z dużym zainteresowaniem.",
+      "de": "Die Delegierten folgten den Argumenten der Rednerin mit großem Interesse.",
+      "level": "B2"
+    },
+    {
+      "en": "The proposed compromise suits neither the trade unions nor the employers.",
+      "pl": "Proponowany kompromis nie pasuje ani związkom zawodowym, ani pracodawcom.",
+      "de": "Der vorgeschlagene Kompromiss passt weder den Gewerkschaften noch den Arbeitgebern.",
+      "level": "B2"
+    },
+    {
+      "en": "Many voters no longer believe the official explanations.",
+      "pl": "Wielu wyborców nie wierzy już oficjalnym wyjaśnieniom.",
+      "de": "Viele Wähler glauben den offiziellen Erklärungen nicht mehr.",
+      "level": "B2"
+    },
+    {
+      "en": "This patent belongs to an international research institute.",
+      "pl": "Ten patent należy do międzynarodowego instytutu badawczego.",
+      "de": "Dieses Patent gehört einem internationalen Forschungsinstitut.",
+      "level": "B2"
+    },
+    {
+      "en": "The draft legislation accommodates the security authorities' far-reaching demands.",
+      "pl": "Projekt ustawy wychodzi naprzeciw daleko idącym żądaniom organów bezpieczeństwa.",
+      "de": "Der Gesetzentwurf kommt den weitreichenden Forderungen der Sicherheitsbehörden entgegen.",
+      "level": "C1"
+    },
+    {
+      "en": "The preliminary safety check does not satisfy the Senate committee's strict criteria.",
+      "pl": "Wstępna kontrola bezpieczeństwa nie spełnia surowych kryteriów komisji Senatu.",
+      "de": "Die vorläufige Sicherheitsprüfung genügt den strengen Kriterien des Senatsausschusses nicht.",
+      "level": "C1"
+    },
+    {
+      "en": "All exported high-tech components are subject to strict state licensing rules.",
+      "pl": "Wszystkie eksportowane komponenty zaawansowanych technologii podlegają surowym przepisom koncesyjnym państwa.",
+      "de": "Alle exportierten Hochtechnologiekomponenten unterliegen strengen staatlichen Genehmigungsregeln.",
+      "level": "C1"
+    },
+    {
+      "en": "The European diplomats met the American announcement with cautious scepticism.",
+      "pl": "Europejscy dyplomaci podeszli do amerykańskiej zapowiedzi z ostrożnym sceptycyzmem.",
+      "de": "Die europäischen Diplomaten begegneten der amerikanischen Ankündigung mit vorsichtiger Skepsis.",
+      "level": "C1"
+    },
+    {
+      "en": "The new supervisory mechanism prevents unauthorised access to sensitive networks.",
+      "pl": "Nowy mechanizm nadzoru zapobiega nieuprawnionemu dostępowi do wrażliwych sieci.",
+      "de": "Der neue Kontrollmechanismus beugt unbefugten Zugriffen auf sensible Netze vor.",
+      "level": "C1"
+    },
+    {
+      "en": "Only a slim majority of lawmakers approved the expanded surveillance powers.",
+      "pl": "Tylko niewielka większość posłów zatwierdziła rozszerzone uprawnienia do inwigilacji.",
+      "de": "Nur eine knappe Mehrheit der Abgeordneten stimmte den erweiterten Überwachungsbefugnissen zu.",
+      "level": "C1"
+    },
+    {
+      "en": "The investigators are systematically pursuing every lead in the espionage case.",
+      "pl": "Śledczy systematycznie badają każdy trop w sprawie szpiegowskiej.",
+      "de": "Die Ermittler gehen in dem Spionagefall jedem Hinweis systematisch nach.",
+      "level": "C1"
+    },
+    {
+      "en": "The minister finally complied with the Senate committee's formal summons.",
+      "pl": "Minister ostatecznie zastosował się do formalnego wezwania komisji Senatu.",
+      "de": "Der Minister kam der formellen Vorladung des Senatsausschusses schließlich nach.",
+      "level": "C1"
+    },
+    {
+      "en": "Data protection advocates distrust the promises of unrestricted digital security.",
+      "pl": "Obrońcy danych osobowych nie ufają obietnicom nieograniczonego bezpieczeństwa cyfrowego.",
+      "de": "Datenschützer misstrauen den Versprechen uneingeschränkter digitaler Sicherheit.",
+      "level": "C1"
+    },
+    {
+      "en": "The sudden rise in student immigration corresponds to a broader European trend.",
+      "pl": "Nagły wzrost imigracji studenckiej odpowiada szerszemu trendowi europejskiemu.",
+      "de": "Der plötzliche Anstieg der studentischen Zuwanderung entspricht einem breiteren europäischen Trend.",
+      "level": "C1"
+    },
+    {
+      "en": "Repeated infrastructure outages seriously damage the software giant's market position.",
+      "pl": "Powtarzające się awarie infrastruktury poważnie szkodzą pozycji rynkowej giganta oprogramowania.",
+      "de": "Wiederholte Infrastrukturausfälle schaden der Marktposition des Softwaregiganten erheblich.",
+      "level": "C1"
+    },
+    {
+      "en": "The new funding rules particularly benefit mid-sized research institutes.",
+      "pl": "Nowe zasady finansowania służą szczególnie średnim instytutom badawczym.",
+      "de": "Die neuen Förderregeln nützen insbesondere mittelgroßen Forschungsinstituten.",
+      "level": "C1"
+    },
+    {
+      "en": "The Kremlin's latest statements contradict Washington's optimistic assessment.",
+      "pl": "Najnowsze wypowiedzi Kremla przeczą optymistycznej ocenie Waszyngtonu.",
+      "de": "Die jüngsten Äußerungen des Kremls widersprechen der optimistischen Einschätzung Washingtons.",
+      "level": "C1"
+    },
+    {
+      "en": "The experienced negotiators did not yield to political pressure from outside.",
+      "pl": "Doświadczeni negocjatorzy nie ustąpili przed polityczną presją z zewnątrz.",
+      "de": "Die erfahrenen Unterhändler wichen dem politischen Druck von außen nicht.",
+      "level": "C1"
+    },
+    {
+      "en": "The international community defied the initial doubts about the climate summit.",
+      "pl": "Społeczność międzynarodowa stawiła czoła początkowym wątpliwościom co do szczytu klimatycznego.",
+      "de": "Die internationale Gemeinschaft trotzte den anfänglichen Zweifeln an dem Klimagipfel.",
+      "level": "C1"
+    },
+    {
+      "en": "The final decision rests with the independent board of directors.",
+      "pl": "Ostateczna decyzja należy do niezależnej rady dyrektorów.",
+      "de": "Die endgültige Entscheidung obliegt dem unabhängigen Verwaltungsrat.",
+      "level": "C1"
+    },
+    {
+      "en": "No important detail escaped the experienced auditors during the review.",
+      "pl": "Żaden istotny szczegół nie umknął doświadczonym audytorom podczas kontroli.",
+      "de": "Kein wichtiges Detail entging den erfahrenen Prüfern während der Prüfung.",
+      "level": "C1"
+    },
+    {
+      "en": "The current security situation resembles the tense period before 2022.",
+      "pl": "Obecna sytuacja bezpieczeństwa przypomina napięty okres sprzed 2022 roku.",
+      "de": "Die gegenwärtige Sicherheitslage ähnelt der angespannten Phase vor 2022.",
+      "level": "C1"
+    },
+    {
+      "en": "With his early resignation, the chief executive pre-empted a formal dismissal.",
+      "pl": "Swoją wczesną rezygnacją prezes uprzedził formalne odwołanie.",
+      "de": "Mit seinem frühen Rücktritt kam der Konzernchef einer formellen Abberufung zuvor.",
+      "level": "C1"
+    },
+    {
+      "en": "Two additional states joined the informal coalition in Dublin on Friday.",
+      "pl": "Dwa kolejne państwa przystąpiły w piątek w Dublinie do nieformalnej koalicji.",
+      "de": "Zwei weitere Staaten traten am Freitag in Dublin der informellen Koalition bei.",
+      "level": "C1"
+    },
+    {
+      "en": "The planned expansion of intelligence powers is subject to strict constitutional limits.",
+      "pl": "Planowane rozszerzenie uprawnień służb wywiadowczych podlega surowym ograniczeniom konstytucyjnym.",
+      "de": "Die geplante Ausweitung nachrichtendienstlicher Befugnisse unterliegt strengen verfassungsrechtlichen Grenzen.",
+      "level": "C2"
+    },
+    {
+      "en": "The company's internal audit does not yet meet the strict requirements of US export law.",
+      "pl": "Wewnętrzny audyt firmy nie spełnia jeszcze surowych wymogów amerykańskiego prawa eksportowego.",
+      "de": "Die interne Prüfung des Unternehmens genügt den strengen Anforderungen des US-Exportrechts noch nicht.",
+      "level": "C2"
+    },
+    {
+      "en": "Through early diplomatic consultations, European capitals forestalled a complete exclusion from the talks.",
+      "pl": "Poprzez wczesne konsultacje dyplomatyczne europejskie stolice uprzedziły całkowite wykluczenie z rozmów.",
+      "de": "Durch frühe diplomatische Konsultationen kamen europäische Hauptstädte einem völligen Ausschluss von den Gesprächen zuvor.",
+      "level": "C2"
+    },
+    {
+      "en": "The responsibility for verifying dual-use technology exports rests with the Department of Commerce.",
+      "pl": "Odpowiedzialność za weryfikację eksportu technologii podwójnego zastosowania spoczywa na Departamencie Handlu.",
+      "de": "Die Verantwortung für die Prüfung von Dual-Use-Technologieexporten obliegt dem Handelsministerium.",
+      "level": "C2"
+    },
+    {
+      "en": "The government's compromise proposal accommodates the privacy concerns of parliamentary critics.",
+      "pl": "Rządowa propozycja kompromisu wychodzi naprzeciw obawom krytyków parlamentarnych o prywatność.",
+      "de": "Der Kompromissvorschlag der Regierung kommt den Datenschutzbedenken parlamentarischer Kritiker entgegen.",
+      "level": "C2"
+    },
+    {
+      "en": "The sharp rise in international students contradicts the widespread assumption of declining attractiveness.",
+      "pl": "Silny wzrost liczby zagranicznych studentów przeczy powszechnemu założeniu o spadającej atrakcyjności.",
+      "de": "Der starke Anstieg internationaler Studierender widerspricht der verbreiteten Annahme sinkender Attraktivität.",
+      "level": "C2"
+    },
+    {
+      "en": "Persistent doubts about infrastructure reliability damage long-term trust in cloud providers.",
+      "pl": "Utrzymujące się wątpliwości co do niezawodności infrastruktury szkodzą długoterminowemu zaufaniu do dostawców chmury.",
+      "de": "Anhaltende Zweifel an der Zuverlässigkeit der Infrastruktur schaden dem langfristigen Vertrauen in Cloud-Anbieter.",
+      "level": "C2"
+    },
+    {
+      "en": "Seasoned investigators never yield to premature political pressure from congressional committees.",
+      "pl": "Doświadczeni śledczy nigdy nie ulegają przedwczesnej presji politycznej ze strony komisji kongresowych.",
+      "de": "Erfahrene Ermittler weichen einem voreiligen politischen Druck durch Kongressausschüsse niemals.",
+      "level": "C2"
+    },
+    {
+      "en": "Despite widespread scepticism, the university network defied demographic headwinds across Europe.",
+      "pl": "Mimo powszechnego sceptycyzmu sieć uniwersytecka oparła się niekorzystnym trendom demograficznym w całej Europie.",
+      "de": "Trotz weitverbreiteter Skepsis trotzte das Hochschulnetzwerk den demografischen Gegenwinden in ganz Europa.",
+      "level": "C2"
+    },
+    {
+      "en": "No subtle shift in diplomatic tone escapes experienced observers at international summits.",
+      "pl": "Żadna subtelna zmiana tonu dyplomatycznego nie umyka doświadczonym obserwatorom na międzynarodowych szczytach.",
+      "de": "Keine feine Verschiebung im diplomatischen Tonfall entgeht erfahrenen Beobachtern auf internationalen Gipfeln.",
+      "level": "C2"
+    }
+  ],
+  "listening": {
+    "audioUrl": "https://radiodownloaddw-a.akamaihd.net/downloads/Events/dwelle/dira/mp3/deutschkurse/nachrichten_live/AC61FEA1_2.mp3",
+    "articles": [
+      {
+        "heading": "Putin will Europäer an Ukraine-Gesprächen beteiligen",
+        "text": "Nach einem Treffen mit Kremlchef Wladimir Putin in Moskau hat US-[[Unterhändler|1]] Jared Kushner eine stärkere [[Einbindung|2]] Europas in die [[Verhandlungen|3]] über ein Ende des Ukraine-Kriegs angekündigt. Ein [[Zeitplan|4]] soll demnächst bekanntgegeben werden. Kushner sprach von bedeutenden Fortschritten, räumte aber weiterhin erhebliche [[Differenzen|5]] zwischen Russland und der Ukraine ein. Bei bisherigen Gesprächen waren die Europäer weitgehend [[ausgeschlossen|6]]. Offen bleibt, wer Europa künftig vertreten soll. Bundeskanzler Friedrich Merz hält eine [[Festlegung|7]] auf einen einzelnen [[Verhandlungsführer|8]] derzeit nicht für nötig. Entscheidend sei die [[Gesprächsbereitschaft|9]] Putins."
+      },
+      {
+        "heading": "Weitere europäische Hilfen für die Ukraine",
+        "text": "Mit Blick auf den kommenden [[Kriegswinter|10]] hat die Europäische Kommission der Ukraine weitere materielle [[Unterstützung|11]] [[zugesagt|12]]. Die EU stelle 500 [[Generatoren|13]], 200 Busse und vier schwimmende Brücken bereit, teilten [[Kommissionspräsidentin|14]] Ursula von der Leyen und [[Ratspräsident|15]] António Costa nach einem Treffen mit dem ukrainischen Präsidenten Wolodymyr Selenskyj am Rande eines [[Gipfels|16]] der Europäischen Politischen [[Gemeinschaft|17]] in Dublin mit. An diesem Freitag kommen die Staats- und Regierungschefs der 27 EU-Länder in der irischen Hauptstadt zusammen. Nach den jüngsten Gesprächen zwischen Vertretern Russlands und der Ukraine in Abu Dhabi dürfte es dabei auch um die Rolle Europas bei den [[Verhandlungen|3]] gehen."
+      },
+      {
+        "heading": "Massive Microsoft-[[Störung|18]] trifft Nutzer weltweit",
+        "text": "Eine massive Störung bei Microsoft hat weltweit Zehntausende Nutzer vom [[Zugriff|19]] auf ihre E-Mails [[abgeschnitten|20]]. Laut der Plattform Downdetector waren am Donnerstag Microsoft-Dienste in 74 Ländern und Regionen betroffen. Allein für den E-Mail-Dienst Outlook gingen zeitweise rund 130.000 [[Störungsmeldungen|21]] ein. Auch die Kommunikationsplattform Teams und der KI-Assistent Copilot waren betroffen. Microsoft führte die Probleme auf eine [[Überlastung|22]] der Infrastruktur in mehreren Regionen zurück. Versuche, den [[Datenverkehr|23]] [[umzuleiten|24]], brachten zunächst kaum Besserung. Auch am Freitagmorgen hielt die Störung an. Der Konzern kündigte weitere Maßnahmen zur [[Behebung|25]] der Probleme an."
+      },
+      {
+        "heading": "Nvidia-[[Spionageskandal|26]] beschäftigt US-Senat",
+        "text": "Im Spionageskandal um den US-Chipkonzern Nvidia hat der [[Bankenausschuss|27]] des US-Senats Ex-Firmenchef Jensen Huang und Handelsminister Howard Lutnick [[vorgeladen|28]]. Hintergrund sind [[Vorwürfe|29]] gegen Huangs frühere Partnerin, die für China [[spioniert|30]] haben soll. Peking weist dies zurück. Lutnick steht unter Druck, weil er Exporte von KI-Chips nach China nicht ausreichend kontrolliert haben soll. Laut Insidern wird im Weißen Haus über einen möglichen [[Rücktritt|31]] des Ministers beraten. Huang hatte sein Amt nach [[Bekanntwerden|32]] seiner Beziehung zu der mutmaßlichen Spionin niedergelegt. Unterdessen wächst im US-Kongress die [[Unterstützung|11]] für strengere [[Exportbeschränkungen|33]] für KI-Chips nach China."
+      },
+      {
+        "heading": "Mehr [[Befugnisse|34]] für deutsche [[Geheimdienste|35]]",
+        "text": "Der Bundestag befasst sich an diesem Freitag mit der geplanten Reform der Geheimdienste. Laut dem [[Gesetzentwurf|36]] sollen die deutschen Dienste mehr [[Überwachungsbefugnisse|37]] bekommen und in die Lage versetzt werden, mit [[Gegenangriffen|38]] aktiv auf Bedrohungen zu reagieren. So soll etwa der Bundesnachrichtendienst (BND) in IT-Systeme von Drohnenfabriken oder Chemiewaffenlaboren [[eindringen|39]] dürfen, um diese zu [[sabotieren|40]]. Hintergrund ist eine seit Beginn des russischen Angriffskriegs gegen die Ukraine verschärfte [[Gefahrenlage|41]]. An dem Gesetz gibt es auch Kritik, insbesondere mit Blick auf die zunehmende Überwachung. Dennoch wird erwartet, dass der Bundestag der Reform zustimmt."
+      },
+      {
+        "heading": "Deutschland für [[Studierende|42]] attraktiver",
+        "text": "Laut einer Studie zieht es immer mehr Studierende nach Deutschland. Wie aus einem Bericht der Organisation für wirtschaftliche [[Zusammenarbeit|43]] und Entwicklung (OECD) hervorgeht, stieg die Zahl der dauerhaft [[zugewanderten|44]] Studierenden im vergangenen Jahr auf etwa 74.000. Das entspricht einem [[Anstieg|45]] um 45 Prozent im Vergleich zum [[Vorjahr|46]]. Auch Österreich und Italien [[verzeichneten|47]] hohe [[Zuwachsraten|48]]. Zu den wichtigsten [[Herkunftsländern|49]] der Studentinnen und Studenten gehörten China und Indien. Insgesamt ging die [[Zuwanderung|50]] nach Deutschland 2025 um gut sechs Prozent zurück."
+      }
+    ],
+    "vocab": [
+      {
+        "id": 1,
+        "word": "der Unterhändler",
+        "translation": {
+          "en": "negotiator",
+          "pl": "negocjator"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Unterhändler",
+        "notes": {
+          "en": "Diplomatic or political negotiator; feminine: die Unterhändlerin.",
+          "pl": "Negocjator dyplomatyczny lub polityczny; forma żeńska: die Unterhändlerin."
+        },
+        "examples": [
+          "Der Unterhändler kündigte weitere Gespräche für nächste Woche an.",
+          "Beide Seiten schickten erfahrene Unterhändler in die Verhandlungen."
+        ]
+      },
+      {
+        "id": 2,
+        "word": "die Einbindung",
+        "translation": {
+          "en": "involvement, integration, inclusion",
+          "pl": "włączenie, zaangażowanie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Einbindungen",
+        "notes": {
+          "en": "Noun from einbinden; takes in + accusative (Einbindung in die Gespräche).",
+          "pl": "Rzeczownik od einbinden; łączy się z in + biernik."
+        },
+        "examples": [
+          "Ohne die Einbindung lokaler Partner lässt sich das Projekt kaum umsetzen.",
+          "Die Einbindung der Betroffenen verbesserte das Ergebnis deutlich."
+        ]
+      },
+      {
+        "id": 3,
+        "word": "die Verhandlung",
+        "translation": {
+          "en": "negotiation, hearing",
+          "pl": "negocjacje, rozprawa"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Verhandlungen",
+        "notes": {
+          "en": "Usually plural for diplomatic, political, or business talks.",
+          "pl": "Zazwyczaj w liczbie mnogiej dla rozmów dyplomatycznych lub biznesowych."
+        },
+        "examples": [
+          "Nach langen Verhandlungen einigten sich die Parteien auf einen Vertrag.",
+          "Die Verhandlungen über das neue Abkommen werden am Montag fortgesetzt."
+        ]
+      },
+      {
+        "id": 4,
+        "word": "der Zeitplan",
+        "translation": {
+          "en": "timetable, schedule",
+          "pl": "harmonogram"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "die Zeitpläne",
+        "notes": {
+          "en": "Common collocation: den Zeitplan einhalten (keep to the schedule).",
+          "pl": "Częste połączenie: den Zeitplan einhalten (dotrzymać harmonogramu)."
+        },
+        "examples": [
+          "Trotz der Lieferprobleme halten wir unseren Zeitplan ein.",
+          "Die Behörde veröffentlichte einen genauen Zeitplan für den Umbau."
+        ]
+      },
+      {
+        "id": 5,
+        "word": "die Differenz",
+        "translation": {
+          "en": "difference, disagreement",
+          "pl": "różnica, rozbieżność"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Differenzen",
+        "notes": {
+          "en": "In plural, often means political or personal disagreements.",
+          "pl": "W liczbie mnogiej często oznacza rozbieżności lub różnice zdań."
+        },
+        "examples": [
+          "Zwischen den Partnern bestehen noch erhebliche Differenzen beim Budget.",
+          "Die finanzielle Differenz wurde nach der Prüfung ausgeglichen."
+        ]
+      },
+      {
+        "id": 6,
+        "word": "ausschließen",
+        "translation": {
+          "en": "to exclude, to rule out",
+          "pl": "wykluczyć"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Separable verb: schließt aus, schloss aus, hat ausgeschlossen.",
+          "pl": "Czasownik rozdzielnie złożony: schließt aus, schloss aus, hat ausgeschlossen."
+        },
+        "examples": [
+          "Die Polizei kann ein technisches Versagen derzeit nicht ausschließen.",
+          "Kleinere Länder sollten nicht von den Beratungen ausgeschlossen werden."
+        ]
+      },
+      {
+        "id": 7,
+        "word": "die Festlegung",
+        "translation": {
+          "en": "determination, specification, commitment",
+          "pl": "ustalenie, określenie, wyznaczenie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Festlegungen",
+        "notes": {
+          "en": "Noun from festlegen (to determine, fix); often takes auf + accusative.",
+          "pl": "Rzeczownik od festlegen; często z przyimkiem auf + biernik."
+        },
+        "examples": [
+          "Die Festlegung klarer Ziele erleichtert die spätere Bewertung.",
+          "Über eine verbindliche Festlegung auf Termine wurde noch nicht entschieden."
+        ]
+      },
+      {
+        "id": 8,
+        "word": "der Verhandlungsführer",
+        "translation": {
+          "en": "chief negotiator, lead negotiator",
+          "pl": "główny negocjator"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Verhandlungsführer",
+        "notes": {
+          "en": "Person heading a delegation; feminine: die Verhandlungsführerin.",
+          "pl": "Osoba kierująca delegacją negocjacyjną; forma żeńska: die Verhandlungsführerin."
+        },
+        "examples": [
+          "Die Verhandlungsführerin trat nach der Sitzung vor die Kameras.",
+          "Beide Länder wechselten kurz vor dem Gipfel ihre Verhandlungsführer aus."
+        ]
+      },
+      {
+        "id": 9,
+        "word": "die Gesprächsbereitschaft",
+        "translation": {
+          "en": "willingness to talk",
+          "pl": "gotowość do rozmów"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Common verb: Gesprächsbereitschaft signalisieren (signal willingness to talk).",
+          "pl": "Częsty czasownik: Gesprächsbereitschaft signalisieren."
+        },
+        "examples": [
+          "Die Gewerkschaft signalisierte erneut Gesprächsbereitschaft.",
+          "Ohne echte Gesprächsbereitschaft auf beiden Seiten gibt es keinen Fortschritt."
+        ]
+      },
+      {
+        "id": 10,
+        "word": "der Kriegswinter",
+        "translation": {
+          "en": "wartime winter",
+          "pl": "wojenna zima"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Kriegswinter",
+        "notes": {
+          "en": "Compound of der Krieg (war) and der Winter (winter).",
+          "pl": "Złożenie słów der Krieg (wojna) i der Winter (zima)."
+        },
+        "examples": [
+          "Hilfsorganisationen bereiten sich auf einen harten Kriegswinter vor.",
+          "Während des Kriegswinters ist die Energieversorgung besonders gefährdet."
+        ]
+      },
+      {
+        "id": 11,
+        "word": "die Unterstützung",
+        "translation": {
+          "en": "support, assistance",
+          "pl": "wsparcie, pomoc"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "die Unterstützungen",
+        "notes": {
+          "en": "Common preposition: Unterstützung für + accusative.",
+          "pl": "Częsty przyimek: Unterstützung für + biernik (wsparcie dla)."
+        },
+        "examples": [
+          "Ohne finanzielle Unterstützung wäre der Betrieb nicht gerettet worden.",
+          "Der Vorschlag findet in der Bevölkerung breite Unterstützung."
+        ]
+      },
+      {
+        "id": 12,
+        "word": "zusagen",
+        "translation": {
+          "en": "to promise, to pledge; to accept (an invitation)",
+          "pl": "obiecać, przyrzec; potwierdzić przybycie"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Separable verb taking dative person + accusative thing: jemandem Hilfe zusagen.",
+          "pl": "Czasownik rozdzielnie złożony z celownikiem osoby i biernikiem rzeczy."
+        },
+        "examples": [
+          "Das Ministerium sagte den Gemeinden zusätzliche Mittel zu.",
+          "Alle eingeladenen Gäste haben für Freitag bereits zugesagt."
+        ]
+      },
+      {
+        "id": 13,
+        "word": "der Generator",
+        "translation": {
+          "en": "generator",
+          "pl": "generator, agregat prądotwórczy"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Generatoren",
+        "notes": {
+          "en": "Stress shifts in plural: der Generátor, die Generatóren.",
+          "pl": "Akcent przesuwa się w liczbie mnogiej: der Generátor, die Generatóren."
+        },
+        "examples": [
+          "Bei einem Stromausfall springt sofort der Notstrom-Generator an.",
+          "Mehrere Krankenhäuser erhielten tragbare Generatoren."
+        ]
+      },
+      {
+        "id": 14,
+        "word": "die Kommissionspräsidentin",
+        "translation": {
+          "en": "female president of the Commission",
+          "pl": "przewodnicząca Komisji (Europejskiej)"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Kommissionspräsidentinnen",
+        "notes": {
+          "en": "Masculine form: der Kommissionspräsident.",
+          "pl": "Forma męska: der Kommissionspräsident."
+        },
+        "examples": [
+          "Die Kommissionspräsidentin stellte ein neues Energiepaket vor.",
+          "In ihrer Rede betonte die Kommissionspräsidentin Europas Geschlossenheit."
+        ]
+      },
+      {
+        "id": 15,
+        "word": "der Ratspräsident",
+        "translation": {
+          "en": "Council president",
+          "pl": "przewodniczący Rady"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Ratspräsidenten",
+        "notes": {
+          "en": "Refers to the President of the European Council (EU-Ratspräsident).",
+          "pl": "Odnosi się do przewodniczącego Rady Europejskiej."
+        },
+        "examples": [
+          "Der Ratspräsident berief einen Sondergipfel in Brüssel ein.",
+          "Nach dem Treffen sprach der Ratspräsident mit Journalisten."
+        ]
+      },
+      {
+        "id": 16,
+        "word": "der Gipfel",
+        "translation": {
+          "en": "summit (meeting or mountain peak)",
+          "pl": "szczyt (polityczny lub górski)"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Gipfel",
+        "notes": {
+          "en": "Means both a mountain peak and a high-level political summit.",
+          "pl": "Oznacza zarówno szczyt górski, jak i szczyt polityczny."
+        },
+        "examples": [
+          "Am Rande des Gipfels führten beide Präsidenten ein kurzes Gespräch.",
+          "Nach vier Stunden erreichten die Wanderer den Gipfel."
+        ]
+      },
+      {
+        "id": 17,
+        "word": "die Gemeinschaft",
+        "translation": {
+          "en": "community",
+          "pl": "wspólnota"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Gemeinschaften",
+        "notes": {
+          "en": "Used in political names (internationale Gemeinschaft) and everyday contexts.",
+          "pl": "Używane w polityce (wspólnota międzynarodowa) oraz na co dzień."
+        },
+        "examples": [
+          "Die internationale Gemeinschaft verurteilte den Angriff scharf.",
+          "Im Dorf herrscht nach dem Hochwasser eine starke Gemeinschaft."
+        ]
+      },
+      {
+        "id": 18,
+        "word": "die Störung",
+        "translation": {
+          "en": "disruption, outage, malfunction",
+          "pl": "awaria, zakłócenie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Störungen",
+        "notes": {
+          "en": "Common verb: eine Störung beheben (fix a disruption).",
+          "pl": "Częsty czasownik: eine Störung beheben (usunąć awarię)."
+        },
+        "examples": [
+          "Wegen einer technischen Störung fielen mehrere S-Bahnen aus.",
+          "Die Störung im Mobilfunknetz dauerte fast zwei Stunden."
+        ]
+      },
+      {
+        "id": 19,
+        "word": "der Zugriff",
+        "translation": {
+          "en": "access; arrest, seizure",
+          "pl": "dostęp; ujęcie, zatrzymanie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Zugriffe",
+        "notes": {
+          "en": "In IT: Zugriff auf + accusative (access to data/accounts).",
+          "pl": "W IT: Zugriff auf + biernik (dostęp do danych lub konta)."
+        },
+        "examples": [
+          "Nur befugte Mitarbeiter haben Zugriff auf das Archiv.",
+          "Nach dem Update funktionierte der Zugriff auf das Portal wieder."
+        ]
+      },
+      {
+        "id": 20,
+        "word": "abschneiden",
+        "translation": {
+          "en": "to cut off; to perform (in a test/election)",
+          "pl": "odciąć; wypaść (w teście lub wyborach)"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Separable verb: schneidet ab, schnitt ab, hat abgeschnitten.",
+          "pl": "Czasownik rozdzielnie złożony: schneidet ab, schnitt ab, hat abgeschnitten."
+        },
+        "examples": [
+          "Der Sturm schnitt zwei Bergdörfer von der Stromversorgung ab.",
+          "Die Partei schnitt bei den Regionalwahlen schlechter ab als erwartet."
+        ]
+      },
+      {
+        "id": 21,
+        "word": "die Störungsmeldung",
+        "translation": {
+          "en": "fault report, outage report",
+          "pl": "zgłoszenie awarii"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Störungsmeldungen",
+        "notes": {
+          "en": "Compound of die Störung (fault) and die Meldung (report).",
+          "pl": "Złożenie słów die Störung (awaria) i die Meldung (zgłoszenie)."
+        },
+        "examples": [
+          "Am Morgen gingen beim Anbieter tausende Störungsmeldungen ein.",
+          "Kunden können eine Störungsmeldung auch direkt über die App absenden."
+        ]
+      },
+      {
+        "id": 22,
+        "word": "die Überlastung",
+        "translation": {
+          "en": "overload, overwork",
+          "pl": "przeciążenie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Überlastungen",
+        "notes": {
+          "en": "Used for technical infrastructure as well as human burnout/overwork.",
+          "pl": "Dotyczy zarówno przeciążenia sieci technicznych, jak i przemęczenia ludzi."
+        },
+        "examples": [
+          "Wegen Überlastung brach die Website kurz nach Verkaufsstart zusammen.",
+          "Ärzte warnen vor einer chronischen Überlastung des Klinikpersonals."
+        ]
+      },
+      {
+        "id": 23,
+        "word": "der Datenverkehr",
+        "translation": {
+          "en": "data traffic",
+          "pl": "ruch danych"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "IT compound of die Daten (data) and der Verkehr (traffic); no plural.",
+          "pl": "Termin IT złożony ze słów die Daten (dane) i der Verkehr (ruch)."
+        },
+        "examples": [
+          "Der weltweite Datenverkehr nimmt durch Video-Streaming weiter zu.",
+          "Techniker mussten den Datenverkehr über andere Server leiten."
+        ]
+      },
+      {
+        "id": 24,
+        "word": "umleiten",
+        "translation": {
+          "en": "to reroute, to divert, to redirect",
+          "pl": "przekierować, skierować objazdem"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Separable verb used for road traffic, rivers, or digital data.",
+          "pl": "Czasownik rozdzielnie złożony używany dla ruchu drogowego, rzek i danych."
+        },
+        "examples": [
+          "Wegen der Baustelle leitet die Polizei den Verkehr über Nebenstraßen um.",
+          "Bei Ausfällen lassen sich E-Mails automatisch umleiten."
+        ]
+      },
+      {
+        "id": 25,
+        "word": "die Behebung",
+        "translation": {
+          "en": "rectification, fixing, resolution (of a fault)",
+          "pl": "usunięcie (usterki), naprawa"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Behebungen",
+        "notes": {
+          "en": "Formal noun from beheben (to remedy/fix a problem or fault).",
+          "pl": "Oficjalny rzeczownik od beheben (usunąć usterkę lub problem)."
+        },
+        "examples": [
+          "Die Behebung des technischen Fehlers dauerte bis zum späten Abend.",
+          "Fachleute arbeiten mit Hochdruck an der Behebung des Schadens."
+        ]
+      },
+      {
+        "id": 26,
+        "word": "der Spionageskandal",
+        "translation": {
+          "en": "espionage scandal",
+          "pl": "skandal szpiegowski"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Spionageskandale",
+        "notes": {
+          "en": "Compound of die Spionage (espionage) and der Skandal (scandal).",
+          "pl": "Złożenie słów die Spionage (szpiegostwo) i der Skandal (skandal)."
+        },
+        "examples": [
+          "Der Spionageskandal belastet die diplomatischen Beziehungen erheblich.",
+          "Nach dem Spionageskandal verschärfte der Konzern seine Kontrollen."
+        ]
+      },
+      {
+        "id": 27,
+        "word": "der Bankenausschuss",
+        "translation": {
+          "en": "banking committee",
+          "pl": "komisja bankowa"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Bankenausschüsse",
+        "notes": {
+          "en": "Compound of die Banken (banks) and der Ausschuss (committee).",
+          "pl": "Złożenie słów die Banken (banki) i der Ausschuss (komisja)."
+        },
+        "examples": [
+          "Der Bankenausschuss befragte den Chef der Zentralbank zur Inflation.",
+          "Im Bankenausschuss wurden strengere Regeln für Kredite beraten."
+        ]
+      },
+      {
+        "id": 28,
+        "word": "vorladen",
+        "translation": {
+          "en": "to summon, to subpoena",
+          "pl": "wezwać (przed sąd lub komisję)"
+        },
+        "partOfSpeech": "Verb",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Separable verb: lädt vor, lud vor, hat vorgeladen.",
+          "pl": "Czasownik rozdzielnie złożony: lädt vor, lud vor, hat vorgeladen."
+        },
+        "examples": [
+          "Das Gericht hat drei weitere Zeugen für Montag vorgeladen.",
+          "Der Untersuchungsausschuss lud den früheren Minister als Zeugen vor."
+        ]
+      },
+      {
+        "id": 29,
+        "word": "der Vorwurf",
+        "translation": {
+          "en": "accusation, allegation",
+          "pl": "zarzut"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Vorwürfe",
+        "notes": {
+          "en": "Common preposition: Vorwurf gegen + accusative.",
+          "pl": "Częsty przyimek: Vorwurf gegen + biernik (zarzut wobec)."
+        },
+        "examples": [
+          "Der Sprecher wies jeden Vorwurf entschieden zurück.",
+          "Die Opposition erhob schwere Vorwürfe gegen die Leitung."
+        ]
+      },
+      {
+        "id": 30,
+        "word": "spionieren",
+        "translation": {
+          "en": "to spy",
+          "pl": "szpiegować"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Regular verb without ge- in Partizip II: spioniert.",
+          "pl": "Czasownik regularny bez przedrostka ge- w Partizip II: spioniert."
+        },
+        "examples": [
+          "Der Verdächtige soll jahrelang für ein Nachbarland spioniert haben.",
+          "Die Firma prüft, ob interne Daten ausspioniert wurden."
+        ]
+      },
+      {
+        "id": 31,
+        "word": "der Rücktritt",
+        "translation": {
+          "en": "resignation, withdrawal",
+          "pl": "rezygnacja, dymisja"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Rücktritte",
+        "notes": {
+          "en": "Noun from zurücktreten (to resign); also means withdrawal from a contract.",
+          "pl": "Rzeczownik od zurücktreten; oznacza też odstąpienie od umowy."
+        },
+        "examples": [
+          "Nach der verlorenen Abstimmung erklärte der Minister seinen Rücktritt.",
+          "Ein schneller Rücktritt könnte die politische Lage beruhigen."
+        ]
+      },
+      {
+        "id": 32,
+        "word": "das Bekanntwerden",
+        "translation": {
+          "en": "coming to light, becoming known",
+          "pl": "wyjście na jaw, upublicznienie się"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Nominalised phrase (bekannt werden); commonly follows nach (after coming to light).",
+          "pl": "Znominalizowany zwrot; często po przyimku nach (po wyjściu na jaw)."
+        },
+        "examples": [
+          "Nach Bekanntwerden der Zahlen fiel der Aktienkurs deutlich.",
+          "Das Bekanntwerden des Berichts löste sofort eine Debatte aus."
+        ]
+      },
+      {
+        "id": 33,
+        "word": "die Exportbeschränkung",
+        "translation": {
+          "en": "export restriction",
+          "pl": "ograniczenie eksportu"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Exportbeschränkungen",
+        "notes": {
+          "en": "Compound of der Export and die Beschränkung (restriction).",
+          "pl": "Złożenie słów der Export i die Beschränkung (ograniczenie)."
+        },
+        "examples": [
+          "Neue Exportbeschränkungen erschweren den Verkauf moderner Halbleiter.",
+          "Industrieverbände kritisieren geplante Exportbeschränkungen für Maschinen."
+        ]
+      },
+      {
+        "id": 34,
+        "word": "die Befugnis",
+        "translation": {
+          "en": "authority, power, competence",
+          "pl": "uprawnienie, kompetencja"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Befugnisse",
+        "notes": {
+          "en": "Legal/official word; plural is very common (Befugnisse erweitern).",
+          "pl": "Słowo prawnicze i urzędowe; bardzo częste w liczbie mnogiej."
+        },
+        "examples": [
+          "Das Parlament diskutiert über erweiterte Befugnisse für die Polizei.",
+          "Jede Behörde darf nur im Rahmen ihrer Befugnisse handeln."
+        ]
+      },
+      {
+        "id": 35,
+        "word": "der Geheimdienst",
+        "translation": {
+          "en": "intelligence service, secret service",
+          "pl": "służby specjalne, wywiad"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Geheimdienste",
+        "notes": {
+          "en": "Synonym in formal legal texts: der Nachrichtendienst.",
+          "pl": "Synonim w tekstach prawnych: der Nachrichtendienst."
+        },
+        "examples": [
+          "Mehrere europäische Geheimdienste tauschen regelmäßig Informationen aus.",
+          "Der Geheimdienst warnte vor verstärkten Cyberangriffen."
+        ]
+      },
+      {
+        "id": 36,
+        "word": "der Gesetzentwurf",
+        "translation": {
+          "en": "draft law, bill",
+          "pl": "projekt ustawy"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Gesetzentwürfe",
+        "notes": {
+          "en": "Common verb: einen Gesetzentwurf einbringen (introduce a bill).",
+          "pl": "Częsty czasownik: einen Gesetzentwurf einbringen (wnieść projekt ustawy)."
+        },
+        "examples": [
+          "Die Regierung legte dem Parlament einen neuen Gesetzentwurf vor.",
+          "In erster Lesung berieten die Abgeordneten den Gesetzentwurf."
+        ]
+      },
+      {
+        "id": 37,
+        "word": "die Überwachungsbefugnis",
+        "translation": {
+          "en": "surveillance power",
+          "pl": "uprawnienie do inwigilacji lub nadzoru"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Überwachungsbefugnisse",
+        "notes": {
+          "en": "Compound of die Überwachung (surveillance) and die Befugnis (power).",
+          "pl": "Złożenie słów die Überwachung (nadzór) i die Befugnis (uprawnienie)."
+        },
+        "examples": [
+          "Datenschützer sehen ausgeweitete Überwachungsbefugnisse äußerst kritisch.",
+          "Das Verfassungsgericht prüft die neuen Überwachungsbefugnisse."
+        ]
+      },
+      {
+        "id": 38,
+        "word": "der Gegenangriff",
+        "translation": {
+          "en": "counterattack",
+          "pl": "kontratak"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Gegenangriffe",
+        "notes": {
+          "en": "Used in military, cyber-security, and sports reporting.",
+          "pl": "Używane w relacjach wojskowych, cyberbezpieczeństwie i sporcie."
+        },
+        "examples": [
+          "Experten streiten, ob digitale Gegenangriffe rechtlich zulässig sind.",
+          "Mit einem schnellen Gegenangriff erzielte die Mannschaft den Ausgleich."
+        ]
+      },
+      {
+        "id": 39,
+        "word": "eindringen",
+        "translation": {
+          "en": "to penetrate, to break into, to infiltrate",
+          "pl": "wtargnąć, włamać się, przeniknąć"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Separable verb with sein: dringt ein, drang ein, ist eingedrungen; takes in + acc.",
+          "pl": "Czasownik rozdzielnie złożony z sein; łączy się z in + biernik."
+        },
+        "examples": [
+          "Unbekannte konnten in das interne Netzwerk der Firma eindringen.",
+          "Durch das offene Dach drang Regenwasser in das Gebäude ein."
+        ]
+      },
+      {
+        "id": 40,
+        "word": "sabotieren",
+        "translation": {
+          "en": "to sabotage",
+          "pl": "sabotować"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Regular verb without ge- in Partizip II: sabotiert.",
+          "pl": "Czasownik regularny bez przedrostka ge- w Partizip II: sabotiert."
+        },
+        "examples": [
+          "Unbekannte versuchten, die Stromversorgung der Bahnlinie zu sabotieren.",
+          "Niemand darf wichtige Verhandlungen absichtlich sabotieren."
+        ]
+      },
+      {
+        "id": 41,
+        "word": "die Gefahrenlage",
+        "translation": {
+          "en": "threat situation, security threat level",
+          "pl": "sytuacja zagrożenia"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Gefahrenlagen",
+        "notes": {
+          "en": "Compound of die Gefahr (danger) and die Lage (situation).",
+          "pl": "Złożenie słów die Gefahr (niebezpieczeństwo) i die Lage (sytuacja)."
+        },
+        "examples": [
+          "Die Polizei passt ihre Konzepte an die veränderte Gefahrenlage an.",
+          "Angesichts der akuten Gefahrenlage wurden zusätzliche Kontrollen angeordnet."
+        ]
+      },
+      {
+        "id": 42,
+        "word": "der Studierende",
+        "translation": {
+          "en": "university student",
+          "pl": "student, osoba studiująca"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "die Studierenden",
+        "notes": {
+          "en": "Gender-neutral adjectival noun (plural die Studierenden is standard in official reports).",
+          "pl": "Neutralna płciowo forma (liczba mnoga die Studierenden to standard w raportach)."
+        },
+        "examples": [
+          "Immer mehr Studierende verbringen ein Semester im Ausland.",
+          "Für neue Studierende organisiert die Universität eine Einführungswoche."
+        ]
+      },
+      {
+        "id": 43,
+        "word": "die Zusammenarbeit",
+        "translation": {
+          "en": "cooperation, collaboration",
+          "pl": "współpraca"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "",
+        "notes": {
+          "en": "Standard German word for cooperation; used without plural.",
+          "pl": "Podstawowe słowo na współpracę; bez liczby mnogiej."
+        },
+        "examples": [
+          "Beide Institute wollen ihre wissenschaftliche Zusammenarbeit vertiefen.",
+          "Ich danke Ihnen herzlich für die gute Zusammenarbeit."
+        ]
+      },
+      {
+        "id": 44,
+        "word": "zugewandert",
+        "translation": {
+          "en": "immigrated, newly arrived from abroad",
+          "pl": "napływowy, imigrancki (który przybył z zagranicy)"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Participle of zuwandern (to immigrate) used as an adjective.",
+          "pl": "Imiesłów od zuwandern (imigrować) używany jako przymiotnik."
+        },
+        "examples": [
+          "Die Stadt bietet Sprachkurse für neu zugewanderte Fachkräfte an.",
+          "Viele zugewanderte Ärzte arbeiten in ländlichen Krankenhäusern."
+        ]
+      },
+      {
+        "id": 45,
+        "word": "der Anstieg",
+        "translation": {
+          "en": "increase, rise, climb",
+          "pl": "wzrost, podejście (pod górę)"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Anstiege",
+        "notes": {
+          "en": "Used for numbers/prices (Preisanstieg) as well as mountain ascents.",
+          "pl": "Dotyczy liczb i cen oraz podejścia w górach."
+        },
+        "examples": [
+          "Der starke Anstieg der Mieten belastet viele Haushalte.",
+          "Für den Anstieg zum Gipfel brauchten wir drei Stunden."
+        ]
+      },
+      {
+        "id": 46,
+        "word": "das Vorjahr",
+        "translation": {
+          "en": "previous year, prior year",
+          "pl": "poprzedni rok, rok ubiegły"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Vorjahre",
+        "notes": {
+          "en": "Common phrase: im Vergleich zum Vorjahr (year-on-year).",
+          "pl": "Częsty zwrot: im Vergleich zum Vorjahr (w porównaniu z rokiem poprzednim)."
+        },
+        "examples": [
+          "Im Vergleich zum Vorjahr stiegen die Exporte um drei Prozent.",
+          "Im Vorjahr hatte die Messe deutlich weniger Besucher."
+        ]
+      },
+      {
+        "id": 47,
+        "word": "verzeichnen",
+        "translation": {
+          "en": "to record, to register (a rise/loss/trend)",
+          "pl": "odnotować, zarejestrować"
+        },
+        "partOfSpeech": "Verb",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Inseparable verb used with statistics: einen Zuwachs / Verlust verzeichnen.",
+          "pl": "Czasownik nierozdzielnie złożony używany w statystyce."
+        },
+        "examples": [
+          "Der Tourismus verzeichnete in diesem Sommer neue Rekordzahlen.",
+          "Auch im Herbst konnte die Branche einen leichten Anstieg verzeichnen."
+        ]
+      },
+      {
+        "id": 48,
+        "word": "die Zuwachsrate",
+        "translation": {
+          "en": "growth rate",
+          "pl": "stopa wzrostu, tempo przyrostu"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Zuwachsraten",
+        "notes": {
+          "en": "Compound of der Zuwachs (growth) and die Rate (rate).",
+          "pl": "Złożenie słów der Zuwachs (przyrost) i die Rate (stopa)."
+        },
+        "examples": [
+          "Die höchsten Zuwachsraten wurden im Dienstleistungssektor gemessen.",
+          "Ökonomen erwarten für das kommende Jahr geringere Zuwachsraten."
+        ]
+      },
+      {
+        "id": 49,
+        "word": "das Herkunftsland",
+        "translation": {
+          "en": "country of origin",
+          "pl": "kraj pochodzenia"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Herkunftsländer",
+        "notes": {
+          "en": "Compound of die Herkunft (origin) and das Land (country).",
+          "pl": "Złożenie słów die Herkunft (pochodzenie) i das Land (kraj)."
+        },
+        "examples": [
+          "Auf dem Formular muss man sein Herkunftsland angeben.",
+          "Die Produkte stammen aus verschiedenen Herkunftsländern in Asien."
+        ]
+      },
+      {
+        "id": 50,
+        "word": "die Zuwanderung",
+        "translation": {
+          "en": "immigration",
+          "pl": "imigracja, napływ ludności"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Near-synonym of Einwanderung; focuses on people moving in; no plural.",
+          "pl": "Bliski synonim słowa Einwanderung; bez liczby mnogiej."
+        },
+        "examples": [
+          "Viele Betriebe sind auf die Zuwanderung qualifizierter Fachkräfte angewiesen.",
+          "Die Zuwanderung in die Großstädte erhöht die Nachfrage nach Wohnungen."
+        ]
+      }
+    ]
+  },
+  "speaking": {
+    "prompt": {
+      "en": "You are my German language tutor conducting a 20-minute B1-to-C1 speaking conversation based on the Listening section of today's lesson (German news from 13 November 2026).\n\nListening reference – the 6 news stories from today's Listening section, in the same order as the articles:\n1. After meeting Russian President Vladimir Putin in Moscow, US negotiator Jared Kushner announced greater European involvement in Ukraine peace talks, while Chancellor Friedrich Merz said naming a single European negotiator is not currently necessary.\n2. Ahead of winter, the European Commission promised Ukraine 500 generators, 200 buses, and four floating bridges as EU leaders gather in Dublin alongside discussions on Europe's role in the peace talks.\n3. A major Microsoft outage hit services in 74 countries, generating around 130,000 reports for Outlook alone and disrupting Teams and Copilot due to overloaded regional infrastructure.\n4. The US Senate Banking Committee summoned former Nvidia CEO Jensen Huang and Commerce Secretary Howard Lutnick over espionage allegations involving Huang's former partner and scrutiny of AI chip exports to China.\n5. Germany's Bundestag is debating and expected to approve an intelligence reform granting expanded surveillance powers and active cyber counterattack capabilities amid heightened threats since Russia's war on Ukraine.\n6. An OECD study shows permanent student immigration to Germany rose by 45 percent last year to around 74,000, led by students from China and India, even as overall immigration to Germany declined by six percent in 2025.\n\nGrammar focus to elicit: Dative-governing verbs that do not take a direct accusative object.\n\nUseful words from today's Listening articles (invite me to use them): die Einbindung, zusagen, die Störung, der Vorwurf, die Befugnis, der Gesetzentwurf, der Anstieg, die Zuwanderung.\n\nInstructions for the AI tutor:\n1. Start the conversation: greet me and ask whether I have listened to today's broadcast. If not, summarise story 1 in two simple German sentences and continue.\n2. You ask, I speak: one question per turn, one or two short sentences, never answer your own questions. German at B1-C1 level; English only if I am really stuck.\n3. Questions refer to the stories above, in order, covering at least four: facts first, then causes, consequences, other perspectives, my evaluation. Near the end, ask me to connect two stories.\n4. Encourage me to answer using dative-only verbs from today's lesson—such as helfen, danken, folgen, gehören, gefallen, schaden, drohen, widersprechen, zustimmen, entsprechen, begegnen, and vertrauen—making sure the sole object takes the dative case rather than the accusative.\n5. Question ideas (adapt to my answers): (story 1) Warum vertrauen manche Europäer den russischen Zusagen nicht, und wem sollte Europa bei den Verhandlungen folgen? (story 2) Wem helfen die neuen Generatoren und Busse aus der EU am meisten? (story 3) Wem schadet eine so große Störung bei Microsoft besonders stark? (story 5) Warum stimmst du der Reform der Geheimdienste zu, oder warum widersprichst du dem Gesetzentwurf? (story 6) Welcher Prozentzahl entspricht der Anstieg bei den ausländischen Studierenden?\n6. Immediate correction: if I break today's rule (e.g. *Ich stimme die Reform zu.* instead of *Ich stimme der Reform zu.*), stop briefly: quote the error, give the correct sentence, explain the rule in 1 English sentence, ask me to repeat the correct sentence aloud before the next question.\n7. Also correct other significant errors briefly; note recurring mistakes for the final feedback. If my answer is very short, ask one follow-up („Warum?“).\n8. Wrap-up after ~20 minutes or when I say \"stop\": two things I did well, three key mistakes with corrections, five words to review, one German sentence to repeat aloud.\n9. Keep the tone engaging, professional, natural for an immersive German voice dialogue. Address me as „du“.",
+      "pl": "Jesteś moim nauczycielem języka niemieckiego i prowadzisz 20-minutową rozmowę na poziomie od B1 do C1 w oparciu o część Słuchanie z dzisiejszej lekcji (niemieckie wiadomości z 13 listopada 2026 roku).\n\nMateriał ze Słuchania – 6 tematów wiadomości z dzisiejszej części Słuchanie, w tej samej kolejności co artykuły:\n1. Po spotkaniu z prezydentem Rosji Władimirem Putinem w Moskwie amerykański negocjator Jared Kushner zapowiedział silniejsze włączenie Europy w rozmowy pokojowe w sprawie Ukrainy, natomiast kanclerz Friedrich Merz uznał, że wyznaczanie jednego europejskiego negocjatora nie jest obecnie konieczne.\n2. Przed nadchodzącą zimą Komisja Europejska obiecała Ukrainie 500 generatorów, 200 autobusów i cztery mosty pontonowe, podczas gdy przywódcy UE spotykają się w Dublinie, by omówić także rolę Europy w negocjacjach pokojowych.\n3. Poważna awaria w firmie Microsoft dotknęła użytkowników w 74 krajach, generując około 130 000 zgłoszeń samego Outlooka oraz zakłócając działanie Teams i Copilot z powodu przeciążenia regionalnej infrastruktury.\n4. Komisja bankowa Senatu USA wezwała byłego prezesa Nvidii Jensena Huanga i ministra handlu Howarda Lutnicka w związku z zarzutami szpiegowskimi wobec byłej partnerki Huanga oraz kontrolą eksportu układów AI do Chin.\n5. Niemiecki Bundestag debatuje nad reformą służb wywiadowczych i ma ją przyjąć, rozszerzając uprawnienia do inwigilacji oraz umożliwiając aktywne cyberkontrataki w obliczu zaostrzonej sytuacji zagrożenia od czasu rosyjskiej wojny przeciwko Ukrainie.\n6. Z badania OECD wynika, że stała imigracja studentów do Niemiec wzrosła w zeszłym roku o 45 procent do około 74 000 osób, głównie z Chin i Indii, mimo że ogólna imigracja do Niemiec spadła w 2025 roku o ponad sześć procent.\n\nZagadnienie gramatyczne do ćwiczenia: Czasowniki rządzące celownikiem bez dopełnienia w bierniku.\n\nPrzydatne słowa z dzisiejszych artykułów ze Słuchania (zachęcaj mnie do ich używania): die Einbindung, zusagen, die Störung, der Vorwurf, die Befugnis, der Gesetzentwurf, der Anstieg, die Zuwanderung.\n\nInstrukcje dla tutora AI:\n1. Rozpocznij rozmowę: przywitaj się ze mną i zapytaj, czy wysłuchałem dzisiejszego nagrania. Jeśli nie, streść temat 1 w dwóch prostych zdaniach po niemiecku i kontynuuj.\n2. Ty pytasz, ja mówię: jedno pytanie w jednej wypowiedzi, jedno lub dwa krótkie zdania, nigdy nie odpowiadaj na własne pytania. Mów po niemiecku na poziomie B1–C1; na polski przechodź tylko wtedy, gdy naprawdę utknę.\n3. Pytania odnoszą się do powyższych tematów po kolei i obejmują co najmniej cztery z nich: najpierw fakty, potem przyczyny, skutki, inne perspektywy i moją ocenę. Pod koniec poproś mnie o połączenie dwóch tematów.\n4. Zachęcaj mnie do odpowiadania za pomocą czasowników wyłącznie celownikowych z dzisiejszej lekcji — takich jak helfen, danken, folgen, gehören, gefallen, schaden, drohen, widersprechen, zustimmen, entsprechen, begegnen i vertrauen — pilnując, by ich jedyne dopełnienie stało w celowniku, a nie w bierniku.\n5. Pomysły na pytania (dostosuj do moich odpowiedzi): (temat 1) Warum vertrauen manche Europäer den russischen Zusagen nicht, und wem sollte Europa bei den Verhandlungen folgen? (temat 2) Wem helfen die neuen Generatoren und Busse aus der EU am meisten? (temat 3) Wem schadet eine so große Störung bei Microsoft besonders stark? (temat 5) Warum stimmst du der Reform der Geheimdienste zu, oder warum widersprichst du dem Gesetzentwurf? (temat 6) Welcher Prozentzahl entspricht der Anstieg bei den ausländischen Studierenden?\n6. Natychmiastowa korekta: jeśli złamię dzisiejszą zasadę (np. *Ich stimme die Reform zu.* zamiast *Ich stimme der Reform zu.*), zatrzymaj się na chwilę: zacytuj błąd, podaj poprawne zdanie, wyjaśnij zasadę w 1 zdaniu po polsku i poproś mnie o głośne powtórzenie poprawnego zdania przed kolejnym pytaniem.\n7. Poprawiaj też krótko inne istotne błędy; powtarzające się błędy zanotuj do końcowej informacji zwrotnej. Jeśli moja odpowiedź jest bardzo krótka, zadaj jedno pytanie uzupełniające („Warum?“).\n8. Podsumowanie po ~20 minutach lub gdy powiem „stop”: dwie rzeczy, które poszły mi dobrze, trzy główne błędy z poprawkami, pięć słów do powtórzenia i jedno niemieckie zdanie do głośnego powtórzenia.\n9. Zachowaj angażujący, profesjonalny i naturalny ton do immersyjnej rozmowy głosowej po niemiecku. Zwracaj się do mnie per „du”."
+    }
+  }
 }
 ]
