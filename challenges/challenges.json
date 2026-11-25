@@ -52705,5 +52705,2024 @@
       "pl": "Jesteś moim nauczycielem języka niemieckiego i prowadzisz 20-minutową rozmowę na poziomie od B1 do C1 w oparciu o część Słuchanie z dzisiejszej lekcji (niemieckie wiadomości z 18 listopada 2026).\n\nMateriał ze Słuchania – 6 tematów wiadomości z dzisiejszej części Słuchanie, w tej samej kolejności co artykuły:\n1. Demokraci zdobyli ostatni wolny mandat w Senacie USA na Alasce, gdzie Mary Peltola pokonała urzędującego senatora Dana Sullivana, zapewniając partii 56 ze 100 miejsc w Senacie.\n2. Sekretarz stanu USA Marco Rubio powiedział, że nic nie wskazuje na skoordynowany cyberatak po serii awarii technicznych obejmujących usługi Microsoftu, ruch lotniczy w USA, linie lotnicze, banki i NSA.\n3. Bahrajn i Kuwejt zgłosiły irańskie ataki powietrzne i dronowe po amerykańskim uderzeniu na irańską wyspę Keszm, podczas gdy Iran nadal częściowo blokuje cieśninę Ormuz, co podnosi światowe ceny ropy i paliw.\n4. Prezydent Rosji Władimir Putin wyraził nadzieję na postęp przed swoim pierwszym trójstronnym spotkaniem z prezydentem USA Donaldem Trumpem i przywódcą Chin Xi Jinpingiem w Shenzhen, krytykując jednocześnie zachodnie sankcje.\n5. W Izraelu opozycja wybrała byłego ministra Matana Kahanę na nowego przewodniczącego parlamentu większością 66 ze 120 głosów, zastępując Amira Ohanę z partii Likud, podczas gdy lider partii Jaszar Gadi Eisenkot próbuje utworzyć koalicję.\n6. Parlament Łotwy zatwierdził nową centroprawicową koalicję pod przewodnictwem premiera Andrisa Kulbergsa 57 głosami za; rząd chce nadal wspierać Ukrainę oraz zakończyć relacje gospodarcze z Rosją i Białorusią.\n\nZagadnienie gramatyczne do ćwiczenia: Dopełniacz dzierżawczy, nazwy własne i konstrukcje dzierżawcze.\n\nPrzydatne słowa z dzisiejszych artykułów (zachęcaj mnie do ich używania): der Senatssitz, der Amtsinhaber, der Vorfall, abwehren, der Kompromiss, die Opposition, der Einfluss, die Mehrheit.\n\nInstrukcje dla tutora AI:\n1. Rozpocznij rozmowę: przywitaj się ze mną i zapytaj, czy wysłuchałem dzisiejszego nagrania. Jeśli nie, streść temat 1 w dwóch prostych zdaniach po niemiecku i kontynuuj.\n2. Ty pytasz, ja mówię: jedno pytanie na turę, jedno lub dwa krótkie zdania, nigdy nie odpowiadaj na własne pytania. Mów po niemiecku na poziomie B1–C1; na polski przechodź tylko wtedy, gdy naprawdę utknę.\n3. Pytania odnoszą się do powyższych tematów, po kolei, obejmując co najmniej cztery: najpierw fakty, potem przyczyny, skutki, inne perspektywy oraz moją ocenę. Pod koniec poproś mnie o połączenie dwóch tematów.\n4. Zachęcaj mnie do używania wyrażeń w dopełniaczu (takich jak die Mehrheit der Demokraten, die Interessen der drei Staaten), nazw z końcówką -s lub apostrofem (takich jak Israels Opposition, Russlands Präsident, Netanjahus Lager) oraz konstrukcji z von, gdy to właściwe.\n5. Pomysły na pytania (dostosuj do moich odpowiedzi): (temat 1) Wer hat den letzten Senatssitz in Alaska gewonnen, und wie ist die Mehrheit der Demokraten im Senat? (temat 3) Warum steigen die Ölpreise, und wessen Angriffe wehrt die Luftabwehr ab? (temat 4) Welche Hoffnungen hat Russlands Präsident vor dem Treffen mit Donald Trump und Chinas Staatschef? (temat 5) Was will Israels Opposition mit ihrem neuen Einfluss im Parlament erreichen? (temat 6) Welche Ziele verfolgt Lettlands neue Regierungskoalition?\n6. Natychmiastowa korekta: jeśli złamię dzisiejszą zasadę (np. *Das ist Donald Trump's Partei.* zamiast *Das ist Donald Trumps Partei.*), zatrzymaj się na chwilę: zacytuj błąd, podaj poprawne zdanie, wyjaśnij zasadę w jednym zdaniu po polsku i poproś mnie o głośne powtórzenie poprawnego zdania przed kolejnym pytaniem.\n7. Krótko poprawiaj także inne istotne błędy; zapamiętuj powtarzające się błędy do końcowego podsumowania. Jeśli moja odpowiedź jest bardzo krótka, zadaj jedno pytanie uzupełniające („Warum?“).\n8. Podsumowanie po ok. 20 minutach lub gdy powiem „stop”: dwie rzeczy, które mi się udały, trzy kluczowe błędy z poprawkami, pięć słów do powtórzenia oraz jedno niemieckie zdanie do głośnego powtórzenia.\n9. Utrzymuj angażujący, profesjonalny i naturalny ton odpowiedni dla immersyjnej rozmowy głosowej po niemiecku. Zwracaj się do mnie per „du”."
     }
   }
+},
+{
+  "lesson": {
+    "id": "2026-10-19",
+    "date": "19.10.2026",
+    "day": 7,
+    "totalDays": 300,
+    "level": "B1",
+    "title": {
+      "en": "Genitive Prepositions: trotz, während and wegen in Formal vs Colloquial German",
+      "pl": "Przyimki z dopełniaczem: trotz, während i wegen w języku formalnym i potocznym"
+    },
+    "subtitle": "Genitivpräpositionen: trotz, während und wegen"
+  },
+  "grammar": {
+    "html": {
+      "en": [
+        "<p>The prepositions <em>trotz</em> (despite), <em>während</em> (during), and <em>wegen</em> (because of) govern the genitive case in standard written and formal German. In everyday spoken German, however, speakers frequently use the dative after <em>wegen</em> and <em>trotz</em>, and sometimes after <em>während</em>. In addition, certain grammatical contexts require the dative or special pronoun forms even in careful written German.</p>",
+        "<div class='box rule'><strong>Core rule:</strong> Use the genitive after <em>trotz</em>, <em>während</em>, and <em>wegen</em> in formal and written German; use the dative only in colloquial speech or when the genitive cannot be marked clearly.</div>",
+        "<h3>Meanings and standard genitive forms</h3><p>In formal reporting and professional writing, all three prepositions take the genitive. Masculine and neuter nouns take <em>des</em> or <em>eines</em> plus <em>-s</em> or <em>-es</em> on the noun, while feminine and plural nouns take <em>der</em> or <em>einer</em> with no ending on the noun: <em><strong>trotz des Regens</strong></em> (despite the rain), <em><strong>während des Gipfels</strong></em> (during the summit), <em><strong>wegen der Energiekrise</strong></em> (because of the energy crisis), and <em><strong>während der Verhandlungen</strong></em> (during the negotiations).</p>",
+        "<h3>Formal vs colloquial usage</h3><p>In journalism, business letters, and academic texts, the genitive is expected: <em><strong>wegen einer technischen Störung</strong></em>, <em><strong>trotz des hohen Risikos</strong></em>. In casual conversation, many native speakers replace the genitive with the dative, especially with <em>wegen</em> and <em>trotz</em>: <em><strong>wegen dem Stau</strong></em>, <em><strong>trotz dem schlechten Wetter</strong></em>. Using the dative after <em>während</em> (<em>während dem Treffen</em>) also occurs in speech, though many speakers still regard it as non-standard in writing.</p>",
+        "<h3>When the dative is standard even in writing</h3><p>Even formal German switches to the dative when a plural noun stands completely alone without an article or adjective, because the genitive ending would not be visible: <em><strong>trotz Problemen</strong></em>, <em><strong>wegen Lieferengpässen</strong></em>. As soon as an adjective or article is added, the genitive returns: <em><strong>trotz großer Probleme</strong></em>. Similarly, singular nouns without an article often appear without endings (<em><strong>trotz Regen</strong></em>), and with personal pronouns speakers use either the dative (<em><strong>wegen ihm</strong></em>) or forms such as <em><strong>meinetwegen</strong></em> (because of me / for my sake).</p>",
+        "<table><thead><tr><th>Preposition</th><th>Meaning</th><th>Formal (Genitive)</th><th>Colloquial (Dative)</th></tr></thead><tbody><tr><td class='de'>trotz</td><td>despite</td><td class='de'>trotz <strong>des starken Regens</strong></td><td class='de'>trotz <strong>dem starken Regen</strong></td></tr><tr><td class='de'>während</td><td>during</td><td class='de'>während <strong>des langen Fluges</strong></td><td class='de'>während <strong>dem langen Flug</strong></td></tr><tr><td class='de'>wegen</td><td>because of</td><td class='de'>wegen <strong>der hohen Kosten</strong></td><td class='de'>wegen <strong>den hohen Kosten</strong></td></tr></tbody></table>",
+        "<table><thead><tr><th>Context</th><th>Standard form</th><th>Example</th></tr></thead><tbody><tr><td>Plural without article or adjective</td><td>Dative</td><td class='de'>trotz <strong>Schwierigkeiten</strong></td></tr><tr><td>Plural with adjective or article</td><td>Genitive</td><td class='de'>trotz <strong>großer Schwierigkeiten</strong></td></tr><tr><td>Personal pronoun</td><td>Dative or special form</td><td class='de'>wegen <strong>ihr</strong> / <strong>meinetwegen</strong></td></tr></tbody></table>",
+        "<div class='box warn'><strong>Typical mistake:</strong> Do not mix a genitive article with an uninflected masculine or neuter noun, and avoid dative forms in formal writing. Incorrect: <em>✗ Während der Gipfel sprachen die Präsidenten über den Krieg.</em> / <em>✗ Trotz des langen Treffen gab es keine Lösung.</em> Correct: <em>✓ Während des Gipfels sprachen die Präsidenten über den Krieg.</em> / <em>✓ Trotz des langen Treffens gab es keine Lösung.</em></div>",
+        "<div class='box tip'><strong>Memory aid:</strong> Think of <em>trotz, während, wegen</em> as your core written genitive trio for contrast, time, and cause—keep <em>des/der</em> in formal German, and switch to dative only for bare unmodified plurals or casual speech.</div>",
+        "<h3>Quick reference</h3><div class='tiles'><div class='tile'><strong>trotz</strong><p><em><strong>Trotz der Krise</strong> wächst der Markt.</em></p></div><div class='tile'><strong>während</strong><p><em><strong>Während des Fluges</strong> bleibt alles ruhig.</em></p></div><div class='tile'><strong>wegen</strong><p><em><strong>Wegen des Streiks</strong> fährt kein Zug.</em></p></div><div class='tile'><strong>Bare plural</strong><p><em><strong>Wegen Bauarbeiten</strong> ist die Straße zu.</em></p></div></div>"
+      ],
+      "pl": [
+        "<p>Przyimki <em>trotz</em> (mimo), <em>während</em> (podczas) oraz <em>wegen</em> (z powodu) wymagają w standardowej pisanej i formalnej niemczyźnie dopełniacza (Genitiv). W codziennej mowie potocznej po przyimkach <em>wegen</em> i <em>trotz</em>, a czasem także po <em>während</em>, często pojawia się jednak celownik (Dativ). Ponadto niektóre konstrukcje wymagają celownika lub specjalnych form zaimkowych nawet w starannym języku pisanym.</p>",
+        "<div class='box rule'><strong>Główna zasada:</strong> W języku formalnym i pisanym po przyimkach <em>trotz</em>, <em>während</em> i <em>wegen</em> stosuj dopełniacz; celownika używaj tylko w mowie potocznej lub wtedy, gdy dopełniacz nie byłby wyraźnie widoczny.</div>",
+        "<h3>Znaczenia i standardowe formy dopełniacza</h3><p>W tekstach oficjalnych, prasowych i zawodowych wszystkie trzy przyimki łączą się z dopełniaczem. Rzeczowniki rodzaju męskiego i nijakiego przyjmują rodzajnik <em>des</em> lub <em>eines</em> oraz końcówkę <em>-s</em> albo <em>-es</em>, natomiast rzeczowniki rodzaju żeńskiego i liczby mnogiej łączą się z <em>der</em> lub <em>einer</em> bez końcówki rzeczownika: <em><strong>trotz des Regens</strong></em> (mimo deszczu), <em><strong>während des Gipfels</strong></em> (podczas szczytu), <em><strong>wegen der Energiekrise</strong></em> (z powodu kryzysu energetycznego) oraz <em><strong>während der Verhandlungen</strong></em> (podczas negocjacji).</p>",
+        "<h3>Język formalny a mowa potoczna</h3><p>W dziennikarstwie, korespondencji służbowej i tekstach naukowych oczekuje się dopełniacza: <em><strong>wegen einer technischen Störung</strong></em>, <em><strong>trotz des hohen Risikos</strong></em>. W swobodnej rozmowie wielu rodzimych użytkowników języka zastępuje dopełniacz celownikiem, zwłaszcza po <em>wegen</em> i <em>trotz</em>: <em><strong>wegen dem Stau</strong></em>, <em><strong>trotz dem schlechten Wetter</strong></em>. Celownik po <em>während</em> (<em>während dem Treffen</em>) także bywa słyszany w mowie, choć w piśmie uchodzi zazwyczaj za niestandardowy.</p>",
+        "<h3>Kiedy celownik jest normą także w piśmie</h3><p>Nawet formalna niemczyzna przechodzi na celownik, gdy rzeczownik w liczbie mnogiej stoi całkowicie bez rodzajnika i bez przymiotnika, ponieważ dopełniacz nie miałby wówczas żadnego wyraźnego wykładnika: <em><strong>trotz Problemen</strong></em>, <em><strong>wegen Lieferengpässen</strong></em>. Gdy tylko pojawi się przymiotnik lub rodzajnik, wraca dopełniacz: <em><strong>trotz großer Probleme</strong></em>. Podobnie rzeczowniki niepoliczalne bez rodzajnika pozostają bez końcówki (<em><strong>trotz Regen</strong></em>), a z zaimkami osobowymi używa się celownika (<em><strong>wegen ihm</strong></em>) lub form takich jak <em><strong>meinetwegen</strong></em> (ze względu na mnie / przeze mnie).</p>",
+        "<table><thead><tr><th>Przyimek</th><th>Znaczenie</th><th>Formalnie (Dopełniacz)</th><th>Potocznie (Celownik)</th></tr></thead><tbody><tr><td class='de'>trotz</td><td>mimo</td><td class='de'>trotz <strong>des starken Regens</strong></td><td class='de'>trotz <strong>dem starken Regen</strong></td></tr><tr><td class='de'>während</td><td>podczas</td><td class='de'>während <strong>des langen Fluges</strong></td><td class='de'>während <strong>dem langen Flug</strong></td></tr><tr><td class='de'>wegen</td><td>z powodu</td><td class='de'>wegen <strong>der hohen Kosten</strong></td><td class='de'>wegen <strong>den hohen Kosten</strong></td></tr></tbody></table>",
+        "<table><thead><tr><th>Kontekst</th><th>Forma standardowa</th><th>Przykład</th></tr></thead><tbody><tr><td>Liczba mnoga bez rodzajnika i przymiotnika</td><td>Celownik</td><td class='de'>trotz <strong>Schwierigkeiten</strong></td></tr><tr><td>Liczba mnoga z przymiotnikiem lub rodzajnikiem</td><td>Dopełniacz</td><td class='de'>trotz <strong>großer Schwierigkeiten</strong></td></tr><tr><td>Zaimek osobowy</td><td>Celownik lub forma specjalna</td><td class='de'>wegen <strong>ihr</strong> / <strong>meinetwegen</strong></td></tr></tbody></table>",
+        "<div class='box warn'><strong>Typowy błąd:</strong> Nie łącz rodzajnika z innego przypadka z nieodmienionym rzeczownikiem rodzaju męskiego lub nijakiego i unikaj celownika w tekstach formalnych. Błędnie: <em>✗ Während der Gipfel sprachen die Präsidenten über den Krieg.</em> / <em>✗ Trotz des langen Treffen gab es keine Lösung.</em> Poprawnie: <em>✓ Während des Gipfels sprachen die Präsidenten über den Krieg.</em> / <em>✓ Trotz des langen Treffens gab es keine Lösung.</em></div>",
+        "<div class='box tip'><strong>Wskazówka do zapamiętania:</strong> Zapamiętaj trójkę <em>trotz, während, wegen</em> jako podstawowe przyimki dopełniaczowe dla kontrastu, czasu i przyczyny — w piśmie pilnuj form <em>des/der</em>, a celownik zostaw dla samej liczby mnogiej bez określeń lub mowy potocznej.</div>",
+        "<h3>Szybki przegląd</h3><div class='tiles'><div class='tile'><strong>trotz</strong><p><em><strong>Trotz der Krise</strong> wächst der Markt.</em></p></div><div class='tile'><strong>während</strong><p><em><strong>Während des Fluges</strong> bleibt alles ruhig.</em></p></div><div class='tile'><strong>wegen</strong><p><em><strong>Wegen des Streiks</strong> fährt kein Zug.</em></p></div><div class='tile'><strong>Naga l. mnoga</strong><p><em><strong>Wegen Bauarbeiten</strong> ist die Straße zu.</em></p></div></div>"
+      ]
+    }
+  },
+  "examples": [
+    {
+      "de": "**Wegen des Regens** bleiben wir heute zu Hause.",
+      "en": "Because of the rain, we are staying at home today.",
+      "pl": "Z powodu deszczu zostajemy dziś w domu.",
+      "level": "A1"
+    },
+    {
+      "de": "**Während des Unterrichts** ist es im Raum ruhig.",
+      "en": "During the lesson, it is quiet in the room.",
+      "pl": "Podczas lekcji w sali jest cicho.",
+      "level": "A1"
+    },
+    {
+      "de": "**Trotz der Kälte** gehen wir am Nachmittag spazieren.",
+      "en": "Despite the cold, we are going for a walk in the afternoon.",
+      "pl": "Mimo zimna idziemy po południu na spacer.",
+      "level": "A2"
+    },
+    {
+      "de": "Ich habe **wegen meiner Arbeit** leider wenig Zeit.",
+      "en": "Unfortunately, I have little time because of my work.",
+      "pl": "Z powodu mojej pracy mam niestety mało czasu.",
+      "level": "A2"
+    },
+    {
+      "de": "**Während des Urlaubs** besuchten wir unsere Freunde in Wien.",
+      "en": "During the holiday, we visited our friends in Vienna.",
+      "pl": "Podczas urlopu odwiedziliśmy naszych przyjaciół w Wiedniu.",
+      "level": "A2"
+    },
+    {
+      "de": "„**Wegen dem Stau** komme ich etwas später“, sagte Anna am Telefon.",
+      "en": "\"Because of the traffic jam, I'll be a bit late,\" Anna said on the phone.",
+      "pl": "„Z powodu korka spóźnię się trochę”, powiedziała Anna przez telefon.",
+      "level": "B1"
+    },
+    {
+      "de": "**Trotz des schlechten Wetters** fand das Konzert im Park statt.",
+      "en": "Despite the bad weather, the concert took place in the park.",
+      "pl": "Mimo złej pogody koncert odbył się w parku.",
+      "level": "B1"
+    },
+    {
+      "de": "**Während der Pause** tranken alle Kollegen zusammen Kaffee.",
+      "en": "During the break, all colleagues drank coffee together.",
+      "pl": "Podczas przerwy wszyscy koledzy pili razem kawę.",
+      "level": "B1"
+    },
+    {
+      "de": "**Trotz Problemen** am Anfang lief das Projekt sehr gut.",
+      "en": "Despite problems at the beginning, the project went very well.",
+      "pl": "Mimo problemów na początku projekt przebiegał bardzo dobrze.",
+      "level": "B1"
+    },
+    {
+      "de": "**Wegen der Energiekrise** hat die Behörde die neuen Regeln verschoben.",
+      "en": "Because of the energy crisis, the authority postponed the new rules.",
+      "pl": "Z powodu kryzysu energetycznego urząd przełożył nowe przepisy.",
+      "level": "B2"
+    },
+    {
+      "de": "**Während des Gipfels** sprachen die Staatschefs über wirtschaftliche Fragen.",
+      "en": "During the summit, the heads of state spoke about economic issues.",
+      "pl": "Podczas szczytu szefowie państw rozmawiali o kwestiach gospodarczych.",
+      "level": "B2"
+    },
+    {
+      "de": "**Trotz erheblicher Kritik** hielt die Regierung an ihrem Plan fest.",
+      "en": "Despite considerable criticism, the government stuck to its plan.",
+      "pl": "Mimo znacznej krytyki rząd trzymał się swojego planu.",
+      "level": "B2"
+    },
+    {
+      "de": "„**Trotz dem Stress** hat mir die Konferenz gut gefallen“, erzählte mein Kollege.",
+      "en": "\"Despite the stress, I liked the conference,\" my colleague told me.",
+      "pl": "„Mimo stresu konferencja bardzo mi się podobała”, opowiadał mój kolega.",
+      "level": "B2"
+    },
+    {
+      "de": "**Wegen eines technischen Ausfalls** verzögerte sich der Start des Fluges.",
+      "en": "Because of a technical outage, the start of the flight was delayed.",
+      "pl": "Z powodu awarii technicznej start lotu się opóźnił.",
+      "level": "B2"
+    },
+    {
+      "de": "**Während der intensiven Verhandlungen** konnten beide Seiten keinen Kompromiss finden.",
+      "en": "During the intensive negotiations, neither side could find a compromise.",
+      "pl": "Podczas intensywnych negocjacji żadna ze stron nie zdołała wypracować kompromisu.",
+      "level": "C1"
+    },
+    {
+      "de": "**Trotz der steigenden Kosten** investiert das Unternehmen weiter in moderne Technik.",
+      "en": "Despite the rising costs, the company continues to invest in modern technology.",
+      "pl": "Mimo rosnących kosztów przedsiębiorstwo nadal inwestuje w nowoczesną technologię.",
+      "level": "C1"
+    },
+    {
+      "de": "**Wegen des anhaltenden Konflikts** bleiben wichtige Handelsrouten weiterhin blockiert.",
+      "en": "Because of the ongoing conflict, important trade routes remain blocked.",
+      "pl": "Z powodu trwającego konfliktu ważne szlaki handlowe pozostają zablokowane.",
+      "level": "C1"
+    },
+    {
+      "de": "**Trotz zahlreicher Warnungen** reagierten die Behörden erst sehr spät.",
+      "en": "Despite numerous warnings, the authorities reacted only very late.",
+      "pl": "Mimo licznych ostrzeżeń władze zareagowały dopiero bardzo późno.",
+      "level": "C1"
+    },
+    {
+      "de": "**Während des gesamten Verfahrens** legte die Verteidigung keine neuen Beweise vor.",
+      "en": "Throughout the entire proceedings, the defence did not present any new evidence.",
+      "pl": "W trakcie całego postępowania obrona nie przedstawiła żadnych nowych dowodów.",
+      "level": "C2"
+    },
+    {
+      "de": "**Wegen mangelnder Transparenz** geriet die Leitung des Konzerns unter massiven Druck.",
+      "en": "Because of a lack of transparency, the corporation's management came under massive pressure.",
+      "pl": "Z powodu braku przejrzystości kierownictwo koncernu znalazło się pod ogromną presją.",
+      "level": "C2"
+    }
+  ],
+  "exercises": [
+    {
+      "en": "Because of the weather, we are staying inside today.",
+      "pl": "Z powodu pogody zostajemy dziś w środku.",
+      "de": "Wegen des Wetters bleiben wir heute drinnen.",
+      "level": "A2"
+    },
+    {
+      "en": "During the film, nobody spoke.",
+      "pl": "Podczas filmu nikt nie rozmawiał.",
+      "de": "Während des Films sprach niemand.",
+      "level": "A2"
+    },
+    {
+      "en": "Despite the noise, the child slept peacefully.",
+      "pl": "Mimo hałasu dziecko spało spokojnie.",
+      "de": "Trotz des Lärms schlief das Kind ruhig.",
+      "level": "A2"
+    },
+    {
+      "en": "Because of my cold, I cannot come today.",
+      "pl": "Z powodu mojego przeziębienia nie mogę dziś przyjść.",
+      "de": "Wegen meiner Erkältung kann ich heute nicht kommen.",
+      "level": "A2"
+    },
+    {
+      "en": "During the summer, we often swim in the lake.",
+      "pl": "Podczas lata często pływamy w jeziorze.",
+      "de": "Während des Sommers schwimmen wir oft im See.",
+      "level": "A2"
+    },
+    {
+      "en": "Despite the rain, Peter rode his bike to work.",
+      "pl": "Mimo deszczu Peter pojechał rowerem do pracy.",
+      "de": "Trotz des Regens fuhr Peter mit dem Fahrrad zur Arbeit.",
+      "level": "A2"
+    },
+    {
+      "en": "Because of the high price, Anna did not buy the coat.",
+      "pl": "Z powodu wysokiej ceny Anna nie kupiła płaszcza.",
+      "de": "Wegen des hohen Preises kaufte Anna den Mantel nicht.",
+      "level": "A2"
+    },
+    {
+      "en": "During the journey, we read many books.",
+      "pl": "Podczas podróży czytaliśmy wiele książek.",
+      "de": "Während der Reise lasen wir viele Bücher.",
+      "level": "A2"
+    },
+    {
+      "en": "Despite his tiredness, Paul finished his homework.",
+      "pl": "Mimo swojego zmęczenia Paul dokończył pracę domową.",
+      "de": "Trotz seiner Müdigkeit beendete Paul seine Hausaufgaben.",
+      "level": "A2"
+    },
+    {
+      "en": "Because of a mistake, we had to write the letter again.",
+      "pl": "Z powodu błędu musieliśmy napisać list jeszcze raz.",
+      "de": "Wegen eines Fehlers mussten wir den Brief noch einmal schreiben.",
+      "level": "A2"
+    },
+    {
+      "en": "Because of the traffic jam, the bus arrived twenty minutes late.",
+      "pl": "Z powodu korka autobus przyjechał dwadzieścia minut za późno.",
+      "de": "Wegen des Staus kam der Bus zwanzig Minuten zu spät an.",
+      "level": "B1"
+    },
+    {
+      "en": "During the meeting, my colleague took detailed notes.",
+      "pl": "Podczas spotkania mój kolega robił szczegółowe notatki.",
+      "de": "Während der Besprechung machte mein Kollege ausführliche Notizen.",
+      "level": "B1"
+    },
+    {
+      "en": "Despite the tight deadline, the team delivered the report on time.",
+      "pl": "Mimo napiętego terminu zespół dostarczył raport na czas.",
+      "de": "Trotz der knappen Frist lieferte das Team den Bericht pünktlich.",
+      "level": "B1"
+    },
+    {
+      "en": "Because of a technical fault, the train stopped at the station.",
+      "pl": "Z powodu usterki technicznej pociąg zatrzymał się na stacji.",
+      "de": "Wegen einer technischen Störung hielt der Zug am Bahnhof.",
+      "level": "B1"
+    },
+    {
+      "en": "During the winter, the small mountain road remains closed.",
+      "pl": "Podczas zimy mała górska droga pozostaje zamknięta.",
+      "de": "Während des Winters bleibt die kleine Bergstraße gesperrt.",
+      "level": "B1"
+    },
+    {
+      "en": "Despite his illness, the manager joined the video call.",
+      "pl": "Mimo swojej choroby kierownik dołączył do wideorozmowy.",
+      "de": "Trotz seiner Krankheit nahm der Leiter an dem Videogespräch teil.",
+      "level": "B1"
+    },
+    {
+      "en": "Because of the noise on the street, I closed the window.",
+      "pl": "Z powodu hałasu na ulicy zamknąłem okno.",
+      "de": "Wegen des Lärms auf der Straße schloss ich das Fenster.",
+      "level": "B1"
+    },
+    {
+      "en": "During the training course, the participants practised new dialogues.",
+      "pl": "Podczas kursu szkoleniowego uczestnicy ćwiczyli nowe dialogi.",
+      "de": "Während der Schulung übten die Teilnehmer neue Dialoge.",
+      "level": "B1"
+    },
+    {
+      "en": "Despite the dark clouds, the match was not cancelled.",
+      "pl": "Mimo ciemnych chmur mecz nie został odwołany.",
+      "de": "Trotz der dunklen Wolken wurde das Spiel nicht abgesagt.",
+      "level": "B1"
+    },
+    {
+      "en": "Because of urgent appointments, our boss flew to Frankfurt yesterday.",
+      "pl": "Z powodu pilnych spotkań nasz szef poleciał wczoraj do Frankfurtu.",
+      "de": "Wegen dringender Termine flog unser Chef gestern nach Frankfurt.",
+      "level": "B1"
+    },
+    {
+      "en": "During the concert, the audience sat quietly in the hall.",
+      "pl": "Podczas koncertu publiczność siedziała cicho na sali.",
+      "de": "Während des Konzerts saß das Publikum ruhig im Saal.",
+      "level": "B1"
+    },
+    {
+      "en": "Despite difficulties with the software, we saved all files.",
+      "pl": "Mimo trudności z oprogramowaniem zapisaliśmy wszystkie pliki.",
+      "de": "Trotz Schwierigkeiten mit der Software speicherten wir alle Dateien.",
+      "level": "B1"
+    },
+    {
+      "en": "Because of the storm, several flights were cancelled this morning.",
+      "pl": "Z powodu burzy kilka lotów zostało dziś rano odwołanych.",
+      "de": "Wegen des Sturms wurden heute Morgen mehrere Flüge gestrichen.",
+      "level": "B1"
+    },
+    {
+      "en": "During the lunch break, Lisa called her sister in Munich.",
+      "pl": "Podczas przerwy obiadowej Lisa zadzwoniła do swojej siostry w Monachium.",
+      "de": "Während der Mittagspause rief Lisa ihre Schwester in München an.",
+      "level": "B1"
+    },
+    {
+      "en": "Despite the long journey, the guests seemed very energetic.",
+      "pl": "Mimo długiej podróży goście wydawali się bardzo energiczni.",
+      "de": "Trotz der langen Reise wirkten die Gäste sehr energiegeladen.",
+      "level": "B1"
+    },
+    {
+      "en": "Because of renovation work, the museum stays closed until Monday.",
+      "pl": "Z powodu prac remontowych muzeum pozostaje zamknięte do poniedziałku.",
+      "de": "Wegen Renovierungsarbeiten bleibt das Museum bis Montag geschlossen.",
+      "level": "B1"
+    },
+    {
+      "en": "During the flight, passengers were not allowed to leave their seats.",
+      "pl": "Podczas lotu pasażerowie nie mogli opuszczać swoich miejsc.",
+      "de": "Während des Fluges durften die Passagiere ihre Plätze nicht verlassen.",
+      "level": "B1"
+    },
+    {
+      "en": "Despite the high rent, Max decided to take the flat.",
+      "pl": "Mimo wysokiego czynszu Max zdecydował się na to mieszkanie.",
+      "de": "Trotz der hohen Miete entschied sich Max für die Wohnung.",
+      "level": "B1"
+    },
+    {
+      "en": "Because of her new job, Sarah is moving to Berlin next month.",
+      "pl": "Z powodu swojej nowej pracy Sarah przeprowadza się w przyszłym miesiącu do Berlina.",
+      "de": "Wegen ihres neuen Jobs zieht Sarah nächsten Monat nach Berlin.",
+      "level": "B1"
+    },
+    {
+      "en": "During the exam, students may only use a pen.",
+      "pl": "Podczas egzaminu studenci mogą używać wyłącznie długopisu.",
+      "de": "Während der Prüfung dürfen die Studierenden nur einen Stift benutzen.",
+      "level": "B1"
+    },
+    {
+      "en": "Because of the ongoing strike, public transport is severely restricted today.",
+      "pl": "Z powodu trwającego strajku transport publiczny jest dziś poważnie ograniczony.",
+      "de": "Wegen des laufenden Streiks ist der öffentliche Nahverkehr heute stark eingeschränkt.",
+      "level": "B2"
+    },
+    {
+      "en": "Despite the opposition's protests, the parliament passed the draft law.",
+      "pl": "Mimo protestów opozycji parlament przyjął projekt ustawy.",
+      "de": "Trotz der Proteste der Opposition verabschiedete das Parlament den Gesetzentwurf.",
+      "level": "B2"
+    },
+    {
+      "en": "During the conference, several experts warned about rising cyberattacks.",
+      "pl": "Podczas konferencji kilku ekspertów ostrzegało przed rosnącymi cyberatakami.",
+      "de": "Während der Konferenz warnten mehrere Experten vor zunehmenden Cyberattacken.",
+      "level": "B2"
+    },
+    {
+      "en": "Because of a sudden power outage, production stopped for two hours.",
+      "pl": "Z powodu nagłej przerwy w dostawie prądu produkcja stanęła na dwie godziny.",
+      "de": "Wegen eines plötzlichen Stromausfalls stand die Produktion zwei Stunden lang still.",
+      "level": "B2"
+    },
+    {
+      "en": "Despite clear warnings, the company ignored the security vulnerabilities.",
+      "pl": "Mimo wyraźnych ostrzeżeń firma zignorowała luki w zabezpieczeniach.",
+      "de": "Trotz deutlicher Warnungen ignorierte das Unternehmen die Sicherheitslücken.",
+      "level": "B2"
+    },
+    {
+      "en": "During the investigation, the authorities evaluated thousands of digital files.",
+      "pl": "Podczas dochodzenia władze przeanalizowały tysiące plików cyfrowych.",
+      "de": "Während der Untersuchung werteten die Behörden Tausende digitale Dateien aus.",
+      "level": "B2"
+    },
+    {
+      "en": "Because of the tense budget situation, the city postponed the construction project.",
+      "pl": "Z powodu napiętej sytuacji budżetowej miasto przełożyło projekt budowlany.",
+      "de": "Wegen der angespannten Haushaltslage verschob die Stadt das Bauprojekt.",
+      "level": "B2"
+    },
+    {
+      "en": "Despite intensive efforts, both delegations failed to reach an agreement.",
+      "pl": "Mimo intensywnych wysiłków obu delegacjom nie udało się osiągnąć porozumienia.",
+      "de": "Trotz intensiver Bemühungen gelang es beiden Delegationen nicht, eine Einigung zu erzielen.",
+      "level": "B2"
+    },
+    {
+      "en": "During the press conference, the spokesperson answered all critical questions calmly.",
+      "pl": "Podczas konferencji prasowej rzeczniczka spokojnie odpowiedziała na wszystkie krytyczne pytania.",
+      "de": "Während der Pressekonferenz beantwortete die Sprecherin alle kritischen Fragen ruhig.",
+      "level": "B2"
+    },
+    {
+      "en": "Because of supply bottlenecks, the factory had to reduce its weekly output.",
+      "pl": "Z powodu wąskich gardeł w dostawach fabryka musiała ograniczyć swoją tygodniową produkcję.",
+      "de": "Wegen Lieferengpässen musste die Fabrik ihre wöchentliche Produktion drosseln.",
+      "level": "B2"
+    },
+    {
+      "en": "Despite the uncertain market situation, investors remain optimistic about next year.",
+      "pl": "Mimo niepewnej sytuacji rynkowej inwestorzy pozostają optymistyczni co do przyszłego roku.",
+      "de": "Trotz der unsicheren Marktlage bleiben Investoren für das nächste Jahr optimistisch.",
+      "level": "B2"
+    },
+    {
+      "en": "During the vote count, volunteers checked every ballot twice.",
+      "pl": "Podczas liczenia głosów wolontariusze sprawdzali każdą kartę do głosowania dwa razy.",
+      "de": "Während der Auszählung überprüften Helfer jeden Stimmzettel zweimal.",
+      "level": "B2"
+    },
+    {
+      "en": "Because of the diplomatic crisis, the ambassador was recalled to the capital.",
+      "pl": "Z powodu kryzysu dyplomatycznego ambasador został odwołany do stolicy.",
+      "de": "Wegen der diplomatischen Krise wurde der Botschafter in die Hauptstadt zurückgerufen.",
+      "level": "B2"
+    },
+    {
+      "en": "Despite problems with the server, the online shop stayed reachable.",
+      "pl": "Mimo problemów z serwerem sklep internetowy pozostał dostępny.",
+      "de": "Trotz Problemen mit dem Server blieb der Onlineshop erreichbar.",
+      "level": "B2"
+    },
+    {
+      "en": "During the summer months, the demand for electricity rises noticeably.",
+      "pl": "Podczas miesięcy letnich zapotrzebowanie na energię elektryczną wyraźnie rośnie.",
+      "de": "Während der Sommermonate steigt der Strombedarf spürbar an.",
+      "level": "B2"
+    },
+    {
+      "en": "Because of strict data protection rules, the app stores no personal data.",
+      "pl": "Z powodu surowych przepisów o ochronie danych aplikacja nie przechowuje żadnych danych osobowych.",
+      "de": "Wegen strenger Datenschutzregeln speichert die App keine persönlichen Daten.",
+      "level": "B2"
+    },
+    {
+      "en": "Despite his narrow majority, the prime minister formed a stable cabinet.",
+      "pl": "Mimo swojej niewielkiej większości premier utworzył stabilny gabinet.",
+      "de": "Trotz seiner knappen Mehrheit bildete der Ministerpräsident ein stabiles Kabinett.",
+      "level": "B2"
+    },
+    {
+      "en": "During the bilateral talks, both presidents emphasised their economic partnership.",
+      "pl": "Podczas rozmów dwustronnych obaj prezydenci podkreślili swoje partnerstwo gospodarcze.",
+      "de": "Während der Zweiergespräche betonten beide Präsidenten ihre wirtschaftliche Partnerschaft.",
+      "level": "B2"
+    },
+    {
+      "en": "Because of the blockade of the strait, fuel prices rose worldwide.",
+      "pl": "Z powodu blokady cieśniny ceny paliw wzrosły na całym świecie.",
+      "de": "Wegen der Blockade der Meerenge stiegen die Treibstoffpreise weltweit.",
+      "level": "B2"
+    },
+    {
+      "en": "Despite her defeat in the previous election, the politician ran again.",
+      "pl": "Mimo swojej porażki w poprzednich wyborach polityczka wystartowała ponownie.",
+      "de": "Trotz ihrer Niederlage bei der vorherigen Wahl trat die Politikerin erneut an.",
+      "level": "B2"
+    },
+    {
+      "en": "During the parliamentary debate, several speakers demanded faster reforms.",
+      "pl": "Podczas debaty parlamentarnej kilku mówców zażądało szybszych reform.",
+      "de": "Während der Parlamentsdebatte forderten mehrere Redner schnellere Reformen.",
+      "level": "B2"
+    },
+    {
+      "en": "Because of an unexpected delay, the new regulation will take effect later.",
+      "pl": "Z powodu nieoczekiwanego opóźnienia nowe rozporządzenie wejdzie w życie później.",
+      "de": "Wegen einer unerwarteten Verzögerung tritt die neue Verordnung später in Kraft.",
+      "level": "B2"
+    },
+    {
+      "en": "Despite repeated requests, the ministry has not published the full report yet.",
+      "pl": "Mimo wielokrotnych próśb ministerstwo nie opublikowało jeszcze pełnego raportu.",
+      "de": "Trotz mehrfacher Bitten hat das Ministerium den vollständigen Bericht noch nicht veröffentlicht.",
+      "level": "B2"
+    },
+    {
+      "en": "During the crisis, small businesses depended heavily on state support.",
+      "pl": "Podczas kryzysu małe przedsiębiorstwa były silnie zależne od wsparcia państwa.",
+      "de": "Während der Krise waren kleine Unternehmen stark auf staatliche Unterstützung angewiesen.",
+      "level": "B2"
+    },
+    {
+      "en": "Because of the high humidity, the measurement devices had to be recalibrated.",
+      "pl": "Z powodu wysokiej wilgotności urządzenia pomiarowe musiały zostać ponownie skalibrowane.",
+      "de": "Wegen der hohen Luftfeuchtigkeit mussten die Messgeräte neu kalibriert werden.",
+      "level": "B2"
+    },
+    {
+      "en": "Despite long negotiations, the coalition partners could not resolve every dispute.",
+      "pl": "Mimo długich negocjacji partnerzy koalicyjni nie zdołali rozwiązać każdego sporu.",
+      "de": "Trotz langer Verhandlungen konnten die Koalitionspartner nicht jeden Streit beilegen.",
+      "level": "B2"
+    },
+    {
+      "en": "During his visit to Asia, the foreign minister met several regional leaders.",
+      "pl": "Podczas swojej wizyty w Azji minister spraw zagranicznych spotkał się z kilkoma czołowymi politykami regionu.",
+      "de": "Während seines Besuchs in Asien traf der Außenminister mehrere Spitzenpolitiker der Region.",
+      "level": "B2"
+    },
+    {
+      "en": "Because of the growing threat, the airport introduced stricter baggage checks.",
+      "pl": "Z powodu rosnącego zagrożenia lotnisko wprowadziło surowsze kontrole bagażu.",
+      "de": "Wegen der wachsenden Bedrohung führte der Flughafen strengere Gepäckkontrollen ein.",
+      "level": "B2"
+    },
+    {
+      "en": "Despite initial doubts, the new system proved reliable in daily operation.",
+      "pl": "Mimo początkowych wątpliwości nowy system okazał się niezawodny w codziennym działaniu.",
+      "de": "Trotz anfänglicher Zweifel erwies sich das neue System im täglichen Betrieb als zuverlässig.",
+      "level": "B2"
+    },
+    {
+      "en": "During the construction phase, trains run on an alternative route.",
+      "pl": "Podczas fazy budowy pociągi kursują alternatywną trasą.",
+      "de": "Während der Bauphase fahren die Züge auf einer alternativen Strecke.",
+      "level": "B2"
+    },
+    {
+      "en": "Because of heavy snowfall, several remote villages were cut off from traffic.",
+      "pl": "Z powodu obfitych opadów śniegu kilka odległych miejscowości zostało odciętych od ruchu.",
+      "de": "Wegen starken Schneefalls waren mehrere abgelegene Ortschaften vom Verkehr abgeschnitten.",
+      "level": "B2"
+    },
+    {
+      "en": "Despite differences of opinion, the committee reached a unanimous decision.",
+      "pl": "Mimo różnic zdań komisja podjęła jednogłośną decyzję.",
+      "de": "Trotz Meinungsverschiedenheiten fasste der Ausschuss einen einstimmigen Beschluss.",
+      "level": "B2"
+    },
+    {
+      "en": "During the audit, the reviewers checked all invoices from the last quarter.",
+      "pl": "Podczas audytu kontrolerzy sprawdzili wszystkie faktury z ostatniego kwartału.",
+      "de": "Während der Prüfung kontrollierten die Prüfer alle Rechnungen des letzten Quartals.",
+      "level": "B2"
+    },
+    {
+      "en": "Because of rising raw material prices, the manufacturer adjusted its annual forecast.",
+      "pl": "Z powodu rosnących cen surowców producent skorygował swoją roczną prognozę.",
+      "de": "Wegen steigender Rohstoffpreise passte der Hersteller seine Jahresprognose an.",
+      "level": "B2"
+    },
+    {
+      "en": "Despite technical disruptions, the airline maintained most of its international connections.",
+      "pl": "Mimo zakłóceń technicznych linia lotnicza utrzymała większość swoich połączeń międzynarodowych.",
+      "de": "Trotz technischer Störungen hielt die Fluggesellschaft die meisten ihrer internationalen Verbindungen aufrecht.",
+      "level": "B2"
+    },
+    {
+      "en": "During the transition period, both systems will run in parallel for six months.",
+      "pl": "Podczas okresu przejściowego oba systemy będą działać równolegle przez sześć miesięcy.",
+      "de": "Während der Übergangszeit laufen beide Systeme sechs Monate lang parallel.",
+      "level": "B2"
+    },
+    {
+      "en": "Because of a lack of staff, the local office closed earlier on Fridays.",
+      "pl": "Z powodu braku personelu lokalne biuro zamykało się wcześniej w piątki.",
+      "de": "Wegen Personalmangels schloss das örtliche Büro freitags früher.",
+      "level": "B2"
+    },
+    {
+      "en": "Despite strict sanctions, trade with neighbouring countries continued to grow.",
+      "pl": "Mimo surowych sankcji handel z krajami sąsiednimi nadal rósł.",
+      "de": "Trotz strenger Sanktionen wuchs der Handel mit den Nachbarländern weiter.",
+      "level": "B2"
+    },
+    {
+      "en": "During the summit, protesters gathered outside the conference centre.",
+      "pl": "Podczas szczytu protestujący zgromadzili się przed centrum konferencyjnym.",
+      "de": "Während des Gipfels versammelten sich Demonstranten vor dem Konferenzzentrum.",
+      "level": "B2"
+    },
+    {
+      "en": "Because of a nationwide flight ban, thousands of travellers had to rebook.",
+      "pl": "Z powodu ogólnokrajowego zakazu lotów tysiące podróżnych musiało zmienić rezerwację.",
+      "de": "Wegen eines landesweiten Flugverbots mussten Tausende Reisende umbuchen.",
+      "level": "B2"
+    },
+    {
+      "en": "Despite massive opposition from industry associations, the parliament adopted the stricter rules.",
+      "pl": "Mimo silnego sprzeciwu ze strony stowarzyszeń branżowych parlament przyjął surowsze przepisy.",
+      "de": "Trotz massiven Widerstands der Branchenverbände verabschiedete das Parlament die strengeren Regeln.",
+      "level": "C1"
+    },
+    {
+      "en": "During the protracted coalition talks, the parties debated key tax reforms.",
+      "pl": "Podczas przeciągających się rozmów koalicyjnych partie debatowały nad kluczowymi reformami podatkowymi.",
+      "de": "Während der langwierigen Koalitionsgespräche debattierten die Parteien über zentrale Steuerreformen.",
+      "level": "C1"
+    },
+    {
+      "en": "Because of the geopolitical tensions, many investors shifted capital into safer assets.",
+      "pl": "Z powodu napięć geopolitycznych wielu inwestorów przeniosło kapitał do bezpieczniejszych aktywów.",
+      "de": "Wegen der geopolitischen Spannungen verlagerten viele Anleger Kapital in sicherere Anlagen.",
+      "level": "C1"
+    },
+    {
+      "en": "Despite the controversial judicial overhaul, the governing coalition defended its strategy.",
+      "pl": "Mimo kontrowersyjnej przebudowy wymiaru sprawiedliwości koalicja rządząca broniła swojej strategii.",
+      "de": "Trotz des umstrittenen Justizumbaus verteidigte die Regierungskoalition ihre Strategie.",
+      "level": "C1"
+    },
+    {
+      "en": "During the preliminary investigation, prosecutors secured extensive communication records.",
+      "pl": "Podczas postępowania wstępnego prokuratorzy zabezpieczyli obszerne zapisy komunikacji.",
+      "de": "Während des Ermittlungsverfahrens sicherten die Staatsanwälte umfangreiche Kommunikationsdaten.",
+      "level": "C1"
+    },
+    {
+      "en": "Because of the worsening shortage of raw materials, several factories adjusted their shift schedules.",
+      "pl": "Z powodu pogłębiającego się niedoboru surowców kilka fabryk dostosowało swoje harmonogramy zmian.",
+      "de": "Wegen des zunehmenden Rohstoffmangels passten mehrere Fabriken ihre Schichtpläne an.",
+      "level": "C1"
+    },
+    {
+      "en": "Despite considerable financial risks, the consortium approved the infrastructure project.",
+      "pl": "Mimo znacznego ryzyka finansowego konsorcjum zatwierdziło projekt infrastrukturalny.",
+      "de": "Trotz erheblicher finanzieller Risiken genehmigte das Konsortium das Infrastrukturprojekt.",
+      "level": "C1"
+    },
+    {
+      "en": "During the emergency session, delegates discussed joint measures to protect maritime routes.",
+      "pl": "Podczas nadzwyczajnego posiedzenia delegaci omówili wspólne środki ochrony szlaków morskich.",
+      "de": "Während der Sondersitzung berieten die Delegierten über gemeinsame Maßnahmen zum Schutz der Seewege.",
+      "level": "C1"
+    },
+    {
+      "en": "Because of conflicting security interests, the trilateral talks produced only modest progress.",
+      "pl": "Z powodu sprzecznych interesów bezpieczeństwa rozmowy trójstronne przyniosły jedynie skromny postęp.",
+      "de": "Wegen widerstreitender Sicherheitsinteressen brachten die Dreiergespräche nur bescheidene Fortschritte.",
+      "level": "C1"
+    },
+    {
+      "en": "Despite clear indications of manipulation, the authority initially refrained from sanctions.",
+      "pl": "Mimo wyraźnych oznak manipulacji urząd początkowo powstrzymał się od sankcji.",
+      "de": "Trotz deutlicher Hinweise auf Manipulationen sah die Behörde zunächst von Sanktionen ab.",
+      "level": "C1"
+    },
+    {
+      "en": "During his term in office, the parliamentary speaker strengthened the role of committees.",
+      "pl": "Podczas swojej kadencji przewodniczący parlamentu wzmocnił rolę komisji.",
+      "de": "Während seiner Amtszeit stärkte der Parlamentspräsident die Rolle der Ausschüsse.",
+      "level": "C1"
+    },
+    {
+      "en": "Because of the repeated attacks on transport links, rail traffic was temporarily suspended.",
+      "pl": "Z powodu powtarzających się ataków na połączenia transportowe ruch kolejowy został tymczasowo wstrzymany.",
+      "de": "Wegen der wiederholten Angriffe auf Verkehrsverbindungen wurde der Bahnverkehr vorübergehend eingestellt.",
+      "level": "C1"
+    },
+    {
+      "en": "Despite unfavourable economic forecasts, domestic consumption remained surprisingly robust.",
+      "pl": "Mimo niekorzystnych prognoz gospodarczych konsumpcja krajowa pozostała zaskakująco silna.",
+      "de": "Trotz ungünstiger Wirtschaftsprognosen blieb der Binnenkonsum überraschend robust.",
+      "level": "C1"
+    },
+    {
+      "en": "During the multi-year expedition, the space probe transmitted valuable measurement data to Earth.",
+      "pl": "Podczas wieloletniej ekspedycji sonda kosmiczna przesyłała na Ziemię cenne dane pomiarowe.",
+      "de": "Während der mehrjährigen Expedition übermittelte die Raumsonde wertvolle Messdaten zur Erde.",
+      "level": "C1"
+    },
+    {
+      "en": "Because of a lack of reliable data, the researchers revised their long-term projection.",
+      "pl": "Z powodu braku wiarygodnych danych badacze skorygowali swoją długoterminową prognozę.",
+      "de": "Wegen mangelnder verlässlicher Daten korrigierten die Forscher ihre langfristige Prognose.",
+      "level": "C1"
+    },
+    {
+      "en": "Despite strict confidentiality rules, details of the draft agreement leaked to the press.",
+      "pl": "Mimo surowych zasad poufności szczegóły projektu porozumienia wyciekły do prasy.",
+      "de": "Trotz strenger Vertraulichkeitsregeln drangen Einzelheiten des Vertragsentwurfs an die Presse.",
+      "level": "C1"
+    },
+    {
+      "en": "During the restructuring process, several regional branches were merged into one unit.",
+      "pl": "Podczas procesu restrukturyzacji kilka oddziałów regionalnych połączono w jedną jednostkę.",
+      "de": "Während des Umstrukturierungsprozesses wurden mehrere Regionalfilialen zu einer Einheit zusammengelegt.",
+      "level": "C1"
+    },
+    {
+      "en": "Because of the high emissions, the regulator tightened the environmental standards for importers.",
+      "pl": "Z powodu wysokich emisji organ regulacyjny zaostrzył normy środowiskowe dla importerów.",
+      "de": "Wegen der hohen Emissionen verschärfte die Aufsichtsbehörde die Umweltstandards für Importeure.",
+      "level": "C1"
+    },
+    {
+      "en": "Despite mounting pressure from shareholders, the management rejected an immediate split.",
+      "pl": "Mimo rosnącej presji ze strony akcjonariuszy kierownictwo odrzuciło natychmiastowy podział.",
+      "de": "Trotz zunehmenden Drucks der Aktionäre lehnte die Geschäftsleitung eine sofortige Aufspaltung ab.",
+      "level": "C1"
+    },
+    {
+      "en": "During the international summit, European leaders coordinated their position on peace talks.",
+      "pl": "Podczas międzynarodowego szczytu europejscy przywódcy skoordynowali swoje stanowisko w sprawie rozmów pokojowych.",
+      "de": "Während des internationalen Gipfels stimmten europäische Staats- und Regierungschefs ihre Haltung zu Friedensgesprächen ab.",
+      "level": "C1"
+    },
+    {
+      "en": "Despite the far-reaching consequences of the embargo, the government ruled out any concessions.",
+      "pl": "Mimo dalekosiężnych skutków embarga rząd wykluczył jakiekolwiek ustępstwa.",
+      "de": "Trotz der weitreichenden Folgen des Embargos schloss die Regierung jegliche Zugeständnisse aus.",
+      "level": "C2"
+    },
+    {
+      "en": "During the decades-long journey through interstellar space, the probe surpassed every expectation.",
+      "pl": "Podczas trwającej dziesięciolecia podróży przez przestrzeń międzygwiezdną sonda przerosła wszelkie oczekiwania.",
+      "de": "Während der jahrzehntelangen Reise durch den interstellaren Raum übertraf die Sonde jede Erwartung.",
+      "level": "C2"
+    },
+    {
+      "en": "Because of fundamental disagreements over judicial independence, the coalition talks collapsed.",
+      "pl": "Z powodu zasadniczych sporów o niezależność sądownictwa rozmowy koalicyjne załamały się.",
+      "de": "Wegen grundlegender Meinungsverschiedenheiten über die richterliche Unabhängigkeit scheiterten die Koalitionsgespräche.",
+      "level": "C2"
+    },
+    {
+      "en": "Despite the apparent stability of the alliance, internal tensions surfaced immediately after the vote.",
+      "pl": "Mimo pozornej stabilności sojuszu wewnętrzne napięcia ujawniły się natychmiast po głosowaniu.",
+      "de": "Trotz der scheinbaren Stabilität des Bündnisses traten interne Spannungen unmittelbar nach der Abstimmung zutage.",
+      "level": "C2"
+    },
+    {
+      "en": "During the sensitive phase of the negotiations, both sides refrained from public accusations.",
+      "pl": "Podczas wrażliwej fazy negocjacji obie strony powstrzymały się od publicznych oskarżeń.",
+      "de": "Während der heiklen Verhandlungsphase verzichteten beide Seiten auf öffentliche Schuldzuweisungen.",
+      "level": "C2"
+    },
+    {
+      "en": "Because of the unprecedented scale of the disruption, authorities launched an immediate inquiry.",
+      "pl": "Z powodu bezprecedensowej skali zakłóceń władze wszczęły natychmiastowe dochodzenie.",
+      "de": "Wegen des beispiellosen Ausmaßes der Störung leiteten die Behörden eine umgehende Untersuchung ein.",
+      "level": "C2"
+    },
+    {
+      "en": "Despite repeated assurances of neutrality, smaller states feared decisions at their expense.",
+      "pl": "Mimo wielokrotnych zapewnień o neutralności mniejsze państwa obawiały się decyzji swoim kosztem.",
+      "de": "Trotz wiederholter Neutralitätszusicherungen befürchteten kleinere Staaten Entscheidungen auf ihre Kosten.",
+      "level": "C2"
+    },
+    {
+      "en": "During the legislative term, the opposition used its newly gained influence to block controversial bills.",
+      "pl": "Podczas kadencji ustawodawczej opozycja wykorzystała swój nowo zdobyty wpływ do blokowania kontrowersyjnych ustaw.",
+      "de": "Während der Legislaturperiode nutzte die Opposition ihren neu gewonnenen Einfluss, um umstrittene Gesetze zu blockieren.",
+      "level": "C2"
+    },
+    {
+      "en": "Because of the enormous distance, radio signals from the spacecraft take twenty-four hours to reach Earth.",
+      "pl": "Z powodu ogromnej odległości sygnały radiowe z sondy kosmicznej potrzebują dwudziestu czterech godzin, aby dotrzeć na Ziemię.",
+      "de": "Wegen der gewaltigen Distanz benötigen Funksignale der Raumsonde vierundzwanzig Stunden bis zur Erde.",
+      "level": "C2"
+    },
+    {
+      "en": "Despite widespread predictions of decline, religious communities continue to grow globally.",
+      "pl": "Mimo powszechnych prognoz spadku wspólnoty religijne nadal rosną na świecie.",
+      "de": "Trotz verbreiteter Prognosen eines Rückgangs wachsen Religionsgemeinschaften weltweit weiter.",
+      "level": "C2"
+    }
+  ],
+  "listening": {
+    "audioUrl": "https://radiodownloaddw-a.akamaihd.net/downloads/Events/dwelle/dira/mp3/deutschkurse/nachrichten_live/78676D8A_2.mp3",
+    "articles": [
+      {
+        "heading": "Trump, Putin und Xi sprechen in Shenzhen direkt miteinander",
+        "text": "Die Präsidenten der USA, Russlands und Chinas kommen zur Stunde zu einem historischen Dreier-Gipfel zusammen. Zuvor hatte sich US-Präsident Donald Trump mit dem russischen [[Machthaber|1]] Wladimir Putin und Chinas [[Staatsoberhaupt|2]] Xi Jinping zu [[Zweiergesprächen|3]] getroffen. Es ist das erste Mal überhaupt, dass sich die Präsidenten der drei Länder zu einem Gipfel treffen. Sie kommen am Rande der [[Zusammenkunft|4]] der Asiatisch-Pazifischen Wirtschaftsgemeinschaft (APEC) in der chinesischen [[Millionenmetropole|5]] Shenzhen zusammen. Themen dürften die [[Bemühungen|6]] um ein Ende des Ukraine-Kriegs sein sowie der Iran-Krieg und dessen [[Auswirkungen|7]] auf die Weltwirtschaft. In der Ukraine, Europa und Taiwan wird [[befürchtet|8]], dass die Staatschefs der drei [[Großmächte|9]] [[Absprachen|10]] zu ihren Lasten treffen könnten."
+      },
+      {
+        "heading": "Kushner, Witkoff und Selenskyj werden zum Treffen der Koalition der Willigen erwartet",
+        "text": "In der deutschen Hauptstadt Berlin kommen an diesem Donnerstag [[zahlreiche|11]] [[Unterstützerstaaten|12]] der Ukraine zusammen. Zu dem Treffen der „Koalition der Willigen“ werden neben dem ukrainischen Präsidenten Wolodymyr Selenskyj auch die US-[[Unterhändler|13]] Jared Kushner und Steven Witkoff erwartet. Deutschlands [[Bundeskanzler|14]] Friedrich Merz hat zusammen mit Frankreichs Präsident Emmanuel Macron und dem britischen [[Premierminister|15]] Andy Burnham zu dem Treffen [[geladen|16]]. Neben der militärischen Hilfe für die Ukraine soll [[abgesprochen|17]] werden, wie sich die Europäer bei den Gesprächen mit Russland aufstellen sollen."
+      },
+      {
+        "heading": "Krim-Brücke wurde erneut [[Angriffsziel|18]] im Ukraine-Krieg",
+        "text": "Nach einer weiteren [[Attacke|19]] auf die Krim-Brücke ist auch der [[Bahnverkehr|20]] auf der für Russland [[strategisch|21]] wichtigen [[Verbindung|22]] [[vorübergehend|23]] eingestellt worden. Es ist der dritte Angriff in dieser Woche auf die Brücke, die das russische [[Festland|24]] mit der 2014 von Russland [[annektierten|25]] ukrainischen [[Halbinsel|26]] Krim verbindet. Anfang der Woche hatte die Ukraine bereits den Teil des [[Bauwerks|27]] komplett zerstört, auf dem bislang eine Straße verlief. Die russische Armee griff nach eigenen Angaben ebenfalls wieder Ziele in der Ukraine an – darunter [[Hafenanlagen|28]] und [[Treibstofflager|29]]."
+      },
+      {
+        "heading": "EU verschiebt [[Klimaschutzregeln|30]] wegen Energiekrise",
+        "text": "Die Europäische Union hat die neuen [[Vorschriften|31]] zur [[Erfassung|32]] von Methan-[[Emissionen|33]] für [[Energieimporteure|34]] um zwei Jahre verschoben. Darauf haben sich nach eigenen Angaben [[Unterhändler|13]] der EU-Staaten und des Europäischen Parlaments geeinigt. Die [[Verwerfungen|35]] durch den Krieg der USA und Israels mit dem Iran seien der Grund für die [[Verzögerung|36]]. Die Regeln [[verpflichten|37]] Importeure von Öl, Gas und Kohle zur [[Meldung|38]] ihrer Methan-Emissionen. Sie sollen nun ab 2029 gelten – anstatt wie [[ursprünglich|39]] geplant ab kommendem Januar. Unter den [[Treibhausgasen|40]] gilt Methan als noch schädlicher als CO2."
+      },
+      {
+        "heading": "Islam wird [[voraussichtlich|41]] 2035 größte Weltreligion",
+        "text": "Die Zahl der Muslime weltweit wird ab 2035 einer [[Berechnung|42]] zufolge die der Christen [[übersteigen|43]]. Zwar wachsen beide [[Glaubensgemeinschaften|44]], die der Muslime aber schneller. Das geht aus einem aktuellen Bericht des Washingtoner Pew Research Center hervor. Für 2035 gehen die Berechnungen von 2,57 Milliarden Muslimen und 2,52 Milliarden Christen aus. Die Forscher des Instituts [[betonen|45]] außerdem, dass anders als oft [[behauptet|46]] Religionen [[keineswegs|47]] [[flächendeckend|48]] auf dem [[Rückzug|49]] seien. Waren 2020 insgesamt 24,2 Prozent der [[Weltbevölkerung|50]] ohne [[Anbindung|51]] an eine Glaubensgemeinschaft, so werden es 2070 den [[Prognosen|52]] zufolge noch 17 Prozent sein."
+      },
+      {
+        "heading": "NASA-Sonde Voyager 1 weiter auf [[Rekordkurs|53]] im [[Universum|54]]",
+        "text": "Bei ihrem Flug in die Tiefen des Alls hat die [[Raumsonde|55]] Voyager 1 einen neuen Rekord aufgestellt: Sie war nach Angaben der US-[[Raumfahrtbehörde|56]] NASA als erstes von Menschen geschaffenes Objekt einen [[Lichttag|57]] von der Erde entfernt – bei [[Lichtgeschwindigkeit|58]] brauchten ihre [[Funksignale|59]] also genau 24 Stunden, um die Erde zu erreichen. Ein Lichttag [[entspricht|60]] einer [[Distanz|61]] von fast 26 Milliarden Kilometern. Der historische [[Meilenstein|62]] [[veranschauliche|63]], „wie [[unermesslich|64]] weit der Weltraum ist“, sagte NASA-Forscherin Tiffany Kataria. Voyager 1 habe fast 50 Jahre gebraucht, um einen Lichttag weit von der Erde entfernt zu sein."
+      }
+    ],
+    "vocab": [
+      {
+        "id": 1,
+        "word": "der Machthaber",
+        "translation": {
+          "en": "ruler, strongman",
+          "pl": "władca, dyktator"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Machthaber",
+        "notes": {
+          "en": "Usually used in news for authoritarian or unchecked political leaders.",
+          "pl": "Zwykle używane w wiadomościach w odniesieniu do przywódców autorytarnych."
+        },
+        "examples": [
+          "Der Machthaber kontrolliert die Medien des Landes.",
+          "Viele Bürger protestierten gegen den langjährigen Machthaber."
+        ]
+      },
+      {
+        "id": 2,
+        "word": "das Staatsoberhaupt",
+        "translation": {
+          "en": "head of state",
+          "pl": "głowa państwa"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Staatsoberhäupter",
+        "notes": {
+          "en": "Formal term covering presidents, monarchs, or other top state leaders.",
+          "pl": "Oficjalne określenie prezydenta, monarchy lub najwyższego przywódcy państwa."
+        },
+        "examples": [
+          "Das Staatsoberhaupt empfing den ausländischen Gast im Schloss.",
+          "Mehrere Staatsoberhäupter reisten zu dem internationalen Treffen an."
+        ]
+      },
+      {
+        "id": 3,
+        "word": "das Zweiergespräch",
+        "translation": {
+          "en": "bilateral talk, one-on-one meeting",
+          "pl": "rozmowa w cztery oczy, spotkanie dwustronne"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Zweiergespräche",
+        "notes": {
+          "en": "Often paired with Dreiergespräch or Dreiertreffen in political reporting.",
+          "pl": "Często zestawiane ze słowami Dreiergespräch lub Dreiertreffen w relacjach politycznych."
+        },
+        "examples": [
+          "Im Zweiergespräch klärten die beiden Minister die offenen Punkte.",
+          "Vor dem großen Gipfel fanden mehrere Zweiergespräche statt."
+        ]
+      },
+      {
+        "id": 4,
+        "word": "die Zusammenkunft",
+        "translation": {
+          "en": "gathering, meeting",
+          "pl": "zgromadzenie, spotkanie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Zusammenkünfte",
+        "notes": {
+          "en": "Formal synonym for das Treffen.",
+          "pl": "Formalny synonim rzeczownika das Treffen."
+        },
+        "examples": [
+          "Die jährliche Zusammenkunft findet dieses Mal in Genf statt.",
+          "Bei der Zusammenkunft berieten die Mitglieder über neue Projekte."
+        ]
+      },
+      {
+        "id": 5,
+        "word": "die Millionenmetropole",
+        "translation": {
+          "en": "metropolis of millions",
+          "pl": "wielomilionowa metropolia"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Millionenmetropolen",
+        "notes": {
+          "en": "Describes a very large city with over a million inhabitants.",
+          "pl": "Określa bardzo duże miasto liczące ponad milion mieszkańców."
+        },
+        "examples": [
+          "Der Verkehr in der Millionenmetropole ist morgens sehr dicht.",
+          "Immer mehr Menschen ziehen vom Land in die Millionenmetropole."
+        ]
+      },
+      {
+        "id": 6,
+        "word": "die Bemühung",
+        "translation": {
+          "en": "effort, endeavour",
+          "pl": "wysiłek, staranie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Bemühungen",
+        "notes": {
+          "en": "Frequently used in the plural with um + accusative: Bemühungen um Frieden.",
+          "pl": "Często w liczbie mnogiej z um + biernik: Bemühungen um Frieden."
+        },
+        "examples": [
+          "Trotz großer Bemühungen konnten wir den Termin nicht halten.",
+          "Alle Bemühungen um eine schnelle Lösung waren bisher erfolglos."
+        ]
+      },
+      {
+        "id": 7,
+        "word": "die Auswirkung",
+        "translation": {
+          "en": "impact, effect, consequence",
+          "pl": "skutek, wpływ, oddziaływanie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Auswirkungen",
+        "notes": {
+          "en": "Collocation: Auswirkungen haben auf + accusative.",
+          "pl": "Połączenie: Auswirkungen haben auf + biernik."
+        },
+        "examples": [
+          "Die neuen Regeln haben direkte Auswirkungen auf kleine Firmen.",
+          "Wir müssen die langfristigen Auswirkungen dieser Entscheidung prüfen."
+        ]
+      },
+      {
+        "id": 8,
+        "word": "befürchten",
+        "translation": {
+          "en": "to fear, apprehend",
+          "pl": "obawiać się"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B1",
+        "plural": "",
+        "notes": {
+          "en": "Inseparable verb used for worried expectations about future events.",
+          "pl": "Czasownik nierozdzielnie złożony wyrażający obawę przed przyszłymi zdarzeniami."
+        },
+        "examples": [
+          "Experten befürchten weitere Verzögerungen im Lieferverkehr.",
+          "Die Mitarbeiter befürchteten, dass einige Stellen gestrichen werden."
+        ]
+      },
+      {
+        "id": 9,
+        "word": "die Großmacht",
+        "translation": {
+          "en": "major power, great power",
+          "pl": "mocarstwo"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Großmächte",
+        "notes": {
+          "en": "Refers to a state with major global political, economic, and military influence.",
+          "pl": "Oznacza państwo o dużym światowym wpływie politycznym, gospodarczym i militarnym."
+        },
+        "examples": [
+          "Die Interessen der Großmächte beeinflussen oft ganze Regionen.",
+          "Zwischen den beiden Großmächten kam es zu neuen Verhandlungen."
+        ]
+      },
+      {
+        "id": 10,
+        "word": "die Absprache",
+        "translation": {
+          "en": "arrangement, agreement, understanding",
+          "pl": "uzgodnienie, porozumienie, zmowa"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Absprachen",
+        "notes": {
+          "en": "Common phrase: nach Absprache mit + dative (in consultation with).",
+          "pl": "Częsty zwrot: nach Absprache mit + celownik (po uzgodnieniu z)."
+        },
+        "examples": [
+          "Ohne vorherige Absprache darf das Budget nicht verändert werden.",
+          "Die beiden Teams treffen jede Entscheidung in enger Absprache."
+        ]
+      },
+      {
+        "id": 11,
+        "word": "zahlreich",
+        "translation": {
+          "en": "numerous",
+          "pl": "liczny"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "B1",
+        "plural": "",
+        "notes": {
+          "en": "Usually used in the plural: zahlreiche Besucher, zahlreiche Länder.",
+          "pl": "Zwykle używane w liczbie mnogiej: zahlreiche Besucher, zahlreiche Länder."
+        },
+        "examples": [
+          "Auf der Messe präsentierten zahlreiche Unternehmen neue Produkte.",
+          "Trotz des Regens kamen zahlreiche Gäste zur Eröffnung."
+        ]
+      },
+      {
+        "id": 12,
+        "word": "der Unterstützerstaat",
+        "translation": {
+          "en": "supporting state, ally nation",
+          "pl": "państwo wspierające"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Unterstützerstaaten",
+        "notes": {
+          "en": "Compound of Unterstützer and Staat, common in international diplomacy.",
+          "pl": "Złożenie słów Unterstützer i Staat, częste w dyplomacji międzynarodowej."
+        },
+        "examples": [
+          "Mehrere Unterstützerstaaten sagten zusätzliche Finanzhilfen zu.",
+          "Die Vertreter der Unterstützerstaaten trafen sich zu Konsultationen."
+        ]
+      },
+      {
+        "id": 13,
+        "word": "der Unterhändler",
+        "translation": {
+          "en": "negotiator",
+          "pl": "negocjator"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Unterhändler",
+        "notes": {
+          "en": "Person officially authorised to conduct negotiations; feminine: die Unterhändlerin.",
+          "pl": "Osoba oficjalnie upoważniona do prowadzenia negocjacji; forma żeńska: die Unterhändlerin."
+        },
+        "examples": [
+          "Die Unterhändler sprachen bis spät in die Nacht über den Entwurf.",
+          "Ein erfahrener Unterhändler leitete die Gespräche der Delegation."
+        ]
+      },
+      {
+        "id": 14,
+        "word": "der Bundeskanzler",
+        "translation": {
+          "en": "Federal Chancellor",
+          "pl": "kanclerz federalny"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "die Bundeskanzler",
+        "notes": {
+          "en": "Head of government in Germany and Austria; feminine: die Bundeskanzlerin.",
+          "pl": "Szef rządu w Niemczech i Austrii; forma żeńska: die Bundeskanzlerin."
+        },
+        "examples": [
+          "Der Bundeskanzler hält morgen eine Rede im Parlament.",
+          "Journalisten befragten den Bundeskanzler zur aktuellen Wirtschaftspolitik."
+        ]
+      },
+      {
+        "id": 15,
+        "word": "der Premierminister",
+        "translation": {
+          "en": "Prime Minister",
+          "pl": "premier"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "die Premierminister",
+        "notes": {
+          "en": "Often used for heads of government in countries such as the UK or France.",
+          "pl": "Używane często w odniesieniu do szefów rządów np. w Wielkiej Brytanii czy Francji."
+        },
+        "examples": [
+          "Der Premierminister kündigte ein neues Reformpaket an.",
+          "Nach der Wahl traf der Premierminister seine Kabinettsmitglieder."
+        ]
+      },
+      {
+        "id": 16,
+        "word": "laden",
+        "translation": {
+          "en": "to invite, summon; to load",
+          "pl": "zaprosić, wezwać; załadować"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "In formal style, zu einem Treffen laden means to invite to a meeting.",
+          "pl": "W stylu oficjalnym zu einem Treffen laden oznacza zaprosić na spotkanie."
+        },
+        "examples": [
+          "Die Ministerin hat alle Partner zu einer Konferenz geladen.",
+          "Wir müssen noch die großen Dateien auf den Server laden."
+        ]
+      },
+      {
+        "id": 17,
+        "word": "absprechen",
+        "translation": {
+          "en": "to coordinate, agree upon",
+          "pl": "uzgodnić, ustalić"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Separable strong verb: spricht ab, sprach ab, hat abgesprochen.",
+          "pl": "Rozdzielnie złożony czasownik mocny: spricht ab, sprach ab, hat abgesprochen."
+        },
+        "examples": [
+          "Wir müssen den genauen Zeitplan noch mit dem Kunden absprechen.",
+          "Alle Abteilungen haben die nächsten Schritte gemeinsam abgesprochen."
+        ]
+      },
+      {
+        "id": 18,
+        "word": "das Angriffsziel",
+        "translation": {
+          "en": "target of an attack",
+          "pl": "cel ataku"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Angriffsziele",
+        "notes": {
+          "en": "Compound of Angriff (attack) and Ziel (target).",
+          "pl": "Złożenie słów Angriff (atak) i Ziel (cel)."
+        },
+        "examples": [
+          "Energieanlagen wurden erneut zum Angriffsziel.",
+          "Die Sicherheitskräfte schützen mögliche Angriffsziele besonders intensiv."
+        ]
+      },
+      {
+        "id": 19,
+        "word": "die Attacke",
+        "translation": {
+          "en": "attack",
+          "pl": "atak"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Attacken",
+        "notes": {
+          "en": "Used for military, physical, or verbal attacks.",
+          "pl": "Oznacza atak wojskowy, fizyczny lub słowny."
+        },
+        "examples": [
+          "Nach der Attacke wurde die Brücke sofort gesperrt.",
+          "Die Regierung verurteilte die erneute Attacke auf die Infrastruktur."
+        ]
+      },
+      {
+        "id": 20,
+        "word": "der Bahnverkehr",
+        "translation": {
+          "en": "rail traffic, train service",
+          "pl": "ruch kolejowy"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "",
+        "notes": {
+          "en": "Uncountable noun denoting railway transport and services.",
+          "pl": "Rzeczownik niepoliczalny oznaczający transport i ruch kolejowy."
+        },
+        "examples": [
+          "Wegen des Sturms wurde der Bahnverkehr in der Region unterbrochen.",
+          "Am Wochenende läuft der Bahnverkehr wieder nach Plan."
+        ]
+      },
+      {
+        "id": 21,
+        "word": "strategisch",
+        "translation": {
+          "en": "strategic",
+          "pl": "strategiczny"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Common in business, military, and political contexts.",
+          "pl": "Częste w kontekście biznesowym, wojskowym i politycznym."
+        },
+        "examples": [
+          "Der Hafen spielt eine strategisch wichtige Rolle für den Handel.",
+          "Das Unternehmen plant eine strategische Neuausrichtung."
+        ]
+      },
+      {
+        "id": 22,
+        "word": "die Verbindung",
+        "translation": {
+          "en": "connection, link",
+          "pl": "połączenie, związek"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "die Verbindungen",
+        "notes": {
+          "en": "Refers to transport links, phone/internet connections, or relationships.",
+          "pl": "Oznacza połączenie komunikacyjne, telefoniczne, internetowe lub powiązanie."
+        },
+        "examples": [
+          "Die neue Zugverbindung verkürzt die Reisezeit um eine Stunde.",
+          "Während des Gewitters brach die Internetverbindung kurz ab."
+        ]
+      },
+      {
+        "id": 23,
+        "word": "vorübergehend",
+        "translation": {
+          "en": "temporary, temporarily",
+          "pl": "tymczasowy, chwilowo"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Often used adverbially with schließen, einstellen, or aussetzen.",
+          "pl": "Często używane przysłówkowo z czasownikami schließen, einstellen lub aussetzen."
+        },
+        "examples": [
+          "Die Straße ist wegen Bauarbeiten vorübergehend gesperrt.",
+          "Wir suchen für das Projekt eine vorübergehende Lösung."
+        ]
+      },
+      {
+        "id": 24,
+        "word": "das Festland",
+        "translation": {
+          "en": "mainland",
+          "pl": "stały ląd"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Contrasted with islands or peninsulas (die Insel, die Halbinsel).",
+          "pl": "Przeciwstawiane wyspom lub półwyspom (die Insel, die Halbinsel)."
+        },
+        "examples": [
+          "Eine Fähre verbindet die kleine Insel mit dem Festland.",
+          "Der Sturm zog vom Meer in Richtung Festland."
+        ]
+      },
+      {
+        "id": 25,
+        "word": "annektieren",
+        "translation": {
+          "en": "to annex",
+          "pl": "anektować, przyłączyć"
+        },
+        "partOfSpeech": "Verb",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Regular verb without ge- in Partizip II: annektiert.",
+          "pl": "Czasownik regularny; imiesłów czasu przeszłego bez ge-: annektiert."
+        },
+        "examples": [
+          "Die internationale Gemeinschaft erkannte die annektierten Gebiete nicht an.",
+          "Historiker untersuchen die Folgen der Entscheidung, die Region zu annektieren."
+        ]
+      },
+      {
+        "id": 26,
+        "word": "die Halbinsel",
+        "translation": {
+          "en": "peninsula",
+          "pl": "półwysep"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "die Halbinseln",
+        "notes": {
+          "en": "Compound of halb (half) and Insel (island).",
+          "pl": "Złożenie słów halb (pół) i Insel (wyspa)."
+        },
+        "examples": [
+          "Auf der Halbinsel gibt es viele alte Fischerdörfer.",
+          "Eine schmale Straße führt auf die Halbinsel hinaus."
+        ]
+      },
+      {
+        "id": 27,
+        "word": "das Bauwerk",
+        "translation": {
+          "en": "structure, edifice, building",
+          "pl": "budowla, obiekt budowlany"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Bauwerke",
+        "notes": {
+          "en": "Broader than Gebäude; includes bridges, dams, and monuments.",
+          "pl": "Szersze niż Gebäude; obejmuje mosty, tamy i pomniki."
+        },
+        "examples": [
+          "Die alte Brücke ist ein beeindruckendes Bauwerk aus dem 19. Jahrhundert.",
+          "Ingenieure überprüfen regelmäßig die Stabilität des Bauwerks."
+        ]
+      },
+      {
+        "id": 28,
+        "word": "die Hafenanlage",
+        "translation": {
+          "en": "port facility, harbour installation",
+          "pl": "obiekt portowy, infrastruktura portowa"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Hafenanlagen",
+        "notes": {
+          "en": "Often used in the plural to denote docks, cranes, and terminals.",
+          "pl": "Często używane w liczbie mnogiej na określenie doków, dźwigów i terminali."
+        },
+        "examples": [
+          "Die Hafenanlagen wurden in den letzten Jahren modernisiert.",
+          "Ein schwerer Sturm beschädigte Teile der Hafenanlage."
+        ]
+      },
+      {
+        "id": 29,
+        "word": "das Treibstofflager",
+        "translation": {
+          "en": "fuel depot, fuel storage facility",
+          "pl": "magazyn paliw, skład paliw"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Treibstofflager",
+        "notes": {
+          "en": "Compound of Treibstoff (fuel) and Lager (depot/warehouse).",
+          "pl": "Złożenie słów Treibstoff (paliwo) i Lager (magazyn, skład)."
+        },
+        "examples": [
+          "Bei dem Brand in dem Treibstofflager stieg dichter Rauch auf.",
+          "Das Treibstofflager wird rund um die Uhr bewacht."
+        ]
+      },
+      {
+        "id": 30,
+        "word": "die Klimaschutzregel",
+        "translation": {
+          "en": "climate protection rule",
+          "pl": "przepis dotyczący ochrony klimatu"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Klimaschutzregeln",
+        "notes": {
+          "en": "Compound of Klimaschutz and Regel; mostly used in the plural.",
+          "pl": "Złożenie słów Klimaschutz i Regel; używane głównie w liczbie mnogiej."
+        },
+        "examples": [
+          "Die neuen Klimaschutzregeln gelten für alle großen Industrieunternehmen.",
+          "Einige Branchen fordern mehr Zeit für die Umsetzung der Klimaschutzregeln."
+        ]
+      },
+      {
+        "id": 31,
+        "word": "die Vorschrift",
+        "translation": {
+          "en": "regulation, rule, provision",
+          "pl": "przepis, regulacja"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Vorschriften",
+        "notes": {
+          "en": "Common collocation: eine Vorschrift einhalten (to comply with a regulation).",
+          "pl": "Częste połączenie: eine Vorschrift einhalten (przestrzegać przepisu)."
+        },
+        "examples": [
+          "Alle Mitarbeiter müssen die strengen Sicherheitsvorschriften einhalten.",
+          "Die neue Vorschrift tritt zu Beginn des nächsten Jahres in Kraft."
+        ]
+      },
+      {
+        "id": 32,
+        "word": "die Erfassung",
+        "translation": {
+          "en": "recording, registration, collection (of data)",
+          "pl": "rejestracja, ewidencjonowanie, gromadzenie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Nominalisation of erfassen (to record/capture).",
+          "pl": "Rzeczownik odczasownikowy od erfassen (rejestrować, ujmować)."
+        },
+        "examples": [
+          "Die digitale Erfassung der Arbeitszeiten spart viel Papier.",
+          "Für die Erfassung der Daten ist eine neue Software im Einsatz."
+        ]
+      },
+      {
+        "id": 33,
+        "word": "die Emission",
+        "translation": {
+          "en": "emission",
+          "pl": "emisja"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Emissionen",
+        "notes": {
+          "en": "Mostly used in the plural in environmental contexts.",
+          "pl": "W kontekście ekologicznym używane głównie w liczbie mnogiej."
+        },
+        "examples": [
+          "Die Stadt möchte die Emissionen im Straßenverkehr deutlich senken.",
+          "Moderne Filter reduzieren schädliche Emissionen in der Industrie."
+        ]
+      },
+      {
+        "id": 34,
+        "word": "der Energieimporteur",
+        "translation": {
+          "en": "energy importer",
+          "pl": "importer energii"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Energieimporteure",
+        "notes": {
+          "en": "Note stress on the final syllable of Importeur: -teur.",
+          "pl": "Akcent pada na ostatnią sylabę słowa Importeur: -teur."
+        },
+        "examples": [
+          "Die Energieimporteure müssen ihre Lieferungen genau dokumentieren.",
+          "Steigende Transportkosten belasten europäische Energieimporteure."
+        ]
+      },
+      {
+        "id": 35,
+        "word": "die Verwerfung",
+        "translation": {
+          "en": "upheaval, disruption, distortion",
+          "pl": "zawirowanie, wstrząs, zakłócenie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Verwerfungen",
+        "notes": {
+          "en": "Often used in the plural for serious economic or political disruptions.",
+          "pl": "Często w liczbie mnogiej na określenie poważnych zawirowań gospodarczych lub politycznych."
+        },
+        "examples": [
+          "Die Krise führte zu erheblichen Verwerfungen auf den Finanzmärkten.",
+          "Unternehmen versuchen, sich auf mögliche Verwerfungen vorzubereiten."
+        ]
+      },
+      {
+        "id": 36,
+        "word": "die Verzögerung",
+        "translation": {
+          "en": "delay",
+          "pl": "opóźnienie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Verzögerungen",
+        "notes": {
+          "en": "Collocation: zu einer Verzögerung führen; ohne Verzögerung.",
+          "pl": "Połączenie: zu einer Verzögerung führen; ohne Verzögerung."
+        },
+        "examples": [
+          "Leider kommt es bei der Auslieferung zu einer kurzen Verzögerung.",
+          "Wir bitten um Entschuldigung für die entstandenen Verzögerungen."
+        ]
+      },
+      {
+        "id": 37,
+        "word": "verpflichten",
+        "translation": {
+          "en": "to oblige, obligate, require",
+          "pl": "zobowiązać"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Common pattern: jemanden zu etwas verpflichten (or sich zu etwas verpflichten).",
+          "pl": "Częsta konstrukcja: jemanden zu etwas verpflichten (lub sich zu etwas verpflichten)."
+        },
+        "examples": [
+          "Der Vertrag verpflichtet beide Seiten zu absoluter Vertraulichkeit.",
+          "Das neue Gesetz verpflichtet Firmen zur regelmäßigen Berichterstattung."
+        ]
+      },
+      {
+        "id": 38,
+        "word": "die Meldung",
+        "translation": {
+          "en": "report, notification, news item",
+          "pl": "zgłoszenie, komunikat, doniesienie"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Meldungen",
+        "notes": {
+          "en": "Can mean an official filing/notification or a media news report.",
+          "pl": "Może oznaczać oficjalne zgłoszenie lub doniesienie medialne."
+        },
+        "examples": [
+          "Die Meldung eines Schadens muss innerhalb von drei Tagen erfolgen.",
+          "Eine überraschende Meldung sorgte am Morgen für Diskussionen."
+        ]
+      },
+      {
+        "id": 39,
+        "word": "ursprünglich",
+        "translation": {
+          "en": "original, originally",
+          "pl": "pierwotny, pierwotnie"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Used for plans, meanings, or origins before later changes.",
+          "pl": "Używane w odniesieniu do pierwotnych planów, znaczeń lub pochodzenia."
+        },
+        "examples": [
+          "Ursprünglich sollte die Besprechung schon um neun Uhr beginnen.",
+          "Der ursprüngliche Zeitplan musste zweimal angepasst werden."
+        ]
+      },
+      {
+        "id": 40,
+        "word": "das Treibhausgas",
+        "translation": {
+          "en": "greenhouse gas",
+          "pl": "gaz cieplarniany"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Treibhausgase",
+        "notes": {
+          "en": "Compound of Treibhaus (greenhouse) and Gas.",
+          "pl": "Złożenie słów Treibhaus (szklarnia, cieplarnia) i Gas."
+        },
+        "examples": [
+          "Treibhausgase tragen wesentlich zur Erderwärmung bei.",
+          "Viele Länder wollen den Ausstoß von Treibhausgasen bis 2040 halbieren."
+        ]
+      },
+      {
+        "id": 41,
+        "word": "voraussichtlich",
+        "translation": {
+          "en": "expected, probable, presumably",
+          "pl": "przewidywany, prawdopodobnie"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Very common in news and schedules for expected timing or outcomes.",
+          "pl": "Bardzo częste w wiadomościach i harmonogramach przy podawaniu przewidywań."
+        },
+        "examples": [
+          "Die Bauarbeiten dauern voraussichtlich bis Ende November.",
+          "Der voraussichtliche Liefertermin steht in Ihrer Bestätigung."
+        ]
+      },
+      {
+        "id": 42,
+        "word": "die Berechnung",
+        "translation": {
+          "en": "calculation, estimate",
+          "pl": "obliczenie, kalkulacja, szacunek"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Berechnungen",
+        "notes": {
+          "en": "Often used with zufolge: einer Berechnung zufolge (according to a calculation).",
+          "pl": "Częste w zwrocie: einer Berechnung zufolge (według obliczeń)."
+        },
+        "examples": [
+          "Nach unserer Berechnung steigen die Kosten um etwa fünf Prozent.",
+          "Aktuelle Berechnungen zeigen einen deutlichen Rückgang der Geburten."
+        ]
+      },
+      {
+        "id": 43,
+        "word": "übersteigen",
+        "translation": {
+          "en": "to exceed, surpass",
+          "pl": "przekroczyć, przewyższyć"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Inseparable strong verb here: übersteigt, überstieg, hat überstiegen.",
+          "pl": "W tym znaczeniu czasownik nierozdzielnie złożony mocny: übersteigt, überstieg, hat überstiegen."
+        },
+        "examples": [
+          "Die Ausgaben dürfen das festgelegte Budget nicht übersteigen.",
+          "Die Nachfrage überstieg alle Erwartungen des Herstellers."
+        ]
+      },
+      {
+        "id": 44,
+        "word": "die Glaubensgemeinschaft",
+        "translation": {
+          "en": "religious community, faith community",
+          "pl": "wspólnota wyznaniowa"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Glaubensgemeinschaften",
+        "notes": {
+          "en": "Compound of Glaube (faith) and Gemeinschaft (community).",
+          "pl": "Złożenie słów Glaube (wiara) i Gemeinschaft (wspólnota)."
+        },
+        "examples": [
+          "Vertreter verschiedener Glaubensgemeinschaften nahmen an dem Dialog teil.",
+          "Die Glaubensgemeinschaft engagiert sich stark für soziale Projekte."
+        ]
+      },
+      {
+        "id": 45,
+        "word": "betonen",
+        "translation": {
+          "en": "to emphasise, stress",
+          "pl": "podkreślać, akcentować"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B1",
+        "plural": "",
+        "notes": {
+          "en": "Inseparable verb: betont, betonte, hat betont.",
+          "pl": "Czasownik nierozdzielnie złożony: betont, betonte, hat betont."
+        },
+        "examples": [
+          "Die Rednerin betonte die Bedeutung einer engen Zusammenarbeit.",
+          "Wir möchten betonen, dass alle Angaben vertraulich behandelt werden."
+        ]
+      },
+      {
+        "id": 46,
+        "word": "behaupten",
+          "translation": {
+          "en": "to claim, assert",
+          "pl": "twierdzić, utrzymywać"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B1",
+        "plural": "",
+        "notes": {
+          "en": "Often implies a statement that is not yet proven or is disputed.",
+          "pl": "Często sugeruje twierdzenie nieudowodnione lub sporne."
+        },
+        "examples": [
+          "Der Zeuge behauptet, den Vorfall genau gesehen zu haben.",
+          "Niemand kann behaupten, dass diese Aufgabe einfach sei."
+        ]
+      },
+      {
+        "id": 47,
+        "word": "keineswegs",
+        "translation": {
+          "en": "by no means, not at all",
+          "pl": "bynajmniej, wcale nie"
+        },
+        "partOfSpeech": "Adverb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Emphatic negation used in formal and analytical language.",
+          "pl": "Wzmocnione przeczenie używane w języku formalnym i analitycznym."
+        },
+        "examples": [
+          "Die Lage ist keineswegs so stabil, wie manche Berichte vermuten lassen.",
+          "Diese Lösung ist keineswegs perfekt, aber sie funktioniert."
+        ]
+      },
+      {
+        "id": 48,
+        "word": "flächendeckend",
+        "translation": {
+          "en": "across the board, nationwide, universal",
+          "pl": "powszechny, ogólnokrajowy, na całym obszarze"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Literally covering the whole area (Fläche + deckend).",
+          "pl": "Dosłownie pokrywający cały obszar (Fläche + deckend)."
+        },
+        "examples": [
+          "Schnelles Internet ist auf dem Land noch nicht flächendeckend verfügbar.",
+          "Die Behörde fordert flächendeckende Kontrollen in allen Regionen."
+        ]
+      },
+      {
+        "id": 49,
+        "word": "der Rückzug",
+        "translation": {
+          "en": "retreat, withdrawal, decline",
+          "pl": "odwrót, wycofanie się"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Rückzüge",
+        "notes": {
+          "en": "Idiom: auf dem Rückzug sein (to be in retreat / on the decline).",
+          "pl": "Idiom: auf dem Rückzug sein (być w odwrocie / w fazie spadku)."
+        },
+        "examples": [
+          "Einige traditionelle Branchen sind seit Jahren auf dem Rückzug.",
+          "Der Rückzug der Truppen dauerte mehrere Wochen."
+        ]
+      },
+      {
+        "id": 50,
+        "word": "die Weltbevölkerung",
+        "translation": {
+          "en": "world population",
+          "pl": "ludność świata, populacja światowa"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "",
+        "notes": {
+          "en": "Singular collective noun; takes singular verb agreement.",
+          "pl": "Rzeczownik zbiorowy używany w liczbie pojedynczej."
+        },
+        "examples": [
+          "Ein wachsender Teil der Weltbevölkerung lebt in großen Städten.",
+          "Die Weltbevölkerung wächst in einigen Kontinenten besonders schnell."
+        ]
+      },
+      {
+        "id": 51,
+        "word": "die Anbindung",
+        "translation": {
+          "en": "connection, affiliation, link",
+          "pl": "powiązanie, połączenie, dostęp"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Anbindungen",
+        "notes": {
+          "en": "Used both for transport links and social/institutional affiliation (Anbindung an + acc.).",
+          "pl": "Używane zarówno dla połączeń komunikacyjnych, jak i przynależności (Anbindung an + biernik)."
+        },
+        "examples": [
+          "Das Gewerbegebiet hat eine gute Anbindung an die Autobahn.",
+          "Viele junge Menschen suchen nach einer stärkeren Anbindung an lokale Vereine."
+        ]
+      },
+      {
+        "id": 52,
+        "word": "die Prognose",
+        "translation": {
+          "en": "forecast, projection",
+          "pl": "prognoza"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Prognosen",
+        "notes": {
+          "en": "Often used with zufolge: den Prognosen zufolge (according to forecasts).",
+          "pl": "Często z zufolge: den Prognosen zufolge (według prognoz)."
+        },
+        "examples": [
+          "Die wirtschaftliche Prognose für das nächste Jahr ist leicht positiv.",
+          "Wetterprognosen werden dank moderner Satelliten immer genauer."
+        ]
+      },
+      {
+        "id": 53,
+        "word": "der Rekordkurs",
+        "translation": {
+          "en": "record course, record trajectory",
+          "pl": "kurs na rekord, rekordowa passa"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Common phrase: auf Rekordkurs sein (to be on track for a record).",
+          "pl": "Częsty zwrot: auf Rekordkurs sein (być na drodze po rekord)."
+        },
+        "examples": [
+          "Der Tourismus in der Region ist in diesem Sommer auf Rekordkurs.",
+          "Trotz höherer Preise bleibt das Unternehmen beim Umsatz auf Rekordkurs."
+        ]
+      },
+      {
+        "id": 54,
+        "word": "das Universum",
+        "translation": {
+          "en": "universe",
+          "pl": "wszechświat"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B1",
+        "plural": "",
+        "notes": {
+          "en": "Used in astronomy and physics for all of space and matter.",
+          "pl": "Używane w astronomii i fizyce na określenie całego wszechświata."
+        },
+        "examples": [
+          "Neue Teleskope liefern faszinierende Bilder aus dem fernen Universum.",
+          "Forscher untersuchen, wie sich das Universum weiter ausdehnt."
+        ]
+      },
+      {
+        "id": 55,
+        "word": "die Raumsonde",
+        "translation": {
+          "en": "space probe",
+          "pl": "sonda kosmiczna"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Raumsonden",
+        "notes": {
+          "en": "Uncrewed spacecraft designed to explore space.",
+          "pl": "Bezzałogowy statek kosmiczny przeznaczony do badania kosmosu."
+        },
+        "examples": [
+          "Die Raumsonde sendet regelmäßig Fotos und Messwerte zur Erde.",
+          "Eine neue Raumsonde soll im nächsten Jahr zum Mars starten."
+        ]
+      },
+      {
+        "id": 56,
+        "word": "die Raumfahrtbehörde",
+        "translation": {
+          "en": "space agency",
+          "pl": "agencja kosmiczna"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Raumfahrtbehörden",
+        "notes": {
+          "en": "Compound of Raumfahrt (spaceflight) and Behörde (agency/authority).",
+          "pl": "Złożenie słów Raumfahrt (astronautyka) i Behörde (urząd, agencja)."
+        },
+        "examples": [
+          "Die europäische Raumfahrtbehörde plant mehrere neue Satellitenmissionen.",
+          "Ingenieure der Raumfahrtbehörde überwachen den Flug rund um die Uhr."
+        ]
+      },
+      {
+        "id": 57,
+        "word": "der Lichttag",
+        "translation": {
+          "en": "light-day",
+          "pl": "dzień świetlny"
+        },
+        "partOfSpeech": "Noun",
+        "level": "C1",
+        "plural": "die Lichttage",
+        "notes": {
+          "en": "Astronomical unit of distance equal to how far light travels in 24 hours.",
+          "pl": "Astronomiczna jednostka odległości równa drodze światła w ciągu 24 godzin."
+        },
+        "examples": [
+          "Ein Lichttag ist eine kaum vorstellbare Entfernung für den Menschen.",
+          "Selbst schnelle Raumfahrzeuge brauchen Jahrzehnte für einen einzigen Lichttag."
+        ]
+      },
+      {
+        "id": 58,
+        "word": "die Lichtgeschwindigkeit",
+        "translation": {
+          "en": "speed of light",
+          "pl": "prędkość światła"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Collocation: mit Lichtgeschwindigkeit / bei Lichtgeschwindigkeit.",
+          "pl": "Połączenie: mit Lichtgeschwindigkeit / bei Lichtgeschwindigkeit."
+        },
+        "examples": [
+          "Signale bewegen sich im Vakuum nahezu mit Lichtgeschwindigkeit.",
+          "Nichts kann schneller reisen als die Lichtgeschwindigkeit."
+        ]
+      },
+      {
+        "id": 59,
+        "word": "das Funksignal",
+        "translation": {
+          "en": "radio signal",
+          "pl": "sygnał radiowy"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Funksignale",
+        "notes": {
+          "en": "Compound of Funk (radio) and Signal.",
+          "pl": "Złożenie słów Funk (łączność radiowa) i Signal."
+        },
+        "examples": [
+          "Die Bodenstation empfing ein schwaches Funksignal aus großer Entfernung.",
+          "Starke Sonnenstürme können Funksignale vorübergehend stören."
+        ]
+      },
+      {
+        "id": 60,
+        "word": "entsprechen",
+        "translation": {
+          "en": "to correspond to, match, meet",
+          "pl": "odpowiadać (czemuś), spełniać"
+        },
+        "partOfSpeech": "Verb",
+        "level": "B2",
+        "plural": "",
+        "notes": {
+          "en": "Inseparable strong verb taking a dative object: entspricht, entsprach, hat entsprochen.",
+          "pl": "Czasownik nierozdzielnie złożony mocny z celownikiem: entspricht, entsprach, hat entsprochen."
+        },
+        "examples": [
+          "Das Produkt entspricht allen europäischen Sicherheitsstandards.",
+          "Die tatsächlichen Kosten entsprachen genau unserer Schätzung."
+        ]
+      },
+      {
+        "id": 61,
+        "word": "die Distanz",
+        "translation": {
+          "en": "distance",
+          "pl": "odległość, dystans"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Distanzen",
+        "notes": {
+          "en": "Means physical distance as well as emotional or professional detachment.",
+          "pl": "Oznacza odległość fizyczną oraz dystans emocjonalny lub zawodowy."
+        },
+        "examples": [
+          "Der Zug legt die große Distanz zwischen beiden Städten in drei Stunden zurück.",
+          "Aus dieser Distanz erkennt man die Details nur schwer."
+        ]
+      },
+      {
+        "id": 62,
+        "word": "der Meilenstein",
+        "translation": {
+          "en": "milestone",
+          "pl": "kamień milowy"
+        },
+        "partOfSpeech": "Noun",
+        "level": "B2",
+        "plural": "die Meilensteine",
+        "notes": {
+          "en": "Common collocation: einen Meilenstein erreichen (to reach a milestone).",
+          "pl": "Częste połączenie: einen Meilenstein erreichen (osiągnąć kamień milowy)."
+        },
+        "examples": [
+          "Der erfolgreiche Test war ein wichtiger Meilenstein für das gesamte Team.",
+          "Mit diesem Projekt erreichte das Unternehmen einen historischen Meilenstein."
+        ]
+      },
+      {
+        "id": 63,
+        "word": "veranschaulichen",
+        "translation": {
+          "en": "to illustrate, demonstrate clearly",
+          "pl": "zobrazować, zilustrować"
+        },
+        "partOfSpeech": "Verb",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Regular inseparable verb: veranschaulicht, veranschaulichte, hat veranschaulicht.",
+          "pl": "Regularny czasownik nierozdzielnie złożony: veranschaulicht, veranschaulichte, hat veranschaulicht."
+        },
+        "examples": [
+          "Eine Grafik soll die Entwicklung der Preise anschaulich veranschaulichen.",
+          "Dieses Beispiel veranschaulicht das Problem besonders deutlich."
+        ]
+      },
+      {
+        "id": 64,
+        "word": "unermesslich",
+        "translation": {
+          "en": "immeasurable, immense, vast",
+          "pl": "niezmierzony, bezkresny"
+        },
+        "partOfSpeech": "Adjective",
+        "level": "C1",
+        "plural": "",
+        "notes": {
+          "en": "Formed from un- + ermessen (to measure/fathom).",
+          "pl": "Utworzone od un- + ermessen (zmierzyć, ogarnąć)."
+        },
+        "examples": [
+          "Der Schaden nach dem großen Erdbeben war fast unermesslich.",
+          "Für die Forschung bietet der Ozean noch unermesslich viele Geheimnisse."
+        ]
+      }
+    ]
+  },
+  "speaking": {
+    "prompt": {
+      "en": "You are my German language tutor conducting a 20-minute B1-to-C1 speaking conversation based on the Listening section of today's lesson (German news from 19 October 2026).\n\nListening reference – the 6 news stories from today's Listening section, in the same order as the articles:\n1. The presidents of the United States, Russia and China are holding their first three-way summit in Shenzhen alongside the APEC meeting, following bilateral talks, while Ukraine, Europe and Taiwan fear agreements at their expense.\n2. Numerous countries supporting Ukraine are meeting in Berlin at the invitation of Germany, France and the UK, with Ukrainian President Volodymyr Zelenskyy and US negotiators Jared Kushner and Steven Witkoff expected to attend.\n3. After a third attack in a week on the Kerch Bridge, rail traffic on the link between mainland Russia and Crimea was temporarily suspended, while Russian forces reported strikes on Ukrainian port facilities and fuel depots.\n4. The European Union postponed new methane-emission reporting rules for energy importers by two years until 2029, citing market disruptions caused by the war involving the US, Israel and Iran.\n5. According to a Pew Research Center report, the global number of Muslims is projected to exceed that of Christians from 2035 onwards, and the share of people without religious affiliation is expected to decline by 2070.\n6. NASA's Voyager 1 space probe reached a record distance of one light-day—nearly 26 billion kilometres—from Earth after almost 50 years, meaning its radio signals take 24 hours to arrive.\n\nGrammar focus to elicit: Genitive prepositions: trotz, während and wegen in formal vs colloquial German.\n\nUseful words from today's Listening articles (invite me to use them): die Zusammenkunft, die Auswirkung, die Absprache, vorübergehend, die Verzögerung, die Prognose, die Distanz, veranschaulichen.\n\nInstructions for the AI tutor:\n1. Start the conversation: greet me and ask whether I have listened to today's broadcast. If not, summarise story 1 in two simple German sentences and continue.\n2. You ask, I speak: one question per turn, one or two short sentences, never answer your own questions. German at B1-C1 level; English only if I am really stuck.\n3. Questions refer to the stories above, in order, covering at least four: facts first, then causes, consequences, other perspectives, my evaluation. Near the end, ask me to connect two stories.\n4. Encourage me to use trotz, während, and wegen with the genitive in formal phrasing (for example während des Gipfels, wegen der Energiekrise, trotz der Prognosen) and note when dative appears in casual speech or bare plurals.\n5. Question ideas (adapt to my answers): (story 1) Worüber sprechen die drei Präsidenten während des Gipfels in Shenzhen? (story 3) Was wurde wegen des erneuten Angriffs auf die Krim-Brücke eingestellt? (story 4) Warum verschiebt die EU ihre Klimaschutzregeln, und was sollte trotz der Energiekrise weiter gelten? (story 5) Wie entwickelt sich die Weltbevölkerung laut der Studie trotz anderer Erwartungen? (story 6) Was hat Voyager 1 während ihres fast 50-jährigen Fluges erreicht?\n6. Immediate correction: if I break today's rule (e.g. *Während der Gipfel sprechen die Präsidenten über den Krieg.* instead of *Während des Gipfels sprechen die Präsidenten über den Krieg.*), stop briefly: quote the error, give the correct sentence, explain the rule in 1 English sentence, ask me to repeat the correct sentence aloud before the next question.\n7. Also correct other significant errors briefly; note recurring mistakes for the final feedback. If my answer is very short, ask one follow-up („Warum?“).\n8. Wrap-up after ~20 minutes or when I say \"stop\": two things I did well, three key mistakes with corrections, five words to review, one German sentence to repeat aloud.\n9. Keep the tone engaging, professional, natural for an immersive German voice dialogue. Address me as „du“.",
+      "pl": "Jesteś moim nauczycielem języka niemieckiego i prowadzisz 20-minutową rozmowę na poziomie od B1 do C1 w oparciu o część Słuchanie z dzisiejszej lekcji (niemieckie wiadomości z 19 października 2026).\n\nMateriał ze Słuchania – 6 tematów wiadomości z dzisiejszej części Słuchanie, w tej samej kolejności co artykuły:\n1. Prezydenci USA, Rosji i Chin spotykają się w Shenzhen na swoim pierwszym trójstronnym szczycie na marginesie spotkania APEC po wcześniejszych rozmowach dwustronnych, podczas gdy Ukraina, Europa i Tajwan obawiają się ustaleń swoim kosztem.\n2. Liczne państwa wspierające Ukrainę spotykają się w Berlinie na zaproszenie Niemiec, Francji i Wielkiej Brytanii; oczekiwani są m.in. prezydent Ukrainy Wołodymyr Zełenski oraz amerykańscy negocjatorzy Jared Kushner i Steven Witkoff.\n3. Po trzecim w tym tygodniu ataku na Most Krymski tymczasowo wstrzymano ruch kolejowy na połączeniu między kontynentalną Rosją a Krymem, a rosyjskie siły poinformowały o atakach na ukraińskie obiekty portowe i magazyny paliw.\n4. Unia Europejska odłożyła o dwa lata, do 2029 roku, nowe przepisy dotyczące zgłaszania emisji metanu przez importerów energii, powołując się na zawirowania wywołane wojną USA i Izraela z Iranem.\n5. Według raportu Pew Research Center liczba muzułmanów na świecie ma od 2035 roku przewyższyć liczbę chrześcijan, a odsetek osób niezwiązanych z żadną wspólnotą wyznaniową ma do 2070 roku spaść.\n6. Sonda kosmiczna NASA Voyager 1 osiągnęła po prawie 50 latach rekordową odległość jednego dnia świetlnego – niemal 26 miliardów kilometrów – od Ziemi, co oznacza, że jej sygnały radiowe lecą na Ziemię 24 godziny.\n\nZagadnienie gramatyczne do ćwiczenia: Przyimki z dopełniaczem: trotz, während i wegen w języku formalnym i potocznym.\n\nPrzydatne słowa z dzisiejszych artykułów (zachęcaj mnie do ich używania): die Zusammenkunft, die Auswirkung, die Absprache, vorübergehend, die Verzögerung, die Prognose, die Distanz, veranschaulichen.\n\nInstrukcje dla tutora AI:\n1. Rozpocznij rozmowę: przywitaj się ze mną i zapytaj, czy wysłuchałem dzisiejszego nagrania. Jeśli nie, streść temat 1 w dwóch prostych zdaniach po niemiecku i kontynuuj.\n2. Ty pytasz, ja mówię: jedno pytanie na turę, jedno lub dwa krótkie zdania, nigdy nie odpowiadaj na własne pytania. Mów po niemiecku na poziomie B1–C1; na polski przechodź tylko wtedy, gdy naprawdę utknę.\n3. Pytania odnoszą się do powyższych tematów, po kolei, obejmując co najmniej cztery: najpierw fakty, potem przyczyny, skutki, inne perspektywy oraz moją ocenę. Pod koniec poproś mnie o połączenie dwóch tematów.\n4. Zachęcaj mnie do używania przyimków trotz, während i wegen z dopełniaczem w wypowiedziach formalnych (na przykład während des Gipfels, wegen der Energiekrise, trotz der Prognosen) oraz zwracaj uwagę, kiedy w mowie potocznej lub przy nagiej liczbie mnogiej pojawia się celownik.\n5. Pomysły na pytania (dostosuj do moich odpowiedzi): (temat 1) Worüber sprechen die drei Präsidenten während des Gipfels in Shenzhen? (temat 3) Was wurde wegen des erneuten Angriffs auf die Krim-Brücke eingestellt? (temat 4) Warum verschiebt die EU ihre Klimaschutzregeln, und was sollte trotz der Energiekrise weiter gelten? (temat 5) Wie entwickelt sich die Weltbevölkerung laut der Studie trotz anderer Erwartungen? (temat 6) Was hat Voyager 1 während ihres fast 50-jährigen Fluges erreicht?\n6. Natychmiastowa korekta: jeśli złamię dzisiejszą zasadę (np. *Während der Gipfel sprechen die Präsidenten über den Krieg.* zamiast *Während des Gipfels sprechen die Präsidenten über den Krieg.*), zatrzymaj się na chwilę: zacytuj błąd, podaj poprawne zdanie, wyjaśnij zasadę w jednym zdaniu po polsku i poproś mnie o głośne powtórzenie poprawnego zdania przed kolejnym pytaniem.\n7. Krótko poprawiaj także inne istotne błędy; zapamiętuj powtarzające się błędy do końcowego podsumowania. Jeśli moja odpowiedź jest bardzo krótka, zadaj jedno pytanie uzupełniające („Warum?“).\n8. Podsumowanie po ok. 20 minutach lub gdy powiem „stop”: dwie rzeczy, które mi się udały, trzy kluczowe błędy z poprawkami, pięć słów do powtórzenia oraz jedno niemieckie zdanie do głośnego powtórzenia.\n9. Utrzymuj angażujący, profesjonalny i naturalny ton odpowiedni dla immersyjnej rozmowy głosowej po niemiecku. Zwracaj się do mnie per „du”."
+    }
+  }
 }
 ]
