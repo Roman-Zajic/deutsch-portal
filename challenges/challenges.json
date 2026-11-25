@@ -58684,5 +58684,780 @@
       "pl": "Jesteś moim nauczycielem języka niemieckiego i prowadzisz 20-minutową rozmowę na poziomie od B1 do C1 w oparciu o część Słuchanie z dzisiejszej lekcji (niemieckie wiadomości z 21 listopada 2026).\n\nMateriał ze Słuchania – 6 tematów wiadomości z dzisiejszej części Słuchanie, w tej samej kolejności co artykuły:\n1. Po spotkaniu z Władimirem Putinem prezydent USA Donald Trump stwierdził, że Putin wyraził zainteresowanie dyplomatycznym zakończeniem wojny w Ukrainie, natomiast prezydent Ukrainy Wołodymyr Zełenski skrytykował w CNN kurs Trumpa za brak amerykańskiej presji na Moskwę.\n2. Konferencja klimatyczna ONZ w Antalyi została przedłużona na weekend z powodu nierozwiązanych kwestii, ponieważ przedstawiciele UE i organizacje ekologiczne skrytykowały brak wyraźnej wzmianki o odejściu od paliw kopalnych w projekcie deklaracji końcowej.\n3. Kanclerz Niemiec Friedrich Merz z zadowoleniem przyjął zapowiedź Kataru dotyczącą dodatkowych 15 miliardów euro inwestycji w niemiecką gospodarkę oraz zacieśnienia współpracy w dziedzinie technologii, bezpieczeństwa i obrony.\n4. W Berlinie i innych niemieckich miastach ponownie odbyły się protesty młodzieży; inicjatywa „Gen Z regelt” domaga się większych nakładów na szkoły, rezygnacji z poboru do wojska oraz lepszej ochrony klimatu.\n5. Turecka opozycja skrytykowała prawomocny wyrok utrzymujący unieważnienie dyplomu uniwersyteckiego więzionego burmistrza Stambułu Ekrema İmamoğlu, co uniemożliwia mu start w wyborach prezydenckich w 2028 roku.\n6. W Izraelu lider partii Jaszar Gadi Eisenkot przedstawił jako alternatywę utworzenie rządu mniejszościowego zależnego od poparcia partii arabskich, jeśli nie powiedzie się utworzenie szerszej koalicji.\n\nZagadnienie gramatyczne do ćwiczenia: Odmiana słaba rzeczowników (N-Deklination): rzeczowniki męskie w poszczególnych przypadkach.\n\nPrzydatne słowa z dzisiejszych artykułów (zachęcaj mnie do ich używania): bekunden, die Vermittlungsbemühung, die Verlängerung, unumgänglich, der Protestzug, der Rivale, der Einspruch, die Minderheitsregierung.\n\nInstrukcje dla tutora AI:\n1. Rozpocznij rozmowę: przywitaj się ze mną i zapytaj, czy wysłuchałem dzisiejszego nagrania. Jeśli nie, streść temat 1 w dwóch prostych zdaniach po niemiecku i kontynuuj.\n2. Ty pytasz, ja mówię: jedno pytanie na turę, jedno lub dwa krótkie zdania, nigdy nie odpowiadaj na własne pytania. Mów po niemiecku na poziomie B1–C1; na polski przechodź tylko wtedy, gdy naprawdę utknę.\n3. Pytania odnoszą się do powyższych tematów, po kolei, obejmując co najmniej cztery: najpierw fakty, potem przyczyny, skutki, inne perspektywy oraz moją ocenę. Pod koniec poproś mnie o połączenie dwóch tematów.\n4. Zachęcaj mnie do poprawnego używania rzeczowników męskich odmiany słabej w bierniku, celowniku, dopełniaczu i liczbie mnogiej (na przykład den Präsidenten, dem Rivalen, des Diplomaten, den Demonstranten, den Namen), dodając końcówkę -n lub -en w każdym przypadku poza mianownikiem liczby pojedynczej.\n5. Pomysły na pytania (dostosuj do moich odpowiedzi): (temat 1) Warum kritisiert Wolodymyr Selenskyj den Kurs gegenüber dem russischen Präsidenten? (temat 2) Welche Position vertreten die Klimaexperten auf dem Gipfel in Antalya? (temat 4) Was fordern die jungen Demonstranten bei den Protestzügen in Berlin? (temat 5) Warum richtet sich das Urteil gegen den wichtigsten Rivalen von Präsident Erdoğan? (temat 6) Welche Rolle könnte ein Abgeordneter oder ein politischer Rivale bei der Regierungsbildung in Israel spielen?\n6. Natychmiastowa korekta: jeśli złamię dzisiejszą zasadę (np. *Selenskyj kritisiert den Präsident.* zamiast *Selenskyj kritisiert den Präsidenten.*), zatrzymaj się na chwilę: zacytuj błąd, podaj poprawne zdanie, wyjaśnij zasadę w jednym zdaniu po polsku i poproś mnie o głośne powtórzenie poprawnego zdania przed kolejnym pytaniem.\n7. Krótko poprawiaj także inne istotne błędy; zapamiętuj powtarzające się błędy do końcowego podsumowania. Jeśli moja odpowiedź jest bardzo krótka, zadaj jedno pytanie uzupełniające („Warum?“).\n8. Podsumowanie po ok. 20 minutach lub gdy powiem „stop”: dwie rzeczy, które mi się udały, trzy kluczowe błędy z poprawkami, pięć słów do powtórzenia oraz jedno niemieckie zdanie do głośnego powtórzenia.\n9. Utrzymuj angażujący, profesjonalny i naturalny ton odpowiedni dla immersyjnej rozmowy głosowej po niemiecku. Zwracaj się do mnie per „du”."
     }
   }
+},
+{
+  "lesson": {
+    "id": "2026-11-22",
+    "date": "22.11.2026",
+    "day": 41,
+    "totalDays": 300,
+    "level": "B1",
+    "title": {
+      "en": "Adjective Endings After Definite Articles",
+      "pl": "Końcówki przymiotników po rodzajnikach określonych"
+    },
+    "subtitle": "Adjektivdeklination nach dem bestimmten Artikel (schwache Deklination)"
+  },
+  "grammar": {
+    "html": {
+      "en": [
+        "<p>When an adjective stands between a definite article (<em>der</em>, <em>die</em>, <em>das</em>) and a noun, it follows the <strong>weak adjective declension</strong>. Because the definite article already signals the noun's gender, number, and case, the adjective only needs two simple endings: <em>-e</em> or <em>-en</em>.</p>",
+        "<div class='box rule'><strong>Core rule:</strong> After a definite article, adjectives take <em>-e</em> only in the nominative singular (all genders) and the feminine and neuter accusative singular; in every other form—including all plural forms—they take <em>-en</em>.</div>",
+        "<h3>The five -e positions vs the -en positions</h3><p>Only five cells in the entire declension grid take <em>-e</em>: <em><strong>der neue</strong> Tisch</em> (masculine nominative), <em><strong>die neue</strong> Idee</em> (feminine nominative and accusative), and <em><strong>das neue</strong> Haus</em> (neuter nominative and accusative). Notice that masculine accusative already switches to <em>-en</em> together with the article <em>den</em>: <em>Ich kaufe <strong>den neuen</strong> Tisch</em>.</p><p>All dative singular forms (<em>dem</em>, <em>der</em>), all genitive singular forms (<em>des</em>, <em>der</em>), and <strong>all plural forms</strong> (<em>die</em>, <em>den</em>, <em>der</em>) take <em>-en</em>: <em>mit <strong>dem schnellen</strong> Zug</em>, <em>wegen <strong>des starken</strong> Regens</em>, <em><strong>die wichtigen</strong> Termine</em>.</p>",
+        "<h3>Other determiners that behave like definite articles</h3><p>The same weak endings (<em>-e</em> or <em>-en</em>) are used after words that carry clear article-like endings, often called <em>der</em>-words. These include <em>dieser</em> (this), <em>jeder</em> (every), <em>jener</em> (that), <em>welcher</em> (which), and in the plural <em>alle</em> (all), <em>beide</em> (both), and <em>solche</em> (such): <em><strong>dieses schwierige</strong> Projekt</em>, <em><strong>jede einzelne</strong> Frage</em>, <em><strong>alle wichtigen</strong> Unterlagen</em>.</p>",
+        "<table><thead><tr><th>Case</th><th>Masculine</th><th>Feminine</th><th>Neuter</th><th>Plural</th></tr></thead><tbody><tr><td>Nominative</td><td class='de'>der alt<strong>e</strong> Mann</td><td class='de'>die alt<strong>e</strong> Frau</td><td class='de'>das alt<strong>e</strong> Haus</td><td class='de'>die alt<strong>en</strong> Häuser</td></tr><tr><td>Accusative</td><td class='de'>den alt<strong>en</strong> Mann</td><td class='de'>die alt<strong>e</strong> Frau</td><td class='de'>das alt<strong>e</strong> Haus</td><td class='de'>die alt<strong>en</strong> Häuser</td></tr><tr><td>Dative</td><td class='de'>dem alt<strong>en</strong> Mann</td><td class='de'>der alt<strong>en</strong> Frau</td><td class='de'>dem alt<strong>en</strong> Haus</td><td class='de'>den alt<strong>en</strong> Häusern</td></tr><tr><td>Genitive</td><td class='de'>des alt<strong>en</strong> Mannes</td><td class='de'>der alt<strong>en</strong> Frau</td><td class='de'>des alt<strong>en</strong> Hauses</td><td class='de'>der alt<strong>en</strong> Häuser</td></tr></tbody></table>",
+        "<h3>Spelling adjustments to watch out for</h3><p>A few adjectives change slightly when an ending is added. Adjectives ending in <em>-e</em> (such as <em>leise</em> or <em>müde</em>) do not double the <em>e</em>: <em>der müde Gast</em>, <em>den müden Gast</em>. The adjective <em>hoch</em> drops the <em>c</em> before an ending: <em>der ho<strong>he</strong> Turm</em>, <em>des ho<strong>hen</strong> Turms</em>. Adjectives ending in <em>-el</em> (<em>dunkel</em>) and <em>-er</em> preceded by a vowel (<em>teuer</em>) drop the <em>e</em> inside the stem: <em>das dunk<strong>le</strong> Zimmer</em>, <em>des teu<strong>ren</strong> Autos</em>.</p>",
+        "<div class='box warn'><strong>Typical mistake:</strong> Do not add <em>-e</em> in the dative, genitive, or plural, and do not copy the article ending onto the adjective. Incorrect: <em>✗ Die neue Bücher liegen hier.</em> / <em>✗ Ich spreche mit dem neue Kollegen.</em> Correct: <em>✓ Die neuen Bücher liegen hier.</em> / <em>✓ Ich spreche mit dem neuen Kollegen.</em></div>",
+        "<div class='box tip'><strong>Memory aid:</strong> Picture a small L-shape (or pan) at the top of the singular table: Nominative (m, f, n) plus Accusative (f, n) = <em>-e</em>. Everything outside that shape—masculine accusative, all datives, all genitives, and the entire plural—always takes <em>-en</em>.</div>",
+        "<h3>Quick reference</h3><div class='tiles'><div class='tile'><strong>Nom. / Acc. (-e)</strong><p><em><strong>das kleine</strong> Büro</em></p></div><div class='tile'><strong>Masc. Acc. (-en)</strong><p><em><strong>den neuen</strong> Bericht</em></p></div><div class='tile'><strong>Dat. / Gen. (-en)</strong><p><em>mit <strong>der klaren</strong> Antwort</em></p></div><div class='tile'><strong>All Plurals (-en)</strong><p><em><strong>alle wichtigen</strong> Punkte</em></p></div></div>"
+      ],
+      "pl": [
+        "<p>Gdy przymiotnik stoi między rodzajnikiem określonym (<em>der</em>, <em>die</em>, <em>das</em>) a rzeczownikiem, podlega <strong>słabej deklinacji przymiotnika</strong>. Ponieważ rodzajnik określony już wskazuje rodzaj, liczbę i przypadek rzeczownika, przymiotnik potrzebuje wyłącznie dwóch prostych końcówek: <em>-e</em> lub <em>-en</em>.</p>",
+        "<div class='box rule'><strong>Główna zasada:</strong> Po rodzajniku określonym przymiotnik przyjmuje końcówkę <em>-e</em> tylko w mianowniku liczby pojedynczej (wszystkie rodzaje) oraz w bierniku liczby pojedynczej rodzaju żeńskiego i nijakiego; we wszystkich pozostałych formach — w tym w całej liczbie mnogiej — przyjmuje końcówkę <em>-en</em>.</div>",
+        "<h3>Pięć pozycji z -e wobec pozycji z -en</h3><p>W całej tabeli odmiany tylko pięć pól przyjmuje końcówkę <em>-e</em>: <em><strong>der neue</strong> Tisch</em> (mianownik męski), <em><strong>die neue</strong> Idee</em> (mianownik i biernik żeński) oraz <em><strong>das neue</strong> Haus</em> (mianownik i biernik nijaki). Zauważ, że biernik rodzaju męskiego przechodzi już na <em>-en</em> razem z rodzajnikiem <em>den</em>: <em>Ich kaufe <strong>den neuen</strong> Tisch</em>.</p><p>Wszystkie formy celownika liczby pojedynczej (<em>dem</em>, <em>der</em>), wszystkie formy dopełniacza liczby pojedynczej (<em>des</em>, <em>der</em>) oraz <strong>wszystkie formy liczby mnogiej</strong> (<em>die</em>, <em>den</em>, <em>der</em>) otrzymują końcówkę <em>-en</em>: <em>mit <strong>dem schnellen</strong> Zug</em>, <em>wegen <strong>des starken</strong> Regens</em>, <em><strong>die wichtigen</strong> Termine</em>.</p>",
+        "<h3>Inne określniki działające jak rodzajnik określony</h3><p>Takie same słabe końcówki (<em>-e</em> lub <em>-en</em>) występują po słowach o wyraźnych końcówkach rodzajnikowych (tzw. słowach typu <em>der</em>). Należą do nich <em>dieser</em> (ten), <em>jeder</em> (każdy), <em>jener</em> (tamten), <em>welcher</em> (który), a w liczbie mnogiej <em>alle</em> (wszyscy/wszystkie), <em>beide</em> (obaj/obie) i <em>solche</em> (tacy/takie): <em><strong>dieses schwierige</strong> Projekt</em>, <em><strong>jede einzelne</strong> Frage</em>, <em><strong>alle wichtigen</strong> Unterlagen</em>.</p>",
+        "<table><thead><tr><th>Przypadek</th><th>Rodzaj męski</th><th>Rodzaj żeński</th><th>Rodzaj nijaki</th><th>Liczba mnoga</th></tr></thead><tbody><tr><td>Mianownik</td><td class='de'>der alt<strong>e</strong> Mann</td><td class='de'>die alt<strong>e</strong> Frau</td><td class='de'>das alt<strong>e</strong> Haus</td><td class='de'>die alt<strong>en</strong> Häuser</td></tr><tr><td>Biernik</td><td class='de'>den alt<strong>en</strong> Mann</td><td class='de'>die alt<strong>e</strong> Frau</td><td class='de'>das alt<strong>e</strong> Haus</td><td class='de'>die alt<strong>en</strong> Häuser</td></tr><tr><td>Celownik</td><td class='de'>dem alt<strong>en</strong> Mann</td><td class='de'>der alt<strong>en</strong> Frau</td><td class='de'>dem alt<strong>en</strong> Haus</td><td class='de'>den alt<strong>en</strong> Häusern</td></tr><tr><td>Dopełniacz</td><td class='de'>des alt<strong>en</strong> Mannes</td><td class='de'>der alt<strong>en</strong> Frau</td><td class='de'>des alt<strong>en</strong> Hauses</td><td class='de'>der alt<strong>en</strong> Häuser</td></tr></tbody></table>",
+        "<h3>Zmiany w pisowni, na które warto uważać</h3><p>Kilka grup przymiotników ulega drobnym zmianom po dodaniu końcówki. Przymiotniki zakończone na <em>-e</em> (jak <em>leise</em> czy <em>müde</em>) nie podwajają litery <em>e</em>: <em>der müde Gast</em>, <em>den müden Gast</em>. Przymiotnik <em>hoch</em> traci literę <em>c</em> przed końcówką: <em>der ho<strong>he</strong> Turm</em>, <em>des ho<strong>hen</strong> Turms</em>. Przymiotniki zakończone na <em>-el</em> (<em>dunkel</em>) oraz na <em>-er</em> po samogłosce (<em>teuer</em>) tracą <em>e</em> w temacie: <em>das dunk<strong>le</strong> Zimmer</em>, <em>des teu<strong>ren</strong> Autos</em>.</p>",
+        "<div class='box warn'><strong>Typowy błąd:</strong> Nie zostawiaj końcówki <em>-e</em> w celowniku, dopełniaczu ani liczbie mnogiej i nie przenoś końcówki rodzajnika na przymiotnik. Błędnie: <em>✗ Die neue Bücher liegen hier.</em> / <em>✗ Ich spreche mit dem neue Kollegen.</em> Poprawnie: <em>✓ Die neuen Bücher liegen hier.</em> / <em>✓ Ich spreche mit dem neuen Kollegen.</em></div>",
+        "<div class='box tip'><strong>Wskazówka do zapamiętania:</strong> Wyobraź sobie mały kształt litery L u góry tabeli liczby pojedynczej: mianownik (m., ż., n.) oraz biernik (ż., n.) = <em>-e</em>. Wszystko poza tym obszarem — biernik męski, cały celownik, cały dopełniacz i cała liczba mnoga — ma zawsze <em>-en</em>.</div>",
+        "<h3>Szybki przegląd</h3><div class='tiles'><div class='tile'><strong>Mian. / Bier. (-e)</strong><p><em><strong>das kleine</strong> Büro</em></p></div><div class='tile'><strong>Bier. męski (-en)</strong><p><em><strong>den neuen</strong> Bericht</em></p></div><div class='tile'><strong>Cel. / Dop. (-en)</strong><p><em>mit <strong>der klaren</strong> Antwort</em></p></div><div class='tile'><strong>Liczba mnoga (-en)</strong><p><em><strong>alle wichtigen</strong> Punkte</em></p></div></div>"
+      ]
+    }
+  },
+  "examples": [
+    {
+      "de": "**Der neue Tisch** steht im Wohnzimmer.",
+      "en": "The new table is in the living room.",
+      "pl": "Nowy stół stoi w salonie.",
+      "level": "A1"
+    },
+    {
+      "de": "Ich kaufe **die rote Jacke** für den Winter.",
+      "en": "I am buying the red jacket for winter.",
+      "pl": "Kupuję czerwoną kurtkę na zimę.",
+      "level": "A1"
+    },
+    {
+      "de": "**Das kleine Kind** spielt gern im Garten.",
+      "en": "The small child likes playing in the garden.",
+      "pl": "Małe dziecko chętnie bawi się w ogrodzie.",
+      "level": "A2"
+    },
+    {
+      "de": "Wir besuchen heute **den alten Freund** aus Köln.",
+      "en": "We are visiting the old friend from Cologne today.",
+      "pl": "Dzisiaj odwiedzamy starego przyjaciela z Kolonii.",
+      "level": "A2"
+    },
+    {
+      "de": "Er wohnt in **der ruhigen Straße** neben dem Park.",
+      "en": "He lives in the quiet street next to the park.",
+      "pl": "Mieszka przy spokojnej ulicy obok parku.",
+      "level": "A2"
+    },
+    {
+      "de": "**Alle wichtigen Unterlagen** liegen bereits auf dem Schreibtisch.",
+      "en": "All important documents are already lying on the desk.",
+      "pl": "Wszystkie ważne dokumenty leżą już na biurku.",
+      "level": "B1"
+    },
+    {
+      "de": "Sie hat **dem neuen Kollegen** das gesamte Büro gezeigt.",
+      "en": "She showed the new colleague the entire office.",
+      "pl": "Pokazała nowemu koledze całe biuro.",
+      "level": "B1"
+    },
+    {
+      "de": "**Dieses schwierige Projekt** verlangt viel Geduld von dem Team.",
+      "en": "This difficult project demands a lot of patience from the team.",
+      "pl": "Ten trudny projekt wymaga od zespołu dużo cierpliwości.",
+      "level": "B1"
+    },
+    {
+      "de": "Wegen **des starken Regens** fuhren die Züge langsamer.",
+      "en": "Because of the heavy rain, the trains ran more slowly.",
+      "pl": "Z powodu silnego deszczu pociągi jechały wolniej.",
+      "level": "B1"
+    },
+    {
+      "de": "Die Qualität **der aktuellen Berichte** überzeugte **den strengen Prüfer**.",
+      "en": "The quality of the current reports convinced the strict auditor.",
+      "pl": "Jakość aktualnych raportów przekonała surowego audytora.",
+      "level": "B2"
+    },
+    {
+      "de": "Nach **dem langen Gespräch** fanden **die beiden Partner** eine Lösung.",
+      "en": "After the long conversation, the two partners found a solution.",
+      "pl": "Po długiej rozmowie obaj partnerzy znaleźli rozwiązanie.",
+      "level": "B2"
+    },
+    {
+      "de": "**Jede einzelne Abteilung** muss **die neuen Sicherheitsregeln** einhalten.",
+      "en": "Every single department must comply with the new safety rules.",
+      "pl": "Każdy pojedynczy dział musi przestrzegać nowych zasad bezpieczeństwa.",
+      "level": "B2"
+    },
+    {
+      "de": "Trotz **der hohen Miete** entschieden sie sich für **das helle Apartment**.",
+      "en": "Despite the high rent, they opted for the bright flat.",
+      "pl": "Mimo wysokiego czynszu zdecydowali się na jasne mieszkanie.",
+      "level": "B2"
+    },
+    {
+      "de": "**Welchen konkreten Vorschlag** hat **die zuständige Ministerin** gemacht?",
+      "en": "Which concrete proposal did the responsible minister make?",
+      "pl": "Jaką konkretną propozycję złożyła właściwa pani minister?",
+      "level": "B2"
+    },
+    {
+      "de": "Die Umsetzung **der ehrgeizigen Klimaziele** erfordert **den gemeinsamen Willen** aller Länder.",
+      "en": "Implementing the ambitious climate targets requires the joint will of all countries.",
+      "pl": "Realizacja ambitnych celów klimatycznych wymaga wspólnej woli wszystkich państw.",
+      "level": "C1"
+    },
+    {
+      "de": "Angesichts **der angespannten Wirtschaftslage** verschob **das große Unternehmen** seine Pläne.",
+      "en": "In view of the tense economic situation, the large enterprise postponed its plans.",
+      "pl": "W obliczu napiętej sytuacji gospodarczej duże przedsiębiorstwo przełożyło swoje plany.",
+      "level": "C1"
+    },
+    {
+      "de": "**Die teure Maschine** wurde nach **dem plötzlichen Ausfall** sofort repariert.",
+      "en": "The expensive machine was repaired immediately after the sudden outage.",
+      "pl": "Droga maszyna została natychmiast naprawiona po nagłej awarii.",
+      "level": "C1"
+    },
+    {
+      "de": "Mit **solchen widersprüchlichen Aussagen** schadete er **dem eigenen Ruf**.",
+      "en": "With such contradictory statements, he damaged his own reputation.",
+      "pl": "Takimi sprzecznymi wypowiedziami zaszkodził własnej reputacji.",
+      "level": "C1"
+    },
+    {
+      "de": "**Die weitreichenden Konsequenzen** **des umstrittenen Beschlusses** zeigten sich erst Monate später.",
+      "en": "The far-reaching consequences of the controversial decision only became apparent months later.",
+      "pl": "Dalekosiężne konsekwencje kontrowersyjnej uchwały ujawniły się dopiero miesiące później.",
+      "level": "C2"
+    },
+    {
+      "de": "Trotz **der unermüdlichen Bemühungen** **des erfahrenen Vermittlers** scheiterten **die abschließenden Gespräche**.",
+      "en": "Despite the tireless efforts of the experienced mediator, the concluding talks failed.",
+      "pl": "Mimo niestrudzonych starań doświadczonego mediatora rozmowy końcowe zakończyły się fiaskiem.",
+      "level": "C2"
+    }
+  ],
+  "exercises": [
+    {
+      "en": "The black dog is sleeping in the garden.",
+      "pl": "Czarny pies śpi w ogrodzie.",
+      "de": "Der schwarze Hund schläft im Garten.",
+      "level": "A2"
+    },
+    {
+      "en": "She is wearing the green dress today.",
+      "pl": "Ona ma dziś na sobie zieloną sukienkę.",
+      "de": "Sie trägt heute das grüne Kleid.",
+      "level": "A2"
+    },
+    {
+      "en": "The young woman works in a bank.",
+      "pl": "Młoda kobieta pracuje w banku.",
+      "de": "Die junge Frau arbeitet in einer Bank.",
+      "level": "A2"
+    },
+    {
+      "en": "We are buying the fresh bread from the bakery.",
+      "pl": "Kupujemy świeży chleb w piekarni.",
+      "de": "Wir kaufen das frische Brot in der Bäckerei.",
+      "level": "A2"
+    },
+    {
+      "en": "I know the tall man from Berlin.",
+      "pl": "Znam wysokiego mężczyznę z Berlina.",
+      "de": "Ich kenne den großen Mann aus Berlin.",
+      "level": "A2"
+    },
+    {
+      "en": "The new books are lying on the table.",
+      "pl": "Nowe książki leżą na stole.",
+      "de": "Die neuen Bücher liegen auf dem Tisch.",
+      "level": "A2"
+    },
+    {
+      "en": "He gives the small boy an apple.",
+      "pl": "On daje małemu chłopcu jabłko.",
+      "de": "Er gibt dem kleinen Jungen einen Apfel.",
+      "level": "A2"
+    },
+    {
+      "en": "We live in the old house at the corner.",
+      "pl": "Mieszkamy w starym domu na rogu.",
+      "de": "Wir wohnen in dem alten Haus an der Ecke.",
+      "level": "A2"
+    },
+    {
+      "en": "She likes the warm tea in the morning.",
+      "pl": "Ona lubi rano ciepłą herbatę.",
+      "de": "Sie mag am Morgen den warmen Tee.",
+      "level": "A2"
+    },
+    {
+      "en": "The happy children are playing with the ball.",
+      "pl": "Szczęśliwe dzieci bawią się piłką.",
+      "de": "Die glücklichen Kinder spielen mit dem Ball.",
+      "level": "A2"
+    },
+    {
+      "en": "The fast train arrives in Munich at nine o'clock.",
+      "pl": "Szybki pociąg przyjeżdża do Monachium o dziewiątej.",
+      "de": "Der schnelle Zug kommt um neun Uhr in München an.",
+      "level": "B1"
+    },
+    {
+      "en": "We thanked the friendly waitress for the quick service.",
+      "pl": "Podziękowaliśmy uprzejmej kelnerce za szybką obsługę.",
+      "de": "Wir dankten der freundlichen Kellnerin für den schnellen Service.",
+      "level": "B1"
+    },
+    {
+      "en": "The expensive mobile phone fell onto the hard floor.",
+      "pl": "Drogi telefon komórkowy spadł na twardą podłogę.",
+      "de": "Das teure Handy fiel auf den harten Boden.",
+      "level": "B1"
+    },
+    {
+      "en": "This interesting book explains the history of the city.",
+      "pl": "Ta ciekawa książka wyjaśnia historię miasta.",
+      "de": "Dieses interessante Buch erklärt die Geschichte der Stadt.",
+      "level": "B1"
+    },
+    {
+      "en": "Every good employee reads the new instructions carefully.",
+      "pl": "Każdy dobry pracownik czyta uważnie nowe instrukcje.",
+      "de": "Jeder gute Mitarbeiter liest die neuen Anweisungen sorgfältig.",
+      "level": "B1"
+    },
+    {
+      "en": "In the dark room we could not find the light switch.",
+      "pl": "W ciemnym pokoju nie mogliśmy znaleźć włącznika światła.",
+      "de": "In dem dunklen Zimmer konnten wir den Lichtschalter nicht finden.",
+      "level": "B1"
+    },
+    {
+      "en": "All old files were moved into the digital archive.",
+      "pl": "Wszystkie stare pliki zostały przeniesione do archiwum cyfrowego.",
+      "de": "Alle alten Dateien wurden in das digitale Archiv verschoben.",
+      "level": "B1"
+    },
+    {
+      "en": "The experienced doctor explained the diagnosis to the worried parents.",
+      "pl": "Doświadczony lekarz wyjaśnił diagnozę zaniepokojonym rodzicom.",
+      "de": "Der erfahrene Arzt erklärte den besorgten Eltern die Diagnose.",
+      "level": "B1"
+    },
+    {
+      "en": "She answered the difficult question during the long interview.",
+      "pl": "Odpowiedziała na trudne pytanie podczas długiego wywiadu.",
+      "de": "Sie beantwortete die schwierige Frage während des langen Interviews.",
+      "level": "B1"
+    },
+    {
+      "en": "The cold wind blew through the narrow streets of the old town.",
+      "pl": "Zimny wiatr wiał przez wąskie uliczki starego miasta.",
+      "de": "Der kalte Wind wehte durch die engen Gassen der Altstadt.",
+      "level": "B1"
+    },
+    {
+      "en": "We stayed in the modern hotel near the central station.",
+      "pl": "Zatrzymaliśmy się w nowoczesnym hotelu w pobliżu dworca głównego.",
+      "de": "Wir übernachteten in dem modernen Hotel in der Nähe des Hauptbahnhofs.",
+      "level": "B1"
+    },
+    {
+      "en": "The high mountain attracts many tourists in the sunny summer.",
+      "pl": "Wysoka góra przyciąga w słoneczne lato wielu turystów.",
+      "de": "Der hohe Berg zieht im sonnigen Sommer viele Touristen an.",
+      "level": "B1"
+    },
+    {
+      "en": "Because of the loud noise, I closed the heavy window.",
+      "pl": "Z powodu głośnego hałasu zamknąłem ciężkie okno.",
+      "de": "Wegen des lauten Lärms schloss ich das schwere Fenster.",
+      "level": "B1"
+    },
+    {
+      "en": "He wrote a message to the new colleague from Hamburg.",
+      "pl": "Napisał wiadomość do nowego kolegi z Hamburga.",
+      "de": "Er schrieb dem neuen Kollegen aus Hamburg eine Nachricht.",
+      "level": "B1"
+    },
+    {
+      "en": "Which blue suitcase belongs to the old gentleman?",
+      "pl": "Która niebieska walizka należy do starego pana?",
+      "de": "Welcher blaue Koffer gehört dem alten Herrn?",
+      "level": "B1"
+    },
+    {
+      "en": "The bright kitchen looks much larger than the narrow hallway.",
+      "pl": "Jasna kuchnia wygląda na znacznie większą niż wąski korytarz.",
+      "de": "Die helle Küche wirkt viel größer als der schmale Flur.",
+      "level": "B1"
+    },
+    {
+      "en": "Both young athletes won a medal in the international competition.",
+      "pl": "Obaj młodzi sportowcy zdobyli medal w międzynarodowych zawodach.",
+      "de": "Beide jungen Sportler gewannen eine Medaille bei dem internationalen Wettbewerb.",
+      "level": "B1"
+    },
+    {
+      "en": "The polite driver helped the elderly lady with the heavy luggage.",
+      "pl": "Uprzejmy kierowca pomógł starszej pani z ciężkim bagażem.",
+      "de": "Der höfliche Fahrer half der älteren Dame mit dem schweren Gepäck.",
+      "level": "B1"
+    },
+    {
+      "en": "After the short break, the tired participants continued the discussion.",
+      "pl": "Po krótkiej przerwie zmęczeni uczestnicy kontynuowali dyskusję.",
+      "de": "Nach der kurzen Pause setzten die müden Teilnehmer die Diskussion fort.",
+      "level": "B1"
+    },
+    {
+      "en": "The broken bicycle stood behind the wooden gate for weeks.",
+      "pl": "Zepsuty rower stał przez tygodnie za drewnianą bramą.",
+      "de": "Das kaputte Fahrrad stand wochenlang hinter dem hölzernen Tor.",
+      "level": "B1"
+    },
+    {
+      "en": "The strict regulation applies to all public institutions in the country.",
+      "pl": "Surowy przepis obowiązuje wszystkie instytucje publiczne w kraju.",
+      "de": "Die strenge Vorschrift gilt für alle öffentlichen Einrichtungen im Land.",
+      "level": "B2"
+    },
+    {
+      "en": "During the intense debate, the young politician defended the controversial plan.",
+      "pl": "Podczas intensywnej debaty młody polityk bronił kontrowersyjnego planu.",
+      "de": "Während der intensiven Debatte verteidigte der junge Politiker den umstrittenen Plan.",
+      "level": "B2"
+    },
+    {
+      "en": "The unexpected decision of the management surprised the entire workforce.",
+      "pl": "Nieoczekiwana decyzja kierownictwa zaskoczyła całą załogę.",
+      "de": "Die unerwartete Entscheidung der Geschäftsleitung überraschte die gesamte Belegschaft.",
+      "level": "B2"
+    },
+    {
+      "en": "Despite the tight schedule, the dedicated team completed the complex analysis.",
+      "pl": "Mimo napiętego harmonogramu zaangażowany zespół zakończył złożoną analizę.",
+      "de": "Trotz des engen Zeitplans schloss das engagierte Team die komplexe Analyse ab.",
+      "level": "B2"
+    },
+    {
+      "en": "The responsible ministry published the preliminary figures on the current crisis.",
+      "pl": "Właściwe ministerstwo opublikowało wstępne dane na temat obecnego kryzysu.",
+      "de": "Das zuständige Ministerium veröffentlichte die vorläufigen Zahlen zu der aktuellen Krise.",
+      "level": "B2"
+    },
+    {
+      "en": "The external experts warned of the long-term consequences of the rapid change.",
+      "pl": "Zewnętrzni eksperci ostrzegli przed długoterminowymi skutkami szybkiej zmiany.",
+      "de": "Die externen Experten warnten vor den langfristigen Folgen des schnellen Wandels.",
+      "level": "B2"
+    },
+    {
+      "en": "In the revised draft, the legal department deleted the ambiguous sentence.",
+      "pl": "W poprawionym projekcie dział prawny wykreślił niejednoznaczne zdanie.",
+      "de": "In dem überarbeiteten Entwurf strich die Rechtsabteilung den mehrdeutigen Satz.",
+      "level": "B2"
+    },
+    {
+      "en": "The independent committee rejected the unfounded complaint of the large company.",
+      "pl": "Niezależna komisja odrzuciła bezpodstawną skargę dużego przedsiębiorstwa.",
+      "de": "Der unabhängige Ausschuss wies die unbegründete Beschwerde des großen Unternehmens ab.",
+      "level": "B2"
+    },
+    {
+      "en": "Every single citizen can read the official report on the municipal website.",
+      "pl": "Każdy pojedynczy obywatel może przeczytać oficjalny raport na miejskiej stronie internetowej.",
+      "de": "Jeder einzelne Bürger kann den offiziellen Bericht auf der städtischen Website lesen.",
+      "level": "B2"
+    },
+    {
+      "en": "The sudden resignation of the experienced director caused great uncertainty.",
+      "pl": "Nagła rezygnacja doświadczonego dyrektora wywołała dużą niepewność.",
+      "de": "Der plötzliche Rücktritt des erfahrenen Direktors löste große Unsicherheit aus.",
+      "level": "B2"
+    },
+    {
+      "en": "Because of the severe storm, the regional authorities closed the coastal road.",
+      "pl": "Z powodu silnej burzy władze regionalne zamknęły nadmorską drogę.",
+      "de": "Wegen des schweren Sturms sperrten die regionalen Behörden die Küstenstraße.",
+      "level": "B2"
+    },
+    {
+      "en": "The newly elected government promised rapid support for the affected regions.",
+      "pl": "Nowo wybrany rząd obiecał szybkie wsparcie dla dotkniętych regionów.",
+      "de": "Die neu gewählte Regierung versprach rasche Unterstützung für die betroffenen Regionen.",
+      "level": "B2"
+    },
+    {
+      "en": "In the confidential meeting, the two ministers discussed the common strategy.",
+      "pl": "Na poufnym spotkaniu obaj ministrowie omówili wspólną strategię.",
+      "de": "In dem vertraulichen Treffen besprachen die beiden Minister die gemeinsame Strategie.",
+      "level": "B2"
+    },
+    {
+      "en": "The growing demand strengthens the domestic market.",
+      "pl": "Rosnący popyt wzmacnia rynek krajowy.",
+      "de": "Die wachsende Nachfrage stärkt den heimischen Markt.",
+      "level": "B2"
+    },
+    {
+      "en": "The famous museum opened the new exhibition in the renovated wing.",
+      "pl": "Słynne muzeum otworzyło nową wystawę w odnowionym skrzydle.",
+      "de": "Das berühmte Museum eröffnete die neue Ausstellung in dem renovierten Flügel.",
+      "level": "B2"
+    },
+    {
+      "en": "Through the targeted investment, the medium-sized company secured the important jobs.",
+      "pl": "Dzięki ukierunkowanej inwestycji średnie przedsiębiorstwo zabezpieczyło ważne miejsca pracy.",
+      "de": "Durch die gezielte Investition sicherte das mittelständische Unternehmen die wichtigen Arbeitsplätze.",
+      "level": "B2"
+    },
+    {
+      "en": "The attentive journalist noticed the subtle contradiction in the official statement.",
+      "pl": "Uważny dziennikarz zauważył subtelną sprzeczność w oficjalnym oświadczeniu.",
+      "de": "Der aufmerksame Journalist bemerkte den feinen Widerspruch in der offiziellen Stellungnahme.",
+      "level": "B2"
+    },
+    {
+      "en": "According to the latest forecast, the domestic economy is recovering slowly.",
+      "pl": "Według najnowszej prognozy gospodarka krajowa powoli się ożywia.",
+      "de": "Der neuesten Prognose zufolge erholt sich die heimische Wirtschaft langsam.",
+      "level": "B2"
+    },
+    {
+      "en": "The critical opposition demanded the immediate publication of the secret documents.",
+      "pl": "Krytyczna opozycja zażądała natychmiastowej publikacji tajnych dokumentów.",
+      "de": "Die kritische Opposition forderte die sofortige Veröffentlichung der geheimen Dokumente.",
+      "level": "B2"
+    },
+    {
+      "en": "In the modern laboratory, the young researchers tested the sensitive sensor.",
+      "pl": "W nowoczesnym laboratorium młodzi badacze przetestowali czuły czujnik.",
+      "de": "In dem modernen Labor testeten die jungen Forscher den empfindlichen Sensor.",
+      "level": "B2"
+    },
+    {
+      "en": "The local residents protested against the noisy construction site near the primary school.",
+      "pl": "Okoliczni mieszkańcy protestowali przeciwko hałaśliwej budowie w pobliżu szkoły podstawowej.",
+      "de": "Die örtlichen Anwohner protestierten gegen die laute Baustelle in der Nähe der Grundschule.",
+      "level": "B2"
+    },
+    {
+      "en": "Despite the sharp criticism, the ambitious mayor stuck to the expensive project.",
+      "pl": "Mimo ostrej krytyki ambitny burmistrz trzymał się drogiego projektu.",
+      "de": "Trotz der scharfen Kritik hielt der ehrgeizige Bürgermeister an dem teuren Projekt fest.",
+      "level": "B2"
+    },
+    {
+      "en": "The central bank reacted to the rising prices with the expected measure.",
+      "pl": "Bank centralny zareagował na rosnące ceny oczekiwanym działaniem.",
+      "de": "Die Zentralbank reagierte auf die steigenden Preise mit der erwarteten Maßnahme.",
+      "level": "B2"
+    },
+    {
+      "en": "The experienced pilot landed the large aircraft safely despite the strong crosswind.",
+      "pl": "Doświadczony pilot bezpiecznie wylądował dużym samolotem mimo silnego bocznego wiatru.",
+      "de": "Der erfahrene Pilot landete das große Flugzeug sicher trotz des starken Seitenwinds.",
+      "level": "B2"
+    },
+    {
+      "en": "All participating states signed the binding agreement at the international summit.",
+      "pl": "Wszystkie uczestniczące państwa podpisały wiążące porozumienie na międzynarodowym szczycie.",
+      "de": "Alle teilnehmenden Staaten unterzeichneten das verbindliche Abkommen auf dem internationalen Gipfel.",
+      "level": "B2"
+    },
+    {
+      "en": "The thorough audit uncovered the hidden errors in the annual financial report.",
+      "pl": "Gruntowny audyt ujawnił ukryte błędy w rocznym raporcie finansowym.",
+      "de": "Die gründliche Prüfung deckte die versteckten Fehler in dem jährlichen Finanzbericht auf.",
+      "level": "B2"
+    },
+    {
+      "en": "Without the active support of the loyal members, the small club could not survive.",
+      "pl": "Bez aktywnego wsparcia wiernych członków mały klub nie mógłby przetrwać.",
+      "de": "Ohne die aktive Unterstützung der treuen Mitglieder könnte der kleine Verein nicht bestehen.",
+      "level": "B2"
+    },
+    {
+      "en": "The tired negotiator read the lengthy contract again before the final vote.",
+      "pl": "Zmęczony negocjator przeczytał ponownie długą umowę przed ostatecznym głosowaniem.",
+      "de": "Der müde Unterhändler las den langen Vertrag vor der endgültigen Abstimmung noch einmal.",
+      "level": "B2"
+    },
+    {
+      "en": "The rapid spread of the false report damaged the good reputation of the agency.",
+      "pl": "Szybkie rozprzestrzenienie się fałszywej wiadomości zaszkodziło dobrej reputacji agencji.",
+      "de": "Die schnelle Verbreitung der falschen Meldung schadete dem guten Ruf der Behörde.",
+      "level": "B2"
+    },
+    {
+      "en": "In the eastern part of the big city, the transport authority is building the new bridge.",
+      "pl": "We wschodniej części dużego miasta zarząd transportu buduje nowy most.",
+      "de": "Im östlichen Teil der großen Stadt baut die Verkehrsbehörde die neue Brücke.",
+      "level": "B2"
+    },
+    {
+      "en": "The young artist presented the colourful painting in the famous gallery.",
+      "pl": "Młody artysta zaprezentował kolorowy obraz w słynnej galerii.",
+      "de": "Der junge Künstler präsentierte das bunte Gemälde in der berühmten Galerie.",
+      "level": "B2"
+    },
+    {
+      "en": "Because of the persistent drought, the local government restricted the daily water consumption.",
+      "pl": "Z powodu utrzymującej się suszy władze lokalne ograniczyły dzienne zużycie wody.",
+      "de": "Wegen der anhaltenden Dürre schränkte die örtliche Regierung den täglichen Wasserverbrauch ein.",
+      "level": "B2"
+    },
+    {
+      "en": "The clever solution convinced even the sceptical head of the finance department.",
+      "pl": "Sprytne rozwiązanie przekonało nawet sceptycznego szefa działu finansowego.",
+      "de": "Die kluge Lösung überzeugte sogar den skeptischen Leiter der Finanzabteilung.",
+      "level": "B2"
+    },
+    {
+      "en": "Every European country must adapt its energy grid to the digital future.",
+      "pl": "Każdy kraj europejski musi dostosować swoją sieć energetyczną do cyfrowej przyszłości.",
+      "de": "Jedes europäische Land muss sein Energienetz an die digitale Zukunft anpassen.",
+      "level": "B2"
+    },
+    {
+      "en": "The reliable supplier delivered the ordered spare parts before the agreed deadline.",
+      "pl": "Niezawodny dostawca dostarczył zamówione części zamienne przed uzgodnionym terminem.",
+      "de": "Der zuverlässige Lieferant lieferte die bestellten Ersatzteile vor dem vereinbarten Termin.",
+      "level": "B2"
+    },
+    {
+      "en": "The tense atmosphere at the negotiating table improved after the constructive proposal.",
+      "pl": "Napięta atmosfera przy stole negocjacyjnym poprawiła się po konstruktywnej propozycji.",
+      "de": "Die angespannte Atmosphäre am Verhandlungstisch verbesserte sich nach dem konstruktiven Vorschlag.",
+      "level": "B2"
+    },
+    {
+      "en": "Which concrete measures does the responsible committee propose for the coming year?",
+      "pl": "Jakie konkretne środki proponuje właściwa komisja na nadchodzący rok?",
+      "de": "Welche konkreten Maßnahmen schlägt der zuständige Ausschuss für das kommende Jahr vor?",
+      "level": "B2"
+    },
+    {
+      "en": "The strict judge rejected the weak justification of the experienced lawyer.",
+      "pl": "Surowy sędzia odrzucił słabe uzasadnienie doświadczonego prawnika.",
+      "de": "Der strenge Richter wies die schwache Begründung des erfahrenen Anwalts zurück.",
+      "level": "B2"
+    },
+    {
+      "en": "During the severe winter, the municipal teams cleared the icy main roads every morning.",
+      "pl": "Podczas surowej zimy miejskie ekipy codziennie rano odśnieżały oblodzone główne drogi.",
+      "de": "Während des strengen Winters räumten die städtischen Teams jeden Morgen die vereisten Hauptstraßen.",
+      "level": "B2"
+    },
+    {
+      "en": "The optimistic investors welcomed the clear signal of the newly appointed chief executive.",
+      "pl": "Optymistyczni inwestorzy z zadowoleniem przyjęli wyraźny sygnał nowo powołanego dyrektora generalnego.",
+      "de": "Die optimistischen Investoren begrüßten das klare Signal des neu ernannten Geschäftsführers.",
+      "level": "B2"
+    },
+    {
+      "en": "The binding court ruling strengthened the legal position of the affected minority.",
+      "pl": "Wiążący wyrok sądu wzmocnił pozycję prawną poszkodowanej mniejszości.",
+      "de": "Das verbindliche Gerichtsurteil stärkte die rechtliche Stellung der betroffenen Minderheit.",
+      "level": "C1"
+    },
+    {
+      "en": "Despite the substantial financial losses, the traditional enterprise retained the experienced workforce.",
+      "pl": "Mimo znacznych strat finansowych tradycyjne przedsiębiorstwo zatrzymało doświadczoną kadrę.",
+      "de": "Trotz der erheblichen finanziellen Verluste behielt das traditionsreiche Unternehmen die erfahrene Belegschaft.",
+      "level": "C1"
+    },
+    {
+      "en": "The current study confirms the close connection between the high energy prices and the weak growth.",
+      "pl": "Aktualne badanie potwierdza ścisły związek między wysokimi cenami energii a słabym wzrostem.",
+      "de": "Die aktuelle Studie bestätigt den engen Zusammenhang zwischen den hohen Energiepreisen und dem schwachen Wachstum.",
+      "level": "C1"
+    },
+    {
+      "en": "In view of the escalating regional conflict, the European diplomats sought the rapid stabilisation of the fragile border.",
+      "pl": "W obliczu eskalującego konfliktu regionalnego europejscy dyplomaci zabiegali o szybką stabilizację kruchej granicy.",
+      "de": "Angesichts des eskalierenden regionalen Konflikts bemühten sich die europäischen Diplomaten um die rasche Stabilisierung der brüchigen Grenze.",
+      "level": "C1"
+    },
+    {
+      "en": "The controversial constitutional amendment divided the political camps in the national parliament.",
+      "pl": "Kontrowersyjna zmiana konstytucji podzieliła obozy polityczne w parlamencie narodowym.",
+      "de": "Die umstrittene Verfassungsänderung spaltete die politischen Lager im nationalen Parlament.",
+      "level": "C1"
+    },
+    {
+      "en": "The independent supervisory authority examined the complex transactions of the insolvent bank.",
+      "pl": "Niezależny organ nadzorczy zbadał złożone transakcje niewypłacalnego banku.",
+      "de": "Die unabhängige Aufsichtsbehörde prüfte die komplexen Transaktionen der insolventen Bank.",
+      "level": "C1"
+    },
+    {
+      "en": "With the targeted reduction of the bureaucratic hurdles, the ministry wants to attract the foreign investors.",
+      "pl": "Dzięki ukierunkowanej redukcji barier biurokratycznych ministerstwo chce przyciągnąć zagranicznych inwestorów.",
+      "de": "Mit dem gezielten Abbau der bürokratischen Hürden will das Ministerium die ausländischen Investoren anziehen.",
+      "level": "C1"
+    },
+    {
+      "en": "The comprehensive reform of the public healthcare system requires the broad approval of the federal states.",
+      "pl": "Kompleksowa reforma publicznego systemu opieki zdrowotnej wymaga szerokiej aprobaty krajów związkowych.",
+      "de": "Die umfassende Reform des öffentlichen Gesundheitssystems erfordert die breite Zustimmung der Bundesländer.",
+      "level": "C1"
+    },
+    {
+      "en": "The outgoing president defended the controversial decision against the sharp accusations of the democratic opposition.",
+      "pl": "Ustępujący prezydent bronił kontrowersyjnej decyzji przed ostrymi zarzutami demokratycznej opozycji.",
+      "de": "Der scheidende Präsident verteidigte die umstrittene Entscheidung gegen die scharfen Vorwürfe der demokratischen Opposition.",
+      "level": "C1"
+    },
+    {
+      "en": "In the confidential final report, the investigators criticised the inadequate internal controls of the major corporation.",
+      "pl": "W poufnym raporcie końcowym śledczy skrytykowali niedostateczne kontrole wewnętrzne dużego koncernu.",
+      "de": "In dem vertraulichen Abschlussbericht kritisierten die Ermittler die unzureichenden internen Kontrollen des großen Konzerns.",
+      "level": "C1"
+    },
+    {
+      "en": "Every single clause of the international treaty was reviewed by the specialised legal team.",
+      "pl": "Każda pojedyncza klauzula międzynarodowego traktatu została sprawdzona przez wyspecjalizowany zespół prawny.",
+      "de": "Jede einzelne Klausel des internationalen Vertrags wurde von dem spezialisierten Rechtsteam geprüft.",
+      "level": "C1"
+    },
+    {
+      "en": "The unexpected collapse of the fragile coalition forced the early scheduling of the parliamentary election.",
+      "pl": "Nieoczekiwany rozpad kruchej koalicji wymusił wcześniejsze wyznaczenie wyborów parlamentarnych.",
+      "de": "Der unerwartete Zusammenbruch der brüchigen Koalition erzwang die vorzeitige Ansetzung der Parlamentswahl.",
+      "level": "C1"
+    },
+    {
+      "en": "The ambitious climate programme obliges the major energy suppliers to accelerate the gradual phase-out.",
+      "pl": "Ambitny program klimatyczny zobowiązuje dużych dostawców energii do przyspieszenia stopniowego wycofywania.",
+      "de": "Das ehrgeizige Klimaprogramm verpflichtet die großen Energieversorger zur Beschleunigung des schrittweisen Ausstiegs.",
+      "level": "C1"
+    },
+    {
+      "en": "Despite the repeated technical outages, the national railway maintained the punctual operation of the long-distance trains.",
+      "pl": "Mimo powtarzających się awarii technicznych krajowa kolej utrzymała punktualne kursowanie pociągów dalekobieżnych.",
+      "de": "Trotz der wiederholten technischen Ausfälle wahrte die nationale Bahn den pünktlichen Betrieb der Fernzüge.",
+      "level": "C1"
+    },
+    {
+      "en": "The experienced mediator emphasised the mutual interest in the peaceful resolution of the protracted border dispute.",
+      "pl": "Doświadczony mediator podkreślił obopólny interes w pokojowym rozwiązaniu przedłużającego się sporu granicznego.",
+      "de": "Der erfahrene Vermittler betonte das gegenseitige Interesse an der friedlichen Lösung des langwierigen Grenzstreits.",
+      "level": "C1"
+    },
+    {
+      "en": "The rapid digitalisation of public administration reduces the long waiting times for all citizens.",
+      "pl": "Szybka cyfryzacja administracji publicznej skraca długie czasy oczekiwania dla wszystkich obywateli.",
+      "de": "Die rasche Digitalisierung der öffentlichen Verwaltung verkürzt die langen Wartezeiten für alle Bürger.",
+      "level": "C1"
+    },
+    {
+      "en": "Under the strict supervision of the European regulator, the merged companies fulfilled the binding conditions.",
+      "pl": "Pod ścisłym nadzorem europejskiego regulatora połączone firmy spełniły wiążące warunki.",
+      "de": "Unter der strengen Aufsicht der europäischen Regulierungsbehörde erfüllten die fusionierten Unternehmen die verbindlichen Auflagen.",
+      "level": "C1"
+    },
+    {
+      "en": "The far-sighted investment in the modern semiconductor factory strengthens the technological independence of the entire region.",
+      "pl": "Dalekowzroczna inwestycja w nowoczesną fabrykę półprzewodników wzmacnia technologiczną niezależność całego regionu.",
+      "de": "Die weitsichtige Investition in die moderne Halbleiterfabrik stärkt die technologische Unabhängigkeit der gesamten Region.",
+      "level": "C1"
+    },
+    {
+      "en": "During the tense emergency session, the parliamentary speaker ensured the orderly course of the heated debate.",
+      "pl": "Podczas napiętego posiedzenia nadzwyczajnego przewodniczący parlamentu zadbał o uporządkowany przebieg gorącej debaty.",
+      "de": "Während der angespannten Sondersitzung sorgte der Parlamentspräsident für den geordneten Verlauf der hitzigen Debatte.",
+      "level": "C1"
+    },
+    {
+      "en": "The transparent disclosure of the actual operating costs strengthened the weakened confidence of the private shareholders.",
+      "pl": "Przejrzyste ujawnienie rzeczywistych kosztów operacyjnych wzmocniło osłabione zaufanie prywatnych akcjonariuszy.",
+      "de": "Die transparente Offenlegung der tatsächlichen Betriebskosten stärkte das geschwächte Vertrauen der privaten Aktionäre.",
+      "level": "C1"
+    },
+    {
+      "en": "The deliberate distortion of the empirical findings undermined the scientific credibility of the entire research institute.",
+      "pl": "Celowe zniekształcenie wyników empirycznych podważyło naukową wiarygodność całego instytutu badawczego.",
+      "de": "Die bewusste Verzerrung der empirischen Befunde untergrub die wissenschaftliche Glaubwürdigkeit des gesamten Forschungsinstituts.",
+      "level": "C2"
+    },
+    {
+      "en": "In light of the unprecedented geopolitical upheaval, the allied governments revised the outdated security doctrine.",
+      "pl": "W świetle bezprecedensowego wstrząsu geopolitycznego sprzymierzone rządy zrewidowały przestarzałą doktrynę bezpieczeństwa.",
+      "de": "Angesichts der beispiellosen geopolitischen Verwerfung überarbeiteten die verbündeten Regierungen die überholte Sicherheitsdoktrin.",
+      "level": "C2"
+    },
+    {
+      "en": "The painstakingly negotiated compromise reconciles the divergent economic interests of the export-oriented member states.",
+      "pl": "Żmudnie wynegocjowany kompromis godzi rozbieżne interesy gospodarcze państw członkowskich zorientowanych na eksport.",
+      "de": "Der mühsam ausgehandelte Kompromiss bringt die gegensätzlichen wirtschaftlichen Interessen der exportorientierten Mitgliedstaaten in Einklang.",
+      "level": "C2"
+    },
+    {
+      "en": "Despite the emphatic assurances of the central bank, the nervous financial markets reacted to the unexpected inflation figures.",
+      "pl": "Mimo stanowczych zapewnień banku centralnego nerwowe rynki finansowe zareagowały na nieoczekiwane dane o inflacji.",
+      "de": "Trotz der nachdrücklichen Beteuerungen der Zentralbank reagierten die nervösen Finanzmärkte auf die unerwarteten Inflationszahlen.",
+      "level": "C2"
+    },
+    {
+      "en": "The structural neglect of the municipal transport infrastructure explains the recurring bottlenecks on the busy commuter routes.",
+      "pl": "Strukturalne zaniedbanie miejskiej infrastruktury transportowej wyjaśnia powtarzające się zatory na zatłoczonych trasach dojazdowych.",
+      "de": "Die strukturelle Vernachlässigung der kommunalen Verkehrsinfrastruktur erklärt die wiederkehrenden Engpässe auf den stark befahrenen Pendlerstrecken.",
+      "level": "C2"
+    },
+    {
+      "en": "By enforcing the stringent environmental standards, the regulatory authority curbed the illegal practices of the reckless producers.",
+      "pl": "Egzekwując rygorystyczne normy środowiskowe, organ regulacyjny ukrócił nielegalne praktyki bezwzględnych producentów.",
+      "de": "Durch die Durchsetzung der strengen Umweltstandards dämmte die Aufsichtsbehörde die illegalen Praktiken der rücksichtslosen Produzenten ein.",
+      "level": "C2"
+    },
+    {
+      "en": "The subtle nuances of the diplomatic communiqué reflected the persistent distrust between the rival powers.",
+      "pl": "Subtelne niuanse komunikatu dyplomatycznego odzwierciedlały utrzymującą się nieufność między rywalizującymi mocarstwami.",
+      "de": "Die feinen Nuancen des diplomatischen Kommuniqués spiegelten das anhaltende Misstrauen zwischen den rivalisierenden Mächten wider.",
+      "level": "C2"
+    },
+    {
+      "en": "The disproportionate restriction of fundamental civil liberties provoked the fierce resistance of the constitutional judges.",
+      "pl": "Nieproporcjonalne ograniczenie podstawowych swobód obywatelskich wywołało gwałtowny sprzeciw sędziów konstytucyjnych.",
+      "de": "Die unverhältnismäßige Einschränkung der grundlegenden Freiheitsrechte rief den heftigen Widerstand der Verfassungsrichter hervor.",
+      "level": "C2"
+    },
+    {
+      "en": "Even the most experienced analysts underestimated the cumulative effect of the simultaneous disruptions in global shipping.",
+      "pl": "Nawet najbardziej doświadczeni analitycy niedoszacowali skumulowanego skutku jednoczesnych zakłóceń w globalnej żegludze.",
+      "de": "Selbst die erfahrensten Analysten unterschätzten die kumulative Wirkung der gleichzeitigen Störungen in der globalen Schifffahrt.",
+      "level": "C2"
+    },
+    {
+      "en": "The consistent implementation of the binding compliance rules protects the international enterprise against the immense financial risk.",
+      "pl": "Konsekwentne wdrażanie wiążących zasad zgodności chroni międzynarodowe przedsiębiorstwo przed ogromnym ryzykiem finansowym.",
+      "de": "Die konsequente Umsetzung der verbindlichen Compliance-Regeln schützt das internationale Unternehmen vor dem immensen finanziellen Risiko.",
+      "level": "C2"
+    }
+  ],
+  "listening": {
+    "audioUrl": "",
+    "articles": [],
+    "vocab": []
+  },
+  "speaking": {
+    "prompt": {
+      "en": "You are my German language tutor conducting a 20-minute B1-to-C1 speaking conversation on everyday and professional topics (workplace, city life, travel and modern technology) for today's lesson from 22 November 2026.\n\nConversation themes (no news audio today; move smoothly through these 4 general topics in order):\n1. Workplace and daily routines: changes at work, teamwork, and what makes a good working environment.\n2. City life vs countryside: urban infrastructure, housing, noise, and green spaces.\n3. Travel and transport: long-distance trains, flights, delays, and planning trips.\n4. Modern technology and future trends: digital tools, automation, and balancing speed with reliability.\n\nGrammar focus to elicit: Adjective endings after definite articles.\n\nUseful phrases to invite me to use: der neue Kollege, das moderne Büro, die ruhige Straße, den schnellen Zug, die hohen Kosten, die wichtigsten Vorteile, die digitalen Werkzeuge, während des langen Fluges.\n\nInstructions for the AI tutor:\n1. Start the conversation: warmly greet me, mention that there is no news broadcast today, and invite me to talk about the first theme by asking about a recent project or change in my workplace.\n2. You ask, I speak: one question per turn, one or two short sentences, never answer your own questions. German at B1-C1 level; English only if I am really stuck.\n3. Cover all four themes above in order: start with concrete facts or personal experiences, then move to causes, advantages, drawbacks, and my evaluation. Near the end, ask me to compare or connect two themes.\n4. Encourage me to use definite articles (and words like dieser, jeder, alle) followed by adjectives across nominative, accusative, dative, and genitive, paying close attention to the difference between -e and -en.\n5. Question ideas (adapt to my answers): (theme 1) Wie sieht das ideale Büro für dich aus, und wie arbeitest du mit dem neuen Team zusammen? (theme 2) Was gefällt dir an der großen Stadt am meisten, und was stört dich in den ruhigen Vierteln weniger? (theme 3) Wählst du bei langen Reisen lieber den schnellen Zug oder das Flugzeug, und warum? (theme 4) Welche neuen digitalen Werkzeuge erleichtern dir die tägliche Arbeit?\n6. Immediate correction: if I break today's rule (e.g. *Ich fahre mit dem schnell Zug.* or *Die neue Regeln sind wichtig.* instead of *Ich fahre mit dem schnellen Zug.* or *Die neuen Regeln sind wichtig.*), stop briefly: quote the error, give the correct sentence, explain the rule in 1 English sentence, ask me to repeat the correct sentence aloud before the next question.\n7. Also correct other significant errors briefly; note recurring mistakes for the final feedback. If my answer is very short, ask one follow-up („Warum?“).\n8. Wrap-up after ~20 minutes or when I say \"stop\": two things I did well, three key mistakes with corrections, five useful adjective phrases from our conversation to review, one German sentence to repeat aloud.\n9. Keep the tone engaging, professional, natural for an immersive German voice dialogue. Address me as „du“.",
+      "pl": "Jesteś moim nauczycielem języka niemieckiego i prowadzisz 20-minutową rozmowę na poziomie od B1 do C1 na tematy codzienne i zawodowe (praca, życie w mieście, podróże i nowoczesne technologie) w ramach lekcji z 22 listopada 2026.\n\nTematy rozmowy (dziś nie ma nagrania z wiadomości; przechodź płynnie po kolei przez te 4 tematy ogólne):\n1. Praca i codzienna rutyna: zmiany w pracy, współpraca zespołowa i to, co tworzy dobre środowisko pracy.\n2. Życie w mieście a na wsi: infrastruktura miejska, mieszkania, hałas i tereny zielone.\n3. Podróże i transport: pociągi dalekobieżne, loty, opóźnienia i planowanie wyjazdów.\n4. Nowoczesne technologie i trendy przyszłości: narzędzia cyfrowe, automatyzacja oraz równowaga między szybkością a niezawodnością.\n\nZagadnienie gramatyczne do ćwiczenia: Końcówki przymiotników po rodzajnikach określonych.\n\nPrzydatne zwroty do wplatania w rozmowę (zachęcaj mnie do ich używania): der neue Kollege, das moderne Büro, die ruhige Straße, den schnellen Zug, die hohen Kosten, die wichtigsten Vorteile, die digitalen Werkzeuge, während des langen Fluges.\n\nInstrukcje dla tutora AI:\n1. Rozpocznij rozmowę: przywitaj się ze mną serdecznie, wspomnij, że dziś nie ma nagrania z wiadomości, i zaproś mnie do pierwszego tematu, pytając o niedawny projekt lub zmianę w mojej pracy.\n2. Ty pytasz, ja mówię: jedno pytanie na turę, jedno lub dwa krótkie zdania, nigdy nie odpowiadaj na własne pytania. Mów po niemiecku na poziomie B1–C1; na polski przechodź tylko wtedy, gdy naprawdę utknę.\n3. Omów po kolei wszystkie cztery powyższe tematy: zacznij od konkretnych faktów lub osobistych doświadczeń, następnie przejdź do przyczyn, zalet, wad oraz mojej oceny. Pod koniec poproś mnie o porównanie lub połączenie dwóch tematów.\n4. Zachęcaj mnie do używania rodzajników określonych (oraz słów takich jak dieser, jeder, alle) z przymiotnikami w mianowniku, bierniku, celowniku i dopełniaczu, zwracając szczególną uwagę na różnicę między końcówkami -e i -en.\n5. Pomysły na pytania (dostosuj do moich odpowiedzi): (temat 1) Wie sieht das ideale Büro für dich aus, und wie arbeitest du mit dem neuen Team zusammen? (temat 2) Was gefällt dir an der großen Stadt am meisten, und was stört dich in den ruhigen Vierteln weniger? (temat 3) Wählst du bei langen Reisen lieber den schnellen Zug oder das Flugzeug, und warum? (temat 4) Welche neuen digitalen Werkzeuge erleichtern dir die tägliche Arbeit?\n6. Natychmiastowa korekta: jeśli złamię dzisiejszą zasadę (np. *Ich fahre mit dem schnell Zug.* lub *Die neue Regeln sind wichtig.* zamiast *Ich fahre mit dem schnellen Zug.* lub *Die neuen Regeln sind wichtig.*), zatrzymaj się na chwilę: zacytuj błąd, podaj poprawne zdanie, wyjaśnij zasadę w jednym zdaniu po polsku i poproś mnie o głośne powtórzenie poprawnego zdania przed kolejnym pytaniem.\n7. Krótko poprawiaj także inne istotne błędy; zapamiętuj powtarzające się błędy do końcowego podsumowania. Jeśli moja odpowiedź jest bardzo krótka, zadaj jedno pytanie uzupełniające („Warum?“).\n8. Podsumowanie po ok. 20 minutach lub gdy powiem „stop”: dwie rzeczy, które mi się udały, trzy kluczowe błędy z poprawkami, pięć przydatnych wyrażeń z przymiotnikami z naszej rozmowy do powtórzenia oraz jedno niemieckie zdanie do głośnego powtórzenia.\n9. Utrzymuj angażujący, profesjonalny i naturalny ton odpowiedni dla immersyjnej rozmowy głosowej po niemiecku. Zwracaj się do mnie per „du”."
+    }
+  }
 }
 ]
